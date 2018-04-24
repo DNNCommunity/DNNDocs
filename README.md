@@ -1,4 +1,5 @@
-# dnn-docs
-Home for documentation for the DNN Platform open source project
+# DNN Platform Documentation
 
-Check out the Wiki for discussion of requirements and possible tools. https://github.com/dnndev/dnn-docs/wiki
+The documentation site for the open source Content Management System DNN (formerly DotNetNuke).
+
+If you are building this locally, make sure you've installed `react-static` and `yarn`. Then you can type `yarn install` to install dependencies and `yarn start` to load the site locally for development.

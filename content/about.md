@@ -1,0 +1,2 @@
+# About the DNN Documentation
+This is a community effort to document not only the API fo the platform, but also t maintain effective tutorials and how-to's to enable new and seasoned developers to build innovative solutions on the platform.
