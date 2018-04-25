@@ -15,8 +15,10 @@ const App = () => (
           <path d="M696.37,19.13A553.06,553.06,0,0,0,551.86,0H0V696.44H367.86V367.93H696.3l.07-348.8Zm39.42,12.23h0v336.5h336.49A553.51,553.51,0,0,0,735.79,31.36Zm348.79,375.92H735.79V552.07h0c-.15,101.43-82.44,183.72-183.93,183.72H407.35v367.93H551.86c304.77,0,551.86-247.09,551.86-551.86A551.4,551.4,0,0,0,1084.58,407.28ZM0,1103.72H367.86V735.79H0Z"/>
         </svg>
         <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
+        <Link to="/develop" className="is-active">Developers</Link>
+        <Link to="/design">Designers</Link>
         <Link to="/api">API</Link>
+        <Link to="/about">About</Link>
       </nav>
       <div class="container">
         <div className="sidebar">
