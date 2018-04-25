@@ -43,6 +43,16 @@ nav.top-nav {
   nav {
     padding: 1rem;
     background-color: rgba(0,0,0,.1);
+    ul {
+      padding: 0;
+    }
+    li {
+      list-style: none;
+      margin: 0 0 .5em 1em;
+    }
+    li > ul {
+      margin-top: .5em;
+    }
   }
 }
 
