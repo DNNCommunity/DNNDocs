@@ -1,4 +1,9 @@
-#Creating a User
+---
+title: Creating A User
+slug: creating-a-user
+---
+
+# Creating a User
 
 Required Assemblies:
 

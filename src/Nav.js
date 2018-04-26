@@ -1,12 +1,13 @@
 
 import React from 'react'
+import { Link } from 'react-static'
 
 export default () => (
   <nav>
     <ul>
       <li>Overview</li>
       <li>Installation</li>
-      <li>Concepts
+      <li><Link to="/concepts">Concepts</Link>
         <ul>
           <li>Architecture</li>
           <li>Extensions

@@ -9,7 +9,7 @@ export default {
     title: 'DNN Documentation',
   }),
   getRoutes: async () => {
-    const { home, about } = await jdown('content')
+    const { concepts, home, about,  } = await jdown('content')
     return [
       {
         path: '/',
@@ -24,6 +24,20 @@ export default {
         getData: () => ({
           about,
         }),
+      },
+      {
+        path: '/concepts',
+        component: 'src/containers/Section',
+        getData: () => ({
+          concepts,
+        }),
+        children: concepts.map(content => ({
+          path: `${content.slug}`,
+          component: 'src/containers/Content',
+          getData: () => ({
+            content,
+          }),
+        })),
       },
       {
         is404: true,

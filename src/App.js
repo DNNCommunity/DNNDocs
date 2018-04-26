@@ -20,7 +20,7 @@ const App = () => (
         <Link to="/api">API</Link>
         <Link to="/about">About</Link>
       </nav>
-      <div class="container">
+      <div className="container">
         <div className="sidebar">
           <Nav />
         </div>
