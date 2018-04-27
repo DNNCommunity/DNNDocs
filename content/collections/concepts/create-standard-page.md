@@ -21,14 +21,15 @@ Pages can be created from the user interface within DNN. Users who have been gra
 ![](/img/concepts/persona-bar-content-menu.png "Persona bar Content Menu image")	
 2. Click/Tap **Add Page** 
 
-![](http://www.dnnsoftware.com/docs/common/img/scr-pb-Pages-AddSinglePage-E90.png "Persona bar Add Page Menu image")
+![](/img/concepts/persona-bar-add-page.png "Persona bar Add Page Menu image")
 
 3.In the **Details** tab, configure the basic settings of the page. 
  - Set **Page Type** to **Standard**
  
-![](http://www.dnnsoftware.com/docs/common/img/scr-pb-PageSettings-Details-PageType-E91.png "Page Type Menu")
+![](/img/concepts/add-page-page-type-selection.png "Page Type Menu")
  - Configure the new standard page.
- ![](http://www.dnnsoftware.com/docs/common/img/scr-pb-AddSinglePage-Details-Standard-E91.png "Page details configuration")
+ 
+ ![](/img/concepts/add-page-page-details-form.png "Page details configuration")
  
 | **Field**  |**Description**   |
 |---|---|
@@ -41,22 +42,23 @@ Pages can be created from the user interface within DNN. Users who have been gra
 | **Display in Menu**  |  If enabled, the page is included in the main navigation menu. If the page is not included in the navigation menu, you can still link to it using its URL. |
 | **Link Tracking**  |  If enabled, tracking links are created to determine where traffic to the page is coming from. |
 | **Workflow**  |  Predefined workflow states that you can choose from the dropdown |
-|**Enable Scheduling**   | If enabled, the **Start Date** and **End Date** buttons appear below the switch. Click/Tap on either button to set the time span when the page is publicly visible on the site.<ul><li> The page is published after the specified start date. If **Start Date** is not set, the page is published immediately.</li><li>The page is hidden after the specified end date. If **End Date**j is not set, the page is visible indefinitely.</li> ![](http://www.dnnsoftware.com/docs/common/img/scr-pb-AddPage-Details-Calendar.png "Select start date / end date menu image") |
+|**Enable Scheduling**   | If enabled, the **Start Date** and **End Date** buttons appear below the switch. Click/Tap on either button to set the time span when the page is publicly visible on the site.<ul><li> The page is published after the specified start date. If **Start Date** is not set, the page is published immediately.</li><li>The page is hidden after the specified end date. If **End Date**j is not set, the page is visible indefinitely.</li> ![](/img/concepts/add-page-page-scheduling-datetime-picker.png "Select start date / end date menu image") |
 | **Template Mode**  | <ul><li>**Import from XML**. You must specify an XML file containing the template to import.</li><li>**Evoq Page Template**. You must choose the template layouts provided by thte site's current theme.</li></ul>   |
 | **XML File**  | The XML file containing the template to import.  |
 
 4. (Optional) In the **Permissions** tab, configure which roles can do which actions on this page.
-![](http://www.dnnsoftware.com/docs/common/img/scr-pb-Page-Permissions-E91.png "Page permissions grid image")
+![](/img/concepts/page-permissions-grid.png "Page permissions grid image")
 <ul><li>Assign permissions for each role. Under <strong>Permissions by Role</strong><ul><li>To filter the displayed roles, select the role group from the <strong>Filter By Group</strong> dropdown.</li><li>To add another role to the list, choose the additional role from the <strong>Select Role</strong> dropdown, and click/tap <strong>Add</strong></li><li>Check the appopriate checkboxes to enable each role to perform actions.</li></ul><li>Assign permissions for a specific person. Under <strong>Permissions by User,</strong><ul><li>To add a specific user to the list, enter part of their display name, select the correct user from the list, and click/tap <strong>Add</strong></li><li>Check the appropriate checkboxes to enable each role to perform actions.</li></ul></li></ul>
 
 5.(Optional) In the <strong>Advanced</strong> tab, configure additional settings.
 - In the <strong>Modules</strong> sub-tab, edit or delete the modules on the page, as needed.
-![](http://www.dnnsoftware.com/docs/common/img/scr-pb-Page-Advanced-Modules-E91.png "The advanced tab, modules list in page settings image")
+
+![](/img/concepts/page-advanced-settings-modules-tab.png "The advanced tab, modules list in page settings image")
 <blockquote><strong>Note:</strong> The <strong>Modules</strong> tab appears only if configuring a standard page.</blockquote>
 
 - In the <strong>Appearance</strong> sub-tab, configure how the page is displayed.
 
-![](http://www.dnnsoftware.com/docs/common/img/scr-pb-Page-Advanced-Appearance-E91.png "The advanced tab, appearance view in page settings")
+![](/img/concepts/page-advanced-settings-appearance-tab.png "The advanced tab, appearance view in page settings")
 
 
 | **Field**  | **Description**  |
@@ -69,7 +71,7 @@ Pages can be created from the user interface within DNN. Users who have been gra
 
 - In the **SE0** sub-tab, configure SEO-related settings for the page.
 
-![](http://www.dnnsoftware.com/docs/common/img/scr-pb-Page-Advanced-SEO-E91.png "The advanced tab, SEO view in page settings")
+![](/img/concepts/page-advanced-settings-seo.png "The advanced tab, SEO view in page settings")
 
 |**Field**|**Description**|
 |---|---|
@@ -79,7 +81,7 @@ Pages can be created from the user interface within DNN. Users who have been gra
 
 - In the **More** sub-tab, ocnfigure security and caching for the page.
 
-![](http://www.dnnsoftware.com/docs/common/img/scr-pb-Page-Advanced-More-E91.png "The advanced tab, security and caching settings view")
+![](/img/concepts/page-advanced-settings-more-tab-security-and-caching.png "The advanced tab, security and caching settings view")
 
 |**Field**|**Description**|
 |---|---|
