@@ -1,3 +1,8 @@
+---
+title: Creating A Standard Page
+slug: creating-a-standard-page
+---
+
 # Create a Standard Page
 
 Pages can be created through the API (Developers) or from the user interface within DNN (Administrators). 
@@ -13,7 +18,7 @@ Pages can be created from the user interface within DNN. Users who have been gra
 
 1. Go to **Persona Bar** > **Content** > **Pages** 
 
-![](http://www.dnnsoftware.com/docs/common/img/scr-pbar-host-Content-E91.png "Persona bar Content Menu image")	
+![](/img/concepts/persona-bar-content-menu.png "Persona bar Content Menu image")	
 2. Click/Tap **Add Page** 
 
 ![](http://www.dnnsoftware.com/docs/common/img/scr-pb-Pages-AddSinglePage-E90.png "Persona bar Add Page Menu image")

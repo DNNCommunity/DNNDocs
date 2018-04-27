@@ -1,3 +1,8 @@
+---
+title: DNN Manifest Schema
+slug: dnn-manifest-schema
+---
+
 # New Document# DNN Manifest Schema
 
 The DNN manifest is an XML file (e.g., MyDNNExtension.dnn) that indicates how specific files in the extension package must be processed during installation.
