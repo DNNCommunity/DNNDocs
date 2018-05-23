@@ -21,7 +21,15 @@ export default () => (
           </li>
           <li>Users &amp; Roles
             <ul>
-              <li><Link to="/concepts/create-user/">Creating a User</Link></li>
+              <li>
+                <Link to="/concepts/create-user/">Creating a User</Link>
+                <ul>
+                  <li><Link to="/concepts/admin-create-user">Admin</Link></li>
+                  <li><Link to="/concepts/creating-a-user-with-prompt">Prompt</Link></li>
+                  <li><Link to="/concepts/create-user-programmatically">Code</Link></li>
+                </ul>
+              </li>
+
               <li>Creating a Role</li>
               <li>Assigning a Role to a User</li>
             </ul>
