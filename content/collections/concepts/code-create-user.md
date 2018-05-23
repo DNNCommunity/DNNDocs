@@ -1,9 +1,13 @@
 ---
-title: Creating A User
-slug: creating-a-user
+title: Creating A User Programmatically
+slug: create-user-programmatically
 ---
 
-# Creating a User
+# Creating a User Programmatically
+
+###### Related Topics
+* [Creating a User Visually](../admin-create-a-user)
+* [Creating a User With Prompt](../prompt-create-user)
 
 Required Assemblies:
 

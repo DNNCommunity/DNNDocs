@@ -1,6 +1,6 @@
 ---
 title: Admin - Create a User
-slug: Admin - creating-a-user
+slug: admin-create-user
 ---
 
 # Create a User (Admin)
