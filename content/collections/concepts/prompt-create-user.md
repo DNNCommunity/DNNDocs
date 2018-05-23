@@ -4,6 +4,9 @@ slug: creating-a-user-with-prompt
 dnnversion: 09.02.00
 dnnedition: Platform
 draft: true
+related: [What is Prompt?](../about-prompt) 
+         [Create a User Programmatically](../creating-a-user)
+tags: user, prompt
 ---
 
 # Creating a User with Prompt
