@@ -5,7 +5,7 @@ slug: admin-create-user
 
 # Crear un usuario (Admin)
 
-Pueden crearse usuario mediante la API (Desarrolladores), Prompt (Administradores/Hosts) o desde el interface de usuario dentro de DNN (Administradores). 
+Pueden crearse usuarios mediante la API (Desarrolladores), Prompt (Administradores/Hosts) o desde el interface de usuario dentro de DNN (Administradores). 
 
 ---
 ## Prerrequisitos
