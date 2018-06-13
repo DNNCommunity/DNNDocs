@@ -1,10 +1,14 @@
 ---
 title: Prompt - Create a User
-slug: creating-a-user-with-prompt
-dnnversion: 09.02.00
+topic: creating-a-user
+interface: prompt
+id: hsx719
+~slug: creating-a-user-with-prompt~
+dnnversion: 09.03.00
 dnnedition: Platform
+locale: en
 draft: true
-related: [What is Prompt?](../about-prompt) 
+related: [What is Prompt?](hsx719-090301) 
          [Create a User Programmatically](../creating-a-user)
 tags: user, prompt
 ---
