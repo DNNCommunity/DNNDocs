@@ -6,7 +6,13 @@ export default () => (
   <nav>
     <ul>
       <li>Overview</li>
-      <li>Installation</li>
+      <li>Getting Started
+        <ul>
+          <li>Setting Up Your Environment</li>
+          <li>Your First Module</li>
+          <li>Next Steps</li>
+        </ul>
+      </li>
       <li><Link to="/concepts">Concepts</Link>
         <ul>
           <li>Architecture</li>
@@ -19,6 +25,24 @@ export default () => (
               <li>Themes</li>
             </ul>
           </li>
+          <li>Users</li>
+          <li>Security Roles</li>
+          <li>Pages</li>
+          <li>Automated Processes</li>
+          <li>Database
+            <ul>
+              <li>DAL2</li>
+              <li>Peta Poco</li>
+              <li>Connections</li>
+              <li>Cache</li>
+            </ul>
+          </li>
+          <li>Web.config</li>
+        </ul>
+      </li>
+      <li>
+        Recipes
+        <ul>
           <li>Users &amp; Roles
             <ul>
               <li>
@@ -34,17 +58,6 @@ export default () => (
               <li>Assigning a Role to a User</li>
             </ul>
           </li>
-          <li>Pages</li>
-          <li>Automated Processes</li>
-          <li>Database
-            <ul>
-              <li>DAL2</li>
-              <li>Peta Poco</li>
-              <li>Connections</li>
-              <li>Cache</li>
-            </ul>
-          </li>
-          <li>Web.config</li>
         </ul>
       </li>
     </ul>
