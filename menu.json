@@ -1,0 +1,4620 @@
+[
+  {
+    "title": "DNN Microservices API Reference",
+    "key": "api-overview",
+    "menu": [
+      {
+        "title": "Structured Content",
+        "key": "about-structured-content-apis",
+        "menu": [
+          {
+            "title": "Content Type APIs",
+            "key": "about-structured-content-content-type-apis",
+            "menu": [
+              {
+                "title": "GET Content Types",
+                "key": "api-contenttypes-get"
+              },
+              {
+                "title": "GET Content Types with ID",
+                "key": "api-contenttypes-id-get"
+              },
+              {
+                "title": "POST Content Types",
+                "key": "api-contenttypes-post"
+              },
+              {
+                "title": "PUT Content Types with ID",
+                "key": "api-contenttypes-id-put"
+              },
+              {
+                "title": "DELETE Content Types with ID",
+                "key": "api-contenttypes-id-delete"
+              }
+            ]
+          },
+          {
+            "title": "Content Item APIs",
+            "key": "about-structured-content-content-item-apis",
+            "menu": [
+              {
+                "title": "GET Content Items",
+                "key": "api-contentitems-get"
+              },
+              {
+                "title": "GET Content Items with ID",
+                "key": "api-contentitems-id-get"
+              },
+              {
+                "title": "POST Content Items",
+                "key": "api-contentitems-post"
+              },
+              {
+                "title": "PUT Content Items with ID",
+                "key": "api-contentitems-id-put"
+              },
+              {
+                "title": "DELETE Content Items with ID",
+                "key": "api-contentitems-id-delete"
+              }
+            ]
+          },
+          {
+            "title": "Published Content Item APIs",
+            "key": "about-structured-content-published-content-item-apis",
+            "menu": [
+              {
+                "title": "GET Published Content Items",
+                "key": "api-publishedcontentitems-get"
+              },
+              {
+                "title": "GET Published Content Items with ID Array",
+                "key": "api-publishedcontentitems-getbyids-get"
+              }
+            ]
+          },
+          {
+            "title": "API Responses to GET",
+            "key": "about-structured-content-api-get-responses"
+          },
+          {
+            "title": "Content Type Fields for POST and PUT",
+            "key": "about-structured-content-api-post-put-type-fields"
+          }
+        ]
+      },
+      {
+        "title": "Developer Center",
+        "key": "developers-overview"
+      },
+      {
+        "title": "Glossary",
+        "key": "glossary"
+      }
+    ]
+  },
+  {
+    "title": "Administrators",
+    "key": "administrators-overview",
+    "menu": [
+      {
+        "title": "What's New in Features",
+        "key": "whats-new-dnn"
+      },
+      {
+        "title": "Setting Up DNN",
+        "key": "administrators-setup-overview",
+        "menu": [
+          {
+            "title": "Set Up the DNN Folder",
+            "key": "set-up-dnn-folder"
+          },
+          {
+            "title": "Set Up IIS",
+            "key": "set-up-iis"
+          },
+          {
+            "title": "Set Up SQL",
+            "key": "set-up-sql"
+          },
+          {
+            "title": "Run Installation Wizard",
+            "key": "run-installation-wizard"
+          },
+          {
+            "title": "Upgrade Evoq",
+            "key": "upgrade-evoq"
+          }
+        ]
+      },
+      {
+        "title": "Licensing Evoq",
+        "key": "administrators-licensing-overview",
+        "menu": [
+          {
+            "title": "Activate Automatically",
+            "key": "activate-license-automatically"
+          },
+          {
+            "title": "Activate Manually",
+            "key": "activate-license-manually"
+          },
+          {
+            "title": "FAQ",
+            "key": "faq-licensing"
+          },
+          {
+            "title": "Troubleshooting",
+            "key": "troubleshooting-licensing"
+          }
+        ]
+      },
+      {
+        "title": "Maintaining Your Servers",
+        "key": "administrators-servers-overview",
+        "menu": [
+          {
+            "title": "Retrieve System Info",
+            "key": "retrieve-system-info"
+          },
+          {
+            "title": "View Server Logs",
+            "key": "view-server-logs"
+          },
+          {
+            "title": "Restart Application",
+            "key": "restart-application"
+          },
+          {
+            "title": "Web Servers",
+            "key": "about-web-servers",
+            "menu": [
+              {
+                "title": "Enable or Disable Web Server",
+                "key": "enable-or-disable-web-server"
+              },
+              {
+                "title": "Change URL of Web Server",
+                "key": "change-url-of-web-server"
+              },
+              {
+                "title": "Assign Web Server to Server Group",
+                "key": "assign-web-server-to-server-group"
+              },
+              {
+                "title": "Replace Web Request Adapter",
+                "key": "replace-web-request-adapter"
+              },
+              {
+                "title": "Delete Web Server",
+                "key": "delete-web-server"
+              }
+            ]
+          },
+          {
+            "title": "SMTP Servers",
+            "menu": [
+              {
+                "title": "Configure SMTP",
+                "key": "configure-smtp-server"
+              },
+              {
+                "title": "Test SMTP",
+                "key": "test-smtp-settings"
+              }
+            ]
+          },
+          {
+            "title": "Server Performance",
+            "menu": [
+              {
+                "title": "Configure Caching",
+                "key": "configure-caching"
+              },
+              {
+                "title": "Clear Cache",
+                "key": "clear-cache"
+              },
+              {
+                "title": "Expire Cached Item in Web Server",
+                "key": "expire-cached-item-in-web-server"
+              },
+              {
+                "title": "Minify Resource Files",
+                "key": "minify-resource-files"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Managing Your Sites",
+        "key": "administrators-sites-overview",
+        "menu": [
+          {
+            "title": "Sites",
+            "menu": [
+              {
+                "title": "Create Site",
+                "key": "create-site"
+              },
+              {
+                "title": "Edit Site Properties",
+                "key": "edit-site-properties"
+              },
+              {
+                "title": "View Site",
+                "key": "view-site"
+              },
+              {
+                "title": "Delete Site",
+                "key": "delete-site"
+              },
+              {
+                "title": "Move Site",
+                "key": "move-site-to-another-server"
+              }
+            ]
+          },
+          {
+            "title": "Site Groups",
+            "menu": [
+              {
+                "title": "Create Site Group",
+                "key": "create-site-group"
+              },
+              {
+                "title": "Add or Remove Sites in Group",
+                "key": "add-or-remove-sites-in-group"
+              },
+              {
+                "title": "Edit Site Group",
+                "key": "edit-site-group"
+              },
+              {
+                "title": "Delete Site Group",
+                "key": "delete-site-group"
+              }
+            ]
+          },
+          {
+            "title": "Import / Export",
+            "key": "administrators-import-export-overview",
+            "menu": [
+              {
+                "title": "Export Site",
+                "key": "export-site"
+              },
+              {
+                "title": "Transfer an Export Package",
+                "key": "transfer-an-export-package"
+              },
+              {
+                "title": "Import Site",
+                "key": "import-site"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Configuring Your Site",
+        "key": "administrators-configuring-your-site-overview",
+        "menu": [
+          {
+            "title": "Update Site Info",
+            "key": "update-site-info"
+          },
+          {
+            "title": "Assign Key Pages",
+            "key": "assign-key-pages"
+          },
+          {
+            "title": "Add Metadata to Pages",
+            "key": "add-metadata-to-pages"
+          },
+          {
+            "title": "Configure Messaging",
+            "key": "configure-messaging"
+          },
+          {
+            "title": "Access web.config",
+            "key": "access-web-config"
+          },
+          {
+            "title": "Configure Sites to Check for New Version",
+            "key": "configure-check-for-new-version"
+          },
+          {
+            "title": "Help Improve DNN",
+            "key": "participate-in-improvement-program"
+          },
+          {
+            "title": "Configure HTML Editor",
+            "key": "configure-html-editor"
+          },
+          {
+            "title": "Site Aliases",
+            "menu": [
+              {
+                "title": "Configure URL Mapping for Site Aliases",
+                "key": "configure-url-mapping-site-aliases"
+              },
+              {
+                "title": "Add Site Alias",
+                "key": "add-site-alias"
+              },
+              {
+                "title": "Edit Site Alias",
+                "key": "edit-site-alias"
+              },
+              {
+                "title": "Delete Site Alias",
+                "key": "delete-site-alias"
+              },
+              {
+                "title": "Change Primary Site Alias",
+                "key": "change-primary-site-alias"
+              }
+            ]
+          },
+          {
+            "title": "SEO",
+            "menu": [
+              {
+                "title": "URL Management",
+                "menu": [
+                  {
+                    "title": "Configure URL Rewriter",
+                    "key": "configure-url-rewriter"
+                  },
+                  {
+                    "title": "Configure URL Redirects",
+                    "key": "configure-url-redirects"
+                  },
+                  {
+                    "title": "Manage URL Providers",
+                    "key": "manage-url-providers"
+                  },
+                  {
+                    "title": "Edit RegEx for URL Management",
+                    "key": "edit-regex-for-url-management"
+                  },
+                  {
+                    "title": "Test URL Generation",
+                    "key": "test-url-generation"
+                  }
+                ]
+              },
+              {
+                "title": "Sitemaps",
+                "key": "administrators-sitemaps-overview",
+                "menu": [
+                  {
+                    "title": "Configure Sitemap",
+                    "key": "configure-sitemap"
+                  },
+                  {
+                    "title": "Submit Site to Google Search",
+                    "key": "submit-site-Google-search"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "User Profiles",
+            "menu": [
+              {
+                "title": "Configure User Profile Visibility",
+                "key": "configure-user-profile-visibility"
+              },
+              {
+                "title": "Configure User Profile Vanity URL",
+                "key": "configure-user-profile-vanity-url"
+              },
+              {
+                "title": "Add User Profile Field",
+                "key": "add-user-profile-field"
+              },
+              {
+                "title": "Edit User Profile Field",
+                "key": "edit-user-profile-field"
+              },
+              {
+                "title": "Delete User Profile Field",
+                "key": "delete-user-profile-field"
+              },
+              {
+                "title": "Organize User Profile Fields",
+                "key": "organize-user-profile-fields"
+              }
+            ]
+          },
+          {
+            "title": "Page/File Versioning",
+            "key": "page-file-versioning",
+            "menu": [
+              {
+                "title": "Configure Page/File Versioning for Site",
+                "key": "configure-page-file-versioning-for-site"
+              }
+            ]
+          },
+          {
+            "title": "Extensions",
+            "key": "administrators-extensions-overview",
+            "menu": [
+              {
+                "title": "Install an Extension",
+                "key": "install-extension"
+              },
+              {
+                "title": "Manage a Premium Module",
+                "key": "manage-premium-module"
+              },
+              {
+                "title": "Allow Module Use",
+                "key": "allow-module-use"
+              }
+            ]
+          },
+          {
+            "title": "Connectors",
+            "key": "administrators-connectors-overview",
+            "menu": [
+              {
+                "title": "Configure Connections to External Services",
+                "key": "configure-connectors-pb-all"
+              }
+            ]
+          },
+          {
+            "title": "Microservices",
+            "menu": [
+              {
+                "title": "Enable Microservices",
+                "key": "enable-microservices-pb-all"
+              }
+            ]
+          },
+          {
+            "title": "Workflows",
+            "key": "administrators-workflows-overview",
+            "menu": [
+              {
+                "title": "Create Workflow",
+                "key": "create-workflow-pb-all"
+              },
+              {
+                "title": "Edit Workflow",
+                "key": "edit-workflow-pb-all"
+              },
+              {
+                "title": "Delete Workflow",
+                "key": "delete-workflow-pb-all"
+              },
+              {
+                "title": "Configure Workflow State",
+                "key": "configure-workflow-state-pb-all"
+              }
+            ]
+          },
+          {
+            "title": "Search",
+            "key": "administrators-search-overview",
+            "menu": [
+              {
+                "title": "Configure Search",
+                "key": "configure-search"
+              },
+              {
+                "title": "Prioritize Search Items",
+                "key": "prioritize-search-items"
+              },
+              {
+                "title": "Synonyms",
+                "menu": [
+                  {
+                    "title": "Add Group of Synonyms",
+                    "key": "add-group-of-synonyms"
+                  },
+                  {
+                    "title": "Edit Group of Synonyms",
+                    "key": "edit-group-of-synonyms"
+                  },
+                  {
+                    "title": "Delete Group of Synonyms",
+                    "key": "delete-group-of-synonyms"
+                  }
+                ]
+              },
+              {
+                "title": "Words to Ignore",
+                "menu": [
+                  {
+                    "title": "Create List of Words to Ignore",
+                    "key": "create-list-of-words-to-ignore"
+                  },
+                  {
+                    "title": "Edit List of Words to Ignore",
+                    "key": "edit-list-of-words-to-ignore"
+                  },
+                  {
+                    "title": "Delete List of Words to Ignore",
+                    "key": "delete-list-of-words-to-ignore"
+                  }
+                ]
+              },
+              {
+                "title": "Crawling Filters",
+                "menu": [
+                  {
+                    "title": "Add Starting URL to Crawl List",
+                    "key": "add-starting-url-to-crawl-list"
+                  },
+                  {
+                    "title": "Edit Starting URL in Crawl List",
+                    "key": "edit-starting-url-in-crawl-list"
+                  },
+                  {
+                    "title": "Delete Starting URL from Crawl List",
+                    "key": "delete-starting-url-from-crawl-list"
+                  },
+                  {
+                    "title": "Add Directory to Included List",
+                    "key": "add-directory-to-included-list"
+                  },
+                  {
+                    "title": "Delete Directory from Included List",
+                    "key": "delete-directory-from-included-list"
+                  },
+                  {
+                    "title": "Add Directory to Excluded List",
+                    "key": "add-directory-to-excluded-list"
+                  },
+                  {
+                    "title": "Delete Directory from Excluded List",
+                    "key": "delete-directory-from-excluded-list"
+                  },
+                  {
+                    "title": "Add File Extension to Included or Excluded List",
+                    "key": "add-file-extension-to-included-or-excluded-list"
+                  },
+                  {
+                    "title": "Delete File Extension from Included or Excluded List",
+                    "key": "delete-file-extension-from-included-or-excluded-list"
+                  }
+                ]
+              },
+              {
+                "title": "Dynamic Pages",
+                "menu": [
+                  {
+                    "title": "Add Regex Pattern for Duplicate Pages",
+                    "key": "add-regex-pattern-for-duplicate-pages"
+                  },
+                  {
+                    "title": "Edit Regex Pattern for Duplicate Pages",
+                    "key": "edit-regex-pattern-for-duplicate-pages"
+                  },
+                  {
+                    "title": "Delete Regex Pattern for Duplicate Pages",
+                    "key": "delete-regex-pattern-for-duplicate-pages"
+                  }
+                ]
+              },
+              {
+                "title": "Indexes",
+                "menu": [
+                  {
+                    "title": "Compress Indexes",
+                    "key": "compress-indexes"
+                  },
+                  {
+                    "title": "Reindex Content",
+                    "key": "reindex-content"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Vocabularies",
+            "key": "administrators-vocabularies-overview",
+            "menu": [
+              {
+                "title": "Create Vocabulary",
+                "key": "create-vocabulary"
+              },
+              {
+                "title": "Edit Vocabulary",
+                "key": "edit-vocabulary"
+              },
+              {
+                "title": "Delete Vocabulary",
+                "key": "delete-vocabulary"
+              },
+              {
+                "title": "Add Term to Vocabulary",
+                "key": "add-term-to-vocabulary"
+              },
+              {
+                "title": "Edit Term in Vocabulary",
+                "key": "edit-term-in-vocabulary"
+              },
+              {
+                "title": "Delete Term from Vocabulary",
+                "key": "delete-term-from-vocabulary"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Securing Your Site",
+        "key": "administrators-security-overview",
+        "menu": [
+          {
+            "title": "User Accounts",
+            "key": "administrators-user-accounts-overview",
+            "menu": [
+              {
+                "title": "Create a User",
+                "key": "create-user-account"
+              },
+              {
+                "title": "Authorize a User",
+                "key": "authorize-user"
+              },
+              {
+                "title": "Assign User to Multiple Roles",
+                "key": "assign-user-to-multiple-roles"
+              },
+              {
+                "title": "Remove User from Multiple Roles",
+                "key": "remove-user-from-multiple-roles"
+              },
+              {
+                "title": "Edit a User",
+                "key": "edit-user"
+              },
+              {
+                "title": "Manage a User Password",
+                "key": "manage-user-password"
+              },
+              {
+                "title": "Delete a User",
+                "key": "delete-user"
+              },
+              {
+                "title": "Delete Unauthorized Users",
+                "key": "delete-all-unauthorized-users"
+              },
+              {
+                "title": "Restore a Deleted User",
+                "key": "restore-deleted-user-account"
+              },
+              {
+                "title": "Purge a User Account",
+                "key": "purge-user-account"
+              },
+              {
+                "title": "Restore Multiple Deleted Users",
+                "key": "restore-multiple-deleted-users"
+              },
+              {
+                "title": "Purge Multiple Deleted Users",
+                "key": "purge-multiple-deleted-users"
+              },
+              {
+                "title": "Create a Host",
+                "key": "create-host-account"
+              },
+              {
+                "title": "Authorize a Host",
+                "key": "authorize-host"
+              },
+              {
+                "title": "Promote to Host",
+                "key": "promote-user-to-host"
+              },
+              {
+                "title": "Demote a Host",
+                "key": "demote-from-host"
+              },
+              {
+                "title": "Manage a Host Password",
+                "key": "manage-host-password"
+              },
+              {
+                "title": "Delete a Host",
+                "key": "delete-host"
+              },
+              {
+                "title": "Delete Unauthorized Hosts",
+                "key": "delete-all-unauthorized-hosts"
+              },
+              {
+                "title": "Restore a Deleted Host",
+                "key": "restore-deleted-host-account"
+              },
+              {
+                "title": "Purge a Host Account",
+                "key": "purge-host-account"
+              }
+            ]
+          },
+          {
+            "title": "Role-Based Access",
+            "key": "administrators-roles-overview",
+            "menu": [
+              {
+                "title": "Roles",
+                "menu": [
+                  {
+                    "title": "Create Role",
+                    "key": "create-role"
+                  },
+                  {
+                    "title": "Edit Role",
+                    "key": "edit-role"
+                  },
+                  {
+                    "title": "Delete Role",
+                    "key": "delete-role"
+                  },
+                  {
+                    "title": "Assign Users to Role",
+                    "key": "assign-users-to-role"
+                  },
+                  {
+                    "title": "Edit Date Range for Role Membership",
+                    "key": "edit-date-range-for-role-membership"
+                  },
+                  {
+                    "title": "View Users Assigned to Role",
+                    "key": "view-users-assigned-to-role"
+                  },
+                  {
+                    "title": "Remove Users from Role",
+                    "key": "remove-users-from-role"
+                  }
+                ]
+              },
+              {
+                "title": "Role Groups",
+                "menu": [
+                  {
+                    "title": "Add Role to New Group",
+                    "key": "add-role-to-new-group"
+                  },
+                  {
+                    "title": "Add Role to Existing Group",
+                    "key": "add-role-to-existing-group"
+                  },
+                  {
+                    "title": "View Roles Included in Group",
+                    "key": "view-roles-included-in-group"
+                  },
+                  {
+                    "title": "Remove Role from Group",
+                    "key": "remove-role-from-group"
+                  },
+                  {
+                    "title": "Edit Custom Role Group",
+                    "key": "edit-custom-role-group"
+                  },
+                  {
+                    "title": "Delete Custom Role Group",
+                    "key": "delete-custom-role-group"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "JWT Authentication",
+            "key": "administrators-jwt-overview",
+            "menu": [
+              {
+                "title": "Set Up JWT Auth",
+                "key": "setup-jwt-for-auth"
+              },
+              {
+                "title": "JWT User Credentials",
+                "key": "jwt-user-credentials"
+              },
+              {
+                "title": "JWT Server Response",
+                "key": "jwt-server-response"
+              },
+              {
+                "title": "JWT Access Token",
+                "key": "jwt-access-token"
+              },
+              {
+                "title": "JWT Page Request",
+                "key": "jwt-page-request"
+              },
+              {
+                "title": "JWT Auth Handler",
+                "key": "jwt-auth-handler"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Building Your Site",
+        "key": "administrators-building-your-site-overview",
+        "menu": [
+          {
+            "title": "Managing Assets",
+            "key": "administrators-assets-overview",
+            "menu": [
+              {
+                "title": "Assets/Files",
+                "menu": [
+                  {
+                    "title": "Add Assets",
+                    "key": "add-assets"
+                  },
+                  {
+                    "title": "Edit Asset Properties",
+                    "key": "edit-asset-properties"
+                  },
+                  {
+                    "title": "Edit Asset Permissions",
+                    "key": "edit-asset-permissions"
+                  },
+                  {
+                    "title": "Move Asset",
+                    "key": "move-asset"
+                  },
+                  {
+                    "title": "Copy Asset",
+                    "key": "copy-asset"
+                  },
+                  {
+                    "title": "Download Asset",
+                    "key": "download-asset"
+                  },
+                  {
+                    "title": "Delete Asset",
+                    "key": "delete-asset"
+                  }
+                ]
+              },
+              {
+                "title": "Folders",
+                "menu": [
+                  {
+                    "title": "Create Folder",
+                    "key": "create-folder"
+                  },
+                  {
+                    "title": "Edit Folder Properties",
+                    "key": "edit-folder-properties"
+                  },
+                  {
+                    "title": "Edit Folder Permissions",
+                    "key": "edit-folder-permissions"
+                  },
+                  {
+                    "title": "Move Folder",
+                    "key": "move-folder"
+                  },
+                  {
+                    "title": "Delete Folder",
+                    "key": "delete-folder"
+                  }
+                ]
+              },
+              {
+                "title": "Asset/File Versioning",
+                "menu": [
+                  {
+                    "title": "Configure Folder/File Versioning",
+                    "key": "configure-folder-file-versioning"
+                  },
+                  {
+                    "title": "View File Versions",
+                    "key": "view-file-versions"
+                  },
+                  {
+                    "title": "Restore File Version",
+                    "key": "restore-file-version"
+                  },
+                  {
+                    "title": "Delete File Version",
+                    "key": "delete-file-version"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Managing Pages and Templates",
+            "key": "administrators-pages-templates-overview",
+            "menu": [
+              {
+                "title": "Pages",
+                "menu": [
+                  {
+                    "title": "Create Standard Page",
+                    "key": "create-single-page-standard"
+                  },
+                  {
+                    "title": "Create Menu Link to Existing Page",
+                    "key": "create-single-page-existing"
+                  },
+                  {
+                    "title": "Create Menu Link to External URL",
+                    "key": "create-single-page-url"
+                  },
+                  {
+                    "title": "Create Menu Link to Asset (File)",
+                    "key": "create-single-page-file"
+                  },
+                  {
+                    "title": "Create Multiple Pages",
+                    "key": "create-multiple-pages-pb-all"
+                  },
+                  {
+                    "title": "Configure Standard Page",
+                    "key": "configure-page-standard"
+                  },
+                  {
+                    "title": "Configure Menu Link to Existing Page",
+                    "key": "configure-page-existing"
+                  },
+                  {
+                    "title": "Configure Menu Link to External URL",
+                    "key": "configure-page-url"
+                  },
+                  {
+                    "title": "Configure Menu Link to Asset (File)",
+                    "key": "configure-page-file"
+                  },
+                  {
+                    "title": "Copy Page",
+                    "key": "copy-page-pb-all"
+                  },
+                  {
+                    "title": "Edit Page",
+                    "key": "edit-page-pb-all"
+                  },
+                  {
+                    "title": "View Hidden Page",
+                    "key": "view-hidden-page-pb-all"
+                  },
+                  {
+                    "title": "Delete Page",
+                    "key": "delete-page-pb-all"
+                  },
+                  {
+                    "title": "Restore Deleted Pages",
+                    "key": "restore-deleted-pages"
+                  },
+                  {
+                    "title": "Purge Deleted Pages",
+                    "key": "purge-deleted-pages"
+                  },
+                  {
+                    "title": "Copy Permissions to Child Pages",
+                    "key": "copy-permissions-to-child-pages-pb-all"
+                  }
+                ]
+              },
+              {
+                "title": "Templates",
+                "menu": [
+                  {
+                    "title": "Create Template Based on Page",
+                    "key": "create-template-based-on-page-pb-all"
+                  },
+                  {
+                    "title": "Create Template Based on Another",
+                    "key": "create-template-based-on-another-template-pb-all"
+                  },
+                  {
+                    "title": "Edit/Delete Template",
+                    "key": "edit-delete-template-pb-all"
+                  },
+                  {
+                    "title": "Restore Deleted Templates",
+                    "key": "restore-deleted-templates"
+                  },
+                  {
+                    "title": "Purge Deleted Templates",
+                    "key": "purge-deleted-templates"
+                  }
+                ]
+              },
+              {
+                "title": "Page Versioning",
+                "menu": [
+                  {
+                    "title": "View Page Versions",
+                    "key": "view-page-versions"
+                  },
+                  {
+                    "title": "Compare Page Versions",
+                    "key": "compare-page-versions"
+                  },
+                  {
+                    "title": "Restore Page Version",
+                    "key": "restore-page-version"
+                  },
+                  {
+                    "title": "Delete Page Version",
+                    "key": "delete-page-version"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Creating Content with Microservices",
+            "key": "administrators-microservices-overview",
+            "menu": [
+              {
+                "title": "Liquid Content™ (Structured Content)",
+                "key": "administrators-structured-content-overview",
+                "menu": [
+                  {
+                    "title": "Content Types",
+                    "menu": [
+                      {
+                        "title": "Create Content Type",
+                        "key": "create-content-type"
+                      },
+                      {
+                        "title": "Duplicate Content Type",
+                        "key": "duplicate-content-type"
+                      },
+                      {
+                        "title": "Edit Content Type",
+                        "key": "edit-content-type"
+                      },
+                      {
+                        "title": "Delete Content Type",
+                        "key": "delete-content-type"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Visualizers",
+                    "menu": [
+                      {
+                        "title": "Create Visualizer",
+                        "key": "create-visualizer"
+                      },
+                      {
+                        "title": "Edit Visualizer",
+                        "key": "edit-visualizer"
+                      },
+                      {
+                        "title": "Delete Visualizer",
+                        "key": "delete-visualizer"
+                      },
+                      {
+                        "title": "Import Visualizer",
+                        "key": "import-visualizer"
+                      },
+                      {
+                        "title": "Export Visualizer",
+                        "key": "export-visualizer"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Visualizer Templates",
+                    "key": "visualizer-templates",
+                    "menu": [
+                      {
+                        "title": "Basics",
+                        "key": "visualizer-templates-basics"
+                      },
+                      {
+                        "title": "Filters",
+                        "key": "visualizer-templates-filters"
+                      },
+                      {
+                        "title": "Date / Time",
+                        "key": "visualizer-templates-datetime"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Content Items",
+                    "menu": [
+                      {
+                        "title": "Create Content Item",
+                        "key": "create-content-item"
+                      },
+                      {
+                        "title": "Duplicate Content Item",
+                        "key": "duplicate-content-item"
+                      },
+                      {
+                        "title": "Edit Content Item",
+                        "key": "edit-content-item"
+                      },
+                      {
+                        "title": "Delete Content Item",
+                        "key": "delete-content-item"
+                      },
+                      {
+                        "title": "Share in Social Media",
+                        "key": "share-in-social-media"
+                      },
+                      {
+                        "title": "Get Embed Code",
+                        "key": "get-embed-code"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Content Fields",
+                    "menu": [
+                      {
+                        "title": "Field: Assets",
+                        "key": "content-field-assets"
+                      },
+                      {
+                        "title": "Field: Date / Time",
+                        "key": "content-field-date-time"
+                      },
+                      {
+                        "title": "Field: Multi-Line Text",
+                        "key": "content-field-multi-line-text"
+                      },
+                      {
+                        "title": "Field: Multiple Choice",
+                        "key": "content-field-multiple-choice"
+                      },
+                      {
+                        "title": "Field: Number",
+                        "key": "content-field-number"
+                      },
+                      {
+                        "title": "Field: Reference Object",
+                        "key": "content-field-reference-object"
+                      },
+                      {
+                        "title": "Field: Single-Line Text",
+                        "key": "content-field-single-line-text"
+                      },
+                      {
+                        "title": "Field: Static Text",
+                        "key": "content-field-static-text"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "API Keys",
+                    "menu": [
+                      {
+                        "title": "Create API Key",
+                        "key": "create-api-key"
+                      },
+                      {
+                        "title": "Get Existing API Key",
+                        "key": "get-existing-api-key"
+                      },
+                      {
+                        "title": "Edit or Reset API Key",
+                        "key": "edit-or-reset-api-key"
+                      },
+                      {
+                        "title": "Delete API Key",
+                        "key": "delete-api-key"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Example: Recipes as Structured Content",
+                    "key": "example-recipes"
+                  }
+                ]
+              },
+              {
+                "title": "Form Builder",
+                "key": "administrators-forms-overview",
+                "menu": [
+                  {
+                    "title": "Forms",
+                    "menu": [
+                      {
+                        "title": "Create Form",
+                        "key": "create-form"
+                      },
+                      {
+                        "title": "Edit Form",
+                        "key": "edit-form"
+                      },
+                      {
+                        "title": "Duplicate Form",
+                        "key": "duplicate-form"
+                      },
+                      {
+                        "title": "Delete Form",
+                        "key": "delete-form"
+                      },
+                      {
+                        "title": "Embed a Form",
+                        "key": "embed-form"
+                      },
+                      {
+                        "title": "View Responses",
+                        "key": "view-form-responses"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Form Fields",
+                    "menu": [
+                      {
+                        "title": "Field: Address",
+                        "key": "form-field-address"
+                      },
+                      {
+                        "title": "Field: Date / Time",
+                        "key": "form-field-date-time"
+                      },
+                      {
+                        "title": "Field: Dropdown",
+                        "key": "form-field-dropdown"
+                      },
+                      {
+                        "title": "Field: Email",
+                        "key": "form-field-email"
+                      },
+                      {
+                        "title": "Field: E-Signature",
+                        "key": "form-field-esignature"
+                      },
+                      {
+                        "title": "Field: Multi-Line Text",
+                        "key": "form-field-multi-line-text"
+                      },
+                      {
+                        "title": "Field: Multiple Choice",
+                        "key": "form-field-multiple-choice"
+                      },
+                      {
+                        "title": "Field: Name",
+                        "key": "form-field-name"
+                      },
+                      {
+                        "title": "Field: Number",
+                        "key": "form-field-number"
+                      },
+                      {
+                        "title": "Field: Phone Number",
+                        "key": "form-field-phone-number"
+                      },
+                      {
+                        "title": "Field: Single-Line Text",
+                        "key": "form-field-single-line-text"
+                      },
+                      {
+                        "title": "Field: Static Text",
+                        "key": "form-field-static-text"
+                      },
+                      {
+                        "title": "Field: Terms and Conditions",
+                        "key": "form-field-terms-conditions"
+                      },
+                      {
+                        "title": "Field: URL / Website",
+                        "key": "form-field-url-website"
+                      },
+                      {
+                        "title": "Field: Submit",
+                        "key": "form-field-submit"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hidden Fields",
+                    "key": "about-hidden-fields"
+                  },
+                  {
+                    "title": "Save Form Responses to Structured Content",
+                    "key": "save-form-responses-to-structured-content"
+                  }
+                ]
+              },
+              {
+                "title": "Content Fields vs Form Fields",
+                "key": "administrators-fields-overview"
+              }
+            ]
+          },
+          {
+            "title": "Creating Content with Modules",
+            "key": "administrators-content-with-modules-overview",
+            "menu": [
+              {
+                "title": "Add Module",
+                "key": "add-module-to-page-pb-all"
+              },
+              {
+                "title": "Add Content to Page Quickly",
+                "key": "add-content-to-page-quickly-pb-all"
+              },
+              {
+                "title": "Configure Module",
+                "key": "configure-module-on-page-pb-all"
+              },
+              {
+                "title": "Delete Module",
+                "key": "delete-module-from-page-pb-all"
+              },
+              {
+                "title": "Restore Deleted Modules",
+                "key": "restore-deleted-modules"
+              },
+              {
+                "title": "Purge Deleted Modules",
+                "key": "purge-deleted-modules"
+              },
+              {
+                "title": "Create Article in Publisher",
+                "key": "create-article-publisher"
+              }
+            ]
+          },
+          {
+            "title": "Empty Recycle Bin",
+            "key": "empty-recycle-bin"
+          }
+        ]
+      },
+      {
+        "title": "Managing Your Site Logs",
+        "key": "administrators-sitelogs-overview",
+        "menu": [
+          {
+            "title": "View Site Logs",
+            "key": "view-site-logs"
+          },
+          {
+            "title": "View Entry Details",
+            "key": "view-entry-details"
+          },
+          {
+            "title": "Clear Log",
+            "key": "clear-log"
+          },
+          {
+            "title": "Delete Entries",
+            "key": "delete-entries"
+          },
+          {
+            "title": "Share Entries",
+            "key": "share-entries"
+          },
+          {
+            "title": "Add Event Type",
+            "key": "add-event-type"
+          },
+          {
+            "title": "Edit Logged Event Type",
+            "key": "edit-logged-event-type"
+          },
+          {
+            "title": "Delete Logged Event Type",
+            "key": "delete-logged-event-type"
+          },
+          {
+            "title": "Toggle Logging for Event Type",
+            "key": "toggle-logging-for-event-type"
+          },
+          {
+            "title": "Configure Notices",
+            "key": "configure-notices"
+          }
+        ]
+      },
+      {
+        "title": "Troubleshooting",
+        "key": "administrators-troubleshooting-overview",
+        "menu": [
+          {
+            "title": "How to: Increase Max File Size for Upload",
+            "key": "ts-how-to-increase-max-upload-file-size"
+          },
+          {
+            "title": "Error: Login IP Filtering",
+            "key": "ts-error-login-ip-filtering-is-currently-disabled"
+          },
+          {
+            "title": "Error: Another User Has Taken Action",
+            "key": "ts-error-another-user-has-taken-action-on-the-page"
+          },
+          {
+            "title": "Error: Unknown Server Tag - DNNComboBox",
+            "key": "ts-error-unknown-server-tag-DNNComboBox"
+          },
+          {
+            "title": "Error: Could not load AWSSDK",
+            "key": "ts-error-could-not-load-awssdk"
+          },
+          {
+            "title": "Error: SQL Timeout",
+            "key": "ts-error-sql-timeout"
+          },
+          {
+            "title": "Error: ArgumentNullException After Move or Upgrade",
+            "key": "ts-error-argumentnullexception-after-move-upgrade"
+          },
+          {
+            "title": "Troubleshooting: Missing Resources After An Upgrade",
+            "key": "ts-install-missing-resources"
+          },
+          {
+            "title": "Troubleshooting: Mixed-Content Warnings When Using SSL Offloading ",
+            "key": "ts-mixed-content-ssl"
+          },
+          {
+            "title": "Troubleshooting: Profile Image Not Shown",
+            "key": "ts-broken-profile-image"
+          },
+          {
+            "title": "Troubleshooting: Page Remains in Draft Mode",
+            "key": "ts-page-remains-in-draft"
+          },
+          {
+            "title": "Troubleshooting: Unable to Remove Page Redirect URLs",
+            "key": "ts-unable-to-remove-page-redirect-urls"
+          },
+          {
+            "title": "Troubleshooting: Site Theme Does Not Load",
+            "key": "ts-site-theme-not-loading"
+          },
+          {
+            "title": "Troubleshooting: Incomplete Localization",
+            "key": "ts-incomplete-content-localization"
+          },
+          {
+            "title": "Troubleshooting: Missing Persona Bar",
+            "key": "ts-missing-persona-bar"
+          }
+        ]
+      },
+      {
+        "title": "References",
+        "key": "administrator-references",
+        "menu": [
+          {
+            "title": "DNN Solutions",
+            "key": "dnn-overview"
+          },
+          {
+            "title": "Control Bar to Persona Bar",
+            "key": "control-bar-to-persona-bar"
+          },
+          {
+            "title": "Persona Bar by Role",
+            "key": "persona-bar-by-role"
+          },
+          {
+            "title": "Providers Reference",
+            "key": "providers"
+          },
+          {
+            "title": "Included Modules",
+            "key": "administrators-included-modules-overview",
+            "menu": [
+              {
+                "title": "Social Modules",
+                "key": "social-modules",
+                "menu": [
+                  {
+                    "title": "Activities",
+                    "key": "module-activities"
+                  },
+                  {
+                    "title": "Activity Stream",
+                    "key": "module-activity-stream",
+                    "menu": [
+                      {
+                        "title": "Configure Activity Stream",
+                        "key": "config-module-activity-stream"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Answers",
+                    "key": "module-answers",
+                    "menu": [
+                      {
+                        "title": "Configure Answers",
+                        "key": "config-module-answers"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Blogs",
+                    "key": "module-blogs",
+                    "menu": [
+                      {
+                        "title": "Configure Blogs",
+                        "key": "config-module-blogs"
+                      },
+                      {
+                        "title": "Configure Calendar",
+                        "key": "config-module-calendar"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Challenges",
+                    "key": "module-challenges",
+                    "menu": [
+                      {
+                        "title": "Configure Challenges",
+                        "key": "config-module-challenges"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Discussions",
+                    "key": "module-discussions",
+                    "menu": [
+                      {
+                        "title": "Configure Discussions",
+                        "key": "config-module-discussions"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Group Directory",
+                    "key": "module-group-directory",
+                    "menu": [
+                      {
+                        "title": "Configure Group Directory",
+                        "key": "config-module-group-directory"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Group Spaces",
+                    "key": "module-group-spaces",
+                    "menu": [
+                      {
+                        "title": "Configure Group Spaces",
+                        "key": "config-module-group-spaces"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Ideas",
+                    "key": "module-ideas",
+                    "menu": [
+                      {
+                        "title": "Configure Ideas",
+                        "key": "config-module-ideas"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Journal",
+                    "key": "module-journal",
+                    "menu": [
+                      {
+                        "title": "Configure Journal",
+                        "key": "config-module-journal"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Latest Challenges",
+                    "key": "module-latest-challenges",
+                    "menu": [
+                      {
+                        "title": "Configure Latest Challenges",
+                        "key": "config-module-latest-challenges"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Leaderboard",
+                    "key": "module-leaderboard",
+                    "menu": [
+                      {
+                        "title": "Configure Leaderboard",
+                        "key": "config-module-leaderboard"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Member Directory",
+                    "key": "module-member-directory",
+                    "menu": [
+                      {
+                        "title": "Configure Member Directory",
+                        "key": "config-module-member-directory"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Message Center",
+                    "key": "module-message-center"
+                  },
+                  {
+                    "title": "My Status",
+                    "key": "module-my-status",
+                    "menu": [
+                      {
+                        "title": "Configure My Status",
+                        "key": "config-module-my-status"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Profile Dashboard",
+                    "key": "module-profile-dashboard"
+                  },
+                  {
+                    "title": "Social Groups",
+                    "key": "module-social-groups",
+                    "menu": [
+                      {
+                        "title": "Configure Social Groups",
+                        "key": "config-module-social-groups"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Related Content",
+                    "key": "module-related-content",
+                    "menu": [
+                      {
+                        "title": "Configure Related Content",
+                        "key": "config-module-related-content"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Social Events",
+                    "key": "module-social-events",
+                    "menu": [
+                      {
+                        "title": "Configure Social Events",
+                        "key": "config-module-social-events"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Social Sharing",
+                    "key": "module-social-sharing",
+                    "menu": [
+                      {
+                        "title": "Configure Social Sharing",
+                        "key": "config-module-social-sharing"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "User Badges",
+                    "key": "module-user-badges",
+                    "menu": [
+                      {
+                        "title": "Configure User Badges",
+                        "key": "config-module-user-badges"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Wiki",
+                    "key": "module-wiki",
+                    "menu": [
+                      {
+                        "title": "Configure Wiki",
+                        "key": "config-module-wiki"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "General Content Modules",
+                "key": "general-content-modules",
+                "menu": [
+                  {
+                    "title": "Console",
+                    "key": "module-console",
+                    "menu": [
+                      {
+                        "title": "Configure Console",
+                        "key": "config-module-console"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Content Layout",
+                    "key": "module-content-layout"
+                  },
+                  {
+                    "title": "HTML (Text)",
+                    "key": "module-html-text",
+                    "menu": [
+                      {
+                        "title": "Configure HTML (Text)",
+                        "key": "config-module-html-text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Search Modules",
+                "key": "search-modules",
+                "menu": [
+                  {
+                    "title": "Search Results",
+                    "key": "module-search-results",
+                    "menu": [
+                      {
+                        "title": "Configure Search Results",
+                        "key": "config-module-search-results"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Site Management Modules",
+                "key": "site-management-modules",
+                "menu": [
+                  {
+                    "title": "Sitemap",
+                    "key": "module-sitemap"
+                  }
+                ]
+              },
+              {
+                "title": "User Management Modules",
+                "key": "user-management-modules",
+                "menu": [
+                  {
+                    "title": "View Profile",
+                    "key": "module-view-profile",
+                    "menu": [
+                      {
+                        "title": "Configure View Profile",
+                        "key": "config-module-view-profile"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Creation Modules",
+                "key": "creation-modules",
+                "menu": [
+                  {
+                    "title": "Module Creator",
+                    "key": "module-module-creator"
+                  },
+                  {
+                    "title": "Publisher",
+                    "key": "module-publisher",
+                    "menu": [
+                      {
+                        "title": "Configure Publisher",
+                        "key": "config-module-publisher"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "DNN Requirements",
+            "key": "requirements"
+          },
+          {
+            "title": "Product Versions",
+            "key": "product-versions"
+          },
+          {
+            "title": "DNN License",
+            "key": "dnn-license"
+          },
+          {
+            "title": "DNN Security",
+            "key": "DNN-security"
+          },
+          {
+            "title": "More Resources",
+            "key": "more-resources"
+          }
+        ]
+      },
+      {
+        "title": "Glossary",
+        "key": "glossary"
+      }
+    ]
+  },
+  {
+    "title": "Community Managers",
+    "key": "community-managers-overview",
+    "menu": [
+      {
+        "title": "What's New in Features",
+        "key": "whats-new-dnn"
+      },
+      {
+        "title": "Configuring Your Site",
+        "key": "community-managers-configuring-your-site-overview",
+        "menu": [
+          {
+            "title": "Connectors",
+            "key": "community-managers-connectors-overview",
+            "menu": [
+              {
+                "title": "Configure Connections to External Services",
+                "key": "configure-connectors-pb-all"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Security",
+        "key": "community-managers-security-overview",
+        "menu": [
+          {
+            "title": "User Accounts",
+            "key": "community-managers-user-accounts-overview"
+          },
+          {
+            "title": "Role-Based Access",
+            "key": "community-managers-roles-overview"
+          }
+        ]
+      },
+      {
+        "title": "Building Your Site",
+        "key": "community-managers-building-your-site-overview",
+        "menu": [
+          {
+            "title": "Managing Assets",
+            "key": "community-managers-assets-overview",
+            "menu": [
+              {
+                "title": "Assets/Files",
+                "menu": [
+                  {
+                    "title": "Add Assets",
+                    "key": "add-assets"
+                  },
+                  {
+                    "title": "Edit Asset Properties",
+                    "key": "edit-asset-properties"
+                  },
+                  {
+                    "title": "Edit Asset Permissions",
+                    "key": "edit-asset-permissions"
+                  },
+                  {
+                    "title": "Move Asset",
+                    "key": "move-asset"
+                  },
+                  {
+                    "title": "Copy Asset",
+                    "key": "copy-asset"
+                  },
+                  {
+                    "title": "Download Asset",
+                    "key": "download-asset"
+                  },
+                  {
+                    "title": "Delete Asset",
+                    "key": "delete-asset"
+                  }
+                ]
+              },
+              {
+                "title": "Folders",
+                "menu": [
+                  {
+                    "title": "Create Folder",
+                    "key": "create-folder"
+                  },
+                  {
+                    "title": "Edit Folder Properties",
+                    "key": "edit-folder-properties"
+                  },
+                  {
+                    "title": "Edit Folder Permissions",
+                    "key": "edit-folder-permissions"
+                  },
+                  {
+                    "title": "Move Folder",
+                    "key": "move-folder"
+                  },
+                  {
+                    "title": "Delete Folder",
+                    "key": "delete-folder"
+                  }
+                ]
+              },
+              {
+                "title": "Asset/File Versioning",
+                "menu": [
+                  {
+                    "title": "Configure Folder/File Versioning",
+                    "key": "configure-folder-file-versioning"
+                  },
+                  {
+                    "title": "View File Versions",
+                    "key": "view-file-versions"
+                  },
+                  {
+                    "title": "Restore File Version",
+                    "key": "restore-file-version"
+                  },
+                  {
+                    "title": "Delete File Version",
+                    "key": "delete-file-version"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Managing Pages and Templates",
+            "key": "community-managers-pages-templates-overview",
+            "menu": [
+              {
+                "title": "Pages",
+                "menu": [
+                  {
+                    "title": "Create Standard Page",
+                    "key": "create-single-page-standard"
+                  },
+                  {
+                    "title": "Create Menu Link to Existing Page",
+                    "key": "create-single-page-existing"
+                  },
+                  {
+                    "title": "Create Menu Link to External URL",
+                    "key": "create-single-page-url"
+                  },
+                  {
+                    "title": "Create Menu Link to Asset (File)",
+                    "key": "create-single-page-file"
+                  },
+                  {
+                    "title": "Create Multiple Pages",
+                    "key": "create-multiple-pages-pb-all"
+                  },
+                  {
+                    "title": "Configure Standard Page",
+                    "key": "configure-page-standard"
+                  },
+                  {
+                    "title": "Configure Menu Link to Existing Page",
+                    "key": "configure-page-existing"
+                  },
+                  {
+                    "title": "Configure Menu Link to External URL",
+                    "key": "configure-page-url"
+                  },
+                  {
+                    "title": "Configure Menu Link to Asset (File)",
+                    "key": "configure-page-file"
+                  },
+                  {
+                    "title": "Copy Page",
+                    "key": "copy-page-pb-all"
+                  },
+                  {
+                    "title": "Edit Page",
+                    "key": "edit-page-pb-all"
+                  },
+                  {
+                    "title": "View Hidden Page",
+                    "key": "view-hidden-page-pb-all"
+                  },
+                  {
+                    "title": "Delete Page",
+                    "key": "delete-page-pb-all"
+                  },
+                  {
+                    "title": "Restore Deleted Pages",
+                    "key": "restore-deleted-pages"
+                  },
+                  {
+                    "title": "Purge Deleted Pages",
+                    "key": "purge-deleted-pages"
+                  },
+                  {
+                    "title": "Copy Permissions to Child Pages",
+                    "key": "copy-permissions-to-child-pages-pb-all"
+                  }
+                ]
+              },
+              {
+                "title": "Templates",
+                "menu": [
+                  {
+                    "title": "Create Template Based on Page",
+                    "key": "create-template-based-on-page-pb-all"
+                  },
+                  {
+                    "title": "Create Template Based on Another",
+                    "key": "create-template-based-on-another-template-pb-all"
+                  },
+                  {
+                    "title": "Edit/Delete Template",
+                    "key": "edit-delete-template-pb-all"
+                  },
+                  {
+                    "title": "Restore Deleted Templates",
+                    "key": "restore-deleted-templates"
+                  },
+                  {
+                    "title": "Purge Deleted Templates",
+                    "key": "purge-deleted-templates"
+                  }
+                ]
+              },
+              {
+                "title": "Page Versioning",
+                "menu": [
+                  {
+                    "title": "View Page Versions",
+                    "key": "view-page-versions"
+                  },
+                  {
+                    "title": "Compare Page Versions",
+                    "key": "compare-page-versions"
+                  },
+                  {
+                    "title": "Restore Page Version",
+                    "key": "restore-page-version"
+                  },
+                  {
+                    "title": "Delete Page Version",
+                    "key": "delete-page-version"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Creating Content with Microservices",
+            "key": "community-managers-microservices-overview",
+            "menu": [
+              {
+                "title": "Liquid Content™ (Structured Content)",
+                "key": "community-managers-structured-content-overview"
+              },
+              {
+                "title": "Form Builder",
+                "key": "community-managers-forms-overview",
+                "menu": [
+                  {
+                    "title": "Forms",
+                    "menu": [
+                      {
+                        "title": "Create Form",
+                        "key": "create-form"
+                      },
+                      {
+                        "title": "Edit Form",
+                        "key": "edit-form"
+                      },
+                      {
+                        "title": "Duplicate Form",
+                        "key": "duplicate-form"
+                      },
+                      {
+                        "title": "Delete Form",
+                        "key": "delete-form"
+                      },
+                      {
+                        "title": "Embed a Form",
+                        "key": "embed-form"
+                      },
+                      {
+                        "title": "View Responses",
+                        "key": "view-form-responses"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Form Fields",
+                    "menu": [
+                      {
+                        "title": "Field: Address",
+                        "key": "form-field-address"
+                      },
+                      {
+                        "title": "Field: Date / Time",
+                        "key": "form-field-date-time"
+                      },
+                      {
+                        "title": "Field: Dropdown",
+                        "key": "form-field-dropdown"
+                      },
+                      {
+                        "title": "Field: Email",
+                        "key": "form-field-email"
+                      },
+                      {
+                        "title": "Field: E-Signature",
+                        "key": "form-field-esignature"
+                      },
+                      {
+                        "title": "Field: Multi-Line Text",
+                        "key": "form-field-multi-line-text"
+                      },
+                      {
+                        "title": "Field: Multiple Choice",
+                        "key": "form-field-multiple-choice"
+                      },
+                      {
+                        "title": "Field: Name",
+                        "key": "form-field-name"
+                      },
+                      {
+                        "title": "Field: Number",
+                        "key": "form-field-number"
+                      },
+                      {
+                        "title": "Field: Phone Number",
+                        "key": "form-field-phone-number"
+                      },
+                      {
+                        "title": "Field: Single-Line Text",
+                        "key": "form-field-single-line-text"
+                      },
+                      {
+                        "title": "Field: Static Text",
+                        "key": "form-field-static-text"
+                      },
+                      {
+                        "title": "Field: Terms and Conditions",
+                        "key": "form-field-terms-conditions"
+                      },
+                      {
+                        "title": "Field: URL / Website",
+                        "key": "form-field-url-website"
+                      },
+                      {
+                        "title": "Field: Submit",
+                        "key": "form-field-submit"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hidden Fields",
+                    "key": "about-hidden-fields"
+                  },
+                  {
+                    "title": "Save Form Responses to Structured Content",
+                    "key": "save-form-responses-to-structured-content"
+                  }
+                ]
+              },
+              {
+                "title": "Content Fields vs Form Fields",
+                "key": "community-managers-fields-overview"
+              }
+            ]
+          },
+          {
+            "title": "Creating Content with Modules",
+            "key": "community-managers-content-with-modules-overview",
+            "menu": [
+              {
+                "title": "Add Module",
+                "key": "add-module-to-page-pb-all"
+              },
+              {
+                "title": "Add Content to Page Quickly",
+                "key": "add-content-to-page-quickly-pb-all"
+              },
+              {
+                "title": "Configure Module",
+                "key": "configure-module-on-page-pb-all"
+              },
+              {
+                "title": "Delete Module",
+                "key": "delete-module-from-page-pb-all"
+              },
+              {
+                "title": "Restore Deleted Modules",
+                "key": "restore-deleted-modules"
+              },
+              {
+                "title": "Purge Deleted Modules",
+                "key": "purge-deleted-modules"
+              },
+              {
+                "title": "Create Article in Publisher",
+                "key": "create-article-publisher"
+              }
+            ]
+          },
+          {
+            "title": "Empty Recycle Bin",
+            "key": "empty-recycle-bin"
+          }
+        ]
+      },
+      {
+        "title": "Managing Your Community",
+        "key": "community-managers-managing-your-community-overview",
+        "menu": [
+          {
+            "title": "Engagement and Influence",
+            "key": "engagement-influence",
+            "menu": [
+              {
+                "title": "Create Goal Type",
+                "key": "create-influence-goal-type"
+              },
+              {
+                "title": "Edit Goal Type",
+                "key": "edit-influence-goal-type"
+              },
+              {
+                "title": "Delete Goal Type",
+                "key": "delete-influence-goal-type"
+              },
+              {
+                "title": "Other Community Settings",
+                "key": "config-misc-community-settings"
+              }
+            ]
+          },
+          {
+            "title": "Gamification",
+            "key": "gamification",
+            "menu": [
+              {
+                "title": "Configure Gaming Actions",
+                "key": "configure-gaming-actions"
+              },
+              {
+                "title": "Configure Gaming Privileges",
+                "key": "configure-gaming-privileges"
+              },
+              {
+                "title": "Create Badge",
+                "key": "create-badge"
+              },
+              {
+                "title": "Edit Badge",
+                "key": "edit-badge"
+              },
+              {
+                "title": "Delete Badge",
+                "key": "delete-badge"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "References",
+        "key": "community-manager-references",
+        "menu": [
+          {
+            "title": "DNN Solutions",
+            "key": "dnn-overview"
+          },
+          {
+            "title": "Control Bar to Persona Bar",
+            "key": "control-bar-to-persona-bar"
+          },
+          {
+            "title": "Persona Bar by Role",
+            "key": "persona-bar-by-role"
+          },
+          {
+            "title": "Included Modules",
+            "key": "community-managers-included-modules-overview",
+            "menu": [
+              {
+                "title": "Social Modules",
+                "key": "social-modules",
+                "menu": [
+                  {
+                    "title": "Activities",
+                    "key": "module-activities"
+                  },
+                  {
+                    "title": "Activity Stream",
+                    "key": "module-activity-stream",
+                    "menu": [
+                      {
+                        "title": "Configure Activity Stream",
+                        "key": "config-module-activity-stream"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Answers",
+                    "key": "module-answers",
+                    "menu": [
+                      {
+                        "title": "Configure Answers",
+                        "key": "config-module-answers"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Blogs",
+                    "key": "module-blogs",
+                    "menu": [
+                      {
+                        "title": "Configure Blogs",
+                        "key": "config-module-blogs"
+                      },
+                      {
+                        "title": "Configure Calendar",
+                        "key": "config-module-calendar"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Challenges",
+                    "key": "module-challenges",
+                    "menu": [
+                      {
+                        "title": "Configure Challenges",
+                        "key": "config-module-challenges"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Discussions",
+                    "key": "module-discussions",
+                    "menu": [
+                      {
+                        "title": "Configure Discussions",
+                        "key": "config-module-discussions"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Group Directory",
+                    "key": "module-group-directory",
+                    "menu": [
+                      {
+                        "title": "Configure Group Directory",
+                        "key": "config-module-group-directory"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Group Spaces",
+                    "key": "module-group-spaces",
+                    "menu": [
+                      {
+                        "title": "Configure Group Spaces",
+                        "key": "config-module-group-spaces"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Ideas",
+                    "key": "module-ideas",
+                    "menu": [
+                      {
+                        "title": "Configure Ideas",
+                        "key": "config-module-ideas"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Journal",
+                    "key": "module-journal",
+                    "menu": [
+                      {
+                        "title": "Configure Journal",
+                        "key": "config-module-journal"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Latest Challenges",
+                    "key": "module-latest-challenges",
+                    "menu": [
+                      {
+                        "title": "Configure Latest Challenges",
+                        "key": "config-module-latest-challenges"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Leaderboard",
+                    "key": "module-leaderboard",
+                    "menu": [
+                      {
+                        "title": "Configure Leaderboard",
+                        "key": "config-module-leaderboard"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Member Directory",
+                    "key": "module-member-directory",
+                    "menu": [
+                      {
+                        "title": "Configure Member Directory",
+                        "key": "config-module-member-directory"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Message Center",
+                    "key": "module-message-center"
+                  },
+                  {
+                    "title": "My Status",
+                    "key": "module-my-status",
+                    "menu": [
+                      {
+                        "title": "Configure My Status",
+                        "key": "config-module-my-status"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Profile Dashboard",
+                    "key": "module-profile-dashboard"
+                  },
+                  {
+                    "title": "Social Groups",
+                    "key": "module-social-groups",
+                    "menu": [
+                      {
+                        "title": "Configure Social Groups",
+                        "key": "config-module-social-groups"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Related Content",
+                    "key": "module-related-content",
+                    "menu": [
+                      {
+                        "title": "Configure Related Content",
+                        "key": "config-module-related-content"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Social Events",
+                    "key": "module-social-events",
+                    "menu": [
+                      {
+                        "title": "Configure Social Events",
+                        "key": "config-module-social-events"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Social Sharing",
+                    "key": "module-social-sharing",
+                    "menu": [
+                      {
+                        "title": "Configure Social Sharing",
+                        "key": "config-module-social-sharing"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "User Badges",
+                    "key": "module-user-badges",
+                    "menu": [
+                      {
+                        "title": "Configure User Badges",
+                        "key": "config-module-user-badges"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Wiki",
+                    "key": "module-wiki",
+                    "menu": [
+                      {
+                        "title": "Configure Wiki",
+                        "key": "config-module-wiki"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "General Content Modules",
+                "key": "general-content-modules",
+                "menu": [
+                  {
+                    "title": "Console",
+                    "key": "module-console",
+                    "menu": [
+                      {
+                        "title": "Configure Console",
+                        "key": "config-module-console"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Content Layout",
+                    "key": "module-content-layout"
+                  },
+                  {
+                    "title": "HTML (Text)",
+                    "key": "module-html-text",
+                    "menu": [
+                      {
+                        "title": "Configure HTML (Text)",
+                        "key": "config-module-html-text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Search Modules",
+                "key": "search-modules",
+                "menu": [
+                  {
+                    "title": "Search Results",
+                    "key": "module-search-results",
+                    "menu": [
+                      {
+                        "title": "Configure Search Results",
+                        "key": "config-module-search-results"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Site Management Modules",
+                "key": "site-management-modules",
+                "menu": [
+                  {
+                    "title": "Sitemap",
+                    "key": "module-sitemap"
+                  }
+                ]
+              },
+              {
+                "title": "User Management Modules",
+                "key": "user-management-modules",
+                "menu": [
+                  {
+                    "title": "View Profile",
+                    "key": "module-view-profile",
+                    "menu": [
+                      {
+                        "title": "Configure View Profile",
+                        "key": "config-module-view-profile"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Creation Modules",
+                "key": "creation-modules",
+                "menu": [
+                  {
+                    "title": "Module Creator",
+                    "key": "module-module-creator"
+                  },
+                  {
+                    "title": "Publisher",
+                    "key": "module-publisher",
+                    "menu": [
+                      {
+                        "title": "Configure Publisher",
+                        "key": "config-module-publisher"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Product Versions",
+            "key": "product-versions"
+          },
+          {
+            "title": "DNN License",
+            "key": "dnn-license"
+          },
+          {
+            "title": "DNN Security",
+            "key": "DNN-security"
+          }
+        ]
+      },
+      {
+        "title": "Glossary",
+        "key": "glossary"
+      }
+    ]
+  },
+  {
+    "title": "Designers",
+    "key": "designers-overview",
+    "menu": [
+      {
+        "title": "What's New in Features",
+        "key": "whats-new-dnn"
+      },
+      {
+        "title": "Setting Up DNN",
+        "key": "designers-setup-overview",
+        "menu": [
+          {
+            "title": "Set Up the DNN Folder",
+            "key": "set-up-dnn-folder"
+          },
+          {
+            "title": "Set Up IIS",
+            "key": "set-up-iis"
+          },
+          {
+            "title": "Set Up SQL",
+            "key": "set-up-sql"
+          },
+          {
+            "title": "Run Installation Wizard",
+            "key": "run-installation-wizard"
+          },
+          {
+            "title": "Upgrade Evoq",
+            "key": "upgrade-evoq"
+          }
+        ]
+      },
+      {
+        "title": "About Themes",
+        "key": "about-themes"
+      },
+      {
+        "title": "Creating Themes",
+        "key": "designers-creating-themes-overview",
+        "menu": [
+          {
+            "title": "Create a Layout Template",
+            "key": "create-layout-template"
+          },
+          {
+            "title": "Create a Container",
+            "key": "create-container"
+          },
+          {
+            "title": "Create a CSS File",
+            "key": "create-css"
+          },
+          {
+            "title": "Create a DocType XML",
+            "key": "create-doctype-xml"
+          },
+          {
+            "title": "Pack the Theme",
+            "key": "pack-extension"
+          },
+          {
+            "title": "Install a Theme",
+            "key": "install-extension"
+          }
+        ]
+      },
+      {
+        "title": "References",
+        "key": "designer-references",
+        "menu": [
+          {
+            "title": "DNN Solutions",
+            "key": "dnn-overview"
+          },
+          {
+            "title": "Control Bar to Persona Bar",
+            "key": "control-bar-to-persona-bar"
+          },
+          {
+            "title": "Persona Bar by Role",
+            "key": "persona-bar-by-role"
+          },
+          {
+            "title": "Persona Bar Style Guide",
+            "key": "persona-bar-style-guide"
+          },
+          {
+            "title": "Theme Objects",
+            "key": "theme-objects-1"
+          },
+          {
+            "title": "DNN Manifest",
+            "key": "dnn-manifest-schema"
+          },
+          {
+            "title": "Included Modules",
+            "key": "designers-included-modules-overview",
+            "menu": [
+              {
+                "title": "Social Modules",
+                "key": "social-modules",
+                "menu": [
+                  {
+                    "title": "Activities",
+                    "key": "module-activities"
+                  },
+                  {
+                    "title": "Activity Stream",
+                    "key": "module-activity-stream",
+                    "menu": [
+                      {
+                        "title": "Configure Activity Stream",
+                        "key": "config-module-activity-stream"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Answers",
+                    "key": "module-answers",
+                    "menu": [
+                      {
+                        "title": "Configure Answers",
+                        "key": "config-module-answers"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Blogs",
+                    "key": "module-blogs",
+                    "menu": [
+                      {
+                        "title": "Configure Blogs",
+                        "key": "config-module-blogs"
+                      },
+                      {
+                        "title": "Configure Calendar",
+                        "key": "config-module-calendar"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Challenges",
+                    "key": "module-challenges",
+                    "menu": [
+                      {
+                        "title": "Configure Challenges",
+                        "key": "config-module-challenges"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Discussions",
+                    "key": "module-discussions",
+                    "menu": [
+                      {
+                        "title": "Configure Discussions",
+                        "key": "config-module-discussions"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Group Directory",
+                    "key": "module-group-directory",
+                    "menu": [
+                      {
+                        "title": "Configure Group Directory",
+                        "key": "config-module-group-directory"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Group Spaces",
+                    "key": "module-group-spaces",
+                    "menu": [
+                      {
+                        "title": "Configure Group Spaces",
+                        "key": "config-module-group-spaces"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Ideas",
+                    "key": "module-ideas",
+                    "menu": [
+                      {
+                        "title": "Configure Ideas",
+                        "key": "config-module-ideas"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Journal",
+                    "key": "module-journal",
+                    "menu": [
+                      {
+                        "title": "Configure Journal",
+                        "key": "config-module-journal"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Latest Challenges",
+                    "key": "module-latest-challenges",
+                    "menu": [
+                      {
+                        "title": "Configure Latest Challenges",
+                        "key": "config-module-latest-challenges"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Leaderboard",
+                    "key": "module-leaderboard",
+                    "menu": [
+                      {
+                        "title": "Configure Leaderboard",
+                        "key": "config-module-leaderboard"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Member Directory",
+                    "key": "module-member-directory",
+                    "menu": [
+                      {
+                        "title": "Configure Member Directory",
+                        "key": "config-module-member-directory"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Message Center",
+                    "key": "module-message-center"
+                  },
+                  {
+                    "title": "My Status",
+                    "key": "module-my-status",
+                    "menu": [
+                      {
+                        "title": "Configure My Status",
+                        "key": "config-module-my-status"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Profile Dashboard",
+                    "key": "module-profile-dashboard"
+                  },
+                  {
+                    "title": "Social Groups",
+                    "key": "module-social-groups",
+                    "menu": [
+                      {
+                        "title": "Configure Social Groups",
+                        "key": "config-module-social-groups"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Related Content",
+                    "key": "module-related-content",
+                    "menu": [
+                      {
+                        "title": "Configure Related Content",
+                        "key": "config-module-related-content"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Social Events",
+                    "key": "module-social-events",
+                    "menu": [
+                      {
+                        "title": "Configure Social Events",
+                        "key": "config-module-social-events"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Social Sharing",
+                    "key": "module-social-sharing",
+                    "menu": [
+                      {
+                        "title": "Configure Social Sharing",
+                        "key": "config-module-social-sharing"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "User Badges",
+                    "key": "module-user-badges",
+                    "menu": [
+                      {
+                        "title": "Configure User Badges",
+                        "key": "config-module-user-badges"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Wiki",
+                    "key": "module-wiki",
+                    "menu": [
+                      {
+                        "title": "Configure Wiki",
+                        "key": "config-module-wiki"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "General Content Modules",
+                "key": "general-content-modules",
+                "menu": [
+                  {
+                    "title": "Console",
+                    "key": "module-console",
+                    "menu": [
+                      {
+                        "title": "Configure Console",
+                        "key": "config-module-console"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Content Layout",
+                    "key": "module-content-layout"
+                  },
+                  {
+                    "title": "HTML (Text)",
+                    "key": "module-html-text",
+                    "menu": [
+                      {
+                        "title": "Configure HTML (Text)",
+                        "key": "config-module-html-text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Search Modules",
+                "key": "search-modules",
+                "menu": [
+                  {
+                    "title": "Search Results",
+                    "key": "module-search-results",
+                    "menu": [
+                      {
+                        "title": "Configure Search Results",
+                        "key": "config-module-search-results"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Site Management Modules",
+                "key": "site-management-modules",
+                "menu": [
+                  {
+                    "title": "Sitemap",
+                    "key": "module-sitemap"
+                  }
+                ]
+              },
+              {
+                "title": "User Management Modules",
+                "key": "user-management-modules",
+                "menu": [
+                  {
+                    "title": "View Profile",
+                    "key": "module-view-profile",
+                    "menu": [
+                      {
+                        "title": "Configure View Profile",
+                        "key": "config-module-view-profile"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Creation Modules",
+                "key": "creation-modules",
+                "menu": [
+                  {
+                    "title": "Module Creator",
+                    "key": "module-module-creator"
+                  },
+                  {
+                    "title": "Publisher",
+                    "key": "module-publisher",
+                    "menu": [
+                      {
+                        "title": "Configure Publisher",
+                        "key": "config-module-publisher"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "DNN UX Guide",
+            "key": "uxguide.dnnsoftware"
+          },
+          {
+            "title": "DNN Requirements",
+            "key": "requirements"
+          },
+          {
+            "title": "Product Versions",
+            "key": "product-versions"
+          },
+          {
+            "title": "DNN License",
+            "key": "dnn-license"
+          },
+          {
+            "title": "DNN Security",
+            "key": "DNN-security"
+          },
+          {
+            "title": "More Resources",
+            "key": "more-resources"
+          }
+        ]
+      },
+      {
+        "title": "Glossary",
+        "key": "glossary"
+      }
+    ]
+  },
+  {
+    "title": "Content Managers",
+    "key": "content-managers-overview",
+    "menu": [
+      {
+        "title": "What's New in Features",
+        "key": "whats-new-dnn"
+      },
+      {
+        "title": "Configuring Your Site",
+        "key": "content-managers-configuring-your-site-overview",
+        "menu": [
+          {
+            "title": "Extensions",
+            "key": "content-managers-extensions-overview"
+          },
+          {
+            "title": "Connectors",
+            "key": "content-managers-connectors-overview",
+            "menu": [
+              {
+                "title": "Configure Connections to External Services",
+                "key": "configure-connectors-pb-all"
+              }
+            ]
+          },
+          {
+            "title": "Microservices",
+            "menu": [
+              {
+                "title": "Enable Microservices",
+                "key": "enable-microservices-pb-all"
+              }
+            ]
+          },
+          {
+            "title": "Workflows",
+            "key": "content-managers-workflows-overview",
+            "menu": [
+              {
+                "title": "Create Workflow",
+                "key": "create-workflow-pb-all"
+              },
+              {
+                "title": "Edit Workflow",
+                "key": "edit-workflow-pb-all"
+              },
+              {
+                "title": "Delete Workflow",
+                "key": "delete-workflow-pb-all"
+              },
+              {
+                "title": "Configure Workflow State",
+                "key": "configure-workflow-state-pb-all"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Building Your Site",
+        "key": "content-managers-building-your-site-overview",
+        "menu": [
+          {
+            "title": "Managing Assets",
+            "key": "content-managers-assets-overview",
+            "menu": [
+              {
+                "title": "Assets/Files",
+                "menu": [
+                  {
+                    "title": "Add Assets",
+                    "key": "add-assets"
+                  },
+                  {
+                    "title": "Edit Asset Properties",
+                    "key": "edit-asset-properties"
+                  },
+                  {
+                    "title": "Edit Asset Permissions",
+                    "key": "edit-asset-permissions"
+                  },
+                  {
+                    "title": "Move Asset",
+                    "key": "move-asset"
+                  },
+                  {
+                    "title": "Copy Asset",
+                    "key": "copy-asset"
+                  },
+                  {
+                    "title": "Download Asset",
+                    "key": "download-asset"
+                  },
+                  {
+                    "title": "Delete Asset",
+                    "key": "delete-asset"
+                  }
+                ]
+              },
+              {
+                "title": "Folders",
+                "menu": [
+                  {
+                    "title": "Create Folder",
+                    "key": "create-folder"
+                  },
+                  {
+                    "title": "Edit Folder Properties",
+                    "key": "edit-folder-properties"
+                  },
+                  {
+                    "title": "Edit Folder Permissions",
+                    "key": "edit-folder-permissions"
+                  },
+                  {
+                    "title": "Move Folder",
+                    "key": "move-folder"
+                  },
+                  {
+                    "title": "Delete Folder",
+                    "key": "delete-folder"
+                  }
+                ]
+              },
+              {
+                "title": "Asset/File Versioning",
+                "menu": [
+                  {
+                    "title": "Configure Folder/File Versioning",
+                    "key": "configure-folder-file-versioning"
+                  },
+                  {
+                    "title": "View File Versions",
+                    "key": "view-file-versions"
+                  },
+                  {
+                    "title": "Restore File Version",
+                    "key": "restore-file-version"
+                  },
+                  {
+                    "title": "Delete File Version",
+                    "key": "delete-file-version"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Managing Pages and Templates",
+            "key": "content-managers-pages-templates-overview",
+            "menu": [
+              {
+                "title": "Pages",
+                "menu": [
+                  {
+                    "title": "Create Standard Page",
+                    "key": "create-single-page-standard"
+                  },
+                  {
+                    "title": "Create Menu Link to Existing Page",
+                    "key": "create-single-page-existing"
+                  },
+                  {
+                    "title": "Create Menu Link to External URL",
+                    "key": "create-single-page-url"
+                  },
+                  {
+                    "title": "Create Menu Link to Asset (File)",
+                    "key": "create-single-page-file"
+                  },
+                  {
+                    "title": "Create Multiple Pages",
+                    "key": "create-multiple-pages-pb-all"
+                  },
+                  {
+                    "title": "Configure Standard Page",
+                    "key": "configure-page-standard"
+                  },
+                  {
+                    "title": "Configure Menu Link to Existing Page",
+                    "key": "configure-page-existing"
+                  },
+                  {
+                    "title": "Configure Menu Link to External URL",
+                    "key": "configure-page-url"
+                  },
+                  {
+                    "title": "Configure Menu Link to Asset (File)",
+                    "key": "configure-page-file"
+                  },
+                  {
+                    "title": "Copy Page",
+                    "key": "copy-page-pb-all"
+                  },
+                  {
+                    "title": "Edit Page",
+                    "key": "edit-page-pb-all"
+                  },
+                  {
+                    "title": "View Hidden Page",
+                    "key": "view-hidden-page-pb-all"
+                  },
+                  {
+                    "title": "Delete Page",
+                    "key": "delete-page-pb-all"
+                  },
+                  {
+                    "title": "Restore Deleted Pages",
+                    "key": "restore-deleted-pages"
+                  },
+                  {
+                    "title": "Purge Deleted Pages",
+                    "key": "purge-deleted-pages"
+                  },
+                  {
+                    "title": "Copy Permissions to Child Pages",
+                    "key": "copy-permissions-to-child-pages-pb-all"
+                  }
+                ]
+              },
+              {
+                "title": "Templates",
+                "menu": [
+                  {
+                    "title": "Create Template Based on Page",
+                    "key": "create-template-based-on-page-pb-all"
+                  },
+                  {
+                    "title": "Create Template Based on Another",
+                    "key": "create-template-based-on-another-template-pb-all"
+                  },
+                  {
+                    "title": "Edit/Delete Template",
+                    "key": "edit-delete-template-pb-all"
+                  },
+                  {
+                    "title": "Restore Deleted Templates",
+                    "key": "restore-deleted-templates"
+                  },
+                  {
+                    "title": "Purge Deleted Templates",
+                    "key": "purge-deleted-templates"
+                  }
+                ]
+              },
+              {
+                "title": "Page Versioning",
+                "menu": [
+                  {
+                    "title": "View Page Versions",
+                    "key": "view-page-versions"
+                  },
+                  {
+                    "title": "Compare Page Versions",
+                    "key": "compare-page-versions"
+                  },
+                  {
+                    "title": "Restore Page Version",
+                    "key": "restore-page-version"
+                  },
+                  {
+                    "title": "Delete Page Version",
+                    "key": "delete-page-version"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Creating Content with Microservices",
+            "key": "content-managers-microservices-overview",
+            "menu": [
+              {
+                "title": "Liquid Content™ (Structured Content)",
+                "key": "content-managers-structured-content-overview",
+                "menu": [
+                  {
+                    "title": "Content Types",
+                    "menu": [
+                      {
+                        "title": "Create Content Type",
+                        "key": "create-content-type"
+                      },
+                      {
+                        "title": "Duplicate Content Type",
+                        "key": "duplicate-content-type"
+                      },
+                      {
+                        "title": "Edit Content Type",
+                        "key": "edit-content-type"
+                      },
+                      {
+                        "title": "Delete Content Type",
+                        "key": "delete-content-type"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Visualizers",
+                    "menu": [
+                      {
+                        "title": "Create Visualizer",
+                        "key": "create-visualizer"
+                      },
+                      {
+                        "title": "Edit Visualizer",
+                        "key": "edit-visualizer"
+                      },
+                      {
+                        "title": "Delete Visualizer",
+                        "key": "delete-visualizer"
+                      },
+                      {
+                        "title": "Import Visualizer",
+                        "key": "import-visualizer"
+                      },
+                      {
+                        "title": "Export Visualizer",
+                        "key": "export-visualizer"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Visualizer Templates",
+                    "key": "visualizer-templates",
+                    "menu": [
+                      {
+                        "title": "Basics",
+                        "key": "visualizer-templates-basics"
+                      },
+                      {
+                        "title": "Filters",
+                        "key": "visualizer-templates-filters"
+                      },
+                      {
+                        "title": "Date / Time",
+                        "key": "visualizer-templates-datetime"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Content Items",
+                    "menu": [
+                      {
+                        "title": "Create Content Item",
+                        "key": "create-content-item"
+                      },
+                      {
+                        "title": "Duplicate Content Item",
+                        "key": "duplicate-content-item"
+                      },
+                      {
+                        "title": "Edit Content Item",
+                        "key": "edit-content-item"
+                      },
+                      {
+                        "title": "Delete Content Item",
+                        "key": "delete-content-item"
+                      },
+                      {
+                        "title": "Share in Social Media",
+                        "key": "share-in-social-media"
+                      },
+                      {
+                        "title": "Get Embed Code",
+                        "key": "get-embed-code"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Content Fields",
+                    "menu": [
+                      {
+                        "title": "Field: Assets",
+                        "key": "content-field-assets"
+                      },
+                      {
+                        "title": "Field: Date / Time",
+                        "key": "content-field-date-time"
+                      },
+                      {
+                        "title": "Field: Multi-Line Text",
+                        "key": "content-field-multi-line-text"
+                      },
+                      {
+                        "title": "Field: Multiple Choice",
+                        "key": "content-field-multiple-choice"
+                      },
+                      {
+                        "title": "Field: Number",
+                        "key": "content-field-number"
+                      },
+                      {
+                        "title": "Field: Reference Object",
+                        "key": "content-field-reference-object"
+                      },
+                      {
+                        "title": "Field: Single-Line Text",
+                        "key": "content-field-single-line-text"
+                      },
+                      {
+                        "title": "Field: Static Text",
+                        "key": "content-field-static-text"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Example: Recipes as Structured Content",
+                    "key": "example-recipes"
+                  }
+                ]
+              },
+              {
+                "title": "Form Builder",
+                "key": "content-managers-forms-overview",
+                "menu": [
+                  {
+                    "title": "Forms",
+                    "menu": [
+                      {
+                        "title": "Create Form",
+                        "key": "create-form"
+                      },
+                      {
+                        "title": "Edit Form",
+                        "key": "edit-form"
+                      },
+                      {
+                        "title": "Duplicate Form",
+                        "key": "duplicate-form"
+                      },
+                      {
+                        "title": "Delete Form",
+                        "key": "delete-form"
+                      },
+                      {
+                        "title": "Embed a Form",
+                        "key": "embed-form"
+                      },
+                      {
+                        "title": "View Responses",
+                        "key": "view-form-responses"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Form Fields",
+                    "menu": [
+                      {
+                        "title": "Field: Address",
+                        "key": "form-field-address"
+                      },
+                      {
+                        "title": "Field: Date / Time",
+                        "key": "form-field-date-time"
+                      },
+                      {
+                        "title": "Field: Dropdown",
+                        "key": "form-field-dropdown"
+                      },
+                      {
+                        "title": "Field: Email",
+                        "key": "form-field-email"
+                      },
+                      {
+                        "title": "Field: E-Signature",
+                        "key": "form-field-esignature"
+                      },
+                      {
+                        "title": "Field: Multi-Line Text",
+                        "key": "form-field-multi-line-text"
+                      },
+                      {
+                        "title": "Field: Multiple Choice",
+                        "key": "form-field-multiple-choice"
+                      },
+                      {
+                        "title": "Field: Name",
+                        "key": "form-field-name"
+                      },
+                      {
+                        "title": "Field: Number",
+                        "key": "form-field-number"
+                      },
+                      {
+                        "title": "Field: Phone Number",
+                        "key": "form-field-phone-number"
+                      },
+                      {
+                        "title": "Field: Single-Line Text",
+                        "key": "form-field-single-line-text"
+                      },
+                      {
+                        "title": "Field: Static Text",
+                        "key": "form-field-static-text"
+                      },
+                      {
+                        "title": "Field: Terms and Conditions",
+                        "key": "form-field-terms-conditions"
+                      },
+                      {
+                        "title": "Field: URL / Website",
+                        "key": "form-field-url-website"
+                      },
+                      {
+                        "title": "Field: Submit",
+                        "key": "form-field-submit"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hidden Fields",
+                    "key": "about-hidden-fields"
+                  },
+                  {
+                    "title": "Save Form Responses to Structured Content",
+                    "key": "save-form-responses-to-structured-content"
+                  }
+                ]
+              },
+              {
+                "title": "Content Fields vs Form Fields",
+                "key": "content-managers-fields-overview"
+              }
+            ]
+          },
+          {
+            "title": "Creating Content with Modules",
+            "key": "content-managers-content-with-modules-overview",
+            "menu": [
+              {
+                "title": "Add Module",
+                "key": "add-module-to-page-pb-all"
+              },
+              {
+                "title": "Add Content to Page Quickly",
+                "key": "add-content-to-page-quickly-pb-all"
+              },
+              {
+                "title": "Configure Module",
+                "key": "configure-module-on-page-pb-all"
+              },
+              {
+                "title": "Delete Module",
+                "key": "delete-module-from-page-pb-all"
+              },
+              {
+                "title": "Restore Deleted Modules",
+                "key": "restore-deleted-modules"
+              },
+              {
+                "title": "Purge Deleted Modules",
+                "key": "purge-deleted-modules"
+              },
+              {
+                "title": "Create Article in Publisher",
+                "key": "create-article-publisher"
+              }
+            ]
+          },
+          {
+            "title": "Empty Recycle Bin",
+            "key": "empty-recycle-bin"
+          }
+        ]
+      },
+      {
+        "title": "Securing Your Site",
+        "key": "content-managers-security-overview",
+        "menu": [
+          {
+            "title": "User Accounts",
+            "key": "content-managers-user-accounts-overview"
+          },
+          {
+            "title": "Role-Based Access",
+            "key": "content-managers-roles-overview"
+          }
+        ]
+      },
+      {
+        "title": "References",
+        "key": "content-manager-references",
+        "menu": [
+          {
+            "title": "DNN Solutions",
+            "key": "dnn-overview"
+          },
+          {
+            "title": "Control Bar to Persona Bar",
+            "key": "control-bar-to-persona-bar"
+          },
+          {
+            "title": "Persona Bar by Role",
+            "key": "persona-bar-by-role"
+          },
+          {
+            "title": "Included Modules",
+            "key": "content-managers-included-modules-overview",
+            "menu": [
+              {
+                "title": "Social Modules",
+                "key": "social-modules",
+                "menu": [
+                  {
+                    "title": "Activities",
+                    "key": "module-activities"
+                  },
+                  {
+                    "title": "Activity Stream",
+                    "key": "module-activity-stream",
+                    "menu": [
+                      {
+                        "title": "Configure Activity Stream",
+                        "key": "config-module-activity-stream"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Answers",
+                    "key": "module-answers",
+                    "menu": [
+                      {
+                        "title": "Configure Answers",
+                        "key": "config-module-answers"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Blogs",
+                    "key": "module-blogs",
+                    "menu": [
+                      {
+                        "title": "Configure Blogs",
+                        "key": "config-module-blogs"
+                      },
+                      {
+                        "title": "Configure Calendar",
+                        "key": "config-module-calendar"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Challenges",
+                    "key": "module-challenges",
+                    "menu": [
+                      {
+                        "title": "Configure Challenges",
+                        "key": "config-module-challenges"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Discussions",
+                    "key": "module-discussions",
+                    "menu": [
+                      {
+                        "title": "Configure Discussions",
+                        "key": "config-module-discussions"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Group Directory",
+                    "key": "module-group-directory",
+                    "menu": [
+                      {
+                        "title": "Configure Group Directory",
+                        "key": "config-module-group-directory"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Group Spaces",
+                    "key": "module-group-spaces",
+                    "menu": [
+                      {
+                        "title": "Configure Group Spaces",
+                        "key": "config-module-group-spaces"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Ideas",
+                    "key": "module-ideas",
+                    "menu": [
+                      {
+                        "title": "Configure Ideas",
+                        "key": "config-module-ideas"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Journal",
+                    "key": "module-journal",
+                    "menu": [
+                      {
+                        "title": "Configure Journal",
+                        "key": "config-module-journal"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Latest Challenges",
+                    "key": "module-latest-challenges",
+                    "menu": [
+                      {
+                        "title": "Configure Latest Challenges",
+                        "key": "config-module-latest-challenges"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Leaderboard",
+                    "key": "module-leaderboard",
+                    "menu": [
+                      {
+                        "title": "Configure Leaderboard",
+                        "key": "config-module-leaderboard"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Member Directory",
+                    "key": "module-member-directory",
+                    "menu": [
+                      {
+                        "title": "Configure Member Directory",
+                        "key": "config-module-member-directory"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Message Center",
+                    "key": "module-message-center"
+                  },
+                  {
+                    "title": "My Status",
+                    "key": "module-my-status",
+                    "menu": [
+                      {
+                        "title": "Configure My Status",
+                        "key": "config-module-my-status"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Profile Dashboard",
+                    "key": "module-profile-dashboard"
+                  },
+                  {
+                    "title": "Social Groups",
+                    "key": "module-social-groups",
+                    "menu": [
+                      {
+                        "title": "Configure Social Groups",
+                        "key": "config-module-social-groups"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Related Content",
+                    "key": "module-related-content",
+                    "menu": [
+                      {
+                        "title": "Configure Related Content",
+                        "key": "config-module-related-content"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Social Events",
+                    "key": "module-social-events",
+                    "menu": [
+                      {
+                        "title": "Configure Social Events",
+                        "key": "config-module-social-events"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Social Sharing",
+                    "key": "module-social-sharing",
+                    "menu": [
+                      {
+                        "title": "Configure Social Sharing",
+                        "key": "config-module-social-sharing"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "User Badges",
+                    "key": "module-user-badges",
+                    "menu": [
+                      {
+                        "title": "Configure User Badges",
+                        "key": "config-module-user-badges"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Wiki",
+                    "key": "module-wiki",
+                    "menu": [
+                      {
+                        "title": "Configure Wiki",
+                        "key": "config-module-wiki"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "General Content Modules",
+                "key": "general-content-modules",
+                "menu": [
+                  {
+                    "title": "Console",
+                    "key": "module-console",
+                    "menu": [
+                      {
+                        "title": "Configure Console",
+                        "key": "config-module-console"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Content Layout",
+                    "key": "module-content-layout"
+                  },
+                  {
+                    "title": "HTML (Text)",
+                    "key": "module-html-text",
+                    "menu": [
+                      {
+                        "title": "Configure HTML (Text)",
+                        "key": "config-module-html-text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Search Modules",
+                "key": "search-modules",
+                "menu": [
+                  {
+                    "title": "Search Results",
+                    "key": "module-search-results",
+                    "menu": [
+                      {
+                        "title": "Configure Search Results",
+                        "key": "config-module-search-results"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Site Management Modules",
+                "key": "site-management-modules",
+                "menu": [
+                  {
+                    "title": "Sitemap",
+                    "key": "module-sitemap"
+                  }
+                ]
+              },
+              {
+                "title": "User Management Modules",
+                "key": "user-management-modules",
+                "menu": [
+                  {
+                    "title": "View Profile",
+                    "key": "module-view-profile",
+                    "menu": [
+                      {
+                        "title": "Configure View Profile",
+                        "key": "config-module-view-profile"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Creation Modules",
+                "key": "creation-modules",
+                "menu": [
+                  {
+                    "title": "Module Creator",
+                    "key": "module-module-creator"
+                  },
+                  {
+                    "title": "Publisher",
+                    "key": "module-publisher",
+                    "menu": [
+                      {
+                        "title": "Configure Publisher",
+                        "key": "config-module-publisher"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "DNN Requirements",
+            "key": "requirements"
+          },
+          {
+            "title": "Product Versions",
+            "key": "product-versions"
+          },
+          {
+            "title": "DNN License",
+            "key": "dnn-license"
+          },
+          {
+            "title": "DNN Security",
+            "key": "DNN-security"
+          },
+          {
+            "title": "More Resources",
+            "key": "more-resources"
+          }
+        ]
+      },
+      {
+        "title": "Glossary",
+        "key": "glossary"
+      }
+    ]
+  },
+  {
+    "title": "Developers",
+    "key": "developers-overview",
+    "menu": [
+      {
+        "title": "What's New in Features",
+        "key": "whats-new-dnn"
+      },
+      {
+        "title": "Setting Up DNN",
+        "key": "developers-setup-overview",
+        "menu": [
+          {
+            "title": "Set Up the DNN Folder",
+            "key": "set-up-dnn-folder"
+          },
+          {
+            "title": "Set Up IIS",
+            "key": "set-up-iis"
+          },
+          {
+            "title": "Set Up SQL",
+            "key": "set-up-sql"
+          },
+          {
+            "title": "Run Installation Wizard",
+            "key": "run-installation-wizard"
+          },
+          {
+            "title": "Upgrade Evoq",
+            "key": "upgrade-evoq"
+          }
+        ]
+      },
+      {
+        "title": "About Microservices",
+        "key": "developers-microservices-overview",
+        "menu": [
+          {
+            "title": "Creating Apps That Use Microservices",
+            "key": "creating-apps-that-use-microservices"
+          }
+        ]
+      },
+      {
+        "title": "Liquid Content™ Microservice",
+        "key": "developers-structured-content-overview",
+        "menu": [
+          {
+            "title": "Visualizer Templates",
+            "key": "visualizer-templates",
+            "menu": [
+              {
+                "title": "Basics",
+                "key": "visualizer-templates-basics"
+              },
+              {
+                "title": "Filters",
+                "key": "visualizer-templates-filters"
+              },
+              {
+                "title": "Date / Time",
+                "key": "visualizer-templates-datetime"
+              }
+            ]
+          },
+          {
+            "title": "Liquid Content™ APIs",
+            "key": "about-structured-content-apis",
+            "menu": [
+              {
+                "title": "Content Types",
+                "key": "about-structured-content-content-type-apis"
+              },
+              {
+                "title": "Content Items",
+                "key": "about-structured-content-content-item-apis"
+              },
+              {
+                "title": "PublishedContent Items",
+                "key": "about-structured-content-published-content-item-apis"
+              },
+              {
+                "title": "API Responses to GET",
+                "key": "about-structured-content-api-get-responses"
+              },
+              {
+                "title": "Content Type Fields for POST and PUT",
+                "key": "about-structured-content-api-post-put-type-fields"
+              }
+            ]
+          },
+          {
+            "title": "Searched Fields",
+            "key": "searched-fields"
+          },
+          {
+            "title": "Results Pagination",
+            "key": "api-results-pagination"
+          },
+          {
+            "title": "Examples: Liquid Content APIs",
+            "key": "examples-structured-content-apis"
+          }
+        ]
+      },
+      {
+        "title": "About Modules",
+        "key": "developers-about-modules-overview",
+        "menu": [
+          {
+            "title": "Common Module Features",
+            "key": "module-features"
+          },
+          {
+            "title": "Module Architecture",
+            "key": "module-architecture"
+          },
+          {
+            "title": "Creating a Module",
+            "key": "developers-creating-modules-overview",
+            "menu": [
+              {
+                "title": "Use Module Creator",
+                "key": "use-module-creator"
+              },
+              {
+                "title": "Create Using Templates",
+                "key": "create-module-using-templates"
+              },
+              {
+                "title": "Start VS Project with Templates",
+                "key": "start-vs-project-with-templates"
+              },
+              {
+                "title": "Test Your Module",
+                "key": "test-module"
+              },
+              {
+                "title": "Pack Your Extension",
+                "key": "pack-extension"
+              },
+              {
+                "title": "Install an Extension",
+                "key": "install-extension"
+              }
+            ]
+          },
+          {
+            "title": "DNN Module APIs",
+            "key": "dnn"
+          },
+          {
+            "title": "DNN Manifest",
+            "key": "dnn-manifest-schema"
+          },
+          {
+            "title": "About the EVS",
+            "key": "about-evs"
+          }
+        ]
+      },
+      {
+        "title": "MVC Modules",
+        "key": "mvc-module-development",
+        "menu": [
+          {
+            "title": "MVC Module Project Overview",
+            "key": "developers-mvc-modules-overview"
+          },
+          {
+            "title": "MVC Controller",
+            "key": "mvc-module-mvccontroller"
+          },
+          {
+            "title": "MVC Views",
+            "key": "mvc-module-mvcviews"
+          },
+          {
+            "title": "Create an MVC Unit Test",
+            "key": "mvc-module-unittest"
+          },
+          {
+            "title": "Unsupported MVC Features",
+            "key": "unsupported-mvc-features"
+          }
+        ]
+      },
+      {
+        "title": "SPA Modules",
+        "key": "spa-module-development"
+      },
+      {
+        "title": "Web Forms Modules",
+        "key": "web-forms-module-development"
+      },
+      {
+        "title": "Security",
+        "key": "developers-security-overview",
+        "menu": [
+          {
+            "title": "JWT Authentication",
+            "key": "developers-jwt-overview",
+            "menu": [
+              {
+                "title": "Set Up JWT Auth",
+                "key": "setup-jwt-for-auth"
+              },
+              {
+                "title": "JWT User Credentials",
+                "key": "jwt-user-credentials"
+              },
+              {
+                "title": "JWT Server Response",
+                "key": "jwt-server-response"
+              },
+              {
+                "title": "JWT Access Token",
+                "key": "jwt-access-token"
+              },
+              {
+                "title": "JWT Page Request",
+                "key": "jwt-page-request"
+              },
+              {
+                "title": "JWT Auth Handler",
+                "key": "jwt-auth-handler"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "References",
+        "key": "developer-references",
+        "menu": [
+          {
+            "title": "DNN Solutions",
+            "key": "dnn-overview"
+          },
+          {
+            "title": "Control Bar to Persona Bar",
+            "key": "control-bar-to-persona-bar"
+          },
+          {
+            "title": "Persona Bar by Role",
+            "key": "persona-bar-by-role"
+          },
+          {
+            "title": "Providers Reference",
+            "key": "providers"
+          },
+          {
+            "title": "Included Modules",
+            "key": "developers-included-modules-overview",
+            "menu": [
+              {
+                "title": "Social Modules",
+                "key": "social-modules",
+                "menu": [
+                  {
+                    "title": "Activities",
+                    "key": "module-activities"
+                  },
+                  {
+                    "title": "Activity Stream",
+                    "key": "module-activity-stream",
+                    "menu": [
+                      {
+                        "title": "Configure Activity Stream",
+                        "key": "config-module-activity-stream"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Answers",
+                    "key": "module-answers",
+                    "menu": [
+                      {
+                        "title": "Configure Answers",
+                        "key": "config-module-answers"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Blogs",
+                    "key": "module-blogs",
+                    "menu": [
+                      {
+                        "title": "Configure Blogs",
+                        "key": "config-module-blogs"
+                      },
+                      {
+                        "title": "Configure Calendar",
+                        "key": "config-module-calendar"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Challenges",
+                    "key": "module-challenges",
+                    "menu": [
+                      {
+                        "title": "Configure Challenges",
+                        "key": "config-module-challenges"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Discussions",
+                    "key": "module-discussions",
+                    "menu": [
+                      {
+                        "title": "Configure Discussions",
+                        "key": "config-module-discussions"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Group Directory",
+                    "key": "module-group-directory",
+                    "menu": [
+                      {
+                        "title": "Configure Group Directory",
+                        "key": "config-module-group-directory"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Group Spaces",
+                    "key": "module-group-spaces",
+                    "menu": [
+                      {
+                        "title": "Configure Group Spaces",
+                        "key": "config-module-group-spaces"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Ideas",
+                    "key": "module-ideas",
+                    "menu": [
+                      {
+                        "title": "Configure Ideas",
+                        "key": "config-module-ideas"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Journal",
+                    "key": "module-journal",
+                    "menu": [
+                      {
+                        "title": "Configure Journal",
+                        "key": "config-module-journal"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Latest Challenges",
+                    "key": "module-latest-challenges",
+                    "menu": [
+                      {
+                        "title": "Configure Latest Challenges",
+                        "key": "config-module-latest-challenges"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Leaderboard",
+                    "key": "module-leaderboard",
+                    "menu": [
+                      {
+                        "title": "Configure Leaderboard",
+                        "key": "config-module-leaderboard"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Member Directory",
+                    "key": "module-member-directory",
+                    "menu": [
+                      {
+                        "title": "Configure Member Directory",
+                        "key": "config-module-member-directory"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Message Center",
+                    "key": "module-message-center"
+                  },
+                  {
+                    "title": "My Status",
+                    "key": "module-my-status",
+                    "menu": [
+                      {
+                        "title": "Configure My Status",
+                        "key": "config-module-my-status"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Profile Dashboard",
+                    "key": "module-profile-dashboard"
+                  },
+                  {
+                    "title": "Social Groups",
+                    "key": "module-social-groups",
+                    "menu": [
+                      {
+                        "title": "Configure Social Groups",
+                        "key": "config-module-social-groups"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Related Content",
+                    "key": "module-related-content",
+                    "menu": [
+                      {
+                        "title": "Configure Related Content",
+                        "key": "config-module-related-content"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Social Events",
+                    "key": "module-social-events",
+                    "menu": [
+                      {
+                        "title": "Configure Social Events",
+                        "key": "config-module-social-events"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Social Sharing",
+                    "key": "module-social-sharing",
+                    "menu": [
+                      {
+                        "title": "Configure Social Sharing",
+                        "key": "config-module-social-sharing"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "User Badges",
+                    "key": "module-user-badges",
+                    "menu": [
+                      {
+                        "title": "Configure User Badges",
+                        "key": "config-module-user-badges"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Wiki",
+                    "key": "module-wiki",
+                    "menu": [
+                      {
+                        "title": "Configure Wiki",
+                        "key": "config-module-wiki"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "General Content Modules",
+                "key": "general-content-modules",
+                "menu": [
+                  {
+                    "title": "Console",
+                    "key": "module-console",
+                    "menu": [
+                      {
+                        "title": "Configure Console",
+                        "key": "config-module-console"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Content Layout",
+                    "key": "module-content-layout"
+                  },
+                  {
+                    "title": "HTML (Text)",
+                    "key": "module-html-text",
+                    "menu": [
+                      {
+                        "title": "Configure HTML (Text)",
+                        "key": "config-module-html-text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Search Modules",
+                "key": "search-modules",
+                "menu": [
+                  {
+                    "title": "Search Results",
+                    "key": "module-search-results",
+                    "menu": [
+                      {
+                        "title": "Configure Search Results",
+                        "key": "config-module-search-results"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Site Management Modules",
+                "key": "site-management-modules",
+                "menu": [
+                  {
+                    "title": "Sitemap",
+                    "key": "module-sitemap"
+                  }
+                ]
+              },
+              {
+                "title": "User Management Modules",
+                "key": "user-management-modules",
+                "menu": [
+                  {
+                    "title": "View Profile",
+                    "key": "module-view-profile",
+                    "menu": [
+                      {
+                        "title": "Configure View Profile",
+                        "key": "config-module-view-profile"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Creation Modules",
+                "key": "creation-modules",
+                "menu": [
+                  {
+                    "title": "Module Creator",
+                    "key": "module-module-creator"
+                  },
+                  {
+                    "title": "Publisher",
+                    "key": "module-publisher",
+                    "menu": [
+                      {
+                        "title": "Configure Publisher",
+                        "key": "config-module-publisher"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "DNN Requirements",
+            "key": "requirements"
+          },
+          {
+            "title": "Product Versions",
+            "key": "product-versions"
+          },
+          {
+            "title": "DNN License",
+            "key": "dnn-license"
+          },
+          {
+            "title": "DNN Security",
+            "key": "DNN-security"
+          },
+          {
+            "title": "More Resources",
+            "key": "more-resources"
+          }
+        ]
+      },
+      {
+        "title": "Glossary",
+        "key": "glossary"
+      }
+    ]
+  }
+]
