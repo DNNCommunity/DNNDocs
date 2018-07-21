@@ -1,9 +1,16 @@
 ---
 title: Prompt - Create a User
-slug: creating-a-user-with-prompt
-dnnversion: 09.02.00
+topic: creating-a-user
+interface: prompt
+dnnversion: 09.03.00
+deprecated: 09.04.00 (optional)
+superceded: /dnn-analytics (topic - optional)
 dnnedition: Platform
+locale: en
 draft: true
+related: [What is Prompt?](topic-entry) 
+         [Create a User Programmatically](topic-entry)
+tags: user, prompt
 ---
 
 # Creating a User with Prompt
