@@ -1,0 +1,76 @@
+---
+topic: create-site
+locale: en
+title: Create a Site
+dnneditions: Platform,Evoq Content,Evoq Engage
+dnnversion: 09.02.00
+parent-topic: administrators-sites-overview
+related-topics: edit-site-properties,view-site,delete-site,move-site-to-another-server
+---
+
+# Create a Site
+
+## Prerequisites
+
+*   **A host / super user account.** Hosts have full permissions to all sites in the DNN instance.
+
+## Steps
+
+1.  Go to Persona Bar \> Manage \> Sites .
+    
+    ![Persona Bar > Manage > Sites](img/scr-pbar-host-Manage-E91.png)
+    
+    ➊
+    
+    ➋
+    
+2.  Go to the Sites tab.
+    
+      
+    
+    ![](img/scr-Sites-SitesTab-E90.png)
+    
+      
+    
+3.  Click/Tap Add New Site.
+    
+      
+    
+    ![](img/scr-Sites-AddNewSite-E90.png)
+    
+      
+    
+4.  Enter the title for the new site, and choose the template to use.
+    
+      
+    
+    ![](img/scr-AddNewSite-E90.png)
+    
+      
+    
+5.  (Optional) Change the site type.
+    
+    *   Domain. The site's root folder is at the root of the domain.
+    *   Directory. The site's root folder is a subfolder of the domain. Site URL is propagated with the default Site URL, which includes the domain name and the subfolder name.
+    
+      
+    
+    ![](img/scr-AddNewSite-SiteTypeURL-E90.png)
+    
+      
+    
+6.  (Optional) Create a new administrator account for the site.
+    
+      
+    
+    ![](img/scr-AddNewSite-NewAdministrator-E90.png)
+    
+      
+    
+    1.  Disable (Off) Assign Current User as Administrator.
+    2.  Enter the information for the new administrator account.
+7.  Click/Tap Create Site.
+
+## Results
+
+The list of sites is displayed, including the new site.

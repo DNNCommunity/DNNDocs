@@ -1,0 +1,39 @@
+---
+topic: view-site-logs
+locale: en
+title: View Site Logs
+dnneditions: Platform,Evoq Content,Evoq Engage
+dnnversion: 09.02.00
+parent-topic: administrators-sitelogs-overview
+related-topics: view-entry-details,clear-log,delete-entries,share-entries,add-event-type,edit-logged-event-type,delete-logged-event-type,toggle-logging-for-event-type,configure-notices
+---
+
+# View Site Logs
+
+## Prerequisites
+
+*   **An administrator account for the site.** Administrators have full permissions to the specific site.
+
+## Steps
+
+1.  Go to Persona Bar \> Manage \> Admin Logs.
+    
+    ![Persona Bar > Manage > Admin Logs](img/scr-pbar-host-Manage-E91.png)
+    
+    ➊
+    
+    ➋
+    
+2.  Go to the Admin Logs tab.
+    
+    ![Admin Logs](img/scr-pbtabs-host-Manage-AdminLogs-AdminLogs-E90.png)
+    
+3.  To filter the entries, use the dropdown(s) to choose the site and/or logged event type (log type).
+    
+      
+    
+    ![Dropdowns to choose the site and/or logged event type](img/scr-AdminLogs-adminlogslist-filters-E90.gif)
+    
+      
+    
+    Note: Hosts/Superusers can filter by site and by event type. Administrators can view only their own site's log and can filter by event type only.

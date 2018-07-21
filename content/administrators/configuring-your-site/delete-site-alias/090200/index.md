@@ -1,0 +1,37 @@
+---
+topic: delete-site-alias
+locale: en
+title: Delete a Site Alias
+dnneditions: Platform,Evoq Content,Evoq Engage
+dnnversion: 09.02.00
+parent-topic: administrators-configuring-your-site-overview
+related-topics: configure-url-mapping-site-aliases,add-site-alias,edit-site-alias,change-primary-site-alias
+---
+
+# Delete a Site Alias
+
+Note: The current site alias cannot be edited, deleted, or set as primary. Log into the site using a different site alias to edit or delete the currently used alias.
+
+## Prerequisites
+
+*   **A host / super user account.** Hosts have full permissions to all sites in the DNN instance.
+
+## Steps
+
+1.  Go to Persona Bar \> Settings \> Site Settings.
+    
+    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    
+    ➊
+    
+    ➋
+    
+2.  Go to the Site Behavior tab, and then the Site Aliases subtab.
+    
+    ![Site Behavior > Site Aliases](img/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-SiteAliases-E90.png)
+    
+3.  Click/Tap the trash icon for the site alias. Confirm.
+    
+      
+    
+    ![Site Settings > Site Behavior > Site Aliases — Delete](img/scr-SiteSettings-SiteBehavior-SiteAliases-Delete-E90.png)

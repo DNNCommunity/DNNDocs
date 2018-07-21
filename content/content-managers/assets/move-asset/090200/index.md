@@ -1,0 +1,35 @@
+---
+topic: move-asset
+locale: en
+title: Move an Asset to Another Folder
+dnneditions: Platform,Evoq Content,Evoq Engage
+dnnversion: 09.02.00
+parent-topic: content-managers-assets-overview
+related-topics: add-assets,edit-asset-properties,edit-asset-permissions,copy-asset,download-asset,delete-asset
+---
+
+# Move an Asset to Another Folder
+
+## Steps
+
+1.  Go to Persona Bar \> Content \> Assets.
+    
+    ![Persona Bar > Content > Assets](img/scr-pbar-cmg-Content-E91.png)
+    
+    ➊
+    
+    ➋
+    
+2.  Hover over the asset card in the grid to expose the vertical icon bar. Click/Tap the move icon.
+    
+      
+    
+    ![Asset card iconbar - move](img/scr-Assets-assetcard-iconbar-move-E90.png)
+    
+      
+    
+3.  Choose the target folder. Click/Tap Move.
+    
+      
+    
+    ![Move File To folder selector](img/scr-Assets-MoveFileTo.png)
