@@ -3,6 +3,7 @@
 
 # dependencies
 /node_modules
+Dnn.Platform/
 
 # testing
 /coverage
@@ -10,6 +11,9 @@
 # production
 /dist
 /tmp
+/obj
+/_site
+/api
 
 # misc
 .DS_Store
