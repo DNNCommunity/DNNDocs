@@ -28,4 +28,4 @@ The DNN [Extension Verification Service](http://evs.dnnsoftware.com) (EVS) perfo
 
   
 
-![EVS website](img/scr-EVS.png)
+![EVS website](/images/scr-EVS.png)
