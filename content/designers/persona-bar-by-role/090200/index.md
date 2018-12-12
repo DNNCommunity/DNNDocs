@@ -19,7 +19,7 @@ The Persona Bar varies according to the product and to the permissions granted t
 
   
 
-![Persona Bar menus in Evoq Engage 9.0 for host](img/scr-pbar-host.gif)
+![Persona Bar menus in Evoq Engage 9.0 for host](/images/scr-pbar-host.gif)
 
   
 
