@@ -21,7 +21,7 @@ Evoq
 
  
 
-2017 Jul 05
+## 2017 Jul 05
 
 9.1.1 [GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1)
 
@@ -29,7 +29,7 @@ Evoq
 
 [Release Notes](relnotes-2017-jul-05)
 
-2017 Apr 26
+## 2017 Apr 26
 
 9.1.0 [GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.0)
 
@@ -37,7 +37,7 @@ Evoq
 
 [Release Notes](relnotes-2017-apr-26)
 
-2017 Jan 25
+## 2017 Jan 25
 
 9.0.1 [GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.0.1)
 
@@ -45,7 +45,7 @@ Evoq
 
 [Release Notes](relnotes-2017-jan-25)
 
-2016 Dec 09
+## 2016 Dec 09
 
 9.0.0 [GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.0.0)
 
@@ -53,7 +53,7 @@ Evoq
 
 [Release Notes](relnotes-2016-dec-09)
 
-2016 Aug 22
+## 2016 Aug 22
 
 8.0.4 [GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v8.0.4)
 
@@ -61,7 +61,7 @@ Evoq
 
 [Release Notes](relnotes-2016-aug-22)
 
-2016 May 26
+## 2016 May 26
 
 8.0.3 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/621771)
 
@@ -69,7 +69,7 @@ Evoq
 
 [Release Notes](relnotes-2016-may-26)
 
-2016 Apr 18
+## 2016 Apr 18
 
 8.0.2 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/620964)
 
@@ -77,7 +77,7 @@ Evoq
 
 [Release Notes](relnotes-2016-apr-18)
 
-2016 Mar 16
+## 2016 Mar 16
 
 8.0.1 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/619412)
 
@@ -85,7 +85,7 @@ Evoq
 
 [Release Notes](relnotes-2016-mar-16)
 
-2016 Jan 14
+## 2016 Jan 14
 
 8.0.0 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/619410)
 
@@ -93,7 +93,7 @@ Evoq
 
 [Release Notes](relnotes-2016-jan-14)
 
-2015 Oct 5
+## 2015 Oct 5
 
 7.4.2 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/617762)
 
@@ -101,7 +101,7 @@ Evoq
 
 [Release Notes](relnotes-2015-oct-05)
 
-2015 May 26
+## 2015 May 26
 
 7.4.1 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/615317)
 
@@ -109,7 +109,7 @@ Evoq
 
 [Release Notes](relnotes-2015-may-26)
 
-2015 Feb 4
+## 2015 Feb 4
 
 7.4.0 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/611324)
 
@@ -117,7 +117,7 @@ Evoq
 
 [Release Notes](relnotes-2015-feb-04)
 
-2014 Nov 12
+## 2014 Nov 12
 
 7.3.4 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/137325)
 
@@ -125,7 +125,7 @@ Evoq
 
 [Release Notes](relnotes-2014-nov-12)
 
-2014 Oct 1
+## 2014 Oct 1
 
 7.3.3 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/134695)
 
@@ -133,7 +133,7 @@ Evoq
 
 [Release Notes](relnotes-2014-oct-01)
 
-2014 Aug 14
+## 2014 Aug 14
 
 7.3.2 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/127592)
 
@@ -141,7 +141,7 @@ Evoq
 
 [Release Notes](relnotes-2014-aug-14)
 
-2014 Jun 26
+## 2014 Jun 26
 
 7.3.1 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/123913)
 
@@ -149,7 +149,7 @@ Evoq
 
 [Release Notes](relnotes-2014-jun-26)
 
-2014 Jun 11
+## 2014 Jun 11
 
 7.3.0 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/121844)
 
@@ -157,7 +157,7 @@ Evoq
 
 [Release Notes](relnotes-2014-jun-11)
 
-2014 Mar 19
+## 2014 Mar 19
 
 7.2.2 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/119857)
 
@@ -165,7 +165,7 @@ Evoq
 
 [Release Notes](relnotes-2014-mar-19)
 
-2014 Jan 21
+## 2014 Jan 21
 
 7.2.1 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/117545)
 
@@ -173,7 +173,7 @@ Evoq
 
 [Release Notes](relnotes-2014-jan-21)
 
-2013 Dec 4
+## 2013 Dec 4
 
 7.2.0 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/115680)
 
@@ -181,7 +181,7 @@ Evoq
 
 [Release Notes](relnotes-2013-dec-04)
 
-2013 Sep 24
+## 2013 Sep 24
 
 7.1.2 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/112531)
 
@@ -189,7 +189,7 @@ Evoq
 
 [Release Notes](relnotes-2013-sep-24)
 
-2013 Aug 13
+## 2013 Aug 13
 
 7.1.1 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/110757)
 
@@ -197,7 +197,7 @@ Evoq
 
 [Release Notes](relnotes-2013-aug-13)
 
-2013 Jul 9
+## 2013 Jul 9
 
 7.1.0 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/108560)
 
@@ -205,7 +205,7 @@ Evoq
 
 [Release Notes](relnotes-2013-jul-09)
 
-2013 May 1
+## 2013 May 1
 
 7.0.6 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/105676)
 
@@ -213,7 +213,7 @@ Evoq
 
 [Release Notes](relnotes-2013-may-01)
 
-2013 Apr 3
+## 2013 Apr 3
 
 7.0.5 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/103868)
 
@@ -221,7 +221,7 @@ Evoq
 
 [Release Notes](relnotes-2013-apr-03)
 
-2013 Mar 6
+## 2013 Mar 6
 
 7.0.4 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/102566)
 
@@ -229,7 +229,7 @@ Evoq
 
 [Release Notes](relnotes-2013-mar-06)
 
-2013 Feb 6
+## 2013 Feb 6
 
 7.0.3 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/101046)
 
@@ -237,7 +237,7 @@ Evoq
 
 [Release Notes](relnotes-2013-feb-06)
 
-2013 Jan 11
+## 2013 Jan 11
 
 7.0.2 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/100158)
 
@@ -245,7 +245,7 @@ Evoq
 
 [Release Notes](relnotes-2013-jan-11)
 
-2013 Jan 9
+## 2013 Jan 9
 
 7.0.1 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/100069)
 
@@ -253,7 +253,7 @@ Evoq
 
 [Release Notes](relnotes-2013-jan-09)
 
-2012 Nov 28
+## 2012 Nov 28
 
 7.0.0 [CodePlex](http://dotnetnuke.codeplex.com/releases/view/97017)
 
