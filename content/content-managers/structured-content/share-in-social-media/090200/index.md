@@ -18,7 +18,7 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,del
 
 1.  Go to Persona Bar \> Content \> Content Library.
     
-    ![Persona Bar > Content > Content Library](img/scr-pbar-cmg-Content-E91.png)
+    ![Persona Bar > Content > Content Library](/images/scr-pbar-cmg-Content-E91.png)
     
     ➊
     
@@ -26,7 +26,7 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,del
     
 2.  Go to the Content tab.
     
-    ![Content](img/scr-pbtabs-all-Content-ContentLibrary-Content-E91.png)
+    ![Content](/images/scr-pbtabs-all-Content-ContentLibrary-Content-E91.png)
     
 3.  Search for the content item in the list.
     
@@ -34,7 +34,7 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,del
     
       
     
-    ![Sort, search, and filter UI](img/scr-ContentItems-searchsortfilter-E91.gif)
+    ![Sort, search, and filter UI](/images/scr-ContentItems-searchsortfilter-E91.gif)
     
       
     
@@ -42,7 +42,7 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,del
     
       
     
-    ![Content tab > Share icon](img/scr-ContentItems-item-share-icon-E91.png)
+    ![Content tab > Share icon](/images/scr-ContentItems-item-share-icon-E91.png)
     
       
     
@@ -50,7 +50,7 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,del
     
       
     
-    ![Content tab > Share > social media icons](img/scr-ContentItems-item-share-socialmedia-icons-E91.png)
+    ![Content tab > Share > social media icons](/images/scr-ContentItems-item-share-socialmedia-icons-E91.png)
     
       
     
@@ -58,7 +58,7 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,del
     
       
     
-    ![Content tab > Share > social media > prepare post](img/scr-ContentItems-item-share-content-with-social-channels-E91.gif)
+    ![Content tab > Share > social media > prepare post](/images/scr-ContentItems-item-share-content-with-social-channels-E91.gif)
     
       
     

@@ -18,7 +18,7 @@ related-topics: authorize-user,assign-user-to-multiple-roles,remove-user-from-mu
 
 1.  Go to Persona Bar \> Manage \> Users.
     
-    ![Persona Bar > Manage > Users](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Users](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -28,7 +28,7 @@ related-topics: authorize-user,assign-user-to-multiple-roles,remove-user-from-mu
     
       
     
-    ![Add User button](img/scr-UserList-AddUser-E90.png)
+    ![Add User button](/images/scr-UserList-AddUser-E90.png)
     
       
     
@@ -36,7 +36,7 @@ related-topics: authorize-user,assign-user-to-multiple-roles,remove-user-from-mu
     
       
     
-    ![Add New User](img/scr-AddNewUserInfo-E90.png)
+    ![Add New User](/images/scr-AddNewUserInfo-E90.png)
     
       
     

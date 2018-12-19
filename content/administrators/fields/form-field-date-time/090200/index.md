@@ -14,7 +14,7 @@ related-topics: form-field-address,form-field-dropdown,form-field-email,form-fie
 
   
 
-![General Settings for Date / Time field](img/scr-FormField-DateTime-generalsettings.gif)
+![General Settings for Date / Time field](/images/scr-FormField-DateTime-generalsettings.gif)
 
   
 
@@ -55,7 +55,7 @@ If enabled (On), the time is stored with the specified timezone.
 
   
 
-![Help settings for Date and Time field](img/scr-FormField-DateTime-helptext.gif)
+![Help settings for Date and Time field](/images/scr-FormField-DateTime-helptext.gif)
 
   
 
@@ -75,12 +75,12 @@ If enabled (On) and the user hovers/clicks/taps over the information icon (i) ne
 
   
 
-![Date validation settings for Date and Time field](img/scr-FormField-DateTime-validationdate.gif)
+![Date validation settings for Date and Time field](/images/scr-FormField-DateTime-validationdate.gif)
 
   
   
 
-![Time validation settings for Date and Time field](img/scr-FormField-DateTime-validationtime.gif)
+![Time validation settings for Date and Time field](/images/scr-FormField-DateTime-validationtime.gif)
 
   
 

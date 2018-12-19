@@ -19,7 +19,7 @@ links: ["[Google: Setting Up Event Tracking](https://developers.google.com/analy
 
 1.  Go to Persona Bar \> Settings \> SEO.
     
-    ![Persona Bar > Settings > SEO](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > SEO](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -29,7 +29,7 @@ links: ["[Google: Setting Up Event Tracking](https://developers.google.com/analy
     
       
     
-    ![SEO Sitemap settings](img/scr-SEO-SiteMapSettings-TitleGeneral-E90.png)
+    ![SEO Sitemap settings](/images/scr-SEO-SiteMapSettings-TitleGeneral-E90.png)
     
       
     
@@ -38,7 +38,7 @@ links: ["[Google: Setting Up Event Tracking](https://developers.google.com/analy
         
           
         
-        ![Site Submission > Search Engine](img/scr-SEO-SiteMapSettings-Submission-SearchEngine-E90.png)
+        ![Site Submission > Search Engine](/images/scr-SEO-SiteMapSettings-Submission-SearchEngine-E90.png)
         
           
         
@@ -49,7 +49,7 @@ links: ["[Google: Setting Up Event Tracking](https://developers.google.com/analy
         
           
         
-        ![Site URL Submission](img/scr-GoogleSearchConsoleSubmitURL-small.png)
+        ![Site URL Submission](/images/scr-GoogleSearchConsoleSubmitURL-small.png)
         
           
         
@@ -59,7 +59,7 @@ links: ["[Google: Setting Up Event Tracking](https://developers.google.com/analy
         
           
         
-        ![Site URL Submission](img/scr-GoogleSearchConsoleSubmitURL-big.png)
+        ![Site URL Submission](/images/scr-GoogleSearchConsoleSubmitURL-big.png)
         
           
         
@@ -69,7 +69,7 @@ links: ["[Google: Setting Up Event Tracking](https://developers.google.com/analy
         
           
         
-        ![Site URL Submission](img/scr-GoogleSearchConsole-VerificationFile.png)
+        ![Site URL Submission](/images/scr-GoogleSearchConsole-VerificationFile.png)
         
           
         
@@ -77,7 +77,7 @@ links: ["[Google: Setting Up Event Tracking](https://developers.google.com/analy
         
           
         
-        ![Site Submission > Verification](img/scr-SEO-SiteMapSettings-Submission-Verification-E90.png)
+        ![Site Submission > Verification](/images/scr-SEO-SiteMapSettings-Submission-Verification-E90.png)
         
           
         
@@ -85,4 +85,4 @@ links: ["[Google: Setting Up Event Tracking](https://developers.google.com/analy
         
           
         
-        ![Site URL Submission](img/scr-GoogleSearchConsole-Verify.png)
+        ![Site URL Submission](/images/scr-GoogleSearchConsole-Verify.png)

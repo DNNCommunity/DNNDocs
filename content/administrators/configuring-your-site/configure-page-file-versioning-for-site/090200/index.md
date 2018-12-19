@@ -18,7 +18,7 @@ related-topics: page-file-versioning
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: page-file-versioning
     
 2.  Go to the Site Behavior tab, and then the More subtab.
     
-    ![Site Behavior > More](img/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-More-E90.png)
+    ![Site Behavior > More](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-More-E90.png)
     
 3.  Configure the Versioning options for pages and for files/assets.
     
       
     
-    ![Site Settings > Site Behavior > More — Versioning](img/scr-SiteSettings-SiteBehavior-More-Versioning.png)
+    ![Site Settings > Site Behavior > More — Versioning](/images/scr-SiteSettings-SiteBehavior-More-Versioning.png)
     
       
     

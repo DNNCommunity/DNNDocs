@@ -23,7 +23,7 @@ Note: You might need to modify your firewall settings to allow a query to the DN
 
 1.  Go to Persona Bar \> Settings \> About.
     
-    ![Persona Bar > Settings > About](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > About](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -31,13 +31,13 @@ Note: You might need to modify your firewall settings to allow a query to the DN
     
 2.  Click Add License.
     
-    ![Click Add License.](img/scr-LicensingActivate-E90.png)
+    ![Click Add License.](/images/scr-LicensingActivate-E90.png)
     
 3.  Fill in the required information.
     
       
     
-    ![Choose License Type, enter Account Email and Invoice Number, then click Automatic Activation.](img/scr-LicensingAddAuto-E90.png)
+    ![Choose License Type, enter Account Email and Invoice Number, then click Automatic Activation.](/images/scr-LicensingAddAuto-E90.png)
     
       
     

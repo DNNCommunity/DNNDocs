@@ -22,7 +22,7 @@ An administrator can grant Deploy Module permissions to a role, such as the Cont
     
       
     
-    ![Installed Extensions tab > Showing: Modules > click/tap the pencil icon for the module to edit.](img/scr-Extensions-Installed-edit-E90.png)
+    ![Installed Extensions tab > Showing: Modules > click/tap the pencil icon for the module to edit.](/images/scr-Extensions-Installed-edit-E90.png)
     
       
     
@@ -34,7 +34,7 @@ An administrator can grant Deploy Module permissions to a role, such as the Cont
     
       
     
-    ![Check the Can Deploy box for that role/user.](img/scr-Extensions-Edit-SiteSettings-CanDeploy-E90.png)
+    ![Check the Can Deploy box for that role/user.](/images/scr-Extensions-Edit-SiteSettings-CanDeploy-E90.png)
     
       
     
@@ -42,7 +42,7 @@ An administrator can grant Deploy Module permissions to a role, such as the Cont
     
       
     
-    ![Search for the role/user and "+ Add".](img/scr-Extensions-Edit-SiteSettings-AddRoleUser-E90.png)
+    ![Search for the role/user and "+ Add".](/images/scr-Extensions-Edit-SiteSettings-AddRoleUser-E90.png)
     
       
     

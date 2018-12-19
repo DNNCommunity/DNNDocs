@@ -18,7 +18,7 @@ related-topics: create-influence-goal-type,edit-influence-goal-type,config-misc-
 
 1.  Go to Persona Bar \> Settings \> Community.
     
-    ![Persona Bar > Settings > Community](img/scr-pbar-mod-Settings-E91.png)
+    ![Persona Bar > Settings > Community](/images/scr-pbar-mod-Settings-E91.png)
     
     ➊
     
@@ -28,4 +28,4 @@ related-topics: create-influence-goal-type,edit-influence-goal-type,config-misc-
     
       
     
-    ![Community Influence — Highlight and delete the goal type.](img/scr-CommunityInfluence-GoalsActions-Delete.png)
+    ![Community Influence — Highlight and delete the goal type.](/images/scr-CommunityInfluence-GoalsActions-Delete.png)

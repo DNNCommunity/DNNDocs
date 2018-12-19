@@ -32,7 +32,7 @@ A photo entry cannot have a file attachment. However, an entry with a photo atta
     
       
     
-    ![Manage action menu > Settings](img/scr-actionmenu-manage-settings.png)
+    ![Manage action menu > Settings](/images/scr-actionmenu-manage-settings.png)
     
       
     
@@ -40,7 +40,7 @@ A photo entry cannot have a file attachment. However, an entry with a photo atta
     
       
     
-    ![Module Settings — Activity Stream](img/scr-modulesettings-ActivityStream.png)
+    ![Module Settings — Activity Stream](/images/scr-modulesettings-ActivityStream.png)
     
       
     

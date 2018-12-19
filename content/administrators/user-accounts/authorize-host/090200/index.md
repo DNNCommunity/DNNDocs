@@ -20,7 +20,7 @@ A user account must be authorized for the account to be active. If you choose to
 
 1.  Go to Persona Bar \> Manage \> Users.
     
-    ![Persona Bar > Manage > Users](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Users](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -33,7 +33,7 @@ A user account must be authorized for the account to be active. If you choose to
     
       
     
-    ![User List > Show dropdown > Superusers](img/scr-UserListShowDropdown-SuperUser-E90.png)
+    ![User List > Show dropdown > Superusers](/images/scr-UserListShowDropdown-SuperUser-E90.png)
     
       
     
@@ -41,7 +41,7 @@ A user account must be authorized for the account to be active. If you choose to
     
       
     
-    ![User List > Show: Superusers > find the user > ellipses icon >](img/scr-UserList-unauthellipsesmenu-AuthorizeUser-E90.png)
+    ![User List > Show: Superusers > find the user > ellipses icon >](/images/scr-UserList-unauthellipsesmenu-AuthorizeUser-E90.png)
     
       
     

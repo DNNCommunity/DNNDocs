@@ -14,7 +14,7 @@ related-topics: form-field-address,form-field-date-time,form-field-dropdown,form
 
   
 
-![Settings for Multi-Line Text field](img/scr-FormField-MultiLineText-generalsettings.gif)
+![Settings for Multi-Line Text field](/images/scr-FormField-MultiLineText-generalsettings.gif)
 
   
 
@@ -37,7 +37,7 @@ If enabled (On),
 
   
 
-![Settings for Multi-Line Text field](img/scr-FormField-MultiLineText-helptext.gif)
+![Settings for Multi-Line Text field](/images/scr-FormField-MultiLineText-helptext.gif)
 
   
 
@@ -61,7 +61,7 @@ If enabled (On) and the user hovers/clicks/taps over the information icon (i) ne
 
   
 
-![Settings for Multi-Line Text field](img/scr-FormField-MultiLineText-defaultvalue.gif)
+![Settings for Multi-Line Text field](/images/scr-FormField-MultiLineText-defaultvalue.gif)
 
   
 
@@ -84,7 +84,7 @@ If checked,
 
   
 
-![Settings for Multi-Line Text field](img/scr-FormField-MultiLineText-validation.gif)
+![Settings for Multi-Line Text field](/images/scr-FormField-MultiLineText-validation.gif)
 
   
 

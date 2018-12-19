@@ -18,7 +18,7 @@ related-topics: create-content-item,duplicate-content-item,delete-content-item,s
 
 1.  Go to Persona Bar \> Content \> Content Library.
     
-    ![Persona Bar > Content > Content Library](img/scr-pbar-host-Content-E91.png)
+    ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
     
     ➊
     
@@ -26,7 +26,7 @@ related-topics: create-content-item,duplicate-content-item,delete-content-item,s
     
 2.  Go to the Content tab.
     
-    ![Content](img/scr-pbtabs-all-Content-ContentLibrary-Content-E91.png)
+    ![Content](/images/scr-pbtabs-all-Content-ContentLibrary-Content-E91.png)
     
 3.  Search for the content item in the list.
     
@@ -34,7 +34,7 @@ related-topics: create-content-item,duplicate-content-item,delete-content-item,s
     
       
     
-    ![Sort, search, and filter UI](img/scr-ContentItems-searchsortfilter-E91.gif)
+    ![Sort, search, and filter UI](/images/scr-ContentItems-searchsortfilter-E91.gif)
     
       
     
@@ -42,7 +42,7 @@ related-topics: create-content-item,duplicate-content-item,delete-content-item,s
     
       
     
-    ![Content tab > pencil icon](img/scr-ContentItems-item-pencil-icon-E91.png)
+    ![Content tab > pencil icon](/images/scr-ContentItems-item-pencil-icon-E91.png)
     
       
     
@@ -50,7 +50,7 @@ related-topics: create-content-item,duplicate-content-item,delete-content-item,s
     
     The fields would depend on the content type you selected. Example: The content type for the content item in this image is Job Posting.  
     
-    ![Creating a Job Posting content item](img/scr-ContentItems-JobDescription-E91.png)
+    ![Creating a Job Posting content item](/images/scr-ContentItems-JobDescription-E91.png)
     
       
     
@@ -58,7 +58,7 @@ related-topics: create-content-item,duplicate-content-item,delete-content-item,s
     
       
     
-    ![Content Item properties](img/scr-ContentItems-properties-E91.png)
+    ![Content Item properties](/images/scr-ContentItems-properties-E91.png)
     
       
     
@@ -82,7 +82,7 @@ related-topics: create-content-item,duplicate-content-item,delete-content-item,s
     
       
     
-    ![Content Item SEO](img/scr-ContentItems-SEO-E91.png)
+    ![Content Item SEO](/images/scr-ContentItems-SEO-E91.png)
     
       
     

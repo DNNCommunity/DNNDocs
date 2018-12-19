@@ -12,7 +12,7 @@ Allows administrators to manage authentication settings for sites that use Windo
 
   
 
-![Account Login module](img/scr-module-AccountLogin.png)
+![Account Login module](/images/scr-module-AccountLogin.png)
 
   
 
@@ -28,10 +28,10 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-authentication.png) 
+ ![icon](/images/ico-module-authentication.png) 
 
 Authentication
 
 Admin
 
- ![Platform](img/ico-dnn-platform.png) ![Evoq Content](img/ico-evoq-content.png) ![Evoq Engage](img/ico-evoq-engage.png)
+ ![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)

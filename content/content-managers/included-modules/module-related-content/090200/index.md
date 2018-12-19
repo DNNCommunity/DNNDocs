@@ -22,10 +22,10 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-relatedcontent.png) 
+ ![icon](/images/ico-module-relatedcontent.png) 
 
 Related Content
 
 Social
 
- ![Evoq Engage](img/ico-evoq-engage.png)
+ ![Evoq Engage](/images/ico-evoq-engage.png)

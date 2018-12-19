@@ -16,7 +16,7 @@ dnnversion: 09.02.00
 
 1.  Go to the Content tab.
     
-    ![Content](img/scr-pbtabs-all-Content-ContentLibrary-Content-E91.png)
+    ![Content](/images/scr-pbtabs-all-Content-ContentLibrary-Content-E91.png)
     
 2.  Search for the content item in the list.
     
@@ -24,7 +24,7 @@ dnnversion: 09.02.00
     
       
     
-    ![Sort, search, and filter UI](img/scr-ContentItems-searchsortfilter-E91.gif)
+    ![Sort, search, and filter UI](/images/scr-ContentItems-searchsortfilter-E91.gif)
     
       
     
@@ -32,7 +32,7 @@ dnnversion: 09.02.00
     
       
     
-    ![Content tab > ellipses menu > Delete](img/scr-ContentItems-item-ellipsesmenu-Delete-E91.png)
+    ![Content tab > ellipses menu > Delete](/images/scr-ContentItems-item-ellipsesmenu-Delete-E91.png)
     
       
     

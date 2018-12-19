@@ -14,7 +14,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
 
 1.  Go to Persona Bar \> Content \> Pages.
     
-    ![Persona Bar > Content > Pages](img/scr-pbar-host-Content-E91.png)
+    ![Persona Bar > Content > Pages](/images/scr-pbar-host-Content-E91.png)
     
     ➊
     
@@ -24,7 +24,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
     
       
     
-    ![Pages > Click/Tap Add Multiple Pages.](img/scr-pb-Pages-AddMultiplePages-E90.png)
+    ![Pages > Click/Tap Add Multiple Pages.](/images/scr-pb-Pages-AddMultiplePages-E90.png)
     
       
     
@@ -32,7 +32,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
     
       
     
-    ![Content > Pages > Add Multiple Pages](img/scr-pb-Pages-AddMultiplePages-E91.png)
+    ![Content > Pages > Add Multiple Pages](/images/scr-pb-Pages-AddMultiplePages-E91.png)
     
       
     
@@ -75,7 +75,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
     
       
     
-    ![Add Page > Details > Calendar](img/scr-pb-AddPage-Details-Calendar.png)
+    ![Add Page > Details > Calendar](/images/scr-pb-AddPage-Details-Calendar.png)
     
       
     

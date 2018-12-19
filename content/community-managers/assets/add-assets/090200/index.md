@@ -14,7 +14,7 @@ related-topics: edit-asset-properties,edit-asset-permissions,move-asset,copy-ass
 
 1.  Go to Persona Bar \> Content \> Assets.
     
-    ![Persona Bar > Content > Assets](img/scr-pbar-mod-Content-E91.png)
+    ![Persona Bar > Content > Assets](/images/scr-pbar-mod-Content-E91.png)
     
     ➊
     
@@ -22,13 +22,13 @@ related-topics: edit-asset-properties,edit-asset-permissions,move-asset,copy-ass
     
 2.  Go to the target folder.
     
-    *   If the target folder does not exist, [create a new folder.](create-folder)
+    *   If the target folder does not exist, [create a new folder.](xref:create-folder)
         
     *   If the target folder is within the current folder, select it from the cards.
         
           
         
-        ![Assets grid](img/scr-Assets-assetlist-grid-E90.png)
+        ![Assets grid](/images/scr-Assets-assetlist-grid-E90.png)
         
           
         
@@ -36,7 +36,7 @@ related-topics: edit-asset-properties,edit-asset-permissions,move-asset,copy-ass
         
           
         
-        ![Folder selection](img/scr-Assets-folderdropdown-E90.png)
+        ![Folder selection](/images/scr-Assets-folderdropdown-E90.png)
         
           
         
@@ -47,7 +47,7 @@ related-topics: edit-asset-properties,edit-asset-permissions,move-asset,copy-ass
     
       
     
-    ![Breadcrumbs](img/scr-Assets-breadcrumbs-E90.png)
+    ![Breadcrumbs](/images/scr-Assets-breadcrumbs-E90.png)
     
       
     
@@ -55,7 +55,7 @@ related-topics: edit-asset-properties,edit-asset-permissions,move-asset,copy-ass
     
       
     
-    ![Add Asset button](img/scr-Assets-assetlist-addasset-E90.png)
+    ![Add Asset button](/images/scr-Assets-assetlist-addasset-E90.png)
     
       
     
@@ -67,7 +67,7 @@ related-topics: edit-asset-properties,edit-asset-permissions,move-asset,copy-ass
         
           
         
-        ![Drag and drop the asset from a local drive.](img/scr-Assets-addasset-upload-E90.png)
+        ![Drag and drop the asset from a local drive.](/images/scr-Assets-addasset-upload-E90.png)
         
           
         
@@ -79,7 +79,7 @@ related-topics: edit-asset-properties,edit-asset-permissions,move-asset,copy-ass
         
           
         
-        ![Enter a resource URL.](img/scr-Assets-addasset-URL-E90.png)
+        ![Enter a resource URL.](/images/scr-Assets-addasset-URL-E90.png)
         
           
         
@@ -87,7 +87,7 @@ related-topics: edit-asset-properties,edit-asset-permissions,move-asset,copy-ass
     
       
     
-    ![Decompress zip files](img/scr-Assets-addasset-decompresszip-E90.png)
+    ![Decompress zip files](/images/scr-Assets-addasset-decompresszip-E90.png)
     
       
     

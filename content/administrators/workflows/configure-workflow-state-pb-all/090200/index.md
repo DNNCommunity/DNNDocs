@@ -16,7 +16,7 @@ related-topics: create-workflow-pb-all,edit-workflow-pb-all,delete-workflow-pb-a
 
   
 
-![Add a State button](img/scr-pb-Workflows-AddStateForm.png)
+![Add a State button](/images/scr-pb-Workflows-AddStateForm.png)
 
   
 

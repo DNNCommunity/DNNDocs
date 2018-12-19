@@ -33,7 +33,7 @@ The site files are located on the root drive rather than inside a folder.
         
           
         
-        ![IIS Manager - Restart](img/scr-IISManager-restart.png)
+        ![IIS Manager - Restart](/images/scr-IISManager-restart.png)
         
           
         
@@ -71,7 +71,7 @@ The web.config file is missing the correct assembly binding.
         
           
         
-        ![IIS Manager - Restart](img/scr-IISManager-restart.png)
+        ![IIS Manager - Restart](/images/scr-IISManager-restart.png)
         
           
         

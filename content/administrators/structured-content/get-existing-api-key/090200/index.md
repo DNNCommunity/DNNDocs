@@ -19,7 +19,7 @@ related-topics: create-api-key,edit-or-reset-api-key,delete-api-key
 
 1.  Go to Persona Bar \> Content \> Content Library.
     
-    ![Persona Bar > Content > Content Library](img/scr-pbar-host-Content-E91.png)
+    ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
     
     ➊
     
@@ -27,13 +27,13 @@ related-topics: create-api-key,edit-or-reset-api-key,delete-api-key
     
 2.  Go to the API Keys tab.
     
-    ![API Keys](img/scr-pbtabs-host-Content-ContentLibrary-APIKeys-E91.png)
+    ![API Keys](/images/scr-pbtabs-host-Content-ContentLibrary-APIKeys-E91.png)
     
 3.  Search for the API key in the list.
     
       
     
-    ![API key list](img/scr-APIKey-list-E91.png)
+    ![API key list](/images/scr-APIKey-list-E91.png)
     
       
     
@@ -41,4 +41,4 @@ related-topics: create-api-key,edit-or-reset-api-key,delete-api-key
     
       
     
-    ![API key list > clipboard icon](img/scr-APIKey-list-clipboard-icon-E91.png)
+    ![API key list > clipboard icon](/images/scr-APIKey-list-clipboard-icon-E91.png)

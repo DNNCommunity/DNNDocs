@@ -20,7 +20,7 @@ Note: You cannot change a vocabulary's type or scope after it is created.
 
 1.  Go to Persona Bar \> Settings \> Vocabularies.
     
-    ![Persona Bar > Settings > Vocabularies](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Vocabularies](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -32,7 +32,7 @@ Note: You cannot change a vocabulary's type or scope after it is created.
     
       
     
-    ![](img/scr-vocabularies-list-E91.png)
+    ![](/images/scr-vocabularies-list-E91.png)
     
       
     
@@ -40,4 +40,4 @@ Note: You cannot change a vocabulary's type or scope after it is created.
     
       
     
-    ![](img/scr-vocabularies-edit-vocab-edit-E91.png)
+    ![](/images/scr-vocabularies-edit-vocab-edit-E91.png)

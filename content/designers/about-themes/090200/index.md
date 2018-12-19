@@ -20,7 +20,7 @@ A DNN theme (formerly called a skin) defines the look and feel of the website. I
 
   
 
-![Three variations of a theme](img/gra-SkinTheme.png)
+![Three variations of a theme](/images/gra-SkinTheme.png)
 
   
 
@@ -28,7 +28,7 @@ A DNN theme (formerly called a skin) defines the look and feel of the website. I
 
   
 
-![Pane in a layout](img/gra-PaneLayout.png)
+![Pane in a layout](/images/gra-PaneLayout.png)
 
   
 

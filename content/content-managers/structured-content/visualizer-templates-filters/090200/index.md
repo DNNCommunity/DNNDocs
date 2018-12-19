@@ -20,10 +20,10 @@ Filter
 Description
 
 Example
-
+<a name="divided_by"></a>
 divided_by
 
-Divides the piped value by the specified integer. Rounds the result. Also see [modulo](#ref-visualizer-templates-filters__modulo).
+Divides the piped value by the specified integer. Rounds the result. Also see [modulo](#modulo).
 
 ```
 
@@ -33,10 +33,10 @@ Divides the piped value by the specified integer. Rounds the result. Also see [m
 
 3
                         
-
+<a name="minus"></a>
 minus
 
-Subtracts the specified value from the piped value. Also see [plus](#ref-visualizer-templates-filters__plus).
+Subtracts the specified value from the piped value. Also see [plus](#plus).
 
 ```
 
@@ -46,10 +46,10 @@ Subtracts the specified value from the piped value. Also see [plus](#ref-visuali
 
 2
                         
-
+<a name="modulo"></a>
 modulo
 
-Returns the modulo (remainder) when the piped value is divided by the specified value. Also see [divided_by](#ref-visualizer-templates-filters__dividedby).
+Returns the modulo (remainder) when the piped value is divided by the specified value. Also see [divided_by](#divided_by).
 
 ```
 
@@ -59,10 +59,10 @@ Returns the modulo (remainder) when the piped value is divided by the specified 
 
 1
                         
-
+<a name="plus"></a>
 plus
 
-Adds the piped value and the specified value. If the values are numeric strings, the numbers are converted to integers, then added. Also see [minus](#ref-visualizer-templates-filters__minus).
+Adds the piped value and the specified value. If the values are numeric strings, the numbers are converted to integers, then added. Also see [minus](#minus).
 
 ```
 
@@ -106,10 +106,10 @@ Filter
 Description
 
 Example
-
+<a name="append"></a>
 append
 
-Appends the specified string to the end of the piped string. Also see [prepend](#ref-visualizer-templates-filters__prepend).
+Appends the specified string to the end of the piped string. Also see [prepend](#prepend).
 
 ```
 
@@ -119,10 +119,10 @@ Appends the specified string to the end of the piped string. Also see [prepend](
 
 the quick brown fox jumped over
                         
-
+<a name="capitalize"></a>
 capitalize
 
-Capitalizes the first letters of words in the piped string. Also see [upcase](#ref-visualizer-templates-filters__upcase) and [downcase](#ref-visualizer-templates-filters__downcase).
+Capitalizes the first letters of words in the piped string. Also see [upcase](#upcase) and [downcase](#downcase).
 
 ```
 
@@ -134,10 +134,10 @@ Capitalizes the first letters of words in the piped string. Also see [upcase](#r
 The Quick Brown Fox
 Jumped Over The Lazy Dog
                         
-
+<a name="downcase"></a>
 downcase
 
-Converts the piped string to lowercase. Also see [upcase](#ref-visualizer-templates-filters__upcase) and [capitalize](#ref-visualizer-templates-filters__capitalize).
+Converts the piped string to lowercase. Also see [upcase](#upcase) and [capitalize](#capitalize).
 
 ```
 
@@ -149,10 +149,10 @@ Converts the piped string to lowercase. Also see [upcase](#ref-visualizer-templa
 the quick brown fox
 the quick brown fox
                         
-
+<a name="prepend"></a>
 prepend
 
-Prepends a string. Also see [append](#ref-visualizer-templates-filters__append).
+Prepends a string. Also see [append](#append).
 
 ```
 
@@ -162,10 +162,10 @@ Prepends a string. Also see [append](#ref-visualizer-templates-filters__append).
 
 jumped over the lazy dog
                         
-
+<a name="remove-first"></a>
 remove_first
 
-Removes the first occurrence of the specified string from the piped string. Also see [remove](#ref-visualizer-templates-filters__remove) and [replace](#ref-visualizer-templates-filters__replace).
+Removes the first occurrence of the specified string from the piped string. Also see [remove](#remove) and [replace](#replace).
 
 ```
 
@@ -175,10 +175,10 @@ Removes the first occurrence of the specified string from the piped string. Also
 
 ppers
                         
-
+<a name="remove"></a>
 remove
 
-Removes every occurrence of the specified string from the piped string. Also see [remove_first](#ref-visualizer-templates-filters__removefirst) and [replace](#ref-visualizer-templates-filters__replace).
+Removes every occurrence of the specified string from the piped string. Also see [remove_first](#remove-first) and [replace](#replace).
 
 ```
 
@@ -188,10 +188,10 @@ Removes every occurrence of the specified string from the piped string. Also see
 
 prs
                         
-
+<a name="replace-first"></a>
 replace_first
 
-Replaces the first occurrence of the first specified string with the second specified string. Also see [replace](#ref-visualizer-templates-filters__replace) and [remove_first](#ref-visualizer-templates-filters__removefirst).
+Replaces the first occurrence of the first specified string with the second specified string. Also see [replace](#replace) and [remove_first](#remove-first).
 
 ```
 
@@ -201,10 +201,10 @@ Replaces the first occurrence of the first specified string with the second spec
 
 toppers
                         
-
+<a name="replace"></a>
 replace
 
-Replaces every occurrence of the first specified string with the second specified string. Also see [replace_first](#ref-visualizer-templates-filters__replacefirst) and [remove](#ref-visualizer-templates-filters__remove).
+Replaces every occurrence of the first specified string with the second specified string. Also see [replace_first](#replace-first) and [remove](#remove).
 
 ```
 
@@ -227,7 +227,7 @@ Returns the size of the piped array or string.
 
 5
                         
-
+<a name="slice"></a>
 slice
 
 Returns a substring from the piped string, from the specified offset and with the specified number of characters. A negative offset will start counting from the end of the string.
@@ -245,7 +245,7 @@ llo
 
 split
 
-Splits the piped string where the specified pattern is found, not including the search pattern. Also see [Arrays](#ref-visualizer-templates-filters__arrays).
+Splits the piped string where the specified pattern is found, not including the search pattern. Also see [Arrays](#arrays).
 
 Note: Arrays are converted to a string for display by simply concatenating the elements. The `join` can be used to format the array with a delimiter between each element.
 
@@ -298,7 +298,7 @@ Truncates the piped string and appends the optional second parameter, so that th
 superman
 sunny
                         
-
+<a name="upcase"></a>
 upcase
 
 Converts the piped string to uppercase.
@@ -402,7 +402,7 @@ Creates a link that would load the target page in a new browser tab.
 <a href="http://www.linkedin.com/in/myexample" target="_blank">
     http://www.linkedin.com/in/myexample</a>
                         
-
+<a name="arrays"></a>
 ## Arrays
 
 Array indexes are zero-based; i.e., the first element's index is 0, and the last element's index is the number of elements minus 1. Example: If an array contains five elements, the index range is from 0 (for the first element) to 4 (for the last element).
@@ -418,10 +418,10 @@ Filter
 Description
 
 Example
-
+<a name="first"></a>
 first
 
-Returns the first element of the piped array. Also see [last](#ref-visualizer-templates-filters__last).
+Returns the first element of the piped array. Also see [last](#last).
 
 ```
 
@@ -457,10 +457,10 @@ Combines the elements of the piped array with the specified character inserted b
 
 dddd~bb~ccc~a
                         
-
+<a name="last"></a>
 last
 
-Returns the last element of the piped array. Also see [first](#ref-visualizer-templates-filters__first).
+Returns the last element of the piped array. Also see [first](#first).
 
 ```
 
@@ -485,8 +485,6 @@ Returns the size of the piped array or string.
                         
 
 sort
-
-Sorts the elements of the array. See [reverse](#ref-visualizer-templates-filters__reverse).
 
 ```
 

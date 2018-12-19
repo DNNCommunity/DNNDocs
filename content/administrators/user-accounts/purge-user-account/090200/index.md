@@ -18,7 +18,7 @@ related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles
 
 1.  Go to Persona Bar \> Manage \> Users.
     
-    ![Persona Bar > Manage > Users](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Users](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -31,7 +31,7 @@ related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles
     
       
     
-    ![User List > Show dropdown > Deleted](img/scr-UserListShowDropdown-Deleted-E90.png)
+    ![User List > Show dropdown > Deleted](/images/scr-UserListShowDropdown-Deleted-E90.png)
     
       
     
@@ -41,4 +41,4 @@ related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles
     
       
     
-    ![User List > Show: Deleted > find the user > ellipses icon > Remove User Permanently](img/scr-UserList-deletedellipsesmenu-RemoveUserPermanently-E90.png)
+    ![User List > Show: Deleted > find the user > ellipses icon > Remove User Permanently](/images/scr-UserList-deletedellipsesmenu-RemoveUserPermanently-E90.png)

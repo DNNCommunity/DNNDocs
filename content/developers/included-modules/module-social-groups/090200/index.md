@@ -14,7 +14,7 @@ Allows registered users to view, create, and join social groups.
 
   
 
-![Social Groups module](img/scr-module-SocialGroups.png)
+![Social Groups module](/images/scr-module-SocialGroups.png)
 
   
 
@@ -28,10 +28,10 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-socialgroups.png) 
+ ![icon](/images/ico-module-socialgroups.png) 
 
 Social Groups
 
 None
 
- ![Platform](img/ico-dnn-platform.png) ![Evoq Content](img/ico-evoq-content.png) ![Evoq Engage](img/ico-evoq-engage.png)
+ ![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)

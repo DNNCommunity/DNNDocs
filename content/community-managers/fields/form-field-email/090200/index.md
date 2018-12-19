@@ -14,7 +14,7 @@ related-topics: form-field-address,form-field-date-time,form-field-dropdown,form
 
   
 
-![Settings for Email field](img/scr-FormField-Email-generalsettings.gif)
+![Settings for Email field](/images/scr-FormField-Email-generalsettings.gif)
 
   
 
@@ -37,7 +37,7 @@ If enabled (On),
 
   
 
-![Settings for Email field](img/scr-FormField-Email-helptext.gif)
+![Settings for Email field](/images/scr-FormField-Email-helptext.gif)
 
   
 
@@ -61,7 +61,7 @@ If enabled (On) and the user hovers/clicks/taps over the information icon (i) ne
 
   
 
-![Settings for Email field](img/scr-FormField-Email-defaultvalue.gif)
+![Settings for Email field](/images/scr-FormField-Email-defaultvalue.gif)
 
   
 
@@ -84,7 +84,7 @@ If checked,
 
   
 
-![Settings for Email field](img/scr-FormField-Email-validation.gif)
+![Settings for Email field](/images/scr-FormField-Email-validation.gif)
 
   
 

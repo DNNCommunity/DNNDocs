@@ -14,14 +14,14 @@ related-topics: add-module-to-page-pb-all,add-content-to-page-quickly-pb-all,con
 
 1.  Go to the Modules tab.
     
-    ![Modules](img/scr-pbtabs-all-Content-RecycleBin-Modules-E91.png)
+    ![Modules](/images/scr-pbtabs-all-Content-RecycleBin-Modules-E91.png)
     
 2.  Purge (Permanently delete) one or more modules.
     *   To purge a single module, hover over the module to purge, and click/tap the Delete icon for that item.
         
           
         
-        ![Delete icon for each item in the list.](img/scr-RecycleBin-Modules-Delete-icon-E91.png)
+        ![Delete icon for each item in the list.](/images/scr-RecycleBin-Modules-Delete-icon-E91.png)
         
           
         
@@ -29,7 +29,7 @@ related-topics: add-module-to-page-pb-all,add-content-to-page-quickly-pb-all,con
         
           
         
-        ![Delete button.](img/scr-RecycleBin-Modules-Select-Then-Delete-button-E91.png)
+        ![Delete button.](/images/scr-RecycleBin-Modules-Select-Then-Delete-button-E91.png)
         
           
         

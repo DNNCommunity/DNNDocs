@@ -18,7 +18,7 @@ related-topics: configure-url-rewriter,configure-url-redirects,edit-regex-for-ur
 
 1.  Go to Persona Bar \> Settings \> SEO.
     
-    ![Persona Bar > Settings > SEO](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > SEO](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: configure-url-rewriter,configure-url-redirects,edit-regex-for-ur
     
 2.  Go to the URL Management tab, and then the Extension URL Providers subtab.
     
-    ![URL Management > Extension URL Providers](img/scr-pbtabs-host-Settings-SEO-URLManagement-ExtensionURLProviders-E91.png)
+    ![URL Management > Extension URL Providers](/images/scr-pbtabs-host-Settings-SEO-URLManagement-ExtensionURLProviders-E91.png)
     
 3.  Manage your URL providers.
     
       
     
-    ![URL Management > Extension URL Providers](img/scr-SEO-URLManagement-ExtensionURLProviders.png)
+    ![URL Management > Extension URL Providers](/images/scr-SEO-URLManagement-ExtensionURLProviders.png)
     
       
     

@@ -14,7 +14,7 @@ Generates a list of links to child pages, group activity, or a member list.
 
   
 
-![Console module](img/scr-module-Console.png)
+![Console module](/images/scr-module-Console.png)
 
   
 
@@ -35,10 +35,10 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-console.png) 
+ ![icon](/images/ico-module-console.png) 
 
 Console
 
 Admin
 
- ![Platform](img/ico-dnn-platform.png) ![Evoq Content](img/ico-evoq-content.png) ![Evoq Engage](img/ico-evoq-engage.png)
+ ![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)

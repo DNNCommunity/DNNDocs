@@ -18,7 +18,7 @@ related-topics: update-site-info,add-metadata-to-pages,configure-messaging,acces
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: update-site-info,add-metadata-to-pages,configure-messaging,acces
     
 2.  Go to the Site Behavior tab, and then the Default Pages subtab.
     
-    ![Site Behavior > Default Pages](img/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-DefaultPages-E90.png)
+    ![Site Behavior > Default Pages](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-DefaultPages-E90.png)
     
 3.  Choose an existing page in your site to assign to each key page setting.
     
       
     
-    ![Site Settings > Site Behavior > Default Pages](img/scr-SiteSettings-SiteBehavior-DefaultPages-E90.png)
+    ![Site Settings > Site Behavior > Default Pages](/images/scr-SiteSettings-SiteBehavior-DefaultPages-E90.png)
     
       
     

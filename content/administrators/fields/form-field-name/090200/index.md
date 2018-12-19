@@ -14,7 +14,7 @@ related-topics: form-field-address,form-field-date-time,form-field-dropdown,form
 
   
 
-![Settings for Name field](img/scr-FormField-Name-generalsettings.gif)
+![Settings for Name field](/images/scr-FormField-Name-generalsettings.gif)
 
   
 
@@ -37,7 +37,7 @@ If enabled (On),
 
   
 
-![Settings for Name field](img/scr-FormField-Name-helptext.gif)
+![Settings for Name field](/images/scr-FormField-Name-helptext.gif)
 
   
 
@@ -61,7 +61,7 @@ If enabled (On) and the user hovers/clicks/taps over the information icon (i) ne
 
   
 
-![Settings for Name field](img/scr-FormField-Name-defaultvalue.gif)
+![Settings for Name field](/images/scr-FormField-Name-defaultvalue.gif)
 
   
 
@@ -84,7 +84,7 @@ If checked,
 
   
 
-![Settings for Name field](img/scr-FormField-Name-validation.gif)
+![Settings for Name field](/images/scr-FormField-Name-validation.gif)
 
   
 

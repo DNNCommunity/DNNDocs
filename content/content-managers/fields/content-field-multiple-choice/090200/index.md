@@ -14,7 +14,7 @@ related-topics: content-field-assets,content-field-date-time,content-field-multi
 
   
 
-![Form Type for Multiple Choice field](img/scr-ContentField-MultipleChoice-formtype.gif)
+![Form Type for Multiple Choice field](/images/scr-ContentField-MultipleChoice-formtype.gif)
 
   
 
@@ -54,7 +54,7 @@ If enabled (On), the user can enter a custom option in the text box and choose t
 
   
 
-![General Settings for Multiple Choice field](img/scr-ContentField-MultipleChoice-generalsettings.gif)
+![General Settings for Multiple Choice field](/images/scr-ContentField-MultipleChoice-generalsettings.gif)
 
   
 
@@ -82,7 +82,7 @@ If enabled (On) and the user hovers/clicks/taps over the information icon (i) ne
 
   
 
-![Validation for Multiple Choice field](img/scr-ContentField-MultipleChoice-validation.gif)
+![Validation for Multiple Choice field](/images/scr-ContentField-MultipleChoice-validation.gif)
 
   
 

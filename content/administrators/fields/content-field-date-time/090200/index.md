@@ -14,7 +14,7 @@ related-topics: content-field-assets,content-field-multi-line-text,content-field
 
   
 
-![Form Type for Date / Time field](img/scr-ContentField-DateTime-formtype.gif)
+![Form Type for Date / Time field](/images/scr-ContentField-DateTime-formtype.gif)
 
   
 
@@ -44,7 +44,7 @@ If enabled (On), the time is stored with the specified timezone.
 
   
 
-![General Settings for Date / Time field](img/scr-ContentField-DateTime-generalsettings.gif)
+![General Settings for Date / Time field](/images/scr-ContentField-DateTime-generalsettings.gif)
 
   
 
@@ -79,7 +79,7 @@ If enabled (On) and the user hovers/clicks/taps over the information icon (i) ne
 
   
 
-![Validation for Date / Time field](img/scr-ContentField-DateTime-validation.gif)
+![Validation for Date / Time field](/images/scr-ContentField-DateTime-validation.gif)
 
   
 

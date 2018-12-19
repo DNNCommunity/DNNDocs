@@ -18,7 +18,7 @@ related-topics: assign-key-pages,add-metadata-to-pages,configure-messaging,acces
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: assign-key-pages,add-metadata-to-pages,configure-messaging,acces
     
 2.  Go to the Site Info tab.
     
-    ![Site Info](img/scr-pbtabs-all-Settings-SiteSettings-SiteInfo-E90.png)
+    ![Site Info](/images/scr-pbtabs-all-Settings-SiteSettings-SiteInfo-E90.png)
     
 3.  Update the field values.
     
       
     
-    ![Site Settings > Site Info](img/scr-SiteSettings-SiteInfo-E90.png)
+    ![Site Settings > Site Info](/images/scr-SiteSettings-SiteInfo-E90.png)
     
       
     
@@ -64,7 +64,7 @@ related-topics: assign-key-pages,add-metadata-to-pages,configure-messaging,acces
     
       
     
-    ![Select file box](img/scr-selectfilebox.gif)
+    ![Select file box](/images/scr-selectfilebox.gif)
     
       
     You can use one of the following methods to select the file:

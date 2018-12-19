@@ -21,13 +21,13 @@ related-topics: add-module-to-page-pb-all,configure-module-on-page-pb-all,delete
 1.  Go to the page to edit.
 2.  Go to Persona Bar \> Edit.
     
-    ![Persona Bar > Edit](img/scr-pbar-all-Edit-E91.png)
+    ![Persona Bar > Edit](/images/scr-pbar-all-Edit-E91.png)
     
 3.  Within a pane, click/tap on the appropriate icon to add text, an image, or a module.
     
       
     
-    ![Pane with content icons](img/scr-pane-with-content-icons.png)
+    ![Pane with content icons](/images/scr-pane-with-content-icons.png)
     
       
     
@@ -36,7 +36,7 @@ related-topics: add-module-to-page-pb-all,configure-module-on-page-pb-all,delete
         
           
         
-        ![Hover over action menu bar of the module, then drag to a different pane.](img/scr-actionmenubar-hover.png)
+        ![Hover over action menu bar of the module, then drag to a different pane.](/images/scr-actionmenubar-hover.png)
         
           
         
@@ -44,4 +44,4 @@ related-topics: add-module-to-page-pb-all,configure-module-on-page-pb-all,delete
         
           
         
-        ![Click/Tap on the four-arrow icon, then choose the target pane from the list.](img/scr-actionmenu-move.png)
+        ![Click/Tap on the four-arrow icon, then choose the target pane from the list.](/images/scr-actionmenu-move.png)

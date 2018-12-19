@@ -28,7 +28,7 @@ links: ["[DNN Community Blog: Module Development for Non-Developers, Skinners, &
         
           
         
-        ![Tools > Extensions and Updates](img/scr-VS2015ExtAndUpdates.png)
+        ![Tools > Extensions and Updates](/images/scr-VS2015ExtAndUpdates.png)
         
           
         
@@ -36,7 +36,7 @@ links: ["[DNN Community Blog: Module Development for Non-Developers, Skinners, &
         
           
         
-        ![In the Online > Visual Studio Gallery tree, search for DotNetNuke then Download.](img/scr-VS2015Search4DNN.png)
+        ![In the Online > Visual Studio Gallery tree, search for DotNetNuke then Download.](/images/scr-VS2015Search4DNN.png)
         
           
         
@@ -55,7 +55,7 @@ links: ["[DNN Community Blog: Module Development for Non-Developers, Skinners, &
         
           
         
-        ![Download DNN8 templates from Github.](img/scr-VS2015DNN8Templates-11.png)
+        ![Download DNN8 templates from Github.](/images/scr-VS2015DNN8Templates-11.png)
         
           
         
@@ -67,13 +67,13 @@ links: ["[DNN Community Blog: Module Development for Non-Developers, Skinners, &
         
         For Chris Hammond's templates, go to Installed \> Templates \> Visual C# or Visual Basic \> DotNetNuke.  
         
-        ![Visual Studio > New > Project with Chris Hammond's templates](img/scr-VS2015NewProjectWithTemplates-02.png)
+        ![Visual Studio > New > Project with Chris Hammond's templates](/images/scr-VS2015NewProjectWithTemplates-02.png)
         
           
         
         For the DNN 8 templates, go to Installed \> Templates \> Visual C# \> Dnn.  
         
-        ![Visual Studio > New > Project with DNN8 templates](img/scr-VS2015NewProjectWithTemplates-01.png)
+        ![Visual Studio > New > Project with DNN8 templates](/images/scr-VS2015NewProjectWithTemplates-01.png)
         
           
         

@@ -14,7 +14,7 @@ related-topics: form-field-address,form-field-date-time,form-field-email,form-fi
 
   
 
-![Settings for Dropdown field](img/scr-FormField-Dropdown-generalsettings.gif)
+![Settings for Dropdown field](/images/scr-FormField-Dropdown-generalsettings.gif)
 
   
 
@@ -60,7 +60,7 @@ Choice Order
 
   
 
-![Settings for Dropdown field](img/scr-FormField-Dropdown-helptext.gif)
+![Settings for Dropdown field](/images/scr-FormField-Dropdown-helptext.gif)
 
   
 
@@ -80,7 +80,7 @@ If enabled (On) and the user hovers/clicks/taps over the information icon (i) ne
 
   
 
-![Settings for Dropdown field](img/scr-FormField-Dropdown-defaultvalue.png)
+![Settings for Dropdown field](/images/scr-FormField-Dropdown-defaultvalue.png)
 
   
 

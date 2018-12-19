@@ -14,7 +14,7 @@ Enables users to publish single- or multi-author blogs. Allows content to be aut
 
   
 
-![Blogs module](img/scr-module-Blogs.png)
+![Blogs module](/images/scr-module-Blogs.png)
 
   
 
@@ -29,13 +29,13 @@ To display/hide companion module(s),
 
 *   From the main module's action menu, go to Edit (pencil icon) \> Add Companion Modules....  
     
-    ![Edit (pencil icon) action menu > Add Companion Modules...](img/scr-actionmenu-edit-addcompanionmodules.png)
+    ![Edit (pencil icon) action menu > Add Companion Modules...](/images/scr-actionmenu-edit-addcompanionmodules.png)
     
       
     
 *   Check/Uncheck the Visible on Page box for the companion module that you want to be displayed/hidden.  
     
-    ![](img/scr-companions-VisibleOnPage.png)
+    ![](/images/scr-companions-VisibleOnPage.png)
     
       
     
@@ -48,10 +48,10 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-blogs.png) 
+ ![icon](/images/ico-module-blogs.png) 
 
 Blogs
 
 Social
 
- ![Evoq Engage](img/ico-evoq-engage.png)
+ ![Evoq Engage](/images/ico-evoq-engage.png)

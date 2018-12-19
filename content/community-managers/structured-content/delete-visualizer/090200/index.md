@@ -18,13 +18,13 @@ Note: Visualizers provided by DNN cannot be edited, replaced, exported, or delet
 
 1.  Go to the Visualizers tab.
     
-    ![Visualizers](img/scr-pbtabs-all-Content-ContentLibrary-Visualizers-E91.png)
+    ![Visualizers](/images/scr-pbtabs-all-Content-ContentLibrary-Visualizers-E91.png)
     
 2.  Search for the visualizer you want, then click/tap on its icon.
     
       
     
-    ![Visualizers list - Click/Tap the visualizer you want.](img/scr-Visualizers-List-SearchClickTap-E91.gif)
+    ![Visualizers list - Click/Tap the visualizer you want.](/images/scr-Visualizers-List-SearchClickTap-E91.gif)
     
       
     
@@ -34,7 +34,7 @@ Note: Visualizers provided by DNN cannot be edited, replaced, exported, or delet
     
       
     
-    ![Content > Visualizers tab > choose the visualizer > click/tap Delete](img/scr-Visualizers-Details-Delete-E91.png)
+    ![Content > Visualizers tab > choose the visualizer > click/tap Delete](/images/scr-Visualizers-Details-Delete-E91.png)
     
       
     

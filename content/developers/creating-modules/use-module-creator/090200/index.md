@@ -31,7 +31,7 @@ The DNN Module Creator is generally recommended only for simple modules. For mor
     
       
     
-    ![Pane with content icons](img/scr-pane-with-content-icons-module.png)
+    ![Pane with content icons](/images/scr-pane-with-content-icons-module.png)
     
       
     
@@ -39,7 +39,7 @@ The DNN Module Creator is generally recommended only for simple modules. For mor
     
       
     
-    ![Search for Module Creator.](img/scr-menuModulesList04ModuleCreator.png)
+    ![Search for Module Creator.](/images/scr-menuModulesList04ModuleCreator.png)
     
       
     
@@ -47,7 +47,7 @@ The DNN Module Creator is generally recommended only for simple modules. For mor
     
       
     
-    ![Drag to a pane.](img/scr-menuModulesModuleCreatorDrag.png)
+    ![Drag to a pane.](/images/scr-menuModulesModuleCreatorDrag.png)
     
       
     
@@ -55,7 +55,7 @@ The DNN Module Creator is generally recommended only for simple modules. For mor
     
       
     
-    ![Module Creation form](img/scr-ModuleCreatorForm.png)
+    ![Module Creation form](/images/scr-ModuleCreatorForm.png)
     
       
     
@@ -89,7 +89,7 @@ The DNN Module Creator is generally recommended only for simple modules. For mor
     
       
     
-    ![Module created.](img/scr-ModuleCreatorModuleCreated.png)
+    ![Module created.](/images/scr-ModuleCreatorModuleCreated.png)
     
       
     
@@ -98,7 +98,7 @@ The DNN Module Creator is generally recommended only for simple modules. For mor
         
           
         
-        ![Settings (gear icon) > Develop](img/scr-ModuleGearMenuDevelop.png)
+        ![Settings (gear icon) > Develop](/images/scr-ModuleGearMenuDevelop.png)
         
           
         
@@ -106,7 +106,7 @@ The DNN Module Creator is generally recommended only for simple modules. For mor
         
           
         
-        ![In View.ascx, delete all except first line.](img/scr-ModuleViewAscx.png)
+        ![In View.ascx, delete all except first line.](/images/scr-ModuleViewAscx.png)
         
           
         
@@ -114,7 +114,7 @@ The DNN Module Creator is generally recommended only for simple modules. For mor
         
           
         
-        ![Customize the module.](img/scr-ModuleCustomize.png)
+        ![Customize the module.](/images/scr-ModuleCustomize.png)
         
           
         
@@ -130,7 +130,7 @@ The DNN Module Creator is generally recommended only for simple modules. For mor
         
           
         
-        ![Select View.ascx.cs.](img/scr-ModuleViewAscxCs.png)
+        ![Select View.ascx.cs.](/images/scr-ModuleViewAscxCs.png)
         
           
         
@@ -138,4 +138,4 @@ The DNN Module Creator is generally recommended only for simple modules. For mor
         
           
         
-        ![Remove Event Handlers.](img/scr-ModuleDeleteEventHandlers.png)
+        ![Remove Event Handlers.](/images/scr-ModuleDeleteEventHandlers.png)

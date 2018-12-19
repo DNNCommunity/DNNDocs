@@ -21,7 +21,7 @@ related-topics: about-evs
         
           
         
-        ![Module > Add New Module](img/scr-menuModulesAddNew.png)
+        ![Module > Add New Module](/images/scr-menuModulesAddNew.png)
         
           
         
@@ -29,7 +29,7 @@ related-topics: about-evs
         
           
         
-        ![Drag your module to a pane in the page.](img/scr-cp-ModulesList-Drag.png)
+        ![Drag your module to a pane in the page.](/images/scr-cp-ModulesList-Drag.png)
         
           
         

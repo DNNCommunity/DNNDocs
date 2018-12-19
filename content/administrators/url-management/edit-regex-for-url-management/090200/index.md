@@ -18,7 +18,7 @@ related-topics: configure-url-rewriter,configure-url-redirects,manage-url-provid
 
 1.  Go to Persona Bar \> Settings \> SEO.
     
-    ![Persona Bar > Settings > SEO](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > SEO](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: configure-url-rewriter,configure-url-redirects,manage-url-provid
     
 2.  Go to the URL Management tab, and then the Expressions subtab.
     
-    ![URL Management > Expressions](img/scr-pbtabs-host-Settings-SEO-URLManagement-Expressions-E91.png)
+    ![URL Management > Expressions](/images/scr-pbtabs-host-Settings-SEO-URLManagement-Expressions-E91.png)
     
 3.  Enter the regular expression to define the set for the behavior.
     
       
     
-    ![URL Management > Expressions](img/scr-SEO-URLManagement-Expressions-E91.png)
+    ![URL Management > Expressions](/images/scr-SEO-URLManagement-Expressions-E91.png)
     
       
     

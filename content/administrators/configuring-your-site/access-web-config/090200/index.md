@@ -14,7 +14,7 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,configur
 
 1.  Go to Persona Bar \> Settings \> Config Manager.
     
-    ![Persona Bar > Settings > Config Manager](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Config Manager](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -22,10 +22,10 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,configur
     
 2.  Go to the Config Files tab.
     
-    ![Config Files](img/scr-pbtabs-host-Settings-ConfigManager-ConfigFiles-E90.png)
+    ![Config Files](/images/scr-pbtabs-host-Settings-ConfigManager-ConfigFiles-E90.png)
     
 3.  Choose the configuration file from the dropdown list.
     
       
     
-    ![Config Files dropdown > web.config](img/scr-ConfigMgr-ConfigFiles-webconfig-E91.png)
+    ![Config Files dropdown > web.config](/images/scr-ConfigMgr-ConfigFiles-webconfig-E91.png)

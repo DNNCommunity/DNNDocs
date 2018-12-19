@@ -21,13 +21,13 @@ Note: The restored version is copied to the top of the list as the most recent v
 1.  Go to the page to edit.
 2.  Go to Persona Bar \> Edit.
     
-    ![Persona Bar > Edit](img/scr-pbar-all-Edit-E91.png)
+    ![Persona Bar > Edit](/images/scr-pbar-all-Edit-E91.png)
     
 3.  In the Edit Bar, click/tap the Page History icon.
     
       
     
-    ![Page History icon](img/scr-pb-EditBar-PageHistory.png)
+    ![Page History icon](/images/scr-pb-EditBar-PageHistory.png)
     
       
     
@@ -35,7 +35,7 @@ Note: The restored version is copied to the top of the list as the most recent v
     
       
     
-    ![Page History > Actions — Restore](img/scr-Pages-pageversioning-rollback-E90.png)
+    ![Page History > Actions — Restore](/images/scr-Pages-pageversioning-rollback-E90.png)
     
       
     

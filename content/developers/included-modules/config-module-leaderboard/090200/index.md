@@ -19,7 +19,7 @@ Content managers and administrators can filter the results list by time frame (I
     
       
     
-    ![Manage action menu > Settings](img/scr-actionmenu-manage-settings.png)
+    ![Manage action menu > Settings](/images/scr-actionmenu-manage-settings.png)
     
       
     
@@ -27,7 +27,7 @@ Content managers and administrators can filter the results list by time frame (I
     
       
     
-    ![Module Settings — Leaderboard](img/scr-modulesettings-Leaderboard.png)
+    ![Module Settings — Leaderboard](/images/scr-modulesettings-Leaderboard.png)
     
       
     

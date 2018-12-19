@@ -14,7 +14,7 @@ related-topics: form-field-address,form-field-date-time,form-field-dropdown,form
 
   
 
-![Settings for Static Text field](img/scr-FormField-StaticText.gif)
+![Settings for Static Text field](/images/scr-FormField-StaticText.gif)
 
   
 

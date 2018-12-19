@@ -22,7 +22,7 @@ Tip: If you might want to log the event again in the future, you can turn off Lo
 
 1.  Go to Persona Bar \> Manage \> Admin Logs.
     
-    ![Persona Bar > Manage > Admin Logs](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Admin Logs](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -30,13 +30,13 @@ Tip: If you might want to log the event again in the future, you can turn off Lo
     
 2.  Go to the Log Settings tab.
     
-    ![Log Settings](img/scr-pbtabs-host-Manage-AdminLogs-LogSettings-E90.png)
+    ![Log Settings](/images/scr-pbtabs-host-Manage-AdminLogs-LogSettings-E90.png)
     
 3.  Click/Tap the pencil icon for the logged event type to delete.
     
       
     
-    ![](img/scr-AdminLogs-logsettingslist-edit-icon-event-type-E90.png)
+    ![](/images/scr-AdminLogs-logsettingslist-edit-icon-event-type-E90.png)
     
       
     
@@ -44,7 +44,7 @@ Tip: If you might want to log the event again in the future, you can turn off Lo
     
       
     
-    ![](img/scr-AdminLogs-logsettings-editevent-delete-button-E90.png)
+    ![](/images/scr-AdminLogs-logsettings-editevent-delete-button-E90.png)
     
       
     

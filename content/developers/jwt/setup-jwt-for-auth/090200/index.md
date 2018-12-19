@@ -23,7 +23,7 @@ links: ["[IETF RFC 7519](https://tools.ietf.org/html/rfc7519)","[DNN Presentatio
         
           
         
-        ![Host > Extensions](img/scr-menuHostCommonExtensions.png)
+        ![Host > Extensions](/images/scr-menuHostCommonExtensions.png)
         
           
         
@@ -31,7 +31,7 @@ links: ["[IETF RFC 7519](https://tools.ietf.org/html/rfc7519)","[DNN Presentatio
         
           
         
-        ![Available Extensions > Providers > DNN JWT Auth Handler > Install](img/scr-AvailableExtensionsProvidersJWT.png)
+        ![Available Extensions > Providers > DNN JWT Auth Handler > Install](/images/scr-AvailableExtensionsProvidersJWT.png)
         
           
         

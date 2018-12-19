@@ -12,7 +12,7 @@ dnnversion: 09.02.00
 
   
 
-![Form Type for Reference Object field](img/scr-ContentField-ReferenceObject-formtype.gif)
+![Form Type for Reference Object field](/images/scr-ContentField-ReferenceObject-formtype.gif)
 
   
 
@@ -33,7 +33,7 @@ The list of content types that the reference can point to.
 
   
 
-![General Settings for Reference Object field](img/scr-ContentField-ReferenceObject-generalsettings.gif)
+![General Settings for Reference Object field](/images/scr-ContentField-ReferenceObject-generalsettings.gif)
 
   
 
@@ -57,7 +57,7 @@ If enabled (On) and the user hovers/clicks/taps over the information icon (i) ne
 
   
 
-![Validation for Reference Object field](img/scr-ContentField-ReferenceObject-validation.png)
+![Validation for Reference Object field](/images/scr-ContentField-ReferenceObject-validation.png)
 
   
 

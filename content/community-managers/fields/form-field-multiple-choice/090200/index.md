@@ -14,7 +14,7 @@ related-topics: form-field-address,form-field-date-time,form-field-dropdown,form
 
   
 
-![Settings for Multiple Choice field - Title/Label and Required](img/scr-FormField-MultipleChoice-generalsettings-titlereq.gif)
+![Settings for Multiple Choice field - Title/Label and Required](/images/scr-FormField-MultipleChoice-generalsettings-titlereq.gif)
 
   
 
@@ -35,7 +35,7 @@ If enabled (On),
 
   
 
-![Settings for Multiple Choice field - Appearance](img/scr-FormField-MultipleChoice-generalsettings-appearance.gif)
+![Settings for Multiple Choice field - Appearance](/images/scr-FormField-MultipleChoice-generalsettings-appearance.gif)
 
   
 
@@ -52,7 +52,7 @@ Appearance
 
   
 
-![Settings for Multiple Choice field - checkboxes and radio buttons](img/scr-FormField-MultipleChoice-generalsettings-chkboxesradiobtns.gif)
+![Settings for Multiple Choice field - checkboxes and radio buttons](/images/scr-FormField-MultipleChoice-generalsettings-chkboxesradiobtns.gif)
 
   
 
@@ -86,7 +86,7 @@ List Orientation
 
   
 
-![Settings for Multiple Choice field - Pictures](img/scr-FormField-MultipleChoice-generalsettings-pictures.gif)
+![Settings for Multiple Choice field - Pictures](/images/scr-FormField-MultipleChoice-generalsettings-pictures.gif)
 
   
 
@@ -108,7 +108,7 @@ The number of images displayed in each row.
 
   
 
-![Settings for Multiple Choice field](img/scr-FormField-MultipleChoice-generalsettings-yn.gif)
+![Settings for Multiple Choice field](/images/scr-FormField-MultipleChoice-generalsettings-yn.gif)
 
   
 
@@ -124,7 +124,7 @@ If enabled (On), you can replace the default No and Yes labels with the text you
 
   
 
-![Settings for Multiple Choice field](img/scr-FormField-MultipleChoice-helptext.gif)
+![Settings for Multiple Choice field](/images/scr-FormField-MultipleChoice-helptext.gif)
 
   
 
@@ -144,7 +144,7 @@ If enabled (On) and the user hovers/clicks/taps over the information icon (i) ne
 
   
 
-![Settings for Multiple Choice field](img/scr-FormField-MultipleChoice-defaultvalue.gif)
+![Settings for Multiple Choice field](/images/scr-FormField-MultipleChoice-defaultvalue.gif)
 
   
 
@@ -160,7 +160,7 @@ The value to assign to the field if the user does not provide a custom value.
 
   
 
-![Settings for Multiple Choice field](img/scr-FormField-MultipleChoice-validation.gif)
+![Settings for Multiple Choice field](/images/scr-FormField-MultipleChoice-validation.gif)
 
   
 

@@ -1,4 +1,5 @@
 ---
+uid: create-module
 topic: create-module
 locale: en
 title: Creating a Module

@@ -20,7 +20,7 @@ Note: Visualizers provided by DNN cannot be edited, replaced, exported, or delet
 
 1.  Go to Persona Bar \> Content \> Content Library.
     
-    ![Persona Bar > Content > Content Library](img/scr-pbar-host-Content-E91.png)
+    ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
     
     ➊
     
@@ -28,13 +28,13 @@ Note: Visualizers provided by DNN cannot be edited, replaced, exported, or delet
     
 2.  Go to the Visualizers tab.
     
-    ![Visualizers](img/scr-pbtabs-all-Content-ContentLibrary-Visualizers-E91.png)
+    ![Visualizers](/images/scr-pbtabs-all-Content-ContentLibrary-Visualizers-E91.png)
     
 3.  Click/Tap Create Visualizer.
     
       
     
-    ![Content Library > Visualizers tab > Create Visualizer > Import Visualizer](img/scr-Visualizers-CreateBtn-Import-E91.png)
+    ![Content Library > Visualizers tab > Create Visualizer > Import Visualizer](/images/scr-Visualizers-CreateBtn-Import-E91.png)
     
       
     

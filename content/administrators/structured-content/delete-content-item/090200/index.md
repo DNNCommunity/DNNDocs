@@ -18,7 +18,7 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,sha
 
 1.  Go to Persona Bar \> Content \> Content Library.
     
-    ![Persona Bar > Content > Content Library](img/scr-pbar-host-Content-E91.png)
+    ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
     
     ➊
     
@@ -26,7 +26,7 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,sha
     
 2.  Go to the Content tab.
     
-    ![Content](img/scr-pbtabs-all-Content-ContentLibrary-Content-E91.png)
+    ![Content](/images/scr-pbtabs-all-Content-ContentLibrary-Content-E91.png)
     
 3.  Search for the content item in the list.
     
@@ -34,7 +34,7 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,sha
     
       
     
-    ![Sort, search, and filter UI](img/scr-ContentItems-searchsortfilter-E91.gif)
+    ![Sort, search, and filter UI](/images/scr-ContentItems-searchsortfilter-E91.gif)
     
       
     
@@ -42,7 +42,7 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,sha
     
       
     
-    ![Content tab > ellipses menu > Delete](img/scr-ContentItems-item-ellipsesmenu-Delete-E91.png)
+    ![Content tab > ellipses menu > Delete](/images/scr-ContentItems-item-ellipsesmenu-Delete-E91.png)
     
       
     

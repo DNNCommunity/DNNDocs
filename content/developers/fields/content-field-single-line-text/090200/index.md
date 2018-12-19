@@ -12,7 +12,7 @@ dnnversion: 09.02.00
 
   
 
-![Form Type for Single-Line Text field](img/scr-ContentField-SingleLineText-formtype.gif)
+![Form Type for Single-Line Text field](/images/scr-ContentField-SingleLineText-formtype.gif)
 
   
 
@@ -31,7 +31,7 @@ Appearance
 
   
 
-![General Settings for Single-Line Text field](img/scr-ContentField-SingleLineText-generalsettings.gif)
+![General Settings for Single-Line Text field](/images/scr-ContentField-SingleLineText-generalsettings.gif)
 
   
 
@@ -66,7 +66,7 @@ If enabled (On) and the user hovers/clicks/taps over the information icon (i) ne
 
   
 
-![Validation for Single-Line Text field](img/scr-ContentField-SingleLineText-validation.gif)
+![Validation for Single-Line Text field](/images/scr-ContentField-SingleLineText-validation.gif)
 
   
 

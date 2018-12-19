@@ -13,7 +13,7 @@ Produces and displays a sitemap for the site.
 
   
 
-![Sitemap module](img/scr-module-Sitemap.png)
+![Sitemap module](/images/scr-module-Sitemap.png)
 
   
 
@@ -29,13 +29,13 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-sitemap.png) 
+ ![icon](/images/ico-module-sitemap.png) 
 
 Sitemap
 
 Admin
 
- ![Platform](img/ico-dnn-platform.png) ![Evoq Content](img/ico-evoq-content.png) ![Evoq Engage](img/ico-evoq-engage.png) 
+ ![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png) 
 
 ## Module Configuration
 

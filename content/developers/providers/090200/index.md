@@ -26,27 +26,6 @@ An abstract provider can be **Data Provider**, and a concrete provider can be **
 
 To replace the default provider, simply change the value of the defaultProvider attribute of the appropriate tag in the web.config file.
 
-The following are some of the types of providers used in DNN:
-
-*   [Authentication provider](#top-providers__authprov)
-*   [Caching provider](#top-providers__cacheprov)
-*   [Data provider](#top-providers__dataprov)
-*   [Folder provider](#top-providers__folderprov)
-*   [Friendly URL provider](#top-providers__friendprov)
-*   [HTML editor provider](#top-providers__htmlprov)
-*   [Logging provider](#top-providers__logprov)
-*   [Membership provider](#top-providers__membprov)
-*   [Module caching provider](#top-providers__modcacheprov)
-*   [Navigation provider](#top-providers__navprov)
-*   [Output caching provider](#top-providers__outcacheprov)
-*   [Permissions provider](#top-providers__permsprov)
-*   [Profile provider](#top-providers__profprov)
-*   [Roles provider](#top-providers__rolesprov)
-*   [Scheduling provider](#top-providers__schedprov)
-*   [Search data store provider](#top-providers__searchdataprov)
-*   [Search index provider](#top-providers__searchindexprov)
-*   [Sitemap provider](#top-providers__sitemapprov)
-
 ## Authentication provider
 
 Default web.config setting:
@@ -77,7 +56,7 @@ DNN natively provides support for the following SSO providers:
 
 You can also [create your own](http://www.dnnsoftware.com/community-blog/cid/134678/dotnetnuke-tips-and-tricks-12-creating-your-own-authentication-provider).
 
-See [membership provider](#top-providers__membprov) (local authentication), [permissions provider](#top-providers__permsprov), and [roles provider](#top-providers__rolesprov).
+See [membership provider](#membership-provider) (local authentication), [permissions provider](#permissions-provider), and [roles provider](#roles-provider).
 
 ## Caching provider
 
@@ -254,7 +233,7 @@ A **membership provider** manages your website user logins using a local solutio
 
 Unlike authentication providers which provide SSO authentication, the membership provider is a standalone authentication solution that is local to the website or to the DNN installation.
 
-See [authentication provider](#top-providers__authprov) (SSO authentication), [permissions provider](#top-providers__permsprov), and [roles provider](#top-providers__rolesprov). Also see the MSDN Library's [Introduction to Membership](http://msdn.microsoft.com/en-us/library/yh26yfzy.aspx) and Engage Weblog's [Building your own Membership Provider](http://www.engagesoftware.com/blog/post/447/building-your-own-membership-provider-for-dotnetnuke-and-asp-net-2-0) by [Henry Kenuam](http://www.dnnsoftware.com/activity-feed/userid/32389).
+See [authentication provider](#authentication-provider) (SSO authentication), [permissions provider](#permissions-provider), and [roles provider](#roles-provider). Also see the MSDN Library's [Introduction to Membership](http://msdn.microsoft.com/en-us/library/yh26yfzy.aspx) and Engage Weblog's [Building your own Membership Provider](http://www.engagesoftware.com/blog/post/447/building-your-own-membership-provider-for-dotnetnuke-and-asp-net-2-0) by [Henry Kenuam](http://www.dnnsoftware.com/activity-feed/userid/32389).
 
 ## Module caching provider
 
@@ -274,7 +253,7 @@ Default web.config setting:
 
 A **module caching provider** manages how the output of modules are cached and aged, whether they are stored in a file or in memory.
 
-See [output caching provider](#top-providers__outcacheprov).
+See [output caching provider](#output-caching-provider).
 
 ## Navigation provider
 
@@ -309,7 +288,7 @@ Default web.config setting:
 
 An **output caching provider** manages how the entire page is cached and aged.
 
-See [module caching provider](#top-providers__modcacheprov).
+See [module caching provider](#module-caching-provider).
 
 ## Permissions provider
 
@@ -330,7 +309,7 @@ A **permissions provider** manages asset permissions, such as those associated w
 
 DNN Evoq supplies its own **GranularPermissionProvider**, which allows greater granularity with permissions.
 
-See [authentication provider](#top-providers__authprov) (SSO authentication), [membership provider (local authentication)](#top-providers__membprov), and [roles provider](#top-providers__rolesprov).
+See [authentication provider](#authentication-provider) (SSO authentication), [membership provider (local authentication)](#membership-provider), and [roles provider](#roles-provider).
 
 ## Profile provider
 
@@ -366,7 +345,7 @@ Default web.config setting:
 
 A **roles provider** manages the permissions required for specific roles. This allows the administrator to easily assign/revoke all permissions associated with a role by simply adding/deleting a user or a set of users to/from the role.
 
-See [authentication provider](#top-providers__authprov) (SSO authentication), [membership provider](#top-providers__membprov) (local authentication), and [permissions provider](#top-providers__permsprov).
+See [authentication provider](#authentication-provider) (SSO authentication), [membership provider](#membership-provider) (local authentication), and [permissions provider](#permissions-provider).
 
 ## Scheduling provider
 
@@ -406,7 +385,7 @@ Default web.config setting:
 
 A **search data store provider** allows you to specify where the search engine should store search results and other search-related data.
 
-See [search index provider](#top-providers__searchindexprov).
+See [search index provider](#search-index-provider).
 
 ## Search index provider
 
@@ -425,7 +404,7 @@ Default web.config setting:
 
 A **search index provider** allows you to specify how the website content is indexed and what rules are performed to do searches.
 
-See [search data store provider](#top-providers__searchdataprov) and [sitemap provider](#top-providers__sitemapprov).
+See [search data store provider](#search-data-store-provider) and [sitemap provider](#sitemap-provider).
 
 ## Sitemap provider
 

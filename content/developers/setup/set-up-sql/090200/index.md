@@ -20,7 +20,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
         
           
         
-        ![New SQL Server stand-alone installation](img/scr-InstallSQL-1.png)
+        ![New SQL Server stand-alone installation](/images/scr-InstallSQL-1.png)
         
           
         
@@ -30,7 +30,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
         
           
         
-        ![Database Engine Conf > Authentication Mode > Mixed Mode](img/scr-InstallSQL-6.png)
+        ![Database Engine Conf > Authentication Mode > Mixed Mode](/images/scr-InstallSQL-6.png)
         
           
         
@@ -41,7 +41,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
         
           
         
-        ![In the Object Explorer panel, right-click Databases, choose New Database.](img/scr-SetupSQL-2.png)
+        ![In the Object Explorer panel, right-click Databases, choose New Database.](/images/scr-SetupSQL-2.png)
         
           
         
@@ -49,7 +49,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
         
           
         
-        ![Enter new database name.](img/scr-SetupSQL-3.png)
+        ![Enter new database name.](/images/scr-SetupSQL-3.png)
         
           
         
@@ -61,7 +61,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
         
           
         
-        ![Under Security, right-click Logins, choose New Login.](img/scr-SetupSQL-4.png)
+        ![Under Security, right-click Logins, choose New Login.](/images/scr-SetupSQL-4.png)
         
           
         
@@ -69,7 +69,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
         
           
         
-        ![Choose SQL Server authentication. Uncheck Enforce password policy.](img/scr-SetupSQL-5.png)
+        ![Choose SQL Server authentication. Uncheck Enforce password policy.](/images/scr-SetupSQL-5.png)
         
           
         
@@ -81,7 +81,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
         
           
         
-        ![Under your database > Security, right-click Users, choose New User.](img/scr-SetupSQL-6.png)
+        ![Under your database > Security, right-click Users, choose New User.](/images/scr-SetupSQL-6.png)
         
           
         
@@ -89,7 +89,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
         
           
         
-        ![User type = SQL user with login](img/scr-SetupSQL-7.png)
+        ![User type = SQL user with login](/images/scr-SetupSQL-7.png)
         
           
         
@@ -97,7 +97,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
         
           
         
-        ![Enter the new account's login name, then click/tap Check Names.](img/scr-SetupSQL-8.png)
+        ![Enter the new account's login name, then click/tap Check Names.](/images/scr-SetupSQL-8.png)
         
           
         
@@ -105,4 +105,4 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
         
           
         
-        ![For Membership page, check db_owner.](img/scr-SetupSQL-10.png)
+        ![For Membership page, check db_owner.](/images/scr-SetupSQL-10.png)

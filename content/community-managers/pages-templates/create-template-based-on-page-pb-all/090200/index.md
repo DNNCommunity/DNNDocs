@@ -16,7 +16,7 @@ related-topics: create-template-based-on-another-template-pb-all,edit-delete-tem
     
       
     
-    ![Pages > Configure](img/scr-pb-Pages-Configure-E91.png)
+    ![Pages > Configure](/images/scr-pb-Pages-Configure-E91.png)
     
       
     
@@ -24,7 +24,7 @@ related-topics: create-template-based-on-another-template-pb-all,edit-delete-tem
     
       
     
-    ![Pages > Settings (gear icon) > Save Page Template](img/scr-pb-ConfigPage-SavePageTemplate-E91.png)
+    ![Pages > Settings (gear icon) > Save Page Template](/images/scr-pb-ConfigPage-SavePageTemplate-E91.png)
     
       
     
@@ -35,7 +35,7 @@ related-topics: create-template-based-on-another-template-pb-all,edit-delete-tem
     
       
     
-    ![Save Page Template into XML file](img/scr-pb-SavePageTemplate-XML-E91.png)
+    ![Save Page Template into XML file](/images/scr-pb-SavePageTemplate-XML-E91.png)
     
       
     
@@ -62,7 +62,7 @@ If Evoq Page Template, the list of templates is displayed, showing the new templ
 
   
 
-![List of templates including the new template.](img/scr-pb-PageTemplates-NewTemplate.png)
+![List of templates including the new template.](/images/scr-pb-PageTemplates-NewTemplate.png)
 
   
 

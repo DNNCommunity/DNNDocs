@@ -18,7 +18,7 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,configur
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,10 +26,10 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,configur
     
 2.  Go to the Site Behavior tab, and then the More subtab.
     
-    ![Site Behavior > More](img/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-More-E90.png)
+    ![Site Behavior > More](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-More-E90.png)
     
 3.  Click/Tap the Open HTML Editor Managerbutton.
     
       
     
-    ![Site Settings > Site Behavior > More — Open HTML Editor Manager](img/scr-SiteSettings-SiteBehavior-More-HTMLEditorMgr.png)
+    ![Site Settings > Site Behavior > More — Open HTML Editor Manager](/images/scr-SiteSettings-SiteBehavior-More-HTMLEditorMgr.png)

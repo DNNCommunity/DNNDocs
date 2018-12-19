@@ -20,7 +20,7 @@ Note: If a server is disabled in the UI but is still running, its cache is not s
 
 1.  Go to Persona Bar \> Settings \> Servers.
     
-    ![Persona Bar > Settings > Servers](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -28,13 +28,13 @@ Note: If a server is disabled in the UI but is still running, its cache is not s
     
 2.  Go to the Server Settings tab, and then the Web Servers subtab.
     
-    ![Server Settings > Web Servers](img/scr-pbtabs-host-Settings-Servers-ServerSettings-WebServers-E90.png)
+    ![Server Settings > Web Servers](/images/scr-pbtabs-host-Settings-Servers-ServerSettings-WebServers-E90.png)
     
 3.  Under Servers, find the server you want to edit. Click/Tap the pencil icon.
     
       
     
-    ![](img/scr-Servers-ServerSettings-WebServers-EditIcon-E90.png)
+    ![](/images/scr-Servers-ServerSettings-WebServers-EditIcon-E90.png)
     
       
     
@@ -44,4 +44,4 @@ Note: If a server is disabled in the UI but is still running, its cache is not s
     
       
     
-    ![](img/scr-Servers-ServerSettings-WebServers-Enabled-toggle-E90.png)
+    ![](/images/scr-Servers-ServerSettings-WebServers-Enabled-toggle-E90.png)

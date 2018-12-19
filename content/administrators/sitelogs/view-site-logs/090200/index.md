@@ -18,7 +18,7 @@ related-topics: view-entry-details,clear-log,delete-entries,share-entries,add-ev
 
 1.  Go to Persona Bar \> Manage \> Admin Logs.
     
-    ![Persona Bar > Manage > Admin Logs](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Admin Logs](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: view-entry-details,clear-log,delete-entries,share-entries,add-ev
     
 2.  Go to the Admin Logs tab.
     
-    ![Admin Logs](img/scr-pbtabs-host-Manage-AdminLogs-AdminLogs-E90.png)
+    ![Admin Logs](/images/scr-pbtabs-host-Manage-AdminLogs-AdminLogs-E90.png)
     
 3.  To filter the entries, use the dropdown(s) to choose the site and/or logged event type (log type).
     
       
     
-    ![Dropdowns to choose the site and/or logged event type](img/scr-AdminLogs-adminlogslist-filters-E90.gif)
+    ![Dropdowns to choose the site and/or logged event type](/images/scr-AdminLogs-adminlogslist-filters-E90.gif)
     
       
     

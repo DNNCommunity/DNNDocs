@@ -20,7 +20,7 @@ Note: Only the description can be changed in default roles.
 
 1.  Go to Persona Bar \> Manage \> Roles.
     
-    ![Persona Bar > Manage > Roles](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Roles](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -33,7 +33,7 @@ Note: Only the description can be changed in default roles.
             
               
             
-            ![Search field for roles](img/scr-RoleList-Search-E90.png)
+            ![Search field for roles](/images/scr-RoleList-Search-E90.png)
             
               
             
@@ -41,7 +41,7 @@ Note: Only the description can be changed in default roles.
             
               
             
-            ![Filter list of roles by group](img/scr-RoleList-FilterByRoleGroup-E90.png)
+            ![Filter list of roles by group](/images/scr-RoleList-FilterByRoleGroup-E90.png)
             
               
             
@@ -51,7 +51,7 @@ Note: Only the description can be changed in default roles.
     
       
     
-    ![](img/scr-RoleList-EditRole-E90.png)
+    ![](/images/scr-RoleList-EditRole-E90.png)
     
       
     
@@ -59,7 +59,7 @@ Note: Only the description can be changed in default roles.
     
       
     
-    ![](img/scr-Roles-Edit-Edit-E90.png)
+    ![](/images/scr-Roles-Edit-Edit-E90.png)
     
       
     

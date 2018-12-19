@@ -19,7 +19,7 @@ An article can be announcements, news, press releases.
     
       
     
-    ![Publisher module with the Edit Bar](img/scr-module-Publisher-EditBar-CreatePost.png)
+    ![Publisher module with the Edit Bar](/images/scr-module-Publisher-EditBar-CreatePost.png)
     
       
     
@@ -27,7 +27,7 @@ An article can be announcements, news, press releases.
     
       
     
-    ![Create an article with the Publisher module](img/scr-Publisher-CreatePost.png)
+    ![Create an article with the Publisher module](/images/scr-Publisher-CreatePost.png)
     
       
     
@@ -45,7 +45,7 @@ An article can be announcements, news, press releases.
         
           
         
-        ![](img/scr-Publisher-ReplaceDeleteImage.png)
+        ![](/images/scr-Publisher-ReplaceDeleteImage.png)
         
           
         
@@ -55,7 +55,7 @@ An article can be announcements, news, press releases.
         
           
         
-        ![](img/scr-Publisher-TextEditingPanel2.png)
+        ![](/images/scr-Publisher-TextEditingPanel2.png)
         
           
         
@@ -63,7 +63,7 @@ An article can be announcements, news, press releases.
     
       
     
-    ![](img/scr-Publisher-EditPostDetails.png)
+    ![](/images/scr-Publisher-EditPostDetails.png)
     
       
     
@@ -91,4 +91,4 @@ An article can be announcements, news, press releases.
     
       
     
-    ![](img/scr-Publisher-PostAuthor.png)
+    ![](/images/scr-Publisher-PostAuthor.png)

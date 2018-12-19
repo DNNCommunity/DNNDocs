@@ -14,7 +14,7 @@ related-topics: create-folder,edit-folder-properties,edit-folder-permissions,del
 
 1.  Go to Persona Bar \> Content \> Assets.
     
-    ![Persona Bar > Content > Assets](img/scr-pbar-cmg-Content-E91.png)
+    ![Persona Bar > Content > Assets](/images/scr-pbar-cmg-Content-E91.png)
     
     ➊
     
@@ -24,7 +24,7 @@ related-topics: create-folder,edit-folder-properties,edit-folder-permissions,del
     
       
     
-    ![Folder card iconbar - move](img/scr-Assets-foldercard-iconbar-move-E90.png)
+    ![Folder card iconbar - move](/images/scr-Assets-foldercard-iconbar-move-E90.png)
     
       
     
@@ -32,4 +32,4 @@ related-topics: create-folder,edit-folder-properties,edit-folder-permissions,del
     
       
     
-    ![Move Folder To folder selector](img/scr-Assets-MoveFolderto.png)
+    ![Move Folder To folder selector](/images/scr-Assets-MoveFolderto.png)

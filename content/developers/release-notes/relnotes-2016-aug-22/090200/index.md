@@ -40,7 +40,7 @@ EVOQ ENGAGE
 *   Added RSS support for the Activity Stream.
 *   Enabled auto-resizing of images in the Activity Stream for optimal performance.
 *   Introduced [DNN Cloud Microservices](content-managers-microservices-overview). Microservices improve the overall performance of your site by hosting additional functionality on cloud servers. Microservices also enable easier and faster deployment of updates.
-    *   [Structured Content](content-managers-structured-content-overview). Separates content creation from design using a highly structured approach.
+    *   [Structured Content](/content-managers/microservices/content-managers-microservices-overview/090200/). Separates content creation from design using a highly structured approach.
         *   Get started with the six predefined content types, which are based on common use cases.
         *   Define custom content types using simple drag-and-drop functionality and dynamic layouts.
         *   Create content items in a structured format without worrying about design.

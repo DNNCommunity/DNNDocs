@@ -13,7 +13,7 @@ Displays the user profile.
 
   
 
-![View Profile module](img/scr-module-ViewProfile.png)
+![View Profile module](/images/scr-module-ViewProfile.png)
 
   
 
@@ -27,10 +27,10 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-viewprofile.png) 
+ ![icon](/images/ico-module-viewprofile.png) 
 
 ViewProfile
 
 Admin
 
- ![Platform](img/ico-dnn-platform.png) ![Evoq Content](img/ico-evoq-content.png) ![Evoq Engage](img/ico-evoq-engage.png)
+ ![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)

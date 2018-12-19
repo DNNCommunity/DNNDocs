@@ -68,7 +68,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
         
           
         
-        ![Right-click on the DNN folder and choose Properties](img/scr-FolderPerms-1.png)
+        ![Right-click on the DNN folder and choose Properties](/images/scr-FolderPerms-1.png)
         
           
         
@@ -76,7 +76,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
         
           
         
-        ![In the Security tab, click/tap Edit...](img/scr-FolderPerms-2.png)
+        ![In the Security tab, click/tap Edit...](/images/scr-FolderPerms-2.png)
         
           
         
@@ -84,7 +84,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
         
           
         
-        ![Click/Tap Add...](img/scr-FolderPerms-3.png)
+        ![Click/Tap Add...](/images/scr-FolderPerms-3.png)
         
           
         
@@ -92,7 +92,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
         
           
         
-        ![In Select Users or Groups, enter the user name, then click/tap Check Names.](img/scr-FolderPerms-5a.png)
+        ![In Select Users or Groups, enter the user name, then click/tap Check Names.](/images/scr-FolderPerms-5a.png)
         
           
         
@@ -100,4 +100,4 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
         
           
         
-        ![Highlight the newly added user name and check Full Control and Modify under Allow.](img/scr-FolderPerms-6.png)
+        ![Highlight the newly added user name and check Full Control and Modify under Allow.](/images/scr-FolderPerms-6.png)

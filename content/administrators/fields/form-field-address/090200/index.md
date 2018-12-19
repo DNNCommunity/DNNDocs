@@ -14,7 +14,7 @@ related-topics: form-field-date-time,form-field-dropdown,form-field-email,form-f
 
   
 
-![Settings for Address field](img/scr-FormField-Address-generalsettings.gif)
+![Settings for Address field](/images/scr-FormField-Address-generalsettings.gif)
 
   
 
@@ -45,7 +45,7 @@ If enabled (On), displays help text to indicate which part to enter in each text
 
   
 
-![Settings for Address field](img/scr-FormField-Address-helptext.gif)
+![Settings for Address field](/images/scr-FormField-Address-helptext.gif)
 
   
 

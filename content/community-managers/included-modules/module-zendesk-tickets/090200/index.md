@@ -22,13 +22,13 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-zendesk.png) 
+ ![icon](/images/ico-module-zendesk.png) 
 
 Zendesk Tickets
 
 Social
 
- ![Evoq Engage](img/ico-evoq-engage.png) 
+ ![Evoq Engage](/images/ico-evoq-engage.png) 
 
 ## Module Configuration
 

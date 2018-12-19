@@ -34,8 +34,8 @@ EVOQ CONTENT
 
 *   All updates included with Evoq Content Basic 9.0.0.
 *   The new MailChimp connector allows new users or subscribers to be automatically mapped to your MailChimp subscription lists. The connector also includes an Unsubscribe module for users to be automatically removed if they opt out.
-*   New Evoq Analytics service replaces the old built-in analytics functionality. The new service connects to Google Analytics and displays visualizations, data, and insights inside the Evoq interface.[1](#top-relnotes-2016-dec-09__fn-cloud-based)
-*   Form Builder: You can now build and deploy dynamic forms.[1](#top-relnotes-2016-dec-09__fn-cloud-based)
+*   New Evoq Analytics service replaces the old built-in analytics functionality. The new service connects to Google Analytics and displays visualizations, data, and insights inside the Evoq interface.[1](#fn-cloud-based)
+*   Form Builder: You can now build and deploy dynamic forms.[1](#fn-cloud-based)
     *   Four common use cases are shipped out of the box.
     *   You can now customize the view of the form response list for easier analysis.
     *   You can configure the properties (custom URL) and custom connections (Google Analytics) of a form. You can also hide forms.
@@ -48,18 +48,18 @@ EVOQ CONTENT
 EVOQ ENGAGE
 
 *   All updates included with Evoq Content 9.0.0.
-*   Structured Content: Separates the content creation process from the design process.[1](#top-relnotes-2016-dec-09__fn-cloud-based)
+*   Structured Content: Separates the content creation process from the design process.[1](#fn-cloud-based)
     *   You can easily create content types with drag-and-drop functionality and dynamic layouts.
     *   Six common use cases are shipped out of the box.
     *   Content creators don't have to worry about the design of the page where their content would appear.
     *   Images can be edited directly on the page.
     *   Dynamic lists are automatically updated with newly created content items matching the configured criteria.
     *   Dynamic lists can easily link to a detail view without requiring a new page for every content item.
-*   Visualizers: Modern and beautifully designed content wrappers are included.[1](#top-relnotes-2016-dec-09__fn-cloud-based)
+*   Visualizers: Modern and beautifully designed content wrappers are included.[1](#fn-cloud-based)
     *   With dozens of visualizers provided out of the box and more added with each update, web designers can easily add modern design elements to web pages using content.
     *   Visualizers are easily created using templates that bundle HTML, CSS, and JavaScript.
     *   Visualizer Builder templates also support pagination, header wrappers, and footer wrappers.
 *   The new connector between the Form Builder and Structured Content converts form submissions to content items, which can be mined for testimonials or reviews and displayed on a page.
 *   A dedicated Community Analytics dashboard displays important community performance metrics and analytics.
 
-1 Delivered as a cloud-based DNN microservice. Microservices allow for easier upgrades and faster deployment of new updates. Microservices also improve the overall performance of your site by hosting additional functionality on cloud servers.
+<a name="fn-cloud-based">1</a>Delivered as a cloud-based DNN microservice. Microservices allow for easier upgrades and faster deployment of new updates. Microservices also improve the overall performance of your site by hosting additional functionality on cloud servers.

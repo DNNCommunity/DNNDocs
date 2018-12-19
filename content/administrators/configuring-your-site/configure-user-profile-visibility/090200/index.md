@@ -42,7 +42,7 @@ Users
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -50,13 +50,13 @@ Users
     
 2.  Go to the Site Behavior tab, and then the User Profiles subtab.
     
-    ![Site Behavior > User Profiles](img/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-UserProfiles-E90.png)
+    ![Site Behavior > User Profiles](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-UserProfiles-E90.png)
     
 3.  Configure the visibility of user profiles.
     
       
     
-    ![Site Settings > Site Behavior > User Profiles — visibility settings](img/scr-SiteSettings-SiteBehavior-UserProfiles-UserProfileSettings-Visibility-E90.png)
+    ![Site Settings > Site Behavior > User Profiles — visibility settings](/images/scr-SiteSettings-SiteBehavior-UserProfiles-UserProfileSettings-Visibility-E90.png)
     
       
     
@@ -81,4 +81,4 @@ Users
     
       
     
-    ![Field visibility controls for each field in the user's profile page.](img/scr-UserProfile-FieldVisibilityControls.png)
+    ![Field visibility controls for each field in the user's profile page.](/images/scr-UserProfile-FieldVisibilityControls.png)

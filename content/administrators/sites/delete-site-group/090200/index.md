@@ -18,7 +18,7 @@ related-topics: create-site-group,add-or-remove-sites-in-group,edit-site-group
 
 1.  Go to Persona Bar \> Manage \> Sites .
     
-    ![Persona Bar > Manage > Sites](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Sites](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -28,7 +28,7 @@ related-topics: create-site-group,add-or-remove-sites-in-group,edit-site-group
     
       
     
-    ![](img/scr-Sites-SiteGroupsTab-E90.png)
+    ![](/images/scr-Sites-SiteGroupsTab-E90.png)
     
       
     
@@ -36,7 +36,7 @@ related-topics: create-site-group,add-or-remove-sites-in-group,edit-site-group
     
       
     
-    ![](img/scr-Sites-SiteGroups-Arrow-E90.png)
+    ![](/images/scr-Sites-SiteGroups-Arrow-E90.png)
     
       
     
@@ -44,7 +44,7 @@ related-topics: create-site-group,add-or-remove-sites-in-group,edit-site-group
     
       
     
-    ![](img/scr-Sites-SiteGroups-Edit-Delete-E90.png)
+    ![](/images/scr-Sites-SiteGroups-Edit-Delete-E90.png)
     
       
     

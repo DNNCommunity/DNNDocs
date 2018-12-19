@@ -14,7 +14,7 @@ Displays the current user's activities and associated activity points.
 
   
 
-![Activities module](img/scr-module-Activities.png)
+![Activities module](/images/scr-module-Activities.png)
 
   
 
@@ -26,13 +26,13 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-activities.png) 
+ ![icon](/images/ico-module-activities.png) 
 
 Activities
 
 Social
 
- ![Evoq Engage](img/ico-evoq-engage.png) 
+ ![Evoq Engage](/images/ico-evoq-engage.png) 
 
 ## Module Configuration
 

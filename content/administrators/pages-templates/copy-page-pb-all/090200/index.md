@@ -14,7 +14,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
 
 1.  Go to Persona Bar \> Content \> Pages.
     
-    ![Persona Bar > Content > Pages](img/scr-pbar-host-Content-E91.png)
+    ![Persona Bar > Content > Pages](/images/scr-pbar-host-Content-E91.png)
     
     ➊
     
@@ -24,7 +24,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
     
       
     
-    ![Pages > Configure](img/scr-pb-Pages-Configure-E91.png)
+    ![Pages > Configure](/images/scr-pb-Pages-Configure-E91.png)
     
       
     
@@ -32,7 +32,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
     
       
     
-    ![Pages > Settings (gear icon) > Duplicate Page](img/scr-pb-ConfigPage-DuplicatePage-E91.png)
+    ![Pages > Settings (gear icon) > Duplicate Page](/images/scr-pb-ConfigPage-DuplicatePage-E91.png)
     
       
     
@@ -40,7 +40,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
     
       
     
-    ![Page Settings > Details](img/scr-pb-ConfigPage-Details.png)
+    ![Page Settings > Details](/images/scr-pb-ConfigPage-Details.png)
     
       
     
@@ -91,7 +91,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
     
       
     
-    ![Add Page > Details > Calendar](img/scr-pb-AddPage-Details-Calendar.png)
+    ![Add Page > Details > Calendar](/images/scr-pb-AddPage-Details-Calendar.png)
     
       
     
@@ -103,7 +103,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
     
       
     
-    ![Page > Permissions](img/scr-pb-Page-Permissions-E91.png)
+    ![Page > Permissions](/images/scr-pb-Page-Permissions-E91.png)
     
       
     
@@ -120,7 +120,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
         
           
         
-        ![Page > Advanced > Modules](img/scr-pb-Page-Advanced-Modules-E91.png)
+        ![Page > Advanced > Modules](/images/scr-pb-Page-Advanced-Modules-E91.png)
         
           
         
@@ -130,7 +130,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
         
           
         
-        ![Page > Advanced > Appearance](img/scr-pb-Page-Advanced-Appearance-E91.png)
+        ![Page > Advanced > Appearance](/images/scr-pb-Page-Advanced-Appearance-E91.png)
         
           
         
@@ -162,7 +162,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
         
           
         
-        ![Page > Advanced > SEO](img/scr-pb-Page-Advanced-SEO-E91.png)
+        ![Page > Advanced > SEO](/images/scr-pb-Page-Advanced-SEO-E91.png)
         
           
         
@@ -186,7 +186,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
         
           
         
-        ![Page > Advanced > More](img/scr-pb-Page-Advanced-More-E91.png)
+        ![Page > Advanced > More](/images/scr-pb-Page-Advanced-More-E91.png)
         
           
         

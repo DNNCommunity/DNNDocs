@@ -18,7 +18,7 @@ related-topics: add-starting-url-to-crawl-list,edit-starting-url-in-crawl-list,d
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: add-starting-url-to-crawl-list,edit-starting-url-in-crawl-list,d
     
 2.  Go to the Search tab, and then the Crawling subtab.
     
-    ![Search > Crawling](img/scr-pbtabs-all-Settings-SiteSettings-Search-Crawling-E90.png)
+    ![Search > Crawling](/images/scr-pbtabs-all-Settings-SiteSettings-Search-Crawling-E90.png)
     
 3.  In Included Directories, click/tap \+ Add Directory.
     
       
     
-    ![](img/scr-SiteSettings-Search-Crawling-IncludedDirectories-add-directory-button-E90.png)
+    ![](/images/scr-SiteSettings-Search-Crawling-IncludedDirectories-add-directory-button-E90.png)
     
       
     
@@ -40,7 +40,7 @@ related-topics: add-starting-url-to-crawl-list,edit-starting-url-in-crawl-list,d
     
       
     
-    ![](img/scr-SiteSettings-Search-Crawling-IncludedDirectories-add-directory-E90.png)
+    ![](/images/scr-SiteSettings-Search-Crawling-IncludedDirectories-add-directory-E90.png)
     
       
     

@@ -12,7 +12,7 @@ dnnversion: 09.02.00
 
   
 
-![Form Type for Number field](img/scr-ContentField-Number-formtype.gif)
+![Form Type for Number field](/images/scr-ContentField-Number-formtype.gif)
 
   
 
@@ -45,7 +45,7 @@ Spinner Orientation
 
   
 
-![General Settings for Number field](img/scr-ContentField-Number-generalsettings.gif)
+![General Settings for Number field](/images/scr-ContentField-Number-generalsettings.gif)
 
   
 
@@ -73,7 +73,7 @@ If enabled (On) and the user hovers/clicks/taps over the information icon (i) ne
 
   
 
-![Validation for Number field](img/scr-ContentField-Number-validation.gif)
+![Validation for Number field](/images/scr-ContentField-Number-validation.gif)
 
   
 

@@ -18,7 +18,7 @@ related-topics: enable-or-disable-web-server,change-url-of-web-server,replace-we
 
 1.  Go to Persona Bar \> Settings \> Servers.
     
-    ![Persona Bar > Settings > Servers](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: enable-or-disable-web-server,change-url-of-web-server,replace-we
     
 2.  Go to the Server Settings tab, and then the Web Servers subtab.
     
-    ![Server Settings > Web Servers](img/scr-pbtabs-host-Settings-Servers-ServerSettings-WebServers-E90.png)
+    ![Server Settings > Web Servers](/images/scr-pbtabs-host-Settings-Servers-ServerSettings-WebServers-E90.png)
     
 3.  Under Servers, find the server you want to edit. Click/Tap the pencil icon.
     
       
     
-    ![](img/scr-Servers-ServerSettings-WebServers-EditIcon-E90.png)
+    ![](/images/scr-Servers-ServerSettings-WebServers-EditIcon-E90.png)
     
       
     
@@ -43,7 +43,7 @@ related-topics: enable-or-disable-web-server,change-url-of-web-server,replace-we
         
           
         
-        ![](img/scr-Servers-ServerSettings-WebServers-ServerGroup-pencil-E90.png)
+        ![](/images/scr-Servers-ServerSettings-WebServers-ServerGroup-pencil-E90.png)
         
           
         
@@ -51,7 +51,7 @@ related-topics: enable-or-disable-web-server,change-url-of-web-server,replace-we
         
           
         
-        ![](img/scr-Servers-ServerSettings-WebServers-ServerGroup-textbox-E90.png)
+        ![](/images/scr-Servers-ServerSettings-WebServers-ServerGroup-textbox-E90.png)
         
           
         

@@ -16,7 +16,7 @@ related-topics: create-template-based-on-page-pb-all,edit-delete-template-pb-all
     
       
     
-    ![In Page Templates, click/tap Add Template.](img/scr-pb-PageTemplates-AddTemplate.png)
+    ![In Page Templates, click/tap Add Template.](/images/scr-pb-PageTemplates-AddTemplate.png)
     
       
     
@@ -24,7 +24,7 @@ related-topics: create-template-based-on-page-pb-all,edit-delete-template-pb-all
     
       
     
-    ![Enter template name and description. Choose the Page Template to base on. Click/Tap Create.](img/scr-pb-PageTemplates-Create.png)
+    ![Enter template name and description. Choose the Page Template to base on. Click/Tap Create.](/images/scr-pb-PageTemplates-Create.png)
     
       
     
@@ -38,4 +38,4 @@ The list of templates is displayed with the new template.
 
   
 
-![List of templates including the new template.](img/scr-pb-PageTemplates-NewTemplate.png)
+![List of templates including the new template.](/images/scr-pb-PageTemplates-NewTemplate.png)

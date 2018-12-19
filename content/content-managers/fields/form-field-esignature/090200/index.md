@@ -14,7 +14,7 @@ related-topics: form-field-address,form-field-date-time,form-field-dropdown,form
 
   
 
-![Settings for E-Signature field](img/scr-FormField-ESignature-generalsettings.gif)
+![Settings for E-Signature field](/images/scr-FormField-ESignature-generalsettings.gif)
 
   
 
@@ -37,7 +37,7 @@ If enabled (On),
 
   
 
-![Settings for E-Signature field](img/scr-FormField-ESignature-helptext.gif)
+![Settings for E-Signature field](/images/scr-FormField-ESignature-helptext.gif)
 
   
 

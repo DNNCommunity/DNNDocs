@@ -32,7 +32,7 @@ DNN products are designed around the needs of several personas or organization r
 
   
 
-![DNN workflow with roles](img/gra-DNNRoles.png)
+![DNN workflow with roles](/images/gra-DNNRoles.png)
 
   
 

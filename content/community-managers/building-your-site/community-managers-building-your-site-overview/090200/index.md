@@ -26,4 +26,4 @@ To build a site,
 6.  Test your site.
 7.  Publish your site.
 
-Tip: The [Site Wizard](module-site-wizard) is a quick way to configure the basic settings for a site, change the design, and apply a template.
+Tip: The [Site Wizard](xref:module-site-wizard) is a quick way to configure the basic settings for a site, change the design, and apply a template.

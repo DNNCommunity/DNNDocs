@@ -18,7 +18,7 @@ Note: The restored version is copied to the top of the list as the most recent v
 
 1.  Go to Persona Bar \> Content \> Assets.
     
-    ![Persona Bar > Content > Assets](img/scr-pbar-mod-Content-E91.png)
+    ![Persona Bar > Content > Assets](/images/scr-pbar-mod-Content-E91.png)
     
     ➊
     
@@ -30,7 +30,7 @@ Note: The restored version is copied to the top of the list as the most recent v
         
           
         
-        ![Assets grid](img/scr-Assets-assetlist-grid-E90.png)
+        ![Assets grid](/images/scr-Assets-assetlist-grid-E90.png)
         
           
         
@@ -38,7 +38,7 @@ Note: The restored version is copied to the top of the list as the most recent v
         
           
         
-        ![Folder selection](img/scr-Assets-folderdropdown-E90.png)
+        ![Folder selection](/images/scr-Assets-folderdropdown-E90.png)
         
           
         
@@ -49,7 +49,7 @@ Note: The restored version is copied to the top of the list as the most recent v
     
       
     
-    ![Breadcrumbs](img/scr-Assets-breadcrumbs-E90.png)
+    ![Breadcrumbs](/images/scr-Assets-breadcrumbs-E90.png)
     
       
     
@@ -57,7 +57,7 @@ Note: The restored version is copied to the top of the list as the most recent v
     
       
     
-    ![Asset card iconbar - pencil](img/scr-Assets-assetcard-iconbar-edit-E90.png)
+    ![Asset card iconbar - pencil](/images/scr-Assets-assetcard-iconbar-edit-E90.png)
     
       
     
@@ -65,7 +65,7 @@ Note: The restored version is copied to the top of the list as the most recent v
     
       
     
-    ![Asset > Edit > Versioning — Rollback](img/scr-Assets-asset-edit-versioning-rollback-E90.png)
+    ![Asset > Edit > Versioning — Rollback](/images/scr-Assets-asset-edit-versioning-rollback-E90.png)
     
       
     

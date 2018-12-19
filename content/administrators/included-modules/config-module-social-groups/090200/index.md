@@ -39,7 +39,7 @@ Important: Both pages must grant the same permissions to users. Otherwise, users
     
       
     
-    ![Module Settings — Social Groups — Auto Configure](img/scr-modulesettings-SocialGroups-AutoConfig.png)
+    ![Module Settings — Social Groups — Auto Configure](/images/scr-modulesettings-SocialGroups-AutoConfig.png)
     
       
     
@@ -49,7 +49,7 @@ Important: Both pages must grant the same permissions to users. Otherwise, users
     
       
     
-    ![Manage action menu > Settings](img/scr-actionmenu-manage-settings.png)
+    ![Manage action menu > Settings](/images/scr-actionmenu-manage-settings.png)
     
       
     
@@ -57,7 +57,7 @@ Important: Both pages must grant the same permissions to users. Otherwise, users
     
       
     
-    ![Module Settings — Social Groups](img/scr-modulesettings-SocialGroups.png)
+    ![Module Settings — Social Groups](/images/scr-modulesettings-SocialGroups.png)
     
       
     

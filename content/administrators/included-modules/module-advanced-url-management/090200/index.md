@@ -12,7 +12,7 @@ Helps administrators to manage the site's friendly URLs.
 
   
 
-![Advanced URL Management module](img/scr-module-AdvURLMgmt.png)
+![Advanced URL Management module](/images/scr-module-AdvURLMgmt.png)
 
   
 
@@ -24,13 +24,13 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-advurlmgmt.png) 
+ ![icon](/images/ico-module-advurlmgmt.png) 
 
 Advanced URL Management
 
 Admin
 
- ![Evoq Content](img/ico-evoq-content.png) ![Evoq Engage](img/ico-evoq-engage.png) 
+ ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png) 
 
 ## Module Configuration
 

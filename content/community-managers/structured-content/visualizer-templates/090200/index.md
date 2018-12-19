@@ -10,7 +10,7 @@ dnnversion: 09.02.00
 
   
 
-![Content > Visualizers tab > Editor > Template](img/scr-Visualizers-Editor-Template-E91.gif)
+![Content > Visualizers tab > Editor > Template](/images/scr-Visualizers-Editor-Template-E91.gif)
 
   
 

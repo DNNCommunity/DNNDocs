@@ -20,13 +20,13 @@ This video briefly demonstrates how to create a custom content type.
 
 1.  Go to the Content Types tab.
     
-    ![Content Types](img/scr-pbtabs-all-Content-ContentLibrary-ContentTypes-E91.png)
+    ![Content Types](/images/scr-pbtabs-all-Content-ContentLibrary-ContentTypes-E91.png)
     
 2.  Click/Tap Create Content Type.
     
       
     
-    ![Content > Content Types tab > Create Content Type](img/scr-pbtabs-all-Content-ContentLibrary-ContentTypes-CreateContentTypeButton-E91.png)
+    ![Content > Content Types tab > Create Content Type](/images/scr-pbtabs-all-Content-ContentLibrary-ContentTypes-CreateContentTypeButton-E91.png)
     
       
     
@@ -34,7 +34,7 @@ This video briefly demonstrates how to create a custom content type.
     
       
     
-    ![Content Type settings](img/scr-ContentTypes-Settings.png)
+    ![Content Type settings](/images/scr-ContentTypes-Settings.png)
     
       
     
@@ -59,7 +59,7 @@ This video briefly demonstrates how to create a custom content type.
         
           
         
-        ![Drag and drop a field to the canvas.](img/scr-ContentField-Add.png)
+        ![Drag and drop a field to the canvas.](/images/scr-ContentField-Add.png)
         
           
         
@@ -67,7 +67,7 @@ This video briefly demonstrates how to create a custom content type.
         
           
         
-        ![Click/Tap a field in the canvas, then configure its settings.](img/scr-ContentField-Edit.png)
+        ![Click/Tap a field in the canvas, then configure its settings.](/images/scr-ContentField-Edit.png)
         
           
         
@@ -75,7 +75,7 @@ This video briefly demonstrates how to create a custom content type.
         
           
         
-        ![Hover over a field in the canvas, then click/tap the duplicate icon.](img/scr-ContentField-Hover-Dup.png)
+        ![Hover over a field in the canvas, then click/tap the duplicate icon.](/images/scr-ContentField-Hover-Dup.png)
         
           
         
@@ -83,7 +83,7 @@ This video briefly demonstrates how to create a custom content type.
         
           
         
-        ![Hover over a field in the canvas, then click/tap the trash icon.](img/scr-ContentField-Hover-Del.png)
+        ![Hover over a field in the canvas, then click/tap the trash icon.](/images/scr-ContentField-Hover-Del.png)
         
           
         
@@ -91,7 +91,7 @@ This video briefly demonstrates how to create a custom content type.
     
       
     
-    ![Content Type properties](img/scr-ContentTypes-Properties.png)
+    ![Content Type properties](/images/scr-ContentTypes-Properties.png)
     
       
     

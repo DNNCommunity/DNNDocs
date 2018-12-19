@@ -14,7 +14,7 @@ Displays the status and reputation of the current user.
 
   
 
-![My Status module](img/scr-module-MyStatus.png)
+![My Status module](/images/scr-module-MyStatus.png)
 
   
 
@@ -26,10 +26,10 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-mystatus.png) 
+ ![icon](/images/ico-module-mystatus.png) 
 
 My Status
 
 Social
 
- ![Evoq Engage](img/ico-evoq-engage.png)
+ ![Evoq Engage](/images/ico-evoq-engage.png)

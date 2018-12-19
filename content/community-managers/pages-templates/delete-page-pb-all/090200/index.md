@@ -23,7 +23,7 @@ Note:
     
       
     
-    ![Pages > Delete](img/scr-pb-Pages-Delete-E91.png)
+    ![Pages > Delete](/images/scr-pb-Pages-Delete-E91.png)
     
       
     

@@ -12,7 +12,7 @@ Provides a basic navigation structure.
 
   
 
-![DDR Menu module](img/scr-module-DDRMenu.png)
+![DDR Menu module](/images/scr-module-DDRMenu.png)
 
   
 
@@ -26,10 +26,10 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-ddrmenu.png) 
+ ![icon](/images/ico-module-ddrmenu.png) 
 
 DDR Menu
 
 Admin
 
- ![Platform](img/ico-dnn-platform.png) ![Evoq Content](img/ico-evoq-content.png) ![Evoq Engage](img/ico-evoq-engage.png)
+ ![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)

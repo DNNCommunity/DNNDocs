@@ -24,7 +24,7 @@ In the Member Directory module, you can configure:
     
       
     
-    ![Manage action menu > Settings](img/scr-actionmenu-manage-settings.png)
+    ![Manage action menu > Settings](/images/scr-actionmenu-manage-settings.png)
     
       
     
@@ -32,7 +32,7 @@ In the Member Directory module, you can configure:
     
       
     
-    ![Module Settings — Member Directory](img/scr-modulesettings-MemberDirectory.png)
+    ![Module Settings — Member Directory](/images/scr-modulesettings-MemberDirectory.png)
     
       
     
@@ -66,19 +66,19 @@ In the Member Directory module, you can configure:
     *   User. Displays the profile of the current user.
     *   Group. Displays only the members of the selected group.  
         
-        ![Module Settings — Member Directory — Filter by Group](img/scr-modulesettings-MemberDirectory-FilterGroup.png)
+        ![Module Settings — Member Directory — Filter by Group](/images/scr-modulesettings-MemberDirectory-FilterGroup.png)
         
           
         
     *   Relationship. Displays only the members with the selected relationship to the current user. (Friends or Followers)  
         
-        ![Module Settings — Member Directory — Filter by Relationship](img/scr-modulesettings-MemberDirectory-FilterRelationship.png)
+        ![Module Settings — Member Directory — Filter by Relationship](/images/scr-modulesettings-MemberDirectory-FilterRelationship.png)
         
           
         
     *   Profile Property. Displays only the members who have the specified value for the selected property.  
         
-        ![Module Settings — Member Directory — Filter by Property](img/scr-modulesettings-MemberDirectory-FilterProfileProperty.png)
+        ![Module Settings — Member Directory — Filter by Property](/images/scr-modulesettings-MemberDirectory-FilterProfileProperty.png)
         
           
         

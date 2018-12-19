@@ -17,7 +17,7 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    ![Manage action menu > Settings](img/scr-actionmenu-manage-settings.png)
+    ![Manage action menu > Settings](/images/scr-actionmenu-manage-settings.png)
     
       
     
@@ -25,7 +25,7 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    ![Module Settings — User Badges](img/scr-modulesettings-UserBadges.png)
+    ![Module Settings — User Badges](/images/scr-modulesettings-UserBadges.png)
     
       
     

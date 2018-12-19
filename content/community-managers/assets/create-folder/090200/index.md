@@ -14,7 +14,7 @@ related-topics: edit-folder-properties,edit-folder-permissions,move-folder,delet
 
 1.  Go to Persona Bar \> Content \> Assets.
     
-    ![Persona Bar > Content > Assets](img/scr-pbar-mod-Content-E91.png)
+    ![Persona Bar > Content > Assets](/images/scr-pbar-mod-Content-E91.png)
     
     ➊
     
@@ -26,7 +26,7 @@ related-topics: edit-folder-properties,edit-folder-permissions,move-folder,delet
         
           
         
-        ![Assets grid](img/scr-Assets-assetlist-grid-E90.png)
+        ![Assets grid](/images/scr-Assets-assetlist-grid-E90.png)
         
           
         
@@ -34,7 +34,7 @@ related-topics: edit-folder-properties,edit-folder-permissions,move-folder,delet
         
           
         
-        ![Folder selection](img/scr-Assets-folderdropdown-E90.png)
+        ![Folder selection](/images/scr-Assets-folderdropdown-E90.png)
         
           
         
@@ -45,7 +45,7 @@ related-topics: edit-folder-properties,edit-folder-permissions,move-folder,delet
     
       
     
-    ![Breadcrumbs](img/scr-Assets-breadcrumbs-E90.png)
+    ![Breadcrumbs](/images/scr-Assets-breadcrumbs-E90.png)
     
       
     
@@ -53,7 +53,7 @@ related-topics: edit-folder-properties,edit-folder-permissions,move-folder,delet
     
       
     
-    ![Add Folder button](img/scr-Assets-assetlist-addfolder-E90.png)
+    ![Add Folder button](/images/scr-Assets-assetlist-addfolder-E90.png)
     
       
     
@@ -61,7 +61,7 @@ related-topics: edit-folder-properties,edit-folder-permissions,move-folder,delet
     
       
     
-    ![Add Folder dialog](img/scr-Assets-addfolder-E90.png)
+    ![Add Folder dialog](/images/scr-Assets-addfolder-E90.png)
     
       
     

@@ -16,7 +16,7 @@ After creating your MVC module project from a template, the following project st
 
   
 
-![Visual Studio MVC project](img/scr-mvc-project-vssolution.png)
+![Visual Studio MVC project](/images/scr-mvc-project-vssolution.png)
 
   
 
@@ -31,7 +31,7 @@ After creating the module and building the package, go to Host \> Extensions to 
 
   
 
-![Initial MVC DNN Module](img/scr-mvc-module-template-view.png)
+![Initial MVC DNN Module](/images/scr-mvc-module-template-view.png)
 
   
 

@@ -14,7 +14,7 @@ Displays the collection of badges that are available on the site. For authentica
 
   
 
-![User Badges module](img/scr-module-UserBadges.png)
+![User Badges module](/images/scr-module-UserBadges.png)
 
   
 
@@ -26,10 +26,10 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-userbadges.png) 
+ ![icon](/images/ico-module-userbadges.png) 
 
 User Badges
 
 Social
 
- ![Evoq Engage](img/ico-evoq-engage.png)
+ ![Evoq Engage](/images/ico-evoq-engage.png)

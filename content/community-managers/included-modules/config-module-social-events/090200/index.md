@@ -17,7 +17,7 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    ![Manage action menu > Settings](img/scr-actionmenu-manage-settings.png)
+    ![Manage action menu > Settings](/images/scr-actionmenu-manage-settings.png)
     
       
     
@@ -25,7 +25,7 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    ![Module Settings — Social Events](img/scr-modulesettings-SocialEvents.png)
+    ![Module Settings — Social Events](/images/scr-modulesettings-SocialEvents.png)
     
       
     

@@ -14,7 +14,7 @@ related-topics: add-assets,edit-asset-properties,edit-asset-permissions,move-ass
 
 1.  Go to Persona Bar \> Content \> Assets.
     
-    ![Persona Bar > Content > Assets](img/scr-pbar-host-Content-E91.png)
+    ![Persona Bar > Content > Assets](/images/scr-pbar-host-Content-E91.png)
     
     ➊
     
@@ -26,7 +26,7 @@ related-topics: add-assets,edit-asset-properties,edit-asset-permissions,move-ass
         
           
         
-        ![Assets grid](img/scr-Assets-assetlist-grid-E90.png)
+        ![Assets grid](/images/scr-Assets-assetlist-grid-E90.png)
         
           
         
@@ -34,7 +34,7 @@ related-topics: add-assets,edit-asset-properties,edit-asset-permissions,move-ass
         
           
         
-        ![Folder selection](img/scr-Assets-folderdropdown-E90.png)
+        ![Folder selection](/images/scr-Assets-folderdropdown-E90.png)
         
           
         
@@ -45,7 +45,7 @@ related-topics: add-assets,edit-asset-properties,edit-asset-permissions,move-ass
     
       
     
-    ![Breadcrumbs](img/scr-Assets-breadcrumbs-E90.png)
+    ![Breadcrumbs](/images/scr-Assets-breadcrumbs-E90.png)
     
       
     
@@ -53,7 +53,7 @@ related-topics: add-assets,edit-asset-properties,edit-asset-permissions,move-ass
     
       
     
-    ![Asset card iconbar - trash](img/scr-Assets-assetcard-iconbar-delete-E90.png)
+    ![Asset card iconbar - trash](/images/scr-Assets-assetcard-iconbar-delete-E90.png)
     
       
     

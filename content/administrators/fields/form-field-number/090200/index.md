@@ -14,7 +14,7 @@ related-topics: form-field-address,form-field-date-time,form-field-dropdown,form
 
   
 
-![Settings for Number field](img/scr-FormField-Number-generalsettings-labelreq.gif)
+![Settings for Number field](/images/scr-FormField-Number-generalsettings-labelreq.gif)
 
   
 
@@ -39,7 +39,7 @@ The number type: Integer, Decimal, or Percentage.
 
   
 
-![Settings for Number field](img/scr-FormField-Number-generalsettings-appearance.gif)
+![Settings for Number field](/images/scr-FormField-Number-generalsettings-appearance.gif)
 
   
 
@@ -74,7 +74,7 @@ Dropdown Order
 
   
 
-![Settings for Number field](img/scr-FormField-Number-helptext.gif)
+![Settings for Number field](/images/scr-FormField-Number-helptext.gif)
 
   
 
@@ -94,7 +94,7 @@ If enabled (On) and the user hovers/clicks/taps over the information icon (i) ne
 
   
 
-![Settings for Number field](img/scr-FormField-Number-defaultvalue.gif)
+![Settings for Number field](/images/scr-FormField-Number-defaultvalue.gif)
 
   
 
@@ -119,7 +119,7 @@ If checked,
 
   
 
-![Settings for Number field](img/scr-FormField-Number-validation.gif)
+![Settings for Number field](/images/scr-FormField-Number-validation.gif)
 
   
 

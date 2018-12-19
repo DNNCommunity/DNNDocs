@@ -18,7 +18,7 @@ related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles
 
 1.  Go to Persona Bar \> Manage \> Users.
     
-    ![Persona Bar > Manage > Users](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Users](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -31,7 +31,7 @@ related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles
     
       
     
-    ![User List > Show dropdown > Superusers](img/scr-UserListShowDropdown-SuperUser-E90.png)
+    ![User List > Show dropdown > Superusers](/images/scr-UserListShowDropdown-SuperUser-E90.png)
     
       
     
@@ -39,4 +39,4 @@ related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles
     
       
     
-    ![User List > Show: Superuser > find the user > ellipses icon > Make Regular User](img/scr-UserList-hostellipsesmenu-MakeRegularUser-E90.png)
+    ![User List > Show: Superuser > find the user > ellipses icon > Make Regular User](/images/scr-UserList-hostellipsesmenu-MakeRegularUser-E90.png)

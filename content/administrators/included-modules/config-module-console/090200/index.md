@@ -17,7 +17,7 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    ![Manage action menu > Settings](img/scr-actionmenu-manage-settings.png)
+    ![Manage action menu > Settings](/images/scr-actionmenu-manage-settings.png)
     
       
     
@@ -68,7 +68,7 @@ related-topics: configure-module-on-page-pb-all
         
           
         
-        ![Module Settings — Console — Mode Normal](img/scr-modulesettings-Console-ModeNormal.png)
+        ![Module Settings — Console — Mode Normal](/images/scr-modulesettings-Console-ModeNormal.png)
         
           
         
@@ -88,7 +88,7 @@ related-topics: configure-module-on-page-pb-all
         
           
         
-        ![Module Settings — Console — Mode Profile](img/scr-modulesettings-Console-ModeProfile.png)
+        ![Module Settings — Console — Mode Profile](/images/scr-modulesettings-Console-ModeProfile.png)
         
           
         
@@ -104,7 +104,7 @@ related-topics: configure-module-on-page-pb-all
         
           
         
-        ![Module Settings — Console — Mode Group](img/scr-modulesettings-Console-ModeGroup.png)
+        ![Module Settings — Console — Mode Group](/images/scr-modulesettings-Console-ModeGroup.png)
         
           
         

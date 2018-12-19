@@ -18,7 +18,7 @@ related-topics: add-starting-url-to-crawl-list,delete-starting-url-from-crawl-li
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: add-starting-url-to-crawl-list,delete-starting-url-from-crawl-li
     
 2.  Go to the Search tab, and then the Crawling subtab.
     
-    ![Search > Crawling](img/scr-pbtabs-all-Settings-SiteSettings-Search-Crawling-E90.png)
+    ![Search > Crawling](/images/scr-pbtabs-all-Settings-SiteSettings-Search-Crawling-E90.png)
     
 3.  In URL Paths, find the URL to edit and click/tap its pencil icon.
     
       
     
-    ![](img/scr-SiteSettings-Search-Crawling-url-paths-edit-E90.png)
+    ![](/images/scr-SiteSettings-Search-Crawling-url-paths-edit-E90.png)
     
       
     
@@ -40,7 +40,7 @@ related-topics: add-starting-url-to-crawl-list,delete-starting-url-from-crawl-li
     
       
     
-    ![](img/scr-SiteSettings-Search-Crawling-url-paths-edit-url-E90.png)
+    ![](/images/scr-SiteSettings-Search-Crawling-url-paths-edit-url-E90.png)
     
       
     

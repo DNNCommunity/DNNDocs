@@ -14,7 +14,7 @@ related-topics: submit-site-Google-search,module-sitemap
 
 1.  Go to Persona Bar \> Settings \> SEO.
     
-    ![Persona Bar > Settings > SEO](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > SEO](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -24,7 +24,7 @@ related-topics: submit-site-Google-search,module-sitemap
     
       
     
-    ![SEO Sitemap settings](img/scr-SEO-SiteMapSettings-TitleGeneral-E90.png)
+    ![SEO Sitemap settings](/images/scr-SEO-SiteMapSettings-TitleGeneral-E90.png)
     
       
     
@@ -32,7 +32,7 @@ related-topics: submit-site-Google-search,module-sitemap
     
       
     
-    ![SEO Sitemap general settings](img/scr-SEO-SiteMapSettings-General-E90.png)
+    ![SEO Sitemap general settings](/images/scr-SEO-SiteMapSettings-General-E90.png)
     
       
     
@@ -79,7 +79,7 @@ related-topics: submit-site-Google-search,module-sitemap
     
       
     
-    ![SEO Sitemap Provider settings](img/scr-SEO-SiteMapSettings-Providers-E90.png)
+    ![SEO Sitemap Provider settings](/images/scr-SEO-SiteMapSettings-Providers-E90.png)
     
       
     
@@ -101,7 +101,7 @@ related-topics: submit-site-Google-search,module-sitemap
 
   
 
-![SEO Site Submission settings](img/scr-SEO-SiteMapSettings-Submission-E90.png)
+![SEO Site Submission settings](/images/scr-SEO-SiteMapSettings-Submission-E90.png)
 
   
 

@@ -14,7 +14,7 @@ Displays a list of activities related to a user or a group in reverse chronologi
 
   
 
-![Activity Stream module](img/scr-module-ActivityStream.png)
+![Activity Stream module](/images/scr-module-ActivityStream.png)
 
   
 
@@ -30,10 +30,10 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-activitystream.png) 
+ ![icon](/images/ico-module-activitystream.png) 
 
 Activity Stream
 
 Social
 
- ![Evoq Engage](img/ico-evoq-engage.png)
+ ![Evoq Engage](/images/ico-evoq-engage.png)

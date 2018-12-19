@@ -14,7 +14,7 @@ related-topics: create-folder,edit-folder-permissions,move-folder,delete-folder
 
 1.  Go to Persona Bar \> Content \> Assets.
     
-    ![Persona Bar > Content > Assets](img/scr-pbar-cmg-Content-E91.png)
+    ![Persona Bar > Content > Assets](/images/scr-pbar-cmg-Content-E91.png)
     
     ➊
     
@@ -26,7 +26,7 @@ related-topics: create-folder,edit-folder-permissions,move-folder,delete-folder
         
           
         
-        ![Assets grid](img/scr-Assets-assetlist-grid-E90.png)
+        ![Assets grid](/images/scr-Assets-assetlist-grid-E90.png)
         
           
         
@@ -34,7 +34,7 @@ related-topics: create-folder,edit-folder-permissions,move-folder,delete-folder
         
           
         
-        ![Folder selection](img/scr-Assets-folderdropdown-E90.png)
+        ![Folder selection](/images/scr-Assets-folderdropdown-E90.png)
         
           
         
@@ -45,7 +45,7 @@ related-topics: create-folder,edit-folder-permissions,move-folder,delete-folder
     
       
     
-    ![Breadcrumbs](img/scr-Assets-breadcrumbs-E90.png)
+    ![Breadcrumbs](/images/scr-Assets-breadcrumbs-E90.png)
     
       
     
@@ -53,7 +53,7 @@ related-topics: create-folder,edit-folder-permissions,move-folder,delete-folder
     
       
     
-    ![Folder card iconbar - pencil](img/scr-Assets-foldercard-iconbar-edit-E90.png)
+    ![Folder card iconbar - pencil](/images/scr-Assets-foldercard-iconbar-edit-E90.png)
     
       
     
@@ -61,7 +61,7 @@ related-topics: create-folder,edit-folder-permissions,move-folder,delete-folder
     
       
     
-    ![Folder properties - Details](img/scr-Assets-folder-edit-details-E90.png)
+    ![Folder properties - Details](/images/scr-Assets-folder-edit-details-E90.png)
     
       
     

@@ -47,7 +47,7 @@ Clear cache and restart.
         
           
         
-        ![IIS Manager - Restart](img/scr-IISManager-restart.png)
+        ![IIS Manager - Restart](/images/scr-IISManager-restart.png)
         
           
         

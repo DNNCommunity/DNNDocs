@@ -20,7 +20,7 @@ Note: The current site alias cannot be edited, deleted, or set as primary. Log i
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -28,13 +28,13 @@ Note: The current site alias cannot be edited, deleted, or set as primary. Log i
     
 2.  Go to the Site Behavior tab, and then the Site Aliases subtab.
     
-    ![Site Behavior > Site Aliases](img/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-SiteAliases-E90.png)
+    ![Site Behavior > Site Aliases](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-SiteAliases-E90.png)
     
 3.  Click/Tap the pencil icon for the site alias.
     
       
     
-    ![Site Settings > Site Behavior > Site Aliases — Edit](img/scr-SiteSettings-SiteBehavior-SiteAliases-Edit-E90.png)
+    ![Site Settings > Site Behavior > Site Aliases — Edit](/images/scr-SiteSettings-SiteBehavior-SiteAliases-Edit-E90.png)
     
       
     
@@ -42,7 +42,7 @@ Note: The current site alias cannot be edited, deleted, or set as primary. Log i
     
       
     
-    ![Site Settings > Site Behavior > Site Aliases — Edit Alias](img/scr-SiteSettings-SiteBehavior-SiteAliases-EditProperties-E90.png)
+    ![Site Settings > Site Behavior > Site Aliases — Edit Alias](/images/scr-SiteSettings-SiteBehavior-SiteAliases-EditProperties-E90.png)
     
       
     

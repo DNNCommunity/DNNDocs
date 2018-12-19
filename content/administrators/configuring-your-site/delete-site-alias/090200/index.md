@@ -20,7 +20,7 @@ Note: The current site alias cannot be edited, deleted, or set as primary. Log i
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -28,10 +28,10 @@ Note: The current site alias cannot be edited, deleted, or set as primary. Log i
     
 2.  Go to the Site Behavior tab, and then the Site Aliases subtab.
     
-    ![Site Behavior > Site Aliases](img/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-SiteAliases-E90.png)
+    ![Site Behavior > Site Aliases](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-SiteAliases-E90.png)
     
 3.  Click/Tap the trash icon for the site alias. Confirm.
     
       
     
-    ![Site Settings > Site Behavior > Site Aliases — Delete](img/scr-SiteSettings-SiteBehavior-SiteAliases-Delete-E90.png)
+    ![Site Settings > Site Behavior > Site Aliases — Delete](/images/scr-SiteSettings-SiteBehavior-SiteAliases-Delete-E90.png)

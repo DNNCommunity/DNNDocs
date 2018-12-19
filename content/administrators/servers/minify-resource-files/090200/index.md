@@ -24,7 +24,7 @@ You can speed up page downloads in two steps:
 
 1.  Go to Persona Bar \> Settings \> Servers.
     
-    ![Persona Bar > Settings > Servers](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -32,12 +32,12 @@ You can speed up page downloads in two steps:
     
 2.  Go to the Server Settings tab, and then the Performance subtab.
     
-    ![Server Settings > Performance](img/scr-pbtabs-host-Settings-Servers-ServerSettings-Performance-E90.png)
+    ![Server Settings > Performance](/images/scr-pbtabs-host-Settings-Servers-ServerSettings-Performance-E90.png)
     
 
   
 
-![](img/scr-Servers-ServerSettings-Performance-ClientResourceMgmt-E90.png)
+![](/images/scr-Servers-ServerSettings-Performance-ClientResourceMgmt-E90.png)
 
   
 

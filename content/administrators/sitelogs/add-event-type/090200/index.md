@@ -18,7 +18,7 @@ related-topics: view-site-logs,view-entry-details,clear-log,delete-entries,share
 
 1.  Go to Persona Bar \> Manage \> Admin Logs.
     
-    ![Persona Bar > Manage > Admin Logs](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Admin Logs](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: view-site-logs,view-entry-details,clear-log,delete-entries,share
     
 2.  Go to the Log Settings tab.
     
-    ![Log Settings](img/scr-pbtabs-host-Manage-AdminLogs-LogSettings-E90.png)
+    ![Log Settings](/images/scr-pbtabs-host-Manage-AdminLogs-LogSettings-E90.png)
     
 3.  Click/Tap \+ Add Log Setting.
     
       
     
-    ![](img/scr-AdminLogs-logsettingslist-add-log-setting-button-E90.png)
+    ![](/images/scr-AdminLogs-logsettingslist-add-log-setting-button-E90.png)
     
       
     
@@ -40,7 +40,7 @@ related-topics: view-site-logs,view-entry-details,clear-log,delete-entries,share
     
       
     
-    ![](img/scr-AdminLogs-logsettings-addevent-enable-logging-add-E90.png)
+    ![](/images/scr-AdminLogs-logsettings-addevent-enable-logging-add-E90.png)
     
       
     
@@ -48,7 +48,7 @@ related-topics: view-site-logs,view-entry-details,clear-log,delete-entries,share
     
       
     
-    ![](img/scr-AdminLogs-logsettings-addevent-configure-logging-settings-add-E90.png)
+    ![](/images/scr-AdminLogs-logsettings-addevent-configure-logging-settings-add-E90.png)
     
       
     
@@ -72,7 +72,7 @@ related-topics: view-site-logs,view-entry-details,clear-log,delete-entries,share
     
       
     
-    ![](img/scr-AdminLogs-logsettings-addevent-email-notification-settings-add-E90.png)
+    ![](/images/scr-AdminLogs-logsettings-addevent-email-notification-settings-add-E90.png)
     
       
     

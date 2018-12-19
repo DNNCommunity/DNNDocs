@@ -82,7 +82,7 @@ A field can be any of the following types:
 
 Each type could require additional settings. Example: The Single Line Text type requires the subtype setting.
 
-Also see the [Validation section](#top-content-type-fields-for-post-put__validation).
+Also see the [Validation section](#validation).
 
 Field Type
 
@@ -482,7 +482,7 @@ With a default value that is hidden:
 ...
                 
 ```
-
+<a name="validation"></a>
 ## Validation
 
 You can optionally require validation for data entered in the field. Each field type requires different validation settings.

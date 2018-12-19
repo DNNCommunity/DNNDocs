@@ -18,7 +18,7 @@ related-topics: configure-smtp-server
 
 1.  Go to Persona Bar \> Settings \> Servers.
     
-    ![Persona Bar > Settings > Servers](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: configure-smtp-server
     
 2.  Go to the Server Settings tab, and then the SMTP Server subtab.
     
-    ![Server Settings > SMTP Server](img/scr-pbtabs-host-Settings-Servers-ServerSettings-SMTPServer-E90.png)
+    ![Server Settings > SMTP Server](/images/scr-pbtabs-host-Settings-Servers-ServerSettings-SMTPServer-E90.png)
     
 3.  Choose the settings to test.
     
       
     
-    ![SMTP Server Mode](img/scr-Servers-ServerSettings-SMTPServer-SMTPServerMode-E90.png)
+    ![SMTP Server Mode](/images/scr-Servers-ServerSettings-SMTPServer-SMTPServerMode-E90.png)
     
       
     

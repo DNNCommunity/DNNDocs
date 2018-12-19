@@ -20,7 +20,7 @@ Note: An export can take time depending on the selected components and the size 
 
 1.  Go to Persona Bar \> Settings \> Import-Export.
     
-    ![Persona Bar > Settings > Import-Export](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Import-Export](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -30,7 +30,7 @@ Note: An export can take time depending on the selected components and the size 
     
       
     
-    ![Site dropdown](img/scr-Settings-ImportExport-ChooseSite-E91.png)
+    ![Site dropdown](/images/scr-Settings-ImportExport-ChooseSite-E91.png)
     
       
     
@@ -38,7 +38,7 @@ Note: An export can take time depending on the selected components and the size 
     
       
     
-    ![Export Data button](img/scr-Settings-ImportExport-ExportData-button-E91.png)
+    ![Export Data button](/images/scr-Settings-ImportExport-ExportData-button-E91.png)
     
       
     
@@ -46,7 +46,7 @@ Note: An export can take time depending on the selected components and the size 
     
       
     
-    ![Export settings](img/scr-Settings-ImportExport-ExportData-E91.png)
+    ![Export settings](/images/scr-Settings-ImportExport-ExportData-E91.png)
     
       
     

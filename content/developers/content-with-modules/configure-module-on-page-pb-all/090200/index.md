@@ -13,13 +13,13 @@ dnnversion: 09.02.00
 1.  Go to the page containing the module to configure.
 2.  Go to Persona Bar \> Edit.
     
-    ![Persona Bar > Edit](img/scr-pbar-all-Edit-E91.png)
+    ![Persona Bar > Edit](/images/scr-pbar-all-Edit-E91.png)
     
 3.  In the module's action menu bar, go to Manage (gear icon) \> Settings.
     
       
     
-    ![Manage action menu > Settings](img/scr-actionmenu-manage-settings.png)
+    ![Manage action menu > Settings](/images/scr-actionmenu-manage-settings.png)
     
       
     
@@ -27,7 +27,7 @@ dnnversion: 09.02.00
     
       
     
-    ![Module Settings tab](img/scr-ModuleManageSettings-ModuleSettings.png)
+    ![Module Settings tab](/images/scr-ModuleManageSettings-ModuleSettings.png)
     
       
     
@@ -90,7 +90,7 @@ dnnversion: 09.02.00
     
       
     
-    ![Module Settings > Permissions](img/scr-pb-Module-Permissions.png)
+    ![Module Settings > Permissions](/images/scr-pb-Module-Permissions.png)
     
       
     
@@ -103,7 +103,7 @@ dnnversion: 09.02.00
     
       
     
-    ![Module Settings tab](img/scr-ModuleManageSettings-ModuleSettings.png)
+    ![Module Settings tab](/images/scr-ModuleManageSettings-ModuleSettings.png)
     
       
     
@@ -122,7 +122,7 @@ dnnversion: 09.02.00
         
           
         
-        ![Choose a file from your site.](img/scr-ChooseUploadSiteFile.png)
+        ![Choose a file from your site.](/images/scr-ChooseUploadSiteFile.png)
         
           
         
@@ -151,7 +151,7 @@ dnnversion: 09.02.00
             
               
             
-            ![Upload File from URL dialog](img/scr-UploadFileFromURL.png)
+            ![Upload File from URL dialog](/images/scr-UploadFileFromURL.png)
             
               
             
@@ -163,7 +163,7 @@ dnnversion: 09.02.00
         
           
         
-        ![Choose an image that shipped with DNN.](img/scr-ChooseASystemImage.png)
+        ![Choose an image that shipped with DNN.](/images/scr-ChooseASystemImage.png)
         
           
         

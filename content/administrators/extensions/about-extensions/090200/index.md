@@ -15,7 +15,7 @@ Thousands of third-party modules and themes are available from these sources:
 *   [DNN Store](http://store.dnnsoftware.com): Extensions for sale. Some developers provide versions that include the source code.
 *   [DNN Forge](http://www.DNNSoftware.com/Forge): Open source and free extensions.
 
-You can also create your custom [modules](create-module) and [themes](create-theme).
+You can also create your custom [modules](xref:create-module) and [themes](xref:create-theme).
 
 To use an extension:
 

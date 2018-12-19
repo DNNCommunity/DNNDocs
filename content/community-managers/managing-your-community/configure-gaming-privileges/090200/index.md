@@ -18,7 +18,7 @@ related-topics: configure-gaming-actions,create-badge,edit-badge,delete-badge
 
 1.  Go to Persona Bar \> Settings \> Gamification.
     
-    ![Persona Bar > Settings > Gamification](img/scr-pbar-mod-Settings-E91.png)
+    ![Persona Bar > Settings > Gamification](/images/scr-pbar-mod-Settings-E91.png)
     
     ➊
     
@@ -28,7 +28,7 @@ related-topics: configure-gaming-actions,create-badge,edit-badge,delete-badge
     
       
     
-    ![Gaming — Highlight and edit the privilege.](img/scr-Gaming-PrivilegesActions-Edit.png)
+    ![Gaming — Highlight and edit the privilege.](/images/scr-Gaming-PrivilegesActions-Edit.png)
     
       
     
@@ -36,7 +36,7 @@ related-topics: configure-gaming-actions,create-badge,edit-badge,delete-badge
     
       
     
-    ![Configure the privilege.](img/scr-Gaming-PrivilegesEdit.png)
+    ![Configure the privilege.](/images/scr-Gaming-PrivilegesEdit.png)
     
       
     

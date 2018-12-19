@@ -18,7 +18,7 @@ related-topics: add-site-alias,edit-site-alias,delete-site-alias,change-primary-
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: add-site-alias,edit-site-alias,delete-site-alias,change-primary-
     
 2.  Go to the Site Behavior tab, and then the Site Aliases subtab.
     
-    ![Site Behavior > Site Aliases](img/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-SiteAliases-E90.png)
+    ![Site Behavior > Site Aliases](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-SiteAliases-E90.png)
     
 3.  Select the Site Alias Mapping Mode.
     
       
     
-    ![Site Settings > Site Behavior > Site Aliases — Site Alias Mapping Mode](img/scr-SiteSettings-SiteBehavior-SiteAliases-MappingMode-E90.png)
+    ![Site Settings > Site Behavior > Site Aliases — Site Alias Mapping Mode](/images/scr-SiteSettings-SiteBehavior-SiteAliases-MappingMode-E90.png)
     
       
     
@@ -60,7 +60,7 @@ related-topics: add-site-alias,edit-site-alias,delete-site-alias,change-primary-
     
       
     
-    ![Site Settings > Site Behavior > Site Aliases — Auto Add Site Alias](img/scr-SiteSettings-SiteBehavior-SiteAliases-AutoAdd-E90.png)
+    ![Site Settings > Site Behavior > Site Aliases — Auto Add Site Alias](/images/scr-SiteSettings-SiteBehavior-SiteAliases-AutoAdd-E90.png)
     
       
     

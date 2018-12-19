@@ -14,7 +14,7 @@ related-topics: content-field-date-time,content-field-multi-line-text,content-fi
 
   
 
-![Form Type for Assets field](img/scr-ContentField-Assets-formtype.gif)
+![Form Type for Assets field](/images/scr-ContentField-Assets-formtype.gif)
 
   
 
@@ -35,7 +35,7 @@ The number of images or documents included in the content type.
 
   
 
-![General Settings for Assets field](img/scr-ContentField-Assets-generalsettings.gif)
+![General Settings for Assets field](/images/scr-ContentField-Assets-generalsettings.gif)
 
   
 
@@ -59,7 +59,7 @@ If enabled (On) and the user hovers/clicks/taps over the information icon (i) ne
 
   
 
-![Validation for Assets field](img/scr-ContentField-Assets-validation.png)
+![Validation for Assets field](/images/scr-ContentField-Assets-validation.png)
 
   
 

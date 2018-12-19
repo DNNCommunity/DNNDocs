@@ -16,7 +16,7 @@ dnnversion: 09.02.00
 
 1.  Go to Persona Bar \> Settings \> Scheduler.
     
-    ![Persona Bar > Settings > Scheduler](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Scheduler](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,7 +26,7 @@ dnnversion: 09.02.00
     
       
     
-    ![Host - Advanced - Schedule](img/scr-HostSchedule-SchedulerMode.png)
+    ![Host - Advanced - Schedule](/images/scr-HostSchedule-SchedulerMode.png)
     
       
     

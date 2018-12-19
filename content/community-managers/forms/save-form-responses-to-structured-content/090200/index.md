@@ -25,7 +25,7 @@ DNN provides a connector that links the Form Builder microservice with the Struc
     
       
     
-    ![Form > Configuration](img/scr-Form-ConfigurationTab.png)
+    ![Form > Configuration](/images/scr-Form-ConfigurationTab.png)
     
       
     
@@ -33,7 +33,7 @@ DNN provides a connector that links the Form Builder microservice with the Struc
     
       
     
-    ![Form Configuration - Data Collection](img/scr-Form-Config-DataCollection.png)
+    ![Form Configuration - Data Collection](/images/scr-Form-Config-DataCollection.png)
     
       
     
@@ -42,7 +42,7 @@ DNN provides a connector that links the Form Builder microservice with the Struc
     
       
     
-    ![Form Configuration - Data Collection - Evoq Content Type - Content Type, then Save & Configure](img/scr-Form-Config-DataCollection-EvoqContentType-ContentType.png)
+    ![Form Configuration - Data Collection - Evoq Content Type - Content Type, then Save & Configure](/images/scr-Form-Config-DataCollection-EvoqContentType-ContentType.png)
     
       
     
@@ -50,7 +50,7 @@ DNN provides a connector that links the Form Builder microservice with the Struc
     
       
     
-    ![Form Configuration - Data Collection - Evoq Content Type - Fill in the content item information.](img/scr-Form-Config-DataCollection-EvoqContentType-ContentItemInfo.png)
+    ![Form Configuration - Data Collection - Evoq Content Type - Fill in the content item information.](/images/scr-Form-Config-DataCollection-EvoqContentType-ContentItemInfo.png)
     
       
     
@@ -74,4 +74,4 @@ DNN provides a connector that links the Form Builder microservice with the Struc
     
       
     
-    ![Form Configuration - Data Collection - Evoq Content Type - Map the fields of the form to the fields of the content type.](img/scr-Form-Config-DataCollection-EvoqContentType-Mapping.png)
+    ![Form Configuration - Data Collection - Evoq Content Type - Map the fields of the form to the fields of the content type.](/images/scr-Form-Config-DataCollection-EvoqContentType-Mapping.png)

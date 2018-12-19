@@ -28,7 +28,7 @@ Note: The JWT Authentication Provider is available in DNN products; however, it 
 
   
 
-![JWT process](img/gra-JWTprocess.png)
+![JWT process](/images/gra-JWTprocess.png)
 
   
 

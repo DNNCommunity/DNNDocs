@@ -18,7 +18,7 @@ Note: The Persona Bar varies according to the product and to the permissions gra
 
   
 
-![Old Control Panel/Bar menu - Admin - Common](img/scr-menuAdminCommon.png)
+![Old Control Panel/Bar menu - Admin - Common](/images/scr-menuAdminCommon.png)
 
   
 
@@ -266,7 +266,7 @@ Manage \> Users
 
   
 
-![Old Control Panel/Bar menu - Admin - Advanced](img/scr-menuAdminAdvanced.png)
+![Old Control Panel/Bar menu - Admin - Advanced](/images/scr-menuAdminAdvanced.png)
 
   
 
@@ -375,7 +375,7 @@ Settings \> Workflow
 
   
 
-![Old Control Panel/Bar menu - Host - Common](img/scr-menuHostCommon.png)
+![Old Control Panel/Bar menu - Host - Common](/images/scr-menuHostCommon.png)
 
   
 
@@ -853,7 +853,7 @@ Manage \> Sites
 
   
 
-![Old Control Panel/Bar menu - Host - Advanced](img/scr-menuHostAdvanced.png)
+![Old Control Panel/Bar menu - Host - Advanced](/images/scr-menuHostAdvanced.png)
 
   
 
@@ -1010,7 +1010,7 @@ Host \> User Switcher
 
   
 
-![Old Control Panel/Bar menu - Tools](img/scr-menuTools.png)
+![Old Control Panel/Bar menu - Tools](/images/scr-menuTools.png)
 
   
 
@@ -1043,7 +1043,7 @@ Manage \> Sites
 
   
 
-![Old Control Panel/Bar menu - Help](img/scr-menuHelp.png)
+![Old Control Panel/Bar menu - Help](/images/scr-menuHelp.png)
 
   
 
@@ -1059,7 +1059,7 @@ Help \> Online Help
 
   
 
-![Old Control Panel/Bar menu - Modules](img/scr-menuModules.png)
+![Old Control Panel/Bar menu - Modules](/images/scr-menuModules.png)
 
   
 
@@ -1088,7 +1088,7 @@ Modules \> Find More Modules
 
   
 
-![Old Control Panel/Bar menu - Pages](img/scr-menuPages.png)
+![Old Control Panel/Bar menu - Pages](/images/scr-menuPages.png)
 
   
 
@@ -1121,7 +1121,7 @@ Pages \> Import Page
 
   
 
-![Old Control Panel/Bar menu - Users](img/scr-menuUsers.png)
+![Old Control Panel/Bar menu - Users](/images/scr-menuUsers.png)
 
   
 
@@ -1147,7 +1147,7 @@ Manage \> Roles
 
   
 
-![Old Control Panel/Bar menu - OnDemand](img/scr-menuOnDemand.png)
+![Old Control Panel/Bar menu - OnDemand](/images/scr-menuOnDemand.png)
 
   
 
@@ -1195,7 +1195,7 @@ OnDemand \> FTP Access
 
   
 
-![Old Control Panel/Bar menu - Edit Page](img/scr-menuEditPage.png)
+![Old Control Panel/Bar menu - Edit Page](/images/scr-menuEditPage.png)
 
   
 

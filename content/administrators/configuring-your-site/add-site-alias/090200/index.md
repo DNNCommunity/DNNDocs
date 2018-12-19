@@ -18,7 +18,7 @@ related-topics: configure-url-mapping-site-aliases,edit-site-alias,delete-site-a
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: configure-url-mapping-site-aliases,edit-site-alias,delete-site-a
     
 2.  Go to the Site Behavior tab, and then the Site Aliases subtab.
     
-    ![Site Behavior > Site Aliases](img/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-SiteAliases-E90.png)
+    ![Site Behavior > Site Aliases](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-SiteAliases-E90.png)
     
 3.  Click/Tap \+ Add Alias.
     
       
     
-    ![Site Settings > Site Behavior > Site Aliases — Add Alias](img/scr-SiteSettings-SiteBehavior-SiteAliases-AddAlias-button-E90.png)
+    ![Site Settings > Site Behavior > Site Aliases — Add Alias](/images/scr-SiteSettings-SiteBehavior-SiteAliases-AddAlias-button-E90.png)
     
       
     
@@ -40,7 +40,7 @@ related-topics: configure-url-mapping-site-aliases,edit-site-alias,delete-site-a
     
       
     
-    ![Site Settings > Site Behavior > Site Aliases — Add Alias](img/scr-SiteSettings-SiteBehavior-SiteAliases-AddProperties-E90.png)
+    ![Site Settings > Site Behavior > Site Aliases — Add Alias](/images/scr-SiteSettings-SiteBehavior-SiteAliases-AddProperties-E90.png)
     
       
     

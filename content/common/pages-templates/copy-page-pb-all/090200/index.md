@@ -14,7 +14,7 @@ dnnversion: 09.02.00
     
       
     
-    ![Pages > Configure](img/scr-pb-Pages-Configure-E91.png)
+    ![Pages > Configure](/images/scr-pb-Pages-Configure-E91.png)
     
       
     
@@ -22,7 +22,7 @@ dnnversion: 09.02.00
     
       
     
-    ![Pages > Settings (gear icon) > Duplicate Page](img/scr-pb-ConfigPage-DuplicatePage-E91.png)
+    ![Pages > Settings (gear icon) > Duplicate Page](/images/scr-pb-ConfigPage-DuplicatePage-E91.png)
     
       
     
@@ -30,7 +30,7 @@ dnnversion: 09.02.00
     
       
     
-    ![Page Settings > Details](img/scr-pb-ConfigPage-Details.png)
+    ![Page Settings > Details](/images/scr-pb-ConfigPage-Details.png)
     
       
     
@@ -81,7 +81,7 @@ dnnversion: 09.02.00
     
       
     
-    ![Add Page > Details > Calendar](img/scr-pb-AddPage-Details-Calendar.png)
+    ![Add Page > Details > Calendar](/images/scr-pb-AddPage-Details-Calendar.png)
     
       
     
@@ -93,7 +93,7 @@ dnnversion: 09.02.00
     
       
     
-    ![Page > Permissions](img/scr-pb-Page-Permissions-E91.png)
+    ![Page > Permissions](/images/scr-pb-Page-Permissions-E91.png)
     
       
     
@@ -110,7 +110,7 @@ dnnversion: 09.02.00
         
           
         
-        ![Page > Advanced > Modules](img/scr-pb-Page-Advanced-Modules-E91.png)
+        ![Page > Advanced > Modules](/images/scr-pb-Page-Advanced-Modules-E91.png)
         
           
         
@@ -120,7 +120,7 @@ dnnversion: 09.02.00
         
           
         
-        ![Page > Advanced > Appearance](img/scr-pb-Page-Advanced-Appearance-E91.png)
+        ![Page > Advanced > Appearance](/images/scr-pb-Page-Advanced-Appearance-E91.png)
         
           
         
@@ -152,7 +152,7 @@ dnnversion: 09.02.00
         
           
         
-        ![Page > Advanced > SEO](img/scr-pb-Page-Advanced-SEO-E91.png)
+        ![Page > Advanced > SEO](/images/scr-pb-Page-Advanced-SEO-E91.png)
         
           
         
@@ -176,7 +176,7 @@ dnnversion: 09.02.00
         
           
         
-        ![Page > Advanced > More](img/scr-pb-Page-Advanced-More-E91.png)
+        ![Page > Advanced > More](/images/scr-pb-Page-Advanced-More-E91.png)
         
           
         

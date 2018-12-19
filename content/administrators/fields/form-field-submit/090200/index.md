@@ -12,7 +12,7 @@ related-topics: form-field-address,form-field-date-time,form-field-dropdown,form
 
   
 
-![Settings for the Submit and Cancel buttons](img/scr-FormField-Submit.gif)
+![Settings for the Submit and Cancel buttons](/images/scr-FormField-Submit.gif)
 
   
 

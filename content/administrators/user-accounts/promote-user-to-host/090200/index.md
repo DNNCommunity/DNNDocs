@@ -22,7 +22,7 @@ Warning: Hosts can revoke permissions from or demote another host.
 
 1.  Go to Persona Bar \> Manage \> Users.
     
-    ![Persona Bar > Manage > Users](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Users](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -35,7 +35,7 @@ Warning: Hosts can revoke permissions from or demote another host.
     
       
     
-    ![User List > Search field and Show dropdown](img/scr-UserListSearchAndShow-E90.png)
+    ![User List > Search field and Show dropdown](/images/scr-UserListSearchAndShow-E90.png)
     
       
     
@@ -43,4 +43,4 @@ Warning: Hosts can revoke permissions from or demote another host.
     
       
     
-    ![User List > find the user > ellipses icon > Make Superuser](img/scr-UserList-ellipsesmenu-MakeSuperUser-E90.png)
+    ![User List > find the user > ellipses icon > Make Superuser](/images/scr-UserList-ellipsesmenu-MakeSuperUser-E90.png)

@@ -53,7 +53,7 @@ The resulting list is the Model data, which is then passed to the View component
 
   
 
-![Module action menu](img/scr-actionmenu-edit-icons.png)
+![Module action menu](/images/scr-actionmenu-edit-icons.png)
 
   
 

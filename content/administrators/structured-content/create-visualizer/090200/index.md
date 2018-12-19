@@ -18,7 +18,7 @@ related-topics: edit-visualizer,delete-visualizer,import-visualizer,export-visua
 
 1.  Go to Persona Bar \> Content \> Content Library.
     
-    ![Persona Bar > Content > Content Library](img/scr-pbar-host-Content-E91.png)
+    ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: edit-visualizer,delete-visualizer,import-visualizer,export-visua
     
 2.  Go to the Visualizers tab.
     
-    ![Visualizers](img/scr-pbtabs-all-Content-ContentLibrary-Visualizers-E91.png)
+    ![Visualizers](/images/scr-pbtabs-all-Content-ContentLibrary-Visualizers-E91.png)
     
 3.  Click/Tap Create Visualizer.
     
       
     
-    ![Content Library > Visualizers tab > Create Visualizer > New Visualizer](img/scr-Visualizers-CreateBtn-New-E91.png)
+    ![Content Library > Visualizers tab > Create Visualizer > New Visualizer](/images/scr-Visualizers-CreateBtn-New-E91.png)
     
       
     
@@ -40,7 +40,7 @@ related-topics: edit-visualizer,delete-visualizer,import-visualizer,export-visua
     
       
     
-    ![Visualizer Details tab](img/scr-Visualizers-Details-E91.png)
+    ![Visualizer Details tab](/images/scr-Visualizers-Details-E91.png)
     
       
     
@@ -88,7 +88,7 @@ related-topics: edit-visualizer,delete-visualizer,import-visualizer,export-visua
         
           
         
-        ![Content > Visualizers tab > Editor > Template with field placeholders](img/scr-Visualizers-Editor-Template-E91.gif)
+        ![Content > Visualizers tab > Editor > Template with field placeholders](/images/scr-Visualizers-Editor-Template-E91.gif)
         
           
         
@@ -98,7 +98,7 @@ related-topics: edit-visualizer,delete-visualizer,import-visualizer,export-visua
         
           
         
-        ![Content > Visualizers tab > Editor > Style](img/scr-Visualizers-Editor-Style-E91.png)
+        ![Content > Visualizers tab > Editor > Style](/images/scr-Visualizers-Editor-Style-E91.png)
         
           
         
@@ -108,7 +108,7 @@ related-topics: edit-visualizer,delete-visualizer,import-visualizer,export-visua
         
           
         
-        ![Content > Visualizers tab > Editor > Style](img/scr-Visualizers-Editor-Script-E91.png)
+        ![Content > Visualizers tab > Editor > Style](/images/scr-Visualizers-Editor-Script-E91.png)
         
           
         

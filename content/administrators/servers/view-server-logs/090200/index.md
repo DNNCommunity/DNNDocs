@@ -18,7 +18,7 @@ related-topics: retrieve-system-info,restart-application,about-web-servers
 
 1.  Go to Persona Bar \> Settings \> Servers.
     
-    ![Persona Bar > Settings > Servers](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,10 +26,10 @@ related-topics: retrieve-system-info,restart-application,about-web-servers
     
 2.  Go to the Server Settings tab, and then the Logs subtab.
     
-    ![Server Settings > Logs](img/scr-pbtabs-host-Settings-Servers-ServerSettings-Logs-E90.png)
+    ![Server Settings > Logs](/images/scr-pbtabs-host-Settings-Servers-ServerSettings-Logs-E90.png)
     
 3.  From the Log Files dropdown, choose the log to view.
     
       
     
-    ![](img/scr-Servers-ServerSettings-Logs-dropdown-E90.png)
+    ![](/images/scr-Servers-ServerSettings-Logs-dropdown-E90.png)

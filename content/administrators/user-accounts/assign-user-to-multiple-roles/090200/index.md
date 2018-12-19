@@ -18,7 +18,7 @@ related-topics: create-user-account,authorize-user,remove-user-from-multiple-rol
 
 1.  Go to Persona Bar \> Manage \> Users.
     
-    ![Persona Bar > Manage > Users](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Users](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -31,7 +31,7 @@ related-topics: create-user-account,authorize-user,remove-user-from-multiple-rol
     
       
     
-    ![User List > Search field and Show dropdown](img/scr-UserListSearchAndShow-E90.png)
+    ![User List > Search field and Show dropdown](/images/scr-UserListSearchAndShow-E90.png)
     
       
     
@@ -39,7 +39,7 @@ related-topics: create-user-account,authorize-user,remove-user-from-multiple-rol
     
       
     
-    ![User List > find the user > User Roles](img/scr-UserList-Roles-E90.png)
+    ![User List > find the user > User Roles](/images/scr-UserList-Roles-E90.png)
     
       
     
@@ -48,7 +48,7 @@ related-topics: create-user-account,authorize-user,remove-user-from-multiple-rol
         
           
         
-        ![Type the role name in the field.](img/scr-Users-Roles-AddRole-E90.png)
+        ![Type the role name in the field.](/images/scr-Users-Roles-AddRole-E90.png)
         
           
         
@@ -56,7 +56,7 @@ related-topics: create-user-account,authorize-user,remove-user-from-multiple-rol
         
           
         
-        ![Designate the user as the owner of the role.](img/scr-Roles-Users-IsOwner-E90.png)
+        ![Designate the user as the owner of the role.](/images/scr-Roles-Users-IsOwner-E90.png)
         
           
         
@@ -65,7 +65,7 @@ related-topics: create-user-account,authorize-user,remove-user-from-multiple-rol
     
       
     
-    ![](img/scr-Users-Roles-Calendar-E90.png)
+    ![](/images/scr-Users-Roles-Calendar-E90.png)
     
       
     

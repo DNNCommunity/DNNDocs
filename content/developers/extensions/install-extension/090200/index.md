@@ -20,7 +20,7 @@ links: ["[DNN Community blog: Installing Our Module in Another DNN Instance by C
 
 1.  Go to Persona Bar \> Settings \> Extensions.
     
-    ![Persona Bar > Settings > Extensions](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Extensions](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -30,7 +30,7 @@ links: ["[DNN Community blog: Installing Our Module in Another DNN Instance by C
     
       
     
-    ![Install Extension](img/scr-Extensions-Installed-E90.png)
+    ![Install Extension](/images/scr-Extensions-Installed-E90.png)
     
       
     
@@ -38,7 +38,7 @@ links: ["[DNN Community blog: Installing Our Module in Another DNN Instance by C
     
       
     
-    ![Upload the zip file containing the extension package](img/scr-InstallExtension-upload.gif)
+    ![Upload the zip file containing the extension package](/images/scr-InstallExtension-upload.gif)
     
       
     
@@ -46,25 +46,25 @@ links: ["[DNN Community blog: Installing Our Module in Another DNN Instance by C
     
     *   Package Information includes the extension's version and description, as well as information about the creator.  
         
-        ![Package Information](img/scr-InstallExtension-PackageInfo.png)
+        ![Package Information](/images/scr-InstallExtension-PackageInfo.png)
         
           
         
     *   Release Notes displays what's new in the current release of the extension.  
         
-        ![Release Notes](img/scr-InstallExtension-ReleaseNotes.png)
+        ![Release Notes](/images/scr-InstallExtension-ReleaseNotes.png)
         
           
         
     *   License displays the creator's license terms. Accept the license to continue.  
         
-        ![License](img/scr-InstallExtension-License.png)
+        ![License](/images/scr-InstallExtension-License.png)
         
           
         
     *   Package Installation Report displays a log of actions performed by the installation.  
         
-        ![Package Installation Report](img/scr-InstallExtension-InstallationReport2.png)
+        ![Package Installation Report](/images/scr-InstallExtension-InstallationReport2.png)
         
           
         
@@ -73,4 +73,4 @@ links: ["[DNN Community blog: Installing Our Module in Another DNN Instance by C
     
       
     
-    ![New extension appears under Installed Extensions.](img/scr-InstallExtension-InstallationResult.png)
+    ![New extension appears under Installed Extensions.](/images/scr-InstallExtension-InstallationResult.png)

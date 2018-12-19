@@ -12,7 +12,7 @@ dnnversion: 09.02.00
 
   
 
-![Form Type for Static Text field](img/scr-ContentField-StaticText-formtype.gif)
+![Form Type for Static Text field](/images/scr-ContentField-StaticText-formtype.gif)
 
   
 

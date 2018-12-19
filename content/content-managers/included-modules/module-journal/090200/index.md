@@ -14,7 +14,7 @@ Displays a list of activities related to a user or a group in reverse chronologi
 
   
 
-![Journal module](img/scr-module-Journal.png)
+![Journal module](/images/scr-module-Journal.png)
 
   
 
@@ -37,10 +37,10 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-journal.png) 
+ ![icon](/images/ico-module-journal.png) 
 
 Journal
 
 None
 
- ![Platform](img/ico-dnn-platform.png) ![Evoq Content](img/ico-evoq-content.png) ![Evoq Engage](img/ico-evoq-engage.png)
+ ![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)

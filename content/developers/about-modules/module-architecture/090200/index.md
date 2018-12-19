@@ -15,7 +15,7 @@ Although every module provides a different set of features and functionality, so
 
   
 
-![Module architecture](img/gra-module-architecture.png)
+![Module architecture](/images/gra-module-architecture.png)
 
   
 

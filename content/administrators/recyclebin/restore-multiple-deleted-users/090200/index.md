@@ -14,7 +14,7 @@ related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles
 
 1.  Go to Persona Bar \> Content \> Recycle Bin.
     
-    ![Persona Bar > Content > Recycle Bin](img/scr-pbar-host-Content-E91.png)
+    ![Persona Bar > Content > Recycle Bin](/images/scr-pbar-host-Content-E91.png)
     
     ➊
     
@@ -22,14 +22,14 @@ related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles
     
 2.  Go to the Users tab.
     
-    ![Users](img/scr-pbtabs-all-Content-RecycleBin-Users-E91.png)
+    ![Users](/images/scr-pbtabs-all-Content-RecycleBin-Users-E91.png)
     
 3.  Restore one or more users.
     *   To restore a single user, hover over the user to restore, and click/tap the Restore icon for that item.
         
           
         
-        ![Restore icon for each item in the list.](img/scr-RecycleBin-Users-Restore-icon-E91.png)
+        ![Restore icon for each item in the list.](/images/scr-RecycleBin-Users-Restore-icon-E91.png)
         
           
         
@@ -37,7 +37,7 @@ related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles
         
           
         
-        ![Restore button.](img/scr-RecycleBin-Users-Select-Then-Restore-button-E91.png)
+        ![Restore button.](/images/scr-RecycleBin-Users-Select-Then-Restore-button-E91.png)
         
           
         

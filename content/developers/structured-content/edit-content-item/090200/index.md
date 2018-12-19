@@ -16,7 +16,7 @@ dnnversion: 09.02.00
 
 1.  Go to the Content tab.
     
-    ![Content](img/scr-pbtabs-all-Content-ContentLibrary-Content-E91.png)
+    ![Content](/images/scr-pbtabs-all-Content-ContentLibrary-Content-E91.png)
     
 2.  Search for the content item in the list.
     
@@ -24,7 +24,7 @@ dnnversion: 09.02.00
     
       
     
-    ![Sort, search, and filter UI](img/scr-ContentItems-searchsortfilter-E91.gif)
+    ![Sort, search, and filter UI](/images/scr-ContentItems-searchsortfilter-E91.gif)
     
       
     
@@ -32,7 +32,7 @@ dnnversion: 09.02.00
     
       
     
-    ![Content tab > pencil icon](img/scr-ContentItems-item-pencil-icon-E91.png)
+    ![Content tab > pencil icon](/images/scr-ContentItems-item-pencil-icon-E91.png)
     
       
     
@@ -40,7 +40,7 @@ dnnversion: 09.02.00
     
     The fields would depend on the content type you selected. Example: The content type for the content item in this image is Job Posting.  
     
-    ![Creating a Job Posting content item](img/scr-ContentItems-JobDescription-E91.png)
+    ![Creating a Job Posting content item](/images/scr-ContentItems-JobDescription-E91.png)
     
       
     
@@ -48,7 +48,7 @@ dnnversion: 09.02.00
     
       
     
-    ![Content Item properties](img/scr-ContentItems-properties-E91.png)
+    ![Content Item properties](/images/scr-ContentItems-properties-E91.png)
     
       
     
@@ -72,7 +72,7 @@ dnnversion: 09.02.00
     
       
     
-    ![Content Item SEO](img/scr-ContentItems-SEO-E91.png)
+    ![Content Item SEO](/images/scr-ContentItems-SEO-E91.png)
     
       
     

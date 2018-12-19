@@ -21,7 +21,7 @@ Warning: You cannot undo an import. Back up your site and database before procee
 
 1.  Go to Persona Bar \> Settings \> Import-Export.
     
-    ![Persona Bar > Settings > Import-Export](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Import-Export](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -31,7 +31,7 @@ Warning: You cannot undo an import. Back up your site and database before procee
     
       
     
-    ![Site dropdown](img/scr-Settings-ImportExport-ChooseSite-E91.png)
+    ![Site dropdown](/images/scr-Settings-ImportExport-ChooseSite-E91.png)
     
       
     
@@ -39,7 +39,7 @@ Warning: You cannot undo an import. Back up your site and database before procee
     
       
     
-    ![Import Data button](img/scr-Settings-ImportExport-ImportData-button-E91.png)
+    ![Import Data button](/images/scr-Settings-ImportExport-ImportData-button-E91.png)
     
       
     
@@ -47,7 +47,7 @@ Warning: You cannot undo an import. Back up your site and database before procee
     
       
     
-    ![Package selected for import; Continue button enabled.](img/scr-Settings-ImportExport-select-package-to-import-E91.png)
+    ![Package selected for import; Continue button enabled.](/images/scr-Settings-ImportExport-select-package-to-import-E91.png)
     
       
     
@@ -55,7 +55,7 @@ Warning: You cannot undo an import. Back up your site and database before procee
     
       
     
-    ![Import settings](img/scr-Settings-ImportExport-ImportData-E91.png)
+    ![Import settings](/images/scr-Settings-ImportExport-ImportData-E91.png)
     
       
     

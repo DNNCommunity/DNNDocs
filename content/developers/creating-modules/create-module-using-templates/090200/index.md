@@ -26,7 +26,7 @@ links: ["[DNN API Reference](http://www.dnnsoftware.com/dnn-api/)","[DNN Wiki: M
     
       
     
-    ![Visual Studio build type dropdown](img/scr-VS2015DebugReleaseBuildOptions.png)
+    ![Visual Studio build type dropdown](/images/scr-VS2015DebugReleaseBuildOptions.png)
     
       
     

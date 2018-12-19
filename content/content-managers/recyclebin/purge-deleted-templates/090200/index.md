@@ -14,7 +14,7 @@ related-topics: create-template-based-on-page-pb-all,create-template-based-on-an
 
 1.  Go to Persona Bar \> Content \> Recycle Bin.
     
-    ![Persona Bar > Content > Recycle Bin](img/scr-pbar-cmg-Content-E91.png)
+    ![Persona Bar > Content > Recycle Bin](/images/scr-pbar-cmg-Content-E91.png)
     
     ➊
     
@@ -22,14 +22,14 @@ related-topics: create-template-based-on-page-pb-all,create-template-based-on-an
     
 2.  Go to the Templates tab.
     
-    ![Templates](img/scr-pbtabs-all-Content-RecycleBin-Templates-E91.png)
+    ![Templates](/images/scr-pbtabs-all-Content-RecycleBin-Templates-E91.png)
     
 3.  Purge (Permanently delete) one or more templates.
     *   To purge a single template, hover over the template to purge, and click/tap the Delete icon for that item.
         
           
         
-        ![Delete icon for each item in the list.](img/scr-RecycleBin-Templates-Delete-icon-E91.png)
+        ![Delete icon for each item in the list.](/images/scr-RecycleBin-Templates-Delete-icon-E91.png)
         
           
         
@@ -37,7 +37,7 @@ related-topics: create-template-based-on-page-pb-all,create-template-based-on-an
         
           
         
-        ![Delete button.](img/scr-RecycleBin-Templates-Select-Then-Delete-button-E91.png)
+        ![Delete button.](/images/scr-RecycleBin-Templates-Select-Then-Delete-button-E91.png)
         
           
         

@@ -18,7 +18,7 @@ related-topics: configure-caching,expire-cached-item-in-web-server,minify-resour
 
 1.  Go to Persona Bar \> Settings \> Servers.
     
-    ![Persona Bar > Settings > Servers](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -28,4 +28,4 @@ related-topics: configure-caching,expire-cached-item-in-web-server,minify-resour
     
       
     
-    ![](img/scr-Servers-buttons-ClearCache.png)
+    ![](/images/scr-Servers-buttons-ClearCache.png)

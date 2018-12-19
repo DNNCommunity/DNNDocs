@@ -13,7 +13,7 @@ parent-topic: administrators-configuring-your-site-overview
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -21,7 +21,7 @@ parent-topic: administrators-configuring-your-site-overview
     
 2.  Go to the Site Behavior tab, and then the More subtab.
     
-    ![Site Behavior > More](img/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-More-E90.png)
+    ![Site Behavior > More](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-More-E90.png)
     
 3.  Enable the appropriate microservice(s).
     
@@ -31,4 +31,4 @@ parent-topic: administrators-configuring-your-site-overview
     
       
     
-    ![Enable microservices](img/scr-SiteSettings-SiteBehavior-More-Microservices.png)
+    ![Enable microservices](/images/scr-SiteSettings-SiteBehavior-More-Microservices.png)

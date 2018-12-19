@@ -12,7 +12,7 @@ Displays and manages Marketo forms.
 
   
 
-![Marketo Forms module](img/scr-module-MarketoForms.png)
+![Marketo Forms module](/images/scr-module-MarketoForms.png)
 
   
 
@@ -24,10 +24,10 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-marketo.png) 
+ ![icon](/images/ico-module-marketo.png) 
 
 Marketo Forms
 
 None
 
- ![Evoq Content](img/ico-evoq-content.png) ![Evoq Engage](img/ico-evoq-engage.png)
+ ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)

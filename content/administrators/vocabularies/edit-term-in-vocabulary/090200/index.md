@@ -18,7 +18,7 @@ related-topics: create-vocabulary,edit-vocabulary,delete-vocabulary,add-term-to-
 
 1.  Go to Persona Bar \> Settings \> Vocabularies.
     
-    ![Persona Bar > Settings > Vocabularies](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Vocabularies](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -30,7 +30,7 @@ related-topics: create-vocabulary,edit-vocabulary,delete-vocabulary,add-term-to-
     
       
     
-    ![](img/scr-vocabularies-list-E91.png)
+    ![](/images/scr-vocabularies-list-E91.png)
     
       
     
@@ -38,7 +38,7 @@ related-topics: create-vocabulary,edit-vocabulary,delete-vocabulary,add-term-to-
     
       
     
-    ![](img/scr-vocabularies-edit-term-icon-E91.png)
+    ![](/images/scr-vocabularies-edit-term-icon-E91.png)
     
       
     
@@ -46,7 +46,7 @@ related-topics: create-vocabulary,edit-vocabulary,delete-vocabulary,add-term-to-
     
       
     
-    ![](img/scr-vocabularies-edit-vocab-edit-term-E91.png)
+    ![](/images/scr-vocabularies-edit-vocab-edit-term-E91.png)
     
       
     

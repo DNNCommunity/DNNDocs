@@ -16,7 +16,7 @@ related-topics: edit-form,duplicate-form,delete-form,embed-form,view-form-respon
     
       
     
-    ![Forms > Create Form button](img/scr-Forms-List-CreateBtn.png)
+    ![Forms > Create Form button](/images/scr-Forms-List-CreateBtn.png)
     
       
     
@@ -24,7 +24,7 @@ related-topics: edit-form,duplicate-form,delete-form,embed-form,view-form-respon
     
       
     
-    ![Enter the form title.](img/scr-Forms-EnterTitle.png)
+    ![Enter the form title.](/images/scr-Forms-EnterTitle.png)
     
       
     
@@ -36,7 +36,7 @@ related-topics: edit-form,duplicate-form,delete-form,embed-form,view-form-respon
         
           
         
-        ![Drag and drop a field to the canvas](img/scr-FormField-Add.png)
+        ![Drag and drop a field to the canvas](/images/scr-FormField-Add.png)
         
           
         
@@ -44,7 +44,7 @@ related-topics: edit-form,duplicate-form,delete-form,embed-form,view-form-respon
         
           
         
-        ![Click/Tap a field in the canvas](img/scr-FormField-Edit.png)
+        ![Click/Tap a field in the canvas](/images/scr-FormField-Edit.png)
         
           
         
@@ -52,7 +52,7 @@ related-topics: edit-form,duplicate-form,delete-form,embed-form,view-form-respon
         
           
         
-        ![Click/Tap a field in the canvas](img/scr-FormField-Hover-Dup.png)
+        ![Click/Tap a field in the canvas](/images/scr-FormField-Hover-Dup.png)
         
           
         
@@ -60,7 +60,7 @@ related-topics: edit-form,duplicate-form,delete-form,embed-form,view-form-respon
         
           
         
-        ![Click/Tap a field in the canvas](img/scr-FormField-Hover-Del.png)
+        ![Click/Tap a field in the canvas](/images/scr-FormField-Hover-Del.png)
         
           
         
@@ -69,13 +69,13 @@ related-topics: edit-form,duplicate-form,delete-form,embed-form,view-form-respon
         
           
         
-        ![Form > Configuration](img/scr-Form-ConfigurationTab.png)
+        ![Form > Configuration](/images/scr-Form-ConfigurationTab.png)
         
           
         
     2.  In the General Settings tab.
         
-        ![Form Configuration - General Settings](img/scr-Form-Config-GeneralSettings.png)
+        ![Form Configuration - General Settings](/images/scr-Form-Config-GeneralSettings.png)
         
         Field
         
@@ -99,7 +99,7 @@ related-topics: edit-form,duplicate-form,delete-form,embed-form,view-form-respon
         
     3.  In the Data Collection tab.
         
-        ![Form Configuration - Data Collection](img/scr-Form-Config-DataCollection.png)
+        ![Form Configuration - Data Collection](/images/scr-Form-Config-DataCollection.png)
         
         Field
         
@@ -129,7 +129,7 @@ related-topics: edit-form,duplicate-form,delete-form,embed-form,view-form-respon
         
     4.  In the Form Submission tab.
         
-        ![Form Configuration - Form Submission](img/scr-Form-Config-FormSubmission.png)
+        ![Form Configuration - Form Submission](/images/scr-Form-Config-FormSubmission.png)
         
         Field
         
@@ -153,7 +153,7 @@ related-topics: edit-form,duplicate-form,delete-form,embed-form,view-form-respon
         
     5.  In the Notifications tab.
         
-        ![Form Configuration - Notifications](img/scr-Form-Config-Notifications.png)
+        ![Form Configuration - Notifications](/images/scr-Form-Config-Notifications.png)
         
         Field
         

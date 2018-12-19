@@ -18,7 +18,7 @@ related-topics: create-role,edit-role,delete-role,assign-users-to-role,edit-date
 
 1.  Go to Persona Bar \> Manage \> Roles.
     
-    ![Persona Bar > Manage > Roles](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Roles](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -31,7 +31,7 @@ related-topics: create-role,edit-role,delete-role,assign-users-to-role,edit-date
             
               
             
-            ![Search field for roles](img/scr-RoleList-Search-E90.png)
+            ![Search field for roles](/images/scr-RoleList-Search-E90.png)
             
               
             
@@ -39,7 +39,7 @@ related-topics: create-role,edit-role,delete-role,assign-users-to-role,edit-date
             
               
             
-            ![Filter list of roles by group](img/scr-RoleList-FilterByRoleGroup-E90.png)
+            ![Filter list of roles by group](/images/scr-RoleList-FilterByRoleGroup-E90.png)
             
               
             
@@ -49,7 +49,7 @@ related-topics: create-role,edit-role,delete-role,assign-users-to-role,edit-date
     
       
     
-    ![](img/scr-RoleList-ManageUsers-E90.png)
+    ![](/images/scr-RoleList-ManageUsers-E90.png)
     
       
     
@@ -58,4 +58,4 @@ related-topics: create-role,edit-role,delete-role,assign-users-to-role,edit-date
 
   
 
-![](img/scr-Roles-Users-E90.png)
+![](/images/scr-Roles-Users-E90.png)

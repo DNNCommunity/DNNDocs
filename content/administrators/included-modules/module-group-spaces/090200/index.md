@@ -14,7 +14,7 @@ Displays the details about a social group. The Group Directory module and the Gr
 
   
 
-![Group Spaces module](img/scr-module-GroupSpaces.png)
+![Group Spaces module](/images/scr-module-GroupSpaces.png)
 
   
 
@@ -30,13 +30,13 @@ To display/hide companion module(s),
 
 *   From the main module's action menu, go to Edit (pencil icon) \> Add Companion Modules....  
     
-    ![Edit (pencil icon) action menu > Add Companion Modules...](img/scr-actionmenu-edit-addcompanionmodules.png)
+    ![Edit (pencil icon) action menu > Add Companion Modules...](/images/scr-actionmenu-edit-addcompanionmodules.png)
     
       
     
 *   Check/Uncheck the Visible on Page box for the companion module that you want to be displayed/hidden.  
     
-    ![](img/scr-companions-VisibleOnPage.png)
+    ![](/images/scr-companions-VisibleOnPage.png)
     
       
     
@@ -49,10 +49,10 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-groupspaces.png) 
+ ![icon](/images/ico-module-groupspaces.png) 
 
 Group Spaces
 
 Social
 
- ![Evoq Engage](img/ico-evoq-engage.png)
+ ![Evoq Engage](/images/ico-evoq-engage.png)

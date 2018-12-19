@@ -14,7 +14,7 @@ related-topics: add-assets,edit-asset-permissions,move-asset,copy-asset,download
 
 1.  Go to Persona Bar \> Content \> Assets.
     
-    ![Persona Bar > Content > Assets](img/scr-pbar-cmg-Content-E91.png)
+    ![Persona Bar > Content > Assets](/images/scr-pbar-cmg-Content-E91.png)
     
     ➊
     
@@ -26,7 +26,7 @@ related-topics: add-assets,edit-asset-permissions,move-asset,copy-asset,download
         
           
         
-        ![Assets grid](img/scr-Assets-assetlist-grid-E90.png)
+        ![Assets grid](/images/scr-Assets-assetlist-grid-E90.png)
         
           
         
@@ -34,7 +34,7 @@ related-topics: add-assets,edit-asset-permissions,move-asset,copy-asset,download
         
           
         
-        ![Folder selection](img/scr-Assets-folderdropdown-E90.png)
+        ![Folder selection](/images/scr-Assets-folderdropdown-E90.png)
         
           
         
@@ -45,7 +45,7 @@ related-topics: add-assets,edit-asset-permissions,move-asset,copy-asset,download
     
       
     
-    ![Breadcrumbs](img/scr-Assets-breadcrumbs-E90.png)
+    ![Breadcrumbs](/images/scr-Assets-breadcrumbs-E90.png)
     
       
     
@@ -53,7 +53,7 @@ related-topics: add-assets,edit-asset-permissions,move-asset,copy-asset,download
     
       
     
-    ![Asset card iconbar - pencil](img/scr-Assets-assetcard-iconbar-edit-E90.png)
+    ![Asset card iconbar - pencil](/images/scr-Assets-assetcard-iconbar-edit-E90.png)
     
       
     
@@ -61,7 +61,7 @@ related-topics: add-assets,edit-asset-permissions,move-asset,copy-asset,download
     
       
     
-    ![Asset properties - Details](img/scr-Assets-asset-edit-details-E90.png)
+    ![Asset properties - Details](/images/scr-Assets-asset-edit-details-E90.png)
     
       
     

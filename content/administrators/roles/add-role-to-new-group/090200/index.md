@@ -18,7 +18,7 @@ related-topics: add-role-to-existing-group,view-roles-included-in-group,remove-r
 
 1.  Go to Persona Bar \> Manage \> Roles.
     
-    ![Persona Bar > Manage > Roles](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Roles](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -29,7 +29,7 @@ related-topics: add-role-to-existing-group,view-roles-included-in-group,remove-r
     
       
     
-    ![](img/scr-Roles-Edit-RoleGroup-E90.png)
+    ![](/images/scr-Roles-Edit-RoleGroup-E90.png)
     
       
     
@@ -37,7 +37,7 @@ related-topics: add-role-to-existing-group,view-roles-included-in-group,remove-r
     
       
     
-    ![](img/scr-Roles-NewGroup-E90.png)
+    ![](/images/scr-Roles-NewGroup-E90.png)
     
       
     

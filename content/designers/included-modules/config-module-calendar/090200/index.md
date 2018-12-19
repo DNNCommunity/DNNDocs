@@ -17,7 +17,7 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    ![Manage action menu > Settings](img/scr-actionmenu-manage-settings.png)
+    ![Manage action menu > Settings](/images/scr-actionmenu-manage-settings.png)
     
       
     
@@ -25,7 +25,7 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    ![Module Settings — Calendar](img/scr-modulesettings-Calendar.png)
+    ![Module Settings — Calendar](/images/scr-modulesettings-Calendar.png)
     
       
     

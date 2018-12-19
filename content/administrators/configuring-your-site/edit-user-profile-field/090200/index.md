@@ -18,7 +18,7 @@ related-topics: configure-user-profile-visibility,configure-user-profile-vanity-
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: configure-user-profile-visibility,configure-user-profile-vanity-
     
 2.  Go to the Site Behavior tab, and then the User Profiles subtab.
     
-    ![Site Behavior > User Profiles](img/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-UserProfiles-E90.png)
+    ![Site Behavior > User Profiles](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-UserProfiles-E90.png)
     
 3.  Click/Tap the pencil icon for the field to edit.
     
       
     
-    ![Site Settings > Site Behavior > User Profiles > User Profile Fields > Edit](img/scr-SiteSettings-SiteBehavior-UserProfiles-UserProfileFields-Edit-E90.png)
+    ![Site Settings > Site Behavior > User Profiles > User Profile Fields > Edit](/images/scr-SiteSettings-SiteBehavior-UserProfiles-UserProfileFields-Edit-E90.png)
     
       
     
@@ -40,7 +40,7 @@ related-topics: configure-user-profile-visibility,configure-user-profile-vanity-
     
       
     
-    ![Site Settings > Site Behavior > User Profiles > User Profile Fields > New Field](img/scr-SiteSettings-SiteBehavior-UserProfiles-UserProfileFields-EditField-E90.png)
+    ![Site Settings > Site Behavior > User Profiles > User Profile Fields > New Field](/images/scr-SiteSettings-SiteBehavior-UserProfiles-UserProfileFields-EditField-E90.png)
     
       
     
@@ -63,7 +63,7 @@ related-topics: configure-user-profile-visibility,configure-user-profile-vanity-
     
       
     
-    ![Property Categories in the user profile page](img/scr-UserProfile-PropertyCategories.png)
+    ![Property Categories in the user profile page](/images/scr-UserProfile-PropertyCategories.png)
     
       
     

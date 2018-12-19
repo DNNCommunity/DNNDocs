@@ -17,7 +17,7 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    ![Manage action menu > Settings](img/scr-actionmenu-manage-settings.png)
+    ![Manage action menu > Settings](/images/scr-actionmenu-manage-settings.png)
     
       
     
@@ -27,7 +27,7 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    ![Module Settings — HTML on DNN Platform](img/scr-modulesettings-HTML.png)
+    ![Module Settings — HTML on DNN Platform](/images/scr-modulesettings-HTML.png)
     
       
     
@@ -35,7 +35,7 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    ![Module Settings — HTML Pro on DNN Evoq](img/scr-modulesettings-HTMLPro.png)
+    ![Module Settings — HTML Pro on DNN Evoq](/images/scr-modulesettings-HTMLPro.png)
     
       
     

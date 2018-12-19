@@ -18,7 +18,7 @@ related-topics: configure-user-profile-visibility,add-user-profile-field,edit-us
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: configure-user-profile-visibility,add-user-profile-field,edit-us
     
 2.  Go to the Site Behavior tab, and then the User Profiles subtab.
     
-    ![Site Behavior > User Profiles](img/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-UserProfiles-E90.png)
+    ![Site Behavior > User Profiles](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-UserProfiles-E90.png)
     
 3.  Configure the vanity URL for user profiles.
     
       
     
-    ![Site Settings > Site Behavior > User Profiles — vanity URL settings](img/scr-SiteSettings-SiteBehavior-UserProfiles-UserProfileSettings-VanityURL-E90.png)
+    ![Site Settings > Site Behavior > User Profiles — vanity URL settings](/images/scr-SiteSettings-SiteBehavior-UserProfiles-UserProfileSettings-VanityURL-E90.png)
     
       
     

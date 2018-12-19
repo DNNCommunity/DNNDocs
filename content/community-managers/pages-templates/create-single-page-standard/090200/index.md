@@ -16,20 +16,20 @@ related-topics: create-single-page-existing,create-single-page-url,create-single
     
       
     
-    ![Pages > Click/Tap Add Page.](img/scr-pb-Pages-AddSinglePage-E90.png)
+    ![Pages > Click/Tap Add Page.](/images/scr-pb-Pages-AddSinglePage-E90.png)
     
       
     
 2.  In the Details tab, configure the basic settings of the page.
     1.  Set Page Type to Standard.
         
-        ![Page Details > Page Type options](img/scr-pb-PageSettings-Details-PageType-E91.png)
+        ![Page Details > Page Type options](/images/scr-pb-PageSettings-Details-PageType-E91.png)
         
     2.  Configure the new standard page.
         
           
         
-        ![Add Page > Details > Page Type: Standard](img/scr-pb-AddSinglePage-Details-Standard-E91.png)
+        ![Add Page > Details > Page Type: Standard](/images/scr-pb-AddSinglePage-Details-Standard-E91.png)
         
           
         
@@ -86,7 +86,7 @@ related-topics: create-single-page-existing,create-single-page-url,create-single
         
           
         
-        ![Add Page > Details > Calendar](img/scr-pb-AddPage-Details-Calendar.png)
+        ![Add Page > Details > Calendar](/images/scr-pb-AddPage-Details-Calendar.png)
         
           
         
@@ -107,7 +107,7 @@ related-topics: create-single-page-existing,create-single-page-url,create-single
     
       
     
-    ![Page > Permissions](img/scr-pb-Page-Permissions-E91.png)
+    ![Page > Permissions](/images/scr-pb-Page-Permissions-E91.png)
     
       
     
@@ -124,7 +124,7 @@ related-topics: create-single-page-existing,create-single-page-url,create-single
         
           
         
-        ![Page > Advanced > Modules](img/scr-pb-Page-Advanced-Modules-E91.png)
+        ![Page > Advanced > Modules](/images/scr-pb-Page-Advanced-Modules-E91.png)
         
           
         
@@ -134,7 +134,7 @@ related-topics: create-single-page-existing,create-single-page-url,create-single
         
           
         
-        ![Page > Advanced > Appearance](img/scr-pb-Page-Advanced-Appearance-E91.png)
+        ![Page > Advanced > Appearance](/images/scr-pb-Page-Advanced-Appearance-E91.png)
         
           
         
@@ -166,7 +166,7 @@ related-topics: create-single-page-existing,create-single-page-url,create-single
         
           
         
-        ![Page > Advanced > SEO](img/scr-pb-Page-Advanced-SEO-E91.png)
+        ![Page > Advanced > SEO](/images/scr-pb-Page-Advanced-SEO-E91.png)
         
           
         
@@ -190,7 +190,7 @@ related-topics: create-single-page-existing,create-single-page-url,create-single
         
           
         
-        ![Page > Advanced > More](img/scr-pb-Page-Advanced-More-E91.png)
+        ![Page > Advanced > More](/images/scr-pb-Page-Advanced-More-E91.png)
         
           
         

@@ -18,7 +18,7 @@ related-topics: view-site-logs,clear-log,delete-entries,share-entries,add-event-
 
 1.  Go to Persona Bar \> Manage \> Admin Logs.
     
-    ![Persona Bar > Manage > Admin Logs](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Admin Logs](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: view-site-logs,clear-log,delete-entries,share-entries,add-event-
     
 2.  Go to the Admin Logs tab.
     
-    ![Admin Logs](img/scr-pbtabs-host-Manage-AdminLogs-AdminLogs-E90.png)
+    ![Admin Logs](/images/scr-pbtabs-host-Manage-AdminLogs-AdminLogs-E90.png)
     
 3.  Look for the entry in the list.
     
       
     
-    ![](img/scr-AdminLogs-adminlogslist-find-entry-E90.png)
+    ![](/images/scr-AdminLogs-adminlogslist-find-entry-E90.png)
     
       
     
@@ -40,4 +40,4 @@ related-topics: view-site-logs,clear-log,delete-entries,share-entries,add-event-
     
       
     
-    ![](img/scr-AdminLogs-adminlogs-expand-entry-details-E90.gif)
+    ![](/images/scr-AdminLogs-adminlogs-expand-entry-details-E90.gif)

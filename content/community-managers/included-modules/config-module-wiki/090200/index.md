@@ -17,7 +17,7 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    ![Manage action menu > Settings](img/scr-actionmenu-manage-settings.png)
+    ![Manage action menu > Settings](/images/scr-actionmenu-manage-settings.png)
     
       
     
@@ -25,7 +25,7 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    ![Module Settings — Wiki](img/scr-modulesettings-Wiki.png)
+    ![Module Settings — Wiki](/images/scr-modulesettings-Wiki.png)
     
       
     

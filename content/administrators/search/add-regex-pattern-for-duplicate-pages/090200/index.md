@@ -20,7 +20,7 @@ You can optimize the search index by marking generated pages as duplicates if th
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -28,13 +28,13 @@ You can optimize the search index by marking generated pages as duplicates if th
     
 2.  Go to the Search tab, and then the Crawling subtab.
     
-    ![Search > Crawling](img/scr-pbtabs-all-Settings-SiteSettings-Search-Crawling-E90.png)
+    ![Search > Crawling](/images/scr-pbtabs-all-Settings-SiteSettings-Search-Crawling-E90.png)
     
 3.  In Duplicates, click/tap \+ Add Regex Pattern.
     
       
     
-    ![](img/scr-SiteSettings-Search-Crawling-duplicates-add-regex-pattern-button-E90.png)
+    ![](/images/scr-SiteSettings-Search-Crawling-duplicates-add-regex-pattern-button-E90.png)
     
       
     
@@ -42,7 +42,7 @@ You can optimize the search index by marking generated pages as duplicates if th
     
       
     
-    ![](img/scr-SiteSettings-Search-Crawling-duplicates-add-regex-pattern-E90.png)
+    ![](/images/scr-SiteSettings-Search-Crawling-duplicates-add-regex-pattern-E90.png)
     
       
     

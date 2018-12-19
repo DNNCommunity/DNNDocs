@@ -14,7 +14,7 @@ related-topics: form-field-address,form-field-date-time,form-field-dropdown,form
 
   
 
-![Settings for Phone Number field](img/scr-FormField-PhoneNumber-generalsettings.gif)
+![Settings for Phone Number field](/images/scr-FormField-PhoneNumber-generalsettings.gif)
 
   
 
@@ -41,7 +41,7 @@ Choose US or International. International allows the user to select a country co
 
   
 
-![Settings for Phone Number field](img/scr-FormField-PhoneNumber-helptext.gif)
+![Settings for Phone Number field](/images/scr-FormField-PhoneNumber-helptext.gif)
 
   
 
@@ -65,7 +65,7 @@ If enabled (On) and the user hovers/clicks/taps over the information icon (i) ne
 
   
 
-![Settings for Phone Number field](img/scr-FormField-PhoneNumber-validation.gif)
+![Settings for Phone Number field](/images/scr-FormField-PhoneNumber-validation.gif)
 
   
 

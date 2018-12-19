@@ -27,7 +27,7 @@ The module action menu provides standard functionality, such as module deletion,
 
   
 
-![Module action menu](img/scr-actionmenu-edit-icons.png)
+![Module action menu](/images/scr-actionmenu-edit-icons.png)
 
   
 
@@ -55,7 +55,7 @@ You can also create custom settings and the associated UI to manage those custom
 
   
 
-![Custom module settings](img/scr-module-settings.png)
+![Custom module settings](/images/scr-module-settings.png)
 
   
 
@@ -68,7 +68,7 @@ You can bundle modules into packages:
 *   manually,
 *   by using the module packaging wizard, which is available through the Module Creator or the Extensions page, or  
     
-    ![Click Create Package to start the wizard.](img/scr-module-package.png)
+    ![Click Create Package to start the wizard.](/images/scr-module-package.png)
     
       
     
@@ -80,7 +80,7 @@ DNN provides a role-based access control system that provides granular control a
 
   
 
-![Include custom module permissions](img/scr-module-permissions.png)
+![Include custom module permissions](/images/scr-module-permissions.png)
 
   
 

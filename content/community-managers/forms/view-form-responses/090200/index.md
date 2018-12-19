@@ -16,7 +16,7 @@ related-topics: create-form,edit-form,duplicate-form,delete-form,embed-form,cont
     
       
     
-    ![Click/Tap the ellipses for the form > Responses](img/scr-Forms-List-ellipsesmenu-Responses.png)
+    ![Click/Tap the ellipses for the form > Responses](/images/scr-Forms-List-ellipsesmenu-Responses.png)
     
       
     
@@ -25,7 +25,7 @@ related-topics: create-form,edit-form,duplicate-form,delete-form,embed-form,cont
         
           
         
-        ![Filter by response date.](img/scr-FormFields-ResponseTable-datefilter.gif)
+        ![Filter by response date.](/images/scr-FormFields-ResponseTable-datefilter.gif)
         
           
         
@@ -42,7 +42,7 @@ related-topics: create-form,edit-form,duplicate-form,delete-form,embed-form,cont
         
           
         
-        ![Response Table columns](img/scr-FormFields-ResponseTable-columns.gif)
+        ![Response Table columns](/images/scr-FormFields-ResponseTable-columns.gif)
         
           
         
@@ -54,4 +54,4 @@ related-topics: create-form,edit-form,duplicate-form,delete-form,embed-form,cont
     
       
     
-    ![Search/Select/Delete/Export](img/scr-FormFields-ResponseTable-searchselectdeleteexport.gif)
+    ![Search/Select/Delete/Export](/images/scr-FormFields-ResponseTable-searchselectdeleteexport.gif)

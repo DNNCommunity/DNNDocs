@@ -14,7 +14,7 @@ related-topics: edit-workflow-pb-all,delete-workflow-pb-all,configure-workflow-s
 
 1.  Go to Persona Bar \> Settings \> Workflow.
     
-    ![Persona Bar > Settings > Workflow](img/scr-pbar-cmg-Settings-E91.png)
+    ![Persona Bar > Settings > Workflow](/images/scr-pbar-cmg-Settings-E91.png)
     
     ➊
     
@@ -24,7 +24,7 @@ related-topics: edit-workflow-pb-all,delete-workflow-pb-all,configure-workflow-s
     
       
     
-    ![Workflow list > Create New Workflow button](img/scr-pb-Workflows-List.png)
+    ![Workflow list > Create New Workflow button](/images/scr-pb-Workflows-List.png)
     
       
     
@@ -32,7 +32,7 @@ related-topics: edit-workflow-pb-all,delete-workflow-pb-all,configure-workflow-s
     
       
     
-    ![New Workflow form](img/scr-pb-Workflows-Create.png)
+    ![New Workflow form](/images/scr-pb-Workflows-Create.png)
     
       
     
@@ -45,7 +45,7 @@ related-topics: edit-workflow-pb-all,delete-workflow-pb-all,configure-workflow-s
     
       
     
-    ![Workflow editing form](img/scr-pb-Workflows-EditWorkflow.png)
+    ![Workflow editing form](/images/scr-pb-Workflows-EditWorkflow.png)
     
       
     

@@ -18,7 +18,7 @@ related-topics: configure-url-redirects,manage-url-providers,edit-regex-for-url-
 
 1.  Go to Persona Bar \> Settings \> SEO.
     
-    ![Persona Bar > Settings > SEO](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > SEO](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: configure-url-redirects,manage-url-providers,edit-regex-for-url-
     
 2.  Go to the URL Management tab, and then the General Settings subtab.
     
-    ![URL Management > General Settings](img/scr-pbtabs-host-Settings-SEO-URLManagement-GeneralSettings-E91.png)
+    ![URL Management > General Settings](/images/scr-pbtabs-host-Settings-SEO-URLManagement-GeneralSettings-E91.png)
     
 3.  Configure the URL rewriter.
     
       
     
-    ![URL Management > General Settings](img/scr-SEO-URLManagement-GeneralSettings-URLRewriter-E91.png)
+    ![URL Management > General Settings](/images/scr-SEO-URLManagement-GeneralSettings-URLRewriter-E91.png)
     
       
     

@@ -18,7 +18,7 @@ related-topics: prioritize-search-items
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: prioritize-search-items
     
 2.  Go to the Search tab, and then the Basic Settings subtab.
     
-    ![Search > Basic Settings](img/scr-pbtabs-host-Settings-SiteSettings-Search-BasicSettings-E90.png)
+    ![Search > Basic Settings](/images/scr-pbtabs-host-Settings-SiteSettings-Search-BasicSettings-E90.png)
     
 3.  Configure the basic search settings.
     
       
     
-    ![](img/scr-SiteSettings-Search-BasicSettings-config-E90.png)
+    ![](/images/scr-SiteSettings-Search-BasicSettings-config-E90.png)
     
       
     

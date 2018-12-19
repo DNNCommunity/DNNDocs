@@ -14,7 +14,7 @@ Allows registered users to send messages to each other.
 
   
 
-![Message Center module](img/scr-module-MessageCenter.png)
+![Message Center module](/images/scr-module-MessageCenter.png)
 
   
 
@@ -28,13 +28,13 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-messagecenter.png) 
+ ![icon](/images/ico-module-messagecenter.png) 
 
 Message Center
 
 Admin
 
- ![Platform](img/ico-dnn-platform.png) ![Evoq Content](img/ico-evoq-content.png) ![Evoq Engage](img/ico-evoq-engage.png) 
+ ![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png) 
 
 ## Module Configuration
 
@@ -42,7 +42,7 @@ The Message Center module does not have custom settings; however, the correct pe
 
   
 
-![Message Center module settings > Permissions](img/scr-modulesettings-MessageCenter.png)
+![Message Center module settings > Permissions](/images/scr-modulesettings-MessageCenter.png)
 
   
 

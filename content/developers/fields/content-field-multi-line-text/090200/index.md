@@ -12,7 +12,7 @@ dnnversion: 09.02.00
 
   
 
-![Form Type for Multi-Line Text field](img/scr-ContentField-MultiLineText-formtype.gif)
+![Form Type for Multi-Line Text field](/images/scr-ContentField-MultiLineText-formtype.gif)
 
   
 
@@ -29,7 +29,7 @@ Appearance
 
   
 
-![General Settings for Multi-Line Text field](img/scr-ContentField-MultiLineText-generalsettings.gif)
+![General Settings for Multi-Line Text field](/images/scr-ContentField-MultiLineText-generalsettings.gif)
 
   
 
@@ -64,7 +64,7 @@ If enabled (On) and the user hovers/clicks/taps over the information icon (i) ne
 
   
 
-![Validation for Multi-Line Text field](img/scr-ContentField-MultiLineText-validation.gif)
+![Validation for Multi-Line Text field](/images/scr-ContentField-MultiLineText-validation.gif)
 
   
 

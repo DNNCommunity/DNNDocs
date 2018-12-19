@@ -15,7 +15,7 @@ A typical web page includes page elements and content blocks. Page elements, suc
 
   
 
-![Modules manage and display content on the page.](img/gra-module-overview.png)
+![Modules manage and display content on the page.](/images/gra-module-overview.png)
 
   
 

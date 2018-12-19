@@ -1,4 +1,5 @@
 ---
+uid: create-theme
 topic: create-theme
 locale: en
 title: Creating Themes

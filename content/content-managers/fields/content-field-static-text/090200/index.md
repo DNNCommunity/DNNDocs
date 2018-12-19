@@ -14,7 +14,7 @@ related-topics: content-field-assets,content-field-date-time,content-field-multi
 
   
 
-![Form Type for Static Text field](img/scr-ContentField-StaticText-formtype.gif)
+![Form Type for Static Text field](/images/scr-ContentField-StaticText-formtype.gif)
 
   
 

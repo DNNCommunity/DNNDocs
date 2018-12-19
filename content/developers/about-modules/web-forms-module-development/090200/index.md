@@ -17,7 +17,7 @@ Web Forms modules follow the standard DNN module architectural pattern and use a
 
   
 
-![Logical architecture of a Web Forms module](img/gra-module-architecture-wf.png)
+![Logical architecture of a Web Forms module](/images/gra-module-architecture-wf.png)
 
   
 
@@ -25,7 +25,7 @@ You can include web service endpoints to enable access by mobile applications, i
 
   
 
-![Accessing Web Forms Module via a Web Service](img/gra-module-architecture-mobile.png)
+![Accessing Web Forms Module via a Web Service](/images/gra-module-architecture-mobile.png)
 
   
 

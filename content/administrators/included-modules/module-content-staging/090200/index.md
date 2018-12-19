@@ -18,10 +18,10 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-contentstaging.png) 
+ ![icon](/images/ico-module-contentstaging.png) 
 
 Content Staging
 
 Admin
 
- ![Evoq Content](img/ico-evoq-content.png) ![Evoq Engage](img/ico-evoq-engage.png)
+ ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)

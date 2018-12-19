@@ -14,7 +14,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
 
 1.  Go to Persona Bar \> Content \> Pages.
     
-    ![Persona Bar > Content > Pages](img/scr-pbar-cmg-Content-E91.png)
+    ![Persona Bar > Content > Pages](/images/scr-pbar-cmg-Content-E91.png)
     
     ➊
     
@@ -24,4 +24,4 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
     
       
     
-    ![Pages > View](img/scr-pb-Pages-View-E91.png)
+    ![Pages > View](/images/scr-pb-Pages-View-E91.png)

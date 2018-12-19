@@ -18,7 +18,7 @@ related-topics: create-site,view-site,delete-site,move-site-to-another-server
 
 1.  Go to Persona Bar \> Manage \> Sites .
     
-    ![Persona Bar > Manage > Sites](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Sites](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -28,7 +28,7 @@ related-topics: create-site,view-site,delete-site,move-site-to-another-server
     
       
     
-    ![](img/scr-Sites-SitesTab-E90.png)
+    ![](/images/scr-Sites-SitesTab-E90.png)
     
       
     
@@ -37,7 +37,7 @@ related-topics: create-site,view-site,delete-site,move-site-to-another-server
         
           
         
-        ![Search field for sites](img/scr-Sites-Search-E90.png)
+        ![Search field for sites](/images/scr-Sites-Search-E90.png)
         
           
         
@@ -53,7 +53,7 @@ related-topics: create-site,view-site,delete-site,move-site-to-another-server
     
       
     
-    ![](img/scr-Sites-Sites-SiteIcons-SiteSettings-E90.png)
+    ![](/images/scr-Sites-Sites-SiteIcons-SiteSettings-E90.png)
     
       
     

@@ -14,7 +14,7 @@ Displays the most recent and currently active challenges that registered users c
 
   
 
-![Latest Challenges module](img/scr-module-LatestChallenges.png)
+![Latest Challenges module](/images/scr-module-LatestChallenges.png)
 
   
 
@@ -26,10 +26,10 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-latestchallenges.png) 
+ ![icon](/images/ico-module-latestchallenges.png) 
 
 Latest Challenges
 
 Social
 
- ![Evoq Engage](img/ico-evoq-engage.png)
+ ![Evoq Engage](/images/ico-evoq-engage.png)

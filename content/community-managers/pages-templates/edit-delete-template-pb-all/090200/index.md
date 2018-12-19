@@ -16,7 +16,7 @@ In the Page Templates list, hover over the template to edit/delete.
 
   
 
-![Pencil icon / X icon to edit/delete the template](img/scr-pb-PageTemplates-EditDelete.png)
+![Pencil icon / X icon to edit/delete the template](/images/scr-pb-PageTemplates-EditDelete.png)
 
   
 

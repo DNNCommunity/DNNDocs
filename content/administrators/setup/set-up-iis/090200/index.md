@@ -24,7 +24,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
         
           
         
-        ![Turn Windows features on or off](img/scr-InstallIIS-1.png)
+        ![Turn Windows features on or off](/images/scr-InstallIIS-1.png)
         
           
         
@@ -39,7 +39,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
         
           
         
-        ![IIS options to turn on](img/scr-InstallIIS-6.png)
+        ![IIS options to turn on](/images/scr-InstallIIS-6.png)
         
           
         
@@ -52,7 +52,7 @@ You can create a new website or set up an existing one for use with DNN. Choose 
         
           
         
-        ![In Connections, Sites, then Add Website"](img/scr-NewSiteInIIS-1.png)
+        ![In Connections, Sites, then Add Website"](/images/scr-NewSiteInIIS-1.png)
         
           
         
@@ -60,7 +60,7 @@ You can create a new website or set up an existing one for use with DNN. Choose 
         
           
         
-        ![Enter the new website's name and choose the location.](img/scr-NewSiteInIIS-2.png)
+        ![Enter the new website's name and choose the location.](/images/scr-NewSiteInIIS-2.png)
         
           
         
@@ -72,7 +72,7 @@ You can create a new website or set up an existing one for use with DNN. Choose 
         
           
         
-        ![For local, use www.dnndev.me.](img/scr-NewSiteInIIS-4.png)
+        ![For local, use www.dnndev.me.](/images/scr-NewSiteInIIS-4.png)
         
           
         
@@ -81,7 +81,7 @@ You can create a new website or set up an existing one for use with DNN. Choose 
         
           
         
-        ![Right-click on the website's name and choose Edit Bindings.](img/scr-NewSiteInIIS-6.png)
+        ![Right-click on the website's name and choose Edit Bindings.](/images/scr-NewSiteInIIS-6.png)
         
           
         
@@ -93,7 +93,7 @@ You can create a new website or set up an existing one for use with DNN. Choose 
         
           
         
-        ![For local, use www.dnndev.me.](img/scr-NewSiteInIIS-7.png)
+        ![For local, use www.dnndev.me.](/images/scr-NewSiteInIIS-7.png)
         
           
         

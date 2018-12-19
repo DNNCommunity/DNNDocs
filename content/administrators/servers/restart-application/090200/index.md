@@ -18,7 +18,7 @@ related-topics: retrieve-system-info,view-server-logs,about-web-servers
 
 1.  Go to Persona Bar \> Settings \> Servers.
     
-    ![Persona Bar > Settings > Servers](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -28,4 +28,4 @@ related-topics: retrieve-system-info,view-server-logs,about-web-servers
     
       
     
-    ![](img/scr-Servers-buttons-RestartApplication.png)
+    ![](/images/scr-Servers-buttons-RestartApplication.png)

@@ -16,4 +16,4 @@ In the Pages page, hover over the page to view, then click/tap the eye icon.
 
   
 
-![Pages > View](img/scr-pb-Pages-View-E91.png)
+![Pages > View](/images/scr-pb-Pages-View-E91.png)

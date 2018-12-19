@@ -16,7 +16,7 @@ dnnversion: 09.02.00
 
 1.  Go to Persona Bar \> Manage \> Users.
     
-    ![Persona Bar > Manage > Users](img/scr-pbar-cmg-Manage-E91.png)
+    ![Persona Bar > Manage > Users](/images/scr-pbar-cmg-Manage-E91.png)
     
     ➊
     
@@ -26,7 +26,7 @@ dnnversion: 09.02.00
     
       
     
-    ![Add User button](img/scr-UserList-AddUser-E90.png)
+    ![Add User button](/images/scr-UserList-AddUser-E90.png)
     
       
     
@@ -34,7 +34,7 @@ dnnversion: 09.02.00
     
       
     
-    ![Add New User](img/scr-AddNewUserInfo-E90.png)
+    ![Add New User](/images/scr-AddNewUserInfo-E90.png)
     
       
     

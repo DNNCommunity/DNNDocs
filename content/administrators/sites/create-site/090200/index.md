@@ -18,7 +18,7 @@ related-topics: edit-site-properties,view-site,delete-site,move-site-to-another-
 
 1.  Go to Persona Bar \> Manage \> Sites .
     
-    ![Persona Bar > Manage > Sites](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Sites](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -28,7 +28,7 @@ related-topics: edit-site-properties,view-site,delete-site,move-site-to-another-
     
       
     
-    ![](img/scr-Sites-SitesTab-E90.png)
+    ![](/images/scr-Sites-SitesTab-E90.png)
     
       
     
@@ -36,7 +36,7 @@ related-topics: edit-site-properties,view-site,delete-site,move-site-to-another-
     
       
     
-    ![](img/scr-Sites-AddNewSite-E90.png)
+    ![](/images/scr-Sites-AddNewSite-E90.png)
     
       
     
@@ -44,7 +44,7 @@ related-topics: edit-site-properties,view-site,delete-site,move-site-to-another-
     
       
     
-    ![](img/scr-AddNewSite-E90.png)
+    ![](/images/scr-AddNewSite-E90.png)
     
       
     
@@ -55,7 +55,7 @@ related-topics: edit-site-properties,view-site,delete-site,move-site-to-another-
     
       
     
-    ![](img/scr-AddNewSite-SiteTypeURL-E90.png)
+    ![](/images/scr-AddNewSite-SiteTypeURL-E90.png)
     
       
     
@@ -63,7 +63,7 @@ related-topics: edit-site-properties,view-site,delete-site,move-site-to-another-
     
       
     
-    ![](img/scr-AddNewSite-NewAdministrator-E90.png)
+    ![](/images/scr-AddNewSite-NewAdministrator-E90.png)
     
       
     

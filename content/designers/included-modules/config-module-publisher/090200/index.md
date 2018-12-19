@@ -17,7 +17,7 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    ![Manage action menu > Settings](img/scr-actionmenu-manage-settings.png)
+    ![Manage action menu > Settings](/images/scr-actionmenu-manage-settings.png)
     
       
     
@@ -25,7 +25,7 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    ![Module Settings — Publisher](img/scr-modulesettings-Publisher.png)
+    ![Module Settings — Publisher](/images/scr-modulesettings-Publisher.png)
     
       
     
@@ -46,7 +46,7 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    ![Publisher module with the Edit Bar](img/scr-module-Publisher-EditBar-gear.png)
+    ![Publisher module with the Edit Bar](/images/scr-module-Publisher-EditBar-gear.png)
     
       
     
@@ -54,7 +54,7 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    ![Additional Publisher settings](img/scr-module-Publisher-Settings.png)
+    ![Additional Publisher settings](/images/scr-module-Publisher-Settings.png)
     
       
     

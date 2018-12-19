@@ -18,7 +18,7 @@ related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles
 
 1.  Go to Persona Bar \> Manage \> Users.
     
-    ![Persona Bar > Manage > Users](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Users](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -31,14 +31,14 @@ related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles
     
       
     
-    ![User List > Search field and Show dropdown](img/scr-UserListSearchAndShow-E90.png)
+    ![User List > Search field and Show dropdown](/images/scr-UserListSearchAndShow-E90.png)
     
       
     
 3.  Edit the user's profile or account.
     *   To edit the user's profile: Click/Tap the Profile Settings icon for the user.
         
-        ![User List > find the user > Profile Settings](img/scr-UserList-ProfileSettings-E90.png)
+        ![User List > find the user > Profile Settings](/images/scr-UserList-ProfileSettings-E90.png)
     *   To edit the user's account: Click/Tap the Account Settings (gear) icon for the user.
         
-        ![User List > find the user > Account Settings](img/scr-UserList-AccountSettings-E90.png)
+        ![User List > find the user > Account Settings](/images/scr-UserList-AccountSettings-E90.png)

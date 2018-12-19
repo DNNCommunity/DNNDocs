@@ -19,7 +19,7 @@ This example walks you through creating a content type for recipes, two visualiz
     
       
     
-    ![Create a content type for recipes.](img/scr-ContentTypes-Example-Recipe.gif)
+    ![Create a content type for recipes.](/images/scr-ContentTypes-Example-Recipe.gif)
     
       
     
@@ -84,7 +84,7 @@ This example walks you through creating a content type for recipes, two visualiz
     
       
     
-    ![Create a visualizer for displaying recipes in a list.](img/scr-Visualizers-Example-RecipeShort.gif)
+    ![Create a visualizer for displaying recipes in a list.](/images/scr-Visualizers-Example-RecipeShort.gif)
     
       
     
@@ -153,7 +153,7 @@ This example walks you through creating a content type for recipes, two visualiz
     
       
     
-    ![Create a visualizer for displaying the entire recipe.](img/scr-Visualizers-Example-RecipeFull.gif)
+    ![Create a visualizer for displaying the entire recipe.](/images/scr-Visualizers-Example-RecipeFull.gif)
     
       
     
@@ -240,7 +240,7 @@ This example walks you through creating a content type for recipes, two visualiz
         
           
         
-        ![Create content item (Content Type = Recipe Content Type).](img/scr-Visualizers-Example-CreateContent.png)
+        ![Create content item (Content Type = Recipe Content Type).](/images/scr-Visualizers-Example-CreateContent.png)
         
           
         
@@ -248,7 +248,7 @@ This example walks you through creating a content type for recipes, two visualiz
         
           
         
-        ![Fill in the fields of the content.](img/scr-Visualizers-Example-FillInFields.png)
+        ![Fill in the fields of the content.](/images/scr-Visualizers-Example-FillInFields.png)
         
           
         
@@ -257,7 +257,7 @@ This example walks you through creating a content type for recipes, two visualiz
         
           
         
-        ![Create the page - Details tab.](img/scr-Visualizers-Example-RecipeFullPage-Details.png)
+        ![Create the page - Details tab.](/images/scr-Visualizers-Example-RecipeFullPage-Details.png)
         
           
         
@@ -277,7 +277,7 @@ This example walks you through creating a content type for recipes, two visualiz
         
           
         
-        ![Create the page - Permissions tab.](img/scr-Visualizers-Example-RecipeFullPage-Permissions.png)
+        ![Create the page - Permissions tab.](/images/scr-Visualizers-Example-RecipeFullPage-Permissions.png)
         
           
         
@@ -286,7 +286,7 @@ This example walks you through creating a content type for recipes, two visualiz
         
           
         
-        ![Create the page - Choose pane and click/tap module icon.](img/scr-Visualizers-Example-RecipeFullPage-NewPage.png)
+        ![Create the page - Choose pane and click/tap module icon.](/images/scr-Visualizers-Example-RecipeFullPage-NewPage.png)
         
           
         
@@ -294,7 +294,7 @@ This example walks you through creating a content type for recipes, two visualiz
         
           
         
-        ![Choose the Visualizer module.](img/scr-Visualizers-Example-RecipeFullPage-AddModuleVisualizer.png)
+        ![Choose the Visualizer module.](/images/scr-Visualizers-Example-RecipeFullPage-AddModuleVisualizer.png)
         
           
         
@@ -302,7 +302,7 @@ This example walks you through creating a content type for recipes, two visualiz
         
           
         
-        ![Select the Recipe Content Type.](img/scr-Visualizers-Example-RecipeFullPage-SelectContentType.png)
+        ![Select the Recipe Content Type.](/images/scr-Visualizers-Example-RecipeFullPage-SelectContentType.png)
         
           
         
@@ -312,7 +312,7 @@ This example walks you through creating a content type for recipes, two visualiz
         
           
         
-        ![Choose the My Recipe Full Visualizer.](img/scr-Visualizers-Example-RecipeFullPage-SelectVisualizer.png)
+        ![Choose the My Recipe Full Visualizer.](/images/scr-Visualizers-Example-RecipeFullPage-SelectVisualizer.png)
         
           
         
@@ -320,7 +320,7 @@ This example walks you through creating a content type for recipes, two visualiz
         
           
         
-        ![Select one content item from the list.](img/scr-Visualizers-Example-RecipeFullPage-SelectContentItem.png)
+        ![Select one content item from the list.](/images/scr-Visualizers-Example-RecipeFullPage-SelectContentItem.png)
         
           
         
@@ -328,7 +328,7 @@ This example walks you through creating a content type for recipes, two visualiz
         
           
         
-        ![Review that the content item is displayed correctly, then publish.](img/scr-Visualizers-Example-RecipeFullPage-ReviewAndPublish.png)
+        ![Review that the content item is displayed correctly, then publish.](/images/scr-Visualizers-Example-RecipeFullPage-ReviewAndPublish.png)
         
           
         
@@ -351,7 +351,7 @@ This example walks you through creating a content type for recipes, two visualiz
         
           
         
-        ![Create the page - Permissions tab.](img/scr-Visualizers-Example-RecipeFullPage-Permissions.png)
+        ![Create the page - Permissions tab.](/images/scr-Visualizers-Example-RecipeFullPage-Permissions.png)
         
           
         
@@ -360,7 +360,7 @@ This example walks you through creating a content type for recipes, two visualiz
         
           
         
-        ![Create the page - Choose pane and click/tap module icon.](img/scr-Visualizers-Example-RecipeFullPage-NewPage.png)
+        ![Create the page - Choose pane and click/tap module icon.](/images/scr-Visualizers-Example-RecipeFullPage-NewPage.png)
         
           
         
@@ -368,7 +368,7 @@ This example walks you through creating a content type for recipes, two visualiz
         
           
         
-        ![Choose the Visualizer module.](img/scr-Visualizers-Example-RecipeFullPage-AddModuleVisualizer.png)
+        ![Choose the Visualizer module.](/images/scr-Visualizers-Example-RecipeFullPage-AddModuleVisualizer.png)
         
           
         
@@ -376,7 +376,7 @@ This example walks you through creating a content type for recipes, two visualiz
         
           
         
-        ![Select the Recipe Content Type.](img/scr-Visualizers-Example-RecipeFullPage-SelectContentType.png)
+        ![Select the Recipe Content Type.](/images/scr-Visualizers-Example-RecipeFullPage-SelectContentType.png)
         
           
         
@@ -386,7 +386,7 @@ This example walks you through creating a content type for recipes, two visualiz
         
           
         
-        ![Choose the My Recipe Summary.](img/scr-Visualizers-Example-RecipeShortPage-SelectVisualizer.png)
+        ![Choose the My Recipe Summary.](/images/scr-Visualizers-Example-RecipeShortPage-SelectVisualizer.png)
         
           
         
@@ -394,7 +394,7 @@ This example walks you through creating a content type for recipes, two visualiz
         
           
         
-        ![Select one content item from the list.](img/scr-Visualizers-Example-RecipeShortPage-SelectContentItem.png)
+        ![Select one content item from the list.](/images/scr-Visualizers-Example-RecipeShortPage-SelectContentItem.png)
         
           
         
@@ -402,4 +402,4 @@ This example walks you through creating a content type for recipes, two visualiz
         
           
         
-        ![Review that the content item is displayed correctly, then publish.](img/scr-Visualizers-Example-RecipeShortPage-ReviewAndPublish.png)
+        ![Review that the content item is displayed correctly, then publish.](/images/scr-Visualizers-Example-RecipeShortPage-ReviewAndPublish.png)

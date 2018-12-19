@@ -20,7 +20,7 @@ Note: Compressing indexes or reindexing are CPU-intensive processes and should, 
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -28,10 +28,10 @@ Note: Compressing indexes or reindexing are CPU-intensive processes and should, 
     
 2.  Go to the Search tab, and then the Basic Settings subtab.
     
-    ![Search > Basic Settings](img/scr-pbtabs-host-Settings-SiteSettings-Search-BasicSettings-E90.png)
+    ![Search > Basic Settings](/images/scr-pbtabs-host-Settings-SiteSettings-Search-BasicSettings-E90.png)
     
 3.  In Search Index, click/tap Compact Index.
     
       
     
-    ![](img/scr-SiteSettings-Search-BasicSettings-index-compact-E90.png)
+    ![](/images/scr-SiteSettings-Search-BasicSettings-index-compact-E90.png)

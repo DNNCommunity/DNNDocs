@@ -14,7 +14,7 @@ Adds a dynamic content layout that can accommodate more modules.
 
   
 
-![Content Layout module](img/scr-module-ContentLayout.png)
+![Content Layout module](/images/scr-module-ContentLayout.png)
 
   
 
@@ -26,13 +26,13 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-contentlayout.png) 
+ ![icon](/images/ico-module-contentlayout.png) 
 
 Content Layout
 
 Recommended
 
- ![Evoq Content](img/ico-evoq-content.png) ![Evoq Engage](img/ico-evoq-engage.png) 
+ ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png) 
 
 ## Module Configuration
 

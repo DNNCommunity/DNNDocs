@@ -20,7 +20,7 @@ Note: Default groups cannot be edited or deleted.
 
 1.  Go to Persona Bar \> Manage \> Roles.
     
-    ![Persona Bar > Manage > Roles](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Roles](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -30,7 +30,7 @@ Note: Default groups cannot be edited or deleted.
     
       
     
-    ![](img/scr-RoleList-FilterByRoleGroup-E90.png)
+    ![](/images/scr-RoleList-FilterByRoleGroup-E90.png)
     
       
     
@@ -38,7 +38,7 @@ Note: Default groups cannot be edited or deleted.
     
       
     
-    ![](img/scr-Roles-CustomGroup-Edit-E90.png)
+    ![](/images/scr-Roles-CustomGroup-Edit-E90.png)
     
       
     
@@ -46,7 +46,7 @@ Note: Default groups cannot be edited or deleted.
     
       
     
-    ![](img/scr-Roles-EditGroup-E90.png)
+    ![](/images/scr-Roles-EditGroup-E90.png)
     
       
     

@@ -18,7 +18,7 @@ Note: Versioning is enabled at the folder level; i.e., versioning affects all fi
 
 1.  Go to Persona Bar \> Content \> Assets.
     
-    ![Persona Bar > Content > Assets](img/scr-pbar-mod-Content-E91.png)
+    ![Persona Bar > Content > Assets](/images/scr-pbar-mod-Content-E91.png)
     
     ➊
     
@@ -28,7 +28,7 @@ Note: Versioning is enabled at the folder level; i.e., versioning affects all fi
     
       
     
-    ![Folder card iconbar - pencil](img/scr-Assets-foldercard-iconbar-edit-E90.png)
+    ![Folder card iconbar - pencil](/images/scr-Assets-foldercard-iconbar-edit-E90.png)
     
       
     
@@ -36,4 +36,4 @@ Note: Versioning is enabled at the folder level; i.e., versioning affects all fi
     
       
     
-    ![Content > Assets — Edit > Detail > Versioning](img/scr-Assets-asset-edit-enableversioning-E90.png)
+    ![Content > Assets — Edit > Detail > Versioning](/images/scr-Assets-asset-edit-enableversioning-E90.png)

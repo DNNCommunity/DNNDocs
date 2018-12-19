@@ -16,13 +16,13 @@ dnnversion: 09.02.00
 
 1.  Go to the Content Types tab.
     
-    ![Content Types](img/scr-pbtabs-all-Content-ContentLibrary-ContentTypes-E91.png)
+    ![Content Types](/images/scr-pbtabs-all-Content-ContentLibrary-ContentTypes-E91.png)
     
 2.  Highlight the content type, click/tap the ellipses, and choose Duplicate.
     
       
     
-    ![Content Type ellipses menu > Duplicate](img/scr-ContentTypes-Ellipses-Duplicate-E91.png)
+    ![Content Type ellipses menu > Duplicate](/images/scr-ContentTypes-Ellipses-Duplicate-E91.png)
     
       
     
@@ -30,7 +30,7 @@ dnnversion: 09.02.00
     
       
     
-    ![Content Type settings](img/scr-ContentTypes-Settings.png)
+    ![Content Type settings](/images/scr-ContentTypes-Settings.png)
     
       
     
@@ -54,7 +54,7 @@ dnnversion: 09.02.00
     
       
     
-    ![Content Type properties](img/scr-ContentTypes-Properties.png)
+    ![Content Type properties](/images/scr-ContentTypes-Properties.png)
     
       
     
@@ -79,7 +79,7 @@ dnnversion: 09.02.00
         
           
         
-        ![Drag and drop a field to the canvas.](img/scr-ContentField-Add.png)
+        ![Drag and drop a field to the canvas.](/images/scr-ContentField-Add.png)
         
           
         
@@ -87,7 +87,7 @@ dnnversion: 09.02.00
         
           
         
-        ![Click/Tap a field in the canvas, then configure its settings.](img/scr-ContentField-Edit.png)
+        ![Click/Tap a field in the canvas, then configure its settings.](/images/scr-ContentField-Edit.png)
         
           
         
@@ -95,7 +95,7 @@ dnnversion: 09.02.00
         
           
         
-        ![Hover over a field in the canvas, then click/tap the duplicate icon.](img/scr-ContentField-Hover-Dup.png)
+        ![Hover over a field in the canvas, then click/tap the duplicate icon.](/images/scr-ContentField-Hover-Dup.png)
         
           
         
@@ -103,7 +103,7 @@ dnnversion: 09.02.00
         
           
         
-        ![Hover over a field in the canvas, then click/tap the trash icon.](img/scr-ContentField-Hover-Del.png)
+        ![Hover over a field in the canvas, then click/tap the trash icon.](/images/scr-ContentField-Hover-Del.png)
         
           
         

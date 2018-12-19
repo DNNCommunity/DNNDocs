@@ -20,7 +20,7 @@ Note: Visualizers provided by DNN cannot be edited, replaced, exported, or delet
 
 1.  Go to Persona Bar \> Content \> Content Library.
     
-    ![Persona Bar > Content > Content Library](img/scr-pbar-cmg-Content-E91.png)
+    ![Persona Bar > Content > Content Library](/images/scr-pbar-cmg-Content-E91.png)
     
     ➊
     
@@ -28,13 +28,13 @@ Note: Visualizers provided by DNN cannot be edited, replaced, exported, or delet
     
 2.  Go to the Visualizers tab.
     
-    ![Visualizers](img/scr-pbtabs-all-Content-ContentLibrary-Visualizers-E91.png)
+    ![Visualizers](/images/scr-pbtabs-all-Content-ContentLibrary-Visualizers-E91.png)
     
 3.  Search for the visualizer you want, then click/tap on its icon.
     
       
     
-    ![Visualizers list - Click/Tap the visualizer you want.](img/scr-Visualizers-List-SearchClickTap-E91.gif)
+    ![Visualizers list - Click/Tap the visualizer you want.](/images/scr-Visualizers-List-SearchClickTap-E91.gif)
     
       
     
@@ -44,7 +44,7 @@ Note: Visualizers provided by DNN cannot be edited, replaced, exported, or delet
     
       
     
-    ![Visualizer Details tab](img/scr-Visualizers-Details-E91.png)
+    ![Visualizer Details tab](/images/scr-Visualizers-Details-E91.png)
     
       
     
@@ -92,17 +92,17 @@ Note: Visualizers provided by DNN cannot be edited, replaced, exported, or delet
         
           
         
-        ![Content > Visualizers tab > Editor > Template with field placeholders](img/scr-Visualizers-Editor-Template-E91.gif)
+        ![Content > Visualizers tab > Editor > Template with field placeholders](/images/scr-Visualizers-Editor-Template-E91.gif)
         
           
         
-        Tip: Because the placeholders hide the inner tags, such as `<img/>` or `<p/>`, you can wrap the placeholders with `<div/>` tags with `class` names or `id` names that you can refer to in the CSS code. Example: `<div class="myimgdiv">{{ myImg }}</div>`
+        Tip: Because the placeholders hide the inner tags, such as `</images/>` or `<p/>`, you can wrap the placeholders with `<div/>` tags with `class` names or `id` names that you can refer to in the CSS code. Example: `<div class="myimgdiv">{{ myImg }}</div>`
         
     2.  In the Style editor, enter CSS code for the visualizer.
         
           
         
-        ![Content > Visualizers tab > Editor > Style](img/scr-Visualizers-Editor-Style-E91.png)
+        ![Content > Visualizers tab > Editor > Style](/images/scr-Visualizers-Editor-Style-E91.png)
         
           
         
@@ -112,7 +112,7 @@ Note: Visualizers provided by DNN cannot be edited, replaced, exported, or delet
         
           
         
-        ![Content > Visualizers tab > Editor > Style](img/scr-Visualizers-Editor-Script-E91.png)
+        ![Content > Visualizers tab > Editor > Style](/images/scr-Visualizers-Editor-Script-E91.png)
         
           
         

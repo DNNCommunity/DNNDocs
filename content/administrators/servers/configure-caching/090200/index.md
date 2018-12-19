@@ -19,7 +19,7 @@ links: ["[Caching Providers](http://www.dnnsoftware.com/wiki/caching-providers)"
 
 1.  Go to Persona Bar \> Settings \> Servers.
     
-    ![Persona Bar > Settings > Servers](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -27,7 +27,7 @@ links: ["[Caching Providers](http://www.dnnsoftware.com/wiki/caching-providers)"
     
 2.  Go to the Server Settings tab, and then the Performance subtab.
     
-    ![Server Settings > Performance](img/scr-pbtabs-host-Settings-Servers-ServerSettings-Performance-E90.png)
+    ![Server Settings > Performance](/images/scr-pbtabs-host-Settings-Servers-ServerSettings-Performance-E90.png)
     
 3.  Choose how the page's state is persisted (Page State Persistence).
     
@@ -36,7 +36,7 @@ links: ["[Caching Providers](http://www.dnnsoftware.com/wiki/caching-providers)"
     
       
     
-    ![Page State Persistence](img/scr-Servers-ServerSettings-Performance-PageStatePersistence-E90.png)
+    ![Page State Persistence](/images/scr-Servers-ServerSettings-Performance-PageStatePersistence-E90.png)
     
       
     
@@ -44,7 +44,7 @@ links: ["[Caching Providers](http://www.dnnsoftware.com/wiki/caching-providers)"
     
       
     
-    ![Caching Providers](img/scr-Servers-ServerSettings-Performance-CachingProviders-E90.png)
+    ![Caching Providers](/images/scr-Servers-ServerSettings-Performance-CachingProviders-E90.png)
     
       
     
@@ -79,7 +79,7 @@ links: ["[Caching Providers](http://www.dnnsoftware.com/wiki/caching-providers)"
     
       
     
-    ![Cachin behavior settings](img/scr-Servers-ServerSettings-Performance-CachingBehavior-E90.png)
+    ![Cachin behavior settings](/images/scr-Servers-ServerSettings-Performance-CachingBehavior-E90.png)
     
       
     

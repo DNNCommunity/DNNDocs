@@ -18,7 +18,7 @@ related-topics: edit-list-of-words-to-ignore,delete-list-of-words-to-ignore
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: edit-list-of-words-to-ignore,delete-list-of-words-to-ignore
     
 2.  Go to the Search tab, and then the Ignore Words subtab.
     
-    ![Search > Ignore Words](img/scr-pbtabs-all-Settings-SiteSettings-Search-IgnoreWords-E90.png)
+    ![Search > Ignore Words](/images/scr-pbtabs-all-Settings-SiteSettings-Search-IgnoreWords-E90.png)
     
 3.  Click/Tap \+ Add Word.
     
       
     
-    ![](img/scr-SiteSettings-Search-IgnoreWords-add-button-E90.png)
+    ![](/images/scr-SiteSettings-Search-IgnoreWords-add-button-E90.png)
     
       
     
@@ -44,7 +44,7 @@ related-topics: edit-list-of-words-to-ignore,delete-list-of-words-to-ignore
     
       
     
-    ![](img/scr-SiteSettings-Search-IgnoreWords-add-word-E90.png)
+    ![](/images/scr-SiteSettings-Search-IgnoreWords-add-word-E90.png)
     
       
     

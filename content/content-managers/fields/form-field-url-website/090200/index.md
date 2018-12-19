@@ -14,7 +14,7 @@ related-topics: form-field-address,form-field-date-time,form-field-dropdown,form
 
   
 
-![Settings for URL / Website field](img/scr-FormField-URLWebsite-generalsettings.gif)
+![Settings for URL / Website field](/images/scr-FormField-URLWebsite-generalsettings.gif)
 
   
 
@@ -37,7 +37,7 @@ If enabled (On),
 
   
 
-![Settings for URL / Website field](img/scr-FormField-URLWebsite-helptext.gif)
+![Settings for URL / Website field](/images/scr-FormField-URLWebsite-helptext.gif)
 
   
 
@@ -61,7 +61,7 @@ If enabled (On) and the user hovers/clicks/taps over the information icon (i) ne
 
   
 
-![Settings for URL / Website field](img/scr-FormField-URLWebsite-defaultvalue.gif)
+![Settings for URL / Website field](/images/scr-FormField-URLWebsite-defaultvalue.gif)
 
   
 
@@ -84,7 +84,7 @@ If checked,
 
   
 
-![Settings for URL / Website field](img/scr-FormField-URLWebsite-validation.gif)
+![Settings for URL / Website field](/images/scr-FormField-URLWebsite-validation.gif)
 
   
 

@@ -16,7 +16,7 @@ Note: The Empty Recycle Bin button purges (permanently deletes) all items. To pu
 
 1.  Go to Persona Bar \> Content \> Recycle Bin.
     
-    ![Persona Bar > Content > Recycle Bin](img/scr-pbar-cmg-Content-E91.png)
+    ![Persona Bar > Content > Recycle Bin](/images/scr-pbar-cmg-Content-E91.png)
     
     ➊
     
@@ -26,7 +26,7 @@ Note: The Empty Recycle Bin button purges (permanently deletes) all items. To pu
     
       
     
-    ![Empty Recycle Bin button](img/scr-RecycleBin-Empty-Recycle-Bin-button-E91.png)
+    ![Empty Recycle Bin button](/images/scr-RecycleBin-Empty-Recycle-Bin-button-E91.png)
     
       
     

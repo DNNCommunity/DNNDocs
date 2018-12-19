@@ -21,7 +21,7 @@ Warning: Verify that you are at the site that will be associated with the API ke
 
 1.  Go to Persona Bar \> Content \> Content Library.
     
-    ![Persona Bar > Content > Content Library](img/scr-pbar-host-Content-E91.png)
+    ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
     
     ➊
     
@@ -29,13 +29,13 @@ Warning: Verify that you are at the site that will be associated with the API ke
     
 2.  Go to the API Keys tab.
     
-    ![API Keys](img/scr-pbtabs-host-Content-ContentLibrary-APIKeys-E91.png)
+    ![API Keys](/images/scr-pbtabs-host-Content-ContentLibrary-APIKeys-E91.png)
     
 3.  Click/Tap Add New API Key.
     
       
     
-    ![Add New API Key button](img/scr-APIKey-AddNew-E91.png)
+    ![Add New API Key button](/images/scr-APIKey-AddNew-E91.png)
     
       
     
@@ -43,7 +43,7 @@ Warning: Verify that you are at the site that will be associated with the API ke
     
       
     
-    ![API key name and permissions](img/scr-APIKey-properties-new-E91.png)
+    ![API key name and permissions](/images/scr-APIKey-properties-new-E91.png)
     
       
     
@@ -57,7 +57,7 @@ Warning: Verify that you are at the site that will be associated with the API ke
     
       
     
-    ![API key list](img/scr-APIKey-list-E91.png)
+    ![API key list](/images/scr-APIKey-list-E91.png)
     
       
     
@@ -65,4 +65,4 @@ Warning: Verify that you are at the site that will be associated with the API ke
     
       
     
-    ![API key list > clipboard icon](img/scr-APIKey-list-clipboard-icon-E91.png)
+    ![API key list > clipboard icon](/images/scr-APIKey-list-clipboard-icon-E91.png)

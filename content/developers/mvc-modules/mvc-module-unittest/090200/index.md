@@ -29,7 +29,7 @@ Note: This unit test procedure is applicable only to modules created with the DN
         
           
         
-        ![Add New Project](img/scr-mvc-unittest-addproject.png)
+        ![Add New Project](/images/scr-mvc-unittest-addproject.png)
         
           
         
@@ -37,7 +37,7 @@ Note: This unit test procedure is applicable only to modules created with the DN
         
           
         
-        ![Create Unit Test project](img/scr-mvc-unittest-create.png)
+        ![Create Unit Test project](/images/scr-mvc-unittest-create.png)
         
           
         
@@ -47,7 +47,7 @@ Note: This unit test procedure is applicable only to modules created with the DN
     
       
     
-    ![Project Reference](img/scr-mvc-unittest-projref.png)
+    ![Project Reference](/images/scr-mvc-unittest-projref.png)
     
       
     
@@ -69,7 +69,7 @@ Note: This unit test procedure is applicable only to modules created with the DN
         
           
         
-        ![Moq Nuget Installation](img/scr-mvc-unittest-moqnuget.png)
+        ![Moq Nuget Installation](/images/scr-mvc-unittest-moqnuget.png)
         
           
         
@@ -247,7 +247,7 @@ Note: This unit test procedure is applicable only to modules created with the DN
     
       
     
-    ![Test Explorer](img/scr-mvc-unittest-testexplorer.png)
+    ![Test Explorer](/images/scr-mvc-unittest-testexplorer.png)
     
       
     

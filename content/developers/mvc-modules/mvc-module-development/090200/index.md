@@ -66,7 +66,7 @@ The MVC module type implements the model-view-controller pattern, which separate
     
       
     
-    ![Logical architecture of an MVC module](img/gra-module-architecture-mvc.png)
+    ![Logical architecture of an MVC module](/images/gra-module-architecture-mvc.png)
     
       
     

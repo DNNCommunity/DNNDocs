@@ -52,7 +52,7 @@ Evoq 8.5
 
 Important: Microservices must be enabled by the host/superuser for a site before they can be used.
 
-![](img/gra-evoq-microservices-overview.png)
+![](/images/gra-evoq-microservices-overview.png)
 
 ## Using Microservices
 

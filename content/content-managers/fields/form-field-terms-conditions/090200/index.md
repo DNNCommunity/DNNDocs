@@ -14,7 +14,7 @@ related-topics: form-field-address,form-field-date-time,form-field-dropdown,form
 
   
 
-![Settings for Terms and Conditions field](img/scr-FormField-TermsConditions-generalsettings.gif)
+![Settings for Terms and Conditions field](/images/scr-FormField-TermsConditions-generalsettings.gif)
 
   
 
@@ -49,7 +49,7 @@ If enabled (On), displays the legal text you enter in the provided text box.
 
   
 
-![Settings for Terms and Conditions field](img/scr-FormField-TermsConditions-helptext.gif)
+![Settings for Terms and Conditions field](/images/scr-FormField-TermsConditions-helptext.gif)
 
   
 
@@ -69,7 +69,7 @@ If enabled (On) and the user hovers/clicks/taps over the information icon (i) ne
 
   
 
-![Settings for Terms and Conditions field](img/scr-FormField-TermsConditions-defaultvalue.png)
+![Settings for Terms and Conditions field](/images/scr-FormField-TermsConditions-defaultvalue.png)
 
   
 

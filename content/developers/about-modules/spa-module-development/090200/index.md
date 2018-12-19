@@ -25,7 +25,7 @@ In a SPA module, each HTML file loads the necessary JavaScript and CSS to proper
 
   
 
-![Logical architecture of a SPA module](img/gra-module-architecture-spa.png)
+![Logical architecture of a SPA module](/images/gra-module-architecture-spa.png)
 
   
 

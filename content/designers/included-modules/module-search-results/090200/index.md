@@ -13,7 +13,7 @@ Displays the search results.
 
   
 
-![Search Results module](img/scr-module-SearchResults.png)
+![Search Results module](/images/scr-module-SearchResults.png)
 
   
 
@@ -27,10 +27,10 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-searchresults.png) 
+ ![icon](/images/ico-module-searchresults.png) 
 
 Search Results
 
 Admin
 
- ![Platform](img/ico-dnn-platform.png) ![Evoq Content](img/ico-evoq-content.png) ![Evoq Engage](img/ico-evoq-engage.png)
+ ![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)

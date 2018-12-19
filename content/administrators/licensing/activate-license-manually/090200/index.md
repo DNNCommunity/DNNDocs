@@ -23,7 +23,7 @@ Note: You might need to modify your firewall settings to allow a query to be sen
 
 1.  Go to Persona Bar \> Settings \> About.
     
-    ![Persona Bar > Settings > About](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > About](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -33,7 +33,7 @@ Note: You might need to modify your firewall settings to allow a query to be sen
     
       
     
-    ![Click Add License.](img/scr-LicensingActivate-E90.png)
+    ![Click Add License.](/images/scr-LicensingActivate-E90.png)
     
       
     
@@ -41,7 +41,7 @@ Note: You might need to modify your firewall settings to allow a query to be sen
     
       
     
-    ![Choose License Type, enter Account Email and Invoice Number, then click Automatic Activation.](img/scr-LicensingAddAuto-E90.png)
+    ![Choose License Type, enter Account Email and Invoice Number, then click Automatic Activation.](/images/scr-LicensingAddAuto-E90.png)
     
       
     
@@ -65,7 +65,7 @@ Note: You might need to modify your firewall settings to allow a query to be sen
     
       
     
-    ![Copy the encoded server ID, paste it in the website to get an activation key, paste the activation key, then click Submit Activation Key.](img/scr-LicensingManual-E90.png)
+    ![Copy the encoded server ID, paste it in the website to get an activation key, paste the activation key, then click Submit Activation Key.](/images/scr-LicensingManual-E90.png)
     
       
     

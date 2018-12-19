@@ -14,7 +14,7 @@ Displays a member list that can be filtered, sorted, and searched on.
 
   
 
-![Member Directory module](img/scr-module-MemberDirectory.png)
+![Member Directory module](/images/scr-module-MemberDirectory.png)
 
   
 
@@ -36,10 +36,10 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-memberdirectory.png) 
+ ![icon](/images/ico-module-memberdirectory.png) 
 
 Member Directory
 
 None
 
- ![Platform](img/ico-dnn-platform.png) ![Evoq Content](img/ico-evoq-content.png) ![Evoq Engage](img/ico-evoq-engage.png)
+ ![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)

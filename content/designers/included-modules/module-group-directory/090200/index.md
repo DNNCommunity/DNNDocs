@@ -14,7 +14,7 @@ Displays the list of groups and allows users to create a new group. The Group Di
 
   
 
-![Group Directory module](img/scr-module-GroupDirectory.png)
+![Group Directory module](/images/scr-module-GroupDirectory.png)
 
   
 
@@ -29,13 +29,13 @@ To display/hide companion module(s),
 
 *   From the main module's action menu, go to Edit (pencil icon) \> Add Companion Modules....  
     
-    ![Edit (pencil icon) action menu > Add Companion Modules...](img/scr-actionmenu-edit-addcompanionmodules.png)
+    ![Edit (pencil icon) action menu > Add Companion Modules...](/images/scr-actionmenu-edit-addcompanionmodules.png)
     
       
     
 *   Check/Uncheck the Visible on Page box for the companion module that you want to be displayed/hidden.  
     
-    ![](img/scr-companions-VisibleOnPage.png)
+    ![](/images/scr-companions-VisibleOnPage.png)
     
       
     
@@ -48,10 +48,10 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-groupdirectory.png) 
+ ![icon](/images/ico-module-groupdirectory.png) 
 
 Group Directory
 
 Social
 
- ![Evoq Engage](img/ico-evoq-engage.png)
+ ![Evoq Engage](/images/ico-evoq-engage.png)

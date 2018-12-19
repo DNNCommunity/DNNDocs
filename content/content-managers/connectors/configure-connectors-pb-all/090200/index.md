@@ -13,7 +13,7 @@ parent-topic: content-managers-connectors-overview
 
 1.  Go to Persona Bar \> Settings \> Connectors.
     
-    ![Persona Bar > Settings > Connectors](img/scr-pbar-cmg-Settings-E91.png)
+    ![Persona Bar > Settings > Connectors](/images/scr-pbar-cmg-Settings-E91.png)
     
     ➊
     
@@ -23,7 +23,7 @@ parent-topic: content-managers-connectors-overview
     
       
     
-    ![Configure Connections expanded tabs](img/scr-pbarSettings-Connectors.gif)
+    ![Configure Connections expanded tabs](/images/scr-pbarSettings-Connectors.gif)
     
       
     
@@ -33,7 +33,7 @@ parent-topic: content-managers-connectors-overview
     
       
     
-    ![Connectors gear icon](img/scr-pbarSettings-Connectors-Zendesk-gear.png)
+    ![Connectors gear icon](/images/scr-pbarSettings-Connectors-Zendesk-gear.png)
     
       
     
@@ -105,7 +105,7 @@ parent-topic: content-managers-connectors-overview
     
       
     
-    ![Google Analytics Advanced Settings](img/scr-pbarSettings-Connectors-GoogleAnalyticsAdvSettings.png)
+    ![Google Analytics Advanced Settings](/images/scr-pbarSettings-Connectors-GoogleAnalyticsAdvSettings.png)
     
       
     
@@ -126,7 +126,7 @@ parent-topic: content-managers-connectors-overview
     
       
     
-    ![MailChimp Advanced Settings](img/scr-pbarSettings-Connectors-MailChimpAdvSettings.png)
+    ![MailChimp Advanced Settings](/images/scr-pbarSettings-Connectors-MailChimpAdvSettings.png)
     
       
     
@@ -163,7 +163,7 @@ parent-topic: content-managers-connectors-overview
     
       
     
-    ![Zendesk Advanced Settings](img/scr-pbarSettings-Connectors-ZendeskAdvSettings.png)
+    ![Zendesk Advanced Settings](/images/scr-pbarSettings-Connectors-ZendeskAdvSettings.png)
     
       
     

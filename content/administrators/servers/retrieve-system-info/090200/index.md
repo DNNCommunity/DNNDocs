@@ -20,7 +20,7 @@ Note: In the DNN Platform, you can manage the web servers by using SQL commands 
 
 1.  Go to Persona Bar \> Settings \> Servers.
     
-    ![Persona Bar > Settings > Servers](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -29,7 +29,7 @@ Note: In the DNN Platform, you can manage the web servers by using SQL commands 
 2.  In the System Info tab, browse the subtabs.
     *   Go to the System Info tab, and then the Application subtab.
         
-        ![System Info > Application](img/scr-pbtabs-host-Settings-Servers-SystemInfo-Application-E90.png)
+        ![System Info > Application](/images/scr-pbtabs-host-Settings-Servers-SystemInfo-Application-E90.png)
         
         Field
         
@@ -82,7 +82,7 @@ Note: In the DNN Platform, you can manage the web servers by using SQL commands 
         
     *   Go to the System Info tab, and then the Web subtab.
         
-        ![System Info > Web](img/scr-pbtabs-host-Settings-Servers-SystemInfo-Web-E90.png)
+        ![System Info > Web](/images/scr-pbtabs-host-Settings-Servers-SystemInfo-Web-E90.png)
         
         Field
         
@@ -120,7 +120,7 @@ Note: In the DNN Platform, you can manage the web servers by using SQL commands 
         
     *   Go to the System Info tab, and then the Database subtab.
         
-        ![System Info > Database](img/scr-pbtabs-host-Settings-Servers-SystemInfo-Database-E90.png)
+        ![System Info > Database](/images/scr-pbtabs-host-Settings-Servers-SystemInfo-Database-E90.png)
         
         Field
         

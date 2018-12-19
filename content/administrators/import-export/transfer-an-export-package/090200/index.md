@@ -21,7 +21,7 @@ An export creates a set of folders in the local server. To make the export packa
 1.  In the source server (where the export was done), find the export package(s).
     1.  Go to Persona Bar \> Settings \> Import-Export.
         
-        ![Persona Bar > Settings > Import-Export](img/scr-pbar-host-Settings-E91.png)
+        ![Persona Bar > Settings > Import-Export](/images/scr-pbar-host-Settings-E91.png)
         
         ➊
         
@@ -48,7 +48,7 @@ An export creates a set of folders in the local server. To make the export packa
     
       
     
-    ![Import / Export Log](img/scr-Settings-ImportExport-Log-E91.png)
+    ![Import / Export Log](/images/scr-Settings-ImportExport-Log-E91.png)
     
       
     

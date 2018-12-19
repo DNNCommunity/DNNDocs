@@ -18,7 +18,7 @@ related-topics: edit-role,delete-role,assign-users-to-role,edit-date-range-for-r
 
 1.  Go to Persona Bar \> Manage \> Roles.
     
-    ![Persona Bar > Manage > Roles](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Roles](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -28,7 +28,7 @@ related-topics: edit-role,delete-role,assign-users-to-role,edit-date-range-for-r
     
       
     
-    ![](img/scr-RoleList-CreateRole-E90.png)
+    ![](/images/scr-RoleList-CreateRole-E90.png)
     
       
     
@@ -36,7 +36,7 @@ related-topics: edit-role,delete-role,assign-users-to-role,edit-date-range-for-r
     
       
     
-    ![](img/scr-Roles-Create-E90.png)
+    ![](/images/scr-Roles-Create-E90.png)
     
       
     

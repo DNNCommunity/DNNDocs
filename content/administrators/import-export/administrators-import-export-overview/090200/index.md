@@ -52,4 +52,4 @@ Warning: Differential exports must be managed and used carefully.
     
       
     
-    ![Illustration of differential scenario if middle differential export is deleted.](img/gra-import-export-example.gif)
+    ![Illustration of differential scenario if middle differential export is deleted.](/images/gra-import-export-example.gif)

@@ -18,7 +18,7 @@ Note: The Empty Recycle Bin button purges (permanently deletes) all items. To pu
     
       
     
-    ![Empty Recycle Bin button](img/scr-RecycleBin-Empty-Recycle-Bin-button-E91.png)
+    ![Empty Recycle Bin button](/images/scr-RecycleBin-Empty-Recycle-Bin-button-E91.png)
     
       
     

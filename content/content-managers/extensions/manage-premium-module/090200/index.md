@@ -25,7 +25,7 @@ Installing a module requires host permissions.
 
 1.  Go to Persona Bar \> Settings \> Extensions.
     
-    ![Persona Bar > Settings > Extensions](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Extensions](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -35,7 +35,7 @@ Installing a module requires host permissions.
     
       
     
-    ![Installed Extensions tab > Showing: Modules > click/tap the pencil icon for the module to edit.](img/scr-Extensions-Installed-edit-E90.png)
+    ![Installed Extensions tab > Showing: Modules > click/tap the pencil icon for the module to edit.](/images/scr-Extensions-Installed-edit-E90.png)
     
       
     
@@ -47,7 +47,7 @@ Installing a module requires host permissions.
     
       
     
-    ![Check Is Premium Module? > then drag websites from Unassigned to Assigned.](img/scr-Extensions-Edit-ExtensionSettings-PremiumModule-E90.png)
+    ![Check Is Premium Module? > then drag websites from Unassigned to Assigned.](/images/scr-Extensions-Edit-ExtensionSettings-PremiumModule-E90.png)
     
       
     

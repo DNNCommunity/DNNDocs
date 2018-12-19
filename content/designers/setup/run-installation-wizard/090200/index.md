@@ -53,7 +53,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
     
       
     
-    ![DNN Installation Wizard](img/scr-InstallWizard-7.png)
+    ![DNN Installation Wizard](/images/scr-InstallWizard-7.png)
     
       
     

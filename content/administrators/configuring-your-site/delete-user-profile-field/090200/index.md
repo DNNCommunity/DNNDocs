@@ -18,7 +18,7 @@ related-topics: configure-user-profile-visibility,configure-user-profile-vanity-
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: configure-user-profile-visibility,configure-user-profile-vanity-
     
 2.  Go to the Site Behavior tab, and then the User Profiles subtab.
     
-    ![Site Behavior > User Profiles](img/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-UserProfiles-E90.png)
+    ![Site Behavior > User Profiles](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-UserProfiles-E90.png)
     
 3.  Click/Tap the trash icon for the field to be deleted. Confirm.
     
       
     
-    ![Site Settings > Site Behavior > User Profiles > User Profile Fields > Delete](img/scr-SiteSettings-SiteBehavior-UserProfiles-UserProfileFields-Delete-E90.png)
+    ![Site Settings > Site Behavior > User Profiles > User Profile Fields > Delete](/images/scr-SiteSettings-SiteBehavior-UserProfiles-UserProfileFields-Delete-E90.png)
     
       
     

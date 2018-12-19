@@ -18,13 +18,13 @@ Note: Visualizers provided by DNN cannot be edited, replaced, exported, or delet
 
 1.  Go to the Visualizers tab.
     
-    ![Visualizers](img/scr-pbtabs-all-Content-ContentLibrary-Visualizers-E91.png)
+    ![Visualizers](/images/scr-pbtabs-all-Content-ContentLibrary-Visualizers-E91.png)
     
 2.  Search for the visualizer you want, then click/tap on its icon.
     
       
     
-    ![Visualizers list - Click/Tap the visualizer you want.](img/scr-Visualizers-List-SearchClickTap-E91.gif)
+    ![Visualizers list - Click/Tap the visualizer you want.](/images/scr-Visualizers-List-SearchClickTap-E91.gif)
     
       
     
@@ -34,7 +34,7 @@ Note: Visualizers provided by DNN cannot be edited, replaced, exported, or delet
     
       
     
-    ![Visualizer Details tab](img/scr-Visualizers-Details-E91.png)
+    ![Visualizer Details tab](/images/scr-Visualizers-Details-E91.png)
     
       
     
@@ -82,7 +82,7 @@ Note: Visualizers provided by DNN cannot be edited, replaced, exported, or delet
         
           
         
-        ![Content > Visualizers tab > Editor > Template with field placeholders](img/scr-Visualizers-Editor-Template-E91.gif)
+        ![Content > Visualizers tab > Editor > Template with field placeholders](/images/scr-Visualizers-Editor-Template-E91.gif)
         
           
         
@@ -92,7 +92,7 @@ Note: Visualizers provided by DNN cannot be edited, replaced, exported, or delet
         
           
         
-        ![Content > Visualizers tab > Editor > Style](img/scr-Visualizers-Editor-Style-E91.png)
+        ![Content > Visualizers tab > Editor > Style](/images/scr-Visualizers-Editor-Style-E91.png)
         
           
         
@@ -102,7 +102,7 @@ Note: Visualizers provided by DNN cannot be edited, replaced, exported, or delet
         
           
         
-        ![Content > Visualizers tab > Editor > Style](img/scr-Visualizers-Editor-Script-E91.png)
+        ![Content > Visualizers tab > Editor > Style](/images/scr-Visualizers-Editor-Script-E91.png)
         
           
         

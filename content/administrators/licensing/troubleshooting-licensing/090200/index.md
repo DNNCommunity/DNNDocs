@@ -31,7 +31,7 @@ You are using a trial version of Evoq .... You currently have ... days remaining
     
     1.  Go to Persona Bar \> Settings \> About.
         
-        ![Persona Bar > Settings > About](img/scr-pbar-host-Settings-E91.png)
+        ![Persona Bar > Settings > About](/images/scr-pbar-host-Settings-E91.png)
         
         ➊
         

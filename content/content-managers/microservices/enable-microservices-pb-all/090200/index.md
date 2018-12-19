@@ -19,4 +19,4 @@ Enable the appropriate microservice(s).
 
   
 
-![Enable microservices](img/scr-SiteSettings-SiteBehavior-More-Microservices.png)
+![Enable microservices](/images/scr-SiteSettings-SiteBehavior-More-Microservices.png)

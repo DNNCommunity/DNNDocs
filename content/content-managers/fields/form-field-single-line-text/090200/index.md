@@ -14,7 +14,7 @@ related-topics: form-field-address,form-field-date-time,form-field-dropdown,form
 
   
 
-![Settings for Single-Line Text field](img/scr-FormField-SingleLineText-generalsettings.gif)
+![Settings for Single-Line Text field](/images/scr-FormField-SingleLineText-generalsettings.gif)
 
   
 
@@ -37,7 +37,7 @@ If enabled (On),
 
   
 
-![Settings for Single-Line Text field](img/scr-FormField-SingleLineText-helptext.gif)
+![Settings for Single-Line Text field](/images/scr-FormField-SingleLineText-helptext.gif)
 
   
 
@@ -61,7 +61,7 @@ If enabled (On) and the user hovers/clicks/taps over the information icon (i) ne
 
   
 
-![Settings for Single-Line Text field](img/scr-FormField-SingleLineText-defaultvalue.gif)
+![Settings for Single-Line Text field](/images/scr-FormField-SingleLineText-defaultvalue.gif)
 
   
 
@@ -84,7 +84,7 @@ If checked,
 
   
 
-![Settings for Single-Line Text field](img/scr-FormField-SingleLineText-validation.gif)
+![Settings for Single-Line Text field](/images/scr-FormField-SingleLineText-validation.gif)
 
   
 

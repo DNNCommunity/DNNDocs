@@ -18,7 +18,7 @@ related-topics: add-role-to-new-group,add-role-to-existing-group,remove-role-fro
 
 1.  Go to Persona Bar \> Manage \> Roles.
     
-    ![Persona Bar > Manage > Roles](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Roles](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -28,4 +28,4 @@ related-topics: add-role-to-new-group,add-role-to-existing-group,remove-role-fro
     
       
     
-    ![](img/scr-RoleList-FilterByRoleGroup-E90.png)
+    ![](/images/scr-RoleList-FilterByRoleGroup-E90.png)

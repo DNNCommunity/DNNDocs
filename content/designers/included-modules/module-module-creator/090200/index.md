@@ -14,7 +14,7 @@ Assists in the development of basic modules.
 
   
 
-![Module Creator module](img/scr-module-ModuleCreator.png)
+![Module Creator module](/images/scr-module-ModuleCreator.png)
 
   
 
@@ -30,13 +30,13 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-modulecreator.png) 
+ ![icon](/images/ico-module-modulecreator.png) 
 
 Module Creator
 
 Developer
 
- ![Platform](img/ico-dnn-platform.png) ![Evoq Content](img/ico-evoq-content.png) ![Evoq Engage](img/ico-evoq-engage.png) 
+ ![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png) 
 
 ## Module Configuration
 

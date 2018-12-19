@@ -14,7 +14,7 @@ related-topics: add-assets,edit-asset-properties,edit-asset-permissions,move-ass
 
 1.  Go to Persona Bar \> Content \> Assets.
     
-    ![Persona Bar > Content > Assets](img/scr-pbar-mod-Content-E91.png)
+    ![Persona Bar > Content > Assets](/images/scr-pbar-mod-Content-E91.png)
     
     ➊
     
@@ -24,7 +24,7 @@ related-topics: add-assets,edit-asset-properties,edit-asset-permissions,move-ass
     
       
     
-    ![Asset card iconbar - download](img/scr-Assets-assetcard-iconbar-download-E90.png)
+    ![Asset card iconbar - download](/images/scr-Assets-assetcard-iconbar-download-E90.png)
     
       
     

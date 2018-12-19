@@ -18,7 +18,7 @@ related-topics: view-site-logs,view-entry-details,clear-log,delete-entries,add-e
 
 1.  Go to Persona Bar \> Manage \> Admin Logs.
     
-    ![Persona Bar > Manage > Admin Logs](img/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Admin Logs](/images/scr-pbar-host-Manage-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: view-site-logs,view-entry-details,clear-log,delete-entries,add-e
     
 2.  Go to the Admin Logs tab.
     
-    ![Admin Logs](img/scr-pbtabs-host-Manage-AdminLogs-AdminLogs-E90.png)
+    ![Admin Logs](/images/scr-pbtabs-host-Manage-AdminLogs-AdminLogs-E90.png)
     
 3.  Check the boxes for the entries to email.
     
       
     
-    ![](img/scr-AdminLogs-adminlogslist-checkboxes-E90.png)
+    ![](/images/scr-AdminLogs-adminlogslist-checkboxes-E90.png)
     
       
     
@@ -40,7 +40,7 @@ related-topics: view-site-logs,view-entry-details,clear-log,delete-entries,add-e
     
       
     
-    ![](img/scr-AdminLogs-adminlogslist-email-selected-buttons-E90.png)
+    ![](/images/scr-AdminLogs-adminlogslist-email-selected-buttons-E90.png)
     
       
     
@@ -48,7 +48,7 @@ related-topics: view-site-logs,view-entry-details,clear-log,delete-entries,add-e
     
       
     
-    ![](img/scr-AdminLogs-adminlogs-fill-email-info-E90.png)
+    ![](/images/scr-AdminLogs-adminlogs-fill-email-info-E90.png)
     
       
     

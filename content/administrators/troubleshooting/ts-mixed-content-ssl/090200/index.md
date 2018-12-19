@@ -37,13 +37,13 @@ A secured page (HTTPS) contains unsecured links (HTTP) to some resources (images
     
       
     
-    ![Page Settings icon](img/scr-pb-EditBar-PageSettings.png)
+    ![Page Settings icon](/images/scr-pb-EditBar-PageSettings.png)
     
       
     
-5.  Go to the Advanced tab, and then the More subtab.![Advanced > More](img/scr-pbtabs-all-Content-Pages-Advanced-More-E91.png)
+5.  Go to the Advanced tab, and then the More subtab.![Advanced > More](/images/scr-pbtabs-all-Content-Pages-Advanced-More-E91.png)
 6.  Under Security, enable Secure Connection.
     
       
     
-    ![Security > Secure Connection](img/scr-pb-Page-Advanced-Security.png)
+    ![Security > Secure Connection](/images/scr-pb-Page-Advanced-Security.png)

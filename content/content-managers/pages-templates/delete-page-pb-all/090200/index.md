@@ -21,7 +21,7 @@ Note:
 
 1.  Go to Persona Bar \> Content \> Pages.
     
-    ![Persona Bar > Content > Pages](img/scr-pbar-cmg-Content-E91.png)
+    ![Persona Bar > Content > Pages](/images/scr-pbar-cmg-Content-E91.png)
     
     ➊
     
@@ -31,7 +31,7 @@ Note:
     
       
     
-    ![Pages > Delete](img/scr-pb-Pages-Delete-E91.png)
+    ![Pages > Delete](/images/scr-pb-Pages-Delete-E91.png)
     
       
     

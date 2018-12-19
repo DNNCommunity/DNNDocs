@@ -18,7 +18,7 @@ related-topics: create-content-type,edit-content-type,delete-content-type,conten
 
 1.  Go to Persona Bar \> Content \> Content Library.
     
-    ![Persona Bar > Content > Content Library](img/scr-pbar-cmg-Content-E91.png)
+    ![Persona Bar > Content > Content Library](/images/scr-pbar-cmg-Content-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: create-content-type,edit-content-type,delete-content-type,conten
     
 2.  Go to the Content Types tab.
     
-    ![Content Types](img/scr-pbtabs-all-Content-ContentLibrary-ContentTypes-E91.png)
+    ![Content Types](/images/scr-pbtabs-all-Content-ContentLibrary-ContentTypes-E91.png)
     
 3.  Highlight the content type, click/tap the ellipses, and choose Duplicate.
     
       
     
-    ![Content Type ellipses menu > Duplicate](img/scr-ContentTypes-Ellipses-Duplicate-E91.png)
+    ![Content Type ellipses menu > Duplicate](/images/scr-ContentTypes-Ellipses-Duplicate-E91.png)
     
       
     
@@ -40,7 +40,7 @@ related-topics: create-content-type,edit-content-type,delete-content-type,conten
     
       
     
-    ![Content Type settings](img/scr-ContentTypes-Settings.png)
+    ![Content Type settings](/images/scr-ContentTypes-Settings.png)
     
       
     
@@ -64,7 +64,7 @@ related-topics: create-content-type,edit-content-type,delete-content-type,conten
     
       
     
-    ![Content Type properties](img/scr-ContentTypes-Properties.png)
+    ![Content Type properties](/images/scr-ContentTypes-Properties.png)
     
       
     
@@ -89,7 +89,7 @@ related-topics: create-content-type,edit-content-type,delete-content-type,conten
         
           
         
-        ![Drag and drop a field to the canvas.](img/scr-ContentField-Add.png)
+        ![Drag and drop a field to the canvas.](/images/scr-ContentField-Add.png)
         
           
         
@@ -97,7 +97,7 @@ related-topics: create-content-type,edit-content-type,delete-content-type,conten
         
           
         
-        ![Click/Tap a field in the canvas, then configure its settings.](img/scr-ContentField-Edit.png)
+        ![Click/Tap a field in the canvas, then configure its settings.](/images/scr-ContentField-Edit.png)
         
           
         
@@ -105,7 +105,7 @@ related-topics: create-content-type,edit-content-type,delete-content-type,conten
         
           
         
-        ![Hover over a field in the canvas, then click/tap the duplicate icon.](img/scr-ContentField-Hover-Dup.png)
+        ![Hover over a field in the canvas, then click/tap the duplicate icon.](/images/scr-ContentField-Hover-Dup.png)
         
           
         
@@ -113,7 +113,7 @@ related-topics: create-content-type,edit-content-type,delete-content-type,conten
         
           
         
-        ![Hover over a field in the canvas, then click/tap the trash icon.](img/scr-ContentField-Hover-Del.png)
+        ![Hover over a field in the canvas, then click/tap the trash icon.](/images/scr-ContentField-Hover-Del.png)
         
           
         

@@ -14,7 +14,7 @@ Displays a list of users sorted by their reputation points.
 
   
 
-![Leaderboard module](img/scr-module-Leaderboard.png)
+![Leaderboard module](/images/scr-module-Leaderboard.png)
 
   
 
@@ -28,10 +28,10 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-leaderboard.png) 
+ ![icon](/images/ico-module-leaderboard.png) 
 
 Leaderboard
 
 Social
 
- ![Evoq Engage](img/ico-evoq-engage.png)
+ ![Evoq Engage](/images/ico-evoq-engage.png)

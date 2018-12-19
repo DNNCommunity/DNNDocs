@@ -18,7 +18,7 @@ related-topics: edit-group-of-synonyms,delete-group-of-synonyms
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: edit-group-of-synonyms,delete-group-of-synonyms
     
 2.  Go to the Search tab, and then the Synonyms subtab.
     
-    ![Search > Synonyms](img/scr-pbtabs-all-Settings-SiteSettings-Search-Synonyms-E90.png)
+    ![Search > Synonyms](/images/scr-pbtabs-all-Settings-SiteSettings-Search-Synonyms-E90.png)
     
 3.  Click/Tap \+ Add Group.
     
       
     
-    ![](img/scr-SiteSettings-Search-Synonyms-add-button-E90.png)
+    ![](/images/scr-SiteSettings-Search-Synonyms-add-button-E90.png)
     
       
     
@@ -42,7 +42,7 @@ related-topics: edit-group-of-synonyms,delete-group-of-synonyms
     
       
     
-    ![](img/scr-SiteSettings-Search-Synonyms-add-group-E90.png)
+    ![](/images/scr-SiteSettings-Search-Synonyms-add-group-E90.png)
     
       
     

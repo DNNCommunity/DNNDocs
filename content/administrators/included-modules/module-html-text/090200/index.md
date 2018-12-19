@@ -16,7 +16,7 @@ HTML Pro in DNN Evoq:
 
   
 
-![HTML Pro module](img/scr-module-HTMLPro.png)
+![HTML Pro module](/images/scr-module-HTMLPro.png)
 
   
 
@@ -24,7 +24,7 @@ HTML in DNN Platform:
 
   
 
-![HTML module](img/scr-module-HTML.png)
+![HTML module](/images/scr-module-HTML.png)
 
   
 
@@ -41,10 +41,10 @@ Category
 
 Product(s)
 
- ![icon](img/ico-module-html.png) 
+ ![icon](/images/ico-module-html.png) 
 
 HTML
 
 Common
 
- ![Platform](img/ico-dnn-platform.png) ![Evoq Content](img/ico-evoq-content.png) ![Evoq Engage](img/ico-evoq-engage.png)
+ ![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)

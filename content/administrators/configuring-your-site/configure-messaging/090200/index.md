@@ -18,7 +18,7 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,access-w
 
 1.  Go to Persona Bar \> Settings \> Site Settings.
     
-    ![Persona Bar > Settings > Site Settings](img/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
     ➊
     
@@ -26,13 +26,13 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,access-w
     
 2.  Go to the Site Behavior tab, and then the Messaging subtab.
     
-    ![Site Behavior > Messaging](img/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-Messaging-E90.png)
+    ![Site Behavior > Messaging](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-Messaging-E90.png)
     
 3.  Set the fields that affect user messaging and system messages to the user.
     
       
     
-    ![Site Settings > Site Behavior > Messaging](img/scr-SiteSettings-SiteBehavior-Messaging-E90.png)
+    ![Site Settings > Site Behavior > Messaging](/images/scr-SiteSettings-SiteBehavior-Messaging-E90.png)
     
       
     

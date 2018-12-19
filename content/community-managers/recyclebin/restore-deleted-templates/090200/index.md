@@ -14,14 +14,14 @@ related-topics: create-template-based-on-page-pb-all,create-template-based-on-an
 
 1.  Go to the Templates tab.
     
-    ![Templates](img/scr-pbtabs-all-Content-RecycleBin-Templates-E91.png)
+    ![Templates](/images/scr-pbtabs-all-Content-RecycleBin-Templates-E91.png)
     
 2.  Restore one or more templates.
     *   To restore a single template, hover over the template to restore, and click/tap the Restore icon for that item.
         
           
         
-        ![Restore icon for each item in the list.](img/scr-RecycleBin-Templates-Restore-icon-E91.png)
+        ![Restore icon for each item in the list.](/images/scr-RecycleBin-Templates-Restore-icon-E91.png)
         
           
         
@@ -29,7 +29,7 @@ related-topics: create-template-based-on-page-pb-all,create-template-based-on-an
         
           
         
-        ![Restore button.](img/scr-RecycleBin-Templates-Select-Then-Restore-button-E91.png)
+        ![Restore button.](/images/scr-RecycleBin-Templates-Select-Then-Restore-button-E91.png)
         
           
         

@@ -21,13 +21,13 @@ related-topics: add-content-to-page-quickly-pb-all,configure-module-on-page-pb-a
 1.  Go to the page to edit.
 2.  Go to Persona Bar \> Edit.
     
-    ![Persona Bar > Edit](img/scr-pbar-all-Edit-E91.png)
+    ![Persona Bar > Edit](/images/scr-pbar-all-Edit-E91.png)
     
 3.  Within a pane, click/tap on the module icon.
     
       
     
-    ![Pane with content icons](img/scr-pane-with-content-icons-module.png)
+    ![Pane with content icons](/images/scr-pane-with-content-icons-module.png)
     
       
     
@@ -36,7 +36,7 @@ related-topics: add-content-to-page-quickly-pb-all,configure-module-on-page-pb-a
         
           
         
-        ![Module List > Hover to highlight the module.](img/scr-pb-ModulesList2-ChooseModule.png)
+        ![Module List > Hover to highlight the module.](/images/scr-pb-ModulesList2-ChooseModule.png)
         
           
         
@@ -46,7 +46,7 @@ related-topics: add-content-to-page-quickly-pb-all,configure-module-on-page-pb-a
         
           
         
-        ![Hover over action menu bar of the module, then drag to a different pane.](img/scr-actionmenubar-hover.png)
+        ![Hover over action menu bar of the module, then drag to a different pane.](/images/scr-actionmenubar-hover.png)
         
           
         
@@ -54,4 +54,4 @@ related-topics: add-content-to-page-quickly-pb-all,configure-module-on-page-pb-a
         
           
         
-        ![Click/Tap on the four-arrow icon, then choose the target pane from the list.](img/scr-actionmenu-move.png)
+        ![Click/Tap on the four-arrow icon, then choose the target pane from the list.](/images/scr-actionmenu-move.png)

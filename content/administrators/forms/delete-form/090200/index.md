@@ -14,7 +14,7 @@ related-topics: create-form,edit-form,duplicate-form,embed-form,view-form-respon
 
 1.  Go to Persona Bar \> Content \> Forms.
     
-    ![Persona Bar > Content > Forms](img/scr-pbar-host-Content-E91.png)
+    ![Persona Bar > Content > Forms](/images/scr-pbar-host-Content-E91.png)
     
     ➊
     
@@ -24,7 +24,7 @@ related-topics: create-form,edit-form,duplicate-form,embed-form,view-form-respon
     
       
     
-    ![Click/Tap the ellipses for the form > Delete](img/scr-Forms-List-ellipsesmenu-Delete.png)
+    ![Click/Tap the ellipses for the form > Delete](/images/scr-Forms-List-ellipsesmenu-Delete.png)
     
       
     

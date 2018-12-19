@@ -14,14 +14,14 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
 
 1.  Go to the Pages tab.
     
-    ![Pages](img/scr-pbtabs-all-Content-RecycleBin-Pages-E91.png)
+    ![Pages](/images/scr-pbtabs-all-Content-RecycleBin-Pages-E91.png)
     
 2.  Restore one or more pages.
     *   To restore a single page, hover over the page to restore, and click/tap the Restore icon for that item.
         
           
         
-        ![Restore icon for each item in the list.](img/scr-RecycleBin-Pages-Restore-icon-E91.png)
+        ![Restore icon for each item in the list.](/images/scr-RecycleBin-Pages-Restore-icon-E91.png)
         
           
         
@@ -29,7 +29,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
         
           
         
-        ![Restore button.](img/scr-RecycleBin-Pages-Select-Then-Restore-button-E91.png)
+        ![Restore button.](/images/scr-RecycleBin-Pages-Select-Then-Restore-button-E91.png)
         
           
         

@@ -16,7 +16,7 @@ related-topics: create-form,edit-form,duplicate-form,embed-form,view-form-respon
     
       
     
-    ![Click/Tap the ellipses for the form > Delete](img/scr-Forms-List-ellipsesmenu-Delete.png)
+    ![Click/Tap the ellipses for the form > Delete](/images/scr-Forms-List-ellipsesmenu-Delete.png)
     
       
     

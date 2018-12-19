@@ -16,7 +16,7 @@ You can embed a form on any webpage or app.
 
 1.  Go to Persona Bar \> Content \> Forms.
     
-    ![Persona Bar > Content > Forms](img/scr-pbar-host-Content-E91.png)
+    ![Persona Bar > Content > Forms](/images/scr-pbar-host-Content-E91.png)
     
     ➊
     
@@ -26,7 +26,7 @@ You can embed a form on any webpage or app.
     
       
     
-    ![Click/Tap the ellipses for the form > Embed](img/scr-Forms-List-ellipsesmenu-Embed.png)
+    ![Click/Tap the ellipses for the form > Embed](/images/scr-Forms-List-ellipsesmenu-Embed.png)
     
       
     
@@ -34,7 +34,7 @@ You can embed a form on any webpage or app.
     
       
     
-    ![Choose the design style for the form.](img/scr-SelectFormStyle.png)
+    ![Choose the design style for the form.](/images/scr-SelectFormStyle.png)
     
       
     
@@ -43,7 +43,7 @@ You can embed a form on any webpage or app.
     
       
     
-    ![Restrict the domains.](img/scr-Form-EmbedCode-AllowedDomains.png)
+    ![Restrict the domains.](/images/scr-Form-EmbedCode-AllowedDomains.png)
     
       
     
@@ -55,4 +55,4 @@ You can embed a form on any webpage or app.
     
       
     
-    ![Copy the embed code.](img/scr-Form-EmbedCode-UseThisCode.png)
+    ![Copy the embed code.](/images/scr-Form-EmbedCode-UseThisCode.png)

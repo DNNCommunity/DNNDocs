@@ -23,13 +23,13 @@ Hidden Fields
 
   
 
-![Forms - visible fields](img/scr-FormFields-Vis.gif)
+![Forms - visible fields](/images/scr-FormFields-Vis.gif)
 
   
 
   
 
-![Forms - hidden fields](img/scr-FormFields-Hid.gif)
+![Forms - hidden fields](/images/scr-FormFields-Hid.gif)
 
   
 
@@ -77,7 +77,7 @@ Note: In the query portion of the form's URL, you must use the placeholder name 
 
   
 
-![Forms - Configure hidden fields.](img/scr-FormFields-Hidden-Configure.gif)
+![Forms - Configure hidden fields.](/images/scr-FormFields-Hidden-Configure.gif)
 
   
 
@@ -93,7 +93,7 @@ Suppose that you are organizing an event ("2016 User Convention") and you want p
     
       
     
-    ![Example - Create a form with name and email fields.](img/scr-FormFields-Hidden-Example-CreateForm.png)
+    ![Example - Create a form with name and email fields.](/images/scr-FormFields-Hidden-Example-CreateForm.png)
     
       
     
@@ -113,7 +113,7 @@ Suppose that you are organizing an event ("2016 User Convention") and you want p
     
       
     
-    ![Example - Configure the hidden fields.](img/scr-FormFields-Hidden-Example-HiddenFieldsConfig.png)
+    ![Example - Configure the hidden fields.](/images/scr-FormFields-Hidden-Example-HiddenFieldsConfig.png)
     
       
     
@@ -122,7 +122,7 @@ Suppose that you are organizing an event ("2016 User Convention") and you want p
     
       
     
-    ![Example - Add the form to a new page.](img/scr-FormFields-Hidden-Example-AddToPage.gif)
+    ![Example - Add the form to a new page.](/images/scr-FormFields-Hidden-Example-AddToPage.gif)
     
       
     
@@ -143,7 +143,7 @@ Suppose that you are organizing an event ("2016 User Convention") and you want p
     
       
     
-    ![Example - Fill in the form.](img/scr-FormFields-Hidden-Example-FillForm1.png)
+    ![Example - Fill in the form.](/images/scr-FormFields-Hidden-Example-FillForm1.png)
     
       
     
@@ -151,7 +151,7 @@ Suppose that you are organizing an event ("2016 User Convention") and you want p
     
       
     
-    ![Example - View first response.](img/scr-FormFields-Hidden-Example-ViewResponses1.png)
+    ![Example - View first response.](/images/scr-FormFields-Hidden-Example-ViewResponses1.png)
     
       
     
@@ -182,4 +182,4 @@ Suppose that you are organizing an event ("2016 User Convention") and you want p
     
       
     
-    ![Example - View three responses.](img/scr-FormFields-Hidden-Example-ViewResponses3.png)
+    ![Example - View three responses.](/images/scr-FormFields-Hidden-Example-ViewResponses3.png)
