@@ -1,4 +1,5 @@
 ---
+uid: access-web-config
 topic: access-web-config
 locale: en
 title: Access web.config and other .config files

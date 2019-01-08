@@ -1,4 +1,5 @@
 ---
+uid: administrators-forms-overview
 topic: administrators-forms-overview
 locale: en
 title: About the Form Builder

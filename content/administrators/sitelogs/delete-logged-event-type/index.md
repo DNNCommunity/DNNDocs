@@ -1,4 +1,5 @@
 ---
+uid: delete-logged-event-type
 topic: delete-logged-event-type
 locale: en
 title: Delete a Logged Event Type

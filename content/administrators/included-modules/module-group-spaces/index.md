@@ -1,4 +1,5 @@
 ---
+uid: module-group-spaces
 topic: module-group-spaces
 locale: en
 title: Module: Group Spaces

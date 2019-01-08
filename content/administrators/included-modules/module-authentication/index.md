@@ -1,4 +1,5 @@
 ---
+uid: module-authentication
 topic: module-authentication
 locale: en
 title: Module: Authentication

@@ -1,4 +1,5 @@
 ---
+uid: module-profile-dashboard
 topic: module-profile-dashboard
 locale: en
 title: Module: Profile Dashboard

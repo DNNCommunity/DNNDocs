@@ -1,4 +1,5 @@
 ---
+uid: module-blogs
 topic: module-blogs
 locale: en
 title: Module: Blogs

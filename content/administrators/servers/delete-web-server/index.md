@@ -1,4 +1,5 @@
 ---
+uid: delete-web-server
 topic: delete-web-server
 locale: en
 title: Delete a Web Server

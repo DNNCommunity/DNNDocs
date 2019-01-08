@@ -1,4 +1,5 @@
 ---
+uid: visualizer-templates-filters
 topic: visualizer-templates-filters
 locale: en
 title: Visualizer Templates: Filters

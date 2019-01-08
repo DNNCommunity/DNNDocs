@@ -1,4 +1,5 @@
 ---
+uid: administrators-setup-overview
 topic: administrators-setup-overview
 locale: en
 title: Setting Up DNN

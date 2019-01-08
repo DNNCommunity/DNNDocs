@@ -1,4 +1,5 @@
 ---
+uid: edit-site-group
 topic: edit-site-group
 locale: en
 title: Edit Site Group

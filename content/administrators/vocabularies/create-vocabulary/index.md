@@ -1,4 +1,5 @@
 ---
+uid: create-vocabulary
 topic: create-vocabulary
 locale: en
 title: Create a Vocabulary

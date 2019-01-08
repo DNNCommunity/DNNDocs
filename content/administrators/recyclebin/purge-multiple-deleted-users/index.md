@@ -1,4 +1,5 @@
 ---
+uid: purge-multiple-deleted-users
 topic: purge-multiple-deleted-users
 locale: en
 title: Purge Multiple Deleted Users

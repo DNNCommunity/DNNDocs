@@ -1,4 +1,5 @@
 ---
+uid: create-single-page-file
 topic: create-single-page-file
 locale: en
 title: Create a Navigation Link to an Asset (File)

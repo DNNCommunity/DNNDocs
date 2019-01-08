@@ -1,4 +1,5 @@
 ---
+uid: administrators-search-overview
 topic: administrators-search-overview
 locale: en
 title: About Search

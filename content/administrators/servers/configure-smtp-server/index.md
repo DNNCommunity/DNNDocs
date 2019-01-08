@@ -1,4 +1,5 @@
 ---
+uid: configure-smtp-server
 topic: configure-smtp-server
 locale: en
 title: Configure the SMTP Server

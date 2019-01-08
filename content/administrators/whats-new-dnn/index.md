@@ -1,4 +1,5 @@
 ---
+uid: whats-new-dnn
 topic: whats-new-dnn
 locale: en
 title: What's New in DNN Platform 9.1.1 and Evoq 9.1.1

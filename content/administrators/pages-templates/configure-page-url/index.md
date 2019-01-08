@@ -1,4 +1,5 @@
 ---
+uid: configure-page-url
 topic: configure-page-url
 locale: en
 title: Configure a Navigation Link to an External URL

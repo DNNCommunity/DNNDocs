@@ -1,4 +1,5 @@
 ---
+uid: delete-user-profile-field
 topic: delete-user-profile-field
 locale: en
 title: Delete a User Profile Field

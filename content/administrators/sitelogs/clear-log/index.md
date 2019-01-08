@@ -1,4 +1,5 @@
 ---
+uid: clear-log
 topic: clear-log
 locale: en
 title: Clear Log

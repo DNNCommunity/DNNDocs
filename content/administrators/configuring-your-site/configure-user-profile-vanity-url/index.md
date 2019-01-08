@@ -1,4 +1,6 @@
 ---
+
+uid: configure-user-profile-vanity-url
 topic: configure-user-profile-vanity-url
 locale: en
 title: Configure the User Profile Vanity URL

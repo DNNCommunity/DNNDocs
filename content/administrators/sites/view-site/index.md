@@ -1,4 +1,5 @@
 ---
+uid: view-site
 topic: view-site
 locale: en
 title: View a Site

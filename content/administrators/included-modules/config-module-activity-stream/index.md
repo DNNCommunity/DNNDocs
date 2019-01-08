@@ -1,4 +1,5 @@
 ---
+uid: config-module-activity-stream
 topic: config-module-activity-stream
 locale: en
 title: Configure the Activity Stream Module

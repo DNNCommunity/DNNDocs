@@ -1,4 +1,5 @@
 ---
+uid: config-module-calendar
 topic: config-module-calendar
 locale: en
 title: Configure the Calendar Module

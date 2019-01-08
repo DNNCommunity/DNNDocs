@@ -1,4 +1,5 @@
 ---
+uid: module-html-text
 topic: module-html-text
 locale: en
 title: Module: HTML (Text)

@@ -1,4 +1,5 @@
 ---
+uid: purge-user-account
 topic: purge-user-account
 locale: en
 title: Purge a Deleted User Account

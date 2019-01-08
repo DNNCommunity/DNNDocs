@@ -1,4 +1,5 @@
 ---
+uid: configure-connectors-pb-all
 topic: configure-connectors-pb-all
 locale: en
 title: Configure Connections to External Service Providers

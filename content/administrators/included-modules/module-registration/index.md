@@ -1,4 +1,5 @@
 ---
+uid: module-registration
 topic: module-registration
 locale: en
 title: Module: Registration

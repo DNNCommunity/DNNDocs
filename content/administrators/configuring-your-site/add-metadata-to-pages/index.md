@@ -1,4 +1,5 @@
 ---
+uid: add-metadata-to-pages
 topic: add-metadata-to-pages
 locale: en
 title: Add Metadata to Pages

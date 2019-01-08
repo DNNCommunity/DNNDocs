@@ -1,4 +1,5 @@
 ---
+uid: about-troubleshooting
 topic: about-troubleshooting
 locale: en
 title: Troubleshooting

@@ -1,4 +1,5 @@
 ---
+uid: administrators-troubleshooting-overview
 topic: administrators-troubleshooting-overview
 locale: en
 title: Troubleshooting

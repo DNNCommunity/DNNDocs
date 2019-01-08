@@ -1,4 +1,5 @@
 ---
+uid: module-content-layout
 topic: module-content-layout
 locale: en
 title: Module: Content Layout

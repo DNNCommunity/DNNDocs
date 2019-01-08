@@ -1,4 +1,5 @@
 ---
+uid: authorize-host
 topic: authorize-host
 locale: en
 title: Authorize a Host Account

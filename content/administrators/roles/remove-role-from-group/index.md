@@ -1,4 +1,5 @@
 ---
+uid: remove-role-from-group
 topic: remove-role-from-group
 locale: en
 title: Remove a Role from a Group

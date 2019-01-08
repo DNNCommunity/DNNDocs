@@ -1,4 +1,5 @@
 ---
+uid: control-bar-to-persona-bar
 topic: control-bar-to-persona-bar
 locale: en
 title: Control Bar to Persona Bar

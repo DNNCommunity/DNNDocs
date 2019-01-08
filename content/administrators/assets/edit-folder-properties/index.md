@@ -1,4 +1,5 @@
 ---
+uid: edit-folder-properties
 topic: edit-folder-properties
 locale: en
 title: Edit the Properties of a Folder

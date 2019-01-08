@@ -1,4 +1,5 @@
 ---
+uid: administrators-sitelogs-overview
 topic: administrators-sitelogs-overview
 locale: en
 title: About Site Logs

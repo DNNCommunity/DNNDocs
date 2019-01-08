@@ -1,4 +1,5 @@
 ---
+uid: get-existing-api-key
 topic: get-existing-api-key
 locale: en
 title: Get an Existing API Key

@@ -1,4 +1,5 @@
 ---
+uid: assign-user-to-multiple-roles
 topic: assign-user-to-multiple-roles
 locale: en
 title: Assign a Single User to Multiple Roles

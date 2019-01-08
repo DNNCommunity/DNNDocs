@@ -1,4 +1,5 @@
 ---
+uid: config-module-my-status
 topic: config-module-my-status
 locale: en
 title: Configure the My Status Module

@@ -1,4 +1,5 @@
 ---
+uid: configure-html-editor
 topic: configure-html-editor
 locale: en
 title: Configure the HTML Editor

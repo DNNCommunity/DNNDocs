@@ -1,4 +1,5 @@
 ---
+uid: configure-url-mapping-site-aliases
 topic: configure-url-mapping-site-aliases
 locale: en
 title: Configure URL Mapping for Site Aliases

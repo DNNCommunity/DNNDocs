@@ -1,4 +1,5 @@
 ---
+uid: expire-cached-item-in-web-server
 topic: expire-cached-item-in-web-server
 locale: en
 title: Expire a Cached Item in a Web Server

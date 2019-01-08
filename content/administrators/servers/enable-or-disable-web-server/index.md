@@ -1,4 +1,5 @@
 ---
+uid: enable-or-disable-web-server
 topic: enable-or-disable-web-server
 locale: en
 title: Enable or Disable a Web Server

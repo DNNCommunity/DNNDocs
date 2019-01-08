@@ -1,4 +1,5 @@
 ---
+uid: glossary
 topic: glossary
 locale: en
 title: Glossary

@@ -1,4 +1,5 @@
 ---
+uid: minify-resource-files
 topic: minify-resource-files
 locale: en
 title: Minify Resource Files

@@ -1,4 +1,5 @@
 ---
+uid: delete-form
 topic: delete-form
 locale: en
 title: Delete a Form

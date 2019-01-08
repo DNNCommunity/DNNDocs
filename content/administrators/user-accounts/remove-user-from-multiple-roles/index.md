@@ -1,4 +1,5 @@
 ---
+uid: remove-user-from-multiple-roles
 topic: remove-user-from-multiple-roles
 locale: en
 title: Remove a Single User from Multiple Roles

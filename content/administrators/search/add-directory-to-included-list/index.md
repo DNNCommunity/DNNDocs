@@ -1,4 +1,5 @@
 ---
+uid: add-directory-to-included-list
 topic: add-directory-to-included-list
 locale: en
 title: Add a Directory to Included List for Crawling

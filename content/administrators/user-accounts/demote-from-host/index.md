@@ -1,4 +1,5 @@
 ---
+uid: demote-from-host
 topic: demote-from-host
 locale: en
 title: Demote a Host to Regular User

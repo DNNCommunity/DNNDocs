@@ -1,4 +1,5 @@
 ---
+uid: create-template-based-on-another-template-pb-all
 topic: create-template-based-on-another-template-pb-all
 locale: en
 title: Create a Template Based on an Another Template via the Persona Bar

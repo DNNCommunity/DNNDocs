@@ -1,4 +1,5 @@
 ---
+uid: compare-page-versions
 topic: compare-page-versions
 locale: en
 title: Compare Page Versions

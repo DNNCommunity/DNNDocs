@@ -1,4 +1,5 @@
 ---
+uid: configure-page-existing
 topic: configure-page-existing
 locale: en
 title: Configure a Navigation Link to an Existing Page

@@ -1,4 +1,5 @@
 ---
+uid: ts-error-argumentnullexception-after-move-upgrade
 topic: ts-error-argumentnullexception-after-move-upgrade
 locale: en
 title: Error: ArgumentNullException After a Move or an Upgrade

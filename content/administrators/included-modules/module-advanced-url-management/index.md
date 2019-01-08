@@ -1,4 +1,5 @@
 ---
+uid: module-advanced-url-management
 topic: module-advanced-url-management
 locale: en
 title: Module: Advanced URL Management

@@ -1,4 +1,5 @@
 ---
+uid: add-role-to-new-group
 topic: add-role-to-new-group
 locale: en
 title: Add a Role to a New Group

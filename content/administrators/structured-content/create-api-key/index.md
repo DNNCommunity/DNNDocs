@@ -1,4 +1,5 @@
 ---
+uid: create-api-key
 topic: create-api-key
 locale: en
 title: Create an API Key

@@ -1,4 +1,5 @@
 ---
+uid: manage-user-password
 topic: manage-user-password
 locale: en
 title: Manage a User Password

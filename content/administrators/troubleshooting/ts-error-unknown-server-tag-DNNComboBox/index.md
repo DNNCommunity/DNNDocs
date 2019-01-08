@@ -1,4 +1,5 @@
 ---
+uid: ts-error-unknown-server-tag-DNNComboBox
 topic: ts-error-unknown-server-tag-DNNComboBox
 locale: en
 title: Error: Unknown Server Tag - DNNComboBox

@@ -1,4 +1,6 @@
 ---
+
+uid: config-module-social-sharing
 topic: config-module-social-sharing
 locale: en
 title: Configure the Social Sharing Module

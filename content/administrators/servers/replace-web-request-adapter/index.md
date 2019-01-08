@@ -1,4 +1,5 @@
 ---
+uid: replace-web-request-adapter
 topic: replace-web-request-adapter
 locale: en
 title: Replace the Web Request Adapter

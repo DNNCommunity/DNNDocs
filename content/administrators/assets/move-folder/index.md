@@ -1,4 +1,5 @@
 ---
+uid: move-folder
 topic: move-folder
 locale: en
 title: Move a Folder to Another Location

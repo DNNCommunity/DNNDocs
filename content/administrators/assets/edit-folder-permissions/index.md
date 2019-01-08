@@ -1,4 +1,5 @@
 ---
+uid: edit-folder-permissions
 topic: edit-folder-permissions
 locale: en
 title: Edit Permissions to a Folder

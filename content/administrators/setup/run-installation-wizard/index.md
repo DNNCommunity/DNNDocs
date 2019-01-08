@@ -1,4 +1,5 @@
 ---
+uid: run-installation-wizard
 topic: run-installation-wizard
 locale: en
 title: Run the DNN Installation Wizard

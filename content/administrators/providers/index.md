@@ -1,4 +1,5 @@
 ---
+uid: providers
 topic: providers
 locale: en
 title: Providers Reference

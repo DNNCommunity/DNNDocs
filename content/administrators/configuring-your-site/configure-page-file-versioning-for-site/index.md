@@ -1,4 +1,5 @@
 ---
+uid: configure-page-file-versioning-for-site
 topic: configure-page-file-versioning-for-site
 locale: en
 title: Configure Page/File Versioning for a Site

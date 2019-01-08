@@ -1,4 +1,5 @@
 ---
+uid: config-module-related-content
 topic: config-module-related-content
 locale: en
 title: Configure the Related Content Module

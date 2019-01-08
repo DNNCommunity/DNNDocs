@@ -1,4 +1,5 @@
 ---
+uid: delete-term-from-vocabulary
 topic: delete-term-from-vocabulary
 locale: en
 title: Delete a Term from a Vocabulary

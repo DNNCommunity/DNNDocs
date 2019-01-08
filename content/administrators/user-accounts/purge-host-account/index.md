@@ -1,4 +1,5 @@
 ---
+uid: purge-host-account
 topic: purge-host-account
 locale: en
 title: Purge a Deleted Host Account

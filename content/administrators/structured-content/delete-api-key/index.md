@@ -1,4 +1,5 @@
 ---
+uid: delete-api-key
 topic: delete-api-key
 locale: en
 title: Delete the API Key

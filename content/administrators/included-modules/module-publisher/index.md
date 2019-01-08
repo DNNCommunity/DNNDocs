@@ -1,4 +1,5 @@
 ---
+uid: module-publisher
 topic: module-publisher
 locale: en
 title: Module: Publisher

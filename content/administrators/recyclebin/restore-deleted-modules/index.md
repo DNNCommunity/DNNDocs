@@ -1,4 +1,5 @@
 ---
+uid: restore-deleted-modules
 topic: restore-deleted-modules
 locale: en
 title: Restore Deleted Modules

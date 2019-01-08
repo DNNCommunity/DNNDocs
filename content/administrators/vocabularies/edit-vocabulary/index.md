@@ -1,4 +1,5 @@
 ---
+uid: edit-vocabulary
 topic: edit-vocabulary
 locale: en
 title: Edit a Vocabulary

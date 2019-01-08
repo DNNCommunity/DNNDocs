@@ -1,4 +1,5 @@
 ---
+uid: delete-user
 topic: delete-user
 locale: en
 title: Delete a User Account

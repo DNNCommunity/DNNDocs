@@ -1,4 +1,5 @@
 ---
+uid: ts-site-theme-not-loading
 topic: ts-site-theme-not-loading
 locale: en
 title: Troubleshooting: Site Theme Does Not Load

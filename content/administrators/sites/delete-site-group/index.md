@@ -1,4 +1,5 @@
 ---
+uid: delete-site-group
 topic: delete-site-group
 locale: en
 title: Delete Site Group

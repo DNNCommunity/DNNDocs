@@ -1,4 +1,5 @@
 ---
+uid: edit-logged-event-type
 topic: edit-logged-event-type
 locale: en
 title: Edit a Logged Event Type

@@ -1,4 +1,5 @@
 ---
+uid: delete-role
 topic: delete-role
 locale: en
 title: Delete a Role

@@ -1,4 +1,5 @@
 ---
+uid: configure-workflow-state-pb-all
 topic: configure-workflow-state-pb-all
 locale: en
 title: Configure a Workflow State

@@ -1,4 +1,5 @@
 ---
+uid: remove-users-from-role
 topic: remove-users-from-role
 locale: en
 title: Remove Users from a Role

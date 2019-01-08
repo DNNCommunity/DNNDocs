@@ -1,4 +1,5 @@
 ---
+uid: view-hidden-page-pb-all
 topic: view-hidden-page-pb-all
 locale: en
 title: View a Hidden Page via the Persona Bar

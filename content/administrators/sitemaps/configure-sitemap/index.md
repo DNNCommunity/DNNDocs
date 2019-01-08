@@ -1,4 +1,5 @@
 ---
+uid: configure-sitemap
 topic: configure-sitemap
 locale: en
 title: Configure Your Sitemap

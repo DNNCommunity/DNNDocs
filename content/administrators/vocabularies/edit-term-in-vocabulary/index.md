@@ -1,4 +1,5 @@
 ---
+uid: edit-term-in-vocabulary
 topic: edit-term-in-vocabulary
 locale: en
 title: Edit a Term in a Vocabulary

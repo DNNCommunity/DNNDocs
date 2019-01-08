@@ -1,4 +1,5 @@
 ---
+uid: restore-deleted-user-account
 topic: restore-deleted-user-account
 locale: en
 title: Restore a Deleted User Account

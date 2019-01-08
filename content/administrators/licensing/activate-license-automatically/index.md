@@ -1,4 +1,5 @@
 ---
+uid: activate-license-automatically
 topic: activate-license-automatically
 locale: en
 title: Activate Your License Automatically

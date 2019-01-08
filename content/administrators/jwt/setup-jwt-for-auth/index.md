@@ -1,4 +1,5 @@
 ---
+uid: setup-jwt-for-auth
 topic: setup-jwt-for-auth
 locale: en
 title: Set Up JWT Authentication for Your Site

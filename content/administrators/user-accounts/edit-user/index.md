@@ -1,4 +1,5 @@
 ---
+uid: edit-user
 topic: edit-user
 locale: en
 title: Edit a User Account

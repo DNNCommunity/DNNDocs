@@ -1,4 +1,5 @@
 ---
+uid: edit-group-of-synonyms
 topic: edit-group-of-synonyms
 locale: en
 title: Edit a Group of Synonyms

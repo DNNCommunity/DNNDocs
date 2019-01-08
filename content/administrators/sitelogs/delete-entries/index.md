@@ -1,4 +1,5 @@
 ---
+uid: delete-entries
 topic: delete-entries
 locale: en
 title: Delete Log Entries

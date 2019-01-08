@@ -1,4 +1,5 @@
 ---
+uid: config-module-wiki
 topic: config-module-wiki
 locale: en
 title: Configure the Wiki Module

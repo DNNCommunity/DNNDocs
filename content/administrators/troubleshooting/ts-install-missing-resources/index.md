@@ -1,4 +1,5 @@
 ---
+uid: ts-install-missing-resources
 topic: ts-install-missing-resources
 locale: en
 title: Troubleshooting: Missing Resources After An Upgrade

@@ -1,4 +1,5 @@
 ---
+uid: delete-file-extension-from-included-or-excluded-list
 topic: delete-file-extension-from-included-or-excluded-list
 locale: en
 title: Delete a File Extension from Included or Excluded List for Crawling

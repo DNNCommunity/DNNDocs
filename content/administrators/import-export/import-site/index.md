@@ -1,4 +1,5 @@
 ---
+uid: import-site
 topic: import-site
 locale: en
 title: Import a Site

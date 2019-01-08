@@ -1,4 +1,5 @@
 ---
+uid: relnotes-2015-may-26
 topic: relnotes-2015-may-26
 locale: en
 title: DNN Release Notes — 2015 May 26

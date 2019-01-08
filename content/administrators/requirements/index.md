@@ -1,4 +1,5 @@
 ---
+uid: requirements
 topic: requirements
 locale: en
 title: DNN Requirements

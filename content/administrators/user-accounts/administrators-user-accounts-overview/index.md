@@ -1,4 +1,5 @@
 ---
+uid: administrators-user-accounts-overview
 topic: administrators-user-accounts-overview
 locale: en
 title: About User Accounts

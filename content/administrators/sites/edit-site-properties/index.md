@@ -1,4 +1,5 @@
 ---
+uid: edit-site-properties
 topic: edit-site-properties
 locale: en
 title: Edit a Site's Properties

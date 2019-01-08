@@ -1,4 +1,5 @@
 ---
+uid: restore-file-version
 topic: restore-file-version
 locale: en
 title: Restore a File Version

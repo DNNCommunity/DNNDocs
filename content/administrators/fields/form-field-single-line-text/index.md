@@ -1,4 +1,5 @@
 ---
+uid: form-field-single-line-text
 topic: form-field-single-line-text
 locale: en
 title: Form Field: Single-Line Text

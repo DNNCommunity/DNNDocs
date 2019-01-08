@@ -1,4 +1,5 @@
 ---
+uid: licensing
 topic: licensing
 locale: en
 title: DNN Evoq Licensing

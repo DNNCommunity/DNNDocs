@@ -1,4 +1,5 @@
 ---
+uid: administrators-security-overview
 topic: administrators-security-overview
 locale: en
 title: Security

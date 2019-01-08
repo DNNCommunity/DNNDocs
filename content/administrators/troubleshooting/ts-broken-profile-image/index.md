@@ -1,4 +1,5 @@
 ---
+uid: ts-broken-profile-image
 topic: ts-broken-profile-image
 locale: en
 title: Troubleshooting: Profile Image Not Shown

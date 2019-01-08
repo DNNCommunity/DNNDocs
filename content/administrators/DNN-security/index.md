@@ -1,4 +1,5 @@
 ---
+uid: DNN-security
 topic: DNN-security
 locale: en
 title: DNN Security

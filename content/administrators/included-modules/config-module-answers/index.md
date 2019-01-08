@@ -1,4 +1,5 @@
 ---
+uid: config-module-answers
 topic: config-module-answers
 locale: en
 title: Configure the Answers Module

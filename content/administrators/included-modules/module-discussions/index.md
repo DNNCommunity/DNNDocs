@@ -1,4 +1,5 @@
 ---
+uid: module-discussions
 topic: module-discussions
 locale: en
 title: Module: Discussions

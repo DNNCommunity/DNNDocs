@@ -1,4 +1,5 @@
 ---
+uid: set-up-dnn-folder
 topic: set-up-dnn-folder
 locale: en
 title: Set Up the DNN Folder and the User Account

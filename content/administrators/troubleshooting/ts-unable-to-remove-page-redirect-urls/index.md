@@ -1,4 +1,5 @@
 ---
+uid: ts-unable-to-remove-page-redirect-urls
 topic: ts-unable-to-remove-page-redirect-urls
 locale: en
 title: Troubleshooting: Unable to Remove Page Redirect URLs

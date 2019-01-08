@@ -1,4 +1,5 @@
 ---
+uid: dnn-license
 topic: dnn-license
 locale: en
 title: DNN Corp. Software License and Service Agreement

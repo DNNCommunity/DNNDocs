@@ -1,4 +1,5 @@
 ---
+uid: administrators-assets-overview
 topic: administrators-assets-overview
 locale: en
 title: About Assets

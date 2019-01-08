@@ -1,4 +1,5 @@
 ---
+uid: module-my-status
 topic: module-my-status
 locale: en
 title: Module: My Status

@@ -1,4 +1,5 @@
 ---
+uid: view-file-versions
 topic: view-file-versions
 locale: en
 title: View the Latest Versions of a File

@@ -1,4 +1,5 @@
 ---
+uid: compress-indexes
 topic: compress-indexes
 locale: en
 title: Compress the Indexes

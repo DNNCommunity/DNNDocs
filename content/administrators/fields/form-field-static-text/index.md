@@ -1,4 +1,5 @@
 ---
+uid: form-field-static-text
 topic: form-field-static-text
 locale: en
 title: Form Field: Static Text

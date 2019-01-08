@@ -1,4 +1,5 @@
 ---
+uid: config-module-journal
 topic: config-module-journal
 locale: en
 title: Configure the Journal Module

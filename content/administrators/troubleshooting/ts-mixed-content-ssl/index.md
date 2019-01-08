@@ -1,4 +1,5 @@
 ---
+uid: ts-mixed-content-ssl
 topic: ts-mixed-content-ssl
 locale: en
 title: Troubleshooting: Mixed-Content Warnings When Using SSL Offloading

@@ -1,4 +1,5 @@
 ---
+uid: add-file-extension-to-included-or-excluded-list
 topic: add-file-extension-to-included-or-excluded-list
 locale: en
 title: Add a File Extension to Included or Excluded List for Crawling

@@ -1,4 +1,5 @@
 ---
+uid: add-group-of-synonyms
 topic: add-group-of-synonyms
 locale: en
 title: Add a Group of Synonyms

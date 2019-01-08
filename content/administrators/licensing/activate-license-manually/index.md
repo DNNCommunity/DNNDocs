@@ -1,4 +1,5 @@
 ---
+uid: activate-license-manually
 topic: activate-license-manually
 locale: en
 title: Activate Your License Manually

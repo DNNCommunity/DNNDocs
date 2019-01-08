@@ -1,4 +1,5 @@
 ---
+uid: set-up-iis
 topic: set-up-iis
 locale: en
 title: Enable and Set Up IIS

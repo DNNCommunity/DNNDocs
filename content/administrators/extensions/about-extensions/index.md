@@ -1,4 +1,6 @@
 ---
+
+uid: about-extensions
 topic: about-extensions
 locale: en
 title: About Extensions

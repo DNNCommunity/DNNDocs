@@ -1,4 +1,6 @@
 ---
+
+uid: allow-module-use
 topic: allow-module-use
 locale: en
 title: Allow a Module to Be Used

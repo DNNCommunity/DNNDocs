@@ -1,4 +1,5 @@
 ---
+uid: config-module-user-badges
 topic: config-module-user-badges
 locale: en
 title: Configure the User Badges Module

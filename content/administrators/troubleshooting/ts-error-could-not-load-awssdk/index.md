@@ -1,4 +1,5 @@
 ---
+uid: ts-error-could-not-load-awssdk
 topic: ts-error-could-not-load-awssdk
 locale: en
 title: Error: Could not load file or assembly 'AWSSDK' or one of its dependencies

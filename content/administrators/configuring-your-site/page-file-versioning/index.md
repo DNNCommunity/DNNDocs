@@ -1,4 +1,5 @@
 ---
+uid: page-file-versioning
 topic: page-file-versioning
 locale: en
 title: Page/File Versioning

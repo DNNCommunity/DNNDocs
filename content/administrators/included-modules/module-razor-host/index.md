@@ -1,4 +1,5 @@
 ---
+uid: module-razor-host
 topic: module-razor-host
 locale: en
 title: Module: Razor Host

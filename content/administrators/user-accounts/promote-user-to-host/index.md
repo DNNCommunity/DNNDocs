@@ -1,4 +1,5 @@
 ---
+uid: promote-user-to-host
 topic: promote-user-to-host
 locale: en
 title: Promote a User to Host

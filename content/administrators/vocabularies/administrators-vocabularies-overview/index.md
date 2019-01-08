@@ -1,4 +1,5 @@
 ---
+uid: administrators-vocabularies-overview
 topic: administrators-vocabularies-overview
 locale: en
 title: About Vocabularies

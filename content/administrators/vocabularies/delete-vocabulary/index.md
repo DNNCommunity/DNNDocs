@@ -1,4 +1,5 @@
 ---
+uid: delete-vocabulary
 topic: delete-vocabulary
 locale: en
 title: Delete a Vocabulary

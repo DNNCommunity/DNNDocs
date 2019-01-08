@@ -1,4 +1,5 @@
 ---
+uid: about-hidden-fields
 topic: about-hidden-fields
 locale: en
 title: About Hidden Fields in Forms

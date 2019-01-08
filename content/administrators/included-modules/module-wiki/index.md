@@ -1,4 +1,5 @@
 ---
+uid: module-wiki
 topic: module-wiki
 locale: en
 title: Module: Wiki

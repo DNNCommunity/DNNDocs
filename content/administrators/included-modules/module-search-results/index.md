@@ -1,4 +1,5 @@
 ---
+uid: module-search-results
 topic: module-search-results
 locale: en
 title: Module: Search Results

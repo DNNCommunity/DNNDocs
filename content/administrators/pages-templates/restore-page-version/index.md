@@ -1,4 +1,5 @@
 ---
+uid: restore-page-version
 topic: restore-page-version
 locale: en
 title: Restore a Page Version

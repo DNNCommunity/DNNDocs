@@ -1,4 +1,5 @@
 ---
+uid: module-message-center
 topic: module-message-center
 locale: en
 title: Module: Message Center

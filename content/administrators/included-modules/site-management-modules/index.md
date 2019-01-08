@@ -1,4 +1,5 @@
 ---
+uid: site-management-modules
 topic: site-management-modules
 locale: en
 title: Site Management Modules

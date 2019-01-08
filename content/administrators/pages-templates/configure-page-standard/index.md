@@ -1,4 +1,5 @@
 ---
+uid: configure-page-standard
 topic: configure-page-standard
 locale: en
 title: Configure a Standard Page

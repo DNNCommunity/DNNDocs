@@ -1,4 +1,5 @@
 ---
+uid: jwt-server-response
 topic: jwt-server-response
 locale: en
 title: Server Response with JWT

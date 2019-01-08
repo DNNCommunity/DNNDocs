@@ -1,4 +1,5 @@
 ---
+uid: module-journal
 topic: module-journal
 locale: en
 title: Module: Journal

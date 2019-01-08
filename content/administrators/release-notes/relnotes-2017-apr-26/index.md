@@ -1,4 +1,5 @@
 ---
+uid: relnotes-2017-apr-26
 topic: relnotes-2017-apr-26
 locale: en
 title: DNN Release Notes — 2017 Apr 26

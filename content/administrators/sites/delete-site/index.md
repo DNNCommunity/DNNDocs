@@ -1,4 +1,6 @@
 ---
+
+uid: delete-site
 topic: delete-site
 locale: en
 title: Delete a Site

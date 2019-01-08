@@ -1,4 +1,5 @@
 ---
+uid: module-activity-stream
 topic: module-activity-stream
 locale: en
 title: Module: Activity Stream

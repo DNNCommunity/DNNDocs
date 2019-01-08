@@ -1,4 +1,5 @@
 ---
+uid: about-assets
 topic: about-assets
 locale: en
 title: About Assets

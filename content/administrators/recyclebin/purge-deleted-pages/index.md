@@ -1,4 +1,5 @@
 ---
+uid: purge-deleted-pages
 topic: purge-deleted-pages
 locale: en
 title: Purge Deleted Pages

@@ -1,4 +1,5 @@
 ---
+uid: delete-group-of-synonyms
 topic: delete-group-of-synonyms
 locale: en
 title: Delete a Group of Synonyms

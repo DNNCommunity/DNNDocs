@@ -1,4 +1,5 @@
 ---
+uid: content-field-multi-line-text
 topic: content-field-multi-line-text
 locale: en
 title: Content Field: Multi-Line Text

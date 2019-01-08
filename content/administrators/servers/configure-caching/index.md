@@ -1,4 +1,5 @@
 ---
+uid: configure-caching
 topic: configure-caching
 locale: en
 title: Configure Caching

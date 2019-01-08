@@ -1,4 +1,5 @@
 ---
+uid: create-template-based-on-page-pb-all
 topic: create-template-based-on-page-pb-all
 locale: en
 title: Create a Template Based on an Page via the Persona Bar

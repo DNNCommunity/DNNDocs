@@ -1,4 +1,5 @@
 ---
+uid: ts-how-to-increase-max-upload-file-size
 topic: ts-how-to-increase-max-upload-file-size
 locale: en
 title: How to: Increase the Maximum File Size for Upload

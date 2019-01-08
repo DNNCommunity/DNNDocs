@@ -1,4 +1,5 @@
 ---
+uid: view-server-logs
 topic: view-server-logs
 locale: en
 title: View Server Logs

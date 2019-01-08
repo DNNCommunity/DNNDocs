@@ -1,4 +1,5 @@
 ---
+uid: configure-notices
 topic: configure-notices
 locale: en
 title: Configure Notices About a Logged Event

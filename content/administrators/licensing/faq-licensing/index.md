@@ -1,4 +1,5 @@
 ---
+uid: faq-licensing
 topic: faq-licensing
 locale: en
 title: FAQ: Licensing

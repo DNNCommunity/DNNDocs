@@ -1,4 +1,5 @@
 ---
+uid: config-module-social-groups
 topic: config-module-social-groups
 locale: en
 title: Configure the Social Groups Module

@@ -1,4 +1,5 @@
 ---
+uid: delete-host
 topic: delete-host
 locale: en
 title: Delete a Host Account

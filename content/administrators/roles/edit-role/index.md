@@ -1,4 +1,5 @@
 ---
+uid: edit-role
 topic: edit-role
 locale: en
 title: Edit a Role

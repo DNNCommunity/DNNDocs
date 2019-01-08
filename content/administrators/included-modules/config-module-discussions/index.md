@@ -1,4 +1,5 @@
 ---
+uid: config-module-discussions
 topic: config-module-discussions
 locale: en
 title: Configure the Discussions Module

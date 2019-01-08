@@ -1,4 +1,5 @@
 ---
+uid: delete-directory-from-excluded-list
 topic: delete-directory-from-excluded-list
 locale: en
 title: Delete a Directory from Excluded List for Crawling

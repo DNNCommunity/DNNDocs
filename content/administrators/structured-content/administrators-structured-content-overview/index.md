@@ -1,4 +1,5 @@
 ---
+uid: administrators-structured-content-overview
 topic: administrators-structured-content-overview
 locale: en
 title: About Liquid Content™ (Structured Content)

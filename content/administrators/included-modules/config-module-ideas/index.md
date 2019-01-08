@@ -1,4 +1,5 @@
 ---
+uid: config-module-ideas
 topic: config-module-ideas
 locale: en
 title: Configure the Ideas Module

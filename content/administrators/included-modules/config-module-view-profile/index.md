@@ -1,4 +1,5 @@
 ---
+uid: config-module-view-profile
 topic: config-module-view-profile
 locale: en
 title: Configure the View Profile Module

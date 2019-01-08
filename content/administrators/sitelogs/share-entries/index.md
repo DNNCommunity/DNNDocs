@@ -1,4 +1,5 @@
 ---
+uid: share-entries
 topic: share-entries
 locale: en
 title: Share Log Entries by Email

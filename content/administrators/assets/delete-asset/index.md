@@ -1,4 +1,5 @@
 ---
+uid: delete-asset
 topic: delete-asset
 locale: en
 title: Delete an Asset

@@ -1,4 +1,5 @@
 ---
+uid: empty-recycle-bin
 topic: empty-recycle-bin
 locale: en
 title: Empty the Recycle Bin

@@ -1,4 +1,5 @@
 ---
+uid: manage-host-password
 topic: manage-host-password
 locale: en
 title: Manage a Host's Password

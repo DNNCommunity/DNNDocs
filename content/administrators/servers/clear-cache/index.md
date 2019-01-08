@@ -1,4 +1,5 @@
 ---
+uid: clear-cache
 topic: clear-cache
 locale: en
 title: Clear Cache

@@ -1,4 +1,5 @@
 ---
+uid: administrators-roles-overview
 topic: administrators-roles-overview
 locale: en
 title: About Role-Based Access

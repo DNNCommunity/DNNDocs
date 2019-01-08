@@ -1,4 +1,5 @@
 ---
+uid: view-users-assigned-to-role
 topic: view-users-assigned-to-role
 locale: en
 title: View the List of Users Assigned to a Role

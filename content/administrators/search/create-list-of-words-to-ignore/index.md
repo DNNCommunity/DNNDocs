@@ -1,4 +1,5 @@
 ---
+uid: create-list-of-words-to-ignore
 topic: create-list-of-words-to-ignore
 locale: en
 title: Create List of Words to Ignore

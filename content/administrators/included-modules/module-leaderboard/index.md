@@ -1,4 +1,5 @@
 ---
+uid: module-leaderboard
 topic: module-leaderboard
 locale: en
 title: Module: Leaderboard

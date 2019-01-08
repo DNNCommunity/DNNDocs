@@ -1,4 +1,6 @@
 ---
+
+uid: administrators-sites-overview
 topic: administrators-sites-overview
 locale: en
 title: About Sites and Site Groups

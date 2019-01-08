@@ -1,4 +1,5 @@
 ---
+uid: content-field-multiple-choice
 topic: content-field-multiple-choice
 locale: en
 title: Content Field: Multiple Choice

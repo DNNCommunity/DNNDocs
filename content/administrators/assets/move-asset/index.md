@@ -1,4 +1,5 @@
 ---
+uid: move-asset
 topic: move-asset
 locale: en
 title: Move an Asset to Another Folder

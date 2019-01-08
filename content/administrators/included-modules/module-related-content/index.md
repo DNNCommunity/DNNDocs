@@ -1,4 +1,5 @@
 ---
+uid: module-related-content
 topic: module-related-content
 locale: en
 title: Module: Related Content

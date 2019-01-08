@@ -1,4 +1,5 @@
 ---
+uid: restart-application
 topic: restart-application
 locale: en
 title: Restart the Application

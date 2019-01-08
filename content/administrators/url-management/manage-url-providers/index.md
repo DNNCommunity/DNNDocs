@@ -1,4 +1,5 @@
 ---
+uid: manage-url-providers
 topic: manage-url-providers
 locale: en
 title: Manage URL Providers

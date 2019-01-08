@@ -1,4 +1,5 @@
 ---
+uid: reindex-content
 topic: reindex-content
 locale: en
 title: Reindex the Content

@@ -1,4 +1,5 @@
 ---
+uid: content-field-assets
 topic: content-field-assets
 locale: en
 title: Content Field: Assets

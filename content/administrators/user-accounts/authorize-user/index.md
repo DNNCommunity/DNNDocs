@@ -1,4 +1,5 @@
 ---
+uid: authorize-user
 topic: authorize-user
 locale: en
 title: Authorize a User Account

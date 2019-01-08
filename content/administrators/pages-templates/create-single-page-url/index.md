@@ -1,4 +1,5 @@
 ---
+uid: create-single-page-url
 topic: create-single-page-url
 locale: en
 title: Create a Navigation Link to an External URL

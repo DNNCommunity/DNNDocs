@@ -1,4 +1,5 @@
 ---
+uid: configure-folder-file-versioning
 topic: configure-folder-file-versioning
 locale: en
 title: Configure Folder/File Versioning

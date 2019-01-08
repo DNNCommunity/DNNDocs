@@ -1,4 +1,5 @@
 ---
+uid: configure-page-file
 topic: configure-page-file
 locale: en
 title: Configure a Navigation Link to an Asset (File)

@@ -1,4 +1,5 @@
 ---
+uid: about-role-based-access
 topic: about-role-based-access
 locale: en
 title: About Role-Based Access

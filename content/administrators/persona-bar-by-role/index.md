@@ -1,4 +1,5 @@
 ---
+uid: persona-bar-by-role
 topic: persona-bar-by-role
 locale: en
 title: Persona Bar by Role

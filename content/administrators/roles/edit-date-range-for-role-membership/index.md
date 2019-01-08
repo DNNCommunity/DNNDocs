@@ -1,4 +1,5 @@
 ---
+uid: edit-date-range-for-role-membership
 topic: edit-date-range-for-role-membership
 locale: en
 title: Edit the Date Range for a Role Membership

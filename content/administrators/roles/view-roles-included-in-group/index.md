@@ -1,4 +1,5 @@
 ---
+uid: view-roles-included-in-group
 topic: view-roles-included-in-group
 locale: en
 title: View the List of Roles Included in a Group

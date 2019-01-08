@@ -1,4 +1,5 @@
 ---
+uid: create-host-account
 topic: create-host-account
 locale: en
 title: Create a Host Account

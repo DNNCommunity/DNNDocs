@@ -1,4 +1,5 @@
 ---
+uid: create-role
 topic: create-role
 locale: en
 title: Create a Role

@@ -1,4 +1,5 @@
 ---
+uid: update-site-info
 topic: update-site-info
 locale: en
 title: Update Your Site's Info

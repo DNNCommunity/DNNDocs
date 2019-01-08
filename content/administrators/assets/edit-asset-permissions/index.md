@@ -1,4 +1,5 @@
 ---
+uid: edit-asset-permissions
 topic: edit-asset-permissions
 locale: en
 title: Edit Permissions to an Asset

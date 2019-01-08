@@ -1,4 +1,5 @@
 ---
+uid: delete-all-unauthorized-users
 topic: delete-all-unauthorized-users
 locale: en
 title: Delete All Unauthorized Users

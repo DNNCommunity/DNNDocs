@@ -1,4 +1,5 @@
 ---
+uid: view-page-versions
 topic: view-page-versions
 locale: en
 title: View the Latest Versions of a Page

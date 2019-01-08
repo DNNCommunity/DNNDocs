@@ -1,4 +1,5 @@
 ---
+uid: content-field-number
 topic: content-field-number
 locale: en
 title: Content Field: Number

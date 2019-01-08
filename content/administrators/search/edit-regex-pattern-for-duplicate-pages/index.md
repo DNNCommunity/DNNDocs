@@ -1,4 +1,5 @@
 ---
+uid: edit-regex-pattern-for-duplicate-pages
 topic: edit-regex-pattern-for-duplicate-pages
 locale: en
 title: Edit Regex Pattern for Duplicate Pages

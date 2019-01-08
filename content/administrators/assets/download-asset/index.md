@@ -1,4 +1,5 @@
 ---
+uid: download-asset
 topic: download-asset
 locale: en
 title: Download an Asset

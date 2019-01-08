@@ -1,4 +1,5 @@
 ---
+uid: configure-user-profile-visibility
 topic: configure-user-profile-visibility
 locale: en
 title: Configure the Visibility of User Profiles

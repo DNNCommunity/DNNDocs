@@ -1,4 +1,5 @@
 ---
+uid: included-modules
 topic: included-modules
 locale: en
 title: Included Modules

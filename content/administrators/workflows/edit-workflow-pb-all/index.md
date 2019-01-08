@@ -1,4 +1,5 @@
 ---
+uid: edit-workflow-pb-all
 topic: edit-workflow-pb-all
 locale: en
 title: Edit a Workflow

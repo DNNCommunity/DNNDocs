@@ -1,4 +1,5 @@
 ---
+uid: ts-error-sql-timeout
 topic: ts-error-sql-timeout
 locale: en
 title: Error: SQL Timeout

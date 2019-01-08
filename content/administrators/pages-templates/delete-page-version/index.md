@@ -1,4 +1,5 @@
 ---
+uid: delete-page-version
 topic: delete-page-version
 locale: en
 title: Delete a Page Version

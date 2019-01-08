@@ -1,4 +1,5 @@
 ---
+uid: edit-list-of-words-to-ignore
 topic: edit-list-of-words-to-ignore
 locale: en
 title: Edit List of Words to Ignore

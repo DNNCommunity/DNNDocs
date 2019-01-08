@@ -1,4 +1,5 @@
 ---
+uid: module-ideas
 topic: module-ideas
 locale: en
 title: Module: Ideas

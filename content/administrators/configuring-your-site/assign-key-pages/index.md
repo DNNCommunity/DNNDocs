@@ -1,4 +1,5 @@
 ---
+uid: assign-key-pages
 topic: assign-key-pages
 locale: en
 title: Assign Key Pages

@@ -1,4 +1,5 @@
 ---
+uid: module-latest-challenges
 topic: module-latest-challenges
 locale: en
 title: Module: Latest Challenges

@@ -1,4 +1,5 @@
 ---
+uid: edit-visualizer
 topic: edit-visualizer
 locale: en
 title: Edit a Visualizer

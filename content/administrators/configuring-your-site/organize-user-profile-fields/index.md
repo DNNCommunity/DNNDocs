@@ -1,4 +1,5 @@
 ---
+uid: organize-user-profile-fields
 topic: organize-user-profile-fields
 locale: en
 title: Organize User Profile Fields

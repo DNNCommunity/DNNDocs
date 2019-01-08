@@ -1,4 +1,5 @@
 ---
+uid: visualizer-templates
 topic: visualizer-templates
 locale: en
 title: Visualizer Templates

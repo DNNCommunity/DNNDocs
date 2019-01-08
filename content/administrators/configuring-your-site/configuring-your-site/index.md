@@ -1,4 +1,5 @@
 ---
+uid: configuring-your-site
 topic: configuring-your-site
 locale: en
 title: Configuring Your Site

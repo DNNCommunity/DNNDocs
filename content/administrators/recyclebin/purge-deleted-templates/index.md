@@ -1,4 +1,5 @@
 ---
+uid: purge-deleted-templates
 topic: purge-deleted-templates
 locale: en
 title: Purge Deleted Templates

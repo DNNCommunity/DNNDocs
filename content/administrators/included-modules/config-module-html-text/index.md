@@ -1,4 +1,5 @@
 ---
+uid: config-module-html-text
 topic: config-module-html-text
 locale: en
 title: Configure the HTML / HTML Pro (Text) Module

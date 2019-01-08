@@ -1,4 +1,5 @@
 ---
+uid: view-entry-details
 topic: view-entry-details
 locale: en
 title: View Log Entry Details

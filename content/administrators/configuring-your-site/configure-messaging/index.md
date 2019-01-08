@@ -1,4 +1,5 @@
 ---
+uid: configure-messaging
 topic: configure-messaging
 locale: en
 title: Configure Messaging for Your Site

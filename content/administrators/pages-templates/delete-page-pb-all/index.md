@@ -1,4 +1,5 @@
 ---
+uid: delete-page-pb-all
 topic: delete-page-pb-all
 locale: en
 title: Delete a Page via the Persona Bar
