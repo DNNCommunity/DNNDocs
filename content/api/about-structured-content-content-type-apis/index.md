@@ -1,4 +1,5 @@
 ---
+uid: about-structured-content-content-type-apis
 topic: about-structured-content-content-type-apis
 locale: en
 title: About Liquid Content™ Content Type APIs

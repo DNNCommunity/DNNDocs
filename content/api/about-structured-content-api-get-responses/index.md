@@ -1,4 +1,5 @@
 ---
+uid: about-structured-content-api-get-responses
 topic: about-structured-content-api-get-responses
 locale: en
 title: About Liquid Content™ API Responses to GET Requests

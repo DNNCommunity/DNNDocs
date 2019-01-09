@@ -1,4 +1,5 @@
 ---
+uid: api-contentitems-id-get
 topic: api-contentitems-id-get
 locale: en
 title: GET Content Items with ID

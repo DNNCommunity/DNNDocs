@@ -1,4 +1,5 @@
 ---
+uid: about-structured-content-published-content-item-apis
 topic: about-structured-content-published-content-item-apis
 locale: en
 title: About Liquid Content™ Published Content Item APIs

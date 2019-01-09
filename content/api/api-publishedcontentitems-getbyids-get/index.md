@@ -1,4 +1,5 @@
 ---
+uid: api-publishedcontentitems-getbyids-get
 topic: api-publishedcontentitems-getbyids-get
 locale: en
 title: GET Published Content Items with ID Array

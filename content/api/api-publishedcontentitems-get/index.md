@@ -1,4 +1,5 @@
 ---
+uid: api-publishedcontentitems-get
 topic: api-publishedcontentitems-get
 locale: en
 title: GET Published Content Items

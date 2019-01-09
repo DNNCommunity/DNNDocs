@@ -1,4 +1,5 @@
 ---
+uid: api-contenttypes-id-get
 topic: api-contenttypes-id-get
 locale: en
 title: GET Content Types with ID

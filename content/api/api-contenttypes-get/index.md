@@ -1,4 +1,5 @@
 ---
+uid: api-contenttypes-get
 topic: api-contenttypes-get
 locale: en
 title: GET Content Types

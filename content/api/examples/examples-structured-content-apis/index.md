@@ -1,4 +1,5 @@
 ---
+uid: examples-structured-content-apis
 topic: examples-structured-content-apis
 locale: en
 title: Examples: Liquid Content APIs

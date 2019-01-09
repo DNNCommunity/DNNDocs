@@ -1,4 +1,5 @@
 ---
+uid: about-structured-content-api-post-put-type-fields
 topic: about-structured-content-api-post-put-type-fields
 locale: en
 title: About Liquid Content™ Content Type Fields for POST and PUT APIs

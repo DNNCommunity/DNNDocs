@@ -1,4 +1,5 @@
 ---
+uid: install-extension
 topic: install-extension
 locale: en
 title: Install an Extension

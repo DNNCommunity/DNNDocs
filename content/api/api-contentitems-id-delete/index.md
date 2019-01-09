@@ -1,4 +1,5 @@
 ---
+uid: api-contentitems-id-delete
 topic: api-contentitems-id-delete
 locale: en
 title: DELETE Content Items with ID
