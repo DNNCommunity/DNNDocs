@@ -1,4 +1,5 @@
 ---
+uid: mvc-module-mvccontroller
 topic: mvc-module-mvccontroller
 locale: en
 title: MVC Controller

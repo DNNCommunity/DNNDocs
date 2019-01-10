@@ -1,4 +1,5 @@
 ---
+uid: content-managers-share-in-social-media
 topic: share-in-social-media
 locale: en
 title: Share a Content Item in Social Media

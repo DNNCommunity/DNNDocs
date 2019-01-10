@@ -1,4 +1,5 @@
 ---
+uid: about-evs
 topic: about-evs
 locale: en
 title: About the Extension Verification Service

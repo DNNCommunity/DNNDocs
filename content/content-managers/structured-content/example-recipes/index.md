@@ -1,4 +1,5 @@
 ---
+uid: content-managers-example-recipes
 topic: example-recipes
 locale: en
 title: Example: Recipes as Structured Content

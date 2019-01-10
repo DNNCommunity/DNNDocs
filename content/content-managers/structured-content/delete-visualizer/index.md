@@ -1,4 +1,5 @@
 ---
+uid: content-managers-delete-visualizer
 topic: delete-visualizer
 locale: en
 title: Delete a Visualizer

@@ -1,4 +1,5 @@
 ---
+uid: content-managers-export-visualizer
 topic: export-visualizer
 locale: en
 title: Export a Visualizer

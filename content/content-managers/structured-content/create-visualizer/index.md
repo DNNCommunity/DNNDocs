@@ -1,4 +1,5 @@
 ---
+uid: content-managers-create-visualizer
 topic: create-visualizer
 locale: en
 title: Create a Visualizer

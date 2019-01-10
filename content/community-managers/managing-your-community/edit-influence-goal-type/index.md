@@ -1,4 +1,5 @@
 ---
+uid: edit-influence-goal-type
 topic: edit-influence-goal-type
 locale: en
 title: Edit Influence Goal Type

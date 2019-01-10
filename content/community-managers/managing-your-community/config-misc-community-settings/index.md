@@ -1,4 +1,5 @@
 ---
+uid: config-misc-community-settings
 topic: config-misc-community-settings
 locale: en
 title: Configure Other Community Settings

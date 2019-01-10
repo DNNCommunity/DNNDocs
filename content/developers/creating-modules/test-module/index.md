@@ -1,4 +1,5 @@
 ---
+uid: test-module
 topic: test-module
 locale: en
 title: Test Your Module

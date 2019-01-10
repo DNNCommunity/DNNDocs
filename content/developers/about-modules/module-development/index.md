@@ -1,4 +1,5 @@
 ---
+uid: module-development
 topic: module-development
 locale: en
 title: About Module Development

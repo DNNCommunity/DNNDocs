@@ -1,4 +1,5 @@
 ---
+uid: delete-badge
 topic: delete-badge
 locale: en
 title: Delete Badge

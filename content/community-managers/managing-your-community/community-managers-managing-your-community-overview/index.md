@@ -1,4 +1,5 @@
 ---
+uid: community-managers-managing-your-community-overview
 topic: community-managers-managing-your-community-overview
 locale: en
 title: Managing Your Community

@@ -1,4 +1,5 @@
 ---
+uid: theme-objects
 topic: theme-objects
 locale: en
 title: Theme Objects

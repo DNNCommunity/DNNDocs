@@ -1,4 +1,5 @@
 ---
+uid: spa-module-development
 topic: spa-module-development
 locale: en
 title: SPA Module Development

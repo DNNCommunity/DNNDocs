@@ -1,4 +1,5 @@
 ---
+uid: create-layout-template
 topic: create-layout-template
 locale: en
 title: Create a Layout Template

@@ -1,4 +1,5 @@
 ---
+uid: module-architecture
 topic: module-architecture
 locale: en
 title: Module Architecture

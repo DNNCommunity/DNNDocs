@@ -1,4 +1,5 @@
 ---
+uid: start-vs-project-with-templates
 topic: start-vs-project-with-templates
 locale: en
 title: Start a Visual Studio Project with Templates

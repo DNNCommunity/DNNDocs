@@ -1,4 +1,5 @@
 ---
+uid: use-module-creator
 topic: use-module-creator
 locale: en
 title: Use the Module Creator

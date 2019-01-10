@@ -1,4 +1,5 @@
 ---
+uid: developers-extensions-overview
 topic: developers-extensions-overview
 locale: en
 title: Creating a Module

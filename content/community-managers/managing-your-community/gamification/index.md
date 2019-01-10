@@ -1,4 +1,5 @@
 ---
+uid: gamification
 topic: gamification
 locale: en
 title: Gamification

@@ -1,4 +1,5 @@
 ---
+uid: module-features
 topic: module-features
 locale: en
 title: Common Module Features

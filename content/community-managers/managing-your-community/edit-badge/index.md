@@ -1,4 +1,5 @@
 ---
+uid: edit-badge
 topic: edit-badge
 locale: en
 title: Edit Badge

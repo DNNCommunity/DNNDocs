@@ -1,4 +1,5 @@
 ---
+uid: content-managers-create-content-type
 topic: create-content-type
 locale: en
 title: Create a Content Type

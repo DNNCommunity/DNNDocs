@@ -1,4 +1,5 @@
 ---
+uid: developer-references
 topic: developer-references
 locale: en
 title: Developer References

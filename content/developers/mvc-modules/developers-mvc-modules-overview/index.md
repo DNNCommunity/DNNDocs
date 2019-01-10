@@ -1,4 +1,5 @@
 ---
+uid: developers-mvc-modules-overview
 topic: developers-mvc-modules-overview
 locale: en
 title: MVC Module Project Overview

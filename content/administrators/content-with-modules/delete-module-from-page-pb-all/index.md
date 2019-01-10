@@ -1,5 +1,4 @@
 ---
-uid: delete-module-from-page-pb-all
 topic: delete-module-from-page-pb-all
 locale: en
 title: Delete a Module from a Page via the Persona Bar

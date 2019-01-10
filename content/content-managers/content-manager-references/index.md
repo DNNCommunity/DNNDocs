@@ -1,4 +1,5 @@
 ---
+uid: content-manager-references
 topic: content-manager-references
 locale: en
 title: Content Manager References

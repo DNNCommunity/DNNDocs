@@ -1,4 +1,5 @@
 ---
+uid: dnn-manifest-schema
 topic: dnn-manifest-schema
 locale: en
 title: The DNN Manifest Schema

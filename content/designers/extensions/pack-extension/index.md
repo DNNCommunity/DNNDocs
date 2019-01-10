@@ -1,4 +1,5 @@
 ---
+uid: pack-extension
 topic: pack-extension
 locale: en
 title: Pack Your Extension

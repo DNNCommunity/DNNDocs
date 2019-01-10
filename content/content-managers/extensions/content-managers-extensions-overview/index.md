@@ -1,4 +1,5 @@
 ---
+uid: content-managers-extensions-overview
 topic: content-managers-extensions-overview
 locale: en
 title: About Extensions

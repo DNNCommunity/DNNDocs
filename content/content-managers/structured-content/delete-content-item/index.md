@@ -1,4 +1,5 @@
 ---
+uid: content-managers-delete-content-item
 topic: delete-content-item
 locale: en
 title: Delete a Content Item

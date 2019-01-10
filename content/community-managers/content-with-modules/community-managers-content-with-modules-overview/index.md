@@ -1,4 +1,5 @@
 ---
+uid: community-managers-content-with-modules-overview
 topic: community-managers-content-with-modules-overview
 locale: en
 title: Creating Content with Modules

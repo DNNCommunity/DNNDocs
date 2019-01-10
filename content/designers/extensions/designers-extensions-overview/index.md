@@ -1,4 +1,5 @@
 ---
+uid: designers-extensions-overview
 topic: designers-extensions-overview
 locale: en
 title: Creating Themes

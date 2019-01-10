@@ -1,4 +1,5 @@
 ---
+uid: create-module-using-templates
 topic: create-module-using-templates
 locale: en
 title: Create a Module Using Templates

@@ -1,4 +1,5 @@
 ---
+uid: content-managers-get-embed-code
 topic: get-embed-code
 locale: en
 title: Get the Embed Code for a Content Item

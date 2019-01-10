@@ -1,4 +1,5 @@
 ---
+uid: searched-fields
 topic: searched-fields
 locale: en
 title: Liquid Content: Searched Fields

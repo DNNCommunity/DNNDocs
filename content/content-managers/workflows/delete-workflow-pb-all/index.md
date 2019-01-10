@@ -1,4 +1,5 @@
 ---
+uid: content-managers-delete-workflow-pb-all
 topic: delete-workflow-pb-all
 locale: en
 title: Delete a Workflow

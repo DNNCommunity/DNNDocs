@@ -1,4 +1,5 @@
 ---
+uid: create-badge
 topic: create-badge
 locale: en
 title: Create Badge

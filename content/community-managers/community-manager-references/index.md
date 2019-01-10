@@ -1,4 +1,5 @@
 ---
+uid: community-manager-references
 topic: community-manager-references
 locale: en
 title: Community Manager References
