@@ -2,7 +2,7 @@
 uid: content-field-single-line-text
 topic: content-field-single-line-text
 locale: en
-title: Content Field: Single-Line Text
+title: "Content Field: Single-Line Text"
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-structured-content-overview

@@ -77,7 +77,7 @@ DNN provides the Service Framework, which you can use for quickly defining web s
 
 ## Presentation Layer
 
-The core component in the presentation layer is the module control. Every unique view of a module is registered as a module control in the [DNN Manifest](dnn-manifest-schema).
+The core component in the presentation layer is the module control. Every unique view of a module is registered as a module control in the [DNN Manifest](xref:dnn-manifest-schema).
 
 DNN APIs make it easy to access any module control, thus simplifying view management within your module.
 

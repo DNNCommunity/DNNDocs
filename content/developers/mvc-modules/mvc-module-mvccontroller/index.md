@@ -86,7 +86,7 @@ The main purpose of the MVC controller action methods is to populate a view with
 
 ViewResult returns a rendered view that is named after the action method. RedirectToRouteResult redirects to another controller action. Likewise, the DnnController.RedirectToDefaultRoute() is typically called to redirect to the default module view.
 
-Note: See [Unsupported MVC Features](unsupported-mvc-features) for the list of unsupported ActionResult types.
+Note: See [Unsupported MVC Features](xref:unsupported-mvc-features) for the list of unsupported ActionResult types.
 
 ## Passing Data to the View
 

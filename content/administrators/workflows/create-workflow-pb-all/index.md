@@ -53,4 +53,4 @@ related-topics: edit-workflow-pb-all,delete-workflow-pb-all,configure-workflow-s
 
 ## What to do next
 
-[Edit the workflow to add/edit/delete states.](edit-workflow-pb-all)
+[Edit the workflow to add/edit/delete states.](xref:edit-workflow-pb-all)

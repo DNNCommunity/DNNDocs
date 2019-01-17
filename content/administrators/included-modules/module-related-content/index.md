@@ -2,7 +2,7 @@
 uid: module-related-content
 topic: module-related-content
 locale: en
-title: Module: Related Content
+title: "Module: Related Content"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: social-modules

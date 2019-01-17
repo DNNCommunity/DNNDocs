@@ -2,7 +2,7 @@
 uid: module-journal
 topic: module-journal
 locale: en
-title: Module: Journal
+title: "Module: Journal"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: social-modules

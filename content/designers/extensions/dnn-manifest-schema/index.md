@@ -1,5 +1,5 @@
 ---
-uid: dnn-manifest-schema
+uid: designers-dnn-manifest-schema
 topic: dnn-manifest-schema
 locale: en
 title: The DNN Manifest Schema
@@ -657,4 +657,4 @@ SkinObject
     ```
     
 
-Right-click on the link to download a sample theme manifest: [MyThemeManifest.dnn](MyThemeManifest.dnn).
+Right-click on the link to download a sample theme manifest: [Sample Manifest File] (http://www.Google.com).

@@ -40,4 +40,4 @@ related-topics: configure-user-profile-visibility,configure-user-profile-vanity-
 
 ## What to do next
 
-If deleted fields still appear in the user profile page, [clear the server cache](clear-cache), then refresh the user profile page.
+If deleted fields still appear in the user profile page, [clear the server cache](xref:clear-cache), then refresh the user profile page.

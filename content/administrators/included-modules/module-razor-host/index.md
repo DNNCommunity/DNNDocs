@@ -2,7 +2,7 @@
 uid: module-razor-host
 topic: module-razor-host
 locale: en
-title: Module: Razor Host
+title: "Module: Razor Host"
 dnneditions: 
 dnnversion: 09.02.00
 ---

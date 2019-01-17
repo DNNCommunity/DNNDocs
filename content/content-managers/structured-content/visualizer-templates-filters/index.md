@@ -2,7 +2,7 @@
 uid: content-managers-visualizer-templates-filters
 topic: visualizer-templates-filters
 locale: en
-title: Visualizer Templates: Filters
+title: "Visualizer Templates: Filters"
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
 parent-topic: visualizer-templates
@@ -656,7 +656,7 @@ Example
 
 date
 
-Reformats a date. (See [Datetime](visualizer-templates-datetime).)
+Reformats a date. (See [Datetime](xref:content-managers-visualizer-templates-datetime) .)
 
 ```
 

@@ -15,9 +15,9 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
 
 ## Prerequisites
 
-*   [DNN installed with folder permissions for the user account that will run your website.](set-up-dnn-folder)
-*   [IIS enabled and set up.](set-up-iis)
-*   [SQL installed and set up.](set-up-sql)
+*   [DNN installed with folder permissions for the user account that will run your website.](xref:set-up-dnn-folder)
+*   [IIS enabled and set up.](xref:set-up-iis)
+*   [SQL installed and set up.](xref:set-up-sql)
 
 ## Steps
 

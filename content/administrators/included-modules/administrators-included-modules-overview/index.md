@@ -33,7 +33,7 @@ In product(s)
 
 ![icon](/images/ico-module-activities.png)
 
-[Activities](module-activities)
+[Activities](xref:module-activities)
 
 Displays the current user's activities and associated activity points.
 
@@ -43,7 +43,7 @@ Social
 
 ![icon](/images/ico-module-activitystream.png)
 
-[Activity Stream](module-activity-stream)
+[Activity Stream](xref:module-activity-stream)
 
 Displays a list of activities related to a user or a group in reverse chronological order. The inline editor also enables the user to create an entry. The Activity Stream is the advanced version of the Journal module.
 
@@ -53,7 +53,7 @@ Social
 
 ![icon](/images/ico-module-answers.png)
 
-[Answers](module-answers)
+[Answers](xref:module-answers)
 
 Allows registered users to post questions and receive answers.
 
@@ -63,7 +63,7 @@ Social
 
 ![icon](/images/ico-module-authentication.png)
 
-[Authentication](module-authentication)
+[Authentication](xref:module-authentication)
 
 Allows administrators to manage authentication settings for sites that use Windows Authentication.
 
@@ -73,7 +73,7 @@ Admin
 
 ![icon](/images/ico-module-blogs.png)
 
-[Blogs](module-blogs)
+[Blogs](xref:module-blogs)
 
 Enables users to publish single- or multi-author blogs. Allows content to be authored using third-party tools, such as Windows Live Writer.
 
@@ -83,7 +83,7 @@ Social
 
 ![icon](/images/ico-module-challenges.png)
 
-[Challenges](module-challenges)
+[Challenges](xref:module-challenges)
 
 Manages challenges for advocacy marketing.
 
@@ -93,7 +93,7 @@ Social
 
 ![icon](/images/ico-module-console.png)
 
-[Console](module-console)
+[Console](xref:module-console)
 
 Generates a list of links to child pages, group activity, or a member list.
 
@@ -103,7 +103,7 @@ Admin
 
 ![icon](/images/ico-module-contentlayout.png)
 
-[Content Layout](module-content-layout)
+[Content Layout](xref:module-content-layout)
 
 Adds a dynamic content layout that can accommodate more modules.
 
@@ -113,7 +113,7 @@ Recommended
 
 ![icon](/images/ico-module-contentstaging.png)
 
-[Content Staging](module-content-staging)
+[Content Staging](xref:module-content-staging)
 
 Allows administrators to connect and synchronize different servers.
 
@@ -123,7 +123,7 @@ Admin
 
 ![icon](/images/ico-module-ddrmenu.png)
 
-[DDR Menu](module-ddr-menu)
+[DDR Menu](xref:module-ddr-menu)
 
 Provides a basic navigation structure.
 
@@ -133,7 +133,7 @@ Admin
 
 ![icon](/images/ico-module-discussions.png)
 
-[Discussions](module-discussions)
+[Discussions](xref:module-discussions)
 
 Allows registered users to start discussions or participate in them.
 
@@ -143,7 +143,7 @@ Social
 
 ![icon](/images/ico-module-groupdirectory.png)
 
-[Group Directory](module-group-directory)
+[Group Directory](xref:module-group-directory)
 
 Displays the list of groups and allows users to create a new group. The Group Directory module and the Group Spaces module are the advanced version of the Social Groups module in List and View modes, respectively.
 
@@ -153,7 +153,7 @@ Social
 
 ![icon](/images/ico-module-groupspaces.png)
 
-[Group Spaces](module-group-spaces)
+[Group Spaces](xref:module-group-spaces)
 
 Displays the details about a social group. The Group Directory module and the Group Spaces module are the advanced version of the Social Groups module in List and View modes, respectively.
 
@@ -163,7 +163,7 @@ Social
 
 ![icon](/images/ico-module-html.png)
 
-[HTML / Text](module-html-text)
+[HTML / Text](xref:module-html-text)
 
 Renders a block of HTML or text.
 
@@ -173,7 +173,7 @@ Common
 
 ![icon](/images/ico-module-ideas.png)
 
-[Ideas](module-ideas)
+[Ideas](xref:module-ideas)
 
 Allows registered users to share their ideas with other users and vote on other users' ideas.
 
@@ -183,7 +183,7 @@ Social
 
 ![icon](/images/ico-module-journal.png)
 
-[Journal](module-journal)
+[Journal](xref:module-journal)
 
 Displays a list of activities related to a user or a group in reverse chronological order. Also enables the user to post an entry.
 
@@ -193,7 +193,7 @@ None
 
 ![icon](/images/ico-module-latestchallenges.png)
 
-[Latest Challenges](module-latest-challenges)
+[Latest Challenges](xref:module-latest-challenges)
 
 Displays the most recent and currently active challenges that registered users can participate in.
 
@@ -203,7 +203,7 @@ Social
 
 ![icon](/images/ico-module-leaderboard.png)
 
-[Leaderboard](module-leaderboard)
+[Leaderboard](xref:module-leaderboard)
 
 Displays a list of users sorted by their reputation points.
 
@@ -213,7 +213,7 @@ Social
 
 ![icon](/images/ico-module-marketo.png)
 
-[Marketo Forms](module-marketo-forms)
+[Marketo Forms](xref:module-marketo-forms)
 
 Displays and manages Marketo forms.
 
@@ -223,7 +223,7 @@ None
 
 ![icon](/images/ico-module-memberdirectory.png)
 
-[Member Directory](module-member-directory)
+[Member Directory](xref:module-member-directory)
 
 Displays a member list that can be filtered, sorted, and searched on.
 
@@ -233,7 +233,7 @@ None
 
 ![icon](/images/ico-module-messagecenter.png)
 
-[Message Center](module-message-center)
+[Message Center](xref:module-message-center)
 
 Allows registered users to send messages to each other.
 
@@ -243,7 +243,7 @@ Admin
 
 ![icon](/images/ico-module-modulecreator.png)
 
-[Module Creator](module-module-creator)
+[Module Creator](xref:module-module-creator)
 
 Assists in the development of basic modules.
 
@@ -253,7 +253,7 @@ Developer
 
 ![icon](/images/ico-module-mystatus.png)
 
-[My Status](module-my-status)
+[My Status](xref:module-my-status)
 
 Displays the status and reputation of the current user.
 
@@ -263,7 +263,7 @@ Social
 
 ![icon](/images/ico-module-profiledashboard.png)
 
-[Profile Dashboard](module-profile-dashboard)
+[Profile Dashboard](xref:module-profile-dashboard)
 
 Displays the social and gaming information about a user.
 
@@ -273,7 +273,7 @@ Social
 
 ![icon](/images/ico-module-publisher.png)
 
-[Publisher](module-publisher)
+[Publisher](xref:module-publisher)
 
 Enables content managers to create articles, and allows users to view those articles.
 
@@ -283,7 +283,7 @@ None
 
 ![icon](/images/ico-module-razorhost.png)
 
-[Razor Host](module-razor-host)
+[Razor Host](xref:module-razor-host)
 
 Allows the site to handle scripts written in the ASP.NET Razor programming syntax.
 
@@ -293,7 +293,7 @@ None
 
 ![icon](/images/ico-module-registration.png)
 
-[Registration](module-registration)
+[Registration](xref:module-registration)
 
 Allows an administrator to register a user on the site.
 
@@ -303,7 +303,7 @@ Admin
 
 ![icon](/images/ico-module-relatedcontent.png)
 
-[Related Content](module-related-content)
+[Related Content](xref:module-related-content)
 
 Displays a list of content related to the item that is currently displayed on the page.
 
@@ -313,7 +313,7 @@ Social
 
 ![icon](/images/ico-module-searchresults.png)
 
-[Search Results](module-search-results)
+[Search Results](xref:module-search-results)
 
 Displays the search results.
 
@@ -323,7 +323,7 @@ Admin
 
 ![icon](/images/ico-module-sitemap.png)
 
-[Sitemap](module-sitemap)
+[Sitemap](xref:module-sitemap)
 
 Produces and displays a sitemap for the site.
 
@@ -333,7 +333,7 @@ Admin
 
 ![icon](/images/ico-module-socialevents.png)
 
-[Social Events](module-social-events)
+[Social Events](xref:module-social-events)
 
 Enables social group owners to create and manage their own events.
 
@@ -343,7 +343,7 @@ Social
 
 ![icon](/images/ico-module-socialgroups.png)
 
-[Social Groups](module-social-groups)
+[Social Groups](xref:module-social-groups)
 
 Allows registered users to view, create, and join social groups.
 
@@ -353,7 +353,7 @@ None
 
 ![icon](/images/ico-module-socialsharing.png)
 
-[Social Sharing](module-social-sharing)
+[Social Sharing](xref:module-social-sharing)
 
 Exposes social sharing links to Google+, Twitter, LinkedIn, and Facebook.
 
@@ -363,7 +363,7 @@ Social
 
 ![icon](/images/ico-module-userbadges.png)
 
-[User Badges](module-user-badges)
+[User Badges](xref:module-user-badges)
 
 Displays the collection of badges that are available on the site. For authenticated users, this list shows which badges they have or have not achieved.
 
@@ -373,7 +373,7 @@ Social
 
 ![icon](/images/ico-module-viewprofile.png)
 
-[View Profile](module-view-profile)
+[View Profile](xref:module-view-profile)
 
 Displays the user profile.
 
@@ -383,7 +383,7 @@ Admin
 
 ![icon](/images/ico-module-wiki.png)
 
-[Wiki](module-wiki)
+[Wiki](xref:module-wiki)
 
 Displays and manages a wiki within the site.
 
@@ -393,7 +393,7 @@ Social
 
 ![icon](/images/ico-module-zendesk.png)
 
-[Zendesk Tickets](module-zendesk-tickets)
+[Zendesk Tickets](xref:module-zendesk-tickets)
 
 Enables the registered user to view or create Zendesk tickets.
 

@@ -13,4 +13,4 @@ dnnversion: 09.02.00
 
 The DNN Microservices APIs provide access to actual content and related objects served by the DNN microservices. Unlike the module-creation APIs, these APIs use the HTTP/HTTPS protocol to communicate with the microservices.
 
-For more information, see [Creating Apps That Use Microservices](creating-apps-that-use-microservices).
+For more information, see [Creating Apps That Use Microservices](xref:creating-apps-that-use-microservices).

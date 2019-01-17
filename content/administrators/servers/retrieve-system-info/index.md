@@ -47,7 +47,7 @@ Note: In the DNN Platform, you can manage the web servers by using SQL commands 
         
         HTML Editor Provider
         
-        The default HTML Editor for all sites in the installation. [Each site can specify a different HTML editor.](configure-html-editor)
+        The default HTML Editor for all sites in the installation. [Each site can specify a different HTML editor.](xref:configure-html-editor)
         
         Data Provider
         
@@ -55,7 +55,7 @@ Note: In the DNN Platform, you can manage the web servers by using SQL commands 
         
         Caching Provider
         
-        The default caching provider for all sites in the installation. [You can specify a different caching provider.](configure-caching)
+        The default caching provider for all sites in the installation. [You can specify a different caching provider.](xref:configure-caching)
         
         Logging Provider
         
@@ -75,7 +75,7 @@ Note: In the DNN Platform, you can manage the web servers by using SQL commands 
         
         Web Farm Enabled
         
-        Automatically updated from the web servers table. You can view the list of servers, [enable or disable servers](enable-or-disable-web-server), or [delete the obsolete ones](delete-web-server).
+        Automatically updated from the web servers table. You can view the list of servers, [enable or disable servers](xref:enable-or-disable-web-server), or [delete the obsolete ones](xref:delete-web-server).
         
         CAS Permissions
         

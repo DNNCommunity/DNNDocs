@@ -2,7 +2,7 @@
 uid: module-zendesk-tickets
 topic: module-zendesk-tickets
 locale: en
-title: Module: Zendesk Tickets
+title: "Module: Zendesk Tickets"
 dnneditions: 
 dnnversion: 09.02.00
 ---

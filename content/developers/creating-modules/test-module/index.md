@@ -15,8 +15,8 @@ related-topics: about-evs
 
 ## Steps
 
-1.  Run your module through the DNN [Extension Verification Service](http://evs.dnnsoftware.com/) (EVS) to perform [compatibility tests in three areas](about-evs).
-2.  [Install the package.](install-extension)
+1.  Run your module through the DNN [Extension Verification Service](http://evs.dnnsoftware.com/) (EVS) to perform [compatibility tests in three areas](xref:about-evs).
+2.  [Install the package.](xref:install-extension)
 3.  In your DNN installation, apply the module to a pane in a new webpage.
     1.  Modules \> Add New Module
         

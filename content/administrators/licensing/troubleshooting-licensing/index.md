@@ -2,7 +2,7 @@
 uid: troubleshooting-licensing
 topic: troubleshooting-licensing
 locale: en
-title: Troubleshooting: Licensing
+title: "Troubleshooting: Licensing"
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-licensing-overview
@@ -46,23 +46,23 @@ You are using a trial version of Evoq .... You currently have ... days remaining
     
     If the license is not activated,
     
-    *   [Activate License Automatically](activate-license-automatically).
-    *   If the server does not have Internet access while the license is being activated on it, see [Activate License Manually](activate-license-manually).
+    *   [Activate License Automatically](xref:activate-license-automatically).
+    *   If the server does not have Internet access while the license is being activated on it, see [Activate License Manually](xref:activate-license-manually).
     
     If the license type is incorrect, contact [Customer Support](http://www.dnnsoftware.com/services/customer-support).
     
 *   Was the site moved from one server to another?
     
-    If so, verify that the license is activated at both the server level and the IIS level. The [Licensing FAQ](faq-licensing) contains more details on this and a guide to activating a license correctly.
+    If so, verify that the license is activated at both the server level and the IIS level. The [Licensing FAQ](xref:faq-licensing) contains more details on this and a guide to activating a license correctly.
     
-*   [Clear your cache.](clear-cache)
+*   [Clear your cache.](xref:clear-cache)
 *   Check your web.config.
     
     Additional symptom: You might also see the following error linked to DotNetNuke.Professional.Application.ProApplication.CheckLicense():
     
     String reference not set to an instance of a String.
     
-    1.  [Access the web.config file.](access-web-config)
+    1.  [Access the web.config file.](xref:access-web-config)
     2.  Verify that the following nodes exist in web.config (The date and license type may differ.):
         
         *   InstallationDate:

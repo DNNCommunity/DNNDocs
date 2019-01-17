@@ -1,5 +1,5 @@
 ---
-uid: jwt-page-request
+uid: developers-jwt-page-request
 topic: jwt-page-request
 locale: en
 title: Page Request with JWT

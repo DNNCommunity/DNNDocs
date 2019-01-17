@@ -2,7 +2,7 @@
 uid: content-managers-visualizer-templates-basics
 topic: visualizer-templates-basics
 locale: en
-title: Visualizer Templates: Basics
+title: "Visualizer Templates: Basics"
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
 parent-topic: visualizer-templates

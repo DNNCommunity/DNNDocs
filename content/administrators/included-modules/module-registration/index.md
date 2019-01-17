@@ -2,7 +2,7 @@
 uid: module-registration
 topic: module-registration
 locale: en
-title: Module: Registration
+title: "Module: Registration"
 dnneditions: 
 dnnversion: 09.02.00
 ---

@@ -24,7 +24,7 @@ Containers allow designers to seamlessly integrate modules from many different d
 
 ## Prerequisites
 
-[A local DNN installation](set-up-dnn) with **Host** permissions.
+[A local DNN installation](xref:set-up-dnn) with **Host** permissions.
 
 ## Steps
 

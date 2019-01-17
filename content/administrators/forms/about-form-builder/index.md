@@ -16,21 +16,21 @@ The Form Builder allows you to create forms easily by dragging and dropping fiel
 
 You can add any of the following types of fields to your form:
 
-*   [Address](form-field-address)
-*   [Date / Time](form-field-date-time)
-*   [Dropdown](form-field-dropdown)
-*   [Email](form-field-email)
-*   [E-Signature](form-field-esignature)
-*   [Multi-Line Text](form-field-multi-line-text)
-*   [Multiple Choice](form-field-multiple-choice)
-*   [Name](form-field-name)
-*   [Number](form-field-number)
-*   [Phone Number](form-field-phone-number)
-*   [Single-Line Text](form-field-single-line-text)
-*   [Static Text](form-field-static-text)
-*   [Terms and Conditions](form-field-terms-conditions)
-*   [URL / Website](form-field-url-website)
+*   [Address](xref:form-field-address)
+*   [Date / Time](xref:form-field-date-time)
+*   [Dropdown](xref:form-field-dropdown)
+*   [Email](xref:form-field-email)
+*   [E-Signature](xref:form-field-esignature)
+*   [Multi-Line Text](xref:form-field-multi-line-text)
+*   [Multiple Choice](xref:form-field-multiple-choice)
+*   [Name](xref:form-field-name)
+*   [Number](xref:form-field-number)
+*   [Phone Number](xref:form-field-phone-number)
+*   [Single-Line Text](xref:form-field-single-line-text)
+*   [Static Text](xref:form-field-static-text)
+*   [Terms and Conditions](xref:form-field-terms-conditions)
+*   [URL / Website](xref:form-field-url-website)
 
-You can also configure the [Submit](form-field-submit) button.
+You can also configure the [Submit](xref:form-field-submit) button.
 
-In addition, you can assign [hidden fields](about-hidden-fields) with values that are sent back with the completed form.
+In addition, you can assign [hidden fields](xref:about-hidden-fields) with values that are sent back with the completed form.

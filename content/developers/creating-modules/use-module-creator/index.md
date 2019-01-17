@@ -20,14 +20,14 @@ The DNN Module Creator is generally recommended only for simple modules. For mor
 
 ## Prerequisites
 
-*   [A local DNN installation](set-up-dnn) with Host permissions.
+*   [A local DNN installation](xref:set-up-dnn) with Host permissions.
 
 ## Steps
 
 1.  Create, copy, or edit a page.
-    *   [Create a page.](create-single-page-standard)
-    *   [Copy a page.](copy-page-pb-all)
-    *   [Edit a page.](edit-page-pb-all)
+    *   [Create a page.](xref:create-single-page-standard)
+    *   [Copy a page.](xref:copy-page-pb-all)
+    *   [Edit a page.](xref:edit-page-pb-all)
 2.  Within a pane, click/tap on the module icon.
     
       

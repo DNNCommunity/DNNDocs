@@ -2,7 +2,7 @@
 uid: module-html-text
 topic: module-html-text
 locale: en
-title: Module: HTML (Text)
+title: "Module: HTML (Text)"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: general-content-modules

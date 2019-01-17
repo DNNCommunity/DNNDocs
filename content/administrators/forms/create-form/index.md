@@ -116,7 +116,7 @@ related-topics: edit-form,duplicate-form,delete-form,embed-form,view-form-respon
         
         Evoq Content Type
         
-        If configured, data in form submissions are converted into content items of the specified content type for use as structured content. To configure, choose the content type for the new content items that would be populated with data from the form submissions, then map the form fields to the content type fields. See [Save Form Responses to Structured Content](save-form-responses-to-structured-content).
+        If configured, data in form submissions are converted into content items of the specified content type for use as structured content. To configure, choose the content type for the new content items that would be populated with data from the form submissions, then map the form fields to the content type fields. See [Save Form Responses to Structured Content](xref:save-form-responses-to-structured-content).
         
         Custom URL
         
@@ -134,7 +134,7 @@ related-topics: edit-form,duplicate-form,delete-form,embed-form,view-form-respon
         
         Hidden Fields
         
-        If configured, the specified Field Identifier-Value pairs (max 10) would be returned with the user's completed form. See [About Hidden Fields](about-hidden-fields).
+        If configured, the specified Field Identifier-Value pairs (max 10) would be returned with the user's completed form. See [About Hidden Fields](xref:about-hidden-fields).
         
     4.  In the Form Submission tab.
         

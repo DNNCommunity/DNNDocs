@@ -12,9 +12,9 @@ related-topics: add-content-to-page-quickly-pb-all,configure-module-on-page-pb-a
 
 ## Prerequisites
 
-*   [The host must install the extension package containing the module.](install-extension)
-*   [If the module is set as premium, the host must allow the site to use it.](manage-premium-module)
-*   [The administrator must grant you Deploy Module permissions for the module.](allow-module-use)
+*   [The host must install the extension package containing the module.](xref:install-extension)
+*   [If the module is set as premium, the host must allow the site to use it.](xref:manage-premium-module)
+*   [The administrator must grant you Deploy Module permissions for the module.](xref:allow-module-use)
 
 ## Steps
 

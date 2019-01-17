@@ -2,7 +2,7 @@
 uid: module-social-groups
 topic: module-social-groups
 locale: en
-title: Module: Social Groups
+title: "Module: Social Groups"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: social-modules

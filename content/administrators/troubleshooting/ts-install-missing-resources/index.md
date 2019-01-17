@@ -2,7 +2,7 @@
 uid: ts-install-missing-resources
 topic: ts-install-missing-resources
 locale: en
-title: Troubleshooting: Missing Resources After An Upgrade
+title: "Troubleshooting: Missing Resources After An Upgrade"
 dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-troubleshooting-overview

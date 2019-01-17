@@ -2,7 +2,7 @@
 uid: ts-error-sql-timeout
 topic: ts-error-sql-timeout
 locale: en
-title: Error: SQL Timeout
+title: "Error: SQL Timeout"
 dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-troubleshooting-overview
@@ -74,5 +74,5 @@ Some SQL tables have grown too large, specifically EventLog, SiteLog, and Schedu
                                             
         ```
         
-5.  [Restart the application](restart-application) to allow the changes to take effect.
-6.  To test, try to [access the Admin Logs](view-site-logs).
+5.  [Restart the application](xref:restart-application) to allow the changes to take effect.
+6.  To test, try to [access the Admin Logs](xref:view-site-logs).

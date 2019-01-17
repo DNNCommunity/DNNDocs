@@ -2,7 +2,7 @@
 uid: module-publisher
 topic: module-publisher
 locale: en
-title: Module: Publisher
+title: "Module: Publisher"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: creation-modules

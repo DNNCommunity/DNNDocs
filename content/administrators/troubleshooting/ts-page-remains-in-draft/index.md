@@ -2,7 +2,7 @@
 uid: ts-page-remains-in-draft
 topic: ts-page-remains-in-draft
 locale: en
-title: Troubleshooting: Page Remains in Draft Mode
+title: "Troubleshooting: Page Remains in Draft Mode"
 dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-troubleshooting-overview
@@ -46,5 +46,5 @@ Another user made a change that conflicts with your changes.
         
         where @PageName is the name of the page you are editing; e.g., 'Home'.
         
-4.  [Clear the server cache.](clear-cache)
+4.  [Clear the server cache.](xref:clear-cache)
 5.  [Recycle the application pool](https://technet.microsoft.com/en-us/library/cc770764(v=ws.10).aspx) to allow the changes to take effect.

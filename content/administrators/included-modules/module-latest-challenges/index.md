@@ -2,7 +2,7 @@
 uid: module-latest-challenges
 topic: module-latest-challenges
 locale: en
-title: Module: Latest Challenges
+title: "Module: Latest Challenges"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: social-modules

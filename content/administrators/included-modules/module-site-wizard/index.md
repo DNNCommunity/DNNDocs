@@ -2,7 +2,7 @@
 uid: module-site-wizard
 topic: module-site-wizard
 locale: en
-title: Module: Site Wizard
+title: "Module: Site Wizard"
 dnneditions: 
 dnnversion: 09.02.00
 ---

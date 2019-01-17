@@ -100,7 +100,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
 
 Configure each page individually, according to page type.
 
-*   [Standard](configure-page-standard)
-*   [Existing](configure-page-existing)
-*   [URL](configure-page-url)
-*   [File](configure-page-file)
+*   [Standard](xref:configure-page-standard)
+*   [Existing](xref:configure-page-existing)
+*   [URL](xref:configure-page-url)
+*   [File](xref:configure-page-file)

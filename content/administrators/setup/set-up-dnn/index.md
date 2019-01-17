@@ -21,5 +21,5 @@ You can [compare the features](http://www.dnnsoftware.com/products/compare-dnn-p
 
 ## Requirements
 
-*   [DNN Requirements](requirements)
+*   [DNN Requirements](xref:requirements)
 *   **Developers:** Visual Studio 2015 is the recommended IDE for developing DNN modules. It is required if you are contributing to the DNN Platform.

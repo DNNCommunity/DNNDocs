@@ -1,5 +1,5 @@
 ---
-uid: jwt-access-token
+uid: administrators-jwt-access-token
 topic: jwt-access-token
 locale: en
 title: JWT Access Token

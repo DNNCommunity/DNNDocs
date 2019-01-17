@@ -23,28 +23,28 @@ Page Versioning
 
 1
 
-Host/Superuser: [Enable versioning for the site.](configure-page-file-versioning-for-site)
+Host/Superuser: [Enable versioning for the site.](xref:configure-page-file-versioning-for-site)
 
 2
 
-[Enable one or more folders for asset/file versioning.](configure-folder-file-versioning)
+[Enable one or more folders for asset/file versioning.](xref:configure-folder-file-versioning)
 
  
 
 3
 
-[View a version of an asset/file.](view-file-versions)
+[View a version of an asset/file.](xref:view-file-versions)
 
-[View a version of a page.](view-page-versions)
+[View a version of a page.](xref:view-page-versions)
 
  
 
-[Compare two versions of a page.](compare-page-versions)
+[Compare two versions of a page.](xref:compare-page-versions)
 
-[Restore a version of an asset/file.](restore-file-version)
+[Restore a version of an asset/file.](xref:restore-file-version)
 
-[Restore a version of a page.](restore-page-version)
+[Restore a version of a page.](xref:restore-page-version)
 
-[Delete a version of an asset/file.](delete-file-version)
+[Delete a version of an asset/file.](xref:delete-file-version)
 
-[Delete a version of a page.](delete-page-version)
+[Delete a version of a page.](xref:delete-page-version)

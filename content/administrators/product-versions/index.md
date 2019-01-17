@@ -27,7 +27,7 @@ Evoq
 
 9.1.1
 
-[Release Notes](relnotes-2017-jul-05)
+[Release Notes](xref:relnotes-2017-jul-05)
 
 2017 Apr 26
 
@@ -35,7 +35,7 @@ Evoq
 
 9.1.0
 
-[Release Notes](relnotes-2017-apr-26)
+[Release Notes](xref:relnotes-2017-apr-26)
 
 2017 Jan 25
 
@@ -43,7 +43,7 @@ Evoq
 
 9.0.1
 
-[Release Notes](relnotes-2017-jan-25)
+[Release Notes](xref:relnotes-2017-jan-25)
 
 2016 Dec 09
 
@@ -51,7 +51,7 @@ Evoq
 
 9.0.0
 
-[Release Notes](relnotes-2016-dec-09)
+[Release Notes](xref:relnotes-2016-dec-09)
 
 2016 Aug 22
 
@@ -59,7 +59,7 @@ Evoq
 
 8.5.0
 
-[Release Notes](relnotes-2016-aug-22)
+[Release Notes](xref:relnotes-2016-aug-22)
 
 2016 May 26
 
@@ -67,7 +67,7 @@ Evoq
 
 8.4.2
 
-[Release Notes](relnotes-2016-may-26)
+[Release Notes](xref:relnotes-2016-may-26)
 
 2016 Apr 18
 
@@ -75,7 +75,7 @@ Evoq
 
 8.4.1
 
-[Release Notes](relnotes-2016-apr-18)
+[Release Notes](xref:relnotes-2016-apr-18)
 
 2016 Mar 16
 
@@ -83,7 +83,7 @@ Evoq
 
 8.4.0
 
-[Release Notes](relnotes-2016-mar-16)
+[Release Notes](xref:relnotes-2016-mar-16)
 
 2016 Jan 14
 
@@ -91,7 +91,7 @@ Evoq
 
 8.3.0
 
-[Release Notes](relnotes-2016-jan-14)
+[Release Notes](xref:relnotes-2016-jan-14)
 
 2015 Oct 5
 
@@ -99,7 +99,7 @@ Evoq
 
 8.2.0
 
-[Release Notes](relnotes-2015-oct-05)
+[Release Notes](xref:relnotes-2015-oct-05)
 
 2015 May 26
 
@@ -107,7 +107,7 @@ Evoq
 
 8.1.0
 
-[Release Notes](relnotes-2015-may-26)
+[Release Notes](xref:relnotes-2015-may-26)
 
 2015 Feb 4
 
@@ -115,7 +115,7 @@ Evoq
 
 8.0.0
 
-[Release Notes](relnotes-2015-feb-04)
+[Release Notes](xref:relnotes-2015-feb-04)
 
 2014 Nov 12
 
@@ -123,7 +123,7 @@ Evoq
 
 7.3.4
 
-[Release Notes](relnotes-2014-nov-12)
+[Release Notes](xref:relnotes-2014-nov-12)
 
 2014 Oct 1
 
@@ -131,7 +131,7 @@ Evoq
 
 7.3.3
 
-[Release Notes](relnotes-2014-oct-01)
+[Release Notes](xref:relnotes-2014-oct-01)
 
 2014 Aug 14
 
@@ -139,7 +139,7 @@ Evoq
 
 7.3.2
 
-[Release Notes](relnotes-2014-aug-14)
+[Release Notes](xref:relnotes-2014-aug-14)
 
 2014 Jun 26
 
@@ -147,7 +147,7 @@ Evoq
 
 7.3.1
 
-[Release Notes](relnotes-2014-jun-26)
+[Release Notes](xref:relnotes-2014-jun-26)
 
 2014 Jun 11
 
@@ -155,7 +155,7 @@ Evoq
 
 7.3.0
 
-[Release Notes](relnotes-2014-jun-11)
+[Release Notes](xref:relnotes-2014-jun-11)
 
 2014 Mar 19
 
@@ -163,7 +163,7 @@ Evoq
 
 7.2.2
 
-[Release Notes](relnotes-2014-mar-19)
+[Release Notes](xref:relnotes-2014-mar-19)
 
 2014 Jan 21
 
@@ -171,7 +171,7 @@ Evoq
 
 7.2.1
 
-[Release Notes](relnotes-2014-jan-21)
+[Release Notes](xref:relnotes-2014-jan-21)
 
 2013 Dec 4
 
@@ -179,7 +179,7 @@ Evoq
 
 7.2.0
 
-[Release Notes](relnotes-2013-dec-04)
+[Release Notes](xref:relnotes-2013-dec-04)
 
 2013 Sep 24
 
@@ -187,7 +187,7 @@ Evoq
 
 7.1.2
 
-[Release Notes](relnotes-2013-sep-24)
+[Release Notes]xref:(relnotes-2013-sep-24)
 
 2013 Aug 13
 
@@ -195,7 +195,7 @@ Evoq
 
 7.1.1
 
-[Release Notes](relnotes-2013-aug-13)
+[Release Notes](xref:relnotes-2013-aug-13)
 
 2013 Jul 9
 
@@ -203,7 +203,7 @@ Evoq
 
 7.1.0
 
-[Release Notes](relnotes-2013-jul-09)
+[Release Notes](xref:relnotes-2013-jul-09)
 
 2013 May 1
 
@@ -211,7 +211,7 @@ Evoq
 
 7.0.6
 
-[Release Notes](relnotes-2013-may-01)
+[Release Notes](xref:relnotes-2013-may-01)
 
 2013 Apr 3
 
@@ -219,7 +219,7 @@ Evoq
 
 7.0.5
 
-[Release Notes](relnotes-2013-apr-03)
+[Release Notes](xref:relnotes-2013-apr-03)
 
 2013 Mar 6
 
@@ -227,7 +227,7 @@ Evoq
 
 7.0.4
 
-[Release Notes](relnotes-2013-mar-06)
+[Release Notes](xref:relnotes-2013-mar-06)
 
 2013 Feb 6
 
@@ -235,7 +235,7 @@ Evoq
 
 7.0.3
 
-[Release Notes](relnotes-2013-feb-06)
+[Release Notes](xref:relnotes-2013-feb-06)
 
 2013 Jan 11
 
@@ -243,7 +243,7 @@ Evoq
 
 7.0.2
 
-[Release Notes](relnotes-2013-jan-11)
+[Release Notes](xref:relnotes-2013-jan-11)
 
 2013 Jan 9
 
@@ -251,7 +251,7 @@ Evoq
 
 7.0.1
 
-[Release Notes](relnotes-2013-jan-09)
+[Release Notes](xref:relnotes-2013-jan-09)
 
 2012 Nov 28
 
@@ -259,4 +259,4 @@ Evoq
 
 7.0.0
 
-[Release Notes](relnotes-2012-nov-28)
+[Release Notes](xref:relnotes-2012-nov-28)

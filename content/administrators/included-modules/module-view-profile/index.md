@@ -2,7 +2,7 @@
 uid: module-view-profile
 topic: module-view-profile
 locale: en
-title: Module: View Profile
+title: "Module: View Profile"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: user-management-modules

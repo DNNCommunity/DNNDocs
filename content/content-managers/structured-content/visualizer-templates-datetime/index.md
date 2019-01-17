@@ -2,7 +2,8 @@
 uid: content-managers-visualizer-templates-datetime
 topic: visualizer-templates-datetime
 locale: en
-title: Visualizer Templates: Date / Time
+title: visualizer templates date time
+Visualizer Templates: Date / Time
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
 parent-topic: visualizer-templates

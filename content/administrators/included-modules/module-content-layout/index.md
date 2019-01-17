@@ -2,7 +2,7 @@
 uid: module-content-layout
 topic: module-content-layout
 locale: en
-title: Module: Content Layout
+title: "Module: Content Layout"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: general-content-modules

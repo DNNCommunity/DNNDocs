@@ -1,5 +1,5 @@
 ---
-uid: jwt-user-credentials
+uid: developers-jwt-user-credentials
 topic: jwt-user-credentials
 locale: en
 title: JWT User Credentials

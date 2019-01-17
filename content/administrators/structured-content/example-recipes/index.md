@@ -2,7 +2,7 @@
 uid: example-recipes
 topic: example-recipes
 locale: en
-title: Example: Recipes as Structured Content
+title: "Example: Recipes as Structured Content"
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-structured-content-overview
@@ -16,7 +16,7 @@ This example walks you through creating a content type for recipes, two visualiz
 
 ## Steps
 
-1.  [Create a content type](create-content-type) for recipes, named Recipe Content Type.
+1.  [Create a content type](xref:create-content-type) for recipes, named Recipe Content Type.
     
       
     
@@ -81,7 +81,7 @@ This example walks you through creating a content type for recipes, two visualiz
     *   Appearance: Text Editor
     *   Validation \> Required: On
     
-2.  [Create a visualizer](create-visualizer) for Recipe Content Type for displaying recipes in a list.
+2.  [Create a visualizer](xref:create-visualizer) for Recipe Content Type for displaying recipes in a list.
     
       
     
@@ -150,7 +150,7 @@ This example walks you through creating a content type for recipes, two visualiz
                                     
         ```
         
-3.  [Create a visualizer](create-visualizer) for Recipe Content Type for displaying a complete recipe.
+3.  [Create a visualizer](xref:create-visualizer) for Recipe Content Type for displaying a complete recipe.
     
       
     
@@ -236,7 +236,7 @@ This example walks you through creating a content type for recipes, two visualiz
                                     
         ```
         
-4.  [Create content items](create-content-item) of the type Recipe Content Type.
+4.  [Create content items](xref:create-content-item) of the type Recipe Content Type.
     1.  In the Content tab, click/tap Create Content and choose the Recipe Content Type.
         
           
@@ -253,7 +253,7 @@ This example walks you through creating a content type for recipes, two visualiz
         
           
         
-5.  [Create a new page](create-single-page-standard) in which to display the details of a single recipe.
+5.  [Create a new page](xref:create-single-page-standard) in which to display the details of a single recipe.
     1.  Enter the details for the page.
         
           
@@ -333,7 +333,7 @@ This example walks you through creating a content type for recipes, two visualiz
         
           
         
-6.  [Create a new page](create-single-page-standard) in which to display the list of recipes with their names, pictures, and short descriptions.
+6.  [Create a new page](xref:create-single-page-standard) in which to display the list of recipes with their names, pictures, and short descriptions.
     1.  Enter the details for the page.
         
         Field

@@ -31,11 +31,11 @@ DNN now ships with a standalone module that exports/imports entire websites, as 
 
 Telerik Removal
 
-Additional changes were made to continue phasing out Telerik from DNN products. [See details.](relnotes-2017-apr-26-telerik-removal)
+Additional changes were made to continue phasing out Telerik from DNN products. [See details.](xref:relnotes-2017-apr-26-telerik-removal)
 
 Added and Deprecated Extensions
 
-Some extensions were added and others deprecated depending on the product and the installation/upgrade scenario. [See details.](relnotes-2017-apr-26-extensions)
+Some extensions were added and others deprecated depending on the product and the installation/upgrade scenario. [See details.](xref:relnotes-2017-apr-26-extensions)
 
 ## EVOQ 9.1.0
 
@@ -43,7 +43,7 @@ EVOQ BASIC
 
 All updates included with DNN Platform 9.1.0.
 
-Note: Changes for [Telerik Removal](relnotes-2017-apr-26-telerik-removal) and for [Added and Deprecated Extensions](relnotes-2017-apr-26-extensions) are different for each product.
+Note: Changes for [Telerik Removal](xref:relnotes-2017-apr-26-telerik-removal) and for [Added and Deprecated Extensions](xref:relnotes-2017-apr-26-extensions) are different for each product.
 
 Global Asset Management
 
@@ -57,7 +57,7 @@ EVOQ CONTENT
 
 All updates included with Evoq Basic 9.1.0.
 
-Note: Changes for [Telerik Removal](relnotes-2017-apr-26-telerik-removal) and for [Added and Deprecated Extensions](relnotes-2017-apr-26-extensions) are different for each product.
+Note: Changes for [Telerik Removal](xref:relnotes-2017-apr-26-telerik-removal) and for [Added and Deprecated Extensions](xref:relnotes-2017-apr-26-extensions) are different for each product.
 
 In-context Editing for Liquid Content™
 
@@ -99,7 +99,7 @@ EVOQ ENGAGE
 
 All updates included with Evoq Content 9.1.0.
 
-Note: Changes for [Telerik Removal](relnotes-2017-apr-26-telerik-removal) and for [Added and Deprecated Extensions](relnotes-2017-apr-26-extensions) are different for each product.
+Note: Changes for [Telerik Removal](xref:relnotes-2017-apr-26-telerik-removal) and for [Added and Deprecated Extensions](xref:relnotes-2017-apr-26-extensions) are different for each product.
 
 Content Item Analytics
 

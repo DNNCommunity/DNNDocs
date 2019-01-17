@@ -1,5 +1,5 @@
 ---
-uid: about-jwt
+uid: developers-about-jwt
 topic: about-jwt
 locale: en
 title: About JWT Authentication

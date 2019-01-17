@@ -1,5 +1,5 @@
 ---
-uid: pack-extension
+uid: designers-pack-extension
 topic: pack-extension
 locale: en
 title: Pack Your Extension
@@ -43,5 +43,5 @@ Note: The package wizard, accessible through the DNN Module Creator or the Exten
     
     Remember: Include the version number of your extension in the release notes.
     
-2.  Create the [DNN Manifest](dnn-manifest-schema).
+2.  Create the [DNN Manifest](xref:dnn-manifest-schema).
 3.  Zip up your files, including the DNN Manifest in the root folder.

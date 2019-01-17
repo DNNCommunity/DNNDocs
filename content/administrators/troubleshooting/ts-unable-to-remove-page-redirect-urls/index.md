@@ -2,7 +2,7 @@
 uid: ts-unable-to-remove-page-redirect-urls
 topic: ts-unable-to-remove-page-redirect-urls
 locale: en
-title: Troubleshooting: Unable to Remove Page Redirect URLs
+title: "Troubleshooting: Unable to Remove Page Redirect URLs"
 dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-troubleshooting-overview

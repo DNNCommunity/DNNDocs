@@ -2,7 +2,7 @@
 uid: module-advanced-url-management
 topic: module-advanced-url-management
 locale: en
-title: Module: Advanced URL Management
+title: "Module: Advanced URL Management"
 dnneditions: 
 dnnversion: 09.02.00
 ---

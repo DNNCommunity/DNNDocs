@@ -59,4 +59,4 @@ Installing a module requires host permissions.
 
 ## What to do next
 
-[Grant Deploy Module permissions to a role, such as the Content Manager, to allow users in that role to add the module to a page.](allow-module-use)
+[Grant Deploy Module permissions to a role, such as the Content Manager, to allow users in that role to add the module to a page.](xref:allow-module-use)

@@ -17,7 +17,7 @@ DNN provides APIs that you can use to access the microservices from your app. Es
 
 Structured Content has APIs for content types, content items, published content items, the visualizer engine, visualizer definitions, and visualizer instances.
 
-[DNN Microservices API Reference](api-overview)
+[DNN Microservices API Reference](xref:api-overview)
 
 ## Authorization
 

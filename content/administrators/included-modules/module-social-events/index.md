@@ -2,7 +2,7 @@
 uid: module-social-events
 topic: module-social-events
 locale: en
-title: Module: Social Events
+title: "Module: Social Events"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: social-modules

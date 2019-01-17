@@ -25,7 +25,7 @@ Tip: ASP.NET might modify the control names (e.g., `div id`) when the page is re
 
 ## Prerequisites
 
-[A local DNN installation](set-up-dnn) with **Host** permissions.
+[A local DNN installation](xref:set-up-dnn) with **Host** permissions.
 
 ## Steps
 

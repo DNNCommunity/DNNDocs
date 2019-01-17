@@ -2,7 +2,7 @@
 uid: ts-site-theme-not-loading
 topic: ts-site-theme-not-loading
 locale: en
-title: Troubleshooting: Site Theme Does Not Load
+title: "Troubleshooting: Site Theme Does Not Load"
 dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-troubleshooting-overview
@@ -25,6 +25,6 @@ Insufficient permissions for anonymous users.
     
 2.  Set Anonymous Authentication to Application pool identity.
     
-3.  [Clear the DNN cache.](clear-cache)
+3.  [Clear the DNN cache.](xref:clear-cache)
     
-4.  [Restart the DNN application.](restart-application)
+4.  [Restart the DNN application.](xref:restart-application)

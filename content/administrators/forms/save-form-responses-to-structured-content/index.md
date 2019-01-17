@@ -28,8 +28,8 @@ DNN provides a connector that links the Form Builder microservice with the Struc
     ➋
     
 2.  Create or edit a form.
-    *   [Create a form.](create-form)
-    *   [Edit a form.](edit-form)
+    *   [Create a form.](xref:create-form)
+    *   [Edit a form.](xref:edit-form)
 3.  Click/Tap the Configuration tab.
     
       

@@ -16,12 +16,12 @@ links: ["[DNN API Reference](http://www.dnnsoftware.com/dnn-api/)","[DNN Wiki: M
 
 ## Prerequisites
 
-*   [A local DNN installation](set-up-dnn) with Host permissions.
+*   [A local DNN installation](xref:set-up-dnn) with Host permissions.
 *   Visual Studio 2015 is the recommended IDE for developing DNN modules.
 
 ## Steps
 
-1.  [Start a Visual Studio project using DNN templates.](start-vs-project-with-templates)
+1.  [Start a Visual Studio project using DNN templates.](xref:start-vs-project-with-templates)
 2.  Modify the Visual Studio project to add functionality to your new module.
 3.  Build, debug, and package.
     
@@ -36,9 +36,9 @@ links: ["[DNN API Reference](http://www.dnnsoftware.com/dnn-api/)","[DNN Wiki: M
         This build produces .pdb files that are needed when stepping through your code.
         
     2.  Debug, if needed.
-    3.  Create the [DNN Manifest](dnn-manifest-schema).
+    3.  Create the [DNN Manifest](xref:dnn-manifest-schema).
     4.  Build in release mode.
         
         This build creates an installation zip file (your module's package) in the folder Desktop Modules/yourorganization/yourmodule/install.
         
-    5.  Alternatively, you can manually [pack your module](pack-extension).
+    5.  Alternatively, you can manually [pack your module](xref:developers-pack-extension).

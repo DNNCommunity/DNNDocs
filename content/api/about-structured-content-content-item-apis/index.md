@@ -13,8 +13,8 @@ related-topics: about-structured-content-content-type-apis,about-structured-cont
 
 ## Content Item APIs
 
-*   [GET Content Items](api-contentitems-get) returns a list of content items that match the query.
-*   [GET Content Items with ID](api-contentitems-id-get) returns the specific content item with the specified ID.
-*   [POST Content Items](api-contentitems-post) creates a new content item.
-*   [PUT Content Items with ID](api-contentitems-id-put) updates the content item with the specified ID.
-*   [DELETE Content Items with ID](api-contentitems-id-delete) deletes the content item with the specified ID.
+*   [GET Content Items](xref:api-contentitems-get) returns a list of content items that match the query.
+*   [GET Content Items with ID](xref:api-contentitems-id-get) returns the specific content item with the specified ID.
+*   [POST Content Items](xref:api-contentitems-post) creates a new content item.
+*   [PUT Content Items with ID](xref:api-contentitems-id-put) updates the content item with the specified ID.
+*   [DELETE Content Items with ID](xref:api-contentitems-id-delete) deletes the content item with the specified ID.

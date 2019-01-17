@@ -2,7 +2,7 @@
 uid: module-authentication
 topic: module-authentication
 locale: en
-title: Module: Authentication
+title: "Module: Authentication"
 dnneditions: 
 dnnversion: 09.02.00
 ---

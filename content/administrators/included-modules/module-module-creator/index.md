@@ -2,7 +2,7 @@
 uid: module-module-creator
 topic: module-module-creator
 locale: en
-title: Module: Module Creator
+title: "Module: Module Creator"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: creation-modules

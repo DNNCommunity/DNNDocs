@@ -17,8 +17,8 @@ An administrator can grant Deploy Module permissions to a role, such as the Cont
 ## Prerequisites
 
 *   **An administrator account for the site.** Administrators have full permissions to the specific site.
-*   [The host must install the extension package containing the module.](install-extension)
-*   [If the module is set as premium, the host must allow the site to use it.](manage-premium-module)
+*   [The host must install the extension package containing the module.](xref:install-extension)
+*   [If the module is set as premium, the host must allow the site to use it.](xref:manage-premium-module)
 
 ## Steps
 

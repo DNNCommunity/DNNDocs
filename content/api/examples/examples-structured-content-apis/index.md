@@ -2,7 +2,7 @@
 uid: examples-structured-content-apis
 topic: examples-structured-content-apis
 locale: en
-title: Examples: Liquid Content APIs
+title: "Examples: Liquid Content APIs"
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: developers-structured-content-overview

@@ -90,7 +90,7 @@ Note: In the query portion of the form's URL, you must use the placeholder name 
 
 Suppose that you are organizing an event ("2016 User Convention") and you want people to respond to the invitation by filling out a form with their names and email addresses. You also have partners who will advertise the event in their own websites and blogs, and you want to track how many responses you get through each partner.
 
-1.  [Create a form](create-form) called My 2016UC Invitation Response Form. In the Form tab, add the fields Name and Email. Optionally, you can set Email as Required.
+1.  [Create a form](xref:create-form) called My 2016UC Invitation Response Form. In the Form tab, add the fields Name and Email. Optionally, you can set Email as Required.
     
       
     
@@ -148,7 +148,7 @@ Suppose that you are organizing an event ("2016 User Convention") and you want p
     
       
     
-7.  [View the form responses.](view-form-responses) Note that Partner is blank and the Event Name is filled in.
+7.  [View the form responses.](xref:view-form-responses) Note that Partner is blank and the Event Name is filled in.
     
       
     
@@ -179,7 +179,7 @@ Suppose that you are organizing an event ("2016 User Convention") and you want p
     
     xtvtcl41eh91@example.com
     
-10.  [View the form responses](view-form-responses) again. Note that Partner is filled in with the PartnerID value that you specified in the form's URL.
+10.  [View the form responses](xref:view-form-responses) again. Note that Partner is filled in with the PartnerID value that you specified in the form's URL.
     
       
     

@@ -15,12 +15,12 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
 
 ## Prerequisites
 
-[DNN installed with folder permissions for the user account that will run your website.](set-up-dnn-folder)
+[DNN installed with folder permissions for the user account that will run your website.](xref:set-up-dnn-folder)
 
 ## Steps
 
 1.  Enable IIS.
-    1.  [Check compatible versions.](requirements)
+    1.  [Check compatible versions.](xref:requirements)
     2.  Go to Control Panel \> Programs and Features \> Turn Windows features on or off.
         
           
@@ -44,7 +44,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
         
           
         
-
+<a name="tsk-set-up-iis__point-to-DNN-folder"></a>
 You can create a new website or set up an existing one for use with DNN. Choose one of the next two steps.
 
 2.  To create a new website and point it to the DNN installation folder:
@@ -102,4 +102,4 @@ You can create a new website or set up an existing one for use with DNN. Choose 
     
     The account **IIS AppPool\\AppPoolName** is automatically created by IIS.
     
-    See [Set Up DNN Folder and the User Account](set-up-dnn-folder).
+    See [Set Up DNN Folder and the User Account](xref:set-up-dnn-folder).

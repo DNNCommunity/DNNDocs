@@ -2,7 +2,7 @@
 uid: content-field-multiple-choice
 topic: content-field-multiple-choice
 locale: en
-title: Content Field: Multiple Choice
+title: "Content Field: Multiple Choice"
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-structured-content-overview

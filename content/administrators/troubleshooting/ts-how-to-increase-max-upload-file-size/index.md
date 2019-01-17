@@ -2,7 +2,7 @@
 uid: ts-how-to-increase-max-upload-file-size
 topic: ts-how-to-increase-max-upload-file-size
 locale: en
-title: How to: Increase the Maximum File Size for Upload
+title: "How to: Increase the Maximum File Size for Upload"
 dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-troubleshooting-overview
@@ -19,7 +19,7 @@ The maximum file size must be multiples of 1024.
 
 ## Steps
 
-1.  [Access the web.config file.](access-web-config)
+1.  [Access the web.config file.](xref:access-web-config)
 2.  Update the `httpRuntime` tag with the maximum file size you want.
     1.  Look for the `httpRuntime` tag.
         

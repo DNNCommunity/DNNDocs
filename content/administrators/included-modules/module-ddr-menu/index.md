@@ -1,8 +1,8 @@
 ---
-uid: moudle-ddr-menu
+uid: module-ddr-menu
 topic: module-ddr-menu
 locale: en
-title: Module: DDR Menu
+title: "Module: DDR Menu"
 dnneditions: 
 dnnversion: 09.02.00
 ---

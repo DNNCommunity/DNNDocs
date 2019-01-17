@@ -1,5 +1,5 @@
 ---
-uid: jwt-auth-handler
+uid: administrators-jwt-auth-handler
 topic: jwt-auth-handler
 locale: en
 title: JWT Authentication Handler

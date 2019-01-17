@@ -2,7 +2,7 @@
 uid: ts-incomplete-content-localization
 topic: ts-incomplete-content-localization
 locale: en
-title: Troubleshooting: Incomplete Content Localization
+title: "Troubleshooting: Incomplete Content Localization"
 dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-troubleshooting-overview

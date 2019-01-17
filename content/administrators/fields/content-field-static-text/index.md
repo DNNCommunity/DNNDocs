@@ -2,7 +2,7 @@
 uid: content-field-static-text
 topic: content-field-static-text
 locale: en
-title: Content Field: Static Text
+title: "Content Field: Static Text"
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-structured-content-overview

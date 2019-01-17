@@ -49,7 +49,7 @@ If you decide to simply use the upgraded test site as your new live site, you ca
     
     Note: The installation modifies web.config. If your web.config is substantially different from a standard web.config, you might encounter problems during the upgrade. Example, if nodes that are typically found in web.config are stored in other .config files, the application may not be able to access those nodes.
     
-4.  To prevent automated tasks from executing during the upgrade, [disable the Scheduler](configure-scheduler).
+4.  To prevent automated tasks from executing during the upgrade, [disable the Scheduler](xref:configure-scheduler).
 5.  To prevent older installation files from executing during the upgrade, go to the root directory of the website and delete the install folder.
 6.  Download and extract the latest Upgrade package.
     1.  Go to [the Downloads section of dnnsoftware.com](http://www.dnnsoftware.com/services/customer-support/success-network/software-downloads).

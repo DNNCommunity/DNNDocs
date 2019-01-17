@@ -2,7 +2,7 @@
 uid: module-activities
 topic: module-activities
 locale: en
-title: Module: Activities
+title: Module Activities
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: social-modules

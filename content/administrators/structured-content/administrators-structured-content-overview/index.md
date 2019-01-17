@@ -26,14 +26,14 @@ A content item can be of any defined content type. Default content types include
 
 Every content type is comprised of one or more fields of the following types:
 
-*   [Single-line text](content-field-single-line-text)
-*   [Multi-line text](content-field-multi-line-text)
-*   [Number](content-field-number)
-*   [Multiple choice](content-field-multiple-choice)
-*   [Date / Time](content-field-date-time)
-*   [Assets](content-field-assets)
-*   [Reference object](content-field-reference-object)
-*   [Static text](content-field-static-text)
+*   [Single-line text](xref:content-field-single-line-text)
+*   [Multi-line text](xref:content-field-multi-line-text)
+*   [Number](xref:content-field-number)
+*   [Multiple choice](xref:content-field-multiple-choice)
+*   [Date / Time](xref:content-field-date-time)
+*   [Assets](xref:content-field-assets)
+*   [Reference object](xref:content-field-reference-object)
+*   [Static text](xref:content-field-static-text)
 
 An asset can be an image or a document. A reference object points to another content item; reference objects cannot be nested.
 

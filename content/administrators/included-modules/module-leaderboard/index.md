@@ -2,7 +2,7 @@
 uid: module-leaderboard
 topic: module-leaderboard
 locale: en
-title: Module: Leaderboard
+title: "Module: Leaderboard"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: social-modules
@@ -19,7 +19,7 @@ Displays a list of users sorted by their reputation points.
 
   
 
-See [Member Directory](module-member-directory).
+See [Member Directory](xref:module-member-directory).
 
  
 

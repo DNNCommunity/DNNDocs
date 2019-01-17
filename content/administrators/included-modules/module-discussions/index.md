@@ -2,7 +2,7 @@
 uid: module-discussions
 topic: module-discussions
 locale: en
-title: Module: Discussions
+title: "Module: Discussions"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: social-modules

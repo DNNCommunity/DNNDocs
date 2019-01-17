@@ -2,7 +2,7 @@
 uid: module-ideas
 topic: module-ideas
 locale: en
-title: Module: Ideas
+title: "Module: Ideas"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: social-modules

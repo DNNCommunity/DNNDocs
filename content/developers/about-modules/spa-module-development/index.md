@@ -22,7 +22,7 @@ The SPA module framework supplements other SPA frameworks, such as AngularJS, Kn
 
 ## SPA Module Architecture
 
-In a SPA module, each HTML file loads the necessary JavaScript and CSS to properly render the UI. SPA modules also make AJAX calls to the business layer through the service layer. This architecture is similar to [the mobile application architecture for Web Forms modules](web-forms-module-development).
+In a SPA module, each HTML file loads the necessary JavaScript and CSS to properly render the UI. SPA modules also make AJAX calls to the business layer through the service layer. This architecture is similar to [the mobile application architecture for Web Forms modules](xref:web-forms-module-development).
 
   
 

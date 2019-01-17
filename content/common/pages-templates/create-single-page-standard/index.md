@@ -1,5 +1,5 @@
 ---
-uid: create-single-page-standard
+uid: common-create-single-page-standard
 topic: create-single-page-standard
 locale: en
 title: Create a Standard Page

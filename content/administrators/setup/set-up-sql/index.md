@@ -16,7 +16,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
 ## Steps
 
 1.  Install SQL.
-    1.  [Check compatible versions.](requirements)
+    1.  [Check compatible versions.](xref:requirements)
     2.  Choose New SQL Server stand-alone installation....
         
           
@@ -56,7 +56,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
         
         Note: Remember the database name, because it will be required by the DNN Installation Wizard.
         
-
+<a name="tsk-set-up-sql__set-up-sql-user"></a>
 3.  Create a SQL user account.
     1.  Under Security, right-click on Logins, and choose New Login....
         
@@ -76,7 +76,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
         
         Note: Remember the username and password, because they will be required by the DNN Installation Wizard.
         
-
+<a name="tsk-set-up-sql__db-owner-access"></a>
 4.  Give the new SQL user **db_owner** access to the new database.
     1.  In the Object Explorer panel, under your database \> Security, right-click on Users, and choose New User....
         

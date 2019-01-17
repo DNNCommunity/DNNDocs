@@ -2,7 +2,7 @@
 uid: form-field-static-text
 topic: form-field-static-text
 locale: en
-title: Form Field: Static Text
+title: "Form Field: Static Text"
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-forms-overview

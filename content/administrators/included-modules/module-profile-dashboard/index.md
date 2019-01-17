@@ -2,7 +2,7 @@
 uid: module-profile-dashboard
 topic: module-profile-dashboard
 locale: en
-title: Module: Profile Dashboard
+title: "Module: Profile Dashboard"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: social-modules

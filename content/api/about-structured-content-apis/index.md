@@ -29,7 +29,7 @@ Query
 
 Body
 
-[To get multiple content types using a filter](http://localhost/docs/api/api-contenttypes-get.html)
+[To get multiple content types using a filter](xref:api-contenttypes-get)
 
 GET
 
@@ -40,7 +40,7 @@ GET
 
  
 
-[To get a specific content type](http://localhost/docs/api/api-contenttypes-id-get.html)
+[To get a specific content type](xref:api-contenttypes-id-get)
 
 GET
 
@@ -50,7 +50,7 @@ ID of content type to get
 
  
 
-[To create a content type](http://localhost/docs/api/api-contenttypes-post.html)
+[To create a content type](xref:api-contenttypes-post)
 
 POST
 
@@ -64,7 +64,7 @@ POST
 *   fields
 *   properties
 
-[To update a specific content type](http://localhost/docs/api/api-contenttypes-id-put.html)
+[To update a specific content type](xref:api-contenttypes-id-put)
 
 PUT
 
@@ -74,7 +74,7 @@ ID of content type to update
 
 fields to update
 
-[To delete a specific content type](http://localhost/docs/api/api-contenttypes-id-delete.html)
+[To delete a specific content type](xref:api-contenttypes-id-delete)
 
 DELETE
 
@@ -96,7 +96,7 @@ Query
 
 Body
 
-[To get multiple content items using a filter](http://localhost/docs/api/api-contentitems-get.html)
+[To get multiple content items using a filter](xref:api-contentitems-get)
 
 GET
 
@@ -108,7 +108,7 @@ GET
 
  
 
-[To get a specific content item](http://localhost/docs/api/api-contentitems-id-get.html)
+[To get a specific content item](xref:api-contentitems-id-get)
 
 GET
 
@@ -118,7 +118,7 @@ ID of content item to get
 
  
 
-[To create a content item](http://localhost/docs/api/api-contentitems-post.html)
+[To create a content item](xref:api-contentitems-post)
 
 POST
 
@@ -132,7 +132,7 @@ publish
 *   fields
 *   properties
 
-[To update a specific content item](http://localhost/docs/api/api-contentitems-id-put.html)
+[To update a specific content item](xref:api-contentitems-id-put)
 
 PUT
 
@@ -142,7 +142,7 @@ publish
 
 fields to update
 
-[To delete a specific content item](http://localhost/docs/api/api-contentitems-id-delete.html)
+[To delete a specific content item](xref:api-contentitems-id-delete)
 
 DELETE
 

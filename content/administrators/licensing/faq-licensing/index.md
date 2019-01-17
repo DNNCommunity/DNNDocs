@@ -2,7 +2,7 @@
 uid: faq-licensing
 topic: faq-licensing
 locale: en
-title: FAQ: Licensing
+title: "FAQ: Licensing"
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-licensing-overview
@@ -14,11 +14,11 @@ links: ["[DNN KB: Licensing](http://customers.dnnsoftware.com/KB/c48/licensing.a
 
 I activated my license but my Evoq website still says that I am on the trial version.
 
-See [Troubleshoot: Trial message still appears after license activation](troubleshooting-licensing).
+See [Troubleshoot: Trial message still appears after license activation](xref:troubleshooting-licensing).
 
 Can I activate a license on a server without internet access?
 
-See [Activate License Manually](activate-license-manually).
+See [Activate License Manually](xref:activate-license-manually).
 
 How do I view my available licenses?
 

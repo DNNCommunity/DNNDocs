@@ -2,7 +2,7 @@
 uid: ts-error-unknown-server-tag-DNNComboBox
 topic: ts-error-unknown-server-tag-DNNComboBox
 locale: en
-title: Error: Unknown Server Tag - DNNComboBox
+title: "Error: Unknown Server Tag - DNNComboBox"
 dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-troubleshooting-overview
@@ -26,4 +26,4 @@ An older version of the DNN Events module is installed.
 1.  Download [the latest version of the DNN Events module](https://github.com/DNNCommunity/DNN.Events/releases).
 2.  Go to your site.
 3.  Log into the site as a superuser/host.
-4.  [Install the downloaded version of the DNN Events module.](install-extension)
+4.  [Install the downloaded version of the DNN Events module.](xref:install-extension)

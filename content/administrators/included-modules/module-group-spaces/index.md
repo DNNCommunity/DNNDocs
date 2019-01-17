@@ -2,7 +2,7 @@
 uid: module-group-spaces
 topic: module-group-spaces
 locale: en
-title: Module: Group Spaces
+title: "Module: Group Spaces"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: social-modules

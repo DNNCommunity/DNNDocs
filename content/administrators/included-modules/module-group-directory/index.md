@@ -2,7 +2,7 @@
 uid: module-group-directory
 topic: module-group-directory
 locale: en
-title: Module: Group Directory
+title: "Module: Group Directory"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: social-modules

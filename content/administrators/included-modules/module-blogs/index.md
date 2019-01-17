@@ -2,7 +2,7 @@
 uid: module-blogs
 topic: module-blogs
 locale: en
-title: Module: Blogs
+title: "Module: Blogs"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: social-modules

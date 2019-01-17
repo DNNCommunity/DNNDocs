@@ -2,7 +2,7 @@
 uid: module-member-directory
 topic: module-member-directory
 locale: en
-title: Module: Member Directory
+title: "Module: Member Directory"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: social-modules
@@ -27,7 +27,7 @@ With the Member Directory module, you can:
 *   list the members of a group, or
 *   list members located in a specific geographical area.
 
-See [Leaderboard](module-leaderboard).
+See [Leaderboard](xref:module-leaderboard).
 
  
 

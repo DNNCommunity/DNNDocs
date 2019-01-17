@@ -40,15 +40,15 @@ EVOQ ENGAGE
 *   All updates included with Evoq Content 8.5.0.
 *   Added RSS support for the Activity Stream.
 *   Enabled auto-resizing of images in the Activity Stream for optimal performance.
-*   Introduced [DNN Cloud Microservices](content-managers-microservices-overview). Microservices improve the overall performance of your site by hosting additional functionality on cloud servers. Microservices also enable easier and faster deployment of updates.
-    *   [Structured Content](content-managers-structured-content-overview). Separates content creation from design using a highly structured approach.
+*   Introduced [DNN Cloud Microservices](xref:administrators-microservices-overview). Microservices improve the overall performance of your site by hosting additional functionality on cloud servers. Microservices also enable easier and faster deployment of updates.
+    *   [Structured Content](xref:administrators-structured-content-overview). Separates content creation from design using a highly structured approach.
         *   Get started with the six predefined content types, which are based on common use cases.
         *   Define custom content types using simple drag-and-drop functionality and dynamic layouts.
         *   Create content items in a structured format without worrying about design.
-    *   [Visualizers](create-visualizer). Defines and applies styling to content items.
+    *   [Visualizers](xref:create-visualizer). Defines and applies styling to content items.
         *   Use templates to define visualizers, which are bundles of HTML, CSS, and JavaScript.
         *   Easily apply new design elements to content in web pages, using the included visualizers (more to be added with each update).
-    *   [Form Builder](content-managers-forms-overview). Builds and deploys dynamic forms.
+    *   [Form Builder](xref:administrators-forms-overview). Builds and deploys dynamic forms.
         *   Customize the four predefined forms, which are based on common use cases. Or use them as is.
         *   Display the list of responses in custom configurations to extract insights.
     *   Migration of existing HTML content into Structured Content microservice.

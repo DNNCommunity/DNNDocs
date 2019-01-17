@@ -2,7 +2,7 @@
 uid: module-activity-stream
 topic: module-activity-stream
 locale: en
-title: Module: Activity Stream
+title: "Module: Activity Stream"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: social-modules

@@ -15,7 +15,7 @@ links: ["[DNN Community Blog: Module Development for Non-Developers, Skinners, &
 
 ## Prerequisites
 
-*   [A local DNN installation](set-up-dnn) with Host permissions.
+*   [A local DNN installation](xref:set-up-dnn) with Host permissions.
 *   Visual Studio 2015 is the recommended IDE for developing DNN modules.
 
 ## Steps

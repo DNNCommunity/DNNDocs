@@ -1024,7 +1024,7 @@ Tools \> Upload File
 1.  Content \> Assets
 2.  Add Asset tab
 
-[\[how to\]](add-assets)
+[\[how to\]](xref:add-assets)
 
 Also in other contextual uploads.
 
@@ -1104,13 +1104,13 @@ Pages \> Add New Page
 1.  Content \> Pages
 2.  Add Page or Add Multiple Pages tab
 
-[\[how to\]](create-single-page-standard)
+[\[how to\]](xref:create-single-page-standard)
 
 Pages \> Copy Page
 
 Content \> Pages
 
-[\[how to\]](copy-page-pb-all)
+[\[how to\]](xref:common-copy-page-pb-all)
 
 Pages \> Copy Permissions to Children
 
@@ -1141,20 +1141,20 @@ Users \> Add New User
 1.  Manage \> Users
 2.  Add User button tab
 
-[\[how to\]](create-user-account)
+[\[how to\]](xref:create-user-account)
 
 Users \> Manage Users
 
 1.  Manage \> Users
 2.  Add User button tab
 
-[\[how to\]](about-user-accounts)
+[\[how to\]](xref:about-user-accounts)
 
 Users \> Manage Roles
 
 Manage \> Roles
 
-[\[how to\]](about-role-based-access)
+[\[how to\]](xref:about-role-based-access)
 
 ## OnDemand
 

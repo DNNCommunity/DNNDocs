@@ -2,7 +2,7 @@
 uid: ts-error-another-user-has-taken-action-on-the-page
 topic: ts-error-another-user-has-taken-action-on-the-page
 locale: en
-title: Error: Another User Has Taken Action on the Page
+title: "Error: Another User Has Taken Action on the Page"
 dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-troubleshooting-overview

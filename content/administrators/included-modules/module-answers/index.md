@@ -2,7 +2,7 @@
 uid: module-answers
 topic: module-answers
 locale: en
-title: Module: Answers
+title: "Module: Answers"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: social-modules

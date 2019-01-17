@@ -2,7 +2,7 @@
 uid: ts-error-argumentnullexception-after-move-upgrade
 topic: ts-error-argumentnullexception-after-move-upgrade
 locale: en
-title: Error: ArgumentNullException After a Move or an Upgrade
+title: "Error: ArgumentNullException After a Move or an Upgrade"
 dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-troubleshooting-overview

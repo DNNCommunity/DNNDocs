@@ -2,7 +2,7 @@
 uid: ts-broken-profile-image
 topic: ts-broken-profile-image
 locale: en
-title: Troubleshooting: Profile Image Not Shown
+title: "Troubleshooting: Profile Image Not Shown"
 dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-troubleshooting-overview
@@ -25,4 +25,4 @@ The default URL regular expression is missing.
 2.  Go to Persona Bar \> Settings \> SEO.
 3.  Go to the URL Management tab, and then the Expressions subtab.
 4.  In Do Not Rewrite URL Regular Expression, enter `/DesktopModules/|/Providers/|/LinkClick\.aspx|/profilepic\.ashx|/DnnImageHandler\.ashx|/__browserLink/`.
-5.  [Clear the server cache.](clear-cache)
+5.  [Clear the server cache.](xref:clear-cache)

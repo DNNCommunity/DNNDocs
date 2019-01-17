@@ -13,5 +13,5 @@ related-topics: about-structured-content-content-type-apis,about-structured-cont
 
 ## Published Content Item APIs
 
-*   [GET Published Content Items](api-publishedcontentitems-get) returns a list of published content items that match the query.
-*   [GET Published Content Items with ID Array](api-publishedcontentitems-getbyids-get) returns the published content items with the specified IDs.
+*   [GET Published Content Items](xref:api-publishedcontentitems-get) returns a list of published content items that match the query.
+*   [GET Published Content Items with ID Array](xref:api-publishedcontentitems-getbyids-get) returns the published content items with the specified IDs.

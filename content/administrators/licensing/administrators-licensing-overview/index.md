@@ -37,4 +37,4 @@ Important: If switching to a different development server, make sure that the ol
 
 To activate a license, you need the invoice number(s) sent to you in an email after your purchase and the email address associated with each invoice. Each license will have its own invoice number (e.g., INV00x-1, INV00x-2, INV00x-3).
 
-In most cases, you can [activate the license automatically](activate-license-automatically). However, if the server does not have Internet access, you can also [do so manually](activate-license-manually).
+In most cases, you can [activate the license automatically](xref:activate-license-automatically). However, if the server does not have Internet access, you can also [do so manually](xref:activate-license-manually).

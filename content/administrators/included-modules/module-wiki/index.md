@@ -2,7 +2,7 @@
 uid: module-wiki
 topic: module-wiki
 locale: en
-title: Module: Wiki
+title: "Module: Wiki"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: social-modules

@@ -1,5 +1,5 @@
 ---
-content-managers-duplicate-content-item
+uid: content-managers-duplicate-content-item
 topic: duplicate-content-item
 locale: en
 title: Duplicate a Content Item

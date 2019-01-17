@@ -2,7 +2,7 @@
 uid: module-social-sharing
 topic: module-social-sharing
 locale: en
-title: Module: Social Sharing
+title: "Module: Social Sharing"
 dnneditions: 
 dnnversion: 09.02.00
 parent-topic: social-modules
