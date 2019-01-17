@@ -25,42 +25,14 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
 2.  Determine the user account used to run your website.
     
     The account name differs, depending on your IIS and Windows version:
-    
-    If your OS is
-    
-    and your IIS version is
-    
-    then the account name is
-    
-    Windows Vista
-    
-    Windows Server 2008
-    
-    IIS 7
-    
-    localmachine\\Network Service
-    
-    Windows 7
-    
-    Windows Server 2008 R2
-    
-    IIS 7.5
-    
-    the **NETWORK SERVICE** account
-    
-    \- or -
-    
-    the **IIS AppPool\\AppPoolName**, which is the name of the automatically generated app.
-    
-    Windows 8
-    
-    Windows Server 2012
-    
-    IIS 8
-    
-    Windows 10
-    
-    IIS 10
+
+    | If your OS is  |  and your IIS version is a  |  then the account name is  |
+    |---|---|---|
+    | Windows Vista Windows Server 2008  |  IIS 7  | localmachine\\Network Service |
+    | Windows 7  Windows Server 2008 R2  |   IIS 7.5  | the **NETWORK SERVICE** account \- or - the **IIS AppPool\\AppPoolName**, which is the name of the automatically generated app.  |
+    | Windows 8  Windows Server 2012  |   IIS 8 |
+    |  Windows 10  |  IIS 10  |
+       
     
 3.  Give **Full** or **Modify** permissions for the DNN installation folder to the user account that will run your website.
     1.  In Windows Explorer, right-click on the DNN installation folder, and choose Properties.
