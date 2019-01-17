@@ -23,7 +23,7 @@ For each edition of Evoq, the following types of licenses are available:
 
 To be able to get staging, test, development, or failover licenses, you must have at least one paid commercial production license. Members of the DNN Partner Program can get not-for-retail (NFR) licenses without this requirement.
 
-Note: Due to changing market factors, the product and licensing information could change without notice. Please contact the [DNN Sales Team](mailto:sales@dnnsoftware.com) for up-to-date information.
+<div style="background-color:aliceblue; padding:1em; border:1px solid #006d97;"><strong>Note:</strong> Due to changing market factors, the product and licensing information could change without notice. Please contact the [DNN Sales Team](mailto:sales@dnnsoftware.com) for up-to-date information.</div>
 
 ## Activation
 
@@ -33,7 +33,7 @@ By default, each production/staging/test/failover license can be activated only 
 
 In contrast, a development license can be activated as many times as needed. To request additional activations for an existing development license, contact [Customer Support](http://www.dnnsoftware.com/services/customer-support).
 
-Important: If switching to a different development server, make sure that the old license is deleted before activating a new license on the new server.
+<div style="background-color:#f8bebe; padding:1em; border:1px solid #006d97;"><strong><span style="color:red;">Important:</span></strong> If switching to a different development server, make sure that the old license is deleted before activating a new license on the new server.</div>
 
 To activate a license, you need the invoice number(s) sent to you in an email after your purchase and the email address associated with each invoice. Each license will have its own invoice number (e.g., INV00x-1, INV00x-2, INV00x-3).
 
