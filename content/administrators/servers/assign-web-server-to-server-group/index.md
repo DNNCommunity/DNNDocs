@@ -21,10 +21,6 @@ related-topics: enable-or-disable-web-server,change-url-of-web-server,replace-we
     
     ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Go to the Server Settings tab, and then the Web Servers subtab.
     
     ![Server Settings > Web Servers](/images/scr-pbtabs-host-Settings-Servers-ServerSettings-WebServers-E90.png)
@@ -37,7 +33,7 @@ related-topics: enable-or-disable-web-server,change-url-of-web-server,replace-we
     
       
     
-    Tip: You can filter the list to show only Enabled servers or only Disabled servers.
+    <div class="blue-callout"><strong>Tip:</strong> You can filter the list to show only Enabled servers or only Disabled servers.</div>
     
 4.  Assign the server to a group.
     1.  Click/Tap the pencil icon for Server Group.
