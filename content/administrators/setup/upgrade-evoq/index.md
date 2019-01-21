@@ -28,7 +28,7 @@ In the test environment,
 
 Even if your site is a web farm, only one server is required for the test environment. To avoid conflicts in a web farm, the upgrade is performed only with a single server enabled.
 
-Tip: Take notes about the steps you perform and the configuration settings you use, so you can repeat them exactly when you upgrade your live site.
+ <div class="blue-callout"><strong>Tip:</strong> Take notes about the steps you perform and the configuration settings you use, so you can repeat them exactly when you upgrade your live site.
 
 After you confirm that the upgraded test site works properly, create another backup of the live database and the live file system to include changes made to the live site during your test.
 
@@ -55,7 +55,7 @@ If you decide to simply use the upgraded test site as your new live site, you ca
     1.  Go to [the Downloads section of dnnsoftware.com](http://www.dnnsoftware.com/services/customer-support/success-network/software-downloads).
     2.  Click the Upgrade button for your Evoq product.
         
-        Note: If Windows requires you to unblock the zip file after download, find the file in Windows Explorer, right-click and select Properties. Then click Unblock, if the option exists.
+         <div class="blue-callout"><strong>Note:</strong> If Windows requires you to unblock the zip file after download, find the file in Windows Explorer, right-click and select Properties. Then click Unblock, if the option exists.</div>
         
     3.  Extract the contents of the zip file to the root folder of the test website, while preserving the folder structure.
         
@@ -63,7 +63,7 @@ If you decide to simply use the upgraded test site as your new live site, you ca
         
 7.  Go to http://localhost/install/install.aspx?mode=upgrade to start the installation.
     
-    Note: If using a portal alias that was added to the machine's hosts file, use that fully-qualified domain name, instead of localhost.
+     <div class="blue-callout">Note: If using a portal alias that was added to the machine's hosts file, use that fully-qualified domain name, instead of localhost.</div>
     
     If you encounter ANY error:
     
