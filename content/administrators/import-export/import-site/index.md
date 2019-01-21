@@ -24,10 +24,6 @@ Warning: You cannot undo an import. Back up your site and database before procee
     
     ![Persona Bar > Settings > Import-Export](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Choose a site to import to.
     
       
@@ -60,17 +56,10 @@ Warning: You cannot undo an import. Back up your site and database before procee
     
       
     
-    Field
-    
-    Description
-    
-    Overwrite Collisions
-    
-    If enabled (On), objects in the target site will be overwritten.
-    
-    Run Now
-    
-    If enabled (On), the process starts immediately.
+    |Field|Description|
+    |---|---|
+    |<strong>Overwrite Collisions</strong>|If enabled (On), objects in the target site will be overwritten.|
+    |<strong>Run Now</strong>|If enabled (On), the process starts immediately.|
     
 6.  Continue.
 
