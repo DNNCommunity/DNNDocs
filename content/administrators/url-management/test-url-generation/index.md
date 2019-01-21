@@ -21,10 +21,6 @@ related-topics: configure-url-rewriter,configure-url-redirects,manage-url-provid
     
     ![Persona Bar > Settings > SEO](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Go to the URL Management tab, and then the Test URL subtab.
     
     ![URL Management > Test URL](/images/scr-pbtabs-host-Settings-SEO-URLManagement-TestURL-E91.png)
@@ -39,21 +35,11 @@ related-topics: configure-url-rewriter,configure-url-redirects,manage-url-provid
     
     1.  Fill in the required fields.
         
-        Field
-        
-        Description
-        
-        Page to Test
-        
-        Select the page from the tree.
-        
-        Add Query String
-        
-        (Optional) Enter `?key=value` to test the URL with a query string. The generated URL will include `/key/value`.
-        
-        Custom Page Name / URL End String
-        
-        (Optional) Enter the name of the specific page to test, if any.
+        |Field|Description|
+        |---|---|
+        |<strong>Page to Test</strong>|Select the page from the tree.|
+        |<strong>Add Query String</strong>|(Optional) Enter `?key=value` to test the URL with a query string. The generated URL will include `/key/value`.|
+        |<strong>Custom Page Name / URL End String</strong>|(Optional) Enter the name of the specific page to test, if any.|
         
     2.  Click/Tap Test URL.
     
