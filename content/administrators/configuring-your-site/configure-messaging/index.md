@@ -21,10 +21,6 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,access-w
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Go to the Site Behavior tab, and then the Messaging subtab.
     
     ![Site Behavior > Messaging](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-Messaging-E90.png)
@@ -39,38 +35,19 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,access-w
     
     Note: Administrators and hosts/superusers are not restricted by these settings.
     
-    *   User messaging
+    <ul><li>User messaging</li></ul>
+
+    |Field|Description|
+    |---|---|
+    |<strong>Disable Private Message</strong>|If enabled, users will be unable to send messages directly to other users or to groups.|
+    |<strong>Throttling Interval in Minutes</strong>|The minimum number of minutes to wait before allowing the same user to send another message. If 0, users can send another message immediately after the first one.|
+    |<strong>Recipient Limit</strong>|The maximum number of recipients allowed in a message. A role is considered one recipient.|       
+    |<strong>Allow Attachments</strong>|If enabled, users are allowed to attach files to their messages to other users or to groups.|
+    
+    <ul><li>System messages</li></ul>
         
-        Field
-        
-        Description
-        
-        Disable Private Message
-        
-        If enabled, users will be unable to send messages directly to other users or to groups.
-        
-        Throttling Interval in Minutes
-        
-        The minimum number of minutes to wait before allowing the same user to send another message. If 0, users can send another message immediately after the first one.
-        
-        Recipient Limit
-        
-        The maximum number of recipients allowed in a message. A role is considered one recipient.
-        
-        Allow Attachments
-        
-        If enabled, users are allowed to attach files to their messages to other users or to groups.
-        
-    *   System messages
-        
-        Field
-        
-        Description
-        
-        Send Emails
-        
-        If enabled, the system sends an email to the user for each message and notification.
-        
-        Include Attachments
-        
-        If enabled, system emails can include file attachments.
+    |Field|Description|
+    |---|---|
+    |<strong>Send Emails</strong>|If enabled, the system sends an email to the user for each message and notification.|
+    |<strong>Include Attachments</strong>|If enabled, system emails can include file attachments.|
+    
