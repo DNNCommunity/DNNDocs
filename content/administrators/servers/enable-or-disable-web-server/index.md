@@ -11,7 +11,7 @@ related-topics: change-url-of-web-server,assign-web-server-to-server-group,repla
 
 # Enable or Disable a Web Server
 
-Note: If a server is disabled in the UI but is still running, its cache is not synchronized with other servers in the list and could return outdated content.
+<div class="blue-callout"><strong>Note:</strong> If a server is disabled in the UI but is still running, its cache is not synchronized with other servers in the list and could return outdated content.</div>
 
 ## Prerequisites
 
@@ -22,10 +22,6 @@ Note: If a server is disabled in the UI but is still running, its cache is not s
 1.  Go to Persona Bar \> Settings \> Servers.
     
     ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
-    
-    ➊
-    
-    ➋
     
 2.  Go to the Server Settings tab, and then the Web Servers subtab.
     
@@ -39,7 +35,7 @@ Note: If a server is disabled in the UI but is still running, its cache is not s
     
       
     
-    Tip: You can filter the list to show only Enabled servers or only Disabled servers.
+    <div class="blue-callout"><strong>Tip:</strong> You can filter the list to show only Enabled servers or only Disabled servers.</div>
     
 4.  Toggle the Enabled switch.
     
