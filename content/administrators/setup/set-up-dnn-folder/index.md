@@ -16,7 +16,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
 
 1.  [Download DNN and extract the files.](http://www.dnnsoftware.com/community/download/)
     
-    Note: If you get a Windows Security Warning while attempting to unzip the file, you might need to [unblock the DNN zip file](https://blogs.msdn.microsoft.com/delay/p/unblockingdownloadedfile/) then try again. WARNING: For your protection, remember to download or unzip files from reliable sources only.
+    <div style="background-color:aliceblue; padding:1em; border:1px solid #006d97;"><strong>Note:</strong> If you get a Windows Security Warning while attempting to unzip the file, you might need to [unblock the DNN zip file](https://blogs.msdn.microsoft.com/delay/p/unblockingdownloadedfile/) then try again. WARNING: For your protection, remember to download or unzip files from reliable sources only.</div>
     
     The folder where you extract the files becomes the DNN installation folder.
     
