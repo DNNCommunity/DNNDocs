@@ -21,10 +21,6 @@ related-topics: add-or-remove-sites-in-group,edit-site-group,delete-site-group
     
     ![Persona Bar > Manage > Sites](/images/scr-pbar-host-Manage-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Go to the Site Groups tab.
     
       
@@ -49,22 +45,10 @@ related-topics: add-or-remove-sites-in-group,edit-site-group,delete-site-group
     
       
     
-    Field
-    
-    Description
-    
-    Master Site
-    
-    The site used for:
-    
-    *   Authenticating users that are shared among the sites in the group.
-    *   Sharing content with other members of the group.
-    
-    The master site cannot reuse content stored in other sites within the group.
-    
-    Authentication Domain
-    
-    Typically not required.
+    |Field|Description|
+    |---|---|
+    |<strong>Master Site</strong>|The site used for:<ul><li>Authenticating users that are shared among the sites in the group.</li><li>Sharing content with other members of the group.</li></ul>The master site cannot reuse content stored in other sites within the group.|
+    |<strong>Authentication Domain</strong>|Typically not required.|
     
 5.  Click/Tap Create Site Group.
 
