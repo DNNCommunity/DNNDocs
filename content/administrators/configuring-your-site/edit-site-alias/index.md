@@ -23,10 +23,6 @@ Note: The current site alias cannot be edited, deleted, or set as primary. Log i
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Go to the Site Behavior tab, and then the Site Aliases subtab.
     
     ![Site Behavior > Site Aliases](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-SiteAliases-E90.png)
@@ -47,19 +43,8 @@ Note: The current site alias cannot be edited, deleted, or set as primary. Log i
     
       
     
-    Field
-    
-    Description
-    
-    Site Alias
-    
-    The alternative URL (without the protocol) which can be used to access the same site.
-    
-    Browser
-    
-    *   Normal. If the site alias is intended for normal web browsers.
-    *   Mobile. If the site alias is intended for mobile devices.
-    
-    Theme
-    
-    The site theme to use if the site is accessed with this alias.
+  |Field|Description|
+    |---|---|
+    |<strong>Site Alias</strong>|The alternative URL (without the protocol) which can be used to access the same site.|
+    |<strong>Browser</strong>|<ul><li><strong>Normal</strong>. If the site alias is intended for normal web browsers.</li><li><strong>Mobile</strong>. If the site alias is intended for mobile devices.</li></ul>|
+    |<strong>Theme</strong>|The site theme to use if the site is accessed with this alias.|
