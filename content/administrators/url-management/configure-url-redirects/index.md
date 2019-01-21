@@ -21,10 +21,6 @@ related-topics: configure-url-rewriter,manage-url-providers,edit-regex-for-url-m
     
     ![Persona Bar > Settings > SEO](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Go to the URL Management tab, and then the General Settings subtab.
     
     ![URL Management > General Settings](/images/scr-pbtabs-host-Settings-SEO-URLManagement-GeneralSettings-E91.png)
@@ -37,20 +33,10 @@ related-topics: configure-url-rewriter,manage-url-providers,edit-regex-for-url-m
     
       
     
-    Field
-    
-    Description
-    
-    Redirect deleted, expired, disabled pages to
-    
-    The target page if a requested page is not found. Options: "404 Error" and "Site Home Page".
-    
-    Redirect to Friendly URLs
-    
-    If enabled, non-friendly URLs are redirected to the friendly version of the URL.
-    
-    Redirect Mixed Case URLs
-    
-    If enabled, URLs with mixed-case characters are redirected to the lowercase version of the URL.
+    |Field|Description|
+    |---|---|
+    |<strong>Redirect deleted, expired, disabled pages to</strong>|The target page if a requested page is not found. Options: "404 Error" and "Site Home Page".|
+    |<strong>Redirect to Friendly URLs|If enabled, non-friendly URLs are redirected to the friendly version of the URL.|
+    |<strong>Redirect Mixed Case URLs</strong>|If enabled, URLs with mixed-case characters are redirected to the lowercase version of the URL.|
     
 4.  Save.
