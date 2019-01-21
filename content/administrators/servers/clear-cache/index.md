@@ -21,10 +21,6 @@ related-topics: configure-caching,expire-cached-item-in-web-server,minify-resour
     
     ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Click/Tap Clear Cache.
     
       
