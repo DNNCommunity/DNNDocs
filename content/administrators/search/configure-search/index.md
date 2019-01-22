@@ -36,5 +36,5 @@ related-topics: prioritize-search-items
     |Field|Description|
     |---|---|
     |<strong>Minimum Word Length<br />Maximum Word Length</strong>|The range specifying the allowed length of words to be indexed. The word length is the number of single-byte characters in the word.|
-    |<strong>Custom Analyzer Type</strong>|The full name of the custom analyzer to index the content. To force existing content to be reindexed with the new analyzer, click/tap the Reindex Content of Reindex Host Content buttons in the Search Index section.|
+    |<strong>Custom Analyzer Type</strong>|The full name of the custom analyzer to index the content. To force existing content to be reindexed with the new analyzer, click/tap the <strong>Reindex Content</strong> of <strong>Reindex Host Content</strong> buttons in the <strong>Search Index</strong> section.|
     |<strong>Enable Partial-Word Search (Slow)</strong>|If enabled, you can use wildcards to search for substrings inside words; i.e., not at the beginning of the word.|
