@@ -17,10 +17,6 @@ related-topics: add-assets,edit-asset-permissions,move-asset,copy-asset,download
     
     ![Persona Bar > Content > Assets](/images/scr-pbar-host-Content-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Go to the folder that contains the asset or subfolder.
     
     *   If the containing folder is within the current folder, select it from the cards.
@@ -66,42 +62,14 @@ related-topics: add-assets,edit-asset-permissions,move-asset,copy-asset,download
     
       
     
-    Field
-    
-    Description
-    
-    Subscribe
-    
-    If enabled (On), users can subscribe to updates to this asset.
-    
-    Name
-    
-    The asset's filename.
-    
-    Title
-    
-    The asset's friendly name.
-    
-    Tags
-    
-    Tags to associate with the asset.
-    
-    Description
-    
-    Displayed in lists of assets.
-    
-    Created
-    
-    Not modifiable. The date that the asset was uploaded and by whom.
-    
-    Last Modified
-    
-    Not modifiable. The date that the asset was last modified and by whom.
-    
-    Size
-    
-    Not modifiable. The file size of the asset.
-    
-    URL
-    
-    Not modifiable. The permalink to the asset.
+    |Field|Description|
+    |---|---|
+    |Subscribe|If enabled (<strong>On</strong>), users can subscribe to updates to this asset.|
+    |Name|The asset's filename.|
+    |Title|The asset's friendly name.|
+    |Tags|Tags to associate with the asset.|
+    |Description|Displayed in lists of assets.|
+    |Created|Not modifiable. The date that the asset was uploaded and by whom.|
+    |Last Modified|Not modifiable. The date that the asset was last modified and by whom.|
+    |Size|Not modifiable. The file size of the asset.|
+    |URL|Not modifiable. The permalink to the asset.|
