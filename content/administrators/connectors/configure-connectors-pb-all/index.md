@@ -16,10 +16,6 @@ parent-topic: administrators-connectors-overview
     
     ![Persona Bar > Settings > Connectors](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Under Configure Connections, choose the service provider in the list and click/tap Connect or Edit.
     
       
