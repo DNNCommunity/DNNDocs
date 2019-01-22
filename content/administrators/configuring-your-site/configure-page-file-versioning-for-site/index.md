@@ -21,10 +21,6 @@ related-topics: page-file-versioning
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Go to the Site Behavior tab, and then the More subtab.
     
     ![Site Behavior > More](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-More-E90.png)
@@ -37,16 +33,7 @@ related-topics: page-file-versioning
     
       
     
-    Field
-    
-    Description
-    
-    Enable Page Versioning  
-    Enable File Versioning
-    
-    If enabled (On), the most recent versions of versioning-enabled page/file/asset are stored, up to the specified maximum number of versions.
-    
-    Maximum Number of Page Versions Kept  
-    Maximum Number of File Versions Kept
-    
-    The maximum number of versions stored. For pages, this value must be from 1 to 20. For files/assets, this value must be from 5 to 25.
+    |Field|Description|
+    |---|---|
+    |Enable Page Versioning<br />Enable File Versioning|If enabled (On), the most recent versions of versioning-enabled page/file/asset are stored, up to the specified maximum number of versions.|
+    |Maximum Number of Page Versions Kept<br />Maximum Number of File Versions Kept|The maximum number of versions stored. For pages, this value must be from 1 to 20. For files/assets, this value must be from 5 to 25.|
