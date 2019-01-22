@@ -23,10 +23,6 @@ You can optimize the search index by marking generated pages as duplicates if th
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Go to the Search tab, and then the Crawling subtab.
     
     ![Search > Crawling](/images/scr-pbtabs-all-Settings-SiteSettings-Search-Crawling-E90.png)
@@ -47,16 +43,9 @@ You can optimize the search index by marking generated pages as duplicates if th
     
       
     
-    Field
-    
-    Description
-    
-    Description
-    
-    A name for the regex pattern entry. Typically, the name of the module that generates the dynamic content in pages that match the specified pattern.
-    
-    Regex Pattern
-    
-    The regular expression that describes the various URLs and URL parameters of pages that are considered duplicates.
+    |Field|Description|
+    |---|---|
+    |<strong>Description</strong>|A name for the regex pattern entry. Typically, the name of the module that generates the dynamic content in pages that match the specified pattern.|
+    |<strong>Regex Pattern</strong>|The regular expression that describes the various URLs and URL parameters of pages that are considered duplicates.|
     
 5.  Save.
