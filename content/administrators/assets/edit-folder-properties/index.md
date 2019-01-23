@@ -17,10 +17,6 @@ related-topics: create-folder,edit-folder-permissions,move-folder,delete-folder
     
     ![Persona Bar > Content > Assets](/images/scr-pbar-host-Content-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Go to the folder that contains the asset or subfolder.
     
     *   If the containing folder is within the current folder, select it from the cards.
@@ -66,34 +62,12 @@ related-topics: create-folder,edit-folder-permissions,move-folder,delete-folder
     
       
     
-    Field
-    
-    Description
-    
-    Created
-    
-    Not modifiable. The date that the asset was uploaded and by whom.
-    
-    Last Modified
-    
-    Not modifiable. The date that the asset was last modified and by whom.
-    
-    Folder type
-    
-    Not modifiable. The folder type selected when the folder was created.
-    
-    Subscribe
-    
-    If enabled (On), users can subscribe to updates to this asset.
-    
-    Name
-    
-    The asset's filename.
-    
-    Workflow
-    
-     
-    
-    Versioning
-    
-    If enabled (On), users can choose to view different versions of the asset.
+    |Field|Description|
+    |---|---|
+    |Created|Not modifiable. The date that the asset was uploaded and by whom.|
+    |Last Modified|Not modifiable. The date that the asset was last modified and by whom.|
+    |Folder type|Not modifiable. The folder type selected when the folder was created.|
+    |Subscribe|If enabled (<strong>On</strong>), users can subscribe to updates to this asset.|
+    |Name|The asset's filename.|
+    |Workflow||
+    |Versioning|If enabled (<strong>On</strong>), users can choose to view different versions of the asset.|

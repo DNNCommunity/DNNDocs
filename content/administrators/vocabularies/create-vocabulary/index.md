@@ -23,10 +23,6 @@ Note: You cannot change a vocabulary's type or scope after it is created.
     
     ![Persona Bar > Settings > Vocabularies](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Click/Tap Create New Vocabulary.
     
       
@@ -43,18 +39,9 @@ Note: You cannot change a vocabulary's type or scope after it is created.
     
       
     
-    Field
-    
-    Description
-    
-    Type
-    
-    *   Simple for folksonomy, where anyone can add a term to a flat list.
-    *   Hierarchy for taxonomy, where terms are typically added by the host/superuser to a hierarchy.
-    
-    Scope
-    
-    *   Website. The vocabulary applies to a specific site and is listed under the Website tab, as well as the All tab. (Also indicated as Scope: Portal.)
-    *   Application. The vocabulary applies to all sites within the DNN installation and is listed under the Application tab, as well as the All tab.
+    |Field|Description|
+    |---|---|
+    |Type|<ul><li><strong>Simple</strong> for folksonomy, where anyone can add a term to a flat list.</li><li><strong>Hierarchy</strong> for taxonomy, where terms are typically added by the host/superuser to a hierarchy.</li></ul>|
+    |Scope|<ul><li><strong>Website</strong>. The vocabulary applies to a specific site and is listed under the <strong>Website</strong> tab, as well as the <strong>All</strong> tab. (Also indicated as <strong>Scope: Portal</strong>.)</li><li><strong>Application</strong>. The vocabulary applies to all sites within the DNN installation and is listed under the <strong>Application</strong> tab, as well as the <strong>All</strong> tab.</li></ul>
     
 4.  Click/Tap Create.

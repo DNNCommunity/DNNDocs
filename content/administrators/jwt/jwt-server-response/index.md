@@ -13,21 +13,11 @@ related-topics: setup-jwt-for-auth,setup-jwt-for-auth,jwt-user-credentials,jwt-a
 
 When the server responds to the user's browser, the JSON object that is returned contains three properties.
 
-Property name
-
-Description
-
-displayName
-
-The display name of the user.
-
-accessToken
-
-A JWT that must be included with each subsequent request to the various Web API endpoints for servers. The server obtains the user information from the access token itself, which is faster than retrieving the information from the database again. The access token is valid for 60 minutes and must be renewed using the renewal token.
-
-renewalToken
-
-A JWT that is required to renew the access token when expired. The renewal token becomes invalid after 14 days, after the user logs out, or when the user changes their credentials, such as the login password for the web site.
+|Property name|Description|
+|---|---|
+|<em>displayName</em>|The display name of the user.|
+|<em>accessToken</em>|A JWT that must be included with each subsequent request to the various Web API endpoints for servers. The server obtains the user information from the access token itself, which is faster than retrieving the information from the database again. The access token is valid for 60 minutes and must be renewed using the renewal token.|
+|<em>renewalToken</em>|A JWT that is required to renew the access token when expired. The renewal token becomes invalid after 14 days, after the user logs out, or when the user changes their credentials, such as the login password for the web site.|
 
 A sample JSON object sent to the browser after validating a user named "Site Manager":
 

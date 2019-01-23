@@ -21,10 +21,6 @@ related-topics: edit-role,delete-role,assign-users-to-role,edit-date-range-for-r
     
     ![Persona Bar > Manage > Roles](/images/scr-pbar-host-Manage-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Click/Tap Create New Role.
     
       
@@ -41,36 +37,13 @@ related-topics: edit-role,delete-role,assign-users-to-role,edit-date-range-for-r
     
       
     
-    Field
-    
-    Description
-    
-    Public
-    
-    If enabled, any registered user can subscribe to this role.
-    
-    Role Group
-    
-    Note: A role must belong to exactly one group. The \[Global Roles\] group contains all roles that do not belong to a custom group.
-    
-    Security Mode
-    
-    *   Security Role. The role is used to managed access to modules and pages of the site.
-    *   Social Group. The role is used as a community that users can join and subscribe to. Available only in Evoq Engage.
-    *   Both. The role is used both as a security role and as a social group. Use this mode when access to a certain area (modules and pages) of the website must be restricted to members of a community. Available only in Evoq Engage.
-    
-    Status
-    
-    *   Pending. The role was created but not yet approved for use.
-    *   Disabled. The role is not available.
-    *   Approved. The role is available.
-    
-    Auto Assignment
-    
-    If enabled, new users are automatically added to this role.
-    
-    Assign to Existing Users
-    
-    If enabled, all existing users are automatically added to this role.
+    |Field|Description|
+    |---|---|
+    |<strong>Public</strong>|If enabled, any registered user can subscribe to this role.|
+    |<strong>Role Group</strong>|Note: A role must belong to exactly one group. The \[Global Roles\] group contains all roles that do not belong to a custom group.|
+    |<strong>Security Mode</strong>|<ul><li><strong>Security Role</strong>. The role is used to managed access to modules and pages of the site.</li><li><strong>Social Group</strong>. The role is used as a community that users can join and subscribe to. Available only in Evoq Engage.</li><li><strong>Both</strong>. The role is used both as a security role and as a social group. Use this mode when access to a certain area (modules and pages) of the website must be restricted to members of a community. Available only in Evoq Engage.</li></ul>|
+    |<strong>Status</strong>|<ul><li><strong>Pending</strong>. The role was created but not yet approved for use.</li><li><strong>Disabled</strong>. The role is not available.</li><li><strong>Approved</strong>. The role is available.</li></ul>|
+    |<strong>Auto Assignment</strong>|If enabled, new users are automatically added to this role.|
+    |<strong>Assign to Existing Users</strong>|If enabled, all existing users are automatically added to this role.|
     
 4.  Save.

@@ -27,10 +27,6 @@ Hosts can revoke permissions from or demote another host.
     
     ![Persona Bar > Manage > Users](/images/scr-pbar-host-Manage-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Click/Tap Add User.
     
       
@@ -47,25 +43,12 @@ Hosts can revoke permissions from or demote another host.
     
       
     
-    Field
-    
-    Description
-    
-    Authorized
-    
-    If enabled (On), the user is immediately subscribed to the Registered User role and to other roles that have Auto Assignment enabled. If disabled (Off), the user account is created but not authorized; an administrator must authorize the user account before the user can access areas of the website that are restricted to Registered User members.
-    
-    Random Password
-    
-    If enabled (On), generates a random password. Otherwise, you must provide a password.
-    
-    Password
-    
-    If the site is configured with password rules (i.e., minimum length), the initial password you assign must obey those password rules.
-    
-    Send an Email to New User
-    
-    If checked, the user is notified by email that the account is created. Can be checked at a later time to send the email belatedly.
+    |Field|Description|
+    |---|---|
+    |<strong>Authorized</strong>|If enabled (<strong>On</strong>), the user is immediately subscribed to the <strong>Registered User</strong> role and to other roles that have <strong>Auto Assignment</strong> enabled. If disabled (<strong>Off</strong>), the user account is created but not authorized; an administrator must authorize the user account before the user can access areas of the website that are restricted to <strong>Registered User</strong> members.|    
+    |<strong>Random Password</strong>|If enabled (<strong>On</strong>), generates a random password. Otherwise, you must provide a password.|
+    |<strong>Password</strong>|If the site is configured with password rules (i.e., minimum length), the initial password you assign must obey those password rules.|
+    |<strong>Send an Email to New User</strong>|If checked, the user is notified by email that the account is created. Can be checked at a later time to send the email belatedly.|
     
 4.  Search for the user account.
     

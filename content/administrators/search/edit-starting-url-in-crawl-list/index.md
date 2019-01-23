@@ -21,10 +21,6 @@ related-topics: add-starting-url-to-crawl-list,delete-starting-url-from-crawl-li
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Go to the Search tab, and then the Crawling subtab.
     
     ![Search > Crawling](/images/scr-pbtabs-all-Settings-SiteSettings-Search-Crawling-E90.png)
@@ -45,38 +41,12 @@ related-topics: add-starting-url-to-crawl-list,delete-starting-url-from-crawl-li
     
       
     
-    Field
-    
-    Description
-    
-    URL
-    
-    The URL where crawling should start.
-    
-    Sitemap URL
-    
-    The URL of the sitemap to use, if any.
-    
-    DNN Role Impersonation
-    
-    The role assigned to the crawler to gain access to this URL path.
-    
-    Note: The role must have at least one user assigned to it.
-    
-    Enable Spidering
-    
-    If enabled, the specified URL is marked to be included in the next crawl. If disabled, the specified URL is not included in the next crawl; however, any existing index for this URL is still used for search.
-    
-    Windows Authentication
-    
-    If enabled, the crawler users the specified credentials to gain access to the site:
-    
-    *   Windows Domain
-    *   Windows User Account
-    *   Windows User Password
-    
-    If the user account and password are blank, the local server's default Windows credentials are used.
-    
-    Note: Enable this option if the site uses Integrated Windows Authentication.
+     |Field|Description|
+    |---|---|
+    |<strong>URL</strong>|The URL where crawling should start.|
+    |<strong>Sitemap URL</strong>|The URL of the sitemap to use, if any.|
+    |<strong>DNN Role Impersonation</strong>|The role assigned to the crawler to gain access to this URL path. Note: The role must have at least one user assigned to it.|
+    |<strong>Enable Spidering</strong>|If enabled, the specified <strong>URL</strong>is marked to be included in the next crawl. If disabled, the specified <strong>URL</strong> is not included in the next crawl; however, any existing index for this URL is still used for search.|
+    |<strong>Windows Authentication</strong>|If enabled, the crawler users the specified credentials to gain access to the site<ul><li><strong>Windows Domain</strong><li><strong>Windows User Account</strong></li><li><strong>Windows User Password</strong></li></ul><br />If the user account and password are blank, the local server's default Windows credentials are used.<br />Note: Enable this option if the site uses <strong>Integrated Windows Authentication</strong>.|
     
 5.  Save.
