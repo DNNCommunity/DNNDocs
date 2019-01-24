@@ -17,10 +17,6 @@ related-topics: create-template-based-on-another-template-pb-all,edit-delete-tem
     
     ![Persona Bar > Content > Pages](/images/scr-pbar-host-Content-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  In the Pages page, hover over the page, then click/tap the gear icon.
     
       
@@ -48,26 +44,16 @@ related-topics: create-template-based-on-another-template-pb-all,edit-delete-tem
     
       
     
-    Field
-    
-    Description
-    
-    Template Name
-    
-    The name of the new template.
-    
-    Description
-    
-    The description of the new template.
-    
-    Include Content
-    
-    Only appears if exporting to XML. If enabled (On), the resulting template file includes information about all the modules in the current page. If disabled, the resulting template file only includes page information.
+    |Field|Description|
+    |---|---|
+    |**Template Name**|The name of the new template.|
+    |**Description**|The description of the new template.|
+    |**Include Content**|Only appears if exporting to XML. If enabled (**On**), the resulting template file includes information about all the modules in the current page. If disabled, the resulting template file only includes page information.|
     
 
 ## Results
 
-If Evoq Page Template, the list of templates is displayed, showing the new template.
+If **Evoq Page Template**, the list of templates is displayed, showing the new template.
 
   
 
@@ -75,4 +61,4 @@ If Evoq Page Template, the list of templates is displayed, showing the new templ
 
   
 
-If Export as XML, the page settings is displayed again.
+If **Export as XML**, the page settings is displayed again.

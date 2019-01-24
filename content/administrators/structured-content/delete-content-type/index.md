@@ -11,7 +11,8 @@ related-topics: create-content-type,duplicate-content-type,edit-content-type,con
 
 # Delete a Content Type
 
-Note: Content types provided by DNN cannot be deleted.
+> [!NOTE]
+> Content types provided by DNN cannot be deleted.
 
 ## Prerequisites
 
@@ -22,11 +23,7 @@ Note: Content types provided by DNN cannot be deleted.
 1.  Go to Persona Bar \> Content \> Content Library.
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
-    
-    ➊
-    
-    ➋
-    
+      
 2.  Go to the Content Types tab.
     
     ![Content Types](/images/scr-pbtabs-all-Content-ContentLibrary-ContentTypes-E91.png)

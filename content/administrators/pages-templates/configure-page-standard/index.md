@@ -17,10 +17,6 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
     
     ![Persona Bar > Content > Pages](/images/scr-pbar-host-Content-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  In the Pages page, hover over the page to configure, then click/tap the gear icon.
     
       
@@ -40,77 +36,24 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
         
         ![Add Page > Details > Page Type: Standard](/images/scr-pb-AddSinglePage-Details-Standard-E91.png)
         
-          
+        > [!TIP]
+        > Tip: The title is used by search engines to identify the information on the page. Include at least five highly descriptive words, and keep the title under 200 characters.
         
-        Field
-        
-        Description
-        
-        \[Page\] Name
-        
-        Required. Used in the navigation.
-        
-        \[Page\] Title
-        
-        Displayed as the browser window's title.
-        
-        Tip: The title is used by search engines to identify the information on the page. Include at least five highly descriptive words, and keep the title under 200 characters.
-        
-        \[Page\] Description
-        
-        Information about the page.
-        
-        Keywords
-        
-        Comma-separated keywords that can be used by search engines to help index your site's pages.
-        
-        Tags
-        
-        Predefined tags that you can choose from the dropdown, if any are defined in the Taxonomy Manager.
-        
-        Parent Page
-        
-        Branch Parent
-        
-        The page under which the new page(s) should reside in the hierarchy.
-        
-        Display in Menu
-        
-        If enabled, the page is included in the main navigation menu. If the page is not included in the navigation menu, you can still link to it using its URL.
-        
-        Link Tracking
-        
-        If enabled, tracking links are created to determine where traffic to the page is coming from.
-        
-        Workflow
-        
-        Predefined workflow states that you can choose from the dropdown.
-        
-        Enable Scheduling
-        
-        If enabled, the Start Date and End Date buttons appear below the switch. Click/Tap on either button to set the time span when the page is publicly visible on the site.
-        
-        *   The page is published after the specified start date. If Start Date is not set, the page is published immediately.
-        *   The page is hidden after the specified end date. If End Date is not set, the page is visible indefinitely.
-        
-          
-        
-        ![Add Page > Details > Calendar](/images/scr-pb-AddPage-Details-Calendar.png)
-        
-          
-        
-        Template Mode
-        
-        *   Import from Xml. You must specify an XML file containing the template to import.
-        *   Evoq Page Template. You must choose from the template layouts provided by the site's current theme.
-        
-        Page Template
-        
-        The template layouts are defined by the theme used in the site.
-        
-        Xml File
-        
-        The XML file containing the template to import.
+        |Field|Description|
+        |---|---|
+        |**[Page] Name**|Required. Used in the navigation.|
+        |**[Page] Title**|Displayed as the browser window's title.|
+        |**[Page] Description**|Information about the page.|
+        |**Keywords**|Comma-separated keywords that can be used by search engines to help index your site's pages.|
+        |**Tags**|Predefined tags that you can choose from the dropdown, if any are defined in the **Taxonomy Manager**.|
+        |**Parent Page <br />Branch Parent**|The page under which the new page(s) should reside in the hierarchy.|
+        |**Display in Menu**|If enabled, the page is included in the main navigation menu. If the page is not included in the navigation menu, you can still link to it using its URL.|
+        |**Link Tracking**|If enabled, tracking links are created to determine where traffic to the page is coming from.|
+        |**Workflow**|Predefined workflow states that you can choose from the dropdown.|
+        |**Enable Scheduling**|If enabled, the **Start Date** and **End Date** buttons appear below the switch. Click/Tap on either button to set the time span when the page is publicly visible on the site.<ul><li>The page is published after the specified start date. If **Start Date** is not set, the page is published immediately.</li><li>The page is hidden after the specified end date. If **End Date** is not set, the page is visible indefinitely.![Add Page > Details > Calendar](/images/scr-pb-AddPage-Details-Calendar.png)</li>|
+        |**Template Mode**|<ul><li>**Import from Xml**. You must specify an XML file containing the template to import.</li><li>**Evoq Page Template**. You must choose from the template layouts provided by the site's current theme.</li></ul>|
+        |**Page Template**|The template layouts are defined by the theme used in the site.|
+        |**Xml File**|The XML file containing the template to import.|
         
 4.  (Optional) In the Permissions tab, configure which roles can do which actions on this page.
     
@@ -137,7 +80,8 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
         
           
         
-        Note: The Modules tab appears only if configuring a standard page.
+        > [!NOTE]
+        > Note: The Modules tab appears only if configuring a standard page.
         
     2.  In the Appearance subtab, configure how the page is displayed.
         
@@ -147,29 +91,13 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
         
           
         
-        Field
-        
-        Description
-        
-        Page Theme
-        
-        The theme to use for the page.
-        
-        Layout
-        
-        The layout to use for the page.
-        
-        Page Container
-        
-        The container to use for all modules in the page. This setting is overridden by the module's container setting, if any.
-        
-        Page Stylesheet
-        
-        The CSS to use for this page. If blank, a default CSS is used. (Note: The default CSS used depends on other settings; it might be from the page theme, the site theme, or other CSS defaults.)
-        
-        Preview Theme Layout and Container
-        
-        If clicked/tapped, all the selected Appearance settings are applied to a page in a new browser window or tab.
+        |Field|Description|
+        |---|---|
+        |**Page Theme**|The theme to use for the page.|
+        |**Layout**|The layout to use for the page.|
+        |**Page Container**|The container to use for all modules in the page. This setting is overridden by the module's container setting, if any.|
+        |**Page Stylesheet**|The CSS to use for this page. If blank, a default CSS is used. (Note: The default CSS used depends on other settings; it might be from the page theme, the site theme, or other CSS defaults.)|
+        |**Preview Theme Layout and Container**|If clicked/tapped, all the selected Appearance settings are applied to a page in a new browser window or tab.|
         
     3.  In the SEO subtab, configure SEO-related settings for the page.
         
@@ -179,21 +107,11 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
         
           
         
-        Field
-        
-        Description
-        
-        Page Header Tags
-        
-        HTML `<meta>` tags to add to the `<head>` of the page. Example: `<meta name="keywords" content="CMS, Liquid Content, example">`
-        
-        Sitemap Priority
-        
-        The priority for the page (0 to 1.0; default is 0.5). This value helps search engines to rank the page relative to other pages in the site.
-        
-        Allow Indexing
-        
-        If enabled (On), the `ROBOTS` meta tag is set to `INDEX` to indicate that search engines should index the page; i.e., `<meta name="ROBOTS" content="INDEX" />`. Otherwise, the `ROBOTS` meta tag is set to `NOINDEX`, and search engines ignore the page.
+        |Field|Description|
+        |---|---|
+        |**Page Header Tags**|HTML `<meta>` tags to add to the `<head>` of the page. Example: `<meta name="keywords" content="CMS, Liquid Content, example">`|
+        |**Sitemap Priority**|The priority for the page (0 to 1.0; default is 0.5). This value helps search engines to rank the page relative to other pages in the site.|
+        |**Allow Indexing**|If enabled (**On**), the `ROBOTS` meta tag is set to `INDEX` to indicate that search engines should index the page; i.e., `<meta name="ROBOTS" content="INDEX" />`. Otherwise, the `ROBOTS` meta tag is set to `NOINDEX`, and search engines ignore the page.|
         
     4.  In the More subtab, configure security and caching for the page.
         
@@ -203,21 +121,11 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
         
           
         
-        Field
-        
-        Description
-        
-        Secure Connection
-        
-        If enabled (On), the page is forced to use SSL. Available only if the site is SSL-enabled.
-        
-        Disable Page
-        
-        If enabled (On), the page appears in the navigation, but it cannot be clicked/tapped, thus creating a placeholder.
-        
-        Output Cache Provider
-        
-        The caching provider to use for the page. If none is specified, the site's caching provider is used.
+        |Field|Description|
+        |---|---|
+        |**Secure Connection**|If enabled (**On**), the page is forced to use SSL. Available only if the site is SSL-enabled.|
+        |**Disable Page**|If enabled (**On**), the page appears in the navigation, but it cannot be clicked/tapped, thus creating a placeholder.|
+        |**Output Cache Provider**|The caching provider to use for the page. If none is specified, the site's caching provider is used.|
         
 6.  Click/Tap Save.
 

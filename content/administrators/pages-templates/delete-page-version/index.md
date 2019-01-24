@@ -11,7 +11,8 @@ related-topics: view-page-versions,compare-page-versions,restore-page-version,pa
 
 # Delete a Page Version
 
-Note: You cannot delete the current revision.
+> [!NOTE]
+> You cannot delete the current revision.
 
 ## Prerequisites
 

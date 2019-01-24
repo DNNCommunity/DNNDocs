@@ -17,10 +17,6 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
     
     ![Persona Bar > Content > Pages](/images/scr-pbar-host-Content-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  In the Pages page, hover over the page, then click/tap the gear icon.
     
       
@@ -36,5 +32,5 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
     ![Pages > Permissions tab > Copy Permissions to Descendant Pages](/images/scr-pb-Page-Permissions-CopyToDescendants-E91.png)
     
       
-    
-    Note: This option appears, only if the page has descendants.
+    > [!NOTE]
+    > This option appears, only if the page has descendants.

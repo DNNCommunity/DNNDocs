@@ -13,8 +13,6 @@ related-topics: duplicate-content-type,edit-content-type,delete-content-type,con
 
 This video briefly demonstrates how to create a custom content type.
 
-  
-
 ## Prerequisites
 
 *   **Microservices must be enabled for your site.**
@@ -24,10 +22,6 @@ This video briefly demonstrates how to create a custom content type.
 1.  Go to Persona Bar \> Content \> Content Library.
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
-    
-    ➊
-    
-    ➋
     
 2.  Go to the Content Types tab.
     
@@ -49,21 +43,11 @@ This video briefly demonstrates how to create a custom content type.
     
       
     
-    Field
-    
-    Description
-    
-    Content Type Title
-    
-    The name of the content type. Can be edited at the top of the form where it is displayed.
-    
-    Content Type Glyph / Icon
-    
-    The icon that represents the content type in a list or grid. Expand the dropdown arrow to select or search.
-    
-    Add a description
-    
-    A short description of the content type.
+    |Field|Description|
+    |---|---|
+    |**Content Type Title**|The name of the content type. Can be edited at the top of the form where it is displayed.|
+    |**Content Type Glyph / Icon**|The icon that represents the content type in a list or grid. Expand the dropdown arrow to select or search.|
+    |**Add a description**|A short description of the content type.|
     
 5.  Manage the fields of the content type.
     1.  To add a new field, drag and drop a field type to the canvas, then configure its settings.
@@ -106,20 +90,10 @@ This video briefly demonstrates how to create a custom content type.
     
       
     
-    Field
-    
-    Description
-    
-    Content Item Name
-    
-    The word or phrase that describes each item of this content type. Example: A content item based on the Job Listing content type could be called job opening.
-    
-    Tags
-    
-    Words or phrases to be associated with the content items based on this content type.
-    
-    Description
-    
-    A short description of the content items based on this content type.
+    |Field|Description|
+    |---|---|
+    |**Content Item Name**|The word or phrase that describes each item of this content type. Example: A content item based on the Job Listing content type could be called job opening.|
+    |**Tags**|Words or phrases to be associated with the content items based on this content type.|
+    |**Description**|A short description of the content items based on this content type.|
     
 7.  Save.

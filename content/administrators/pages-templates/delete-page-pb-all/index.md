@@ -11,22 +11,14 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
 
 # Delete a Page via the Persona Bar
 
-Note:
-
-*   Deleting a parent page also deletes its child pages.
-*   Pages that are set as the Splash page, the Home page, the Login page, or the User page cannot be deleted until the settings are changed by the administrator in the site settings.
-*   The last visible site page cannot be deleted.
-*   Deleted pages are stored in the recycle bin until they are restored or purged.
+> [!NOTE]
+> <ul><li>Deleting a parent page also deletes its child pages.</li><li>Pages that are set as the Splash page, the Home page, the Login page, or the User page cannot be deleted until the settings are changed by the administrator in the site settings.</li><li>The last visible site page cannot be deleted.</li><li>Deleted pages are stored in the recycle bin until they are restored or purged.</li></ul>
 
 ## Steps
 
 1.  Go to Persona Bar \> Content \> Pages.
     
     ![Persona Bar > Content > Pages](/images/scr-pbar-host-Content-E91.png)
-    
-    ➊
-    
-    ➋
     
 2.  In the Pages page, hover over the page to delete, then click/tap the X icon.
     

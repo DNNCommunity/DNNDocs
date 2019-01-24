@@ -42,7 +42,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
     |**Display in Menu**|If enabled, the page is included in the main navigation menu. If the page is not included in the navigation menu, you can still link to it using its URL.|
     |**Link Tracking**|If enabled, tracking links are created to determine where traffic to the page is coming from.|
     |**Enable Scheduling**|If enabled, the **Start Date** and **End Date** buttons appear below the switch. Click/Tap on either button to set the time span when the page is publicly visible on the site.<ul><li>The page is published after the specified start date. If Start Date is not set, the page is published immediately.</li><li>The page is hidden after the specified end date. If End Date is not set, the page is visible indefinitely.![Add Page > Details > Calendar](/images/scr-pb-AddPage-Details-Calendar.png)</li></ul>
-    |**Bulk Pages to Add**|The names of the pages to add for use in the navigation. One per line. To create a hierarchy, prepend the name with `>`.<br /><br />Example:<pre>Topic 1<br />>Topic 1.1</br>>Topic 1.2<br />>>Topic 1.2.1<br />Topic 2</pre>|   
+    |**Bulk Pages to Add**|The names of the pages to add for use in the navigation. One per line. To create a hierarchy, prepend the name with `>`.<br /><br />Example:<pre>Topic 1<br />>Topic 1.1<br />Topic 1.2<br />>>Topic 1.2.1<br />Topic 2</pre>|   
 
 
 4.  Click/Tap Add Pages.
