@@ -11,7 +11,8 @@ related-topics: create-visualizer,edit-visualizer,import-visualizer,export-visua
 
 # Delete a Visualizer
 
-Note: Visualizers provided by DNN cannot be edited, replaced, exported, or deleted.
+> [!NOTE}
+> Visualizers provided by DNN cannot be edited, replaced, exported, or deleted.
 
 ## Prerequisites
 
@@ -22,10 +23,6 @@ Note: Visualizers provided by DNN cannot be edited, replaced, exported, or delet
 1.  Go to Persona Bar \> Content \> Content Library.
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
-    
-    ➊
-    
-    ➋
     
 2.  Go to the Visualizers tab.
     

@@ -21,10 +21,6 @@ related-topics: create-content-type,edit-content-type,delete-content-type,conten
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Go to the Content Types tab.
     
     ![Content Types](/images/scr-pbtabs-all-Content-ContentLibrary-ContentTypes-E91.png)
@@ -43,23 +39,12 @@ related-topics: create-content-type,edit-content-type,delete-content-type,conten
     
     ![Content Type settings](/images/scr-ContentTypes-Settings.png)
     
-      
     
-    Field
-    
-    Description
-    
-    Content Type Title
-    
-    The name of the content type. Can be edited at the top of the form where it is displayed.
-    
-    Content Type Glyph / Icon
-    
-    The icon that represents the content type in a list or grid. Expand the dropdown arrow to select or search.
-    
-    Add a description
-    
-    A short description of the content type.
+    |Field|Description|
+    |---|---|
+    |**Content Type Title**|The name of the content type. Can be edited at the top of the form where it is displayed.|
+    |**Content Type Glyph / Icon**|The icon that represents the content type in a list or grid. Expand the dropdown arrow to select or search.|
+    |**Add a description**|A short description of the content type.|
     
 5.  Configure the content type's properties.
     
@@ -69,21 +54,11 @@ related-topics: create-content-type,edit-content-type,delete-content-type,conten
     
       
     
-    Field
-    
-    Description
-    
-    Content Item Name
-    
-    The word or phrase that describes each item of this content type. Example: A content item based on the Job Listing content type could be called job opening.
-    
-    Tags
-    
-    Words or phrases to be associated with the content items based on this content type.
-    
-    Description
-    
-    A short description of the content items based on this content type.
+    |Field|Description|
+    |---|---|
+    |**Content Item Name**|The word or phrase that describes each item of this content type. Example: A content item based on the Job Listing content type could be called job opening.|
+    |**Tags**|Words or phrases to be associated with the content items based on this content type.|
+    |**Description**|A short description of the content items based on this content type.|
     
 6.  Manage the fields of the content type.
     1.  To add a new field, drag and drop a field type to the canvas, then configure its settings.

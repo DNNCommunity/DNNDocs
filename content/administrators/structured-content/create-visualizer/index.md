@@ -21,10 +21,6 @@ related-topics: edit-visualizer,delete-visualizer,import-visualizer,export-visua
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Go to the Visualizers tab.
     
     ![Visualizers](/images/scr-pbtabs-all-Content-ContentLibrary-Visualizers-E91.png)
@@ -45,29 +41,18 @@ related-topics: edit-visualizer,delete-visualizer,import-visualizer,export-visua
     
       
     
-    Field
+    |Field|Description|
+    |---|---|
+    |**Name**|The name of the visualizer.|
+    |**Description**|A short description of the visualizer.|
+    |**Icon**|The icon for the visualizer.|
+    |**Content Type**|The content type to associate with this visualizer.|
+
+    > [!TIP]
+    >Include the name of the content type in the visualizer's name to make it easy to find all visualizers associated with the content type. If you plan to have multiple visualizers for the same content type, add a short phrase that briefly describes its function to distinguish it from other visualizers.
     
-    Description
-    
-    Name
-    
-    The name of the visualizer.
-    
-    Tip: Include the name of the content type in the visualizer's name to make it easy to find all visualizers associated with the content type. If you plan to have multiple visualizers for the same content type, add a short phrase that briefly describes its function to distinguish it from other visualizers.
-    
-    Description
-    
-    A short description of the visualizer.
-    
-    Icon
-    
-    The icon for the visualizer.
-    
-    Content Type
-    
-    The content type to associate with this visualizer.
-    
-    Warning: Changing the content type will replace any existing HTML code in the Editor \> Template editor.
+    > [!WARNING]
+    > Changing the content type will replace any existing HTML code in the Editor \> Template editor.
     
 5.  In the Editor tab, design the visualizer.
     1.  In the Template editor, enter the HTML code for the visualizer.
@@ -85,7 +70,8 @@ related-topics: edit-visualizer,delete-visualizer,import-visualizer,export-visua
         
         If the field has multiple values (e.g., multiple choice fields), the values are comma-separated.
         
-        Tip: Choose the content type in the Details tab before editing the visualizer HTML code. The fields of the selected content type are added to the Template editor as placeholders for the field value(s). They are also displayed in a dropdown that appears when you press Ctrl+Space.
+        > [!TIP]
+        > Choose the content type in the Details tab before editing the visualizer HTML code. The fields of the selected content type are added to the Template editor as placeholders for the field value(s). They are also displayed in a dropdown that appears when you press Ctrl+Space.
         
           
         
@@ -93,7 +79,8 @@ related-topics: edit-visualizer,delete-visualizer,import-visualizer,export-visua
         
           
         
-        Tip: Because the placeholders hide the inner tags, such as `<img/>` or `<p/>`, you can wrap the placeholders with `<div/>` tags with `class` names or `id` names that you can refer to in the CSS code. Example: `<div class="myimgdiv">{{ myImg }}</div>`
+        > [!TIP] 
+        > Because the placeholders hide the inner tags, such as `<img/>` or `<p/>`, you can wrap the placeholders with `<div/>` tags with `class` names or `id` names that you can refer to in the CSS code. Example: `<div class="myimgdiv">{{ myImg }}</div>`
         
     2.  In the Style editor, enter CSS code for the visualizer.
         
@@ -102,8 +89,8 @@ related-topics: edit-visualizer,delete-visualizer,import-visualizer,export-visua
         ![Content > Visualizers tab > Editor > Style](/images/scr-Visualizers-Editor-Style-E91.png)
         
           
-        
-        Tip: If you wrapped a placeholder, you can access the inner tag if you wrapped them in a named `<div/>` tag. Example: `.myimgdiv img { width: 50px }`
+        > [!TIP]
+        > If you wrapped a placeholder, you can access the inner tag if you wrapped them in a named `<div/>` tag. Example: `.myimgdiv img { width: 50px }`
         
     3.  In the Script editor, enter JavaScript code for the visualizer, if needed.
         

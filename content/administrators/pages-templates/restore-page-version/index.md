@@ -10,8 +10,8 @@ related-topics: view-page-versions,compare-page-versions,delete-page-version,pag
 ---
 
 # Restore a Page Version
-
-Note: The restored version is copied to the top of the list as the most recent version.
+> [!NOTE]
+> The restored version is copied to the top of the list as the most recent version.
 
 ## Prerequisites
 
