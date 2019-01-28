@@ -21,10 +21,6 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,del
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Go to the Content tab.
     
     ![Content](/images/scr-pbtabs-all-Content-ContentLibrary-Content-E91.png)
@@ -65,7 +61,8 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,del
     
     1.  Choose one or more profiles to use as the sender or poster.
         
-        Note: Facebook pages cannot be used as profiles for posting.
+        > [!NOTE]
+        > Facebook pages cannot be used as profiles for posting.
         
     2.  (Optional) Add a message and/or a URL link to include with the content item.
     3.  (Optional) Schedule the publishing date and time for the post.

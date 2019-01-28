@@ -19,19 +19,8 @@ related-topics: content-field-assets,content-field-date-time,content-field-multi
 
   
 
-Field
-
-Description
-
-Appearance
-
-*   Heading. The text in the Content field is displayed and formatted as an HTML heading at the level you choose.
-*   Paragraph. The text in the Content field is displayed as an HTML paragraph.
-
-Heading
-
-The HTML header tag (H2 to H6) to use for the text.
-
-Content
-
-The text to display. Maximum length is 140 single-byte characters.
+|**Field**|**Description**|
+|---|---|
+|**Appearance**|<ul><li><strong>Heading</strong>. The text in the Content field is displayed and formatted as an HTML heading at the level you choose.</li><li><strong>Paragraph</strong>. The text in the Content field is displayed as an HTML paragraph.</li></ul>|
+|**Heading**|The HTML header tag (H2 to H6) to use for the text.|
+|**Content**|The text to display. Maximum length is 140 single-byte characters.|

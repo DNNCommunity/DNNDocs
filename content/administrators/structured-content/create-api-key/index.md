@@ -11,7 +11,8 @@ related-topics: get-existing-api-key,edit-or-reset-api-key,delete-api-key
 
 # Create an API Key
 
-Warning: Verify that you are at the site that will be associated with the API key before creating the key.
+> [!WARNING]
+> Verify that you are at the site that will be associated with the API key before creating the key.
 
 ## Prerequisites
 
@@ -23,12 +24,9 @@ Warning: Verify that you are at the site that will be associated with the API ke
 1.  Go to Persona Bar \> Content \> Content Library.
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
+
     
-    ➊
-    
-    ➋
-    
-2.  Go to the API Keys tab.
+2.  Go to the **API Keys** tab.
     
     ![API Keys](/images/scr-pbtabs-host-Content-ContentLibrary-APIKeys-E91.png)
     
@@ -51,9 +49,10 @@ Warning: Verify that you are at the site that will be associated with the API ke
     1.  Enter a human-friendly name for the API key.
     2.  Choose the permissions to grant to the app that uses the API key.
         
-        Note: An API key is associated with the content items of a specific site; i.e., the site that was current when the key was created.
+        > [!NOTE]
+        > An API key is associated with the content items of a specific site; i.e., the site that was current when the key was created.
         
-5.  Click/Tap Create.
+5.  Click/Tap **Create**.
 6.  Search for the API key in the list.
     
       
@@ -62,7 +61,7 @@ Warning: Verify that you are at the site that will be associated with the API ke
     
       
     
-7.  To copy the API key to your clipboard, click/tap the clipboard icon in the API Key column.
+7.  To copy the API key to your clipboard, click/tap the clipboard icon in the **API Key** column.
     
       
     
