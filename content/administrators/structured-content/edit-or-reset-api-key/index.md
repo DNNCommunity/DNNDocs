@@ -22,10 +22,6 @@ related-topics: create-api-key,get-existing-api-key,delete-api-key
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Go to the API Keys tab.
     
     ![API Keys](/images/scr-pbtabs-host-Content-ContentLibrary-APIKeys-E91.png)
@@ -57,14 +53,17 @@ related-topics: create-api-key,get-existing-api-key,delete-api-key
     1.  Update a human-friendly name for the API key.
     2.  Change the permissions associated with the API key.
         
-        Note: An API key is associated with the content items of a specific site; i.e., the site that was current when the key was created.
+        > [!NOTE]
+        > An API key is associated with the content items of a specific site; i.e., the site that was current when the key was created.
         
     3.  (Optional) To copy the API key to your clipboard, click/tap the Copy Key.
         
-        Note: The Copy Key does the same thing as the clipboard icon in the list.
+        > [!NOTE]
+        > The Copy Key does the same thing as the clipboard icon in the list.
         
     4.  (Optional) To reset the API key, click/tap the Reset Key.
         
-        Warning: This action cannot be undone, whether other changes are saved or not. Reset Key immediately deletes the old key and replaces it with a new one. Third-party apps that use the old key will no longer be able to access your content items unless you provide them with the new key.
+        > [!WARNING]
+        > This action cannot be undone, whether other changes are saved or not. Reset Key immediately deletes the old key and replaces it with a new one. Third-party apps that use the old key will no longer be able to access your content items unless you provide them with the new key.
         
 6.  Save.

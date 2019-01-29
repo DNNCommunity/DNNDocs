@@ -24,62 +24,15 @@ This example walks you through creating a content type for recipes, two visualiz
     
       
     
-    Field
-    
-    Content field
-    
-    Custom settings
-    
-    Recipe Name
-    
-    Single-Line Text
-    
-    *   Validation \> Required: On
-    
-    Picture(s) of Dish
-    
-    Assets
-    
-    *   Appearance: Image
-    *   Maximum Number Of Assets: 3
-    *   Validation \> Required: On
-    
-    Description
-    
-    Multi-Line Text
-    
-    *   Appearance: Text Editor
-    *   Description: On
-    *   Description text box: Say something about your recipe.
-    
-    Preparation Time
-    
-    Date / Time
-    
-    *   Appearance: Time
-    *   Time Format: 00:00 - 24 HR
-    *   Include Timezone: Off
-    *   Validation \> Required: On
-    
-    Servings
-    
-    Number
-    
-    *   Default Value: 2
-    
-    Ingredients
-    
-    Multi-Line Text
-    
-    *   Appearance: Text Editor
-    *   Validation \> Required: On
-    
-    Steps
-    
-    Multi-Line Text
-    
-    *   Appearance: Text Editor
-    *   Validation \> Required: On
+    |**Field**|**Content Field**|**Custom settings**|
+    |---|---|---|
+    |Recipe Name|**Single-Line Text**|<ul><li><strong>Validation \> Required: On</strong></li></ul>|
+    |Picture(s) of Dish|**Assets**|<ul><li><strong>Appearance: Image</strong></li><li><strong>Maximum Number Of Assets: `3`</strong></li><li><strong>Validation \> Required: On</strong></li></ul>|
+    |Description|**Multi-Line Text**|<ul><li><strong>Appearance: Text Editor</strong></li><li><strong>Description: On</strong></li><li><strong>Description text box: `Say something about your recipe.`</strong></li></ul>|
+    |Preparation Time|**Date / Time**|<ul><li><strong>Appearance: Time</strong></li><li><strong>Time Format: 00:00 - 24 HR</strong></li><li><strong>Include Timezone: Off</strong></li><li><strong>Validation \> Required: On</strong></li></ul>|
+    |Servings|**Number**|<ul><li><strong>Default Value: 2</strong></li></ul>|
+    |Ingredients|**Multi-Line Text**|<ul><li><strong>Appearance: Text Editor</strong></li><li><strong>Validation \> Required: On</strong></li></ul>|
+    |Steps|**Multi-Line Text**|<ul><li><strong>Appearance: Text Editor</strong></li><li><strong>Validation \> Required: On</strong></li></ul>|
     
 2.  [Create a visualizer](xref:create-visualizer) for Recipe Content Type for displaying recipes in a list.
     
@@ -91,21 +44,11 @@ This example walks you through creating a content type for recipes, two visualiz
     
     1.  Fill in the details of the visualizer.
         
-        Field
-        
-        Description
-        
-        Name
-        
-        My Recipe Summary Visualizer
-        
-        Description
-        
-        This recipe visualizer is for lists of recipes.
-        
-        Content Type
-        
-        Recipe Content Type
+        |**Field**|**Description**|
+        |---|---|
+        |**Name**|`My Recipe Summary Visualizer`|
+        |**Description**|`This recipe visualizer is for lists of recipes.`|
+        |**Content Type**|`Recipe Content Type`|
         
     2.  Enter the HTML code in the Template editor using the provided tokens for the recipe name, picture, and description.
         
@@ -160,21 +103,11 @@ This example walks you through creating a content type for recipes, two visualiz
     
     1.  Fill in the details of the visualizer.
         
-        Field
-        
-        Description
-        
-        Name
-        
-        My Recipe Full Visualizer
-        
-        Description
-        
-        This recipe visualizer displays the entire recipe in one page.
-        
-        Content Type
-        
-        Recipe Content Type
+        |**Field**|**Description**|
+        |---|---|
+        |**Name**|`My Recipe Full Visualizer`|
+        |**Description**|`This recipe visualizer displays the entire recipe in one page.`|
+        |**Content Type**|`Recipe Content Type`|
         
     2.  Enter the HTML code in the Template editor using the provided tokens for all the fields.
         
@@ -262,17 +195,10 @@ This example walks you through creating a content type for recipes, two visualiz
         
           
         
-        Field
-        
-        Description
-        
-        Name
-        
-        Chicken Adobo Recipe
-        
-        Display in Menu
-        
-        Off. Depending on how you design your site, you might not want to display every recipe page in the navigation.
+        |**Field**|**Description**|
+        |---|---|
+        |**Name**|`Chicken Adobo Recipe`|
+        |**Display in Menu**|**Off**. Depending on how you design your site, you might not want to display every recipe page in the navigation.|
         
     2.  Set the permissions to allow your registered users to view the page.
         
@@ -309,7 +235,8 @@ This example walks you through creating a content type for recipes, two visualiz
         
     7.  Select the My Recipe Full Visualizer.
         
-        Note: Only the visualizers associated with the selected content type are displayed.
+        > [!NOTE]
+        > Only the visualizers associated with the selected content type are displayed.
         
           
         
@@ -336,17 +263,10 @@ This example walks you through creating a content type for recipes, two visualiz
 6.  [Create a new page](xref:create-single-page-standard) in which to display the list of recipes with their names, pictures, and short descriptions.
     1.  Enter the details for the page.
         
-        Field
-        
-        Description
-        
-        Name
-        
-        All Recipes
-        
-        Display in Menu
-        
-        On. Turn this On if you want your users to easily access this page in the navigation.
+        |**Field**|**Description**|
+        |---|---|
+        |**Name**|`All Recipes`|
+        |**Display in Menu**|**On**. Turn this **On** if you want your users to easily access this page in the navigation.|
         
     2.  Set the permissions to allow your registered users to view the page.
         
@@ -383,7 +303,8 @@ This example walks you through creating a content type for recipes, two visualiz
         
     7.  Select the My Recipe Summary.
         
-        Note: Only the visualizers associated with the selected content type are displayed.
+        > [!NOTE]
+        > Only the visualizers associated with the selected content type are displayed.
         
           
         
