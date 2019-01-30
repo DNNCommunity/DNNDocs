@@ -1,4 +1,4 @@
-# [Administrators](/content/administrators/dnn-overview/090200/)
-# Designers
-# Developers
+# [Administrators](/content/administrators/)
+# [Designers](/content/designers/)
+# [Developers](/content/developers/)
 # [API](/api/)
