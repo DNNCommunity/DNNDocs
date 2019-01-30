@@ -51,16 +51,6 @@ Note: The module displays only content items that were added to it, not content 
 
  
 
-Package
-
-Category
-
-Product(s)
-
- ![icon](/images/ico-module-publisher.png) 
-
-Publisher
-
-None
-
- ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)
+|  |Package|Category|Product(s)|
+|--|--|--|--|--|
+|![icon](/images/ico-module-publisher.png)|Publisher|None|![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)|

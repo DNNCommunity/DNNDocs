@@ -25,16 +25,6 @@ Companion modules are displayed automatically when the main module is added to a
 
  
 
-Package
-
-Category
-
-Product(s)
-
- ![icon](/images/ico-module-activitystream.png) 
-
-Activity Stream
-
-Social
-
- ![Evoq Engage](/images/ico-evoq-engage.png)
+|  |Package|Category|Product(s)|
+|--|--|--|--|--|
+|![icon](/images/ico-module-activitystream.png)|Activity Stream|Social|![Evoq Engage](/images/ico-evoq-engage.png)|

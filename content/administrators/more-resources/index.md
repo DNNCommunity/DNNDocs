@@ -13,7 +13,8 @@ related-topics: administrators-included-modules-overview,requirements,product-ve
 
 ## Hosts, Administrators, Content Managers/Editors, and Community Managers/Moderators
 
-Note: All documentation for Evoq 8.5 and later are in the Documentation Center only. User manuals in PDF format are available only for older versions.
+> [!Note]
+> All documentation for Evoq 8.5 and later are in the Documentation Center only. User manuals in PDF format are available only for older versions.
 
 *   [DocCenter archive (Evoq 8.5)](http://archive.dnnsoftware.com/docs/85)
 *   [PDF manuals for older versions](http://www.dnnsoftware.com/community/download/manuals)

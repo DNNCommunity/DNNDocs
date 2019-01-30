@@ -21,19 +21,9 @@ Adds a dynamic content layout that can accommodate more modules.
 
  
 
-Package
-
-Category
-
-Product(s)
-
- ![icon](/images/ico-module-contentlayout.png) 
-
-Content Layout
-
-Recommended
-
- ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png) 
+|  |Package|Category|Product(s)|
+|--|--|--|--|--|
+|![icon](/images/ico-module-contentlayout.png)|Content Layout|Recommended|![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)|
 
 ## Module Configuration
 

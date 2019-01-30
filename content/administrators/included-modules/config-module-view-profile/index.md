@@ -30,16 +30,10 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    Field
+    |**Field**|**Description**|
+    |---|---|
+    |**Include Edit Button**|If checked, the Edit Profile button is displayed.|
+    |**Profile Template**|The custom HTML template used to display the user profile.|
     
-    Description
-    
-    Include Edit Button
-    
-    If checked, the Edit Profile button is displayed.
-    
-    Profile Template
-    
-    The custom HTML template used to display the user profile.
-    
-    Tip: Load Default inserts HTML code wrapped inside a <div> tag. You can customize that code according to your needs.
+    > [!Tip]
+    > Load Default inserts HTML code wrapped inside a <div> tag. You can customize that code according to your needs.

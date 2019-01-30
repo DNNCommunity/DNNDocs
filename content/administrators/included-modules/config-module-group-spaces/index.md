@@ -30,11 +30,6 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    Field
-    
-    Description
-    
-    Features List Mode
-    
-    *   Single Level. Only the top level group features are displayed in the group menu.
-    *   Two Level (Child Pages). Two levels of group features are displayed in the group menu.
+    |**Field**|**Description**|
+    |---|---|
+    |**Features List Mode**|<ul><li>**Single Level**. Only the top level group features are displayed in the group menu.</li><li>**Two Level** (Child Pages). Two levels of group features are displayed in the group menu.</li></ul>|

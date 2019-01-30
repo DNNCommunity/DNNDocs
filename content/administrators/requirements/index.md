@@ -49,7 +49,8 @@ The following are required for DNN Platform 9.0 and DNN Evoq 9.0.
 *   Microsoft Edge
 *   Safari for Mac
 
-Note: DNN products are tested on the latest browser versions at the time of release. Although untested, older browsers could still work.
+> [!Note]
+> DNN products are tested on the latest browser versions at the time of release. Although untested, older browsers could still work.
 
 ## Developer IDEs
 

@@ -31,17 +31,6 @@ The displayed entries are filtered based on the module settings, the page settin
 Tip: In Evoq Engage, use the Activity Stream module, instead of the Journal.
 
  
-
-Package
-
-Category
-
-Product(s)
-
- ![icon](/images/ico-module-journal.png) 
-
-Journal
-
-None
-
- ![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)
+|  |Package|Category|Product(s)|
+|--|--|--|--|--|
+|![icon](/images/ico-module-journal.png)|Journal|None|![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)|

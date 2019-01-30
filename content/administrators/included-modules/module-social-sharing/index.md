@@ -21,16 +21,6 @@ Exposes social sharing links to Google+, Twitter, LinkedIn, and Facebook.
 
  
 
-Package
-
-Category
-
-Product(s)
-
- ![icon](/images/ico-module-socialsharing.png) 
-
-Social Sharing
-
-Social
-
- ![Evoq Engage](/images/ico-evoq-engage.png)
+|  |Package|Category|Product(s)|
+|--|--|--|--|--|
+|![icon](/images/ico-module-socialsharing.png)|Social Sharing|Social|![Evoq Engage](/images/ico-evoq-engage.png)|

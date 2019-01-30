@@ -21,16 +21,6 @@ Displays the collection of badges that are available on the site. For authentica
 
  
 
-Package
-
-Category
-
-Product(s)
-
- ![icon](/images/ico-module-userbadges.png) 
-
-User Badges
-
-Social
-
- ![Evoq Engage](/images/ico-evoq-engage.png)
+|  |Package|Category|Product(s)|
+|--|--|--|--|--|
+|![icon](/images/ico-module-userbadges.png)|User Badges|Social|![Evoq Engage](/images/ico-evoq-engage.png)|

@@ -30,28 +30,10 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    Field
-    
-    Description
-    
-    View Mode
-    
-    *   Thumbnail. Displays the thumbnail logos of the groups in a grid.
-    *   List. Displays the list of group names.
-    
-    Role Group
-    
-    Filters the list to show only the groups in the selected role group.
-    
-    Group List Page Size
-    
-    The number of items to initially display, and the number of additional items to display when the Get More button is clicked/tapped.
-    
-    Sort Field  
-                                   Sort List By
-    
-    Sorts the list based on the selected field.
-    
-    Group Creation Requires Approval
-    
-    If checked, a user with Moderators permissions or an administrator must approve new groups.
+    |**Field**|**Description**|
+    |---|---|
+    |**View Mode**|<ul><li>**Thumbnail**. Displays the thumbnail logos of the groups in a grid.</li><li>**List**. Displays the list of group names.</li></ul>|
+    |**Role Group**|Filters the list to show only the groups in the selected role group.|
+    |**Group List Page Size**|The number of items to initially display, and the number of additional items to display when the **Get More** button is clicked/tapped.|
+    |**Sort Field<br />Sort List By**|Sorts the list based on the selected field.|
+    |**Group Creation Requires Approval**|If checked, a user with **Moderators** permissions or an administrator must approve new groups.|

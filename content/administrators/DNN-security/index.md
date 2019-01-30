@@ -24,21 +24,11 @@ All submissions are viewed by members of the DNN Security Task Force only. Submi
 
 Each confirmed issue is assigned a severity level (Critical, Moderate, or Low) based on its potential impact on the security of DNN installations.
 
-Severity Level
-
-Description
-
-Critical
-
-The security issue could be exploited by a remote attacker to gain access to DNN data or functionality. Security bulletins for all critical issues include a recommended workaround or a fix that must be applied as soon as possible.
-
-Moderate
-
-The security issue could compromise data or functionality, only if another condition is met; e.g., if a specific module is installed or if a user in a specific role logs in. Security bulletins for moderate issues typically include recommended actions to resolve the issue.
-
-Low
-
-The security issue is very difficult to exploit, or its potential impact is limited.
+|**Severity Level**|**Description**|
+|---|---|
+|**Critical**|The security issue could be exploited by a remote attacker to gain access to DNN data or functionality. Security bulletins for all critical issues include a recommended workaround or a fix that must be applied as soon as possible.|
+|**Moderate**|The security issue could compromise data or functionality, only if another condition is met; e.g., if a specific module is installed or if a user in a specific role logs in. Security bulletins for moderate issues typically include recommended actions to resolve the issue.|
+|**Low**|The security issue is very difficult to exploit, or its potential impact is limited.|
 
 ## Security Bulletins
 

@@ -23,16 +23,6 @@ See [Member Directory](xref:module-member-directory).
 
  
 
-Package
-
-Category
-
-Product(s)
-
- ![icon](/images/ico-module-leaderboard.png) 
-
-Leaderboard
-
-Social
-
- ![Evoq Engage](/images/ico-evoq-engage.png)
+|  |Package|Category|Product(s)|
+|--|--|--|--|--|
+|![icon](/images/ico-module-leaderboard.png)|Leaderboard|Social|![Evoq Engage](/images/ico-evoq-engage.png)|

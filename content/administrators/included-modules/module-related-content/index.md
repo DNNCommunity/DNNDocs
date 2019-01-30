@@ -17,16 +17,6 @@ Relationships are based on the cid parameter of the URL; however, content manage
 
  
 
-Package
-
-Category
-
-Product(s)
-
- ![icon](/images/ico-module-relatedcontent.png) 
-
-Related Content
-
-Social
-
- ![Evoq Engage](/images/ico-evoq-engage.png)
+|  |Package|Category|Product(s)|
+|--|--|--|--|--|
+|![icon](/images/ico-module-relatedcontent.png)|Related Content|Social|![Evoq Engage](/images/ico-evoq-engage.png)|

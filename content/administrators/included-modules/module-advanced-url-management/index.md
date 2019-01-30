@@ -19,19 +19,9 @@ Helps administrators to manage the site's friendly URLs.
 
  
 
-Package
-
-Category
-
-Product(s)
-
- ![icon](/images/ico-module-advurlmgmt.png) 
-
-Advanced URL Management
-
-Admin
-
- ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png) 
+|  |Package|Category|Product(s)|
+|--|--|--|--|--|
+|![icon](/images/ico-module-advurlmgmt.png)|Advanced URL Management|Admin|![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)|
 
 ## Module Configuration
 

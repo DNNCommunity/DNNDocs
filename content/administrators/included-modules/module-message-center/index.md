@@ -23,19 +23,9 @@ By default, the Message Center module can be accessed by clicking on the current
 
  
 
-Package
-
-Category
-
-Product(s)
-
- ![icon](/images/ico-module-messagecenter.png) 
-
-Message Center
-
-Admin
-
- ![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png) 
+|  |Package|Category|Product(s)|
+|--|--|--|--|--|
+|![icon](/images/ico-module-messagecenter.png)|Message Center|Admin|![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)|
 
 ## Module Configuration
 
