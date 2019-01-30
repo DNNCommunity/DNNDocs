@@ -28,17 +28,17 @@ The site files are located on the root drive rather than inside a folder.
     4.  [In IIS Manager, change the website's physical path to point to this new folder.](xref:set-up-iis#tsk-set-up-iis__point-to-DNN-folder)
 2.  In IIS Manager, restart your website.
     
-    1.  Go to Control Panel \> Administrative Tools \> Internet Information Services (IIS) Manager.
+    1.  Go to **Control Panel \> Administrative Tools \> Internet Information Services (IIS) Manager**.
         
-    2.  In the Actions panel on the right, click/tap Manage Server \> Restart.
+    2.  In the **Actions** panel on the right, click/tap **Manage Server \> Restart**.
         
           
         
         ![IIS Manager - Restart](/images/scr-IISManager-restart.png)
         
           
-        
-        Tip: Remember to update your DNS with your new server’s IP address.
+        > [!TIP]
+        > Remember to update your DNS with your new server’s IP address.
         
 
 ## Possible Cause
@@ -66,14 +66,14 @@ The web.config file is missing the correct assembly binding.
     
 4.  In IIS Manager, restart your website.
     
-    1.  Go to Control Panel \> Administrative Tools \> Internet Information Services (IIS) Manager.
+    1.  Go to **Control Panel \> Administrative Tools \> Internet Information Services (IIS) Manager**.
         
-    2.  In the Actions panel on the right, click/tap Manage Server \> Restart.
+    2.  In the **Actions** panel on the right, click/tap **Manage Server \> Restart**.
         
           
         
         ![IIS Manager - Restart](/images/scr-IISManager-restart.png)
         
           
-        
-        Tip: Remember to update your DNS with your new server’s IP address.
+        > [!TIP]
+        > Remember to update your DNS with your new server’s IP address.

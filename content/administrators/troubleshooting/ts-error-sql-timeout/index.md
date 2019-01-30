@@ -19,11 +19,11 @@ Log Viewer is currently unavailable. DotNetNuke.Services.Exceptions.ModuleLoadEx
 
 ## Possible Cause
 
-Some SQL tables have grown too large, specifically EventLog, SiteLog, and ScheduleHistory.
+Some SQL tables have grown too large, specifically **EventLog, SiteLog**, and **ScheduleHistory**.
 
 ## Solution
 
-1.  Go to Persona Bar \> Settings \> SQL Console.
+1.  Go to **Persona Bar \> Settings \> SQL Console**.
 2.  Check the sizes of EventLog, SiteLog, and ScheduleHistory.
     1.  Run the following SQL script:
         
@@ -51,7 +51,7 @@ Some SQL tables have grown too large, specifically EventLog, SiteLog, and Schedu
                                             
         ```
         
-    2.  In the result, note the RowCounts values for EventLog, SiteLog, and ScheduleHistory.
+    2.  In the result, note the **RowCounts** values for EventLog, SiteLog, and ScheduleHistory.
 3.  Clear EventLog.
     1.  Run the following SQL script:
         
@@ -62,7 +62,8 @@ Some SQL tables have grown too large, specifically EventLog, SiteLog, and Schedu
                                             
         ```
         
-        Note: To clear EventLog, replace `1000` with the RowCounts value. To reduce the size of EventLog (instead of clearing it), replace `1000` with the number of rows you want to delete.
+        > [!NOTE]
+        > To clear **EventLog**, replace `1000` with the **RowCounts** value. To reduce the size of **EventLog** (instead of clearing it), replace `1000` with the number of rows you want to delete.
         
 4.  Delete the SiteLog and ScheduleHistory tables.
     1.  Run the following SQL script:

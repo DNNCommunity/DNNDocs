@@ -21,10 +21,6 @@ related-topics: view-entry-details,clear-log,delete-entries,share-entries,add-ev
     
     ![Persona Bar > Manage > Admin Logs](/images/scr-pbar-host-Manage-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Go to the Admin Logs tab.
     
     ![Admin Logs](/images/scr-pbtabs-host-Manage-AdminLogs-AdminLogs-E90.png)
@@ -36,5 +32,5 @@ related-topics: view-entry-details,clear-log,delete-entries,share-entries,add-ev
     ![Dropdowns to choose the site and/or logged event type](/images/scr-AdminLogs-adminlogslist-filters-E90.gif)
     
       
-    
-    Note: Hosts/Superusers can filter by site and by event type. Administrators can view only their own site's log and can filter by event type only.
+    > [!NOTE]
+    > Hosts/Superusers can filter by site and by event type. Administrators can view only their own site's log and can filter by event type only.

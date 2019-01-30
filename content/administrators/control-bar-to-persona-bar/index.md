@@ -13,7 +13,8 @@ related-topics: administrators-included-modules-overview,requirements,product-ve
 
 The following tables show the correspondence between the old Control Panel/Bar and the new Persona Bar.
 
-Note: The Persona Bar varies according to the product and to the permissions granted to the current authenticated (logged-in) user through roles. Examples: A host or superuser has access to almost all menu items, whereas a community manager would have access to only the features required to manage the community-related aspects of the site. Likewise, Evoq Content does not have the community-related menu items that Evoq Engage has.
+> [!NOTE]
+> The Persona Bar varies according to the product and to the permissions granted to the current authenticated (logged-in) user through roles. Examples: A host or superuser has access to almost all menu items, whereas a community manager would have access to only the features required to manage the community-related aspects of the site. Likewise, Evoq Content does not have the community-related menu items that Evoq Engage has.
 
 ## Admin
 
@@ -23,354 +24,68 @@ Note: The Persona Bar varies according to the product and to the permissions gra
 
   
 
-Control Panel/Bar
-
-Persona Bar
-
-Admin \> Event Viewer
-
-Manage \> Admin Logs
-
-Admin \> File Management
-
-Content \> Assets
-
-Admin \> Page Management
-
-Content \> Pages
-
-Admin \> Recycle Bin
-
-Content \> Recycle Bin
-
-Admin \> Security Roles
-
-Manage \> Roles
-
-1.  Admin \> Site Settings
-2.  Basic Settings tab
-3.  Site Details subtab
-
-1.  Settings \> Site Settings
-2.  Site Info tab
-
-1.  Admin \> Site Settings
-2.  Basic Settings tab
-3.  Site Marketing subtab
-
-1.  Settings \> SEO
-2.  Sitemap Settings tab
-
-1.  Admin \> Site Settings
-2.  Basic Settings tab
-3.  Appearance subtab
-
-1.  Settings \> Site Settings
-2.  Site Info tab
-
-1.  Admin \> Site Settings
-2.  Advanced Settings tab
-3.  Page Management subtab
-
-1.  Settings \> Site Settings
-2.  Site Behavior tab
-3.  Default Pages subtab
-
-1.  Admin \> Site Settings
-2.  Advanced Settings tab
-3.  Security Settings subtab
-
-1.  Settings \> Security
-2.  Login Settings tab
-3.  Basic Login Settings subtab
-
-1.  Admin \> Site Settings
-2.  Advanced Settings tab
-3.  Payment Settings subtab
-
-(deprecated)
-
-1.  Admin \> Site Settings
-2.  Advanced Settings tab
-3.  Usability Settings subtab
-
-1.  Settings \> Site Settings
-2.  Site Info tab
-
-Site TimeZone only. The rest were deprecated.
-
-1.  Admin \> Site Settings
-2.  Advanced Settings tab
-3.  Version Settings subtab
-
-1.  Settings \> Site Settings
-2.  Site Behavior tab
-3.  More subtab
-
-1.  Admin \> Site Settings
-2.  Advanced Settings tab
-3.  Form Builder (Enable) subtab
-
-1.  Settings \> Site Settings
-2.  Site Behavior tab
-3.  More subtab
-
-1.  Admin \> Site Settings
-2.  Advanced Settings tab
-3.  Structured Content (Enable) subtab
-
-1.  Settings \> Site Settings
-2.  Site Behavior tab
-3.  More subtab
-
-1.  Admin \> Site Settings
-2.  Advanced Settings tab
-3.  Site Aliases subtab
-
-1.  Settings \> Site Settings
-2.  Site Behavior tab
-3.  Site Aliases subtab
-
-1.  Admin \> Site Settings
-2.  Advanced Settings tab
-3.  SMTP Server Settings subtab
-
-1.  Settings \> Servers
-2.  Server Settings tab
-3.  SMTP Server subtab
-
-1.  Admin \> Site Settings
-2.  Advanced Settings tab
-3.  SSL Settings subtab
-
-1.  Settings \> Security
-2.  More tab
-3.  SSL Settings subtab
-
-1.  Admin \> Site Settings
-2.  Advanced Settings tab
-3.  Messaging Settings subtab
-
-1.  Settings \> Site Settings
-2.  Site Behavior tab
-3.  Messaging subtab
-
-1.  Admin \> Site Settings
-2.  Advanced Settings tab
-3.  Host Settings subtab
-
-Field: Expiry Date
-
- 
-
-1.  Admin \> Site Settings
-2.  Advanced Settings tab
-3.  Host Settings subtab
-
-Field: Hosting Fee
-
- 
-
-1.  Admin \> Site Settings
-2.  Advanced Settings tab
-3.  Host Settings subtab
-
-Field: Disk Space
-
- 
-
-1.  Admin \> Site Settings
-2.  Advanced Settings tab
-3.  Host Settings subtab
-
-Field: Page Quota
-
- 
-
-1.  Admin \> Site Settings
-2.  Advanced Settings tab
-3.  Host Settings subtab
-
-Field: User Quota
-
- 
-
-1.  Admin \> Site Settings
-2.  Advanced Settings tab
-3.  Host Settings subtab
-
-Field: Available modules
-
- 
-
-1.  Admin \> Site Settings
-2.  Advanced Settings tab
-3.  Client Resource Management subtab
-
-1.  Settings \> Servers
-2.  Server Settings tab
-3.  Performance subtab
-
-1.  Admin \> Site Settings
-2.  Advanced Settings tab
-3.  Page Output Settings subtab
-
-1.  Settings \> Site Behavior
-2.  Default Pages tab
-
-HTML Page Header Tags only. The rest were deprecated.
-
-1.  Admin \> Site Settings
-2.  User Account Settings tab
-3.  Registration Settings subtab
-
-1.  Settings \> Security
-2.  Member Accounts tab
-3.  Registration Settings subtab
-
-1.  Admin \> Site Settings
-2.  User Account Settings tab
-3.  Login Settings subtab
-
-1.  Settings \> Security
-2.  Login Settings tab
-
-1.  Admin \> Site Settings
-2.  User Account Settings tab
-3.  Profile Settings subtab
-
-1.  Settings \> Site Behavior
-2.  User Profiles tab
-
-1.  Admin \> Site Settings
-2.  Stylesheet Editor tab
-
-Settings \> Custom CSS
-
-1.  Admin \> Site Settings
-2.  Advanced URL Settings tab
-3.  URL Settings subtab
-
-1.  Settings \> SEO
-2.  URL Management tab
-3.  General Settings subtab
-
-1.  Admin \> Site Settings
-2.  Advanced URL Settings tab
-3.  Extension URL Providers subtab
-
-(not yet available)
-
-Admin \> User Accounts
-
-Manage \> Users
+|**Control Panel/Bar**|**Persona Bar**|
+|---|---|
+|**Admin \> Event Viewer**|**Manage \> Admin Logs**|
+|**Admin \> File Management**|**Content \> Assets**|
+|**Admin \> Page Management**|**Content \> Pages**|
+|**Admin \> Recycle Bin**|**Content \> Recycle Bin**|
+|**Admin \> Security Roles**|**Manage \> Roles**|
+|<ol><li>**Admin \> Site Settings**</li><li>**Basic Settings** tab</li><li>**Site Details** subtab</li></ol>|<ol><li>**Settings \> Site Settings**</li><li>**Site Info** tab</li></ol>|
+|<ol><li>**Admin \> Site Settings**</li><li>**Basic Settings tab**</li><li>**Site Marketing** subtab</li></ol>|<ol><li>**Settings \> SEO**</li><li>**Sitemap Settings** tab</li></ol>|
+|<ol><li>**Admin \> Site Settings**</li><li>**Basic Settings** tab</li><li>**Appearance** subtab</li></ol>|<ol><li>**Settings \> Site Settings**</li><li>**Site Info** tab</li></ol>|
+|<ol><li>**Admin \> Site Settings**</li><li>**Advanced Settings** tab</li><li>**Page Management** subtab</li></ol>|<ol><li>**Settings \> Site Settings**</li><li>**Site Behavior** tab</li><li>**Default Pages** subtab</li>|
+|<ol><li>**Admin**> Site Settings**</li><li>**Advanced Settings** tab</li><li>**Security Settings** subtab</li></ol>|<ol><li>**Settings \> Security**</li><li>**Login Settings** tab</li><li>**Basic Login Settings** subtab</li></ol>
+|<ol><li>**Admin \> Site Settings**</li><li>**Advanced Settings** tab</li><li>**Payment Settings** subtab</li></ol>|(deprecated)|
+|<ol><li>**Admin \> Site Settings**</li><li>**Advanced Settings tab**</li><li>**Usability Settings** subtab</li></ol>|<ol><li>**Settings \> Site Settings**</li><li>**Site Info** tab</li></ol><br />Site TimeZone only. The rest were deprecated.|
+|<ol><li>**Admin \> Site Settings**</li><li>**Advanced Settings** tab</li><li>**Version Settings** subtab</li></ol>|<ol><li>**Settings \> Site Settings**</li><li>**Site Behavior** tab</li><li>**More** subtab</li></ol>|
+|<ol><li>**Admin \> Site Settings**</li><li>**Advanced Settings** tab</li><li>**Form Builder (Enable)** subtab</li></ol>|<ol><li>**Settings \> Site Settings**</li><li>**Site Behavior** tab</li><li>**More** subtab</li></ol>|
+|<ol><li>**Admin \> Site Settings**</li><li>**Advanced Settings** tab</li><li>**Structured Content (Enable)** subtab</li></ol>|<ol><li>**Settings \> Site Settings**</li><li>**Site Behavior** tab</li><li>**More** subtab</li></ol>|
+|<ol><li>**Admin \> Site Settings**</li><li>**Advanced Settings** tab</li><li>**Site Aliases** subtab</li></ol>|<ol><li>**Settings \> Site Settings**</li><li>**Site Behavior** tab</li><li>**Site Aliases** subtab</li></ol>|
+|<ol><li>**Admin \> Site Settings**</li><li>**Advanced Settings** tab</li><li>**SMTP Server Settings** subtab</li></ol>|<ol><li>**Settings \> Servers**</li><li>**Server Settings** tab</li><li>**SMTP Server** subtab</li></ol>|
+|<ol><li>**Admin \> Site Settings**</li><li>**Advanced Settings** tab</li><li>**SSL Settings** subtab</li></ol>|<ol><li>**Settings \> Security**</li><li>**More** tab</li><li>**SSL Settings** subtab</li></ol>|
+|<ol><li>**Admin \> Site Settings**</li><li>**Advanced Settings** tab</li><li>**Messaging Settings** subtab</li></ol>|<ol><li>**Settings \> Site Settings**</li><li>**Site Behavior** tab</li><li>**Messaging** subtab</li></ol>|
+|<ol><li>**Admin \> Site Settings**</li><li>**Advanced Settings** tab</li><li>**Host Settings** subtab</li></ol><br />Field: Expiry Date| |
+|<ol><li>**Admin \> Site Settings**</li><li>**Advanced Settings** tab</li><li>**Host Settings** subtab</li></ol><br />Field: Hosting Fee| |
+|<ol><li>**Admin \> Site Settings**</li><li>**Advanced Settings** tab</li><li>**Host Settings** subtab</li></ol><br />Field: Disk Space| |
+|<ol><li>**Admin \> Site Settings**</li><li>**Advanced Settings** tab</li><li>**Host Settings** subtab</li></ol><br />Field: Page Quota| |
+|<ol><li>**Admin \> Site Settings**</li><li>**Advanced Settings** tab</li><li>**Host Settings** subtab</li></ol><br />Field: User Quota| |
+|<ol><li>**Admin \> Site Settings**</li><li>**Advanced Settings** tab</li><li>**Host Settings** subtab</li></ol><br />Field: Available modules| |
+|<ol><li>**Admin \> Site Settings**</li><li>**Advanced Settings** tab</li><li>**Client Resource Management** subtab</li>|<ol><li>**Settings \> Servers**</li><li>**Server Settings** tab</li><li>**Performance** subtab</li></ol>|
+|<ol><li>**Admin \> Site Settings**</li><li>**Advanced Settings** tab</li><li>**Page Output Settings** subtab</li></ol>|<ol><li>**Settings \> Site Behavior**</li><li>**Default Pages** tab</li></ol><br />**HTML Page Header Tags** only. The rest were deprecated.|
+|<ol><li>**Admin \> Site Settings**</li><li>**User Account Settings** tab</li><li>**Registration Settings** subtab</li>|<ol><li>**Settings \> Security**</li><li>**Member Accounts** tab</li><li>**Registration Settings** subtab</li></ol>|
+|<ol><li>**Admin \> Site Settings**</li><li>**User Account Settings** tab</li><li>**Login Settings** subtab</li></ol>|<ol><li>**Settings \> Security**</li><li>**Login Settings** tab</li></ol>|
+|<ol><li>**Admin \> Site Settings**</li><li>**User Account Settings** tab</li><li>**Profile Settings** subtab</li></ol>|<ol><li>**Settings \> Site Behavior**</li><li>**User Profiles** tab</li></ol>|
+|<ol><li>**Admin \> Site Settings**</li><li>**Stylesheet Editor** tab</li></ol>|**Settings \> Custom CSS**|
+|<ol><li>**Admin \> Site Settings**</li><li>**Advanced URL Settings** tab</li><li>**URL Settings** subtab</li></ol>|<ol><li>**Settings \> SEO**</li><li>**URL Management** tab</li><li>**General Settings** subtab</li></ol>|
+|<ol><li>**Admin \> Site Settings**</li><li>**Advanced URL Settings** tab</li><li>**Extension URL Providers** subtab</li></ol>|(not yet available)|
+|**Admin \> User Accounts**|**Manage \> Users**|
 
   
 
 ![Old Control Panel/Bar menu - Admin - Advanced](/images/scr-menuAdminAdvanced.png)
 
   
-
-Control Panel/Bar
-
-Persona Bar
-
-1.  Admin \> Advanced URL Management
-2.  General tab
-
-1.  Settings \> SEO
-2.  URL Management tab
-3.  General Settings subtab
-
-1.  Admin \> Advanced URL Management
-2.  Regular Expressions tab
-
-1.  Settings \> SEO
-2.  URL Management tab
-3.  Expressions subtab
-
-1.  Admin \> Advanced URL Management
-2.  Test URL tab
-
-1.  Settings \> SEO
-2.  URL Management tab
-3.  Test URL subtab
-
-Admin \> Extensions
-
-Settings \> Extensions
-
-Admin \> Google Analytics Pro
-
-Settings \> Connectors
-
-Admin \> Languages
-
-1.  Settings \> Site Settings
-2.  Language tab
-
-Admin \> Lists
-
-(deprecated)
-
-1.  Admin \> Search Admin
-2.  General tab
-
-1.  Settings \> Site Settings
-2.  Search tab
-3.  Basic Settings subtab
-
-1.  Admin \> Search Admin
-2.  Synonyms tab
-
-1.  Settings \> Site Settings
-2.  Search tab
-3.  Synonyms subtab
-
-1.  Admin \> Search Admin
-2.  Ignore Words tab
-
-1.  Settings \> Site Settings
-2.  Search tab
-3.  Ignore Words subtab
-
-1.  Admin \> Search Admin
-2.  Advanced Crawlers tab
-
-1.  Settings \> Site Settings
-2.  Search tab
-3.  Crawling subtab
-
-Admin \> Search Engine Site Map
-
-1.  Settings \> SEO
-2.  Sitemap Settings tab
-
-Admin \> SharePoint Connector
-
-Settings \> Connectors
-
-Admin \> Site Wizard
-
-(deprecated)
-
-Admin \> Taxonomy
-
-Settings \> Vocabularies
-
-Admin \> Themes
-
-Manage \> Themes
-
-Admin \> User Switcher
-
-1.  Manage \> Users
-2.  (ellipses for the target account) tab
-3.  Login As User subtab
-
-Admin \> Workflow Management
-
-Settings \> Workflow
+|**Control Panel/Bar**|**Persona Bar**|
+|---|---|
+|<ol><li>**Admin \> Advanced URL Management**</li><li>**General** tab</li></ol>|<ol><li>**Settings \> SEO**</li><li>**URL Management** tab</li><li>**General Settings** subtab</li></ol>|
+|<ol><li>**Admin \> Advanced URL Management**</li><li>**Regular Expressions** tab</li></ol>|<ol><li>**Settings \> SEO**</li><li>**URL Management** tab</li><li>**Expressions** subtab</li></ol>|
+|<ol><li>**Admin \> Advanced URL Management**</li><li>**Test URL** tab</li></ol>|<ol><li>**Settings \> SEO**</li><li>**URL Management** tab</li><li>**Test URL** subtab</li></ol>|
+|**Admin \> Extensions**|**Settings \> Extensions**|
+|**Admin \> Google Analytics Pro**|**Settings \> Connectors**|
+|**Admin \> Languages**|<ol><li>**Settings \> Site Settings**</li><li>**Language** tab</li></ol>|
+|**Admin \> Lists**|(deprecated)|
+|<ol><li>**Admin \> Search Admin**</li><li>**General** tab</li></ol>|<ol><li>**Settings \> Site Settings**</li><li>**Search** tab</li><li>**Basic Settings** subtab</li></ol>|
+|<ol><li>**Admin \> Search Admin**</li><li>**Synonyms** tab</li></ol>|<ol><li>**Settings \> Site Settings**</li><li>**Search** tab</li><li>**Synonyms** subtab</li></ol>|
+|<ol><li>**Admin \> Search Admin**</li><li>**Ignore Words** tab</li>|<ol><li>**Settings \> Site Settings**</li><li>**Search** tab</li><li>**Ignore Words** subtab</li>|
+|<ol><li>**Admin \> Search Admin**</li><li>**Advanced Crawlers** tab</li></ol>|<ol><li>**Settings \> Site Settings**</li><li>**Search** tab</li><li>**Crawling** subtab</li></ol>|
+|**Admin \> Search Engine Site Map**|<ol><li>**Settings \> SEO**</li><li>**Sitemap Settings** tab</li></ol>|
+|**Admin \> SharePoint Connector**|**Settings \> Connectors**|
+|**Admin \> Site Wizard**|(deprecated)|
+|**Admin \> Taxonomy**|**Settings \> Vocabularies**|
+|**Admin \> Themes**|**Manage \> Themes**|
+|**Admin \> User Switcher**|<ol><li>**Manage \> Users**</li><li>(ellipses for the target account) tab</li><li>**Login As User** subtab</li></ol>|
+|**Admin \> Workflow Management**|**Settings \> Workflow**|
 
 ## Host
 
@@ -379,478 +94,66 @@ Settings \> Workflow
 ![Old Control Panel/Bar menu - Host - Common](/images/scr-menuHostCommon.png)
 
   
-
-Control Panel/Bar
-
-Persona Bar
-
-1.  Host \> Dashboard
-2.  Web Server tab
-
-1.  Settings \> Servers
-2.  System Info tab
-3.  Web subtab
-
-1.  Host \> Dashboard
-2.  Database Server tab
-
-1.  Settings \> Servers
-2.  System Info tab
-3.  Database subtab
-
-1.  Host \> Dashboard
-2.  Host tab
-
-1.  Settings \> Servers
-2.  System Info tab
-3.  Application subtab
-
-1.  Host \> Dashboard
-2.  Websites tab
-
-Manage \> Sites
-
-1.  Host \> Dashboard
-2.  Modules tab
-
-Settings \> Extensions
-
-1.  Host \> Dashboard
-2.  Themes tab
-
-Manage \> Themes
-
-1.  Host \> Extensions
-2.  Installed Extensions tab
-
-1.  Settings \> Extensions
-2.  Installed Extensions tab
-
-1.  Host \> Extensions
-2.  Available Extensions tab
-
-1.  Settings \> Extensions
-2.  Available Extensions tab
-
-1.  Host \> Extensions
-2.  Purchased Extensions tab
-
-(deprecated)
-
-1.  Host \> Extensions
-2.  More Extensions tab
-
-(deprecated)
-
-1.  Host \> Extensions
-2.  Install Extension Wizard button tab
-
-1.  Settings \> Extensions
-2.  Install Extension button tab
-
-1.  Host \> Extensions
-2.  Create New Extension button tab
-
-1.  Settings \> Extensions
-2.  Create New Extension button tab
-
-1.  Host \> Extensions
-2.  Create New Module button tab
-
-1.  Settings \> Extensions
-2.  Create New Module button tab
-
-Host \> File Management
-
-Content \> Assets
-
-1.  Host \> Host Settings
-2.  Basic Settings tab
-3.  Configuration subtab
-
-Fields:
-
-*   Product
-*   Version
-*   Data Provider
-*   GUID
-*   Is Web Farm
-
-1.  Settings \> Servers
-2.  System Info tab
-3.  Application subtab
-
-Fields:
-
-*   Product
-*   Version
-*   Data Provider
-*   Host GUID
-*   Web Farm Enabled
-
-1.  Host \> Host Settings
-2.  Basic Settings tab
-3.  Configuration subtab
-
-Field: Upgrade Available
-
-(not yet available)
-
-1.  Host \> Host Settings
-2.  Basic Settings tab
-3.  Configuration subtab
-
-Fields:
-
-*   .NET Framework
-*   ASP.NET Identity
-*   Relative Path
-*   Physical Path
-*   Server Time
-
-1.  Settings \> Servers
-2.  System Info tab
-3.  Web subtab
-
-Fields:
-
-*   .NET Framework Version
-*   ASP.NET Identity
-*   Relative Path
-*   Physical Path
-*   Server Time
-
-1.  Host \> Host Settings
-2.  Basic Settings tab
-3.  Configuration subtab
-
-Field: Server Name
-
- 
-
-1.  Host \> Host Settings
-2.  Basic Settings tab
-3.  Configuration subtab
-
-Field: IP Address
-
- 
-
-1.  Host \> Host Settings
-2.  Basic Settings tab
-3.  Configuration subtab
-
-Field: Permissions
-
- 
-
-1.  Host \> Host Settings
-2.  Basic Settings tab
-3.  Host Details subtab
-
-Fields:
-
-*   Host Website
-*   Host Title
-*   Host Email
-
-(deprecated)
-
-1.  Host \> Host Settings
-2.  Basic Settings tab
-3.  Host Details subtab
-
-Field: Host URL
-
-1.  Settings \> Servers
-2.  System Info tab
-3.  Web subtab
-
-Field: Site URL
-
-1.  Host \> Host Settings
-2.  Basic Settings tab
-3.  Host Details subtab
-
-Field: Enable Remember Me on Login Control
-
-1.  Settings \> Security
-2.  More tab
-3.  More Security Settings subtab
-
-Field: Enable Remember Me on Login Control
-
-1.  Host \> Host Settings
-2.  Basic Settings tab
-3.  Appearance subtab
-
-Field: Show Copyright Credits
-
- 
-
-1.  Host \> Host Settings
-2.  Basic Settings tab
-3.  Appearance subtab
-
-Field: Use Custom Error Messages
-
- 
-
-1.  Host \> Host Settings
-2.  Basic Settings tab
-3.  Appearance subtab
-
-Field: Use Custom Module CSS Class
-
- 
-
-1.  Host \> Host Settings
-2.  Basic Settings tab
-3.  Appearance subtab
-
-Field: Require SSL for Upgrade Wizard
-
- 
-
-1.  Host \> Host Settings
-2.  Basic Settings tab
-3.  Appearance subtab
-
-Field: Host Theme
-
- 
-
-1.  Host \> Host Settings
-2.  Basic Settings tab
-3.  Appearance subtab
-
-Field: Host Container
-
- 
-
-1.  Host \> Host Settings
-2.  Basic Settings tab
-3.  Appearance subtab
-
-Field: Edit Theme
-
- 
-
-1.  Host \> Host Settings
-2.  Basic Settings tab
-3.  Appearance subtab
-
-Field: Edit Container
-
- 
-
-1.  Host \> Host Settings
-2.  Basic Settings tab
-3.  Appearance subtab
-
-Field: Fallback Theme Doctype
-
- 
-
-1.  Host \> Host Settings
-2.  Basic Settings tab
-3.  Payment Settings subtab
-
- 
-
-1.  Host \> Host Settings
-2.  Advanced Settings tab
-3.  Friendly URL Settings subtab
-
- 
-
-1.  Host \> Host Settings
-2.  Advanced Settings tab
-3.  Proxy Settings subtab
-
- 
-
-1.  Host \> Host Settings
-2.  Advanced Settings tab
-3.  SMTP Server Settings subtab
-
-1.  Settings \> Servers
-2.  Server Settings tab
-3.  SMTP Server subtab
-
-1.  Host \> Host Settings
-2.  Advanced Settings tab
-3.  Performance Settings subtab
-
-1.  Settings \> Servers
-2.  Server Settings tab
-3.  Performance subtab
-
-1.  Host \> Host Settings
-2.  Advanced Settings tab
-3.  jQuery Settings subtab
-
- 
-
-1.  Host \> Host Settings
-2.  Advanced Settings tab
-3.  CDN Settings subtab
-
- 
-
-1.  Host \> Host Settings
-2.  Advanced Settings tab
-3.  Client Resource Management subtab
-
-1.  Settings \> Servers
-2.  Server Settings tab
-3.  Performance subtab
-
-1.  Host \> Host Settings
-2.  Advanced Settings tab
-3.  Membership Management subtab
-
-1.  Settings \> Security
-2.  Member Accounts tab
-3.  Member Management subtab
-
-1.  Host \> Host Settings
-2.  Advanced Settings tab
-3.  Login IP Filters subtab
-
-1.  Settings \> Security
-2.  Login Settings tab
-3.  Login IP Filters subtab
-
-1.  Host \> Host Settings
-2.  Advanced Settings tab
-3.  Search Settings subtab
-
-1.  Settings \> Site Settings
-2.  Search tab
-3.  Basic Settings subtab
-
-1.  Host \> Host Settings
-2.  Advanced Settings tab
-3.  Search Criteria subtab
-
-1.  Settings \> Site Settings
-2.  Search tab
-3.  File Extensions subtab
-
-1.  Host \> Host Settings
-2.  Other Settings tab
-
-Field: Enable Request Filters
-
- 
-
-1.  Host \> Host Settings
-2.  Other Settings tab
-
-Field: Control Panel
-
-(deprecated)
-
-1.  Host \> Host Settings
-2.  Other Settings tab
-
-Field: Enable Users Online
-
- 
-
-1.  Host \> Host Settings
-2.  Other Settings tab
-
-Field: Users Online Time
-
- 
-
-1.  Host \> Host Settings
-2.  Other Settings tab
-
-Fields:
-
-*   Auto-Unlock Accounts After
-*   Allowable File Extensions
-*   Debug Mode
-*   Show Critical Errors on Screen
-*   Max Upload Size
-*   Time Before Timeout
-
-1.  Settings \> Security
-2.  More tab
-3.  More Security Settings subtab
-
-Fields:
-
-*   Auto-Unlock Accounts After
-*   Allowable File Extensions
-*   Debug Mode
-*   Show Critical Errors on Screen
-*   Max Upload Size
-*   Time Before Timeout
-
-1.  Host \> Host Settings
-2.  Other Settings tab
-
-Field: Enable Event Log Buffer
-
- 
-
-1.  Host \> Host Settings
-2.  Other Settings tab
-
-Field: Help URL
-
- 
-
-1.  Host \> Host Settings
-2.  Other Settings tab
-
-Field: Enable Module Online Help
-
- 
-
-1.  Host \> Host Settings
-2.  Other Settings tab
-
-Field: Auto-Sync File System
-
- 
-
-1.  Host \> Host Settings
-2.  Other Settings tab
-
-Field: Allow Content Localization
-
- 
-
-1.  Host \> Host Settings
-2.  Other Settings tab
-
-Field: Participate in DNN Improvement Program
-
-1.  Settings \> Site Settings
-2.  Site Behavior tab
-3.  More subtab
-
-Field: Participate in DNN Improvement Program
-
-1.  Host \> Host Settings
-2.  Logs tab
-
-1.  Settings \> Servers
-2.  Server Settings tab
-3.  Logs subtab
-
-Host \> Knowledge Base
-
-\[logo\] \> Documentation
-
-Host \> Site Management
-
-Manage \> Sites
+|**Control Panel/Bar**|**Persona Bar**|
+|---|---|
+|<ol><li>**Host \> Dashboard**</li><li>**Web Server** tab</li></ol>|<ol><li>**Settings \> Servers**</li><li>**System Info** tab</li><li>**Web** subtab</li></ol>|
+|<ol><li>**Host \> Dashboard**</li><li>**Database Server** tab</li></ol>|<ol><li>**Settings \> Servers**</li><li>**System Info** tab</li><li>**Database** subtab</li></ol>|
+|<ol><li>**Host \> Dashboard**</li><li>**Host** tab</li></ol>|<ol><li>**Settings \> Servers**</li><li>**System Info** tab</li><li>**Application** subtab</li></ol>|
+|<ol><li>**Host \> Dashboard**</li><li>**Websites** tab</li></ol>|**Manage \> Sites**|
+|<ol><li>**Host \> Dashboard**</li><li>**Modules** tab</li></ol>|**Settings \> Extensions**|
+|<ol><li>**Host \> Dashboard**</li><li>**Themes** tabi</li></ol>|**Manage \> Themes**|
+|<ol><li>**Host \> Extensions**</li><li>**Installed Extensions** tab</li></ol>|<ol><li>**Settings \> Extensions**</li><li>**Installed Extensions** tab</li></ol>|
+|<ol><li>**Host \> Extensions**</li><li>**Available Extensions** tab</li></ol>|<ol><li>**Settings \> Extensions**</li><li>**Available Extensions** tab</li></ol>|
+|<ol><li>**Host \> Extensions**</li><li>**Purchased Extensions** tab</li></ol>|(deprecated)|
+|<ol><li>**Host \> Extensions**</li><li>**More Extensions** tab</li></ol>|(deprecated)|
+|<ol><li>**Host \> Extensions**</li><li>**Install Extension Wizard** button tab</li></ol>|<ol><li>**Settings \> Extensions**</li><li>**Install Extension** button tab</li><ol>|
+|<ol><li>**Host \> Extensions**</li><li>**Create New Extension** button tab</li></ol>|<ol><li>**Settings \> Extensions**</li><li>**Create New Extension** button tab</li></ol>|
+|<ol><li>**Host \> Extensions**</li><li>**Create New Module** button tab</li></ol>|<ol><li>**Settings \> Extensions**</li><li>**Create New Module** button tab</li></ol>|
+|**Host \> File Management**|**Content \> Assets**|
+|<ol><li>**Host \> Host Settings**</li><li>**Basic Settings** tab</li><li>**Configuration** subtab</li></ol><br />Fields:<ul><li>**Product**</li><li>**Version**</li><li>**Data Provider**</li><li>**GUID**</li><li>**Is Web Farm**</li></ul>|<ol><li>**Settings \> Servers**</li><li>**System Info** tab</li><li>**Application** subtab</li></ol><br/>Fields:<ul><li>**Product**</li><li>**Version**</li><li>**Data Provider**</li><li>**Host GUID**</li><li>**Web Farm Enabled**</li></ul>|
+|<ol><li>**Host \> Host Settings**</li><li>**Basic Settings** tab</li><li>**Configuration** subtab</li></ol><br />Field: **Upgrade Available**|(not yet available)|
+|<ol><li>**Host \> Host Settings**</li><li>**Basic Settings** tab</li><li>**Configuration** subtab</li></ol><br />Fields:<ul><li>**.NET Framework**</li><li>**ASP.NET Identity**</li><li>**Relative Path**</li><li>**Physical Path**</li><li>**Server Time**</li></ul>|<ol><li>**Settings \> Servers**</li><li>**System Info** tab</li><li>**Web** subtab</li></ol><br />Fields:<ul><li>**.NET Framework Version**</li><li>**ASP.NET Identity**</li><li>**Relative Path**</li><li>**Physical Path**</li><li>**Server Time**</li></ul>|
+|<ol><li>**Host \> Host Settings**</li><li>**Basic Settings** tab</li><li>**Configuration** subtab</li></ol><br />Field: Server Name|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Basic Settings** tab</li><li>**Configuration** subtab</li></ol><br />Field: IP Address|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Basic Settings** tab</li><li>**Configuration** subtab</li></ol><br />Field: Permissions|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Basic Settings** tab</li><li>**Host Details** subtab</li></ol><br />Fields:<ul><li>**Host Website**</li><li>**Host Title**</li><li>**Host Email**</li>|(deprecated)|
+|<ol><li>**Host \> Host Settings**</li><li>Basic Settings** tab</li><li>**Host Details** subtab</li></ol><br />Field: Host URL|<ol><li>**Settings \> Servers**</li><li>**System Info** tab</li><li>**Web** subtab</li></ol><br />Field: Site URL|
+|<ol><li>**Host \> Host Settings**</li><li>**Basic Settings** tab</li><li>**Host Details** subtab</li><br />Field: Enable Remember Me on Login Control|<ol><li>**Settings \> Security**</li><li>**More** tab</li><li>**More Security Settings** subtab</li></ol><br />Field: **Enable Remember Me on Login Control**|
+|<ol><li>**Host \> Host Settings**</li><li>**Basic Settings** tab</li><li>**Appearance** subtab</li></ol><br />Field: Show Copyright Credits|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Basic Settings** tab</li><li>**Appearance** subtab</li></ol><br />Field: Use Custom Error Messages|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Basic Settings** tab</li><li>**Appearance subtab**</li></ol><br />Field: Use Custom Module CSS Class|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Basic Settings** tab</li><li>**Appearance subtab**</li></ol><br />Field: Require SSL for Upgrade Wizard|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Basic Settings** tab</li><li>**Appearance subtab**</li></ol><br />Field: Host Theme|   |
+|<ol><li>**Host \> Host Settings**</li><li>**Basic Settings** tab</li><li>**Appearance subtab**</li></ol><br />Field: Host Container|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Basic Settings** tab</li><li>**Appearance subtab**</li></ol><br />Field: Edit Theme|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Basic Settings** tab</li><li>**Appearance subtab**</li></ol><br />Field: Edit Container|   |
+|<ol><li>**Host \> Host Settings**</li><li>**Basic Settings** tab</li><li>**Appearance subtab**</li></ol><br />Field: Fallback Theme Doctype|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Basic Settings** tab</li><li>**Payment Settings** subtab</li></ol><br />|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Advanced Settings** tab</li><li>**Friendly URL Settings** subtab</li>|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Advanced Settings** tab</li><li>**Proxy Settings** subtab</li>|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Advanced Settings** tab</li><li>**SMTP Server Settings** subtab</li></ol>|<ol><li>**Settings \> Servers**</li><li>**Server Settings** tab</li><li>**SMTP Server** subtab</li></ol>|
+|<ol><li>**Host \> Host Settings**</li><li>**Advanced Settings** tab</li><li>**Performance Settings subtab**</li></ol>|<ol><li>**Settings \> Servers**</li><li>**Server Settings** tab</li><li>**Performance** subtab</li></ol>|
+|<ol><li>**Host \> Host Settings**</li><li>**Advanced Settings** tab</li><li>**jQuery Settings** subtab</li></ol>|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Advanced Settings** tab</li><li>**CDN Settings** subtab</li></ol>|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Advanced Settings** tab</li><li>**Client Resource Management** subtab</li></ol>|<ol><li>**Settings \> Servers**</li><li>**Server Settings** tab</li><li>**Performance** subtab</li></ol>|
+|<ol><li>**Host \> Host Settings**</li><li>**Advanced Settings** tab</li><li>**Membership Management** subtab</li></ol>|<ol><li>**Settings \> Security**</li><li>**Member Accounts** tab</li><li>**Member Management** subtab</li></ol>|
+|<ol><li>**Host \> Host Settings**</li><li>**Advanced Settings** tab</li><li>**Login IP Filters** subtab</li></ol>|<ol><li>**Settings \> Security**</li><li>**Login Settings** tab</li><li>**Login IP Filters** subtab</li>
+|<ol><li>**Host \> Host Settings**</li><li>**Advanced Settings** tab</li><li>**Search Settings** subtab</li></ol>|<ol><li>**Settings \> Site Settings**</li><li>**Search** tab</li><li>Basic Settings** subtab</li></ol>|
+|<ol><li>**Host \> Host Settings**</li><li>**Advanced Settings** tab</li><li>**Search Criteria** subtab</li>|<ol><li>**Settings \> Site Settings**</li><li>**Search** tab</li><li>**File Extensions** subtab</li></ol>|
+|<ol><li>**Host \> Host Settings**</li><li>**Other Settings** tab</li></ol><br />Field: Enable Request Filters|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Other Settings** tab</li></ol><br />Field: **Control Panel**| (deprecated)|
+|<ol><li>**Host \> Host Settings**</li><li>**Other Settings** tab</li></ol><br />Field: **Enable Users Online**|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Other Settings** tab</li></ol><br />Field: **Users Online Time**|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Other Settings** tab</li></ol><br />Fields:<ul><li>**Auto-Unlock Accounts After**</li><li>**Allowable File Extensions**</li><li>**Debug Mode</li><li>**Show Critical Errors on Screen**</li><li>**Max Upload Size**</li><li>**Time Before Timeout**</li></ol>|<ol><li>**Settings \> Security**</li><li>**More** tab</li><li>**More Security Settings** subtab</li></ol><br />Fields:<ul><li>**Auto-Unlock Accounts After**</li><li>**Allowable File Extensions**</li><li>**Debug Mode**</li><li>**Show Critical Errors on Screen**</li><li>**Max Upload Size**</li><li>**Time Before Timeout**</li>|
+|<ol><li>**Host \> Host Settings**</li><li>**Other Settings** tab</li></ol><br />Field: Enable Event Log Buffer| |
+|<ol><li>**Host \> Host Settings**</li><li>**Other Settings** tab</li></ol><br />Field: Help URL|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Other Settings** tab</li></ol><br />Field: Enable Module Online Help|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Other Settings** tab</li></ol><br />Field: Auto-Sync File System |  |
+|<ol><li>**Host \> Host Settings**</li><li>**Other Settings** tab</li></ol><br />Field: Allow Content Localization|  |
+|<ol><li>**Host \> Host Settings**</li><li>**Other Settings** tab</li></ol><br />Field: Participate in DNN Improvement Program|<ul><li>**Settings \> Site Settings**</li><li>**Site Behavior** tab</li><li>**More** subtab</li></ol><br />Field: Participate in DNN Improvement Program|
+|<ol><li>**Host \> Host Settings**</li><li>**Logs** tab</li></ol>|<ol><li>**Settings \> Servers**</li><li>**Server Settings** tab</li><li>**Logs** subtab</li></ol>|
+|**Host \> Knowledge Base**|**[logo] \> Documentation**|
+|**Host \> Site Management**|**Manage \> Sites**|
 
   
 
@@ -858,154 +161,33 @@ Manage \> Sites
 
   
 
-Control Panel/Bar
-
-Persona Bar
-
-Host \> Activate Your License
-
-Settings \> About
-
-1.  Host \> Advanced URL management
-2.  General tab
-
-1.  Settings \> SEO
-2.  URL Management tab
-3.  General Settings subtab
-
-1.  Host \> Advanced URL management
-2.  Regular Expressions tab
-
-1.  Settings \> SEO
-2.  URL Management tab
-3.  Expressions subtab
-
-Host \> Configuration Manager
-
-Settings \> Config Manager
-
-Host \> HTML Editor Manager
-
-1.  Settings \> Site Settings
-2.  Site Behavior tab
-3.  More subtab
-
-Field: HTML Editor Manager
-
-Host \> License Management
-
-Settings \> About
-
-Host \> Lists
-
-(deprecated)
-
-1.  Host \> Manage Web Servers
-2.  Server Web Request Adapter tab
-
-1.  Settings \> Servers
-2.  Server Settings tab
-3.  Web Servers subtab
-
-1.  Host \> Manage Web Servers
-2.  Caching tab
-
-1.  Settings \> Servers
-2.  Server Settings tab
-3.  Performance subtab
-
-1.  Host \> Manage Web Servers
-2.  Servers tab
-
-1.  Settings \> Servers
-2.  Server Settings tab
-3.  Web Servers subtab
-
-1.  Host \> Manage Web Servers
-2.  Memory Usage tab
-
-1.  Settings \> Servers
-2.  Server Settings tab
-
-1.  Host \> Manage Web Servers
-2.  SSL Offload Header Value tab
-
-1.  Settings \> Security
-2.  More tab
-3.  SSL Settings subtab
-
-Host \> My Support Tickets
-
-1.  \[logo\] \> Customer Portal
-2.  Open or View Support Tickets tab
-
-Host \> Schedule
-
-1.  Settings \> Scheduler
-2.  Scheduler tab
-
-1.  Host \> Security Analyzer
-2.  Audit Checks tab
-
-1.  Settings \> Security
-2.  Security Analyzer tab
-3.  Audit Checks subtab
-
-1.  Host \> Security Analyzer
-2.  Search Filesystem and Database tab
-
-1.  Settings \> Security
-2.  Security Analyzer tab
-3.  Scanner Check subtab
-
-1.  Host \> Security Analyzer
-2.  Super User Activity tab
-
-1.  Settings \> Security
-2.  Security Analyzer tab
-3.  Super User Activity subtab
-
-1.  Host \> Security Analyzer
-2.  Recently Modified Files tab
-
-1.  Settings \> Security
-2.  Security Analyzer tab
-3.  Scanner Check subtab
-
-1.  Host \> Security Analyzer
-2.  Recently Modified Settings tab
-
-1.  Settings \> Security
-2.  Security Analyzer tab
-3.  Scanner Check subtab
-
-Host \> Security Center
-
-1.  Settings \> Security
-2.  Security Bulletins tab
-
-Host \> SharePoint Connector
-
-(deprecated)
-
-Host \> Site Groups
-
-1.  Manage \> Sites
-2.  Site Groups tab
-
-Host \> SQL
-
-Settings \> SQL Console
-
-Host \> SuperUser Accounts
-
-1.  Manage \> Users
-2.  From the Show dropdown, choose Superusers. tab
-
-Host \> User Switcher
-
-1.  Manage \> Users
-2.  From the ellipses menu for the target account, choose Login As User. tab
+|**Control Panel/Bar**|**Persona Bar**|
+|---|---|
+|**Host \> Activate Your License**|Settings \> About|
+|<ol><li>**Host \> Advanced URL management**</li><li>**General** tab</li></ol>|<ol><li>**Settings \> SEO**</li><li>**URL Management** tab</li><li>**General Settings** subtab</li>|
+|<ol><li>**Host \> Advanced URL management**</li><li>**Regular Expressions** tab</li></ol>|<ol><li>**Settings \> SEO**</li><li>**URL Management** tab</li><li>**Expressions** subtab</li></ol>|
+|**Host \> Configuration Manager**|**Settings \> Config Manager**|
+|**Host \> HTML Editor Manager**|<ol><li>**Settings \> Site Settings**</li><li>**Site Behavior** tab</li><li>**More** subtab</li></ol><br />Field: HTML Editor Manager|
+|**Host \> License Management**|**Settings \> About**|
+|**Host \> Lists**|(deprecated)|
+|<ol><li>**Host \> Manage Web Servers**</li><li>**Server Web Request Adapter** tab</li></ol>|<ol><li>**Settings \> Servers**</li><li>**Server Settings** tab</li><li>**Web Servers** subtab</li></ol>|
+|<ol><li>**Host \> Manage Web Servers**</li><li>**Caching** tab</li></ol>|<ol><li>**Settings \> Servers**</li><li>**Server Settings** tab</li><li>**Performance** subtab</li></ol>|
+|<ol><li>**Host \> Manage Web Servers**</li><li>**Servers** tab</li></ol>|<ol><li>**Settings \> Servers**</li><li>**Server Settings** tab</li><li>**Web Servers** subtab</li></ol>|
+|<ol><li>**Host \> Manage Web Servers**</li><li>**Memory Usage** tab</li></ol>|<ol><li>**Settings \> Servers**</li><li>**Server Settings** tab</li></ol>|
+|<ol><li>**Host \> Manage Web Servers**</li><li>**SSL Offload Header Value** tab</li></ol>|<ol><li>**Settings \> Security**</li><li>**More** tab</li><li>**SSL Settings** subtab</li></ol>|
+|**Host \> My Support Tickets**|<ol><li>**[logo] \> Customer Portal**</li><li>**Open or View Support Tickets** tab</li></ol>|
+|**Host \> Schedule**|<ol><li>**Settings \> Scheduler**</li><li>**Scheduler** tab</li></ol>|
+|<ol><li>**Host \> Security Analyzer**</li><li>**Audit Checks** tab</li></ol>|<ol><li>**Settings \> Security**</li><li>**Security Analyzer** tab</li><li>**Audit Checks** subtab</li></ol>|
+|<ol><li>**Host \> Security Analyzer**</li><li>**Search Filesystem and Database** tab</li></ol>|<ol><li>**Settings \> Security**</li><li>**Security Analyzer** tab</li><li>**Scanner Check** subtab</li></ol>|
+|<ol><li>**Host \> Security Analyzer**</li><li>**Super User Activity** tab</li></ol>|<ol><li>**Settings \> Security**</li><li>**Security Analyzer** tab</li><li>**Super User Activity** subtab</li></ol>|
+|<ol><li>**Host \> Security Analyzer**</li><li>**Recently Modified Files** tab</li></ol>|<ol><li>**Settings \> Security**</li><li>**Security Analyzer** tab</li><li>**Scanner Check** subtab</li></ol>|
+|<ol><li>**Host \> Security Analyzer**</li><li>**Recently Modified Settings** tab</li></ol>|<ol><li>**Settings \> Security**</li><li>**Security Analyzer** tab</li><li>**Scanner Check** subtab</li></ol>|
+|**Host \> Security Center**|<ol><li>**Settings \> Security**</li><li>**Security Bulletins** tab</li></ol>|
+|**Host \> SharePoint Connector**|(deprecated)|
+|**Host \> Site Groups**|<ol><li>**Manage \> Sites**</li><li>**Site Groups** tab</li></ol>|
+|**Host \> SQL**|**Settings \> SQL Console**|
+|**Host \> SuperUser Accounts**|<ol><li>**Manage \> Users**</li><li>From the **Show** dropdown, choose **Superusers**. tab</li></ol>|
+|**Host \> User Switcher**|<ol><li>**Manage \> Users**</li><li>From the ellipses menu for the target account, choose **Login As User**. tab
 
 ## Tools
 
@@ -1014,33 +196,12 @@ Host \> User Switcher
 ![Old Control Panel/Bar menu - Tools](/images/scr-menuTools.png)
 
   
-
-Control Panel/Bar
-
-Persona Bar
-
-Tools \> Upload File
-
-1.  Content \> Assets
-2.  Add Asset tab
-
-[\[how to\]](xref:add-assets)
-
-Also in other contextual uploads.
-
-Tools \> Clear Cache
-
-1.  Settings \> Servers
-2.  Clear Cache button tab
-
-Tools \> Restart Application
-
-1.  Settings \> Servers
-2.  Restart Application button tab
-
-Tools \> Go to website
-
-Manage \> Sites
+|**Control Panel/Bar**|**Persona Bar**|
+|---|---|
+|**Tools \> Upload File**|<ol><li>**Content \> Assets**</li><li>**Add Asset** tab</li></ol><br />[[how to]](xref:add-assets)<br />Also in other contextual uploads.|
+|**Tools \> Clear Cache**|<ol><li>**Settings \> Servers**</li><li>**Clear Cache** button tab</li>|
+|**Tools \> Restart Application**|<ol><li>**Settings \> Servers**</li><li>**Restart Application** button tab</li></ol>|
+|**Tools \> Go to website**|**Manage \> Sites**|
 
 ## Help
 
@@ -1049,14 +210,9 @@ Manage \> Sites
 ![Old Control Panel/Bar menu - Help](/images/scr-menuHelp.png)
 
   
-
-Control Panel/Bar
-
-Persona Bar
-
-Help \> Online Help
-
-\[logo\] \> Documentation
+|**Control Panel/Bar**|**Persona Bar**|
+|---|---|
+|**Help \> Online Help**|**[logo] \> Documentation**|
 
 ## Modules
 
@@ -1064,28 +220,12 @@ Help \> Online Help
 
 ![Old Control Panel/Bar menu - Modules](/images/scr-menuModules.png)
 
-  
-
-Control Panel/Bar
-
-Persona Bar
-
-Modules \> Add New Module
-
-Edit Bar and on the page
-
-Modules \> Add Existing Module
-
-Edit Bar and on the page
-
-Modules \> Create Module
-
-1.  Settings \> Extensions
-2.  Create New Module button tab
-
-Modules \> Find More Modules
-
-(deprecated)
+|**Control Panel/Bar**|**Persona Bar**|
+|---|---|
+|**Modules \> Add New Module**|**Edit Bar** and on the page|
+|**Modules \> Add Existing Module**|**Edit Bar** and on the page|
+|**Modules \> Create Module**|<ol><li>**Settings \> Extensions**</li><li>**Create New Module** button tab</li></ol>|
+|**Modules \> Find More Modules**|(deprecated)|
 
 ## Pages
 
@@ -1094,35 +234,12 @@ Modules \> Find More Modules
 ![Old Control Panel/Bar menu - Pages](/images/scr-menuPages.png)
 
   
-
-Control Panel/Bar
-
-Persona Bar
-
-Pages \> Add New Page
-
-1.  Content \> Pages
-2.  Add Page or Add Multiple Pages tab
-
-[\[how to\]](xref:create-single-page-standard)
-
-Pages \> Copy Page
-
-Content \> Pages
-
-[\[how to\]](xref:common-copy-page-pb-all)
-
-Pages \> Copy Permissions to Children
-
-1.  Content \> Pages
-2.  Click/Tap the gear icon, and go to the Permissions tab. tab
-3.  Copy Permissions to Descendant Pages�button subtab
-
-Pages \> Import Page
-
-1.  Content \> Pages
-2.  Add Page or Add Multiple Pages tab
-3.  In Template Mode, select Import from XML. subtab
+|**Control Panel/Bar**|**Persona Bar**|
+|---|---|
+|**Pages \> Add New Page**|<ol><li>**Content \> Pages**</li><li>**Add Page** or **Add Multiple Pages** tab</li></ol><br />[[how to]](xref:create-single-page-standard)|
+|**Pages \> Copy Page**|**Content \> Pages**<br />[how to](xref:common-copy-page-pb-all)|
+|**pages \> Copy Permissions to Children**|<ol><li>**Content \> Pages**</li><li>Click/Tap the gear icon, and go to the **Permissions** tab.</li><li>**Copy Permissions to Descendant Pages** button subtab|
+|**Pages \> Import Page**|<ol><li>**Content \> Pages**</li><li>**Add Page** or **Add Multiple Pages** tab</li><li>In **Template Mode**, select **Import from XML**. subtab</li></ol>|
 
 ## Users
 
@@ -1132,29 +249,11 @@ Pages \> Import Page
 
   
 
-Control Panel/Bar
-
-Persona Bar
-
-Users \> Add New User
-
-1.  Manage \> Users
-2.  Add User button tab
-
-[\[how to\]](xref:create-user-account)
-
-Users \> Manage Users
-
-1.  Manage \> Users
-2.  Add User button tab
-
-[\[how to\]](xref:about-user-accounts)
-
-Users \> Manage Roles
-
-Manage \> Roles
-
-[\[how to\]](xref:about-role-based-access)
+|**Control Panel/Bar**|**Persona Bar**|
+|---|---|
+|**Users \> Add New User**|<ol><li>**Manage \> Users**</li><li>**Add User** button tab</li></ol><br />[[how to](xref:create-user-account)|
+|**Users \> Manage Users**|<ol><li>**Manage \> Users**</li><li>**Add User** button tab</li></ol><br />[[how to]](xref:about-user-accounts)|
+|**Users \> Manage Roles**|**Manage \> Roles**<br />[[how to]](xref:about-role-based-access)|
 
 ## OnDemand
 
@@ -1162,47 +261,16 @@ Manage \> Roles
 
 ![Old Control Panel/Bar menu - OnDemand](/images/scr-menuOnDemand.png)
 
-  
-
-Control Panel/Bar
-
-Persona Bar
-
-OnDemand \> Manage Account
-
-(not yet available)
-
-OnDemand \> Manage Exports
-
-(not yet available)
-
-OnDemand \> Check for Updates
-
-1.  Settings \> Site Settings
-2.  Site Behavior tab
-3.  More subtab
-
-Check for Software Upgrades
-
-OnDemand \> Manage Updates
-
-(not yet available)
-
-OnDemand \> Start Site Maintenance
-
-(not yet available)
-
-OnDemand \> Getting Started Guide
-
-\[logo\] \> Documentation
-
-OnDemand \> Get Support
-
-\[logo\] \> Contact Support
-
-OnDemand \> FTP Access
-
-(not yet available)
+|**Control Panel/Bar**|**Persona Bar**|
+|---|---|
+|**OnDemand \> Manage Account**|(not yet available)|
+|**OnDemand \> Manage Exports**|(not yet available)|
+|**OnDemand \> Check for Updates**|<ol><li>**Settings \> Site Settings**</li><li>**Site Behavior** tab</li><li>**More** subtab</li></ol><br />Check for Software Upgrades|
+|**OnDemand \> Manage Updates**|(not yet available)|
+|**OnDemand \> Start Site Maintenance**|(not yet available)|
+|**OnDemand \> Getting Started Guide**|**[logo] \> Documentation**|
+|**OnDemand \> Get Support**|**[logo] \> Contact Support**|
+|**OnDemand \> FTP Access**|(not yet available)|
 
 ## Edit Page
 
@@ -1212,10 +280,6 @@ OnDemand \> FTP Access
 
   
 
-Control Panel/Bar
-
-Persona Bar
-
-Edit Page
-
-Edit (pencil) icon at the bottom of the Persona Bar
+|**Control Panel/Bar**|**Persona Bar**|
+|---|---|
+|**Edit Page**|**Edit** (pencil) icon at the bottom of the Persona Bar|

@@ -19,20 +19,11 @@ related-topics: form-field-address,form-field-date-time,form-field-dropdown,form
 
   
 
-Field
+|**Field**|**Description**|
+|---|---|
+|**Title/Label**|Name of the field. You can change the name either in the **General Settings** panel or directly above the field on the canvas.|
+|**Required**|If enabled (**On**)<ul><li>The field name is marked as required.</li><li>The message you enter in the provided text box will be displayed if the user does not provide a value in the field.</li></ul>|
 
-Description
-
-Title/Label
-
-Name of the field. You can change the name either in the General Settings panel or directly above the field on the canvas.
-
-Required
-
-If enabled (On),
-
-*   The field name is marked as required.
-*   The message you enter in the provided text box will be displayed if the user does not provide a value in the field.
 
 ## Help Text
 
@@ -42,21 +33,11 @@ If enabled (On),
 
   
 
-Field
-
-Description
-
-Inside Field
-
-Help text to be displayed inside the field. Maximum length: 140 characters. (This value is not displayed if a default value is specified.)
-
-Below Field
-
-Help text to be displayed below the field. Maximum length: 140 characters.
-
-Tooltip
-
-If enabled (On) and the user hovers/clicks/taps over the information icon (i) next to the field name, displays the help text you enter in the provided text box. Maximum length: 140 characters.
+|**Field**|**Description**|
+|---|---|
+|**Inside Field**|Help text to be displayed inside the field. Maximum length: 140 characters. (This value is not displayed if a default value is specified.)|
+|**Below Field**|Help text to be displayed below the field. Maximum length: 140 characters.|
+|**Tooltip**|If enabled (**On**) and the user hovers/clicks/taps over the information icon (i) next to the field name, displays the help text you enter in the provided text box. Maximum length: 140 characters.|
 
 ## Default Value
 
@@ -66,20 +47,10 @@ If enabled (On) and the user hovers/clicks/taps over the information icon (i) ne
 
   
 
-Field
-
-Description
-
-Default Text
-
-The values to assign to the name fields if the user does not provide custom values. If blank, the Help Text Inside Field values are displayed.
-
-Set Default Value as Hidden
-
-If checked,
-
-*   The default value is not displayed to the user.
-*   Required must be Off.
+|**Field**|**Description**|
+|---|---|
+|**Default Value**|The value to assign to the field if the user does not provide a custom value. If blank, the Help Text Inside Field value is displayed.|
+|**Set Default Value as Hidden**|If checked: <ul><li>The default value is not displayed to the user.</li><li>**Required** must be **Off**.</li></ul>|
 
 ## Validation
 
@@ -89,20 +60,8 @@ If checked,
 
   
 
-Field
-
-Description
-
-Number of Characters
-
-If enabled (On), the message you enter in the provided text box will be displayed if the user provides a value outside the valid range. You must indicate the valid range:
-
-*   Minimum. The valid range is from the value you enter in Min to infinity.
-*   Maximum. The valid range is from infinity to the value you enter in Max.
-*   Between. The valid range is from the value you enter in Min to the value you enter in Max.
-
-Min must be less than Max.
-
-Error Message
-
-The message to display if the user entered data that does not meet the requirements for the field.
+|**Field**|**Description**|
+|---|---|
+|**Error Message**|The message to display if the user entered data that does not meet the requirements for the field.|
+|**Number of Characters**|If enabled (**On**), the message you enter in the provided text box will be displayed if the user provides a value outside the valid range. You must indicate the valid range: <ul><li>**Minimum**. The valid range is from the value you enter in Min to infinity.</li><li>**Maximum**. The valid range is from infinity to the value you enter in **Max**.</li><li>**Between**. The valid range is from the value you enter in **Min** to the value you enter in **Max**.</li></ul><br />**Min** must be less than **Max**.|
+|**Error Message**|The message to display if the user entered data that does not meet the requirements for the field.|
