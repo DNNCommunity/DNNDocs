@@ -30,13 +30,6 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    Field
-    
-    Description
-    
-    Display Mode
-    
-    The mode for the current module instance.
-    
-    *   List. If selected, the items are displayed in a list.
-    *   Calendar. If selected, a calendar for the month is displayed.
+    |**Field**|**Description**|
+    |---|---|
+    |**Display Mode**|The mode for the current module instance.<ul><li>**List**. If selected, the items are displayed in a list.</li><li>**Calendar**. If selected, a calendar for the month is displayed.</li></ul>|

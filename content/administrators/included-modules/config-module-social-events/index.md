@@ -30,17 +30,7 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    Field
-    
-    Description
-    
-    Mode
-    
-    The mode for the current module instance.
-    
-    *   Normal. If selected, the contents of the module are available to all registered users of the site.
-    *   Group. If selected, the contents of the module are restricted to group members.
-    
-    Map Provider
-    
-    The map provider to use if the event includes a reference to a location. If None is selected, a map is not included in the event details.
+    |**Field**|**Description**|
+    |---|---|
+    |**Mode**|The mode for the current module instance.<ul><li>**Normal**. If selected, the contents of the module are available to all registered users of the site.</li><li>**Group**. If selected, the contents of the module are restricted to group members.</li></ul>|
+    |**Map Provider**|The map provider to use if the event includes a reference to a location. If None is selected, a map is not included in the event details.|

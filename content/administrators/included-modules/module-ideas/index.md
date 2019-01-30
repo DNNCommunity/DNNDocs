@@ -42,16 +42,6 @@ To display/hide companion module(s),
 
  
 
-Package
-
-Category
-
-Product(s)
-
- ![icon](/images/ico-module-ideas.png) 
-
-Ideas
-
-Social
-
- ![Evoq Engage](/images/ico-evoq-engage.png)
+|  |Package|Category|Product(s)|
+|--|--|--|--|--|
+|![icon](/images/ico-module-ideas.png)|Ideas|Social|![Evoq Engage](/images/ico-evoq-engage.png)|

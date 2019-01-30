@@ -17,19 +17,9 @@ The Zendesk connector must also be configured.
 
  
 
-Package
-
-Category
-
-Product(s)
-
- ![icon](/images/ico-module-zendesk.png) 
-
-Zendesk Tickets
-
-Social
-
- ![Evoq Engage](/images/ico-evoq-engage.png) 
+|  |Package|Category|Product(s)|
+|--|--|--|--|--|
+|![icon](/images/ico-module-zendesk.png)|Zendesk Tickets|Social|![Evoq Engage](/images/ico-evoq-engage.png)|
 
 ## Module Configuration
 

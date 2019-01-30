@@ -19,16 +19,6 @@ Guides the administrator through setting up the general features of the site.
 
  
 
-Package
-
-Category
-
-Product(s)
-
- ![icon](/images/ico-module-sitewizard.png) 
-
-Site Wizard
-
-Admin
-
- ![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)
+|  |Package|Category|Product(s)|
+|--|--|--|--|--|
+|![icon](/images/ico-module-sitewizard.png)|Site Wizard|Admin|![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)|

@@ -30,10 +30,6 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    Field
-    
-    Description
-    
-    Latest Challenge Count
-    
-    The number of items to display in each result page.
+    |**Field**|**Description**|
+    |---|---|
+    |**Latest Challenge Count**|The number of items to display in each result page.|

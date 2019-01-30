@@ -46,19 +46,9 @@ To display/hide companion module(s),
 
  
 
-Package
-
-Category
-
-Product(s)
-
- ![icon](/images/ico-module-profiledashboard.png) 
-
-Profile Dashboard
-
-Social
-
- ![Evoq Engage](/images/ico-evoq-engage.png) 
+|  |Package|Category|Product(s)|
+|--|--|--|--|--|
+|![icon](/images/ico-module-profiledashboard.png)|Profile Dashboard|Social|![Evoq Engage](/images/ico-evoq-engage.png)|
 
 ## Module Configuration
 

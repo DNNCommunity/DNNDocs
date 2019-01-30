@@ -30,18 +30,8 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    Field
-    
-    Description
-    
-    Template
-    
-    The information type(s) that should be displayed by this module.
-    
-    Graph Color 1
-    
-    The starting color of the gradient used in the Profile Completion graphic.
-    
-    Graph Color 2
-    
-    The ending color of the gradient used in the Profile Completion graphic.
+    |**Field**|**Description**|
+    |---|---|
+    |**Template**|The information type(s) that should be displayed by this module.|
+    |**Graph Color 1**|The starting color of the gradient used in the Profile Completion graphic.|
+    |**Graph Color 2**|The ending color of the gradient used in the Profile Completion graphic.|

@@ -43,16 +43,6 @@ To display/hide companion module(s),
 
  
 
-Package
-
-Category
-
-Product(s)
-
- ![icon](/images/ico-module-discussions.png) 
-
-Discussions
-
-Social
-
- ![Evoq Engage](/images/ico-evoq-engage.png)
+|  |Package|Category|Product(s)|
+|--|--|--|--|--|
+|![icon](/images/ico-module-discussions.png)|Discussions|Social|![Evoq Engage](/images/ico-evoq-engage.png)|

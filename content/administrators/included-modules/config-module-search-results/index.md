@@ -29,24 +29,11 @@ related-topics: configure-module-on-page-pb-all
     ![Module Settings — Search Results](/images/scr-modulesettings-SearchResults.png)
     
       
+    |**Field**|**Description**|
+    |--|--|
+    |**Title Link Target**|Where the results would be displayed:<ul><li>On Same Page</li><li>Open New Page</li></ul>|
+    |**Results Scope for Content Type(s)**|The content types that would be included in the results.|
+    |**Enable Wildcard Searches by Default**|If checked, users can enter partial words as search terms. Example, "org" will return "organization" and "organize".|
     
-    Field
-    
-    Description
-    
-    Title Link Target
-    
-    Where the results would be displayed:
-    
-    *   On Same Page
-    *   Open New Page
-    
-    Results Scope for Content Type(s)
-    
-    The content types that would be included in the results.
-    
-    Enable Wildcard Searches by Default
-    
-    If checked, users can enter partial words as search terms. Example, "org" will return "organization" and "organize".
-    
-    Tip: If too many searches take too long, uncheck this option.
+    > [!TIP]
+    > If too many searches take too long, uncheck this option.

@@ -31,44 +31,14 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    Field
-    
-    Description
-    
-    Show Share Label
-    
-    If checked, the word "Share" is displayed.
-    
-    Enable Google+
-    
-    If checked, users can share in Google Plus.
-    
-    Enable Twitter
-    
-    If checked, users can share in Twitter.
-    
-    Enable LinkedIn
-    
-    If checked, users can share in LinkedIn.
-    
-    Enable Facebook
-    
-    If checked, users can share in Facebook.
-    
-    Enable Pinterest
-    
-    If checked, users can share in Pinterest.
-    
-    Facebook Like Button
-    
-    If checked, Facebook's Like button is also displayed.
-    
-    Facebook Like Style
-    
-    *   Standard
-    *   Like button only
-    *   Like button, Share count
-    
-    Link Shortening Service
-    
-    If the page link is included in the share message, the selected service is used to shorten the link.
+    |**Field**|**Description**|
+    |---|---|
+    |**Show Share Label**|If checked, the word "Share" is displayed.|   
+    |**Enable Google+**|If checked, users can share in Google Plus.|
+    |**Enable Twitter**|If checked, users can share in Twitter.|
+    |**Enable LinkedIn**|If checked, users can share in LinkedIn.|
+    |**Enable Facebook**|If checked, users can share in Facebook.|
+    |**Enable Pinterest**|If checked, users can share in Pinterest.|
+    |**Facebook Like Button**|If checked, Facebook's Like button is also displayed.|
+    |**Facebook Like Style**|<ul><li>**Standard**</li><li>**Like button only**</li><li>**Like button, Share count**</li></ul>|
+    |**Link Shortening Service**|If the page link is included in the share message, the selected service is used to shorten the link.|

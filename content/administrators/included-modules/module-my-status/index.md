@@ -21,16 +21,6 @@ Displays the status and reputation of the current user.
 
  
 
-Package
-
-Category
-
-Product(s)
-
- ![icon](/images/ico-module-mystatus.png) 
-
-My Status
-
-Social
-
- ![Evoq Engage](/images/ico-evoq-engage.png)
+|  |Package|Category|Product(s)|
+|--|--|--|--|--|
+|![icon](/images/ico-module-mystatus.png)|My Status|Social|![Evoq Engage](/images/ico-evoq-engage.png)|

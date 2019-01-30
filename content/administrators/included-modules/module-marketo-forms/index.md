@@ -19,16 +19,6 @@ Displays and manages Marketo forms.
 
  
 
-Package
-
-Category
-
-Product(s)
-
- ![icon](/images/ico-module-marketo.png) 
-
-Marketo Forms
-
-None
-
- ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)
+|  |Package|Category|Product(s)|
+|--|--|--|--|--|
+|![icon](/images/ico-module-marketo.png)|Marketo Forms|None|![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)|

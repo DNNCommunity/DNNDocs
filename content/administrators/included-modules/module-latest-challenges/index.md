@@ -21,16 +21,6 @@ Displays the most recent and currently active challenges that registered users c
 
  
 
-Package
-
-Category
-
-Product(s)
-
- ![icon](/images/ico-module-latestchallenges.png) 
-
-Latest Challenges
-
-Social
-
- ![Evoq Engage](/images/ico-evoq-engage.png)
+|  |Package|Category|Product(s)|
+|--|--|--|--|--|
+|![icon](/images/ico-module-latestchallenges.png)|Latest Challenges|Social|![Evoq Engage](/images/ico-evoq-engage.png)|

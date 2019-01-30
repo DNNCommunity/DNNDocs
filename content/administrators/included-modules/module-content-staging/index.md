@@ -13,16 +13,6 @@ Allows administrators to connect and synchronize different servers.
 
  
 
-Package
-
-Category
-
-Product(s)
-
- ![icon](/images/ico-module-contentstaging.png) 
-
-Content Staging
-
-Admin
-
- ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)
+|  |Package|Category|Product(s)|
+|--|--|--|--|--|
+|![icon](/images/ico-module-contentstaging.png)|Content Staging|Admin|![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)|

@@ -30,10 +30,6 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    Field
-    
-    Description
-    
-    Number of Badges
-    
-    The number of items to initially display, and the number of additional items to display when the View More button is clicked/tapped.
+    |**Field**|**Description**|
+    |---|---|
+    |**Number of Badges**|The number of items to initially display, and the number of additional items to display when the View More button is clicked/tapped.|

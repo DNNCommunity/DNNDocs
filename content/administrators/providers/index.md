@@ -81,7 +81,8 @@ DNN provides two caching providers:
 *   The default **FileBasedCachingProvider** uses a central file store to invalidate cache entries. This caching provider requires setting up permissions, application pools, domain users, and code access security.
 *   The **WebBasedCachingProvider** is available only for Evoq customers and is recommended over the default. It requires minimal setup. Any web server can notify the other web servers to expire their cache in order to remain synchronized.
 
-Note: These two providers use cache invalidation to synchronize caching; they do not handle website changes, such as newly uploaded files or newly installed modules.
+> [!NOTE]
+> These two providers use cache invalidation to synchronize caching; they do not handle website changes, such as newly uploaded files or newly installed modules.
 
 ## Data provider
 
@@ -109,7 +110,8 @@ DNN's default concrete data provider is the SQL Data Provider, which requires th
 
 *   xx.xx.xx.sqldataprovider is a script executed during module/core installation/upgrade to modify the objectQualifier and databaseOwner settings. The xx.xx.xx portion of the filename is the script version.
     
-    Note: DNN 8+ supports incremental scripts.
+    > [!NOTE]
+    > DNN 8+ supports incremental scripts.
     
 *   uninstall.sqldataprovider includes all of the module's SQL stored procedures, functions, views, and tables to be removed from the data store when the module is uninstalled. Developers: Always check if an item exists before removing it.
 

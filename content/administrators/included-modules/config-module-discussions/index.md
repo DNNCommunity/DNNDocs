@@ -30,13 +30,6 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-    Field
-    
-    Description
-    
-    Mode
-    
-    The mode for the current module instance.
-    
-    *   Normal. If selected, the contents of the module are available to all registered users of the site.
-    *   Group. If selected, the contents of the module are restricted to group members.
+    |**Field**|**Description**|
+    |---|---|
+    |**Mode**|The mode for the current module instance.<ul><li>**Normal**. If selected, the contents of the module are available to all registered users of the site.</li><li>**Group**. If selected, the contents of the module are restricted to group members.</li></ul>|

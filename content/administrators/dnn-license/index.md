@@ -179,41 +179,13 @@ Support Services includes all Major Releases and Maintenance Releases for Suppor
 
 3\. Service Levels.
 
-For Evoq™ Licenses
-
-Standard Support
-
-Elite Support
-
-Initial Response
-
-One Business Day
-
-Two Business Hours
-
-Support Availability
-
-9 a.m. — 5 p.m. U.S. Pacific Time Zone Monday — Friday except U.S. public holidays
-
-6 a.m. — 6 p.m. U.S. Pacific Time Zone Monday — Friday except U.S. public holidays
-
-Incident Reporting and Response
-
-Web-based Support Ticket system
-
-Web-based Support Ticket system and Telephone Support
-
-Subscription Licenses
-
-No extra fee. Cost is included with Subscription License Fee.
-
-A separate fee is charged.
-
-Perpetual Licenses
-
-A separate fee is charged.
-
-A separate fee is charged.
+|**For Evoq™ Licenses**|**Standard Support**|**Elite Support**|
+|---|---|---|
+|Initial Response|One Business Day|Two Business Hours|
+|Support Availability|9 a.m. — 5 p.m. U.S. Pacific Time Zone Monday — Friday except U.S. public holidays|6 a.m. — 6 p.m. U.S. Pacific Time Zone Monday — Friday except U.S. public holidays|
+|Incident Reporting and Response|Web-based Support Ticket system|Web-based Support Ticket system and Telephone Support|
+|Subscription Licenses|No extra fee. Cost is included with Subscription License Fee.|A separate fee is charged.|
+|Perpetual Licenses|A separate fee is charged.|A separate fee is charged.|
 
 4\. Updates. DNNCORP will make commercially reasonable efforts to provide an Update designed to solve or by-pass a reported Error. If such Error has been corrected in a Maintenance Release, LICENSEE must install and implement the applicable Maintenance Release; otherwise, the Update may be provided in the form of a temporary fix, procedure or routine, to be used until a Maintenance Release containing the permanent Update is available.
 

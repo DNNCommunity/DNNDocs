@@ -13,13 +13,12 @@ related-topics: requirements,product-versions,dnn-overview,control-bar-to-person
 
 A number of modules are included in DNN by default and can be added to your site.
 
-Note:
-
-For security reasons, some modules might not be available to you. Examples:
-
-*   Premium modules might not be enabled for all sites. The host user must enable a premium module for your site before it can be used.
-*   Modules that perform administrative tasks require Administrator access by default.
-*   Hosts and administrators can customize which roles have access to a module.
+> [!NOTE]
+> For security reasons, some modules might not be available to you. Examples:
+> <br />
+> *   Premium modules might not be enabled for all sites. The host user must enable a premium module for your site before it can be used.
+> *   Modules that perform administrative tasks require Administrator access by default.
+> *   Hosts and administrators can customize which roles have access to a module.
 
 
 | Icon | Module |  Description   | Category  |  In product(s) |
