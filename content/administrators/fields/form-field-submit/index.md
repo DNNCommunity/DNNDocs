@@ -17,18 +17,8 @@ related-topics: form-field-address,form-field-date-time,form-field-dropdown,form
 
   
 
-Field
-
-Description
-
-Button Text
-
-Replaces the text on the Submit button.
-
-Cancel Button
-
-If enabled (On), displays the Cancel button next to the Submit button.
-
-Button Alignment
-
-Changes the position of the Cancel and Submit buttons.
+|**Field**|**Description**|
+|---|---|
+|**Button Text**|Replaces the text on the **Submit** button.|
+|**Cancel Button**|If enabled (**On**), displays the **Cancel** button next to the **Submit** button.|
+|**Button Alignment**|Changes the position of the **Cancel** and **Submit** buttons.|

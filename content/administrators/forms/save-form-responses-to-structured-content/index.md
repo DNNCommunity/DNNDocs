@@ -19,18 +19,14 @@ DNN provides a connector that links the Form Builder microservice with the Struc
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Forms.
+1.  Go to **Persona Bar \> Content \> Forms**.
     
     ![Persona Bar > Content > Forms](/images/scr-pbar-host-Content-E91.png)
-    
-    ➊
-    
-    ➋
     
 2.  Create or edit a form.
     *   [Create a form.](xref:create-form)
     *   [Edit a form.](xref:edit-form)
-3.  Click/Tap the Configuration tab.
+3.  Click/Tap the **Configuration** tab.
     
       
     
@@ -38,7 +34,7 @@ DNN provides a connector that links the Form Builder microservice with the Struc
     
       
     
-4.  Go to the Data Collection tab.
+4.  Go to the **Data Collection** tab.
     
       
     
@@ -46,8 +42,8 @@ DNN provides a connector that links the Form Builder microservice with the Struc
     
       
     
-5.  Click/Tap the Configure button for Evoq Content Type.
-6.  Choose the content type for the new content items that will hold data from the form submissions. Then click/tap Save & Configure.
+5.  Click/Tap the **Configure** button for **Evoq Content Type**.
+6.  Choose the content type for the new content items that will hold data from the form submissions. Then click/tap **Save & Configure**.
     
       
     
@@ -63,23 +59,13 @@ DNN provides a connector that links the Form Builder microservice with the Struc
     
       
     
-    Field
+   |**Field**|**Description**|
+   |---|---|
+   |Content Item Name|Choose the form field to use as the content item name.|
+   |Content Item Tags|Tags to associate with the created content items.|
+   |Content Item Description|The description for each content item created.|
     
-    Description
-    
-    Content Item Name
-    
-    Choose the form field to use as the content item name.
-    
-    Content Item Tags
-    
-    Tags to associate with the created content items.
-    
-    Content Item Description
-    
-    The description for each content item created.
-    
-8.  Under Configure Content Type Fields from Form (Mapping), choose the equivalent form field for every content type field.
+8.  Under **Configure Content Type Fields from Form (Mapping)**, choose the equivalent form field for every content type field.
     
       
     

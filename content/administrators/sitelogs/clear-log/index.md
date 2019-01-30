@@ -21,10 +21,6 @@ related-topics: view-site-logs,view-entry-details,delete-entries,share-entries,a
     
     ![Persona Bar > Manage > Admin Logs](/images/scr-pbar-host-Manage-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Go to the Admin Logs tab.
     
     ![Admin Logs](/images/scr-pbtabs-host-Manage-AdminLogs-AdminLogs-E90.png)
@@ -36,7 +32,7 @@ related-topics: view-site-logs,view-entry-details,delete-entries,share-entries,a
     ![](/images/scr-AdminLogs-adminlogslist-clear-log-buttons-E90.png)
     
       
-    
-    Note: For hosts/superusers, the selected site's log is cleared. If All is selected, the logs of all sites in the installation are cleared. For administrators, their own site's log is cleared. To delete some log entries, instead of the entire log, use Delete Selected.
+    > [!NOTE]
+    > For hosts/superusers, the selected site's log is cleared. If All is selected, the logs of all sites in the installation are cleared. For administrators, their own site's log is cleared. To delete some log entries, instead of the entire log, use Delete Selected.
     
 4.  Confirm.

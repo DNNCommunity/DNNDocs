@@ -24,9 +24,9 @@ The database user does not have owner rights for the database.
 ## Solution
 
 1.  In the Microsoft SQL Server Management Studio, log into your database server.
-2.  Go to Security \> Logins.
-3.  Right-click the database associated with your DNN installation, and choose Properties.
-4.  In the User Mapping section, set the role for the DNN database user as db_owner.
+2.  Go to **Security \> Logins**.
+3.  Right-click the database associated with your DNN installation, and choose **Properties**.
+4.  In the **User Mapping** section, set the role for the DNN database user as db_owner.
 
 ## Possible Cause
 
@@ -36,7 +36,7 @@ The IIS bindings do not match the correct portal alias.
 
 *   Correct the site alias in the IIS Manager.
     1.  Go to IIS Manager and select the site.
-    2.  On the right panel, in the Actions section, go to Bindings.
+    2.  On the right panel, in the **Actions** section, go to **Bindings**.
     3.  Add a new binding.
     4.  Copy the correct site alias into the new binding.
 *   Correct the site alias in the SQL database.
@@ -67,13 +67,13 @@ The IIS bindings do not match the correct portal alias.
                                             
         ```
         
-    
-    Note: When using external domains, you might need to add an entry to %SystemRoot%\\System32\\drivers\\etc\\hosts in order to point the browser to the correct domain.
+    > [!NOTE]
+    > When using external domains, you might need to add an entry to **%SystemRoot%\\System32\\drivers\\etc\\hosts** in order to point the browser to the correct domain.
     
 
 ## Possible Cause
 
-Incorrect `connectionString` entry in the web.config file.
+Incorrect `connectionString` entry in the **web.config** file.
 
 ## Solution
 
@@ -87,10 +87,10 @@ The Application Pool Identity account does not have modify rights for the DNN In
 ## Solution
 
 1.  Using Windows Explorer, go to your site folder and right-click on the DNN installation folder.
-2.  Choose Properties, and go to the Security tab.
-3.  Click/Tap Edit….
-4.  Click/Tap Add….
+2.  Choose **Properties**, and go to the **Security** tab.
+3.  Click/Tap **Edit**….
+4.  Click/Tap **Add**….
 5.  Select the correct location for the user.
-6.  Set the object name to IIS AppPool\\<AppPoolName>, where <AppPoolName> is the Application Pool Identity account name.
-7.  Click/Tap Check Names.
-8.  Click/Tap OK, then Apply.
+6.  Set the object name to **IIS AppPool\\<AppPoolName>**, where **<AppPoolName>** is the Application Pool Identity account name.
+7.  Click/Tap **Check Names**.
+8.  Click/Tap **OK**, then **Apply**.

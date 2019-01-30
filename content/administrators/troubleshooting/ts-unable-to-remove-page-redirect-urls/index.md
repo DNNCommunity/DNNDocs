@@ -36,8 +36,8 @@ Unknown.
         
         where @NameOfPage is the name of the page.
         
-    
-    Note: You will need the TabID returned by the query in the following steps.
+    > [!NOTE]
+    > You will need the TabID returned by the query in the following steps.
     
 4.  Delete all redirects.
     1.  Run the following SQL script:

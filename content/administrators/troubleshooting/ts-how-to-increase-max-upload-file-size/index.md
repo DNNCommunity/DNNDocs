@@ -33,11 +33,13 @@ The maximum file size must be multiples of 1024.
         
     2.  Replace the value of maxRequestLength with the maximum file size you want.
         
-        Note: maxRequestLength is stored as kilobytes. Example: You can use 2097152 KB (equivalent to 2 GB).
+        > [!NOTE]
+        > maxRequestLength is stored as kilobytes. Example: You can use 2097152 KB (equivalent to 2 GB).
         
 3.  If you need to upload files that are greater than 28 MB on IIS7+ or on Cloud Services, add a `<system.webServer/>` node to specify the maxAllowedContentLength for requests.
     
-    Note: maxAllowedContentLength is stored as bytes. Example: You can use 2147483647 bytes (equivalent to 2 GB).
+    > [!NOTE]
+    > maxAllowedContentLength is stored as bytes. Example: You can use 2147483647 bytes (equivalent to 2 GB).
     
     Add the following node to your web.config:
     

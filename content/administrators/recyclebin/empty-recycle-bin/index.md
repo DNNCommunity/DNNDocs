@@ -11,7 +11,8 @@ related-topics: administrators-assets-overview,administrators-pages-templates-ov
 
 # Empty the Recycle Bin
 
-Note: The Empty Recycle Bin button purges (permanently deletes) all items. To purge a specific type of item, go to the tab for the item type.
+>[!NOTE]
+> The Empty Recycle Bin button purges (permanently deletes) all items. To purge a specific type of item, go to the tab for the item type.
 
 ## Steps
 
@@ -19,9 +20,6 @@ Note: The Empty Recycle Bin button purges (permanently deletes) all items. To pu
     
     ![Persona Bar > Content > Recycle Bin](/images/scr-pbar-host-Content-E91.png)
     
-    ➊
-    
-    ➋
     
 2.  Click/Tap Empty Recycle Bin.
     

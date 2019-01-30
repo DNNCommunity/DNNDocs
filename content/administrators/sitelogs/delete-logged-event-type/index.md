@@ -11,9 +11,10 @@ related-topics: view-site-logs,view-entry-details,clear-log,delete-entries,share
 
 # Delete a Logged Event Type
 
-If multiple entries for the same event type exist, delete the global one (Website is set to All) before deleting the specific ones (Website is set to a specific site).
+If multiple entries for the same event type exist, delete the global one (**Website** is set to **All**) before deleting the specific ones (**Website** is set to a specific site).
 
-Tip: If you might want to log the event again in the future, you can turn off Logging to stop logging the event type, instead of deleting it.
+> [!TIP]
+> If you might want to log the event again in the future, you can turn off **Logging** to stop logging the event type, instead of deleting it.
 
 ## Prerequisites
 
@@ -21,15 +22,11 @@ Tip: If you might want to log the event again in the future, you can turn off Lo
 
 ## Steps
 
-1.  Go to Persona Bar \> Manage \> Admin Logs.
+1.  Go to **Persona Bar \> Manage \> Admin Logs**.
     
     ![Persona Bar > Manage > Admin Logs](/images/scr-pbar-host-Manage-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Log Settings tab.
+2.  Go to the **Log Settings** tab.
     
     ![Log Settings](/images/scr-pbtabs-host-Manage-AdminLogs-LogSettings-E90.png)
     
@@ -41,7 +38,7 @@ Tip: If you might want to log the event again in the future, you can turn off Lo
     
       
     
-4.  Click/Tap Delete.
+4.  Click/Tap **Delete**.
     
       
     
