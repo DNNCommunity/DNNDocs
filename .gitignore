@@ -26,3 +26,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 /.vs
+/_exported_templates/
+.vscode
