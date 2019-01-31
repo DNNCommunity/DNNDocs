@@ -39,9 +39,12 @@
       }
     ],
     "dest": "_site",
+    "globalMetadata": {
+      "_appLogoPath": "images/dnn_docs_logo.png"
+    },
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
-    "template": ["default"],
+    "template": ["default", "templates/dnn-docs"],
     "postProcessors": [],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
