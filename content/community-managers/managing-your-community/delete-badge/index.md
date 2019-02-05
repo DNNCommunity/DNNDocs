@@ -21,10 +21,6 @@ related-topics: configure-gaming-actions,configure-gaming-privileges,create-badg
     
     ![Persona Bar > Settings > Gamification](/images/scr-pbar-mod-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Highlight the badge to delete. Then Click/Tap the X icon under the Actions column.
     
       

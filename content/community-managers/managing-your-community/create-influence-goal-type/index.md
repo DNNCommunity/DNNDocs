@@ -21,10 +21,6 @@ related-topics: edit-influence-goal-type,delete-influence-goal-type,config-misc-
     
     ![Persona Bar > Settings > Community](/images/scr-pbar-mod-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Click/Tap Create New. Then configure the new goal type.
     
       
@@ -33,23 +29,9 @@ related-topics: edit-influence-goal-type,delete-influence-goal-type,config-misc-
     
       
     
-    Field
-    
-    Description
-    
-    Goal Type
-    
-    New goal type to add to the site's list.
-    
-    Weight
-    
-    The weighting factor to be used with the value to determine the points to add to the user's influence.
-    
-    Value
-    
-    The points (multiplied with the weight) to add to the user's influence if the goal is achieved.
-    
-    Min Value  
-    Max Value
-    
-    The minimum and maximum allowed for Value.
+    |**Field**|**Description**|
+    |---|---|
+    |**Goal Type**|New goal type to add to the site's list.|
+    |**Weight**|The weighting factor to be used with the value to determine the points to add to the user's influence.|
+    |**Value**|The points (multiplied with the weight) to add to the user's influence if the goal is achieved.|
+    |**Min Value<br />Max Value**|The minimum and maximum allowed for Value.|

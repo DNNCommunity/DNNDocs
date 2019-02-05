@@ -21,10 +21,6 @@ related-topics: create-influence-goal-type,edit-influence-goal-type,config-misc-
     
     ![Persona Bar > Settings > Community](/images/scr-pbar-mod-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Highlight the goal type to delete. Then Click/Tap the X icon under the Actions column.
     
       
