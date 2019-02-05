@@ -80,128 +80,127 @@ Status: 200
 
 ```
 
-id
+**id**
 
 \[string\] The unique identifier of the content item.
 
-slug
+**slug**
 
 \[string\] The portion of the URL that uniquely identifies this content item for retrieval.
 
-contentTypeId
+**contentTypeId**
 
 \[string\] The unique identifier of the content type of the content item.
 
-contentTypeName
+**contentTypeName**
 
 \[string\] The name of the content type of the content item.
 
-name
+**name**
 
 \[string\] The name of the content item.
 
-description
+**description**
 
 \[string\] The description of the content item.
 
-language
+**language**
 
 \[string\] The language of the content item.
 
-alreadyPublished
+**alreadyPublished**
 
 \[boolean\] Whether the content item has been published.
 
-details
+**details**
 
 \[object\] The JObject structure that contains the values of all dynamic fields of the content item.
 
-currentVersion
+**currentVersion**
 
 \[integer\] The current version of the content item.
 
-usages
+**usages**
 
 \[integer\] The number of times that the content item is used.
 
-createdAt
+**createdAt**
 
 \[string\] When the content item was created.
 
-createdBy
+**createdBy**
 
 Who created the content item.
 
-id
+**id**
 
 \[string\]
 
-name
+**name**
 
 \[string\]
 
-thumbnail
+**thumbnail**
 
 \[string\]
 
-updatedAt
+**updatedAt**
 
 \[string\] When the content item was last updated.
 
-updatedBy
+**updatedBy**
 
 Who last updated the content item.
 
-id
+**id**
 
 \[string\]
 
-name
+**name**
 
 \[string\]
 
-thumbnail
+**thumbnail**
 
 \[string\]
 
-stateId
+**stateId**
 
 \[integer\] A code that represents the current workflow state. If 0, the item is in draft (unpublished) mode. If 1, the item is published.
 
-tags
+**tags**
 
 \[array\] The list of tags associated with the content item.
 
-clientReferenceId
+**clientReferenceId**
 
 \[string\] An external identifier used to synchronize the content item with clients, specifically the HTMLPro module in Evoq.
 
-seoSettings
+**seoSettings**
 
 Seo settings of the content item.
 
-pageTitle
+**pageTitle**
 
 \[string\]
 
-description
+**description**
 
 \[string\]
 
-keywords
+**keywords**
 
 \[array\]
 
-image
+**image**
 
-fileName
+**fileName**
 
 \[string\]
 
-fileId
+**fileId**
 
 \[integer\]
-
-url
+**url**
 
 \[string\]
