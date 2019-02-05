@@ -13,7 +13,7 @@ links: ["[DNN Wiki: DotNetNuke Skins](http://www.dnnsoftware.com/wiki/dotnetnuke
 
 ## Components of a Theme
 
-A DNN theme (formerly called a skin) defines the look and feel of the website. It is comprised of:
+A DNN **theme** (formerly called a **skin**) defines the look and feel of the website. It is comprised of:
 
 *   one or more layout templates (HTML or ASCX)
 *   (optional) a style sheet (CSS) for each of the layout templates
@@ -33,23 +33,23 @@ A DNN theme (formerly called a skin) defines the look and feel of the website. I
 
   
 
-A pane is a section of a webpage that displays static content, dynamic content, or a standard theme object.
+A **pane** is a section of a webpage that displays static content, dynamic content, or a standard theme object.
 
-A layout template defines where panes are located on the webpage and what each pane contains. The layout templates included in a theme are variations that the web designer can choose from for each page in the website, such as the home page, a gallery of photos, or a listing of products for sale.
+A **layout template** defines where panes are located on the webpage and what each pane contains. The layout templates included in a theme are variations that the web designer can choose from for each page in the website, such as the home page, a gallery of photos, or a listing of products for sale.
 
-A container is similar to a layout template, except a container's scope is a single pane, whereas a layout template's scope is the entire page. A container is associated with a module, which can generate dynamic content or perform other functionality.
+A **container** is similar to a layout template, except a container's scope is a single pane, whereas a layout template's scope is the entire page. A container is associated with a **module**, which can generate dynamic content or perform other functionality.
 
 *   The layout template must contain one or more panes. A container has exactly one pane; additional panes are ignored.
 *   Exactly one of the panes must be called `ContentPane` (case-insensitive).
 *   Each pane must have a name that is unique within the page.
 *   All panes must be defined as a server control by adding `runat="server"` to the element.
-*   A pane can be one of the following HTML elements: <td> (table cells), <div>, <p>, and <span>.
+*   A pane can be one of the following HTML elements: `<td>` (table cells), `<div>`, `<p>`, and `<span>`.
 
-Layouts and containers can contain a theme object, which can be a typical component of a webpage, such as the menu bar, the copyright notice, the login/registration links, the privacy link, the terms of service link, and the search box. Theme objects are inserted in the HTML or ASCX as tokens.
+Layouts and containers can contain a **theme object**, which can be a typical component of a webpage, such as the menu bar, the copyright notice, the login/registration links, the privacy link, the terms of service link, and the search box. Theme objects are inserted in the HTML or ASCX as tokens.
 
 ## Cascading Style Sheets (CSS)
 
-Cascading Style Sheets (CSS files) are automatically associated with layouts and containers, if they are in the same folder and they share the same filename. Example: MyFirstLayout.css is associated with MyFirstLayout.ascx.
+Cascading Style Sheets (CSS files) are automatically associated with layouts and containers, if they are in the same folder and they share the same filename. Example: **MyFirstLayout.css** is associated with **MyFirstLayout.ascx**.
 
 *   Any CSS file associated with a layout template defines how elements of the entire page are displayed.
 *   Any CSS file associated with a container defines how the dynamic content is displayed within a single pane of the webpage. This ensures a unified design throughout the entire page, even if the various modules in the same page come from different creators.
@@ -64,29 +64,12 @@ When a layout template is applied to a webpage, any associated CSS is automatica
 
 DNN supports two different types of themes: HTML and ASCX.
 
-HTML
-
-ASCX
-
-Basic theme.
-
-Advanced theme.
-
-Can be created using any HTML editor.
-
-Requires [Microsoft Visual Studio](http://www.visualstudio.com/).
-
-Automatically converted to ASCX when installed. Only the contents inside the `<body>` tag is retained (without the tag); everything else is discarded, including the entire `<header>`.
-
-Used as is.
-
-Easier to create.
-
-Uses DNN tokens, which represent code that call DNN APIs. The tokens are replaced with code during conversion to ASCX.
-
-More powerful.
-
-Allows customization of code that call DNN APIs.
+|**HTML**|**ASCX**|
+|---|---|
+|Basic theme.|Advanced theme.|
+|Can be created using any HTML editor.|Requires [Microsoft Visual Studio](http://www.visualstudio.com/).|
+|Automatically converted to ASCX when installed. Only the contents inside the `<body>` tag is retained (without the tag); everything else is discarded, including the entire `<header>`.|Used as is.|
+|Easier to create.<br />Uses DNN tokens, which represent code that call DNN APIs. The tokens are replaced with code during conversion to ASCX.|More powerful.<br />Allows customization of code that call DNN APIs.|
 
 Thousands of third-party modules and themes are available from these sources:
 

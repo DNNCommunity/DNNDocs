@@ -14,7 +14,7 @@ links: ["[DNN Wiki: DotNetNuke Skins](http://www.dnnsoftware.com/wiki/dotnetnuke
 
 # Create a Container
 
-A container is similar to a layout template, except a container's scope is a single pane, whereas a layout template's scope is the entire page. A container is associated with a module, which can generate dynamic content or perform other functionality.
+A **container** is similar to a layout template, except a container's scope is a single pane, whereas a layout template's scope is the entire page. A container is associated with a **module**, which can generate dynamic content or perform other functionality.
 
 Containers allow designers to seamlessly integrate modules from many different developers into a cohesive website design. Containers can also include visual elements that allow website users to interact with the module.
 
@@ -30,12 +30,12 @@ Containers allow designers to seamlessly integrate modules from many different d
 
 1.  Create a new file for the container.
     
-    Note:
-    
-    *   The container must contain exactly one pane called `ContentPane`.
-    *   The single pane must be defined as a server control by adding `runat="server"` to the element.
-    *   A pane can be one of the following HTML elements: <td> (table cells), <div>, <p>, and <span>.
-    *   (Optional) You can add the attribute `visible="false"` to the pane to prevent it from being displayed if no module is assigned to it.
+    > [!NOTE]
+    >    
+    > *   The container must contain exactly one pane called `ContentPane`.
+    > *   The single pane must be defined as a server control by adding `runat="server"` to the element.
+    > *   A pane can be one of the following HTML elements: `<td>` (table cells), `<div>`, `<p>`, and `<span>`.
+    > *   (Optional) You can add the attribute `visible="false"` to the pane to prevent it from being displayed if no module is assigned to it.
     
     A very basic container in HTML.
     
@@ -58,30 +58,33 @@ Containers allow designers to seamlessly integrate modules from many different d
     
     The following theme objects are relevant to containers:
     
-    ACTIONBUTTON
-    
-    Displays an action from the module action menu.
-    
-    ACTIONBUTTON
-    
-    Displays an action from the module action menu.
-    
-    DROPDOWNACTIONS
-    
-    Displays the module action menu as a dropdown list.
-    
-    ICON
-    
-    Displays the module icon.
-    
-    PRINTMODULE
-    
-    Displays a link for the Print action from the module action menu.
-    
-    TITLE
-    
-    Displays the module title.
-    
-    VISIBILITY
-    
-    Displays a visibility control for the module allowing users to show or hide a given module on the page.
+    <table>
+     <tr>
+       <td>ACTIONBUTTON</td>
+       <td>Displays an action from the <strong>module action menu</strong>.</td>
+     </tr>
+     <tr>
+       <td>ACTIONBUTTON</td>
+       <td>Displays an action from the <strong>module action menu</strong>.</td>
+     </tr>
+     <tr>
+       <td>DROPDOWNACTIONS</td>
+       <td>Displays the <strong>module action menu</strong> as a dropdown list.</td>
+     </tr>
+     <tr>
+       <td>ICON</td>
+       <td>Displays the module icon.</td>
+     </tr>
+     <tr>
+       <td>PRINTMODULE</td>
+       <td>Displays a link for the Print action from the <strong>module action menu</strong>.</td>
+     </tr>
+     <tr>
+       <td>TITLE</td>
+       <td>Displays the module title.</td>
+     </tr>
+     <tr>
+       <td>VISIBILITY</td>
+       <td>Displays a visibility control for the module allowing users to show or hide a given module on the page.</td>
+     </tr>
+    </table>
