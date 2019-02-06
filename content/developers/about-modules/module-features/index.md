@@ -18,7 +18,8 @@ While not traditionally considered part of module development, themes and contai
 
 Themes define the look and feel of pages within DNN, and modules should be designed to work with a wide variety of styles. Through the placement of panes, the theme defines where modules can be positioned on a webpage.
 
-Tip: If you choose to define styles specific to your module, specify the scope of your styles in a root element (usually a `<div>` that wraps your entire markup) within your module. This ensures that your styles will be more specific than the styles defined in the theme.
+> [!Tip]
+> If you choose to define styles specific to your module, specify the scope of your styles in a root element (usually a `<div>` that wraps your entire markup) within your module. This ensures that your styles will be more specific than the styles defined in the theme.
 
 DNN wraps a container around each module in the page. In addition to defining the look and feel of content blocks on the page, the container also provides UI elements that manage the module, such as the module title, the module action menu, and the action links.
 

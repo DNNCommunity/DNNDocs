@@ -17,44 +17,8 @@ Some APIs accept `searchtext` as one of the criteria used to determine which ite
 
 ## In Liquid Content™ (Structured Content)
 
-Item Type
-
-Searched Fields
-
-all Structured Content items
-
-*   TenantId
-*   Name
-*   Label
-
-content items
-
-*   TenantId
-*   Name
-*   ParentId
-*   CreatedBy
-*   UpdatedBy
-*   Description
-*   Details
-*   ContentTypeId
-*   ContentTypeName
-*   Language
-*   Tags
-*   PreviousName
-*   PreviousValues
-*   PreviousUpdatedBy
-*   DraftName
-*   DraftUpdatedBy
-*   DraftDescription
-*   DraftDetails
-*   DraftTags
-
-visualizers
-
-*   TenantId
-*   Name
-*   Description
-*   ContentTypeId
-*   ContentTypeName
-*   CreatedBy
-*   UpdatedBy
+|**Item Type**|**Searched Fields**|
+|---|---|
+|all Structured Content items|<ul><li>TenantId</li><li>Name</li><li>Label</li></ul>|
+|content items|<ul><li>TenantId</li><li>Name</li><li>ParentId</li><li>CreatedBy</li><li>UpdatedBy</li><li>Description</li><li>Details</li><li>ContentTypeId</li><li>ContentTypeName</li><li>Language</li><li>Tags</li><li>PreviousName</li><li>PreviousValues</li><li>PreviousUpdatedBy</li><li>DraftName</li><li>DraftUpdatedBy</li><li>DraftDescription</li><li>DraftDetails</li><li>DraftTags</li></ul>|
+|visualizers|<ul><li>TenantId</li><li>Name</li><li>Description</li><li>ContentTypeId</li><li>ContentTypeName</li><li>CreatedBy</li><li>UpdatedBy</li></ul>|

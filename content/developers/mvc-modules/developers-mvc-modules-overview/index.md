@@ -28,7 +28,7 @@ After creating your MVC module project from a template, the following project st
 
 ## Initial Project Code from Template
 
-After creating the module and building the package, go to Host \> Extensions to install the package. After installation, you can add the module to a page for testing. The initial code created by the template should look like this:
+After creating the module and building the package, go to **Host \> Extensions** to install the package. After installation, you can add the module to a page for testing. The initial code created by the template should look like this:
 
   
 

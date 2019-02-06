@@ -43,7 +43,8 @@ links: ["[DNN Community Blog: Module Development for Non-Developers, Skinners, &
         
     4.  Click the Download button for the DotNetNuke Project Templates.
     
-    Note: See [Chris Hammond's instructions](http://www.chrishammond.com/blog/itemid/2616/using-the-new-module-development-templates-for-dot) for other installation methods.
+    > [!Note]
+    > See [Chris Hammond's instructions](http://www.chrishammond.com/blog/itemid/2616/using-the-new-module-development-templates-for-dot) for other installation methods.
     
     For the DNN 8 templates,
     
@@ -83,7 +84,8 @@ links: ["[DNN Community Blog: Module Development for Non-Developers, Skinners, &
         *   Name: the name of your new module
         *   Location: a subfolder inside the DesktopModules folder of your DNN installation folder
         
-        Tip: Use your company name or a unique name as the subfolder name to avoid conflicts with other module creators in a production environment.
+        >[!Tip]
+        >Use your company name or a unique name as the subfolder name to avoid conflicts with other module creators in a production environment.
         
     5.  Uncheck Create directory for solution.
         

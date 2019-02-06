@@ -25,34 +25,12 @@ After the JWT Authentication Handler is installed in DNN, the web.config file is
         
 ```
 
-Parameter
+|**Parameter**|**Allowed Values**|**Description**|
+|---|---|---|
+|name|string|Name of the authentication provider. Must be unique within the `messageHandlers` section.|
+|enabled|`true` or `false`|If `true`, an instance of the provider is created and added to the chain of providers when the application starts. Otherwise, the provider is not instantiated.|
+|defaultInclude|`true` or `false`|If `true`, the API controller uses the authentication type included in each Web API request by default; if `false`, the API controller uses the authentication type specified in its own `DnnAuthorize` attribute. Example: If the API controller’s attribute is set to `[DnnAuthorize(AuthTypes = "JWT")]`, then the API controller will respond only to requests that use JWT authentication.|
+|forceSSL|`true` or `false`|If `true`, SSL mode (HTTPS) is required for API requests; otherwise, all requests are accepted.|
 
-Allowed Values
-
-Description
-
-name
-
-string
-
-Name of the authentication provider. Must be unique within the `messageHandlers` section.
-
-enabled
-
-`true` or `false`
-
-If `true`, an instance of the provider is created and added to the chain of providers when the application starts. Otherwise, the provider is not instantiated.
-
-defaultInclude
-
-`true` or `false`
-
-If `true`, the API controller uses the authentication type included in each Web API request by default; if `false`, the API controller uses the authentication type specified in its own `DnnAuthorize` attribute. Example: If the API controller’s attribute is set to `[DnnAuthorize(AuthTypes = "JWT")]`, then the API controller will respond only to requests that use JWT authentication.
-
-forceSSL
-
-`true` or `false`
-
-If `true`, SSL mode (HTTPS) is required for API requests; otherwise, all requests are accepted.
-
-Important: To prevent unauthorized access to the site, enforce SSL so that tokens are treated the same way as cookies in a web request.
+> [!Important]
+> To prevent unauthorized access to the site, enforce SSL so that tokens are treated the same way as cookies in a web request.

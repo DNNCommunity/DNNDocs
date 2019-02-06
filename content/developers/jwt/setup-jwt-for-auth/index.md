@@ -63,7 +63,8 @@ links: ["[IETF RFC 7519](https://tools.ietf.org/html/rfc7519)","[DNN Presentatio
         ```
         
     
-    Tip: Developers: To enable JWT authentication for your specific Web API, add the following attribute to the controller class:
+    > [!Tip]
+    > Developers: To enable JWT authentication for your specific Web API, add the following attribute to the controller class:
     
     ```
     

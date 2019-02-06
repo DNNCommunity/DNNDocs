@@ -53,7 +53,8 @@ DNN provides built-in caching with the Cache API. If you use DNN's DAL or DAL+ A
 
 The Cache API can be extended to use different cache stores. The abstraction provided by the Cache API ensures that modules perform seamlessly, regardless of the caching provider installed by the site administrator.
 
-Tip: If a class would be stored in the cache, mark it `[Serializable]` to ensure that it is stored correctly by out-of-process caching providers.
+> [!Tip]
+> If a class would be stored in the cache, mark it `[Serializable]` to ensure that it is stored correctly by out-of-process caching providers.
 
 ```
  

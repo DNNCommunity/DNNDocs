@@ -36,7 +36,8 @@ Each API is an HTTP request method: GET, POST, PUT, or DELETE. Example: The Cont
 
 An item might be a content type, a content item, a published content item, a visualizer, or a visualizer instance.
 
-Important: All API HTTP requests for Evoq sites must go to https://dnnapi.com/content .
+> [!Important]
+> All API HTTP requests for Evoq sites must go to https://dnnapi.com/content .
 
 The microservices expect the parameters of an API in one of these locations:
 
@@ -44,53 +45,13 @@ The microservices expect the parameters of an API in one of these locations:
 *   URL path. If the API retrieves (GET), modifies (PUT), or deletes (DELETE) a specific item, the ID of the item is typically added to the URL path.
 *   Message body. If the API creates (POST) or modifies (PUT) an item, the properties of the new item (POST) or the new properties of an existing item (PUT) are specified in a JSON-serialized data transfer object (DTO) in the body of the request. The fields in a DTO vary depending on the item type.
 
-HTTP Method
-
-Objective
-
-Typical URL Path
-
-HTTP Body
-
-GET
-
-list of items
-
-https://dnnapi.com/content/api/apiname?field=value
-
-(Not required.)
-
-GET
-
-specific item
-
-https://dnnapi.com/content/api/apiname/itemID
-
-(Not required.)
-
-POST
-
-specific item
-
-https://dnnapi.com/content/api/apiname/itemID?publish=TRUE
-
-JSON DTO
-
-PUT
-
-specific item
-
-https://dnnapi.com/content/api/apiname/itemID?publish=TRUE
-
-JSON DTO
-
-DELETE
-
-specific item
-
-https://dnnapi.com/content/api/apiname/itemID
-
-(Not required.)
+|**HTTP Method**|**Objective**|**Typical URL Path**|**HTTP Body**|
+|---|---|---|---|---|
+|GET|list of items|https://dnnapi.com/content/api/apiname?field=value|(Not required.)|
+|GET|specific item|https://dnnapi.com/content/api/apiname/itemID|(Not required.)|
+|POST|specific item|https://dnnapi.com/content/api/apiname/itemID?publish=TRUE|JSON DTO|
+|PUT|specific item|https://dnnapi.com/content/api/apiname/itemID?publish=TRUE|JSON DTO|
+|DELETE|specific item|https://dnnapi.com/content/api/apiname/itemID|(Not required.)|
 
 ## HTTP Response
 
@@ -227,7 +188,8 @@ This example updates a content item using the PUT /api/ContentItems/{id} API, wh
                         
     ```
     
-    Note: You cannot change the ID.
+    > [!Note] 
+    > You cannot change the ID.
     
 4.  Construct the URL of your PUT request to contain the path parameter (id) and the optional query parameter (publish). Example: If id is "11111111-1111-1111" and you want the changes to be published immediately, then the URL would be as follows:
     
@@ -237,5 +199,5 @@ This example updates a content item using the PUT /api/ContentItems/{id} API, wh
                         
     ```
     
-
-Remember: Include the authentication token in the header.
+    > [!Important]
+    > Remember: Include the authentication token in the header.

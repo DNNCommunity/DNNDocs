@@ -16,7 +16,8 @@ links: ["[Microsoft MSDN: Unit Test Basics](https://msdn.microsoft.com/en-us/lib
 
 Because MVC controllers are the central business logic of an MVC module, it is a best practice to create automated unit tests to ensure they behave as intended. This example illustrates how to create a unit test for your module's MVC controller.
 
-Note: This unit test procedure is applicable only to modules created with the DNN MVC module template.
+> [!Note]
+> This unit test procedure is applicable only to modules created with the DNN MVC module template.
 
 ## Prerequisites
 
