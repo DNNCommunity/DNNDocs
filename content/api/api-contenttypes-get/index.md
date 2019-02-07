@@ -25,35 +25,35 @@ https://dnnapi.com/content/api/ContentTypes?query
 
 ```
 
-query
+**query**
 
 Can include the following keys and their associated values:
 
-query.searchText
+**query.searchText**
 
 \[string\] (Optional)
 
-query.startIndex
+**query.startIndex**
 
 \[integer\] (Optional)
 
-query.maxItems
+**query.maxItems**
 
 \[integer\] (Optional)
 
-query.fieldOrder
+**query.fieldOrder**
 
 \[string\] (Optional)
 
-query.orderAsc
+**query.orderAsc**
 
 \[boolean\] (Optional)
 
-query.createdFrom
+**query.createdFrom**
 
 \[string\] (Optional)
 
-query.createdTo
+**query.createdTo**
 
 \[string\] (Optional)
 
@@ -70,10 +70,10 @@ Status: 200
 
 ```
 
-documents
+**documents**
 
 \[array\]
 
-totalResultCount
+**totalResultCount**
 
 \[integer\]

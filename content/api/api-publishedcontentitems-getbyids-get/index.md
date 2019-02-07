@@ -86,114 +86,114 @@ Status: 200
 
 ```
 
-type
+**type**
 
-items
+**items**
 
-id
-
-\[string\]
-
-slug
+**id**
 
 \[string\]
 
-type
+**slug**
 
 \[string\]
 
-contentTypeName
+**type**
 
 \[string\]
 
-name
+**contentTypeName**
 
 \[string\]
 
-description
+**name**
 
 \[string\]
 
-tags
+**description**
+
+\[string\]
+
+**tags**
 
 \[array\]
 
-language
+**language**
 
 \[string\]
 
-alreadyPublished
+**alreadyPublished**
 
 \[boolean\]
 
-details
+**details**
 
 \[object\]
 
-currentVersion
+**currentVersion**
 
 \[integer\]
 
-createdAt
+**createdAt**
 
 \[string\]
 
-createdBy
+**createdBy**
 
-id
-
-\[string\]
-
-name
+**id**
 
 \[string\]
 
-thumbnail
+**name**
 
 \[string\]
 
-updatedAt
+**thumbnail**
 
 \[string\]
 
-updatedBy
-
-id
+**updatedAt**
 
 \[string\]
 
-name
+**updatedBy**
+
+**id**
 
 \[string\]
 
-thumbnail
+**name**
 
 \[string\]
 
-seoSettings
-
-pageTitle
+**thumbnail**
 
 \[string\]
 
-description
+**seoSettings**
+
+**pageTitle**
 
 \[string\]
 
-keywords
+**description**
+
+\[string\]
+
+**keywords**
 
 \[array\]
 
-image
+**image**
 
-fileName
+**fileName**
 
 \[string\]
 
-fileId
+**fileId**
 
 \[integer\]
 
-url
+**url**
 
 \[string\]

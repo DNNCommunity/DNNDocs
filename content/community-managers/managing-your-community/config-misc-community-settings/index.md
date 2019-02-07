@@ -20,10 +20,7 @@ related-topics: create-influence-goal-type,edit-influence-goal-type,delete-influ
 1.  Go to Persona Bar \> Settings \> Community.
     
     ![Persona Bar > Settings > Community](/images/scr-pbar-mod-Settings-E91.png)
-    
-    ➊
-    
-    ➋
+
     
 2.  Configure the community settings.
     
@@ -33,21 +30,11 @@ related-topics: create-influence-goal-type,edit-influence-goal-type,delete-influ
     
       
     
-    Field
-    
-    Description
-    
-    Content Moderation
-    
-    Content of the checked type(s) are moderated before they are published.
-    
-    Comment Moderation
-    
-    Comments for items of the checked type(s) are moderated before they are published.
-    
-    Enable WYSIWYG
-    
-    The WYSIWYG editor is enabled when users create or edit items of the checked type(s).
+    |**Field**|**Description**|
+    |---|---|
+    |**Content Moderation**|Content of the checked type(s) are moderated before they are published.|
+    |**Comment Moderation**|Comments for items of the checked type(s) are moderated before they are published.|
+    |**Enable WYSIWYG**|The WYSIWYG editor is enabled when users create or edit items of the checked type(s).|
     
     Page Size
     

@@ -107,117 +107,179 @@ The settings for the new content type.
 
 ```
 
-name
+**name**
 
 \[string\] The name of the content type.
 
-icon
+**icon**
 
 \[string\] The icon associated with the content type.
 
-description
+**description**
 
 \[string\] The description of the content type.
 
-fields
+**fields**
 
 \[array\] The set of fields that comprise the content type.
 
-properties
+**properties**
 
 The set of properties of the content type.
 
-contentName
+**contentName**
 
-type
+**type**
 
 \[string\]
 
-settings
+**settings**
 
-nameGeneratorFields
+**nameGeneratorFields**
 
 \[array\]
 
-id
+**id**
 
 \[string\]
 
-name
+**name**
 
 \[string\]
 
-label
+**label**
 
 \[string\]
 
-descriptionActive
+**descriptionActive**
 
 \[boolean\]
 
-description
+**description**
 
 \[string\]
 
-tooltipActive
+**tooltipActive**
 
 \[boolean\]
 
-tooltip
+**tooltip**
 
 \[string\]
 
-row
+**row**
 
 \[integer\]
 
-width
+**width**
 
 \[string\]
 
-position
+**position**
 
 \[string\]
 
-contentTags
+**contentTags**
 
-type
+**type**
 
 \[string\]
 
-validation
+**validation**
 
 requireField
 
-active
+**active**
 
 \[boolean\]
 
-errorMessage
+**errorMessage**
 
 \[string\]
 
-standardErrorMessage
+**standardErrorMessage**
 
 \[string\]
 
-id
+**id**
 
 \[string\]
 
-name
+**name**
 
 \[string\]
 
-label
+**label**
 
 \[string\]
 
-descriptionActive
+**descriptionActive**
 
 \[boolean\]
 
-description
+**description**
+
+\[string\]
+
+**tooltipActive**
+
+\[boolean\]
+
+**tooltip**
+
+\[string\]
+
+**row**
+
+\[integer\]
+
+**width**
+
+\[string\]
+
+**position**
+
+\[string\]
+
+**contentDescription**
+
+**type**
+
+\[string\]
+
+**validation**
+
+**requireField**
+
+**active**
+
+\[boolean\]
+
+**errorMessage**
+
+\[string\]
+
+**standardErrorMessage**
+
+\[string\]
+
+**id**
+
+\[string\]
+
+**name**
+
+\[string\]
+
+**label**
+
+\[string\]
+
+**descriptionActive**
+
+\[boolean\]
+
+**description**
 
 \[string\]
 
@@ -225,81 +287,19 @@ tooltipActive
 
 \[boolean\]
 
-tooltip
+**tooltip**
 
 \[string\]
 
-row
+**row**
 
 \[integer\]
 
-width
+**width**
 
 \[string\]
 
-position
-
-\[string\]
-
-contentDescription
-
-type
-
-\[string\]
-
-validation
-
-requireField
-
-active
-
-\[boolean\]
-
-errorMessage
-
-\[string\]
-
-standardErrorMessage
-
-\[string\]
-
-id
-
-\[string\]
-
-name
-
-\[string\]
-
-label
-
-\[string\]
-
-descriptionActive
-
-\[boolean\]
-
-description
-
-\[string\]
-
-tooltipActive
-
-\[boolean\]
-
-tooltip
-
-\[string\]
-
-row
-
-\[integer\]
-
-width
-
-\[string\]
-
-position
+**position**
 
 \[string\]
 
@@ -404,258 +404,258 @@ Status: 200
 
 ```
 
-id
+**id**
 
 \[string\] The unique identifier of the content type.
 
-createdAt
+**createdAt**
 
 \[string\] When the content type was created.
 
-createdBy
+**createdBy**
 
 Who created the content type.
 
-id
+**id**
 
 \[string\]
 
-name
+**name**
 
 \[string\]
 
-thumbnail
+**thumbnail**
 
 \[string\]
 
-updatedAt
+**updatedAt**
 
 \[string\] When the content type was last updated.
 
-updatedBy
+**updatedBy**
 
 Who last updated the content type.
 
-id
+**id**
 
 \[string\]
 
-name
+**name**
 
 \[string\]
 
-thumbnail
+**thumbnail**
 
 \[string\]
 
-name
+**name**
 
 \[string\] The name of the content type.
 
-icon
+**icon**
 
 \[string\] The icon associated with the content type.
 
-description
+**description**
 
 \[string\] The description of the content type.
 
-enabled
+**enabled**
 
 \[boolean\] If true, new content items of this content type can be created. Otherwise, not.
 
-fields
+**fields**
 
 \[array\] The set of fields that comprise the content type.
 
-numberOfItems
+**numberOfItems**
 
 \[integer\] The number of content items that are of this content type.
 
-numberOfVisualizers
+**numberOfVisualizers**
 
 \[integer\] The number of visualizers associated with this content type.
 
-isSystem
+**isSystem**
 
 \[boolean\] If true, this content type is a default provided by DNN.
 
-properties
+**properties**
 
 The set of properties of the content type.
 
-contentName
+**contentName**
 
-type
+**type**
 
 \[string\]
 
-settings
+**settings**
 
-nameGeneratorFields
+**nameGeneratorFields**
 
 \[array\]
 
-id
+**id**
 
 \[string\]
 
-name
+**name**
 
 \[string\]
 
-label
+**label**
 
 \[string\]
 
-descriptionActive
+**descriptionActive**
 
 \[boolean\]
 
-description
+**description**
 
 \[string\]
 
-tooltipActive
+**tooltipActive**
 
 \[boolean\]
 
-tooltip
+**tooltip**
 
 \[string\]
 
-row
+**row**
 
 \[integer\]
 
-width
+**width**
 
 \[string\]
 
-position
+**position**
 
 \[string\]
 
-contentTags
+**contentTags**
 
-type
+**type**
 
 \[string\]
 
-validation
+**validation**
 
-requireField
+**requireField**
 
-active
+**active**
 
 \[boolean\]
 
-errorMessage
+**errorMessage**
 
 \[string\]
 
-standardErrorMessage
+**standardErrorMessage**
 
 \[string\]
 
-id
+**id**
 
 \[string\]
 
-name
+**name**
 
 \[string\]
 
-label
+**label**
 
 \[string\]
 
-descriptionActive
+**descriptionActive**
 
 \[boolean\]
 
-description
+**description**
 
 \[string\]
 
-tooltipActive
+**tooltipActive**
 
 \[boolean\]
 
-tooltip
+**tooltip**
 
 \[string\]
 
-row
+**row**
 
 \[integer\]
 
-width
+**width**
 
 \[string\]
 
-position
+**position**
 
 \[string\]
 
-contentDescription
+**contentDescription**
 
-type
+**type**
 
 \[string\]
 
-validation
+**validation**
 
-requireField
+**requireField**
 
-active
+**active**
 
 \[boolean\]
 
-errorMessage
+**errorMessage**
 
 \[string\]
 
-standardErrorMessage
+**standardErrorMessage**
 
 \[string\]
 
-id
+**id**
 
 \[string\]
 
-name
+**name**
 
 \[string\]
 
-label
+**label**
 
 \[string\]
 
-descriptionActive
+**descriptionActive**
 
 \[boolean\]
 
-description
+**description**
 
 \[string\]
 
-tooltipActive
+**tooltipActive**
 
 \[boolean\]
 
-tooltip
+**tooltip**
 
 \[string\]
 
-row
+**row**
 
 \[integer\]
 
-width
+**width**
 
 \[string\]
 
-position
+**position**
 
 \[string\]

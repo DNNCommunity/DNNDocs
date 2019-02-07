@@ -25,47 +25,47 @@ https://dnnapi.com/content/api/ContentItems?query
 
 ```
 
-query
+**query**
 
 Can include the following keys and their associated values:
 
-query.published
+**query.published**
 
 \[boolean\] (Optional) If true, only published content items are included in the results.
 
-query.tags
+**query.tags**
 
 \[string\] (Optional) The tags to search for. Comma-separated and URL-encoded. Example: tags=my%20tag,tag2,lastTag
 
-query.contentTypeId
+**query.contentTypeId**
 
 \[string\] (Optional)
 
-query.searchText
+**query.searchText**
 
 \[string\] (Optional)
 
-query.startIndex
+**query.startIndex**
 
 \[integer\] (Optional)
 
-query.maxItems
+**query.maxItems**
 
 \[integer\] (Optional)
 
-query.fieldOrder
+**query.fieldOrder**
 
 \[string\] (Optional)
 
-query.orderAsc
+**query.orderAsc**
 
 \[boolean\] (Optional)
 
-query.createdFrom
+**query.createdFrom**
 
 \[string\] (Optional)
 
-query.createdTo
+**query.createdTo**
 
 \[string\] (Optional)
 
@@ -82,10 +82,10 @@ Status: 200
 
 ```
 
-documents
+**documents**
 
 \[array\]
 
-totalResultCount
+**totalResultCount**
 
 \[integer\]
