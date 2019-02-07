@@ -14,7 +14,7 @@ links: ["[W3C specifications on cascading and inheritance](http://www.w3.org/TR/
 
 # Create a CSS File
 
-A CSS file can be associated with a layout template or container by giving it the same filename and placing it in the same folder. When a layout template (or container) is applied to a webpage (or pane), the associated CSS file is automatically applied. Example: These three files are automatically associated with each other:
+A CSS file can be associated with a layout template or container by giving it the same filename and placing it in the same folder. When a **layout template** (or **container**) is applied to a webpage (or **pane**), the associated CSS file is automatically applied. Example: These three files are automatically associated with each other:
 
 *   MyLayout.ascx
 *   MyLayout.css
@@ -29,7 +29,8 @@ CSS files are applied hierarchically. If a style is defined for an element in mu
 5.  container.css ( ~/Portals/PortalID/Containers/ContainerPackageName/container.css) — The master CSS for all containers in your theme.
 6.  portal.css ( ~/Portals/PortalID/portal.css) — The CSS that can override elements in the installed themes. Website administrators can use this to override any styles in the theme or containers.
 
-Note: These style sheets are not required. You can also store all your styles in one master theme style sheet (skin.css). However, if you combine your container styles and your theme styles in one CSS file, then the container will display properly only when used with your theme.
+> [!NOTE]
+> These style sheets are not required. You can also store all your styles in one master theme style sheet (skin.css). However, if you combine your container styles and your theme styles in one CSS file, then the container will display properly only when used with your theme.
 
 ## Steps
 
@@ -38,7 +39,7 @@ Note: These style sheets are not required. You can also store all your styles in
     Include:
     
     *   Common styles for all layout templates in your theme.
-    *   Styles for theme objects used in all your layout templates.
+    *   Styles for **theme objects** used in all your layout templates.
     
 2.  (Optional) Create a separate style sheet for each layout template in your theme (MyThemeLayout.css).
     
