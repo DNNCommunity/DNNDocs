@@ -21,10 +21,6 @@ related-topics: configure-gaming-actions,create-badge,edit-badge,delete-badge
     
     ![Persona Bar > Settings > Gamification](/images/scr-pbar-mod-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  In the Privileges tab, highlight the privilege to be edited, then click/tap the pencil icon under the Actions column.
     
       
@@ -41,10 +37,6 @@ related-topics: configure-gaming-actions,create-badge,edit-badge,delete-badge
     
       
     
-    Field
-    
-    Description
-    
-    Reputation Points
-    
-    The minimum number of reputation points that a user must earn to get this privilege.
+    |**Field**|**Description**|
+    |---|---|
+    |**Reputation Points**|The minimum number of reputation points that a user must earn to get this privilege.|

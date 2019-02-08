@@ -22,7 +22,8 @@ A typical web page includes page elements and content blocks. Page elements, suc
 
 The module is one of the basic building blocks that extend DNN to enable users to view, create, and edit content. All DNN administrative features are implemented as modules.
 
-Tip: The DNN platform source code includes numerous example modules to help you build your own modules.
+> [!Tip]
+> The DNN platform source code includes numerous example modules to help you build your own modules.
 
 Due to the modular nature of page composition in DNN, modules are usually built to manage and display a single content type.
 

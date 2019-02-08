@@ -29,7 +29,8 @@ To render an MVC module control, DNN uses the module's control source definition
 			
 ```
 
-Note: The `controlSrc` value is not a file path. In an MVC module, the control sources are specified using the format: `{Controller Namespace}/{Controller Name}Controller/{Action Method Name}.mvc`.
+> [!Note]
+> The `controlSrc` value is not a file path. In an MVC module, the control sources are specified using the format: `{Controller Namespace}/{Controller Name}Controller/{Action Method Name}.mvc`.
 
 The above control source looks for the method Index() in the class Dnn.Modules.CompanyName.MyMvcModule.Controllers.ItemController, which implements the abstract base class DotNetNuke.Web.Mvc.Framework.Controllers.DnnController.
 

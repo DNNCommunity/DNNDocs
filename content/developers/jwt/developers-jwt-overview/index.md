@@ -25,7 +25,8 @@ JWT is ideal for applications that can not or do not want to use cookies, such a
 
 ## JWT Authentication
 
-Note: The JWT Authentication Provider is available in DNN products; however, it must be installed and enabled separately. DNN uses JWT for authentication only.
+> [!Note]
+> The JWT Authentication Provider is available in DNN products; however, it must be installed and enabled separately. DNN uses JWT for authentication only.
 
   
 

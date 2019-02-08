@@ -13,17 +13,10 @@ related-topics: gamification
 
 Engagement and Influence provide insight into the relationships among your community members.
 
-Engagement
-
-Influence
-
-Measures how involved the member is with the rest of the community.
-
-Measures the positive or negative effect of the member on the community.
-
-Engagement is internally computed and cannot be configured.
-
-Influence is based on points (weight multiplied by value) earned by a registered user based on activities that affect their reputation in the community.
+|**Engagement**|**Influence**|
+|---|---|
+|Measures how involved the member is with the rest of the community.|Measures the positive or negative effect of the member on the community.|
+|Engagement is internally computed and cannot be configured.|Influence is based on points (weight multiplied by value) earned by a registered user based on activities that affect their reputation in the community.|
 
 ## Influence Configuration
 

@@ -21,10 +21,6 @@ related-topics: configure-gaming-actions,configure-gaming-privileges,edit-badge,
     
     ![Persona Bar > Settings > Gamification](/images/scr-pbar-mod-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Click/Tap Create New.
     
       

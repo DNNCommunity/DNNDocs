@@ -24,208 +24,146 @@ Pagination depends on two parameters:
 
 Suppose you want a list of content items whose name that has the word "new" in its text fields. Then your query would be:
 
-https://dnnapi.com/content/api/ContentItems?searchtext=new
+**https://dnnapi.com/content/api/ContentItems?searchtext=new**
 
-index
+<table>
+    <tr>
+        <td>index</td>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>item</td>
+        <td>newA</td>
+        <td>newB</td>
+        <td>newC</td>
+        <td>newD</td>
+        <td>newE</td>
+        <td>newF</td>
+        <td>newG</td>
+        <td>newH</td>
+        <td>newI</td>
+        <td>newJ</td>
+    </tr>
+    <tr>
+        <td>returned</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+    </tr>
+</table>
 
-0
 
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-item
-
-newA
-
-newB
-
-newC
-
-newD
-
-newE
-
-newF
-
-newG
-
-newH
-
-newI
-
-newJ
-
-returned
-
-yes
-
-yes
-
-yes
-
-yes
-
-yes
-
-yes
-
-yes
-
-yes
-
-yes
-
-yes
 
 If you want each page to have a maximum of three content items, then set `maxitems` to 3.
 
-https://dnnapi.com/content/api/ContentItems?searchtext=new&maxitems=3
+**https://dnnapi.com/content/api/ContentItems?searchtext=new&maxitems=3**
 
 To display the third page of the results, then set `startindex` to the first index of that page. That is, `(pagenumber - 1) * maxitems`. The list has zero-based indexing; therefore, if `maxitems` is 3, then the `startindex` for the third page is 6.
 
-https://dnnapi.com/content/api/ContentItems?searchtext=new&maxitems=3&startindex=6
+**https://dnnapi.com/content/api/ContentItems?searchtext=new&maxitems=3&startindex=6**
 
-index
-
-0
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-item
-
-newA
-
-newB
-
-newC
-
-newD
-
-newE
-
-newF
-
-newG
-
-newH
-
-newI
-
-newJ
-
-returned
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-yes
-
-yes
-
-yes
+<table>
+    <tr>
+        <td>index</td>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>item</td>
+        <td>newA</td>
+        <td>newB</td>
+        <td>newC</td>
+        <td>newD</td>
+        <td>newE</td>
+        <td>newF</td>
+        <td>newG</td>
+        <td>newH</td>
+        <td>newI</td>
+        <td>newJ</td>
+    </tr>
+    <tr>
+        <td>returned</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td></td>
+    </tr>
+</table>
 
  
 
 However, the pagination does not have to be equal pages. You can choose to ignore the first two items and display the next five items.
 
-https://dnnapi.com/content/api/ContentItems?searchtext=new&maxitems=5&startindex=2
+**https://dnnapi.com/content/api/ContentItems?searchtext=new&maxitems=5&startindex=2**
 
-index
-
-0
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-item
-
-newA
-
-newB
-
-newC
-
-newD
-
-newE
-
-newF
-
-newG
-
-newH
-
-newI
-
-newJ
-
-returned
-
- 
-
- 
-
-yes
-
-yes
-
-yes
-
-yes
-
-yes
+<table>
+    <tr>
+        <td>index</td>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>item</td>
+        <td>newA</td>
+        <td>newB</td>
+        <td>newC</td>
+        <td>newD</td>
+        <td>newE</td>
+        <td>newF</td>
+        <td>newG</td>
+        <td>newH</td>
+        <td>newI</td>
+        <td>newJ</td>
+    </tr>
+    <tr>
+        <td>returned</td>
+        <td></td>
+        <td></td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>

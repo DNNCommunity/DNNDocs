@@ -59,32 +59,13 @@ The DNN Module Creator is generally recommended only for simple modules. For mor
     ![Module Creation form](/images/scr-ModuleCreatorForm.png)
     
       
-    
-    Owner Name
-    
-    Name of your organization. Must contain only alphanumeric characters. Used to create a folder to distinguish your modules from those created by other module creators. Also used as the namespace for your code.
-    
-    Module Name
-    
-    Must contain only alphanumeric characters. Used to create the module's friendly name and full name. The full name is \[OwnerName\].\[ModuleName\] with space characters removed.
-    
-    Language
-    
-    The selected language (C#, VB, or Web) determines which templates become available.
-    
-    Template
-    
-    For C# and VB, choose among:
-    
-    *   Inline Script. Code is embedded. Also uses user controls.
-    *   Razor. Uses Razor scripts to render views.
-    *   User Control. Code is stored in separate files. Most commonly used.
-    
-    For Web, the HTML template allows you to use HTML, CSS, and JavaScript.
-    
-    Control Name
-    
-    Name of the primary module control that is registered with DNN.
+    |**Field**|**Description**|
+    |---|---|
+    |**Owner Name**|Name of your organization. Must contain only alphanumeric characters. Used to create a folder to distinguish your modules from those created by other module creators. Also used as the namespace for your code.|
+    |**Module Name**|Must contain only alphanumeric characters. Used to create the module's friendly name and full name. The full name is \[OwnerName\].\[ModuleName\] with space characters removed.|
+    |**Language**|The selected language (C#, VB, or Web) determines which templates become available.|  
+    |**Template**|For **C#** and **VB**, choose among:<ul><li>**Inline Script**. Code is embedded. Also uses user controls.</li><li>**Razor**. Uses Razor scripts to render views.</li><li>**User Control**. Code is stored in separate files. Most commonly used.</li></ul>For **Web**, the **HTML** template allows you to use HTML, CSS, and JavaScript.|
+    |**Control Name**|Name of the primary module control that is registered with DNN.|
     
     The new module replaces the Module Creator form in the pane.
     
@@ -95,7 +76,7 @@ The DNN Module Creator is generally recommended only for simple modules. For mor
       
     
 6.  Customize the module.
-    1.  From the gear icon, choose Develop.
+    1.  From the gear icon, choose **Develop**.
         
           
         
@@ -111,7 +92,7 @@ The DNN Module Creator is generally recommended only for simple modules. For mor
         
           
         
-    3.  Add markup to customize the module. Then click Update to save your changes.
+    3.  Add markup to customize the module. Then click **Update**    to save your changes.
         
           
         
@@ -127,7 +108,7 @@ The DNN Module Creator is generally recommended only for simple modules. For mor
                                     
         ```
         
-    4.  From the Select File dropdown, choose the View.ascx.cs file.
+    4.  From the **Select File** dropdown, choose the View.ascx.cs file.
         
           
         
@@ -135,7 +116,7 @@ The DNN Module Creator is generally recommended only for simple modules. For mor
         
           
         
-    5.  Remove all the code in the Event Handlers region and click Update to save your changes.
+    5.  Remove all the code in the **Event Handlers** region and click **Update** to save your changes.
         
           
         

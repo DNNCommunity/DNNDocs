@@ -216,69 +216,56 @@ Dependencies can be any of these types (case-insensitive):
 
 Some component types are applicable only to the package type of the same name; generic component types can be used with any package type.
 
-Package type
-
-Specific component type
-
-Generic component types
-
-Auth_System
-
-AuthenticationSystem
-
-Assembly
-
-Cleanup
-
-Config
-
-File
-
-ResourceFile
-
-Script
-
-Container
-
-Container
-
-CoreLanguagePack
-
-CoreLanguage
-
-DashboardControl
-
-DashboardControl
-
-ExtensionLanguagePack
-
-ExtensionLanguage
-
-JavaScript_Library
-
- 
-
-Library
-
- 
-
-Module
-
-Module
-
-Provider
-
-Provider
-
-URL Provider
-
-Skin
-
-Skin
-
-SkinObject
-
-SkinObject
+<table>
+    <th><strong>Package type</strong></th>
+    <th><strong>Specific component type</strong></th>
+    <th><strong>Generic component types</strong></th>
+    <tr>
+        <td>Auth_System</td>
+        <td>AuthenticationSystem</td>
+        <td rowspan="11"><center><br />Assembly<br />Cleanup<br />Config<br />File<br />ResourceFile<br />Script</center></td>
+    </tr>
+    <tr>
+        <td>Container</td>
+        <td>Container</td>
+    </tr>
+    <tr>
+        <td>CoreLanguagePack</td>
+        <td>CoreLanguage</td>
+    </tr>
+    <tr>
+        <td>DashboardControl</td>
+        <td>DashboardControl</td>
+    </tr>
+    <tr>
+        <td>ExtensionLanguagePack</td>
+        <td>ExtensionLanguage</td>
+    </tr>
+    <tr>
+        <td>JavaScript_Library</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Library</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Module</td>
+        <td>Module</td>
+    </tr>
+    <tr>
+        <td>Provider</td>
+        <td>Provider<br />URL Provider</td>
+    </tr>
+    <tr>
+        <td>Skin</td>
+        <td>Skin</td>
+    </tr>
+    <tr>
+        <td>SkinObject</td>
+        <td>SkinObject</td>
+    </tr>
+</table>
 
 *   [`Assembly`](http://www.dnnsoftware.com/wiki/manifest-assembly-component). Assemblies to be installed in the main \\bin folder of the installation. Assemblies are the compiled code portion of your extension. They can be your own assemblies or third-party assemblies that you ship with your extension.
     
