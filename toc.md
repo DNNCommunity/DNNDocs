@@ -1,4 +1,5 @@
 # [Administrators](/content/administrators/)
+# [Content Managers](/content/content-managers/)
 # [Designers](/content/designers/)
 # [Developers](/content/developers/)
 # [API](/api/)
