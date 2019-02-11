@@ -19,15 +19,15 @@ After installing DocFX, the next step is to clone this repo.  'Cloning the repo'
 
 Note the following example command clones the repo to the location of `c:\dev`. Update the `c:\dev` location to your location of choice on your machine. 
 ```
-c:\dev> git clone https://github.com/DNNCommunity/dnn-docs.git
+c:\dev> git clone https://github.com/DNNCommunity/DNNDocs.git
 ```
 
-Currently the DocFX version of the documentation is on the `docfx` branch, so navigate to that directory by using the cd (Change Directory) command. `cd` into the `dnn-docs` folder and checkout that branch
+The previous command will have created a folder called `DNNDocs` in the `c:\dev` folder. Navigate to that directory by using the cd (Change Directory) command. `cd` into the `DNNDocs` folder. 
 ```
-c:\dev\dnn-docs> git checkout docfx
+c:\dev> cd DNNDocs
 ```
 
-Next, you'll need to fork and/or clone the [Dnn.Platform repository](https://github.com/dnnsoftware/Dnn.Platform) _into_ a sub-folder of the dnn-docs root folder. The reason is that the project reads the XML comments in the source code and creates API documentation from that, in addition to the documentation center articles.
+Next, you'll need to fork and/or clone the [Dnn.Platform repository](https://github.com/dnnsoftware/Dnn.Platform) into a **sub-folder** of the `DNNDocs` root folder. The reason is that the project reads the XML comments in the source code and creates API documentation from that, in addition to the documentation center articles.
 
 Please note this could take a few minutes depending on your connection speed.
 ```
@@ -41,9 +41,9 @@ You should now be able to run the development version of the docs locally with t
 docfx --serve
 ```
 
-The first time, the compilation process could take quite a while. You will also likely see a lot of warning messages. Eventually, you should see a message similar to:
+The first time, the compilation process could take quite a while. You may see a couple of warning messages. Eventually, you should see a message similar to:
 ```
-Serving "C:\dev\dnn-docs\_site" on http://localhost:8080
+Serving "C:\dev\DNNDocs\_site" on http://localhost:8080
 ```
 
 Open that page up in your browser to see the documentation.
