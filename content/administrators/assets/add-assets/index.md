@@ -17,9 +17,7 @@ related-topics: edit-asset-properties,edit-asset-permissions,move-asset,copy-ass
     
     ![Persona Bar > Content > Assets](/images/scr-pbar-cmg-Content-E91.png)
     
-    ➊
-    
-    ➋
+   
     
 2.  Go to the target folder.
     
