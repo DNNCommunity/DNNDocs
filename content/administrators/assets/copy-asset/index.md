@@ -17,9 +17,6 @@ related-topics: add-assets,edit-asset-properties,edit-asset-permissions,move-ass
     
     ![Persona Bar > Content > Assets](/images/scr-pbar-host-Content-E91.png)
     
-    ➊
-    
-    ➋
     
 2.  Hover over the asset card in the grid to expose the vertical icon bar. Click/Tap the copy icon.
     
