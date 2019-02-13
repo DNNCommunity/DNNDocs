@@ -13,7 +13,8 @@ Dnn.Platform/
 /tmp
 /obj
 /_site
-/api
+/api/*.yml
+/api/*.manifest
 
 # misc
 .DS_Store
