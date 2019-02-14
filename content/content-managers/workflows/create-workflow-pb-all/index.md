@@ -17,10 +17,6 @@ related-topics: edit-workflow-pb-all,delete-workflow-pb-all,configure-workflow-s
     
     ![Persona Bar > Settings > Workflow](/images/scr-pbar-cmg-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Click/Tap the Create New Workflow button.
     
       

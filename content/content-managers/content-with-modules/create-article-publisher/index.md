@@ -40,7 +40,8 @@ An article can be announcements, news, press releases.
         *   choose a file that is already in your site, or
         *   copy a file from the web.
         
-        Note: Please be mindful of copyrights when using images from the web.
+        > [!Note]
+        > Please be mindful of copyrights when using images from the web.
         
     2.  (Optional) After adding the image, you can replace or delete the image by clicking the pencil icon or X icon, respectively.
         
@@ -68,27 +69,18 @@ An article can be announcements, news, press releases.
     
       
     
-    Field
-    
-    Description
-    
-    \[Page\] URL
-    
-    Custom URL for the page.
-    
-    Featured
-    
-    If checked, the article is listed in the featured article section of the module.
-    
-    Tags
-    
-    Comma-separated tags to associate with the article.
+   |**Field**|**Description**|
+   |---|---|
+   |**\[Page\] URL**|Custom URL for the page.|
+   |**Featured**|If checked, the article is listed in the featured article section of the module.|
+   |**Tags**|Comma-separated tags to associate with the article.|
     
 5.  (Optional) Change the author of the article.
     
     By default, the current user is specified as the author of the article; however, you can override this setting and select a different author from the list.
     
-    Tip: If an author is not included in the list, verify that they belong to a role that has View permissions for the module.
+    > [!Tip]
+    > If an author is not included in the list, verify that they belong to a role that has View permissions for the module.
     
       
     

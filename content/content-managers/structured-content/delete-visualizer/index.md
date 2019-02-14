@@ -23,10 +23,6 @@ Note: Visualizers provided by DNN cannot be edited, replaced, exported, or delet
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-cmg-Content-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Go to the Visualizers tab.
     
     ![Visualizers](/images/scr-pbtabs-all-Content-ContentLibrary-Visualizers-E91.png)

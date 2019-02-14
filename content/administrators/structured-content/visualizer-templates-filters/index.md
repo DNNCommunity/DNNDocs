@@ -327,31 +327,31 @@ escape_once
 
 Converts special characters in the string into HTML escape characters without affecting characters that are already HTML-escaped.
 
- 
+ 
 
 escape
 
 Converts special characters in the string into HTML escape characters.
 
- 
+ 
 
 newline\_to\_br
 
 Replaces each newline ("\\n") with an HTML break (<br/>).
 
- 
+ 
 
 strip_html
 
 Removes all HTML-encoded characters from the piped string.
 
- 
+ 
 
 url_encode
 
 Converts the piped string to URL encoding.
 
- 
+ 
 
 ## Link Creation for URLs
 

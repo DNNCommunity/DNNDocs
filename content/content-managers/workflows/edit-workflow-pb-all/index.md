@@ -17,10 +17,6 @@ related-topics: create-workflow-pb-all,delete-workflow-pb-all,configure-workflow
     
     ![Persona Bar > Settings > Workflow](/images/scr-pbar-cmg-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  In the list, hover over the workflow to edit. Then click/tap the pencil icon.
     
       

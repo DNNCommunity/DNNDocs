@@ -43,25 +43,12 @@ Settings can be different among different field types and among different field 
 
 Example: The content item associated with a specific subscriber can be of the default content type Person. To create a content type Employee, you can duplicate the default content type Person, then add:
 
-Field Name
-
-Field Type
-
-Employee Number
-
-Number
-
-Hire Date
-
-DateTime
-
-Annual Salary
-
-Number
-
-Direct Manager
-
-Reference object
+|**Field Name**|**Field Type**|
+|---|---|
+|**Employee Number**|Number|
+|**Hire Date**|DateTime|
+|**Annual Salary**|Number|
+|**Direct Manager**|Reference object|
 
 A content type is associated with a visualizer, which defines how content items of that type are displayed. Visualizers are to content types, as containers are to modules.
 

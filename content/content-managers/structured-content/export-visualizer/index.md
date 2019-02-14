@@ -11,7 +11,8 @@ related-topics: create-visualizer,edit-visualizer,delete-visualizer,import-visua
 
 # Export a Visualizer
 
-Note: Visualizers provided by DNN cannot be edited, replaced, exported, or deleted.
+> [!Note]
+> Visualizers provided by DNN cannot be edited, replaced, exported, or deleted.
 
 ## Prerequisites
 
@@ -19,15 +20,11 @@ Note: Visualizers provided by DNN cannot be edited, replaced, exported, or delet
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Content Library.
+1.  Go to **Persona Bar \> Content \> Content Library**.
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-cmg-Content-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Visualizers tab.
+2.  Go to the **Visualizers** tab.
     
     ![Visualizers](/images/scr-pbtabs-all-Content-ContentLibrary-Visualizers-E91.png)
     
@@ -41,7 +38,7 @@ Note: Visualizers provided by DNN cannot be edited, replaced, exported, or delet
     
     You can browse the list of visualizers, or you can use Search field.
     
-4.  Click/Tap the Export File button.
+4.  Click/Tap the **Export File** button.
     
       
     
