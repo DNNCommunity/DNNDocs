@@ -17,10 +17,6 @@ related-topics: create-workflow-pb-all,edit-workflow-pb-all,configure-workflow-s
     
     ![Persona Bar > Settings > Workflow](/images/scr-pbar-cmg-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  In the list, hover over the workflow to delete. Click/tap the X icon, then confirm.
     
       

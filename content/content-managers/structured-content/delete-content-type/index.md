@@ -23,9 +23,6 @@ Note: Content types provided by DNN cannot be deleted.
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-cmg-Content-E91.png)
     
-    ➊
-    
-    ➋
     
 2.  Go to the Content Types tab.
     

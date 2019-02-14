@@ -21,10 +21,6 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,sha
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-cmg-Content-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Go to the Content tab.
     
     ![Content](/images/scr-pbtabs-all-Content-ContentLibrary-Content-E91.png)

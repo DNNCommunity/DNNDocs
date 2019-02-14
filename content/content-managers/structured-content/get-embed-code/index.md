@@ -17,21 +17,17 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,del
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Content Library.
+1.  Go to **Persona Bar \> Content \> Content Library**.
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-cmg-Content-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Content tab.
+2.  Go to the **Content** tab.
     
     ![Content](/images/scr-pbtabs-all-Content-ContentLibrary-Content-E91.png)
     
 3.  Search for the content item in the list.
     
-    You can use the Search field, the Sort By, or the filters (Content Type, Status, and Dates).
+    You can use the **Search** field, the **Sort By**, or the filters (**Content Type**, **Status**, and **Dates**).
     
       
     
@@ -39,7 +35,7 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,del
     
       
     
-4.  Click/Tap the Share icon for the specific content item.
+4.  Click/Tap the **Share** icon for the specific content item.
     
       
     
@@ -63,7 +59,7 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,del
     
       
     
-7.  Review how the content item would look, then click/tap Done.
+7.  Review how the content item would look, then click/tap **Done**.
     
       
     
@@ -71,7 +67,7 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,del
     
       
     
-8.  Click/Tap Copy to Clipboard.
+8.  Click/Tap **Copy to Clipboard**.
     
       
     
@@ -79,4 +75,4 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,del
     
       
     
-9.  Click/Tap Done.
+9.  Click/Tap **Done**.

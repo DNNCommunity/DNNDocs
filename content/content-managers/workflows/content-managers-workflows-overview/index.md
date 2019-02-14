@@ -17,42 +17,11 @@ A state in a workflow represents the stages of the content-creation or content-e
 
 Example: The following can be states in the creation of a text asset:
 
-Order
-
-State
-
-Reviewers
-
-1
-
-Draft (default)
-
- 
-
-2
-
-Content/Technical review
-
-Subject Matter Experts
-
-3
-
-Incorporation of feedback
-
-Content Editors
-
-4
-
-Editing
-
-Content Manager
-
-5
-
-Incorporation of edits
-
-Content Editors
-
-6
-
-Published (default)
+|**Order**|**State**|**Reviewers**|
+|---|---|---|
+|1|Draft (default)| |
+|2|Content/Technical review|Subject Matter Experts|
+|3|Incorporation of feedback|Content Editors|
+|4|Editing|Content Manager|
+|5|Incorporation of edits|Content Editors|
+|6|Published (default)|
