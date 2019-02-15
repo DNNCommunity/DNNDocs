@@ -13,15 +13,11 @@ related-topics: add-module-to-page-pb-all,add-content-to-page-quickly-pb-all,con
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Recycle Bin.
+1.  Go to **Persona Bar \> Content \> Recycle Bin**.
     
     ![Persona Bar > Content > Recycle Bin](/images/scr-pbar-host-Content-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Modules tab.
+2.  Go to the **Modules** tab.
     
     ![Modules](/images/scr-pbtabs-all-Content-RecycleBin-Modules-E91.png)
     
@@ -34,7 +30,7 @@ related-topics: add-module-to-page-pb-all,add-content-to-page-quickly-pb-all,con
         
           
         
-    *   To restore multiple modules, check the boxes for the items to restore, and click/tap the Restore button.
+    *   To restore multiple modules, check the boxes for the items to restore, and click/tap the **Restore** button.
         
           
         

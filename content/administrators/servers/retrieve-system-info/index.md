@@ -11,7 +11,8 @@ related-topics: view-server-logs,restart-application,install-extension,about-web
 
 # Retrieve System Information
 
- <div class="blue-callout"><strong>Note:</strong> In the DNN Platform, you can manage the web servers by using SQL commands (e.g., `select * from webservers`) through the SQL Console.</div>
+ > [!Note]
+ > In the DNN Platform, you can manage the web servers by using SQL commands (e.g., `select * from webservers`) through the **SQL Console**.</div>
 
 ## Prerequisites
 
@@ -19,17 +20,17 @@ related-topics: view-server-logs,restart-application,install-extension,about-web
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Servers.
+1.  Go to **Persona Bar \> Settings \> Servers**.
     
     ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
     
-2.  In the System Info tab, browse the subtabs.
+2.  In the **System Info** tab, browse the subtabs.
     *   Go to the System Info tab, and then the Application subtab.
         
         ![System Info > Application](/images/scr-pbtabs-host-Settings-Servers-SystemInfo-Application-E90.png)
         
-         | Field | Description |
+         |**Field**|**Description**|
          |---|---|
          |<strong>Product Version </strong> | Also visible from the Persona Bar logo.|
          |<strong>Host GUID</strong>| Might be required by Support to identify your DNN installation.|
@@ -43,12 +44,12 @@ related-topics: view-server-logs,restart-application,install-extension,about-web
         |<strong>CAS Permissions</strong>|<div class="red-callout"><strong>Important:</strong> Changing these settings is strongly discouraged. If necessary, you can modify them in web.config.</div>|
 
         
-    *   Go to the System Info tab, and then the Web subtab.
+    *   Go to the **System Info** tab, and then the **Web** subtab.
         
         ![System Info > Web](/images/scr-pbtabs-host-Settings-Servers-SystemInfo-Web-E90.png)
 
         
-        |Field|Description|
+        |**Field**|**Description**|
         |---|---|
         |<strong>OS Version<br />Web Server Version<br />.NET Framework Version<br /></strong>|Version numbers of systems installed and required by the DNN installation.|
         |<strong>ASP.NET Identity</strong>|The Windows user account used with the DNN installation. This account must have sufficient permissions to access and modify folders on the server.|
@@ -59,12 +60,12 @@ related-topics: view-server-logs,restart-application,install-extension,about-web
         |<strong>Server Time</strong>|The current date and time of the server.|
 
         
-    *   Go to the System Info tab, and then the Database subtab.
+    *   Go to the **System Info** tab, and then the Database subtab.
         
         ![System Info > Database](/images/scr-pbtabs-host-Settings-Servers-SystemInfo-Database-E90.png)
 
         
-        |Field|Description|
+        |**Field**|**Description**|
         |---|---|
         |<strong>Database Version<br />Service Pack<br />Product Edition<br />Software Platform</strong>|Information about the database provider. The default database provider is SQL.|
         |<strong>Database Backup History</strong>|Prior database backups. To configure database backups, use the database backup application (i.e., SQL Backup Manager).|

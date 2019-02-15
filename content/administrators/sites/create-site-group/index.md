@@ -17,11 +17,11 @@ related-topics: add-or-remove-sites-in-group,edit-site-group,delete-site-group
 
 ## Steps
 
-1.  Go to Persona Bar \> Manage \> Sites .
+1.  Go to **Persona Bar \> Manage \> Sites** .
     
     ![Persona Bar > Manage > Sites](/images/scr-pbar-host-Manage-E91.png)
     
-2.  Go to the Site Groups tab.
+2.  Go to the **Site Groups** tab.
     
       
     
@@ -29,7 +29,7 @@ related-topics: add-or-remove-sites-in-group,edit-site-group,delete-site-group
     
       
     
-3.  Click/Tap \+ Add Site Group.
+3.  Click/Tap \+ **Add Site Group**.
     
       
     
@@ -45,12 +45,12 @@ related-topics: add-or-remove-sites-in-group,edit-site-group,delete-site-group
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |<strong>Master Site</strong>|The site used for:<ul><li>Authenticating users that are shared among the sites in the group.</li><li>Sharing content with other members of the group.</li></ul>The master site cannot reuse content stored in other sites within the group.|
     |<strong>Authentication Domain</strong>|Typically not required.|
     
-5.  Click/Tap Create Site Group.
+5.  Click/Tap **Create Site Group**.
 
 ## What to do next
 

@@ -30,13 +30,9 @@ You are using a trial version of Evoq .... You currently have ... days remaining
 
 *   Verify that your license is activated and that you are using the correct license type.
     
-    1.  Go to Persona Bar \> Settings \> About.
+    1.  Go to **Persona Bar \> Settings \> About**.
         
         ![Persona Bar > Settings > About](/images/scr-pbar-host-Settings-E91.png)
-        
-        ➊
-        
-        ➋
         
     2.  Check that the invoice number appears in the list and that a check appears in the Activated column for this license.
     3.  Verify that the correct invoice number, email, and license type are used.

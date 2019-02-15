@@ -17,15 +17,15 @@ related-topics: enable-or-disable-web-server,change-url-of-web-server,replace-we
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Servers.
+1.  Go to **Persona Bar \> Settings \> Servers**.
     
     ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
-2.  Go to the Server Settings tab, and then the Web Servers subtab.
+2.  Go to the **Server Settings** tab, and then the **Web Servers** subtab.
     
     ![Server Settings > Web Servers](/images/scr-pbtabs-host-Settings-Servers-ServerSettings-WebServers-E90.png)
     
-3.  Under Servers, find the server you want to edit. Click/Tap the pencil icon.
+3.  Under **Servers**, find the server you want to edit. Click/Tap the pencil icon.
     
       
     
@@ -33,7 +33,8 @@ related-topics: enable-or-disable-web-server,change-url-of-web-server,replace-we
     
       
     
-    <div class="blue-callout"><strong>Tip:</strong> You can filter the list to show only Enabled servers or only Disabled servers.</div>
+    > [!Tip]
+    > You can filter the list to show only **Enabled** servers or only **Disabled** servers.</div>
     
 4.  Assign the server to a group.
     1.  Click/Tap the pencil icon for Server Group.

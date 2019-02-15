@@ -26,13 +26,9 @@ Then the administrators of each enabled site can assign Deploy Module permission
 
 Installing a module requires host permissions.
 
-1.  Go to Persona Bar \> Settings \> Extensions.
+1.  Go to **Persona Bar \> Settings \> Extensions**.
     
     ![Persona Bar > Settings > Extensions](/images/scr-pbar-host-Settings-E91.png)
-    
-    ➊
-    
-    ➋
     
 2.  Open the module for editing.
     

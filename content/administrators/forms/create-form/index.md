@@ -13,11 +13,11 @@ related-topics: edit-form,duplicate-form,delete-form,embed-form,view-form-respon
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Forms.
+1.  Go to **Persona Bar \> Content \> Forms**.
     
     ![Persona Bar > Content > Forms](/images/scr-pbar-host-Content-E91.png)
     
-2.  Click/Tap Create Form.
+2.  Click/Tap **Create Form**.
     
       
     
@@ -70,7 +70,7 @@ related-topics: edit-form,duplicate-form,delete-form,embed-form,view-form-respon
           
         
 5.  Configure the properties of the form.
-    1.  Click/Tap the Configuration tab.
+    1.  Click/Tap the **Configuration** tab.
         
           
         
@@ -78,7 +78,7 @@ related-topics: edit-form,duplicate-form,delete-form,embed-form,view-form-respon
         
           
         
-    2.  In the General Settings tab.
+    2.  In the **General Settings** tab.
         
         ![Form Configuration - General Settings](/images/scr-Form-Config-GeneralSettings.png)
         
@@ -89,7 +89,7 @@ related-topics: edit-form,duplicate-form,delete-form,embed-form,view-form-respon
         |**Campaigns**|Choose or create a marketing campaign that you want this form to be part of.|
         |**Form Description**|Information about the form.|
         
-    3.  In the Data Collection tab.
+    3.  In the **Data Collection** tab.
         
         ![Form Configuration - Data Collection](/images/scr-Form-Config-DataCollection.png)
         
@@ -100,7 +100,7 @@ related-topics: edit-form,duplicate-form,delete-form,embed-form,view-form-respon
         |**Google Analytics**|If connected, the form submissions are tracked using Google Analytics. To connect, click/tap Connect then fill in the information required by Google Analytics.<ul><li><strong>Tracking ID</strong>. This is provided by Google Analytics.</li><li><strong>Event Category</strong>. Leave as <strong>Form</strong>.</li><li><strong>Event Action</strong>. Leave as <strong>Submit</strong>, if you want the event to be logged only when the user submits the form.</li><li><strong>Event Label</strong>. The name of the event. Default: The name of the form.</li><li><strong>Event Value</strong>. A value associated with the event. Default: 0.</li></ul>|
         |**Hidden Fields**|If configured, the specified **Field Identifier-Value** pairs (max 10) would be returned with the user's completed form. See [About Hidden Fields](xref:about-hidden-fields).|
         
-    4.  In the Form Submission tab.
+    4.  In the **Form Submission** tab.
         
         ![Form Configuration - Form Submission](/images/scr-Form-Config-FormSubmission.png)
         
@@ -111,7 +111,7 @@ related-topics: edit-form,duplicate-form,delete-form,embed-form,view-form-respon
         |**Provide a Download**|If enabled (**On**), allows the user to download the specified file(s) after the user submits the form.|
         |**Redirect URL**|If enabled (**On**), the user is redirected to the specified URL after the user submits the form. You can optionally specify a delay.|
         
-    5.  In the Notifications tab.
+    5.  In the **Notifications** tab.
         
         ![Form Configuration - Notifications](/images/scr-Form-Config-Notifications.png)
         

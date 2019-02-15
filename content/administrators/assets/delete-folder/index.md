@@ -13,13 +13,10 @@ related-topics: create-folder,edit-folder-properties,edit-folder-permissions,mov
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Assets.
+1.  Go to **Persona Bar \> Content \> Assets**.
     
     ![Persona Bar > Content > Assets](/images/scr-pbar-host-Content-E91.png)
     
-    ➊
-    
-    ➋
     
 2.  Go to the folder that contains the asset or subfolder.
     
@@ -40,9 +37,8 @@ related-topics: create-folder,edit-folder-properties,edit-folder-permissions,mov
           
         
     
-    Tip:
-    
-    The breadcrumbs show your current location in the folder hierarchy.
+    > [!Tip]
+    > The breadcrumbs show your current location in the folder hierarchy.
     
       
     
@@ -58,6 +54,7 @@ related-topics: create-folder,edit-folder-properties,edit-folder-permissions,mov
     
       
     
-    Important: You must delete the contents of a folder before deleting the folder itself.
+    > [!Important]
+    > You must delete the contents of a folder before deleting the folder itself.
     
 4.  Confirm the deletion.

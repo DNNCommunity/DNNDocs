@@ -17,15 +17,15 @@ related-topics: create-content-type,edit-content-type,delete-content-type,conten
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Content Library.
+1.  Go to **Persona Bar \> Content \> Content Library**.
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
     
-2.  Go to the Content Types tab.
+2.  Go to the **Content Types** tab.
     
     ![Content Types](/images/scr-pbtabs-all-Content-ContentLibrary-ContentTypes-E91.png)
     
-3.  Highlight the content type, click/tap the ellipses, and choose Duplicate.
+3.  Highlight the content type, click/tap the ellipses, and choose **Duplicate**.
     
       
     
@@ -40,7 +40,7 @@ related-topics: create-content-type,edit-content-type,delete-content-type,conten
     ![Content Type settings](/images/scr-ContentTypes-Settings.png)
     
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |**Content Type Title**|The name of the content type. Can be edited at the top of the form where it is displayed.|
     |**Content Type Glyph / Icon**|The icon that represents the content type in a list or grid. Expand the dropdown arrow to select or search.|
@@ -54,7 +54,7 @@ related-topics: create-content-type,edit-content-type,delete-content-type,conten
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |**Content Item Name**|The word or phrase that describes each item of this content type. Example: A content item based on the Job Listing content type could be called job opening.|
     |**Tags**|Words or phrases to be associated with the content items based on this content type.|

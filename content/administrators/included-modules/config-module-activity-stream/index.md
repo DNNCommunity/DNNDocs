@@ -38,7 +38,7 @@ A photo entry cannot have a file attachment. However, an entry with a photo atta
     
       
     
-3.  Go to the Activity Stream tab.
+3.  Go to the **Activity Stream** tab.
     
       
     

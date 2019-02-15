@@ -13,7 +13,8 @@ related-topics: enable-or-disable-web-server,assign-web-server-to-server-group,r
 
 The URL is automatically filled in, based on the port aliases. You would use these steps, only if you need to associate a specific subdomain with a specific web server for tests or special cases.
 
-<div class="blue-callout"><strong>Note:</strong> The port alias must already exist.</div>
+> [!Note]
+> The port alias must already exist.</div>
 
 ## Prerequisites
 
@@ -21,11 +22,11 @@ The URL is automatically filled in, based on the port aliases. You would use the
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Servers.
+1.  Go to **Persona Bar \> Settings \> Servers**.
     
     ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
-2.  Go to the Server Settings tab, and then the Web Servers subtab.
+2.  Go to the **Server Settings** tab, and then the **Web Servers** subtab.
     
     ![Server Settings > Web Servers](/images/scr-pbtabs-host-Settings-Servers-ServerSettings-WebServers-E90.png)
     
@@ -37,7 +38,8 @@ The URL is automatically filled in, based on the port aliases. You would use the
     
       
     
-    <div class="blue-callout"><strong>Tip:</strong> You can filter the list to show only Enabled servers or only Disabled servers.</div>
+    > [!Tip]
+    > You can filter the list to show only Enabled servers or only Disabled servers.</div>
     
 4.  Edit the URL.
     1.  Click/Tap the pencil icon for URL.

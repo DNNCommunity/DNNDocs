@@ -11,7 +11,8 @@ related-topics: add-role-to-new-group,add-role-to-existing-group,view-roles-incl
 
 # Remove a Role from a Group
 
-Note: A role must belong to exactly one group. The \[Global Roles\] group contains all roles that do not belong to a custom group.
+> [!Note]
+> A role must belong to exactly one group. The \[Global Roles\] group contains all roles that do not belong to a custom group.
 
 ## Prerequisites
 
@@ -19,13 +20,9 @@ Note: A role must belong to exactly one group. The \[Global Roles\] group contai
 
 ## Steps
 
-1.  Go to Persona Bar \> Manage \> Roles.
+1.  Go to **Persona Bar \> Manage \> Roles**.
     
     ![Persona Bar > Manage > Roles](/images/scr-pbar-host-Manage-E91.png)
-    
-    ➊
-    
-    ➋
     
 2.  Search for the role you want to act on.
     1.  (Optional) Filter the list.
@@ -56,7 +53,7 @@ Note: A role must belong to exactly one group. The \[Global Roles\] group contai
     
       
     
-4.  From the Role Group dropdown, choose Global Roles
+4.  From the Role Group dropdown, choose **Global Roles**
     
       
     

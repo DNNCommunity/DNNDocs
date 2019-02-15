@@ -17,11 +17,11 @@ related-topics: test-smtp-settings
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Servers.
+1.  Go to **Persona Bar \> Settings \> Servers**.
     
     ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
-2.  Go to the Server Settings tab, and then the SMTP Server subtab.
+2.  Go to the **Server Settings** tab, and then the **SMTP Server** subtab.
     
     ![Server Settings > SMTP Server](/images/scr-pbtabs-host-Settings-Servers-ServerSettings-SMTPServer-E90.png)
     
@@ -43,7 +43,7 @@ related-topics: test-smtp-settings
     ![SMTP Server settings](/images/scr-Servers-ServerSettings-SMTPServer-E90.png)
     
       
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |<strong>SMTP Server and Port</strong>|The SMTP server and port to use for sending emails (e.g., smtp.example.com or smtp.example.com:25).|
     |<strong>Connection Limit</strong>|The maximum number of concurrent connections with the SMTP server.|
@@ -53,5 +53,5 @@ related-topics: test-smtp-settings
     |<strong>SMTP Username<br />SMTP Password</strong>|The username and password for the account used to send email messages (e.g., myusername@example.com). Only required if SMTP Authentication is set to Basic.|
     |<strong>SMTP Enable SSL</strong>|(Optional) If enabled (On), a secure connection is used when communicating with the SMTP server.|
     
-5.  (Optional) Click/Tap Test SMTP Settings to confirm that you can connect to the SMTP server with the current settings.
+5.  (Optional) Click/Tap **Test SMTP Settings** to confirm that you can connect to the SMTP server with the current settings.
 6.  Save.

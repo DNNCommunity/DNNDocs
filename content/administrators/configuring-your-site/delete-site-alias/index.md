@@ -11,7 +11,8 @@ related-topics: configure-url-mapping-site-aliases,add-site-alias,edit-site-alia
 
 # Delete a Site Alias
 
-Note: The current site alias cannot be edited, deleted, or set as primary. Log into the site using a different site alias to edit or delete the currently used alias.
+> [!Note] 
+> The current site alias cannot be edited, deleted, or set as primary. Log into the site using a different site alias to edit or delete the currently used alias.
 
 ## Prerequisites
 
@@ -19,15 +20,11 @@ Note: The current site alias cannot be edited, deleted, or set as primary. Log i
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Site Settings.
+1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Site Behavior tab, and then the Site Aliases subtab.
+2.  Go to the **Site Behavior** tab, and then the **Site Aliases** subtab.
     
     ![Site Behavior > Site Aliases](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-SiteAliases-E90.png)
     

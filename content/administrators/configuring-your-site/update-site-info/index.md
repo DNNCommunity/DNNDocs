@@ -17,11 +17,11 @@ related-topics: assign-key-pages,add-metadata-to-pages,configure-messaging,acces
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Site Settings.
+1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-2.  Go to the Site Info tab.
+2.  Go to the **Site Info** tab.
     
     ![Site Info](/images/scr-pbtabs-all-Settings-SiteSettings-SiteInfo-E90.png)
     
@@ -33,7 +33,7 @@ related-topics: assign-key-pages,add-metadata-to-pages,configure-messaging,acces
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |<strong>Site Title</strong>|Used in the web browser's title bar and in the tooltip that appears when hovering over the site logo.|
     |<strong>Site Time Zone</strong>|The default time zone used where dates are displayed, such as in blogs and community forums. Anonymous users see dates in the site time zone. Authenticated users (registered and logged in) see dates in the time zone specified in their profile preferences. Dates are internally stored in UTC/GMT.|

@@ -14,7 +14,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
 ## Steps
 
 1.  Go to the page to edit.
-2.  Go to Persona Bar \> Edit.
+2.  Go to **Persona Bar \> Edit**.
     
     ![Persona Bar > Edit](/images/scr-pbar-all-Edit-E91.png)
     

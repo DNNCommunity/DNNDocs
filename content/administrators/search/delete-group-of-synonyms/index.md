@@ -19,19 +19,15 @@ Note: To delete individual synonyms, edit the synonym group.
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Site Settings.
+1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Search tab, and then the Synonyms subtab.
+2.  Go to the **Search** tab, and then the **Synonyms** subtab.
     
     ![Search > Synonyms](/images/scr-pbtabs-all-Settings-SiteSettings-Search-Synonyms-E90.png)
     
-3.  In Synonym Group, find the synonym group to delete, and click/tap its trash icon.
+3.  In **Synonym Group**, find the synonym group to delete, and click/tap its trash icon.
     
       
     

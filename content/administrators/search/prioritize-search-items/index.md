@@ -17,15 +17,11 @@ related-topics: configure-search
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Site Settings.
+1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
-    
-    ➊
-    
-    ➋
-    
-2.  Go to the Search tab, and then the Basic Settings subtab.
+
+2.  Go to the **Search** tab, and then the **Basic Settings** subtab.
     
     ![Search > Basic Settings](/images/scr-pbtabs-host-Settings-SiteSettings-Search-BasicSettings-E90.png)
     

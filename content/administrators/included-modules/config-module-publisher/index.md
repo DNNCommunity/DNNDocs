@@ -35,8 +35,8 @@ related-topics: configure-module-on-page-pb-all
     |**Top Tags Page Size**|The number of tags to display in each result page.|
     |**Top Authors Page Size**|The number of authors to display in each result page.|
     
-4.  Click/Tap Update to save the settings, then Publish the page to access additional settings.
-5.  Click/Tap the Settings (gear) icon in the Edit Bar.
+4.  Click/Tap **Update** to save the settings, then Publish the page to access additional settings.
+5.  Click/Tap the **Settings** (gear) icon in the Edit Bar.
     
       
     

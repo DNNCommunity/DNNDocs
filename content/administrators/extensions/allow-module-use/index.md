@@ -22,13 +22,9 @@ An administrator can grant Deploy Module permissions to a role, such as the Cont
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Extensions.
+1.  Go to **Persona Bar \> Settings \> Extensions**.
     
     ![Persona Bar > Settings > Extensions](/images/scr-pbar-host-Settings-E91.png)
-    
-    ➊
-    
-    ➋
     
 2.  Open the module for editing.
     
@@ -38,10 +34,10 @@ An administrator can grant Deploy Module permissions to a role, such as the Cont
     
       
     
-    1.  Go to the Installed Extensions tab.
-    2.  In the Showing dropdown, choose Modules.
+    1.  Go to the **Installed Extensions** tab.
+    2.  In the **Showing** dropdown, choose **Modules**.
     3.  Click/Tap the pencil icon for the module you want.
-3.  Go to the Site Settings tab.
+3.  Go to the **Site Settings** tab.
 4.  If the role/user you want is already in the table, check the Can Deploy box for that role/user.
     
       
@@ -50,7 +46,7 @@ An administrator can grant Deploy Module permissions to a role, such as the Cont
     
       
     
-5.  If the role/user you want is not yet in the table, search for the role/user and click/tap \+ Add.
+5.  If the role/user you want is not yet in the table, search for the role/user and click/tap \+ **Add**.
     
       
     

@@ -20,32 +20,31 @@ An export creates a set of folders in the local server. To make the export packa
 ## Steps
 
 1.  In the source server (where the export was done), find the export package(s).
-    1.  Go to Persona Bar \> Settings \> Import-Export.
+    1.  Go to **Persona Bar \> Settings \> Import-Export**.
         
         ![Persona Bar > Settings > Import-Export](/images/scr-pbar-host-Settings-E91.png)
         
-        ➊
+    2.  Under **Import / Export Log**, search for the export package(s) you want.
         
-        ➋
+        > [!Tip]
+        > Set Filter to All Exports.
         
-    2.  Under Import / Export Log, search for the export package(s) you want.
+    3.  Note the **Folder Name** and the **Export Mode**.
         
-        Tip: Set Filter to All Exports.
+        > [!Warning]
+        > If the **Export Mode** is **Differential**, you must copy all export packages since your last import.
         
-    3.  Note the Folder Name and the Export Mode.
-        
-        Warning: If the Export Mode is Differential, you must copy all export packages since your last import.
-        
-    4.  In Windows Explorer, go to the App_Data/ExportImport folder.
+    4.  In **Windows Explorer**, go to the **App_Data/ExportImport** folder.
         
         Each subfolder is an export package.
         
-2.  In the target server (where the import will be done), go to the App_Data/ExportImport folder.
+2.  In the target server (where the import will be done), go to the **App_Data/ExportImport** folder.
 3.  Copy the export package subfolder from the source server to the target server.
     
-    Important: The path in the target server must be the same as the path in the source server.
+    > [!Important]
+    > The path in the target server must be the same as the path in the source server.
     
-4.  View the Import / Export Log of the DNN installation in the target server.
+4.  View the **Import / Export Log** of the DNN installation in the target server.
     
       
     
@@ -56,4 +55,4 @@ An export creates a set of folders in the local server. To make the export packa
 
 ## Results
 
-The export package appears in the Import / Export Log in the target server.
+The export package appears in the **Import / Export Log** in the target server.

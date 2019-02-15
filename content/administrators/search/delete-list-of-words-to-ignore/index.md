@@ -19,19 +19,15 @@ Note: To delete individual words, edit the word list.
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Site Settings.
+1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Search tab, and then the Ignore Words subtab.
+2.  Go to the **Search** tab, and then the **Ignore Words** subtab.
     
     ![Search > Ignore Words](/images/scr-pbtabs-all-Settings-SiteSettings-Search-IgnoreWords-E90.png)
     
-3.  In Ignore Words, click/tap the word list's trash icon.
+3.  In **Ignore Words**, click/tap the word list's trash icon.
     
       
     

@@ -15,7 +15,7 @@ related-topics: configure-module-on-page-pb-all
 ## Steps
 
 1.  Go to the page containing the module to configure. Edit the page.
-2.  In the module's action menu bar, go to Manage (gear icon) \> Settings.
+2.  In the module's action menu bar, go to **Manage (gear icon) \> Settings**.
     
       
     
@@ -23,7 +23,7 @@ related-topics: configure-module-on-page-pb-all
     
       
     
-3.  Go to the Social Sharing tab.
+3.  Go to the **Social Sharing** tab.
     
       
     

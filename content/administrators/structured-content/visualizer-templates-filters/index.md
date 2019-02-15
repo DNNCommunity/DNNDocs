@@ -25,7 +25,6 @@ You can perform additional processing before displaying the value by passing the
 |<a name="times"></a>**times**|Multiplies the piped value with the specified value.|`{{ 5 | times: 4 }}`<br />20|
 |<a name="format"></a>**format**|Converts the numeric value to its equivalent textual representation, using the specified .NET format. Please refer to [this page](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings) for a list and description of valid format strings.|`{{ 4.1 | format: "F2" }}`<br />4.10|
                         
-                        
 
 ## Strings
 

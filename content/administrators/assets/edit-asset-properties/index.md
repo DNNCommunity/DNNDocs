@@ -13,7 +13,7 @@ related-topics: add-assets,edit-asset-permissions,move-asset,copy-asset,download
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Assets.
+1.  Go to **Persona Bar \> Content \> Assets**.
     
     ![Persona Bar > Content > Assets](/images/scr-pbar-host-Content-E91.png)
     
@@ -36,9 +36,8 @@ related-topics: add-assets,edit-asset-permissions,move-asset,copy-asset,download
           
         
     
-    Tip:
-    
-    The breadcrumbs show your current location in the folder hierarchy.
+    > [!Tip]
+    > The breadcrumbs show your current location in the folder hierarchy.
     
       
     
@@ -62,7 +61,7 @@ related-topics: add-assets,edit-asset-permissions,move-asset,copy-asset,download
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |Subscribe|If enabled (<strong>On</strong>), users can subscribe to updates to this asset.|
     |Name|The asset's filename.|

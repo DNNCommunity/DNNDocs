@@ -13,13 +13,10 @@ related-topics: edit-folder-properties,edit-folder-permissions,move-folder,delet
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Assets.
+1.  Go to **Persona Bar \> Content \> Assets**.
     
     ![Persona Bar > Content > Assets](/images/scr-pbar-host-Content-E91.png)
     
-    ➊
-    
-    ➋
     
 2.  Go to the folder that will contain the new subfolder.
     
@@ -40,9 +37,8 @@ related-topics: edit-folder-properties,edit-folder-permissions,move-folder,delet
           
         
     
-    Tip:
-    
-    The breadcrumbs show your current location in the folder hierarchy.
+    > [!Tip]
+    > The breadcrumbs show your current location in the folder hierarchy.
     
       
     
@@ -50,7 +46,7 @@ related-topics: edit-folder-properties,edit-folder-permissions,move-folder,delet
     
       
     
-3.  Click/Tap Add Folder.
+3.  Click/Tap **Add Folder**.
     
       
     
@@ -66,4 +62,5 @@ related-topics: edit-folder-properties,edit-folder-permissions,move-folder,delet
     
       
     
-    Note: Currently, the only default folder type available is Azure.
+    > [!Note]
+    > Currently, the only default folder type available is Azure.

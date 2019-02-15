@@ -111,7 +111,7 @@ The most privileged administrative account with complete access to all websites 
 
 A type of DNN extension used in themes to provide additional functionality for common UI elements on a webpage. Examples: menu bar, copyright notice, login/registration links, privacy link, terms of service link, and search box. Theme objects are configured by the theme designer.
 
-> [Tip!]
+> [!Tip]
 > [10 Pound Gorilla](http://www.10poundgorilla.com/)'s [Skinning Tool](http://www.10poundgorilla.com/DNN/Skinning-Tool) is both a reference and a tool that customizes the code for DNN theme objects, based on the attribute values you specify.
 
 **theme**
@@ -129,4 +129,4 @@ In an HTML content template, a placeholder for data to be injected into the HTML
 
 In an HTML layout template, a word that represents DNN-standard code for a **theme object**. Examples: \[NAV\], \[COPYRIGHT\], \[LOGIN\], \[PRIVACY\], \[TERMS\], and \[SEARCH\].
 
-In a Visualizer template, a word that represents a field in the content type associated with the visualizer. Example: If the content type field is named Meeting Timeslot, the field's token would be `{{ meetingTimeslot }}`.
+In a Visualizer template, a word that represents a field in the content type associated with the visualizer. Example: If the content type field is named `Meeting Timeslot`, the field's token would be `{{ meetingTimeslot }}`.

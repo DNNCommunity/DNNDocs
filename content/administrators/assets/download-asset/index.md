@@ -13,13 +13,9 @@ related-topics: add-assets,edit-asset-properties,edit-asset-permissions,move-ass
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Assets.
+1.  Go to **Persona Bar \> Content \> Assets**.
     
     ![Persona Bar > Content > Assets](/images/scr-pbar-host-Content-E91.png)
-    
-    ➊
-    
-    ➋
     
 2.  Hover over the asset card in the grid to expose the vertical icon bar. Click/Tap the download icon.
     
@@ -29,4 +25,4 @@ related-topics: add-assets,edit-asset-properties,edit-asset-permissions,move-ass
     
       
     
-3.  Choose the target local folder. Click/Tap Save.
+3.  Choose the target local folder. Click/Tap **Save**.

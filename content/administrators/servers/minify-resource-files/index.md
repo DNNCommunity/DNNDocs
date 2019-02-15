@@ -23,15 +23,11 @@ You can speed up page downloads in two steps:
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Servers.
+1.  Go to **Persona Bar \> Settings \> Servers**.
     
     ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Server Settings tab, and then the Performance subtab.
+2.  Go to the **Server Settings** tab, and then the **Performance** subtab.
     
     ![Server Settings > Performance](/images/scr-pbtabs-host-Settings-Servers-ServerSettings-Performance-E90.png)
     
@@ -49,7 +45,8 @@ You can speed up page downloads in two steps:
 5.  Set Minify CSS and Minify JS to On.
 6.  Save.
     
-    Note: You must save the settings to force the creation of a new composite file before incrementing the version number.
+   > [!Note]
+   > You must save the settings to force the creation of a new composite file before incrementing the version number.
     
-7.  Click/Tap Increment Version.
+7.  Click/Tap **Increment Version**.
 8.  Confirm.

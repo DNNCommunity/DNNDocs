@@ -17,19 +17,15 @@ related-topics: enable-or-disable-web-server,change-url-of-web-server,assign-web
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Servers.
+1.  Go to **Persona Bar \> Settings \> Servers**.
     
     ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Server Settings tab, and then the Web Servers subtab.
+2.  Go to the **Server Settings** tab, and then the **Web Servers** subtab.
     
     ![Server Settings > Web Servers](/images/scr-pbtabs-host-Settings-Servers-ServerSettings-WebServers-E90.png)
     
-3.  Under Servers, find the server you want to edit. Click/Tap the trash icon.
+3.  Under **Servers**, find the server you want to edit. Click/Tap the trash icon.
     
       
     
@@ -37,6 +33,7 @@ related-topics: enable-or-disable-web-server,change-url-of-web-server,assign-web
     
       
     
-    Tip: You can filter the list to show only Enabled servers or only Disabled servers.
+    >[!Tip]
+    > You can filter the list to show only Enabled servers or only Disabled servers.
     
 4.  Confirm.

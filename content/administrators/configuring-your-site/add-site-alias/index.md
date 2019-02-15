@@ -17,15 +17,15 @@ related-topics: configure-url-mapping-site-aliases,edit-site-alias,delete-site-a
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Site Settings.
+1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-2.  Go to the Site Behavior tab, and then the Site Aliases subtab.
+2.  Go to the **Site Behavior** tab, and then the **Site Aliases** subtab.
     
     ![Site Behavior > Site Aliases](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-SiteAliases-E90.png)
     
-3.  Click/Tap \+ Add Alias.
+3.  Click/Tap \+ **Add Alias**.
     
       
     
@@ -41,7 +41,7 @@ related-topics: configure-url-mapping-site-aliases,edit-site-alias,delete-site-a
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |<strong>Site Alias</strong>|The alternative URL (without the protocol) which can be used to access the same site.|
     |<strong>Browser</strong>|<ul><li><strong>Normal</strong>. If the site alias is intended for normal web browsers.</li><li><strong>Mobile</strong>. If the site alias is intended for mobile devices.</li></ul>|

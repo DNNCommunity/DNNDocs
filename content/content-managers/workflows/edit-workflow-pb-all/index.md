@@ -13,7 +13,7 @@ related-topics: create-workflow-pb-all,delete-workflow-pb-all,configure-workflow
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Workflow.
+1.  Go to **Persona Bar \> Settings \> Workflow**.
     
     ![Persona Bar > Settings > Workflow](/images/scr-pbar-cmg-Settings-E91.png)
     

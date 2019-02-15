@@ -13,13 +13,9 @@ related-topics: create-template-based-on-page-pb-all,create-template-based-on-an
 
 ## Steps
 
-1.  Go to Persona Bar \> Manage \> Templates.
+1.  Go to **Persona Bar \> Manage \> Templates**.
     
     ![Persona Bar > Manage > Templates](/images/scr-pbar-host-Manage-E91.png)
-    
-    ➊
-    
-    ➋
     
 2.  In the Page Templates list, hover over the template to edit/delete.
     

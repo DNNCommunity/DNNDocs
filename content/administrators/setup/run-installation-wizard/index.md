@@ -26,7 +26,8 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](http://www.d
     1.  Open your website (`http://www.dnndev.me`) in a browser.
     2.  Under Administrative Information, enter the username, password, and email address for the host / super user account to create. This account will have permissions for all websites created in this DNN installation.
         
-        <div class="blue-callout"><strong>Note:</strong> Remember the host's username and password, which you will need to manage your websites.</div>
+        > [!Note]
+        > Remember the host's username and password, which you will need to manage your websites.</div>
         
     3.  Under Website Information, enter the name, template, and language to use for the first website.
     4.  Set the Database Information options.

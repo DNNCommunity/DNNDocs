@@ -17,15 +17,11 @@ related-topics: view-site-logs,view-entry-details,clear-log,delete-entries,share
 
 ## Steps
 
-1.  Go to Persona Bar \> Manage \> Admin Logs.
+1.  Go to **Persona Bar \> Manage \> Admin Logs**.
     
     ![Persona Bar > Manage > Admin Logs](/images/scr-pbar-host-Manage-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Log Settings tab.
+2.  Go to the **Log Settings** tab.
     
     ![Log Settings](/images/scr-pbtabs-host-Manage-AdminLogs-LogSettings-E90.png)
     

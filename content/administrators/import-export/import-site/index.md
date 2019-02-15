@@ -11,7 +11,8 @@ related-topics: export-site,transfer-an-export-package
 
 # Import a Site
 
-Warning: You cannot undo an import. Back up your site and database before proceeding.
+> [!Warning]
+> You cannot undo an import. Back up your site and database before proceeding.
 
 ## Prerequisites
 
@@ -20,7 +21,7 @@ Warning: You cannot undo an import. Back up your site and database before procee
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Import-Export.
+1.  Go to **Persona Bar \> Settings \> Import-Export**.
     
     ![Persona Bar > Settings > Import-Export](/images/scr-pbar-host-Settings-E91.png)
     
@@ -32,7 +33,7 @@ Warning: You cannot undo an import. Back up your site and database before procee
     
       
     
-3.  Click/Tap the Import Data button.
+3.  Click/Tap the **Import Data** button.
     
       
     
@@ -40,7 +41,7 @@ Warning: You cannot undo an import. Back up your site and database before procee
     
       
     
-4.  Click/Tap the package to import. Then Continue.
+4.  Click/Tap the package to import. Then **Continue**.
     
       
     
@@ -56,7 +57,7 @@ Warning: You cannot undo an import. Back up your site and database before procee
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |<strong>Overwrite Collisions</strong>|If enabled (On), objects in the target site will be overwritten.|
     |<strong>Run Now</strong>|If enabled (On), the process starts immediately.|
@@ -65,4 +66,4 @@ Warning: You cannot undo an import. Back up your site and database before procee
 
 ## What to do next
 
-Check the Import / Export Log for the status of the import.
+Check the **Import / Export Log** for the status of the import.

@@ -13,11 +13,11 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Pages.
+1.  Go to **Persona Bar \> Content \> Pages**.
     
     ![Persona Bar > Content > Pages](/images/scr-pbar-host-Content-E91.png)
     
-2.  In the Pages page, hover over the page to configure, then click/tap the gear icon.
+2.  In the **Pages** page, hover over the page to configure, then click/tap the gear icon.
     
       
     
@@ -25,8 +25,8 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
     
       
     
-3.  In the Details tab, configure the basic settings of the page.
-    1.  Set Page Type to Existing.
+3.  In the **Details** tab, configure the basic settings of the page.
+    1.  Set **Page Type** to **Existing**.
         
         ![Page Details > Page Type options](/images/scr-pb-PageSettings-Details-PageType-E91.png)
         
@@ -38,7 +38,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
         
           
         
-        |Field|Description|
+        |**Field**|**Description**|
         |---|---|
         |**Existing Page**|An existing page in your site. To link to an external site, set **Page Type** to **External Url**.|
         |**Permanent Redirect**|If enabled (**On**), the HTTP status code 301 is returned with the page to indicate that the redirect is permanent.|
@@ -49,7 +49,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
         
           
         
-4.  (Optional) In the Permissions tab, configure which roles can do which actions on this page.
+4.  (Optional) In the **Permissions** tab, configure which roles can do which actions on this page.
     
       
     
@@ -65,8 +65,8 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
         *   To add a specific user to the list, enter part of their display name, select the correct user from the list, and click/tap Add.
         *   Check the appropriate checkboxes to enable each role to perform actions.
     
-5.  (Optional) In the Advanced tab, configure additional settings.
-    1.  In the Modules subtab, edit or delete the modules on the page, as needed.
+5.  (Optional) In the **Advanced** tab, configure additional settings.
+    1.  In the **Modules** subtab, edit or delete the modules on the page, as needed.
         
           
         
@@ -74,9 +74,9 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
         
           
         > [!NOTE}]
-        > Note: The Modules tab appears only if configuring a standard page.
+        > Note: The **Modules** tab appears only if configuring a standard page.
         
-    2.  In the Appearance subtab, configure how the page is displayed.
+    2.  In the **Appearance** subtab, configure how the page is displayed.
         
           
         
@@ -84,7 +84,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
         
           
         
-        |Field|Description|
+        |**Field**|**Description**|
         |---|---|
         |**Page Theme**|The theme to use for the page.|
         |**Layout**|The layout to use for the page.|
@@ -92,7 +92,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
         |**Page Stylesheet**|The CSS to use for this page. If blank, a default CSS is used. (Note: The default CSS used depends on other settings; it might be from the page theme, the site theme, or other CSS defaults.)|
         |**Preview Theme Layout and Container**|If clicked/tapped, all the selected Appearance settings are applied to a page in a new browser window or tab.|
         
-    3.  In the SEO subtab, configure SEO-related settings for the page.
+    3.  In the **SEO** subtab, configure SEO-related settings for the page.
         
           
         
@@ -100,13 +100,13 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
         
           
         
-        |Field|Description|
+        |**Field**|**Description**|
         |---|---|
         |**Page Header Tags**|HTML `<meta>` tags to add to the `<head>` of the page. Example: `<meta name="keywords" content="CMS, Liquid Content, example">`|
         |**Sitemap Priority**|The priority for the page (0 to 1.0; default is 0.5). This value helps search engines to rank the page relative to other pages in the site.|
         |**Allow Indexing**|If enabled (**On**), the `ROBOTS` meta tag is set to `INDEX` to indicate that search engines should index the page; i.e., `<meta name="ROBOTS" content="INDEX" />`. Otherwise, the `ROBOTS` meta tag is set to `NOINDEX`, and search engines ignore the page.|
         
-    4.  In the More subtab, configure security and caching for the page.
+    4.  In the **More** subtab, configure security and caching for the page.
         
           
         
@@ -114,10 +114,10 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
         
           
         
-        |Field|Description|
+        |**Field**|**Description**|
         |---|---|
         |**Secure Connection**|If enabled (**On**), the page is forced to use SSL. Available only if the site is SSL-enabled.|
         |**Disable Page**|If enabled (**On**), the page appears in the navigation, but it cannot be clicked/tapped, thus creating a placeholder.|
         |**Output Cache Provider**|The caching provider to use for the page. If none is specified, the site's caching provider is used.|
         
-6.  Click/Tap Save.
+6.  Click/Tap **Save**.

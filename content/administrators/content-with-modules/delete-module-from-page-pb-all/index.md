@@ -13,11 +13,11 @@ related-topics: add-module-to-page-pb-all,add-content-to-page-quickly-pb-all,con
 ## Steps
 
 1.  Go to the page containing the module to delete.
-2.  Go to Persona Bar \> Edit.
+2.  Go to **Persona Bar \> Edit**.
     
     ![Persona Bar > Edit](/images/scr-pbar-all-Edit-E91.png)
     
-3.  In the module's action menu bar, go to Manage (gear icon) \> Delete.
+3.  In the module's action menu bar, go to **Manage** (gear icon) \> **Delete**.
     
       
     

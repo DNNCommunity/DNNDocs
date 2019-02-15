@@ -22,15 +22,12 @@ Note: You might need to modify your firewall settings to allow a query to the DN
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> About.
+1.  Go to **Persona Bar \> Settings \> About**.
     
     ![Persona Bar > Settings > About](/images/scr-pbar-host-Settings-E91.png)
+
     
-    ➊
-    
-    ➋
-    
-2.  Click Add License.
+2.  Click **Add License**.
     
     ![Click Add License.](/images/scr-LicensingActivate-E90.png)
     
@@ -54,7 +51,7 @@ Note: You might need to modify your firewall settings to allow a query to the DN
         *   Test
         *   Development
         
-        The Web Server name is prefilled with the server name stored in the WebServers table of the current site's database.
+        The **Web Server** name is prefilled with the server name stored in the WebServers table of the current site's database.
         
-    2.  Enter the Account Email and Invoice Number associated with your license.
-    3.  Click Automatic Activation.
+    2.  Enter the **Account Email** and **Invoice Number** associated with your license.
+    3.  Click **Automatic Activation**.

@@ -11,7 +11,8 @@ related-topics: configure-folder-file-versioning,restore-file-version,delete-fil
 
 # View the Latest Versions of a File
 
-Note: If versioning is disabled, the asset history will show only the current version.
+> [!Note]
+> If versioning is disabled, the asset history will show only the current version.
 
 ## Prerequisites
 
@@ -19,13 +20,9 @@ Note: If versioning is disabled, the asset history will show only the current ve
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Assets.
+1.  Go to **Persona Bar \> Content \> Assets**.
     
     ![Persona Bar > Content > Assets](/images/scr-pbar-host-Content-E91.png)
-    
-    ➊
-    
-    ➋
     
 2.  Go to the folder that contains the asset or subfolder.
     
@@ -46,9 +43,8 @@ Note: If versioning is disabled, the asset history will show only the current ve
           
         
     
-    Tip:
-    
-    The breadcrumbs show your current location in the folder hierarchy.
+    > [!Tip]
+    > The breadcrumbs show your current location in the folder hierarchy.
     
       
     
@@ -64,7 +60,7 @@ Note: If versioning is disabled, the asset history will show only the current ve
     
       
     
-4.  In the Versioning tab, click/tap the eye (Preview) icon for the version you want.
+4.  In the **Versioning** tab, click/tap the eye (**Preview**) icon for the version you want.
     
       
     

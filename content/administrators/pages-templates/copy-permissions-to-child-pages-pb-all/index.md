@@ -13,11 +13,11 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Pages.
+1.  Go to **Persona Bar \> Content \> Pages**.
     
     ![Persona Bar > Content > Pages](/images/scr-pbar-host-Content-E91.png)
     
-2.  In the Pages page, hover over the page, then click/tap the gear icon.
+2.  In the **Pages** page, hover over the page, then click/tap the gear icon.
     
       
     
@@ -25,7 +25,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
     
       
     
-3.  In the Permissions tab, click/tap Copy Permissions to Descendant Pages.
+3.  In the **Permissions** tab, click/tap **Copy Permissions** to **Descendant Pages**.
     
       
     
