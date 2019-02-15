@@ -110,7 +110,7 @@
                     <img src="images/commOverview_joinppl.png">
                     <h3>DNN Platform</h3>
                     <p>
-                        The leading .NET open source CMD &amp; App Dev Framework
+                        The leading .NET open source CMS &amp; App Dev Framework
                     </p>
                     <a href="http://dnnsoftware.org" target="_blank" class="btn btn-default">Learn More</a>
                 </div>
