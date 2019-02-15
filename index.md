@@ -64,6 +64,9 @@
         box-shadow: 0 2px 6px rgba(0, 0,0,0.04);
         border-radius: 4px;
     }
+    .homepage .hero ul { padding: 0; }
+    .homepage .hero ul li { list-style-type: none; }
+    .homepage .hero ul li a {}
     .homepage .hero h1 { margin-top: 0; }
     .homepage .hero h2 {
         margin: 0;
@@ -77,9 +80,7 @@
     .homepage .api-section ul.popular-topics { margin-bottom: 20px; }
     .homepage .api-section ul.popular-topics li { display: inline-block; }
     .homepage .hero .feature-block img {
-        max-width: 90px;
-        max-height: 90px;
-        margin-top: 20px;
+        max-width: 90%;        
     }
     .homepage .hero .feature-block h3 { margin-top: 10px; }
     .homepage .hero .feature-block p {}
@@ -103,6 +104,9 @@
     .homepage .ntn { margin-bottom: 50px; }
     .homepage .ntn .ntn-block ul { padding-left: 0; margin-top: 10px; }
     .homepage .ntn .ntn-block ul li { list-style-type: none;}
+    .homepage ul.events-list {padding-left: 0;}
+    .homepage ul.events-list li { list-style-type: none; margin-bottom: 20px; }
+    .homepage ul.events-list li .details { display: block; }
     @media only screen and (max-width : 480px) {
         .homepage .api-section .media-heading {
             font-size: 1.5em;
@@ -114,40 +118,60 @@
 <div class="row home">
     <div class="col-lg-12">
         <div class="hero">
-            <h1 class="text-center"><span class="hidden-xs">Welcome to the </span>DNN Docs</h1>
-            <h2 class="text-center"><em>documentation created for the community, by the community</h2>
             <div class="row feature-wrapper">
-                <div class="col-sm-4 feature-block text-center">
-                    <img src="images/commOverview_joinppl.png">
-                    <h3>DNN Platform</h3>
-                    <p>
-                        The leading .NET open source CMS &amp; App Dev Framework
-                    </p>
-                    <a href="http://dnnsoftware.org" target="_blank" class="btn btn-default">Learn More</a>
+                <div class="col-sm-4 feature-block text-center hidden-xs hidden-sm">
+                    <img src="images/communityDLSeal.png">                    
                 </div>
-                <div class="col-sm-4 feature-block text-center">
-                    <img src="images/communityDLSeal.png">
-                    <h3>Open Source</h3>
-                    <p>
-                        Check out DNN Platform's open source code base on GitHub.
-                    </p>
-                    <a href="https://github.com/dnnsoftware/Dnn.Platform" target="_blank" class="btn btn-default">Learn More</a>
-                </div>
-                <div class="col-sm-4 feature-block text-center">
-                    <img src="images/DNN-Branded-Rocket.png">
-                    <h3>Getting Started</h3>
-                    <p>
-                        Learn how you can get started with the DNN Docs!
-                    </p>
-                    <a class="btn btn-default">Learn More</a>
-                </div>
+                <div class="col-md-8 col-sm-12 feature-block text-center">
+                    <h1 class="text-center"><span class="hidden-xs">Welcome to the </span>DNN Docs</h1>
+                    <h2 class="text-center"><em>documentation created for the community, by the community</h2>
+                    <div class="row text-left">
+                        <div class="col-sm-4">
+                            <h4 class="hlead">Get Started</h4>
+                            <ul>
+                                <li><a href="/content/administrators/dnn-overview/index.html">What is DNN?</a></li>
+                                <li><a>Install/Upgrade</a></li>
+                                <li><a>Version History</a></li>
+                            </ul>  
+                        </div>
+                        <div class="col-sm-4">
+                            <h4 class="hlead">Extend DNN</h4>
+                            <ul>
+                                <li><a>Creating Themes</a></li>
+                                <li><a>Creating Extensions</a></li>
+                                <li><a>DNN API</a></li>                                
+                            </ul>  
+                        </div>
+                        <div class="col-sm-4">
+                            <h4 class="hlead">Get Involved</h4>
+                            <ul>
+                                <li><a>Contribute to DNN</a></li>
+                                <li><a>Contribute to the Docs</a></li>
+                            </ul>  
+                        </div>
+                    </div>
+                </div>                
             </div>            
         </div>
-    </div>
-    
+    </div>    
 </div>
 
-<div class="row home ntn">
+<div class="row home">
+    <div class="col-lg-12">
+        <div class="search well well">
+            <label for="homesearch" class="sr-only">Search the docs</label>
+            <input id="homesearch" class="form-control" placeholder="Search the docs...">
+        </div>
+    </div>
+</div>
+
+<div class="row home">
+    <div class="col-lg-12">
+        <h2 class="hlead">Explore the Docs</h2>
+    </div>
+</div>
+
+<!-- <div class="row home ntn">
     <div class="col-sm-4">
         <div class="ntn-block">
             <h4 class="hlead">Get Started Quickly</h4>
@@ -178,7 +202,7 @@
             </ul>
         </div>
     </div>    
-</div>   
+</div>    -->
 
 <div class="row home">
     <div class="col-lg-12">
@@ -195,11 +219,11 @@
                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
                         <ul class="popular-topics">
-                            <li style="border-bottom: 0;">Popular: </li>
-                            <li><a>Link to a popular topic</a></li>
-                            <li><a>Link to a popular topic</a></li>
-                            <li><a>Link to a popular topic</a></li>
-                            <li><a>Link to a popular topic</a></li>
+                            <li style="border-bottom: 0;">Quick Links: </li>
+                            <li><a href="/content/administrators">Home</a></li>
+                            <li><a href="/content/administrators/setup/administrators-setup-overview/index.html">Setting Up DNN</a></li>
+                            <li><a href="/content/administrators/configuring-your-site/administrators-configuring-your-site-overview/index.html">Configuring Your Site</a></li>
+                            <li><a href="/content/administrators/troubleshooting/administrators-troubleshooting-overview/index.html">Troubleshooting</a></li>
                         </ul>
                     </div>
                 </div>
@@ -223,11 +247,10 @@
                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
                         <ul class="popular-topics">
-                            <li style="border-bottom: 0;">Popular: </li>
-                            <li><a>Link to a popular topic</a></li>
-                            <li><a>Link to a popular topic</a></li>
-                            <li><a>Link to a popular topic</a></li>
-                            <li><a>Link to a popular topic</a></li>
+                            <li style="border-bottom: 0;">Quick Links: </li>
+                            <li><a href="/content/content-managers">Home</a></li>
+                            <li><a href="/content/content-managers/content-manager-references/index.html">References</a></li>                            
+                            <li><a href="http://dnndocs.com/content/content-managers/content-with-modules/content-managers-content-with-modules-overview/index.html">Creating Content With Modules</a></li>
                         </ul>
                     </div>
                 </div>
@@ -254,11 +277,13 @@
                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
                         <ul class="popular-topics">
-                            <li style="border-bottom: 0;">Popular: </li>
-                            <li><a>Link to a popular topic</a></li>
-                            <li><a>Link to a popular topic</a></li>
-                            <li><a>Link to a popular topic</a></li>
-                            <li><a>Link to a popular topic</a></li>
+                            <li style="border-bottom: 0;">Quick Links: </li>
+                            <li><a href="/content/developers">Home</a></li>
+                            <li><a href="/content/developers/microservices/developers-microservices-overview/index.html">About Microservices</a></li>
+                            <li><a href="/content/developers/about-modules/developers-about-modules-overview/index.html">Module (Extensions) Development</a></li>
+                            <li><a href="/content/developers/mvc-modules/developers-mvc-modules-overview/index.html">MVC Module Development</a></li>
+                            <li><a href="/content/developers/about-modules/spa-module-development/index.html">SPA Module Development</a></li>
+                            <li><a href="/content/developers/about-modules/web-forms-module-development/index.html">Web Forms Module Development</a></li>
                         </ul>
                     </div>
                 </div>
@@ -284,11 +309,10 @@
                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
                         <ul class="popular-topics">
-                            <li style="border-bottom: 0;">Popular: </li>
-                            <li><a>Link to a popular topic</a></li>
-                            <li><a>Link to a popular topic</a></li>
-                            <li><a>Link to a popular topic</a></li>
-                            <li><a>Link to a popular topic</a></li>
+                            <li style="border-bottom: 0;">Quick Links: </li>
+                            <li><a href="/content/Designers">Home</a></li>
+                            <li><a href="/content/designers/creating-themes">Creating Themes</a></li>
+                            <li><a href="/content/designers/persona-bar-style-guide/">Persona Bar Style Guide</a></li>                            
                         </ul>
                     </div>
                 </div>
@@ -299,7 +323,7 @@
                 </div>
             </div>
         </div>
-        <div class="api-section">
+        <!-- <div class="api-section">
             <div class="wrapper">
                 <div class="media">
                     <div class="media-left hidden-xs">
@@ -326,12 +350,11 @@
                     <img src="https://avatars3.githubusercontent.com/u/6603270?s=60&v=4">                                                           
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
 
 <div id="contrib-container" class="home side-content">
-    <a style="margin-bottom: 15px" class="visible-lg visible-xl" href="https://www.dnnsummit.org/" target="_blank"><img src="images/2019-SummitLogo.png"></a>
     <h4 class="hlead"> <i class="fas fa-fire" style="color: #ee3a43"></i> Top Contributors</h4>    
     <ul class="media-list top-contributors">
         <li class="media">
@@ -410,50 +433,42 @@
                 <a target="_blank" href="https://www.dnnsoftware.com/community-blog">Community Blog</a>
             </li>
             <li>
-                <a>Replace me</a>
+                <a target="_blank" href="http://dnnsoftware.org/">DNNSoftware.com</a>
             </li>
             <li>
-                <a>Replace me</a>
+                <a target="_blank" href="http://dnnsoftware.org/">DNNSoftware.org</a>
             </li>
             <li>
-                <a>Replace me</a>
-            </li>
-            <li>
-                <a>Replace me</a>
-            </li>            
-        </ul>
-    <h4 class="hlead"><i class="fas fa-bookmark" style="color: #00a4e4"></i> Popular Topics</h4>    
-    <ul class="popular-topics">
+                <a target="_blank" href="https://github.com/dnnsoftware/Dnn.Platform">DNN on GitHub</a>
+            </li>                       
+        </ul>    
+    <h4 class="hlead"><i class="fas fa-globe" style="color: #9F58A9"></i> Community</h4>
+    <p>Learn more about DNN at these community events:</p>
+    <ul class="events-list text-center">
         <li>
-           <a>Replace me</a>
+            <a class="visible-lg visible-xl" href="https://www.dnnsummit.org/" target="_blank">
+                <img src="images/2019-SummitLogo.png">
+            </a>
+            <span class="details">Feb 19-23 2019<br>Denver</span>
         </li>
         <li>
-           <a>Replace me</a>
+            <a class="visible-lg visible-xl" href="https://www.dnn-connect.org/" target="_blank">
+                <img src="images/dnnconnect-logo.png">
+            </a>
+            <span class="details">Jun 6-9 2019<br>Champery</span>
         </li>
         <li>
-           <a>Replace me</a>
+            <a class="visible-lg visible-xl" href="http://www.southernfrieddnn.com/" target="_blank">
+                <img src="images/southernfried-logo.jpg">
+            </a>
+            <span class="details">3rd Thurs monthly<br>(online)</span>
         </li>
         <li>
-           <a>Replace me</a>
+            <a class="visible-lg visible-xl" href="https://www.meetup.com/Toronto-Area-DNN-User-Group-TADUG/" target="_blank">
+                <img src="images/tadug-logo.jpg">
+            </a>
+            <span class="details">1st Thurs monthly<br>(online)</span>
         </li>
-        <li>
-           <a>Replace me</a>
-        </li>
-        <li>
-           <a>Replace me</a>
-        </li>
-        <li>
-           <a>Replace me</a>
-        </li>
-        <li>
-           <a>Replace me</a>
-        </li>
-        <li>
-           <a>Replace me</a>
-        </li>
-        <li>
-           <a>Replace me</a>
-        </li>              
     </ul>
 </div>
 
