@@ -19,15 +19,15 @@ You can optimize the search index by marking generated pages as duplicates if th
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Site Settings.
+1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-2.  Go to the Search tab, and then the Crawling subtab.
+2.  Go to the **Search** tab, and then the **Crawling** subtab.
     
     ![Search > Crawling](/images/scr-pbtabs-all-Settings-SiteSettings-Search-Crawling-E90.png)
     
-3.  In Duplicates, click/tap \+ Add Regex Pattern.
+3.  In **Duplicates**, click/tap \+ **Add Regex Pattern**.
     
       
     
@@ -43,7 +43,7 @@ You can optimize the search index by marking generated pages as duplicates if th
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |<strong>Description</strong>|A name for the regex pattern entry. Typically, the name of the module that generates the dynamic content in pages that match the specified pattern.|
     |<strong>Regex Pattern</strong>|The regular expression that describes the various URLs and URL parameters of pages that are considered duplicates.|

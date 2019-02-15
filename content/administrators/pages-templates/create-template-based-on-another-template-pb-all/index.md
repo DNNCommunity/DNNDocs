@@ -13,15 +13,11 @@ related-topics: create-template-based-on-page-pb-all,edit-delete-template-pb-all
 
 ## Steps
 
-1.  Go to Persona Bar \> Manage \> Templates.
+1.  Go to **Persona Bar \> Manage \> Templates**.
     
     ![Persona Bar > Manage > Templates](/images/scr-pbar-host-Manage-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  In the Page Templates list, click/tap Add Template.
+2.  In the **Page Templates** list, click/tap **Add Template**.
     
       
     
@@ -39,7 +35,7 @@ related-topics: create-template-based-on-page-pb-all,edit-delete-template-pb-all
     
     1.  Enter the new template's name and description.
     2.  Choose the Page Template on which to base the new template.
-    3.  Click/Tap Create.
+    3.  Click/Tap **Create**.
 
 ## Results
 

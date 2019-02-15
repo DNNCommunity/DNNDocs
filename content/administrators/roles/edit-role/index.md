@@ -11,7 +11,8 @@ related-topics: create-role,delete-role,assign-users-to-role,edit-date-range-for
 
 # Edit a Role
 
-Note: Only the description can be changed in default roles.
+> [!Note]
+> Only the description can be changed in default roles.
 
 ## Prerequisites
 
@@ -19,7 +20,7 @@ Note: Only the description can be changed in default roles.
 
 ## Steps
 
-1.  Go to Persona Bar \> Manage \> Roles.
+1.  Go to **Persona Bar \> Manage \> Roles**.
     
     ![Persona Bar > Manage > Roles](/images/scr-pbar-host-Manage-E91.png)
     
@@ -60,7 +61,7 @@ Note: Only the description can be changed in default roles.
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |<strong>Public</strong>|If enabled, any registered user can subscribe to this role.|
     |<strong>Role Group</strong>|Note: A role must belong to exactly one group. The \[Global Roles\] group contains all roles that do not belong to a custom group.|

@@ -20,7 +20,7 @@ links: ["[IETF RFC 7519](https://tools.ietf.org/html/rfc7519)","[DNN Presentatio
 
 1.  Install the DNN JWT Auth Handler.
     
-    1.  Go to Host \> Extensions.
+    1.  Go to **Host \> Extensions**.
         
           
         
@@ -50,7 +50,7 @@ links: ["[IETF RFC 7519](https://tools.ietf.org/html/rfc7519)","[DNN Presentatio
             
     ```
     
-2.  (Optional) Enable JWT authentication for all Web API requests.
+2.  (Optional) Enable **JWT authentication** for all Web API requests.
     
     1.  Access the web.config file.
     2.  Search for the newly-added JWTAuth line inside the `<messageHandlers/>` section.
@@ -63,7 +63,8 @@ links: ["[IETF RFC 7519](https://tools.ietf.org/html/rfc7519)","[DNN Presentatio
         ```
         
     
-    Tip: Developers: To enable JWT authentication for your specific Web API, add the following attribute to the controller class:
+    > [!Tip]
+    > Developers: To enable JWT authentication for your specific Web API, add the following attribute to the controller class:
     
     ```
     
@@ -75,7 +76,8 @@ links: ["[IETF RFC 7519](https://tools.ietf.org/html/rfc7519)","[DNN Presentatio
     
     CORS is required only if the Web API would be accessed through a web browser. CORS is not required by native mobile or desktop apps.
     
-    Warning: Enabling CORS allows external sites to access your site, therefore, making it vulnerable to cross-site scripting (XSS) attacks.
+    > [!Warning}
+    > Enabling CORS allows external sites to access your site, therefore, making it vulnerable to cross-site scripting (XSS) attacks.
     
     1.  Access the web.config file.
     2.  In your web.config file, add these access control lines inside the `<customHeaders/>` section.

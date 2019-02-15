@@ -17,15 +17,11 @@ related-topics: edit-site-properties,view-site,delete-site,move-site-to-another-
 
 ## Steps
 
-1.  Go to Persona Bar \> Manage \> Sites .
+1.  Go to **Persona Bar \> Manage \> Sites** .
     
     ![Persona Bar > Manage > Sites](/images/scr-pbar-host-Manage-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Sites tab.
+2.  Go to the **Sites** tab.
     
       
     
@@ -33,7 +29,7 @@ related-topics: edit-site-properties,view-site,delete-site,move-site-to-another-
     
       
     
-3.  Click/Tap Add New Site.
+3.  Click/Tap **Add New Site**.
     
       
     
@@ -68,7 +64,7 @@ related-topics: edit-site-properties,view-site,delete-site,move-site-to-another-
     
       
     
-    1.  Disable (Off) Assign Current User as Administrator.
+    1.  Disable (Off) **Assign Current User as Administrator**.
     2.  Enter the information for the new administrator account.
 7.  Click/Tap Create Site.
 

@@ -20,7 +20,7 @@ related-topics: add-module-to-page-pb-all,configure-module-on-page-pb-all,delete
 ## Steps
 
 1.  Go to the page to edit.
-2.  Go to Persona Bar \> Edit.
+2.  Go to **Persona Bar \> Edit**.
     
     ![Persona Bar > Edit](/images/scr-pbar-all-Edit-E91.png)
     

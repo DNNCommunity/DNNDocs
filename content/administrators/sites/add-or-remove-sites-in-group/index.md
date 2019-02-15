@@ -17,15 +17,11 @@ related-topics: create-site-group,edit-site-group,delete-site-group
 
 ## Steps
 
-1.  Go to Persona Bar \> Manage \> Sites .
+1.  Go to **Persona Bar \> Manage \> Sites** .
     
     ![Persona Bar > Manage > Sites](/images/scr-pbar-host-Manage-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Site Groups tab.
+2.  Go to the **Site Groups** tab.
     
       
     
@@ -42,7 +38,7 @@ related-topics: create-site-group,edit-site-group,delete-site-group
       
     
 4.  Add or remove sites from the group.
-    1.  Click/Tap the Add / Remove Sites link.
+    1.  Click/Tap the **Add / Remove Sites** link.
         
           
         
@@ -58,4 +54,4 @@ related-topics: create-site-group,edit-site-group,delete-site-group
         
           
         
-    3.  Click/Tap Save.
+    3.  Click/Tap **Save**.

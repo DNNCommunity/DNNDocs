@@ -17,13 +17,9 @@ related-topics: create-role,edit-role,delete-role,edit-date-range-for-role-membe
 
 ## Steps
 
-1.  Go to Persona Bar \> Manage \> Roles.
+1.  Go to vPersona Bar \> Manage \> Roles**.
     
     ![Persona Bar > Manage > Roles](/images/scr-pbar-host-Manage-E91.png)
-    
-    ➊
-    
-    ➋
     
 2.  Search for the role you want to act on.
     1.  (Optional) Filter the list.
@@ -46,7 +42,7 @@ related-topics: create-role,edit-role,delete-role,edit-date-range-for-role-membe
             
         
     2.  Locate the role in the list.
-3.  Click/Tap the Users in Role icon for the role.
+3.  Click/Tap the **Users in Role** icon for the role.
     
       
     
@@ -54,7 +50,7 @@ related-topics: create-role,edit-role,delete-role,edit-date-range-for-role-membe
     
       
     
-4.  (Optional) Check the Send Email box to notify the user of changes to their role(s).
+4.  (Optional) Check the **Send Email** box to notify the user of changes to their role(s).
     
       
     
@@ -62,7 +58,7 @@ related-topics: create-role,edit-role,delete-role,edit-date-range-for-role-membe
     
       
     
-5.  (Optional) Check the Is Owner box to designate the next added user as the owner of the role.
+5.  (Optional) Check the **Is Owner** box to designate the next added user as the owner of the role.
     
       
     
@@ -70,9 +66,10 @@ related-topics: create-role,edit-role,delete-role,edit-date-range-for-role-membe
     
       
     
-    Note: This option is available only if the role's Security Mode is set to SocialGroup or Both. The role owner can moderate other users assigned to the role.
+   > [!Note]
+   > This option is available only if the role's Security Mode is set to SocialGroup or Both. The role owner can moderate other users assigned to the role.
     
-6.  Type the username, first name, or last name in the search field. Then click/tap +Add.
+6.  Type the username, first name, or last name in the search field. Then click/tap **+Add**.
     
       
     

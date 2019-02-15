@@ -13,13 +13,9 @@ related-topics: create-folder,edit-folder-properties,move-folder,delete-folder
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Assets.
+1.  Go to **Persona Bar \> Content \> Assets**.
     
     ![Persona Bar > Content > Assets](/images/scr-pbar-host-Content-E91.png)
-    
-    ➊
-    
-    ➋
     
 2.  Go to the folder that contains the asset or subfolder.
     
@@ -40,9 +36,8 @@ related-topics: create-folder,edit-folder-properties,move-folder,delete-folder
           
         
     
-    Tip:
-    
-    The breadcrumbs show your current location in the folder hierarchy.
+    > [!Tip]
+    > The breadcrumbs show your current location in the folder hierarchy.
     
       
     
@@ -58,7 +53,7 @@ related-topics: create-folder,edit-folder-properties,move-folder,delete-folder
     
       
     
-4.  In the Permissions tab, assign permissions to different roles.
+4.  In the **Permissions** tab, assign permissions to different roles.
     
       
     
@@ -66,7 +61,7 @@ related-topics: create-folder,edit-folder-properties,move-folder,delete-folder
     
       
     
-    *   To filter the displayed roles, select the role group from the Filter By Group dropdown.
-    *   To add another role to the list, choose the additional role from the Select Role dropdown, and click/tap Add.
-    *   To add a specific user to the list, enter part of their display name, select the correct user from the list, and click/tap Add.
+    *   To filter the displayed roles, select the role group from the **Filter By Group** dropdown.
+    *   To add another role to the list, choose the additional role from the Select Role dropdown, and click/tap **Add**.
+    *   To add a specific user to the list, enter part of their display name, select the correct user from the list, and click/tap **Add**.
     *   Check the appropriate checkboxes to enable each role to perform actions.

@@ -18,15 +18,11 @@ links: ["[Google: Setting Up Event Tracking](https://developers.google.com/analy
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> SEO.
+1.  Go to **Persona Bar \> Settings \> SEO**.
     
     ![Persona Bar > Settings > SEO](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Sitemap Settings tab.
+2.  Go to the **Sitemap Settings** tab.
     
       
     
@@ -56,7 +52,7 @@ links: ["[Google: Setting Up Event Tracking](https://developers.google.com/analy
         
 4.  Verify that you own the site.
     1.  Go to the [Google Webmasters Tools](https://www.google.com/webmasters/tools/home) page.
-    2.  Choose Website from the dropdown and enter the URL to your site. Click/Tap Add a Property.
+    2.  Choose Website from the dropdown and enter the URL to your site. Click/Tap **Add a Property**.
         
           
         
@@ -74,7 +70,7 @@ links: ["[Google: Setting Up Event Tracking](https://developers.google.com/analy
         
           
         
-    4.  In the DNN Sitemap Settings page, in the Site Submission section, paste the filename to the Verification field, and click/tap Create.
+    4.  In the **DNN Sitemap Settings** page, in the **Site Submission** section, paste the filename to the **Verification** field, and click/tap **Create**.
         
           
         
@@ -82,7 +78,7 @@ links: ["[Google: Setting Up Event Tracking](https://developers.google.com/analy
         
           
         
-    5.  In the Google Verification page, click/tap Verify.
+    5.  In the **Google Verification** page, click/tap Verify.
         
           
         

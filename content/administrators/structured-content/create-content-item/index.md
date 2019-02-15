@@ -17,7 +17,7 @@ related-topics: duplicate-content-item,edit-content-item,delete-content-item,sha
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Content Library.
+1.  Go to **Persona Bar \> Content \> Content Library**.
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
     
@@ -25,7 +25,7 @@ related-topics: duplicate-content-item,edit-content-item,delete-content-item,sha
     
     ![Content](/images/scr-pbtabs-all-Content-ContentLibrary-Content-E91.png)
     
-3.  Click/Tap Create Content, then select the type for this content item.
+3.  Click/Tap **Create Content**, then select the type for this content item.
     
       
     
@@ -49,7 +49,7 @@ related-topics: duplicate-content-item,edit-content-item,delete-content-item,sha
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|    
     |**Content Item Name**|The name used to refer to the content item.|
     |**Tags**|A comma-separated list of tags to associate with the content item. You can also press Enter after typing each tag.|
@@ -63,7 +63,7 @@ related-topics: duplicate-content-item,edit-content-item,delete-content-item,sha
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---| 
     |**Page Title**|The content item title to use in web browsers and search results.|
     |**Description**|The content item description to use in search engine results and in social media posts when this item is shared.|
@@ -72,7 +72,7 @@ related-topics: duplicate-content-item,edit-content-item,delete-content-item,sha
     
 7.  Close, save as draft, or save as completed.
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---| 
     |**Close**|Discards changes made in this session.|
     |**Save as Draft**|Saves changes made in this session, then closes the window. The content item is hidden from the public.|

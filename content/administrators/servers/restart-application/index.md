@@ -17,15 +17,11 @@ related-topics: retrieve-system-info,view-server-logs,about-web-servers
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Servers.
+1.  Go to **Persona Bar \> Settings \> Servers**.
     
     ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Click/Tap Restart Application.
+2.  Click/Tap **Restart Application**.
     
       
     

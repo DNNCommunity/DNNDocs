@@ -17,15 +17,15 @@ related-topics: configure-user-profile-visibility,configure-user-profile-vanity-
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Site Settings.
+1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-2.  Go to the Site Behavior tab, and then the User Profiles subtab.
+2.  Go to the Site Behavior tab, and then the **User Profiles** subtab.
     
     ![Site Behavior > User Profiles](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-UserProfiles-E90.png)
     
-3.  Click/Tap \+ Add Field.
+3.  Click/Tap \+ **Add Field**.
     
       
     
@@ -41,7 +41,7 @@ related-topics: configure-user-profile-visibility,configure-user-profile-vanity-
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |<strong>Field Name</strong>|The internal name for this field. This field name cannot be modified after the new field is saved. You can enter different field labels for different countries/cultures in the next page.|
     |<strong>Property Category</strong>|Fields with the same property category are grouped together when displayed in the user profile page. Note: Also used as the category's tab label un the user profile page.The default fields are grouped in the following categories: <ul><li><strong>Name</strong></li><li><strong>Address</strong></li><li><strong>Contact Info</strong></li><li><strong>Preferences</strong></li></ul> ![Property Categories in the user profile page](/images/scr-UserProfile-PropertyCategories.png)|

@@ -13,20 +13,16 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Recycle Bin.
+1.  Go to **Persona Bar \> Content \> Recycle Bin**.
     
     ![Persona Bar > Content > Recycle Bin](/images/scr-pbar-host-Content-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Pages tab.
+2.  Go to the **Pages** tab.
     
     ![Pages](/images/scr-pbtabs-all-Content-RecycleBin-Pages-E91.png)
     
 3.  Restore one or more pages.
-    *   To restore a single page, hover over the page to restore, and click/tap the Restore icon for that item.
+    *   To restore a single page, hover over the page to restore, and click/tap the **Restore** icon for that item.
         
           
         
@@ -34,7 +30,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
         
           
         
-    *   To restore multiple pages, check the boxes for the items to restore, and click/tap the Restore button.
+    *   To restore multiple pages, check the boxes for the items to restore, and click/tap the **Restore** button.
         
           
         

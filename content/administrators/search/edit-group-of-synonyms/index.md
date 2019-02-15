@@ -17,19 +17,15 @@ related-topics: add-group-of-synonyms,delete-group-of-synonyms
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Site Settings.
+1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Search tab, and then the Synonyms subtab.
+2.  Go to the **Search** tab, and then the **Synonyms** subtab.
     
     ![Search > Synonyms](/images/scr-pbtabs-all-Settings-SiteSettings-Search-Synonyms-E90.png)
     
-3.  In Synonym Group, find the synonym group to edit, and click/tap its pencil icon.
+3.  In **Synonym Group**, find the synonym group to edit, and click/tap its pencil icon.
     
       
     

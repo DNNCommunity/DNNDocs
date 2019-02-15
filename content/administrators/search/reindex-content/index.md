@@ -19,19 +19,15 @@ Note: Compressing indexes or reindexing are CPU-intensive processes and should, 
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Site Settings.
+1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Search tab, and then the Basic Settings subtab.
+2.  Go to the **Search** tab, and then the **Basic Settings** subtab.
     
     ![Search > Basic Settings](/images/scr-pbtabs-host-Settings-SiteSettings-Search-BasicSettings-E90.png)
     
-3.  Click/Tap Reindex Content.
+3.  Click/Tap **Reindex Content**.
     
       
     
@@ -39,7 +35,7 @@ Note: Compressing indexes or reindexing are CPU-intensive processes and should, 
     
       
     
-4.  Click/Tap Reindex Host Content.
+4.  Click/Tap **Reindex Host Content**.
     
       
     

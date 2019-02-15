@@ -19,19 +19,15 @@ These steps allow you delete individual items in the cache. To delete all cache 
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Servers.
+1.  Go to **Persona Bar \> Settings \> Servers**.
     
     ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Server Settings tab, and then the Web Servers subtab.
+2.  Go to the **Server Settings** tab, and then the **Web Servers** subtab.
     
     ![Server Settings > Web Servers](/images/scr-pbtabs-host-Settings-Servers-ServerSettings-WebServers-E90.png)
     
-3.  Under Servers, find the server you want to edit. Click/Tap the pencil icon.
+3.  Under **Serversv, find the server you want to edit. Click/Tap the pencil icon.
     
       
     
@@ -39,9 +35,10 @@ These steps allow you delete individual items in the cache. To delete all cache 
     
       
     
-    Tip: You can filter the list to show only Enabled servers or only Disabled servers.
+   > [!Tip]
+   > You can filter the list to show only Enabled servers or only Disabled servers.
     
-4.  Click/Tap the Load Cache Items link.
+4.  Click/Tap the **Load Cache Items** link.
     
       
     
@@ -59,7 +56,7 @@ These steps allow you delete individual items in the cache. To delete all cache 
     
     1.  Select the cache item from the dropdown.
         
-        Result: The cache item is displayed in the Cache Key field as XML.
+        Result: The cache item is displayed in the **Cache Key** field as XML.
         
-    2.  Click/Tap Expire Cache Item.
+    2.  Click/Tap **Expire Cache Item**.
 6.  Click/Tap the X when done.

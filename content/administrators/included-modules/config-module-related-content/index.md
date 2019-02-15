@@ -51,7 +51,7 @@ related-topics: configure-module-on-page-pb-all
 |**Item Template**|The custom HTML template used to display each item in the list. Typically an entire row of the table or a bullet in the list.|
 |**Footer Template**|The custom HTML template used as the suffix to the list. Typically the terminating tags for the table or list.|
 
-The following tokens are available for the Display Templates:
+The following tokens are available for the **Display Templates**:
 
 |**Token**|**Template**|**Description**|
 |---|---|---|

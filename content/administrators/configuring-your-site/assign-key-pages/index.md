@@ -17,11 +17,11 @@ related-topics: update-site-info,add-metadata-to-pages,configure-messaging,acces
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Site Settings.
+1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-2.  Go to the Site Behavior tab, and then the Default Pages subtab.
+2.  Go to the **Site Behavior** tab, and then the **Default Pages** subtab.
     
     ![Site Behavior > Default Pages](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-DefaultPages-E90.png)
     
@@ -33,7 +33,7 @@ related-topics: update-site-info,add-metadata-to-pages,configure-messaging,acces
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |<strong>Splash Page</strong>|The page displayed before the user sees the home page of the site. If None Specified, then the Home Page is displayed immediately.|
     |<strong>Login Page</strong>|The page must include the Authentication module.|

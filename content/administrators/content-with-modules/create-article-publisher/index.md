@@ -15,7 +15,7 @@ An article can be announcements, news, press releases.
 ## Steps
 
 1.  Go to a page with the Publisher module.
-2.  Click/Tap Create Post.
+2.  Click/Tap **Create Post**.
     
       
     

@@ -17,15 +17,11 @@ related-topics: update-site-info,assign-key-pages,configure-messaging,access-web
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Site Settings.
+1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Site Behavior tab, and then the Default Pages subtab.
+2.  Go to the **Site Behavior** tab, and then the **Default Pages** subtab.
     
     ![Site Behavior > Default Pages](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-DefaultPages-E90.png)
     
@@ -37,4 +33,5 @@ related-topics: update-site-info,assign-key-pages,configure-messaging,access-web
     
       
     
-    Note: The HTML tags must be valid for the <head> section.
+    > [!Note]
+    > The HTML tags must be valid for the <head> section.

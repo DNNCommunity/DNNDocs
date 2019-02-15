@@ -15,13 +15,9 @@ dnnversion: 09.02.00
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Scheduler.
+1.  Go to **Persona Bar \> Settings \> Scheduler**.
     
     ![Persona Bar > Settings > Scheduler](/images/scr-pbar-host-Settings-E91.png)
-    
-    ➊
-    
-    ➋
     
 2.  Configure the Scheduler settings.
     
@@ -31,16 +27,7 @@ dnnversion: 09.02.00
     
       
     
-    Field
-    
-    Description
-    
-    Scheduler Mode
-    
-    *   Disabled. Prevents all tasks from running.
-    *   Timer Method. Runs the scheduled tasks at the specified intervals in separate threads.
-    *   Request Method. Runs the scheduled tasks when HTTP requests are made.
-    
-    Delay Schedule at Start
-    
-    The number of minutes the system must wait before running scheduled jobs after a restart.
+    |**Field**|**Description**|
+    |---|---|
+    |Scheduler Mode|<ul><li><strong>Disabled</strong>. Prevents all tasks from running.</li><li><strong>Timer Method</strong>. Runs the scheduled tasks at the specified intervals in separate threads.</li><li><strong>Request Method</strong> Runs the scheduled tasks when HTTP requests are made.</li></ul>|
+    |Delay Schedule at Start|The number of minutes the system must wait before running scheduled jobs after a restart.|

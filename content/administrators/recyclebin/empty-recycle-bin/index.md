@@ -16,12 +16,12 @@ related-topics: administrators-assets-overview,administrators-pages-templates-ov
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Recycle Bin.
+1.  Go to **Persona Bar \> Content \> Recycle Bin**.
     
     ![Persona Bar > Content > Recycle Bin](/images/scr-pbar-host-Content-E91.png)
     
     
-2.  Click/Tap Empty Recycle Bin.
+2.  Click/Tap **Empty Recycle Bin**.
     
       
     

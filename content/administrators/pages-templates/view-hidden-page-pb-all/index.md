@@ -13,15 +13,11 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Pages.
+1.  Go to **Persona Bar \> Content \> Pages**.
     
     ![Persona Bar > Content > Pages](/images/scr-pbar-host-Content-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  In the Pages page, hover over the page to view, then click/tap the eye icon.
+2.  In the **Pages** page, hover over the page to view, then click/tap the eye icon.
     
       
     

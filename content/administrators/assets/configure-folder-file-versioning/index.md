@@ -11,7 +11,8 @@ related-topics: view-file-versions,restore-file-version,delete-file-version,page
 
 # Configure Folder/File Versioning
 
-Note: Versioning is enabled at the folder level; i.e., versioning affects all files inside the folder. However, you can manage the file versions individually.
+> [!Note]
+> Versioning is enabled at the folder level; i.e., versioning affects all files inside the folder. However, you can manage the file versions individually.
 
 ## Prerequisites
 
@@ -19,13 +20,9 @@ Note: Versioning is enabled at the folder level; i.e., versioning affects all fi
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Assets.
+1.  Go to **Persona Bar \> Content \> Assets**.
     
     ![Persona Bar > Content > Assets](/images/scr-pbar-host-Content-E91.png)
-    
-    ➊
-    
-    ➋
     
 2.  Hover over the folder card in the grid to expose the vertical icon bar. Click/Tap the pencil icon.
     
@@ -35,7 +32,7 @@ Note: Versioning is enabled at the folder level; i.e., versioning affects all fi
     
       
     
-3.  Under Details, set Versioning to On.
+3.  Under **Details**, set **Versioning** to **On**.
     
       
     

@@ -20,11 +20,11 @@ related-topics: create-visualizer,delete-visualizer,import-visualizer,export-vis
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Content Library.
+1.  Go to **Persona Bar \> Content \> Content Library**.
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
     
-2.  Go to the Visualizers tab.
+2.  Go to the **Visualizers** tab.
     
     ![Visualizers](/images/scr-pbtabs-all-Content-ContentLibrary-Visualizers-E91.png)
     
@@ -49,7 +49,7 @@ related-topics: create-visualizer,delete-visualizer,import-visualizer,export-vis
     > Include the name of the content type in the visualizer's name to make it easy to find all visualizers associated with the content type. If you plan to have multiple visualizers for the same content type, add a short phrase that briefly describes its function to distinguish it from other visualizers.
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |**Name**|The name of the visualizer.|
     |**Description**|A short description of the visualizer.|
     |**Icon**|The icon for the visualizer.|
@@ -83,7 +83,8 @@ related-topics: create-visualizer,delete-visualizer,import-visualizer,export-vis
         
           
         
-        Tip: Because the placeholders hide the inner tags, such as `</images/>` or `<p/>`, you can wrap the placeholders with `<div/>` tags with `class` names or `id` names that you can refer to in the CSS code. Example: `<div class="myimgdiv">{{ myImg }}</div>`
+       > [!Tip]
+       > Because the placeholders hide the inner tags, such as `</images/>` or `<p/>`, you can wrap the placeholders with `<div/>` tags with `class` names or `id` names that you can refer to in the CSS code. Example: `<div class="myimgdiv">{{ myImg }}</div>`
         
     2.  In the Style editor, enter CSS code for the visualizer.
         

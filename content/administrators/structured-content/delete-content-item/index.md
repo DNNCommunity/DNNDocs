@@ -17,15 +17,11 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,sha
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Content Library.
+1.  Go to **Persona Bar \> Content \> Content Library**.
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Content tab.
+2.  Go to the **Content** tab.
     
     ![Content](/images/scr-pbtabs-all-Content-ContentLibrary-Content-E91.png)
     
@@ -39,7 +35,7 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,sha
     
       
     
-4.  Click/Tap the ellipses ... for the specific content item, and then select Delete.
+4.  Click/Tap the ellipses ... for the specific content item, and then select **Delete**.
     
       
     

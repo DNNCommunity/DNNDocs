@@ -17,11 +17,11 @@ related-topics: view-entry-details,clear-log,delete-entries,share-entries,add-ev
 
 ## Steps
 
-1.  Go to Persona Bar \> Manage \> Admin Logs.
+1.  Go to **Persona Bar \> Manage \> Admin Logs**.
     
     ![Persona Bar > Manage > Admin Logs](/images/scr-pbar-host-Manage-E91.png)
     
-2.  Go to the Admin Logs tab.
+2.  Go to the **Admin Logs** tab.
     
     ![Admin Logs](/images/scr-pbtabs-host-Manage-AdminLogs-AdminLogs-E90.png)
     

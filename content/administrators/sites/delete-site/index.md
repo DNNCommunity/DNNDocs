@@ -18,15 +18,11 @@ related-topics: create-site,edit-site-properties,view-site,move-site-to-another-
 
 ## Steps
 
-1.  Go to Persona Bar \> Manage \> Sites .
+1.  Go to **Persona Bar \> Manage \> Sites** .
     
     ![Persona Bar > Manage > Sites](/images/scr-pbar-host-Manage-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Sites tab.
+2.  Go to the **Sites** tab.
     
       
     
@@ -45,9 +41,8 @@ related-topics: create-site,edit-site-properties,view-site,move-site-to-another-
         
     2.  Locate the site in the list.
         
-        Tip:
-        
-        You can choose to display the list as a grid of icons or as a list.
+        > [!Tip]
+        > You can choose to display the list as a grid of icons or as a list.
         
         img=scr-Sites-DisplayOptions-E90.png|Choose grid or list.
         

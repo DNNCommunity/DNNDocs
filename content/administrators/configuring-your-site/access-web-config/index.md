@@ -13,15 +13,11 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,configur
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Config Manager.
+1.  Go to **Persona Bar \> Settings \> Config Manager**.
     
     ![Persona Bar > Settings > Config Manager](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Config Files tab.
+2.  Go to the **Config Files** tab.
     
     ![Config Files](/images/scr-pbtabs-host-Settings-ConfigManager-ConfigFiles-E90.png)
     

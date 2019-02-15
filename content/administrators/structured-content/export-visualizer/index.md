@@ -20,11 +20,11 @@ related-topics: create-visualizer,edit-visualizer,delete-visualizer,import-visua
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Content Library.
+1.  Go to **Persona Bar \> Content \> Content Library**.
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
     
-2.  Go to the Visualizers tab.
+2.  Go to the **Visualizers** tab.
     
     ![Visualizers](/images/scr-pbtabs-all-Content-ContentLibrary-Visualizers-E91.png)
     
@@ -38,7 +38,7 @@ related-topics: create-visualizer,edit-visualizer,delete-visualizer,import-visua
     
     You can browse the list of visualizers, or you can use Search field.
     
-4.  Click/Tap the Export File button.
+4.  Click/Tap the **Export File** button.
     
       
     

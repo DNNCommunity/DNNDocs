@@ -17,16 +17,12 @@ related-topics: add-role-to-existing-group,view-roles-included-in-group,remove-r
 
 ## Steps
 
-1.  Go to Persona Bar \> Manage \> Roles.
+1.  Go to **Persona Bar \> Manage \> Roles**.
     
     ![Persona Bar > Manage > Roles](/images/scr-pbar-host-Manage-E91.png)
     
-    ➊
-    
-    ➋
-    
 2.  Create or edit a role.
-3.  Expand the Role Group dropdown and choose New Group.
+3.  Expand the **Role Group** dropdown and choose **New Group**.
     
       
     

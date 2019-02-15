@@ -19,13 +19,9 @@ Note: Default roles cannot be deleted.
 
 ## Steps
 
-1.  Go to Persona Bar \> Manage \> Roles.
+1.  Go to **Persona Bar \> Manage \> Roles**.
     
     ![Persona Bar > Manage > Roles](/images/scr-pbar-host-Manage-E91.png)
-    
-    ➊
-    
-    ➋
     
 2.  Search for the role you want to act on.
     1.  (Optional) Filter the list.
@@ -56,7 +52,7 @@ Note: Default roles cannot be deleted.
     
       
     
-4.  Click/Tap the Delete button.
+4.  Click/Tap the **Delete** button.
     
       
     

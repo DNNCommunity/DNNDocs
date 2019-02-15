@@ -13,11 +13,11 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Pages.
+1.  Go to **Persona Bar \> Content \> Pages**.
     
     ![Persona Bar > Content > Pages](/images/scr-pbar-host-Content-E91.png)
     
-2.  Click/Tap Add Multiple Pages.
+2.  Click/Tap **Add Multiple Pages**.
     
       
     
@@ -33,7 +33,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |**Parent Page<br />Branch Parent**|The page under which the new page(s) should reside in the hierarchy.|
     |**Keywords**|Comma-separated keywords that can be used by search engines to help index your site's pages.|
@@ -45,7 +45,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
     |**Bulk Pages to Add**|The names of the pages to add for use in the navigation. One per line. To create a hierarchy, prepend the name with `>`.<br /><br />Example:<pre>Topic 1<br />>Topic 1.1<br />Topic 1.2<br />>>Topic 1.2.1<br />Topic 2</pre>|   
 
 
-4.  Click/Tap Add Pages.
+4.  Click/Tap **Add Pages**.
 
 ## What to do next
 

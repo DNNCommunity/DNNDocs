@@ -17,15 +17,11 @@ related-topics: view-site-logs,view-entry-details,clear-log,delete-entries,share
 
 ## Steps
 
-1.  Go to Persona Bar \> Manage \> Admin Logs.
+1.  Go to **Persona Bar \> Manage \> Admin Logs**.
     
     ![Persona Bar > Manage > Admin Logs](/images/scr-pbar-host-Manage-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Log Settings tab.
+2.  Go to the **Log Settings** tab.
     
     ![Log Settings](/images/scr-pbtabs-host-Manage-AdminLogs-LogSettings-E90.png)
     
@@ -37,7 +33,7 @@ related-topics: view-site-logs,view-entry-details,clear-log,delete-entries,share
     
       
     
-4.  Configure the Email Notification Settings.
+4.  Configure the **Email Notification Settings**.
     
       
     
@@ -45,7 +41,7 @@ related-topics: view-site-logs,view-entry-details,clear-log,delete-entries,share
     
       
     
-    1.  Turn on Email Notification to enable email notification.
+    1.  Turn on **Email Notification** to enable email notification.
     2.  Set up the frequency of the notices and the email address.
         
         An email is sent to the Mail To Address whenever the event exceeds the Occurrence Threshold. The timespan is reset after the email is set; e.g., if the threshold is set to 1 Occurrence in 1 Hour, the next hour starts when the email is sent.
