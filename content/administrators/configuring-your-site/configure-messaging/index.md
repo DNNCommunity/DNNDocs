@@ -17,11 +17,11 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,access-w
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Site Settings.
+1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-2.  Go to the Site Behavior tab, and then the Messaging subtab.
+2.  Go to the **Site Behavior** tab, and then the **Messaging** subtab.
     
     ![Site Behavior > Messaging](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-Messaging-E90.png)
     
@@ -33,11 +33,12 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,access-w
     
       
     
-    Note: Administrators and hosts/superusers are not restricted by these settings.
+    > [!Note]
+    > Administrators and hosts/superusers are not restricted by these settings.
     
     <ul><li>User messaging</li></ul>
 
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |<strong>Disable Private Message</strong>|If enabled, users will be unable to send messages directly to other users or to groups.|
     |<strong>Throttling Interval in Minutes</strong>|The minimum number of minutes to wait before allowing the same user to send another message. If 0, users can send another message immediately after the first one.|
@@ -46,7 +47,7 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,access-w
     
     <ul><li>System messages</li></ul>
         
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |<strong>Send Emails</strong>|If enabled, the system sends an email to the user for each message and notification.|
     |<strong>Include Attachments</strong>|If enabled, system emails can include file attachments.|

@@ -21,7 +21,7 @@ related-topics: get-existing-api-key,edit-or-reset-api-key,delete-api-key
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Content Library.
+1.  Go to **Persona Bar \> Content \> Content Library**.
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
 
@@ -30,7 +30,7 @@ related-topics: get-existing-api-key,edit-or-reset-api-key,delete-api-key
     
     ![API Keys](/images/scr-pbtabs-host-Content-ContentLibrary-APIKeys-E91.png)
     
-3.  Click/Tap Add New API Key.
+3.  Click/Tap **Add New API Key**.
     
       
     

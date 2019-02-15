@@ -19,13 +19,9 @@ Note: Default groups cannot be edited or deleted.
 
 ## Steps
 
-1.  Go to Persona Bar \> Manage \> Roles.
+1.  Go to **Persona Bar \> Manage \> Roles**.
     
     ![Persona Bar > Manage > Roles](/images/scr-pbar-host-Manage-E91.png)
-    
-    ➊
-    
-    ➋
     
 2.  From the dropdown in the upper-left, choose the custom role group.
     

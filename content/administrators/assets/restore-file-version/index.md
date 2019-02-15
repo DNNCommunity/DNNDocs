@@ -11,7 +11,8 @@ related-topics: configure-folder-file-versioning,view-file-versions,delete-file-
 
 # Restore a File Version
 
-Note: The restored version is copied to the top of the list as the most recent version.
+> [!Note]
+> The restored version is copied to the top of the list as the most recent version.
 
 ## Prerequisites
 
@@ -19,13 +20,9 @@ Note: The restored version is copied to the top of the list as the most recent v
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Assets.
+1.  Go to **Persona Bar \> Content \> Assets**.
     
     ![Persona Bar > Content > Assets](/images/scr-pbar-host-Content-E91.png)
-    
-    ➊
-    
-    ➋
     
 2.  Go to the folder that contains the asset or subfolder.
     
@@ -46,9 +43,8 @@ Note: The restored version is copied to the top of the list as the most recent v
           
         
     
-    Tip:
-    
-    The breadcrumbs show your current location in the folder hierarchy.
+    > [!Tip]
+    > The breadcrumbs show your current location in the folder hierarchy.
     
       
     
@@ -64,7 +60,7 @@ Note: The restored version is copied to the top of the list as the most recent v
     
       
     
-4.  In the Versioning tab, click/tap the circular arrow (Rollback) icon for the version you want.
+4.  In the **Versioning** tab, click/tap the circular arrow (**Rollback**) icon for the version you want.
     
       
     

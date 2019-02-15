@@ -17,15 +17,15 @@ related-topics: add-site-alias,edit-site-alias,delete-site-alias,change-primary-
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Site Settings.
+1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-2.  Go to the Site Behavior tab, and then the Site Aliases subtab.
+2.  Go to the **Site Behavior** tab, and then the **Site Aliases** subtab.
     
     ![Site Behavior > Site Aliases](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-SiteAliases-E90.png)
     
-3.  Select the Site Alias Mapping Mode.
+3.  Select the **Site Alias Mapping Mode**.
     
       
     
@@ -33,7 +33,7 @@ related-topics: add-site-alias,edit-site-alias,delete-site-alias,change-primary-
     
       
     
-    |Option|Description|
+    |**Option**|**Description**|
     |---|---|
     |<strong>Canonical</strong>|Recommended for SEO. Most useful when a page's content is dynamic or if the page contains a list that is split into multiple pages.|
     |<strong>Redirect</strong>|Calls to non-primary site aliases are redirected to the primary site alias. The user sees the primary site alias in the browser's address field.|
@@ -49,4 +49,5 @@ related-topics: add-site-alias,edit-site-alias,delete-site-alias,change-primary-
     
       
     
-    Warning: Enabling this setting can be a security risk.
+    > [!Warning]
+    > Enabling this setting can be a security risk.

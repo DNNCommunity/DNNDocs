@@ -56,29 +56,10 @@ Users can be automatically added to a role, either when the role is created or w
 
 The role's status determines what can be done with it.
 
-Status
-
-Administrators/Super Users
-
-Users
-
-Disabled
-
-Cannot access.
-
-Cannot join.
-
-Pending
-
-Can access.
-
-Cannot join.
-
-Approved
-
-Can access.
-
-Can join, if role is public or if role has an RSVP code/link.
+|**Status**|**Administrators/Super Users**|**Users**|
+|Disabled|Cannot access.|Cannot join.|
+|Pending|Can access.|Cannot join.|
+|Approved|Can access.|Can join, if role is public or if role has an RSVP code/link.|
 
 An icon can be associated with the role.
 

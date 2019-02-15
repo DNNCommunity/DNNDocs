@@ -17,11 +17,11 @@ related-topics: configure-caching,expire-cached-item-in-web-server,minify-resour
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Servers.
+1.  Go to **Persona Bar \> Settings \> Servers**.
     
     ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
-2.  Click/Tap Clear Cache.
+2.  Click/Tap **Clear Cache**.
     
       
     

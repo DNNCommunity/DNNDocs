@@ -13,7 +13,7 @@ related-topics: add-assets,edit-asset-properties,edit-asset-permissions,move-ass
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Assets.
+1.  Go to **Persona Bar \> Content \> Assets**.
     
     ![Persona Bar > Content > Assets](/images/scr-pbar-host-Content-E91.png)
     
@@ -26,7 +26,7 @@ related-topics: add-assets,edit-asset-properties,edit-asset-permissions,move-ass
     
       
     
-3.  Choose the target folder. Click/Tap Copy.
+3.  Choose the target folder. Click/Tap **Copy**.
     
       
     

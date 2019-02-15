@@ -18,11 +18,11 @@ related-topics: view-page-versions,restore-page-version,delete-page-version,page
 ## Steps
 
 1.  Go to the page to edit.
-2.  Go to Persona Bar \> Edit.
+2.  Go to **Persona Bar \> Edit**.
     
     ![Persona Bar > Edit](/images/scr-pbar-all-Edit-E91.png)
     
-3.  In the Edit Bar, click/tap the Page History icon.
+3.  In the **Edit Bar**, click/tap the **Page History** icon.
     
       
     
@@ -30,7 +30,7 @@ related-topics: view-page-versions,restore-page-version,delete-page-version,page
     
       
     
-4.  In the list, check the Compare boxes for the two page versions to compare, then click/tap the Compare button.
+4.  In the list, check the Compare boxes for the two page versions to compare, then click/tap the **Compare** button.
     
       
     

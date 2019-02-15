@@ -19,19 +19,15 @@ Note: You can choose only from the extensions that are included in the Allowable
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Site Settings.
+1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Search tab, and then the File Extensions subtab.
+2.  Go to the **Search** tab, and then the **File Extensions** subtab.
     
     ![Search > File Extensions](/images/scr-pbtabs-all-Settings-SiteSettings-Search-FileExtensions-E90.png)
     
-3.  In Included File Extensions or Excluded File Extensions, find the file extension to delete and click/tap its trash icon.
+3.  In **Included File Extensions** or **Excluded File Extensions**, find the file extension to delete and click/tap its trash icon.
     
       
     

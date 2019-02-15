@@ -17,13 +17,10 @@ related-topics: configure-folder-file-versioning,view-file-versions,restore-file
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Assets.
+1.  Go to **Persona Bar \> Content \> Assets**.
     
     ![Persona Bar > Content > Assets](/images/scr-pbar-host-Content-E91.png)
-    
-    ➊
-    
-    ➋
+
     
 2.  Go to the folder that contains the asset or subfolder.
     
@@ -44,9 +41,8 @@ related-topics: configure-folder-file-versioning,view-file-versions,restore-file
           
         
     
-    Tip:
-    
-    The breadcrumbs show your current location in the folder hierarchy.
+    > [!Tip]
+    > The breadcrumbs show your current location in the folder hierarchy.
     
       
     
@@ -62,7 +58,7 @@ related-topics: configure-folder-file-versioning,view-file-versions,restore-file
     
       
     
-4.  In the Versioning tab, click/tap the trash (Delete) icon for the version you want.
+4.  In the **Versioning** tab, click/tap the trash (**Delete**) icon for the version you want.
     
       
     

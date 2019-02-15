@@ -17,19 +17,15 @@ related-topics: edit-group-of-synonyms,delete-group-of-synonyms
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Site Settings.
+1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Search tab, and then the Synonyms subtab.
+2.  Go to the **Search** tab, and then the **Synonyms** subtab.
     
     ![Search > Synonyms](/images/scr-pbtabs-all-Settings-SiteSettings-Search-Synonyms-E90.png)
     
-3.  Click/Tap \+ Add Group.
+3.  Click/Tap \+ **Add Group**.
     
       
     
@@ -37,7 +33,7 @@ related-topics: edit-group-of-synonyms,delete-group-of-synonyms
     
       
     
-4.  In Synonyms, enter words or phrases that are synonyms of each other.
+4.  In **Synonyms**, enter words or phrases that are synonyms of each other.
     
     You can insert a comma or press Enter to separate words or phrases.
     

@@ -17,15 +17,15 @@ related-topics: edit-visualizer,delete-visualizer,import-visualizer,export-visua
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Content Library.
+1.  Go to **Persona Bar \> Content \> Content Library**.
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
     
-2.  Go to the Visualizers tab.
+2.  Go to the **Visualizers** tab.
     
     ![Visualizers](/images/scr-pbtabs-all-Content-ContentLibrary-Visualizers-E91.png)
     
-3.  Click/Tap Create Visualizer.
+3.  Click/Tap **Create Visualizer**.
     
       
     
@@ -41,7 +41,7 @@ related-topics: edit-visualizer,delete-visualizer,import-visualizer,export-visua
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |**Name**|The name of the visualizer.|
     |**Description**|A short description of the visualizer.|
@@ -49,13 +49,13 @@ related-topics: edit-visualizer,delete-visualizer,import-visualizer,export-visua
     |**Content Type**|The content type to associate with this visualizer.|
 
     > [!TIP]
-    >Include the name of the content type in the visualizer's name to make it easy to find all visualizers associated with the content type. If you plan to have multiple visualizers for the same content type, add a short phrase that briefly describes its function to distinguish it from other visualizers.
+    > Include the name of the content type in the visualizer's name to make it easy to find all visualizers associated with the content type. If you plan to have multiple visualizers for the same content type, add a short phrase that briefly describes its function to distinguish it from other visualizers.
     
     > [!WARNING]
     > Changing the content type will replace any existing HTML code in the Editor \> Template editor.
     
-5.  In the Editor tab, design the visualizer.
-    1.  In the Template editor, enter the HTML code for the visualizer.
+5.  In the **Editor** tab, design the visualizer.
+    1.  In the **Template** editor, enter the HTML code for the visualizer.
         
         *   Enter HTML code in Header and Footer to enclose the entire list of content items.
         *   Enter HTML code in Template to enclose the individual content items in the list.
@@ -92,7 +92,7 @@ related-topics: edit-visualizer,delete-visualizer,import-visualizer,export-visua
         > [!TIP]
         > If you wrapped a placeholder, you can access the inner tag if you wrapped them in a named `<div/>` tag. Example: `.myimgdiv img { width: 50px }`
         
-    3.  In the Script editor, enter JavaScript code for the visualizer, if needed.
+    3.  In the **Script** editor, enter JavaScript code for the visualizer, if needed.
         
           
         

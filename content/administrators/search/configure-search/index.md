@@ -17,11 +17,11 @@ related-topics: prioritize-search-items
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Site Settings.
+1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-2.  Go to the Search tab, and then the Basic Settings subtab.
+2.  Go to the **Search** tab, and then the **Basic Settings** subtab.
     
     ![Search > Basic Settings](/images/scr-pbtabs-host-Settings-SiteSettings-Search-BasicSettings-E90.png)
     
@@ -33,7 +33,7 @@ related-topics: prioritize-search-items
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |<strong>Minimum Word Length<br />Maximum Word Length</strong>|The range specifying the allowed length of words to be indexed. The word length is the number of single-byte characters in the word.|
     |<strong>Custom Analyzer Type</strong>|The full name of the custom analyzer to index the content. To force existing content to be reindexed with the new analyzer, click/tap the <strong>Reindex Content</strong> of <strong>Reindex Host Content</strong> buttons in the <strong>Search Index</strong> section.|

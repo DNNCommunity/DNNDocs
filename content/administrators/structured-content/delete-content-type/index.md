@@ -20,15 +20,15 @@ related-topics: create-content-type,duplicate-content-type,edit-content-type,con
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Content Library.
+1.  Go to **Persona Bar \> Content \> Content Library**.
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
       
-2.  Go to the Content Types tab.
+2.  Go to the **Content Types** tab.
     
     ![Content Types](/images/scr-pbtabs-all-Content-ContentLibrary-ContentTypes-E91.png)
     
-3.  Highlight the content type, click/tap the ellipses, and choose Delete.
+3.  Highlight the content type, click/tap the ellipses, and choose **Delete**.
     
       
     

@@ -17,15 +17,15 @@ related-topics: edit-starting-url-in-crawl-list,delete-starting-url-from-crawl-l
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Site Settings.
+1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-2.  Go to the Search tab, and then the Crawling subtab.
+2.  Go to the **Search** tab, and then the **Crawling** subtab.
     
     ![Search > Crawling](/images/scr-pbtabs-all-Settings-SiteSettings-Search-Crawling-E90.png)
     
-3.  In URL Paths, click/tap \+ Add URL.
+3.  In **URL Paths**, click/tap \+ **Add URL**.
     
       
     
@@ -41,7 +41,7 @@ related-topics: edit-starting-url-in-crawl-list,delete-starting-url-from-crawl-l
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |<strong>URL</strong>|The URL where crawling should start.|
     |<strong>Sitemap URL</strong>|The URL of the sitemap to use, if any.|

@@ -13,20 +13,16 @@ related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Recycle Bin.
+1.  Go to **Persona Bar \> Content \> Recycle Bin**.
     
     ![Persona Bar > Content > Recycle Bin](/images/scr-pbar-host-Content-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Users tab.
+2.  Go to the **Users** tab.
     
     ![Users](/images/scr-pbtabs-all-Content-RecycleBin-Users-E91.png)
     
 3.  Purge (Permanently delete) one or more users.
-    *   To purge a single user, hover over the user to purge, and click/tap the Delete icon for that item.
+    *   To purge a single user, hover over the user to purge, and click/tap the **Delete** icon for that item.
         
           
         
@@ -34,7 +30,7 @@ related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles
         
           
         
-    *   To purge multiple users, check the boxes for the items to purge, and click/tap the Delete button.
+    *   To purge multiple users, check the boxes for the items to purge, and click/tap the **Delete** button.
         
           
         

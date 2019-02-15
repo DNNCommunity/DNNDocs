@@ -17,15 +17,11 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,del
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Content Library.
+1.  Go to **Persona Bar \> Content \> Content Library**.
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Content tab.
+2.  Go to the **Content** tab.
     
     ![Content](/images/scr-pbtabs-all-Content-ContentLibrary-Content-E91.png)
     
@@ -71,7 +67,7 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,del
     
       
     
-8.  Click/Tap Copy to Clipboard.
+8.  Click/Tap **Copy to Clipboard**.
     
       
     
@@ -79,4 +75,4 @@ related-topics: create-content-item,duplicate-content-item,edit-content-item,del
     
       
     
-9.  Click/Tap Done.
+9.  Click/Tap **Done**.

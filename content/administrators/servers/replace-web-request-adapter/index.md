@@ -13,31 +13,14 @@ related-topics: enable-or-disable-web-server,change-url-of-web-server,assign-web
 
 If a server is added to the web farm, the Server Web Request Adapter automatically retrieves the new server's default URL and adds it to the list of servers. The adapter also checks the availability of servers in the web farm and coordinates the synchronization of cache among Enabled servers.
 
-Note: In the Performance Tab, the Caching Provider must be set to WebRequestCachingProvider for the Server Web Request Adapter to be used.
+> [!Note]
+> In the Performance Tab, the Caching Provider must be set to WebRequestCachingProvider for the Server Web Request Adapter to be used.
 
-Product and Environment
-
-Default Caching Provider
-
-Default Server Web Request Adapter
-
-Evoq (OnDemand)
-
-WebRequestCachingProvider
-
-DotNetNuke.Azure.WebRequestAdapter.ServerWebRequestAdapter
-
-Evoq (other)
-
-WebRequestCachingProvider
-
-DotNetNuke.Entities.Host.ServerWebRequestAdapter
-
-DNN Platform
-
-FileBasedCachingProvider
-
-(No adapter. Cache is not synchronized automatically.)
+|**Product and Environment**|**Default Caching Provider**|**Default Server Web Request Adapter**|
+|---|---|---|
+|Evoq (OnDemand)|WebRequestCachingProvider|DotNetNuke.Azure.WebRequestAdapter.ServerWebRequestAdapter|
+|Evoq (other)|WebRequestCachingProvider|DotNetNuke.Entities.Host.ServerWebRequestAdapter|
+|DNN Platform|FileBasedCachingProvider|(No adapter. Cache is not synchronized automatically.)|
 
 ## Prerequisites
 
@@ -45,15 +28,11 @@ FileBasedCachingProvider
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Servers.
+1.  Go to **Persona Bar \> Settings \> Servers**.
     
     ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Server Settings tab, and then the Web Servers subtab.
+2.  Go to the **Server Settings** tab, and then the **Web Servers** subtab.
     
     ![Server Settings > Web Servers](/images/scr-pbtabs-host-Settings-Servers-ServerSettings-WebServers-E90.png)
     

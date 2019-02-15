@@ -12,11 +12,11 @@ parent-topic: administrators-connectors-overview
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Connectors.
+1.  Go to **Persona Bar \> Settings \> Connectors**.
     
     ![Persona Bar > Settings > Connectors](/images/scr-pbar-host-Settings-E91.png)
     
-2.  Under Configure Connections, choose the service provider in the list and click/tap Connect or Edit.
+2.  Under **Configure Connections**, choose the service provider in the list and click/tap **Connect** or **Edit**.
     
       
     
@@ -26,7 +26,8 @@ parent-topic: administrators-connectors-overview
     
 3.  Provide the information required by the service provider.
     
-    Tip: Some connectors can be configured further in the Advanced Settings dialog, if available. Simply click/tap Connect, then click/tap the gear icon for that connector.
+    > [!Tip]
+    > Some connectors can be configured further in the Advanced Settings dialog, if available. Simply click/tap Connect, then click/tap the gear icon for that connector.
     
       
     
@@ -34,7 +35,7 @@ parent-topic: administrators-connectors-overview
     
       
     
-    |Provider|Fields|
+    |**Provider**|**Fields**|
     |---|---|
     |<strong>Amazon S3</strong>|<ul><li><strong>Access Key ID</strong></li><li><strong>Secret Access Key</strong></li></ul><br />[How to get your Amazon S3 access key ID and secret.](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/AWSCredentials.html)|
     |<strong>Azure</strong>|<ul><li><strong>Account Name</strong></li><li><strong>Account Key</strong></li><li><strong>Container</strong>: The type of data that you want to be synchronized with Azure.<ul><li><strong>backups</strong></li><li><strong>portals</strong></li><li><strong>wad-iis-logfiles (Azure logfiles)</strong></li></ul></ul><br />[How to get your Azure account name and key.](https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/#create-a-storage-account)|
@@ -52,4 +53,4 @@ parent-topic: administrators-connectors-overview
     
       
     
-4.  Click/tap Save.
+4.  Click/tap **Save**.

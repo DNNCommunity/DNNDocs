@@ -13,13 +13,9 @@ related-topics: create-form,edit-form,duplicate-form,delete-form,embed-form,cont
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Forms.
+1.  Go to **Persona Bar \> Content \> Forms**.
     
     ![Persona Bar > Content > Forms](/images/scr-pbar-host-Content-E91.png)
-    
-    ➊
-    
-    ➋
     
 2.  Click/Tap the ellipses for the form you want, and choose Responses.
     

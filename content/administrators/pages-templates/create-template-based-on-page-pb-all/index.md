@@ -13,11 +13,11 @@ related-topics: create-template-based-on-another-template-pb-all,edit-delete-tem
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Pages.
+1.  Go to **Persona Bar \> Content \> Pages**.
     
     ![Persona Bar > Content > Pages](/images/scr-pbar-host-Content-E91.png)
     
-2.  In the Pages page, hover over the page, then click/tap the gear icon.
+2.  In the **Pages** page, hover over the page, then click/tap the gear icon.
     
       
     
@@ -25,7 +25,7 @@ related-topics: create-template-based-on-another-template-pb-all,edit-delete-tem
     
       
     
-3.  Click/Tap Save Page Template.
+3.  Click/Tap **Save Page Template**.
     
       
     
@@ -44,7 +44,7 @@ related-topics: create-template-based-on-another-template-pb-all,edit-delete-tem
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |**Template Name**|The name of the new template.|
     |**Description**|The description of the new template.|

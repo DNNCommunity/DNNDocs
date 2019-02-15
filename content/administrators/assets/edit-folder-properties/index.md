@@ -13,7 +13,7 @@ related-topics: create-folder,edit-folder-permissions,move-folder,delete-folder
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Assets.
+1.  Go to **Persona Bar \> Content \> Assets**.
     
     ![Persona Bar > Content > Assets](/images/scr-pbar-host-Content-E91.png)
     
@@ -36,9 +36,8 @@ related-topics: create-folder,edit-folder-permissions,move-folder,delete-folder
           
         
     
-    Tip:
-    
-    The breadcrumbs show your current location in the folder hierarchy.
+    > [!Tip]
+    > The breadcrumbs show your current location in the folder hierarchy.
     
       
     
@@ -62,7 +61,7 @@ related-topics: create-folder,edit-folder-permissions,move-folder,delete-folder
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |Created|Not modifiable. The date that the asset was uploaded and by whom.|
     |Last Modified|Not modifiable. The date that the asset was last modified and by whom.|

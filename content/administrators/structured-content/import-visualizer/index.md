@@ -20,15 +20,15 @@ related-topics: create-visualizer,edit-visualizer,delete-visualizer,export-visua
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Content Library.
+1.  Go to **Persona Bar \> Content \> Content Library**.
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
     
-2.  Go to the Visualizers tab.
+2.  Go to the **Visualizers** tab.
     
     ![Visualizers](/images/scr-pbtabs-all-Content-ContentLibrary-Visualizers-E91.png)
     
-3.  Click/Tap Create Visualizer.
+3.  Click/Tap **Create Visualizer**.
     
       
     

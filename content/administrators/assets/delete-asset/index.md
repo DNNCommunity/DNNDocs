@@ -13,13 +13,9 @@ related-topics: add-assets,edit-asset-properties,edit-asset-permissions,move-ass
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Assets.
+1.  Go to **Persona Bar \> Content \> Assets**.
     
     ![Persona Bar > Content > Assets](/images/scr-pbar-host-Content-E91.png)
-    
-    ➊
-    
-    ➋
     
 2.  Go to the folder that contains the asset or subfolder.
     
@@ -40,9 +36,8 @@ related-topics: add-assets,edit-asset-properties,edit-asset-permissions,move-ass
           
         
     
-    Tip:
-    
-    The breadcrumbs show your current location in the folder hierarchy.
+    > [!Tip]
+    > The breadcrumbs show your current location in the folder hierarchy.
     
       
     

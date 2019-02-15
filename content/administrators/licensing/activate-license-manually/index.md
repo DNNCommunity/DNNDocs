@@ -22,15 +22,11 @@ Note: You might need to modify your firewall settings to allow a query to be sen
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> About.
+1.  Go to **Persona Bar \> Settings \> About**.
     
     ![Persona Bar > Settings > About](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Click Add License.
+2.  Click **Add License**.
     
       
     
@@ -58,10 +54,10 @@ Note: You might need to modify your firewall settings to allow a query to be sen
         *   Test
         *   Development
         
-        The Web Server name is prefilled with the server name stored in the WebServers table of the current site's database.
+        The **Web Server** name is prefilled with the server name stored in the WebServers table of the current site's database.
         
-    2.  Enter the Account Email and Invoice Number associated with your license.
-    3.  Click Manual Activation.
+    2.  Enter the **Account Email** and **Invoice Number** associated with your license.
+    3.  Click **Manual Activation**.
 4.  Get an activation key.
     
       
@@ -70,7 +66,8 @@ Note: You might need to modify your firewall settings to allow a query to be sen
     
       
     
-    Tip: If your server does not have access to the Internet, you can access the DNN Professional License Request page on dnnsoftware.com from another machine and transfer the keys through a local network or a secure flash drive.
+    > [!Tip]
+    > If your server does not have access to the Internet, you can access the DNN Professional License Request page on dnnsoftware.com from another machine and transfer the keys through a local network or a secure flash drive.
     
     1.  Click Request an activation key on dnnsoftware.com to open [the Professional License Request page](http://www.dnnsoftware.com/services/customer-support/success-network/license-management/ctl/requestlicense/mid/1189).
     2.  Copy the encoded server ID from the Evoq dialog to the dnnsoftware.com License Request form.

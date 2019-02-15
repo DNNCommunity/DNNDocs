@@ -17,15 +17,11 @@ related-topics: configure-user-profile-visibility,configure-user-profile-vanity-
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Site Settings.
+1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Go to the Site Behavior tab, and then the User Profiles subtab.
+2.  Go to the **Site Behavior** tab, and then the **User Profiles** subtab.
     
     ![Site Behavior > User Profiles](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-UserProfiles-E90.png)
     
@@ -37,9 +33,9 @@ related-topics: configure-user-profile-visibility,configure-user-profile-vanity-
     
       
     
-4.  To group the fields into separate tabs in the user profile page, edit the fields and assign the same Property Category for fields that should be together.
+4.  To group the fields into separate tabs in the user profile page, edit the fields and assign the same **Property Category** for fields that should be together.
     
-    The Property Category also becomes the label for the tab.
+    The **Property Category** also becomes the label for the tab.
     
       
     
@@ -47,6 +43,6 @@ related-topics: configure-user-profile-visibility,configure-user-profile-vanity-
     
       
     
-    Fields with the same Property Category are grouped in the same tab in the user's profile page.
+    Fields with the same **Property Category** are grouped in the same tab in the user's profile page.
     
     ![Property Categories in the user profile page](/images/scr-UserProfile-PropertyCategories.png)

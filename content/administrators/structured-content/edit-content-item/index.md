@@ -17,11 +17,11 @@ related-topics: create-content-item,duplicate-content-item,delete-content-item,s
 
 ## Steps
 
-1.  Go to Persona Bar \> Content \> Content Library.
+1.  Go to **Persona Bar \> Content \> Content Library**.
     
     ![Persona Bar > Content > Content Library](/images/scr-pbar-host-Content-E91.png)
     
-2.  Go to the Content tab.
+2.  Go to the **Content** tab.
     
     ![Content](/images/scr-pbtabs-all-Content-ContentLibrary-Content-E91.png)
     
@@ -51,7 +51,7 @@ related-topics: create-content-item,duplicate-content-item,delete-content-item,s
     
       
     
-6.  In the Properties tab, configure the properties of the content item.
+6.  In the **Properties** tab, configure the properties of the content item.
     
       
     
@@ -59,7 +59,7 @@ related-topics: create-content-item,duplicate-content-item,delete-content-item,s
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|    
     |**Content Item Name**|The name used to refer to the content item.|
     |**Tags**|A comma-separated list of tags to associate with the content item. You can also press Enter after typing each tag.|
@@ -73,14 +73,14 @@ related-topics: create-content-item,duplicate-content-item,delete-content-item,s
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---| 
     |**Page Title**|The content item title to use in web browsers and search results.|
     |**Description**|The content item description to use in search engine results and in social media posts when this item is shared.|
     |**Keywords**|Tags to associate with this content item when search engines perform indexing.|
     |**Image for Page**|Image to use when the page is shared in social media.|
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---| 
     |**Close**|Discards changes made in this session.|
     |**Save as Draft**|Saves changes made in this session, then closes the window. The content item is hidden from the public.|

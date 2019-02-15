@@ -17,15 +17,11 @@ related-topics: add-role-to-new-group,add-role-to-existing-group,remove-role-fro
 
 ## Steps
 
-1.  Go to Persona Bar \> Manage \> Roles.
+1.  Go to **Persona Bar \> Manage \> Roles**.
     
     ![Persona Bar > Manage > Roles](/images/scr-pbar-host-Manage-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  From the dropdown in the upper-left, choose the role group you want or All Groups to display all roles.
+2.  From the dropdown in the upper-left, choose the role group you want or **All Groups** to display all roles.
     
       
     

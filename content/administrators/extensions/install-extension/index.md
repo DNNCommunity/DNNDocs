@@ -18,15 +18,11 @@ links: ["[DNN Community blog: Installing Our Module in Another DNN Instance by C
 
 ## Steps
 
-1.  Go to Persona Bar \> Settings \> Extensions.
+1.  Go to **Persona Bar \> Settings \> Extensions**.
     
     ![Persona Bar > Settings > Extensions](/images/scr-pbar-host-Settings-E91.png)
     
-    ➊
-    
-    ➋
-    
-2.  Click/Tap Install Extension.
+2.  Click/Tap **Install Extension**.
     
       
     

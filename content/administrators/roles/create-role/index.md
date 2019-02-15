@@ -17,11 +17,11 @@ related-topics: edit-role,delete-role,assign-users-to-role,edit-date-range-for-r
 
 ## Steps
 
-1.  Go to Persona Bar \> Manage \> Roles.
+1.  Go to **Persona Bar \> Manage \> Roles**.
     
     ![Persona Bar > Manage > Roles](/images/scr-pbar-host-Manage-E91.png)
     
-2.  Click/Tap Create New Role.
+2.  Click/Tap **Create New Role**.
     
       
     
@@ -37,7 +37,7 @@ related-topics: edit-role,delete-role,assign-users-to-role,edit-date-range-for-r
     
       
     
-    |Field|Description|
+    |**Field**|**Description**|
     |---|---|
     |<strong>Public</strong>|If enabled, any registered user can subscribe to this role.|
     |<strong>Role Group</strong>|Note: A role must belong to exactly one group. The \[Global Roles\] group contains all roles that do not belong to a custom group.|

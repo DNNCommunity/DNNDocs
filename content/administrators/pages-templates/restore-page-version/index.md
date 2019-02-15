@@ -20,11 +20,11 @@ related-topics: view-page-versions,compare-page-versions,delete-page-version,pag
 ## Steps
 
 1.  Go to the page to edit.
-2.  Go to Persona Bar \> Edit.
+2.  Go to **Persona Bar \> Edit**.
     
     ![Persona Bar > Edit](/images/scr-pbar-all-Edit-E91.png)
     
-3.  In the Edit Bar, click/tap the Page History icon.
+3.  In the **Edit Bar**, click/tap the **Page History** icon.
     
       
     
