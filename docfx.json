@@ -49,7 +49,7 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": ["default", "templates/dnn-docs"],
-    "postProcessors": [],
+    "postProcessors": ["ExtractSearchIndex"],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
     "keepFileLink": false,
