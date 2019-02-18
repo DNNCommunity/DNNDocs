@@ -112,7 +112,7 @@ The most privileged administrative account with complete access to all websites 
 A type of DNN extension used in themes to provide additional functionality for common UI elements on a webpage. Examples: menu bar, copyright notice, login/registration links, privacy link, terms of service link, and search box. Theme objects are configured by the theme designer.
 
 > [!Tip]
-> [10 Pound Gorilla](http://www.10poundgorilla.com/)'s [Skinning Tool](http://www.10poundgorilla.com/DNN/Skinning-Tool) is both a reference and a tool that customizes the code for DNN theme objects, based on the attribute values you specify.
+> [10 Pound Gorilla](http://www.10poundgorilla.com/)'s [Skinning Tool](http://10poundgorilla.com/DNN-Skinning-Tool) is both a reference and a tool that customizes the code for DNN theme objects, based on the attribute values you specify.
 
 **theme**
 
