@@ -3,7 +3,7 @@ uid: relnotes-2014-jun-26
 topic: relnotes-2014-jun-26
 locale: en
 title: DNN Release Notes — 2014 Jun 26
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 ---
 
@@ -11,7 +11,7 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.3.1
 
-[CodePlex](http://dotnetnuke.codeplex.com/releases/view/123913)
+[CodePlex](https://dotnetnuke.codeplex.com/releases/view/123913)
 
 *   Updated jQuery.RequestRegistration to also include jquery-migrate, which many third-party skins rely on.
 *   Added back missing API methods to preserve binary compatibility.

@@ -7,18 +7,18 @@ dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: developers-about-modules-overview
 related-topics: dnn-manifest-schema,module-features,developers-creating-modules-overview,about-evs
-links: ["[DNN Module APIs](http://www.dnnsoftware.com/dnn-api/)"]
+links: ["[DNN Module APIs](https://www.dnnsoftware.com/dnn-api/)"]
 ---
 
 # Module Architecture
 
 Although every module provides a different set of features and functionality, some architectural elements are common among modules. Most DNN modules are developed using an n-tier architecture. Whether you build a Web Forms module, an MVC module, or a SPA module, you implement most of these layers in your module.
 
-  
+
 
 ![Module architecture](/images/gra-module-architecture.png)
 
-  
+
 
 ## Data Access Layer
 
@@ -49,7 +49,7 @@ Caching is ideal for:
 *   Any data that is expensive to compute and yields the same results for a period of time.
 *   Any data segment that is invariant for a subset of users or for a specific URL.
 
-DNN provides built-in caching with the Cache API. If you use DNN's DAL or DAL+ APIs, implement the [Cache-Aside Pattern](http://msdn.microsoft.com/en-us/library/dn589799.aspx) for optimum performance. You can configure DAL2's built-in caching by using attributes in your code.
+DNN provides built-in caching with the Cache API. If you use DNN's DAL or DAL+ APIs, implement the [Cache-Aside Pattern](https://msdn.microsoft.com/en-us/library/dn589799.aspx) for optimum performance. You can configure DAL2's built-in caching by using attributes in your code.
 
 The Cache API can be extended to use different cache stores. The abstraction provided by the Cache API ensures that modules perform seamlessly, regardless of the caching provider installed by the site administrator.
 
@@ -57,13 +57,13 @@ The Cache API can be extended to use different cache stores. The abstraction pro
 > If a class would be stored in the cache, mark it `[Serializable]` to ensure that it is stored correctly by out-of-process caching providers.
 
 ```
- 
+
     [Serializable]
     public class MyInfoClass
     {
         // Property declarations...
     }
-            
+
 ```
 
 ## Business Logic Layer

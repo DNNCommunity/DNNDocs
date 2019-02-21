@@ -8,7 +8,7 @@ dnnversion: 09.02.00
 parent-topic: designers-creating-themes-overview
 next-topic: create-container
 related-topics: theme-objects,about-themes,create-theme
-links: ["[DNN Wiki: DotNetNuke Skins](http://www.dnnsoftware.com/wiki/dotnetnuke-skins)","[DNN Community Blog: DotNetNuke Skinning 101 (Part 1 and 2) by Joe Brinkman](http://www.dnnsoftware.com/community-blog/cid/132000/dotnetnuke-skinning-101-part-1)","[DNN Professional Training: Creating HTML Skins](http://www.dnnsoftware.com/services/professional-training/training-videos-subscription/skinning-2-creating-html-skins)","[Skinning Tool / Online Reference for DNN Skins & Container Objects by 10 Pound Gorilla](http://www.10poundgorilla.com)"]
+links: ["[DNN Wiki: DotNetNuke Skins](https://www.dnnsoftware.com/wiki/dotnetnuke-skins)","[DNN Community Blog: DotNetNuke Skinning 101 (Part 1 and 2) by Joe Brinkman](https://www.dnnsoftware.com/community-blog/cid/132000/dotnetnuke-skinning-101-part-1)","[DNN Professional Training: Creating HTML Skins](https://www.dnnsoftware.com/services/professional-training/training-videos-subscription/skinning-2-creating-html-skins)","[Skinning Tool / Online Reference for DNN Skins & Container Objects by 10 Pound Gorilla](https://www.10poundgorilla.com)"]
 ---
 
 # Create a Layout Template
@@ -31,33 +31,33 @@ A **layout template** defines where panes are located on the webpage and what ea
 ## Steps
 
 1.  Create a new file for the layout template.
-    
+
     A very basic layout template.
-    
+
     *   HTML
-        
+
         ```
-        
+
             <div id="ContentPane" runat="server"></div>
-                                    
+
         ```
-        
+
     *   ASCX
-        
+
         ```
-        
+
             <!-- <%@ Control language="vb" AutoEventWireup="false" Explicit="True" Inherits="DotNetNuke.UI.Skins.Skin" %> -->
             <div id="ContentPane" runat="server"></div>
-                                    
+
         ```
-        
-    
+
+
     A layout template with several panes, a header, a footer, and a LOGO theme object.
-    
+
     *   HTML
-        
+
         ```
-        
+
             <div id="wrapper">
                 <div id="header">
                     [LOGO]
@@ -75,13 +75,13 @@ A **layout template** defines where panes are located on the webpage and what ea
                 </div>
                 <div id="footer"></div>
             </div>
-                                    
+
         ```
-        
+
     *   ASCX
-        
+
         ```
-        
+
             <%@ Control language="vb" AutoEventWireup="false" Explicit="True" Inherits="DotNetNuke.UI.Skins.Skin" %>
             <%@ Register TagPrefix="dnn" TagName="LOGO" Src="~/Admin/Skins/Logo.ascx" %>
             <div id="wrapper">
@@ -101,37 +101,37 @@ A **layout template** defines where panes are located on the webpage and what ea
                 </div>
                 <div id="footer"></div>
             </div>
-                                    
+
         ```
-        
-    
+
+
 2.  (Optional) Add theme objects to any pane for a more dynamic page.
-    
+
     *   In HTML, you can use the HTML token (example: `[LOGIN]`).
-        
+
         ```
-        
+
             <div id="login_style" class="user">
                 [LOGIN]
             </div>
-                                    
+
         ```
-        
+
     *   In ASCX, you must register the ASCX token (example: `<dnn:Login ...`) before using it for the first time in the file.
-        
+
         ```
-        
+
             <%@ Register TagPrefix="dnn" TagName="Login" Src="~/Admin/Skins/login.ascx" %>
             ...
             <div id="login_style" class="user">
                 <dnn:Login runat="server" id="dnnLogin" CssClass="user" />
             </div>
-                                    
+
         ```
-        
-    
+
+
     The following theme objects are relevant to layout templates:
-    
+
     |**Theme Object**|**Description**|
     |---|---|
     |BREADCRUMB|Displays the path to the current tab (`>` is the default separator). Example: `PageName1 > PageName2 > PageName3`|
@@ -154,6 +154,6 @@ A **layout template** defines where panes are located on the webpage and what ea
     |TEXT|Displays localized text in your theme and supports the use of token replacement.|
     |TREEVIEW|Displays a menu, similar to the Windows Explorer menu, using the **DNN Treeview Control**.|
     |USER|Displays a **Register** link for anonymous users or the user's name for authenticated users.|
-    
+
     > [!TIP]
-    > [10 Pound Gorilla](http://www.10poundgorilla.com/)'s [Theming Tool](http://10poundgorilla.com/DNN-Skinning-Tool) is both a reference and a tool that customizes the code for DNN theme objects, based on the attribute values you specify.
+    > [10 Pound Gorilla](https://www.10poundgorilla.com/)'s [Theming Tool](https://10poundgorilla.com/DNN-Skinning-Tool) is both a reference and a tool that customizes the code for DNN theme objects, based on the attribute values you specify.

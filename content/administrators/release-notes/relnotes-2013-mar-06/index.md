@@ -3,7 +3,7 @@ uid: relnotes-2013-mar-06
 topic: relnotes-2013-mar-06
 locale: en
 title: DNN Release Notes — 2013 Mar 06
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 ---
 
@@ -11,7 +11,7 @@ dnnversion: 09.02.00
 
 ## DOTNETNUKE 7.0.4
 
-[CodePlex](http://dotnetnuke.codeplex.com/releases/view/102566)
+[CodePlex](https://dotnetnuke.codeplex.com/releases/view/102566)
 
 *   Fixed issue that caused message replies to now show in the feed.
 *   Fixed errors in Razor DDR Templates when upgrading to a version higher than 7.0.0.

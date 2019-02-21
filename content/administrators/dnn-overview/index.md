@@ -3,7 +3,7 @@ uid: dnn-overview
 topic: dnn-overview
 locale: en
 title: An Overview of DNN Solutions
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 parent-topic: administrator-references
 related-topics: administrators-included-modules-overview,requirements,product-versions,control-bar-to-persona-bar,persona-bar-by-role,providers,dnn-license,DNN-security,more-resources
@@ -15,7 +15,7 @@ related-topics: administrators-included-modules-overview,requirements,product-ve
 
 DNN offers three primary products:
 
-*   DNN Platform is an open, extensible, secure, and scalable content management system for ASP.NET. Hundreds of thousands of businesses around the world, [from small local businesses to Global 1000 companies](http://www.dnnsoftware.com/solutions/our-customers), depend on the DNN Platform as their website authoring environment.
+*   DNN Platform is an open, extensible, secure, and scalable content management system for ASP.NET. Hundreds of thousands of businesses around the world, [from small local businesses to Global 1000 companies](https://www.dnnsoftware.com/solutions/our-customers), depend on the DNN Platform as their website authoring environment.
 *   DNN Evoq Content includes everything in the DNN Platform, plus additional features to make it easier to publish great content.
 *   DNN Evoq Engage includes everything in the DNN Evoq Content, plus additional features focused on building a community and on social activities.
 
@@ -31,11 +31,11 @@ DNN products are designed around the needs of several personas or organization r
 *   Content Managers curate content and decide where each content asset appears on the website.
 *   Community Managers manage the online community through games and reward systems.
 
-  
+
 
 ![DNN workflow with roles](/images/gra-DNNRoles.png)
 
-  
+
 
 ## Documentation Center
 

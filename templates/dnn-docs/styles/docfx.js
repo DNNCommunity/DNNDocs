@@ -52,7 +52,7 @@ $(function () {
   }
 
   // Styling for tables in conceptual documents using Bootstrap.
-  // See http://getbootstrap.com/css/#tables
+  // See https://getbootstrap.com/css/#tables
   function renderTables() {
     $('table').addClass('table table-bordered table-striped table-condensed').wrap('<div class=\"table-responsive\"></div>');
   }
@@ -645,7 +645,7 @@ $(function () {
     }
 
     function cssEscape(str) {
-      // see: http://stackoverflow.com/questions/2786538/need-to-escape-a-special-character-in-a-jquery-selector-string#answer-2837646
+      // see: https://stackoverflow.com/questions/2786538/need-to-escape-a-special-character-in-a-jquery-selector-string#answer-2837646
       if (!str) return str;
       return str
         .replace(/[!"#$%&'()*+,.\/:;<=>?@[\\\]^`{|}~]/g, "\\$&");
@@ -697,7 +697,7 @@ $(function () {
   function renderLogo() {
     // For LOGO SVG
     // Replace SVG with inline SVG
-    // http://stackoverflow.com/questions/11978995/how-to-change-color-of-svg-image-using-css-jquery-svg-image-replacement
+    // https://stackoverflow.com/questions/11978995/how-to-change-color-of-svg-image-using-css-jquery-svg-image-replacement
     jQuery('img.svg').each(function () {
       var $img = jQuery(this);
       var imgID = $img.attr('id');
@@ -717,7 +717,7 @@ $(function () {
           $svg = $svg.attr('class', imgClass + ' replaced-svg');
         }
 
-        // Remove any invalid XML tags as per http://validator.w3.org
+        // Remove any invalid XML tags as per https://validator.w3.org
         $svg = $svg.removeAttr('xmlns:a');
 
         // Replace image with new SVG

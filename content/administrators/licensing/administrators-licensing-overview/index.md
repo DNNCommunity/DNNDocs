@@ -3,10 +3,10 @@ uid: administrators-licensing-overview
 topic: administrators-licensing-overview
 locale: en
 title: DNN Evoq Licensing
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 parent-topic: administrators-overview
-links: ["[DNN KB: Licensing](http://customers.dnnsoftware.com/KB/c48/licensing.aspx)"]
+links: ["[DNN KB: Licensing](https://customers.dnnsoftware.com/KB/c48/licensing.aspx)"]
 ---
 
 # DNN Evoq Licensing
@@ -29,9 +29,9 @@ To be able to get staging, test, development, or failover licenses, you must hav
 
 You must activate a license for each IIS instance. Example: If you host two websites on a server, you need two licenses and you must activate one license in each website.
 
-By default, each production/staging/test/failover license can be activated only once. For extenuating circumstances (e.g., if your server crashes or a database overwrite corrupts your site's license information), contact [Customer Support](http://www.dnnsoftware.com/services/customer-support) to reactivate your existing license.
+By default, each production/staging/test/failover license can be activated only once. For extenuating circumstances (e.g., if your server crashes or a database overwrite corrupts your site's license information), contact [Customer Support](https://www.dnnsoftware.com/services/customer-support) to reactivate your existing license.
 
-In contrast, a development license can be activated as many times as needed. To request additional activations for an existing development license, contact [Customer Support](http://www.dnnsoftware.com/services/customer-support).
+In contrast, a development license can be activated as many times as needed. To request additional activations for an existing development license, contact [Customer Support](https://www.dnnsoftware.com/services/customer-support).
 
 <div style="background-color:#f8bebe; padding:1em; border:1px solid #006d97;"><strong><span style="color:red;">Important:</span></strong> If switching to a different development server, make sure that the old license is deleted before activating a new license on the new server.</div>
 

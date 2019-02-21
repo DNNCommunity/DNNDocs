@@ -3,7 +3,7 @@ uid: relnotes-2014-jan-21
 topic: relnotes-2014-jan-21
 locale: en
 title: DNN Release Notes — 2014 Jan 21
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 ---
 
@@ -11,7 +11,7 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.2.1
 
-[CodePlex](http://dotnetnuke.codeplex.com/releases/view/117545)
+[CodePlex](https://dotnetnuke.codeplex.com/releases/view/117545)
 
 *   Fixed issue where .dnn7 manifest was not being utilized in module installation process.
 *   Fixed issue where restored user could not change his profile avatar.

@@ -33,7 +33,7 @@ Notes
 
 RadComboBox
 
-Recommended: [Selectize](http://selectize.github.io/selectize.js/), which is a hybrid textbox and selection box.
+Recommended: [Selectize](https://selectize.github.io/selectize.js/), which is a hybrid textbox and selection box.
 
 Also used in advanced search filter options in DNN pages.
 

@@ -7,7 +7,7 @@ dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-extensions-overview
 related-topics: manage-premium-module,allow-module-use,requirements,set-up-dnn
-links: ["[DNN Community blog: Installing Our Module in Another DNN Instance by Clinton Patterson](http://www.dnnsoftware.com/community-blog/cid/155092/installing-our-module-in-another-dnn-instance)","[DNN Forge: 2sxc 8.0.11 — Amazing Content and Apps by 2sxc (installed as an example for screenshots)](http://www.dnnsoftware.com/forge/2sxc-800-amazing-content-and-apps-9733-9733-9733-9733-9733-rating)"]
+links: ["[DNN Community blog: Installing Our Module in Another DNN Instance by Clinton Patterson](https://www.dnnsoftware.com/community-blog/cid/155092/installing-our-module-in-another-dnn-instance)","[DNN Forge: 2sxc 8.0.11 — Amazing Content and Apps by 2sxc (installed as an example for screenshots)](https://www.dnnsoftware.com/forge/2sxc-800-amazing-content-and-apps-9733-9733-9733-9733-9733-rating)"]
 ---
 
 # Install an Extension
@@ -19,54 +19,54 @@ links: ["[DNN Community blog: Installing Our Module in Another DNN Instance by C
 ## Steps
 
 1.  Go to **Persona Bar \> Settings \> Extensions**.
-    
+
     ![Persona Bar > Settings > Extensions](/images/scr-pbar-host-Settings-E91.png)
-    
+
 2.  Click/Tap **Install Extension**.
-    
-      
-    
+
+
+
     ![Install Extension](/images/scr-Extensions-Installed-E90.png)
-    
-      
-    
+
+
+
 3.  Upload the zip file containing the extension package.
-    
-      
-    
+
+
+
     ![Upload the zip file containing the extension package](/images/scr-InstallExtension-upload.gif)
-    
-      
-    
+
+
+
 4.  Informational pages will be displayed one after the other:
-    
-    *   Package Information includes the extension's version and description, as well as information about the creator.  
-        
+
+    *   Package Information includes the extension's version and description, as well as information about the creator.
+
         ![Package Information](/images/scr-InstallExtension-PackageInfo.png)
-        
-          
-        
-    *   Release Notes displays what's new in the current release of the extension.  
-        
+
+
+
+    *   Release Notes displays what's new in the current release of the extension.
+
         ![Release Notes](/images/scr-InstallExtension-ReleaseNotes.png)
-        
-          
-        
-    *   License displays the creator's license terms. Accept the license to continue.  
-        
+
+
+
+    *   License displays the creator's license terms. Accept the license to continue.
+
         ![License](/images/scr-InstallExtension-License.png)
-        
-          
-        
-    *   Package Installation Report displays a log of actions performed by the installation.  
-        
+
+
+
+    *   Package Installation Report displays a log of actions performed by the installation.
+
         ![Package Installation Report](/images/scr-InstallExtension-InstallationReport2.png)
-        
-          
-        
-    
+
+
+
+
 5.  Verify that the newly installed extension appears in the list under the Installed Extensions tab.
-    
-      
-    
+
+
+
     ![New extension appears under Installed Extensions.](/images/scr-InstallExtension-InstallationResult.png)

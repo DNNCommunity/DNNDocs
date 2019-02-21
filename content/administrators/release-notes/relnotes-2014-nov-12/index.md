@@ -3,7 +3,7 @@ uid: relnotes-2014-nov-12
 topic: relnotes-2014-nov-12
 locale: en
 title: DNN Release Notes — 2014 Nov 12
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 ---
 
@@ -11,7 +11,7 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.3.4
 
-[CodePlex](http://dotnetnuke.codeplex.com/releases/view/137325)
+[CodePlex](https://dotnetnuke.codeplex.com/releases/view/137325)
 
 *   Fixed issue where site settings were not updating correctly in multi-language installations.
 *   Fixed issue where partial site templates were not working correctly with child sites.

@@ -3,7 +3,7 @@ uid: relnotes-2013-dec-04
 topic: relnotes-2013-dec-04
 locale: en
 title: DNN Release Notes — 2013 Dec 04
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 ---
 
@@ -11,7 +11,7 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.2.0
 
-[CodePlex](http://dotnetnuke.codeplex.com/releases/view/115680)
+[CodePlex](https://dotnetnuke.codeplex.com/releases/view/115680)
 
 Application features
 

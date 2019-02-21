@@ -7,7 +7,7 @@ dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: developers-overview
 related-topics: pack-extension,create-module-using-templates,use-module-creator,providers
-links: ["[Wikipedia: Single-Page Application](http://en.wikipedia.org/wiki/Single-page_application)","[DNN Wiki: Token Replacement API](http://www.dnnsoftware.com/wiki/ipropertyaccess)","[DNN Wiki: Standard DNN Tokens](http://www.dnnsoftware.com/wiki/tokens)"]
+links: ["[Wikipedia: Single-Page Application](https://en.wikipedia.org/wiki/Single-page_application)","[DNN Wiki: Token Replacement API](https://www.dnnsoftware.com/wiki/ipropertyaccess)","[DNN Wiki: Standard DNN Tokens](https://www.dnnsoftware.com/wiki/tokens)"]
 ---
 
 # SPA Module Development
@@ -24,17 +24,17 @@ The SPA module framework supplements other SPA frameworks, such as AngularJS, Kn
 
 In a SPA module, each HTML file loads the necessary JavaScript and CSS to properly render the UI. SPA modules also make AJAX calls to the business layer through the service layer. This architecture is similar to [the mobile application architecture for Web Forms modules](xref:web-forms-module-development).
 
-  
+
 
 ![Logical architecture of a SPA module](/images/gra-module-architecture-spa.png)
 
-  
+
 
 When a DNN page is requested, the framework looks up the requested module control in the module definition. In an SPA module, the module control identifies a specific HTML file. DNN tokens in the HTML file are replaced with site-specific data before the HTML is injected into the page.
 
 ## Building SPA Modules
 
-You have more development options available when building SPA modules compared to MVC modules. The server-side code can be created in Visual Studio as Web Application Project (WAP) or Web Site Project (WAP) types. (See [Web Application Projects Versus Web Site Projects in Visual Studio](http://msdn.microsoft.com/en-us/library/dd547590%28v=vs.110%29.aspx).) Because the presentation layer is created with plain HTML, JavaScript, and CSS, its components can be built using any code editor.
+You have more development options available when building SPA modules compared to MVC modules. The server-side code can be created in Visual Studio as Web Application Project (WAP) or Web Site Project (WAP) types. (See [Web Application Projects Versus Web Site Projects in Visual Studio](https://msdn.microsoft.com/en-us/library/dd547590%28v=vs.110%29.aspx).) Because the presentation layer is created with plain HTML, JavaScript, and CSS, its components can be built using any code editor.
 
 You can choose to build the SPA module with all presentation layer code in one project and all server-side code in a separate project. This approach makes it easy to use different development tools that are optimized for server-side or client-side development.
 

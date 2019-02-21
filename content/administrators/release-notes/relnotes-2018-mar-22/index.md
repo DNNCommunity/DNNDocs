@@ -3,7 +3,7 @@ uid: relnotes-2018-mar-22
 topic: relnotes-2018-mar-22
 locale: en
 title: DNN Release Notes — 2018 Mar 22
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 ---
 
@@ -16,7 +16,7 @@ Released 2018 Mar 22.
 [GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.0)
 
 ### DNN PROMPT
-DNN Platform comes with a brand new command line interface to perform administrative tasks. Read more about [DNN Prompt here](http://www.dnnsoftware.com/community-blog/cid/155456/previewing-prompt-in-dnnevoq-920). DNN Prompt is extensible as well, meaning you can add your own commands as well. Look out for a future blog on this topic.
+DNN Platform comes with a brand new command line interface to perform administrative tasks. Read more about [DNN Prompt here](https://www.dnnsoftware.com/community-blog/cid/155456/previewing-prompt-in-dnnevoq-920). DNN Prompt is extensible as well, meaning you can add your own commands as well. Look out for a future blog on this topic.
 
 ### UPDATED PAGE MANAGEMENT
 The page management experience has been greatly enhanced using tree view navigation. You can drag & drop !)
@@ -31,9 +31,9 @@ Security Analyzer - Faster initial scan
 ### FRAMEWORK UPDATES
 A number of platform updates were done in this release
 
-* Integration Testing Framework [Blog 1](http://www.dnnsoftware.com/community-blog/cid/155465/dnn-unitintegration-testing--part-1),[Blog 2](http://www.dnnsoftware.com/community-blog/cid/155468/dnn-unitintegration-testing-part-2') and [Blog 3](http://www.dnnsoftware.com/community-blog/cid/155481/dnn-unitintegration-testing-part-3)
-* [Libraries updated to - jQuery 3.2.1, NewtonSoft 10.0.3, Sharpzlib 0.86.0.518, ClientDependency.Core 1.9.3](http://www.dnnsoftware.com/community-blog/cid/155510/jquery-newtonsoft-etc-updated-in-dnn-platform-92)
-* [Removal of deprecated APIs](http://www.dnnsoftware.com/community-blog/cid/155508/dnn-platform-92-removes-over-500-deprecated-apis)
+* Integration Testing Framework [Blog 1](https://www.dnnsoftware.com/community-blog/cid/155465/dnn-unitintegration-testing--part-1),[Blog 2](https://www.dnnsoftware.com/community-blog/cid/155468/dnn-unitintegration-testing-part-2') and [Blog 3](https://www.dnnsoftware.com/community-blog/cid/155481/dnn-unitintegration-testing-part-3)
+* [Libraries updated to - jQuery 3.2.1, NewtonSoft 10.0.3, Sharpzlib 0.86.0.518, ClientDependency.Core 1.9.3](https://www.dnnsoftware.com/community-blog/cid/155510/jquery-newtonsoft-etc-updated-in-dnn-platform-92)
+* [Removal of deprecated APIs](https://www.dnnsoftware.com/community-blog/cid/155508/dnn-platform-92-removes-over-500-deprecated-apis)
 * [Replaced 51 Degrees with local provider](https://dnntracker.atlassian.net/browse/DNN-10284)
 
 ### OVERALL STABLIZATIION

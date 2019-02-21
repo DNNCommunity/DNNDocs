@@ -3,7 +3,7 @@ uid: relnotes-2014-mar-19
 topic: relnotes-2014-mar-19
 locale: en
 title: DNN Release Notes — 2014 Mar 19
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 ---
 
@@ -11,7 +11,7 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.2.2
 
-[CodePlex](http://dotnetnuke.codeplex.com/releases/view/119857)
+[CodePlex](https://dotnetnuke.codeplex.com/releases/view/119857)
 
 *   Fixed issue where Display Name was editable when when a Display Name format was specified.
 *   Fixed issue with Portal Templates and modules that are configured to Display On All Pages.
