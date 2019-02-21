@@ -3,7 +3,7 @@ uid: relnotes-2014-aug-14
 topic: relnotes-2014-aug-14
 locale: en
 title: DNN Release Notes — 2014 Aug 14
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 ---
 
@@ -11,7 +11,7 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.3.2
 
-[CodePlex](http://dotnetnuke.codeplex.com/releases/view/127592)
+[CodePlex](https://dotnetnuke.codeplex.com/releases/view/127592)
 
 *   Fixed backwards compatibility issue with 3rd party control panels.
 *   Fixed issue in the drag and drop functionality of the File Uploader in IE 11 and Safari.

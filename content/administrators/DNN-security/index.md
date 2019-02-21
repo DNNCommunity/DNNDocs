@@ -3,11 +3,11 @@ uid: dnn-security
 topic: DNN-security
 locale: en
 title: DNN Security
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 parent-topic: administrator-references
 related-topics: administrators-included-modules-overview,requirements,product-versions,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,providers,dnn-license,more-resources
-links: ["[DNN Security Center](http://www.dnnsoftware.com/community/security/security-center)","[DNN blog](http://www.dnnsoftware.com/community-blog)"]
+links: ["[DNN Security Center](https://www.dnnsoftware.com/community/security/security-center)","[DNN blog](https://www.dnnsoftware.com/community-blog)"]
 ---
 
 # DNN Security
@@ -33,9 +33,9 @@ Each confirmed issue is assigned a severity level (Critical, Moderate, or Low) b
 
 ## Security Bulletins
 
-The Security Task Force publishes security bulletins in [the DNN blog](http://www.dnnsoftware.com/community-blog), in forum posts, and sometimes by email. Each bulletin includes details about the issue, the affected DNN versions, and suggested fixes or workarounds.
+The Security Task Force publishes security bulletins in [the DNN blog](https://www.dnnsoftware.com/community-blog), in forum posts, and sometimes by email. Each bulletin includes details about the issue, the affected DNN versions, and suggested fixes or workarounds.
 
-[View the full list of known and resolved issues and their bulletins.](http://www.dnnsoftware.com/community/security/security-center)
+[View the full list of known and resolved issues and their bulletins.](https://www.dnnsoftware.com/community/security/security-center)
 
 ## Security Support for Retired Versions
 

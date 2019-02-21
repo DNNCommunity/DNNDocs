@@ -3,7 +3,7 @@ uid: relnotes-2015-may-26
 topic: relnotes-2015-may-26
 locale: en
 title: DNN Release Notes — 2015 May 26
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 ---
 
@@ -11,7 +11,7 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.4.1
 
-[CodePlex](http://dotnetnuke.codeplex.com/releases/view/615317)
+[CodePlex](https://dotnetnuke.codeplex.com/releases/view/615317)
 
 *   Fixed race condition which could cause errors during file upload.
 *   Fixed issue where country profile property can cause registration to fail.

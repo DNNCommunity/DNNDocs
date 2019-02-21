@@ -3,7 +3,7 @@ uid: relnotes-2015-oct-05
 topic: relnotes-2015-oct-05
 locale: en
 title: DNN Release Notes — 2015 Oct 05
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 ---
 
@@ -11,7 +11,7 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.4.2
 
-[CodePlex](http://dotnetnuke.codeplex.com/releases/view/617762)
+[CodePlex](https://dotnetnuke.codeplex.com/releases/view/617762)
 
 *   Added upgrade support from beta release.
 *   Fixed issue with lists in custom registration form.

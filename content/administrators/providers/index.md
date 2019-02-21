@@ -7,7 +7,7 @@ dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrator-references
 related-topics: administrators-included-modules-overview,requirements,product-versions,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,dnn-license,DNN-security,more-resources
-links: ["[DNN Wiki: Providers (and child links)](http://www.dnnsoftware.com/wiki/providers)"]
+links: ["[DNN Wiki: Providers (and child links)](https://www.dnnsoftware.com/wiki/providers)"]
 ---
 
 # Providers Reference
@@ -16,7 +16,7 @@ links: ["[DNN Wiki: Providers (and child links)](http://www.dnnsoftware.com/wiki
 
 Services can be provided by third parties to provide common functionality to websites. In most cases, these services are provided by apps on the server or by modules in DNN.
 
-The DNN Platform includes default providers. In some cases, DNN Evoq includes additional providers. Other third-party providers are also available at the [DNN Store](http://store.dnnsoftware.com) and at [DNN Forge](http://www.dnnsoftware.com/forge).
+The DNN Platform includes default providers. In some cases, DNN Evoq includes additional providers. Other third-party providers are also available at the [DNN Store](https://store.dnnsoftware.com) and at [DNN Forge](https://www.dnnsoftware.com/forge).
 
 In a module, a provider is comprised of two layers:
 
@@ -39,7 +39,7 @@ Default web.config setting:
             <add name="ADSIAuthenticationProvider" type="DotNetNuke.Authentication.ActiveDirectory.ADSI.ADSIProvider, DotNetNuke.Authentication.ActiveDirectory" providerPath="~\Providers\AuthenticationProviders\ADSIProvider\"/>
         </providers>
     </authentication>
-                
+
 ```
 
 An **authentication provider** manages your website user logins using a single sign-on (SSO) provider. An SSO provider installs these UI elements:
@@ -55,7 +55,7 @@ DNN natively provides support for the following SSO providers:
 *   Microsoft Live
 *   Twitter
 
-You can also [create your own](http://www.dnnsoftware.com/community-blog/cid/134678/dotnetnuke-tips-and-tricks-12-creating-your-own-authentication-provider).
+You can also [create your own](https://www.dnnsoftware.com/community-blog/cid/134678/dotnetnuke-tips-and-tricks-12-creating-your-own-authentication-provider).
 
 See [membership provider](#membership-provider) (local authentication), [permissions provider](#permissions-provider), and [roles provider](#roles-provider).
 
@@ -71,7 +71,7 @@ Default web.config setting:
             <add name="FileBasedCachingProvider" type="DotNetNuke.Services.Cache.FBCachingProvider, DotNetNuke" providerPath="~\Providers\CachingProviders\FileBasedCachingProvider\"/>
         </providers>
     </caching>
-                
+
 ```
 
 A **caching provider** ensures that cached settings are synchronized across multiple servers in a web farm.
@@ -96,7 +96,7 @@ Default web.config setting:
             <add name="SqlDataProvider" type="DotNetNuke.Data.SqlDataProvider, DotNetNuke" connectionStringName="SiteSqlServer" upgradeConnectionString="" providerPath="~\Providers\DataProviders\SqlDataProvider\" objectQualifier="" databaseOwner="dbo"/>
         </providers>
     </data>
-                
+
 ```
 
 A **data provider** allows a module to transfer data to and from a data store. To enable upgrades, data provider files include their version numbers in their filenames. During an upgrade, all intervening upgrades that were not previously installed will be installed with the current version.
@@ -109,10 +109,10 @@ Data providers require these web.config settings:
 DNN's default concrete data provider is the SQL Data Provider, which requires these UTF-8 files:
 
 *   xx.xx.xx.sqldataprovider is a script executed during module/core installation/upgrade to modify the objectQualifier and databaseOwner settings. The xx.xx.xx portion of the filename is the script version.
-    
+
     > [!NOTE]
     > DNN 8+ supports incremental scripts.
-    
+
 *   uninstall.sqldataprovider includes all of the module's SQL stored procedures, functions, views, and tables to be removed from the data store when the module is uninstalled. Developers: Always check if an item exists before removing it.
 
 ## Folder provider
@@ -129,7 +129,7 @@ Default web.config setting:
             <add name="DatabaseFolderProvider" type="DotNetNuke.Services.FileSystem.DatabaseFolderProvider, DotNetNuke" />
         </providers>
     </folder>
-                
+
 ```
 
 A **folder provider** enables websites to use multiple storage locations, including third-party cloud storage systems. The root portal directory can also be moved to a different provider.
@@ -156,7 +156,7 @@ A **folder mapping** or **folder type** is an implementation of a folder provide
     2.  Provide a **Settings** control that inherits from the FolderMappingSettingsControlBase class.
     3.  Provide an icon to be displayed in the File Manager.
 
-See [Folder Providers](http://www.dnnsoftware.com/wiki/folder-providers) in the DNN Wiki.
+See [Folder Providers](https://www.dnnsoftware.com/wiki/folder-providers) in the DNN Wiki.
 
 ## Friendly URL provider
 
@@ -170,12 +170,12 @@ Default web.config setting:
             <add name="DNNFriendlyUrl" type="DotNetNuke.Services.Url.FriendlyUrl.DNNFriendlyUrlProvider, DotNetNuke.HttpModules" includePageName="true" regexMatch="[^a-zA-Z0-9 _-]" urlFormat="advanced"/>
         </providers>
     </friendlyUrl>
-                
+
 ```
 
 A friendly URL is a human-friendly and/or search-friendly URL that hides a coded URL. A **friendly URL provider** associates the internal URL (used to retrieve the requested page) with the friendly URL (displayed on the browser's address bar when the page is displayed).
 
-See [Building Friendly URLs](http://www.ifinity.com.au/Blog/EntryId/102/Building-Friendly-Urls-into-DotNetNuke-Modules-ndash-Part-1) in the iFinity blog by [Bruce Chapman](http://www.dnnsoftware.com/users/bruce-chapman).
+See [Building Friendly URLs](https://www.ifinity.com.au/Blog/EntryId/102/Building-Friendly-Urls-into-DotNetNuke-Modules-ndash-Part-1) in the iFinity blog by [Bruce Chapman](https://www.dnnsoftware.com/users/bruce-chapman).
 
 ## HTML editor provider
 
@@ -189,7 +189,7 @@ Default web.config setting:
             <add name="DNNConnect.CKE" type="DNNConnect.CKEditorProvider.CKHtmlEditorProvider, DNNConnect.CKEditorProvider" providerPath="~/Providers/HtmlEditorProviders/DNNConnect.CKE/" settingsControlPath="~/Providers/HtmlEditorProviders/DNNConnect.CKE/Module/EditorConfigManager.ascx" />
         </providers>
     </htmlEditor>
-                
+
 ```
 
 An **HTML editor provider** is used to edit HTML directly within the website.
@@ -206,7 +206,7 @@ Default web.config setting:
             <add name="DBLoggingProvider" type="DotNetNuke.Services.Log.EventLog.DBLoggingProvider, DotNetNuke" providerPath="~\Providers\LoggingProviders\DBLoggingProvider\"/>
         </providers>
     </logging>
-                
+
 ```
 
 A **logging provider** manages error logs, event logs, and security logs in DNN.
@@ -223,7 +223,7 @@ Default web.config setting:
             <add name="AspNetMembershipProvider" type="DotNetNuke.Security.Membership.AspNetMembershipProvider, DotNetNuke" providerPath="~\Providers\MembershipProviders\AspNetMembershipProvider\"/>
         </providers>
     </members>
-                
+
 ```
 
 A **membership provider** manages your website user logins using a local solution. The default membership provider ASP.NET Membership supports the following:
@@ -236,7 +236,7 @@ A **membership provider** manages your website user logins using a local solutio
 
 Unlike authentication providers which provide SSO authentication, the membership provider is a standalone authentication solution that is local to the website or to the DNN installation.
 
-See [authentication provider](#authentication-provider) (SSO authentication), [permissions provider](#permissions-provider), and [roles provider](#roles-provider). Also see the MSDN Library's [Introduction to Membership](http://msdn.microsoft.com/en-us/library/yh26yfzy.aspx) and Engage Weblog's [Building your own Membership Provider](http://www.engagesoftware.com/blog/post/447/building-your-own-membership-provider-for-dotnetnuke-and-asp-net-2-0) by [Henry Kenuam](http://www.dnnsoftware.com/activity-feed/userid/32389).
+See [authentication provider](#authentication-provider) (SSO authentication), [permissions provider](#permissions-provider), and [roles provider](#roles-provider). Also see the MSDN Library's [Introduction to Membership](https://msdn.microsoft.com/en-us/library/yh26yfzy.aspx) and Engage Weblog's [Building your own Membership Provider](https://www.engagesoftware.com/blog/post/447/building-your-own-membership-provider-for-dotnetnuke-and-asp-net-2-0) by [Henry Kenuam](https://www.dnnsoftware.com/activity-feed/userid/32389).
 
 ## Module caching provider
 
@@ -251,7 +251,7 @@ Default web.config setting:
             <add name="MemoryModuleCachingProvider" type="DotNetNuke.Services.ModuleCache.MemoryProvider, DotNetNuke" providerPath="~\Providers\ModuleCachingProviders\MemoryModuleCachingProvider\" />
         </providers>
     </moduleCaching>
-                
+
 ```
 
 A **module caching provider** manages how the output of modules are cached and aged, whether they are stored in a file or in memory.
@@ -270,10 +270,10 @@ Default web.config setting:
             <add name="DDRMenuNavigationProvider" type="DotNetNuke.Web.DDRMenu.DDRMenuNavigationProvider, DotNetNuke.Web.DDRMenu" />
         </providers>
     </navigationControl>
-                
+
 ```
 
-A **navigation provider** supplies a specific type of navigation. [DDRMenu](http://www.dnnsoftware.com/wiki/ddrmenu-user-guide) is the default navigation provider in DNN8.
+A **navigation provider** supplies a specific type of navigation. [DDRMenu](https://www.dnnsoftware.com/wiki/ddrmenu-user-guide) is the default navigation provider in DNN8.
 
 ## Output caching provider
 
@@ -286,7 +286,7 @@ Default web.config setting:
             >clear />
         >/providers>
     >/outputCaching>
-                
+
 ```
 
 An **output caching provider** manages how the entire page is cached and aged.
@@ -305,7 +305,7 @@ Default web.config setting:
             <add name="CorePermissionProvider" type="DotNetNuke.Security.Permissions.CorePermissionProvider, DotNetNuke" providerPath="~\Providers\PermissionProviders\CorePermissionProvider\" />
         </providers>
     </permissions>
-                
+
 ```
 
 A **permissions provider** manages asset permissions, such as those associated with components of the website, including page permissions and module permissions. These permissions are used in conjunction with user permissions (authentication provider or membership provider) and group permissions (roles provider) to determine if a specific user would be allowed to access the asset.
@@ -326,7 +326,7 @@ Default web.config setting:
             <add name="DNNProfileProvider" type="DotNetNuke.Security.Profile.DNNProfileProvider, DotNetNuke" providerPath="~\Providers\MembershipProviders\DNNProfileProvider\"/>
         </providers>
     </profiles>
-                
+
 ```
 
 A **profile provider** manages the profiles of registered users of the website.
@@ -343,7 +343,7 @@ Default web.config setting:
             <add name="DNNRoleProvider" type="DotNetNuke.Security.Roles.DNNRoleProvider, DotNetNuke" providerPath="~\Providers\MembershipProviders\DNNMembershipProvider\"/>
         </providers>
     </roles>
-                
+
 ```
 
 A **roles provider** manages the permissions required for specific roles. This allows the administrator to easily assign/revoke all permissions associated with a role by simply adding/deleting a user or a set of users to/from the role.
@@ -362,14 +362,14 @@ Default web.config setting:
             <add name="DNNScheduler" type="DotNetNuke.Services.Scheduling.DNNScheduler, DotNetNuke" providerPath="~\Providers\SchedulingProviders\DNNScheduler\" debug="false" maxThreads="1" delayAtAppStart="60" />
         </providers>
     </scheduling>
-                
+
 ```
 
 A **scheduling provider** manages when tasks are performed and triggers them automatically at the indicated time.
 
 The DNN Scheduler can be accessed through Host \> Advanced Settings (double-gear tab) \> Schedule.
 
-See [DotNetNuke Scheduling Provider](http://dnnzone.files.wordpress.com/2010/08/dotnetnuke-scheduler.pdf) by [Dan Caron](http://www.dnnsoftware.com/activity-feed/userid/2386).
+See [DotNetNuke Scheduling Provider](https://dnnzone.files.wordpress.com/2010/08/dotnetnuke-scheduler.pdf) by [Dan Caron](https://www.dnnsoftware.com/activity-feed/userid/2386).
 
 ## Search data store provider
 
@@ -383,7 +383,7 @@ Default web.config setting:
             <add name="SearchDataStoreProvider" type="DotNetNuke.Services.Search.SearchDataStore, DotNetNuke" providerPath="~\Providers\SearchProviders\SearchDataStore\"/>
         </providers>
     </searchDataStore>
-                
+
 ```
 
 A **search data store provider** allows you to specify where the search engine should store search results and other search-related data.
@@ -402,7 +402,7 @@ Default web.config setting:
             <add name="ModuleIndexProvider" type="DotNetNuke.Services.Search.ModuleIndexer, DotNetNuke" providerPath="~\Providers\SearchProviders\ModuleIndexer\"/>
         </providers>
     </searchIndex>
-                
+
 ```
 
 A **search index provider** allows you to specify how the website content is indexed and what rules are performed to do searches.
@@ -421,12 +421,12 @@ Default web.config setting:
             <add name="coreSitemapProvider" type="DotNetNuke.Services.Sitemap.CoreSitemapProvider, DotNetNuke" providerPath="~\Providers\MembershipProviders\Sitemap\CoreSitemapProvider\" />
         </providers>
     </sitemap>
-                
+
 ```
 
 A **sitemap provider** creates an XML file that informs web crawlers and users how your website is organized. A module's sitemap exposes the multiple pages generated by the module, such as when a module serves up blog posts, articles, and forum discussions.
 
-If your DNN website's sitemap is requested (http://www.domain.com/Sitemap.aspx), the HTTP handler (set in web.config) runs its ProcessRequest method, which serves up the sitemap.xml file, if it exists. Otherwise, the ProcessRequest method calls BuildSiteMap to create sitemap.xml as follows:
+If your DNN website's sitemap is requested (https://www.domain.com/Sitemap.aspx), the HTTP handler (set in web.config) runs its ProcessRequest method, which serves up the sitemap.xml file, if it exists. Otherwise, the ProcessRequest method calls BuildSiteMap to create sitemap.xml as follows:
 
 1.  Checks the cache settings configured through the **SiteMap** module, which is available under Admin \> Search Engine SiteMap.
 2.  Loops through all sitemap providers to build a collection of URLs.
@@ -437,4 +437,4 @@ DNN Evoq products include additional sitemap providers for these modules:
 *   In DNN Evoq Content: Publisher
 *   In DNN Evoq Engage: Answers, Blogs, Discussions, Ideas, Events, Wiki
 
-See the DNN Wiki's [Creating a Sitemap Provider for Your Module](http://www.dnnsoftware.com/community-blog/cid/131987/creating-a-sitemap-provider-for-your-module) by Chris Paterra.
+See the DNN Wiki's [Creating a Sitemap Provider for Your Module](https://www.dnnsoftware.com/community-blog/cid/131987/creating-a-sitemap-provider-for-your-module) by Chris Paterra.

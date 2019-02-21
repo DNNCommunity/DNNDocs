@@ -7,7 +7,7 @@ dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: developers-overview
 related-topics: pack-extension,create-module-using-templates,use-module-creator,providers
-links: ["[Wikipedia: Model-View-Controller](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)"]
+links: ["[Wikipedia: Model-View-Controller](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)"]
 ---
 
 # MVC Module Development
@@ -27,11 +27,11 @@ The MVC module type implements the model-view-controller pattern, which separate
 
 *   **Models** implement the domain logic and often store and retrieve data from the database.
 *   **Views** render the module's user interface (UI). Typically, views are created based on data provided by the model.
-    
+
     ```
-     
+
         @model IEnumerable<Dnn.Modules.DnnMvcModule.Models.Item>
-    
+
         <div id="Items-@Dnn.ModuleContext.ModuleId">
             @if (Model.Count() == 0)
             {
@@ -59,21 +59,21 @@ The MVC module type implements the model-view-controller pattern, which separate
                 </ul>
             }
         </div>
-                        
+
     ```
-    
+
 *   **Controllers** handle user interaction, retrieve and update the model, and select the view to use.
-    
+
     Although the composition of the presentation layer is different, the logical architecture of an MVC module is similar to that of a Web Forms module.
-    
-      
-    
+
+
+
     ![Logical architecture of an MVC module](/images/gra-module-architecture-mvc.png)
-    
-      
-    
+
+
+
     When a DNN page is requested, the framework looks up the requested module control in the module definition. In an MVC module, the module control identifies a specific namespace, controller, and action. The output from the controller action is stored in a string, which is injected into the page.
-    
+
 
 ## Building MVC modules
 
@@ -82,16 +82,16 @@ Visual Studio supports only one project type for MVC projects. However, the Visu
 > [!Note]
 > Visual Studio is currently the only tool available for creating MVC modules.
 
-The ASP.NET MVC framework relies on the [convention over configuration](http://en.wikipedia.org/wiki/Convention_over_configuration) paradigm to simplify development. DNN modules follow all ASP.NET MVC conventions, as well as DNN-specific conventions. MVC module conventions include:
+The ASP.NET MVC framework relies on the [convention over configuration](https://en.wikipedia.org/wiki/Convention_over_configuration) paradigm to simplify development. DNN modules follow all ASP.NET MVC conventions, as well as DNN-specific conventions. MVC module conventions include:
 
 *   File name conventions
-    
+
     |**File Type**|**Convention**|
     |---|---|
     |Controller|Name must include the "controller" suffix.|
     |Default View|Name must be the same as the associated action. Example: The default view for an **index** action must be named **index.cshtml**.|
     |Shared layout|Name must be prefixed with an underscore (_).|
-    
+
 *   File location conventions
 
     |**File Type**|**Convention**|
@@ -103,7 +103,7 @@ The ASP.NET MVC framework relies on the [convention over configuration](http://e
     |Model|The **Models** folder (optional)|
     |Static content file (e.g., stylesheets and images)|The **Content** folder|
     |JavaScript file|The **Scripts** folder|
-    
+
 *   Miscellaneous conventions
     *   Bound HTML form fields must have the same name as the corresponding model property.
 

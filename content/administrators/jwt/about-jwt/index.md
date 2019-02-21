@@ -6,7 +6,7 @@ title: About JWT Authentication
 dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: setup-jwt-for-auth,jwt-user-credentials,jwt-server-response,jwt-access-token,jwt-page-request,jwt-auth-handler
-links: ["[IETF RFC 7519](https://tools.ietf.org/html/rfc7519)","[DNN Presentation: How Evoq Helps You Build Modern Web Applications by Will Morgenweck](http://www.slideshare.net/dnnsoftware/how-evoq-helps-you-build-modern-web-applications)","[jwt.io](https://jwt.io/introduction/)","[Unix time](https://en.wikipedia.org/wiki/Unix_time)"]
+links: ["[IETF RFC 7519](https://tools.ietf.org/html/rfc7519)","[DNN Presentation: How Evoq Helps You Build Modern Web Applications by Will Morgenweck](https://www.slideshare.net/dnnsoftware/how-evoq-helps-you-build-modern-web-applications)","[jwt.io](https://jwt.io/introduction/)","[Unix time](https://en.wikipedia.org/wiki/Unix_time)"]
 ---
 
 # About JWT Authentication
@@ -27,11 +27,11 @@ JWT is ideal for applications that can not or do not want to use cookies, such a
 
 Note: The JWT Authentication Provider is available in DNN products; however, it must be installed and enabled separately. DNN uses JWT for authentication only.
 
-  
+
 
 ![JWT process](/images/gra-JWTprocess.png)
 
-  
+
 
 1.  The user logs in with their username and password or other security credentials. The browser or the client app sends a POST request with the user credentials, which are sent over an HTTPS connection.
 2.  The user's credentials are checked against the login database. If valid, the server creates and encrypts an access JWT, which is stored in the body of the response.

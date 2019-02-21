@@ -7,7 +7,7 @@ dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-licensing-overview
 related-topics: activate-license-automatically,activate-license-manually,troubleshooting-licensing
-links: ["[DNN KB: Licensing](http://customers.dnnsoftware.com/KB/c48/licensing.aspx)"]
+links: ["[DNN KB: Licensing](https://customers.dnnsoftware.com/KB/c48/licensing.aspx)"]
 ---
 
 # FAQ: Licensing
@@ -26,7 +26,7 @@ Go to Host \> Advanced Settings (double-gear tab) \> License Management, and the
 
 How do I recover a production license that was inadvertently activated in a local development environment?
 
-Please contact [Customer Support](http://www.dnnsoftware.com/services/customer-support).
+Please contact [Customer Support](https://www.dnnsoftware.com/services/customer-support).
 
 How do I delete an activated development license in my local server?
 

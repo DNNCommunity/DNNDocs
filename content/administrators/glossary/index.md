@@ -6,7 +6,7 @@ title: Glossary
 dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-overview
-links: ["[DNN Wiki: DNN Glossary](http://www.dnnsoftware.com/wiki/dotnetnuke-glossary)","[DNN Wiki: Globalization Glossary](http://www.dnnsoftware.com/wiki/international-glossary)"]
+links: ["[DNN Wiki: DNN Glossary](https://www.dnnsoftware.com/wiki/dotnetnuke-glossary)","[DNN Wiki: Globalization Glossary](https://www.dnnsoftware.com/wiki/international-glossary)"]
 ---
 
 # Glossary
@@ -45,11 +45,11 @@ A combination of themes, modules, or other components that replace or extend spe
 
 **Forge**
 
-The [list of open-source extensions](http://www.dnnsoftware.com/forge) (including modules and themes) from the DNN community.
+The [list of open-source extensions](https://www.dnnsoftware.com/forge) (including modules and themes) from the DNN community.
 
 **friendly URL**
 
-A URL that hides a coded path. Example: http://www.example.com/myanswerpage might actually resolve to http://www.example.com/default.aspx?tabid=42. DNN provides three modes of friendly URLs:
+A URL that hides a coded path. Example: https://www.example.com/myanswerpage might actually resolve to https://www.example.com/default.aspx?tabid=42. DNN provides three modes of friendly URLs:
 
 *   **Advanced** provides both human-friendly and search-friendly URLs.
 *   **HumanFriendly** uses simple URLs for page names and uses `tabid` in more complicated URLs. Limited redirect support.
@@ -85,7 +85,7 @@ A layout template area that holds a module. Theme designers determine the names 
 
 **portal alias**
 
-A URL that refers to a specific website in a DNN installation. Examples: `http://www.example.com` (parent portal alias), `http://www.example.com/pathname` (child portal alias). Each website can have one or more portal aliases.
+A URL that refers to a specific website in a DNN installation. Examples: `https://www.example.com` (parent portal alias), `https://www.example.com/pathname` (child portal alias). Each website can have one or more portal aliases.
 
 **premium**
 
@@ -112,7 +112,7 @@ The most privileged administrative account with complete access to all websites 
 A type of DNN extension used in themes to provide additional functionality for common UI elements on a webpage. Examples: menu bar, copyright notice, login/registration links, privacy link, terms of service link, and search box. Theme objects are configured by the theme designer.
 
 > [!Tip]
-> [10 Pound Gorilla](http://www.10poundgorilla.com/)'s [Skinning Tool](http://10poundgorilla.com/DNN-Skinning-Tool) is both a reference and a tool that customizes the code for DNN theme objects, based on the attribute values you specify.
+> [10 Pound Gorilla](https://www.10poundgorilla.com/)'s [Skinning Tool](https://10poundgorilla.com/DNN-Skinning-Tool) is both a reference and a tool that customizes the code for DNN theme objects, based on the attribute values you specify.
 
 **theme**
 

@@ -3,7 +3,7 @@ uid: relnotes-2013-jul-09
 topic: relnotes-2013-jul-09
 locale: en
 title: DNN Release Notes — 2013 Jul 09
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 ---
 
@@ -11,7 +11,7 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.1.0
 
-[CodePlex](http://dotnetnuke.codeplex.com/releases/view/108560)
+[CodePlex](https://dotnetnuke.codeplex.com/releases/view/108560)
 
 *   Implemented functionality so that users are able to assign custom CSS to pages without modifying the skin.
 *   Updated to JQuery 1.9.1.
@@ -27,7 +27,7 @@ dnnversion: 09.02.00
 
 ## DOTNETNUKE PLATFORM 6.2.8
 
-[CodePlex](http://dotnetnuke.codeplex.com/releases/view/108860)
+[CodePlex](https://dotnetnuke.codeplex.com/releases/view/108860)
 
 *   Fixed issue where the application throws an Unhandled Error and an HTTP Response Code of 200 when the connection to the database is lost.
 

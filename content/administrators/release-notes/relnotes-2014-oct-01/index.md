@@ -3,7 +3,7 @@ uid: relnotes-2014-oct-01
 topic: relnotes-2014-oct-01
 locale: en
 title: DNN Release Notes — 2014 Oct 01
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 ---
 
@@ -11,7 +11,7 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.3.3
 
-[CodePlex](http://dotnetnuke.codeplex.com/releases/view/134695)
+[CodePlex](https://dotnetnuke.codeplex.com/releases/view/134695)
 
 *   Enhanced DDR Menu to allow menus to be filtered by page tags.
 *   Enhanced messaging system to support additional tokens.

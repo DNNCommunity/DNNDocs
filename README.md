@@ -15,14 +15,14 @@ If you are on MacOS you can install it with _Homebrew_ `brew install docfx`
 Or you can download and unzip `docfx.zip` from [GitHub](https://github.com/dotnet/docfx/releases), extract it to a folder and then set your `PATH` to that folder so you can run it anywhere.
 
 ## Setting Up the DNN Docs Project
-After installing DocFX, the next step is to clone this repo.  'Cloning the repo' will simply create a copy of the repo (files and folders) on your local machine so that you can work with them. 
+After installing DocFX, the next step is to clone this repo.  'Cloning the repo' will simply create a copy of the repo (files and folders) on your local machine so that you can work with them.
 
-Note the following example command clones the repo to the location of `c:\dev`. Update the `c:\dev` location to your location of choice on your machine. 
+Note the following example command clones the repo to the location of `c:\dev`. Update the `c:\dev` location to your location of choice on your machine.
 ```
 c:\dev> git clone https://github.com/DNNCommunity/DNNDocs.git
 ```
 
-The previous command will have created a folder called `DNNDocs` in the `c:\dev` folder. Navigate to that directory by using the cd (Change Directory) command. `cd` into the `DNNDocs` folder. 
+The previous command will have created a folder called `DNNDocs` in the `c:\dev` folder. Navigate to that directory by using the cd (Change Directory) command. `cd` into the `DNNDocs` folder.
 ```
 c:\dev> cd DNNDocs
 ```
@@ -43,7 +43,7 @@ docfx --serve
 
 The first time, the compilation process could take quite a while. You may see a couple of warning messages. Eventually, you should see a message similar to:
 ```
-Serving "C:\dev\DNNDocs\_site" on http://localhost:8080
+Serving "C:\dev\DNNDocs\_site" on https://localhost:8080
 ```
 
 Open that page up in your browser to see the documentation.

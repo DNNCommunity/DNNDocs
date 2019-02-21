@@ -3,7 +3,7 @@ uid: relnotes-2013-feb-06
 topic: relnotes-2013-feb-06
 locale: en
 title: DNN Release Notes — 2013 Feb 06
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 ---
 
@@ -11,7 +11,7 @@ dnnversion: 09.02.00
 
 ## DOTNETNUKE 7.0.3
 
-[CodePlex](http://dotnetnuke.codeplex.com/releases/view/101046)
+[CodePlex](https://dotnetnuke.codeplex.com/releases/view/101046)
 
 *   Fixed issue that prevented non admins and non hosts to save HTML content as a template.
 *   Fixed potential endless loop when using the device redirection on a new site.
