@@ -9,7 +9,7 @@ parent-topic: designers-creating-themes-overview
 previous-topic: create-container
 next-topic: create-doctype-xml
 related-topics: about-themes
-links: ["[W3C specifications on cascading and inheritance](https://www.w3.org/TR/CSS21/cascade.html)","[DNN Wiki: DotNetNuke Skins](https://www.dnnsoftware.com/wiki/dotnetnuke-skins)","[DNN Professional Training: Creating HTML Skins](https://www.dnnsoftware.com/services/professional-training/training-videos-subscription/skinning-2-creating-html-skins)"]
+links: ["[W3C specifications on cascading and inheritance](https://www.w3.org/TR/css3-cascade/)","[DNN Wiki: DotNetNuke Skins](https://www.dnnsoftware.com/wiki/dotnetnuke-skins)","[DNN Professional Training: Creating HTML Skins](https://www.dnnsoftware.com/services/professional-training/training-videos-subscription/skinning-2-creating-html-skins)"]
 ---
 
 # Create a CSS File

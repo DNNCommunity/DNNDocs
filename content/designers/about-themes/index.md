@@ -71,7 +71,5 @@ DNN supports two different types of themes: HTML and ASCX.
 |Automatically converted to ASCX when installed. Only the contents inside the `<body>` tag is retained (without the tag); everything else is discarded, including the entire `<header>`.|Used as is.|
 |Easier to create.<br />Uses DNN tokens, which represent code that call DNN APIs. The tokens are replaced with code during conversion to ASCX.|More powerful.<br />Allows customization of code that call DNN APIs.|
 
-Thousands of third-party modules and themes are available from these sources:
+Thousands of third-party modules and themes are available from the [DNN Store](https://store.dnnsoftware.com). There are extensions for sale, including versions that include the source code, as well as some free extension.
 
-*   [DNN Store](https://store.dnnsoftware.com): Extensions for sale. Some developers provide versions that include the source code.
-*   [DNN Forge](https://www.DNNSoftware.com/Forge): Open source and free extensions.

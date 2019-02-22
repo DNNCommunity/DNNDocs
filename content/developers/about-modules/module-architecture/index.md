@@ -49,7 +49,7 @@ Caching is ideal for:
 *   Any data that is expensive to compute and yields the same results for a period of time.
 *   Any data segment that is invariant for a subset of users or for a specific URL.
 
-DNN provides built-in caching with the Cache API. If you use DNN's DAL or DAL+ APIs, implement the [Cache-Aside Pattern](https://msdn.microsoft.com/en-us/library/dn589799.aspx) for optimum performance. You can configure DAL2's built-in caching by using attributes in your code.
+DNN provides built-in caching with the Cache API. If you use DNN's DAL or DAL+ APIs, implement the [Cache-Aside Pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/cache-aside) for optimum performance. You can configure DAL2's built-in caching by using attributes in your code.
 
 The Cache API can be extended to use different cache stores. The abstraction provided by the Cache API ensures that modules perform seamlessly, regardless of the caching provider installed by the site administrator.
 

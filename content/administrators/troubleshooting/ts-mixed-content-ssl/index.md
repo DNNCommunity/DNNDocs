@@ -29,7 +29,7 @@ A secured page (HTTPS) contains unsecured links (HTTP) to some resources (images
 1.  Configure the SSL Offload Header Value as required by your load balancers.
 
     Examples:
-    *   [Citrix supports custom headers and recommends using SSL_REQUEST.](https://support.citrix.com/article/CTX118518)
+    *   [Citrix supports custom headers and recommends using SSL_REQUEST.](https://docs.citrix.com/en-us/netscaler/12/ssl/config-ssloffloading.html)
     *   [Weblogic uses a fixed header of WL-Proxy-SSL.](https://fusionsecurity.blogspot.com/2011/04/ssl-offloading-and-weblogic-server.html)
     *   BigIP/F5 supports custom headers via their iRule rewrite function.
 2.  Go to the page to edit.
