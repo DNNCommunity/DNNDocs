@@ -7,7 +7,7 @@ dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-extensions-overview
 related-topics: manage-premium-module,allow-module-use,requirements,set-up-dnn
-links: ["[DNN Community blog: Installing Our Module in Another DNN Instance by Clinton Patterson](https://www.dnnsoftware.com/community-blog/cid/155092/installing-our-module-in-another-dnn-instance)","[DNN Forge: 2sxc 8.0.11 — Amazing Content and Apps by 2sxc (installed as an example for screenshots)](https://www.dnnsoftware.com/forge/2sxc-800-amazing-content-and-apps-9733-9733-9733-9733-9733-rating)"]
+links: ["[DNN Community blog: Installing Our Module in Another DNN Instance by Clinton Patterson](https://www.dnnsoftware.com/community-blog/cid/155092/installing-our-module-in-another-dnn-instance)","[DNN Store: 2sxc 8.12 — Amazing Content and Apps by 2sxc (installed as an example for screenshots)](https://store.dnnsoftware.com/home/product-details/2sxc-cms-apps-v812-free)"]
 ---
 
 # Install an Extension

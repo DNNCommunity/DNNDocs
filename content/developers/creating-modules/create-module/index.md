@@ -19,10 +19,7 @@ You can produce a module in different ways:
     *   [Chris Hammond's DotNetNuke Module and Theme Development Templates](https://github.com/ChrisHammond/DNNTemplates/) ([Installation instructions](https://www.chrishammond.com/blog/itemid/2616/using-the-new-module-development-templates-for-dot/))
 *   Customize a pre-existing module.
 
-    Thousands of third-party modules and themes are available from these sources:
-
-    *   [DNN Store](https://store.dnnsoftware.com): Extensions for sale. Some developers provide versions that include the source code.
-    *   [DNN Forge](https://www.DNNSoftware.com/Forge): Open source and free extensions.
+    Thousands of third-party modules and themes are available from the [DNN Store](https://store.dnnsoftware.com). There are extensions for sale, including versions that include the source code, as well as some free extension.
 
 
 You can also use different programming frameworks (Web Forms, MVC, SPA) and languages (C#, VB) to create your module.

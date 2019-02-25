@@ -17,7 +17,7 @@ DNN offers three products:
 *   Evoq Content adds more advanced website management features over the DNN Platform.
 *   Evoq Engage adds user engagement features over Evoq Content.
 
-You can [compare the features](https://www.dnnsoftware.com/products/compare-dnn-platform-to-evoq) in detail.
+You can [compare the features](https://www.dnnsoftware.com/compare-dnn) in detail.
 
 ## Requirements
 

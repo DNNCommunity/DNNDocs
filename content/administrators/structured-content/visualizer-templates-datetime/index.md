@@ -7,7 +7,7 @@ dnneditions: Evoq Engage
 dnnversion: 09.02.00
 parent-topic: visualizer-templates
 related-topics: visualizer-templates-basics,visualizer-templates-filters
-links: ["[MSDN Custom Date and Time Format Strings](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)"]
+links: ["[MSDN Custom Date and Time Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings)"]
 ---
 
 # Visualizer Templates: Date / Time

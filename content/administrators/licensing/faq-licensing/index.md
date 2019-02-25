@@ -7,7 +7,7 @@ dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-licensing-overview
 related-topics: activate-license-automatically,activate-license-manually,troubleshooting-licensing
-links: ["[DNN KB: Licensing](https://customers.dnnsoftware.com/KB/c48/licensing.aspx)"]
+links: ["[DNN Evoq Licensing](https://dnnsupport.dnnsoftware.com/hc/en-us/articles/360004881714-DNN-Evoq-Licensing)"]
 ---
 
 # FAQ: Licensing

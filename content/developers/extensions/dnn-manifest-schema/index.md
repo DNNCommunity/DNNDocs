@@ -7,7 +7,7 @@ dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: developers-about-modules-overview
 related-topics: pack-extension,module-features,module-architecture,developers-creating-modules-overview,about-evs
-links: ["[DNN Module APIs](https://www.dnnsoftware.com/dnn-api/)","[Top 5 DotNetNuke Manifest file Module Packaging Tips by Bruce Chapman](https://www.ifinity.com.au/Blog/EntryId/89/5-DotNetNuke-Manifest-file-Module-Packaging-Tips)","[DNN Community blog: DAL 2 — A New DotNetNuke Data Layer for a New Decade by Charles Nurse](https://www.dnnsoftware.com/community-blog/cid/142201/dal-2-a-new-dotnetnuke-data-layer-for-a-new-decade)","[DNN Wiki: Manifests](https://www.dnnsoftware.com/wiki/manifests)","[DNN Community blog: The New Extension Installer Manifest — Part 1, Introduction by Charles Nurse](https://www.dnnsoftware.com/community-blog/cid/135060/the-new-extension-installer-manifest-part-1-introduction)"]
+links: ["[DNN Module APIs](https://www.dnnsoftware.com/dnn-api/)","[Top 5 DotNetNuke Manifest file Module Packaging Tips by Bruce Chapman](https://web.archive.org/web/20160610221847/http://www.ifinity.com.au/Blog/EntryId/89/Top-5-DotNetNuke-Manifest-file-Module-Packaging-Tips)","[DNN Community blog: DAL 2 — A New DotNetNuke Data Layer for a New Decade by Charles Nurse](https://www.dnnsoftware.com/community-blog/cid/142201/dal-2-a-new-dotnetnuke-data-layer-for-a-new-decade)","[DNN Wiki: Manifests](https://www.dnnsoftware.com/wiki/manifests)","[DNN Community blog: The New Extension Installer Manifest — Part 1, Introduction by Charles Nurse](https://www.dnnsoftware.com/community-blog/cid/135060/the-new-extension-installer-manifest-part-1-introduction)"]
 ---
 
 # The DNN Manifest Schema
@@ -189,7 +189,7 @@ Dependencies can be any of these types (case-insensitive):
 
     ```
 
-    Tip: [Fully qualify](https://msdn.microsoft.com/en-us/library/yfsftwz6(v=vs.110).aspx) a type if it is not in the App_Code folder to avoid conflicts with similarly named types from multiple sources.
+    Tip: [Fully qualify](https://docs.microsoft.com/en-us/dotnet/framework/reflection-and-codedom/specifying-fully-qualified-type-names) a type if it is not in the App_Code folder to avoid conflicts with similarly named types from multiple sources.
 
 *   Any custom dependency type included in the Dependency list. DNN can be extended by creating custom dependency types, which inherit from DotNetNuke.Services.Installer.Dependencies.DependencyBase and must be included in the Dependency list (Host \> Lists). Example:
 
@@ -460,7 +460,7 @@ Some component types are applicable only to the package type of the same name; g
 
     ```
 
-    For the list of supported language codes, see the .NET [CultureInfo](https://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo(VS.80).aspx) class.
+    For the list of supported language codes, see the .NET [CultureInfo](https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo) class.
 
 *   [`ExtensionLanguage`](https://www.dnnsoftware.com/wiki/manifest-extensionlanguage-component). Language pack files required to localize a DNN extension for a specific culture.
 
@@ -482,7 +482,7 @@ Some component types are applicable only to the package type of the same name; g
 
     ```
 
-    For the list of supported language codes, see the .NET [CultureInfo](https://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo(VS.80).aspx) class.
+    For the list of supported language codes, see the .NET [CultureInfo](https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo) class.
 
 *   [`Module`](https://www.dnnsoftware.com/wiki/module-component). Only one component with `type="Module"` is allowed within a `package` section. To install a set of modules as a unit, create one `package` section per module in the same manifest.
 
@@ -643,5 +643,3 @@ Some component types are applicable only to the package type of the same name; g
 
     ```
 
-
-Right-click on the link to download a sample theme manifest: [Sample Manifest File](https://www.Google.com).

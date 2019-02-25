@@ -81,7 +81,7 @@ related-topics: add-module-to-page-pb-all,add-content-to-page-quickly-pb-all,del
 |**Display Container**|If checked, displays the container of the module.|
 |**Allow Print**|If checked, the contents of the module can be printed.|
 |**Allow Syndicate**|If checked, RSS is enabled on the module.|
-|**Is a WebSlice**|If checked, the module is converted into a Web Slice, which is a portion of a web page that can be subscribed to for updates. Introduced in Internet Explorer 8. [See the FAQ about Web Slices at Microsoft.com.](https://windows.microsoft.com/en-us/windows/web-slices-faq#1TC=windows-7)|
+|**Is a WebSlice**|If checked, the module is converted into a Web Slice, which is a portion of a web page that can be subscribed to for updates. Introduced in Internet Explorer 8. [See the FAQ about Web Slices at Microsoft.com.](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/cc956158(v=vs.85))|
 |**Web Slice Title**|A name for the Web Slice.|
 |**Web Slice Expires**|If blank, the Web Slice expires at the same time as the module.|
 |**Web Slice TTL**|Time to live (TTL), in minutes. If blank, this value is the same as the module's time in cache (in minutes).|

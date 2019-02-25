@@ -43,10 +43,6 @@ An unlimited lifetime cumulative score based on the activities of the user on th
 
 A combination of themes, modules, or other components that replace or extend specific features of the DNN Platform.
 
-**Forge**
-
-The [list of open-source extensions](https://www.dnnsoftware.com/forge) (including modules and themes) from the DNN community.
-
 **friendly URL**
 
 A URL that hides a coded path. Example: https://www.example.com/myanswerpage might actually resolve to https://www.example.com/default.aspx?tabid=42. DNN provides three modes of friendly URLs:

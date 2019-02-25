@@ -45,7 +45,7 @@ WSP projects do not have a project file (.csproj or .vbproj). Instead, they rely
 
 Modules built using the WAP project type are compiled at development time and do not require you to include the source code with your module. WAP projects have a project file and are created as standalone projects.
 
-Note: Microsoft recommends the WAP project type for ASP.NET development. (See [Web Application Projects Versus Web Site Projects in Visual Studio](https://msdn.microsoft.com/en-us/library/dd547590%28v=vs.110%29.aspx).)
+Note: Microsoft recommends the WAP project type for ASP.NET development. (See [Web Application Projects Versus Web Site Projects in Visual Studio](https://docs.microsoft.com/en-us/previous-versions/aspnet/dd547590(v=vs.110)).)
 
 Although Visual Studio is recommended for module development, you can create modules using standard text editors or the included DNN Module Creator. However, these tools do not provide .NET compiler support; therefore, they are more suited for developing WSP-based modules.
 

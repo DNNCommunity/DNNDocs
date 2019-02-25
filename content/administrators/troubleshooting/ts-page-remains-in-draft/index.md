@@ -26,13 +26,13 @@ Another user made a change that conflicts with your changes.
 3.  Publish the page through SQL.
     1.  Go to Persona Bar \> Settings \> SQL Console.
     2.  Run the following SQL script:
-        
+
         ```
-        
+
         DECLARE @PageName VARCHAR(250);
-        
+
         SET @PageName = 'Home';
-        
+
         UPDATE TabVersions
         SET IsPublished = 1
         WHERE TabID = (
@@ -41,10 +41,10 @@ Another user made a change that conflicts with your changes.
         		WHERE TabName LIKE @PageName
         		)
         	AND IsPublished = 0;
-                                            
+
         ```
-        
+
         where @PageName is the name of the page you are editing; e.g., 'Home'.
-        
+
 4.  [Clear the server cache.](xref:clear-cache)
-5.  [Recycle the application pool](https://technet.microsoft.com/en-us/library/cc770764(v=ws.10).aspx) to allow the changes to take effect.
+5.  [Recycle the application pool](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770764(v%3dws.10)) to allow the changes to take effect.
