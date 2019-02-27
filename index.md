@@ -1,20 +1,6 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <style type="text/css">
-    body.homepage::after {
-        content: "";
-        display: block;
-        position: fixed;
-        z-index: -1;
-        width: 100%;
-        height: 100%;
-        background-image: url(images/hero-background-15.jpg);
-        background-size: cover;
-        opacity: 0.1;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-    }
+    
     .homepage .hlead {
         border-bottom: 1px solid #00a4e44d;
         padding-bottom: 10px;
