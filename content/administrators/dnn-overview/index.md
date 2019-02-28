@@ -23,13 +23,13 @@ DNN offers three primary products:
 
 DNN products are designed around the needs of several personas or organization roles involved in publishing a website.
 
-*   Superusers (also known as hosts) manage the web servers and the DNN installation, which could support multiple websites. Superusers have full access to all websites in the DNN installation and are essentially site admins for all the sites.
-*   Site administrators manage an individual website (formerly portal). Site administrators have access only within their assigned website(s).
-*   Developers extend the functionality of DNN products by using the DNN APIs to build third-party add-on modules, which can be installed into the system.
-*   Designers provide a wide variety of themes (formerly skins) that change the appearance of the websites.
-*   Content Editors or Content Creators provide the content assets or components that are displayed on the website.
-*   Content Managers curate content and decide where each content asset appears on the website.
-*   Community Managers manage the online community through games and reward systems.
+*   **Superusers** (also known as hosts) manage the web servers and the DNN installation, which could support multiple websites. Superusers have full access to all websites in the DNN installation and are essentially site admins for all the sites.
+*   **Site administrators** manage an individual website (formerly portal). Site administrators have access only within their assigned website(s).
+*   **Developers** extend the functionality of DNN products by using the DNN APIs to build third-party add-on modules, which can be installed into the system.
+*   **Designers** provide a wide variety of themes (formerly skins) that change the appearance of the websites.
+*   **Content Editors** or **Content Creators** provide the content assets or components that are displayed on the website.
+*   **Content Managers** curate content and decide where each content asset appears on the website.
+*   **Community Managers** manage the online community through games and reward systems.
 
 
 
@@ -41,8 +41,8 @@ DNN products are designed around the needs of several personas or organization r
 
 The DNN Documentation Center is organized based on these persona groups:
 
-*   Administrators includes superusers and site administrators.
-*   Developers
-*   Designers
-*   Content Managers includes content managers, editors, and creators.
-*   Community Managers
+*   [Administrators](http://dnndocs.com/content/administrators/) includes superusers and site administrators.
+*   [Developers](http://dnndocs.com/content/developers/)
+*   [Designers](http://dnndocs.com/content/designers/)
+*   [Content Managers](http://dnndocs.com/content/content-managers/) includes content managers, editors, and creators.
+*   [Community Managers](http://dnndocs.com/content/community-managers/)
