@@ -3,7 +3,7 @@ uid: relnotes-2016-mar-16
 topic: relnotes-2016-mar-16
 locale: en
 title: DNN Release Notes — 2016 Mar 16
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 ---
 
@@ -11,7 +11,7 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 8.0.1
 
-[CodePlex](http://dotnetnuke.codeplex.com/releases/view/619412)
+[CodePlex](https://dotnetnuke.codeplex.com/releases/view/619412)
 
 *   Critical security update.
 *   See breaking changes in 8.0.0.

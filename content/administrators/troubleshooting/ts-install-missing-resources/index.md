@@ -22,7 +22,7 @@ Some resources failed to install during the upgrade.
 ## Solution
 
 1.  Back up the site and the database.
-2.  In a browser, go to http://<yourdomain>/install/install.aspx?mode=installresources.
+2.  In a browser, go to https://<yourdomain>/install/install.aspx?mode=installresources.
 3.  Wait for the resource installation process to complete.
 4.  After the process completes, click the View Site button.
 5.  Verify that the errors no longer appear.

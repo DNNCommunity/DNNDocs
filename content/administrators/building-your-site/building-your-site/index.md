@@ -29,4 +29,4 @@ To build a site,
 7.  Publish your site.
 
 > [!Tip]
-> The [Site Wizard](http://google.com) is a quick way to configure the basic settings for a site, change the design, and apply a template.
+> The Site Wizard is a quick way to configure the basic settings for a site, change the design, and apply a template.

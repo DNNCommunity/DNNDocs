@@ -9,7 +9,7 @@ parent-topic: designers-creating-themes-overview
 previous-topic: create-container
 next-topic: create-doctype-xml
 related-topics: about-themes
-links: ["[W3C specifications on cascading and inheritance](http://www.w3.org/TR/CSS21/cascade.html)","[DNN Wiki: DotNetNuke Skins](http://www.dnnsoftware.com/wiki/dotnetnuke-skins)","[DNN Professional Training: Creating HTML Skins](http://www.dnnsoftware.com/services/professional-training/training-videos-subscription/skinning-2-creating-html-skins)"]
+links: ["[W3C specifications on cascading and inheritance](https://www.w3.org/TR/css3-cascade/)","[DNN Wiki: DotNetNuke Skins](https://www.dnnsoftware.com/wiki/dotnetnuke-skins)","[DNN Professional Training: Creating HTML Skins](https://www.dnnsoftware.com/services/professional-training/training-videos-subscription/skinning-2-creating-html-skins)"]
 ---
 
 # Create a CSS File
@@ -35,33 +35,33 @@ CSS files are applied hierarchically. If a style is defined for an element in mu
 ## Steps
 
 1.  Create the master style sheet for your theme (skin.css).
-    
+
     Include:
-    
+
     *   Common styles for all layout templates in your theme.
     *   Styles for **theme objects** used in all your layout templates.
-    
+
 2.  (Optional) Create a separate style sheet for each layout template in your theme (MyThemeLayout.css).
-    
+
     Include:
-    
+
     *   Styles that are specific to a layout template.
     *   Styles for theme objects that are used only in a specific layout template.
-    
+
 3.  (Recommended) Create the master style sheet for all containers in your theme (container.css).
-    
+
     Include:
-    
+
     *   Common styles for all containers in your theme.
     *   Styles for theme objects used in all your containers.
-    
+
 4.  (Optional) Create a separate style sheet for each container type in your theme (MyThemeLayout.css).
-    
+
     Include:
-    
+
     *   Styles that are specific to a container.
     *   Styles for theme objects that are used only in a specific container.
-    
+
 
 ## Example
 
@@ -74,7 +74,7 @@ layout template
             <param name="CssClass" value="user" />
         </object>
     </div>
-            
+
 ```
 
 CSS
@@ -85,5 +85,5 @@ CSS
          color: white;
          font-weight: bold;
     }
-            
+
 ```

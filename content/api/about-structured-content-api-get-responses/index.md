@@ -3,7 +3,7 @@ uid: about-structured-content-api-get-responses
 topic: about-structured-content-api-get-responses
 locale: en
 title: About Liquid Content™ API Responses to GET Requests
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 parent-topic: about-structured-content-apis
 related-topics: about-structured-content-content-type-apis,about-structured-content-content-item-apis,about-structured-content-published-content-item-apis,about-structured-content-api-post-put-type-fields
@@ -26,34 +26,34 @@ If the GET request includes the ID of a specific content type/item:
 
 *   If none was found, the server returns a 404 message.
 *   If the content type/item was found, the JSON structure contains information about the content type/item.
-    
+
     ```
-    
+
     {
         "id": "...",
         ...
     },
-                            
+
     ```
-    
+
 
 If the GET request includes parameters in the query to filter the results, the JSON structure contains a documents array and totalResultCount.
 
 *   If none was found, the documents array is empty.
-    
+
     ```
-    
+
     {
         "documents": [],
         "totalResultCount": 0
     }
-                            
+
     ```
-    
+
 *   If one or more content types/items were found, the documents array contains one node for each content type/item in the results.
-    
+
     ```
-    
+
     {
         "documents": [
             {
@@ -67,9 +67,9 @@ If the GET request includes parameters in the query to filter the results, the J
         ],
         "totalResultCount": 2
     }
-                            
+
     ```
-    
+
 
 > [!NOTE]
 > By default, the maximum results returned is 10. Example: If 42 content items meet the criteria specified in the query of the request, only 10 will be returned. To override the default, set maxitems in the query string of the URL; e.g., `https://dnnapi.com/content/api/ContentItems?maxitems=500`
@@ -109,24 +109,24 @@ Example: Suppose the content type definition contains the following two fields. 
     <tr>
         <td>
             <pre>
-            {                                            
-                "type": "multipleChoice",                                
-                "defaultValue": null,                                         
-                "settings": {                                                  
-                "subType": "radioButton",                                     
-                    "choices": [                                              
-                        { "label": "Evoq Engage" },                            
-                        { "label": "Evoq Content" },   
-                        { "label": "Evoq Basic" },     
-                        { "label": "DNN Platform" }      
-                    ],                                  
-                    "multiSelect": false,               
-                    "listOrientation": "vertical",      
-                    "otherAsAnOption": false            
-                    },                                     
-                "validation": { ... },                 
-                "name": "productName",               
-                "label": "Product Name", ...         
+            {
+                "type": "multipleChoice",
+                "defaultValue": null,
+                "settings": {
+                "subType": "radioButton",
+                    "choices": [
+                        { "label": "Evoq Engage" },
+                        { "label": "Evoq Content" },
+                        { "label": "Evoq Basic" },
+                        { "label": "DNN Platform" }
+                    ],
+                    "multiSelect": false,
+                    "listOrientation": "vertical",
+                    "otherAsAnOption": false
+                    },
+                "validation": { ... },
+                "name": "productName",
+                "label": "Product Name", ...
             },
             </pre>
         </td>
@@ -197,7 +197,7 @@ Example: Suppose the content type definition contains the following two fields. 
             }
             </pre>
         </td>
-        <td><pre>"releaseNotes": "http://example.com"</pre></td>
+        <td><pre>"releaseNotes": "https://example.com"</pre></td>
     </tr>
     <tr><td><pre>]</pre></td>
         <td><pre>}</pre></td>

@@ -17,11 +17,11 @@ A sample POST request with the user name `sitemanager` and password `dnnhost`:
 
 ```
 
-    POST http://testsitece.lvh.me/DesktopModules/JwtAuth/API/mobile/login HTTP/1.1
+    POST https://testsitece.lvh.me/DesktopModules/JwtAuth/API/mobile/login HTTP/1.1
     Content-Type: application/json; charset=utf-8
     Host: testsitece.lvh.me
     Content-Length: 33
 
     {"u":"sitemanager","p":"dnnhost"}
-                
+
 ```

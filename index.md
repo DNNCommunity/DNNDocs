@@ -1,20 +1,6 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <style type="text/css">
-    body.homepage::after {
-        content: "";
-        display: block;
-        position: fixed;
-        z-index: -1;   
-        width: 100%;
-        height: 100%;
-        background-image: url(images/hero-background-15.jpg);
-        background-size: cover;
-        opacity: 0.1;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-    }
+    
     .homepage .hlead {
         border-bottom: 1px solid #00a4e44d;
         padding-bottom: 10px;
@@ -30,7 +16,7 @@
         border-bottom: 1px solid #00a4e4;
     }
     /* Hide anchors on headings */
-    .homepage .anchorjs-link { display: none; }     
+    .homepage .anchorjs-link { display: none; }
     .homepage .api-section {
         position: relative;
         margin-bottom: 30px;
@@ -80,7 +66,7 @@
     .homepage .api-section ul.popular-topics { margin-bottom: 20px; }
     .homepage .api-section ul.popular-topics li { display: inline-block; }
     .homepage .hero .feature-block img {
-        max-width: 90%;        
+        max-width: 90%;
     }
     .homepage .hero .feature-block h3 { margin-top: 10px; }
     .homepage .hero .feature-block p {}
@@ -120,7 +106,7 @@
         <div class="hero">
             <div class="row feature-wrapper">
                 <div class="col-sm-4 feature-block text-center hidden-xs hidden-sm">
-                    <img src="images/communityDLSeal.png">                    
+                    <img src="images/communityDLSeal.png">
                 </div>
                 <div class="col-md-8 col-sm-12 feature-block text-center">
                     <h1 class="text-center"><span class="hidden-xs">Welcome to the </span>DNN Docs</h1>
@@ -132,28 +118,28 @@
                                 <li><a href="/content/administrators/dnn-overview/index.html">What is DNN?</a></li>
                                 <li><a>Install/Upgrade</a></li>
                                 <li><a>Version History</a></li>
-                            </ul>  
+                            </ul>
                         </div>
                         <div class="col-sm-4">
                             <h4 class="hlead">Extend DNN</h4>
                             <ul>
                                 <li><a>Creating Themes</a></li>
                                 <li><a>Creating Extensions</a></li>
-                                <li><a>DNN API</a></li>                                
-                            </ul>  
+                                <li><a>DNN API</a></li>
+                            </ul>
                         </div>
                         <div class="col-sm-4">
                             <h4 class="hlead">Get Involved</h4>
                             <ul>
                                 <li><a>Contribute to DNN</a></li>
                                 <li><a>Contribute to the Docs</a></li>
-                            </ul>  
+                            </ul>
                         </div>
                     </div>
-                </div>                
-            </div>            
+                </div>
+            </div>
         </div>
-    </div>    
+    </div>
 </div>
 
 <div class="row home">
@@ -201,7 +187,7 @@
                 <li><a>Something else</a></li>
             </ul>
         </div>
-    </div>    
+    </div>
 </div>    -->
 
 <div class="row home">
@@ -228,9 +214,9 @@
                     </div>
                 </div>
                 <div class="contributors hidden-xs">
-                    <img src="https://avatars0.githubusercontent.com/u/4571863?s=60&v=4">                    
-                    <img src="https://avatars3.githubusercontent.com/u/4568451?s=60&v=4">                   
-                    <img src="https://avatars3.githubusercontent.com/u/6237180?s=60&v=4">                    
+                    <img src="https://avatars0.githubusercontent.com/u/4571863?s=60&v=4">
+                    <img src="https://avatars3.githubusercontent.com/u/4568451?s=60&v=4">
+                    <img src="https://avatars3.githubusercontent.com/u/6237180?s=60&v=4">
                 </div>
             </div>
         </div>
@@ -249,18 +235,18 @@
                         <ul class="popular-topics">
                             <li style="border-bottom: 0;">Quick Links: </li>
                             <li><a href="/content/content-managers">Home</a></li>
-                            <li><a href="/content/content-managers/content-manager-references/index.html">References</a></li>                            
-                            <li><a href="http://dnndocs.com/content/content-managers/content-with-modules/content-managers-content-with-modules-overview/index.html">Creating Content With Modules</a></li>
+                            <li><a href="/content/content-managers/content-manager-references/index.html">References</a></li>
+                            <li><a href="https://dnndocs.com/content/content-managers/content-with-modules/content-managers-content-with-modules-overview/index.html">Creating Content With Modules</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="contributors hidden-xs">
                     <img src="https://avatars3.githubusercontent.com/u/1757808?s=60&v=4">
-                    <img src="https://avatars0.githubusercontent.com/u/4571863?s=60&v=4">                    
-                    <img src="https://avatars3.githubusercontent.com/u/6603270?s=60&v=4"> 
-                    <img src="https://avatars3.githubusercontent.com/u/4568451?s=60&v=4">                   
-                    <img src="https://avatars2.githubusercontent.com/u/3319692?s=60&v=4">                    
-                    <img src="https://avatars3.githubusercontent.com/u/6237180?s=60&v=4">                    
+                    <img src="https://avatars0.githubusercontent.com/u/4571863?s=60&v=4">
+                    <img src="https://avatars3.githubusercontent.com/u/6603270?s=60&v=4">
+                    <img src="https://avatars3.githubusercontent.com/u/4568451?s=60&v=4">
+                    <img src="https://avatars2.githubusercontent.com/u/3319692?s=60&v=4">
+                    <img src="https://avatars3.githubusercontent.com/u/6237180?s=60&v=4">
                 </div>
             </div>
         </div>
@@ -289,10 +275,10 @@
                 </div>
                 <div class="contributors hidden-xs">
                     <img src="https://avatars3.githubusercontent.com/u/1757808?s=60&v=4">
-                    <img src="https://avatars0.githubusercontent.com/u/4571863?s=60&v=4">                    
-                    <img src="https://avatars3.githubusercontent.com/u/6603270?s=60&v=4"> 
-                    <img src="https://avatars3.githubusercontent.com/u/4568451?s=60&v=4">                   
-                    <img src="https://avatars2.githubusercontent.com/u/3319692?s=60&v=4">                                                         
+                    <img src="https://avatars0.githubusercontent.com/u/4571863?s=60&v=4">
+                    <img src="https://avatars3.githubusercontent.com/u/6603270?s=60&v=4">
+                    <img src="https://avatars3.githubusercontent.com/u/4568451?s=60&v=4">
+                    <img src="https://avatars2.githubusercontent.com/u/3319692?s=60&v=4">
                 </div>
             </div>
         </div>
@@ -312,14 +298,14 @@
                             <li style="border-bottom: 0;">Quick Links: </li>
                             <li><a href="/content/Designers">Home</a></li>
                             <li><a href="/content/designers/creating-themes">Creating Themes</a></li>
-                            <li><a href="/content/designers/persona-bar-style-guide/">Persona Bar Style Guide</a></li>                            
+                            <li><a href="/content/designers/persona-bar-style-guide/">Persona Bar Style Guide</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="contributors hidden-xs">
-                    <img src="https://avatars3.githubusercontent.com/u/4568451?s=60&v=4"> 
-                    <img src="https://avatars0.githubusercontent.com/u/4571863?s=60&v=4">                    
-                    <img src="https://avatars3.githubusercontent.com/u/6603270?s=60&v=4">                                                           
+                    <img src="https://avatars3.githubusercontent.com/u/4568451?s=60&v=4">
+                    <img src="https://avatars0.githubusercontent.com/u/4571863?s=60&v=4">
+                    <img src="https://avatars3.githubusercontent.com/u/6603270?s=60&v=4">
                 </div>
             </div>
         </div>
@@ -345,9 +331,9 @@
                     </div>
                 </div>
                 <div class="contributors hidden-xs">
-                    <img src="https://avatars3.githubusercontent.com/u/4568451?s=60&v=4"> 
-                    <img src="https://avatars0.githubusercontent.com/u/4571863?s=60&v=4">                    
-                    <img src="https://avatars3.githubusercontent.com/u/6603270?s=60&v=4">                                                           
+                    <img src="https://avatars3.githubusercontent.com/u/4568451?s=60&v=4">
+                    <img src="https://avatars0.githubusercontent.com/u/4571863?s=60&v=4">
+                    <img src="https://avatars3.githubusercontent.com/u/6603270?s=60&v=4">
                 </div>
             </div>
         </div> -->
@@ -355,7 +341,7 @@
 </div>
 
 <div id="contrib-container" class="home side-content">
-    <h4 class="hlead"> <i class="fas fa-fire" style="color: #ee3a43"></i> Top Contributors</h4>    
+    <h4 class="hlead"> <i class="fas fa-fire" style="color: #ee3a43"></i> Top Contributors</h4>
     <ul class="media-list top-contributors">
         <li class="media">
             <div class="media-left">
@@ -422,26 +408,26 @@
                 <h5 class="media-heading">Fransisco Perez Andres</h5>
                 <span class="title">DOTWARE</span>
             </div>
-        </li>        
+        </li>
     </ul>
 </div>
 
 <div id="topic-container" class="home side-content">
-    <h4 class="hlead"><i class="fas fa-fire-alt" style="color: #9F58A9"></i> Helpful Links</h4>    
+    <h4 class="hlead"><i class="fas fa-fire-alt" style="color: #9F58A9"></i> Helpful Links</h4>
         <ul class="popular-topics">
             <li>
                 <a target="_blank" href="https://www.dnnsoftware.com/community-blog">Community Blog</a>
             </li>
             <li>
-                <a target="_blank" href="http://dnnsoftware.org/">DNNSoftware.com</a>
+                <a target="_blank" href="https://dnnsoftware.org/">DNNSoftware.com</a>
             </li>
             <li>
-                <a target="_blank" href="http://dnnsoftware.org/">DNNSoftware.org</a>
+                <a target="_blank" href="https://dnnsoftware.org/">DNNSoftware.org</a>
             </li>
             <li>
                 <a target="_blank" href="https://github.com/dnnsoftware/Dnn.Platform">DNN on GitHub</a>
-            </li>                       
-        </ul>    
+            </li>
+        </ul>
     <h4 class="hlead"><i class="fas fa-globe" style="color: #9F58A9"></i> Community</h4>
     <p>Learn more about DNN at these community events:</p>
     <ul class="events-list text-center">
@@ -481,9 +467,9 @@
             var contribs = document.getElementById('contrib-container');
             var topics = document.getElementById('topic-container');
             var content = document.getElementById('_content');
-            content.parentNode.nextElementSibling.append(contribs); 
-            content.parentNode.nextElementSibling.append(topics);        
-        });        
+            content.parentNode.nextElementSibling.append(contribs);
+            content.parentNode.nextElementSibling.append(topics);
+        });
     }());
 </script>
 

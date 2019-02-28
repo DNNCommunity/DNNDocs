@@ -7,12 +7,12 @@ dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: developers-about-modules-overview
 related-topics: test-module,dnn-manifest-schema,module-features,module-architecture,developers-creating-modules-overview
-links: ["[DNN Module APIs](http://www.dnnsoftware.com/dnn-api/)","[DNN Community Blog: Extension Verification Service (EVS) by Nathan Rover](http://www.dnnsoftware.com/community-blog/cid/147439/extension-verification-service-evs)","[DNN Community Blog: Extension Verification Service (EVS) Update by Nathan Rover](http://www.dnnsoftware.com/community-blog/cid/154576/extension-verification-service-evs-update%20from%20june%202013)"]
+links: ["[DNN Module APIs](https://www.dnnsoftware.com/dnn-api/)","[DNN Community Blog: Extension Verification Service (EVS) by Nathan Rover](https://www.dnnsoftware.com/community-blog/cid/147439/extension-verification-service-evs)","[DNN Community Blog: Extension Verification Service (EVS) Update by Nathan Rover](https://www.dnnsoftware.com/community-blog/cid/154576/extension-verification-service-evs-update%20from%20june%202013)"]
 ---
 
 # About the Extension Verification Service
 
-The DNN [Extension Verification Service](http://evs.dnnsoftware.com) (EVS) performs compatibility tests in three areas.
+The DNN [Extension Verification Service](https://evs.dnnsoftware.com) (EVS) performs compatibility tests in three areas.
 
 *   **Module packaging**. EVS verifies:
     *   That a valid .dnn manifest file exists. EVS throws an error, if a required section is missing, or a warning, if an optional section is missing.
@@ -27,6 +27,6 @@ The DNN [Extension Verification Service](http://evs.dnnsoftware.com) (EVS) perfo
     *   That no assembly errors exist.
     *   That every assembly reference points to an assembly that exists either in DNN or in the .NET global assembly cache (GAC). If the assembly is not found, EVS returns an error.
 
-  
+
 
 ![EVS website](/images/scr-EVS.png)

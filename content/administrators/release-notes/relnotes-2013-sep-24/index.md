@@ -3,7 +3,7 @@ uid: relnotes-2013-sep-24
 topic: relnotes-2013-sep-24
 locale: en
 title: DNN Release Notes — 2013 Sep 24
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 ---
 
@@ -11,7 +11,7 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.1.2
 
-[CodePlex](http://dotnetnuke.codeplex.com/releases/view/112531)
+[CodePlex](https://dotnetnuke.codeplex.com/releases/view/112531)
 
 *   Added the ability to manage the Vanity URL prefix.
 *   Added the ability to filter members in the member directory by role.

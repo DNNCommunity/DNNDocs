@@ -7,7 +7,7 @@ dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: developers-overview
 related-topics: pack-extension,use-module-creator,providers
-links: ["[Module Development: DNN Video Library](http://www.dnnsoftware.com/videos/)"]
+links: ["[Module Development: DNN Video Library](https://www.dnnsoftware.com/videos/)"]
 ---
 
 # Web Forms Module Development
@@ -16,19 +16,19 @@ links: ["[Module Development: DNN Video Library](http://www.dnnsoftware.com/vide
 
 Web Forms modules follow the standard DNN module architectural pattern and use a traditional server-side rendering model. When a page is requested, DNN will create an instance of the relevant module control as defined in the module definition. The module control inherits from a code-behind class that contains the presentation logic and that makes additional calls to the appropriate business methods in the Business Logic Layer.
 
-  
+
 
 ![Logical architecture of a Web Forms module](/images/gra-module-architecture-wf.png)
 
-  
+
 
 You can include web service endpoints to enable access by mobile applications, if necessary. When accessing the module from a mobile application, the presentation layer moves to the mobile device and the service layer becomes the server-side endpoint that calls the appropriate business methods.
 
-  
+
 
 ![Accessing Web Forms Module via a Web Service](/images/gra-module-architecture-mobile.png)
 
-  
+
 
 ## Building Web Forms Modules
 
@@ -45,7 +45,7 @@ WSP projects do not have a project file (.csproj or .vbproj). Instead, they rely
 
 Modules built using the WAP project type are compiled at development time and do not require you to include the source code with your module. WAP projects have a project file and are created as standalone projects.
 
-Note: Microsoft recommends the WAP project type for ASP.NET development. (See [Web Application Projects Versus Web Site Projects in Visual Studio](http://msdn.microsoft.com/en-us/library/dd547590%28v=vs.110%29.aspx).)
+Note: Microsoft recommends the WAP project type for ASP.NET development. (See [Web Application Projects Versus Web Site Projects in Visual Studio](https://docs.microsoft.com/en-us/previous-versions/aspnet/dd547590(v=vs.110)).)
 
 Although Visual Studio is recommended for module development, you can create modules using standard text editors or the included DNN Module Creator. However, these tools do not provide .NET compiler support; therefore, they are more suited for developing WSP-based modules.
 

@@ -9,7 +9,7 @@ parent-topic: designers-creating-themes-overview
 previous-topic: create-layout-template
 next-topic: create-css
 related-topics: theme-objects,about-themes,create-theme
-links: ["[DNN Wiki: DotNetNuke Skins](http://www.dnnsoftware.com/wiki/dotnetnuke-skins)","[DNN Community blog: DotNetNuke Skinning 101 (Part 3) by Joe Brinkman](http://www.dnnsoftware.com/community-blog/cid/131995/dotnetnuke-skinning-101-part-3)","[DNN Professional Training: Creating HTML Skins](http://www.dnnsoftware.com/services/professional-training/training-videos-subscription/skinning-2-creating-html-skins)","[Skinning Tool / Online Reference for DNN Skins & Container Objects by 10 Pound Gorilla](http://www.10poundgorilla.com)"]
+links: ["[DNN Wiki: DotNetNuke Skins](https://www.dnnsoftware.com/wiki/dotnetnuke-skins)","[DNN Community blog: DotNetNuke Skinning 101 (Part 3) by Joe Brinkman](https://www.dnnsoftware.com/community-blog/cid/131995/dotnetnuke-skinning-101-part-3)","[DNN Professional Training: Creating HTML Skins](https://www.dnnsoftware.com/services/professional-training/training-videos-subscription/skinning-2-creating-html-skins)","[Skinning Tool / Online Reference for DNN Skins & Container Objects by 10 Pound Gorilla](https://www.10poundgorilla.com)"]
 ---
 
 # Create a Container
@@ -29,35 +29,35 @@ Containers allow designers to seamlessly integrate modules from many different d
 ## Steps
 
 1.  Create a new file for the container.
-    
+
     > [!NOTE]
-    >    
+    >
     > *   The container must contain exactly one pane called `ContentPane`.
     > *   The single pane must be defined as a server control by adding `runat="server"` to the element.
     > *   A pane can be one of the following HTML elements: `<td>` (table cells), `<div>`, `<p>`, and `<span>`.
     > *   (Optional) You can add the attribute `visible="false"` to the pane to prevent it from being displayed if no module is assigned to it.
-    
+
     A very basic container in HTML.
-    
+
     ```
-    
+
         <div id="ContentPane" runat="server"></div>
-                        
+
     ```
-    
+
     A very basic container in ASCX.
-    
+
     ```
-    
+
         <%@ Control AutoEventWireup="false" Explicit="True" Inherits="DotNetNuke.UI.Containers.Container" %>
         <div id="ContentPane" runat="server"></div>
-                        
+
     ```
-    
+
 2.  (Optional) Add theme objects to your container for a more dynamic page.
-    
+
     The following theme objects are relevant to containers:
-    
+
     <table>
      <tr>
        <td>ACTIONBUTTON</td>

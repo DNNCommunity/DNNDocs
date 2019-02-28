@@ -6,7 +6,7 @@ title: About Themes
 dnneditions: Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: designers-overview
-links: ["[DNN Wiki: DotNetNuke Skins](http://www.dnnsoftware.com/wiki/dotnetnuke-skins)","[UX Guide](http://uxguide.dnnsoftware.com/)","[DNN Community Blog: DotNetNuke Skinning 101 (Part 1) by Joe Brinkman](http://www.dnnsoftware.com/community-blog/cid/132000/dotnetnuke-skinning-101-part-1)"]
+links: ["[DNN Wiki: DotNetNuke Skins](https://www.dnnsoftware.com/wiki/dotnetnuke-skins)","[UX Guide](https://uxguide.dnnsoftware.com/)","[DNN Community Blog: DotNetNuke Skinning 101 (Part 1) by Joe Brinkman](https://www.dnnsoftware.com/community-blog/cid/132000/dotnetnuke-skinning-101-part-1)"]
 ---
 
 # About Themes
@@ -19,19 +19,19 @@ A DNN **theme** (formerly called a **skin**) defines the look and feel of the we
 *   (optional) a style sheet (CSS) for each of the layout templates
 *   (optional) a master style sheet (CSS) for all the layout templates
 
-  
+
 
 ![Three variations of a theme](/images/gra-SkinTheme.png)
 
-  
+
 
 ## Layouts and Containers
 
-  
+
 
 ![Pane in a layout](/images/gra-PaneLayout.png)
 
-  
+
 
 A **pane** is a section of a webpage that displays static content, dynamic content, or a standard theme object.
 
@@ -67,11 +67,9 @@ DNN supports two different types of themes: HTML and ASCX.
 |**HTML**|**ASCX**|
 |---|---|
 |Basic theme.|Advanced theme.|
-|Can be created using any HTML editor.|Requires [Microsoft Visual Studio](http://www.visualstudio.com/).|
+|Can be created using any HTML editor.|Requires [Microsoft Visual Studio](https://www.visualstudio.com/).|
 |Automatically converted to ASCX when installed. Only the contents inside the `<body>` tag is retained (without the tag); everything else is discarded, including the entire `<header>`.|Used as is.|
 |Easier to create.<br />Uses DNN tokens, which represent code that call DNN APIs. The tokens are replaced with code during conversion to ASCX.|More powerful.<br />Allows customization of code that call DNN APIs.|
 
-Thousands of third-party modules and themes are available from these sources:
+Thousands of third-party modules and themes are available from the [DNN Store](https://store.dnnsoftware.com). There are extensions for sale, including versions that include the source code, as well as some free extension.
 
-*   [DNN Store](http://store.dnnsoftware.com): Extensions for sale. Some developers provide versions that include the source code.
-*   [DNN Forge](http://www.DNNSoftware.com/Forge): Open source and free extensions.

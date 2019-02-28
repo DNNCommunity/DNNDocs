@@ -6,7 +6,7 @@ title: About Liquid Content™ (Structured Content)
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
 related-topics: create-content-type,edit-content-type,duplicate-content-type,delete-content-type,create-visualizer,edit-visualizer,delete-visualizer,create-content-item,edit-content-item,duplicate-content-item,delete-content-item,visualizer-templates
-links: ["[What Is Structured Content: Definition, Benefits, and How to Get Started](http://www.dnnsoftware.com/blog/what-is-structured-content-definition-benefits-and-how-to-get-started)"]
+links: ["[What Is Structured Content: Definition, Benefits, and How to Get Started](https://www.dnnsoftware.com/blog/what-is-structured-content-definition-benefits-and-how-to-get-started)"]
 ---
 
 # About Liquid Content™ (Structured Content)

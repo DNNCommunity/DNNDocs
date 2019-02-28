@@ -11,7 +11,7 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,configur
 
 # Help Improve DNN
 
-[Read the details of the DNN Improvement Program.](http://www.dnnsoftware.com/dnn-improvement-program)
+[Read the details of the DNN Improvement Program.](https://www.dnnsoftware.com/dnn-improvement-program)
 
 ## Prerequisites
 
@@ -20,20 +20,20 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,configur
 ## Steps
 
 1.  Go to **Persona Bar \> Settings \> Site Settings**.
-    
+
     ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
-    
+
 2.  Go to the **Site Behavior** tab, and then the **More** subtab.
-    
+
     ![Site Behavior > More](/images/scr-pbtabs-host-Settings-SiteSettings-SiteBehavior-More-E90.png)
-    
+
 3.  Enable **Participate in DNN Improvement Program**.
-    
-      
-    
+
+
+
     ![Site Settings > Site Behavior > More — Participate in DNN Improvement Program](/images/scr-SiteSettings-SiteBehavior-More-ImprovementProg.png)
-    
-      
-    
+
+
+
     > [!Warning]
     > This setting affects all sites in your installation.

@@ -16,7 +16,8 @@ DNN makes every effort to quickly analyze reported security issues and to provid
 
 ## Reporting Security Issues
 
-To report potential security issues and questionable security scan results, please contact DNN by email at [security@dnnsoftware.com](mailto:security@dnnsoftware.com).
+> [!Important]
+> To report potential security issues and questionable security scan results, please contact DNN by email at [security@dnnsoftware.com](mailto:security@dnnsoftware.com).
 
 All submissions are viewed by members of the DNN Security Task Force only. Submissions are discussed outside the Task Force, only if permitted by the individual or company that reported the issue.
 
@@ -43,3 +44,4 @@ Bug fixes and enhancements are applied only to the most recent major release. Pr
 However, DNN continues to provide maintenance releases for retired versions that are affected by a newly discovered security issue, up to one year after the version is retired. Example: 8.x versions were retired when 9.0 was released on 2016 December 9; however, if DNN becomes aware of a security issue that affects 8.x, a security maintenance release will still be published for 8.x until 2017 December 9.
 
 [View release dates for DNN versions.](xref:product-versions)
+

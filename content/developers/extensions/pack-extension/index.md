@@ -9,7 +9,7 @@ parent-topic: developers-creating-modules-overview
 previous-topic: test-module
 next-topic: install-extension
 related-topics: dnn-manifest-schema,module-development,web-forms-module-development,spa-module-development,create-module,mvc-module-development,providers
-links: ["[DNN Professional Training video: Skinning 5: Packaging](http://www.dnnsoftware.com/services/professional-training/training-videos-subscription/skinning-5-packaging)"]
+links: ["[DNN Professional Training video: Skinning 5: Packaging](https://www.dnnsoftware.com/services/professional-training/training-videos-subscription/skinning-5-packaging)"]
 ---
 
 # Pack Your Extension
@@ -23,7 +23,7 @@ Note: The package wizard, accessible through the DNN Module Creator or the Exten
 ## Steps
 
 1.  Prepare your files in folders.
-    
+
     *   Files that are common among all packages:
         *   (Optional) `MyLicense.txt` is displayed to the user during package installation.
         *   (Optional) `MyReleaseNotes.txt` lists the changes for the current version of the package and is also provided during installation.
@@ -38,10 +38,10 @@ Note: The package wizard, accessible through the DNN Module Creator or the Exten
             *   JavaScript files (.js) contain code used for client-side logic.
             *   Stylesheets (.css) contain the custom styles needed by your module.
             *   Text files (.txt) include the release.txt and license.txt files that are displayed during module installation.
-    
+
     Tip: The license and release notes are HTML files, so you can include special offers, including a call to action and other details.
-    
+
     Remember: Include the version number of your extension in the release notes.
-    
+
 2.  Create the [DNN Manifest](xref:dnn-manifest-schema).
 3.  Zip up your files, including the DNN Manifest in the root folder.

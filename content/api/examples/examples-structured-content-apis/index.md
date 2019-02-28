@@ -7,7 +7,7 @@ dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: developers-structured-content-overview
 related-topics: visualizer-templates,searched-fields,api-results-pagination,about-structured-content-apis,structured-content-overview,api-overview
-links: ["[Liquid Content features](http://www.dnnsoftware.com/cms-features/about-liquid-content)","[Built with DNN](http://www.builtwithdnn.com)"]
+links: ["[Liquid Content features](https://www.dnnsoftware.com/cms-features/about-liquid-content)","[Built with DNN](http://www.builtwithdnn.com)"]
 ---
 
 # Examples: Liquid Content APIs

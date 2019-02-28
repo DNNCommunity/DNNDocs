@@ -7,7 +7,7 @@ dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-servers-overview
 related-topics: configure-caching,clear-cache,expire-cached-item-in-web-server
-links: ["[Caching Providers](http://www.dnnsoftware.com/wiki/caching-providers)"]
+links: ["[Caching Providers](https://www.dnnsoftware.com/wiki/caching-providers)"]
 ---
 
 # Minify Resource Files
@@ -24,19 +24,19 @@ You can speed up page downloads in two steps:
 ## Steps
 
 1.  Go to **Persona Bar \> Settings \> Servers**.
-    
-    ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
-    
-2.  Go to the **Server Settings** tab, and then the **Performance** subtab.
-    
-    ![Server Settings > Performance](/images/scr-pbtabs-host-Settings-Servers-ServerSettings-Performance-E90.png)
-    
 
-  
+    ![Persona Bar > Settings > Servers](/images/scr-pbar-host-Settings-E91.png)
+
+2.  Go to the **Server Settings** tab, and then the **Performance** subtab.
+
+    ![Server Settings > Performance](/images/scr-pbtabs-host-Settings-Servers-ServerSettings-Performance-E90.png)
+
+
+
 
 ![](/images/scr-Servers-ServerSettings-Performance-ClientResourceMgmt-E90.png)
 
-  
+
 
 3.  Choose the scope of the settings.
     *   Global. Applies the Client Resource Management settings to all sites in the installation.
@@ -44,9 +44,9 @@ You can speed up page downloads in two steps:
 4.  Set Enable Composite Files to On.
 5.  Set Minify CSS and Minify JS to On.
 6.  Save.
-    
+
    > [!Note]
    > You must save the settings to force the creation of a new composite file before incrementing the version number.
-    
+
 7.  Click/Tap **Increment Version**.
 8.  Confirm.

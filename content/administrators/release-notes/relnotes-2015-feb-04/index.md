@@ -3,7 +3,7 @@ uid: relnotes-2015-feb-04
 topic: relnotes-2015-feb-04
 locale: en
 title: DNN Release Notes — 2015 Feb 04
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 ---
 
@@ -11,7 +11,7 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.4.0
 
-[CodePlex](http://dotnetnuke.codeplex.com/releases/view/611324)
+[CodePlex](https://dotnetnuke.codeplex.com/releases/view/611324)
 
 *   Added Workflow and versioning API.
 *   Added multilanguage support to Site Settings.

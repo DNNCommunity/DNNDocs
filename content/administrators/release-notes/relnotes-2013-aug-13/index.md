@@ -3,7 +3,7 @@ uid: relnotes-2013-aug-13
 topic: relnotes-2013-aug-13
 locale: en
 title: DNN Release Notes — 2013 Aug 13
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 ---
 
@@ -11,7 +11,7 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.1.1
 
-[CodePlex](http://dotnetnuke.codeplex.com/releases/view/110757)
+[CodePlex](https://dotnetnuke.codeplex.com/releases/view/110757)
 
 *   Fixed issue where vanity URL was not working correctly in FireFox.
 *   Fixed issue where default Friendly URL setting was missing for the doNotRewriteRegex.
@@ -36,7 +36,7 @@ dnnversion: 09.02.00
 
 ## DOTNETNUKE PLATFORM 6.2.9
 
-[CodePlex](http://dotnetnuke.codeplex.com/releases/view/110758)
+[CodePlex](https://dotnetnuke.codeplex.com/releases/view/110758)
 
 *   Security:
     *   Fixed potential reflective xss issue.

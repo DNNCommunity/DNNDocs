@@ -20,11 +20,11 @@ You can perform additional processing before displaying the value by passing the
 |---|---|---|
 |<a name="divided_by"></a>**divided_by**|Divides the piped value by the specified integer. Rounds the result. Also see [modulo](#modulo).|`{{ 10 | divided_by: 3 }}`<br />3|
 |<a name="minus"></a>**minus**|Subtracts the specified value from the piped value. Also see [plus](#plus).|`{ 4 | minus: 2 }}`<br />|
-|<a name="modulo"></a>**modulo**|Returns the modulo (remainder) when the piped value is divided by the specified value. Also see [divided_by](#divided_by)|`{{ 3 | modulo: 2 }}`<br />1| 
+|<a name="modulo"></a>**modulo**|Returns the modulo (remainder) when the piped value is divided by the specified value. Also see [divided_by](#divided_by)|`{{ 3 | modulo: 2 }}`<br />1|
 |<a name="plus"></a>**plus**|Adds the piped value and the specified value. If the values are numeric strings, the numbers are converted to integers, then added. Also see [minus](#minus).|`{{ 1 | plus: 1 }}`<br />2|
 |<a name="times"></a>**times**|Multiplies the piped value with the specified value.|`{{ 5 | times: 4 }}`<br />20|
 |<a name="format"></a>**format**|Converts the numeric value to its equivalent textual representation, using the specified .NET format. Please refer to [this page](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings) for a list and description of valid format strings.|`{{ 4.1 | format: "F2" }}`<br />4.10|
-                        
+
 
 ## Strings
 
@@ -44,10 +44,10 @@ You can perform additional processing before displaying the value by passing the
 |**strip_newlines**|Removes all newline characters ("\\n") from the piped string.|If myMultiLineField is set to:`Twinkle, twinkle,`<br />`little star.`<br />`How I wonder`<br />`what you are.`<br /><br />`{{ myMultiLineText | strip_newlines }}`<br /><br />Twinkle, twinkle,little star.How I wonderwhat you are.|
 |**truncate**|Truncates the piped string and appends the optional second parameter, so that the length of the final result is the first parameter.|`{{ "supercalifragilistic" | truncate: 8, "man" }}`<br />`{{ "supercalifragilistic" | truncate: 5, "nny" }}`<br />superman<br />sunny|
 |<a name="upcase"></a>**upcase**|Converts the piped string to uppercase.|`{{ "hello" | upcase }}`<br />HELLO|
-                        
+
 > [!Note]
 > Arrays are converted to a string for display by simply concatenating the elements. The `join` can be used to format the array with a delimiter between each element.
-          
+
 
 ## HTML and URL Encodings for Strings
 
@@ -69,10 +69,10 @@ The following filters can be used if the field contains a URL. The examples use 
 
 |**Filter**|**Description**|**Example**|
 |---|---|---|
-|**(no filter)**|Returns the URL as plain text.|`{{ linkedIn }}`<br />http://www.linkedin.com/in/myexample|
-|**link**|Creates a link that would load the target page in the same browser tab.|`{{ linkedIn | link }}`<br />\<a href="http://www.linkedin.com/in/myexample">http://www.linkedin.com/in/myexample\</a>|
-|**link_new**|Creates a link that would load the target page in a new browser tab.|`{{ linkedIn | link_new }}`<br />\<a href="http://www.linkedin.com/in/myexample" target="_blank">http://www.linkedin.com/in/myexample\</a>|
-                        
+|**(no filter)**|Returns the URL as plain text.|`{{ linkedIn }}`<br />https://www.linkedin.com/in/myexample|
+|**link**|Creates a link that would load the target page in the same browser tab.|`{{ linkedIn | link }}`<br />\<a href="https://www.linkedin.com/in/myexample">https://www.linkedin.com/in/myexample\</a>|
+|**link_new**|Creates a link that would load the target page in a new browser tab.|`{{ linkedIn | link_new }}`<br />\<a href="https://www.linkedin.com/in/myexample" target="_blank">https://www.linkedin.com/in/myexample\</a>|
+
 <a name="arrays"></a>
 ## Arrays
 
@@ -82,18 +82,18 @@ Fields that are of the type Assets (images and documents) contain arrays; theref
 
 These examples accept a string with comma-separated values, which is split into an array before the filter is applied. If the result is an array, the `join` filter combines the elements into a string with the tilde "~" as separator.
 
-> [!Note] 
+> [!Note]
 > Arrays are converted to a string for display by simply concatenating the elements. The `join` can be used to format the array with a delimiter between each element.
 
 |**Filter**|**Description**|**Example**|
 |---|---|---|
 |<a name="first"></a>**first**|Returns the first element of the piped array. Also see [last](#last).|`{{ "dddd,bb,ccc,a" | split: "," | first }}`<br />dddd|
 |**index_at**|Returns the URL of the element at the specified index. If the specified index is outside the valid range (0 to number of elements minus 1), nothing is returned.|`{{ "dddd,bb,ccc,a" | split: "," | index_at: 2 }}`<br />ccc|
-|**join**|Combines the elements of the piped array with the specified character inserted between each element.|`{{ "dddd,bb,ccc,a" | split: "," | join "~" }}`<br />dddd~bb~ccc~a|                        
-|<a name="last"></a>**last**|Returns the last element of the piped array. Also see [first](#first).|`{ "dddd,bb,ccc,a" | split: "," | last }}`<br />a|                        
+|**join**|Combines the elements of the piped array with the specified character inserted between each element.|`{{ "dddd,bb,ccc,a" | split: "," | join "~" }}`<br />dddd~bb~ccc~a|
+|<a name="last"></a>**last**|Returns the last element of the piped array. Also see [first](#first).|`{ "dddd,bb,ccc,a" | split: "," | last }}`<br />a|
 |**size**|Returns the size of the piped array or string.|`{{ "dddd,bb,ccc,a" | split: "," | size }}`<br />4|
 |**sort**|Sorts the elements of the array. See reverse.|`{{ "dddd,bb,ccc,a" | split: "," | sort | join "~" }}`<br />a~bb~ccc~dddd|
-                        
+
 
 ## Multiple Choice
 
@@ -104,7 +104,7 @@ These filters apply only to fields of the type **Multiple Choice**.
 |**(no filter)**|For single-choice fields, returns the value of the selection. For multiple-selection fields, returns the list of the selections as a comma-separated list.|`{{ mySingleSelection }}`<br />`{{ myMultipleSelection }}`<br />Choice 1<br />Choice 1, Choice 2|
 |**list**|Returns an unordered list of the user's selections.|`{{ myMultipleSelection | list }}`<br />\<ul><br />&nbsp;&nbsp;\<li>Choice 1\</li><br />&nbsp;&nbsp;\<li>Choice 2\</li>\</ul>|
 |**numberedlist**|Returns an ordered list of the user's selections, in the order of the selection.|`{{ myMultipleSelection | numberedlist }}`<br />\<ol><br />&nbsp;&nbsp;\<li>Choice 1\</li><br />&nbsp;&nbsp;\<li>Choice 2\</li><br />\</ol>|
-                        
+
 
 ## Assets (Images and Documents)
 
@@ -117,7 +117,7 @@ These filters apply only to fields of the type **Assets**.
 |**images_list**|Returns an unordered list containing the images wrapped in `<img />` tags.|`{{ myImages | images_list }}`<br /><br />\<ul><br />&nbsp;&nbsp;\<li>\<img src="https://example.com/img-folder/my-image-1.png" alt="my image 1" />\</li><br />&nbsp;&nbsp;\<li>\<img src="https://example.com/img-folder/my-image-2.png" alt="my image 2" />\</li><br />\</ul>|
 |**documents_url**|Returns all the URLs of the documents as plain text.|`{{ myDocuments | documents_url }}`<br /><br />https://example.com/doc-folder/my-document-1.pdf<br />https://example.com/doc-folder/my-document-2.pdf<br /><br />(Formatted for legibility.)|
 |**documents_list**|Returns an unordered list containing the document URLs wrapped in `<href />` tags.|`{{ myDocuments | documents_list }}`<br /><br />\<ul><br />&nbsp;&nbsp;\<li>\<a target="__blank" href="https://example.com/doc-folder/my-document-1.pdf">Title of My Document 1\</a>\</li><br />&nbsp;&nbsp;\<li>\<a target="__blank" href="https://example.com/doc-folder/my-document-2.pdf">Title of My Document 2\</a>\</li>\</ul>|
-                        
+
 
 ## Misc
 

@@ -3,7 +3,7 @@ uid: relnotes-2013-jan-09
 topic: relnotes-2013-jan-09
 locale: en
 title: DNN Release Notes — 2013 Jan 09
-dnneditions: 
+dnneditions:
 dnnversion: 09.02.00
 ---
 
@@ -11,7 +11,7 @@ dnnversion: 09.02.00
 
 ## DOTNETNUKE PLATFORM 7.0.1
 
-[CodePlex](http://dotnetnuke.codeplex.com/releases/view/100069)
+[CodePlex](https://dotnetnuke.codeplex.com/releases/view/100069)
 
 *   Fixed issue in sitemap priority when hosting services uses commas instead of dots as decimal separators. This issue affects directly to the no technician user of portal.
 *   Fixed issue where files with special characters were not encoded correctly in the URL.
@@ -53,7 +53,7 @@ dnnversion: 09.02.00
 
 ## DOTNETNUKE PLATFORM 6.2.6
 
-[CodePlex](http://dotnetnuke.codeplex.com/releases/view/100072)
+[CodePlex](https://dotnetnuke.codeplex.com/releases/view/100072)
 
 *   Fixed issue that cause the member avatars to not show in the Member Directory.
 *   Security:
