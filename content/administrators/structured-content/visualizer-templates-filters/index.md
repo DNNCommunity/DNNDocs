@@ -33,14 +33,14 @@ You can perform additional processing before displaying the value by passing the
 |<a name="append"></a>**append**|Appends the specified string to the end of the piped string. Also see [prepend](#prepend).|`{{ "the quick brown fox" | append: " jumped over" }}` <br />the quick brown fox jumped over|
 |<a name="capitalize"></a>**capitalize**|Capitalizes the first letters of words in the piped string. Also see [upcase](#upcase) and [downcase](#downcase).|`{{ "the quick brown fox" | capitalize }}` <br /> `{{ "jUmPeD OvEr tHe lAzY dOg" | capitalize }}`<br />The Quick Brown Fox<br />Jumped Over The Lazy Dog|
 |<a name="downcase"></a>**downcase**|Converts the piped string to lowercase. Also see [upcase](#upcase) and [capitalize](#capitalize).|`{{ "THE QUICK BROWN FOX" | downcase }}`<br />`{{ "The QUICK Brown foX" | downcase }}`<br />the quick brown fox<br />the quick brown fox|
-|<a name="prepend"></a>**prepend**|Prepends a string. Also see [append](#append).|`{{ "the lazy dog" | prepend: "jumped over " }}`|jumped over the lazy dog|
-|<a name="remove-first"></a>**remove_first**|Removes the first occurrence of the specified string from the piped string. Also see [remove](#remove) and [replace](#replace).|`{{ "peppers" | remove_first: "pe" }}`|ppers|
+|<a name="prepend"></a>**prepend**|Prepends a string. Also see [append](#append).|`{{ "the lazy dog" | prepend: "jumped over " }}`<br />jumped over the lazy dog|
+|<a name="remove-first"></a>**remove_first**|Removes the first occurrence of the specified string from the piped string. Also see [remove](#remove) and [replace](#replace).|`{{ "peppers" | remove_first: "pe" }}`<br />ppers|
 |<a name="remove"></a>**remove**|Removes every occurrence of the specified string from the piped string. Also see [remove_first](#remove-first) and [replace](#replace).|`{{ "peppers" | remove: "pe" }}`<br />prs|
-|<a name="replace-first"></a>**replace_first**|Replaces the first occurrence of the first specified string with the second specified string. Also see [replace](#replace) and [remove_first](#remove-first).|`{{ "peppers" | replace_first: "pe", "to" }}`|toppers|
-|<a name="replace"></a>**replace**|Replaces every occurrence of the first specified string with the second specified string. Also see [replace_first](#replace-first) and [remove](#remove).|`{{ "peppers" | replace: "pe", "to" }}`|toptors|
+|<a name="replace-first"></a>**replace_first**|Replaces the first occurrence of the first specified string with the second specified string. Also see [replace](#replace) and [remove_first](#remove-first).|`{{ "peppers" | replace_first: "pe", "to" }}`<br />toppers|
+|<a name="replace"></a>**replace**|Replaces every occurrence of the first specified string with the second specified string. Also see [replace_first](#replace-first) and [remove](#remove).|`{{ "peppers" | replace: "pe", "to" }}`<br />toptors|
 |**size**|Returns the size of the piped array or string.|`{{ "hello" | size }}` <br />5|
 |**slice**|Returns a substring from the piped string, from the specified offset and with the specified number of characters. A negative offset will start counting from the end of the string.|`{{ "hello" | slice: 1, 2 }}`<br />`{{ "hello" | slice: -3, 3 }}`<br />el<br />llo|
-|**split**|Splits the piped string where the specified pattern is found, not including the search pattern. Also see [Arrays](#arrays).|`{{ "a,b" | split: "," }}`<br />`{{ "a,b" | split: "," | join: "|"  }}`<br />ab<br />a|b|
+|**split**|Splits the piped string where the specified pattern is found, not including the search pattern. Also see [Arrays](#arrays).|`{{ "a,b" | split: "," }}`<br />`{{ "a,b" | split: "," | join: "|"  }}`<br />ab<br />a\|b|
 |**strip_newlines**|Removes all newline characters ("\\n") from the piped string.|If myMultiLineField is set to:`Twinkle, twinkle,`<br />`little star.`<br />`How I wonder`<br />`what you are.`<br /><br />`{{ myMultiLineText | strip_newlines }}`<br /><br />Twinkle, twinkle,little star.How I wonderwhat you are.|
 |**truncate**|Truncates the piped string and appends the optional second parameter, so that the length of the final result is the first parameter.|`{{ "supercalifragilistic" | truncate: 8, "man" }}`<br />`{{ "supercalifragilistic" | truncate: 5, "nny" }}`<br />superman<br />sunny|
 |<a name="upcase"></a>**upcase**|Converts the piped string to uppercase.|`{{ "hello" | upcase }}`<br />HELLO|
@@ -56,8 +56,8 @@ The following filters can be used if the field contains a string.
 |**Filter**|**Description**|
 |---|---|
 |**escape_once**|Converts special characters in the string into HTML escape characters without affecting characters that are already HTML-escaped.|
-|**escape**|Converts special characters in the string into HTML escape characters.| 
-|**newline\_to\_br**|Replaces each newline ("\\n") with an HTML break (<br/>).|
+|**escape**|Converts special characters in the string into HTML escape characters.|
+|**newline\_to\_br**|Replaces each newline ("\\n") with an HTML break (\<br/>).|
 |**strip_html**|Removes all HTML-encoded characters from the piped string.|
 |**url_encode**|Converts the piped string to URL encoding.|
 
