@@ -1,0 +1,20 @@
+{{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
+
+<script type="text/javascript" src="{{_rel}}styles/docfx.vendor.js"></script>
+<script type="text/javascript" src="{{_rel}}styles/docfx.js"></script>
+<script type="text/javascript" src="{{_rel}}styles/main.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script type="text/javascript">
+	document.dnndocs = {
+		algolia: function(selector) {
+			return {
+				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+				indexName: 'dnnsoftware',
+				inputSelector: selector,
+				algoliaOptions: { 'facetFilters': ["tags:api"] },
+				debug: false // Set debug to true if you want to inspect the dropdown
+			}	
+		}
+	};	
+	docsearch(document.dnndocs.algolia('input.docs-search'));  
+</script>

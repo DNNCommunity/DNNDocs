@@ -49,11 +49,12 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": ["default", "templates/dnn-docs"],
-    "postProcessors": ["ExtractSearchIndex"],
+    "postProcessors": [],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
     "keepFileLink": false,
     "cleanupCacheHistory": false,
     "disableGitFeatures": false
+    } 
   }
 }
