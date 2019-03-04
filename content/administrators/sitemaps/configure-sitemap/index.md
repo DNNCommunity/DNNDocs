@@ -66,7 +66,7 @@ related-topics: submit-site-Google-search,module-sitemap
 
   
 
-6.  (Optional) [Submit your site to Google Search for indexing.](xref:submit-site-Google-search)
+6.  (Optional) [Submit your site to Google Search for indexing](xref:submit-site-google-search)
 7.  (Optional) Submit your site to Bing for indexing.
     
     1.  Choose Bing from the Search Engine dropdown.

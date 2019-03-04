@@ -1,5 +1,5 @@
 ---
-uid: add-diredtory-to-excluded-list
+uid: add-directory-to-excluded-list
 topic: add-directory-to-excluded-list
 locale: en
 title: Add a Directory to Excluded List for Crawling

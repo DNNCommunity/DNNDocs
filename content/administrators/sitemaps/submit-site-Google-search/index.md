@@ -1,6 +1,6 @@
 ---
-uid: submit-site-Google-search
-topic: submit-site-Google-search
+uid: submit-site-google-search
+topic: submit-site-google-search
 locale: en
 title: Submit Your Site to Google Search for Indexing
 dnneditions: Platform,Evoq Content,Evoq Engage
