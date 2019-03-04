@@ -1,4 +1,5 @@
 ---
+uid: add-module-to-page-pb-all
 topic: add-module-to-page-pb-all
 locale: en
 title: Add a Module to a Page via the Persona Bar

@@ -1,5 +1,5 @@
 ---
-uidd: assign-web-server-to-server-group
+uid: assign-web-server-to-server-group
 topic: assign-web-server-to-server-group
 locale: en
 title: Assign the Web Server to a Server Group

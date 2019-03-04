@@ -1,4 +1,5 @@
 ---
+uid: configure-module-on-page-pb-all
 topic: configure-module-on-page-pb-all
 locale: en
 title: Configure a Module on a Page via the Persona Bar
