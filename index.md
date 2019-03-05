@@ -29,7 +29,7 @@
                             <h4 class="hlead">Get Involved</h4>
                             <ul>
                                 <li><a href="/content/contribute/docs/">Contribute to the Docs</a></li>
-                                <li><a>Contribute to the DNN</a></li>
+                                <li><a>Contribute to DNN</a></li>
                             </ul>
                         </div>
                     </div>

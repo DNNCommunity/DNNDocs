@@ -8,7 +8,7 @@ dnnversion: 09.02.00
 parent-topic: 
 ---
 
-# How to Contribute to DNN Docs
+# Contribute to DNN Docs
 
 Thanks for being awesome & contributing to DNN Docs! Our community is better because of your contributions... let's get started.
 
