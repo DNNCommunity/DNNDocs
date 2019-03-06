@@ -1,10 +1,12 @@
 ---
 uid: how-to-edit-an-article
-topic: 
+topic: how-to-edit-an-article
 locale: en
-title: 
+title: Edit an Article
 dnneditions: 
-dnnversion: 
+dnnversion: 09.02.00
 parent-topic: 
 related-topics: 
 ---
+
+# Edit an Article
