@@ -4,3 +4,4 @@
 ## [Edit Source Code Comments](xref:how-to-edit-source-code-comments)
 ## [Submit a New Topic](xref:how-to-submit-a-new-topic)
 ## [Markdown Guide to DocFx](xref:markdown-guide-to-docfx)
+## [Get DNN Docs Running Locally](xref:get-dnn-docs-running-locally)
