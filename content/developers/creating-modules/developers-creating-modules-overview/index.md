@@ -23,7 +23,8 @@ You can produce a module in different ways:
     Thousands of third-party modules and themes are available from these sources:
 
     *   [DNN Store](https://store.dnnsoftware.com): Extensions for sale. Some developers provide versions that include the source code.
-    *   [DNN Forge](https://www.DNNSoftware.com/Forge): Open source and free extensions.
+    *   [DNN Community Github](https://www.github.com/DnnCommunity): Community maintained extensions including most of the formerly included core modules.
+    *   [DNN Connect Community extensions page](https://www.dnn-connect.org/community/community-extensions): A collection of community maintained modules maitained by Dnn Connect.
 
 
 You can also use different programming frameworks (Web Forms, MVC, SPA) and languages (C#, VB) to create your module.
