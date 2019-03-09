@@ -35,10 +35,10 @@ c:\dev\dnn-docs>git clone https://github.com/dnnsoftware/Dnn.Platform.git
 ```
 
 ## Running the DNN Docs Project Locally
-You should now be able to run the development version of the docs locally with the following command:
+You should now be able to build and run the development version of the docs locally with the following command:
 
 ```
-docfx --serve
+docfx build --serve
 ```
 
 The first time, the compilation process could take quite a while. You may see a couple of warning messages. Eventually, you should see a message similar to:
