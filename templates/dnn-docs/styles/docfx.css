@@ -519,7 +519,7 @@ body .toc{
 .toc .nav > li.in.active > .expand-stub::before,
 .toc .nav > li.filtered > .expand-stub::before {
     border-style: solid;
-    border-width: 0.25em 0.25em 0 0;
+    border-width: 0.15em 0.15em 0 0;
     content: '';
     display: inline-block;
     height: 0.7em;
@@ -534,7 +534,7 @@ body .toc{
 .toc .nav > li > .expand-stub::before,
 .toc .nav > li.active > .expand-stub::before {
     border-style: solid;
-    border-width: 0.25em 0.25em 0 0;
+    border-width: 0.15em 0.15em 0 0;
     content: '';
     display: inline-block;
     height: 0.7em;
