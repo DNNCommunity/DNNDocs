@@ -518,12 +518,32 @@ body .toc{
 .toc .nav > li.in > .expand-stub::before,
 .toc .nav > li.in.active > .expand-stub::before,
 .toc .nav > li.filtered > .expand-stub::before {
-    content: "-";
+    border-style: solid;
+    border-width: 0.25em 0.25em 0 0;
+    content: '';
+    display: inline-block;
+    height: 0.7em;
+    left: 0.15em;
+    position: relative;
+    top: 0;
+    transform: rotate(135deg);
+    vertical-align: top;
+    width: 0.7em;
 }
 
 .toc .nav > li > .expand-stub::before,
 .toc .nav > li.active > .expand-stub::before {
-    content: "+";
+    border-style: solid;
+    border-width: 0.25em 0.25em 0 0;
+    content: '';
+    display: inline-block;
+    height: 0.7em;
+    left: 0;
+    position: relative;
+    top: 0.15em;
+    transform: rotate(45deg);
+    vertical-align: top;
+    width: 0.7em;
 }
 
 .toc .nav > li.filtered > ul,

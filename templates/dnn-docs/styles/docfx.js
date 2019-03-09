@@ -418,8 +418,8 @@ $(function () {
       // Scroll to active item
       var top = 0;
       $('#toc a.active').parents('li').each(function (i, e) {
-        $(e).addClass(active).addClass(panel).addClass(panelDefault).addClass(expanded);
-        $(e).children('a').addClass(active).addClass(panelHeading);
+        $(e).addClass(active).addClass(expanded);
+        $(e).children('a').addClass(active);
         top += $(e).position().top;
       })
       $('.sidetoc').scrollTop(top - 50);
@@ -509,7 +509,7 @@ $(function () {
           }
 
           if (util.getAbsolutePath(e.href) === currentHref) {
-            $(e).addClass(active).addClass(panelHeading);
+            $(e).addClass(active);
           }
 
           $(e).breakWord();

@@ -4,10 +4,10 @@
   {{#items}}
     {{^dropdown}}
       <li>
-        <!--{{^leaf}}
-          <span class="expand-stub"></span>
-        {{/leaf}}-->
         {{#topicHref}}
+          {{^leaf}}
+            <span class="expand-stub"></span>
+          {{/leaf}} 
           <a href="{{topicHref}}" name="{{tocHref}}" title="{{name}}">{{name}}</a>
         {{/topicHref}}
         {{^topicHref}}
