@@ -483,7 +483,7 @@ body .toc{
 }
 .expand-stub {
   position: absolute;
-  left: -10px;
+  left: -13px;
 }
 .toc .nav > li > a.sidetoc-expand {
   position: absolute;
