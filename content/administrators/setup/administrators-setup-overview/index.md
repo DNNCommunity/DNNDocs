@@ -14,7 +14,7 @@ links: ["[DNN Community Blog: Installing DNN by Clinton Patterson](https://www.d
 The pages in this section describe how to configure your environment for DNN and walks through the install process.
 
 > [!TIP]
-> [nvQuickSite](https://www.nvquicksite.com/) is an OSS community contribution that uses a wizard-based approach to configure your environment and install DNN. If you don't need any customizations in your environment, it may save you some time.
+> [nvQuickSite](https://www.nvquicksite.com/) is an open source community contribution that uses a wizard-based approach to configure your environment and install DNN. If you don't need any customizations in your environment, it may save you some time.
 
 ## Requirements
 
