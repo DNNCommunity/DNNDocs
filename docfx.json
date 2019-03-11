@@ -19,6 +19,9 @@
     }
   ],
   "build": {
+    "sitemap": {
+      "baseUrl": "https://dnndocs.com/"
+    },
     "content": [
       {
         "files": ["api/**.yml", "api/index.md"]
@@ -54,7 +57,6 @@
     "noLangKeyword": false,
     "keepFileLink": false,
     "cleanupCacheHistory": false,
-    "disableGitFeatures": false
-    } 
+    "disableGitFeatures": false 
   }
 }
