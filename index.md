@@ -13,16 +13,16 @@
                             <h4 class="hlead">Get Started</h4>
                             <ul>
                                 <li><a href="/content/administrators/dnn-overview/index.html">What is DNN?</a></li>
-                                <li><a>Install/Upgrade</a></li>
-                                <li><a>Version History</a></li>
+                                <li><a href="https://dnndocs.com/content/administrators/setup/set-up-dnn-folder/index.html">Install/Upgrade</a></li>
+                                <li><a href="https://dnndocs.com/content/administrators/product-versions/index.html">Version History</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-4">
                             <h4 class="hlead">Extend DNN</h4>
                             <ul>
-                                <li><a>Creating Themes</a></li>
-                                <li><a>Creating Extensions</a></li>
-                                <li><a>DNN API</a></li>
+                                <li><a href="https://dnndocs.com/content/designers/creating-themes/designers-creating-themes-overview/index.html">Creating Themes</a></li>
+                                <li><a href="https://dnndocs.com/content/developers/extensions/developers-extensions-overview/index.html">Creating Extensions</a></li>
+                                <li><a href="https://dnndocs.com/api/">DNN API</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-4">
@@ -62,8 +62,7 @@
                     <div class="media-body">
                         <a href="/content/administrators/"><h2 class="media-heading"><i class="fas fa-users-cog administrators icon sm visible-xs-inline"></i>Administrators</h2></a>
                         <p>
-                            Hello, Administrator! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Hello, Administrator! This section encompasses documentation for both Admins and Super-Users (sometimes referred to as hosts). Administrators will handle tasks such as installing & upgrading DNN, configuring permissions and security roles, updating site settings, installing and updgrading extensions, and much more. 
                         </p>
                         <ul class="popular-topics">
                             <li style="border-bottom: 0;">Quick Links: </li>
@@ -90,8 +89,7 @@
                     <div class="media-body">
                         <a href="/content/content-managers"><h2 class="media-heading"><i class="fas fa-signature content-editors icon sm visible-xs-inline"></i>Content Managers</h2></a>
                         <p>
-                            Hello, Content Manager! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Hello, Content Manager! Content managers within DNN are users who create, edit, and maintain content. Content comes in all shapes and sizes. It may be text, images, videos and any type you can imagine. Content can be managed within the HTML module, various structured content modules, the digital asset manager, and custom or third party modules.
                         </p>
                         <ul class="popular-topics">
                             <li style="border-bottom: 0;">Quick Links: </li>
@@ -120,8 +118,7 @@
                     <div class="media-body">
                         <a href="/content/developers"><h2 class="media-heading"><i class="fas fa-code developers icon sm visible-xs-inline"></i>Developers</h2></a>
                         <p>
-                            Hello, Developer! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Hello, Developer! DNN has an open API and many extension points. Developers can create custom DNN extensions using various development approaches. The content in this section will help you get started and learn more about DNN's extensibility model and applicable development patterns. 
                         </p>
                         <ul class="popular-topics">
                             <li style="border-bottom: 0;">Quick Links: </li>
@@ -152,8 +149,7 @@
                     <div class="media-body">
                         <a href="/content/designers"><h2 class="media-heading"><i class="fas fa-fill-drip designers icon sm visible-xs-inline"></i>Designers</h2></a>
                         <p>
-                            Hello, Designer! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Hello, Designer! Designers can achieve any look and feel desired with DNN. The content in this section will help designers and front-end developers alike understand the process for creating themes (formerly referred to as "skins") within DNN. If you can design it in Photoshop you can create it with a DNN theme!
                         </p>
                         <ul class="popular-topics">
                             <li style="border-bottom: 0;">Quick Links: </li>
