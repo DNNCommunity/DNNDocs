@@ -11,7 +11,7 @@
 				apiKey: '28b61113e36d4775658a3e6eec04e94f',
 				indexName: 'dnnsoftware',
 				inputSelector: selector,
-				algoliaOptions: { 'facetFilters': ["tags:api"] },
+				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
 				debug: false // Set debug to true if you want to inspect the dropdown
 			}	
 		}
