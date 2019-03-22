@@ -428,4 +428,4 @@
 ## [More Resources](xref:more-resources)
 
 <!-- START OF "GLOSSSARY" NAV ITEM -->
-# [Glossary](xref:glossary)
+# [Glossary](xref:admin-glossary)

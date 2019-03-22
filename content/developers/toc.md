@@ -28,5 +28,5 @@
 ## [Unsupported MVC Features](xref:unsupported-mvc-features)
 # [SPA Module Development](xref:spa-module-development)
 # [Web Forms Module Development](xref:web-forms-module-development)
-# [Glossary](xref:glossary)
+# [Glossary](xref:developers-glossary)
 # [References](developer-references/index.md)
