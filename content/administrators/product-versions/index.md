@@ -15,8 +15,8 @@ related-topics: administrators-included-modules-overview,requirements,dnn-overvi
 
 |**Release Date**|**Platform**|**Evoq**|  |
 |---|---|---|---|
-|2018 Oct 01|9.2.0 [GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.2)|9.2.2|[Release Notes](xref:relnotes-2018-oct-01)|
-|2018 Aug 08|9.2.0 [GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.1)|9.2.1|[Release Notes](xref:relnotes-2018-aug-08)|
+|2018 Oct 01|9.2.2 [GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.2)|9.2.2|[Release Notes](xref:relnotes-2018-oct-01)|
+|2018 Aug 08|9.2.1 [GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.1)|9.2.1|[Release Notes](xref:relnotes-2018-aug-08)|
 |2018 Mar 22|9.2.0 [GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.0)|9.2.0|[Release Notes](xref:relnotes-2018-mar-22)|
 |2017 Jul 05|9.1.1 [GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1)|9.1.1|[Release Notes](xref:relnotes-2017-jul-05)|
 |2017 Apr 26|9.1.0 [GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.0)|9.1.0|[Release Notes](xref:relnotes-2017-apr-26)|
