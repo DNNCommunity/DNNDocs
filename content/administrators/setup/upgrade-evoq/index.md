@@ -28,7 +28,8 @@ In the test environment,
 
 Even if your site is a web farm, only one server is required for the test environment. To avoid conflicts in a web farm, the upgrade is performed only with a single server enabled.
 
- <div class="blue-callout"><strong>Tip:</strong> Take notes about the steps you perform and the configuration settings you use, so you can repeat them exactly when you upgrade your live site.
+> [!Tip]
+> Take notes about the steps you perform and the configuration settings you use, so you can repeat them exactly when you upgrade your live site.
 
 After you confirm that the upgraded test site works properly, create another backup of the live database and the live file system to include changes made to the live site during your test.
 
@@ -47,7 +48,8 @@ If you decide to simply use the upgraded test site as your new live site, you ca
 
 3.  Close all other applications that might write-lock web.config for any reason.
 
-    Note: The installation modifies web.config. If your web.config is substantially different from a standard web.config, you might encounter problems during the upgrade. Example, if nodes that are typically found in web.config are stored in other .config files, the application may not be able to access those nodes.
+    > [!Note]
+    > The installation modifies web.config. If your web.config is substantially different from a standard web.config, you might encounter problems during the upgrade. Example, if nodes that are typically found in web.config are stored in other .config files, the application may not be able to access those nodes.
 
 4.  To prevent automated tasks from executing during the upgrade, [disable the Scheduler](xref:configure-scheduler).
 5.  To prevent older installation files from executing during the upgrade, go to the root directory of the website and delete the install folder.
@@ -55,21 +57,23 @@ If you decide to simply use the upgraded test site as your new live site, you ca
     1.  Go to [the Downloads section of dnnsoftware.com](https://www.dnnsoftware.com/services/customer-support/success-network/software-downloads).
     2.  Click the Upgrade button for your Evoq product.
 
-         <div class="blue-callout"><strong>Note:</strong> If Windows requires you to unblock the zip file after download, find the file in Windows Explorer, right-click and select Properties. Then click Unblock, if the option exists.</div>
+         > [!Note]
+         > If Windows requires you to unblock the zip file after download, find the file in Windows Explorer, right-click and select Properties. Then click Unblock, if the option exists.</div>
 
     3.  Extract the contents of the zip file to the root folder of the test website, while preserving the folder structure.
 
         If prompted, choose to merge all folders and overwrite all existing files.
 
-7.  Go to https://localhost/install/install.aspx?mode=upgrade to start the installation.
+7.  Go to ```https://localhost/install/install.aspx?mode=upgrade``` to start the installation.
 
-     <div class="blue-callout">Note: If using a portal alias that was added to the machine's hosts file, use that fully-qualified domain name, instead of localhost.</div>
+     > [!Note]
+     > If using a portal alias that was added to the machine's hosts file, use that fully-qualified domain name, instead of localhost.</div>
 
     If you encounter ANY error:
 
     *   Note the error message, if any.
     *   Take screenshots, including the install.aspx page.
-    *   Copy these files from the /portals/_default/logs folder to a safe location:
+    *   Copy these files from the ```/portals/_default/logs``` folder to a safe location:
         *   InstallerLog\[currentdate\].resources
         *   \[currentdate\].log.resources
     *   Contact [Evoq Customer Support](https://www.dnnsoftware.com/services/customer-support).
