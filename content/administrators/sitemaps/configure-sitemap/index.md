@@ -37,11 +37,14 @@ related-topics: submit-site-Google-search,module-sitemap
     |---|---|
     |<strong>Sitemap URL</strong>|The location of the sitemap.|
     |<strong>Exclude URLs With a Priority Lower Than</strong>|The lowest priority to include in the sitemap.|
-    |<strong>Include Hidden Pages</strong>If enabled (On), pages that are not visible in the menu are also included in the sitemap.|
-    |<strong>Days to Cache Sitemap For</strong>|The number of days before the sitemap is regenerated. If set to Disable Caching, the sitemap is regenerated, only when requested.Tip: If you have a large site (i.e., at least 50,000 URLs), cache the sitemap for at least one day to help improve your site's performance.|
+    |<strong>Include Hidden Pages</strong>|If enabled (On), pages that are not visible in the menu are also included in the sitemap.|
+    |<strong>Days to Cache Sitemap For</strong>|The number of days before the sitemap is regenerated. If set to Disable Caching, the sitemap is regenerated, only when requested.|
     |<strong>Clear Cache</strong>|Click/Tap to delete all cached sitemaps. A new sitemap is generated at the next request.|
     |<strong>Minimum Priority for Pages</strong>|If Use page level based priorities? is checked, the lowest priority to assign to pages. Example, if the minimum priority is 0.7,<ul><li>Root/Level 1 gets a priority of 1.0.</li><li>Level 2 gets a priority of 0.9.</li><li>Level 3 gets a priority of 0.8.</li><li>Level 4 and all lower levels get a priority of 0.7.</li></ul>|
     |<strong>Use Page Level Based Priorities</strong>|If enabled (On), the priority for each page is computed based on its hierarchy level. Top level pages are assigned a priority of 1.0, and lower levels are 0.1 less than the next higher level (i.e., the second level pages are assigned a priority of 0.9; the third level, 0.8).|
+
+    > [!Tip]
+    > If you have a large site (i.e., at least 50,000 URLs), cache the sitemap for at least one day to help improve your site's performance.
     
 4.  Enable and configure the sitemap providers you want to use.
     
