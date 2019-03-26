@@ -69,5 +69,5 @@ Now in any of your controllers you can access these settings using `Settings.Foo
 the same syntax in your razor files. This will declutter your front end code. A more 
 extensive example can be found in this module which implements this:
 
-[https://github.com/DNN-Connect/Conference]([https](https://github.com/DNN-Connect/Conference))
+[https://github.com/DNN-Connect/Conference](https://github.com/DNN-Connect/Conference)
 
