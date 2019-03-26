@@ -13,7 +13,8 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,configur
 
 You can choose to be automatically notified if DNN releases a newer version.
 
-Note: This setting only triggers a notification. It does not perform the upgrade.
+> [!Note]
+> This setting only triggers a notification. It does not perform the upgrade.
 
 ## Prerequisites
 
