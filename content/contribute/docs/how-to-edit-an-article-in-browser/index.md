@@ -23,7 +23,7 @@ The easiest way to edit a DNN Doc file is to edit it in the browser on GitHub.co
 
 3. Edit the markdown as needed, opt to "Create a New Branch", and propose the change.
 
-![Edit Markdown in browser](/images/In-Browser-Pull-Request.gif)
+![Edit Markdown in browser](/images/in-browser-pull-request.gif)
 
 
 
