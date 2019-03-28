@@ -106,6 +106,10 @@ A specific website in a DNN installation, which can host multiple websites that 
 
 The most privileged administrative account with complete access to all websites within the DNN installation and to all installed apps.
 
+**tab**
+
+This is a term that you may see used and it simply describes an instance of a page/webpage in DNN. "Page" and "Tab" are interchangeable terms from an end-user perspective. You'll still see `tab` and `tabs` used exclusively in the API and database.
+
 **theme object**
 
 A type of DNN extension used in themes to provide additional functionality for common UI elements on a webpage. Examples: menu bar, copyright notice, login/registration links, privacy link, terms of service link, and search box. Theme objects are configured by the theme designer.
