@@ -62,3 +62,10 @@ Serving "C:\dev\DNNDocs\_site" on https://localhost:8080
 ```
 
 Open that page up in your browser to see the documentation.
+
+[https://localhost:8080](https://localhost:8080)
+
+> [!NOTE]
+> Depending on the configuration of your development environment, you may need to use the non-SSL version of the local website URL instead.
+
+[http://localhost:8080](http://localhost:8080)
