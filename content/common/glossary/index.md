@@ -79,6 +79,9 @@ A DNN object that includes all components of a webpage, including scripts and UI
 
 A layout template area that holds a module. Theme designers determine the names and positions of panes. Administrators and webpage editors select the pane for each module added to the webpage. When the webpage is viewed, the pane can display content, depending on the module's functionality.
 
+**portal**
+Portal is a term that was originally used during the earlier versions of DNN and has since been replaced with "site" or "website."  Essentially, a portal is a single website in your DNN instance, and DNN can have one or many portals/sites in a single instance of DNN.  You will still see the `portal` and `portals` term used exclusively in the API and database.
+
 **portal alias**
 
 A URL that refers to a specific website in a DNN installation. Examples: `https://www.example.com` (parent portal alias), `https://www.example.com/pathname` (child portal alias). Each website can have one or more portal aliases.
