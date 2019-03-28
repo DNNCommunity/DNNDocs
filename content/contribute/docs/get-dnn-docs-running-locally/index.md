@@ -37,10 +37,17 @@ c:\dev> cd DNNDocs
 
 Next, you'll need to fork and/or clone the [Dnn.Platform repository](https://github.com/dnnsoftware/Dnn.Platform) into a **sub-folder** of the `DNNDocs` root folder. The reason is that the project reads the XML comments in the source code and creates API documentation from that, in addition to the documentation center articles.
 
-Please note this could take a few minutes depending on your connection speed.
+Please note that you don't need to create the sub-folder, it will be created for you when running the command shown below.  Also, the cloning for this repository could take a few minutes depending on your internet connection speed.
 ```
-c:\dev\dnn-docs>git clone https://github.com/dnnsoftware/Dnn.Platform.git
+c:\dev\DNNDocs>git clone https://github.com/dnnsoftware/Dnn.Platform.git
 ```
+
+If you've run the `clone` command from the path we've been using, you'll now have the DNN repository at the expected path as in the example below. 
+
+_c:\dev\DNNDocs\Dnn.Platform_  
+
+> [!NOTE]
+> Don't worry about the DNN source code existing here. It is already being ignored for any future commits.
 
 ## Running the DNN Docs Project Locally
 You should now be able to run the development version of the docs locally with the following command:
