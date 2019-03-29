@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FA0B4F79-66FD-4F55-BBB9-0CAC9CD4F095}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DNNCommunity.DNNDocs.Plugins.GitHubStats</RootNamespace>
+    <AssemblyName>DNNCommunity.DNNDocs.Plugins.GitHubStats</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HtmlAgilityPack, Version=1.4.9.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>packages\HtmlAgilityPack.1.4.9\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DocAsCode.Build.Common, Version=2.40.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.DocAsCode.Build.Common.2.40.12\lib\net462\Microsoft.DocAsCode.Build.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DocAsCode.Build.ConceptualDocuments, Version=2.40.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.DocAsCode.Build.ConceptualDocuments.2.40.12\lib\net462\Microsoft.DocAsCode.Build.ConceptualDocuments.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DocAsCode.Common, Version=2.40.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.DocAsCode.Common.2.40.12\lib\net462\Microsoft.DocAsCode.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DocAsCode.DataContracts.Common, Version=2.40.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.DocAsCode.DataContracts.Common.2.40.12\lib\net462\Microsoft.DocAsCode.DataContracts.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DocAsCode.MarkdownLite, Version=2.40.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.DocAsCode.MarkdownLite.2.40.12\lib\net462\Microsoft.DocAsCode.MarkdownLite.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DocAsCode.Plugins, Version=2.40.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.DocAsCode.Plugins.2.40.12\lib\net462\Microsoft.DocAsCode.Plugins.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DocAsCode.YamlSerialization, Version=2.40.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.DocAsCode.YamlSerialization.2.40.12\lib\net462\Microsoft.DocAsCode.YamlSerialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Collections.Immutable.1.5.0\lib\netstandard2.0\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Composition.AttributedModel, Version=1.0.31.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Composition.AttributedModel.1.0.31\lib\portable-net45+win8+wp8+wpa81\System.Composition.AttributedModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Composition.Convention, Version=1.0.31.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Composition.Convention.1.0.31\lib\portable-net45+win8+wp8+wpa81\System.Composition.Convention.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Composition.Hosting, Version=1.0.31.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Composition.Hosting.1.0.31\lib\portable-net45+win8+wp8+wpa81\System.Composition.Hosting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Composition.Runtime, Version=1.0.31.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Composition.Runtime.1.0.31\lib\portable-net45+win8+wp8+wpa81\System.Composition.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Composition.TypedParts, Version=1.0.31.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Composition.TypedParts.1.0.31\lib\portable-net45+win8+wp8+wpa81\System.Composition.TypedParts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.4.0\lib\net461\System.ValueTuple.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="YamlDotNet, Version=6.0.0.0, Culture=neutral, PublicKeyToken=ec19458f3c15af5e, processorArchitecture=MSIL">
+      <HintPath>packages\YamlDotNet.6.0.0\lib\net45\YamlDotNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TopContributorsBuildStep.cs" />
+    <Compile Include="TopContributorProcessor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PostBuildEvent>copy "$(TargetPath)\$(TargetFileName)" "$(SolutionDir)..\..\templates\dnn-docs\plugins\$(TargetFileName)"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetFileName)" "$(SolutionDir)..\..\templates\dnn-docs\plugins\$(TargetFileName)"</PostBuildEvent>
+  </PropertyGroup>
+</Project>
