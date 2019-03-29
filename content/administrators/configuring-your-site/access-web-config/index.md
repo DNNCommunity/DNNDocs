@@ -23,6 +23,7 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,configur
     
 3.  Choose the configuration file from the dropdown list.
     
-      
-    
     ![Config Files dropdown > web.config](/images/scr-ConfigMgr-ConfigFiles-webconfig-E91.png)
+    
+> [!IMPORTANT]
+> When you edit the web.config, specifically, you should know that doing so could have a negative impact on the performance of your website.  The saved file will trigger the website to restart, which will clear all cache. This could result in the website appearing to load slowly and even throw errors temporarily in some instance.  It's suggested to only update the web.config file during non-peak hours on mission-critical websites.
