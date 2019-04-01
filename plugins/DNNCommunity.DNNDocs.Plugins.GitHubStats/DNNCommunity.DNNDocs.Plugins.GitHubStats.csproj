@@ -97,8 +97,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TopContributorsBuildStep.cs" />
-    <Compile Include="TopContributorProcessor.cs" />
+    <Compile Include="PageStatsProcessor.cs" />
+    <Compile Include="PageStatsBuildStep.cs" />
+    <Compile Include="Shared\GitHub.cs" />
+    <Compile Include="RepoStatsBuildStep.cs" />
+    <Compile Include="RepoStatsProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
