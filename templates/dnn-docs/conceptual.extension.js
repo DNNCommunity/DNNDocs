@@ -15,6 +15,9 @@ exports.postTransform = function (model) {
   if(timeToRead < 1) {
     model.timeToRead = "Less than 1 minute";
   }
+  else if(timeToRead == 1) {
+    model.timeToRead = timeToRead + " minute";
+  }
   else {
     model.timeToRead = timeToRead + " minutes";
   }
