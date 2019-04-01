@@ -12,8 +12,8 @@ using Newtonsoft.Json;
 
 namespace DNNCommunity.DNNDocs.Plugins.GitHubStats
 {
-    [Export(nameof(TopContributorsProcessor), typeof(IPostProcessor))]
-    public class TopContributorsProcessor : IPostProcessor
+    [Export(nameof(PageStatsProcessor), typeof(IPostProcessor))]
+    public class PageStatsProcessor : IPostProcessor
     {
         // TODO: implements IPostProcessor
 

@@ -1150,3 +1150,23 @@ div.embeddedvideo iframe {
 /**************************
 	END HOME PAGE 
 **************************/
+
+
+/**************************
+	PAGE STATS
+**************************/
+
+.page-stats {
+  border-bottom: #00A4E4 2px solid;
+  margin-bottom: 20px;
+  height: 30px;
+}
+
+.page-stats img {
+  max-width: 20px;
+  margin-right: 5px;
+}
+
+/**************************
+	END PAGE STATS 
+**************************/
