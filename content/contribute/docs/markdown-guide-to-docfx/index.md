@@ -17,7 +17,7 @@ For example, you’ll do things like ```**A BOLDED WORD**``` instead of typing `
 > [!TIP]
 > Here’s a [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to help you get started.
 
-![Markdown Syntax](/images/markdown.jpg)
+![Markdown Syntax](/images/Markdown.jpg)
 
 ## Front Matter 
 

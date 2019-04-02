@@ -27,10 +27,10 @@ The DNN Docs system uses [DocFx](https://dotnet.github.io/docfx/), [Markdown](ht
 There are two primary ways to contribute to the documentation on this website. DNN Docs can be updated in the browser in GitHub and also locally on one's machine. The latter is only necessary if you're making complex edits and maybe are more technical.
 
 ### Editing in GitHub
-If you are just updating text, typos, or adding a few sentences it may be easiest to edit the content directly from GitHub's browser. If you wish to edit directly in the browser check out the [Editing DNN Docs Online in GitHub](xref:). Be sure to also check out the [Markdown Guide to DocFX](xref:markdown-guide-to-docfx) to ensure you're formatting the code correctly.
+If you are just updating text, typos, or adding a few sentences it may be easiest to edit the content directly from GitHub's browser. If you wish to edit directly in the browser check out the [Editing DNN Docs Online in GitHub](xref:how-to-edit-an-article-in-browser). Be sure to also check out the [Markdown Guide to DocFX](xref:markdown-guide-to-docfx) to ensure you're formatting the code correctly.
 
 ### Editing Using DocFX
-If you are making more complex edits you may want to get DNN Docs running on your local machine. In this case you'll want to follow the [Editing DNN Docs Locally](xref:)
+If you are making more complex edits you may want to [get DNN Docs running on your local machine](xref:get-dnn-docs-running-locally). In this case, after getting DNN Docs running locally, you'll follow the [Editing DNN Docs Locally](xref:how-to-edit-an-article) guide.
 
 
 ## Helpful Links
