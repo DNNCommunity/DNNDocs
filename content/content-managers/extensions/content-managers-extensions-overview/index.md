@@ -13,7 +13,7 @@ related-topics: content-managers-connectors-overview,content-managers-workflows-
 
 A DNN extension can contain a module, a theme, or other components that extend the functionality of the DNN Platform.
 
-Thousands of third-party modules and themes are available from the [DNN Store](https://store.dnnsoftware.com). There are extensions for sale, including versions that include the source code, as well as some free extension.
+Thousands of third-party modules and themes are available from the [DNN Store](https://store.dnnsoftware.com). There are extensions for sale, including versions that include the source code, as well as some free extensions.
 
 You can also create your custom [modules](xref:create-module) and [themes](xref:create-theme).
 
