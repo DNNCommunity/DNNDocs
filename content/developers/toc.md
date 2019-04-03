@@ -9,6 +9,7 @@
 # [Extensions](xref:developers-extensions-overview)
 ## [DNN Manifest Schema](xref:dnn-manifest-schema)
 ## [Pack Extension](xref:developers-pack-extension)
+## [Module Injection Filter](xref:module-injection-filter)
 # [JWT](xref:developers-jwt-overview)
 ## [Access Token](xref:developers-jwt-access-token)
 ## [Auth Handler](xref:developers-jwt-auth-handler)
