@@ -1,0 +1,41 @@
+---
+uid: HTML-module
+topic: HTML-module
+locale: en
+title: HTML/Text module
+dnneditions: Platform
+dnnversion: 09.02.20
+parent-topic: content-managers-content-with-modules-overview
+related-topics: add-module-to-page-pb-all,add-content-to-page-quickly-pb-all,configure-module-on-page-pb-all,delete-module-from-page-pb-all,restore-deleted-modules,purge-deleted-modules
+---
+
+# HTML/Text module introduction
+
+Every DNN instance comes with the generic HTML/Text module. This allows editors to add/edit/delete content. To do so, they can use a wysiwyg-editor that uses icons we know from Word and no technical knowledge is required. 
+That said, people who are familiar with HTML can also access the source and work on their own code.
+
+## WYSIWYG
+
+The default editor comes with all features that one might expect. You can think of aligning text, insert images or videos, links, mark up your text (like bold, underline or italic) and utilize lists (ordered / unordered). Although not recommended by designers, it is also possible to choose the font, font color and font size. If these are not available to you, chances are that a colleague has removed those options (the configuration of the HTML module has a lot of options) in order to guard the company style. 
+
+## Version history
+
+Every time the content is saved, a new version is created. This allows you to roll back to a previous version but it also allows you to review who created a version and at what date/time.
+
+## Permissions
+
+Like any of the modules within DNN, the HTML/Text module has a very refined permission system. You are able to set module permissions to view, edit or even localization permissions to a certain role or individual(s). For instance, the job opening can be viewed by anyone but only the HR department can edit.
+
+## Reuse content
+
+Like any of the modules within DNN, the HTML/text module can be reused on another page. When choosing this option you can either link the modules (if A is changed, so will B) or copy the modules (if A is changed, B is untouched). If it involves content that has to be displayed on all pages, you can do this by checing the option 'Display on all pages' within the advanced section of the module settings.
+
+## Tokens
+
+The HTML module can be set to allow tokens. This can be done by checking the option 'replace tokens' (module settings - HTML module settings). This allows you to use the DNN core tokens https://www.dnnsoftware.com/wiki/tokens
+With tokens you can insert dynamic content like the user name (provided he/she is logged in) by using the token [User:DisplayName]
+
+## Publication date
+
+One of the many hidden gems is that publication dates can be set at module level. The module settings of the HTML module (but also other modules) can have a start and end date. This allows you to put your big news of banner or anything you put in the HTML module, and have it hidden until the publication date starts. 
+You can find this at the bottom of the module settings tab.
