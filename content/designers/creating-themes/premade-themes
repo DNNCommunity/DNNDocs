@@ -1,0 +1,33 @@
+---
+uid: premade-themes
+uid: premade-themes
+topic: premade-themes
+locale: en
+title: Premade Themes
+dnneditions: Platform
+dnnversion: 09.02.02
+related-topics: create-layout-template,create-container,premade-themes
+---
+
+# Premade, free, open source themes
+
+For some the best way to learn anything is to copy. See a finished product, analyze and reproduce. There are several free, open source themes available for this purpose. Ór if the theme matches your wished: good for you :-)
+
+## Bootstrap 4
+
+The latest version of Bootstrap and fully loaded with all kinds of goodies. You need to have some tools working (like css preprocessors) but once that's all settled, this is a very nice way to go. Some links to free themes.
+- NVQuicktheme, made by nvisionative: https://www.nvquicktheme.com 
+- Instant Bootstrap 4 made by 2SIC: https://2sxc.org/en/blog/post/new-dnn-theme-bootstrap4-instant-with-sass
+- Bootster, made by DNNConsulting: http://www.dnnbootster.com/
+- DNNContrac, made bij DNNConsulting: http://dnncontra.com/
+
+## Bootstrap 3
+
+A little older but still used frequently. Certainly if you want to keep things simple (just css/html) this might be th eway to go.
+- Mdesign, made by DNNConsulting: http://www.dnnmdesign.com/
+- Minimalist, made by DNNConsulting: http://www.dnnminimalist.com/
+- Hammerflex, made by Christoc: https://www.christoc.com/Products/HammerFlex
+
+## Theme editor
+
+DNNConsulting has a theme editor (http://www.dnnthemeeditor.com/) that is free and open source. This allows you to change headings, font size etc. Hardcore devs may find it bloating the code but for others this might be a very nice way to offer non technical folks control over several items in the skin. 
