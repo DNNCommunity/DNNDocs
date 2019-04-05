@@ -18,8 +18,8 @@ A design intended to be viewed using HTML 5 will not look correct if rendered us
 
 > [!NOTE]
 > By default, DNN uses the HTML 4.0 Transitional DocType (`<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">`), if no Theme DocType is specified. But this Fallback doctype can be changed.
-> In DNN 8 you can set the Fallback DocType via **Host \> Host Settings** 
-> In DNN 9 there's currently no interface for this, but you can create or edit a record in the "HostSettings" table. SettingName: 'DefaultDocType' / SettingValue: 3, will set the Fallback Doctype to HTML5
+> In DNN 8 you can set the Fallback DocType via **Host \> Host Settings**.
+> In DNN 9 there's currently no interface for this, but you can create or edit a record in the "HostSettings" table. SettingName: 'DefaultDocType' / SettingValue: 3, will set the Fallback Doctype to HTML5.
 
 ## Steps
 
