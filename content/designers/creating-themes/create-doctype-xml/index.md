@@ -29,16 +29,17 @@ A design intended to be viewed using HTML 5 will not look correct if rendered us
     If your layout template file is called MyAwesomeLayout.html, its specific DocType file must be named MyAwesomeLayout.doctype.xml.
 
 2.  Enter the appropriate code in your DocType file.
-    *   HTML 4.01 Transitional
+
+    *   HTML5
 
         ```
 
             <SkinDocType>
-                <![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd">]]>
+                <![CDATA[<!DOCTYPE html>]]>
             </SkinDocType>
 
         ```
-
+    
     *   XHTML Strict
 
         ```
@@ -59,12 +60,13 @@ A design intended to be viewed using HTML 5 will not look correct if rendered us
 
         ```
 
-    *   HTML5
+     
+    *   HTML 4.01 Transitional
 
         ```
 
             <SkinDocType>
-                <![CDATA[<!DOCTYPE html>]]>
+                <![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd">]]>
             </SkinDocType>
 
         ```
