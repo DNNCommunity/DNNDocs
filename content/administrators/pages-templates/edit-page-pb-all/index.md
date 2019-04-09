@@ -16,6 +16,6 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
 1.  Go to the page to edit.
 2.  Go to **Persona Bar \> Edit**.
     
-    ![Persona Bar > Edit](/images/scr-pbar-all-Edit-E91.png)
+    ![Persona Bar > Edit](/images/scr-pbar-all-Edit-E91-platform.png)
     
 3.  Add, configure, edit, delete, or move the modules on the page.
