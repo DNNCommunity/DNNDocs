@@ -19,7 +19,7 @@ related-topics: edit-site-properties,view-site,delete-site,move-site-to-another-
 
 1.  Go to **Persona Bar \> Manage \> Sites** .
     
-    ![Persona Bar > Manage > Sites](/images/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Sites](/images/scr-pbar-host-Manage-E91-platform.png)
     
 2.  Go to the **Sites** tab.
     
