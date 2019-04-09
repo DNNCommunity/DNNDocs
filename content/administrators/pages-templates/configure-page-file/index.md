@@ -15,7 +15,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
 
 1.  Go to **Persona Bar \> Content \> Pages**.
     
-    ![Persona Bar > Content > Pages](/images/scr-pbar-host-Content-E91.png)
+    ![Persona Bar > Content > Pages](/images/scr-pbar-host-Content-E91-platform.png)
     
 2.  In the **Pages** page, hover over the page to configure, then click/tap the gear icon.
     
