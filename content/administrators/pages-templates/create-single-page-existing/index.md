@@ -15,7 +15,7 @@ related-topics: create-single-page-standard,create-single-page-url,create-single
 
 1.  Go to **Persona Bar \> Content \> Pages**.
     
-    ![Persona Bar > Content > Pages](/images/scr-pbar-host-Content-E91.png)
+    ![Persona Bar > Content > Pages](/images/scr-pbar-host-Content-E91-platform.png)
     
 2.  Click/Tap **Add Page**.
     
