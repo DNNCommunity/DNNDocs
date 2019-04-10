@@ -13,17 +13,15 @@ related-topics: create-template-based-on-page-pb-all,create-template-based-on-an
 
 ## Steps
 
-1.  Go to **Persona Bar \> Manage \> Templates**.
+1.  Go to **Persona Bar \> Manage \> Site Assets**.
     
-    ![Persona Bar > Manage > Templates](/images/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Templates](/images/scr-pbar-host-Manage-E91-platform.png)
     
-2.  In the Page Templates list, hover over the template to edit/delete.
-    
-      
-    
-    ![Pencil icon / X icon to edit/delete the template](/images/scr-pb-PageTemplates-EditDelete.png)
+2.  In the Templates list, select a template and right-click to download and edit or delete.
     
       
     
-    *   To edit, click/tap the pencil icon.
-    *   To delete, click/tap the X icon, then confirm.
+    ![Pencil icon / X icon to edit/delete the template](/images/platform-site-assets-templates.jpg)
+    
+      
+    
