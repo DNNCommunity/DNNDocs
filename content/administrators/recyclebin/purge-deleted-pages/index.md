@@ -15,7 +15,7 @@ related-topics: create-single-page-standard,create-single-page-existing,create-s
 
 1.  Go to **Persona Bar \> Content \> Recycle Bin**.
     
-    ![Persona Bar > Content > Recycle Bin](/images/scr-pbar-host-Content-E91.png)
+    ![Persona Bar > Content > Recycle Bin](/images/scr-pbar-host-Content-E91-platform.png)
     
 2.  Go to the **Pages** tab.
     
