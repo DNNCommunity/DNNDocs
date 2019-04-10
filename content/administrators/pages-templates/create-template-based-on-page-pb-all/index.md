@@ -15,7 +15,7 @@ related-topics: create-template-based-on-another-template-pb-all,edit-delete-tem
 
 1.  Go to **Persona Bar \> Content \> Pages**.
     
-    ![Persona Bar > Content > Pages](/images/scr-pbar-host-Content-E91.png)
+    ![Persona Bar > Content > Pages](/images/scr-pbar-host-Content-E91-platform.png)
     
 2.  In the **Pages** page, hover over the page, then click/tap the gear icon.
     
