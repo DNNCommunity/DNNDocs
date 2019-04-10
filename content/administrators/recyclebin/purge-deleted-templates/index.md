@@ -11,6 +11,9 @@ related-topics: create-template-based-on-page-pb-all,create-template-based-on-an
 
 # Purge Deleted Templates
 
+> [!NOTE]
+> Purging deleted templates is an evoq only feature
+
 ## Steps
 
 1.  Go to **Persona Bar \> Content \> Recycle Bin**.
