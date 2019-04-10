@@ -15,7 +15,7 @@ related-topics: create-template-based-on-page-pb-all,edit-delete-template-pb-all
 
 1.  Go to **Persona Bar \> Manage \> Templates**.
     
-    ![Persona Bar > Manage > Templates](/images/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Templates](/images/scr-pbar-host-Manage-E91-platform.png)
     
 2.  In the **Page Templates** list, click/tap **Add Template**.
     
