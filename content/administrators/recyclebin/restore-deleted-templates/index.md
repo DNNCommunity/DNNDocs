@@ -11,6 +11,9 @@ related-topics: create-template-based-on-page-pb-all,create-template-based-on-an
 
 # Restore Deleted Templates
 
+ > [!NOTE]
+ > Restoring deleted templates is an Evoq only feature
+
 ## Steps
 
 1.  Go to **Persona Bar \> Content \> Recycle Bin**.
