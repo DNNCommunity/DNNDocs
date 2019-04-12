@@ -19,7 +19,7 @@ related-topics: update-site-info,add-metadata-to-pages,configure-messaging,acces
 
 1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
-    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91-platform.png)
     
 2.  Go to the **Site Behavior** tab, and then the **Default Pages** subtab.
     
