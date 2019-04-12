@@ -19,7 +19,7 @@ related-topics: update-site-info,assign-key-pages,configure-messaging,access-web
 
 1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
-    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91-platform.png)
     
 2.  Go to the **Site Behavior** tab, and then the **Default Pages** subtab.
     
