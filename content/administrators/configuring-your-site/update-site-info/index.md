@@ -19,7 +19,7 @@ related-topics: assign-key-pages,add-metadata-to-pages,configure-messaging,acces
 
 1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
-    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91-platform.png)
     
 2.  Go to the **Site Info** tab.
     
