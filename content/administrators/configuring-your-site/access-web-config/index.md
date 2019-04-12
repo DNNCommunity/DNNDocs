@@ -15,7 +15,7 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,configur
 
 1.  Go to **Persona Bar \> Settings \> Config Manager**.
     
-    ![Persona Bar > Settings > Config Manager](/images/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Config Manager](/images/scr-pbar-host-Settings-E91-platform.png)
     
 2.  Go to the **Config Files** tab.
     
