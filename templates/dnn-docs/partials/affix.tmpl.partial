@@ -7,7 +7,7 @@
       <ul class="nav">
         {{#docurl}}
         <li>
-          <a href="{{docurl}}" class="btn btn-default">{{__global.improveThisDoc}}</a>
+          <a href="{{docurl}}" target="_blank" class="btn btn-default">{{__global.improveThisDoc}}</a>
         </li>
         {{/docurl}}
         {{#sourceurl}}
