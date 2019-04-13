@@ -1160,7 +1160,10 @@ div.embeddedvideo iframe {
 .page-stats {
   border-bottom: #00A4E4 2px solid;
   margin-bottom: 20px;
-  height: 30px;
+  height: auto;
+  padding-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .page-stats img {
