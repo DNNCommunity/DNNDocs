@@ -3,7 +3,7 @@ uid: set-up-iis
 topic: set-up-iis
 locale: en
 title: Enable and Set Up IIS
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-setup-overview
 previous-topic: set-up-dnn-folder
