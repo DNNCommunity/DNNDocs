@@ -3,7 +3,7 @@ uid: upgrade-evoq
 topic: upgrade-evoq
 locale: en
 title: Upgrade Evoq
-dnneditions:
+dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-setup-overview
 previous-topic: run-installation-wizard
