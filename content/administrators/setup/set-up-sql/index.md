@@ -3,7 +3,7 @@ uid: set-up-sql
 topic: set-up-sql
 locale: en
 title: Install and Set Up SQL
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-setup-overview
 previous-topic: set-up-iis
