@@ -3,7 +3,7 @@ uid: administrators-setup-overview
 topic: administrators-setup-overview
 locale: en
 title: Setting Up DNN
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.03.01
 parent-topic: administrators-overview
 links: ["[DNN Community Blog: Installing DNN by Clinton Patterson](https://www.dnnsoftware.com/community-blog/cid/155070/installing-dnn)","[Setting up your DotNetNuke Module Development Environment by Chris Hammond](https://www.christoc.com/Tutorials/All-Tutorials/aid/1)"]
