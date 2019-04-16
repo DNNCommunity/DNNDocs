@@ -3,7 +3,7 @@ uid: administrators-jwt-overview
 topic: administrators-jwt-overview
 locale: en
 title: About JWT Authentication
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-security-overview
 related-topics: administrators-user-accounts-overview,administrators-roles-overview

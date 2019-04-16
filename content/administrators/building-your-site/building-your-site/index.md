@@ -3,7 +3,7 @@ uid: building-your-site
 topic: building-your-site
 locale: en
 title: Building Your Site
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: included-modules,creation-modules
 ---

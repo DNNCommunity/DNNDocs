@@ -3,7 +3,7 @@ uid: administrators-setup-jwt-for-auth
 topic: setup-jwt-for-auth
 locale: en
 title: Set Up JWT Authentication for Your Site
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-jwt-overview
 related-topics: jwt-user-credentials,jwt-server-response,jwt-access-token,jwt-page-request,jwt-auth-handler,about-jwt,jwt-user-credentials,jwt-server-response,jwt-access-token,jwt-page-request,jwt-auth-handler,access-web-config

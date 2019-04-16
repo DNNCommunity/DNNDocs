@@ -3,7 +3,7 @@ uid: administrators-assets-overview
 topic: administrators-assets-overview
 locale: en
 title: About Assets
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-building-your-site-overview
 related-topics: administrators-pages-templates-overview,administrators-microservices-overview,administrators-content-with-modules-overview,empty-recycle-bin

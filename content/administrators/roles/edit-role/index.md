@@ -3,7 +3,7 @@ uid: edit-role
 topic: edit-role
 locale: en
 title: Edit a Role
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-roles-overview
 related-topics: create-role,delete-role,assign-users-to-role,edit-date-range-for-role-membership,view-users-assigned-to-role,remove-users-from-role

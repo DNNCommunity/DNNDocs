@@ -3,7 +3,7 @@ uid: start-vs-project-with-templates
 topic: start-vs-project-with-templates
 locale: en
 title: Start a Visual Studio Project with Templates
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: developers-creating-modules-overview
 previous-topic: create-module-using-templates

@@ -3,7 +3,7 @@ uid: about-assets
 topic: about-assets
 locale: en
 title: About Assets
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 ---
 

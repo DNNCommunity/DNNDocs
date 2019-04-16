@@ -3,7 +3,7 @@ uid: administrators-jwt-server-response
 topic: jwt-server-response
 locale: en
 title: Server Response with JWT
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-jwt-overview
 related-topics: setup-jwt-for-auth,setup-jwt-for-auth,jwt-user-credentials,jwt-access-token,jwt-page-request,jwt-auth-handler,about-jwt

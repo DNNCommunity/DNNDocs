@@ -3,7 +3,7 @@ uid: administrators-import-export-overview
 topic: administrators-import-export-overview
 locale: en
 title: Import / Export
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-sites-overview
 ---

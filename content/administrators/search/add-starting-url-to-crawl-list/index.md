@@ -3,7 +3,7 @@ uid: add-starting-url-to-crawl-list
 topic: add-starting-url-to-crawl-list
 locale: en
 title: Add a Starting URL to Crawl List
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-search-overview
 related-topics: edit-starting-url-in-crawl-list,delete-starting-url-from-crawl-list,add-directory-to-included-list,delete-directory-from-included-list,add-directory-to-excluded-list,delete-directory-from-excluded-list,add-file-extension-to-included-or-excluded-list,delete-file-extension-from-included-or-excluded-list

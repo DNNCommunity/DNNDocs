@@ -3,7 +3,7 @@ uid: submit-site-google-search
 topic: submit-site-google-search
 locale: en
 title: Submit Your Site to Google Search for Indexing
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-sitemaps-overview
 related-topics: configure-sitemap

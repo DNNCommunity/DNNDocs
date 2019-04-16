@@ -3,7 +3,7 @@ uid: create-site
 topic: create-site
 locale: en
 title: Create a Site
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-sites-overview
 related-topics: edit-site-properties,view-site,delete-site,move-site-to-another-server

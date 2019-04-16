@@ -3,7 +3,7 @@ uid: delete-host
 topic: delete-host
 locale: en
 title: Delete a Host Account
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-user-accounts-overview
 related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles,remove-user-from-multiple-roles,edit-user,manage-user-password,delete-user,delete-all-unauthorized-users,restore-deleted-user-account,purge-user-account,restore-multiple-deleted-users,purge-multiple-deleted-users,create-host-account,authorize-host,promote-user-to-host,demote-from-host,manage-host-password,delete-all-unauthorized-hosts,restore-deleted-host-account,purge-host-account

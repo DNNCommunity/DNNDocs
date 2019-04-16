@@ -3,7 +3,7 @@ uid: dnn-manifest-schema
 topic: dnn-manifest-schema
 locale: en
 title: The DNN Manifest Schema
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: developers-about-modules-overview
 related-topics: pack-extension,module-features,module-architecture,developers-creating-modules-overview,about-evs

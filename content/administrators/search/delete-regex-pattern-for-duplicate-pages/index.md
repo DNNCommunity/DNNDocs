@@ -3,7 +3,7 @@ uid: delete-regex-pattern-for-duplicate-pages
 topic: delete-regex-pattern-for-duplicate-pages
 locale: en
 title: Delete Regex Pattern for Duplicate Pages
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-search-overview
 related-topics: add-regex-pattern-for-duplicate-pages,edit-regex-pattern-for-duplicate-pages

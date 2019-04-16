@@ -3,7 +3,7 @@ uid: developers-creating-modules-overview
 topic: developers-creating-modules-overview
 locale: en
 title: Creating a Module
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: developers-about-modules-overview
 related-topics: dnn-manifest-schema,module-features,module-architecture,about-evs

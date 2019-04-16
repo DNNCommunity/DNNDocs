@@ -3,7 +3,7 @@ uid: administrators-security-overview
 topic: administrators-security-overview
 locale: en
 title: Security
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-overview
 ---

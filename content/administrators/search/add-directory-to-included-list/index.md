@@ -3,7 +3,7 @@ uid: add-directory-to-included-list
 topic: add-directory-to-included-list
 locale: en
 title: Add a Directory to Included List for Crawling
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-search-overview
 related-topics: add-starting-url-to-crawl-list,edit-starting-url-in-crawl-list,delete-starting-url-from-crawl-list,delete-directory-from-included-list,add-directory-to-excluded-list,delete-directory-from-excluded-list,add-file-extension-to-included-or-excluded-list,delete-file-extension-from-included-or-excluded-list

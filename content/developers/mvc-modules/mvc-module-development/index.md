@@ -3,7 +3,7 @@ uid: mvc-module-development
 topic: mvc-module-development
 locale: en
 title: MVC Module Development
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: developers-overview
 related-topics: pack-extension,create-module-using-templates,use-module-creator,providers

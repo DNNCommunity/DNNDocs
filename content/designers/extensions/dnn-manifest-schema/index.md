@@ -3,7 +3,7 @@ uid: designers-dnn-manifest-schema
 topic: dnn-manifest-schema
 locale: en
 title: The DNN Manifest Schema
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: designer-references
 related-topics: pack-extension,persona-bar-style-guide,theme-objects-1,designers-included-modules-overview,requirements,product-versions,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,dnn-license,DNN-security,more-resources

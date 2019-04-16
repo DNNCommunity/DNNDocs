@@ -3,7 +3,7 @@ uid: install-extension
 topic: install-extension
 locale: en
 title: Install an Extension
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-extensions-overview
 related-topics: manage-premium-module,allow-module-use,requirements,set-up-dnn

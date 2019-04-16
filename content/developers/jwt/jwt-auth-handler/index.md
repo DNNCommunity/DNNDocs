@@ -3,7 +3,7 @@ uid: developers-jwt-auth-handler
 topic: jwt-auth-handler
 locale: en
 title: JWT Authentication Handler
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: developers-jwt-overview
 related-topics: setup-jwt-for-auth,setup-jwt-for-auth,jwt-user-credentials,jwt-server-response,jwt-access-token,jwt-page-request,about-jwt

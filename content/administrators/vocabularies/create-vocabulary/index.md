@@ -3,7 +3,7 @@ uid: create-vocabulary
 topic: create-vocabulary
 locale: en
 title: Create a Vocabulary
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-vocabularies-overview
 related-topics: edit-vocabulary,delete-vocabulary,add-term-to-vocabulary,edit-term-in-vocabulary,delete-term-from-vocabulary

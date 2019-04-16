@@ -3,7 +3,7 @@ uid: delete-file-version
 topic: delete-file-version
 locale: en
 title: Delete a File Version
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-assets-overview
 related-topics: configure-folder-file-versioning,view-file-versions,restore-file-version,page-file-versioning
