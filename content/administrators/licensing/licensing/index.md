@@ -3,7 +3,7 @@ uid: licensing
 topic: licensing
 locale: en
 title: DNN Evoq Licensing
-dnneditions:
+dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 links: ["[DNN Evoq Licensing](https://dnnsupport.dnnsoftware.com/hc/en-us/articles/360004881714-DNN-Evoq-Licensing)"]
 ---
