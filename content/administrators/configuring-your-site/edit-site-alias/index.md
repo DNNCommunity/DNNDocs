@@ -3,7 +3,7 @@ uid: edit-site-alias
 topic: edit-site-alias
 locale: en
 title: Edit a Site Alias
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-configuring-your-site-overview
 related-topics: configure-url-mapping-site-aliases,add-site-alias,delete-site-alias,change-primary-site-alias

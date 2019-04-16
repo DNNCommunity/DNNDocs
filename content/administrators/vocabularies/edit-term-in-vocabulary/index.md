@@ -3,7 +3,7 @@ uid: edit-term-in-vocabulary
 topic: edit-term-in-vocabulary
 locale: en
 title: Edit a Term in a Vocabulary
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-vocabularies-overview
 related-topics: create-vocabulary,edit-vocabulary,delete-vocabulary,add-term-to-vocabulary,delete-term-from-vocabulary

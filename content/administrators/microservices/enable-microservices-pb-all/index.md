@@ -3,7 +3,7 @@ uid: enable-microservices-pb-all
 topic: enable-microservices-pb-all
 locale: en
 title: Enable Microservices
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-configuring-your-site-overview
 ---

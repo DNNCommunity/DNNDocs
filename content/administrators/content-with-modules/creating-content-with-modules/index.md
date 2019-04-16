@@ -3,7 +3,7 @@ uid: creating-content-with-modules
 topic: creating-content-with-modules
 locale: en
 title: Creating Content with Modules
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: edit-page-pb-all,included-modules,administrators-included-modules-overview,included-modules
 ---

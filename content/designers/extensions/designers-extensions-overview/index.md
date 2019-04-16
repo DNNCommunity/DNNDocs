@@ -3,7 +3,7 @@ uid: designers-extensions-overview
 topic: designers-extensions-overview
 locale: en
 title: Creating Themes
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: designers-overview
 ---

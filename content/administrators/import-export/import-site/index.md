@@ -3,7 +3,7 @@ uid: import-site
 topic: import-site
 locale: en
 title: Import a Site
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-import-export-overview
 related-topics: export-site,transfer-an-export-package

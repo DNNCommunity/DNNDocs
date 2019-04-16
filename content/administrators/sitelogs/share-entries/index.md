@@ -3,7 +3,7 @@ uid: share-entries
 topic: share-entries
 locale: en
 title: Share Log Entries by Email
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-sitelogs-overview
 related-topics: view-site-logs,view-entry-details,clear-log,delete-entries,add-event-type,edit-logged-event-type,delete-logged-event-type,toggle-logging-for-event-type,configure-notices

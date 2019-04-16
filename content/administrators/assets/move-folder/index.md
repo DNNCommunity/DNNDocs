@@ -3,7 +3,7 @@ uid: move-folder
 topic: move-folder
 locale: en
 title: Move a Folder to Another Location
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-assets-overview
 related-topics: create-folder,edit-folder-properties,edit-folder-permissions,delete-folder

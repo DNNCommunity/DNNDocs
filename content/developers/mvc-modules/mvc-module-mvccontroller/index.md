@@ -3,7 +3,7 @@ uid: mvc-module-mvccontroller
 topic: mvc-module-mvccontroller
 locale: en
 title: MVC Controller
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: mvc-module-development
 related-topics: create-module-using-templates,developers-mvc-modules-overview,mvc-module-mvcviews,mvc-module-unittest,unsupported-mvc-features

@@ -3,7 +3,7 @@ uid: add-group-of-synonyms
 topic: add-group-of-synonyms
 locale: en
 title: Add a Group of Synonyms
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-search-overview
 related-topics: edit-group-of-synonyms,delete-group-of-synonyms

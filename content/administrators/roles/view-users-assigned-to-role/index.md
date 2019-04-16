@@ -3,7 +3,7 @@ uid: view-users-assigned-to-role
 topic: view-users-assigned-to-role
 locale: en
 title: View the List of Users Assigned to a Role
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-roles-overview
 related-topics: create-role,edit-role,delete-role,assign-users-to-role,edit-date-range-for-role-membership,remove-users-from-role

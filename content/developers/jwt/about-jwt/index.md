@@ -3,7 +3,7 @@ uid: developers-about-jwt
 topic: about-jwt
 locale: en
 title: About JWT Authentication
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 links: ["[IETF RFC 7519](https://tools.ietf.org/html/rfc7519)","[DNN Presentation: How Evoq Helps You Build Modern Web Applications by Will Morgenweck](https://www.slideshare.net/dnnsoftware/how-evoq-helps-you-build-modern-web-applications)","[jwt.io](https://jwt.io/introduction/)","[Unix time](https://en.wikipedia.org/wiki/Unix_time)"]
 ---

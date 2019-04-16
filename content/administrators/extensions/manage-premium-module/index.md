@@ -3,7 +3,7 @@ uid: manage-premium-module
 topic: manage-premium-module
 locale: en
 title: Manage a Premium Module
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-extensions-overview
 related-topics: install-extension,allow-module-use

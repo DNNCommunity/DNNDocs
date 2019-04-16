@@ -4,7 +4,7 @@ uid: about-extensions
 topic: about-extensions
 locale: en
 title: About Extensions
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 ---
 

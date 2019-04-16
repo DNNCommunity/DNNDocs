@@ -3,7 +3,7 @@ uid: developers-about-modules-overview
 topic: developers-about-modules-overview
 locale: en
 title: About Module Development
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: developers-overview
 ---

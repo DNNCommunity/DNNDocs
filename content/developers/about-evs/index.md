@@ -3,7 +3,7 @@ uid: about-evs
 topic: about-evs
 locale: en
 title: About the Extension Verification Service
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: developers-about-modules-overview
 related-topics: test-module,dnn-manifest-schema,module-features,module-architecture,developers-creating-modules-overview

@@ -3,7 +3,7 @@ uid: administrators-pages-templates-overview
 topic: administrators-pages-templates-overview
 locale: en
 title: Managing Pages and Templates
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-building-your-site-overview
 related-topics: administrators-assets-overview,administrators-microservices-overview,administrators-content-with-modules-overview,empty-recycle-bin

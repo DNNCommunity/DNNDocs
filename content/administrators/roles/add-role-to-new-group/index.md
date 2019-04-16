@@ -3,7 +3,7 @@ uid: add-role-to-new-group
 topic: add-role-to-new-group
 locale: en
 title: Add a Role to a New Group
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-roles-overview
 related-topics: add-role-to-existing-group,view-roles-included-in-group,remove-role-from-group,edit-custom-role-group,delete-custom-role-group

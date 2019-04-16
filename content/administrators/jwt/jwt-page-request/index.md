@@ -3,7 +3,7 @@ uid: administrators-jwt-page-request
 topic: jwt-page-request
 locale: en
 title: Page Request with JWT
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-jwt-overview
 related-topics: setup-jwt-for-auth,setup-jwt-for-auth,jwt-user-credentials,jwt-server-response,jwt-access-token,jwt-auth-handler,about-jwt
