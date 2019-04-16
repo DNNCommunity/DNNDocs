@@ -18,6 +18,8 @@ You can produce a module in different ways:
 *   Start with module development templates, such as:
     *   [DNN 8 Templates](https://github.com/dnnsoftware/DNN.Templates/releases/)
     *   [Chris Hammond's DotNetNuke Module and Theme Development Templates](https://github.com/ChrisHammond/DNNTemplates/) ([Installation instructions](https://www.chrishammond.com/blog/itemid/2616/using-the-new-module-development-templates-for-dot/))
+    *   [Matt Rutledge's generator-dnn](https://github.com/mtrutledge/generator-dnn)
+    *   [Upendo Ventures' generator-upendodnn](https://github.com/UpendoVentures/generator-upendodnn)
 *   Customize a pre-existing module.
 
     Thousands of third-party modules and themes are available from the [DNN Store](https://store.dnnsoftware.com). There are extensions for sale, including versions that include the source code, as well as some free extension.
