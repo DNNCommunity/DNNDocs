@@ -3,7 +3,7 @@ uid: use-module-creator
 topic: use-module-creator
 locale: en
 title: Use the Module Creator
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: developers-creating-modules-overview
 next-topic: create-module-using-templates

@@ -3,7 +3,7 @@ uid: edit-asset-permissions
 topic: edit-asset-permissions
 locale: en
 title: Edit Permissions to an Asset
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-assets-overview
 related-topics: add-assets,edit-asset-properties,move-asset,copy-asset,download-asset,delete-asset

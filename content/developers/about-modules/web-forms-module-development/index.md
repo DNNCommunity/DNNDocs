@@ -3,7 +3,7 @@ uid: web-forms-module-development
 topic: web-forms-module-development
 locale: en
 title: Web Forms Module Development
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: developers-overview
 related-topics: pack-extension,use-module-creator,providers

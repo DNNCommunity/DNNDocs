@@ -3,7 +3,7 @@ uid: edit-date-range-for-role-membership
 topic: edit-date-range-for-role-membership
 locale: en
 title: Edit the Date Range for a Role Membership
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-roles-overview
 related-topics: create-role,edit-role,delete-role,assign-users-to-role,view-users-assigned-to-role,remove-users-from-role

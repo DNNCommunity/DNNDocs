@@ -3,7 +3,7 @@ uid: administrators-roles-overview
 topic: administrators-roles-overview
 locale: en
 title: About Role-Based Access
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-security-overview
 related-topics: administrators-user-accounts-overview,administrators-jwt-overview

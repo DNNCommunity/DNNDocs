@@ -3,7 +3,7 @@ uid: prioritize-search-items
 topic: prioritize-search-items
 locale: en
 title: Prioritize the Search Items
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-search-overview
 related-topics: configure-search

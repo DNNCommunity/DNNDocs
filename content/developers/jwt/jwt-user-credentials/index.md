@@ -3,7 +3,7 @@ uid: developers-jwt-user-credentials
 topic: jwt-user-credentials
 locale: en
 title: JWT User Credentials
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: developers-jwt-overview
 related-topics: setup-jwt-for-auth,setup-jwt-for-auth,jwt-server-response,jwt-access-token,jwt-page-request,jwt-auth-handler,about-jwt

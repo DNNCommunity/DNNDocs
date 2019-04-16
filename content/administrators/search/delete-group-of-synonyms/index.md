@@ -3,7 +3,7 @@ uid: delete-group-of-synonyms
 topic: delete-group-of-synonyms
 locale: en
 title: Delete a Group of Synonyms
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-search-overview
 related-topics: add-group-of-synonyms,edit-group-of-synonyms

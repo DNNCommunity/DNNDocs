@@ -3,7 +3,7 @@ uid: administrators-user-accounts-overview
 topic: administrators-user-accounts-overview
 locale: en
 title: About User Accounts
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-security-overview
 related-topics: administrators-roles-overview,administrators-jwt-overview

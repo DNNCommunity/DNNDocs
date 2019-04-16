@@ -3,7 +3,7 @@ uid: add-regex-pattern-for-duplicate-pages
 topic: add-regex-pattern-for-duplicate-pages
 locale: en
 title: Add Regex Pattern for Duplicate Pages
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-search-overview
 related-topics: edit-regex-pattern-for-duplicate-pages,delete-regex-pattern-for-duplicate-pages

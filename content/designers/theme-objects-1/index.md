@@ -3,7 +3,7 @@ uid: theme-objects-1
 topic: theme-objects-1
 locale: en
 title: Theme Objects
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: designer-references
 related-topics: persona-bar-style-guide,dnn-manifest-schema,designers-included-modules-overview,requirements,product-versions,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,dnn-license,DNN-security,more-resources

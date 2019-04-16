@@ -3,7 +3,7 @@ uid: about-search
 topic: about-search
 locale: en
 title: About Search
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 ---
 

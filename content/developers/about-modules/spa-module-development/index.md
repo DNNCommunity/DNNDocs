@@ -3,7 +3,7 @@ uid: spa-module-development
 topic: spa-module-development
 locale: en
 title: SPA Module Development
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: developers-overview
 related-topics: pack-extension,create-module-using-templates,use-module-creator,providers

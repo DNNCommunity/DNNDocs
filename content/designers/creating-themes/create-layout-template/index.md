@@ -3,7 +3,7 @@ uid: create-layout-template
 topic: create-layout-template
 locale: en
 title: Create a Layout Template
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: designers-creating-themes-overview
 next-topic: create-container
