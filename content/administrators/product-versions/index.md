@@ -4,7 +4,7 @@ topic: product-versions
 locale: en
 title: Product Versions
 dnneditions:
-dnnversion: 09.02.00
+dnnversion: 09.03.01
 parent-topic: administrator-references
 related-topics: administrators-included-modules-overview,requirements,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,providers,dnn-license,DNN-security,more-resources
 ---
@@ -15,6 +15,7 @@ related-topics: administrators-included-modules-overview,requirements,dnn-overvi
 
 |**Release Date**|**Platform**|**Evoq**|  |
 |---|---|---|---|
+|2019 Apr 01|9.3.1 [GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.1)|9.3.0|[Release Notes](xref:relnotes-2019-apr-03)|
 |2018 Oct 01|9.2.2 [GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.2)|9.2.2|[Release Notes](xref:relnotes-2018-oct-01)|
 |2018 Aug 08|9.2.1 [GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.1)|9.2.1|[Release Notes](xref:relnotes-2018-aug-08)|
 |2018 Mar 22|9.2.0 [GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.0)|9.2.0|[Release Notes](xref:relnotes-2018-mar-22)|
