@@ -78,7 +78,7 @@ You can create a new website or set up an existing one for use with DNN. Choose 
 
 
 3.  To use an existing IIS website:
-    1.  In the Connections panel, right-click on the name of the existing website, and choose Edit Bindings...
+    1.  In the Connections panel, right-click on the name of the existing website, and choose Edit Bindings....
 
 
 
@@ -86,7 +86,7 @@ You can create a new website or set up an existing one for use with DNN. Choose 
 
 
 
-    2.  In Site Bindings, click/tap Add... In Add Site Binding, enter the Host name.
+    2.  In Site Bindings, click/tap Add.... In Add Site Binding, enter the Host name.
 
         Developers and Designers: If setting up a local development environment, you can use `www.dnndev.me` (or any subdomain). DNNDEV.ME is a registered domain which points to the loopback address of 127.0.0.1, so it will always resolve locally.
 
