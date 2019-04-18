@@ -13,6 +13,15 @@ exports.isAbsolutePath = isAbsolutePath;
 exports.isRelativePath = isRelativePath;
 
 exports.beautifyDnnEditions = beautifyDnnEditions;
+exports.getFeedbackHref = getFeedbackHref;
+
+function getFeedbackHref(docurl, title, uid) {
+    if (!docurl) return '';
+    var newIssueUrl = 'https://github.com/DNNCommunity/DNNDocs/issues/new';
+    title = 'Feedback for ' + title;
+    var body = '%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5B' + encodeURIComponent(uid) + '%5D(' + encodeURIComponent(docurl) + ')';
+    return newIssueUrl + '?title=' + title + '&body=' + body;
+}
 
 function beautifyDnnEditions(input) {
     if (!input) return '';
