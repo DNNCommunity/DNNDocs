@@ -10,7 +10,10 @@
     <div class="pull-right">
       {{#docurl}}
       <ul class="nav nav-pills">
-        <li role="presentation">
+          <li role="presentation">
+              <a href="{{_feedbackurl}}" target="_blank"><i class="glyphicon glyphicon-comment"></i> {{__global.feedback}}</a>
+            </li>
+            <li role="presentation">
           <a href="{{docurl}}" target="_blank"><i class="glyphicon glyphicon-new-window"></i> {{__global.improveThisDoc}}</a>
         </li>
       </ul>
