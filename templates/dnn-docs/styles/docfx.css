@@ -1152,6 +1152,22 @@ div.embeddedvideo iframe {
   margin-top: 130px;
 }
 
+.recent-contributors {
+  height: auto;
+  padding-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.recent-contributors img {
+  max-width: 20px;
+  margin-right: 5px;
+}
+
+.recent-contributors-top {
+  margin-top: 20px;
+}
+
 /**************************
 	END HOME PAGE 
 **************************/

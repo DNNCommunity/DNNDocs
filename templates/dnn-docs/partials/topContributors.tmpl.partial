@@ -1,60 +1,58 @@
-<div id="contrib-container" class="home side-content">
-    <h4 class="hlead"> <i class="fas fa-fire" style="color: #ee3a43"></i> Top Contributors</h4>
-    <ul class="media-list top-contributors">
-        <li class="media">
-            <div class="media-left">
-                <a href="{{gitContributor1HtmlUrl}}" target="_blank">
-                    <img class="media-object" src="{{gitContributor1AvatarUrl}}">
-                </a>
-            </div>
-            <div class="media-body">
-                <h5 class="media-heading">{{gitContributor1Login}}</h5>
-                <span class="title">{{gitContributor1Contributions}} Contributions</span>
-            </div>
-        </li>
-        <li class="media">
-            <div class="media-left">
-                <a href="{{gitContributor2HtmlUrl}}" target="_blank">
-                    <img class="media-object" src="{{gitContributor2AvatarUrl}}">
-                </a>
-            </div>
-            <div class="media-body">
-                <h5 class="media-heading">{{gitContributor2Login}}</h5>
-                <span class="title">{{gitContributor2Contributions}} Contributions</span>
-            </div>
-        </li>
-        <li class="media">
-            <div class="media-left">
-                <a href="{{gitContributor3HtmlUrl}}" target="_blank">
-                    <img class="media-object" src="{{gitContributor3AvatarUrl}}">
-                </a>
-            </div>
-            <div class="media-body">
-                <h5 class="media-heading">{{gitContributor3Login}}</h5>
-                <span class="title">{{gitContributor3Contributions}} Contributions</span>
-            </div>
-        </li>
-        <li class="media">
-            <div class="media-left">
-                <a href="{{gitContributor4HtmlUrl}}" target="_blank">
-                    <img class="media-object" src="{{gitContributor4AvatarUrl}}">
-                </a>
-            </div>
-            <div class="media-body">
-                <h5 class="media-heading">{{gitContributor4Login}}</h5>
-                <span class="title">{{gitContributor4Contributions}} Contributions</span>
-            </div>
-        </li>
-        <li class="media">
-            <div class="media-left">
-                <a href="{{gitContributor5HtmlUrl}}" target="_blank">
-                    <img class="media-object" src="{{gitContributor5AvatarUrl}}">
-                </a>
-            </div>
-            <div class="media-body">
-                <h5 class="media-heading">{{gitContributor5Login}}</h5>
-                <span class="title">{{gitContributor5Contributions}} Contributions</span>
-            </div>
-        </li>
-    </ul>
-</div>
+<h4 class="hlead"> <i class="fas fa-fire" style="color: #ee3a43"></i> Top Contributors</h4>
+<ul class="media-list top-contributors">
+    <li class="media">
+        <div class="media-left">
+            <a href="{{gitContributor1HtmlUrl}}" target="_blank">
+                <img class="media-object" src="{{gitContributor1AvatarUrl}}">
+            </a>
+        </div>
+        <div class="media-body">
+            <h5 class="media-heading">{{gitContributor1Login}}</h5>
+            <span class="title">{{gitContributor1Contributions}} Contributions</span>
+        </div>
+    </li>
+    <li class="media">
+        <div class="media-left">
+            <a href="{{gitContributor2HtmlUrl}}" target="_blank">
+                <img class="media-object" src="{{gitContributor2AvatarUrl}}">
+            </a>
+        </div>
+        <div class="media-body">
+            <h5 class="media-heading">{{gitContributor2Login}}</h5>
+            <span class="title">{{gitContributor2Contributions}} Contributions</span>
+        </div>
+    </li>
+    <li class="media">
+        <div class="media-left">
+            <a href="{{gitContributor3HtmlUrl}}" target="_blank">
+                <img class="media-object" src="{{gitContributor3AvatarUrl}}">
+            </a>
+        </div>
+        <div class="media-body">
+            <h5 class="media-heading">{{gitContributor3Login}}</h5>
+            <span class="title">{{gitContributor3Contributions}} Contributions</span>
+        </div>
+    </li>
+    <li class="media">
+        <div class="media-left">
+            <a href="{{gitContributor4HtmlUrl}}" target="_blank">
+                <img class="media-object" src="{{gitContributor4AvatarUrl}}">
+            </a>
+        </div>
+        <div class="media-body">
+            <h5 class="media-heading">{{gitContributor4Login}}</h5>
+            <span class="title">{{gitContributor4Contributions}} Contributions</span>
+        </div>
+    </li>
+    <li class="media">
+        <div class="media-left">
+            <a href="{{gitContributor5HtmlUrl}}" target="_blank">
+                <img class="media-object" src="{{gitContributor5AvatarUrl}}">
+            </a>
+        </div>
+        <div class="media-body">
+            <h5 class="media-heading">{{gitContributor5Login}}</h5>
+            <span class="title">{{gitContributor5Contributions}} Contributions</span>
+        </div>
+    </li>
+</ul>
