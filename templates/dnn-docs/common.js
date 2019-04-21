@@ -16,6 +16,7 @@ exports.getHtmlUrl = getHtmlUrl;
 
 exports.getTwitterShareHref = getTwitterShareHref;
 exports.getLinkedInShareHref = getLinkedInShareHref;
+exports.getFacebookShareHref = getFacebookShareHref;
 exports.getEmailShareHref = getEmailShareHref;
 
 exports.getFeedbackHref = getFeedbackHref;
@@ -45,6 +46,14 @@ function getLinkedInShareHref(_path) {
     var url = encodeURIComponent(dnndocsBaseUrl + _path.replace('.md', '.html'));
     var linkedInShareHref = 'https://www.linkedin.com/cws/share?url=' + url;
     return linkedInShareHref;
+}
+
+function getFacebookShareHref(_path) {
+    if (!_path) return '';
+    var dnndocsBaseUrl = 'https://dnndocs.com/';
+    var url = encodeURIComponent(dnndocsBaseUrl + _path.replace('.md', '.html'));
+    var facebookShareHref = 'https://www.facebook.com/sharer/sharer.php?u=' + url;
+    return facebookShareHref;
 }
 
 function getEmailShareHref(_path, title) {

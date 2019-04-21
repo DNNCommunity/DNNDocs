@@ -17,7 +17,7 @@
           <ul class="dropdown-menu" aria-labelledby="shareMenu">
             <li><a href="{{_twitterShareHref}}" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
             <li><a href="{{_linkedInShareHref}}" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
-            <li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+            <li><a href="{{_facebookShareHref}}" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="{{_emailShareHref}}"><i class="fas fa-envelope"></i> Email</a></li>
           </ul>
