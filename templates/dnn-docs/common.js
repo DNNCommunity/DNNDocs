@@ -12,25 +12,46 @@ exports.processSeeAlso = processSeeAlso;
 exports.isAbsolutePath = isAbsolutePath;
 exports.isRelativePath = isRelativePath;
 
+exports.getHtmlUrl = getHtmlUrl;
+
 exports.getTwitterShareHref = getTwitterShareHref;
+exports.getLinkedInShareHref = getLinkedInShareHref;
 exports.getEmailShareHref = getEmailShareHref;
+
 exports.getFeedbackHref = getFeedbackHref;
 exports.beautifyDnnEditions = beautifyDnnEditions;
 
-function getTwitterShareHref(docurl, title) {
-    if (!docurl) return '';
-    var original_referer = encodeURIComponent(docurl.replace('#L1',''));
-    var url = encodeURIComponent(docurl.replace('#L1',''));
+function getHtmlUrl(_path) {
+    if (!_path) return '';
+    var dnndocsBaseUrl = 'https://dnndocs.com/';
+    var htmlurl = dnndocsBaseUrl + _path.replace('.md', '.html');
+    return htmlurl;
+}
+
+function getTwitterShareHref(_path, title) {
+    if (!_path) return '';
+    var dnndocsBaseUrl = 'https://dnndocs.com/';
+    var original_referer = encodeURIComponent(dnndocsBaseUrl + _path.replace('.md', '.html'));
+    var url = original_referer;
     var text = encodeURIComponent(title) + '%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS';
     var tw_p = 'tweetbutton';
     var twitterShareHref = 'https://twitter.com/intent/tweet?original_referer=' + original_referer + '&text=' + text + '&tw_p=' + tw_p + '&url=' + url;
     return twitterShareHref;
 }
 
-function getEmailShareHref(docurl, title) {
-    if (!docurl) return '';
+function getLinkedInShareHref(_path) {
+    if (!_path) return '';
+    var dnndocsBaseUrl = 'https://dnndocs.com/';
+    var url = encodeURIComponent(dnndocsBaseUrl + _path.replace('.md', '.html'));
+    var linkedInShareHref = 'https://www.linkedin.com/cws/share?url=' + url;
+    return linkedInShareHref;
+}
+
+function getEmailShareHref(_path, title) {
+    if (!_path) return '';
+    var dnndocsBaseUrl = 'https://dnndocs.com/';
     var subject = '[Shared%20Article]%20' + encodeURIComponent(title) + '%20|%20DNN%20Docs';
-    var body = encodeURIComponent(title) + '%20|%20DNN%20Docs%0A%0A' + docurl.replace('#L1','') + '%0A%0A';
+    var body = encodeURIComponent(title) + '%20|%20DNN%20Docs%0A%0A' + encodeURIComponent(dnndocsBaseUrl + _path.replace('.md', '.html')) + '%0A%0A';
     return 'mailto:?subject=' + subject + '&body=' + body;
 }
 
