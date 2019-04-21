@@ -14,6 +14,14 @@ exports.isRelativePath = isRelativePath;
 
 exports.beautifyDnnEditions = beautifyDnnEditions;
 exports.getFeedbackHref = getFeedbackHref;
+exports.getEmailShareHref = getEmailShareHref;
+
+function getEmailShareHref(docurl, title) {
+    if (!docurl) return '';
+    var subject = '[Shared%20Article]%20' + encodeURIComponent(title) + '%20|%20DNN%20Docs';
+    var body = encodeURIComponent(title) + '%20|%20DNN%20Docs%0A%0A' + docurl.replace('#L1','') + '%0A%0A';
+    return 'mailto:?subject=' + subject + '&body=' + body;
+}
 
 function getFeedbackHref(docurl, title, uid) {
     if (!docurl) return '';

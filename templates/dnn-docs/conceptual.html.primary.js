@@ -12,6 +12,7 @@ exports.transform = function (model) {
   model.docurl = model.docurl || common.getImproveTheDocHref(model, model._gitContribute, model._gitUrlPattern);
   model._dnneditions = common.beautifyDnnEditions(model.dnneditions);
   model._feedbackurl = common.getFeedbackHref(model.docurl, model.title, model.uid);
+  model._emailShareHref = common.getEmailShareHref(model.docurl, model.title);
 
   if (extension && extension.postTransform) {
     model = extension.postTransform(model);

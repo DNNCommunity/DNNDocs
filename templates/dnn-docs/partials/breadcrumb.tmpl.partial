@@ -10,10 +10,22 @@
     <div class="pull-right">
       {{#docurl}}
       <ul class="nav nav-pills">
-          <li role="presentation">
-              <a href="{{_feedbackurl}}" target="_blank"><i class="glyphicon glyphicon-comment"></i> {{__global.feedback}}</a>
-            </li>
-            <li role="presentation">
+        <li role="presentation dropdown">
+          <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <i class="glyphicon glyphicon-share"></i> Share
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="shareMenu">
+            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="{{_emailShareHref}}"><i class="fas fa-envelope"></i> Email</a></li>
+          </ul>
+        </li>
+        <li role="presentation">
+          <a href="{{_feedbackurl}}" target="_blank"><i class="glyphicon glyphicon-comment"></i> {{__global.feedback}}</a>
+        </li>
+        <li role="presentation">
           <a href="{{docurl}}" target="_blank"><i class="glyphicon glyphicon-new-window"></i> {{__global.improveThisDoc}}</a>
         </li>
       </ul>
