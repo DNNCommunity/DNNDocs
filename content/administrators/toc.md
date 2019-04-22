@@ -422,7 +422,7 @@
 ####[Publisher](xref:module-publisher)
 #####[Configure Publisher](xref:config-module-publisher)
 ## [DNN Requirements](xref:requirements)
-## [Product Versions](xref:product-versions)
+## [Releases](xref:product-versions)
 ## [DNN License](xref:licensing)
 ## [DNN Security](xref:dnn-security)
 ## [More Resources](xref:more-resources)
