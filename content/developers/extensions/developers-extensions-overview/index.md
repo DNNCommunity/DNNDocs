@@ -21,7 +21,9 @@ Before you create an extension, it's worth your time to first check to see if th
 
 # Types of Extensions
 
-Often, a module will be created to solve a problem when another type of extension may need to have been used instead.  The following types of extensions are available for you to use either instead of, or in conjuntion with your module.  For example, you have have to run some kind of code-based logic on a regular basis, but need to allow non-superusers to manage it.  In this example, you'd want to create a scheduled job with a module that has a front-end to expose some of it's settings to end-users that can then be assigned using standard permissions.
+Often, developers will create a _module_ extension to solve a problem when another type of extension is more suitable.  Of course, you can also use your module to enhance or provide a configuration interface for other extensions. 
+
+For example, if you have code to run a custom report on regular basis, you would typically create a _scheduling_ extension. However, since the scheduler is only available to SuperUser account, if you want to allow other users to run it ad-hoc or to change the schedule, you could create a  _module_ that has a front-end to expose some of those settings. You could then provide access to that module for users and/or security roles using DNN’s module permissions mechanism.
 
 *   *JavaScript Library* - Allows you to install a JavaScript framework (e.g., Angular or React) in a way that allows multiple extensions to safely ask for and include the framework without loading it multiple times. It also allows superusers to globally define from where and how the library loads.
 *   *Library* - A file known as a DLL is packaged and installed so that it's available for any number of purposes. Some extensions may use it as a shared API and/or it can be one of the other types of extensions listed below.  For example, a URL Provider is distributed as a library extension.
