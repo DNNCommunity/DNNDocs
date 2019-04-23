@@ -110,7 +110,7 @@
 ###[Configure Workflow State](xref:configure-workflow-state-pb-all)
 
 ##[Search](xref:about-search)
-###[Configure Search(xref:configure-search)
+###[Configure Search](xref:configure-search)
 ###[Prioritize Search Items](xref:prioritize-search-items)
 ###[Synonyms](xref:synonyms)
 ####[Add Group of Synonyms](xref:add-group-of-synonyms)
@@ -416,7 +416,7 @@
 ####[Sitemap](xref:module-sitemap)
 ### [User Management Modules](xref:user-management-modules)
 ####[View Profile](xref:module-view-profile)
-#####[](xref:config-module-view-profile)
+#####[Configure View Profile](xref:config-module-view-profile)
 ### [Creation Modules](xref:creation-modules)
 ####[Module Creator](xref:module-module-creator)
 ####[Publisher](xref:module-publisher)
