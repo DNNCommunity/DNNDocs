@@ -3,7 +3,7 @@ uid: configure-messaging
 topic: configure-messaging
 locale: en
 title: Configure Messaging for Your Site
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-configuring-your-site-overview
 related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,access-web-config,configure-check-for-new-version,participate-in-improvement-program,configure-html-editor,page-file-versioning,administrators-extensions-overview,administrators-connectors-overview,administrators-workflows-overview,administrators-search-overview,administrators-vocabularies-overview
@@ -19,7 +19,7 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,access-w
 
 1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
-    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91-platform.png)
     
 2.  Go to the **Site Behavior** tab, and then the **Messaging** subtab.
     

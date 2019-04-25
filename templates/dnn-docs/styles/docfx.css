@@ -166,9 +166,9 @@ h6,
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.03));
   /* Standard syntax */
-  height: 5px;
+  height: 40px;
 }
 .divider {
   margin: 0 5px;
@@ -608,7 +608,7 @@ body .toc{
   left: 5px;
 }
 .article {
-  margin-top: 120px;
+  margin-top: 80px;
   margin-bottom: 115px;
 }
 
@@ -628,7 +628,7 @@ body .toc{
   max-width: 100%;
 }
 .sideaffix {
-  margin-top: 50px;
+  margin-top: 10px;
   font-size: 12px;
   max-height: 100%;
   overflow: hidden;
@@ -667,7 +667,7 @@ body .toc{
   overflow: hidden;
   padding-bottom: 10px;
   height: calc(100% - 100px);
-  margin-right: -20px;
+  /*margin-right: -20px;*/
 }
 .affix ul > li > a:before {
   color: #cccccc;
@@ -761,9 +761,10 @@ footer {
   z-index: 1000;
 }
 .footer {
-  border-top: 1px solid #e7e7e7;
-  background-color: #f8f8f8;
-  padding: 15px 0;
+  background-color: #f5f5f5;
+  padding: 15px 20px;
+  border-top: 5px dashed #00a4e4;
+  border-radius: 100px 100px 0px 0px;
 }
 @media (min-width: 768px) {
   #sidetoggle.collapse {
@@ -1147,6 +1148,63 @@ div.embeddedvideo iframe {
 	.homepage .api-section .media-heading { font-size: 1.5em; }
 }
 
+.home-article {
+  margin-top: 130px;
+}
+
+.recent-contributors {
+  height: auto;
+  padding-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.recent-contributors img {
+  max-width: 20px;
+  margin-right: 5px;
+}
+
+.recent-contributors-top {
+  margin-top: 20px;
+}
+
 /**************************
 	END HOME PAGE 
+**************************/
+
+
+/**************************
+	PAGE STATS
+**************************/
+
+.page-stats {
+  border-bottom: #00A4E4 2px solid;
+  height: auto;
+  padding-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.page-stats img {
+  max-width: 20px;
+  margin-right: 5px;
+}
+
+/**************************
+	END PAGE STATS 
+**************************/
+
+
+/**************************
+	DNN EDITIONS
+**************************/
+
+.dnn-editions {
+  padding: 10px 0;
+  margin-bottom: 0 0 40px 0;
+  color: gray;
+}
+
+/**************************
+	END DNN EDITIONS 
 **************************/

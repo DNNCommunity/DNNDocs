@@ -52,7 +52,7 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": ["default", "templates/dnn-docs"],
-    "postProcessors": [],
+    "postProcessors": ["RepoStatsProcessor","PageStatsProcessor"],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
     "keepFileLink": false,

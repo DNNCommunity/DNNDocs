@@ -3,7 +3,7 @@ uid: create-doctype-xml
 topic: create-doctype-xml
 locale: en
 title: Create a DocType XML
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: designers-creating-themes-overview
 previous-topic: create-css
@@ -17,7 +17,13 @@ links: ["[DNN Wiki: DotNetNuke Skins](https://www.dnnsoftware.com/wiki/dotnetnuk
 A design intended to be viewed using HTML 5 will not look correct if rendered using the XHTML or HTML 4 specification. You can force the theme to be rendered in XHTML or HTML5 by creating a DocType XML file (skin.doctype.xml), which is applied to all layouts in the theme. In addition, themes can contain a separate DocType file for any individual layout template to override the theme's DocType declaration.
 
 > [!NOTE]
-> If no DocType is specified, then the DocType specified in **Host \> Host Settings** will be used. By default, DNN uses the HTML 4.0 Transitional DocType (`<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">`).
+> By default, DNN uses the HTML 4.0 Transitional DocType (`<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">`), if no Theme DocType is specified. But this Fallback doctype can be changed.
+
+> [!NOTE]
+> In DNN 8 you can set the Fallback DocType via **Host \> Host Settings**.
+
+> [!NOTE]
+> In DNN 9 there's currently no interface for this, but you can create or edit a record in the "HostSettings" table. SettingName: 'DefaultDocType' / SettingValue: 3, will set the Fallback Doctype to HTML5.
 
 ## Steps
 
@@ -29,16 +35,17 @@ A design intended to be viewed using HTML 5 will not look correct if rendered us
     If your layout template file is called MyAwesomeLayout.html, its specific DocType file must be named MyAwesomeLayout.doctype.xml.
 
 2.  Enter the appropriate code in your DocType file.
-    *   HTML 4.01 Transitional
+
+    *   HTML5
 
         ```
 
             <SkinDocType>
-                <![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd">]]>
+                <![CDATA[<!DOCTYPE html>]]>
             </SkinDocType>
 
         ```
-
+    
     *   XHTML Strict
 
         ```
@@ -59,12 +66,13 @@ A design intended to be viewed using HTML 5 will not look correct if rendered us
 
         ```
 
-    *   HTML5
+     
+    *   HTML 4.01 Transitional
 
         ```
 
             <SkinDocType>
-                <![CDATA[<!DOCTYPE html>]]>
+                <![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd">]]>
             </SkinDocType>
 
         ```

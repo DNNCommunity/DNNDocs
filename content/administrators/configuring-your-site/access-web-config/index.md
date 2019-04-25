@@ -3,7 +3,7 @@ uid: access-web-config
 topic: access-web-config
 locale: en
 title: Access web.config and other .config files
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-configuring-your-site-overview
 related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,configure-messaging,configure-check-for-new-version,participate-in-improvement-program,configure-html-editor,page-file-versioning,administrators-extensions-overview,administrators-connectors-overview,administrators-workflows-overview,administrators-search-overview,administrators-vocabularies-overview
@@ -15,7 +15,7 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,configur
 
 1.  Go to **Persona Bar \> Settings \> Config Manager**.
     
-    ![Persona Bar > Settings > Config Manager](/images/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Config Manager](/images/scr-pbar-host-Settings-E91-platform.png)
     
 2.  Go to the **Config Files** tab.
     

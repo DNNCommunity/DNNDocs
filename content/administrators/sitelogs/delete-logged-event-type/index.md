@@ -3,7 +3,7 @@ uid: delete-logged-event-type
 topic: delete-logged-event-type
 locale: en
 title: Delete a Logged Event Type
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-sitelogs-overview
 related-topics: view-site-logs,view-entry-details,clear-log,delete-entries,share-entries,add-event-type,edit-logged-event-type,toggle-logging-for-event-type,configure-notices

@@ -3,7 +3,7 @@ uid: set-up-dnn-folder
 topic: set-up-dnn-folder
 locale: en
 title: Set Up the DNN Folder and the User Account
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-setup-overview
 next-topic: set-up-iis

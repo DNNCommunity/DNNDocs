@@ -16,7 +16,12 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
   <meta property="docfx:navrel" content="{{_navRel}}">
   <meta property="docfx:tocrel" content="{{_tocRel}}">
+  <meta property="og:title" content="{{title}}"/>
+  <meta property="og:image" content="{{_rel}}{{_appLogoPath}}"/>
+  <meta property="og:description" content="{{title}}"/>
+  <meta property="og:url" content="{{htmlurl}}" />
   {{#_noindex}}<meta name="searchOption" content="noindex">{{/_noindex}}
   {{#_enableSearch}}<meta property="docfx:rel" content="{{_rel}}">{{/_enableSearch}}
   {{#_enableNewTab}}<meta property="docfx:newtab" content="true">{{/_enableNewTab}}
+  {{>partials/analytics}}
 </head>

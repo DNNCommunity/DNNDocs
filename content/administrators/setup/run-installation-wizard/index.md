@@ -3,7 +3,7 @@ uid: run-installation-wizard
 topic: run-installation-wizard
 locale: en
 title: Run the DNN Installation Wizard
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-setup-overview
 previous-topic: set-up-sql

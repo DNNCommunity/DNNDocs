@@ -3,7 +3,7 @@ uid: update-site-info
 topic: update-site-info
 locale: en
 title: Update Your Site's Info
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: administrators-configuring-your-site-overview
 related-topics: assign-key-pages,add-metadata-to-pages,configure-messaging,access-web-config,configure-check-for-new-version,participate-in-improvement-program,configure-html-editor,page-file-versioning,administrators-extensions-overview,administrators-connectors-overview,administrators-workflows-overview,administrators-search-overview,administrators-vocabularies-overview
@@ -19,7 +19,7 @@ related-topics: assign-key-pages,add-metadata-to-pages,configure-messaging,acces
 
 1.  Go to **Persona Bar \> Settings \> Site Settings**.
     
-    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91.png)
+    ![Persona Bar > Settings > Site Settings](/images/scr-pbar-host-Settings-E91-platform.png)
     
 2.  Go to the **Site Info** tab.
     

@@ -3,7 +3,7 @@ uid: developers-jwt-access-token
 topic: jwt-access-token
 locale: en
 title: JWT Access Token
-dnneditions: Platform,Evoq Content,Evoq Engage
+dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 parent-topic: developers-jwt-overview
 related-topics: setup-jwt-for-auth,setup-jwt-for-auth,jwt-user-credentials,jwt-server-response,jwt-page-request,jwt-auth-handler,about-jwt
