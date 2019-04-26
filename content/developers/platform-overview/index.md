@@ -21,3 +21,7 @@ And to complicate things a little bit the terminology has evolved over the years
 This means that some concepts have a different name in the UI than they have in code (and in SQL), 
 purely because at one point it was decided that the old term was confusing or too &quot;techie&quot; so it was dropped for something more easily understandable. 
 Because this is a largely technical book, I will stick to the terms used in the DNN API, but I will note if they have another name in the UI.
+
+1. [Core Platform Objects](xref:platform-overview-core-objects)
+2. [Security](xref:platform-overview-security)
+
