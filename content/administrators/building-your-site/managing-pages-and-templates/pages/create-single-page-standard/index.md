@@ -1,4 +1,4 @@
----
+﻿---
 uid: create-single-page-standard
 topic: create-single-page-standard
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-regex-pattern-for-duplicate-pages
 topic: delete-regex-pattern-for-duplicate-pages
 locale: en

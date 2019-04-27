@@ -1,4 +1,4 @@
----
+﻿---
 uid: about-structured-content-api-post-put-type-fields
 topic: about-structured-content-api-post-put-type-fields
 locale: en

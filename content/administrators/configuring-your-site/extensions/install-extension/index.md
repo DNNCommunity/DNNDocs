@@ -1,4 +1,4 @@
----
+﻿---
 uid: install-extension
 topic: install-extension
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: about-structured-content-content-type-apis
 topic: about-structured-content-content-type-apis
 locale: en

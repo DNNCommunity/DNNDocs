@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-user
 topic: delete-user
 locale: en

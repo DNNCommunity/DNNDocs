@@ -1,4 +1,4 @@
----
+﻿---
 uid: module-challenges
 topic: module-challenges
 locale: en

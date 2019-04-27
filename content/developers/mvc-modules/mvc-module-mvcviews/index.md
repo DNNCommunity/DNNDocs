@@ -1,4 +1,4 @@
----
+﻿---
 uid: mvc-module-mvcviews
 topic: mvc-module-mvcviews
 locale: en

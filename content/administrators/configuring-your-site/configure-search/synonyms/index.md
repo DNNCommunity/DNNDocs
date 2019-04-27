@@ -1,4 +1,4 @@
----
+﻿---
 uid: synonyms
 topic: synonyms
 locale: en

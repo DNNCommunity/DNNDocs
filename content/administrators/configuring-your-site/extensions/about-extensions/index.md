@@ -1,4 +1,4 @@
----
+﻿---
 
 uid: about-extensions
 topic: about-extensions

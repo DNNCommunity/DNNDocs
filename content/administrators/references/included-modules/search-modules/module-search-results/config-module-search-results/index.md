@@ -1,4 +1,4 @@
----
+﻿---
 uid: config-module-search-results
 topic: config-module-search-results
 locale: en

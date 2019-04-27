@@ -1,4 +1,4 @@
----
+﻿---
 uid: licensing
 topic: licensing
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: edit-asset-properties
 topic: edit-asset-properties
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: developers-jwt-server-response
 topic: jwt-server-response
 locale: en

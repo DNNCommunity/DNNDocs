@@ -1,4 +1,4 @@
----
+﻿---
 uid: toggle-logging-for-event-type
 topic: toggle-logging-for-event-type
 locale: en

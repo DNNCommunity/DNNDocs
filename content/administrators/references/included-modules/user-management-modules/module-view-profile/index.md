@@ -1,4 +1,4 @@
----
+﻿---
 uid: module-view-profile
 topic: module-view-profile
 locale: en

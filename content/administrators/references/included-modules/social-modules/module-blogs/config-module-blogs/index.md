@@ -1,4 +1,4 @@
----
+﻿---
 uid: config-module-blogs
 topic: config-module-blogs
 locale: en

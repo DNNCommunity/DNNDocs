@@ -1,4 +1,4 @@
----
+﻿---
 uid: dnn-license
 topic: dnn-license
 locale: en

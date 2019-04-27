@@ -1,4 +1,4 @@
----
+﻿---
 uid: config-module-publisher
 topic: config-module-publisher
 locale: en

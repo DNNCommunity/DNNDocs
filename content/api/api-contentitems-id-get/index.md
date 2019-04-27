@@ -1,4 +1,4 @@
----
+﻿---
 uid: api-contentitems-id-get
 topic: api-contentitems-id-get
 locale: en

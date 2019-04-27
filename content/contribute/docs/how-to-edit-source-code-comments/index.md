@@ -1,4 +1,4 @@
----
+﻿---
 uid: how-to-edit-source-code-comments
 topic: how-to-edit-source-code-comments
 locale: en

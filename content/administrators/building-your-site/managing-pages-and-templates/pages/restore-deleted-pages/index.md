@@ -1,4 +1,4 @@
----
+﻿---
 uid: restore-deleted-pages
 topic: restore-deleted-pages
 locale: en

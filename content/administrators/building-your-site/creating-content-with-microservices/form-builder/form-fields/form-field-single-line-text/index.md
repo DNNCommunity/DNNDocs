@@ -1,4 +1,4 @@
----
+﻿---
 uid: form-field-single-line-text
 topic: form-field-single-line-text
 locale: en

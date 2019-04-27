@@ -1,4 +1,4 @@
----
+﻿---
 uid: create-template-based-on-another-template-pb-all
 topic: create-template-based-on-another-template-pb-all
 locale: en

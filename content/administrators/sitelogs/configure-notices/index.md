@@ -1,4 +1,4 @@
----
+﻿---
 uid: configure-notices
 topic: configure-notices
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: api-contenttypes-post
 topic: api-contenttypes-post
 locale: en

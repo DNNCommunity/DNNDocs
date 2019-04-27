@@ -1,4 +1,4 @@
----
+﻿---
 uid: view-entry-details
 topic: view-entry-details
 locale: en

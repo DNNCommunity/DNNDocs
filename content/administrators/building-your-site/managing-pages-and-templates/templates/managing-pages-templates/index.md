@@ -1,4 +1,4 @@
----
+﻿---
 uid: managing-pages-templates
 topic: managing-pages-templates
 locale: en

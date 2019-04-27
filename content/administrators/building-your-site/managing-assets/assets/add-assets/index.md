@@ -1,4 +1,4 @@
----
+﻿---
 uid: add-assets
 topic: add-assets
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: retrieve-system-info
 topic: retrieve-system-info
 locale: en

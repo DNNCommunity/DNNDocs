@@ -1,4 +1,4 @@
----
+﻿---
 uid: module-profile-dashboard
 topic: module-profile-dashboard
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: config-module-related-content
 topic: config-module-related-content
 locale: en

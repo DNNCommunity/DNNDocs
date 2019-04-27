@@ -1,4 +1,4 @@
----
+﻿---
 uid: common-edit-page-pb-all
 topic: edit-page-pb-all
 locale: en

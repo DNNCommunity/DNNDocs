@@ -1,4 +1,4 @@
----
+﻿---
 uid: more-resources
 topic: more-resources
 locale: en

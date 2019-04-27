@@ -1,4 +1,4 @@
----
+﻿---
 uid: content-managers-create-content-type
 topic: create-content-type
 locale: en

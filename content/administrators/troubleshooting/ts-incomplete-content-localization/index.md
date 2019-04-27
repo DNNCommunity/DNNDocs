@@ -1,4 +1,4 @@
----
+﻿---
 uid: ts-incomplete-content-localization
 topic: ts-incomplete-content-localization
 locale: en

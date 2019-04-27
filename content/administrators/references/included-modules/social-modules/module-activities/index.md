@@ -1,4 +1,4 @@
----
+﻿---
 uid: module-activities
 topic: module-activities
 locale: en

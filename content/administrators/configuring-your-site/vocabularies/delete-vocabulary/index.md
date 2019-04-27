@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-vocabulary
 topic: delete-vocabulary
 locale: en

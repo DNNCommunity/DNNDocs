@@ -1,4 +1,4 @@
----
+﻿---
 uid: administrators-jwt-user-credentials
 topic: jwt-user-credentials
 locale: en

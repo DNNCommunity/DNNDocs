@@ -1,4 +1,4 @@
----
+﻿---
 uid: edit-or-reset-api-key
 topic: edit-or-reset-api-key
 locale: en

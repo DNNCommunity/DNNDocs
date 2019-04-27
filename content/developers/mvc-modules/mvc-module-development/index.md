@@ -1,4 +1,4 @@
----
+﻿---
 uid: mvc-module-development
 topic: mvc-module-development
 locale: en

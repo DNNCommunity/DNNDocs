@@ -1,4 +1,4 @@
----
+﻿---
 uid: create-article-publisher
 topic: create-article-publisher
 locale: en

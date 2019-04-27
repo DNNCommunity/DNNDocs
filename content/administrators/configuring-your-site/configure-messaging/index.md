@@ -1,4 +1,4 @@
----
+﻿---
 uid: configure-messaging
 topic: configure-messaging
 locale: en

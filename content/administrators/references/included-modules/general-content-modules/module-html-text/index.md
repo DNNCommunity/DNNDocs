@@ -1,4 +1,4 @@
----
+﻿---
 uid: module-html-text
 topic: module-html-text
 locale: en

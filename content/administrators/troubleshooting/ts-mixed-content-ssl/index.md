@@ -1,4 +1,4 @@
----
+﻿---
 uid: ts-mixed-content-ssl
 topic: ts-mixed-content-ssl
 locale: en

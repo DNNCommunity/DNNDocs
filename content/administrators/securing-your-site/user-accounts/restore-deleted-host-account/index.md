@@ -1,4 +1,4 @@
----
+﻿---
 uid: restore-deleted-host-account
 topic: restore-deleted-host-account
 locale: en

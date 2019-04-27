@@ -1,4 +1,4 @@
----
+﻿---
 uid: purge-deleted-modules
 topic: purge-deleted-modules
 locale: en

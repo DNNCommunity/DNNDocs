@@ -1,4 +1,4 @@
----
+﻿---
 uid: dnn-manifest-schema
 topic: dnn-manifest-schema
 locale: en

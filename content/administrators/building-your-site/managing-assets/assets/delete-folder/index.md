@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-folder
 topic: delete-folder
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: administrators-jwt-server-response
 topic: jwt-server-response
 locale: en

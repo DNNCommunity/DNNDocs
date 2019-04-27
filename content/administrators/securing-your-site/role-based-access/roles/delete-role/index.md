@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-role
 topic: delete-role
 locale: en

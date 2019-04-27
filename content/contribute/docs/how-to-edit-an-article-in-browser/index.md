@@ -1,4 +1,4 @@
----
+﻿---
 uid: how-to-edit-an-article-in-browser
 topic: how-to-edit-an-article-in-browser
 locale: en

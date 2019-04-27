@@ -1,4 +1,4 @@
----
+﻿---
 uid: relnotes-2015-may-26
 topic: relnotes-2015-may-26
 locale: en

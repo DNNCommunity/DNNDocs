@@ -1,4 +1,4 @@
----
+﻿---
 uid: form-field-number
 topic: form-field-number
 locale: en

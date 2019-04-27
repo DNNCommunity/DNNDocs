@@ -1,4 +1,4 @@
----
+﻿---
 uid: content-field-assets
 topic: content-field-assets
 locale: en

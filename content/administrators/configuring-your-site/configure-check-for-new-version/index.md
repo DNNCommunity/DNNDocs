@@ -1,4 +1,4 @@
----
+﻿---
 uid: configure-check-for-new-version
 topic: configure-check-for-new-version
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: persona-bar-style-guide
 topic: persona-bar-style-guide
 locale: en

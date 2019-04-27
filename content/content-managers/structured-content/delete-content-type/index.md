@@ -1,4 +1,4 @@
----
+﻿---
 uid: content-managers-delete-content-type
 topic: delete-content-type
 locale: en

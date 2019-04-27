@@ -1,4 +1,4 @@
----
+﻿---
 uid: configure-connectors-pb-all
 topic: configure-connectors-pb-all
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: api-publishedcontentitems-getbyids-get
 topic: api-publishedcontentitems-getbyids-get
 locale: en

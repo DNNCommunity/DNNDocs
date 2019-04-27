@@ -1,4 +1,4 @@
----
+﻿---
 uid: configure-url-rewriter
 topic: configure-url-rewriter
 locale: en

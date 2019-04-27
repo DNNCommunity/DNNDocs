@@ -1,4 +1,4 @@
----
+﻿---
 uid: purge-user-account
 topic: purge-user-account
 locale: en

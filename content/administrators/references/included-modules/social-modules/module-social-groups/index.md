@@ -1,4 +1,4 @@
----
+﻿---
 uid: module-social-groups
 topic: module-social-groups
 locale: en

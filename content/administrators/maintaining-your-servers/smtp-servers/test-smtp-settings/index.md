@@ -1,4 +1,4 @@
----
+﻿---
 uid: test-smtp-settings
 topic: test-smtp-settings
 locale: en

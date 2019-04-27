@@ -1,4 +1,4 @@
----
+﻿---
 uid: relnotes-2014-oct-01
 topic: relnotes-2014-oct-01
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: content-managers-visualizer-templates-filters
 topic: visualizer-templates-filters
 locale: en

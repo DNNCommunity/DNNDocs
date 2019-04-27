@@ -1,4 +1,4 @@
----
+﻿---
 uid: config-module-calendar
 topic: config-module-calendar
 locale: en

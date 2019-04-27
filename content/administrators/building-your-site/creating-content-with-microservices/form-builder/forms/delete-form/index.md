@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-form
 topic: delete-form
 locale: en

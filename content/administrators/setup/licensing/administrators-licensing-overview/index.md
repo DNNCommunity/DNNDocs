@@ -1,4 +1,4 @@
----
+﻿---
 uid: administrators-licensing-overview
 topic: administrators-licensing-overview
 locale: en

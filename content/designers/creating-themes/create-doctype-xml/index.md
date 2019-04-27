@@ -1,4 +1,4 @@
----
+﻿---
 uid: create-doctype-xml
 topic: create-doctype-xml
 locale: en

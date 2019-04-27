@@ -1,4 +1,4 @@
----
+﻿---
 uid: content-types
 topic: content-types
 locale: en

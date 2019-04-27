@@ -1,4 +1,4 @@
----
+﻿---
 uid: developers-about-jwt
 topic: about-jwt
 locale: en

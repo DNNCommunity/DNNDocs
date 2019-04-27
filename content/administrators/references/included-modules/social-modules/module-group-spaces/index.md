@@ -1,4 +1,4 @@
----
+﻿---
 uid: module-group-spaces
 topic: module-group-spaces
 locale: en

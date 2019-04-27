@@ -1,4 +1,4 @@
----
+﻿---
 uid: get-embed-code
 topic: get-embed-code
 locale: en

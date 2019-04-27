@@ -1,4 +1,4 @@
----
+﻿---
 
 uid: configure-user-profile-vanity-url
 topic: configure-user-profile-vanity-url

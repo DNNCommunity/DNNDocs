@@ -1,4 +1,4 @@
----
+﻿---
 uid: configuring-your-site
 topic: configuring-your-site
 locale: en

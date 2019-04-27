@@ -1,4 +1,4 @@
----
+﻿---
 uid: edit-vocabulary
 topic: edit-vocabulary
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: edit-logged-event-type
 topic: edit-logged-event-type
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: duplicate-content-type
 topic: duplicate-content-type
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: restore-page-version
 topic: restore-page-version
 locale: en

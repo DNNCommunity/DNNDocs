@@ -1,4 +1,4 @@
----
+﻿---
 uid: content-field-static-text
 topic: content-field-static-text
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-influence-goal-type
 topic: delete-influence-goal-type
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: start-vs-project-with-templates
 topic: start-vs-project-with-templates
 locale: en

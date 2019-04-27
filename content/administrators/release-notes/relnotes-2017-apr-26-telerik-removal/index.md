@@ -1,4 +1,4 @@
----
+﻿---
 uid: relnotes-2017-apr-26-telerik-removal
 topic: relnotes-2017-apr-26-telerik-removal
 locale: en

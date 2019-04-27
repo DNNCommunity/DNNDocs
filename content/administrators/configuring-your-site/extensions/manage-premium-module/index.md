@@ -1,4 +1,4 @@
----
+﻿---
 uid: manage-premium-module
 topic: manage-premium-module
 locale: en

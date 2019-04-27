@@ -1,4 +1,4 @@
----
+﻿---
 uid: add-file-extension-to-included-or-excluded-list
 topic: add-file-extension-to-included-or-excluded-list
 locale: en

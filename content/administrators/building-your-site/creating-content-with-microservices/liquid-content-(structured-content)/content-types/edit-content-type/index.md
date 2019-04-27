@@ -1,4 +1,4 @@
----
+﻿---
 uid: edit-content-type
 topic: edit-content-type
 locale: en

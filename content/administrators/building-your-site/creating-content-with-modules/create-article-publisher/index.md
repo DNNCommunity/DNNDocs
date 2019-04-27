@@ -1,4 +1,4 @@
----
+﻿---
 topic: create-article-publisher
 locale: en
 title: Create an Article in the Publisher Module
