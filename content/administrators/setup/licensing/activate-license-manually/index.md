@@ -1,4 +1,4 @@
----
+﻿---
 uid: activate-license-manually
 topic: activate-license-manually
 locale: en

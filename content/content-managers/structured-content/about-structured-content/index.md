@@ -1,4 +1,4 @@
----
+﻿---
 uid: content-managers-about-structured-content
 topic: about-structured-content
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: pages-templates
 topic: pages-templates
 locale: en

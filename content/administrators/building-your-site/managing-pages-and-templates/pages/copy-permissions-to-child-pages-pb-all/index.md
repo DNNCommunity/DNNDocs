@@ -1,4 +1,4 @@
----
+﻿---
 uid: copy-permissions-to-child-pages-pb-all
 topic: copy-permissions-to-child-pages-pb-all
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: about-search
 topic: about-search
 locale: en

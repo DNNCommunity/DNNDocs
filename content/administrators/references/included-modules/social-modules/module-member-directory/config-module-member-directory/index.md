@@ -1,4 +1,4 @@
----
+﻿---
 uid: config-module-member-directory
 topic: config-module-member-directory
 locale: en

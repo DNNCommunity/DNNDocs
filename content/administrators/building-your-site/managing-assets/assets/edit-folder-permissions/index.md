@@ -1,4 +1,4 @@
----
+﻿---
 uid: edit-folder-permissions
 topic: edit-folder-permissions
 locale: en

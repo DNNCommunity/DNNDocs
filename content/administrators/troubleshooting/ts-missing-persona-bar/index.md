@@ -1,4 +1,4 @@
----
+﻿---
 uid: ts-missing-persona-bar
 topic: ts-missing-persona-bar
 locale: en

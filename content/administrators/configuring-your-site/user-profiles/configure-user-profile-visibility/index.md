@@ -1,4 +1,4 @@
----
+﻿---
 uid: configure-user-profile-visibility
 topic: configure-user-profile-visibility
 locale: en

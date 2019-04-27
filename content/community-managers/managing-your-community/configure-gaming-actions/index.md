@@ -1,4 +1,4 @@
----
+﻿---
 uid: configure-gaming-actions
 topic: configure-gaming-actions
 locale: en

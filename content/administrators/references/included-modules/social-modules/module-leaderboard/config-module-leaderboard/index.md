@@ -1,4 +1,4 @@
----
+﻿---
 uid: config-module-leaderboard
 topic: config-module-leaderboard
 locale: en

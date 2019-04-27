@@ -1,4 +1,4 @@
----
+﻿---
 uid: administrators-jwt-page-request
 topic: jwt-page-request
 locale: en

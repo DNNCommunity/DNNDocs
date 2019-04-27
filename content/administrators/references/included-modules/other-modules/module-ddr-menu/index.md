@@ -1,4 +1,4 @@
----
+﻿---
 uid: module-ddr-menu
 topic: module-ddr-menu
 locale: en

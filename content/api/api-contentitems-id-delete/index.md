@@ -1,4 +1,4 @@
----
+﻿---
 uid: api-contentitems-id-delete
 topic: api-contentitems-id-delete
 locale: en

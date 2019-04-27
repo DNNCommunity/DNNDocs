@@ -1,4 +1,4 @@
----
+﻿---
 uid: configure-url-redirects
 topic: configure-url-redirects
 locale: en

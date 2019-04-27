@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-module-from-page-pb-all
 topic: delete-module-from-page-pb-all
 locale: en

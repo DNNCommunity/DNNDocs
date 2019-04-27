@@ -1,4 +1,4 @@
----
+﻿---
 uid: add-module-to-page-pb-all
 topic: add-module-to-page-pb-all
 locale: en

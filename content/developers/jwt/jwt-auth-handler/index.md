@@ -1,4 +1,4 @@
----
+﻿---
 uid: developers-jwt-auth-handler
 topic: jwt-auth-handler
 locale: en

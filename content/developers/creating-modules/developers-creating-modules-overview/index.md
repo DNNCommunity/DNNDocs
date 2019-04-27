@@ -1,4 +1,4 @@
----
+﻿---
 uid: developers-creating-modules-overview
 topic: developers-creating-modules-overview
 locale: en

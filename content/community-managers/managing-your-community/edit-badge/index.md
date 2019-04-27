@@ -1,4 +1,4 @@
----
+﻿---
 uid: edit-badge
 topic: edit-badge
 locale: en

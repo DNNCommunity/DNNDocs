@@ -1,4 +1,4 @@
----
+﻿---
 uid: social-modules
 topic: social-modules
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: module-development
 topic: module-development
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: edit-delete-template-pb-all
 topic: edit-delete-template-pb-all
 locale: en

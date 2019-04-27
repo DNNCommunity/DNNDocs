@@ -1,4 +1,4 @@
----
+﻿---
 uid: troubleshooting-licensing
 topic: troubleshooting-licensing
 locale: en

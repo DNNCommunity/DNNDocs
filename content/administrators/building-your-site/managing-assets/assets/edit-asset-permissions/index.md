@@ -1,4 +1,4 @@
----
+﻿---
 uid: edit-asset-permissions
 topic: edit-asset-permissions
 locale: en

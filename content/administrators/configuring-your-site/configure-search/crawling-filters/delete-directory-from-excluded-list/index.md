@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-directory-from-excluded-list
 topic: delete-directory-from-excluded-list
 locale: en

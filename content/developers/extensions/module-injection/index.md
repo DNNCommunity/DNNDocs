@@ -1,4 +1,4 @@
----
+﻿---
 uid: module-injection-filter
 topic: module-injection-filter
 locale: en

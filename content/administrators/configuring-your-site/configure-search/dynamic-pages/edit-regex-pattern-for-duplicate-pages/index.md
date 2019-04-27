@@ -1,4 +1,4 @@
----
+﻿---
 uid: edit-regex-pattern-for-duplicate-pages
 topic: edit-regex-pattern-for-duplicate-pages
 locale: en

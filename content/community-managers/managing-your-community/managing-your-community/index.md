@@ -1,4 +1,4 @@
----
+﻿---
 uid: managing-your-community
 topic: managing-your-community
 locale: en

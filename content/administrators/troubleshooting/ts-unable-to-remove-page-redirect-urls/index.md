@@ -1,4 +1,4 @@
----
+﻿---
 uid: ts-unable-to-remove-page-redirect-urls
 topic: ts-unable-to-remove-page-redirect-urls
 locale: en

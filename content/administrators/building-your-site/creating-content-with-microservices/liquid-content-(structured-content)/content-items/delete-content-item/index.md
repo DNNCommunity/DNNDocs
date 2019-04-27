@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-content-item
 topic: delete-content-item
 locale: en

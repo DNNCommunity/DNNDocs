@@ -1,4 +1,4 @@
----
+﻿---
 uid: test-module
 topic: test-module
 locale: en

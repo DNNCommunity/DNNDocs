@@ -1,4 +1,4 @@
----
+﻿---
 uid: purge-deleted-templates
 topic: purge-deleted-templates
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: persona-bar-by-role
 topic: persona-bar-by-role
 locale: en

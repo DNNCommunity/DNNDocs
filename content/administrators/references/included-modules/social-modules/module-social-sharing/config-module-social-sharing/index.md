@@ -1,4 +1,4 @@
----
+﻿---
 
 uid: config-module-social-sharing
 topic: config-module-social-sharing

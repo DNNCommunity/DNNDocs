@@ -1,4 +1,4 @@
----
+﻿---
 uid: module-console
 topic: module-console
 locale: en

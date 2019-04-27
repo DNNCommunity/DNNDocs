@@ -1,4 +1,4 @@
----
+﻿---
 uid: config-module-html-text
 topic: config-module-html-text
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: edit-group-of-synonyms
 topic: edit-group-of-synonyms
 locale: en

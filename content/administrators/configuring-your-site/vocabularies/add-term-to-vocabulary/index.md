@@ -1,4 +1,4 @@
----
+﻿---
 uid: add-term-to-vocabulary
 topic: add-term-to-vocabulary
 locale: en

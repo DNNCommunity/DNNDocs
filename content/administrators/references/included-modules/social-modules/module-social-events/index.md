@@ -1,4 +1,4 @@
----
+﻿---
 uid: module-social-events
 topic: module-social-events
 locale: en

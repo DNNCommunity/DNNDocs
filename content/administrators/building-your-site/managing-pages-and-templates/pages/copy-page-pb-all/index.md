@@ -1,4 +1,4 @@
----
+﻿---
 uid: copy-page-pb-all
 topic: copy-page-pb-all
 locale: en

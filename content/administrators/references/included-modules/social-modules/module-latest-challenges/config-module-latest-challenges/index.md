@@ -1,4 +1,4 @@
----
+﻿---
 uid: config-module-latest-challenges
 topic: config-module-latest-challenges
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: set-up-sql
 topic: set-up-sql
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-page-pb-all
 topic: delete-page-pb-all
 locale: en

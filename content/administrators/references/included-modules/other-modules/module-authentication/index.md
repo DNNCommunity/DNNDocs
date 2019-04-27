@@ -1,4 +1,4 @@
----
+﻿---
 uid: module-authentication
 topic: module-authentication
 locale: en

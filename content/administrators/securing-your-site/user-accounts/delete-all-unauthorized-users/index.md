@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-all-unauthorized-users
 topic: delete-all-unauthorized-users
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: run-installation-wizard
 topic: run-installation-wizard
 locale: en

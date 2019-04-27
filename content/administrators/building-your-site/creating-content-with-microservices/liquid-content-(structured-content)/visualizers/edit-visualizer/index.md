@@ -1,4 +1,4 @@
----
+﻿---
 uid: edit-visualizer
 topic: edit-visualizer
 locale: en

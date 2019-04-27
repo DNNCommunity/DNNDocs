@@ -1,4 +1,4 @@
----
+﻿---
 uid: api-results-pagination
 topic: api-results-pagination
 locale: en

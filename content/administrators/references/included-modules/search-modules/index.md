@@ -1,4 +1,4 @@
----
+﻿---
 uid: search-modules
 topic: search-modules
 locale: en

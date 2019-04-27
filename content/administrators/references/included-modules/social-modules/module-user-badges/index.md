@@ -1,4 +1,4 @@
----
+﻿---
 uid: module-user-badges
 topic: module-user-badges
 locale: en

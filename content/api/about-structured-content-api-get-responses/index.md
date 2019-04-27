@@ -1,4 +1,4 @@
----
+﻿---
 uid: about-structured-content-api-get-responses
 topic: about-structured-content-api-get-responses
 locale: en

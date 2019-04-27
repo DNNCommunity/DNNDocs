@@ -1,4 +1,4 @@
----
+﻿---
 uid: authorize-user
 topic: authorize-user
 locale: en

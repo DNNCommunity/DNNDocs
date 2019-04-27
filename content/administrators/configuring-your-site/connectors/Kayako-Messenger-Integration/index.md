@@ -1,4 +1,4 @@
----
+﻿---
 uid: kayako-messenger-integration
 topic: Kayako Messenger Integration
 locale: en

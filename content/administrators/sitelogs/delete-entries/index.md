@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-entries
 topic: delete-entries
 locale: en

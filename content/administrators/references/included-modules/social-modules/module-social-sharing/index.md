@@ -1,4 +1,4 @@
----
+﻿---
 uid: module-social-sharing
 topic: module-social-sharing
 locale: en

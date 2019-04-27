@@ -1,4 +1,4 @@
----
+﻿---
 uid: developers-glossary
 topic: glossary
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-list-of-words-to-ignore
 topic: delete-list-of-words-to-ignore
 locale: en

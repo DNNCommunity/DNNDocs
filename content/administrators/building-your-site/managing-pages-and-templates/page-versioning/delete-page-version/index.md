@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-page-version
 topic: delete-page-version
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: configure-gaming-privileges
 topic: configure-gaming-privileges
 locale: en

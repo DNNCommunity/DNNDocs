@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-all-unauthorized-hosts
 topic: delete-all-unauthorized-hosts
 locale: en

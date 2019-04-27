@@ -1,4 +1,4 @@
----
+﻿---
 uid: edit-site-properties
 topic: edit-site-properties
 locale: en

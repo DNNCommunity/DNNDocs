@@ -1,4 +1,4 @@
----
+﻿---
 uid: ts-error-could-not-load-awssdk
 topic: ts-error-could-not-load-awssdk
 locale: en

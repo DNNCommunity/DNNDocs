@@ -1,4 +1,4 @@
----
+﻿---
 uid: configure-module-on-page-pb-all
 topic: configure-module-on-page-pb-all
 locale: en

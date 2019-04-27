@@ -1,4 +1,4 @@
----
+﻿---
 uid: configure-search
 topic: configure-search
 locale: en

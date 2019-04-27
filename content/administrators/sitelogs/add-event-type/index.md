@@ -1,4 +1,4 @@
----
+﻿---
 uid: add-event-type
 topic: add-event-type
 locale: en

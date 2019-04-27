@@ -1,4 +1,4 @@
----
+﻿---
 uid: ts-error-another-user-has-taken-action-on-the-page
 topic: ts-error-another-user-has-taken-action-on-the-page
 locale: en

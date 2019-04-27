@@ -1,4 +1,4 @@
----
+﻿---
 uid: edit-folder-properties
 topic: edit-folder-properties
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: about-structured-content
 topic: about-structured-content
 locale: en

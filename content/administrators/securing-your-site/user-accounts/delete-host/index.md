@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-host
 topic: delete-host
 locale: en

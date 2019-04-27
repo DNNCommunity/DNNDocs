@@ -1,4 +1,4 @@
----
+﻿---
 uid: config-module-social-events
 topic: config-module-social-events
 locale: en

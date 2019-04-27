@@ -1,4 +1,4 @@
----
+﻿---
 uid: content-field-single-line-text
 topic: content-field-single-line-text
 locale: en

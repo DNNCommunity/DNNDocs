@@ -1,4 +1,4 @@
----
+﻿---
 uid: configure-page-standard
 topic: configure-page-standard
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: admin-glossary
 topic: glossary
 locale: en

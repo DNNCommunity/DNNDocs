@@ -1,4 +1,4 @@
----
+﻿---
 
 uid: allow-module-use
 topic: allow-module-use

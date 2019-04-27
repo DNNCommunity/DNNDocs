@@ -1,4 +1,4 @@
----
+﻿---
 uid: configure-caching
 topic: configure-caching
 locale: en

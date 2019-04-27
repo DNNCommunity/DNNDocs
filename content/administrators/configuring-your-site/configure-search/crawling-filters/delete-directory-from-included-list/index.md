@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-directory-from-included-list
 topic: delete-directory-from-included-list
 locale: en

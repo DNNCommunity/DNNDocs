@@ -1,4 +1,4 @@
----
+﻿---
 uid: share-entries
 topic: share-entries
 locale: en

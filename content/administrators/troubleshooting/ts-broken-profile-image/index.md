@@ -1,4 +1,4 @@
----
+﻿---
 uid: ts-broken-profile-image
 topic: ts-broken-profile-image
 locale: en

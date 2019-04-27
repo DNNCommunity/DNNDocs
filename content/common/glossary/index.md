@@ -1,4 +1,4 @@
----
+﻿---
 uid: glossary
 topic: glossary
 locale: en

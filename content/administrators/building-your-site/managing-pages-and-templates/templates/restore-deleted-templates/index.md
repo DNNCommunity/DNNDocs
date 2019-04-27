@@ -1,4 +1,4 @@
----
+﻿---
 uid: restore-deleted-templates
 topic: restore-deleted-templates
 locale: en

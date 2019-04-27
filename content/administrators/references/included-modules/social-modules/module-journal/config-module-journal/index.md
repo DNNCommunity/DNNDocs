@@ -1,4 +1,4 @@
----
+﻿---
 uid: config-module-journal
 topic: config-module-journal
 locale: en

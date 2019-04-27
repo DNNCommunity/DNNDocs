@@ -1,4 +1,4 @@
----
+﻿---
 uid: add-directory-to-excluded-list
 topic: add-directory-to-excluded-list
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: view-hidden-page-pb-all
 topic: view-hidden-page-pb-all
 locale: en

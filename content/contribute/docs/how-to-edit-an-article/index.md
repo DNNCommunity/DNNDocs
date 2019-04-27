@@ -1,4 +1,4 @@
----
+﻿---
 uid: how-to-edit-an-article
 topic: how-to-edit-an-article
 locale: en

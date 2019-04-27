@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-file-version
 topic: delete-file-version
 locale: en

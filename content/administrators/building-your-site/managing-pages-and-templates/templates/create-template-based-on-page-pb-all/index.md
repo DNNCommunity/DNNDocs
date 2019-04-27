@@ -1,4 +1,4 @@
----
+﻿---
 uid: create-template-based-on-page-pb-all
 topic: create-template-based-on-page-pb-all
 locale: en

@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-group-of-synonyms
 topic: delete-group-of-synonyms
 locale: en

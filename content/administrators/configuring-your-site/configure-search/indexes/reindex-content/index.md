@@ -1,4 +1,4 @@
----
+﻿---
 uid: reindex-content
 topic: reindex-content
 locale: en

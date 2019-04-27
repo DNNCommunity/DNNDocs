@@ -1,4 +1,4 @@
----
+﻿---
 uid: create-module
 topic: create-module
 locale: en

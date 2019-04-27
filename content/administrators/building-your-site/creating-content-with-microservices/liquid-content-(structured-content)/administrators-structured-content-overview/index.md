@@ -1,4 +1,4 @@
----
+﻿---
 uid: administrators-structured-content-overview
 topic: administrators-structured-content-overview
 locale: en

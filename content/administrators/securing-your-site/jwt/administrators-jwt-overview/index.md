@@ -1,4 +1,4 @@
----
+﻿---
 uid: administrators-jwt-overview
 topic: administrators-jwt-overview
 locale: en

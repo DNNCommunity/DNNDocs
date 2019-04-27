@@ -1,4 +1,4 @@
----
+﻿---
 uid: delete-file-extension-from-included-or-excluded-list
 topic: delete-file-extension-from-included-or-excluded-list
 locale: en

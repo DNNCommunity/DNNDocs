@@ -1,4 +1,4 @@
----
+﻿---
 uid: templates
 topic: templates
 locale: en

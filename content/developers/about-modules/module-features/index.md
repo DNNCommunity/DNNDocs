@@ -1,4 +1,4 @@
----
+﻿---
 uid: module-features
 topic: module-features
 locale: en

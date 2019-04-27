@@ -1,4 +1,4 @@
----
+﻿---
 uid: administrators-jwt-auth-handler
 topic: jwt-auth-handler
 locale: en
