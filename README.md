@@ -41,6 +41,9 @@ You should now be able to run the development version of the docs locally with t
 docfx --serve
 ```
 
+[!NOTE]
+You should run your shell in administrator mode for this to work!
+
 The first time, the compilation process could take quite a while. You may see a couple of warning messages. Eventually, you should see a message similar to:
 ```
 Serving "C:\dev\DNNDocs\_site" on https://localhost:8080
