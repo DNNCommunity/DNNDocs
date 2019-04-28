@@ -3,7 +3,7 @@ uid: persona-bar-by-role
 locale: en
 title: Persona Bar by Role
 dnnversion: 09.02.00
-related-topics: administrators-included-modules-overview,requirements,product-versions,dnn-overview,control-bar-to-persona-bar,providers,dnn-license,more-resources
+related-topics: administrators-included-modules-overview,requirements,product-versions,dnn-overview,control-bar-to-persona-bar,providers,more-resources
 ---
 
 # Persona Bar by Role

@@ -3,7 +3,7 @@ uid: product-versions
 locale: en
 title: Product Versions
 dnnversion: 09.03.01
-related-topics: administrators-included-modules-overview,requirements,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,providers,dnn-license,more-resources
+related-topics: administrators-included-modules-overview,requirements,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,providers,more-resources
 ---
 
 # Product Versions
