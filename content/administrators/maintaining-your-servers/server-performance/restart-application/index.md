@@ -1,4 +1,4 @@
----
+﻿---
 uid: restart-application
 locale: en
 title: Restart Application
