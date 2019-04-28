@@ -1,4 +1,4 @@
----
+﻿---
 uid: clear-cache
 locale: en
 title: Clear Cache
