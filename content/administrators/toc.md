@@ -241,7 +241,6 @@
 ####[Compare Page Versions](xref:compare-page-versions)
 ####[Restore Page Version](xref:restore-page-version)
 ####[Delete Page Version](xref:delete-page-version)
-##[Creating Content with Microservices](xref:creating-content-with-microservices)
 ####[Content Types](xref:content-types)
 #####[Create Content Type](xref:create-content-type)
 #####[Duplicate Content Type](xref:duplicate-content-type)
