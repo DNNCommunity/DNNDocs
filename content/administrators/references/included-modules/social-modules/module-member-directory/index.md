@@ -28,6 +28,6 @@ See [Leaderboard](xref:module-leaderboard).
 
  
 
-|  |Package|Category|Product(s)|
-|--|--|--|--|--|
-|![icon](/images/ico-module-memberdirectory.png)|Member Directory|None|![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)|
+|                                                 | Package          | Category |
+| ----------------------------------------------- | ---------------- | -------- |
+| ![icon](/images/ico-module-memberdirectory.png) | Member Directory | None     |
