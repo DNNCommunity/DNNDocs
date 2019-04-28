@@ -3,7 +3,7 @@ uid: administrators-pages-templates-overview
 locale: en
 title: Managing Pages and Templates
 dnnversion: 09.02.00
-related-topics: administrators-assets-overview,administrators-content-with-modules-overview
+related-topics: administrators-content-with-modules-overview
 ---
 
 # Managing Pages and Templates

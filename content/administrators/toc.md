@@ -29,7 +29,6 @@
 
 <!-- START OF "CONFIGURING YOUR SITE" NAV ITEM -->
 
-# [Configuring Your Site](xref:configure-page-file-versioning-for-site)
 ##[Update Site Info](xref:update-site-info)
 ##[Assign Key Pages](xref:assign-key-pages)
 ##[Add Metadata to Pages](xref:add-metadata-to-pages)
@@ -62,8 +61,6 @@
 ###[Delete User Profile Field](xref:delete-user-profile-field)
 ###[Organize User Profile Fields](xref:organize-user-profile-fields)
 
-##[Page/File Versioning](xref:page-file-versioning)
-###[Configure Page/File Versioning for Site](xref:configure-page-file-versioning-for-site)
 
 ##[Extensions](xref:about-extensions)
 ###[Install an Extension](xref:install-extension)
@@ -73,7 +70,6 @@
 ##[Connectors](xref:about-connectors)
 ###[Configure Connections to External Service Providers](xref:configure-connectors-pb-all)
 
-###[Enable Microservices](xref:enable-microservices-pb-all)
 
 
 ##[Search](xref:about-search)
@@ -162,34 +158,9 @@
 
 <!-- START OF "BUILDING YOUR SITE" NAV ITEM -->
 # [Building Your Site](xref:administrators-building-your-site-overview)
-##[Managing Assets](xref:about-assets)
-###[Assets/Files](xref:assets)
-####[Add Assets](xref:add-assets)
-####[Edit Asset Properties](xref:edit-asset-properties)
-####[Edit Asset Permissions](xref:edit-asset-permissions)
-####[Move Asset](xref:move-asset)
-####[Copy Asset](xref:copy-asset)
-####[Download Asset](xref:download-asset)
-####[Delete Asset](xref:delete-asset)
-###[Folders](xref:folders)
-####[Create Folder](xref:create-folder)
-####[Edit Folder Properties](xref:edit-folder-properties)
-####[Edit Folder Permissions](xref:edit-folder-permissions)
-####[Move Folder](xref:move-folder)
-####[Delete Folder](xref:delete-folder)
-###[Asset/File Versioning](xref:asset-file-versioning)
-####[Configure Folder/File Versioning](xref:configure-folder-file-versioning)
-####[View File Versions](xref:view-file-versions)
-####[Restore File Version](xref:restore-file-version)
-####[Delete File Version](xref:delete-file-version)
 ##[Managing Pages and Templates](xref:pages-templates)
 ###[Pages](xref:pages)
 ###[Templates](xref:templates)
-###[Page Versioning](xref:page-versioning)
-####[View Page Versions](xref:view-page-versions)
-####[Compare Page Versions](xref:compare-page-versions)
-####[Restore Page Version](xref:restore-page-version)
-####[Delete Page Version](xref:delete-page-version)
 ##[Creating Content with Modules](xref:creating-content-with-modules)
 
 <!-- START OF "MANAGING YOUR SITE LOGS" NAV ITEM -->

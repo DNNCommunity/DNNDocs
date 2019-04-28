@@ -3,7 +3,7 @@ uid: configure-html-editor
 locale: en
 title: Configure the HTML Editor
 dnnversion: 09.02.00
-related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,configure-messaging,access-web-config,configure-check-for-new-version,participate-in-improvement-program,page-file-versioning,administrators-extensions-overview,administrators-connectors-overview,administrators-search-overview,administrators-vocabularies-overview
+related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,configure-messaging,access-web-config,configure-check-for-new-version,participate-in-improvement-program,administrators-extensions-overview,administrators-connectors-overview,administrators-search-overview,administrators-vocabularies-overview
 ---
 
 # Configure the HTML Editor
