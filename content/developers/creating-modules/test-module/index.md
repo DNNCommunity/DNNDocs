@@ -4,7 +4,6 @@ locale: en
 title: Test Your Module
 dnnversion: 09.02.00
 previous-topic: start-vs-project-with-templates
-next-topic: pack-extension
 related-topics: about-evs
 ---
 

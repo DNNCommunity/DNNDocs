@@ -3,7 +3,7 @@ uid: module-module-creator
 locale: en
 title: "Module: Module Creator"
 dnnversion: 09.02.00
-related-topics: module-publisher
+related-topics: 
 ---
 
 # Module: Module Creator

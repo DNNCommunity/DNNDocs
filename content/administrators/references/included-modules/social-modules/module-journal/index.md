@@ -3,7 +3,7 @@ uid: module-journal
 locale: en
 title: "Module: Journal"
 dnnversion: 09.02.00
-related-topics: module-activities,module-activity-stream,module-answers,module-blogs,module-challenges,module-discussions,module-group-directory,module-group-spaces,module-ideas,module-latest-challenges,module-leaderboard,module-member-directory,module-message-center,module-my-status,module-profile-dashboard,module-social-groups,module-related-content,module-social-events,module-social-sharing,module-user-badges,module-wiki
+related-topics: module-member-directory,module-message-center,module-social-groups
 ---
 
 # Module: Journal
