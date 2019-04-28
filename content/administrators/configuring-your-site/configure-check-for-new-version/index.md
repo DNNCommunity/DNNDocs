@@ -3,7 +3,7 @@ uid: configure-check-for-new-version
 locale: en
 title: Configure Sites to Check for New Version
 dnnversion: 09.02.00
-related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,configure-messaging,access-web-config,participate-in-improvement-program,configure-html-editor,page-file-versioning,administrators-extensions-overview,administrators-connectors-overview,administrators-search-overview,administrators-vocabularies-overview
+related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,configure-messaging,access-web-config,participate-in-improvement-program,configure-html-editor,administrators-extensions-overview,administrators-connectors-overview,administrators-search-overview,administrators-vocabularies-overview
 ---
 
 # Configure Sites to Check for New Version

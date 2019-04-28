@@ -3,7 +3,7 @@ uid: update-site-info
 locale: en
 title: Update Your Site's Info
 dnnversion: 09.02.00
-related-topics: assign-key-pages,add-metadata-to-pages,configure-messaging,access-web-config,configure-check-for-new-version,participate-in-improvement-program,configure-html-editor,page-file-versioning,administrators-extensions-overview,administrators-connectors-overview,administrators-search-overview,administrators-vocabularies-overview
+related-topics: assign-key-pages,add-metadata-to-pages,configure-messaging,access-web-config,configure-check-for-new-version,participate-in-improvement-program,configure-html-editor,administrators-extensions-overview,administrators-connectors-overview,administrators-search-overview,administrators-vocabularies-overview
 ---
 
 # Update Your Site's Info

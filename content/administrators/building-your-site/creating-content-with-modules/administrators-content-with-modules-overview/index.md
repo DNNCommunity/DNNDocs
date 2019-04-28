@@ -3,7 +3,7 @@ uid: administrators-content-with-modules-overview
 locale: en
 title: Creating Content with Modules
 dnnversion: 09.02.00
-related-topics: included-modules,administrators-assets-overview,administrators-pages-templates-overview
+related-topics: included-modules,administrators-pages-templates-overview
 ---
 
 # Creating Content with Modules
