@@ -2,7 +2,6 @@
 uid: create-role
 locale: en
 title: Create a Role
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: edit-role,delete-role,assign-users-to-role,edit-date-range-for-role-membership,view-users-assigned-to-role,remove-users-from-role
 ---

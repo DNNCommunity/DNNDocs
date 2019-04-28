@@ -2,7 +2,6 @@
 uid: view-page-versions
 locale: en
 title: View the Latest Versions of a Page
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: compare-page-versions,restore-page-version,delete-page-version,page-file-versioning
 ---

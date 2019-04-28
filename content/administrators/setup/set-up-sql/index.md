@@ -2,7 +2,6 @@
 uid: set-up-sql
 locale: en
 title: Install and Set Up SQL
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 previous-topic: set-up-iis
 next-topic: run-installation-wizard

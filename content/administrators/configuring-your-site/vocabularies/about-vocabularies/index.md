@@ -2,7 +2,6 @@
 uid: about-vocabularies
 locale: en
 title: About Vocabularies
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 ---
 

@@ -1,7 +1,6 @@
 ﻿---
 locale: en
 title: Create an Article in the Publisher Module
-dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: module-publisher
 ---

@@ -2,7 +2,6 @@
 uid: administrators-content-with-modules-overview
 locale: en
 title: Creating Content with Modules
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: included-modules,administrators-assets-overview,administrators-pages-templates-overview
 ---

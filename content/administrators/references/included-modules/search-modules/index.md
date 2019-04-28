@@ -2,7 +2,6 @@
 uid: search-modules
 locale: en
 title: Search Modules
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: included-modules
 ---

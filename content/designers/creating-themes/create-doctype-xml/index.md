@@ -2,7 +2,6 @@
 uid: create-doctype-xml
 locale: en
 title: Create a DocType XML
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 previous-topic: create-css
 next-topic: pack-extension

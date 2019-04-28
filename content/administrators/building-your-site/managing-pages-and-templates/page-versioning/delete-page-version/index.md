@@ -2,7 +2,6 @@
 uid: delete-page-version
 locale: en
 title: Delete a Page Version
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: view-page-versions,compare-page-versions,restore-page-version,page-file-versioning
 ---

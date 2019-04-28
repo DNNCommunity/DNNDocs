@@ -2,7 +2,6 @@
 uid: manage-premium-module
 locale: en
 title: Manage a Premium Module
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: install-extension,allow-module-use
 links: ["[DNN Community blog: Installing Our Module in Another DNN Instance by Clinton Patterson](https://www.dnnsoftware.com/community-blog/cid/155092/installing-our-module-in-another-dnn-instance)","[DNN Store: 2sxc 8.12 — Amazing Content and Apps by 2sxc (installed as an example for screenshots)](https://store.dnnsoftware.com/home/product-details/2sxc-cms-apps-v812-free)"]

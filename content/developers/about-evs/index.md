@@ -2,7 +2,6 @@
 uid: about-evs
 locale: en
 title: About the Extension Verification Service
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: test-module,dnn-manifest-schema,module-features,module-architecture,developers-creating-modules-overview
 links: ["[DNN Module APIs](https://www.dnnsoftware.com/dnn-api/)","[DNN Community Blog: Extension Verification Service (EVS) by Nathan Rover](https://www.dnnsoftware.com/community-blog/cid/147439/extension-verification-service-evs)","[DNN Community Blog: Extension Verification Service (EVS) Update by Nathan Rover](https://www.dnnsoftware.com/community-blog/cid/154576/extension-verification-service-evs-update%20from%20june%202013)"]

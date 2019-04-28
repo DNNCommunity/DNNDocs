@@ -2,7 +2,6 @@
 uid: module-publisher
 locale: en
 title: "Module: Publisher"
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: module-module-creator
 ---

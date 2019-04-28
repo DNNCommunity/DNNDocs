@@ -2,7 +2,6 @@
 uid: user-management-modules
 locale: en
 title: User Management Modules
-dnneditions: 
 dnnversion: 09.02.00
 ---
 

@@ -3,7 +3,6 @@
 uid: delete-site
 locale: en
 title: Delete a Site
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: create-site,edit-site-properties,view-site,move-site-to-another-server
 ---

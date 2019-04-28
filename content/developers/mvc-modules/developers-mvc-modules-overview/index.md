@@ -2,7 +2,6 @@
 uid: developers-mvc-modules-overview
 locale: en
 title: MVC Module Project Overview
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: mvc-module-mvccontroller,mvc-module-mvcviews,mvc-module-unittest,unsupported-mvc-features
 ---

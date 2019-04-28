@@ -2,7 +2,6 @@
 uid: config-module-view-profile
 locale: en
 title: Configure the View Profile Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

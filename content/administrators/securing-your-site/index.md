@@ -2,7 +2,6 @@
 uid: administrators-security-overview
 locale: en
 title: Security
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 ---
 

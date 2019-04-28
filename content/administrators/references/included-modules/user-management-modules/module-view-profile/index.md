@@ -2,7 +2,6 @@
 uid: module-view-profile
 locale: en
 title: "Module: View Profile"
-dnneditions: 
 dnnversion: 09.02.00
 ---
 

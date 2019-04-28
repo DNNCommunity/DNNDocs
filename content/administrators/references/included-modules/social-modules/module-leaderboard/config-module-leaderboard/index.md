@@ -2,7 +2,6 @@
 uid: config-module-leaderboard
 locale: en
 title: Configure the Leaderboard Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

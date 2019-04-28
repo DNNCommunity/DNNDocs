@@ -2,7 +2,6 @@
 uid: relnotes-2018-mar-22
 locale: en
 title: DNN Release Notes — 2018 Mar 22
-dnneditions:
 dnnversion: 09.02.00
 ---
 

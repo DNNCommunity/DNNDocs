@@ -3,7 +3,6 @@
 uid: config-module-social-sharing
 locale: en
 title: Configure the Social Sharing Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

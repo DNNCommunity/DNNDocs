@@ -2,7 +2,6 @@
 uid: module-registration
 locale: en
 title: "Module: Registration"
-dnneditions: 
 dnnversion: 09.02.00
 ---
 

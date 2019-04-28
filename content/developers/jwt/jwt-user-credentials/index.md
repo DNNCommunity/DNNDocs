@@ -2,7 +2,6 @@
 uid: developers-jwt-user-credentials
 locale: en
 title: JWT User Credentials
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: 
 ---

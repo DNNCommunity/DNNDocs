@@ -2,7 +2,6 @@
 uid: module-html-text
 locale: en
 title: "Module: HTML (Text)"
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: module-console,module-content-layout
 ---

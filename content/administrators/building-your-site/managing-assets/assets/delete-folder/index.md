@@ -2,7 +2,6 @@
 uid: delete-folder
 locale: en
 title: Delete a Folder
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: create-folder,edit-folder-properties,edit-folder-permissions,move-folder
 ---

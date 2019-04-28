@@ -2,7 +2,6 @@
 uid: config-module-html-text
 locale: en
 title: Configure the HTML / HTML Pro (Text) Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

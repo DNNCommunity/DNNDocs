@@ -2,7 +2,6 @@
 uid: add-term-to-vocabulary
 locale: en
 title: Add a Term to a Vocabulary
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: create-vocabulary,edit-vocabulary,delete-vocabulary,edit-term-in-vocabulary,delete-term-from-vocabulary
 ---

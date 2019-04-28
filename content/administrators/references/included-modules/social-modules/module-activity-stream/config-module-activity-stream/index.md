@@ -2,7 +2,6 @@
 uid: config-module-activity-stream
 locale: en
 title: Configure the Activity Stream Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

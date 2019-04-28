@@ -2,7 +2,6 @@
 uid: module-site-wizard
 locale: en
 title: "Module: Site Wizard"
-dnneditions: 
 dnnversion: 09.02.00
 ---
 

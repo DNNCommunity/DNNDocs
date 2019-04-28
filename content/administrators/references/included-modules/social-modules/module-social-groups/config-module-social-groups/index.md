@@ -2,7 +2,6 @@
 uid: config-module-social-groups
 locale: en
 title: Configure the Social Groups Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

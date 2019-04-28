@@ -2,7 +2,6 @@
 uid: config-module-blogs
 locale: en
 title: Configure the Blogs Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

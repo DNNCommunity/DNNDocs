@@ -2,7 +2,6 @@
 uid: administrators-extensions-overview
 locale: en
 title: About Extensions
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,configure-messaging,access-web-config,configure-check-for-new-version,participate-in-improvement-program,configure-html-editor,page-file-versioning,administrators-connectors-overview,administrators-search-overview,administrators-vocabularies-overview
 ---

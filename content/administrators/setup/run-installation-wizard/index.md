@@ -2,7 +2,6 @@
 uid: run-installation-wizard
 locale: en
 title: Run the DNN Installation Wizard
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 previous-topic: set-up-sql
 next-topic: upgrade-evoq

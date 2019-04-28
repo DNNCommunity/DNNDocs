@@ -2,7 +2,6 @@
 uid: config-module-discussions
 locale: en
 title: Configure the Discussions Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

@@ -2,7 +2,6 @@
 uid: about-themes
 locale: en
 title: About Themes
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 links: ["[DNN Wiki: DotNetNuke Skins](https://www.dnnsoftware.com/wiki/dotnetnuke-skins)","[UX Guide](https://uxguide.dnnsoftware.com/)","[DNN Community Blog: DotNetNuke Skinning 101 (Part 1) by Joe Brinkman](https://www.dnnsoftware.com/community-blog/cid/132000/dotnetnuke-skinning-101-part-1)"]
 ---

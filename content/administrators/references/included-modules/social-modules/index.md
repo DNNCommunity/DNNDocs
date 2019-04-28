@@ -2,7 +2,6 @@
 uid: social-modules
 locale: en
 title: Social Modules
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: included-modules
 ---

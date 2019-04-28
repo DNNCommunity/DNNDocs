@@ -2,7 +2,6 @@
 uid: module-console
 locale: en
 title: "Module: Console"
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: module-content-layout,module-html-text
 ---

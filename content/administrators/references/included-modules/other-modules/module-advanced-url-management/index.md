@@ -2,7 +2,6 @@
 uid: module-advanced-url-management
 locale: en
 title: "Module: Advanced URL Management"
-dnneditions: 
 dnnversion: 09.02.00
 ---
 

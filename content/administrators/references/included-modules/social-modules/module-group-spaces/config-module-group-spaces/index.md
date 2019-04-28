@@ -2,7 +2,6 @@
 uid: config-module-group-spaces
 locale: en
 title: Configure the Group Spaces Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

@@ -2,7 +2,6 @@
 uid: theme-objects
 locale: en
 title: Theme Objects
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: create-layout-template,create-container,create-theme
 links: ["[DotNetNuke Skinning Guide (Appendix B: Skin Objects) by Timo Breumelhof](https://www.timo-design.nl)","[Skinning Tool / Online Reference for DNN Skins & Container Objects by 10 Pound Gorilla](https://www.10poundgorilla.com)"]

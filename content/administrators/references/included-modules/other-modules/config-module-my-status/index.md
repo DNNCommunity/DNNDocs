@@ -2,7 +2,6 @@
 uid: config-module-my-status
 locale: en
 title: Configure the My Status Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

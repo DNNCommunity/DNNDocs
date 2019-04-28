@@ -2,7 +2,6 @@
 uid: create-folder
 locale: en
 title: Create a Folder
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: edit-folder-properties,edit-folder-permissions,move-folder,delete-folder
 ---

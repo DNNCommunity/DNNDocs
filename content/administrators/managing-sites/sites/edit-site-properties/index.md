@@ -2,7 +2,6 @@
 uid: edit-site-properties
 locale: en
 title: Edit a Site's Properties
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: create-site,view-site,delete-site,move-site-to-another-server
 ---

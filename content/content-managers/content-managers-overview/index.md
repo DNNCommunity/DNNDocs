@@ -2,7 +2,6 @@
 uid: content-managers-overview
 locale: en
 title: Hello, Content Manager!
-dnneditions: 
 dnnversion: 09.02.00
 ---
 
