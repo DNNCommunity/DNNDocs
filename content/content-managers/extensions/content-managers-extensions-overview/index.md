@@ -4,7 +4,7 @@ locale: en
 title: About Extensions
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-related-topics: content-managers-connectors-overview,content-managers-workflows-overview
+related-topics: 
 ---
 
 # About Extensions

@@ -4,7 +4,7 @@ locale: en
 title: MVC Module Development
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-related-topics: pack-extension,create-module-using-templates,use-module-creator,providers
+related-topics: create-module-using-templates,use-module-creator,providers
 links: ["[Wikipedia: Model-View-Controller](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)"]
 ---
 

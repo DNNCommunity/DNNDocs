@@ -4,7 +4,7 @@ locale: en
 title: Configure the Wiki Module
 dnneditions: 
 dnnversion: 09.02.00
-related-topics: configure-module-on-page-pb-all
+related-topics: 
 ---
 
 # Configure the Wiki Module

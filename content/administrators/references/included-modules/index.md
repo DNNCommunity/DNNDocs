@@ -4,7 +4,7 @@ locale: en
 title: Included Modules
 dnneditions: 
 dnnversion: 09.02.00
-related-topics: add-module-to-page-pb-all,creating-content-with-modules,creation-modules,social-modules,general-content-modules,search-modules
+related-topics: creating-content-with-modules,creation-modules,social-modules,general-content-modules,search-modules
 ---
 
 

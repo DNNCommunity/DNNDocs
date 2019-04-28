@@ -4,7 +4,7 @@ locale: en
 title: "Module: Publisher"
 dnneditions: 
 dnnversion: 09.02.00
-related-topics: create-article-publisher,module-module-creator
+related-topics: module-module-creator
 ---
 
 # Module: Publisher

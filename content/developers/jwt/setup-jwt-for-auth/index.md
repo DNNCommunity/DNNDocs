@@ -4,7 +4,7 @@ locale: en
 title: Set Up JWT Authentication for Your Site
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-related-topics: jwt-user-credentials,jwt-server-response,jwt-access-token,jwt-page-request,jwt-auth-handler,jwt-user-credentials,jwt-server-response,jwt-access-token,jwt-page-request,jwt-auth-handler
+related-topics: 
 links: ["[IETF RFC 7519](https://tools.ietf.org/html/rfc7519)","[DNN Presentation: How Evoq Helps You Build Modern Web Applications by Will Morgenweck](https://www.slideshare.net/dnnsoftware/how-evoq-helps-you-build-modern-web-applications)","[jwt.io](https://jwt.io/introduction/)"]
 ---
 

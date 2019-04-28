@@ -10,8 +10,4 @@
 #[References](xref:content-manager-references)
 #[Overview](xref:content-managers-overview)
 #[Content with Modules](xref:content-managers-content-with-modules-overview)
-##[Create Article - Publisher](xref:create-article-publisher)
-##[Delete Module from Page](xref:delete-module-from-page-pb-all)
 #[Extensions](xref:content-managers-extensions-overview)
-#[Structured Content](xref:content-managers-structured-content-overview)
-##[Workflow Overview](xref:content-managers-workflows-overview)
