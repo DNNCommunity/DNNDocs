@@ -2,7 +2,6 @@
 uid: mvc-module-unittest
 locale: en
 title: Create a Unit Test for an MVC module
-dnneditions:
 dnnversion: 09.02.00
 related-topics: developers-mvc-modules-overview,mvc-module-mvccontroller,mvc-module-mvcviews,unsupported-mvc-features
 links: ["[Microsoft MSDN: Unit Test Basics](https://docs.microsoft.com/en-us/visualstudio/test/unit-test-basics)","[Microsoft Visual Studio: Run tests with your builds for continuous integration](https://www.visualstudio.com/en-gb/docs/test/continuous-testing/test-build)","[Moq](https://www.nuget.org/packages/Moq/)"]

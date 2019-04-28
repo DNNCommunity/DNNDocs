@@ -2,7 +2,6 @@
 uid: submit-site-google-search
 locale: en
 title: Submit Your Site to Google Search for Indexing
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: configure-sitemap
 links: ["[Google: Setting Up Event Tracking](https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide)"]

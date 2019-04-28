@@ -2,7 +2,6 @@
 uid: how-to-edit-an-article
 locale: en
 title: Edit an Article
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

@@ -2,7 +2,6 @@
 uid: config-module-answers
 locale: en
 title: Configure the Answers Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

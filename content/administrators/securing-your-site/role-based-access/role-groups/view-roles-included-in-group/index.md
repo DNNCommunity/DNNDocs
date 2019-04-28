@@ -2,7 +2,6 @@
 uid: view-roles-included-in-group
 locale: en
 title: View the List of Roles Included in a Group
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: add-role-to-new-group,add-role-to-existing-group,remove-role-from-group,edit-custom-role-group,delete-custom-role-group
 ---

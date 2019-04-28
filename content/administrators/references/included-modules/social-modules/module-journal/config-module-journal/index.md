@@ -2,7 +2,6 @@
 uid: config-module-journal
 locale: en
 title: Configure the Journal Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

@@ -2,7 +2,6 @@
 uid: delete-file-version
 locale: en
 title: Delete a File Version
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: configure-folder-file-versioning,view-file-versions,restore-file-version,page-file-versioning
 ---

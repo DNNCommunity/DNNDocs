@@ -2,7 +2,6 @@
 uid: configure-notices
 locale: en
 title: Configure Notices About a Logged Event
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: view-site-logs,view-entry-details,clear-log,delete-entries,share-entries,add-event-type,edit-logged-event-type,delete-logged-event-type,toggle-logging-for-event-type
 ---

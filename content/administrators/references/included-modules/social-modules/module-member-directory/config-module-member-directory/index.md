@@ -2,7 +2,6 @@
 uid: config-module-member-directory
 locale: en
 title: Configure the Member Directory Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

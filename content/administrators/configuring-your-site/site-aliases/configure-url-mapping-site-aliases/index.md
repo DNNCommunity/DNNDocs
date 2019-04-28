@@ -2,7 +2,6 @@
 uid: configure-url-mapping-site-aliases
 locale: en
 title: Configure URL Mapping for Site Aliases
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: add-site-alias,edit-site-alias,delete-site-alias,change-primary-site-alias
 ---

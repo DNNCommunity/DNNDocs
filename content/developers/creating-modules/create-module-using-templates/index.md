@@ -2,7 +2,6 @@
 uid: create-module-using-templates
 locale: en
 title: Create a Module Using Templates
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 previous-topic: use-module-creator
 next-topic: start-vs-project-with-templates

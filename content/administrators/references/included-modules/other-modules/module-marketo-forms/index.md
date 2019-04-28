@@ -2,7 +2,6 @@
 uid: module-marketo-forms
 locale: en
 title: "Module: Marketo Forms"
-dnneditions: 
 dnnversion: 09.02.00
 ---
 

@@ -2,7 +2,6 @@
 uid: config-module-social-events
 locale: en
 title: Configure the Social Events Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

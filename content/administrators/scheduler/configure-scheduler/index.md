@@ -2,7 +2,6 @@
 uid: configure-scheduler
 locale: en
 title: Configure the Scheduler
-dnneditions: 
 dnnversion: 09.02.00
 ---
 

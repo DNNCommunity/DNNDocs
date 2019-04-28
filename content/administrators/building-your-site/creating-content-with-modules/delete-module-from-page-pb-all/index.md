@@ -1,7 +1,6 @@
 ﻿---
 locale: en
 title: Delete a Module from a Page via the Persona Bar
-dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: 
 ---

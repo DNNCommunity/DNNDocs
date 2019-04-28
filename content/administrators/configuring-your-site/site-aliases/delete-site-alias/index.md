@@ -2,7 +2,6 @@
 uid: delete-site-alias
 locale: en
 title: Delete a Site Alias
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: configure-url-mapping-site-aliases,add-site-alias,edit-site-alias,change-primary-site-alias
 ---

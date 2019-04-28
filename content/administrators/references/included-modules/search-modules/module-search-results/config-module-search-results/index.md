@@ -2,7 +2,6 @@
 uid: config-module-search-results
 locale: en
 title: Configure the Search Results Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

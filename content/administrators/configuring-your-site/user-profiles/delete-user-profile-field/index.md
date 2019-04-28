@@ -2,7 +2,6 @@
 uid: delete-user-profile-field
 locale: en
 title: Delete a User Profile Field
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: configure-user-profile-visibility,configure-user-profile-vanity-url,add-user-profile-field,edit-user-profile-field,organize-user-profile-fields
 ---

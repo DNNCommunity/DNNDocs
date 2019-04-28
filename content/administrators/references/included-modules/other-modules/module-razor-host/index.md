@@ -2,7 +2,6 @@
 uid: module-razor-host
 locale: en
 title: "Module: Razor Host"
-dnneditions: 
 dnnversion: 09.02.00
 ---
 

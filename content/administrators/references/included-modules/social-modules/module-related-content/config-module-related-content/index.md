@@ -2,7 +2,6 @@
 uid: config-module-related-content
 locale: en
 title: Configure the Related Content Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

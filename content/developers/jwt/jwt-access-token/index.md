@@ -2,7 +2,6 @@
 uid: developers-jwt-access-token
 locale: en
 title: JWT Access Token
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: 
 ---

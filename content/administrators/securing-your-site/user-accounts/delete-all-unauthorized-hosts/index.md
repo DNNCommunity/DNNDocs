@@ -2,7 +2,6 @@
 uid: delete-all-unauthorized-hosts
 locale: en
 title: Delete All Unauthorized Hosts
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles,remove-user-from-multiple-roles,edit-user,manage-user-password,delete-user,delete-all-unauthorized-users,restore-deleted-user-account,purge-user-account,create-host-account,authorize-host,promote-user-to-host,demote-from-host,manage-host-password,delete-host,restore-deleted-host-account,purge-host-account
 ---

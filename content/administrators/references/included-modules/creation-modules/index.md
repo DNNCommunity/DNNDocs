@@ -2,7 +2,6 @@
 uid: creation-modules
 locale: en
 title: Creation Modules
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: included-modules
 ---

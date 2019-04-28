@@ -2,7 +2,6 @@
 uid: create-vocabulary
 locale: en
 title: Create a Vocabulary
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: edit-vocabulary,delete-vocabulary,add-term-to-vocabulary,edit-term-in-vocabulary,delete-term-from-vocabulary
 ---

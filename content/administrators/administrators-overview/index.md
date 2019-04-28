@@ -2,7 +2,6 @@
 uid: administrators-overview
 locale: en
 title: Hello, Administrator!
-dnneditions: 
 dnnversion: 09.02.00
 ---
 

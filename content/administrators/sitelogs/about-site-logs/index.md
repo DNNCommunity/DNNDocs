@@ -2,7 +2,6 @@
 uid: about-site-logs
 locale: en
 title: About Site Logs
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 ---
 

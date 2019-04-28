@@ -2,7 +2,6 @@
 uid: config-module-challenges
 locale: en
 title: Configure the Challenges Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

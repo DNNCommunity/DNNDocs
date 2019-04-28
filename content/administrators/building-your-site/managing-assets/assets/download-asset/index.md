@@ -2,7 +2,6 @@
 uid: download-asset
 locale: en
 title: Download an Asset
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: add-assets,edit-asset-properties,edit-asset-permissions,move-asset,copy-asset,delete-asset
 ---

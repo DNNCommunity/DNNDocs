@@ -2,7 +2,6 @@
 uid: delete-list-of-words-to-ignore
 locale: en
 title: Delete List of Words to Ignore
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: create-list-of-words-to-ignore,edit-list-of-words-to-ignore
 ---

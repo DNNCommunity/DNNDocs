@@ -2,7 +2,6 @@
 uid: configure-url-redirects
 locale: en
 title: Configure URL Redirects
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: configure-url-rewriter,manage-url-providers,edit-regex-for-url-management,test-url-generation
 ---

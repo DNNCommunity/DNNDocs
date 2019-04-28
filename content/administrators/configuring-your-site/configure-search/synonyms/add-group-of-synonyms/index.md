@@ -2,7 +2,6 @@
 uid: add-group-of-synonyms
 locale: en
 title: Add a Group of Synonyms
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: edit-group-of-synonyms,delete-group-of-synonyms
 ---

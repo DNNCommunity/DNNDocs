@@ -2,7 +2,6 @@
 uid: administrators-import-export-overview
 locale: en
 title: Import / Export
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 ---
 

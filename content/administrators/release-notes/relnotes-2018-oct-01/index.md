@@ -2,7 +2,6 @@
 uid: relnotes-2018-oct-01
 locale: en
 title: DNN Release Notes — 2018 Oct 01
-dnneditions: 
 dnnversion: 09.02.02
 ---
 

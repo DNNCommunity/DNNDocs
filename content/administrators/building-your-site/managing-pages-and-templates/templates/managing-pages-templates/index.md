@@ -2,7 +2,6 @@
 uid: managing-pages-templates
 locale: en
 title: Managing Pages and Templates
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 ---
 

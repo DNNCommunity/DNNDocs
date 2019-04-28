@@ -2,7 +2,6 @@
 uid: view-file-versions
 locale: en
 title: View the Latest Versions of a File
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: configure-folder-file-versioning,restore-file-version,delete-file-version,page-file-versioning
 ---

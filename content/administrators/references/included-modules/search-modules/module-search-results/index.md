@@ -2,7 +2,6 @@
 uid: module-search-results
 locale: en
 title: "Module: Search Results"
-dnneditions: 
 dnnversion: 09.02.00
 ---
 

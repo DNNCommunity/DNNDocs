@@ -2,7 +2,6 @@
 uid: general-content-modules
 locale: en
 title: General Content Modules
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: included-modules
 ---

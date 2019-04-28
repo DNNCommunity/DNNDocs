@@ -2,7 +2,6 @@
 uid: configure-connectors-pb-all
 locale: en
 title: Configure Connections to External Service Providers
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 ---
 

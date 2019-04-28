@@ -2,7 +2,6 @@
 uid: dnn-overview
 locale: en
 title: An Overview of DNN Solutions
-dnneditions:
 dnnversion: 09.02.00
 related-topics: administrators-included-modules-overview,requirements,product-versions,control-bar-to-persona-bar,persona-bar-by-role,providers,dnn-license,more-resources
 ---

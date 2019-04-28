@@ -2,7 +2,6 @@
 uid: configure-folder-file-versioning
 locale: en
 title: Configure Folder/File Versioning
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: view-file-versions,restore-file-version,delete-file-version,page-file-versioning
 ---

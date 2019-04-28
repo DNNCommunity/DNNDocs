@@ -2,7 +2,6 @@
 uid: module-architecture
 locale: en
 title: Module Architecture
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: dnn-manifest-schema,module-features,developers-creating-modules-overview,about-evs
 links: ["[DNN Module APIs](https://www.dnnsoftware.com/dnn-api/)"]

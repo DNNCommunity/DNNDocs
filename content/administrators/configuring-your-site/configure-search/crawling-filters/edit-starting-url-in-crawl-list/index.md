@@ -2,7 +2,6 @@
 uid: edit-starting-url-in-crawl-list
 locale: en
 title: Edit a Starting URL in Crawl List
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: add-starting-url-to-crawl-list,delete-starting-url-from-crawl-list,add-directory-to-included-list,delete-directory-from-included-list,add-directory-to-excluded-list,delete-directory-from-excluded-list,add-file-extension-to-included-or-excluded-list,delete-file-extension-from-included-or-excluded-list
 ---

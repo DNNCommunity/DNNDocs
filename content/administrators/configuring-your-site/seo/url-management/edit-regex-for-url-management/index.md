@@ -2,7 +2,6 @@
 uid: edit-regex-for-url-management
 locale: en
 title: Edit RegEx for URL Management
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: configure-url-rewriter,configure-url-redirects,manage-url-providers,test-url-generation
 ---

@@ -2,7 +2,6 @@
 uid: config-module-console
 locale: en
 title: Configure the Console Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

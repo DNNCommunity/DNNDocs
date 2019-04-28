@@ -2,7 +2,6 @@
 uid: view-site-logs
 locale: en
 title: View Site Logs
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: view-entry-details,clear-log,delete-entries,share-entries,add-event-type,edit-logged-event-type,delete-logged-event-type,toggle-logging-for-event-type,configure-notices
 ---

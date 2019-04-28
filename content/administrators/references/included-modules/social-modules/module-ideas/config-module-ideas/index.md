@@ -2,7 +2,6 @@
 uid: config-module-ideas
 locale: en
 title: Configure the Ideas Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

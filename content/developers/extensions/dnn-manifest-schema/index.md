@@ -2,7 +2,6 @@
 uid: dnn-manifest-schema
 locale: en
 title: The DNN Manifest Schema
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: module-features,module-architecture,developers-creating-modules-overview,about-evs
 links: ["[DNN Module APIs](https://www.dnnsoftware.com/dnn-api/)","[Top 5 DotNetNuke Manifest file Module Packaging Tips by Bruce Chapman](https://web.archive.org/web/20160610221847/http://www.ifinity.com.au/Blog/EntryId/89/Top-5-DotNetNuke-Manifest-file-Module-Packaging-Tips)","[DNN Community blog: DAL 2 — A New DotNetNuke Data Layer for a New Decade by Charles Nurse](https://www.dnnsoftware.com/community-blog/cid/142201/dal-2-a-new-dotnetnuke-data-layer-for-a-new-decade)","[DNN Wiki: Manifests](https://www.dnnsoftware.com/wiki/manifests)","[DNN Community blog: The New Extension Installer Manifest — Part 1, Introduction by Charles Nurse](https://www.dnnsoftware.com/community-blog/cid/135060/the-new-extension-installer-manifest-part-1-introduction)"]

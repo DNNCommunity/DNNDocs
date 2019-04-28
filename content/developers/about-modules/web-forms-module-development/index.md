@@ -2,7 +2,6 @@
 uid: web-forms-module-development
 locale: en
 title: Web Forms Module Development
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: use-module-creator,providers
 links: ["[Module Development: DNN Video Library](https://www.dnnsoftware.com/videos/)"]

@@ -2,7 +2,6 @@
 uid: edit-asset-properties
 locale: en
 title: Edit the Properties of an Asset
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: add-assets,edit-asset-permissions,move-asset,copy-asset,download-asset,delete-asset
 ---

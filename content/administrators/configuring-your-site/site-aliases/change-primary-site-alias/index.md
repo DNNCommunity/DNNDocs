@@ -2,7 +2,6 @@
 uid: change-primary-site-alias
 locale: en
 title: Change the Primary Site Alias
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: configure-url-mapping-site-aliases,add-site-alias,edit-site-alias,delete-site-alias
 ---

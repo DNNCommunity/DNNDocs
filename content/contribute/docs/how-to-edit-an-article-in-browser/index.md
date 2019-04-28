@@ -2,7 +2,6 @@
 uid: how-to-edit-an-article-in-browser
 locale: en
 title: Edit an Article in the Browser
-dnneditions: 
 dnnversion: 09.02.00
 ---
 

@@ -2,7 +2,6 @@
 uid: included-modules
 locale: en
 title: Included Modules
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: creating-content-with-modules,creation-modules,social-modules,general-content-modules,search-modules
 ---

@@ -2,7 +2,6 @@
 uid: administrators-licensing-overview
 locale: en
 title: DNN Evoq Licensing
-dnneditions:
 dnnversion: 09.02.00
 links: ["[DNN Evoq Licensing](https://dnnsupport.dnnsoftware.com/hc/en-us/articles/360004881714-DNN-Evoq-Licensing)"]
 ---

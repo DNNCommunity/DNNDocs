@@ -2,7 +2,6 @@
 uid: config-module-calendar
 locale: en
 title: Configure the Calendar Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

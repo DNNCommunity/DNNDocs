@@ -2,7 +2,6 @@
 uid: module-content-layout
 locale: en
 title: "Module: Content Layout"
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: module-console,module-html-text
 ---

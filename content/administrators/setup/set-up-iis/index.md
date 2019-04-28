@@ -2,7 +2,6 @@
 uid: set-up-iis
 locale: en
 title: Enable and Set Up IIS
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 previous-topic: set-up-dnn-folder
 next-topic: set-up-sql

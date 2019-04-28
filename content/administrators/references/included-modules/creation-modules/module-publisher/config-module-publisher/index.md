@@ -2,7 +2,6 @@
 uid: config-module-publisher
 locale: en
 title: Configure the Publisher Module
-dnneditions: 
 dnnversion: 09.02.00
 related-topics: 
 ---

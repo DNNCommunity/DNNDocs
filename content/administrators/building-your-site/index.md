@@ -2,7 +2,6 @@
 uid: administrators-building-your-site-overview
 locale: en
 title: Building Your Site
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 ---
 

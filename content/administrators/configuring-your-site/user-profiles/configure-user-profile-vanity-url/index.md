@@ -3,7 +3,6 @@
 uid: configure-user-profile-vanity-url
 locale: en
 title: Configure the User Profile Vanity URL
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: configure-user-profile-visibility,add-user-profile-field,edit-user-profile-field,delete-user-profile-field,organize-user-profile-fields
 ---

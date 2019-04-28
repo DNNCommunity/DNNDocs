@@ -2,7 +2,6 @@
 uid: edit-vocabulary
 locale: en
 title: Edit a Vocabulary
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: create-vocabulary,delete-vocabulary,add-term-to-vocabulary,edit-term-in-vocabulary,delete-term-from-vocabulary
 ---
