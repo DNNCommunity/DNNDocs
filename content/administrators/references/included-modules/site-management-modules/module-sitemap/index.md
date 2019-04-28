@@ -22,9 +22,9 @@ Sitemaps help third-party search engine crawlers to navigate your site for impro
 
  
 
-|  |Package|Category|Product(s)|
-|--|--|--|--|--|
-|![icon](/images/ico-module-sitemap.png)|Sitemap|Admin|![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)|
+|                                         | Package | Category |
+| --------------------------------------- | ------- | -------- |
+| ![icon](/images/ico-module-sitemap.png) | Sitemap | Admin    |
 
 ## Module Configuration
 

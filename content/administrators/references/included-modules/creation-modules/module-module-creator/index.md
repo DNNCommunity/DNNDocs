@@ -22,9 +22,9 @@ You must be a host user in a local DNN installation to create modules using this
 
  
 
-|  |Package|Category|Product(s)|
-|--|--|--|--|--|
-|![icon](/images/ico-module-modulecreator.png)|Module Creator|Developer|![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)|
+|                                               | Package        | Category  |
+| --------------------------------------------- | -------------- | --------- |
+| ![icon](/images/ico-module-modulecreator.png) | Module Creator | Developer |
 
 ## Module Configuration
 

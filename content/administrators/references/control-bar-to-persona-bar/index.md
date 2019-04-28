@@ -11,7 +11,7 @@ related-topics: administrators-included-modules-overview,requirements,product-ve
 The following tables show the correspondence between the old Control Panel/Bar and the new Persona Bar.
 
 > [!NOTE]
-> The Persona Bar varies according to the product and to the permissions granted to the current authenticated (logged-in) user through roles. Examples: A host or superuser has access to almost all menu items, whereas a community manager would have access to only the features required to manage the community-related aspects of the site. Likewise, Evoq Content does not have the community-related menu items that Evoq Engage has.
+> The Persona Bar varies according to the product and to the permissions granted to the current authenticated (logged-in) user through roles. Examples: A host or superuser has access to almost all menu items, whereas a community manager would have access to only the features required to manage the community-related aspects of the site.
 
 ## Admin
 

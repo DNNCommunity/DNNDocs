@@ -33,6 +33,6 @@ Authorized users can edit the content either inline or in a separate administrat
 
  
 
-|  |Package|Category|Product(s)|
-|--|--|--|--|--|
-|![icon](/images/ico-module-html.png)|HTML|Common|![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)|
+|                                      | Package | Category |
+| ------------------------------------ | ------- | -------- |
+| ![icon](/images/ico-module-html.png) | HTML    | Common   |

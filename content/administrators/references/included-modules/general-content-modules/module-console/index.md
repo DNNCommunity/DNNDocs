@@ -27,6 +27,6 @@ Found in the Admin Console and Host Console pages.
 
  
 
-|  |Package|Category|Product(s)|
-|--|--|--|--|--|
-|![icon](/images/ico-module-console.png)|Console|Admin|![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)|
+|                                         | Package | Category |
+| --------------------------------------- | ------- | -------- |
+| ![icon](/images/ico-module-console.png) | Console | Admin    |

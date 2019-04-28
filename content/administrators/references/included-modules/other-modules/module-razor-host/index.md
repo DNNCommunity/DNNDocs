@@ -17,6 +17,6 @@ Allows the site to handle scripts written in the ASP.NET Razor programming synta
 
  
 
-|  |Package|Category|Product(s)|
-|--|--|--|--|--|\
-|![icon](/images/ico-module-razorhost.png)|Razor Host|None|![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)|
+|                                           | Package    | Category |
+| ----------------------------------------- | ---------- | -------- |
+| ![icon](/images/ico-module-razorhost.png) | Razor Host | None     |
