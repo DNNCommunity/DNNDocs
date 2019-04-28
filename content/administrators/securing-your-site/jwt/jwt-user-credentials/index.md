@@ -4,7 +4,7 @@ locale: en
 title: JWT User Credentials
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-related-topics: setup-jwt-for-auth,setup-jwt-for-auth,jwt-server-response,jwt-access-token,jwt-page-request,jwt-auth-handler
+related-topics: 
 ---
 
 # JWT User Credentials

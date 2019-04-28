@@ -4,7 +4,7 @@ locale: en
 title: About Assets
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-related-topics: administrators-pages-templates-overview,administrators-microservices-overview,administrators-content-with-modules-overview,empty-recycle-bin
+related-topics: administrators-pages-templates-overview,administrators-content-with-modules-overview
 ---
 
 # About Assets

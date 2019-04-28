@@ -4,7 +4,7 @@ locale: en
 title: About Module Development
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-related-topics: pack-extension,providers
+related-topics: providers
 ---
 
 # About Module Development

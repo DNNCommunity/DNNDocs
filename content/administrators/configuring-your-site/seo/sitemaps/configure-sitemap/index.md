@@ -4,7 +4,7 @@ locale: en
 title: Configure Your Sitemap
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-related-topics: submit-site-Google-search,module-sitemap
+related-topics: module-sitemap
 ---
 
 # Configure Your Sitemap

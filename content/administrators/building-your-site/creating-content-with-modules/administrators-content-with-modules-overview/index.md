@@ -4,7 +4,7 @@ locale: en
 title: Creating Content with Modules
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-related-topics: included-modules,administrators-assets-overview,administrators-pages-templates-overview,administrators-microservices-overview,empty-recycle-bin
+related-topics: included-modules,administrators-assets-overview,administrators-pages-templates-overview
 ---
 
 # Creating Content with Modules

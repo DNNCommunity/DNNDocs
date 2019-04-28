@@ -4,7 +4,7 @@ locale: en
 title: Manage a User Password
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles,remove-user-from-multiple-roles,edit-user,delete-user,delete-all-unauthorized-users,restore-deleted-user-account,purge-user-account,restore-multiple-deleted-users,purge-multiple-deleted-users,create-host-account,authorize-host,promote-user-to-host,demote-from-host,manage-host-password,delete-host,delete-all-unauthorized-hosts,restore-deleted-host-account,purge-host-account
+related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles,remove-user-from-multiple-roles,edit-user,delete-user,delete-all-unauthorized-users,restore-deleted-user-account,purge-user-account,create-host-account,authorize-host,promote-user-to-host,demote-from-host,manage-host-password,delete-host,delete-all-unauthorized-hosts,restore-deleted-host-account,purge-host-account
 ---
 
 # Manage a User Password
