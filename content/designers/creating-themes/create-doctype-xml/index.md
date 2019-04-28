@@ -4,7 +4,6 @@ locale: en
 title: Create a DocType XML
 dnnversion: 09.02.00
 previous-topic: create-css
-next-topic: pack-extension
 related-topics: about-themes
 links: ["[DNN Wiki: DotNetNuke Skins](https://www.dnnsoftware.com/wiki/dotnetnuke-skins)","[DNN Community blog: DotNetNuke Skinning 101 (Part 2) by Joe Brinkman](https://www.dnnsoftware.com/community-blog/cid/131999/dotnetnuke-skinning-101-part-2)"]
 ---

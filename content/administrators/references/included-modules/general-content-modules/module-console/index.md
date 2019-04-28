@@ -3,7 +3,7 @@ uid: module-console
 locale: en
 title: "Module: Console"
 dnnversion: 09.02.00
-related-topics: module-content-layout,module-html-text
+related-topics: module-html-text
 ---
 
 # Module: Console

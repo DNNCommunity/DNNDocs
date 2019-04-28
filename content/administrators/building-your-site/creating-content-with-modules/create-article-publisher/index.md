@@ -2,7 +2,7 @@
 locale: en
 title: Create an Article in the Publisher Module
 dnnversion: 09.02.00
-related-topics: module-publisher
+related-topics: 
 ---
 
 # Create an Article in the Publisher Module
