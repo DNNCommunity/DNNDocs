@@ -1,11 +1,9 @@
 ﻿---
 uid: content-managers-workflows-overview
-topic: content-managers-workflows-overview
 locale: en
 title: About Workflows
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: content-managers-configuring-your-site-overview
 related-topics: content-managers-extensions-overview,content-managers-connectors-overview
 ---
 

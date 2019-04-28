@@ -1,11 +1,9 @@
 ﻿---
 uid: config-module-member-directory
-topic: config-module-member-directory
 locale: en
 title: Configure the Member Directory Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-member-directory
 related-topics: configure-module-on-page-pb-all
 ---
 

@@ -1,11 +1,9 @@
 ﻿---
 uid: content-managers-create-visualizer
-topic: create-visualizer
 locale: en
 title: Create a Visualizer
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: content-managers-structured-content-overview
 related-topics: edit-visualizer,delete-visualizer,import-visualizer,export-visualizer
 ---
 

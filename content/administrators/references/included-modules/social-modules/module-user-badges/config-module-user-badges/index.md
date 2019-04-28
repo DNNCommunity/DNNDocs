@@ -1,11 +1,9 @@
 ﻿---
 uid: config-module-user-badges
-topic: config-module-user-badges
 locale: en
 title: Configure the User Badges Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-user-badges
 related-topics: configure-module-on-page-pb-all
 ---
 

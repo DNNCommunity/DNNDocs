@@ -1,11 +1,9 @@
 ﻿---
 uid: config-module-social-events
-topic: config-module-social-events
 locale: en
 title: Configure the Social Events Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-social-events
 related-topics: configure-module-on-page-pb-all
 ---
 

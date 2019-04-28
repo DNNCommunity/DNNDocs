@@ -1,11 +1,9 @@
 ﻿---
 uid: delete-web-server
-topic: delete-web-server
 locale: en
 title: Delete a Web Server
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: about-web-servers
 related-topics: enable-or-disable-web-server,change-url-of-web-server,assign-web-server-to-server-group,replace-web-request-adapter
 ---
 

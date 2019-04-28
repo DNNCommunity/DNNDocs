@@ -1,11 +1,9 @@
 ﻿---
 uid: create-container
-topic: create-container
 locale: en
 title: Create a Container
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: designers-creating-themes-overview
 previous-topic: create-layout-template
 next-topic: create-css
 related-topics: theme-objects,about-themes,create-theme

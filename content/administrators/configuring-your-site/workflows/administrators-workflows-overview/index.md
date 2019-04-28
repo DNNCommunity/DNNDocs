@@ -1,11 +1,9 @@
 ﻿---
 uid: administrators-workflows-overview
-topic: administrators-workflows-overview
 locale: en
 title: About Workflows
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-configuring-your-site-overview
 related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,configure-messaging,access-web-config,configure-check-for-new-version,participate-in-improvement-program,configure-html-editor,page-file-versioning,administrators-extensions-overview,administrators-connectors-overview,administrators-search-overview,administrators-vocabularies-overview
 ---
 

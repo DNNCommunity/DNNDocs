@@ -1,11 +1,9 @@
 ﻿---
 uid: config-module-challenges
-topic: config-module-challenges
 locale: en
 title: Configure the Challenges Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-challenges
 related-topics: configure-module-on-page-pb-all
 ---
 

@@ -1,11 +1,9 @@
 ﻿---
 uid: edit-or-reset-api-key
-topic: edit-or-reset-api-key
 locale: en
 title: Edit or Reset the API Key
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-structured-content-overview
 related-topics: create-api-key,get-existing-api-key,delete-api-key
 ---
 

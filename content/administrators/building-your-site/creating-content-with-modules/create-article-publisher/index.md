@@ -1,10 +1,8 @@
 ﻿---
-topic: create-article-publisher
 locale: en
 title: Create an Article in the Publisher Module
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: content-managers-content-with-modules-overview
 related-topics: add-module-to-page-pb-all,add-content-to-page-quickly-pb-all,configure-module-on-page-pb-all,delete-module-from-page-pb-all,restore-deleted-modules,purge-deleted-modules,module-publisher
 ---
 

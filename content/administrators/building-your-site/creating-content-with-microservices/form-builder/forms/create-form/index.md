@@ -1,11 +1,9 @@
 ﻿---
 uid: create-form
-topic: create-form
 locale: en
 title: Create a Form
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-forms-overview
 related-topics: edit-form,duplicate-form,delete-form,embed-form,view-form-responses,content-fields-versus-form-fields,about-hidden-fields,save-form-responses-to-structured-content
 ---
 

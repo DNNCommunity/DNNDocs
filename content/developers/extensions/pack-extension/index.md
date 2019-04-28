@@ -1,11 +1,9 @@
 ﻿---
 uid: developers-pack-extension
-topic: pack-extension
 locale: en
 title: Pack Your Extension
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: developers-creating-modules-overview
 previous-topic: test-module
 next-topic: install-extension
 related-topics: dnn-manifest-schema,module-development,web-forms-module-development,spa-module-development,create-module,mvc-module-development,providers

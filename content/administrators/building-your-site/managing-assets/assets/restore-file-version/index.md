@@ -1,11 +1,9 @@
 ﻿---
 uid: restore-file-version
-topic: restore-file-version
 locale: en
 title: Restore a File Version
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-assets-overview
 related-topics: configure-folder-file-versioning,view-file-versions,delete-file-version,page-file-versioning
 ---
 

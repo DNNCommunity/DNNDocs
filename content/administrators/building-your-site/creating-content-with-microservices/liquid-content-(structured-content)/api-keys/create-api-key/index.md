@@ -1,11 +1,9 @@
 ﻿---
 uid: create-api-key
-topic: create-api-key
 locale: en
 title: Create an API Key
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-structured-content-overview
 related-topics: get-existing-api-key,edit-or-reset-api-key,delete-api-key
 ---
 

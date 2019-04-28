@@ -1,6 +1,5 @@
 ﻿---
 uid: module-content-staging
-topic: module-content-staging
 locale: en
 title: "Module: Content Staging"
 dnneditions: 

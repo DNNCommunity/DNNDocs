@@ -1,11 +1,9 @@
 ﻿---
 uid: api-contenttypes-id-delete
-topic: api-contenttypes-id-delete
 locale: en
 title: DELETE Content Types with ID
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: about-structured-content-content-type-apis
 related-topics: api-contenttypes-get,api-contenttypes-id-get,api-contenttypes-post,api-contenttypes-id-put
 ---
 

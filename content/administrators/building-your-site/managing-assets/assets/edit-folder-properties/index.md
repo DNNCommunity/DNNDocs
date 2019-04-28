@@ -1,11 +1,9 @@
 ﻿---
 uid: edit-folder-properties
-topic: edit-folder-properties
 locale: en
 title: Edit the Properties of a Folder
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-assets-overview
 related-topics: create-folder,edit-folder-permissions,move-folder,delete-folder
 ---
 

@@ -1,6 +1,5 @@
 ﻿---
 uid: common-edit-page-pb-all
-topic: edit-page-pb-all
 locale: en
 title: Edit a Page via the Persona Bar
 dnneditions: Evoq Content,Evoq Engage

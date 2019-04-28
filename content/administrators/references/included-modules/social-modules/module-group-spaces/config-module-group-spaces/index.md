@@ -1,11 +1,9 @@
 ﻿---
 uid: config-module-group-spaces
-topic: config-module-group-spaces
 locale: en
 title: Configure the Group Spaces Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-group-spaces
 related-topics: configure-module-on-page-pb-all
 ---
 

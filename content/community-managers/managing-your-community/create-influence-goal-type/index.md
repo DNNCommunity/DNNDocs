@@ -1,11 +1,9 @@
 ﻿---
 uid: create-influence-goal-type
-topic: create-influence-goal-type
 locale: en
 title: Create Influence Goal Type
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: engagement-influence
 related-topics: edit-influence-goal-type,delete-influence-goal-type,config-misc-community-settings
 ---
 

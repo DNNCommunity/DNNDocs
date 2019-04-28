@@ -1,11 +1,9 @@
 ﻿---
 uid: transfer-an-export-package
-topic: transfer-an-export-package
 locale: en
 title: Transfer an Export Package
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-import-export-overview
 related-topics: export-site,import-site
 ---
 

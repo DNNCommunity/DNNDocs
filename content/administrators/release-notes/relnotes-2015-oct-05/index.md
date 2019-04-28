@@ -1,6 +1,5 @@
 ﻿---
 uid: relnotes-2015-oct-05
-topic: relnotes-2015-oct-05
 locale: en
 title: DNN Release Notes — 2015 Oct 05
 dnneditions:

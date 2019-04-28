@@ -1,11 +1,9 @@
 ﻿---
 uid: replace-web-request-adapter
-topic: replace-web-request-adapter
 locale: en
 title: Replace the Web Request Adapter
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: about-web-servers
 related-topics: enable-or-disable-web-server,change-url-of-web-server,assign-web-server-to-server-group,delete-web-server
 ---
 

@@ -1,11 +1,9 @@
 ﻿---
 uid: delete-badge
-topic: delete-badge
 locale: en
 title: Delete Badge
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: gamification
 related-topics: configure-gaming-actions,configure-gaming-privileges,create-badge,edit-badge
 ---
 

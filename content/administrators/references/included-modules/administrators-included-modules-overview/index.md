@@ -1,11 +1,9 @@
 ﻿---
 uid: administrators-included-modules-overview
-topic: administrators-included-modules-overview
 locale: en
 title: Included Modules
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: administrator-references
 related-topics: requirements,product-versions,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,providers,dnn-license,DNN-security,more-resources
 ---
 

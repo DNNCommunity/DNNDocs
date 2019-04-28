@@ -1,11 +1,9 @@
 ﻿---
 uid: content-managers-delete-visualizer
-topic: delete-visualizer
 locale: en
 title: Delete a Visualizer
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: content-managers-structured-content-overview
 related-topics: create-visualizer,edit-visualizer,import-visualizer,export-visualizer
 ---
 

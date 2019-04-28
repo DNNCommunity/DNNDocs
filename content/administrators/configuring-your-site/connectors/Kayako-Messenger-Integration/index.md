@@ -1,6 +1,5 @@
 ﻿---
 uid: kayako-messenger-integration
-topic: Kayako Messenger Integration
 locale: en
 title: Kayako Messenger Integration
 dnneditions: Evoq Content,Evoq Engage

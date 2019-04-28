@@ -1,11 +1,9 @@
 ﻿---
 uid: module-search-results
-topic: module-search-results
 locale: en
 title: "Module: Search Results"
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: search-modules
 ---
 
 # Module: Search Results

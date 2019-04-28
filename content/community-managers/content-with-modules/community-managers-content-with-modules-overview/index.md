@@ -1,11 +1,9 @@
 ﻿---
 uid: community-managers-content-with-modules-overview
-topic: community-managers-content-with-modules-overview
 locale: en
 title: Creating Content with Modules
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: community-managers-building-your-site-overview
 related-topics: included-modules,community-managers-assets-overview,community-managers-pages-templates-overview,community-managers-microservices-overview,empty-recycle-bin
 ---
 

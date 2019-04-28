@@ -1,11 +1,9 @@
 ﻿---
 uid: configure-gaming-privileges
-topic: configure-gaming-privileges
 locale: en
 title: Configure Gaming Privileges
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: gamification
 related-topics: configure-gaming-actions,create-badge,edit-badge,delete-badge
 ---
 

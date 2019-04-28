@@ -1,6 +1,5 @@
 ﻿---
 uid: module-development
-topic: module-development
 locale: en
 title: About Module Development
 dnneditions: DNN Platform,Evoq Content,Evoq Engage

@@ -1,11 +1,9 @@
 ﻿---
 uid: assign-web-server-to-server-group
-topic: assign-web-server-to-server-group
 locale: en
 title: Assign the Web Server to a Server Group
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: about-web-servers
 related-topics: enable-or-disable-web-server,change-url-of-web-server,replace-web-request-adapter,delete-web-server
 ---
 

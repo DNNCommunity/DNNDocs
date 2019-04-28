@@ -1,11 +1,9 @@
 ﻿---
 uid: empty-recycle-bin
-topic: empty-recycle-bin
 locale: en
 title: Empty the Recycle Bin
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-building-your-site-overview
 related-topics: administrators-assets-overview,administrators-pages-templates-overview,administrators-microservices-overview,administrators-content-with-modules-overview
 ---
 

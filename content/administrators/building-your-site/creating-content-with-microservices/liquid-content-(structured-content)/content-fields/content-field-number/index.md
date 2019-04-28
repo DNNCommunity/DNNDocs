@@ -1,11 +1,9 @@
 ﻿---
 uid: content-field-number
-topic: content-field-number
 locale: en
 title: "Content Field: Number"
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-structured-content-overview
 related-topics: content-field-assets,content-field-date-time,content-field-multi-line-text,content-field-multiple-choice,content-field-reference-object,content-field-single-line-text,content-field-static-text
 ---
 

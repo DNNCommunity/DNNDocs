@@ -1,6 +1,5 @@
 ﻿---
 uid: about-search
-topic: about-search
 locale: en
 title: About Search
 dnneditions: DNN Platform,Evoq Content,Evoq Engage

@@ -1,6 +1,5 @@
 ﻿---
 uid: common-copy-page-pb-all
-topic: copy-page-pb-all
 locale: en
 title: Copy a Page via the Persona Bar
 dnneditions: Evoq Content,Evoq Engage

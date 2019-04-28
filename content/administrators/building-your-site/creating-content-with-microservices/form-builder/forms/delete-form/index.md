@@ -1,11 +1,9 @@
 ﻿---
 uid: delete-form
-topic: delete-form
 locale: en
 title: Delete a Form
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-forms-overview
 related-topics: create-form,edit-form,duplicate-form,embed-form,view-form-responses,content-fields-versus-form-fields
 ---
 

@@ -1,6 +1,5 @@
 ﻿---
 uid: about-sites
-topic: about-sites
 locale: en
 title: About Sites and Site Groups
 dnneditions: DNN Platform,Evoq Content,Evoq Engage

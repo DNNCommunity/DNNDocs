@@ -1,11 +1,9 @@
 ﻿---
 uid: config-module-search-results
-topic: config-module-search-results
 locale: en
 title: Configure the Search Results Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-search-results
 related-topics: configure-module-on-page-pb-all
 ---
 

@@ -1,11 +1,9 @@
 ﻿---
 uid: edit-regex-pattern-for-duplicate-pages
-topic: edit-regex-pattern-for-duplicate-pages
 locale: en
 title: Edit Regex Pattern for Duplicate Pages
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-search-overview
 related-topics: add-regex-pattern-for-duplicate-pages,delete-regex-pattern-for-duplicate-pages
 ---
 

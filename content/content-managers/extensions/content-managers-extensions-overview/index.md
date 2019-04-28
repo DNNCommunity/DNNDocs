@@ -1,11 +1,9 @@
 ﻿---
 uid: content-managers-extensions-overview
-topic: content-managers-extensions-overview
 locale: en
 title: About Extensions
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: content-managers-configuring-your-site-overview
 related-topics: content-managers-connectors-overview,content-managers-workflows-overview
 ---
 

@@ -1,11 +1,9 @@
 ﻿---
 uid: content-managers-import-visualizer
-topic: import-visualizer
 locale: en
 title: Import a Visualizer
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: content-managers-structured-content-overview
 related-topics: create-visualizer,edit-visualizer,delete-visualizer,export-visualizer
 ---
 

@@ -1,11 +1,9 @@
 ﻿---
 uid: config-module-group-directory
-topic: config-module-group-directory
 locale: en
 title: Configure the Group Directory Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-group-directory
 related-topics: configure-module-on-page-pb-all
 ---
 

@@ -1,11 +1,9 @@
 ﻿---
 uid: configure-sitemap
-topic: configure-sitemap
 locale: en
 title: Configure Your Sitemap
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-sitemaps-overview
 related-topics: submit-site-Google-search,module-sitemap
 ---
 

@@ -1,11 +1,9 @@
 ﻿---
 uid: assign-users-to-role
-topic: assign-users-to-role
 locale: en
 title: Assign Users to a Role
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-roles-overview
 related-topics: create-role,edit-role,delete-role,edit-date-range-for-role-membership,view-users-assigned-to-role,remove-users-from-role
 ---
 

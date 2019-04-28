@@ -1,11 +1,9 @@
 ﻿---
 uid: developers-microservices-overview
-topic: developers-microservices-overview
 locale: en
 title: About Microservices
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: developers-overview
 links: ["[Microservices (Wikipedia)](https://en.wikipedia.org/wiki/Microservices)","[Microservices vs. Service-Oriented Architecture (O'Reilly)](https://www.oreilly.com/programming/free/microservices-vs-service-oriented-architecture.csp)"]
 ---
 

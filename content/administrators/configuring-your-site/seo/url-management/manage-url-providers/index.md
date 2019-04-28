@@ -1,11 +1,9 @@
 ﻿---
 uid: manage-url-providers
-topic: manage-url-providers
 locale: en
 title: Manage URL Providers
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-configuring-your-site-overview
 related-topics: configure-url-rewriter,configure-url-redirects,edit-regex-for-url-management,test-url-generation
 ---
 

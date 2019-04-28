@@ -1,11 +1,9 @@
 ﻿---
 uid: form-field-single-line-text
-topic: form-field-single-line-text
 locale: en
 title: "Form Field: Single-Line Text"
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-forms-overview
 related-topics: form-field-address,form-field-date-time,form-field-dropdown,form-field-email,form-field-esignature,form-field-multi-line-text,form-field-multiple-choice,form-field-name,form-field-number,form-field-phone-number,form-field-static-text,form-field-terms-conditions,form-field-url-website,form-field-submit
 ---
 

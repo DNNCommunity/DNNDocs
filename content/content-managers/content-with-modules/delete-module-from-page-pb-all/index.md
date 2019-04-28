@@ -1,11 +1,9 @@
 ﻿---
 uid: delete-module-from-page-pb-all
-topic: delete-module-from-page-pb-all
 locale: en
 title: Delete a Module from a Page via the Persona Bar
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: content-managers-content-with-modules-overview
 related-topics: add-module-to-page-pb-all,add-content-to-page-quickly-pb-all,configure-module-on-page-pb-all,restore-deleted-modules,purge-deleted-modules,create-article-publisher
 ---
 

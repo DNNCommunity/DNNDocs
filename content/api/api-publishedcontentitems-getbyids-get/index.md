@@ -1,11 +1,9 @@
 ﻿---
 uid: api-publishedcontentitems-getbyids-get
-topic: api-publishedcontentitems-getbyids-get
 locale: en
 title: GET Published Content Items with ID Array
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: about-structured-content-published-content-item-apis
 related-topics: api-publishedcontentitems-get,about-structured-content-api-get-responses
 ---
 

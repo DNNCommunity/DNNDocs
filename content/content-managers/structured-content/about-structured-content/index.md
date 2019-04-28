@@ -1,6 +1,5 @@
 ﻿---
 uid: content-managers-about-structured-content
-topic: about-structured-content
 locale: en
 title: About Liquid Content™ (Structured Content)
 dnneditions: Evoq Engage

@@ -1,11 +1,9 @@
 ﻿---
 uid: create-badge
-topic: create-badge
 locale: en
 title: Create Badge
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: gamification
 related-topics: configure-gaming-actions,configure-gaming-privileges,edit-badge,delete-badge
 ---
 

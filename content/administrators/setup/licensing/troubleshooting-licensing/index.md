@@ -1,11 +1,9 @@
 ﻿---
 uid: troubleshooting-licensing
-topic: troubleshooting-licensing
 locale: en
 title: "Troubleshooting: Licensing"
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-licensing-overview
 related-topics: activate-license-automatically,activate-license-manually,faq-licensing
 links: ["[DNN Evoq Licensing](https://dnnsupport.dnnsoftware.com/hc/en-us/articles/360004881714-DNN-Evoq-Licensing)"]
 ---

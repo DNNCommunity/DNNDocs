@@ -1,11 +1,9 @@
 ﻿---
 uid: config-module-blogs
-topic: config-module-blogs
 locale: en
 title: Configure the Blogs Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-blogs
 related-topics: configure-module-on-page-pb-all
 ---
 

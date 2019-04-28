@@ -1,6 +1,5 @@
 ﻿---
 uid: about-assets
-topic: about-assets
 locale: en
 title: About Assets
 dnneditions: DNN Platform,Evoq Content,Evoq Engage

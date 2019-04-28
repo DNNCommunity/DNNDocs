@@ -1,11 +1,9 @@
 ﻿---
 uid: config-module-ideas
-topic: config-module-ideas
 locale: en
 title: Configure the Ideas Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-ideas
 related-topics: configure-module-on-page-pb-all
 ---
 

@@ -1,11 +1,9 @@
 ﻿---
 uid: content-managers-share-in-social-media
-topic: share-in-social-media
 locale: en
 title: Share a Content Item in Social Media
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: content-managers-structured-content-overview
 related-topics: create-content-item,duplicate-content-item,edit-content-item,delete-content-item,get-embed-code
 ---
 

@@ -1,11 +1,9 @@
 ﻿---
 uid: change-url-of-web-server
-topic: change-url-of-web-server
 locale: en
 title: Change the URL of a Web Server
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: about-web-servers
 related-topics: enable-or-disable-web-server,assign-web-server-to-server-group,replace-web-request-adapter,delete-web-server
 ---
 

@@ -1,11 +1,9 @@
 ﻿---
 uid: test-smtp-settings
-topic: test-smtp-settings
 locale: en
 title: Test the SMTP Settings
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-servers-overview
 related-topics: configure-smtp-server
 ---
 

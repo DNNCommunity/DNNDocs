@@ -1,11 +1,9 @@
 ﻿---
 uid: api-results-pagination
-topic: api-results-pagination
 locale: en
 title: "Microservices: Results Pagination"
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: developers-structured-content-overview
 related-topics: visualizer-templates,searched-fields,about-structured-content-apis,examples-structured-content-apis
 ---
 

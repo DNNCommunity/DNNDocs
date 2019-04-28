@@ -1,11 +1,9 @@
 ﻿---
 uid: requirements
-topic: requirements
 locale: en
 title: DNN Requirements
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: administrator-references
 related-topics: install-extension,administrators-included-modules-overview,product-versions,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,providers,dnn-license,DNN-security,more-resources,set-up-dnn
 ---
 

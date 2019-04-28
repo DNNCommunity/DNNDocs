@@ -1,11 +1,9 @@
 ﻿---
 uid: duplicate-form
-topic: duplicate-form
 locale: en
 title: Duplicate a Form
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-forms-overview
 related-topics: create-form,edit-form,delete-form,embed-form,view-form-responses,content-fields-versus-form-fields,about-hidden-fields,save-form-responses-to-structured-content
 ---
 

@@ -1,11 +1,9 @@
 ﻿---
 uid: config-module-wiki
-topic: config-module-wiki
 locale: en
 title: Configure the Wiki Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-wiki
 related-topics: configure-module-on-page-pb-all
 ---
 

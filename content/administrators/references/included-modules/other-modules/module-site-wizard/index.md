@@ -1,6 +1,5 @@
 ﻿---
 uid: module-site-wizard
-topic: module-site-wizard
 locale: en
 title: "Module: Site Wizard"
 dnneditions: 

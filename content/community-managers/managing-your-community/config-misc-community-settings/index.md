@@ -1,11 +1,9 @@
 ﻿---
 uid: config-misc-community-settings
-topic: config-misc-community-settings
 locale: en
 title: Configure Other Community Settings
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: engagement-influence
 related-topics: create-influence-goal-type,edit-influence-goal-type,delete-influence-goal-type
 ---
 

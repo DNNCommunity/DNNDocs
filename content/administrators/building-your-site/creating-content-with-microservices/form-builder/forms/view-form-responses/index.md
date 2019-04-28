@@ -1,11 +1,9 @@
 ﻿---
 uid: view-form-responses
-topic: view-form-responses
 locale: en
 title: View Responses to a Form
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-forms-overview
 related-topics: create-form,edit-form,duplicate-form,delete-form,embed-form,content-fields-versus-form-fields,about-hidden-fields,save-form-responses-to-structured-content
 ---
 

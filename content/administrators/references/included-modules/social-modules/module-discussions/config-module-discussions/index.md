@@ -1,11 +1,9 @@
 ﻿---
 uid: config-module-discussions
-topic: config-module-discussions
 locale: en
 title: Configure the Discussions Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-discussions
 related-topics: configure-module-on-page-pb-all
 ---
 

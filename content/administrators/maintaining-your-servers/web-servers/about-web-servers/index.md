@@ -1,12 +1,10 @@
 ﻿---
 
 uid: about-web-servers
-topic: about-web-servers
 locale: en
 title: About Web Servers
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-servers-overview
 related-topics: retrieve-system-info,view-server-logs,restart-application
 ---
 

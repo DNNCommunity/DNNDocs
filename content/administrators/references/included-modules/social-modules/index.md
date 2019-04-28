@@ -1,11 +1,9 @@
 ﻿---
 uid: social-modules
-topic: social-modules
 locale: en
 title: Social Modules
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: administrators-included-modules-overview
 related-topics: included-modules
 ---
 

@@ -1,11 +1,9 @@
 ﻿---
 uid: move-asset
-topic: move-asset
 locale: en
 title: Move an Asset to Another Folder
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-assets-overview
 related-topics: add-assets,edit-asset-properties,edit-asset-permissions,copy-asset,download-asset,delete-asset
 ---
 

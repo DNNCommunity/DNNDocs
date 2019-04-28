@@ -1,6 +1,5 @@
 ﻿---
 uid: module-marketo-forms
-topic: module-marketo-forms
 locale: en
 title: "Module: Marketo Forms"
 dnneditions: 

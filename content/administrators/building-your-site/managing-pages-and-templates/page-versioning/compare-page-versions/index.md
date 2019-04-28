@@ -1,11 +1,9 @@
 ﻿---
 uid: compare-page-versions
-topic: compare-page-versions
 locale: en
 title: Compare Page Versions
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-pages-templates-overview
 related-topics: view-page-versions,restore-page-version,delete-page-version,page-file-versioning
 ---
 

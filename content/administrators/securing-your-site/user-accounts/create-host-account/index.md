@@ -1,11 +1,9 @@
 ﻿---
 uid: create-host-account
-topic: create-host-account
 locale: en
 title: Create a Host Account
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-user-accounts-overview
 related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles,remove-user-from-multiple-roles,edit-user,manage-user-password,delete-user,delete-all-unauthorized-users,restore-deleted-user-account,purge-user-account,restore-multiple-deleted-users,purge-multiple-deleted-users,authorize-host,promote-user-to-host,demote-from-host,manage-host-password,delete-host,delete-all-unauthorized-hosts,restore-deleted-host-account,purge-host-account
 ---
 

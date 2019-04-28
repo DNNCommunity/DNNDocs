@@ -1,11 +1,9 @@
 ﻿---
 uid: config-module-latest-challenges
-topic: config-module-latest-challenges
 locale: en
 title: Configure the Latest Challenges Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-latest-challenges
 related-topics: configure-module-on-page-pb-all
 ---
 

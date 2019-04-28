@@ -1,11 +1,9 @@
 ﻿---
 uid: clear-cache
-topic: clear-cache
 locale: en
 title: Clear Cache
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-servers-overview
 related-topics: configure-caching,expire-cached-item-in-web-server,minify-resource-files
 ---
 

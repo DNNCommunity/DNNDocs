@@ -1,6 +1,5 @@
 ﻿---
 uid: about-servers
-topic: about-servers
 locale: en
 title: Maintaining Your Servers
 dnneditions: Evoq Content,Evoq Engage

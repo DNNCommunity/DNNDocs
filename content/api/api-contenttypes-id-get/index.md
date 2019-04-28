@@ -1,11 +1,9 @@
 ﻿---
 uid: api-contenttypes-id-get
-topic: api-contenttypes-id-get
 locale: en
 title: GET Content Types with ID
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: about-structured-content-content-type-apis
 related-topics: api-contenttypes-get,api-contenttypes-post,api-contenttypes-id-put,api-contenttypes-id-delete,about-structured-content-api-get-responses
 ---
 

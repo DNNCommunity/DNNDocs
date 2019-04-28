@@ -1,11 +1,9 @@
 ﻿---
 uid: delete-asset
-topic: delete-asset
 locale: en
 title: Delete an Asset
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-assets-overview
 related-topics: add-assets,edit-asset-properties,edit-asset-permissions,move-asset,copy-asset,download-asset
 ---
 

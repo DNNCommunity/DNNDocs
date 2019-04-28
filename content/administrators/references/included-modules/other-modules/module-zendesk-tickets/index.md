@@ -1,6 +1,5 @@
 ﻿---
 uid: module-zendesk-tickets
-topic: module-zendesk-tickets
 locale: en
 title: "Module: Zendesk Tickets"
 dnneditions: 

@@ -1,11 +1,9 @@
 ﻿---
 uid: edit-list-of-words-to-ignore
-topic: edit-list-of-words-to-ignore
 locale: en
 title: Edit List of Words to Ignore
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-search-overview
 related-topics: create-list-of-words-to-ignore,delete-list-of-words-to-ignore
 ---
 

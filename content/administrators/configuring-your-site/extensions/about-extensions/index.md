@@ -1,7 +1,6 @@
 ﻿---
 
 uid: about-extensions
-topic: about-extensions
 locale: en
 title: About Extensions
 dnneditions: DNN Platform,Evoq Content,Evoq Engage

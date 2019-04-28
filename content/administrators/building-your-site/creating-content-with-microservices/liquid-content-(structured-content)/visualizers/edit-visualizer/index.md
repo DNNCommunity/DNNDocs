@@ -1,11 +1,9 @@
 ﻿---
 uid: edit-visualizer
-topic: edit-visualizer
 locale: en
 title: Edit a Visualizer
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-structured-content-overview
 related-topics: create-visualizer,delete-visualizer,import-visualizer,export-visualizer
 ---
 

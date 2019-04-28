@@ -1,11 +1,9 @@
 ﻿---
 uid: api-contentitems-id-delete
-topic: api-contentitems-id-delete
 locale: en
 title: DELETE Content Items with ID
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: about-structured-content-content-item-apis
 related-topics: api-contentitems-get,api-contentitems-id-get,api-contentitems-post,api-contentitems-id-put
 ---
 

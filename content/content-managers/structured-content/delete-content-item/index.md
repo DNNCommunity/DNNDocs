@@ -1,11 +1,9 @@
 ﻿---
 uid: content-managers-delete-content-item
-topic: delete-content-item
 locale: en
 title: Delete a Content Item
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: content-managers-structured-content-overview
 related-topics: create-content-item,duplicate-content-item,edit-content-item,share-in-social-media,get-embed-code
 ---
 
