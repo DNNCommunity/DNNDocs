@@ -234,7 +234,7 @@ The following tables show the correspondence between the old Control Panel/Bar a
 |**Control Panel/Bar**|**Persona Bar**|
 |---|---|
 |**Pages \> Add New Page**|<ol><li>**Content \> Pages**</li><li>**Add Page** or **Add Multiple Pages** tab</li></ol><br />[[how to]](xref:create-single-page-standard)|
-|**Pages \> Copy Page**|**Content \> Pages**<br />[how to](xref:common-copy-page-pb-all)|
+|**Pages \> Copy Page**|**Content \> Pages**<br />[how to](xref:obsolete)|
 |**pages \> Copy Permissions to Children**|<ol><li>**Content \> Pages**</li><li>Click/Tap the gear icon, and go to the **Permissions** tab.</li><li>**Copy Permissions to Descendant Pages** button subtab|
 |**Pages \> Import Page**|<ol><li>**Content \> Pages**</li><li>**Add Page** or **Add Multiple Pages** tab</li><li>In **Template Mode**, select **Import from XML**. subtab</li></ol>|
 
