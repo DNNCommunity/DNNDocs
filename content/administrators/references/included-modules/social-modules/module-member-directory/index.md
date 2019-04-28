@@ -23,9 +23,6 @@ With the Member Directory module, you can:
 *   allow the user to search for other members in the entire site,
 *   list the members of a group, or
 *   list members located in a specific geographical area.
-
-See [Leaderboard](xref:module-leaderboard).
-
  
 
 |                                                 | Package          | Category |

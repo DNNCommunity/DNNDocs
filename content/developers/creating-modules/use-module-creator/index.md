@@ -22,9 +22,9 @@ The DNN Module Creator is generally recommended only for simple modules. For mor
 ## Steps
 
 1.  Create, copy, or edit a page.
-    *   [Create a page.](xref:create-single-page-standard)
-    *   [Copy a page.](xref:copy-page-pb-all)
-    *   [Edit a page.](xref:edit-page-pb-all)
+    *   [Create a page.](xref:obsolete)
+    *   [Copy a page.](xref:obsolete)
+    *   [Edit a page.](xref:obsolete)
 2.  Within a pane, click/tap on the module icon.
     
       
