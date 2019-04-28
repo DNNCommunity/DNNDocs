@@ -1,11 +1,9 @@
 ﻿---
 uid: config-module-leaderboard
-topic: config-module-leaderboard
 locale: en
 title: Configure the Leaderboard Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-leaderboard
 related-topics: configure-module-on-page-pb-all
 ---
 

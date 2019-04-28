@@ -1,11 +1,9 @@
 ﻿---
 uid: config-module-answers
-topic: config-module-answers
 locale: en
 title: Configure the Answers Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-answers
 related-topics: configure-module-on-page-pb-all
 ---
 

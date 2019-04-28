@@ -1,11 +1,9 @@
 ﻿---
 uid: enable-or-disable-web-server
-topic: enable-or-disable-web-server
 locale: en
 title: Enable or Disable a Web Server
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: about-web-servers
 related-topics: change-url-of-web-server,assign-web-server-to-server-group,replace-web-request-adapter,delete-web-server
 ---
 

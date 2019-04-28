@@ -1,11 +1,9 @@
 ﻿---
 uid: about-structured-content-content-item-apis
-topic: about-structured-content-content-item-apis
 locale: en
 title: About Liquid Content™ Content Item APIs
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: about-structured-content-apis
 related-topics: about-structured-content-content-type-apis,about-structured-content-published-content-item-apis,about-structured-content-api-get-responses,about-structured-content-api-post-put-type-fields,creating-apps-that-use-microservices
 ---
 

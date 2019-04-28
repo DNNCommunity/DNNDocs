@@ -1,11 +1,9 @@
 ﻿---
 uid: create-site-group
-topic: create-site-group
 locale: en
 title: Create a Site Group
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-sites-overview
 related-topics: add-or-remove-sites-in-group,edit-site-group,delete-site-group
 ---
 

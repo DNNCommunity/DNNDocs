@@ -1,11 +1,9 @@
 ﻿---
 uid: config-module-social-groups
-topic: config-module-social-groups
 locale: en
 title: Configure the Social Groups Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-social-groups
 related-topics: configure-module-on-page-pb-all
 ---
 

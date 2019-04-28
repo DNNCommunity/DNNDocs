@@ -1,11 +1,9 @@
 ﻿---
 uid: about-structured-content-api-post-put-type-fields
-topic: about-structured-content-api-post-put-type-fields
 locale: en
 title: About Liquid Content™ Content Type Fields for POST and PUT APIs
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: about-structured-content-apis
 related-topics: about-structured-content-content-type-apis,about-structured-content-content-item-apis,about-structured-content-published-content-item-apis,about-structured-content-api-get-responses
 ---
 

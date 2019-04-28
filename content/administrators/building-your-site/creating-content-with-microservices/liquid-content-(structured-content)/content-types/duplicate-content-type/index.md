@@ -1,11 +1,9 @@
 ﻿---
 uid: duplicate-content-type
-topic: duplicate-content-type
 locale: en
 title: Duplicate a Content Type
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-structured-content-overview
 related-topics: create-content-type,edit-content-type,delete-content-type,content-fields-versus-form-fields
 ---
 

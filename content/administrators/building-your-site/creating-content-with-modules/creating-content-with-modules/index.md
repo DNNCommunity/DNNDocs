@@ -1,6 +1,5 @@
 ﻿---
 uid: creating-content-with-modules
-topic: creating-content-with-modules
 locale: en
 title: Creating Content with Modules
 dnneditions: DNN Platform,Evoq Content,Evoq Engage

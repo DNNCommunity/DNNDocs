@@ -1,11 +1,9 @@
 ﻿---
 uid: add-metadata-to-pages
-topic: add-metadata-to-pages
 locale: en
 title: Add Metadata to Pages
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-configuring-your-site-overview
 related-topics: update-site-info,assign-key-pages,configure-messaging,access-web-config,configure-check-for-new-version,participate-in-improvement-program,configure-html-editor,page-file-versioning,administrators-extensions-overview,administrators-connectors-overview,administrators-workflows-overview,administrators-search-overview,administrators-vocabularies-overview
 ---
 

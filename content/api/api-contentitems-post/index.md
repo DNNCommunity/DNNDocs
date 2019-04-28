@@ -1,11 +1,9 @@
 ﻿---
 uid: api-contentitems-post
-topic: api-contentitems-post
 locale: en
 title: POST Content Items
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: about-structured-content-content-item-apis
 related-topics: api-contentitems-get,api-contentitems-id-get,api-contentitems-id-put,api-contentitems-id-delete,about-structured-content-api-post-put-type-fields
 ---
 

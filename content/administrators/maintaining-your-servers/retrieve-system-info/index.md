@@ -1,11 +1,9 @@
 ﻿---
 uid: retrieve-system-info
-topic: retrieve-system-info
 locale: en
 title: Retrieve System Information
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-servers-overview
 related-topics: view-server-logs,restart-application,install-extension,about-web-servers,providers
 ---
 

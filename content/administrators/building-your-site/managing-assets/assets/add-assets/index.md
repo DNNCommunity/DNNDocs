@@ -1,11 +1,9 @@
 ﻿---
 uid: add-assets
-topic: add-assets
 locale: en
 title: Add Assets
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: content-managers-assets-overview
 related-topics: edit-asset-properties,edit-asset-permissions,move-asset,copy-asset,download-asset,delete-asset
 ---
 

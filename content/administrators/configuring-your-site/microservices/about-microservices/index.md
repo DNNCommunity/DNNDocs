@@ -1,7 +1,6 @@
 ﻿---
 
 uid: about-microservices
-topic: about-microservices
 locale: en
 title: About Microservices
 dnneditions: Evoq Engage

@@ -1,6 +1,5 @@
 ﻿---
 uid: module-ddr-menu
-topic: module-ddr-menu
 locale: en
 title: "Module: DDR Menu"
 dnneditions: 

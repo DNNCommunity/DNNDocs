@@ -1,6 +1,5 @@
 ﻿---
 uid: theme-objects
-topic: theme-objects
 locale: en
 title: Theme Objects
 dnneditions: DNN Platform,Evoq Content,Evoq Engage

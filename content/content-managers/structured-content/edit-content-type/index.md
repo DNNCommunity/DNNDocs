@@ -1,11 +1,9 @@
 ﻿---
 uid: content-managers-edit-content-type
-topic: edit-content-type
 locale: en
 title: Edit a Content Type
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: content-managers-structured-content-overview
 related-topics: create-content-type,duplicate-content-type,delete-content-type,content-fields-versus-form-fields
 ---
 

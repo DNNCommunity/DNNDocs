@@ -1,11 +1,9 @@
 ﻿---
 uid: content-managers-create-content-type
-topic: create-content-type
 locale: en
 title: Create a Content Type
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: content-managers-structured-content-overview
 related-topics: duplicate-content-type,edit-content-type,delete-content-type,content-fields-versus-form-fields
 ---
 

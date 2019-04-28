@@ -1,11 +1,9 @@
 ﻿---
 uid: add-or-remove-sites-in-group
-topic: add-or-remove-sites-in-group
 locale: en
 title: Add or Remove Sites in a Group
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-sites-overview
 related-topics: create-site-group,edit-site-group,delete-site-group
 ---
 

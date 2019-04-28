@@ -1,11 +1,9 @@
 ﻿---
 uid: config-module-related-content
-topic: config-module-related-content
 locale: en
 title: Configure the Related Content Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-related-content
 related-topics: configure-module-on-page-pb-all
 ---
 

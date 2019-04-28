@@ -1,11 +1,9 @@
 ﻿---
 uid: engagement-influence
-topic: engagement-influence
 locale: en
 title: Community Engagement and Influence
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: community-managers-managing-your-community-overview
 related-topics: gamification
 ---
 

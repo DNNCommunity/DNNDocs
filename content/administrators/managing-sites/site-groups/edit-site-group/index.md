@@ -1,11 +1,9 @@
 ﻿---
 uid: edit-site-group
-topic: edit-site-group
 locale: en
 title: Edit Site Group
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-sites-overview
 related-topics: create-site-group,add-or-remove-sites-in-group,delete-site-group
 ---
 

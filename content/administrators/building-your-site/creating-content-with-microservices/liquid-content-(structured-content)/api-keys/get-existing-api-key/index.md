@@ -1,11 +1,9 @@
 ﻿---
 uid: get-existing-api-key
-topic: get-existing-api-key
 locale: en
 title: Get an Existing API Key
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-structured-content-overview
 related-topics: create-api-key,edit-or-reset-api-key,delete-api-key
 ---
 

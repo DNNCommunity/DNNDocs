@@ -1,12 +1,10 @@
 ﻿---
 uid: content-managers-visualizer-templates-datetime
-topic: visualizer-templates-datetime
 locale: en
 title: visualizer templates date time
 Visualizer Templates: Date / Time
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: visualizer-templates
 related-topics: visualizer-templates-basics,visualizer-templates-filters
 links: ["[MSDN Custom Date and Time Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings)"]
 ---

@@ -1,11 +1,9 @@
 ﻿---
 uid: config-module-calendar
-topic: config-module-calendar
 locale: en
 title: Configure the Calendar Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-blogs
 related-topics: configure-module-on-page-pb-all
 ---
 

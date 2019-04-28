@@ -1,11 +1,9 @@
 ﻿---
 uid: configure-workflow-state-pb-all
-topic: configure-workflow-state-pb-all
 locale: en
 title: Configure a Workflow State
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-workflows-overview
 related-topics: create-workflow-pb-all,edit-workflow-pb-all,delete-workflow-pb-all
 ---
 

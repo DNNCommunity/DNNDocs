@@ -1,11 +1,9 @@
 ﻿---
 uid: form-field-multiple-choice
-topic: form-field-multiple-choice
 locale: en
 title: "Form Field: Multiple Choice"
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-forms-overview
 related-topics: form-field-address,form-field-date-time,form-field-dropdown,form-field-email,form-field-esignature,form-field-multi-line-text,form-field-name,form-field-number,form-field-phone-number,form-field-single-line-text,form-field-static-text,form-field-terms-conditions,form-field-url-website,form-field-submit
 ---
 

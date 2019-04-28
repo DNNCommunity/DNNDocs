@@ -1,11 +1,9 @@
 ﻿---
 uid: purge-deleted-modules
-topic: purge-deleted-modules
 locale: en
 title: Purge Deleted Modules
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-content-with-modules-overview
 related-topics: add-module-to-page-pb-all,add-content-to-page-quickly-pb-all,configure-module-on-page-pb-all,delete-module-from-page-pb-all,restore-deleted-modules,create-article-publisher
 ---
 

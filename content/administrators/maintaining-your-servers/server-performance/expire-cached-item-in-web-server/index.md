@@ -1,11 +1,9 @@
 ﻿---
 uid: expire-cached-item-in-web-server
-topic: expire-cached-item-in-web-server
 locale: en
 title: Expire a Cached Item in a Web Server
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-servers-overview
 related-topics: configure-caching,clear-cache,minify-resource-files
 ---
 

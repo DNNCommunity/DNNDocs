@@ -1,11 +1,9 @@
 ﻿---
 uid: visualizer-templates-filters
-topic: visualizer-templates-filters
 locale: en
 title: "Visualizer Templates: Filters"
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: visualizer-templates
 related-topics: visualizer-templates-basics,visualizer-templates-datetime
 links: ["[Source: Liquid for Designers](https://github.com/Shopify/liquid/wiki/liquid-for-designers)","[DotLiquid](http://dotliquidmarkup.org/)"]
 ---

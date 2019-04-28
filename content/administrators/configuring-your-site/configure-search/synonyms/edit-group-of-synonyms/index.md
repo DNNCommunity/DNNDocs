@@ -1,11 +1,9 @@
 ﻿---
 uid: edit-group-of-synonyms
-topic: edit-group-of-synonyms
 locale: en
 title: Edit a Group of Synonyms
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-search-overview
 related-topics: add-group-of-synonyms,delete-group-of-synonyms
 ---
 

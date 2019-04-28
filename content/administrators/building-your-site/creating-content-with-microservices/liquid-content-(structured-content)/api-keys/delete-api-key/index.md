@@ -1,11 +1,9 @@
 ﻿---
 uid: delete-api-key
-topic: delete-api-key
 locale: en
 title: Delete the API Key
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-structured-content-overview
 related-topics: create-api-key,get-existing-api-key,edit-or-reset-api-key
 ---
 

@@ -1,11 +1,9 @@
 ﻿---
 uid: control-bar-to-persona-bar
-topic: control-bar-to-persona-bar
 locale: en
 title: Control Bar to Persona Bar
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: administrator-references
 related-topics: administrators-included-modules-overview,requirements,product-versions,dnn-overview,persona-bar-by-role,providers,dnn-license,DNN-security,more-resources
 ---
 

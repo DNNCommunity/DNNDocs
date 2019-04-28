@@ -1,11 +1,9 @@
 ﻿---
 uid: minify-resource-files
-topic: minify-resource-files
 locale: en
 title: Minify Resource Files
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-servers-overview
 related-topics: configure-caching,clear-cache,expire-cached-item-in-web-server
 links: ["[Caching Providers](https://www.dnnsoftware.com/wiki/caching-providers)"]
 ---

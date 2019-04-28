@@ -1,11 +1,9 @@
 ﻿---
 uid: activate-license-manually
-topic: activate-license-manually
 locale: en
 title: Activate Your License Manually
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-licensing-overview
 related-topics: activate-license-automatically,faq-licensing,troubleshooting-licensing
 links: ["[DNN Evoq Licensing](https://dnnsupport.dnnsoftware.com/hc/en-us/articles/360004881714-DNN-Evoq-Licensing)","[DNN Community video: Activating a Development or Production License](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/359/view/details/how-to-activate-a-license-in-dotnetnuke)"]
 ---

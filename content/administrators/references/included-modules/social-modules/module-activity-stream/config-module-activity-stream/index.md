@@ -1,11 +1,9 @@
 ﻿---
 uid: config-module-activity-stream
-topic: config-module-activity-stream
 locale: en
 title: Configure the Activity Stream Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-activity-stream
 related-topics: configure-module-on-page-pb-all
 ---
 

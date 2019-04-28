@@ -1,11 +1,9 @@
 ﻿---
 uid: administrators-sitemaps-overview
-topic: administrators-sitemaps-overview
 locale: en
 title: About Sitemaps
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-configuring-your-site-overview
 ---
 
 # About Sitemaps

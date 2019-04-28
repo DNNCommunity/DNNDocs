@@ -1,11 +1,9 @@
 ﻿---
 uid: config-module-publisher
-topic: config-module-publisher
 locale: en
 title: Configure the Publisher Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-publisher
 related-topics: configure-module-on-page-pb-all
 ---
 

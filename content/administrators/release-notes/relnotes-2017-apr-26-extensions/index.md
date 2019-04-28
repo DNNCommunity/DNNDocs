@@ -1,6 +1,5 @@
 ﻿---
 uid: relnotes-2017-apr-26-extensions
-topic: relnotes-2017-apr-26-extensions
 locale: en
 title: Upcoming in v9.1 — Extensions
 dnneditions: DNN Platform,Evoq Content,Evoq Engage

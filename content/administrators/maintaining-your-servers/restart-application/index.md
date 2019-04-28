@@ -1,11 +1,9 @@
 ﻿---
 uid: restart-application
-topic: restart-application
 locale: en
 title: Restart the Application
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-servers-overview
 related-topics: retrieve-system-info,view-server-logs,about-web-servers
 ---
 

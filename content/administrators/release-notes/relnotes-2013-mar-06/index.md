@@ -1,6 +1,5 @@
 ﻿---
 uid: relnotes-2013-mar-06
-topic: relnotes-2013-mar-06
 locale: en
 title: DNN Release Notes — 2013 Mar 06
 dnneditions:

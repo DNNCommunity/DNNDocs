@@ -1,11 +1,9 @@
 ﻿---
 uid: restore-page-version
-topic: restore-page-version
 locale: en
 title: Restore a Page Version
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-pages-templates-overview
 related-topics: view-page-versions,compare-page-versions,delete-page-version,page-file-versioning
 ---
 

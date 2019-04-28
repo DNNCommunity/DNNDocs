@@ -1,11 +1,9 @@
 ﻿---
 uid: api-contenttypes-id-put
-topic: api-contenttypes-id-put
 locale: en
 title: PUT Content Types with ID
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: about-structured-content-content-type-apis
 related-topics: api-contenttypes-get,api-contenttypes-id-get,api-contenttypes-post,api-contenttypes-id-delete,about-structured-content-api-post-put-type-fields
 ---
 

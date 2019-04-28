@@ -1,6 +1,5 @@
 ﻿---
 uid: developers-overview
-topic: developers-overview
 locale: en
 title: Hello, Developer!
 dnneditions: 

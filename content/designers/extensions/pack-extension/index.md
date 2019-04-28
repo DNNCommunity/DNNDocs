@@ -1,11 +1,9 @@
 ﻿---
 uid: designers-pack-extension
-topic: pack-extension
 locale: en
 title: Pack Your Extension
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: designers-creating-themes-overview
 previous-topic: create-doctype-xml
 next-topic: install-extension
 related-topics: dnn-manifest-schema

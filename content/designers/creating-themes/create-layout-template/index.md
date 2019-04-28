@@ -1,11 +1,9 @@
 ﻿---
 uid: create-layout-template
-topic: create-layout-template
 locale: en
 title: Create a Layout Template
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: designers-creating-themes-overview
 next-topic: create-container
 related-topics: theme-objects,about-themes,create-theme
 links: ["[DNN Wiki: DotNetNuke Skins](https://www.dnnsoftware.com/wiki/dotnetnuke-skins)","[DNN Community Blog: DotNetNuke Skinning 101 (Part 1 and 2) by Joe Brinkman](https://www.dnnsoftware.com/community-blog/cid/132000/dotnetnuke-skinning-101-part-1)","[DNN Professional Training: Creating HTML Skins](https://www.dnnsoftware.com/services/professional-training/training-videos-subscription/skinning-2-creating-html-skins)","[Skinning Tool / Online Reference for DNN Skins & Container Objects by 10 Pound Gorilla](https://www.10poundgorilla.com)"]

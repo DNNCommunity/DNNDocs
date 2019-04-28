@@ -1,6 +1,5 @@
 ﻿---
 uid: designers-overview
-topic: designers-overview
 locale: en
 title: Hello, Designer!
 dnneditions: 

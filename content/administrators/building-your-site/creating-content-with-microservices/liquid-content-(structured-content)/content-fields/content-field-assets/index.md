@@ -1,11 +1,9 @@
 ﻿---
 uid: content-field-assets
-topic: content-field-assets
 locale: en
 title: "Content Field: Assets"
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-structured-content-overview
 related-topics: content-field-date-time,content-field-multi-line-text,content-field-multiple-choice,content-field-number,content-field-reference-object,content-field-single-line-text,content-field-static-text
 ---
 

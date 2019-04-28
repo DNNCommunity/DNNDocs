@@ -1,6 +1,5 @@
 ﻿---
 uid: creating-content-with-microservices
-topic: creating-content-with-microservices
 locale: en
 title: Creating Content with Microservices
 dnneditions: Evoq Engage

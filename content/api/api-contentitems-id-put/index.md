@@ -1,11 +1,9 @@
 ﻿---
 uid: api-contentitems-id-put
-topic: api-contentitems-id-put
 locale: en
 title: PUT Content Items with ID
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: about-structured-content-content-item-apis
 related-topics: api-contentitems-get,api-contentitems-id-get,api-contentitems-post,api-contentitems-id-delete,about-structured-content-api-post-put-type-fields
 ---
 

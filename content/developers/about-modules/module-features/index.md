@@ -1,11 +1,9 @@
 ﻿---
 uid: module-features
-topic: module-features
 locale: en
 title: Common Module Features
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: developers-about-modules-overview
 related-topics: dnn-manifest-schema,module-architecture,developers-creating-modules-overview,about-evs
 links: ["[DNN Module APIs](https://www.dnnsoftware.com/dnn-api/)"]
 ---

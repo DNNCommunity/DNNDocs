@@ -1,11 +1,9 @@
 ﻿---
 uid: module-sitemap
-topic: module-sitemap
 locale: en
 title: "Module: Sitemap"
 dnneditions:
 dnnversion: 09.02.00
-parent-topic: site-management-modules
 related-topics: configure-sitemap
 ---
 

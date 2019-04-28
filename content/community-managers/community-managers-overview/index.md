@@ -1,6 +1,5 @@
 ﻿---
 uid: community-managers-overview
-topic: community-managers-overview
 locale: en
 title: Hello, Community Manager!
 dnneditions: 

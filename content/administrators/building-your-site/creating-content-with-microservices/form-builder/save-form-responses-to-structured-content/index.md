@@ -1,11 +1,9 @@
 ﻿---
 uid: save-form-responses-to-structured-content
-topic: save-form-responses-to-structured-content
 locale: en
 title: Save Form Responses to Structured Content
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-forms-overview
 related-topics: create-form,edit-form,duplicate-form,view-form-responses,about-hidden-fields
 ---
 

@@ -1,6 +1,5 @@
 ﻿---
 uid: about-form-builder
-topic: about-form-builder
 locale: en
 title: About the Form Builder
 dnneditions: Evoq Engage

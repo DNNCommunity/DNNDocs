@@ -1,6 +1,5 @@
 ﻿---
 uid: create-module
-topic: create-module
 locale: en
 title: Creating a Module
 dnneditions: DNN Platform,Evoq Content,Evoq Engage

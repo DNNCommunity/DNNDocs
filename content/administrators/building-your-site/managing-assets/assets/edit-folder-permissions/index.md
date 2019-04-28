@@ -1,11 +1,9 @@
 ﻿---
 uid: edit-folder-permissions
-topic: edit-folder-permissions
 locale: en
 title: Edit Permissions to a Folder
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-assets-overview
 related-topics: create-folder,edit-folder-properties,move-folder,delete-folder
 ---
 

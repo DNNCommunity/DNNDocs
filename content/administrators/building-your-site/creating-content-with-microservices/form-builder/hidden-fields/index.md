@@ -1,11 +1,9 @@
 ﻿---
 uid: about-hidden-fields
-topic: about-hidden-fields
 locale: en
 title: About Hidden Fields in Forms
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-forms-overview
 related-topics: create-form,edit-form,duplicate-form,view-form-responses,save-form-responses-to-structured-content
 ---
 

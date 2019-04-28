@@ -1,11 +1,9 @@
 ﻿---
 uid: api-contentitems-get
-topic: api-contentitems-get
 locale: en
 title: GET Content Items
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: about-structured-content-content-item-apis
 related-topics: api-contentitems-id-get,api-contentitems-post,api-contentitems-id-put,api-contentitems-id-delete,about-structured-content-api-get-responses
 ---
 

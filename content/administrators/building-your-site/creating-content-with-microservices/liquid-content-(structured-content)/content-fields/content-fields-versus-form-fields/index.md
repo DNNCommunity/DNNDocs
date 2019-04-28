@@ -1,6 +1,5 @@
 ﻿---
 uid: content-fields-versus-form-fields
-topic: content-fields-versus-form-fields
 locale: en
 title: Content Fields versus Form Fields
 dnneditions: Evoq Engage

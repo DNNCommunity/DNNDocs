@@ -1,11 +1,9 @@
 ﻿---
 uid: content-managers-example-recipes
-topic: example-recipes
 locale: en
 title: "Example: Recipes as Structured Content"
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: content-managers-structured-content-overview
 related-topics: visualizer-templates
 links: ["[Photo source: Adobo photo by dbgg1979, CC BY 2.0, Wikimedia Commons.](https://commons.wikimedia.org/wiki/File%3AChicken_adobo.jpg)","[Photo source: Ribs photo by Marcelo Teson (Asado de centro, Happening), CC BY 2.0, Wikimedia.org.](https://commons.wikimedia.org/w/index.php?curid=3708190)"]
 ---

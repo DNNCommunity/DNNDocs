@@ -1,11 +1,9 @@
 ﻿---
 uid: administrators-fields-overview
-topic: administrators-fields-overview
 locale: en
 title: Content Fields versus Form Fields
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-microservices-overview
 related-topics: administrators-structured-content-overview,administrators-forms-overview
 ---
 

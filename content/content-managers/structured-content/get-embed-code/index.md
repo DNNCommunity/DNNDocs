@@ -1,11 +1,9 @@
 ﻿---
 uid: content-managers-get-embed-code
-topic: get-embed-code
 locale: en
 title: Get the Embed Code for a Content Item
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: content-managers-structured-content-overview
 related-topics: create-content-item,duplicate-content-item,edit-content-item,delete-content-item,share-in-social-media
 ---
 

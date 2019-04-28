@@ -1,11 +1,9 @@
 ﻿---
 uid: content-managers-visualizer-templates
-topic: visualizer-templates
 locale: en
 title: Visualizer Templates
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: content-managers-structured-content-overview
 related-topics: example-recipes
 ---
 

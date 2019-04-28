@@ -1,12 +1,10 @@
 ﻿---
 
 uid: config-module-social-sharing
-topic: config-module-social-sharing
 locale: en
 title: Configure the Social Sharing Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-social-sharing
 related-topics: configure-module-on-page-pb-all
 ---
 

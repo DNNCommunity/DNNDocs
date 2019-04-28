@@ -1,11 +1,9 @@
 ﻿---
 uid: configure-page-url
-topic: configure-page-url
 locale: en
 title: Configure a Navigation Link to an External URL
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-pages-templates-overview
 related-topics: create-single-page-standard,create-single-page-existing,create-single-page-url,create-single-page-file,create-multiple-pages-pb-all,configure-page-standard,configure-page-existing,configure-page-file,copy-page-pb-all,edit-page-pb-all,view-hidden-page-pb-all,delete-page-pb-all,restore-deleted-pages,purge-deleted-pages,copy-permissions-to-child-pages-pb-all
 ---
 

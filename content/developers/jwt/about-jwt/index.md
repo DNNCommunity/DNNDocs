@@ -1,6 +1,5 @@
 ﻿---
 uid: developers-about-jwt
-topic: about-jwt
 locale: en
 title: About JWT Authentication
 dnneditions: DNN Platform,Evoq Content,Evoq Engage

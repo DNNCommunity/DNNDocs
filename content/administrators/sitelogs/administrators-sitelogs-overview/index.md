@@ -1,11 +1,9 @@
 ﻿---
 uid: administrators-sitelogs-overview
-topic: administrators-sitelogs-overview
 locale: en
 title: About Site Logs
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-overview
 ---
 
 # About Site Logs

@@ -1,11 +1,9 @@
 ﻿---
 uid: user-management-modules
-topic: user-management-modules
 locale: en
 title: User Management Modules
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: administrators-included-modules-overview
 ---
 
 # User Management Modules

@@ -1,11 +1,9 @@
 ﻿---
 uid: embed-form
-topic: embed-form
 locale: en
 title: Embed a Form
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-forms-overview
 related-topics: create-form,edit-form,duplicate-form,delete-form,view-form-responses
 ---
 

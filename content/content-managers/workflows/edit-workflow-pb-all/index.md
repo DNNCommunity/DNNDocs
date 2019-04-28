@@ -1,11 +1,9 @@
 ﻿---
 uid: content-managers-edit-workflow-pb-all
-topic: edit-workflow-pb-all
 locale: en
 title: Edit a Workflow
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: content-managers-workflows-overview
 related-topics: create-workflow-pb-all,delete-workflow-pb-all,configure-workflow-state-pb-all
 ---
 

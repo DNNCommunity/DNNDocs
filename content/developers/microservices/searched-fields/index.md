@@ -1,11 +1,9 @@
 ﻿---
 uid: searched-fields
-topic: searched-fields
 locale: en
 title: "Liquid Content: Searched Fields"
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: developers-structured-content-overview
 related-topics: visualizer-templates,api-results-pagination,about-structured-content-apis,examples-structured-content-apis
 ---
 

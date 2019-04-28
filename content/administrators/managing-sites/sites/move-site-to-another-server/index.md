@@ -1,11 +1,9 @@
 ﻿---
 uid: move-site-to-another-server
-topic: move-site-to-another-server
 locale: en
 title: Move Site To Another Server
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-sites-overview
 related-topics: create-site,edit-site-properties,view-site,delete-site
 ---
 

@@ -1,12 +1,10 @@
 ﻿---
 uid: creating-apps-that-use-microservices
-topic: creating-apps-that-use-microservices
 locale: en
 title: Creating Apps That Use Microservices
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: developers-microservices-overview
-related-topics: about-jwt,create-api-key
+related-topics: create-api-key
 ---
 
 # Creating Apps That Use Microservices

@@ -1,11 +1,9 @@
 ﻿---
 uid: module-publisher
-topic: module-publisher
 locale: en
 title: "Module: Publisher"
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: creation-modules
 related-topics: create-article-publisher,module-module-creator
 ---
 

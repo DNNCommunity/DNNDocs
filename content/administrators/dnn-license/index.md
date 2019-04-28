@@ -1,11 +1,9 @@
 ﻿---
 uid: dnn-license
-topic: dnn-license
 locale: en
 title: DNN Corp. Software License and Service Agreement
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: administrator-references
 related-topics: administrators-included-modules-overview,requirements,product-versions,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,providers,DNN-security,more-resources
 ---
 

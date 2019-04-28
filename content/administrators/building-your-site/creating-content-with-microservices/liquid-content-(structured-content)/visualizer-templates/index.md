@@ -1,11 +1,9 @@
 ﻿---
 uid: visualizer-templates
-topic: visualizer-templates
 locale: en
 title: Visualizer Templates
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-structured-content-overview
 related-topics: example-recipes
 ---
 

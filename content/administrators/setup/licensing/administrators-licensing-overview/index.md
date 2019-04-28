@@ -1,11 +1,9 @@
 ﻿---
 uid: administrators-licensing-overview
-topic: administrators-licensing-overview
 locale: en
 title: DNN Evoq Licensing
 dnneditions:
 dnnversion: 09.02.00
-parent-topic: administrators-overview
 links: ["[DNN Evoq Licensing](https://dnnsupport.dnnsoftware.com/hc/en-us/articles/360004881714-DNN-Evoq-Licensing)"]
 ---
 

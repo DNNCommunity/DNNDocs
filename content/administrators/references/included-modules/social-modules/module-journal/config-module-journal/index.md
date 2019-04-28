@@ -1,11 +1,9 @@
 ﻿---
 uid: config-module-journal
-topic: config-module-journal
 locale: en
 title: Configure the Journal Module
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-journal
 related-topics: configure-module-on-page-pb-all
 ---
 

@@ -1,11 +1,9 @@
 ﻿---
 uid: gamification
-topic: gamification
 locale: en
 title: Gamification
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: community-managers-managing-your-community-overview
 related-topics: engagement-influence
 ---
 

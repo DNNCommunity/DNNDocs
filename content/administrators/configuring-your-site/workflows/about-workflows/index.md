@@ -1,6 +1,5 @@
 ﻿---
 uid: about-workflows
-topic: about-workflows
 locale: en
 title: About Workflows
 dnneditions: Evoq Content,Evoq Engage

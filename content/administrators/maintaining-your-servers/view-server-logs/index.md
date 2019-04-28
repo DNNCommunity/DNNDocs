@@ -1,11 +1,9 @@
 ﻿---
 uid: view-server-logs
-topic: view-server-logs
 locale: en
 title: View Server Logs
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-servers-overview
 related-topics: retrieve-system-info,restart-application,about-web-servers
 ---
 

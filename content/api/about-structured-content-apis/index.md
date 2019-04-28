@@ -1,11 +1,9 @@
 ﻿---
 uid: about-structured-content-apis
-topic: about-structured-content-apis
 locale: en
 title: About Liquid Content™ (Structured Content) APIs
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: api-overview
 related-topics: developers-overview,glossary,creating-apps-that-use-microservices
 ---
 

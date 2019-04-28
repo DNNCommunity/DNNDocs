@@ -1,11 +1,9 @@
 ﻿---
 uid: restore-deleted-templates
-topic: restore-deleted-templates
 locale: en
 title: Restore Deleted Templates
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-pages-templates-overview
 related-topics: create-template-based-on-page-pb-all,create-template-based-on-another-template-pb-all,edit-delete-template-pb-all,purge-deleted-templates
 ---
 

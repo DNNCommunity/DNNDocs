@@ -1,11 +1,9 @@
 ﻿---
 uid: mvc-module-mvcviews
-topic: mvc-module-mvcviews
 locale: en
 title: MVC Views
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: mvc-module-development
 related-topics: developers-mvc-modules-overview,mvc-module-mvccontroller,mvc-module-unittest,unsupported-mvc-features
 ---
 

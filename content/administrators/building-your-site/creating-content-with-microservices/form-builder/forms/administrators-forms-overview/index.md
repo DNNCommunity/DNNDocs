@@ -1,11 +1,9 @@
 ﻿---
 uid: administrators-forms-overview
-topic: administrators-forms-overview
 locale: en
 title: About the Form Builder
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-microservices-overview
 related-topics: create-form,edit-form,duplicate-form,delete-form,view-form-responses,administrators-structured-content-overview,administrators-fields-overview,about-hidden-fields
 ---
 

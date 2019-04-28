@@ -1,11 +1,9 @@
 ﻿---
 uid: configure-caching
-topic: configure-caching
 locale: en
 title: Configure Caching
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-servers-overview
 related-topics: clear-cache,expire-cached-item-in-web-server,minify-resource-files
 links: ["[Caching Providers](https://www.dnnsoftware.com/wiki/caching-providers)"]
 ---

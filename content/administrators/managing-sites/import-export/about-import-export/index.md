@@ -1,6 +1,5 @@
 ﻿---
 uid: about-import-export
-topic: about-import-export
 locale: en
 title: Import / Export
 dnneditions: DNN Platform,Evoq Content,Evoq Engage

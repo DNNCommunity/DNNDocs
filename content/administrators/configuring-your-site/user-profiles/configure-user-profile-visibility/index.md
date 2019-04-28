@@ -1,11 +1,9 @@
 ﻿---
 uid: configure-user-profile-visibility
-topic: configure-user-profile-visibility
 locale: en
 title: Configure the Visibility of User Profiles
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-configuring-your-site-overview
 related-topics: configure-user-profile-vanity-url,add-user-profile-field,edit-user-profile-field,delete-user-profile-field,organize-user-profile-fields
 ---
 

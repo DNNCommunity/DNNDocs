@@ -1,11 +1,9 @@
 ﻿---
 uid: create-workflow-pb-all
-topic: create-workflow-pb-all
 locale: en
 title: Create a Workflow
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-workflows-overview
 related-topics: edit-workflow-pb-all,delete-workflow-pb-all,configure-workflow-state-pb-all
 ---
 

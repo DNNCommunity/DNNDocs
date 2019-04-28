@@ -1,6 +1,5 @@
 ﻿---
 uid: relnotes-2017-apr-26-telerik-removal
-topic: relnotes-2017-apr-26-telerik-removal
 locale: en
 title: Upcoming in v9.1 — Telerik Removal
 dnneditions: DNN Platform,Evoq Content,Evoq Engage

@@ -1,6 +1,5 @@
 ﻿---
 uid: set-up-dnn
-topic: set-up-dnn
 locale: en
 title: Setting Up DNN
 dnneditions: DNN Platform,Evoq Content,Evoq Engage

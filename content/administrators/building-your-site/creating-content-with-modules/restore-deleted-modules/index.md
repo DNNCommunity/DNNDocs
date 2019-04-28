@@ -1,11 +1,9 @@
 ﻿---
 uid: restore-deleted-modules
-topic: restore-deleted-modules
 locale: en
 title: Restore Deleted Modules
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-content-with-modules-overview
 related-topics: add-module-to-page-pb-all,add-content-to-page-quickly-pb-all,configure-module-on-page-pb-all,delete-module-from-page-pb-all,purge-deleted-modules,create-article-publisher
 ---
 

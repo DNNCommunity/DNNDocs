@@ -1,11 +1,9 @@
 ﻿---
 uid: configure-page-file-versioning-for-site
-topic: configure-page-file-versioning-for-site
 locale: en
 title: Configure Page/File Versioning for a Site
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: page-file-versioning
 related-topics: page-file-versioning
 ---
 

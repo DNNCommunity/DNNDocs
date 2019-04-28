@@ -1,11 +1,9 @@
 ﻿---
 uid: delete-vocabulary
-topic: delete-vocabulary
 locale: en
 title: Delete a Vocabulary
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-vocabularies-overview
 related-topics: create-vocabulary,edit-vocabulary,add-term-to-vocabulary,edit-term-in-vocabulary,delete-term-from-vocabulary
 ---
 

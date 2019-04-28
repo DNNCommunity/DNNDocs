@@ -1,11 +1,9 @@
 ﻿---
 uid: get-dnn-docs-running-locally
-topic: get-dnn-docs-running-locally
 locale: en
 title: Get DNN Docs Running Locally
 dnneditions: 
 dnnversion: 09.02.00
-parent-topic: 
 ---
 
 # Get DNN Docs Running Locally

@@ -1,11 +1,9 @@
 ﻿---
 uid: configure-search
-topic: configure-search
 locale: en
 title: Configure Search
 dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-search-overview
 related-topics: prioritize-search-items
 ---
 

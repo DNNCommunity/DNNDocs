@@ -1,11 +1,9 @@
 ﻿---
 uid: administrators-microservices-overview
-topic: administrators-microservices-overview
 locale: en
 title: Creating Content with Microservices
 dnneditions: Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-building-your-site-overview
 related-topics: administrators-assets-overview,administrators-pages-templates-overview,administrators-content-with-modules-overview,empty-recycle-bin
 ---
 

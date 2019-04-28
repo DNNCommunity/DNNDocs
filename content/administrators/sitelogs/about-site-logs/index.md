@@ -1,6 +1,5 @@
 ﻿---
 uid: about-site-logs
-topic: about-site-logs
 locale: en
 title: About Site Logs
 dnneditions: DNN Platform,Evoq Content,Evoq Engage

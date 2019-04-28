@@ -1,11 +1,9 @@
 ﻿---
 uid: create-template-based-on-another-template-pb-all
-topic: create-template-based-on-another-template-pb-all
 locale: en
 title: Create a Template Based on an Another Template via the Persona Bar
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-pages-templates-overview
 related-topics: create-template-based-on-page-pb-all,edit-delete-template-pb-all,restore-deleted-templates,purge-deleted-templates
 ---
 

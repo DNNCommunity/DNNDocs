@@ -1,11 +1,9 @@
 ﻿---
 uid: configure-smtp-server
-topic: configure-smtp-server
 locale: en
 title: Configure the SMTP Server
 dnneditions: Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-servers-overview
 related-topics: test-smtp-settings
 ---
 
