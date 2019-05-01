@@ -19,9 +19,6 @@ The number 1 feature of the DNN Platform is its extensibility, notably the abili
 
 As we&#39;ll see there are many ways to do this. The permutation of tools and technologies available to us makes it impossible for me to tell you how you should develop a module. It has become for a large part a matter of personal taste. What I intend to do in this chapter is two give you the background necessary to make those decisions. We&#39;ll see what a module is in technical terms, how a module is embedded in DNN and what is involved in packaging. With several examples I hope to show how this can be done in different ways to give you a start in this exciting technology.
 
-## Sample Code
-
-Todo
 
 1. [A Guided Tour of Your Work Environment](xref:mod-dev-work-environment)
 2. [Your Toolbox](xref:mod-dev-toolbox)
