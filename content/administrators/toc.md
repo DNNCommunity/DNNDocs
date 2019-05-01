@@ -7,6 +7,11 @@
 ## [Set Up SQL](xref:set-up-sql)
 ## [Run Installation Wizard](xref:run-installation-wizard)
 
+<!-- START OF "PLATFORM OVERVIEW" NAV ITEM -->
+# [Platform Overview](xref:platform-overview-overview)
+## [Core Platform Objects](xref:platform-overview-core-objects)
+## [Security](xref:platform-overview-security)
+
 <!-- START OF "MAINTAINING YOUR SERVERS" NAV ITEM -->
 
 ## [SMTP Servers](xref:smtp-servers)
