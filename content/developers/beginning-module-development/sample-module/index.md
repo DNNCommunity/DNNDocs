@@ -762,3 +762,6 @@ You should see your module page with an add button. Add some messages to verify 
 Now switch to edit mode and use the module&#39;s menu to pop up the settings. You&#39;ll notice a fourth tab called &quot;Guestbook Settings&quot; with our checkbox (fig. 19).
 
 ![Figure 19: Our settings screen.](/images/ch13f019.png)
+
+> [!Note]
+> This is an extract from the Wrox book  [Professional DNN 7](https://www.amazon.com/Professional-DNN7-Open-Source-Platform/dp/111885084X) by Shaun Walker et al. Copyright remains with P.A. Donker and Wiley Publishers.

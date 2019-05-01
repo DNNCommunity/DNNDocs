@@ -16,3 +16,6 @@ Your primary tool for development will be your IDE (Integrated Development Envir
 Then you&#39;ll need some way to access and manipulate the database. You can run scripts in DNN using the Host \&gt; SQL module, but it doesn&#39;t replace the ability to craft queries in an editor and run them instantly. For that you&#39;ll need SQL Management Studio. There are probably alternatives out there, but it comes for free with SQL Server (Express) so I never looked further.
 
 Finally, there are many tools available that you can add to make your life easier, but it really depends on your level of module development. To start with the above is fine. But as you advance you may want to look at source control (Git and SourceTree are my favorites) and Http debugging (Fiddler). The latter allows you to examine the HTML traffic between the server and the browser. This is extremely useful when debugging Ajax calls for instance. In fact it&#39;s the only way I know to effectively debug this scenario.
+
+> [!Note]
+> This is an extract from the Wrox book  [Professional DNN 7](https://www.amazon.com/Professional-DNN7-Open-Source-Platform/dp/111885084X) by Shaun Walker et al. Copyright remains with P.A. Donker and Wiley Publishers.

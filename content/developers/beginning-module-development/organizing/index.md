@@ -144,3 +144,5 @@ The clue is in MSBuild tasks. What you need to do is to click Rebuild in Visual 
 
 In short: it is possible to develop your module in total isolation in some directory far away from your test DNN site. But it requires quite a bit more jumping through hoops and the benefits are limited. So in the remainder we will assume to be developing inside the test DNN installation.
 
+> [!Note]
+> This is an extract from the Wrox book  [Professional DNN 7](https://www.amazon.com/Professional-DNN7-Open-Source-Platform/dp/111885084X) by Shaun Walker et al. Copyright remains with P.A. Donker and Wiley Publishers.

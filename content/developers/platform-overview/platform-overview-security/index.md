@@ -41,3 +41,5 @@ _Admins_ are regular user accounts that have been added to the Administrators ro
 
 In this chapter we&#39;ve looked at DNN from 30000 feet high. We&#39;ve seen the hierarchy of the DNN instance, a portal or site, a tab or page and finally the module. We now have a rough idea of where our data is stored and that DNN uses this to construct the pages that are being served out to the client&#39;s browser. We&#39;ve also seen how DNN organizes security using users and roles. Understanding the above is key to being able to comprehend more in-depth how DNN works and how you can create your own website or web application with it.
 
+> [!Note]
+> This is an extract from the Wrox book  [Professional DNN 7](https://www.amazon.com/Professional-DNN7-Open-Source-Platform/dp/111885084X) by Shaun Walker et al. Copyright remains with P.A. Donker and Wiley Publishers.

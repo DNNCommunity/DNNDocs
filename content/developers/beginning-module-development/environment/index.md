@@ -54,3 +54,6 @@ In conclusion: IIS Express is a great tool and a big step forwards since the old
 ## To VM or Not To VM
 
 You can go one step further to emulate the situation where the module will end up: by creating a virtual machine with a complete Windows Server edition on it. If you are an MSDN member this comes at no cost to you at all. The upside is that there are no more differences possible between your development environment and the production environment. Another benefit is that your development environment becomes trivially easy to move to another machine and to back up. Naturally it also comes at a cost. There&#39;s some performance loss as your PC will be running two operating systems side-by-side. Plus you&#39;ll need to install your development tools inside the VM. Personally I&#39;m running my entire development environment on a VM on a Mac so I enjoy some of the aforementioned benefits.
+
+> [!Note]
+> This is an extract from the Wrox book  [Professional DNN 7](https://www.amazon.com/Professional-DNN7-Open-Source-Platform/dp/111885084X) by Shaun Walker et al. Copyright remains with P.A. Donker and Wiley Publishers.

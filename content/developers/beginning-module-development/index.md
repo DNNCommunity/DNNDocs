@@ -7,10 +7,9 @@ dnneditions: DNN Platform
 dnnversion: 07.00.00
 ---
 
-# DNN Platform Overview
+# Beginning Module Development
 
-This is an extract from the Wrox book  [Professional DNN 7](https://www.amazon.com/Professional-DNN7-Open-Source-Platform/dp/111885084X) by Shaun Walker et al. 
-The following chapter was written and kindly donated by P.A. Donker.
+This is an extract from the Wrox book  [Professional DNN 7](https://www.amazon.com/Professional-DNN7-Open-Source-Platform/dp/111885084X) by Shaun Walker et al. Copyright remains with P.A. Donker and Wiley Publishers.
 
 ## Introduction
 

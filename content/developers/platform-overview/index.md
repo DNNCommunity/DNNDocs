@@ -9,8 +9,7 @@ dnnversion: 07.00.00
 
 # DNN Platform Overview
 
-This is an extract from the Wrox book  [Professional DNN 7](https://www.amazon.com/Professional-DNN7-Open-Source-Platform/dp/111885084X) by Shaun Walker et al. 
-The following chapter was written and kindly donated by P.A. Donker.
+This is an extract from the Wrox book  [Professional DNN 7](https://www.amazon.com/Professional-DNN7-Open-Source-Platform/dp/111885084X) by Shaun Walker et al. Copyright remains with P.A. Donker and Wiley Publishers.
 
 This chapter introduces you to some of the core concepts of the DNN Platform and gives an overview of how these fit together. 
 Over the years DNN has evolved and changed appearance considerably but overall the structure has remained the same. 

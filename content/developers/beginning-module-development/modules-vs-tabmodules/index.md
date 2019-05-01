@@ -53,3 +53,5 @@ You&#39;ll notice in the TabModules table (fig. 12) the column PaneName and Modu
 
 There are many more columns in this table that I will not elaborate on here. You&#39;ll probably notice they are closely linked to settings you see when you go to a module&#39;s settings popup. But now you should understand how DNN knows which control to stick were when it loads a page.
 
+> [!Note]
+> This is an extract from the Wrox book  [Professional DNN 7](https://www.amazon.com/Professional-DNN7-Open-Source-Platform/dp/111885084X) by Shaun Walker et al. Copyright remains with P.A. Donker and Wiley Publishers.

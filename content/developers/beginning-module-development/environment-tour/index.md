@@ -70,3 +70,5 @@ So these files are actually used to render to the client what the developer want
 
 The only file you&#39;re missing from the module is the one that was written to the bin folder: DotNetNuke.Modules.Html.dll. That file is the compiled version of all the source code that came with the module. In the source code version of DNN you&#39;ll find this source code under DNN Platform\Modules\HTML. This directory holds the entire HTML module project and is used to generate the zip file that is used to install it.
 
+> [!Note]
+> This is an extract from the Wrox book  [Professional DNN 7](https://www.amazon.com/Professional-DNN7-Open-Source-Platform/dp/111885084X) by Shaun Walker et al. Copyright remains with P.A. Donker and Wiley Publishers.
