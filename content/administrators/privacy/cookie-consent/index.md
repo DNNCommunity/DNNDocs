@@ -7,7 +7,7 @@ dnnversion: 09.02.00
 
 # Cookie Consent
 
-![Privacy Settings](/images/privacy-settings-920.png)
+![Privacy Settings](/images/privacy-cc-settings.png)
 
 Cookie Consent allows you to conform to EU law. First required in the ePrivacy Directive in 2002, websites should inform users that they are using cookies to track them from one page request to another. As a website owner you are required to ask consent from users for using cookies.
 

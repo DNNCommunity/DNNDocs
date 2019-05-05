@@ -69,6 +69,7 @@
 ##[Privacy](xref:privacy-overview)
 ###[Communication Settings](xref:privacy-communication-settings)
 ###[Cookie Consent](xref:cookie-consent)
+###[Data Consent](xref:data-consent-overview)
 
 ##[Extensions](xref:about-extensions)
 ###[Install an Extension](xref:install-extension)

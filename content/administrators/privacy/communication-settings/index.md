@@ -7,7 +7,7 @@ dnnversion: 09.02.00
 
 # Communication Settings
 
-![Privacy Settings](/images/privacy-settings-920.png)
+![Privacy Settings](/images/privacy-comm-settings.png)
 
 The communication settings govern how DNN can communicate and expose itself to the outside world.
 You'll find the following settings:
