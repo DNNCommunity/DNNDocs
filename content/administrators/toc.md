@@ -66,6 +66,9 @@
 ###[Delete User Profile Field](xref:delete-user-profile-field)
 ###[Organize User Profile Fields](xref:organize-user-profile-fields)
 
+##[Privacy](xref:privacy-overview)
+###[Communication Settings](xref:privacy-communication-settings)
+###[Cookie Consent](xref:cookie-consent)
 
 ##[Extensions](xref:about-extensions)
 ###[Install an Extension](xref:install-extension)
