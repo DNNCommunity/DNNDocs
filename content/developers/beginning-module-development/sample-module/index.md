@@ -9,6 +9,10 @@ dnnversion: 07.00.00
 
 # A Guestbook Module
 
+> [!Note]
+> The source code for this sample module can be found on Github: [https://github.com/donker/dnn-sample-guestbook](https://github.com/donker/dnn-sample-guestbook)
+
+
 Let&#39;s take a non-trivial example to build a module. We&#39;re going to build a guestbook module. The module allows users to leave a message and these messages will be displayed in a list that is sorted by the date they were added in reverse order. There is a setting in the module specifying whether we wish to use moderation. If not then all messages are displayed as they come in. If we use moderation than anyone with edit permissions on the module will need to click on a button to OK any incoming message before it&#39;s shown. Finally: users can edit their own messages until they&#39;ve been moderated and any user with edit permissions can edit any message. If a message has been edited it will be displayed with a small note who edited the message and when.
 
 The tools I&#39;m using are:
