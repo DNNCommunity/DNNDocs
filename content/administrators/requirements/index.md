@@ -8,7 +8,7 @@ related-topics: install-extension,administrators-included-modules-overview,produ
 
 # DNN Requirements
 
-The following are required for DNN Platform 9.0 and DNN Evoq 9.0.
+The following are required for DNN Platform 9.4 and DNN Evoq 9.4.
 
 ## Supported Operating Systems
 
@@ -21,7 +21,7 @@ The following are required for DNN Platform 9.0 and DNN Evoq 9.0.
 
 ## .NET Framework
 
-*   4.5.1+
+*   4.7.2+
 
 ## Web Server
 
@@ -51,18 +51,24 @@ The following are required for DNN Platform 9.0 and DNN Evoq 9.0.
 
 ## Developer IDEs
 
-For creating modules:
+For creating extensions:
 
-*   Visual Studio 2013
 *   Visual Studio 2015
+*   Visual Studio 2017
+*   Visual Studio 2019
+
+> [!Note]
+> Starting with DNN 9.4.0, .NET Framework 4.7.2+ is required, however, it is still possible to use older versions of Visual Studio, and .NET Framework for extension development.  The minimum version for extension development is dependent upon the targeted DNN Minimum Version.
 
 For contributing to the DNN Platform:
 
-*   Visual Studio 2015
+*   Visual Studio 2017
+*   Visual Studio 2019
 
 ## Recommended Environment
 
 *   Windows Server 2012 R2
 *   IIS 8.5
-*   SQL Server 2014 Developer Edition
-*   **For developers:** Visual Studio 2015
+*   SQL Server 2014 or Later
+*   **For developers:** SQL Server 2014 Developer Edition or Express 
+*   **For developers:** Visual Studio 2019
