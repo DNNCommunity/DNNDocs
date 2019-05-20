@@ -9,8 +9,6 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.1.2
 
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/112531)
-
 *   Added the ability to manage the Vanity URL prefix.
 *   Added the ability to filter members in the member directory by role.
 *   Fixed issue where the user could inadvertently click the login button multiple times.
@@ -46,3 +44,6 @@ EVOQ CONTENT
 *   Fixed issue where user gets an access denied error after password reset.
 *   Fixed issue where client resource manager failed to minify files.
 *   Fixed issue where search didn't work after adding search results to alternate page.
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.01.02](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.01.02)

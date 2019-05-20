@@ -9,8 +9,6 @@ dnnversion: 09.02.00
 
 ## DOTNETNUKE 7.0.4
 
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/102566)
-
 *   Fixed issue that caused message replies to now show in the feed.
 *   Fixed errors in Razor DDR Templates when upgrading to a version higher than 7.0.0.
 *   Fixed issue that prevented hosts users from changing their password.
@@ -28,3 +26,7 @@ dnnversion: 09.02.00
 *   Fixed issue that caused multilingual sites to show duplicate entries in the site switching tool in the control panel.
 *   Fixed issue that caused multiple entries to be added to the ContentItems table when adding tags to modules.
 *   Updated the list of devices in the Preview Management Module to include the most popular devices to date.
+
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.00.04](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.00.04)

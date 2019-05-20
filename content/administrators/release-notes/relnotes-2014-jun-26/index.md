@@ -9,8 +9,6 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.3.1
 
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/123913)
-
 *   Updated jQuery.RequestRegistration to also include jquery-migrate, which many third-party skins rely on.
 *   Added back missing API methods to preserve binary compatibility.
 *   Update 51 Degrees V3 to the latest assembly and data file.
@@ -46,3 +44,6 @@ EVOQ ENGAGE (EVOQ SOCIAL 1.2.0)
 *   Performance Improvements around SQL queries, space usage and reduced amount of data sent to the browser across all Social modules.
 *   Added mobile support for most user facing Social modules.
 *   Additional minor bug fixes and improvements were also part of the release.
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.03.01](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.03.01)

@@ -9,8 +9,6 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.0.6
 
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/105676)
-
 *   Fixed issue that caused broken links when changing the name of a page.
 *   Added search capabilities in the page management section.
 *   Added new funtionality to the Member Directory so that users can choose between the different search options.
@@ -56,3 +54,6 @@ EVOQ CONTENT
 *   Updated the user agent user when the searchcrawler crawls the site.
 *   Security:
     *   Fixed code that generates pop ups and can potentially allow for javascript / HTML injection.
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.00.06](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.00.06)

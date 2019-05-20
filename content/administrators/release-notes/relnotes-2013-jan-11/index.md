@@ -9,6 +9,8 @@ dnnversion: 09.02.00
 
 ## DOTNETNUKE PLATFORM 7.0.2
 
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/100158)
 
 *   Fixed issue that made the edit module icon to not appear when editing pages.
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.00.02](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.00.02)

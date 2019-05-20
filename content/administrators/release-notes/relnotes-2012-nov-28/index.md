@@ -9,8 +9,6 @@ dnnversion: 09.02.00
 
 ## DOTNETNUKE PLATFORM 7.0.0
 
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/97017)
-
 *   Fixed issue that caused profiles of deleted users to be available.
 *   Removed the postback after checkboxes are selected in Page Settings > Taxonomy.
 *   Implemented the functionality required to edit security role names and social group names.
@@ -36,3 +34,7 @@ dnnversion: 09.02.00
     *   Message Center
     *   My Modules
     *   Social Groups
+
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.00.00](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.00.00)
