@@ -9,8 +9,6 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 8.0.0
 
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/619410)
-
 The following are breaking changes that can impact upgrades as well as third-party extensions:
 
 *   .NET 4.5.1 or higher is now required.
@@ -82,3 +80,7 @@ EVOQ ENGAGE
 *   Made it possible for users to delete posts from other users on their own activity stream.
 *   Corrected problems where Ideas votes may not be returned or added back.
 *   Additional minor enhancements and bug fixes.
+
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.8x/tree/master/08.00.00](https://github.com/dnnsoftware/Dnn.Releases.Archive.8x/tree/master/08.00.00)

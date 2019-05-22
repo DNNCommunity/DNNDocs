@@ -9,8 +9,6 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 8.0.4
 
-[GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v8.0.4)
-
 *   MVC Module bug fixes and added MVC Controller Views Path.
 *   Extension Modules Usage Details defaults to current portal and uses proper links for pages.
 *   Web API performance improvements.
@@ -51,3 +49,7 @@ EVOQ ENGAGE
         *   Display the list of responses in custom configurations to extract insights.
     *   Migration of existing HTML content into Structured Content microservice.
 *   Additional minor enhancements and bug fixes.
+
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v8.0.4](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v8.0.4)

@@ -9,8 +9,6 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.3.4
 
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/137325)
-
 *   Fixed issue where site settings were not updating correctly in multi-language installations.
 *   Fixed issue where partial site templates were not working correctly with child sites.
 *   Fixed issue where links created in Telerik RadEditor were not correct.
@@ -64,3 +62,7 @@ EVOQ ENGAGE (EVOQ SOCIAL 2.0.1)
 *   Changed chart axis scaling in dashboard to make better use of space.
 *   Added Sitemap providers for the 6 main modules (SEO).
 *   Made paging links in modules use proper anchor tags (SEO).
+
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.03.04](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.03.04)

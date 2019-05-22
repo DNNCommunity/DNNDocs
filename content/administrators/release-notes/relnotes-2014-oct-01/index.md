@@ -9,8 +9,6 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.3.3
 
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/134695)
-
 *   Enhanced DDR Menu to allow menus to be filtered by page tags.
 *   Enhanced messaging system to support additional tokens.
 *   Enhanced core library to include extension methods for creating/manipulating XML documents.
@@ -59,3 +57,6 @@ EVOQ ENGAGE (EVOQ SOCIAL 2.0.0)
 *   Added ability to delete a user from the user's profile page (this is a soft-delete) as well as promote them to a moderator role.
 *   Updated search control in the seven social modules that use it to be a companion module, and thus optional to show/hide for site administrators and page editors.
     *   This also exposes a new create button in the left hand footer of those modules too, to enable creation when search is not displayed (or without requiring a scroll to top for end users).
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.03.03](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.03.03)

@@ -9,8 +9,6 @@ dnnversion: 09.02.00
 
 ## DOTNETNUKE 7.0.3
 
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/101046)
-
 *   Fixed issue that prevented non admins and non hosts to save HTML content as a template.
 *   Fixed potential endless loop when using the device redirection on a new site.
 *   Fixed UI issue where sub menus could go off screen.
@@ -32,3 +30,6 @@ dnnversion: 09.02.00
 *   Removed non FIPS compliant code from the Client Resource Management component.
 *   Fixed issue where the user was not able to download language packs from the host > languages section.
 *   Implemented functionality to send query strings when redirecting sites using the mobile redirection feature.
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.00.03](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.00.03)

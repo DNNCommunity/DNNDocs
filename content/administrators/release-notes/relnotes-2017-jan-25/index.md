@@ -12,8 +12,6 @@ Released 2017 Jan 25.
 
 ## DNN PLATFORM 9.0.1
 
-[GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.0.1)
-
 *   The Platform Persona Bar menu items were converted to icons to enhance the design and localizability of the new Admin Persona Bar.
 *   Legacy scheduled tasks were removed.
 *   Users can now be soft-deleted (sent to the recycle bin) and later purged (permanently deleted).
@@ -39,3 +37,6 @@ EVOQ ENGAGE
 
 *   All updates included with Evoq Content 9.0.1.
 *   Bug fixes specific to Evoq Engage.
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.0.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.0.1)

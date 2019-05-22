@@ -9,8 +9,6 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.2.2
 
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/119857)
-
 *   Fixed issue where Display Name was editable when when a Display Name format was specified.
 *   Fixed issue with Portal Templates and modules that are configured to Display On All Pages.
 *   Enhanced so that system confirmation is required when Unregistering a User Account.
@@ -91,3 +89,7 @@ EVOQ ENGAGE (EVOQ SOCIAL 1.1.1)
 *   Separated leaderboard templates from mode behavior, now you can choose ranking or top contributors mode and any template.
 *   Corrected several problems in Leaderboard and My Status when used across multiple portals.
 *   Additional minor bug fixes and improvements were also part of the release.
+
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.02.02](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.02.02)

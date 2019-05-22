@@ -9,8 +9,6 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.2.0
 
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/115680)
-
 Application features
 
 *   Responsive Design Skin: The Gravity skin was redesigned to use the Bootstrap framework which provides for a fully responsive design out of the box.
@@ -42,3 +40,6 @@ EVOQ CONTENT
 *   Fixed issue where the File Crawler would stop indexing when an error occurs in the Amazon S3 Provider.
 *   Fixed issue where the Digital Assets Manager's Workflow functionality was not available on upgraded sites.
 *   Fixed issue where a 301 error is thrown when the homepage of a site is access with querystring parameters.
+
+## Downloads
+*  [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.02.00](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.02.00)

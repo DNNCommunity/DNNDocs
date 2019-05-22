@@ -9,8 +9,6 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.4.1
 
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/615317)
-
 *   Fixed race condition which could cause errors during file upload.
 *   Fixed issue where country profile property can cause registration to fail.
 *   Fixed issue where calendar control breaks in Arabic language.
@@ -80,3 +78,6 @@ EVOQ ENGAGE
 *   Made default visibility of Activity Stream entries to group members only, when in group mode.
 *   Enhanced social connectors to return more insightful messaging when connections fail.
 *   Stopped pushing updates to the journal when groups are updated, so you no longer see these in the Activity Stream (any previous entries are still available, in upgrades).
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.04.01](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.04.01)

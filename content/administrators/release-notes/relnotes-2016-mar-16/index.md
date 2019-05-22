@@ -9,8 +9,6 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 8.0.1
 
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/619412)
-
 *   Critical security update.
 *   See breaking changes in 8.0.0.
 
@@ -32,3 +30,7 @@ EVOQ ENGAGE
 *   Updated user interface and experience for creating and viewing tickets as an end user.
 *   Added event hooks for all major Engage modular functionality, allowing third party extensibility.
 *   Additional minor enhancements and bug fixes.
+
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.8x/tree/master/08.00.01](https://github.com/dnnsoftware/Dnn.Releases.Archive.8x/tree/master/08.00.01)

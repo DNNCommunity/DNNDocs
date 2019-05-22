@@ -9,8 +9,6 @@ dnnversion: 09.02.00
 
 ## DNN PLATFORM 7.3.0
 
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/121844)
-
 *   Page markup reduction - intelligent resource management
     *   Removal of unnecessary Viewstate — Home page 4005 bytes down to 90 bytes.
     *   YSlow base score improvement (7.2.2 80/Grade C -> 7.3.0 93/Grade A).
@@ -64,3 +62,6 @@ EVOQ ENGAGE (EVOQ SOCIAL 1.1.2)
 *   Improved date and time selection in Blogs (to match Social Events).
 *   Corrected several problems in multi-culture installs.
 *   Additional minor bug fixes and improvements were also part of the release.
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.03.00](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.03.00)
