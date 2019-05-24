@@ -13,14 +13,14 @@ related-topics: administrators-included-modules-overview,requirements,dnn-overvi
 |**Release Date**|**Version**|
 |---|---|
 |2019 Apr 01|[9.3.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.1)|
-|2018 Oct 01|[9.2.2](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.2)|[Release Notes](xref:relnotes-2018-oct-01)|
-|2018 Aug 08|[9.2.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.1)|[Release Notes](xref:relnotes-2018-aug-08)|
-|2018 Mar 22|[9.2.0](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.0)|[Release Notes](xref:relnotes-2018-mar-22)|
-|2017 Jul 05|[9.1.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1)|[Release Notes](xref:relnotes-2017-jul-05)|
-|2017 Apr 26|[9.1.0](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.0)|[Release Notes](xref:relnotes-2017-apr-26)|
-|2017 Jan 25|[9.0.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.0.1)|[Release Notes](xref:relnotes-2017-jan-25)|
-|2016 Dec 09|[9.0.0](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.0.0)|[Release Notes](xref:relnotes-2016-dec-09)|
-|2016 Aug 22|[8.0.4](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v8.0.4)|[Release Notes](xref:relnotes-2016-aug-22)|
+|2018 Oct 01|[9.2.2](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.2)|
+|2018 Aug 08|[9.2.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.1)|
+|2018 Mar 22|[9.2.0](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.0)|
+|2017 Jul 05|[9.1.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1)|
+|2017 Apr 26|[9.1.0](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.0)|
+|2017 Jan 25|[9.0.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.0.1)|
+|2016 Dec 09|[9.0.0](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.0.0)|
+|2016 Aug 22|[8.0.4](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v8.0.4)|
 |2016 May 26|[8.0.3](xref:relnotes-2016-may-26)|
 |2016 Apr 18|[8.0.2](xref:relnotes-2016-apr-18)|
 |2016 Mar 16|[8.0.1](xref:relnotes-2016-mar-16)|
