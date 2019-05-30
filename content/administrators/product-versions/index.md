@@ -2,7 +2,7 @@
 uid: product-versions
 locale: en
 title: Product Versions
-dnnversion: 09.03.01
+dnnversion: 09.03.02
 related-topics: administrators-included-modules-overview,requirements,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,providers,more-resources
 ---
 
@@ -12,6 +12,7 @@ related-topics: administrators-included-modules-overview,requirements,dnn-overvi
 
 |**Release Date**|**Version**|
 |---|---|
+|2019 May 01|[9.3.2](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|
 |2019 Apr 01|[9.3.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.1)|
 |2018 Oct 01|[9.2.2](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.2)|
 |2018 Aug 08|[9.2.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.1)|
