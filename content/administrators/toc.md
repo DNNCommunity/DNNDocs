@@ -233,7 +233,7 @@
 ### [Creation Modules](xref:creation-modules)
 ####[Module Creator](xref:module-module-creator)
 ## [DNN Requirements](xref:requirements)
-## [Product Versions](xref:product-versions)
+## [Releases](xref:releases)
 ## [DNN Security](xref:dnn-security)
 ## [More Resources](xref:more-resources)
 
