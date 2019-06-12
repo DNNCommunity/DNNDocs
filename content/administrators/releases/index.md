@@ -1,12 +1,12 @@
 ﻿---
-uid: product-versions
+uid: releases
 locale: en
-title: Product Versions
+title: Releases
 dnnversion: 09.03.02
 related-topics: administrators-included-modules-overview,requirements,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,providers,more-resources
 ---
 
-# Product Versions
+# Releases
 
 ## History
 
