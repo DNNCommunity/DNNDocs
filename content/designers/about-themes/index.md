@@ -59,7 +59,9 @@ When a layout template is applied to a webpage, any associated CSS is automatica
 
 ## Theme Types
 
-DNN supports two different types of themes: HTML and ASCX.
+DNN supports two different ways of creating themes using: HTML and ASCX files.
+The HTML files offer an easier way to get into DNN theming and DNN will parse the HTML file will to an ASCX file.
+DNN will use the ASCX file as the actual theme.
 
 |**HTML**|**ASCX**|
 |---|---|
