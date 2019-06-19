@@ -61,10 +61,6 @@ Containers allow designers to seamlessly integrate modules from many different d
        <td>Displays an action from the <strong>module action menu</strong>.</td>
      </tr>
      <tr>
-       <td>ACTIONBUTTON</td>
-       <td>Displays an action from the <strong>module action menu</strong>.</td>
-     </tr>
-     <tr>
        <td>DROPDOWNACTIONS</td>
        <td>Displays the <strong>module action menu</strong> as a dropdown list.</td>
      </tr>
