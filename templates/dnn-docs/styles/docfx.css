@@ -1031,13 +1031,18 @@ div.embeddedvideo iframe {
 }
 
 .homepage .api-section .icon {
-	font-size: 5em;
-	padding-right: 30px
+	width: 100px;
+	padding-right: 15px
 }
 
-.homepage .api-section .icon.sm {
-	font-size: inherit;
+.api-section .icon.sm {
+	width: 25px;
+	height: 25px;
 	padding-right: 5px;
+}
+
+.api-section .icon.sm + span {
+	vertical-align: middle;
 }
 
 .homepage .api-section .icon.administrators { color: #93A100; }
