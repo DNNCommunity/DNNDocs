@@ -84,7 +84,7 @@ Add the `&invert=1` parameter to the URL to invert the colors, i.e. get the "neg
 
 ### Contrast Filter
 
-The contrast of the image can be adjusted, using values between `-100` and `100`, e.g. `&contract=-50`
+The contrast of the image can be adjusted, using values between `-100` and `100`, e.g. `&contrast=-50`
 
 ### Gamma Filter
 
