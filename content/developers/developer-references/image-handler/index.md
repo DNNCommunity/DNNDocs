@@ -61,7 +61,7 @@ There are four [resize modes](xref:DotNetNuke.Services.GeneratedImage.ImageResiz
 | `Fit`       | Resizes the image while maintaining the aspect ratio, ensuring the image fits within the given dimensions
 | `FitSquare` | Resizes the image and centers it on a generated background (white by default)
 
-The color of the generated background ca be specified via the `backcolor` parameter (documented in the [Placeholder Mode](#placeholder-mode) section).  A border can also be added in this same color by specifying its width in the `border` parameter, e.g. `border=10`
+The color of the generated background can be specified via the `backcolor` parameter (documented in the [Placeholder Mode](#placeholder-mode) section).  A border can also be added in this same color by specifying its width in the `border` parameter, e.g. `border=10`
 
 ## Filters
 
