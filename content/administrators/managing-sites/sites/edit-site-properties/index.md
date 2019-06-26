@@ -1,11 +1,8 @@
----
+﻿---
 uid: edit-site-properties
-topic: edit-site-properties
 locale: en
 title: Edit a Site's Properties
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-sites-overview
 related-topics: create-site,view-site,delete-site,move-site-to-another-server
 ---
 
@@ -19,7 +16,7 @@ related-topics: create-site,view-site,delete-site,move-site-to-another-server
 
 1.  Go to **Persona Bar \> Manage \> Sites**.
     
-    ![Persona Bar > Manage > Sites](/images/scr-pbar-host-Manage-E91.png)
+    ![Persona Bar > Manage > Sites](/images/scr-pbar-host-Manage-E91-platform.png)
 
     
 2.  Go to the **Sites** tab.

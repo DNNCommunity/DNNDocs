@@ -1,11 +1,8 @@
----
+﻿---
 uid: create-container
-topic: create-container
 locale: en
 title: Create a Container
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: designers-creating-themes-overview
 previous-topic: create-layout-template
 next-topic: create-css
 related-topics: theme-objects,about-themes,create-theme
@@ -14,7 +11,7 @@ links: ["[DNN Wiki: DotNetNuke Skins](https://www.dnnsoftware.com/wiki/dotnetnuk
 
 # Create a Container
 
-A **container** is similar to a layout template, except a container's scope is a single pane, whereas a layout template's scope is the entire page. A container is associated with a **module**, which can generate dynamic content or perform other functionality.
+A **container** is similar to a layout template, except a container's scope is modules, whereas a template's layout (formerly Skin) scope is the entire page. A container is essentially a wrapper for a **module** and can be used to style it's content or add other functionality (advanced use cases).
 
 Containers allow designers to seamlessly integrate modules from many different developers into a cohesive website design. Containers can also include visual elements that allow website users to interact with the module.
 
@@ -59,10 +56,6 @@ Containers allow designers to seamlessly integrate modules from many different d
     The following theme objects are relevant to containers:
 
     <table>
-     <tr>
-       <td>ACTIONBUTTON</td>
-       <td>Displays an action from the <strong>module action menu</strong>.</td>
-     </tr>
      <tr>
        <td>ACTIONBUTTON</td>
        <td>Displays an action from the <strong>module action menu</strong>.</td>

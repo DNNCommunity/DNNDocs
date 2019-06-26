@@ -1,4 +1,4 @@
-# [Contribute to DNN Docs](xref:contribute-to-docs)
+﻿# [Contribute to DNN Docs](xref:contribute-to-docs)
 ## [Edit an Article](xref:how-to-edit-an-article)
 ## [Edit an Article in the Browser](xref:how-to-edit-an-article-in-browser)
 ## [Edit Source Code Comments](xref:how-to-edit-source-code-comments)

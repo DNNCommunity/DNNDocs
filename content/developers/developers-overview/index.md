@@ -1,9 +1,7 @@
----
+﻿---
 uid: developers-overview
-topic: developers-overview
 locale: en
 title: Hello, Developer!
-dnneditions: 
 dnnversion: 09.02.00
 ---
 

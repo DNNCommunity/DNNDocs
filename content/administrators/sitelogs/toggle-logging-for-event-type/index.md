@@ -1,11 +1,8 @@
----
+﻿---
 uid: toggle-logging-for-event-type
-topic: toggle-logging-for-event-type
 locale: en
 title: Toggle Logging for an Event Type
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-sitelogs-overview
 related-topics: view-site-logs,view-entry-details,clear-log,delete-entries,share-entries,add-event-type,edit-logged-event-type,delete-logged-event-type,configure-notices
 ---
 

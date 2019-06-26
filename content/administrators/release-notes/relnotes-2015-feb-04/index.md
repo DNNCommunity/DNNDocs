@@ -1,17 +1,13 @@
----
+﻿---
 uid: relnotes-2015-feb-04
-topic: relnotes-2015-feb-04
 locale: en
 title: DNN Release Notes — 2015 Feb 04
-dnneditions:
 dnnversion: 09.02.00
 ---
 
 # DNN Release Notes — 2015 Feb 04
 
 ## DNN PLATFORM 7.4.0
-
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/611324)
 
 *   Added Workflow and versioning API.
 *   Added multilanguage support to Site Settings.
@@ -73,3 +69,7 @@ EVOQ ENGAGE
 *   Discussions — Added support for attachments. Requires access permissions.
 *   Events — Added .ics link, so users can add the viewed event to their calendar.
 *   Answers — Moderators can now see who voted on a question or answer.
+
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.04.00](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.04.00)

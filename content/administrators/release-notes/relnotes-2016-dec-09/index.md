@@ -1,19 +1,13 @@
----
+﻿---
 uid: relnotes-2016-dec-09
-topic: relnotes-2016-dec-09
 locale: en
 title: DNN Release Notes — 2016 Dec 9
-dnneditions: 
 dnnversion: 09.02.00
 ---
 
 # DNN Release Notes — 2016 Dec 9
 
 ## DNN PLATFORM 9.0.0
-
-[GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.0.0)
-
-[GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.0.0)
 
 *   The host/admin experience is enhanced with a modern Persona Bar user interface. Most modules were rewritten using React.js. The legacy Control Panel and its accompanying host/admin pages are removed during the upgrade.
 *   New modules can now be installed directly from the Persona Bar menu by a host/superuser.
@@ -66,7 +60,8 @@ EVOQ ENGAGE
 <a name="fn-cloud-based">1</a> Delivered as a cloud-based DNN microservice. Microservices allow for easier upgrades and faster deployment of new updates. Microservices also improve the overall performance of your site by hosting additional functionality on cloud servers.
 
 
-
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.0.0](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.0.0)
 
 
 

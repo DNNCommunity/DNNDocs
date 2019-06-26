@@ -1,17 +1,13 @@
----
+﻿---
 uid: relnotes-2013-jan-09
-topic: relnotes-2013-jan-09
 locale: en
 title: DNN Release Notes — 2013 Jan 09
-dnneditions:
 dnnversion: 09.02.00
 ---
 
 # DNN Release Notes — 2013 Jan 09
 
 ## DOTNETNUKE PLATFORM 7.0.1
-
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/100069)
 
 *   Fixed issue in sitemap priority when hosting services uses commas instead of dots as decimal separators. This issue affects directly to the no technician user of portal.
 *   Fixed issue where files with special characters were not encoded correctly in the URL.
@@ -60,3 +56,6 @@ dnnversion: 09.02.00
     *   Enhanced the code that generates profile pictures to avoid performance problems.
     *   Enhanced the member search to avoid data compromise..
     *   A number of browsers incorrectly implement a particular HTML tag, in violation of the official W3C standards. Defensive coding was added to avoid the possibility to use this tag to redirect requests for certain files to another site.
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.00.01](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.00.01)

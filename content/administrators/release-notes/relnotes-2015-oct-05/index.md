@@ -1,17 +1,13 @@
----
+﻿---
 uid: relnotes-2015-oct-05
-topic: relnotes-2015-oct-05
 locale: en
 title: DNN Release Notes — 2015 Oct 05
-dnneditions:
 dnnversion: 09.02.00
 ---
 
 # DNN Release Notes — 2015 Oct 05
 
 ## DNN PLATFORM 7.4.2
-
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/617762)
 
 *   Added upgrade support from beta release.
 *   Fixed issue with lists in custom registration form.
@@ -60,3 +56,6 @@ EVOQ ENGAGE
 *   Added paging support to the blog roster companion module.
 *   Updated the usability of Content Exchange; search logic makes it easer to find things now.
 *   Additional bug fixes and minor enhancements.
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.04.02](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.04.02)

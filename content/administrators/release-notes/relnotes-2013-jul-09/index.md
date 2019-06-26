@@ -1,17 +1,13 @@
----
+﻿---
 uid: relnotes-2013-jul-09
-topic: relnotes-2013-jul-09
 locale: en
 title: DNN Release Notes — 2013 Jul 09
-dnneditions:
 dnnversion: 09.02.00
 ---
 
 # DNN Release Notes — 2013 Jul 09
 
 ## DNN PLATFORM 7.1.0
-
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/108560)
 
 *   Implemented functionality so that users are able to assign custom CSS to pages without modifying the skin.
 *   Updated to JQuery 1.9.1.
@@ -57,3 +53,6 @@ EVOQ CONTENT
 *   Fixed issue where HTML workflow notifications were not sent to Administrators.
 *   Fixed issue that stopped users from creating sub pages from templates.
 *   Fixed issue where manual synchronization was not working correctly in Document Library.
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.01.00](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.01.00)

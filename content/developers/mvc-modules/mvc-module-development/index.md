@@ -1,12 +1,9 @@
----
+﻿---
 uid: mvc-module-development
-topic: mvc-module-development
 locale: en
 title: MVC Module Development
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: developers-overview
-related-topics: pack-extension,create-module-using-templates,use-module-creator,providers
+related-topics: create-module-using-templates,use-module-creator,providers
 links: ["[Wikipedia: Model-View-Controller](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)"]
 ---
 

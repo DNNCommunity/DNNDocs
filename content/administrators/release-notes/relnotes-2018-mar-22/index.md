@@ -1,9 +1,7 @@
----
+﻿---
 uid: relnotes-2018-mar-22
-topic: relnotes-2018-mar-22
 locale: en
 title: DNN Release Notes — 2018 Mar 22
-dnneditions:
 dnnversion: 09.02.00
 ---
 
@@ -12,8 +10,6 @@ dnnversion: 09.02.00
 Released 2018 Mar 22.
 
 ## DNN PLATFORM 9.2.0
-
-[GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.0)
 
 ### DNN PROMPT
 DNN Platform comes with a brand new command line interface to perform administrative tasks. Read more about [DNN Prompt here](https://www.dnnsoftware.com/community-blog/cid/155456/previewing-prompt-in-dnnevoq-920). DNN Prompt is extensible as well, meaning you can add your own commands as well. Look out for a future blog on this topic.
@@ -74,3 +70,6 @@ Connector now correctly updates ticket status to OPEN while adding a comment. Be
 
 ### OVERALL STABLIZATIION
 Stabilization in the following Evoq Engage features: Answers, Groups Directory, Blogs, Activity Stream, Leaderboard.
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.0](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.0)

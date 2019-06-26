@@ -1,17 +1,13 @@
----
+﻿---
 uid: relnotes-2014-jun-11
-topic: relnotes-2014-jun-11
 locale: en
 title: DNN Release Notes — 2014 Jun 11
-dnneditions:
 dnnversion: 09.02.00
 ---
 
 # DNN Release Notes — 2014 Jun 11
 
 ## DNN PLATFORM 7.3.0
-
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/121844)
 
 *   Page markup reduction - intelligent resource management
     *   Removal of unnecessary Viewstate — Home page 4005 bytes down to 90 bytes.
@@ -66,3 +62,6 @@ EVOQ ENGAGE (EVOQ SOCIAL 1.1.2)
 *   Improved date and time selection in Blogs (to match Social Events).
 *   Corrected several problems in multi-culture installs.
 *   Additional minor bug fixes and improvements were also part of the release.
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.03.00](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.03.00)

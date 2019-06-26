@@ -1,13 +1,9 @@
----
+﻿---
 uid: test-module
-topic: test-module
 locale: en
 title: Test Your Module
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: developers-creating-modules-overview
 previous-topic: start-vs-project-with-templates
-next-topic: pack-extension
 related-topics: about-evs
 ---
 

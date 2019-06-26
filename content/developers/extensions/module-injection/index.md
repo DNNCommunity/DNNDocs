@@ -1,11 +1,8 @@
----
+﻿---
 uid: module-injection-filter
-topic: module-injection-filter
 locale: en
 title: Module Injection Filter
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: developers-about-modules-overview
 related-topics: module-features,developers-creating-modules-overview
 links: ["[DNN Community Blog: Discover DNN Module Injection Filters](https://www.dnnsoftware.com/community-blog/cid/155402/discover-dnn-module-injection-filters)","[GitHub Injection Filter Samples](https://github.com/dnnsoftware/Dnn.InjectionFilter.Sample)"]
 ---

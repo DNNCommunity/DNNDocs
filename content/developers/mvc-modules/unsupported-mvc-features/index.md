@@ -1,11 +1,8 @@
----
+﻿---
 uid: unsupported-mvc-features
-topic: unsupported-mvc-features
 locale: en
 title: Unsupported MVC Features
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: mvc-module-development
 related-topics: developers-mvc-modules-overview,mvc-module-mvccontroller,mvc-module-mvcviews,mvc-module-unittest
 ---
 

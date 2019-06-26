@@ -1,17 +1,13 @@
----
+﻿---
 uid: relnotes-2014-aug-14
-topic: relnotes-2014-aug-14
 locale: en
 title: DNN Release Notes — 2014 Aug 14
-dnneditions:
 dnnversion: 09.02.00
 ---
 
 # DNN Release Notes — 2014 Aug 14
 
 ## DNN PLATFORM 7.3.2
-
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/127592)
 
 *   Fixed backwards compatibility issue with 3rd party control panels.
 *   Fixed issue in the drag and drop functionality of the File Uploader in IE 11 and Safari.
@@ -60,3 +56,7 @@ EVOQ ENGAGE (EVOQ SOCIAL 1.3.0)
 *   Updated several modules to be responsive which weren't handled in the previous release: User Badges, Leaderboard, My Status (Expanded view for profile).
 *   The CSS across modules has been reduced, simplified and refactored.
 *   Made the analytics task run in batches in situations where lots of data was introduced in a short period of time (this can be a new site or import situations).
+
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.03.02](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.03.02)

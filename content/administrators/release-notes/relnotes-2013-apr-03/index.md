@@ -1,17 +1,13 @@
----
+﻿---
 uid: relnotes-2013-apr-03
-topic: relnotes-2013-apr-03
 locale: en
 title: DNN Release Notes — 2013 Apr 03
-dnneditions:
 dnnversion: 09.02.00
 ---
 
 # DNN Release Notes — 2013 Apr 03
 
 ## DNN DOTNETNUKE 7.0.5
-
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/103868)
 
 *   Fixed issue in the Client Resource Manager where data URL's were removed when running the composite files option.
 *   Fixed issue when switching language from the control panel.
@@ -42,3 +38,6 @@ dnnversion: 09.02.00
 *   Security:
     *   Fixed potential javascript injections on sites running multiple languages.
     *   Implemented filters in the rich text editor to avoid the possibility of cross-site scripting issues.
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.00.05](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.00.05)

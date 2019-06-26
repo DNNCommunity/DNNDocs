@@ -1,13 +1,9 @@
----
+﻿---
 uid: create-doctype-xml
-topic: create-doctype-xml
 locale: en
 title: Create a DocType XML
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: designers-creating-themes-overview
 previous-topic: create-css
-next-topic: pack-extension
 related-topics: about-themes
 links: ["[DNN Wiki: DotNetNuke Skins](https://www.dnnsoftware.com/wiki/dotnetnuke-skins)","[DNN Community blog: DotNetNuke Skinning 101 (Part 2) by Joe Brinkman](https://www.dnnsoftware.com/community-blog/cid/131999/dotnetnuke-skinning-101-part-2)"]
 ---

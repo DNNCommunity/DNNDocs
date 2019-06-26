@@ -1,9 +1,7 @@
----
+﻿---
 uid: relnotes-2017-apr-26
-topic: relnotes-2017-apr-26
 locale: en
 title: DNN Release Notes — 2017 Apr 26
-dnneditions: 
 dnnversion: 09.02.00
 ---
 
@@ -12,9 +10,6 @@ dnnversion: 09.02.00
 Released 2017 Apr 26.
 
 ## DNN PLATFORM 9.1.0
-
-[GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.0)
-
 ADA Compliance
 
 DNN complies with accessibility requirements defined by the Americans with Disabilities Act (ADA). Anonymous site visitors with those requirements can now use accessibility tools to browse and interact with any DNN site. Authenticated users can additionally use an accessibility tool to navigate the Persona Bar and to perform other actions. New accessibility features include:
@@ -120,3 +115,6 @@ You can generate an embed code to allow your content to live anywhere on the web
 Multichannel Publishing : Social Publishing
 
 Using Liquid Content™'s publishing application, users can connect their social profiles and publish content directly to Facebook, Twitter, or LinkedIn. Evoq saves a rendering of that post, the date/time it was published, and how much engagement it received.
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.0](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.0)

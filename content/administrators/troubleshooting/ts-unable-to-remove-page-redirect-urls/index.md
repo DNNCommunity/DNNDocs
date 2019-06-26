@@ -1,11 +1,8 @@
----
+﻿---
 uid: ts-unable-to-remove-page-redirect-urls
-topic: ts-unable-to-remove-page-redirect-urls
 locale: en
 title: "Troubleshooting: Unable to Remove Page Redirect URLs"
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-troubleshooting-overview
 related-topics: ts-how-to-increase-max-upload-file-size,ts-error-login-ip-filtering-is-currently-disabled,ts-error-another-user-has-taken-action-on-the-page,ts-error-unknown-server-tag-DNNComboBox,ts-error-could-not-load-awssdk,ts-error-sql-timeout,ts-error-argumentnullexception-after-move-upgrade,ts-install-missing-resources,ts-mixed-content-ssl,ts-broken-profile-image,ts-page-remains-in-draft,ts-site-theme-not-loading,ts-incomplete-content-localization,ts-missing-persona-bar
 ---
 

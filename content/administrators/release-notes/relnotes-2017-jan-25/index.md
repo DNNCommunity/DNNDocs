@@ -1,10 +1,8 @@
----
+﻿---
 
 uid: relnotes-2017-jan-25
-topic: relnotes-2017-jan-25
 locale: en
 title: DNN Release Notes — 2017 Jan 25
-dnneditions: 
 dnnversion: 09.02.00
 ---
 
@@ -13,8 +11,6 @@ dnnversion: 09.02.00
 Released 2017 Jan 25.
 
 ## DNN PLATFORM 9.0.1
-
-[GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.0.1)
 
 *   The Platform Persona Bar menu items were converted to icons to enhance the design and localizability of the new Admin Persona Bar.
 *   Legacy scheduled tasks were removed.
@@ -41,3 +37,6 @@ EVOQ ENGAGE
 
 *   All updates included with Evoq Content 9.0.1.
 *   Bug fixes specific to Evoq Engage.
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.0.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.0.1)

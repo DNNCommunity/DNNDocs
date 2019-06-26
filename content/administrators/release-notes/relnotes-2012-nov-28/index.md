@@ -1,17 +1,13 @@
----
+﻿---
 uid: relnotes-2012-nov-28
-topic: relnotes-2012-nov-28
 locale: en
 title: DNN Release Notes — 2012 Nov 28
-dnneditions:
 dnnversion: 09.02.00
 ---
 
 # DNN Release Notes — 2012 Nov 28
 
 ## DOTNETNUKE PLATFORM 7.0.0
-
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/97017)
 
 *   Fixed issue that caused profiles of deleted users to be available.
 *   Removed the postback after checkboxes are selected in Page Settings > Taxonomy.
@@ -38,3 +34,7 @@ dnnversion: 09.02.00
     *   Message Center
     *   My Modules
     *   Social Groups
+
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.00.00](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.00.00)

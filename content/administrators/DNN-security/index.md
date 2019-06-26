@@ -1,12 +1,9 @@
----
+﻿---
 uid: dnn-security
-topic: DNN-security
 locale: en
 title: DNN Security
-dnneditions: 
 dnnversion: 09.02.00
-parent-topic: administrator-references
-related-topics: administrators-included-modules-overview,requirements,product-versions,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,providers,dnn-license,more-resources
+related-topics: administrators-included-modules-overview,requirements,product-versions,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,providers,more-resources
 links: ["[DNN Security Center](http://www.dnnsoftware.com/community/security/security-center)","[DNN blog](http://www.dnnsoftware.com/community-blog)"]
 ---
 
