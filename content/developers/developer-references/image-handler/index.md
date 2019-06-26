@@ -12,7 +12,7 @@ Out of the box, DNN includes an endpoint which can retrieve, transform, and serv
 
 ## Modes
 
-The image handler is find, create, and serve many types of images, so it first needs to know the **mode** in which it is operating.
+The image handler can find, create, and serve many types of images, so it first needs to know the **mode** in which it is operating.
 
 | URL                                                                 | Purpose
 |---------------------------------------------------------------------|----------------------------------------
