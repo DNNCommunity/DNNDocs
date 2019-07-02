@@ -20,7 +20,7 @@ Theme objects (skin objects) are a type of DNN extension used in themes to provi
 |CONTROLPANEL|Displays the DNN control panel. If the **CONTROLPANEL** theme object is not used in the theme, then DNN inserts a control panel control at the top of the page.|
 |COPYRIGHT|Displays the copyright notice for the website.|
 |CURRENTDATE|Displays the current date on the server.|
-|DDRMENU|Displays a menu using the **DDRMenu** control.|
+|[DDRMENU](xref:ddrmenu-overview)|Displays a menu using the **DDRMenu** control.|
 |DNNCSSEXCLUDE|Prevents a stylesheet reference from being included in the page.|
 |DNNCSSINCLUDE|Adds a stylesheet reference to the page.|
 |DNNJSEXCLUDE|Prevents a JavaScript file reference from being included in the page.|
