@@ -1,12 +1,9 @@
----
+﻿---
 uid: control-bar-to-persona-bar
-topic: control-bar-to-persona-bar
 locale: en
 title: Control Bar to Persona Bar
-dnneditions: 
 dnnversion: 09.02.00
-parent-topic: administrator-references
-related-topics: administrators-included-modules-overview,requirements,product-versions,dnn-overview,persona-bar-by-role,providers,dnn-license,DNN-security,more-resources
+related-topics: administrators-included-modules-overview,requirements,product-versions,dnn-overview,persona-bar-by-role,providers,more-resources
 ---
 
 # Control Bar to Persona Bar
@@ -14,7 +11,7 @@ related-topics: administrators-included-modules-overview,requirements,product-ve
 The following tables show the correspondence between the old Control Panel/Bar and the new Persona Bar.
 
 > [!NOTE]
-> The Persona Bar varies according to the product and to the permissions granted to the current authenticated (logged-in) user through roles. Examples: A host or superuser has access to almost all menu items, whereas a community manager would have access to only the features required to manage the community-related aspects of the site. Likewise, Evoq Content does not have the community-related menu items that Evoq Engage has.
+> The Persona Bar varies according to the product and to the permissions granted to the current authenticated (logged-in) user through roles. Examples: A host or superuser has access to almost all menu items, whereas a community manager would have access to only the features required to manage the community-related aspects of the site.
 
 ## Admin
 
@@ -198,7 +195,6 @@ The following tables show the correspondence between the old Control Panel/Bar a
   
 |**Control Panel/Bar**|**Persona Bar**|
 |---|---|
-|**Tools \> Upload File**|<ol><li>**Content \> Assets**</li><li>**Add Asset** tab</li></ol><br />[[how to]](xref:add-assets)<br />Also in other contextual uploads.|
 |**Tools \> Clear Cache**|<ol><li>**Settings \> Servers**</li><li>**Clear Cache** button tab</li>|
 |**Tools \> Restart Application**|<ol><li>**Settings \> Servers**</li><li>**Restart Application** button tab</li></ol>|
 |**Tools \> Go to website**|**Manage \> Sites**|
@@ -236,8 +232,8 @@ The following tables show the correspondence between the old Control Panel/Bar a
   
 |**Control Panel/Bar**|**Persona Bar**|
 |---|---|
-|**Pages \> Add New Page**|<ol><li>**Content \> Pages**</li><li>**Add Page** or **Add Multiple Pages** tab</li></ol><br />[[how to]](xref:create-single-page-standard)|
-|**Pages \> Copy Page**|**Content \> Pages**<br />[how to](xref:common-copy-page-pb-all)|
+|**Pages \> Add New Page**|<ol><li>**Content \> Pages**</li><li>**Add Page** or **Add Multiple Pages** tab</li></ol><br />[how to](xref:obsolete)|
+|**Pages \> Copy Page**|**Content \> Pages**<br />[how to](xref:obsolete)|
 |**pages \> Copy Permissions to Children**|<ol><li>**Content \> Pages**</li><li>Click/Tap the gear icon, and go to the **Permissions** tab.</li><li>**Copy Permissions to Descendant Pages** button subtab|
 |**Pages \> Import Page**|<ol><li>**Content \> Pages**</li><li>**Add Page** or **Add Multiple Pages** tab</li><li>In **Template Mode**, select **Import from XML**. subtab</li></ol>|
 

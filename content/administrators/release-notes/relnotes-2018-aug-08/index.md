@@ -1,9 +1,7 @@
----
+﻿---
 uid: relnotes-2018-aug-08
-topic: relnotes-2018-aug-08
 locale: en
 title: DNN Release Notes — 2018 Aug 08
-dnneditions: 
 dnnversion: 09.02.01
 ---
 

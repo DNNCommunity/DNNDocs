@@ -1,11 +1,8 @@
----
+﻿---
 uid: configure-url-rewriter
-topic: configure-url-rewriter
 locale: en
 title: Configure URL Rewriter
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-configuring-your-site-overview
 related-topics: configure-url-redirects,manage-url-providers,edit-regex-for-url-management,test-url-generation
 ---
 

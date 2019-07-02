@@ -1,9 +1,7 @@
----
+﻿---
 uid: about-user-accounts
-topic: about-user-accounts
 locale: en
 title: About User Accounts
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 ---
 

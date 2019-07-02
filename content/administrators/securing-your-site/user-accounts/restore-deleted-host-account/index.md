@@ -1,12 +1,9 @@
----
+﻿---
 uid: restore-deleted-host-account
-topic: restore-deleted-host-account
 locale: en
 title: Restore a Deleted Host Account
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-user-accounts-overview
-related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles,remove-user-from-multiple-roles,edit-user,manage-user-password,delete-user,delete-all-unauthorized-users,restore-deleted-user-account,purge-user-account,restore-multiple-deleted-users,purge-multiple-deleted-users,create-host-account,authorize-host,promote-user-to-host,demote-from-host,manage-host-password,delete-host,delete-all-unauthorized-hosts,purge-host-account
+related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles,remove-user-from-multiple-roles,edit-user,manage-user-password,delete-user,delete-all-unauthorized-users,restore-deleted-user-account,purge-user-account,create-host-account,authorize-host,promote-user-to-host,demote-from-host,manage-host-password,delete-host,delete-all-unauthorized-hosts,purge-host-account
 ---
 
 # Restore a Deleted Host Account

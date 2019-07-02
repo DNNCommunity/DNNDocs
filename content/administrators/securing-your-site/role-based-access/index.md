@@ -1,9 +1,7 @@
----
+﻿---
 uid: about-role-based-access
-topic: about-role-based-access
 locale: en
 title: About Role-Based Access
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 ---
 

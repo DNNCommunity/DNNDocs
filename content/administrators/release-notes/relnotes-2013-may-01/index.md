@@ -1,17 +1,13 @@
----
+﻿---
 uid: relnotes-2013-may-01
-topic: relnotes-2013-may-01
 locale: en
 title: DNN Release Notes — 2013 May 01
-dnneditions:
 dnnversion: 09.02.00
 ---
 
 # DNN Release Notes — 2013 May 01
 
 ## DNN PLATFORM 7.0.6
-
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/105676)
 
 *   Fixed issue that caused broken links when changing the name of a page.
 *   Added search capabilities in the page management section.
@@ -58,3 +54,6 @@ EVOQ CONTENT
 *   Updated the user agent user when the searchcrawler crawls the site.
 *   Security:
     *   Fixed code that generates pop ups and can potentially allow for javascript / HTML injection.
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.00.06](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.00.06)

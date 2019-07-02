@@ -1,9 +1,7 @@
----
+﻿---
 uid: relnotes-2018-oct-01
-topic: relnotes-2018-oct-01
 locale: en
 title: DNN Release Notes — 2018 Oct 01
-dnneditions: 
 dnnversion: 09.02.02
 ---
 
@@ -13,7 +11,6 @@ dnnversion: 09.02.02
 Released 2018 Oct 01.
 
 ## DNN PLATFORM 9.2.2
-[GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.2)
 
 * Core
   * Improvements in string management to increase overall performance.
@@ -98,3 +95,6 @@ Released 2018 Oct 01.
   * Viewing Analytics - On click, no action is performed
   * Influence/Engagement always empty
 * Blogs: Community Manager cannot add entry on his own blog
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.2](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.2.2)

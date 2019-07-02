@@ -1,12 +1,9 @@
----
+﻿---
 uid: config-module-html-text
-topic: config-module-html-text
 locale: en
 title: Configure the HTML / HTML Pro (Text) Module
-dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-html-text
-related-topics: configure-module-on-page-pb-all
+related-topics: 
 ---
 
 # Configure the HTML / HTML Pro (Text) Module

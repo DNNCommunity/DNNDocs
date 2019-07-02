@@ -1,11 +1,8 @@
----
+﻿---
 uid: about-themes
-topic: about-themes
 locale: en
 title: About Themes
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: designers-overview
 links: ["[DNN Wiki: DotNetNuke Skins](https://www.dnnsoftware.com/wiki/dotnetnuke-skins)","[UX Guide](https://uxguide.dnnsoftware.com/)","[DNN Community Blog: DotNetNuke Skinning 101 (Part 1) by Joe Brinkman](https://www.dnnsoftware.com/community-blog/cid/132000/dotnetnuke-skinning-101-part-1)"]
 ---
 
@@ -62,12 +59,14 @@ When a layout template is applied to a webpage, any associated CSS is automatica
 
 ## Theme Types
 
-DNN supports two different types of themes: HTML and ASCX.
+DNN supports two different ways of creating themes using: HTML and ASCX files.
+The HTML files offer an easier way to get into DNN theming and DNN will parse the HTML file will to an ASCX file.
+DNN will use the ASCX file as the actual theme.
 
 |**HTML**|**ASCX**|
 |---|---|
 |Basic theme.|Advanced theme.|
-|Can be created using any HTML editor.|Requires [Microsoft Visual Studio](https://www.visualstudio.com/).|
+|Can be created using any HTML editor.|Easier to edit using [Visual Studio Code](https://code.visualstudio.com/) or [Microsoft Visual Studio](https://www.visualstudio.com/).|
 |Automatically converted to ASCX when installed. Only the contents inside the `<body>` tag is retained (without the tag); everything else is discarded, including the entire `<header>`.|Used as is.|
 |Easier to create.<br />Uses DNN tokens, which represent code that call DNN APIs. The tokens are replaced with code during conversion to ASCX.|More powerful.<br />Allows customization of code that call DNN APIs.|
 

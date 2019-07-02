@@ -1,11 +1,8 @@
----
+﻿---
 uid: add-role-to-existing-group
-topic: add-role-to-existing-group
 locale: en
 title: Add a Role to an Existing Group
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-roles-overview
 related-topics: add-role-to-new-group,view-roles-included-in-group,remove-role-from-group,edit-custom-role-group,delete-custom-role-group
 ---
 

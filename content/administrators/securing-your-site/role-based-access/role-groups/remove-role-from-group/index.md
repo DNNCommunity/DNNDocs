@@ -1,11 +1,8 @@
----
+﻿---
 uid: remove-role-from-group
-topic: remove-role-from-group
 locale: en
 title: Remove a Role from a Group
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-roles-overview
 related-topics: add-role-to-new-group,add-role-to-existing-group,view-roles-included-in-group,edit-custom-role-group,delete-custom-role-group
 ---
 

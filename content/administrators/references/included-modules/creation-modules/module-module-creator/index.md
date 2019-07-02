@@ -1,12 +1,9 @@
----
+﻿---
 uid: module-module-creator
-topic: module-module-creator
 locale: en
 title: "Module: Module Creator"
-dnneditions: 
 dnnversion: 09.02.00
-parent-topic: creation-modules
-related-topics: module-publisher
+related-topics: 
 ---
 
 # Module: Module Creator
@@ -25,9 +22,9 @@ You must be a host user in a local DNN installation to create modules using this
 
  
 
-|  |Package|Category|Product(s)|
-|--|--|--|--|--|
-|![icon](/images/ico-module-modulecreator.png)|Module Creator|Developer|![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)|
+|                                               | Package        | Category  |
+| --------------------------------------------- | -------------- | --------- |
+| ![icon](/images/ico-module-modulecreator.png) | Module Creator | Developer |
 
 ## Module Configuration
 

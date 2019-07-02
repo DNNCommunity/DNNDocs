@@ -1,11 +1,8 @@
----
+﻿---
 uid: get-dnn-docs-running-locally
-topic: get-dnn-docs-running-locally
 locale: en
 title: Get DNN Docs Running Locally
-dnneditions: 
 dnnversion: 09.02.00
-parent-topic: 
 ---
 
 # Get DNN Docs Running Locally
@@ -55,6 +52,9 @@ You should now be able to run the development version of the docs locally with t
 ```
 docfx --serve
 ```
+
+> [!NOTE]
+> You should run your shell in administrator mode for this to work!
 
 The first time, the compilation process could take quite a while. You may see a couple of warning messages. Eventually, you should see a message similar to:
 ```

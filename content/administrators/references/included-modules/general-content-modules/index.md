@@ -1,11 +1,8 @@
----
+﻿---
 uid: general-content-modules
-topic: general-content-modules
 locale: en
 title: General Content Modules
-dnneditions: 
 dnnversion: 09.02.00
-parent-topic: administrators-included-modules-overview
 related-topics: included-modules
 ---
 

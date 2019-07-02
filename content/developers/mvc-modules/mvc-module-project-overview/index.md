@@ -1,9 +1,7 @@
----
+﻿---
 uid: mvc-module-project-overview
-topic: mvc-module-project-overview
 locale: en
 title: MVC Module Project Overview
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 related-topics: create-module-using-templates
 ---

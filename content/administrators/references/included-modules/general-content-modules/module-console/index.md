@@ -1,12 +1,9 @@
----
+﻿---
 uid: module-console
-topic: module-console
 locale: en
 title: "Module: Console"
-dnneditions: 
 dnnversion: 09.02.00
-parent-topic: general-content-modules
-related-topics: module-content-layout,module-html-text
+related-topics: module-html-text
 ---
 
 # Module: Console
@@ -30,6 +27,6 @@ Found in the Admin Console and Host Console pages.
 
  
 
-|  |Package|Category|Product(s)|
-|--|--|--|--|--|
-|![icon](/images/ico-module-console.png)|Console|Admin|![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)|
+|                                         | Package | Category |
+| --------------------------------------- | ------- | -------- |
+| ![icon](/images/ico-module-console.png) | Console | Admin    |

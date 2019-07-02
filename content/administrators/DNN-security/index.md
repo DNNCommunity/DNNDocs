@@ -1,12 +1,9 @@
----
+﻿---
 uid: dnn-security
-topic: DNN-security
 locale: en
 title: DNN Security
-dnneditions: 
 dnnversion: 09.02.00
-parent-topic: administrator-references
-related-topics: administrators-included-modules-overview,requirements,product-versions,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,providers,dnn-license,more-resources
+related-topics: administrators-included-modules-overview,requirements,product-versions,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,providers,more-resources
 links: ["[DNN Security Center](http://www.dnnsoftware.com/community/security/security-center)","[DNN blog](http://www.dnnsoftware.com/community-blog)"]
 ---
 
@@ -43,5 +40,5 @@ Bug fixes and enhancements are applied only to the most recent major release. Pr
 
 However, DNN continues to provide maintenance releases for retired versions that are affected by a newly discovered security issue, up to one year after the version is retired. Example: 8.x versions were retired when 9.0 was released on 2016 December 9; however, if DNN becomes aware of a security issue that affects 8.x, a security maintenance release will still be published for 8.x until 2017 December 9.
 
-[View release dates for DNN versions.](xref:product-versions)
+[View release dates for DNN versions.](xref:releases)
 

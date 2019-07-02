@@ -1,12 +1,9 @@
----
+﻿---
 uid: config-module-console
-topic: config-module-console
 locale: en
 title: Configure the Console Module
-dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-console
-related-topics: configure-module-on-page-pb-all
+related-topics: 
 ---
 
 # Configure the Console Module

@@ -1,9 +1,7 @@
----
+﻿---
 uid: module-authentication
-topic: module-authentication
 locale: en
 title: "Module: Authentication"
-dnneditions: 
 dnnversion: 09.02.00
 ---
 
@@ -23,6 +21,6 @@ Includes:
 
  
 
-|  |Package|Category|Product(s)|
-|--|--|--|--|--|
-|![icon](/images/ico-module-authentication.png)|Authentication|Admin|![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)|
+|                                                | Package        | Category |
+| ---------------------------------------------- | -------------- | -------- |
+| ![icon](/images/ico-module-authentication.png) | Authentication | Admin    |

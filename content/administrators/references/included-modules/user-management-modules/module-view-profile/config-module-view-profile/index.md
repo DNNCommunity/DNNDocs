@@ -1,12 +1,9 @@
----
+﻿---
 uid: config-module-view-profile
-topic: config-module-view-profile
 locale: en
 title: Configure the View Profile Module
-dnneditions: 
 dnnversion: 09.02.00
-parent-topic: module-view-profile
-related-topics: configure-module-on-page-pb-all
+related-topics: 
 ---
 
 # Configure the View Profile Module

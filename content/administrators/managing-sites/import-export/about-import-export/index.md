@@ -1,9 +1,7 @@
----
+﻿---
 uid: about-import-export
-topic: about-import-export
 locale: en
 title: Import / Export
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
 ---
 
@@ -12,34 +10,6 @@ dnnversion: 09.02.00
 Import/Export in v9.1 is designed to synchronize two sites in different installations in different servers, such as a staging installation and a production installation.
 
 Important: Before you perform an import, back up your site and database. Imports can only be undone by restoring from a backup.
-
-In addition to exporting and importing within the same product, you can also import packages from a more basic product.
-
-You can export from
-
-and import the package to
-
-DNN Platform
-
-*   DNN Platform
-*   Evoq Basic
-*   Evoq Content
-*   Evoq Engage
-
-Evoq Basic
-
-*   Evoq Basic
-*   Evoq Content
-*   Evoq Engage
-
-Evoq Content
-
-*   Evoq Content
-*   Evoq Engage
-
-Evoq Engage
-
-*   Evoq Engage
 
 ## Differential Export
 

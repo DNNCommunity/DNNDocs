@@ -1,11 +1,8 @@
----
+﻿---
 uid: set-up-iis
-topic: set-up-iis
 locale: en
 title: Enable and Set Up IIS
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-setup-overview
 previous-topic: set-up-dnn-folder
 next-topic: set-up-sql
 links: ["[DNN Wiki: Setting up Your Module Development Environment](https://www.dnnsoftware.com/wiki/setting-up-your-module-development-environment)","[Setting up your DotNetNuke Module Development Environment by Chris Hammond](https://www.christoc.com/Tutorials/All-Tutorials/aid/1)","[DNN Community Blog: Installing DNN by Clinton Patterson](https://www.dnnsoftware.com/community-blog/cid/155070/installing-dnn)"]

@@ -1,12 +1,9 @@
----
+﻿---
 uid: module-html-text
-topic: module-html-text
 locale: en
 title: "Module: HTML (Text)"
-dnneditions: 
 dnnversion: 09.02.00
-parent-topic: general-content-modules
-related-topics: module-console,module-content-layout
+related-topics: module-console
 ---
 
 # Module: HTML (Text)
@@ -36,6 +33,6 @@ Authorized users can edit the content either inline or in a separate administrat
 
  
 
-|  |Package|Category|Product(s)|
-|--|--|--|--|--|
-|![icon](/images/ico-module-html.png)|HTML|Common|![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)|
+|                                      | Package | Category |
+| ------------------------------------ | ------- | -------- |
+| ![icon](/images/ico-module-html.png) | HTML    | Common   |

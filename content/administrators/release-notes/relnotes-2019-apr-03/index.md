@@ -1,9 +1,7 @@
----
+﻿---
 uid: relnotes-2019-apr-03
-topic: relnotes-2019-apr-03
 locale: en
 title: DNN Release Notes — 2019 Apr 03
-dnneditions: 
 dnnversion: 09.03.01
 ---
 
@@ -11,8 +9,6 @@ dnnversion: 09.03.01
 # DNN Release Notes — v9.3.1 
 
 Released 2019 Apr 03
-
-[Download this Release at GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.1)
 
 We'd like to first thank everyone from the community and ESW who has submitted pull requests or reported issues. A grand total of 302 pull requests by 26 contributors were processed for this release. Out of that 105 were in the [Platform](https://github.com/dnnsoftware/Dnn.Platform/milestone/22?closed=1) repository, plus 157 additional pull requests were processed in the [Admin Experience](https://github.com/dnnsoftware/Dnn.AdminExperience/milestone/2?closed=1) repository. Below you can find a short list of the noteworthy changes in this release. For a full list, please check the GitHub milestone pages on each of the repositories.
 
@@ -76,3 +72,6 @@ Fixed version issue with AdminExperience, CKEditor, FolderProviders, and JWT. Th
 ## Additional Resources
 
 * [Upgrading Persona Bar Components Guide](https://www.dnnsoftware.com/community-blog/cid/156674/upgrading-persona-bar-components-for-dnn-93) - Matt Rutledge wrote an excellent guide to help you with that process.
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.1)

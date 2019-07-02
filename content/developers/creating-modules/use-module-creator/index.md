@@ -1,11 +1,8 @@
----
+﻿---
 uid: use-module-creator
-topic: use-module-creator
 locale: en
 title: Use the Module Creator
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: developers-creating-modules-overview
 next-topic: create-module-using-templates
 related-topics: module-module-creator,web-forms-module-development,spa-module-development,mvc-module-development
 ---
@@ -25,9 +22,9 @@ The DNN Module Creator is generally recommended only for simple modules. For mor
 ## Steps
 
 1.  Create, copy, or edit a page.
-    *   [Create a page.](xref:create-single-page-standard)
-    *   [Copy a page.](xref:copy-page-pb-all)
-    *   [Edit a page.](xref:edit-page-pb-all)
+    *   [Create a page.](xref:obsolete)
+    *   [Copy a page.](xref:obsolete)
+    *   [Edit a page.](xref:obsolete)
 2.  Within a pane, click/tap on the module icon.
     
       

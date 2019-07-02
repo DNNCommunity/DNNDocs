@@ -1,11 +1,8 @@
----
+﻿---
 uid: contribute-to-docs
-topic: contribute-to-docs
 locale: en
 title: Contribute to DNN Docs
-dnneditions: 
 dnnversion: 09.02.00
-parent-topic: 
 ---
 
 # Contribute to DNN Docs

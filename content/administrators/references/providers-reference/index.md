@@ -1,12 +1,9 @@
----
+﻿---
 uid: providers
-topic: providers
 locale: en
 title: Providers Reference
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrator-references
-related-topics: administrators-included-modules-overview,requirements,product-versions,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,dnn-license,DNN-security,more-resources
+related-topics: administrators-included-modules-overview,requirements,product-versions,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,more-resources
 links: ["[DNN Wiki: Providers (and child links)](https://www.dnnsoftware.com/wiki/providers)"]
 ---
 

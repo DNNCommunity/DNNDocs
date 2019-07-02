@@ -1,12 +1,9 @@
----
+﻿---
 uid: creation-modules
-topic: creation-modules
 locale: en
 title: Creation Modules
-dnneditions: 
 dnnversion: 09.02.00
-parent-topic: administrators-included-modules-overview
-related-topics: included-modules,building-your-site
+related-topics: included-modules
 ---
 
 # Creation Modules

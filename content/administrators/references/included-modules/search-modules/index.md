@@ -1,11 +1,8 @@
----
+﻿---
 uid: search-modules
-topic: search-modules
 locale: en
 title: Search Modules
-dnneditions: 
 dnnversion: 09.02.00
-parent-topic: administrators-included-modules-overview
 related-topics: included-modules
 ---
 

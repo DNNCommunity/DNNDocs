@@ -1,11 +1,8 @@
----
+﻿---
 uid: ts-error-argumentnullexception-after-move-upgrade
-topic: ts-error-argumentnullexception-after-move-upgrade
 locale: en
 title: "Error: ArgumentNullException After a Move or an Upgrade"
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-troubleshooting-overview
 related-topics: ts-how-to-increase-max-upload-file-size,ts-error-login-ip-filtering-is-currently-disabled,ts-error-another-user-has-taken-action-on-the-page,ts-error-unknown-server-tag-DNNComboBox,ts-error-could-not-load-awssdk,ts-error-sql-timeout,ts-install-missing-resources,ts-mixed-content-ssl,ts-broken-profile-image,ts-page-remains-in-draft,ts-unable-to-remove-page-redirect-urls,ts-site-theme-not-loading,ts-incomplete-content-localization,ts-missing-persona-bar
 ---
 

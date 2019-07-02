@@ -1,11 +1,8 @@
----
+﻿---
 uid: compress-indexes
-topic: compress-indexes
 locale: en
 title: Compress the Indexes
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-search-overview
 related-topics: reindex-content
 ---
 

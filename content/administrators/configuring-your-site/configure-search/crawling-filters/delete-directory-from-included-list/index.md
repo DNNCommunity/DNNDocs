@@ -1,11 +1,8 @@
----
+﻿---
 uid: delete-directory-from-included-list
-topic: delete-directory-from-included-list
 locale: en
 title: Delete a Directory from Included List for Crawling
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-search-overview
 related-topics: add-starting-url-to-crawl-list,edit-starting-url-in-crawl-list,delete-starting-url-from-crawl-list,add-directory-to-included-list,add-directory-to-excluded-list,delete-directory-from-excluded-list,add-file-extension-to-included-or-excluded-list,delete-file-extension-from-included-or-excluded-list
 ---
 

@@ -1,17 +1,13 @@
----
+﻿---
 uid: relnotes-2013-dec-04
-topic: relnotes-2013-dec-04
 locale: en
 title: DNN Release Notes — 2013 Dec 04
-dnneditions:
 dnnversion: 09.02.00
 ---
 
 # DNN Release Notes — 2013 Dec 04
 
 ## DNN PLATFORM 7.2.0
-
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/115680)
 
 Application features
 
@@ -44,3 +40,6 @@ EVOQ CONTENT
 *   Fixed issue where the File Crawler would stop indexing when an error occurs in the Amazon S3 Provider.
 *   Fixed issue where the Digital Assets Manager's Workflow functionality was not available on upgraded sites.
 *   Fixed issue where a 301 error is thrown when the homepage of a site is access with querystring parameters.
+
+## Downloads
+*  [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.02.00](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.02.00)

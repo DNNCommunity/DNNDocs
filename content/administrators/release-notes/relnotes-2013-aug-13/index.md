@@ -1,17 +1,13 @@
----
+﻿---
 uid: relnotes-2013-aug-13
-topic: relnotes-2013-aug-13
 locale: en
 title: DNN Release Notes — 2013 Aug 13
-dnneditions:
 dnnversion: 09.02.00
 ---
 
 # DNN Release Notes — 2013 Aug 13
 
 ## DNN PLATFORM 7.1.1
-
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/110757)
 
 *   Fixed issue where vanity URL was not working correctly in FireFox.
 *   Fixed issue where default Friendly URL setting was missing for the doNotRewriteRegex.
@@ -58,3 +54,7 @@ EVOQ CONTENT
 *   Fixed issue in the Client Dependency Framework where an exception was thrown when using GethostByAddress.
 *   Enhanced security in the Journal module so that unverified users cannot access the information.
 *   Fixed issue in the Digital Assets Manager module where users with full control privileges were not able to upload documents.
+
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.01.01](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.01.01)

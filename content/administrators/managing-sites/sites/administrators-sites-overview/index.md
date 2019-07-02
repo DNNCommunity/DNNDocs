@@ -1,12 +1,9 @@
----
+﻿---
 
 uid: administrators-sites-overview
-topic: administrators-sites-overview
 locale: en
 title: About Sites and Site Groups
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-overview
 ---
 
 # About Sites and Site Groups

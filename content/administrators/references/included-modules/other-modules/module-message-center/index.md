@@ -1,12 +1,9 @@
----
+﻿---
 uid: module-message-center
-topic: module-message-center
 locale: en
 title: "Module: Message Center"
-dnneditions: 
 dnnversion: 09.02.00
-parent-topic: social-modules
-related-topics: module-activities,module-activity-stream,module-answers,module-blogs,module-challenges,module-discussions,module-group-directory,module-group-spaces,module-ideas,module-journal,module-latest-challenges,module-leaderboard,module-member-directory,module-my-status,module-profile-dashboard,module-social-groups,module-related-content,module-social-events,module-social-sharing,module-user-badges,module-wiki
+related-topics: module-journal,module-member-directory,module-social-groups
 ---
 
 # Module: Message Center
@@ -23,9 +20,9 @@ By default, the Message Center module can be accessed by clicking on the current
 
  
 
-|  |Package|Category|Product(s)|
-|--|--|--|--|--|
-|![icon](/images/ico-module-messagecenter.png)|Message Center|Admin|![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)|
+|                                               | Package        | Category |
+| --------------------------------------------- | -------------- | -------- |
+| ![icon](/images/ico-module-messagecenter.png) | Message Center | Admin    |
 
 ## Module Configuration
 

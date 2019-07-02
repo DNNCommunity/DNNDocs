@@ -1,11 +1,8 @@
----
+﻿---
 uid: delete-custom-role-group
-topic: delete-custom-role-group
 locale: en
 title: Delete a Custom Role Group
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-roles-overview
 related-topics: add-role-to-new-group,add-role-to-existing-group,view-roles-included-in-group,remove-role-from-group,edit-custom-role-group
 ---
 

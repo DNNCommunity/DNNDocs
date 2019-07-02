@@ -1,17 +1,13 @@
----
+﻿---
 uid: relnotes-2013-sep-24
-topic: relnotes-2013-sep-24
 locale: en
 title: DNN Release Notes — 2013 Sep 24
-dnneditions:
 dnnversion: 09.02.00
 ---
 
 # DNN Release Notes — 2013 Sep 24
 
 ## DNN PLATFORM 7.1.2
-
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/112531)
 
 *   Added the ability to manage the Vanity URL prefix.
 *   Added the ability to filter members in the member directory by role.
@@ -48,3 +44,6 @@ EVOQ CONTENT
 *   Fixed issue where user gets an access denied error after password reset.
 *   Fixed issue where client resource manager failed to minify files.
 *   Fixed issue where search didn't work after adding search results to alternate page.
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.01.02](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.01.02)

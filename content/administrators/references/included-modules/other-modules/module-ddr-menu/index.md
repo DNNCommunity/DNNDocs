@@ -1,9 +1,7 @@
----
+﻿---
 uid: module-ddr-menu
-topic: module-ddr-menu
 locale: en
 title: "Module: DDR Menu"
-dnneditions: 
 dnnversion: 09.02.00
 ---
 
@@ -21,6 +19,6 @@ Note: This module is visible to administrators only.
 
  
 
-|  |Package|Category|Product(s)|
-|--|--|--|--|--|
-|![icon](/images/ico-module-ddrmenu.png)|DDR Menu|Admin|![Platform](/images/ico-dnn-platform.png) ![Evoq Content](/images/ico-evoq-content.png) ![Evoq Engage](/images/ico-evoq-engage.png)|
+|                                         | Package  | Category |
+| --------------------------------------- | -------- | -------- |
+| ![icon](/images/ico-module-ddrmenu.png) | DDR Menu | Admin    |

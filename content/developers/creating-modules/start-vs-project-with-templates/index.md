@@ -1,11 +1,8 @@
----
+﻿---
 uid: start-vs-project-with-templates
-topic: start-vs-project-with-templates
 locale: en
 title: Start a Visual Studio Project with Templates
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: developers-creating-modules-overview
 previous-topic: create-module-using-templates
 next-topic: test-module
 links: ["[DNN Community Blog: Module Development for Non-Developers, Skinners, & DNN Beginners — Blog Series by Clinton Patterson](https://www.dnnsoftware.com/community-blog/cid/155064/module-development-for-non-developers-skinners-dnn-beginners--blog-series-intro)","[Using the new Module Development Templates for DotNetNuke 7 by Chris Hammond](https://www.chrishammond.com/blog/itemid/2616/using-the-new-module-development-templates-for-dot)"]

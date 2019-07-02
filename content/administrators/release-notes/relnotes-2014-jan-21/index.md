@@ -1,17 +1,13 @@
----
+﻿---
 uid: relnotes-2014-jan-21
-topic: relnotes-2014-jan-21
 locale: en
 title: DNN Release Notes — 2014 Jan 21
-dnneditions:
 dnnversion: 09.02.00
 ---
 
 # DNN Release Notes — 2014 Jan 21
 
 ## DNN PLATFORM 7.2.1
-
-[CodePlex](https://dotnetnuke.codeplex.com/releases/view/117545)
 
 *   Fixed issue where .dnn7 manifest was not being utilized in module installation process.
 *   Fixed issue where restored user could not change his profile avatar.
@@ -114,3 +110,7 @@ EVOQ ENGAGE (EVOQ SOCIAL 1.1.0)
     *   Users HTML and not Wiki markup or markdown (except for page links).
     *   Table of contents automatically build (in comanion module) based on h tags.
 *   Implements new content revisions API for change management.
+
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.02.01](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.02.01)

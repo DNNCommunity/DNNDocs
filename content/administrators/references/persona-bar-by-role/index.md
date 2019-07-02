@@ -1,12 +1,9 @@
----
+﻿---
 uid: persona-bar-by-role
-topic: persona-bar-by-role
 locale: en
 title: Persona Bar by Role
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrator-references
-related-topics: administrators-included-modules-overview,requirements,product-versions,dnn-overview,control-bar-to-persona-bar,providers,dnn-license,DNN-security,more-resources
+related-topics: administrators-included-modules-overview,requirements,product-versions,dnn-overview,control-bar-to-persona-bar,providers,more-resources
 ---
 
 # Persona Bar by Role

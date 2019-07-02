@@ -1,11 +1,8 @@
----
+﻿---
 uid: markdown-guide-to-docfx
-topic: markdown-guide-to-docfx
 locale: en
 title: Markdown Guide to DocFx
-dnneditions: 
 dnnversion: 09.02.00
-parent-topic: 
 related-topics: 
 ---
 

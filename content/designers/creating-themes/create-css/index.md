@@ -1,11 +1,8 @@
----
+﻿---
 uid: create-css
-topic: create-css
 locale: en
 title: Create a CSS File
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: designers-creating-themes-overview
 previous-topic: create-container
 next-topic: create-doctype-xml
 related-topics: about-themes

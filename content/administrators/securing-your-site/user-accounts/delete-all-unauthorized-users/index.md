@@ -1,12 +1,9 @@
----
+﻿---
 uid: delete-all-unauthorized-users
-topic: delete-all-unauthorized-users
 locale: en
 title: Delete All Unauthorized Users
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-user-accounts-overview
-related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles,remove-user-from-multiple-roles,edit-user,manage-user-password,delete-user,restore-deleted-user-account,purge-user-account,restore-multiple-deleted-users,purge-multiple-deleted-users,create-host-account,authorize-host,promote-user-to-host,demote-from-host,manage-host-password,delete-host,delete-all-unauthorized-hosts,restore-deleted-host-account,purge-host-account
+related-topics: create-user-account,authorize-user,assign-user-to-multiple-roles,remove-user-from-multiple-roles,edit-user,manage-user-password,delete-user,restore-deleted-user-account,purge-user-account,create-host-account,authorize-host,promote-user-to-host,demote-from-host,manage-host-password,delete-host,delete-all-unauthorized-hosts,restore-deleted-host-account,purge-host-account
 ---
 
 # Delete All Unauthorized Users

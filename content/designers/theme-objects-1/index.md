@@ -1,12 +1,9 @@
----
+﻿---
 uid: theme-objects-1
-topic: theme-objects-1
 locale: en
 title: Theme Objects
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: designer-references
-related-topics: persona-bar-style-guide,dnn-manifest-schema,designers-included-modules-overview,requirements,product-versions,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,dnn-license,DNN-security,more-resources
+related-topics: persona-bar-style-guide,dnn-manifest-schema,requirements,product-versions,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,more-resources
 links: ["[DNN UX Guide](https://uxguide.dnnsoftware.com/)","[DotNetNuke Skinning Guide (Appendix B: Skin Objects) by Timo Breumelhof](https://www.timo-design.nl)","[Skinning Tool / Online Reference for DNN Skins & Container Objects by 10 Pound Gorilla](https://www.10poundgorilla.com)"]
 ---
 

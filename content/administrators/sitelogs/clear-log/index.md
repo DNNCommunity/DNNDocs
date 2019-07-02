@@ -1,11 +1,8 @@
----
+﻿---
 uid: clear-log
-topic: clear-log
 locale: en
 title: Clear Log
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-sitelogs-overview
 related-topics: view-site-logs,view-entry-details,delete-entries,share-entries,add-event-type,edit-logged-event-type,delete-logged-event-type,toggle-logging-for-event-type,configure-notices
 ---
 

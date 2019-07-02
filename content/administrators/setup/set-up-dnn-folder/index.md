@@ -1,11 +1,8 @@
----
+﻿---
 uid: set-up-dnn-folder
-topic: set-up-dnn-folder
 locale: en
 title: Set Up the DNN Folder and the User Account
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-setup-overview
 next-topic: set-up-iis
 links: ["[DNN Wiki: Setting up Your Module Development Environment](https://www.dnnsoftware.com/wiki/setting-up-your-module-development-environment)","[Setting up your DotNetNuke Module Development Environment by Chris Hammond](https://www.christoc.com/Tutorials/All-Tutorials/aid/1)","[DNN Community Blog: Installing DNN by Clinton Patterson](https://www.dnnsoftware.com/community-blog/cid/155070/installing-dnn)","[Microsoft blog: How to: Unblock a downloaded file to avoid security warnings](https://blogs.msdn.microsoft.com/delay/p/unblockingdownloadedfile/)"]
 ---

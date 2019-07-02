@@ -1,11 +1,8 @@
----
+﻿---
 uid: designers-creating-themes-overview
-topic: designers-creating-themes-overview
 locale: en
 title: Creating Themes
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: designers-overview
 ---
 
 # Creating Themes

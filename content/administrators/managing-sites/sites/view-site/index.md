@@ -1,11 +1,8 @@
----
+﻿---
 uid: view-site
-topic: view-site
 locale: en
 title: View a Site
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-sites-overview
 related-topics: create-site,edit-site-properties,delete-site,move-site-to-another-server
 ---
 

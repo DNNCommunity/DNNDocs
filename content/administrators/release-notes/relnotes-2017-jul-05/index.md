@@ -1,9 +1,7 @@
----
+﻿---
 uid: relnotes-2017-jul-05
-topic: relnotes-2017-jul-05
 locale: en
 title: DNN Release Notes — 2017 Jul 5
-dnneditions: 
 dnnversion: 09.02.00
 ---
 
@@ -12,8 +10,6 @@ dnnversion: 09.02.00
 Released 2017 Jul 5.
 
 ## DNN PLATFORM 9.1.1
-
-[GitHub](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1)
 
 FIPS Compliance
 
@@ -85,3 +81,6 @@ All updates included with Evoq Content 9.1.1.
 Minor updates
 
 Several minor customer enhancements were added and bugs fixed.
+
+## Downloads
+* [https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1)

@@ -1,11 +1,8 @@
----
+﻿---
 uid: reindex-content
-topic: reindex-content
 locale: en
 title: Reindex the Content
-dnneditions: DNN Platform,Evoq Content,Evoq Engage
 dnnversion: 09.02.00
-parent-topic: administrators-search-overview
 related-topics: compress-indexes
 ---
 
