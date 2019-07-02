@@ -7,11 +7,110 @@ related-topics: create-layout-template,create-container,create-theme
 links: ["[DotNetNuke Skinning Guide (Appendix B: Skin Objects) by Timo Breumelhof](https://www.timo-design.nl)","[Skinning Tool / Online Reference for DNN Skins & Container Objects by 10 Pound Gorilla](https://www.10poundgorilla.com)"]
 ---
 
-# Theme Objects
+# Theme (previously) Skin  Objects
+A Theme object is an element (user control in webforms) that is used to add specific functionality to your Theme.
 
-## Overview
+The difference with the use of a Module in DNN is that a Theme Object is (mostly) not configurable or movable by a site admin.
+You can control the behaviour of a Theme object by settings its attributes in your Theme and these settings are then "fixed" for that theme.
 
-Theme objects (skin objects) are a type of DNN extension used in themes to provide additional functionality for common UI elements on a webpage.
+## How to use a Theme object.
+
+### Theme Object Function.
+Every Theme object has a specific function. There are Theme objects for the site logo, a login link, menu etc.
+
+### Theme Object Attributes.
+Most Theme objects also allow you to set some attributes, to influence how the Theme object behaves.
+Most of these attributes have a default value.
+
+There are two things you have to do to add a Theme object to your Theme.
+1. Add the Theme object to the Theme
+2. Set its attributes
+
+### Add a Theme Object.
+You need to edit the ASCX file of you individual Theme's layout
+Here there are 3 things you have to add.
+
+#### Register the Theme Object.
+This should be on top of the ASCX and it tells DNN where it can find the Theme Object on the server.
+This register tag looks like this:
+
+~~~
+<%@ Register TagPrefix="dnn" TagName="ThemeObjectName" Src="ThemeObjectPath" %>
+~~~
+
+`ThemeObjectName` = The name of the Theme object
+`ThemeObjectPath` = Location of the Theme Object on the server (~/Admin/Themes/BreadCrumb.ascx)
+
+Even if you add the Theme object multiple times to your Theme you would only have to add this registration once for each Theme object type.
+
+#### Add the Theme Object itself.
+To add the actual Theme object you use a tag like this:
+~~~
+<TagPrefix:TagName  runat="server" id="UniqueId" />
+~~~
+
+`TagPrefix` = the value for the TagPrefix attribute in the register tag.
+`TagName` = the value for the TagName attribute in the register tag.
+`Runat="server"` is required to tell the Framework this is not static HTML but needs to be processed
+`UniqueId` = an Id that should be unique to this Theme. 
+If you use the Id multiple times you will get an error and the Theme will not work correctly.
+This Id should be a valid Id (in HTML terms; start with a letter, no spaces etc.).
+
+If you use a Theme object multiple times in one Theme, the only difference would be this Id (apart from attributes that might differ).
+
+
+#### Add attributes.
+Adding an attribute
+~~~
+<TagPrefix:TagName  runat="server" id="UniqueId" Attribute="Value" />
+~~~
+
+
+## BreadCrumb Theme Object Example.
+Let's take the BreadCrumb Theme Object as an example.
+It displays the path to the currently selected page in the menu structure like this:
+
+RootPage > SubPage > SubSubPage
+
+There are three attributes you can set:
+
+### 1. Separator.
+The separator between breadcrumb links. 
+This can include custom Theme images, text, and HTML.
+Default Value: /images/breadcrumb.gif
+
+### 2. CssClass.
+The CSS style name of the breadcrumb links.
+Default Value: ThemeObject
+
+### 3. RootLevel 1.
+The root level of the breadcrumb links.  
+Valid values include:
+`-1`  	show word “Root” and then all breadcrumb tabs
+`0`  	show all breadcrumb tabs
+`N` 	skip N breadcrumb pages (levels) before displaying 
+(where N is an integer greater than 0)
+Default Value: 1
+
+Let's say we want to add the BreadCrumb SKO to our Theme.
+And we want to set the Separator attribute to "++" to get this result:
+
+RootPage ++ SubPage ++ SubSubPage
+
+This is what we would have to add to our Theme:
+
+ASCX Theme
+~~~
+<%@ Register TagPrefix="dnn" TagName="BREADCRUMB" Src="~/Admin/Themes/BreadCrumb.ascx" %>
+
+<dnn:BREADCRUMB runat="server" id="dnnBREADCRUMB"  Separator="&nbsp;++&nbsp;" />
+~~~
+
+Where the "Register" block should be on top of the ASCX file.
+The <dnn:BREADCRUMB...> block should be placed in the Theme on the spot you want it to appear.
+
+
+#### The following list is far from complete (some work to be done) and some of the Theme Objects in the list are legacy
 
 |**Theme Object**|**Description**|
 |---|---|
@@ -20,7 +119,7 @@ Theme objects (skin objects) are a type of DNN extension used in themes to provi
 |CONTROLPANEL|Displays the DNN control panel. If the **CONTROLPANEL** theme object is not used in the theme, then DNN inserts a control panel control at the top of the page.|
 |COPYRIGHT|Displays the copyright notice for the website.|
 |CURRENTDATE|Displays the current date on the server.|
-|DDRMENU|Displays a menu using the **DDRMenu** control.|
+|[DDRMENU](xref:ddrmenu-overview)|Displays a menu using the **DDRMenu** control.|
 |DNNCSSEXCLUDE|Prevents a stylesheet reference from being included in the page.|
 |DNNCSSINCLUDE|Adds a stylesheet reference to the page.|
 |DNNJSEXCLUDE|Prevents a JavaScript file reference from being included in the page.|
