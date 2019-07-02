@@ -109,8 +109,8 @@ ASCX Theme
 Where the "Register" block should be on top of the ASCX file.
 The <dnn:BREADCRUMB...> block should be placed in the Theme on the spot you want it to appear.
 
-
-#### The following list is far from complete (some work to be done) and some of the Theme Objects in the list are legacy
+> [!NOTE]
+> The following list is far from complete (some work to be done) and some of the Theme Objects in the list are legacy
 
 |**Theme Object**|**Description**|
 |---|---|
