@@ -163,6 +163,8 @@
 ###[JWT Access Token](xref:administrators-jwt-access-token)
 ###[JWT Page Request](xref:administrators-jwt-page-request)
 ###[JWT Auth Handler](xref:administrators-jwt-auth-handler)
+##[Security Headers](xref:security-headers)
+###[Content Security Policy (CSP)](xref:content-security-policy)
 
 <!-- START OF "BUILDING YOUR SITE" NAV ITEM -->
 # [Building Your Site](xref:administrators-building-your-site-overview)
