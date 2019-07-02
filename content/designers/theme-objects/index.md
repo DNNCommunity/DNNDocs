@@ -11,16 +11,16 @@ links: ["[DotNetNuke Skinning Guide (Appendix B: Skin Objects) by Timo Breumelho
 A Theme object is an element (user control in webforms) that is used to add specific functionality to your Theme.
 
 The difference with the use of a Module in DNN is that a Theme Object is (mostly) not configurable or movable by a site admin.
-You can control the behaviour of a Theme object by settings it's attributes in your Theme and these settings are then "fixed" for that theme.
+You can control the behaviour of a Theme object by settings its attributes in your Theme and these settings are then "fixed" for that theme.
 
-## How to you use a Theme object.
+## How to use a Theme object.
 
 ### Theme Object Function.
 Every Theme object has a specific function. There are Theme objects for the site logo, a login link, menu etc.
 
 ### Theme Object Attributes.
 Most Theme objects also allow you to set some attributes, to influence how the Theme object behaves.
-Most Attributes have a default value.
+Most of these attributes have a default value.
 
 There are two things you have to do to add a Theme object to your Theme.
 1. Add the Theme object to the Theme
@@ -38,10 +38,10 @@ This register tag looks like this:
 <%@ Register TagPrefix="dnn" TagName="ThemeObjectName" Src="ThemeObjectPath" %>
 ~~~
 
-ThemeObjectName = The name of the Theme object
-ThemeObjectPath = Location of the Theme Object on the server (~/Admin/Themes/BreadCrumb.ascx)
+`ThemeObjectName` = The name of the Theme object
+`ThemeObjectPath` = Location of the Theme Object on the server (~/Admin/Themes/BreadCrumb.ascx)
 
-Even if you would add the Theme object multiple times to your Theme you would only have to add this registration once for each Theme object type.
+Even if you add the Theme object multiple times to your Theme you would only have to add this registration once for each Theme object type.
 
 #### Add the Theme Object itself.
 To add the actual Theme object you use a tag like this:
@@ -49,24 +49,24 @@ To add the actual Theme object you use a tag like this:
 <TagPrefix:TagName  runat="server" id="UniqueId" />
 ~~~
 
-TagPrefix = the value for the TagPrefix attribute in the register tag.
-TagName = the value for the TagName attribute in the register tag.
-Runat="server" is required to tell the Framework this is not static HTML but needs to be processed
-UniqueId = an Id that should be unique to this Theme. 
-If you would use the Id multiple times you will get an error and the Theme will not work correctly.
+`TagPrefix` = the value for the TagPrefix attribute in the register tag.
+`TagName` = the value for the TagName attribute in the register tag.
+`Runat="server"` is required to tell the Framework this is not static HTML but needs to be processed
+`UniqueId` = an Id that should be unique to this Theme. 
+If you use the Id multiple times you will get an error and the Theme will not work correctly.
 This Id should be a valid Id (in HTML terms; start with a letter, no spaces etc.).
 
-If you use a Theme object multiple times in one Theme, their only difference would be this Id (apart from attributes that might differ).
+If you use a Theme object multiple times in one Theme, the only difference would be this Id (apart from attributes that might differ).
 
 
 #### Add attributes.
-Adding attribut
+Adding an attribute
 ~~~
 <TagPrefix:TagName  runat="server" id="UniqueId" Attribute="Value" />
 ~~~
 
 
-## BreadCrumb Theme Object example.
+## BreadCrumb Theme Object Example.
 Let's take the BreadCrumb Theme Object as an example.
 It displays the path to the currently selected page in the menu structure like this:
 
@@ -86,10 +86,10 @@ Default Value: ThemeObject
 ### 3. RootLevel 1.
 The root level of the breadcrumb links.  
 Valid values include:
--1  	show word “Root” and then all breadcrumb tabs
-0  	show all breadcrumb tabs
-N 	skip N breadcrumb pages (levels) before displaying 
-(where n is an integer greater than 0)
+`-1`  	show word “Root” and then all breadcrumb tabs
+`0`  	show all breadcrumb tabs
+`N` 	skip N breadcrumb pages (levels) before displaying 
+(where N is an integer greater than 0)
 Default Value: 1
 
 Let's say we want to add the BreadCrumb SKO to our Theme.
