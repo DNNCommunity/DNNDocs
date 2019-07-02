@@ -8,5 +8,6 @@
 ## [Pack Your Theme](xref:designers-pack-extension)
 ## [Install Your Theme](xref:install-extension)
 # [Theme Objects](xref:theme-objects)
+## [DDRMenu](xref:ddrmenu-overview)
 <!-- # [References](content-manager-references/index.md) -->
 # [Glossary](xref:glossary)
