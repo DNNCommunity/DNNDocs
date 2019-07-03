@@ -1,11 +1,11 @@
 ﻿---
-uid: designers-pack-extension
+uid: pack-extension
 locale: en
 title: Pack Your Extension
 dnnversion: 09.02.00
-previous-topic: create-doctype-xml
+previous-topic: test-module,create-doctype-xml
 next-topic: install-extension
-related-topics: dnn-manifest-schema
+related-topics: dnn-manifest-schema,module-development,web-forms-module-development,spa-module-development,create-module,mvc-module-development,providers,dnn-manifest-schema
 links: ["[DNN Professional Training video: Skinning 5: Packaging](https://www.dnnsoftware.com/services/professional-training/training-videos-subscription/skinning-5-packaging)"]
 ---
 

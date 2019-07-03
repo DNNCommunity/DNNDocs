@@ -1,5 +1,5 @@
 ﻿---
-uid: developers-glossary
+uid: tutorials-glossary
 locale: en
 title: Glossary
 dnnversion: 09.02.00
