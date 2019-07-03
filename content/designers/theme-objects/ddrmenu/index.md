@@ -12,7 +12,7 @@ links: ["[DNN Wiki: DotNetNuke Skins](https://www.dnnsoftware.com/wiki/dotnetnuk
 # DDRMenu Overview  
 
 Originally built and maintained by [Mark Allan @MarkXA](https://twitter.com/markxa), the DDRMenu is a robust menu system that is installed and used by default in DNN since version 6.0.
-With the right Template and Styling any menu style can be created, with DDR menu you can use [TOKEN], XSLT or Razor templates.
+With the right Template and Styling any menu style can be created. With DDR menu you can use [TOKEN], XSLT or Razor templates.
 
 ## Installation
 
@@ -130,4 +130,4 @@ Module options are set through the standard module settings.  Template arguments
 *   [DDRMenu Razor Templates in DotNetNuke 7.x](http://www.dnnsoftware.com/Resources/Blogs/EntryId/3619/ContentItemId/150607/DDRMenu-Razor-Templates-in-DotNetNuke-7-x.aspx)  
 *   [Advanced Menu Design with DDRMenu](http://www.dnnsoftware.com/Resources/Blogs/EntryId/3446/Advanced-Menu-Design-with-DDRMenu.aspx)  
 *   [A Razor Templated DDRMenu for DotNetNuke 6](http://www.aubrett.com/InformationTechnology/WebDevelopment/CMSPlatforms/DotNetNuke/RazorTemplatedDDRMenu.aspx)  
-*   [DDR Menu Demo skins](https://demo.40fingers.net.local/dnn-ddr-demo-skin)
+*   [DDR Menu Demo skins](https://demo.40fingers.net/dnn-ddr-demo-skin)
