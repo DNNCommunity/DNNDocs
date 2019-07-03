@@ -11,7 +11,8 @@ links: ["[DNN Wiki: DotNetNuke Skins](https://www.dnnsoftware.com/wiki/dotnetnuk
 
 # DDRMenu Overview  
 
-Originally built and maintained by [Mark Allan @MarkXA](https://twitter.com/markxa), the DDRMenu is a robut menu system that is installed and used by default in DNN since version 6.0.  
+Originally built and maintained by [Mark Allan @MarkXA](https://twitter.com/markxa), the DDRMenu is a robust menu system that is installed and used by default in DNN since version 6.0.
+With the right Template and Styling any menu style can be created, with DDR menu you can use [TOKEN], XSLT or Razor templates.
 
 ## Installation
 
@@ -91,7 +92,7 @@ In general, you don't need to do anything to have localized menus.  If you're us
 
 The best way to build a custom menu is to take [an existing template as a starting point](https://github.com/MarkXA/ddrmenutemplates) and work from there. You can use the built-in DumpXML template at any time to view the actual live data structure that your template is using (just switch to `MenuStyle="DumpXML"`).  See the pages on Token, XSLT and Razor templates for more information, and if you are building a menu that may need to work with several skins then also see the reference guide for details on how to include JavaScript and CSS files with the menu.  
 
-## Setting Options in the `<dnn:NAV>` Skin Object  
+## Setting Options in the `<dnn:NAV>` Theme Object  
 
 Use the following format:  
 
@@ -129,3 +130,4 @@ Module options are set through the standard module settings.  Template arguments
 *   [DDRMenu Razor Templates in DotNetNuke 7.x](http://www.dnnsoftware.com/Resources/Blogs/EntryId/3619/ContentItemId/150607/DDRMenu-Razor-Templates-in-DotNetNuke-7-x.aspx)  
 *   [Advanced Menu Design with DDRMenu](http://www.dnnsoftware.com/Resources/Blogs/EntryId/3446/Advanced-Menu-Design-with-DDRMenu.aspx)  
 *   [A Razor Templated DDRMenu for DotNetNuke 6](http://www.aubrett.com/InformationTechnology/WebDevelopment/CMSPlatforms/DotNetNuke/RazorTemplatedDDRMenu.aspx)  
+*   [DDR Menu Demo skins](https://demo.40fingers.net.local/dnn-ddr-demo-skin)
