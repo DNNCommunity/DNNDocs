@@ -3,13 +3,13 @@ uid: dnn-manifest-schema
 locale: en
 title: The DNN Manifest Schema
 dnnversion: 09.02.00
-related-topics: module-features,module-architecture,developers-creating-modules-overview,about-evs
-links: ["[DNN Module APIs](https://www.dnnsoftware.com/dnn-api/)","[Top 5 DotNetNuke Manifest file Module Packaging Tips by Bruce Chapman](https://web.archive.org/web/20160610221847/http://www.ifinity.com.au/Blog/EntryId/89/Top-5-DotNetNuke-Manifest-file-Module-Packaging-Tips)","[DNN Community blog: DAL 2 — A New DotNetNuke Data Layer for a New Decade by Charles Nurse](https://www.dnnsoftware.com/community-blog/cid/142201/dal-2-a-new-dotnetnuke-data-layer-for-a-new-decade)","[DNN Wiki: Manifests](https://www.dnnsoftware.com/wiki/manifests)","[DNN Community blog: The New Extension Installer Manifest — Part 1, Introduction by Charles Nurse](https://www.dnnsoftware.com/community-blog/cid/135060/the-new-extension-installer-manifest-part-1-introduction)"]
+related-topics: persona-bar-style-guide,theme-objects-1,requirements,product-versions,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,more-resources,module-features,module-architecture,developers-creating-modules-overview,about-evs
+links: ["[DNN UX Guide](https://uxguide.dnnsoftware.com/)","[Top 5 DotNetNuke Manifest file Module Packaging Tips by Bruce Chapman](https://web.archive.org/web/20160610221847/http://www.ifinity.com.au/Blog/EntryId/89/Top-5-DotNetNuke-Manifest-file-Module-Packaging-Tips)","[DNN Community blog: DAL 2 — A New DotNetNuke Data Layer for a New Decade by Charles Nurse](https://www.dnnsoftware.com/community-blog/cid/142201/dal-2-a-new-dotnetnuke-data-layer-for-a-new-decade)","[DNN Wiki: Manifests](https://www.dnnsoftware.com/wiki/manifests)","[DNN Community blog: The New Extension Installer Manifest — Part 1, Introduction by Charles Nurse](https://www.dnnsoftware.com/community-blog/cid/135060/the-new-extension-installer-manifest-part-1-introduction)","[DNN Module APIs](https://www.dnnsoftware.com/dnn-api/)","[Top 5 DotNetNuke Manifest file Module Packaging Tips by Bruce Chapman](https://web.archive.org/web/20160610221847/http://www.ifinity.com.au/Blog/EntryId/89/Top-5-DotNetNuke-Manifest-file-Module-Packaging-Tips)","[DNN Community blog: DAL 2 — A New DotNetNuke Data Layer for a New Decade by Charles Nurse](https://www.dnnsoftware.com/community-blog/cid/142201/dal-2-a-new-dotnetnuke-data-layer-for-a-new-decade)","[DNN Wiki: Manifests](https://www.dnnsoftware.com/wiki/manifests)","[DNN Community blog: The New Extension Installer Manifest — Part 1, Introduction by Charles Nurse](https://www.dnnsoftware.com/community-blog/cid/135060/the-new-extension-installer-manifest-part-1-introduction)"]
 ---
 
 # The DNN Manifest Schema
 
-The DNN manifest is an XML file (e.g., MyDNNExtension.dnn) that indicates how specific files in the extension package must be processed during installation.
+The DNN **manifest** is an XML file (e.g., **MyDNNExtension.dnn**) that indicates how specific files in the extension package must be processed during installation.
 
 Only the files specifically declared in the manifest would be installed. Files inside any zip file specified in `component type="ResourceFile"` do not have to be listed individually. Nonexistent files mentioned in the manifest will cause an error message.
 
@@ -62,21 +62,21 @@ Save the manifest file in the base folder of your package and include it when zi
 
 ```
 
-*   name must be unique. To ensure your package's uniqueness, add your company as the prefix.
-*   type can be one of the following:
-    *   Auth_System
-    *   Container
-    *   CoreLanguagePack
+*   *name* must be unique. To ensure your package's uniqueness, add your company as the prefix.
+*   *type* can be one of the following:
+    *   `Auth_System`
+    *   `Container`
+    *   `CoreLanguagePack`
     *   [DashboardControl](https://www.dnnsoftware.com/wiki/manifest-dashboardcontrol-component)
-    *   ExtensionLanguagePack
-    *   JavaScript_Library
-    *   Library
+    *   `ExtensionLanguagePack`
+    *   `JavaScript_Library`
+    *   `Library`
     *   [Module](https://www.dnnsoftware.com/wiki/modules)
     *   [Provider](https://www.dnnsoftware.com/wiki/providers)
     *   [Skin](https://www.dnnsoftware.com/wiki/dotnetnuke-skins)
-    *   SkinObject
+    *   `SkinObject`
     *   other custom extension types
-*   version holds the version of your extension.
+*   *version* holds the version of your extension.
 
 Each package represents a DNN extension. You can install multiple extensions using a single DNN manifest by creating a `package` section for each extension inside the `packages` tag.
 
@@ -93,7 +93,7 @@ Only the information about the _first_ package is displayed during installation.
 
 ```
 
-The friendlyName and description are displayed during installation and are used in the Host \> Extensions page, which lists the extensions that are installed or are available for installation. The friendlyName can contain spaces and up to 250 characters; the description can hold up to 2000 characters.
+The friendlyName and description are displayed during installation and are used in the **Host \> Extensions** page, which lists the extensions that are installed or are available for installation. The friendlyName can contain spaces and up to 250 characters; the description can hold up to 2000 characters.
 
 ## iconFile
 
@@ -103,7 +103,7 @@ The friendlyName and description are displayed during installation and are used 
 
 ```
 
-Optional. The icon is displayed in the DNN Control Panel's dropdown list and in the Extensions page. The .png format is preferred. If not specified, the DNN default icon is used.
+Optional. The icon is displayed in the DNN Control Panel's dropdown list and in the Extensions page. The **.png** format is preferred. If not specified, the DNN default icon is used.
 
 ## owner
 
@@ -186,7 +186,8 @@ Dependencies can be any of these types (case-insensitive):
 
     ```
 
-    Tip: [Fully qualify](https://docs.microsoft.com/en-us/dotnet/framework/reflection-and-codedom/specifying-fully-qualified-type-names) a type if it is not in the App_Code folder to avoid conflicts with similarly named types from multiple sources.
+    > [!Tip]
+    > [Fully qualify](https://docs.microsoft.com/en-us/dotnet/framework/reflection-and-codedom/specifying-fully-qualified-type-names) a type if it is not in the App_Code folder to avoid conflicts with similarly named types from multiple sources.
 
 *   Any custom dependency type included in the Dependency list. DNN can be extended by creating custom dependency types, which inherit from DotNetNuke.Services.Installer.Dependencies.DependencyBase and must be included in the Dependency list (Host \> Lists). Example:
 
@@ -195,8 +196,8 @@ Dependencies can be any of these types (case-insensitive):
         <dependency type="SomeCustomDependencyType">ValueNeededBySomeCustomDependencyType</dependency>
 
     ```
-
-    Note: The custom dependency type must already be installed before it is used in another installation.
+    > [!Note]
+    > The custom dependency type must already be installed before it is used in another installation.
 
 
 ## components
@@ -405,7 +406,7 @@ Some component types are applicable only to the package type of the same name; g
 
     ```
 
-*   [`File`](https://www.dnnsoftware.com/wiki/manifest-file-component). Files to be installed. By default, only files with allowed file extensions are installed; however, the host user can bypass this security check during installation. To view or modify the list of file extensions, go to your DNN installation and choose Host \> Host Settings \> Other Settings \> Allowable File Extensions.
+*   [`File`](https://www.dnnsoftware.com/wiki/manifest-file-component). Files to be installed. By default, only files with allowed file extensions are installed; however, the host user can bypass this security check during installation. To view or modify the list of file extensions, go to your DNN installation and choose **Host \> Host Settings \> Other Settings \> Allowable File Extensions**.
 
     ```
 
@@ -538,7 +539,7 @@ Some component types are applicable only to the package type of the same name; g
 
     ```
 
-*   [`Provider`](https://www.dnnsoftware.com/wiki/manifest-provider-component). Extends the list of allowed file extensions. These additional file extensions apply only to the current installation and are not added to the global list of file extensions found in Host \> Host Settings \> Other Settings \> Allowable File Extensions. The following file extensions can be allowed: .ashx, .aspx, .ascx, .vb, .cs, .resx, .css, .js, .resources, .config, .xml, .htc, .html, .htm, .text, .vbproj, .csproj, and .sln.
+*   [`Provider`](https://www.dnnsoftware.com/wiki/manifest-provider-component). Extends the list of allowed file extensions. These additional file extensions apply only to the current installation and are not added to the global list of file extensions found in **Host \> Host Settings \> Other Settings \> Allowable File Extensions**. The following file extensions can be allowed: .ashx, .aspx, .ascx, .vb, .cs, .resx, .css, .js, .resources, .config, .xml, .htc, .html, .htm, .text, .vbproj, .csproj, and .sln.
 
     ```
 
@@ -622,7 +623,7 @@ Some component types are applicable only to the package type of the same name; g
 
     ```
 
-*   [`URLProvider`](https://www.dnnsoftware.com/wiki/manifest-url-provider). Custom URL provider to be used with the Advanced URL Management System (AUM).
+*   [`URLProvider`](https://www.dnnsoftware.com/wiki/manifest-url-provider). Custom URL provider to be used with the **Advanced URL Management System (AUM)**.
 
     ```
 
@@ -639,4 +640,3 @@ Some component types are applicable only to the package type of the same name; g
         </component>
 
     ```
-
