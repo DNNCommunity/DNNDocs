@@ -1,2 +1,2 @@
-# [Tutorials](xref:tutorials)
-# [Labs](xref:labs)
+# [Tutorials](/content/guides/tutorials/)
+# [Labs](/content/guides/labs/)
