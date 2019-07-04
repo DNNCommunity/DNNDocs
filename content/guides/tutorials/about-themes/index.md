@@ -51,7 +51,7 @@ There are several levels at which a DNN Theme can be applied:
 ### Fallback Layout and Container
 This is the Layout and/or Container that will be loaded when an error arrises in one of the assigned Layout's or Container's ascx file.
 Normally this should only happen during the development stage of a Theme or after a DNN upgrade, when the existing Theme uses legacy code or Theme objects.
-This setting can be found in the DotNetNuke.config file in the root of the DNN installation.
+This setting can be found in the **DotNetNuke.config** file in the root of the DNN installation.
 The XML needs to be changed to change the Fallback skin:
   
 ~~~html
