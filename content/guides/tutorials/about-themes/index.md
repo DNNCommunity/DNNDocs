@@ -49,16 +49,16 @@ Layouts and containers can contain a **theme object**, which can be a typical co
 There are several levels at which a DNN Theme can be applied:
 
 ### Fallback Layout and Container
-This is the Layout and/or Container that will be loaded when an error arrises in one of the assigned Layout's or Container's ascx file.
+This is the Layout and/or Container that will be loaded when an error arises in one of the assigned Layout's or Container's ascx file.
 Normally this should only happen during the development stage of a Theme or after a DNN upgrade, when the existing Theme uses legacy code or Theme objects.
 This setting can be found in the **DotNetNuke.config** file in the root of the DNN installation.
-The XML needs to be changed to change the Fallback skin:
+The XML needs to be modified to change the Fallback skin:
   
 ~~~html
 <skinningdefaults>
-      <skininfo folder="/Xcillion/" default="Inner.ascx" admindefault="Admin.ascx" />
-      <containerinfo folder="/Xcillion/" default="Title_h2.ascx" admindefault="Title_h2.ascx" />
-  </skinningdefaults>
+  <skininfo folder="/Xcillion/" default="Inner.ascx" admindefault="Admin.ascx" />
+  <containerinfo folder="/Xcillion/" default="Title_h2.ascx" admindefault="Title_h2.ascx" />
+</skinningdefaults>
 ~~~
 
 *Normally you only need to change this when you uninstall an older DNN default skin*
@@ -69,19 +69,20 @@ The same goes for the Portal Container, it will be applied to all Modules in the
   
 ### Page Layout and Container
 The Layout and/or container you set for a Page, will overrule the Portals Layout & container. 
-*Please note that child pages do not automatically inherit this setting. You can manually copy this to all child page though, but new child-pages will not inherit the Page Layout or Container.*
+> [!NOTE]
+> Child pages do not automatically inherit this setting. You can manually copy this to all child pages, but new child pages will not inherit the Page Layout or Container.*
 
 ### Module Container
-In the Module settings, you can set a specific Container for a Module. This will overrule the previous settings, only for that Module.
+In the Module settings, you can set a specific Container for that Module. This will overrule the previous settings, but only for that Module.
 
 ### Pane Container
-In some cases, you already know that for a certain Pane the Module would all need a specific Container.
-To make the life of a site Administrator easier you can set the default Container for the Modules placed in a Pane.
-This will overrule the settings for the Portal and the Page, but not for a module. 
-Any module placed in that Pane will load the assigned Pane Container, unless this has been overruled in the Module settings.
-You change this in the [Layout].ascx file, there's no setting for this in the DNN Admin Interface.
-Set the Pane container in your "[Layout].ascx" file by adding the **ContainerSrc** attribute.
-The path should consist of the Containers Root Folder name and the name of the [Container].ascx to load.
+In some cases, you may know that modules within a certain Pane in the layout all need a specific Container.
+In that case, to make the life of a site Administrator easier, you can set the default Container for the Modules placed in that Pane.
+This will override the settings for the Portal and the Page, but not for a module. 
+Any module placed in that Pane will load the assigned Pane Container, unless this has been explicitly set in the Module settings.
+You cannot make this change in the DNN Admin interface. Instead, you change this in the `[Layout].ascx` file.
+Set the Pane container in your `[Layout].ascx` file by adding the `**ContainerSrc**` attribute.
+The path should consist of the Containers Root Folder name and the name of the `[Container].ascx` to load.
 
 ~~~html
 <div class="pane pane-bottom" id="BottomPaneFullWidth" ContainerSrc="MyContainer/NoTitle.ascx" runat="server" />
@@ -103,8 +104,7 @@ When a layout template is applied to a webpage, any associated CSS is automatica
 ## Theme Types
 
 DNN supports two different ways of creating themes using: HTML and ASCX files.
-The HTML files offer an easier way to get into DNN theming and DNN will parse the HTML file will to an ASCX file.
-DNN will use the ASCX file as the actual theme.
+The HTML files offer an easier way to get into DNN theming since DNN will convert the HTML file to an ASCX file and use that ASCX file as the actual theme.
 
 |**HTML**|**ASCX**|
 |---|---|
