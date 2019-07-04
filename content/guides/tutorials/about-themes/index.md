@@ -13,8 +13,8 @@ links: ["[DNN Wiki: DotNetNuke Skins](https://www.dnnsoftware.com/wiki/dotnetnuk
 A DNN **theme** (formerly called a **skin**) defines the look and feel of the website. It is comprised of:
 
 *   one or more layout templates (HTML or ASCX)
-*   (optional) a style sheet (CSS) for each of the layout templates
 *   (optional) a master style sheet (CSS) for all the layout templates
+*   (optional) a style sheet (CSS) for each of the layout templates
 
 
 
@@ -43,6 +43,49 @@ A **container** is similar to a layout template, except a container's scope is a
 *   A pane can be one of the following HTML elements: `<td>` (table cells), `<div>`, `<p>`, and `<span>`.
 
 Layouts and containers can contain a **theme object**, which can be a typical component of a webpage, such as the menu bar, the copyright notice, the login/registration links, the privacy link, the terms of service link, and the search box. Theme objects are inserted in the HTML or ASCX as tokens.
+
+
+## Theme application Levels
+There are several levels at which a DNN Theme can be applied:
+
+### Fallback Layout and Container
+This is the Layout and/or Container that will be loaded when an error arrises in one of the assigned Layout's or Container's ascx file.
+Normally this should only happen during the development stage of a Theme or after a DNN upgrade, when the existing Theme uses legacy code or Theme objects.
+This setting can be found in the DotNetNuke.config file in the root of the DNN installation.
+The XML needs to be changed to change the Fallback skin:
+  
+~~~html
+<skinningdefaults>
+      <skininfo folder="/Xcillion/" default="Inner.ascx" admindefault="Admin.ascx" />
+      <containerinfo folder="/Xcillion/" default="Title_h2.ascx" admindefault="Title_h2.ascx" />
+  </skinningdefaults>
+~~~
+
+*Normally you only need to change this when you uninstall an older DNN default skin*
+
+### Portal Layout and Container
+The Layout you set for the Portal will be applied to all pages unless you overrule this at the page level.
+The same goes for the Portal Container, it will be applied to all Modules in the Portal.
+  
+### Page Layout and Container
+The Layout and/or container you set for a Page, will overrule the Portals Layout & container. 
+*Please note that child pages do not automatically inherit this setting. You can manually copy this to all child page though, but new child-pages will not inherit the Page Layout or Container.*
+
+### Module Container
+In the Module settings, you can set a specific Container for a Module. This will overrule the previous settings, only for that Module.
+
+### Pane Container
+In some cases, you already know that for a certain Pane the Module would all need a specific Container.
+To make the life of a site Administrator easier you can set the default Container for the Modules placed in a Pane.
+This will overrule the settings for the Portal and the Page, but not for a module. 
+Any module placed in that Pane will load the assigned Pane Container, unless this has been overruled in the Module settings.
+You change this in the [Layout].ascx file, there's no setting for this in the DNN Admin Interface.
+Set the Pane container in your "[Layout].ascx" file by adding the **ContainerSrc** attribute.
+The path should consist of the Containers Root Folder name and the name of the [Container].ascx to load.
+
+~~~html
+<div class="pane pane-bottom" id="BottomPaneFullWidth" ContainerSrc="MyContainer/NoTitle.ascx" runat="server" />
+~~~
 
 ## Cascading Style Sheets (CSS)
 
