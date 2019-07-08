@@ -238,10 +238,6 @@
 ## [DNN Security](xref:dnn-security)
 ## [More Resources](xref:more-resources)
 
-<!-- START OF "GLOSSSARY" NAV ITEM -->
-# [Glossary](xref:admin-glossary)
-
-
 <!--Content Managers-->
 #[Content with Modules](xref:content-managers-content-with-modules-overview)
 #[Extensions](xref:content-managers-extensions-overview)
