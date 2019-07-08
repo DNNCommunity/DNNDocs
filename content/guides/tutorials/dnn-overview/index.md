@@ -42,4 +42,4 @@ The DNN Documentation Center is organized based on these persona groups:
 *   [Developers](http://dnndocs.com/content/developers/)
 *   [Designers](http://dnndocs.com/content/designers/)
 *   [Content Managers](http://dnndocs.com/content/content-managers/) includes content managers, editors, and creators.
-*   [Community Managers](http://dnndocs.com/content/community-managers/)
+*   Community Managers
