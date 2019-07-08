@@ -72,7 +72,7 @@ You can also apply filters to the images
 * [Contrast](#contrast-filter)
 * [Gamma](#gamma-filter)
 * [Brightness](#brightness-filter)
-* [Rotate/Flip](#rotate-flip-filter)
+* [Rotate/Flip](#rotateflip-filter)
 
 ### Greyscale Filter
 
