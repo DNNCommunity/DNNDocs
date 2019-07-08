@@ -14,7 +14,7 @@ Before you create an extension, it's worth your time to first check to see if th
 * [DNN Store](https://store.dnnsoftware.com/)
 * [Search GitHub](https://github.com/search?q=dnn)
 * [Use nvQuickPulse to find an Extensionn](https://github.com/nvisionative/nvQuickPulse/blob/master/README.md)
-* [Look through the DNN-Connect directory](https://www.dnn-connect.org/community/community-extensions)
+* [Look through the DNN Forge](https://dnncommunity.org/forge)
 
 # Types of Extensions
 
