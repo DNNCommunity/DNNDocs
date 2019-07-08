@@ -12,7 +12,7 @@
 ## [Security](xref:platform-overview-security)
 
 <!-- START OF "MAINTAINING YOUR SERVERS" NAV ITEM -->
-
+# [Maintaing Your Servers](xref:maintaining-your-servers)
 ## [SMTP Servers](xref:smtp-servers)
 ## [Server Performance](xref:server-performance)
 
@@ -264,10 +264,6 @@
 
 <!--Developers-->
 # [Setting Up DNN](xref:set-up-dnn)
-
-# [Platform Overview](xref:platform-overview-overview)
-## [Core Platform Objects](xref:platform-overview-core-objects)
-## [Security](xref:platform-overview-security)
 
 # [Beginning Module Development](xref:beginning-module-development-overview)
 ## [A Guided Tour of Your Work Environment](xref:mod-dev-work-environment)
