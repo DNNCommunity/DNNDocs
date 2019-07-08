@@ -38,4 +38,4 @@ links: ["[DNN API Reference](https://www.dnnsoftware.com/dnn-api/)","[DNN Wiki: 
 
         This build creates an installation zip file (your module's package) in the folder Desktop Modules/yourorganization/yourmodule/install.
 
-    5.  Alternatively, you can manually [pack your module](xref:developers-pack-extension).
+    5.  Alternatively, you can manually [pack your module](xref:pack-extension).
