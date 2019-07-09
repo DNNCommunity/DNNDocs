@@ -1,3 +1,5 @@
+# [DNN Solutions](xref:dnn-overview)
+
 <!--Administrators-->
 <!-- START OF "SETTING UP DNN" NAV ITEM -->
 # [Setting Up DNN](xref:administrators-setup-overview)
