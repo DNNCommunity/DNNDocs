@@ -7,11 +7,14 @@ related-topics: create-layout-template,create-container,create-theme
 links: ["[DotNetNuke Skinning Guide (Appendix B: Skin Objects) by Timo Breumelhof](https://www.timo-design.nl)","[Skinning Tool / Online Reference for DNN Skins & Container Objects by 10 Pound Gorilla](https://www.10poundgorilla.com)"]
 ---
 
-# Theme (previously) Skin  Objects
-A Theme object is an element (user control in webforms) that is used to add specific functionality to your Theme.
+# Theme Objects
+A Theme Object is an element (user control in webforms) that is used to add specific functionality to your Theme.
 
 The difference with the use of a Module in DNN is that a Theme Object is (mostly) not configurable or movable by a site admin.
 You can control the behaviour of a Theme object by settings its attributes in your Theme and these settings are then "fixed" for that theme.
+
+> [!NOTE]
+> In previous versions of DNN these were called "Skin Objects"
 
 ## How to use a Theme object.
 
