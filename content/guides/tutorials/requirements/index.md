@@ -36,6 +36,8 @@ The following are required for DNN Platform 9.0 and DNN Evoq 9.0.
 *   Microsoft SQL Server 2014
 *   Microsoft SQL Server 2014 Express
 *   Microsoft SQL Server 2016 (for DNN 8.0.4+)
+*   Microsoft SQL Server 2017
+*   Microsoft SQL Server 2017 Express
 *   Microsoft Azure SQL Database
 
 ## Browsers
@@ -55,10 +57,15 @@ For creating modules:
 
 *   Visual Studio 2013
 *   Visual Studio 2015
+*   Visual Studio 2017
+*   Visual Studio 2019
+
 
 For contributing to the DNN Platform:
 
 *   Visual Studio 2015
+*   Visual Studio 2017
+*   Visual Studio 2019
 
 ## Recommended Environment
 
