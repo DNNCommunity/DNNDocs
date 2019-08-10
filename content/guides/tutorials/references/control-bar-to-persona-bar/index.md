@@ -3,7 +3,7 @@ uid: control-bar-to-persona-bar
 locale: en
 title: Control Bar to Persona Bar
 dnnversion: 09.02.00
-related-topics: administrators-included-modules-overview,requirements,product-versions,dnn-overview,persona-bar-by-role,providers,more-resources
+related-topics: administrators-included-modules-overview,requirements,dnn-overview,dnn-overview,persona-bar-by-role,providers,more-resources
 ---
 
 # Control Bar to Persona Bar
