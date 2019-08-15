@@ -235,6 +235,7 @@
 #####[Configure View Profile](xref:config-module-view-profile)
 ### [Creation Modules](xref:creation-modules)
 ####[Module Creator](xref:module-module-creator)
+## [Replacement Tokens](xref:replacement-tokens)
 ## [DNN Requirements](xref:requirements)
 ## [Releases](xref:releases)
 ## [DNN Security](xref:dnn-security)
