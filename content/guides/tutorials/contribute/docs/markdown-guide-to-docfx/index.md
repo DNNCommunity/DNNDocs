@@ -12,7 +12,10 @@ Once you start investigating the new DNN Docs files you’ll notice a different 
 For example, you’ll do things like ```**A BOLDED WORD**``` instead of typing ```<strong>A BOLDED WORD</strong>``` just to **bold some text**, which saves you multiple keystrokes. 
 
 > [!TIP]
-> Here’s a [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to help you get started.
+> Here are a few resources to help with Markdown to help get you started:
+> - [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) with examples and formatting info
+> - [Dillinger.io](https://dillinger.io/) is an online Markdown tool which can help convert HTML to Markdown and to work with Markdown 
+> - Here's a helpful [markdown plugin for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
 ![Markdown Syntax](/images/Markdown.jpg)
 
@@ -78,3 +81,36 @@ If you want to include a callout in your docs content, the following callouts ar
 And here is something to note about callouts!
 > [!NOTE]
 > You cannot include a callout inside of a table.
+
+
+## Layout, Formatting & Structure
+
+One beneift to Markdown is that the style and formatting of the content can be more simple and uniform across pages. The following examples of formatting and elements can help get you started with the basics.
+
+|Header 1|Header 2|Header 3|
+|---|---|---|
+|item 1|item 2|item 3|
+    
+The table above would look like this in markdown:
+
+```
+    |Header 1|Header 2|Header 3|
+    |---|---|---|
+    |item 1|item 2|item 3|
+```
+
+1. Ordered list items
+2. **bold list item**
+3. *italic list item*
+- Unordered list items
+- [link example](https://www.DNNCommunity.org)
+
+The examples above would look like this in markdown:
+
+```
+    1. Ordered list items
+    2. **bold list item**
+    3. *italic list item*
+    - Unordered list items
+    - [link example](https://www.DNNCommunity.org)
+```
