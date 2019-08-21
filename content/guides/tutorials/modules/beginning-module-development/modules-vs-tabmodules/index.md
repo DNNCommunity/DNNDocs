@@ -41,7 +41,7 @@ That has brought us to your control. We now know how DNN knows which ascx to loa
 
 This is the root of every module in your site. Every module instantiation has a single record in this table (fig. 11). Note it does not tell DNN yet where it is placed on your site. Just that it exists (or is deleted etc). Most importantly this is where the ModuleId is generated. That is the unique key that you&#39;ll use throughout your code to keep stuff from one module separate from another.
 
-![Figure 11: Modules table.](/images/ch13011.png)
+![Figure 11: Modules table.](/images/ch13f011.png)
 
 ## TabModules
 
