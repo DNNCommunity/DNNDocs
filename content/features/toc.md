@@ -14,3 +14,8 @@
 # [Themes](xref:themes)
 
 # [JWT](xref:jwt)
+
+# [Privacy](xref:privacy)
+###[Communication Settings](xref:privacy-communication-settings)
+###[Cookie Consent](xref:cookie-consent)
+###[Data Consent](xref:data-consent-overview)
