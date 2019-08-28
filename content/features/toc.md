@@ -16,6 +16,10 @@
 # [JWT](xref:jwt)
 
 # [Privacy](xref:privacy)
-###[Communication Settings](xref:privacy-communication-settings)
-###[Cookie Consent](xref:cookie-consent)
-###[Data Consent](xref:data-consent-overview)
+##[Communication Settings](xref:privacy-communication-settings)
+##[Cookie Consent](xref:cookie-consent)
+##[Data Consent](xref:data-consent-overview)
+###[Data Consent User Consent](xref:data-consent-user-consent)
+###[Data Consent Redirect](xref:data-consent-redirect)
+###[Data Consent User Removal](xref:data-consent-user-delete)
+###[Data Consent User Management](xref:data-consent-user-management)

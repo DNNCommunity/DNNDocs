@@ -104,7 +104,7 @@
 ###[Edit User Profile Field](xref:edit-user-profile-field)
 ###[Delete User Profile Field](xref:delete-user-profile-field)
 ###[Organize User Profile Fields](xref:organize-user-profile-fields)
-##[Privacy](xref:privacy-overview)
+##[Privacy](xref:privacy)
 ###[Communication Settings](xref:privacy-communication-settings)
 ###[Cookie Consent](xref:cookie-consent)
 

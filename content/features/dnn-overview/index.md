@@ -16,8 +16,8 @@ The DNN Platform is an open source, free and feature rich content management sys
 
 DNN Corp offers two products built on top of DNN Platform:
 
-*   DNN Evoq Content includes everything in the DNN Platform, plus additional features to make it easier to publish great content.
-*   DNN Evoq Engage includes everything in the DNN Evoq Content, plus additional features focused on building a community and on social activities.
+*   **Evoq Content** includes everything in the DNN Platform, plus additional features to make it easier to publish great content.
+*   **Evoq Engage** includes everything in the Evoq Content, plus additional features focused on building a community and on social activities.
 
 ## Personas
 
