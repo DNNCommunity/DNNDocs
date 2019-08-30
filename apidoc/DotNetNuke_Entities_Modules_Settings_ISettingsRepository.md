@@ -26,20 +26,20 @@ public class MyModuleSettings
     [TabModuleSetting]
     public bool Baz { get; set; } = true;
 
-    public static ModuleSettings GetSettings(ModuleInfo module)
+    public static MyModuleSettings GetSettings(ModuleInfo module)
     {
-        var repo = new ModuleSettingsRepository();
+        var repo = new MyModuleSettingsRepository();
         return repo.GetSettings(module);
     }
 
     public void SaveSettings(ModuleInfo module)
     {
-        var repo = new ModuleSettingsRepository();
+        var repo = new MyModuleSettingsRepository();
         repo.SaveSettings(module, this);
     }
 }
 
-public class MyModuleSettingsRepository : SettingsRepository<ModuleSettings>
+public class MyModuleSettingsRepository : SettingsRepository<MyModuleSettings>
 {
 }
 ```
