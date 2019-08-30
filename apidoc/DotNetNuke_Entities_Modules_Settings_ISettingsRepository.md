@@ -4,8 +4,8 @@ summary: 'The SettingsRepository is used to persist settings to one of DNNs inte
 remarks: *content
 ---
 
-The SettingsRepository allows you to write concise classes for persisting 
-settings to either ModuleSettings, TabModuleSettings or PortalSettings. 
+The SettingsRepository allows you to write concise classes for persisting
+settings to either ModuleSettings, TabModuleSettings or PortalSettings.
 All you need to do is to implement a static retrieval method (GetSettings in the sample below)
 and a storage method (SaveSettings below) on a Repository that is typed to
 your class (MyModuleSettingsRepository below). You can then label each settings
@@ -48,7 +48,7 @@ public class MyModuleSettingsRepository : SettingsRepository<MyModuleSettings>
 
 Once you have the settings class you can use this anywhere in your code. The most
 powerful way is to add this to a base class underlying your front end code. If working in
-an MVC type scenario you could create a class that inherits from DnnController 
+an MVC type scenario you could create a class that inherits from DnnController
 (e.g. MyModuleController) that your controllers inherit from:
 
 ```cs
@@ -61,12 +61,12 @@ Then, in MyModuleController you could add the following snippet:
 private MyModuleSettings _settings;
 public MyModuleSettings Settings
 {
-    get { return _settings ?? (_settings = MyModuleSettings.GetSettings(ModuleContext)); }
+    get { return _settings ?? (_settings = MyModuleSettings.GetSettings(ModuleContext.Configuration)); }
 }
 ```
 
 Now in any of your controllers you can access these settings using `Settings.Foo` and `Settings.Bar`, etc. You can use a similar approach for the WebPage/WebPage<T> to get
-the same syntax in your razor files. This will declutter your front end code. A more 
+the same syntax in your razor files. This will declutter your front end code. A more
 extensive example can be found in this module which implements this:
 
 [https://github.com/DNN-Connect/Conference](https://github.com/DNN-Connect/Conference)
