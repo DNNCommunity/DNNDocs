@@ -15,7 +15,7 @@ The following are required for DNN Platform 9.4 and later.
 *   Windows 8
 *   Windows 8.1
 *   Windows 10
-*   Windows Server 2008 R2
+*   Windows Server 2008 R2 (SP 1 Required)
 *   Windows Server 2012 R2
 *   Windows Server 2016
 *   Windows Server 2019
@@ -37,7 +37,7 @@ The following are required for DNN Platform 9.4 and later.
 *   Microsoft SQL Server 2012 Express
 *   Microsoft SQL Server 2014
 *   Microsoft SQL Server 2014 Express
-*   Microsoft SQL Server 2016 (for DNN 8.0.4+)
+*   Microsoft SQL Server 2016 (supported with DNN 8.0.4+)
 *   Microsoft SQL Server 2017
 *   Microsoft SQL Server 2017 Express
 *   Microsoft Azure SQL Database
@@ -71,8 +71,7 @@ For contributing to DNN Platform:
 
 ## Recommended Environment
 
-*   Windows Server 2012 R2
-*   IIS 8.5
-*   SQL Server 2014 or Later
-*   **For developers:** SQL Server 2014 Developer Edition or Express 
+*   Most current Windows & IIS Environment Possible
+*   Most Current SQL Server Available, minimum recommendation of SQL Server 2014
+*   **For developers:** Developer Editions of SQL provide best flexibility
 *   **For developers:** Visual Studio 2019
