@@ -35,12 +35,3 @@ Besides these roles, the Evoq products include a few more roles
 *   **Community Managers** manage the online community through games and reward systems.
 
 ![DNN workflow with roles](/images/gra-DNNRoles.png)
-
-## Documentation Center
-
-The DNN Documentation Center is organized based on these persona groups:
-
-*   [Administrators](http://dnndocs.com/content/administrators/) includes superusers and site administrators.
-*   [Developers](http://dnndocs.com/content/developers/)
-*   [Designers](http://dnndocs.com/content/designers/)
-*   [Content Managers](http://dnndocs.com/content/content-managers/) includes content managers, editors, and creators.
