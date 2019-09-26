@@ -35,8 +35,8 @@ dnnversion: 09.02.00
 * Login IP Filtering
 * Logs
 * Module-Level Caching
-* Multi-site / Multi-Portal
-* Multi-Site Management
+* Module Injection Filter (Personalization Filters) API
+* Multi-Site (Portal) / Multi-Tenat Management
 * OAuth
 * Open API
 * Page Header Tags
@@ -63,6 +63,7 @@ dnnversion: 09.02.00
 * Tokens
 * URL Rewriting
 * URL Testing
+* User Personalization API
 * Vocabularies / Tags
 * Web Farm Support
 * Workflow
