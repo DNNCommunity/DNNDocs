@@ -36,7 +36,7 @@ dnnversion: 09.02.00
 * Logs
 * Module-Level Caching
 * Module Injection Filter (Personalization Filters) API
-* Multi-Site (Portal) / Multi-Tenat Management
+* Multi-Site (Portal) / Multi-Tenant Management
 * OAuth
 * Open API
 * Page Header Tags
