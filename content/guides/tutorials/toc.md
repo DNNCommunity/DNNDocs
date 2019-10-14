@@ -229,6 +229,11 @@
 ###[Install Your Theme](xref:install-extension)
 ##[Theme Objects](xref:theme-objects)
 ###[DDRMenu](xref:ddrmenu-overview)
+####[Overview](xref:ddrmenu-overview)
+####[Reference Guide](xref:ddrmenu-reference-guide)
+####[Razor Templates Overview](xref:ddrmenu-razor-templates-overview)
+####[Token Templates](xref:ddrmenu-token-templates)
+####[XSLT Templates](xref:ddrmenu-xslt-templates)
 ##[Persona Bar Style Guide](xref:persona-bar-style-guide)
 
 #[JWT](xref:jwt)
