@@ -27,7 +27,7 @@ Another user made a change that conflicts with your changes.
 
 ## Possible Solution 2
 
-In some circumstances, exiting and re-entering edit mode will not correct the block on editing. In this scenario, other options such as copying modules to another page or Duplicating a page may also not function as workarounds. While the records can be cleared within the database, a method of workaround within the DNN interface is as follows:
+In some circumstances, exiting and re-entering edit mode will not correct the block on editing. In this scenario, other options such as copying modules to another page or duplicating a page may also not function as workarounds. While the records can be cleared within the database, a method of workaround within the DNN interface is as follows:
 
 Use A Page Template To Copy The Page
 1.  Select the Persona Bar > Pages screen.
