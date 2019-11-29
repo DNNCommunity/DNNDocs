@@ -6,7 +6,7 @@ dnnversion: 09.02.00
 related-topics: ts-error-login-ip-filtering-is-currently-disabled,ts-error-another-user-has-taken-action-on-the-page,ts-error-unknown-server-tag-DNNComboBox,ts-error-could-not-load-awssdk,ts-error-sql-timeout,ts-error-argumentnullexception-after-move-upgrade,ts-install-missing-resources,ts-mixed-content-ssl,ts-broken-profile-image,ts-page-remains-in-draft,ts-unable-to-remove-page-redirect-urls,ts-site-theme-not-loading,ts-incomplete-content-localization,ts-missing-persona-bar
 ---
 
-# How to: Increase the Maximum File Size for Upload
+# How to: Increase the Maximum File Size for Upload in DNN CMS
 
 The maximum file size must be multiples of 1024.
 
@@ -28,12 +28,12 @@ The maximum file size must be multiples of 1024.
 
         ```
 
-    2.  Replace the value of maxRequestLength with the maximum file size you want.
+    2.  Replace the value of maxRequestLength with the maximum file size in kb.
 
         > [!NOTE]
         > maxRequestLength is stored as kilobytes. Example: You can use 2097152 KB (equivalent to 2 GB).
 
-3.  If you need to upload files that are greater than 28 MB on IIS7+ or on Cloud Services, add a `<system.webServer/>` node to specify the maxAllowedContentLength for requests.
+3.  On IIS7+ or on Cloud Services, if you need to upload files that are greater than 28 MB , add a `<system.webServer/>` node to specify the maxAllowedContentLength for requests.
 
     > [!NOTE]
     > maxAllowedContentLength is stored as bytes. Example: You can use 2147483647 bytes (equivalent to 2 GB).
@@ -52,5 +52,5 @@ The maximum file size must be multiples of 1024.
 
     ```
 
-4.  Save.
+4.  Save web.config.
 5.  [Recycle the application pool](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770764(v%3dws.10)) to allow the changes to take effect.
