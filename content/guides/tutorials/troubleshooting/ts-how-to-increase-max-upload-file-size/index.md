@@ -6,7 +6,7 @@ dnnversion: 09.02.00
 related-topics: ts-error-login-ip-filtering-is-currently-disabled,ts-error-another-user-has-taken-action-on-the-page,ts-error-unknown-server-tag-DNNComboBox,ts-error-could-not-load-awssdk,ts-error-sql-timeout,ts-error-argumentnullexception-after-move-upgrade,ts-install-missing-resources,ts-mixed-content-ssl,ts-broken-profile-image,ts-page-remains-in-draft,ts-unable-to-remove-page-redirect-urls,ts-site-theme-not-loading,ts-incomplete-content-localization,ts-missing-persona-bar
 ---
 
-# How to: Increase the Maximum File Size for Upload in DNN CMS
+# How to: Increase the Maximum File Size for Upload in DNN Platform.
 
 The maximum file size must be multiples of 1024.
 
@@ -28,7 +28,7 @@ The maximum file size must be multiples of 1024.
 
         ```
 
-    2.  Replace the value of maxRequestLength with the maximum file size in kb.
+    2.  Replace the value of maxRequestLength with the maximum file size in KB.
 
         > [!NOTE]
         > maxRequestLength is stored as kilobytes. Example: You can use 2097152 KB (equivalent to 2 GB).
@@ -52,5 +52,5 @@ The maximum file size must be multiples of 1024.
 
     ```
 
-4.  Save web.config.
+4.  Save the web.config file.
 5.  [Recycle the application pool](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770764(v%3dws.10)) to allow the changes to take effect.
