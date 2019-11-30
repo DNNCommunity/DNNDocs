@@ -53,4 +53,3 @@ The maximum file size must be multiples of 1024.
     ```
 
 4.  Save the web.config file.
-5.  [Recycle the application pool](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770764(v%3dws.10)) to allow the changes to take effect.
