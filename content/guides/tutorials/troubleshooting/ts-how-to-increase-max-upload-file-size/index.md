@@ -53,3 +53,15 @@ The maximum file size must be multiples of 1024.
     ```
 
 4.  Save the web.config file.
+
+## Increase the time available for file Upload
+When you increase the Maximum File Size for Upload in DNN Platform to a very high value, you could run into other limitations.
+There is a maximum time a request can run before it's stopped by .NET
+As larger files can take a while to upload, you could run into this after you changed the maxRequestLength, especially on slower connections.
+To increase the Execution Timeout, look for the "executionTimeout" entry in web.config and change it accordingly.
+This executionTimeout value is stored in seconds.
+
+
+```<httpRuntime targetFramework="4.7.2" shutdownTimeout="120" executionTimeout="1200" ... />
+```
+
