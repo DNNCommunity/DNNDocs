@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.Core-9.3.0
+uid: nuget-DotNetNuke.Core-9.3.0
 locale: en
 title: NuGet package DotNetNuke.Core version 9.3.0
 dnnversion: 09.04.03

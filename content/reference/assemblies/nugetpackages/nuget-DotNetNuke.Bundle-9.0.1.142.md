@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.Bundle-9.0.1.142
+uid: nuget-DotNetNuke.Bundle-9.0.1.142
 locale: en
 title: NuGet package DotNetNuke.Bundle version 9.0.1.142
 dnnversion: 09.04.03

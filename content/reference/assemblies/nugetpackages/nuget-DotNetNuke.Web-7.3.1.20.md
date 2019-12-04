@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.Web-7.3.1.20
+uid: nuget-DotNetNuke.Web-7.3.1.20
 locale: en
 title: NuGet package DotNetNuke.Web version 7.3.1.20
 dnnversion: 09.04.03

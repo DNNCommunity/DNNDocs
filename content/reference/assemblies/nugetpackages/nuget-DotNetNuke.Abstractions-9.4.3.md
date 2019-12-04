@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.Abstractions-9.4.3
+uid: nuget-DotNetNuke.Abstractions-9.4.3
 locale: en
 title: NuGet package DotNetNuke.Abstractions version 9.4.3
 dnnversion: 09.04.03

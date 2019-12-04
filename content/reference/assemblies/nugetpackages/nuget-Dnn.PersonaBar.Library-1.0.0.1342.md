@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-Dnn.PersonaBar.Library-1.0.0.1342
+uid: nuget-Dnn.PersonaBar.Library-1.0.0.1342
 locale: en
 title: NuGet package Dnn.PersonaBar.Library version 1.0.0.1342
 dnnversion: 09.04.03

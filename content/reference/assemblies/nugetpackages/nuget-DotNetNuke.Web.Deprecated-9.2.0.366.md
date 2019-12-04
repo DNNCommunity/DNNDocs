@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.Web.Deprecated-9.2.0.366
+uid: nuget-DotNetNuke.Web.Deprecated-9.2.0.366
 locale: en
 title: NuGet package DotNetNuke.Web.Deprecated version 9.2.0.366
 dnnversion: 09.04.03

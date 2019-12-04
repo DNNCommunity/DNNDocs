@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.Instrumentation-8.0.1.239
+uid: nuget-DotNetNuke.Instrumentation-8.0.1.239
 locale: en
 title: NuGet package DotNetNuke.Instrumentation version 8.0.1.239
 dnnversion: 09.04.03

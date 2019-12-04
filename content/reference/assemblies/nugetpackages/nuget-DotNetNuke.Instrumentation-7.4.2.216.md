@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.Instrumentation-7.4.2.216
+uid: nuget-DotNetNuke.Instrumentation-7.4.2.216
 locale: en
 title: NuGet package DotNetNuke.Instrumentation version 7.4.2.216
 dnnversion: 09.04.03

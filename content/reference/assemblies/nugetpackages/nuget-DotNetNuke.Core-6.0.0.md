@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.Core-6.0.0
+uid: nuget-DotNetNuke.Core-6.0.0
 locale: en
 title: NuGet package DotNetNuke.Core version 6.0.0
 dnnversion: 09.04.03

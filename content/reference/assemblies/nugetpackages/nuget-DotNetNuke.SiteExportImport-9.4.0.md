@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.SiteExportImport-9.4.0
+uid: nuget-DotNetNuke.SiteExportImport-9.4.0
 locale: en
 title: NuGet package DotNetNuke.SiteExportImport version 9.4.0
 dnnversion: 09.04.03

@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.Web.Client-9.2.0.366
+uid: nuget-DotNetNuke.Web.Client-9.2.0.366
 locale: en
 title: NuGet package DotNetNuke.Web.Client version 9.2.0.366
 dnnversion: 09.04.03

@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.Web.Mvc-8.0.2.4
+uid: nuget-DotNetNuke.Web.Mvc-8.0.2.4
 locale: en
 title: NuGet package DotNetNuke.Web.Mvc version 8.0.2.4
 dnnversion: 09.04.03
