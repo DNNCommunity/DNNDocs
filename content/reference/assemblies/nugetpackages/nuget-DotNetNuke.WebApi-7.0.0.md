@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.WebApi-7.0.0
+uid: nuget-DotNetNuke.WebApi-7.0.0
 locale: en
 title: NuGet package DotNetNuke.WebApi version 7.0.0
 dnnversion: 09.04.03

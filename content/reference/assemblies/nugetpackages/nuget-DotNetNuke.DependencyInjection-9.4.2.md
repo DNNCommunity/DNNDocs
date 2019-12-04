@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.DependencyInjection-9.4.2
+uid: nuget-DotNetNuke.DependencyInjection-9.4.2
 locale: en
 title: NuGet package DotNetNuke.DependencyInjection version 9.4.2
 dnnversion: 09.04.03

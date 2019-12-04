@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.Web-8.0.2.4
+uid: nuget-DotNetNuke.Web-8.0.2.4
 locale: en
 title: NuGet package DotNetNuke.Web version 8.0.2.4
 dnnversion: 09.04.03

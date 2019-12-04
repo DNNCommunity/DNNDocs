@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.Core-7.1.2
+uid: nuget-DotNetNuke.Core-7.1.2
 locale: en
 title: NuGet package DotNetNuke.Core version 7.1.2
 dnnversion: 09.04.03

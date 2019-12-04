@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.Web.Mvc-9.2.1.533
+uid: nuget-DotNetNuke.Web.Mvc-9.2.1.533
 locale: en
 title: NuGet package DotNetNuke.Web.Mvc version 9.2.1.533
 dnnversion: 09.04.03

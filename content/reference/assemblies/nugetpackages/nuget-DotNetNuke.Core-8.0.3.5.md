@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.Core-8.0.3.5
+uid: nuget-DotNetNuke.Core-8.0.3.5
 locale: en
 title: NuGet package DotNetNuke.Core version 8.0.3.5
 dnnversion: 09.04.03

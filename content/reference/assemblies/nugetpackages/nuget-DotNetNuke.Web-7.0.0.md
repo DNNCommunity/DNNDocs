@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.Web-7.0.0
+uid: nuget-DotNetNuke.Web-7.0.0
 locale: en
 title: NuGet package DotNetNuke.Web version 7.0.0
 dnnversion: 09.04.03

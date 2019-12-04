@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.Providers.FolderProviders-9.2.0.366
+uid: nuget-DotNetNuke.Providers.FolderProviders-9.2.0.366
 locale: en
 title: NuGet package DotNetNuke.Providers.FolderProviders version 9.2.0.366
 dnnversion: 09.04.03

@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.Bundle-9.1.0.367
+uid: nuget-DotNetNuke.Bundle-9.1.0.367
 locale: en
 title: NuGet package DotNetNuke.Bundle version 9.1.0.367
 dnnversion: 09.04.03

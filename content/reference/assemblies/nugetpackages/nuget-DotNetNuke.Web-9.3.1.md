@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.Web-9.3.1
+uid: nuget-DotNetNuke.Web-9.3.1
 locale: en
 title: NuGet package DotNetNuke.Web version 9.3.1
 dnnversion: 09.04.03

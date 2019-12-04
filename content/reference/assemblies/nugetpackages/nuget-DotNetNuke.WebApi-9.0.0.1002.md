@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.WebApi-9.0.0.1002
+uid: nuget-DotNetNuke.WebApi-9.0.0.1002
 locale: en
 title: NuGet package DotNetNuke.WebApi version 9.0.0.1002
 dnnversion: 09.04.03

@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.Web-9.4.2
+uid: nuget-DotNetNuke.Web-9.4.2
 locale: en
 title: NuGet package DotNetNuke.Web version 9.4.2
 dnnversion: 09.04.03

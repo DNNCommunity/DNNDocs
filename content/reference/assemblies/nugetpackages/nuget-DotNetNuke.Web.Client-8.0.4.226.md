@@ -1,5 +1,5 @@
 ---
-uid: nugetpackages\nuget-DotNetNuke.Web.Client-8.0.4.226
+uid: nuget-DotNetNuke.Web.Client-8.0.4.226
 locale: en
 title: NuGet package DotNetNuke.Web.Client version 8.0.4.226
 dnnversion: 09.04.03
