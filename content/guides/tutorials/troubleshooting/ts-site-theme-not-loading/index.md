@@ -6,15 +6,18 @@ dnnversion: 09.02.00
 related-topics: ts-how-to-increase-max-upload-file-size,ts-error-login-ip-filtering-is-currently-disabled,ts-error-another-user-has-taken-action-on-the-page,ts-error-unknown-server-tag-DNNComboBox,ts-error-could-not-load-awssdk,ts-error-sql-timeout,ts-error-argumentnullexception-after-move-upgrade,ts-install-missing-resources,ts-mixed-content-ssl,ts-broken-profile-image,ts-page-remains-in-draft,ts-unable-to-remove-page-redirect-urls,ts-incomplete-content-localization,ts-missing-persona-bar
 ---
 
-# Troubleshooting: Site Theme Does Not Load
+# Troubleshooting: Site Theme Does Not Load or looks weird
 
 ## Symptom
 
-The site loads, but the theme does not. Webpages are incorrectly rendered.
+The site loads, but the Theme does not load correctly. Webpages are incorrectly rendered.
+
 
 ## Possible Cause
 
-Insufficient permissions for anonymous users.
+IIS is blocking access to Static Files (Images, Stylesheets, Javascripts etc.).
+Because of insufficient permissions for Anonymous Users these files are blocked, which looks as if the Theme is not loading.
+
 
 ## Solution
 
