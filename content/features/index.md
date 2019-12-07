@@ -14,7 +14,7 @@ dnnversion: 09.02.00
 * Bulk User Management
 * Bulk Emails
 * Captcha
-* CLI / Prompt
+* [CLI / Prompt](xref:prompt)
 * Connectors
 * Containers
 * Content Scheduling

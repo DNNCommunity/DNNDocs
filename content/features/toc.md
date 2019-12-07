@@ -13,6 +13,8 @@
 
 # [Themes](xref:themes)
 
+# [Prompt CLI](xref:prompt)
+
 # [JWT](xref:jwt)
 
 # [Privacy](xref:privacy)
