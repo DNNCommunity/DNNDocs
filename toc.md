@@ -1,4 +1,5 @@
 # [Getting Started](/content/getting-started/)
 # [Features](/content/features/)
-# [Guides](/content/guides/)
+# [Tutorials](/content/tutorials/)
+# [Labs](/content/labs/)
 # [Reference](/content/reference/)
