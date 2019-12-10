@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.SiteExportImport-9.4.3
 locale: en
 title: NuGet package DotNetNuke.SiteExportImport version 9.4.3
-dnnversion: 09.04.03
+dnnversion: 09.04.04
 related-topics: referencing-dnn-assemblies
 ---
 

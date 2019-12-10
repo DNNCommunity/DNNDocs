@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.Web.Mvc-9.1.1.129
 locale: en
 title: NuGet package DotNetNuke.Web.Mvc version 9.1.1.129
-dnnversion: 09.04.03
+dnnversion: 09.04.04
 related-topics: referencing-dnn-assemblies
 ---
 

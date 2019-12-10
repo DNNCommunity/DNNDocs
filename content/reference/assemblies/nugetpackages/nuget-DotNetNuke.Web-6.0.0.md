@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.Web-6.0.0
 locale: en
 title: NuGet package DotNetNuke.Web version 6.0.0
-dnnversion: 09.04.03
+dnnversion: 09.04.04
 related-topics: referencing-dnn-assemblies
 ---
 
