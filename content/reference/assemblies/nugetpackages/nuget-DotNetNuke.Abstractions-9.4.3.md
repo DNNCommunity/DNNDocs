@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.Abstractions-9.4.3
 locale: en
 title: NuGet package DotNetNuke.Abstractions version 9.4.3
-dnnversion: 09.04.03
+dnnversion: 09.04.04
 related-topics: referencing-dnn-assemblies
 ---
 

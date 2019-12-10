@@ -2,7 +2,7 @@
 uid: nuget-Dnn.PersonaBar.Library-1.3.0.63
 locale: en
 title: NuGet package Dnn.PersonaBar.Library version 1.3.0.63
-dnnversion: 09.04.03
+dnnversion: 09.04.04
 related-topics: referencing-dnn-assemblies
 ---
 

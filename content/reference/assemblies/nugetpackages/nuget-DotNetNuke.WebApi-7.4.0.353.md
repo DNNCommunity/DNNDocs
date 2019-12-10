@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.WebApi-7.4.0.353
 locale: en
 title: NuGet package DotNetNuke.WebApi version 7.4.0.353
-dnnversion: 09.04.03
+dnnversion: 09.04.04
 related-topics: referencing-dnn-assemblies
 ---
 

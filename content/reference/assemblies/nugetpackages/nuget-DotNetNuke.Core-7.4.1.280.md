@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.Core-7.4.1.280
 locale: en
 title: NuGet package DotNetNuke.Core version 7.4.1.280
-dnnversion: 09.04.03
+dnnversion: 09.04.04
 related-topics: referencing-dnn-assemblies
 ---
 
