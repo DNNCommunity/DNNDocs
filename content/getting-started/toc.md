@@ -2,6 +2,7 @@
 ## [Requirements](xref:setup-requirements)
 ## [Installation](xref:setup-installation)
 ## [Upgrades](xref:setup-upgrades)
+### [Suggested Upgrade Path](xref:setup-upgrades-suggested-upgrade-path)
 # [Administration](xref:getting-started-administration)
 # [Content](xref:getting-started-content)
 # [Design](xref:getting-started-design)
