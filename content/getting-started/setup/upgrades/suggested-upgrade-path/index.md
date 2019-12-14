@@ -11,7 +11,7 @@ Following is the recommend upgrade path for **DNN Platform** based on experience
 > [!WARNING]
 > While the below has been tested and used successfully, there are no guarantees. Each upgrade scenario can result in unique complexities and challenges. Therefore, each upgrade should be treated with full context in mind. For common best-practices, please use [these basic upgrade steps](xref:setup-upgrades) to provide guidance.
 
-The below is, of course, subject to change. If your current version of DNN Platform is between any of the versions listed below, first upgrade to the closest listed version.
+The below is, of course, subject to change. If your current version of DNN Platform is between any of the versions listed below, first upgrade to the closest listed version. For instance, if you are starting with version 09.02.00, you should upgrade first to version 09.03.02.
 
 |**FROM Version**|**TO Version**|
 |---|---|
