@@ -16,9 +16,9 @@ Before starting the upgrade process, it is recommended to have a very clear unde
 
 * Know the current version of DNN Platform.
 
-* Ensure **AutoUpgrade** setting is "False". This setting can be found within **AppSettings** section of the `web.config` file in the root. Setting this to "False" will prevent the upgrade process from triggering by normal site visitors. 
+* Ensure **AutoUpgrade** setting is "False". This setting can be found within **AppSettings** section of the `web.config` file in the root. Setting this to "False" will prevent the upgrade process from being triggered by normal site visitors. 
 
-* Know the desired version of DNN Platform and download the appropriate "Upgrade" ZIP package from [the official repository on GitHub](https://github.com/dnnsoftware/DNN.Platform/releases) (which can be found in the **Assets** section for the desired version release).
+* Know the desired version of DNN Platform and download the appropriate "Upgrade" ZIP package from [the official repository on GitHub](https://github.com/dnnsoftware/DNN.Platform/releases). The file can be found in the **Assets** section for the desired version release and will have a naming convention like **DNN_Platform_9.4.4_Upgrade.zip**.
 
 * Know the [suggested upgrade path](xref:setup-upgrades-suggested-upgrade-path) from the current version of DNN Platform and download all appropriate "Upgrade" ZIP packages from the above referenced GitHub link.
 
@@ -35,13 +35,11 @@ When ready to begin the upgrade process, take the website offline to avoid any a
 > This also prevents access to any other site pages. Any attempts will be redirected to the base URL and will display the HTML message contained in the `app_offline.htm` file.
 
 ## Step 3 - Backup Files & Database
-It is recommended to perform this step in a "native" fashion.
-
 All files, folders and subfolders (root and below) can be manually copied to a temporary location outside of the website directory structure.
 
 The database can be backed up using Microsoft SQL Server Management Studio (SSMS).
 
-If "native" access to the server is not possible, there other options depending on the hosting environment and available third-party extensions.  Following is a short list of alternate backup options.
+If this level of access to the server is not possible, there are other options depending on the hosting environment and available third-party extensions.  Following is a short list of alternate backup options.
 
 * Secure File Transfer Protocol (SFTP) or File Transfer Protocol (FTP) in combination with remote Microsoft SQL Server Management Studio (SSMS).
 * Control Panel (e.g., Plesk)
@@ -49,6 +47,9 @@ If "native" access to the server is not possible, there other options depending 
 
 ## Step 4 - Apply Upgrade Package
 Extract the desired "Upgrade" ZIP package to the root of the website. (_If the "Upgrade" ZIP file was already extracted to a temporary location, then simply copy the extracted files to the root of the website._) If prompted, chose the option to overwrite/merge any files/folders.
+
+> [!IMPORTANT]
+> You may need to [UNBLOCK the downloaded ZIP file](https://blogs.msdn.microsoft.com/delay/p/unblockingdownloadedfile/) to avoid security warnings.
 
 ## Step 5 - Bring Website Online
 Rename the `app_offline.htm` file to something like `app_offline.htm.disabled`. This will automatically bring the website back online.
