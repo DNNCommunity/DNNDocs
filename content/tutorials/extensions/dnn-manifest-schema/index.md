@@ -331,6 +331,18 @@ Some component types are applicable only to the package type of the same name; g
 
     ```
 
+    Starting with Dnn 9.5.0, you can also use a globbing patterns as in this example.
+    
+    ```
+        <component type="Cleanup" version="07.40.00" glob="DesktopModules/MyModule/scripts/*;DesktopModule/MyModule/images/*.gif;DesktopModules/MyModule/**/*.txt" />
+    ```
+
+    Notes:
+    * You can specify more than one globbing pattern on the same line by separating each pattern with `;`
+    * More information on supported globbing patterns can be found at the [Microsoft.Extensions.FileSystemGlobbing documentation](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.filesystemglobbing.matcher?view=dotnet-plat-ext-3.1#remarks)
+    * Globbing patterns can only be used to match files, not directories (if you need to delete a directory, first it needs to be empty, then you need to use one of the above methods to delete the actual directory).
+    * All methods take paths relative to the application root folder, for that reason `..` is intentionally not supported with globbing patterns in this component.
+
     See also:
 
     *   Component type `Config` to update configuration files during uninstall.
