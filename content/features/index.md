@@ -26,6 +26,7 @@ dnnversion: 09.02.00
 * Digital Asset Management
 * Drag & Drop Content Arrangement
 * Extensibility
+* Event System
 * Flexible Menu/Nav
 * File Manager
 * GDPR
