@@ -2,11 +2,31 @@
 uid: dnn-features
 locale: en
 title: Features of DNN
-dnnversion: 09.02.00
+dnnversion: 09.05.00
 ---
 
 # DNN Features
+Following is a list of features within **DNN Platform**. As each feature from the **TODO** bullet list at the bottom of this page is documented, it should be removed from that list and linked accordingly within the appropriate section below.
 
+## [General](xref:features-general)
+General high-level features within **DNN Platform** that do not fit nicely within any of the following sections.
+
+## [Content Management](xref:features-content-management)
+Content management features within **DNN Platform**.
+
+## [Extensibility](xref:features-extensibility)
+Extensibility features within **DNN Platform**.
+
+## [Security/Privacy](xref:features-security-privacy)
+Security and privacy features within **DNN Platform**.
+
+## [Performance](xref:features-performance)
+Performance features within **DNN Platform**.
+
+## [Tools/Utilities](xref:features-tools-utilities)
+Tools and utilities features within **DNN Platform**.
+
+### TODO:
 * Activity Journal
 * Allow Indexing
 * Analytics
@@ -14,7 +34,6 @@ dnnversion: 09.02.00
 * Bulk User Management
 * Bulk Emails
 * Captcha
-* [CLI / Prompt](xref:prompt)
 * Connectors
 * Containers
 * Content Scheduling
