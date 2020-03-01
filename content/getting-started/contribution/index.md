@@ -8,6 +8,9 @@ dnnversion: 09.05.00
 # DNN Contribution
 Following is an overview of basic contribution to **DNN**.
 
+## DNN Platform (TODO)
+Learn the basic steps for contributing to the **DNN Platform** project on GitHub.
+
 ## [DNN Docs](xref:contribute-to-docs)
 Learn the basic steps for contributing to the **DNN Docs** project on GitHub, which powers **dnndocs.com**.
 
