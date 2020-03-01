@@ -1,11 +1,14 @@
 ---
 uid: getting-started-contribution
 locale: en
-title: DNN Platform Contribution
-dnnversion: 09.04.03
+title: DNN Contribution
+dnnversion: 09.05.00
 ---
 
-# DNN Platform Contribution
-Following is an overview of basic contribution to **DNN Platform**.
+# DNN Contribution
+Following is an overview of basic contribution to **DNN**.
+
+## [DNN Docs](xref:contribute-to-docs)
+Learn the basic steps for contributing to the **DNN Docs** project on GitHub, which powers **dnndocs.com**.
 
 Please click the **Improve this Doc** button above to help us improve this page.
