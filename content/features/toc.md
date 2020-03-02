@@ -6,7 +6,7 @@
 # [Content Management](xref:content-management)
 ## [Sites](xref:sites)
 ### [Import/Export](xref:import-export)
-# [Extensibility](xref:features-extensibility)
+# [Extensibility](xref:extensibility)
 ## [Extensions](xref:extensions)
 ## [Modules](xref:modules)
 ## [Themes](xref:themes)
