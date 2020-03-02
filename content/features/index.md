@@ -14,7 +14,7 @@ General high-level features within **DNN Platform** that do not fit nicely withi
 ## [Content Management](xref:content-management)
 Content management features within **DNN Platform**.
 
-## [Extensibility](xref:features-extensibility)
+## [Extensibility](xref:extensibility)
 Extensibility features within **DNN Platform**.
 
 ## [Security/Privacy](xref:features-security-privacy)

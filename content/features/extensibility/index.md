@@ -1,5 +1,5 @@
 ---
-uid: features-extensibility
+uid: extensibility
 locale: en
 title: Extensibility
 dnnversion: 09.05.00
