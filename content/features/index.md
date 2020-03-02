@@ -20,7 +20,7 @@ Extensibility features within **DNN Platform**.
 ## [Security/Privacy](xref:security-privacy)
 Security and privacy features within **DNN Platform**.
 
-## [Performance](xref:features-performance)
+## [Performance](xref:performance)
 Performance features within **DNN Platform**.
 
 ## [Tools/Utilities](xref:features-tools-utilities)
