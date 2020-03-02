@@ -1,5 +1,5 @@
 ---
-uid: features-performance
+uid: performance
 locale: en
 title: Performance
 dnnversion: 09.05.00

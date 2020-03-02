@@ -21,6 +21,6 @@
 #### [Data Consent Redirect](xref:data-consent-redirect)
 #### [Data Consent User Removal](xref:data-consent-user-delete)
 #### [Data Consent User Management](xref:data-consent-user-management)
-# [Performance](xref:features-performance)
+# [Performance](xref:performance)
 # [Tools/Utilities](xref:features-tools-utilities)
 ## [Prompt CLI](xref:prompt)
