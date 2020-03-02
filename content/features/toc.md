@@ -3,7 +3,7 @@
 ### [DNN Solutions](xref:dnn-overview)
 ### [Platform Overview](xref:platform-overview-overview)
 #### [Core Platform Objects](xref:platform-overview-core-objects)
-# [Content Management](xref:features-content-management)
+# [Content Management](xref:content-management)
 ## [Sites](xref:sites)
 ### [Import/Export](xref:import-export)
 # [Extensibility](xref:features-extensibility)
