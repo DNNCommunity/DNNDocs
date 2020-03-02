@@ -17,7 +17,7 @@ Content management features within **DNN Platform**.
 ## [Extensibility](xref:extensibility)
 Extensibility features within **DNN Platform**.
 
-## [Security/Privacy](xref:features-security-privacy)
+## [Security/Privacy](xref:security-privacy)
 Security and privacy features within **DNN Platform**.
 
 ## [Performance](xref:features-performance)

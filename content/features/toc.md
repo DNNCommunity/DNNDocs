@@ -10,7 +10,7 @@
 ## [Extensions](xref:extensions)
 ## [Modules](xref:modules)
 ## [Themes](xref:themes)
-# [Security/Privacy](xref:features-security-privacy)
+# [Security/Privacy](xref:security-privacy)
 ## [Security](xref:platform-overview-security)
 ### [JWT](xref:jwt)
 ## [Privacy](xref:privacy)

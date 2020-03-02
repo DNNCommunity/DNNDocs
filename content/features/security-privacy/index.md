@@ -1,5 +1,5 @@
 ---
-uid: features-security-privacy
+uid: security-privacy
 locale: en
 title: Security & Privacy
 dnnversion: 09.05.00
