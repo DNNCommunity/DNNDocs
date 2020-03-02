@@ -23,7 +23,7 @@ Security and privacy features within **DNN Platform**.
 ## [Performance](xref:performance)
 Performance features within **DNN Platform**.
 
-## [Tools/Utilities](xref:features-tools-utilities)
+## [Tools/Utilities](xref:tools-utilities)
 Tools and utilities features within **DNN Platform**.
 
 ### TODO:
