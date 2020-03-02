@@ -1,4 +1,4 @@
-# [General](xref:features-general)
+# [General](xref:general)
 ## [What Is DNN](xref:dnn)
 ### [DNN Solutions](xref:dnn-overview)
 ### [Platform Overview](xref:platform-overview-overview)

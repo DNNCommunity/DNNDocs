@@ -8,7 +8,7 @@ dnnversion: 09.05.00
 # DNN Features
 Following is a list of features within **DNN Platform**. As each feature from the **TODO** bullet list at the bottom of this page is documented, it should be removed from that list and linked accordingly within the appropriate section below.
 
-## [General](xref:features-general)
+## [General](xref:general)
 General high-level features within **DNN Platform** that do not fit nicely within any of the following sections.
 
 ## [Content Management](xref:content-management)
