@@ -11,7 +11,7 @@ Following is a list of features within **DNN Platform**. As each feature from th
 ## [General](xref:features-general)
 General high-level features within **DNN Platform** that do not fit nicely within any of the following sections.
 
-## [Content Management](xref:features-content-management)
+## [Content Management](xref:content-management)
 Content management features within **DNN Platform**.
 
 ## [Extensibility](xref:features-extensibility)

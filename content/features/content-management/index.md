@@ -1,5 +1,5 @@
 ---
-uid: features-content-management
+uid: content-management
 locale: en
 title: Content Management
 dnnversion: 09.05.00
