@@ -1,5 +1,5 @@
 ---
-uid: features-tools-utilities
+uid: tools-utilities
 locale: en
 title: Tools & Utilities
 dnnversion: 09.05.00
