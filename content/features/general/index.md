@@ -1,5 +1,5 @@
 ---
-uid: features-general
+uid: general
 locale: en
 title: General
 dnnversion: 09.05.00
