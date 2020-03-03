@@ -9,7 +9,7 @@ dnnversion: 09.02.00
 Looking to get started with **DNN Platform**? Check out the following great resources.
 
 ## [Setup](xref:getting-started-setup)
-Learn the basic steps for setup of **DNN Platform**.
+Learn the basic steps for setup of **DNN Platform** in the [Setting Up DNN](xref:administrators-setup-overview) section.
 
 ## [Administration](xref:getting-started-administration)
 Learn the basic steps for administration of **DNN Platform**.
