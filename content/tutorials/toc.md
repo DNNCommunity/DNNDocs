@@ -186,6 +186,7 @@
 ##[Troubleshooting: Site Theme Does Not Load](xref:ts-site-theme-not-loading)
 ##[Troubleshooting: Incomplete Localization](xref:ts-incomplete-content-localization)
 ##[Troubleshooting: Missing Persona Bar](xref:ts-missing-persona-bar)
+##[Troubleshooting: Too Many Redirects Error](xref:ts-too-many-redirects)
 
 # DEVELOPING FOR DNN
 
