@@ -19,13 +19,15 @@ A CSS file can be associated with a layout template or container by giving it th
 
 CSS files are applied hierarchically. If a style is defined for an element in multiple CSS files with equal specificity, the last CSS that mentions the same element overrides the style definitions in previously loaded CSS files. By default, the CSS files are loaded in this order:
 
-1.  default.css ( ~/Portals/_default/default.css) — The default CSS for the website.
-2.  module.css ( ~/DesktopModules/mymodulename/module.css) — The CSS for every module type that appears on the page.
-3.  skin.css ( ~/Portals/PortalID/Skins/SkinPackageName/skin.css) — The master CSS for the theme must be called skin.css.
-4.  MyThemeTemplate.css ( ~/Portals/_default/Skins/SkinPackageName/MyThemeTemplate.css) — The CSS for a specific layout template.
-5.  container.css ( ~/Portals/PortalID/Containers/ContainerPackageName/container.css) — The master CSS for all containers in your theme.
-6.  portal.css ( ~/Portals/PortalID/portal.css) — The CSS that can override elements in the installed themes. Website administrators can use this to override any styles in the theme or containers.
-
+1.  CustomPage.css ( ~/Portals/PortalID/MyCustomPage.css) —  File must be uploaded to portal root directory or sub-directory.  Page.css files generally can share the same name as the page but is not required (example: Home = home.css). Set the file name in Page Settings > Advanced > Appearance tab.
+2.  default.css ( ~/Portals/_default/default.css) — The default CSS for the website.
+3.  admin.css ( ~/Portals/_default/admin.css) — The admin CSS for the website.
+4.  module.css ( ~/DesktopModules/mymodulename/module.css) — The CSS for every module type that appears on the page.
+5.  skin.css ( ~/Portals/PortalID/Skins/SkinPackageName/skin.css) — The master CSS for the theme must be called skin.css.
+6.  MyThemeTemplate.css ( ~/Portals/_default/Skins/SkinPackageName/MyThemeTemplate.css) — The CSS for a specific layout template.
+7.  container.css ( ~/Portals/PortalID/Containers/ContainerPackageName/container.css) — The master CSS for all containers in your theme.
+8.  portal.css ( ~/Portals/PortalID/portal.css) — The CSS that can override elements in the installed themes. Website administrators can use this to override any styles in the theme or containers.
+9.  DefaultPriority CSS files mainly in the DNN framework which are applied in the order loaded.
 > [!NOTE]
 > These style sheets are not required. You can also store all your styles in one master theme style sheet (skin.css). However, if you combine your container styles and your theme styles in one CSS file, then the container will display properly only when used with your theme.
 
