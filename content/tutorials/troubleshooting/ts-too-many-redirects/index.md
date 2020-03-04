@@ -32,7 +32,7 @@ Usually a typo, but sometimes a simple misconfiguration when moving the website.
 > Tools like the Network Tools in the web browser or telerik's Fiddler can help you inspect the response headers to determine where and how to troubleshoot the correct cause above.  If this is a redirect issue, look for `x-redirect-reason` in the response headers.  
 
 ## Solutions  
-Herre are the solutions for the causes found above.  
+Here are the solutions for the causes found above.  
 
 ### Typo  
 
@@ -48,7 +48,7 @@ This includes the database passwords.  If you're generating the passwords using 
 
 One of the easiest ways to troubleshoot the web.config is to [enable tracing in IIS](https://docs.microsoft.com/en-us/iis/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis).  
 
-### Invalid permissions
+### Invalid Permissions
 
 [Reapply the permissions](xref:set-up-dnn-folder) to the main website folder and ensure that the permissions are propagated to all children folders.  
 
