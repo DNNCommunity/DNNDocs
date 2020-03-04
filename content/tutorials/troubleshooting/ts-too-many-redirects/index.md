@@ -38,6 +38,14 @@ Here are the solutions for the causes found above.
 
 Go to each area and copy then paste the correct values.  A typo in something like the URL or database username is super-easy to miss by looking at it.  
 
+Be sure to review each of the following areas:  
+
+* `connectionStrings` section of the web.config (includes database server, database name, username, and password)  
+* `PortalAlias` database table  
+* `DefaultPortalAlias` row in the `PortalSettings` database table  
+* `PortalAliasMapping` row in the `PortalSettings` database table (the value usually should be `REDIRECT`, but may need to be changed to `NONE` or `CANONICALURL`)  
+* HTTP and HTTPS website bindings in IIS  
+
 This is the most common cause and solution for both the redirect and null errors.  
 
 ### Invalid web.config  
