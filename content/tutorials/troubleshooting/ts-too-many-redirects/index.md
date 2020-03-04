@@ -20,7 +20,7 @@ This usually occurs when moving or migrating a website from one environment to a
 Usually a typo, but sometimes a simple misconfiguration when moving the website. The possible causes are listed below:  
 
 * Typo: Malformed or incorrect values in the `connectionStrings` section of the web.config.  
-* Typo: Incorrect website URL in the web.config, `PortalAlias` database table, `DefaultPortalAlias` row in the `PortalSettings` database table, IIS website bidings, and the SSL bindings.  
+* Typo: Incorrect website URL in the web.config, `PortalAlias` database table, `DefaultPortalAlias` row in the `PortalSettings` database table, IIS website bindings, and the SSL bindings.  
 * Invalid web.config:  Invalid XML in the web.config.  
 * Invalid web.config:  Unmerged updates in the web.config.  
 * Invalid permissions in the website's folder.  
@@ -68,4 +68,4 @@ When this is the case, this section may not be compatible with new locations whe
 
 When you're using HTTPS/SSL and moving the website from one environment to another, you may be using a different Web Application Firewall (WAF) (e.g., Imperva, CloudFlare, etc.) or the WAF may be configured differently.  When this is the case, you might have to adjust how you're configuring SSL in DNN itself.  
 
-For example, in developemnt and/or staging, you may be using the `Enable SSL` and `Enforce SSL` settings to be sure that pages and other website assets are loading over HTTPS.  However, you may need to turn those off in production because both DNN and the WAF are both trying to redirect to the SSL version of the requested URL.  (Or vice versa...)  
+For example, in development and/or staging, you may be using the `Enable SSL` and `Enforce SSL` settings to be sure that pages and other website assets are loading over HTTPS.  However, you may need to turn those off in production because both DNN and the WAF are both trying to redirect to the SSL version of the requested URL.  (Or vice versa...)  
