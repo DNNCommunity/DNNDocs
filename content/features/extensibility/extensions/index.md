@@ -66,14 +66,17 @@ For example, if you have code to run a custom report on regular basis, you would
 You can produce a module in different ways:
 
 *   Create an entire module from scratch. For very simple modules, you can use the DNN Module Creator.
-*   Start with module development templates, such as:
-    *   [DNN 8 Templates](https://github.com/dnnsoftware/DNN.Templates/releases/)
-    *   [Chris Hammond's DotNetNuke Module and Theme Development Templates](https://github.com/ChrisHammond/DNNTemplates/) ([Installation instructions](https://www.chrishammond.com/blog/itemid/2616/using-the-new-module-development-templates-for-dot/))
-    *   [Matt Rutledge's generator-dnn](https://github.com/mtrutledge/generator-dnn)
-    *   [Upendo Ventures' generator-upendodnn](https://github.com/UpendoVentures/generator-upendodnn)
-*   Customize a pre-existing module.
+*   Customize a pre-existing module using the source code you have (such as an existing open-source extension).
+*   Start with development templates.  Some of the more common ones are included below:  
 
-    Thousands of third-party modules and themes are available from the [DNN Store](https://store.dnnsoftware.com). There are extensions for sale, including versions that include the source code, as well as some free extension.
+| __Name__                                                                                                                                                                                                                                               | __Level__ | __Background__                                                                                                                                                         | __Templates Included__                                                                                                                                                   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [DNN 8 Templates](https://github.com/dnnsoftware/DNN.Templates/releases/)                                                                                                                                                                              | Beginner        | Standalone templates created by DNN Corp to promote the new MVC and SPA development patterns in DNN 8.0. Build modules in the `DesktopModules` folder in your website. | MVC Module, SPA Module                                                                                                                                                   |
+| [Chris Hammond's DotNetNuke Module and Theme Development Templates ](https://github.com/ChrisHammond/DNNTemplates/)([Installation instructions ](https://www.chrishammond.com/blog/itemid/2616/using-the-new-module-development-templates-for-dot/))  | Beginner        | Visual Studio-based templates that allow you to build modules in the `DesktopModules` folder in your website.                                                          | Theme, Webforms Module, MVC Module, SPA Module (VB and C# included for modules)                                                                                                     |
+| [Matt Rutledge's generator-dnn](https://github.com/mtrutledge/generator-dnn)                                                                                                                                                                           | Intermediate    | Yeoman-based templates that allow you to build extension on a Mac. Visual Studio is not required.                                                                      | MVC Module (.NET Core), SPA Module, Persona Bar Plug-In                                                                                                                  |
+| [Upendo Ventures' generator-upendodnn](https://github.com/UpendoVentures/generator-upendodnn)                                                                                                                                                          | Intermediate    | Yeoman-based templates for developers on Windows. Visual Studio is best for the resulting templates. Originally based on Matt Rutledge's generator.                    | Solution Structure, MVC Module, MVC (.NET Core) Module, SPA Module, Webforms Module, MVC+SPA Module, Theme Object, Library, Scheduled Job, Hotcakes Commerce Extensions, Persona Bar plug-in |
+
+Thousands of third-party modules and themes are available from the [DNN Store](https://store.dnnsoftware.com). There are extensions for sale, including versions that include the source code, as well as some free extension.
 
 You can also use different programming frameworks (Web Forms, MVC, SPA) and languages (C#, VB) to create your module.
 
@@ -81,3 +84,4 @@ You can also use different programming frameworks (Web Forms, MVC, SPA) and lang
 
 Themes are comprised of layout templates for the webpages, containers for modules, their associated CSS, and their DocType files. These files, along with the DNN Manifest, are packaged into a zip file, which is used to install your theme.
 
+The Christoc template mentioned above includes a theme template for you to use.  You can also build themes from scratch or use the [nvQuickTheme theme development tool by nvisionative](https://www.nvquicktheme.com/).  
