@@ -9,7 +9,7 @@ dnnversion: 09.05.00
 Following is an overview of basic contribution to **DNN**.
 
 ## DNN Platform (TODO)
-Learn the basic steps for contributing to the **DNN Platform** project on GitHub.
+On https://dnncommunity.org/blogs/Post/1440/The-super-simple-guide-to-Github ther is the super simple guide to Github that is also applicable for contributing to the **DNN Platform** project on GitHub.
 
 ## [DNN Docs](xref:contribute-to-docs)
 Learn the basic steps for contributing to the **DNN Docs** project on GitHub, which powers **dnndocs.com**.
