@@ -19,17 +19,21 @@ A CSS file can be associated with a layout template or container by giving it th
 
 CSS files are applied hierarchically. If a style is defined for an element in multiple CSS files with equal specificity, the last CSS that mentions the same element overrides the style definitions in previously loaded CSS files. By default, the CSS files are loaded in this order:
 
-1.  CustomPage.css ( ~/Portals/PortalID/MyCustomPage.css) —  File must be uploaded to portal root directory or sub-directory.  Page.css files generally can share the same name as the page but is not required (example: Home = home.css). Set the file name in Page Settings > Advanced > Appearance tab.
-2.  default.css ( ~/Portals/_default/default.css) — The default CSS for the website.
-3.  admin.css ( ~/Portals/_default/admin.css) — The admin CSS for the website.
-4.  module.css ( ~/DesktopModules/mymodulename/module.css) — The CSS for every module type that appears on the page.
-5.  skin.css ( ~/Portals/PortalID/Skins/SkinPackageName/skin.css) — The master CSS for the theme must be called skin.css.
-6.  MyThemeTemplate.css ( ~/Portals/_default/Skins/SkinPackageName/MyThemeTemplate.css) — The CSS for a specific layout template.
-7.  container.css ( ~/Portals/PortalID/Containers/ContainerPackageName/container.css) — The master CSS for all containers in your theme.
-8.  portal.css ( ~/Portals/PortalID/portal.css) — The CSS that can override elements in the installed themes. Website administrators can use this to override any styles in the theme or containers.
-9.  DefaultPriority CSS files mainly in the DNN framework which are applied in the order loaded.
+in Page Settings > Advanced > Appearance tab.
+1.  default.css ( ~/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css) — The default CSS for the website (DefaultCss).
+2.  admin.css ( ~/Portals/_default/admin.css) — The admin CSS for the website (AdminCss).
+3.  module.css ( ~/DesktopModules/mymodulename/module.css) — The CSS for every module type that appears on the page (ModuleCss).
+4.  resources.css ( ~/Resources/.../resourcename.css) — The CSS for resources such as bootstrap, cookie consent and search (ResourceCss).
+5.  skin.css ( ~/Portals/PortalID/Skins/SkinPackageName/skin.css) — The master CSS for the theme must be called skin.css (SkinCss).
+6.  MyThemeTemplate.css ( ~/Portals/_default/Skins/SkinPackageName/MyThemeTemplate.css) — The CSS for a specific layout template  (SpecificSkinCss).
+7.  container.css ( ~/Portals/PortalID/Containers/ContainerPackageName/container.css) — The master CSS for all containers in your theme (ContainerCss).
+8.  portal.css ( ~/Portals/PortalID/portal.css) — The CSS that can override elements in the installed themes. Website administrators can use this to override any styles in the theme or containers (PortalCss).
+9.  CustomPage.css ( ~/Portals/PortalID/MyCustomPage.css) —  File must be uploaded to portal root directory or sub-directory.  Page.css files generally can share the same name as the page but is not required (example: Home = home.css). Set the file name 
+10.  DefaultPriority.css ( Any location such as an external Url or a DNN site folder ) —  CSS files that get loaded with no priority in the DNN framework or a module which are applied in the order loaded.  CustomPage.css uses this priority generally first ("DefaultPriority" or no priority assigned).
 > [!NOTE]
 > These style sheets are not required. You can also store all your styles in one master theme style sheet (skin.css). However, if you combine your container styles and your theme styles in one CSS file, then the container will display properly only when used with your theme.
+>  There are a few other css load order priorities not mentioned above.  SpecificContainerCss loads after ContainerCss - FeatureCss priority file feature.css and then IeCss priority file loads after AdminCss and prior to ModuleCss.
+>  For module developers the priority is determined using CssPriority calling the method ClientResourceManager.RegisterStyleSheet(this, customStylesheet, CssPriority);  More on this css file order can be found in the source file located currently located here: https://github.com/thabaum/Dnn.Platform/blob/patch-25/DNN%20Platform/DotNetNuke.Web.Client/FileOrder.cs#L92
 
 ## Steps
 
