@@ -36,7 +36,7 @@ CSS files are applied hierarchically. If a style is defined for an element in mu
 >
 >  There are a few other css load order priorities not mentioned above.  SpecificContainerCss will load after ContainerCss. FeatureCss priority file feature.css and then IeCss priority file ie.css will load after AdminCss and prior to ModuleCss.  However these files are not currently being loaded by the platform.
 >
->  Developers can use a css file load order priority determined by setting a CssPriority value when calling the method ClientResourceManager.RegisterStyleSheet(this, customStylesheet, CssPriority); to load a css file in desired order. More on this css file order can be found in the DNN Platform github source file currently located here: https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN%20Platform/DotNetNuke.Web.Client/FileOrder.cs#L92
+>  Theme and module developers can load their own CSS files by calling the method `ClientResourceManager.RegisterStyleSheet` or using the `DnnCssInclude` control.  If priority is not specified in these calls, `DefaultPriority` will be used.  For modules and themes, a priority at or near `ModuleCss` and `SkinCss` are probably more correct, so that themes can more easily override module styles and administrators can more easily override theme styles.
 
 ## Steps
 
