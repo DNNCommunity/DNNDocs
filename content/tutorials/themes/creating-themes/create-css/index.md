@@ -19,17 +19,18 @@ A CSS file can be associated with a layout template or container by giving it th
 
 CSS files are applied hierarchically. If a style is defined for an element in multiple CSS files with equal specificity, the last CSS that mentions the same element overrides the style definitions in previously loaded CSS files. By default, the CSS files are loaded in this order:
 
-in Page Settings > Advanced > Appearance tab.
-1.  default.css ( ~/Resources/Shared/stylesheets/dnndefault/x.x.x/default.css) — The default CSS for the website located in latest version folder for the default.css file.  A theme can choose which version to load or not load a default.css file at all.  (DefaultCss).
-2.  admin.css ( ~/Portals/_default/admin.css) — The admin CSS for the website (AdminCss).
-3.  module.css ( ~/DesktopModules/mymodulename/module.css) — The CSS for every module type that appears on the page (ModuleCss).
-4.  resources.css ( ~/Resources/.../resourcename.css) — The CSS for resources such as bootstrap, cookie consent and search (ResourceCss).
-5.  skin.css ( ~/Portals/PortalID/Skins/SkinPackageName/skin.css) — The master CSS for the theme must be called skin.css (SkinCss).
-6.  MyThemeTemplate.css ( ~/Portals/_default/Skins/SkinPackageName/MyThemeTemplate.css) — The CSS for a specific layout template  (SpecificSkinCss).
-7.  container.css ( ~/Portals/PortalID/Containers/ContainerPackageName/container.css) — The master CSS for all containers in your theme (ContainerCss).
-8.  portal.css ( ~/Portals/PortalID/portal.css) — The CSS that can override elements in the installed themes. Website administrators can use this to override any styles in the theme or containers (PortalCss).
-9.  CustomPage.css ( ~/Portals/PortalID/MyCustomPage.css) —  File must be uploaded to portal root directory or sub-directory.  CustomPage.css files generally can share the same name as the page but is not required (example: Home = home.css). Set the file name in Persona Bar > Content > Pages select the page and navigate to Advanced > Appearance and set the CustomPage.css file name in the Page Stylesheet text area.  Currently loads in order of files included with DefaultPriority css files.
-10.  DefaultPriority.css ( Any location such as an external Url or a DNN site folder ) —  CSS files that get loaded with no priority in the DNN framework or a module which are applied in the order loaded.  CustomPage.css uses this priority and is generally first however this is determined by first come first serve basis and can change on different pages depending on which modules, skins and other resources are loading css files using this priority.  ("DefaultPriority" or no priority assigned).
+1.  `DefaultCss` (`~/Resources/Shared/stylesheets/dnndefault/x.x.x/default.css`, priority 5) — The default CSS for the website.  As of DNN 8, there is a new version of default.css, but version 7 is loaded by default.  A theme can choose which version to load or not load a default.css file at all.
+2.  `AdminCss` (`~/Portals/_default/admin.css`, priority 6) — The admin CSS for the website.
+3.  `FeatureCss` (`~/Resources/*/*.css`, priority 7) — Some CSS for shared DNN resources such as autocomplete, countries/regions, and drag & drop.
+4.  `IeCss` (`~/Portals/_default/ie.css`, priority 8) — CSS loaded to handle quirks in Internet Explorer.
+5.  `ModuleCss` (`~/DesktopModules/*/module.css`, priority 10) — The CSS for every module type that appears on the page.
+6.  `ResourceCss` (`~/Resources/*/*.css`, priority 12) — Some CSS for shared DNN resources such as file upload, password strength, and cookie consent.
+7.  `SkinCss` (`~/Portals/*/Skins/*/skin.css`, priority 15) — The master CSS for the theme must be called `skin.css`.
+8.  `SpecificSkinCss` (`~/Portals/*/Skins/*/*.css, priority 20) — The CSS for a specific layout template, the CSS file name will match the layout file name, e.g. `Home.ascx` and `Home.css`.
+9.  `ContainerCss` (`~/Portals/*/Containers/*/container.css, priority 25) — The master CSS for all containers in your theme.
+10.  `SpecificContainerCss` (`~/Portals/*/Containers/*/*.css, priority 30) — The CSS for a specific container, the CSS file name will match the container file name, e.g. `Banner.ascx` and `Banner.css`.
+11.  `PortalCss` (`~/Portals/*/portal.css`, priority 35) — The CSS that website administrators can edit through DNN, useful for creating site-specific overrides for styles.
+12.  `DefaultPriority` (priority 100) —  If a priority is not specified, all other CSS files are loaded with this default priority.  This includes the _Page Stylesheet_, which can be set in the settings for a page.  The filename entered in that setting will be a path to a file in the site's file system (e.g. `home.css` will refer to `~/Portals/0/home.css` for a page in the site with ID `0`).  There is no guarantee about ordering within a single priority, so the _Page Stylesheet_ can load before and/or after other stylesheets loaded at `DefaultPriority`.
 > [!NOTE]
 > These style sheets are not required. You can also store all your styles in one master theme style sheet (skin.css). However, if you combine your container styles and your theme styles in one CSS file, then the container will display properly only when used with your theme.
 >
