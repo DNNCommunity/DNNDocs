@@ -34,8 +34,6 @@ CSS files are applied hierarchically. If a style is defined for an element in mu
 > [!NOTE]
 > These style sheets are not required. You can also store all your styles in one master theme style sheet (skin.css). However, if you combine your container styles and your theme styles in one CSS file, then the container will display properly only when used with your theme.
 >
->  There are a few other css load order priorities not mentioned above.  SpecificContainerCss will load after ContainerCss. FeatureCss priority file feature.css and then IeCss priority file ie.css will load after AdminCss and prior to ModuleCss.  However these files are not currently being loaded by the platform.
->
 >  Theme and module developers can load their own CSS files by calling the method `ClientResourceManager.RegisterStyleSheet` or using the `DnnCssInclude` control.  If priority is not specified in these calls, `DefaultPriority` will be used.  For modules and themes, a priority at or near `ModuleCss` and `SkinCss` are probably more correct, so that themes can more easily override module styles and administrators can more easily override theme styles.
 
 ## Steps
