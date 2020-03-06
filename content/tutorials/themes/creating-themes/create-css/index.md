@@ -20,7 +20,7 @@ A CSS file can be associated with a layout template or container by giving it th
 CSS files are applied hierarchically. If a style is defined for an element in multiple CSS files with equal specificity, the last CSS that mentions the same element overrides the style definitions in previously loaded CSS files. By default, the CSS files are loaded in this order:
 
 in Page Settings > Advanced > Appearance tab.
-1.  default.css ( ~/Resources/Shared/stylesheets/dnndefault/x.x.x/default.css) — The default CSS for the website located in latest version folder for the default.css file.(DefaultCss).
+1.  default.css ( ~/Resources/Shared/stylesheets/dnndefault/x.x.x/default.css) — The default CSS for the website located in latest version folder for the default.css file.  A theme can choose which version to load or not load a default.css file at all.  (DefaultCss).
 2.  admin.css ( ~/Portals/_default/admin.css) — The admin CSS for the website (AdminCss).
 3.  module.css ( ~/DesktopModules/mymodulename/module.css) — The CSS for every module type that appears on the page (ModuleCss).
 4.  resources.css ( ~/Resources/.../resourcename.css) — The CSS for resources such as bootstrap, cookie consent and search (ResourceCss).
