@@ -33,7 +33,7 @@ in Page Settings > Advanced > Appearance tab.
 > [!NOTE]
 > These style sheets are not required. You can also store all your styles in one master theme style sheet (skin.css). However, if you combine your container styles and your theme styles in one CSS file, then the container will display properly only when used with your theme.
 >  There are a few other css load order priorities not mentioned above.  SpecificContainerCss will load after ContainerCss. FeatureCss priority file feature.css and then IeCss priority file ie.css will load after AdminCss and prior to ModuleCss.  However these files are not currently being loaded by the platform.
->  Developers can use a css file load order priority determined by setting a CssPriority value when calling the method ClientResourceManager.RegisterStyleSheet(this, customStylesheet, CssPriority); to load a css file in desired order. More on this css file order can be found in the DNN Platform github source file located currently located here: https://github.com/thabaum/Dnn.Platform/blob/patch-25/DNN%20Platform/DotNetNuke.Web.Client/FileOrder.cs#L92
+>  Developers can use a css file load order priority determined by setting a CssPriority value when calling the method ClientResourceManager.RegisterStyleSheet(this, customStylesheet, CssPriority); to load a css file in desired order. More on this css file order can be found in the DNN Platform github source file located currently located here: https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN%20Platform/DotNetNuke.Web.Client/FileOrder.cs#L92
 
 ## Steps
 
