@@ -32,7 +32,7 @@ in Page Settings > Advanced > Appearance tab.
 10.  DefaultPriority.css ( Any location such as an external Url or a DNN site folder ) —  CSS files that get loaded with no priority in the DNN framework or a module which are applied in the order loaded.  CustomPage.css uses this priority generally first ("DefaultPriority" or no priority assigned).
 > [!NOTE]
 > These style sheets are not required. You can also store all your styles in one master theme style sheet (skin.css). However, if you combine your container styles and your theme styles in one CSS file, then the container will display properly only when used with your theme.
->  There are a few other css load order priorities not mentioned above.  SpecificContainerCss will load after ContainerCss. FeatureCss priority file feature.css and then IeCss priority file will load after AdminCss and prior to ModuleCss.
+>  There are a few other css load order priorities not mentioned above.  SpecificContainerCss will load after ContainerCss. FeatureCss priority file feature.css and then IeCss priority file ie.css will load after AdminCss and prior to ModuleCss.  However these files are not currently being loaded by the platform.
 >  Module and platform developers can use a css file load order priority determined by the CssPriority value calling the method ClientResourceManager.RegisterStyleSheet(this, customStylesheet, CssPriority);  More on this css file order can be found in the DNN Platform github source file located currently located here: https://github.com/thabaum/Dnn.Platform/blob/patch-25/DNN%20Platform/DotNetNuke.Web.Client/FileOrder.cs#L92
 
 ## Steps
