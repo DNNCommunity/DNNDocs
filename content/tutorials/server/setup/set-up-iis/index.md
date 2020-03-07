@@ -17,7 +17,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](https://www.
 ## Steps
 
 1.  Enable IIS.
-    1.  [Check compatible versions.](xref:requirements)
+    1.  [Check compatible versions.](xfref:setup-requirements)
     2.  Go to Control Panel \> Programs and Features \> Turn Windows features on or off.
 
 

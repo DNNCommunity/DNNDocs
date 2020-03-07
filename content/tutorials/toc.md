@@ -279,7 +279,7 @@
 ###[Creation Modules](xref:creation-modules)
 ####[Module Creator](xref:module-module-creator)
 ## [Replacement Tokens](xref:replacement-tokens)
-##[DNN Requirements](xref:requirements)
+##[DNN Requirements](xfref:setup-requirements)
 ##[Releases](xref:releases)
 ##[DNN Security](xref:dnn-security)
 ##[More Resources](xref:more-resources)
