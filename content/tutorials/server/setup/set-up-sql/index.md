@@ -14,7 +14,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](https://www.
 
 1.  Install SQL.
 
-    1.  [Check compatible versions.](xref:requirements)
+    1.  [Check compatible versions.](xfref:setup-requirements)
     2.  Choose New SQL Server stand-alone installation....
 
         ![New SQL Server stand-alone installation](/images/scr-InstallSQL-1.png)
