@@ -1,5 +1,5 @@
 ---
-uid: dnn-features
+uid: event-system
 locale: en
 title: Event System
 dnnversion: 
