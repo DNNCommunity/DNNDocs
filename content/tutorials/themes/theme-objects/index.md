@@ -154,7 +154,7 @@ The <dnn:BREADCRUMB...> block should be placed in the Theme on the spot you want
 
 |**Legacy Theme Object**|**Description**|**Replaced by**|
 |---|---|---|
-|LEFTMENU|Displays a vertical menu layout.|DDR Menu|
+|LEFTMENU|Displays a vertical menu layout.|DDR Menu with the appropriate template|
 |LINKS|Displays a flat menu of links associated with the current tab level and the parent node.|DDR Menu with the appropriate template|
 |NAV|Displays a menu according to the type specified in the ProviderName attribute.|DDR Menu with the appropriate template|
 |TREEVIEW|Displays a menu, similar to the Windows Explorer menu, using the **DNN Treeview Control**.|DDR Menu with the appropriate template|
