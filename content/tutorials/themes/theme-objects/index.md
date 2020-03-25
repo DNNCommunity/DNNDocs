@@ -136,7 +136,6 @@ The <dnn:BREADCRUMB...> block should be placed in the Theme on the spot you want
 |LOGIN|Displays **Login** for anonymous users and **Logout** for authenticated users.|
 |LOGO|Displays the website's logo.|
 |META|Add Meta Tags to your page|
-|MODULEMESSAGE|Displays Module messages|
 |PRIVACY|Displays a link to the Privacy Information page for the website.|
 |SEARCH|Displays the search input box.|
 |SIGNIN|Displays the login control.|
@@ -148,17 +147,19 @@ The <dnn:BREADCRUMB...> block should be placed in the Theme on the spot you want
 |USERANDLOGIN|Displays a **Register** / **login** / **User** block.|
 
 |**Container Object**|**Description**|
-|---|---|
+|---|---|---|
+|MODULEMESSAGE|Displays Module messages|
 |ICON|Displays the module icon.|
 |TITLE|Displays the module title.|
 
 |**Legacy Theme Object**|**Description**|**Replaced by**|
-|---|---|
+|---|---|---|
 |LEFTMENU|Displays a vertical menu layout.|DDR Menu|
 |LINKS|Displays a flat menu of links associated with the current tab level and the parent node.|DDR Menu with the appropriate template|
 |NAV|Displays a menu according to the type specified in the ProviderName attribute.|DDR Menu with the appropriate template|
 |TREEVIEW|Displays a menu, similar to the Windows Explorer menu, using the **DNN Treeview Control**.|DDR Menu with the appropriate template|
 
 |**Legacy Theme Object**|**Description**|**Better use**|
+|---|---|---|
 |VISIBILITY|Displays a visibility control for the module allowing users to show or hide a given module on the page.|Custom JS/jQuery|
 |STYLES|Allows you to add Internet Explorer-specific stylesheets to your theme.|More modern methods like: <!--[if lt IE 9]>...<![endif]-->|
