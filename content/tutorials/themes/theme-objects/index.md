@@ -147,7 +147,7 @@ The <dnn:BREADCRUMB...> block should be placed in the Theme on the spot you want
 |USERANDLOGIN|Displays a **Register** / **login** / **User** block.|
 
 |**Container Object**|**Description**|
-|---|---|---|
+|---|---|
 |MODULEMESSAGE|Displays Module messages|
 |ICON|Displays the module icon.|
 |TITLE|Displays the module title.|
