@@ -1,48 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Composition;
+using System.Linq;
 using Microsoft.DocAsCode.Plugins;
 using Microsoft.DocAsCode.Build.ConceptualDocuments;
-using System.Net;
-using System.IO;
-using System.Linq;
-using Newtonsoft.Json;
+using DNNCommunity.DNNDocs.Plugins.GitHubStats.Models;
+using DNNCommunity.DNNDocs.Plugins.GitHubStats.Providers;
 
 namespace DNNCommunity.DNNDocs.Plugins.GitHubStats
 {
-    internal class Commits
-    {
-        [JsonProperty(PropertyName = "commit")]
-        public Commit Commit { get; set; }
-
-        [JsonProperty(PropertyName = "author")]
-        public Author Author { get; set; }
-    }
-
-    internal class Commit
-    {
-        [JsonProperty(PropertyName = "author")]
-        public CommitAuthor Author { get; set; }
-    }
-
-    internal class CommitAuthor
-    {
-        [JsonProperty(PropertyName = "date")]
-        public string Date { get; set; }
-    }
-
-    internal class Author
-    {
-        [JsonProperty(PropertyName = "login")]
-        public string Login { get; set; }
-
-        [JsonProperty(PropertyName = "avatar_url")]
-        public string AvatarUrl { get; set; }
-
-        [JsonProperty(PropertyName = "html_url")]
-        public string HtmlUrl { get; set; }
-    }
-
     [Export(nameof(ConceptualDocumentProcessor), typeof(IDocumentBuildStep))]
     public class PageStatsBuildStep : IDocumentBuildStep
     {
@@ -60,45 +26,33 @@ namespace DNNCommunity.DNNDocs.Plugins.GitHubStats
         #region Postbuild
         public void Postbuild(ImmutableList<FileModel> models, IHostService host)
         {
-            var ghApiBaseEndPoint = "https://api.github.com/repos/DNNCommunity/DNNDocs/commits";
-
             foreach (var model in models)
             {
                 if (model.Type == DocumentType.Article)
                 {
-                    string gitHubJsonFilePath = model.BaseDir + @"/github.json";
+                    string transformedFilePathFromRoot = model.LocalPathFromRoot.Replace("/", "%2F");
+                    List<Commits> gitCommits = GitHubApi.GetCommits(models, transformedFilePathFromRoot);
 
-                    if (File.Exists(gitHubJsonFilePath))
+                    if (gitCommits != null)
                     {
-                        string transformedFilePathFromRoot = model.LocalPathFromRoot.Replace("/", "%2F");
-                        Shared.GitHub access_token = JsonConvert.DeserializeObject<Shared.GitHub>(File.ReadAllText(gitHubJsonFilePath));
+                        var commits = gitCommits
+                            .GroupBy(x => x.Author.Login)
+                            .OrderByDescending(x => x.Count())
+                            .Select(x => x.FirstOrDefault())
+                            .Take(5);
 
-                        if (access_token != null && access_token.MyAccessToken != "")
+                        var content = (Dictionary<string, object>)model.Content;
+
+                        int index = 1;
+                        foreach (var commit in commits)
                         {
-                            List<Commits> gitCommits = GetPageCommits(ghApiBaseEndPoint + "?path=" + transformedFilePathFromRoot + "&access_token=" + access_token.MyAccessToken);
-
-                            if (gitCommits != null)
-                            {
-                                var commits = gitCommits
-                                    .GroupBy(x => x.Author.Login)
-                                    .OrderByDescending(x => x.Count())
-                                    .Select(x => x.FirstOrDefault())
-                                    .Take(5);
-
-                                var content = (Dictionary<string, object>)model.Content;
-
-                                int index = 1;
-                                foreach (var commit in commits)
-                                {
-                                    content["gitPageContributor" + index + "Login"] = commit.Author.Login;
-                                    content["gitPageContributor" + index + "AvatarUrl"] = commit.Author.AvatarUrl;
-                                    content["gitPageContributor" + index + "HtmlUrl"] = commit.Author.HtmlUrl;
-                                    index++;
-                                }
-
-                                content["gitPageDate"] = System.DateTime.Parse(gitCommits[0].Commit.Author.Date).ToShortDateString();
-                            }
+                            content["gitPageContributor" + index + "Login"] = commit.Author.Login;
+                            content["gitPageContributor" + index + "AvatarUrl"] = commit.Author.AvatarUrl;
+                            content["gitPageContributor" + index + "HtmlUrl"] = commit.Author.HtmlUrl;
+                            index++;
                         }
+
+                        content["gitPageDate"] = System.DateTime.Parse(gitCommits[0].Commit.Author.Date).ToShortDateString();
                     }
                 }
             }
@@ -112,50 +66,5 @@ namespace DNNCommunity.DNNDocs.Plugins.GitHubStats
         }
         #endregion
 
-        #region Helpers
-        private List<Commits> GetPageCommits(string endpoint)
-        {
-            HttpWebRequest webRequest = WebRequest.Create(endpoint) as HttpWebRequest;
-
-            if (webRequest != null)
-            {
-                webRequest.ContentType = "application/json";
-                webRequest.Method = "GET";
-                webRequest.UserAgent = "Nothing";
-                webRequest.ServicePoint.Expect100Continue = false;
-
-                try
-                {
-                    WebResponse webResponse = webRequest.GetResponse();
-                    var status = ((HttpWebResponse)webResponse).StatusDescription;
-
-                    if (status.Contains("401"))
-                    {
-                        return null;
-                    }
-                    else
-                    {
-                        using (var s = webResponse.GetResponseStream())
-                        {
-                            using (var sr = new StreamReader(s))
-                            {
-                                var commitsAsJson = sr.ReadToEnd();
-                                List<Commits> commits = JsonConvert.DeserializeObject<List<Commits>>(commitsAsJson);
-                                return commits;
-                            }
-                        }
-                    }
-                }
-                catch
-                {
-                    return null;
-                }
-            }
-            else
-            {
-                return null;
-            }
-        }
-        #endregion
     }
 }
