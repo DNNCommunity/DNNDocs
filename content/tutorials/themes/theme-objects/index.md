@@ -129,14 +129,14 @@ The <dnn:BREADCRUMB...> block should be placed in the Theme on the spot you want
 |HELP|Displays a **Help** link, which sends an email to the website's administrator, using the user's default email client.|
 |HOSTNAME|Displays the host title linked to the host URL. The host title and host URL are defined on the host settings page.|
 |JQUERY|Adds jQuery JavaScript reference to the page.|
-|JavaScriptLibraryInclude|Include an installed Javascripot Library|
+|JAVASCRIPTLIBRARYINCLUDE|Include an installed Javascripot Library|
 |LANGUAGE|Displays the language selector dropdown list or the language flags based on the theme object attribute settings.|
-|LinkToFullSite|Displays a link to the Desktop version of the website|
+|LINKTOFULLSITE|Displays a link to the Desktop version of the website|
 |LINKTOMOBILE|Displays a link to the Mobile version of the website|
 |LOGIN|Displays **Login** for anonymous users and **Logout** for authenticated users.|
 |LOGO|Displays the website's logo.|
 |META|Add Meta Tags to your page|
-|modulemessage|Displays Module messages|
+|MODULEMESSAGE|Displays Module messages|
 |PRIVACY|Displays a link to the Privacy Information page for the website.|
 |SEARCH|Displays the search input box.|
 |SIGNIN|Displays the login control.|
@@ -145,7 +145,7 @@ The <dnn:BREADCRUMB...> block should be placed in the Theme on the spot you want
 |TEXT|Displays localized text in your theme and supports the use of token replacement.|
 |TOAST|Adds the toast notification control to the page. Toast messages will be shown when a new user notification or message is received.|
 |USER|Displays a **Register** link for anonymous users or the user's name for authenticated users.|
-|UserAndLogin|Displays a **Register** / **login** / **User** block.|
+|USERANDLOGIN|Displays a **Register** / **login** / **User** block.|
 
 |**Container Object**|**Description**|
 |---|---|
