@@ -28,8 +28,7 @@ Depending on module settings, site users could print, tag, and subscribe to the 
 
 DNN includes these modules which enable you to create content directly in DNN:
 
-*   The HTML and HTML Pro modules allow you to enter static HTML text into your page.
-*   The Publisher module allows you to create articles, such as announcements, news, and press releases.
+*   The HTML modules allows you to enter static HTML text into your page.
 *   The Module Creator enables a developer to create simple modules with custom functionality. (Requires administrator permissions on a local installation.)
 
 You can also crowdsource your content by adding a Social module (e.g., Blogs, Journal, or Wiki) to a page in your site.
