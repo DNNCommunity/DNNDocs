@@ -1,17 +1,17 @@
 ﻿---
 uid: breadcrumb
 locale: en
-title: Breadcrumb them object
+title: Breadcrumb Theme object
 dnnversion: 09.02.00
 previous-topic: theme-objects
-next-topic: 
+next-topic: ddrmenu-overview
 related-topics: theme-objects,themes,create-theme
 links: 
 ---
 
 # Breadcrumb Theme Object Introduction
 
-The Breadcrumb Them Object displays the path to the currently selected page in the menu structure like this:
+The Breadcrumb Theme Object displays the path to the currently selected page in the menu structure like this:
 RootPage > SubPage > SubSubPage
 The starting level, separator and styliong are configurable.
 
