@@ -229,6 +229,7 @@
 ###[Pack Your Theme](xref:pack-extension)
 ###[Install Your Theme](xref:install-extension)
 ##[Theme Objects](xref:theme-objects)
+###[Breadcrumb](xref:breadcrumb)
 ###[DDRMenu](xref:ddrmenu-overview)
 ####[Overview](xref:ddrmenu-overview)
 ####[Reference Guide](xref:ddrmenu-reference-guide)
