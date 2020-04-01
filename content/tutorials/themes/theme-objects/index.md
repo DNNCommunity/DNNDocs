@@ -151,6 +151,7 @@ The <dnn:BREADCRUMB...> block should be placed in the Theme on the spot you want
 |MODULEMESSAGE|Displays Module messages|
 |ICON|Displays the module icon.|
 |TITLE|Displays the module title.|
+|PRINTMODULE|Displays a link for the Print action from the module action menu.|
 
 |**Legacy Theme Object**|**Description**|**Replaced by**|
 |---|---|---|
