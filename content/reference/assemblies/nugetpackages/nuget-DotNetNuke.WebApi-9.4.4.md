@@ -1,0 +1,35 @@
+---
+uid: nuget-DotNetNuke.WebApi-9.4.4
+locale: en
+title: NuGet package DotNetNuke.WebApi version 9.4.4
+dnnversion: 09.04.04
+related-topics: referencing-dnn-assemblies
+---
+
+# NuGet package DotNetNuke.WebApi version 9.4.4
+Details of published NuGet package.
+*All Assemblies* lists all the assemblies that are included in this package or any dependent package.
+
+## Dependencies
+
+|Package|Version|Link|
+|---|---|---|
+|DotNetNuke.Web|9.4.4|[NuGet](https://www.nuget.org/packages/DotNetNuke.Web/9.4.4)|
+|Microsoft.AspNet.WebApi.Client|5.2.3|[NuGet](https://www.nuget.org/packages/Microsoft.AspNet.WebApi.Client/5.2.3)|
+|Microsoft.AspNet.WebApi.Core|5.2.3|[NuGet](https://www.nuget.org/packages/Microsoft.AspNet.WebApi.Core/5.2.3)|
+|NewtonSoft.Json|10.0.3|[NuGet](https://www.nuget.org/packages/NewtonSoft.Json/10.0.3)|
+
+## All Assemblies
+
+|Assembly|Version|
+|---|---|
+|DotNetNuke.DependencyInjection.dll|9.4.4.5|
+|DotNetNuke.dll|9.4.4.5|
+|DotNetNuke.Web.dll|9.4.4.5|
+|DotNetNuke.WebUtility.dll|4.2.1.783|
+|Microsoft.ApplicationBlocks.Data.dll|2.0.0.0|
+|Microsoft.Extensions.DependencyInjection.dll|2.1.1.18157|
+|Newtonsoft.Json.dll|10.0.3.21018|
+|System.Net.Http.Formatting.dll|5.2.30128.0|
+|System.Web.Http.dll|5.2.30128.0|
+

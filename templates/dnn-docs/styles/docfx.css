@@ -608,7 +608,7 @@ body .toc{
   left: 5px;
 }
 .article {
-  margin-top: 120px;
+  margin-top: 80px;
   margin-bottom: 115px;
 }
 
@@ -628,7 +628,7 @@ body .toc{
   max-width: 100%;
 }
 .sideaffix {
-  margin-top: 50px;
+  margin-top: 10px;
   font-size: 12px;
   max-height: 100%;
   overflow: hidden;
@@ -1031,13 +1031,18 @@ div.embeddedvideo iframe {
 }
 
 .homepage .api-section .icon {
-	font-size: 5em;
-	padding-right: 30px
+	width: 100px;
+	padding-right: 15px
 }
 
-.homepage .api-section .icon.sm {
-	font-size: inherit;
+.api-section .icon.sm {
+	width: 25px;
+	height: 25px;
 	padding-right: 5px;
+}
+
+.api-section .icon.sm + span {
+	vertical-align: middle;
 }
 
 .homepage .api-section .icon.administrators { color: #93A100; }
@@ -1148,6 +1153,26 @@ div.embeddedvideo iframe {
 	.homepage .api-section .media-heading { font-size: 1.5em; }
 }
 
+.home-article {
+  margin-top: 130px;
+}
+
+.recent-contributors {
+  height: auto;
+  padding-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.recent-contributors img {
+  max-width: 20px;
+  margin-right: 5px;
+}
+
+.recent-contributors-top {
+  margin-top: 20px;
+}
+
 /**************************
 	END HOME PAGE 
 **************************/
@@ -1159,8 +1184,10 @@ div.embeddedvideo iframe {
 
 .page-stats {
   border-bottom: #00A4E4 2px solid;
-  margin-bottom: 20px;
-  height: 30px;
+  height: auto;
+  padding-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .page-stats img {
@@ -1170,4 +1197,19 @@ div.embeddedvideo iframe {
 
 /**************************
 	END PAGE STATS 
+**************************/
+
+
+/**************************
+	DNN EDITIONS
+**************************/
+
+.dnn-editions {
+  padding: 10px 0;
+  margin-bottom: 0 0 40px 0;
+  color: gray;
+}
+
+/**************************
+	END DNN EDITIONS 
 **************************/
