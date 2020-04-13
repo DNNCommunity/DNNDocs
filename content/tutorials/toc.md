@@ -28,6 +28,7 @@
 ###[Assign Key Pages](xref:assign-key-pages)
 ###[Add Metadata to Pages](xref:add-metadata-to-pages)
 ###[Configure Messaging](xref:configure-messaging)
+###[Configure Site Persistence](xref:configure-login-persistence)
 ###[Access web.config](xref:access-web-config)
 ###[Configure Sites to Check for New Version](xref:configure-check-for-new-version)
 ###[Help Improve DNN](xref:participate-in-improvement-program)
