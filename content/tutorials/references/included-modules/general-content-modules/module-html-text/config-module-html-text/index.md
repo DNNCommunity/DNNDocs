@@ -1,41 +1,24 @@
 ﻿---
 uid: config-module-html-text
 locale: en
-title: Configure the HTML / HTML Pro (Text) Module
+title: Configure the HTML (Text) Module
 dnnversion: 09.02.00
 related-topics: 
 ---
 
-# Configure the HTML / HTML Pro (Text) Module
+# Configure the HTML (Text) Module
 
 ## Steps
 
 1.  Go to the page containing the module to configure. Edit the page.
 2.  In the module's action menu bar, go to **Manage (gear icon) \> Settings**.
     
-      
-    
     ![Manage action menu > Settings](/images/scr-actionmenu-manage-settings.png)
-    
-      
     
 3.  Go to the **HTML Module Settings** tab.
     
-    HTML on DNN Platform:
-    
-      
-    
     ![Module Settings — HTML on DNN Platform](/images/scr-modulesettings-HTML.png)
-    
-      
-    
-    HTML Pro on DNN Evoq:
-    
-      
-    
-    ![Module Settings — HTML Pro on DNN Evoq](/images/scr-modulesettings-HTMLPro.png)
-    
-      
+
     >[!NOTE]
     > If checked, inline editing and module caching are also disabled.
 
