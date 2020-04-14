@@ -21,6 +21,8 @@ An example use would be to display the Site Description as part of the content o
 | [Portal:HomeDirectory] | /Portals/0 | Relative Path of the Portals Home Directory. |
 | [Portal:LogoFile] | logo.gif | Site Path to Logo file. E.g. logo.gif |
 | [Portal:PortalName] | DNN Portal's Site Title | The Site Title as set on the Site Settings screen. |
+| [Portal:URL] | DNN Portal's URL | The Site URL - `http(s)://` not included. |
+| [Portal:FullURL] | DNN Portal's Full URL | The Site URL - `http(s)://` included. |
 | [Portal:TimeZoneOffset] | -480 | Difference in minutes between the default site time and UTC. |
 | **User Tokens** |
 | [User:DisplayName] | George Washington | The display name of the user. |
