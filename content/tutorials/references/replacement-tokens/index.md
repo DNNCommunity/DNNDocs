@@ -8,7 +8,7 @@ dnnversion: 09.02.00
 
 # Replacement Tokens
 
-Tokens are formatted text which are replaced by real time information such as the site name or the date and time when rendered. For example: The token [DateTime:Now] displays the current date and time on your site. Tokens can be added to DNN skins, language files, the HTML and HTML Pro modules. Adding one or more of the below replacement tokens into content enables site or user data to be displayed to site users.
+Tokens are formatted text which are replaced by real time information such as the site name or the date and time when rendered. For example: The token [DateTime:Now] displays the current date and time on your site. Tokens can be added to DNN skins, language files and the HTML module. Adding one or more of the below replacement tokens into content enables site or user data to be displayed to site users.
 
 An example use would be to display the Site Description as part of the content of an HTML module on the "About Us" page, or adding a personalized salutation to the beginning of Newsletters.
 
@@ -21,6 +21,8 @@ An example use would be to display the Site Description as part of the content o
 | [Portal:HomeDirectory] | /Portals/0 | Relative Path of the Portals Home Directory. |
 | [Portal:LogoFile] | logo.gif | Site Path to Logo file. E.g. logo.gif |
 | [Portal:PortalName] | DNN Portal's Site Title | The Site Title as set on the Site Settings screen. |
+| [Portal:URL] | DNN Portal's URL | The Site URL - `http(s)://` not included. |
+| [Portal:FullURL] | DNN Portal's Full URL | The Site URL - `http(s)://` included. |
 | [Portal:TimeZoneOffset] | -480 | Difference in minutes between the default site time and UTC. |
 | **User Tokens** |
 | [User:DisplayName] | George Washington | The display name of the user. |
