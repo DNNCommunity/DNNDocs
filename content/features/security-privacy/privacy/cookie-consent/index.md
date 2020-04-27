@@ -19,8 +19,11 @@ Is switched on every user (including unauthenticated users) will be presented by
 
 This means that if a user uses another computer and/or browser, or if the user clears all cookies, the consent banner will be shown again. The DNN site does not store this consent! It is only stored on the client computer.
 
-## Customization
+> [!NOTE]
+> Cookie Consent was added to DNN Platform v9.03.01 and EVOQ 9.3.0.
+> (<a href="https://www.dnnsoftware.com/docs/developers/release-notes/relnotes-2019-apr-09.html" target="_blank">Release notes Apr 9, 2019</a>.
 
+## Customization
 
 ### Link
 
