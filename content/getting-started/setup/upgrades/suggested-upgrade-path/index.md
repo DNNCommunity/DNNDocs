@@ -32,8 +32,8 @@ The below is, of course, subject to change. If your current version of DNN Platf
 |[09.03.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|[09.05.00](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.5.0)|
 
 
-> [!Upgrade Notes]
->DotNetNuke has been around since 2002, and in that time has had a number of changes which can complicate matters during the process of upgrading through different versions. These include:
+> [!TIP]
+> **Upgrade Notes:** DotNetNuke has been around since 2002, and in that time has had a number of changes which can complicate matters during the process of upgrading through different versions. These include:
 
 #REQUIREMENTS CHANGES & PRE-REQUISITIES
 - The changeover from DNN 3.x to DNN 4.x - DNN 3.x used ASP.NET 1.1, whereas DNN 4.x and above require ASP.NET 2.0
