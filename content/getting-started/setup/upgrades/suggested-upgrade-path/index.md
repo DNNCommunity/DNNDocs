@@ -29,7 +29,7 @@ The below is, of course, subject to change. If your current version of DNN Platf
 |[07.04.02](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.04.02)|[08.00.04](https://github.com/dnnsoftware/Dnn.Releases.Archive.8x/tree/master/08.00.04)|
 |[08.00.04](https://github.com/dnnsoftware/Dnn.Releases.Archive.8x/tree/master/08.00.04)|[09.01.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1)|
 |[09.01.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1)|[09.03.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|
-|[09.03.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|[09.05.00](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.5.0)|
+|[09.03.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|[Latest 9.x.x release](https://github.com/dnnsoftware/Dnn.Platform/releases)|
 
 
 > [!TIP]
