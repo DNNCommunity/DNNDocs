@@ -21,7 +21,7 @@ Simply click the Fork button above to get started.
 
 After your own fork is created, you need to copy the repository into your local machine, this is called cloning. This will create a copy of the DNNDocs Git repository (its directories and folders) on your local machine so that you can work with them there.
 
-The following command will clone this repository to your working directory, so you may wish to `cd` to an appropriate directory first.
+The following command will clone your forked repository to your working directory, so you may wish to `cd` to an appropriate directory first.
 
 ```
 git clone https://github.com/your-github-user-name/DNNDocs.git
