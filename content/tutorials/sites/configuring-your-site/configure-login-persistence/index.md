@@ -47,7 +47,7 @@ related-topics: update-site-info,access-web-config,administrators-extensions-ove
     > [!NOTE]
     > The above sets a) a default 2 hour session expiration and allows for b) a Remember Me option of 2 weeks via your cookie.
 
-## Discussion
+### Discussion
 
 To rephrase, the user will create a seesion that stays logged in to the site
 
