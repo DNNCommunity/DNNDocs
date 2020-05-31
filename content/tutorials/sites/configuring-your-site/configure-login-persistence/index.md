@@ -1,8 +1,11 @@
 ---
 uid: configure-login-persistence
+topic: configure-login-persistence
 locale: en
 title: Configure Login Persistence for Your Site
+dnneditions:
 dnnversion: 09.02.00
+parent-topic: configuring-your-site
 related-topics: update-site-info,access-web-config,administrators-extensions-overview
 ---
 
