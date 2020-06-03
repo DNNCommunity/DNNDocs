@@ -6,7 +6,7 @@ using System.Composition;
 using System.Text.RegularExpressions;
 using System.Web.UI.WebControls;
 
-namespace DNNCommunity.DNNDocs.Plugins.GitHubStats
+namespace DNNCommunity.DNNDocs.Plugins
 {
     [Export(nameof(ConceptualDocumentProcessor), typeof(IDocumentBuildStep))]
     public class MoreLinksBuildStep : IDocumentBuildStep

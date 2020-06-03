@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace DNNCommunity.DNNDocs.Plugins.GitHubStats.Models
+namespace DNNCommunity.DNNDocs.Plugins.Models
 {
     public class Contributor
     {

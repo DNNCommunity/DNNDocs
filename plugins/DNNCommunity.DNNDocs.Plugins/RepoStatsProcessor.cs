@@ -2,11 +2,13 @@
 using System.Composition;
 using System.Collections.Immutable;
 
-namespace DNNCommunity.DNNDocs.Plugins.GitHubStats
+namespace DNNCommunity.DNNDocs.Plugins
 {
-    [Export(nameof(MoreLinksProcessor), typeof(IPostProcessor))]
-    public class MoreLinksProcessor : IPostProcessor
+    [Export(nameof(RepoStatsProcessor), typeof(IPostProcessor))]
+    public class RepoStatsProcessor : IPostProcessor
     {
+        // TODO: implements IPostProcessor
+
         public ImmutableDictionary<string, object> PrepareMetadata(ImmutableDictionary<string, object> metadata)
         {
             // TODO: add/remove/update property from global metadata
