@@ -657,19 +657,11 @@ body .toc{
 .sideaffix ul.nav > li > a:focus {
   background: none;
 }
-.sidenav-linklist ul {
-  list-style: none;
-  padding-left: 10px;
-}
-.sidenav-linklist li {
-  font-size: 0.8em;
-  margin-bottom: 4px;
-}
-.affix h5, .sidenav-linklist h5 {
+.affix h5 {
   font-weight: bold;
   text-transform: uppercase;
   padding-left: 10px;
-  font-size: 0.9em;
+  font-size: 12px;
 }
 .affix > ul.level1 {
   overflow: hidden;
