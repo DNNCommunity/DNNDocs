@@ -17,7 +17,7 @@ $(function () {
 
   renderTables();
   renderAlerts();
-  renderLinks();
+  renderSidebarLinks();
   renderNavbar();
   renderSidebar();
   renderLinks();
@@ -541,7 +541,7 @@ $(function () {
   }
 
   //Links
-  function renderLinks() {
+  function renderSidebarLinks() {
     var links = $(".links span a");
     if (links.length > 0) {
       var html = '<div class="sidenav-linklist"><h5 class="title">Links</h5><ul id="links"></ul></div>';
