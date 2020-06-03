@@ -4,9 +4,9 @@ using System.Net;
 using System.Collections.Immutable;
 using Microsoft.DocAsCode.Plugins;
 using Newtonsoft.Json;
-using DNNCommunity.DNNDocs.Plugins.GitHubStats.Models;
+using DNNCommunity.DNNDocs.Plugins.Models;
 
-namespace DNNCommunity.DNNDocs.Plugins.GitHubStats.Providers
+namespace DNNCommunity.DNNDocs.Plugins.Providers
 {
     public class GitHubApi
     {
