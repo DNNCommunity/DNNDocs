@@ -7,8 +7,8 @@
     <ProjectGuid>{FA0B4F79-66FD-4F55-BBB9-0CAC9CD4F095}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DNNCommunity.DNNDocs.Plugins.GitHubStats</RootNamespace>
-    <AssemblyName>DNNCommunity.DNNDocs.Plugins.GitHubStats</AssemblyName>
+    <RootNamespace>DNNCommunity.DNNDocs.Plugins</RootNamespace>
+    <AssemblyName>DNNCommunity.DNNDocs.Plugins</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
