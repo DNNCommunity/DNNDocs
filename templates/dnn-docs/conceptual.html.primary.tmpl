@@ -1,6 +1,10 @@
 {{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
 {{!master(layout/_master.tmpl)}}
 {{{rawTitle}}}
+<div class="page-version">
+    {{#dnnversion}}DNN Version: <span class="dnn-version">{{dnnversion}}</span>{{/dnnversion}}
+    {{#firstappearedinversion}}&bull; First Appeared in DNN Version: <span class="dnn-version">{{firstappearedinversion}}</span>{{/firstappearedinversion}}
+</div>
 <div class="page-stats row visible-xs">
     <div class="pull-left">{{#gitPageDate}}{{gitPageDate}}{{/gitPageDate}} {{#wordCount}}&bull; {{timeToRead}} {{/wordCount}} to read</div>
     {{#gitPageContributor1Login}}

@@ -2,7 +2,8 @@
 uid: cookie-consent
 locale: en
 title: Cookie Consent
-dnnversion: 09.02.00
+dnnversion: 09.03.01
+firstappearedinversion: 09.03.00
 ---
 
 # Cookie Consent
