@@ -1186,8 +1186,7 @@ div.embeddedvideo iframe {
   border-bottom: #00A4E4 2px solid;
   height: auto;
   padding-bottom: 10px;
-  margin-right: 0px;
-  margin-left: 0px;
+  margin: 0 0 8px 0;
 }
 
 .page-stats img {
@@ -1199,6 +1198,23 @@ div.embeddedvideo iframe {
 	END PAGE STATS 
 **************************/
 
+/**************************
+	DNN VERSION
+**************************/
+
+.page-version {
+  font-size: 0.9em;
+  font-weight: bold;
+  padding-bottom: 4px;
+}
+
+.dnn-version {
+  color: #0050C5;
+}
+
+/**************************
+	END PAGE STATS 
+**************************/
 
 /**************************
 	DNN EDITIONS

@@ -3,6 +3,7 @@ uid: data-consent-user-delete
 locale: en
 title: Data Consent User Removal
 dnnversion: 09.04.00
+firstappearedinversion: 09.04.00
 ---
 
 # Data Consent User Removal
