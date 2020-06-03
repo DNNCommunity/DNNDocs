@@ -102,6 +102,8 @@
     <Compile Include="Models\Commit.cs" />
     <Compile Include="Models\Commits.cs" />
     <Compile Include="Models\Contributor.cs" />
+    <Compile Include="MoreLinksBuildStep.cs" />
+    <Compile Include="MoreLinksProcessor.cs" />
     <Compile Include="PageStatsProcessor.cs" />
     <Compile Include="PageStatsBuildStep.cs" />
     <Compile Include="Models\GitHub.cs" />
