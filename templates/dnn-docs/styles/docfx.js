@@ -17,10 +17,9 @@ $(function () {
 
   renderTables();
   renderAlerts();
-  renderSidebarLinks();
+  renderLinks();
   renderNavbar();
   renderSidebar();
-  renderLinks();
   renderAffix();
   renderFooter();
   renderLogo();
@@ -538,28 +537,6 @@ $(function () {
 
     var html = util.formList(breadcrumb, 'breadcrumb');
     $('#breadcrumb').html(html);
-  }
-
-  //Links
-  function renderSidebarLinks() {
-    var links = $(".links span a");
-    if (links.length > 0) {
-      var html = '<div class="sidenav-linklist"><h5 class="title">Links</h5><ul id="links"></ul></div>';
-      $(html).insertAfter(".contribution");
-      var list = $("#links");
-      links.each(function(index) {
-        list.append($("<li>").append($(this)));
-      });
-    }
-    var relatedTopics = $(".related-topics span a");
-    if (relatedTopics.length > 0) {
-      var html = '<div class="sidenav-linklist"><h5 class="title">Related Topics</h5><ul id="related-topics"></ul></div>';
-      $(html).insertAfter(".contribution");
-      var list = $("#related-topics");
-      relatedTopics.each(function(index) {
-        list.append($("<li>").append($(this)));
-      });
-    }
   }
 
   //Setup Affix

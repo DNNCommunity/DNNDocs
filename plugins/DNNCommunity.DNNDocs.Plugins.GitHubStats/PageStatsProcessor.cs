@@ -2,7 +2,7 @@
 using System.Composition;
 using System.Collections.Immutable;
 
-namespace DNNCommunity.DNNDocs.Plugins
+namespace DNNCommunity.DNNDocs.Plugins.GitHubStats
 {
     [Export(nameof(PageStatsProcessor), typeof(IPostProcessor))]
     public class PageStatsProcessor : IPostProcessor

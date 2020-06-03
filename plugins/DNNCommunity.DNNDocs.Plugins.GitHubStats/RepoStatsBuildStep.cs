@@ -4,10 +4,10 @@ using System.Composition;
 using System.Linq;
 using Microsoft.DocAsCode.Plugins;
 using Microsoft.DocAsCode.Build.ConceptualDocuments;
-using DNNCommunity.DNNDocs.Plugins.Models;
-using DNNCommunity.DNNDocs.Plugins.Providers;
+using DNNCommunity.DNNDocs.Plugins.GitHubStats.Models;
+using DNNCommunity.DNNDocs.Plugins.GitHubStats.Providers;
 
-namespace DNNCommunity.DNNDocs.Plugins
+namespace DNNCommunity.DNNDocs.Plugins.GitHubStats
 {
     [Export(nameof(ConceptualDocumentProcessor), typeof(IDocumentBuildStep))]
     public class RepoStatsBuildStep : IDocumentBuildStep
