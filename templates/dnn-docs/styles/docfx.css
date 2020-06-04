@@ -629,7 +629,7 @@ body .toc{
 }
 .sideaffix {
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 14px;
   max-height: 100%;
   overflow: hidden;
   top: 100px;
@@ -662,14 +662,14 @@ body .toc{
   padding-left: 10px;
 }
 .sidenav-linklist li {
-  font-size: 0.8em;
+  font-size: 1em;
   margin-bottom: 4px;
 }
 .affix h5, .sidenav-linklist h5 {
   font-weight: bold;
   text-transform: uppercase;
   padding-left: 10px;
-  font-size: 0.9em;
+  font-size: 1.2em;
 }
 .affix > ul.level1 {
   overflow: hidden;
