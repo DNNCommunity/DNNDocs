@@ -94,6 +94,24 @@ When using the WebForms controls, there's an additional attribute, `HtmlAttribut
 <dnn:DnnJsInclude runat="server" FilePath="https://www.google.com/recaptcha/api.js" ForceProvider="DnnPageHeaderProvider" HtmlAttributesAsString="async:async,defer:defer" />
 ```
 
+##### Remove and replace CSS and JS requests
+
+There are two additional theme objects, `DnnCssExclude` and `DnnJsExclude` which can stop a requested CSS or JavaScript file from being included on the page.  A common usage of this feature is for a theme to stop DNN from including its default CSS:
+
+```html
+<dnn:DnnCssExclude runat="server" Name="dnndefault" />
+```
+
+Similarly, requesting a resource with the same name as another resource will replace the first resource (i.e. requests with the same name are de-duplicated).  To use the version 8 default CSS instead of version 7:
+
+```html
+<dnn:DnnCssInclude runat="server"
+    FilePath="~/resources/shared/stylesheets/dnndefault/8.0.0/default.css"
+    Priority="<%#FileOrder.Css.DefaultCss%>"
+    Name="dnndefault"
+    Version="8.0.0" />
+```
+
 ## Configuration
 
 Some of the details of how the scripts and styles get included on the page can be managed by the administrator of the site.  On the _Servers_ page of the Persona Bar, in the _Performance_ sub-tab of the _Server Settings_ tab, there is a _Client Resource Management_ section.  The section can be managed globally and/or for different sites individually.
