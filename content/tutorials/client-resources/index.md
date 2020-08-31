@@ -116,7 +116,7 @@ Similarly, requesting a resource with the same name as another resource will rep
 
 Some of the details of how the scripts and styles get included on the page can be managed by the administrator of the site.  On the _Servers_ page of the Persona Bar, in the _Performance_ sub-tab of the _Server Settings_ tab, there is a _Client Resource Management_ section.  The section can be managed globally and/or for different sites individually.
 
-![Client Resource Management screenshot](/images/src-ClientResourceManagement.png)
+![Client Resource Management screenshot](/images/scr-ClientResourceManagement.png)
 
 DNN keeps track of the Client Resource Management (CRM) version, which is used to help cache generated files and avoid old versions of files from being served out of a browser's cache.  The version is also automatically incremented upon package upgrades and repair installations, upgrades of DNN Platform, as well use of the CSS editor.  This section of the Persona Bar provides access to increment the CRM version manually (which can be useful, for example, when a style sheet has been manually updated via the asset manager).
 
