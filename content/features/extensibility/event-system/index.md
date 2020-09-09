@@ -207,7 +207,7 @@ You can attach code to the following Tab events:
  - TabRestored (restored from the page recycle bin)
  - TabMarkedAsPublished
 
-Tab Events are registered by decorating a class with [Export(typeof(ITabEventHandler))] and implementing the ITabEventHandler interface.
+Tab Events are registered by decorating a class with `[Export(typeof(ITabEventHandler))]` and implementing the [`ITabEventHandler`](xref:DotNetNuke.Entities.Tabs.Actions.ITabEventHandler) interface.
 
 DNN will automatically register your Tab Event Handler when the DNN website loads.
 
