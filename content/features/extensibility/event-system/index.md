@@ -270,7 +270,7 @@ You can attach code to the following User events:
  - UserApproved (restored from the page recycle bin)
  - UserUpdated
 
-User Events are registered by decorating a class with [Export(typeof(IUserEventHandlers))] and implementing the IUserEventHandlers interface.
+User Events are registered by decorating a class with `[Export(typeof(IUserEventHandlers))]` and implementing the [`IUserEventHandlers`](xref:DotNetNuke.Entities.Users.IUserEventHandlers) interface.
 
 DNN will automatically register your Tab Event Handler when the DNN website loads.
 
