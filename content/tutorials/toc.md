@@ -196,6 +196,7 @@
 ##[Pack Extension](xref:pack-extension)
 ##[Module Injection Filter](xref:module-injection-filter)
 ##[About EVS](xref:about-evs)
+##[Client Resources](xref:client-resources)
 
 #[Modules](xref:modules)
 ##[Module Features](xref:module-features)
@@ -281,7 +282,7 @@
 ###[Creation Modules](xref:creation-modules)
 ####[Module Creator](xref:module-module-creator)
 ## [Replacement Tokens](xref:replacement-tokens)
-##[DNN Requirements](xfref:setup-requirements)
+##[DNN Requirements](xref:setup-requirements)
 ##[Releases](xref:releases)
 ##[DNN Security](xref:dnn-security)
 ##[More Resources](xref:more-resources)
