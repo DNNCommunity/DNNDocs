@@ -7,6 +7,7 @@
 ## [Sites](xref:sites)
 ### [Import/Export](xref:import-export)
 # [Extensibility](xref:extensibility)
+## [Event System](xref:event-system)
 ## [Extensions](xref:extensions)
 ## [Modules](xref:modules)
 ## [Themes](xref:themes)
