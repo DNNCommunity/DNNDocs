@@ -1,5 +1,5 @@
 ---
-uid: Breadcrumb
+uid: breadcrumb
 locale: en
 title: Breadcrumb Theme object
 dnnversion: 09.02.00
