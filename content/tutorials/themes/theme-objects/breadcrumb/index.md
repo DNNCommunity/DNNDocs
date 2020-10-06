@@ -13,7 +13,8 @@ links:
 
 The Breadcrumb Theme Object displays the path to the currently selected page in the menu structure like this:
 RootPage > SubPage > SubSubPage/n
-The starting level, separator and styling are configurable.<br/>
+The starting level, separator and styling are configurable.
+
 
 **Current Version:** 01.00.00
 
