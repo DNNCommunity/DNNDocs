@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.WebApi-7.3.1.20
 locale: en
 title: NuGet package DotNetNuke.WebApi version 7.3.1.20
-dnnversion: 09.04.04
+dnnversion: 09.08.00
 related-topics: referencing-dnn-assemblies
 ---
 

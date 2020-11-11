@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.DependencyInjection-9.4.2
 locale: en
 title: NuGet package DotNetNuke.DependencyInjection version 9.4.2
-dnnversion: 09.04.04
+dnnversion: 09.08.00
 related-topics: referencing-dnn-assemblies
 ---
 
