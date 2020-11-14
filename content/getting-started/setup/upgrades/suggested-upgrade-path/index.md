@@ -2,7 +2,7 @@
 uid: setup-upgrades-suggested-upgrade-path
 locale: en
 title: DNN Platform Suggested Upgrade Path
-dnnversion: 09.07.01
+dnnversion: 09.08.00
 ---
 
 # DNN Platform Suggested Upgrade Path
@@ -29,7 +29,7 @@ The below is, of course, subject to change. If your current version of DNN Platf
 |[07.04.02](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.04.02)|[08.00.04](https://github.com/dnnsoftware/Dnn.Releases.Archive.8x/tree/master/08.00.04)|
 |[08.00.04](https://github.com/dnnsoftware/Dnn.Releases.Archive.8x/tree/master/08.00.04)|[09.01.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1)|
 |[09.01.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1)|[09.03.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|
-|[09.03.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|[09.07.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.7.2)|
+|[09.03.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|[09.08.00](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.8.0)|
 
 > [!TIP]
 > **Upgrade Notes:** DotNetNuke has been around since 2002, and in that time has had a number of changes which can complicate matters during the process of upgrading through different versions. These include:
