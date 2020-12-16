@@ -232,10 +232,6 @@ Some component types are applicable only to the package type of the same name; g
         <td>CoreLanguage</td>
     </tr>
     <tr>
-        <td>DashboardControl</td>
-        <td>DashboardControl</td>
-    </tr>
-    <tr>
         <td>ExtensionLanguagePack</td>
         <td>ExtensionLanguage</td>
     </tr>
@@ -287,7 +283,7 @@ Some component types are applicable only to the package type of the same name; g
 
     ```
 
-*   [`AuthenticationSystem`](https://www.dnnsoftware.com/wiki/manifest-authenticationsystem-component). Authentication providers used by the extension, such as **Facebook**, **Google**, **Twitter**, and **Microsoft Accounts**. By default, DNN authenticates using its own database.
+*   [`AuthenticationSystem`](https://www.dnnsoftware.com/wiki/manifest-authenticationsystem-component). Defines a new Authentication System to be made available within DNN.  Examples include **Facebook**, **Google**, **Twitter**, and **Microsoft Accounts**. By default, DNN authenticates using its own database.
 
     ```
 
@@ -395,25 +391,6 @@ Some component types are applicable only to the package type of the same name; g
                 <containerFile />
                 ...
             </containerFiles>
-        </component>
-
-    ```
-
-*   [`DashboardControl`](https://www.dnnsoftware.com/wiki/manifest-dashboardcontrol-component). Controls that will appear as separate tabs in the DNN Dashboard (Host \> Dashboard).
-
-    ```
-
-        <component type="DashboardControl">
-            <dashboardControl>
-                <key />
-                <src />
-                <localResources />
-                <controllerClass />
-                <isEnabled />
-                <viewOrder />
-            </dashboardControl>
-            <dashboardControl />
-            ...
         </component>
 
     ```
