@@ -84,7 +84,7 @@ Packages are installed in the order they appear in the manifest.
 
 Only the information about the _first_ package is displayed during installation. This includes the package name, description, owner, license, and release notes.
 
-## friendlyName and description
+### friendlyName and description
 
 ```
 
@@ -95,7 +95,7 @@ Only the information about the _first_ package is displayed during installation.
 
 The friendlyName and description are displayed during installation and are used in the **Host \> Extensions** page, which lists the extensions that are installed or are available for installation. The friendlyName can contain spaces and up to 250 characters; the description can hold up to 2000 characters.
 
-## iconFile
+### iconFile
 
 ```
 
@@ -105,7 +105,7 @@ The friendlyName and description are displayed during installation and are used 
 
 Optional. The icon is displayed in the DNN Control Panel's dropdown list and in the Extensions page. The **.png** format is preferred. If not specified, the DNN default icon is used.
 
-## owner
+### owner
 
 ```
 
@@ -120,7 +120,7 @@ Optional. The icon is displayed in the DNN Control Panel's dropdown list and in 
 
 Optional, but encouraged. Information about the owner or creator of the extension.
 
-## license and releaseNotes
+### license and releaseNotes
 
 ```
 
@@ -131,7 +131,7 @@ Optional, but encouraged. Information about the owner or creator of the extensio
 
 Optional, but encouraged. These text files are displayed during the installation. The user is prompted to accept or decline the license. The release notes is displayed during the installation. The actual text can also be embedded within the tag without the src attribute.
 
-## azureCompatible
+### azureCompatible
 
 ```
 
@@ -141,7 +141,7 @@ Optional, but encouraged. These text files are displayed during the installation
 
 Optional. Default is `false`. Set to `true` if the extension is compatible with Microsoft Azure.
 
-## dependencies
+### dependencies
 
 ```
 
