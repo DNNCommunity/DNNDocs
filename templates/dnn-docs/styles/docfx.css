@@ -676,6 +676,7 @@ body .toc{
   padding-bottom: 10px;
   height: calc(100% - 100px);
   /*margin-right: -20px;*/
+  overflow-y: scroll;
 }
 .affix ul > li > a:before {
   color: #cccccc;
