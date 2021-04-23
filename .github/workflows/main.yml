@@ -46,4 +46,6 @@ jobs:
           dry-run: true
           local-dir: ./_site/
           state-name: ../.ftp-deploy-sync-state.json
+          log-level: verbose
+          
           
