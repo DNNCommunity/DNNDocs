@@ -43,5 +43,5 @@ jobs:
           server: 74.114.164.82
           username: aslftpdnndocs
           password: ${{ secrets.ds2030_aslftpdnndocs }}
-          local-dir: ./_site
+          local-dir: ./_site/
           
