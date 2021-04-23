@@ -39,7 +39,8 @@ jobs:
       # copied from FTP Deploy action
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
-          with: ds2030.accuraty.net
+        with:
+          server: ds2030.accuraty.net
           username: aslftpdnndocs
           password: ${{ secrets.ds2030_aslftpdnndocs }}
           
