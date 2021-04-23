@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.Providers.FolderProviders-9.4.0
 locale: en
 title: NuGet package DotNetNuke.Providers.FolderProviders version 9.4.0
-dnnversion: 09.04.04
+dnnversion: 09.08.00
 related-topics: referencing-dnn-assemblies
 ---
 

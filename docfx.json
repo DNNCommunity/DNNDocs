@@ -4,7 +4,17 @@
       "src": [
         {
           "files": [
-            "Dnn.Platform/DNN Platform/Library/DotNetNuke.Library.csproj"
+            "Dnn.Platform/DNN Platform/Library/DotNetNuke.Library.csproj",
+            "Dnn.Platform/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Dnn.PersonaBar.Library.csproj",
+            "Dnn.Platform/DNN Platform/DotNetNuke.Abstractions/DotNetNuke.Abstractions.csproj",
+            "Dnn.Platform/DNN Platform/DotNetNuke.DependencyInjection/DotNetNuke.DependencyInjection.csproj",
+            "Dnn.Platform/DNN Platform/DotNetNuke.Instrumentation/DotNetNuke.Instrumentation.csproj",
+            "Dnn.Platform/DNN Platform/Providers/FolderProviders/DotNetNuke.Providers.FolderProviders.csproj",
+            "Dnn.Platform/DNN Platform/Modules/DnnExportImport/DnnExportImport.csproj",
+            "Dnn.Platform/DNN Platform/Modules/DnnExportImportLibrary/DnnExportImportLibrary.csproj",
+            "Dnn.Platform/DNN Platform/DotNetNuke.Web.Client/DotNetNuke.Web.Client.csproj",
+            "Dnn.Platform/DNN Platform/DotNetNuke.Web.Mvc/DotNetNuke.Web.Mvc.csproj",
+            "Dnn.Platform/DNN Platform/DotNetNuke.Web/DotNetNuke.Web.csproj"
           ],
           "exclude": [
             "**/bin/**",
@@ -52,7 +62,7 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": ["default", "templates/dnn-docs"],
-    "postProcessors": ["RepoStatsProcessor","PageStatsProcessor"],
+    "postProcessors": ["RepoStatsProcessor","PageStatsProcessor","MoreLinksProcessor"],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
     "keepFileLink": false,

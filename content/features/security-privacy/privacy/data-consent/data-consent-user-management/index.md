@@ -3,6 +3,7 @@ uid: data-consent-user-management
 locale: en
 title: Data Consent User Management
 dnnversion: 09.04.00
+firstappearedinversion: 09.04.00
 ---
 
 # Data Consent User Management

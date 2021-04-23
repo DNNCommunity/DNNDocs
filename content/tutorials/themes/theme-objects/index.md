@@ -4,7 +4,7 @@ locale: en
 title: Theme Objects
 dnnversion: 09.02.00
 related-topics: create-layout-template,create-container,create-theme
-links: ["[DNN UX Guide](https://uxguide.dnnsoftware.com/)","[DotNetNuke Skinning Guide (Appendix B: Skin Objects) by Timo Breumelhof](https://www.timo-design.nl)","[Skinning Tool / Online Reference for DNN Skins & Container Objects by 10 Pound Gorilla](https://www.10poundgorilla.com)"]
+links: ["[DNN UX Guide](https://uxguide.dnnsoftware.com/)","[DotNetNuke Skinning Guide (Appendix B: Skin Objects) by Timo Breumelhof](https://www.timo-design.nl/Portals/0/downloads/DotNetNuke-Skin-Objects-DNN5.pdf)","[Skinning Tool / Online Reference for DNN Skins & Container Objects by 10 Pound Gorilla](https://www.10poundgorilla.com)"]
 ---
 
 # Theme Objects

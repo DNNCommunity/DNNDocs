@@ -3,6 +3,7 @@ uid: data-consent-redirect
 locale: en
 title: Data Consent Redirect
 dnnversion: 09.04.00
+firstappearedinversion: 09.04.00
 ---
 
 # Data Consent Redirect
