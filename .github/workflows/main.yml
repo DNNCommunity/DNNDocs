@@ -41,10 +41,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
           server: 74.114.164.82
-          port: 21
           username: aslftpdnndocs
           password: ${{ secrets.ds2030_aslftpdnndocs }}
-          dry-run: true
           local-dir: ./_site/
-          state-name: ../.ftp-deploy-sync-state.json
-          log-level: verbose          
+          state-name: ../.ftp-deploy-sync-state.json       
