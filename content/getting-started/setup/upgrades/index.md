@@ -69,3 +69,8 @@ If any issues are experienced, either resolve the issues (_contingent upon exper
 
 ## Step 9 - Repeat Steps 1-8 As Necessary
 If the suggested upgrade path contains multiple upgrades, repeat **Steps 1-8** as necessary to get to the desired version of DNN Platform.
+
+## Step 10 - [Telerik Removal *](xref:setup-telerik-removal)
+Learn the basic steps for removing `Telerik` from **DNN Platform**.
+
+##### \* This is an OPTIONAL setup step for DNN Platorm, but HIGHLY RECOMMENDED. This is possible only in DNN 9.8.0 (and above for the 9.x series of releases). In DNN 10.x, Telerik removal will be forced, and no longer optional.
