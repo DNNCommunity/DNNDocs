@@ -16,3 +16,8 @@ Learn the basic steps for installing **DNN Platform**.
 
 ## [Upgrades](xref:setup-upgrades)
 Learn the basic steps for upgrading **DNN Platform**.
+
+## [Telerik Removal *](xref:setup-telerik-removal)
+Learn the basic steps for removing `Telerik` from **DNN Platform**.
+
+##### \* This is an OPTIONAL setup step for DNN Platorm, but HIGHLY RECOMMENDED. This is possible only in DNN 9.8.0 (and above for the 9.x series of releases). In DNN 10.x, Telerik removal will be forced, and no longer optional.

@@ -30,6 +30,11 @@ The below is, of course, subject to change. If your current version of DNN Platf
 |[08.00.04](https://github.com/dnnsoftware/Dnn.Releases.Archive.8x/tree/master/08.00.04)|[09.01.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1)|
 |[09.01.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1)|[09.03.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|
 |[09.03.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|[09.08.00](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.8.0)|
+---
+## [Telerik Removal *](xref:setup-telerik-removal)
+Learn the basic steps for removing `Telerik` from **DNN Platform**.
+##### \* This is an OPTIONAL setup step for DNN Platorm, but HIGHLY RECOMMENDED. This is possible only in DNN 9.8.0 (and above for the 9.x series of releases). In DNN 10.x, Telerik removal will be forced, and no longer optional.
+---
 
 > [!TIP]
 > **Upgrade Notes:** DotNetNuke has been around since 2002, and in that time has had a number of changes which can complicate matters during the process of upgrading through different versions. These include:
@@ -43,3 +48,4 @@ The below is, of course, subject to change. If your current version of DNN Platf
 - With the 7.0 release DotNetNuke has some additional changed pre-requisites, please see the [DNN 7 Developer Quick Start](https://www.dnnsoftware.com/wiki/dotnetnuke-70-developer-quick-start#Pre-requisites_0) for further details.
 - In DNN 9.2.0, multiple APIs were removed that were marked deprecated in DNN 7 and before. Most of the core modules have been updated since and you can find them at [https://github.com/dnncommunity](https://github.com/dnncommunity). If you have other modules installed, please check for updates before upgrading to DNN 9.2.0 or later
 - DNN 9.4.0 introduced a minimum requirement of ASP.NET 4.7.2
+

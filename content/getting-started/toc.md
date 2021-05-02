@@ -3,6 +3,7 @@
 ## [Installation](xref:setup-installation)
 ## [Upgrades](xref:setup-upgrades)
 ### [Suggested Upgrade Path](xref:setup-upgrades-suggested-upgrade-path)
+## [Telerik Removal *](xref:setup-telerik-removal)
 # [Administration](xref:getting-started-administration)
 # [Content](xref:getting-started-content)
 # [Design](xref:getting-started-design)
