@@ -51,7 +51,7 @@
         "exclude": ["obj/**", "_site/**"]
       }
     ],
-    "dest": "_site",
+    "dest": "../docs",
     "globalMetadata": {
       "_appLogoPath": "images/dnn_docs_logo.png",
       "_gitContribute": {
