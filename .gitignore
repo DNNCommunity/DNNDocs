@@ -380,4 +380,7 @@ healthchecksdb
 MigrationBackup/
 
 !templates/**/*.dll
+
+# added at project restructure 20210611 JRF
 *.code-workspace
+/docs
