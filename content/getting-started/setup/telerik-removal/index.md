@@ -71,7 +71,10 @@ Navigate to `Settings > Extensions (Libraries)` in the `Persona Bar` and uninsta
 Navigate to `Settings > Extensions (Libraries)` in the `Persona Bar` and uninstall the `DotNetNuke Deprecated Website Codebehind files` extension.  Be sure to check the `Delete Files` checkbox.
 
 ### Step 12
-Open the `web.config` file within the site root and search for "Telerik".  Delete any lines that reference it.
-
+Open the `SiteUrls.config` file within the site root and search for "Telerik".  Delete all <RewriteRule>...</RewriteRule> that reference it.
+ 
 ### Step 13
+Open the `web.config` file within the site root and search for "Telerik".  Delete any lines that reference it.
+ 
+### Step 14
 Test all third-party modules to make sure they still work without Telerik.  If any do not work properly, please contact the developer/vendor for further guidance.
