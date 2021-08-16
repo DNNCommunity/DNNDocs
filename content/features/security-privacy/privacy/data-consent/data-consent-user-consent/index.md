@@ -3,6 +3,7 @@ uid: data-consent-user-consent
 locale: en
 title: Data Consent User Consent
 dnnversion: 09.04.00
+firstappearedinversion: 09.04.00
 ---
 
 # Data Consent User Consent

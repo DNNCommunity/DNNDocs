@@ -629,7 +629,7 @@ body .toc{
 }
 .sideaffix {
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 14px;
   max-height: 100%;
   overflow: hidden;
   top: 100px;
@@ -657,17 +657,26 @@ body .toc{
 .sideaffix ul.nav > li > a:focus {
   background: none;
 }
-.affix h5 {
+.sidenav-linklist ul {
+  list-style: none;
+  padding-left: 10px;
+}
+.sidenav-linklist li {
+  font-size: 1em;
+  margin-bottom: 4px;
+}
+.affix h5, .sidenav-linklist h5 {
   font-weight: bold;
   text-transform: uppercase;
   padding-left: 10px;
-  font-size: 12px;
+  font-size: 1.2em;
 }
 .affix > ul.level1 {
   overflow: hidden;
   padding-bottom: 10px;
   height: calc(100% - 100px);
   /*margin-right: -20px;*/
+  overflow-y: scroll;
 }
 .affix ul > li > a:before {
   color: #cccccc;
@@ -1186,8 +1195,7 @@ div.embeddedvideo iframe {
   border-bottom: #00A4E4 2px solid;
   height: auto;
   padding-bottom: 10px;
-  margin-right: 0px;
-  margin-left: 0px;
+  margin: 0 0 8px 0;
 }
 
 .page-stats img {
@@ -1199,6 +1207,23 @@ div.embeddedvideo iframe {
 	END PAGE STATS 
 **************************/
 
+/**************************
+	DNN VERSION
+**************************/
+
+.page-version {
+  font-size: 0.9em;
+  font-weight: bold;
+  padding-bottom: 4px;
+}
+
+.dnn-version {
+  color: #0050C5;
+}
+
+/**************************
+	END PAGE STATS 
+**************************/
 
 /**************************
 	DNN EDITIONS

@@ -14,6 +14,19 @@ An example use would be to display the Site Description as part of the content o
 
 | **Replacement Token** | **Example** | **Replacement Token Description** |
 |---|---|---|
+| **Culture Tokens** |
+| [Culture:EnglishName] | French (Canada) | The name of the culture in english |
+| [Culture:Lcid] | 3084 | The id of the culture. |
+| [Culture:Name] | fr-CA | The string identifier for the culture. |
+| [Culture:NativeName] | Français (Canada) | The name of the culture expressed in the language of that culture.
+| [Culture:TwoLetterIsoCode] | fr | The 2 letter ISO code for the language. |
+| [Culture:ThreeLetterIsoCode] | fra | The 3 letter ISO code for the language. |
+| [Culture:DisplayName] | French (Canada) | The display name of the culture. |
+| [Culture:LanguageName] | French | The language portion only of the DisplayName. |
+| [Culture:LanguageNativeName] | Français | The language portion only of the NativeName. |
+| [Culture:CountryName] | Canada | The region portion only of the DisplayName. |
+| [Culture:CountryNativeName] | Canada | The region portion only of the NativeDisplayName. |
+| **Portal Tokens** |
 | [Portal:Currency] | USD | Displays the site currency type as set on the Site Settings screen. |
 | [Portal:Description] | DNNCommunity.org is the Official Home of the DNN Community. | Displays the site description as set on the Site Settings screen. |
 | [Portal:Email] | admin@dnncommunity.org | Displays the email address of the primary Administrator as set on the Site Settings screen. |

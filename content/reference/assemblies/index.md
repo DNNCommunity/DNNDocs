@@ -84,4 +84,12 @@ Each will open a page where you'll find a complete rundown of the assemblies tha
 |[9.4.2](xref:assemblies-9.4.2)|9.4.2.5830|[details](xref:assemblies-9.4.2)|
 |[9.4.3](xref:assemblies-9.4.3)|9.4.3.33|[details](xref:assemblies-9.4.3)|
 |[9.4.4](xref:assemblies-9.4.4)|9.4.4.5|[details](xref:assemblies-9.4.4)|
+|[9.5.0](xref:assemblies-9.5.0)|9.5.0.0|[details](xref:assemblies-9.5.0)|
+|[9.6.0](xref:assemblies-9.6.0)|9.6.0.0|[details](xref:assemblies-9.6.0)|
+|[9.6.1](xref:assemblies-9.6.1)|9.6.1.0|[details](xref:assemblies-9.6.1)|
+|[9.6.2](xref:assemblies-9.6.2)|9.6.2.0|[details](xref:assemblies-9.6.2)|
+|[9.7.0](xref:assemblies-9.7.0)|9.7.0.0|[details](xref:assemblies-9.7.0)|
+|[9.7.1](xref:assemblies-9.7.1)|9.7.1.0|[details](xref:assemblies-9.7.1)|
+|[9.7.2](xref:assemblies-9.7.2)|9.7.2.0|[details](xref:assemblies-9.7.2)|
+|[9.8.0](xref:assemblies-9.8.0)|9.8.0.0|[details](xref:assemblies-9.8.0)|
 
