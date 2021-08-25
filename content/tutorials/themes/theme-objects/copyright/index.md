@@ -4,7 +4,7 @@ locale: en
 title: Copyright Theme object  
 dnnversion: 09.02.00  
 previous-topic: breadcrumb  
-next-topic: ddrmenu  
+next-topic: cssinclude  
 related-topics: theme-objects,themes,create-theme  
 links:  
 ---
@@ -21,9 +21,8 @@ You can use the [year] token to dynamically inject the current year
 
 ### ASCX
 ``` html
-<%@ Register TagPrefix="dnn" TagName="COPYRIGHT" Src="~/Admin/Skins/CopyRight.ascx" %>
-<dnn:Copyright runat="server" id="dnnCopyright" /> 
-
+<%@ Register TagPrefix="dnn" TagName="COPYRIGHT" Src="~/Admin/Skins/CopyRight.ascx" %>  
+ <dnn:Copyright runat="server" id="dnnCopyright" /> 
 ```
 
 ### HTML Token
