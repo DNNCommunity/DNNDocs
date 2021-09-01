@@ -56,10 +56,10 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,access-w
 	
 	In the Persona Bar, navigate to Settings > Site Settings > Languages. 
 	Click on the last Icon on the right of a Language. 
-	Make sure you select "Host" to chang the text for all Portals and the third Option for "this portal".
+	Make sure you select "Host" to change the text for all Portals and the third radio button for "this portal". 
 	
 	> [!Note]
-    > do not select "Global" as your change would get overwritten on the next DNN upgrade.
+    > Do not select "Global" as your change would get overwritten on the next DNN upgrade.
 	
 	In the Resource File Dropdown, navigate to GlobalResources.resx > GlobalResources 
 	Edit the value of EMAIL_BODY_FORMAT.Text 
