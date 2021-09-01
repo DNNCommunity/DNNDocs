@@ -48,4 +48,18 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,access-w
     |---|---|
     |<strong>Send Emails</strong>|If enabled, the system sends an email to the user for each message and notification.|
     |<strong>Include Attachments</strong>|If enabled, system emails can include file attachments.|
+	
+	## Change the Body Content Messaging Center Emails
+	
+	The Body content for the Emails the Messaging center sends are part of the Language Pack DNN uses for Localization. 
+	You can edit these as follows: 
+	
+	In the Persona Bar, navigate to Settings > Site Settings > Languages. 
+	Click on the last Icon on the right of a Language. 
+	In the Resource File Dropdown, navigate to GlobalResources.resx > GlobalResources 
+	Edit the value of EMAIL_BODY_FORMAT.Text 
+	Make sure you keep the {0} for the subject and {1} for the Message being injected (Which depends on the Module using this template)
+	
+
+	
     
