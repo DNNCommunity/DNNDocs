@@ -56,6 +56,11 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,access-w
 	
 	In the Persona Bar, navigate to Settings > Site Settings > Languages. 
 	Click on the last Icon on the right of a Language. 
+	Make sure you select "Host" to chang the text for all Portals and the third Option for "this portal".
+	
+	> [!Note]
+    > do not select "Global" as your change would get overwritten on the next DNN upgrade.
+	
 	In the Resource File Dropdown, navigate to GlobalResources.resx > GlobalResources 
 	Edit the value of EMAIL_BODY_FORMAT.Text 
 	Make sure you keep the {0} for the subject and {1} for the Message being injected (Which depends on the Module using this template)
