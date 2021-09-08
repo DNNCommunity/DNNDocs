@@ -75,6 +75,14 @@ Open the `SiteUrls.config` file within the site root and search for "Telerik".  
  
 ### Step 13
 Open the `web.config` file within the site root and search for "Telerik".  Delete any lines that reference it.
- 
+
 ### Step 14
+Remove the old extension packages for the Telerik components you just removed.  
+In the folder '\App_Data\ExtensionPackages', remove all packages starting with:  
+`Library_DotNetNuke.Telerik_*`  
+`Library_DotNetNuke.Web.Deprecated_*`  
+`Library_DotNetNuke.Website.Deprecated_*`  
+
+ 
+### Step 15
 Test all third-party modules to make sure they still work without Telerik.  If any do not work properly, please contact the developer/vendor for further guidance.
