@@ -12,7 +12,7 @@ related-topics: ts-missing-persona-bar
 
 This error can be displayed as a full page error that does not allow the site to load, or it can be logged in the Admin Logs.
 
-![Full screen error](/scr-binding-redirect-ysod.png)
+![Full screen error](/images/scr-binding-redirect-ysod.png)
 
 ![Admin Logs error](/images/scr-binding-redirect-admin-logs.png)
 
