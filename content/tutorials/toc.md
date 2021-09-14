@@ -188,6 +188,7 @@
 ##[Troubleshooting: Incomplete Localization](xref:ts-incomplete-content-localization)
 ##[Troubleshooting: Missing Persona Bar](xref:ts-missing-persona-bar)
 ##[Troubleshooting: Too Many Redirects Error](xref:ts-too-many-redirects)
+##[Troubleshooting: The located assembly's manifest definition does not match the assembly reference](xref:ts-located-assemblys-manifest-definition-does-not-match-assembly-reference)
 
 # DEVELOPING FOR DNN
 
