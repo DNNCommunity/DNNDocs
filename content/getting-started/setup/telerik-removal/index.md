@@ -39,7 +39,7 @@ Navigate to `Settings > SQL Console` via the `Persona Bar` and run the following
 ```
 UPDATE {databaseOwner}{objectQualifier}Packages
 SET IsSystemPackage = 0
-WHERE Name IN ('DigitalAssetsManagement', 'DotNetNuke.Telerik.Web', 'DotNetNuke.Web.Deprecated', 'DotNetNuke.Website.Deprecated')
+WHERE Name IN ('DigitalAssetsManagement', 'DotNetNuke.Telerik.Web', 'DotNetNuke.Web.Deprecated', 'DotNetNuke.Website.Deprecated', 'DotNetNuke.Messaging`)
 GO
 
 DELETE FROM {databaseOwner}{objectQualifier}PackageDependencies
@@ -65,24 +65,27 @@ Navigate to `Settings > Extensions (Modules)` in the `Persona Bar` and uninstall
 Navigate to `Settings > Extensions (Libraries)` in the `Persona Bar` and uninstall the `DotNetNuke Telerik Web Components` extension.  Be sure to check the `Delete Files` checkbox.
 
 ### Step 10
-Navigate to `Settings > Extensions (Libraries)` in the `Persona Bar` and uninstall the `DNN Deprecated Web Controls Library` extension.  Be sure to check the `Delete Files` checkbox.
+Navigate to `Settings > Extensions (Libraries)` in the `Persona Bar` and uninstall the `DotNetNuke Telerik Web Components` extension.  Be sure to check the `Delete Files` checkbox.
 
 ### Step 11
-Navigate to `Settings > Extensions (Libraries)` in the `Persona Bar` and uninstall the `DotNetNuke Deprecated Website Codebehind files` extension.  Be sure to check the `Delete Files` checkbox.
+Navigate to `Settings > Extensions (Libraries)` in the `Persona Bar` and uninstall the `DNN Deprecated Web Controls Library` extension.  Be sure to check the `Delete Files` checkbox.
 
 ### Step 12
-Open the `SiteUrls.config` file within the site root and search for "Telerik".  Delete all rewrite rules, `<RewriteRule>...</RewriteRule>`, that reference it.
- 
+Navigate to `Settings > Extensions (Libraries)` in the `Persona Bar` and uninstall the `DotNetNuke Deprecated Website Codebehind files` extension.  Be sure to check the `Delete Files` checkbox.
+
 ### Step 13
-Open the `web.config` file within the site root and search for "Telerik".  Delete any lines that reference it.
+Open the `SiteUrls.config` file within the site root and search for "Telerik".  Delete all rewrite rules, `<RewriteRule>...</RewriteRule>`, that reference it.
 
 ### Step 14
+Open the `web.config` file within the site root and search for "Telerik".  Delete any lines that reference it.
+
+### Step 15
 Remove the old extension packages for the Telerik components just removed.  
 In the folder '\App_Data\ExtensionPackages', remove all packages starting with:  
 `Library_DotNetNuke.Telerik_*`  
 `Library_DotNetNuke.Web.Deprecated_*`  
 `Library_DotNetNuke.Website.Deprecated_*`  
 
- 
-### Step 15
+
+### Step 16
 Test all third-party modules to make sure they still work without Telerik.  If any do not work properly, please contact the developer/vendor for further guidance.
