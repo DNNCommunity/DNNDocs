@@ -39,7 +39,7 @@ Navigate to `Settings > SQL Console` via the `Persona Bar` and run the following
 ```
 UPDATE {databaseOwner}{objectQualifier}Packages
 SET IsSystemPackage = 0
-WHERE Name IN ('DigitalAssetsManagement', 'DotNetNuke.Telerik.Web', 'DotNetNuke.Web.Deprecated', 'DotNetNuke.Website.Deprecated', 'DotNetNuke.Messaging')
+WHERE Name IN ('DigitalAssetsManagement', 'DotNetNuke.Telerik.Web', 'DotNetNuke.Web.Deprecated', 'DotNetNuke.Website.Deprecated', 'Admin.Messaging')
 GO
 
 DELETE FROM {databaseOwner}{objectQualifier}PackageDependencies
