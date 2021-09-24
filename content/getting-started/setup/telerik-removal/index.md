@@ -28,6 +28,7 @@ Install the new `Resource Manager` module via `Extensions > Available Extensions
 Navigate to `Manage > Site Assets` via the `Persona Bar` and remove the `Digital Assets Management` module from the page.
 
 ### Step 4
+For every Portal in your DNN Installation:  
 Add an instance of the `Resource Manager` module to the `Site Assets` page.
 
 ### Step 5
