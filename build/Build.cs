@@ -119,6 +119,8 @@ class Build : NukeBuild
         .DependsOn(Compile)
         .Executes(() => {
             var currentCommit = GitCurrentCommit();
+            Git("config --global user.name 'DNN Community'");
+            Git("config --global user.email 'info@dnncommunity.org'");
             Git("checkout site");
             Git("add _site");
             Git("commit -m \"Commiting latest build\"");
