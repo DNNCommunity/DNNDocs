@@ -26,7 +26,7 @@ using static Nuke.Common.Tools.MSBuild.MSBuildTasks;
     GitHubActionsImage.MacOsLatest,
     GitHubActionsImage.UbuntuLatest,
     ImportGitHubTokenAs = "GithubToken",
-    OnPullRequestBranches = new[] { "main" },
+    OnPullRequestBranches = new[] { "master" },
     InvokedTargets = new[] { nameof(Compile) })]
 class Build : NukeBuild
 {
