@@ -47,6 +47,9 @@ class Build : NukeBuild
     [Parameter("Configuration to build - Default is 'Debug' (local) or 'Release' (server)")]
     readonly Configuration Configuration = IsLocalBuild ? Configuration.Debug : Configuration.Release;
 
+    [Parameter("Github Token")]
+    readonly string GithubToken;
+
     [Solution] readonly Solution Solution;
     [GitRepository] readonly GitRepository repository;
 
@@ -121,6 +124,7 @@ class Build : NukeBuild
             var currentCommit = GitCurrentCommit();
             Git("config --global user.name 'DNN Community'");
             Git("config --global user.email 'info@dnncommunity.org'");
+            Git($"remote set-url origin https://DNNCommunity:{GithubToken}@github.com/DNNCommunity/DNNDocs.git");
             Git("checkout site");
             Git("add _site");
             Git("commit -m \"Commiting latest build\"");
