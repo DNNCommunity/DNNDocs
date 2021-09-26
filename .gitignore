@@ -380,3 +380,4 @@ healthchecksdb
 MigrationBackup/
 
 !templates/**/*.dll
+/templates/dnn-docs/plugins

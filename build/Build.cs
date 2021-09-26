@@ -88,6 +88,10 @@ class Build : NukeBuild
         });
 
     Target Serve => _ => _
+        .DependsOn(Clean)
+        .DependsOn(Restore)
+        .DependsOn(BuildPlugins)
+        .DependsOn(PullDnnRepo)
     .Executes(() =>
     {
         DocFXBuild(s => s
