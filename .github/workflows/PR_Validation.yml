@@ -19,7 +19,7 @@ name: PR_Validation
 on:
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   windows-latest:
