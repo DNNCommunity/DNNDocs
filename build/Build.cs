@@ -84,10 +84,7 @@ class Build : NukeBuild
         .DependsOn(PullDnnRepo)
         .Executes(() =>
         {
-            DocFXMetadata(s => s.SetProcessWorkingDirectory(RootDirectory));
-            DocFXBuild(s => s
-                .SetOutputFolder(siteDirectory)
-                .SetProcessWorkingDirectory(RootDirectory));
+            DocFXBuild(s => s.SetConfigFile(RootDirectory / "docfx.json"));
         });
 
     Target Serve => _ => _
