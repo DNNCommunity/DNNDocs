@@ -118,9 +118,10 @@ class Build : NukeBuild
     Target Deploy => _ => _
         .DependsOn(Compile)
         .Executes(() => {
+            var currentCommit = GitCurrentCommit();
             Git("checkout site");
-            Git("checkout master -- _site");
             Git("add _site");
             Git("commit -m \"Commiting latest build\"");
+            Git("push origin site");
         });
 }
