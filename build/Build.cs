@@ -28,6 +28,12 @@ using static Nuke.Common.Tools.MSBuild.MSBuildTasks;
     ImportGitHubTokenAs = "GithubToken",
     OnPullRequestBranches = new[] { "master" },
     InvokedTargets = new[] { nameof(Compile) })]
+[GitHubActions(
+    "Deploy",
+    GitHubActionsImage.WindowsLatest,
+    ImportGitHubTokenAs = "GithubToken",
+    OnPushBranches = new[] { "master" },
+    InvokedTargets = new[] { nameof(Deploy) })]
 class Build : NukeBuild
 {
     /// Support plugins are available for:
@@ -42,6 +48,7 @@ class Build : NukeBuild
     readonly Configuration Configuration = IsLocalBuild ? Configuration.Debug : Configuration.Release;
 
     [Solution] readonly Solution Solution;
+    [GitRepository] readonly GitRepository repository;
 
     const string pluginsProjectName = "DNNCommunity.DNNDocs.Plugins";
 
@@ -101,10 +108,19 @@ class Build : NukeBuild
         .DependsOn(Restore)
         .DependsOn(BuildPlugins)
         .DependsOn(PullDnnRepo)
-    .Executes(() =>
-    {
-        DocFXBuild(s => s
-        .SetConfigFile(RootDirectory / "docfx.json")
-        .EnableServe());
-    });
+        .Executes(() =>
+        {
+            DocFXBuild(s => s
+            .SetConfigFile(RootDirectory / "docfx.json")
+            .EnableServe());
+        });
+
+    Target Deploy => _ => _
+        .DependsOn(Compile)
+        .Executes(() => {
+            Git("checkout site");
+            Git("checkout master -- _site");
+            Git("add _site");
+            Git("commit -m \"Commiting latest build\"");
+        });
 }
