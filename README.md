@@ -7,16 +7,8 @@ The project uses the `docfx` library to pull XML comments from the DNN Platform 
 ## Installing Git
 If you do not have Git installed, you will need to install it first. You can find instructions at [Git's Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-## Installing DocFX
-You'll also need DocFX installed as a command-line tool.  This can be accomplished using
-
-  * [Chocolatey](https://chocolatey.org/) for Windows via `choco install docfx -y`
-  * [Homebrew](https://brew.sh/) for macOS via `brew install docfx`
-
-Alternatively, you can download the latest release of `docfx.zip` from [DocFX's GitHub Releases](https://github.com/dotnet/docfx/releases), extract it to a local directory, and add that directory to `PATH` so you can run it anywhere.
-
 ## Setting Up the DNN Docs Project
-After installing DocFX, the next step is to fork this repository from GitHub to your own GitHub repository in order to give you write access on your own copy (if you don't have a GitHub account, you can create a free one).
+The next step is to fork this repository from GitHub to your own GitHub repository in order to give you write access on your own copy (if you don't have a GitHub account, you can create a free one).
 Simply click the Fork button above to get started.
 
 After your own fork is created, you need to copy the repository into your local machine, this is called cloning. This will create a copy of the DNNDocs Git repository (its directories and folders) on your local machine so that you can work with them there.
@@ -41,23 +33,23 @@ git remote add upstream https://github.com/DNNCommunity/DNNDocs
 
 Unless you are part of the DNNDocs core team, you will only have read access (you can only **pull**) to this remote.
 
-Next, you'll need to clone the [Dnn.Platform repository](https://github.com/dnnsoftware/Dnn.Platform) into a **subdirectory** of `DNNDocs` so that DocFX can parse its source code for structured XML comments to generate DNN's API documentation and the documentation center articles.
-
-Navigate into the newly created `DNNDocs` directory and clone the *Dnn.Platform*.  This could take a few minutes depending on your connection speed.
-
-```
-cd DNNDocs
-git clone https://github.com/dnnsoftware/Dnn.Platform.git
-```
-
 ## Running the DNN Docs Project Locally
 You should now be able to run the development version of the docs locally with the following command:
 
+Windows Powershell:
 ```
-docfx --serve
+.\build.ps1
 ```
 
-If you installed `docfx` using Chocolatey for Windows, you will need to run your shell as an administrator.
+Widnows CommandLine:
+```
+build.cmd
+```
+
+Mac/Linux:
+```
+.\build.sh
+```
 
 The compilation process could take quite a while.  You may see some warning messages.  Eventually, you should see a message similar to:
 ```
