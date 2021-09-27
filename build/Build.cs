@@ -142,7 +142,7 @@ class Build : NukeBuild
             Git("status");
             Git("commit --allow-empty -m \"Commiting latest build\"");
             Git("status");
-            Git("push origin site");
+            Git("push -f origin site");
             Git($"checkout {currentCommit}");
         });
 }
