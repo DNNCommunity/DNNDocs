@@ -107,6 +107,15 @@ class Build : NukeBuild
             DocFXBuild(s => s.SetConfigFile(RootDirectory / "docfx.json"));
         });
 
+    Target TemplateExportDefault => _ => _
+        .DependsOn(Restore)
+        .Executes(() =>
+        {
+            DocFXTemplate(s => s
+                .SetProcessArgumentConfigurator(a => a.Add("export default")));
+        });
+
+
     Target Serve => _ => _
         .DependsOn(Clean)
         .DependsOn(Restore)
@@ -115,8 +124,8 @@ class Build : NukeBuild
         .Executes(() =>
         {
             DocFXBuild(s => s
-            .SetConfigFile(RootDirectory / "docfx.json")
-            .EnableServe());
+                .SetConfigFile(RootDirectory / "docfx.json")
+                .EnableServe());
         });
 
     Target Deploy => _ => _

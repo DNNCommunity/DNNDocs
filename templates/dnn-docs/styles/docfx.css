@@ -607,6 +607,11 @@ body .toc{
   top: 10px;
   left: 5px;
 }
+.toc-filter > .clear-icon {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
 .article {
   margin-top: 80px;
   margin-bottom: 115px;
