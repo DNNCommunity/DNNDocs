@@ -1,0 +1,370 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Create a Layout Template  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Create a Layout Template  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    <meta property="og:title" content="Create a Layout Template -- DNN Docs">
+    <meta property="og:image" content="../../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="Create a Layout Template -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/tutorials/themes/creating-themes/create-layout-template/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fthemes%2Fcreating-themes%2Fcreate-layout-template%2Findex.html&amp;text=Create%20a%20Layout%20Template%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fthemes%2Fcreating-themes%2Fcreate-layout-template%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fthemes%2Fcreating-themes%2Fcreate-layout-template%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fthemes%2Fcreating-themes%2Fcreate-layout-template%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20Create%20a%20Layout%20Template%20|%20DNN%20Docs&amp;body=Create%20a%20Layout%20Template%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fthemes%2Fcreating-themes%2Fcreate-layout-template%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for Create a Layout Template&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bcreate-layout-template%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Ftutorials%2Fthemes%2Fcreating-themes%2Fcreate-layout-template%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/tutorials/themes/creating-themes/create-layout-template/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="create-layout-template">
+<h1 id="create-a-layout-template">Create a Layout Template</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">09.02.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 6 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 6 minutes  to read</span>
+</div>
+
+<p>A <strong>layout template</strong> defines where panes are located on the webpage and what each pane contains. The layout templates included in a theme are variations that the web designer can choose from for each page in the website, such as the home page, a gallery of photos, or a listing of products for sale.</p>
+<ul>
+<li>The layout template must contain one or more panes. A container has exactly one pane; additional panes are ignored.</li>
+<li>Exactly one of the panes must be called <code>ContentPane</code> (case-insensitive).</li>
+<li>Each pane must have a name that is unique within the page.</li>
+<li>All panes must be defined as a server control by adding <code>runat=&quot;server&quot;</code> to the element.</li>
+<li>A pane can be one of the following HTML elements: <code>&lt;td&gt;</code> (table cells), <code>&lt;div&gt;</code>, <code>&lt;p&gt;</code>, and <code>&lt;span&gt;</code>.</li>
+</ul>
+<div class="TIP">
+<h5>Tip</h5>
+<p>ASP.NET might modify the control names (e.g., <code>div id</code>) when the page is rendered to avoid duplicate control names in a page. Instead of depending on the control name when styling, add a class attribute to each of the controls and refer to those class attributes in your CSS.</p>
+</div>
+<h2 id="prerequisites">Prerequisites</h2>
+<p><a class="xref" href="../../../server/setup/set-up-dnn/index.html">A local DNN installation</a> with <strong>Host</strong> permissions.</p>
+<h2 id="steps">Steps</h2>
+<ol>
+<li><p>Create a new file for the layout template.</p>
+<p>A very basic layout template.</p>
+<ul>
+<li><p>HTML</p>
+<pre><code>
+    &lt;div id=&quot;ContentPane&quot; runat=&quot;server&quot;&gt;&lt;/div&gt;
+
+</code></pre>
+</li>
+<li><p>ASCX</p>
+<pre><code>
+    &lt;!-- &lt;%@ Control language=&quot;vb&quot; AutoEventWireup=&quot;false&quot; Explicit=&quot;True&quot; Inherits=&quot;DotNetNuke.UI.Skins.Skin&quot; %&gt; --&gt;
+    &lt;div id=&quot;ContentPane&quot; runat=&quot;server&quot;&gt;&lt;/div&gt;
+
+</code></pre>
+</li>
+</ul>
+<p>A layout template with several panes, a header, a footer, and a LOGO theme object.</p>
+<ul>
+<li><p>HTML</p>
+<pre><code>
+    &lt;div id=&quot;wrapper&quot;&gt;
+        &lt;div id=&quot;header&quot;&gt;
+            [LOGO]
+        &lt;/div&gt;
+        &lt;div id=&quot;sidebar&quot;&gt;
+            &lt;div id=&quot;feed&quot;&gt;
+                &lt;a class=&quot;feed-button&quot; href=&quot;#&quot;&gt; &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div id=&quot;SidebarPane&quot; class=&quot;SidebarPane&quot; runat=&quot;server&quot;&gt;&lt;/div&gt;
+            &lt;div id=&quot;sidebar-bottom&quot;&gt; &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id=&quot;content&quot;&gt;
+            &lt;div id=&quot;BannerPane&quot; class=&quot;BannerPane&quot; runat=&quot;server&quot;&gt;&lt;/div&gt;
+            &lt;div id=&quot;ContentPane&quot; runat=&quot;server&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id=&quot;footer&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+</code></pre>
+</li>
+<li><p>ASCX</p>
+<pre><code>
+    &lt;%@ Control language=&quot;vb&quot; AutoEventWireup=&quot;false&quot; Explicit=&quot;True&quot; Inherits=&quot;DotNetNuke.UI.Skins.Skin&quot; %&gt;
+    &lt;%@ Register TagPrefix=&quot;dnn&quot; TagName=&quot;LOGO&quot; Src=&quot;~/Admin/Skins/Logo.ascx&quot; %&gt;
+    &lt;div id=&quot;wrapper&quot;&gt;
+        &lt;div id=&quot;header&quot;&gt;
+            &lt;dnn:LOGO runat=&quot;server&quot; id=&quot;dnnLOGO&quot; /&gt;
+        &lt;/div&gt;
+        &lt;div id=&quot;sidebar&quot;&gt;
+            &lt;div id=&quot;feed&quot;&gt;
+                &lt;a class=&quot;feed-button&quot; href=&quot;#&quot;&gt; &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div id=&quot;MySidebarPane&quot; class=&quot;SidebarPane&quot; runat=&quot;server&quot;&gt;&lt;/div&gt;
+            &lt;div id=&quot;sidebar-bottom&quot;&gt; &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id=&quot;content&quot;&gt;
+            &lt;div id=&quot;MyBannerPane&quot; class=&quot;MyBannerPane&quot; runat=&quot;server&quot;&gt;&lt;/div&gt;
+            &lt;div id=&quot;ContentPane&quot; runat=&quot;server&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id=&quot;footer&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+</code></pre>
+</li>
+</ul>
+</li>
+<li><p>(Optional) Add theme objects to any pane for a more dynamic page.</p>
+<ul>
+<li><p>In HTML, you can use the HTML token (example: <code>[LOGIN]</code>).</p>
+<pre><code>
+    &lt;div id=&quot;login_style&quot; class=&quot;user&quot;&gt;
+        [LOGIN]
+    &lt;/div&gt;
+
+</code></pre>
+</li>
+<li><p>In ASCX, you must register the ASCX token (example: <code>&lt;dnn:Login ...</code>) before using it for the first time in the file.</p>
+<pre><code>
+    &lt;%@ Register TagPrefix=&quot;dnn&quot; TagName=&quot;Login&quot; Src=&quot;~/Admin/Skins/login.ascx&quot; %&gt;
+    ...
+    &lt;div id=&quot;login_style&quot; class=&quot;user&quot;&gt;
+        &lt;dnn:Login runat=&quot;server&quot; id=&quot;dnnLogin&quot; CssClass=&quot;user&quot; /&gt;
+    &lt;/div&gt;
+
+</code></pre>
+</li>
+</ul>
+<p>The following theme objects are relevant to layout templates:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Theme Object</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BREADCRUMB</td>
+<td>Displays the path to the current tab (<code>&gt;</code> is the default separator). Example: <code>PageName1 &gt; PageName2 &gt; PageName3</code></td>
+</tr>
+<tr>
+<td>COPYRIGHT</td>
+<td>Displays the copyright notice for the website.</td>
+</tr>
+<tr>
+<td>CURRENTDATE</td>
+<td>Displays the current date on the server.</td>
+</tr>
+<tr>
+<td>DOTNETNUKE</td>
+<td>Displays the copyright notice for DNN.</td>
+</tr>
+<tr>
+<td>HELP</td>
+<td>Displays a <strong>Help</strong> link, which sends an email to the website's administrator, using the user's default email client.</td>
+</tr>
+<tr>
+<td>HOSTNAME</td>
+<td>Displays the host title linked to the host URL. The host title and host URL are defined on the host settings page.</td>
+</tr>
+<tr>
+<td>LANGUAGE</td>
+<td>Displays the language selector dropdown list or the language flags based on the theme object attribute settings.</td>
+</tr>
+<tr>
+<td>LEFTMENU</td>
+<td>Displays a vertical menu layout.</td>
+</tr>
+<tr>
+<td>LINKS</td>
+<td>Displays a flat menu of links associated with the current tab level and the parent node.</td>
+</tr>
+<tr>
+<td>LOGIN</td>
+<td>Displays <strong>Login</strong> for anonymous users and <strong>Logout</strong> for authenticated users.</td>
+</tr>
+<tr>
+<td>LOGO</td>
+<td>Displays the website's logo.</td>
+</tr>
+<tr>
+<td>NAV</td>
+<td>Displays a menu according to the type specified in the ProviderName attribute.</td>
+</tr>
+<tr>
+<td>PRIVACY</td>
+<td>Displays a link to the Privacy Information page for the website.</td>
+</tr>
+<tr>
+<td>SEARCH</td>
+<td>Displays the search input box.</td>
+</tr>
+<tr>
+<td>STYLES</td>
+<td>Allows you to add Internet Explorer-specific stylesheets to your theme.</td>
+</tr>
+<tr>
+<td>TAGS</td>
+<td>Displays the <strong>Tag</strong> control allowing users to view and edit tags associated with the page or module.</td>
+</tr>
+<tr>
+<td>TERMS</td>
+<td>Displays a link to the Terms and Conditions page of the website.</td>
+</tr>
+<tr>
+<td>TEXT</td>
+<td>Displays localized text in your theme and supports the use of token replacement.</td>
+</tr>
+<tr>
+<td>TREEVIEW</td>
+<td>Displays a menu, similar to the Windows Explorer menu, using the <strong>DNN Treeview Control</strong>.</td>
+</tr>
+<tr>
+<td>USER</td>
+<td>Displays a <strong>Register</strong> link for anonymous users or the user's name for authenticated users.</td>
+</tr>
+</tbody>
+</table>
+<div class="TIP">
+<h5>Tip</h5>
+<p><a href="https://www.10poundgorilla.com/">10 Pound Gorilla</a>'s <a href="https://10poundgorilla.com/DNN-Skinning-Tool">Theming Tool</a> is both a reference and a tool that customizes the code for DNN theme objects, based on the attribute values you specify.</p>
+</div>
+</li>
+</ol>
+<div class="related-topics" hidden=""><span><a href="/content/tutorials/themes/theme-objects/index.html">Theme Objects</a></span><span><a href="/content/tutorials/themes/creating-themes/create-theme/index.html">Creating Themes</a></span></div><div class="links" hidden=""><span><a href="https://www.dnnsoftware.com/wiki/dotnetnuke-skins">DNN Wiki: DotNetNuke Skins</a></span><span><a href="https://www.dnnsoftware.com/community-blog/cid/132000/dotnetnuke-skinning-101-part-1">DNN Community Blog: DotNetNuke Skinning 101 (Part 1 and 2) by Joe Brinkman</a></span><span><a href="https://www.dnnsoftware.com/services/professional-training/training-videos-subscription/skinning-2-creating-html-skins">DNN Professional Training: Creating HTML Skins</a></span><span><a href="https://www.10poundgorilla.com">Skinning Tool / Online Reference for DNN Skins & Container Objects by 10 Pound Gorilla</a></span></div></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

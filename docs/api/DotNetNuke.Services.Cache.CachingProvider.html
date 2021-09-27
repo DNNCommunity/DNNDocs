@@ -1,0 +1,911 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CachingProvider
+    -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CachingProvider
+    -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Cache_CachingProvider.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Cache.CachingProvider%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Services.Cache.CachingProvider">
+  
+  
+  <h1 id="DotNetNuke_Services_Cache_CachingProvider" data-uid="DotNetNuke.Services.Cache.CachingProvider" class="text-break">Class CachingProvider
+  </h1>
+  <div class="markdown level0 summary"><p>CachingProvider provides basic component of cache system, by default it will use HttpRuntime.Cache.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">CachingProvider</span></div>
+      <div class="level2"><a class="xref" href="DotNetNuke.Services.Cache.FBCachingProvider.html">FBCachingProvider</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Services.Cache.html">DotNetNuke.Services.Cache</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Services_Cache_CachingProvider_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class CachingProvider : object</code></pre>
+  </div>
+  <h5 id="DotNetNuke_Services_Cache_CachingProvider_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Using cache will speed up the application to a great degree, we recommend to use cache for whole modules,
+but sometimes cache also make confuse for user, if we didn&apos;t take care of how to make cache expired when needed,
+such as if a data has already been deleted but the cache arn&apos;t clear, it will cause un expected errors.
+so you should choose a correct performance setting type when you trying to cache some stuff, and always remember
+update cache immediately after the data changed.</p>
+</div>
+  <h5 id="DotNetNuke_Services_Cache_CachingProvider_examples"><strong>Examples</strong></h5>
+  <pre><code>public static void ClearCache(string cachePrefix)
+{
+    CachingProvider.Instance().Clear(&quot;Prefix&quot;, GetDnnCacheKey(cachePrefix));
+}</code></pre>
+
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Cache_CachingProvider_Cache.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Cache.CachingProvider.Cache%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Cache/CachingProvider.cs/#L53">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Cache_CachingProvider_Cache_" data-uid="DotNetNuke.Services.Cache.CachingProvider.Cache*"></a>
+  <h4 id="DotNetNuke_Services_Cache_CachingProvider_Cache" data-uid="DotNetNuke.Services.Cache.CachingProvider.Cache">Cache</h4>
+  <div class="markdown level1 summary"><p>Gets the default cache provider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static System.Web.Caching.Cache Cache { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Caching.Cache</span></td>
+        <td><p>HttpRuntime.Cache.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Cache_CachingProvider_CacheExpirationDisable.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Cache.CachingProvider.CacheExpirationDisable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Cache/CachingProvider.cs/#L65">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Cache_CachingProvider_CacheExpirationDisable_" data-uid="DotNetNuke.Services.Cache.CachingProvider.CacheExpirationDisable*"></a>
+  <h4 id="DotNetNuke_Services_Cache_CachingProvider_CacheExpirationDisable" data-uid="DotNetNuke.Services.Cache.CachingProvider.CacheExpirationDisable">CacheExpirationDisable</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether whether current caching provider disabled to expire cache.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static bool CacheExpirationDisable { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Services_Cache_CachingProvider_CacheExpirationDisable_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This setting shouldn't affect current server, cache should always expire in current server even this setting set to True.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Cache_CachingProvider_CleanCacheKey_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Cache.CachingProvider.CleanCacheKey(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Cache/CachingProvider.cs/#L73">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Cache_CachingProvider_CleanCacheKey_" data-uid="DotNetNuke.Services.Cache.CachingProvider.CleanCacheKey*"></a>
+  <h4 id="DotNetNuke_Services_Cache_CachingProvider_CleanCacheKey_System_String_" data-uid="DotNetNuke.Services.Cache.CachingProvider.CleanCacheKey(System.String)">CleanCacheKey(String)</h4>
+  <div class="markdown level1 summary"><p>Cleans the cache key by remove cache key prefix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string CleanCacheKey(string CacheKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">CacheKey</span></td>
+        <td><p>The cache key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>cache key without prefix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Cache_CachingProvider_Clear_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Cache.CachingProvider.Clear(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Cache/CachingProvider.cs/#L113">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Cache_CachingProvider_Clear_" data-uid="DotNetNuke.Services.Cache.CachingProvider.Clear*"></a>
+  <h4 id="DotNetNuke_Services_Cache_CachingProvider_Clear_System_String_System_String_" data-uid="DotNetNuke.Services.Cache.CachingProvider.Clear(System.String,System.String)">Clear(String, String)</h4>
+  <div class="markdown level1 summary"><p>Clears the specified type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Clear(string type, string data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Cache_CachingProvider_ClearCacheInternal_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Cache.CachingProvider.ClearCacheInternal(System.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Cache/CachingProvider.cs/#L241">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Cache_CachingProvider_ClearCacheInternal_" data-uid="DotNetNuke.Services.Cache.CachingProvider.ClearCacheInternal*"></a>
+  <h4 id="DotNetNuke_Services_Cache_CachingProvider_ClearCacheInternal_System_String_System_String_System_Boolean_" data-uid="DotNetNuke.Services.Cache.CachingProvider.ClearCacheInternal(System.String,System.String,System.Boolean)">ClearCacheInternal(String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Clears the cache internal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ClearCacheInternal(string cacheType, string data, bool clearRuntime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cacheType</span></td>
+        <td><p>Type of the cache.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">clearRuntime</span></td>
+        <td><p>if set to <code>true</code> clear runtime cache.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Cache_CachingProvider_GetCacheKey_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Cache.CachingProvider.GetCacheKey(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Cache/CachingProvider.cs/#L89">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Cache_CachingProvider_GetCacheKey_" data-uid="DotNetNuke.Services.Cache.CachingProvider.GetCacheKey*"></a>
+  <h4 id="DotNetNuke_Services_Cache_CachingProvider_GetCacheKey_System_String_" data-uid="DotNetNuke.Services.Cache.CachingProvider.GetCacheKey(System.String)">GetCacheKey(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the cache key with key prefix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetCacheKey(string CacheKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">CacheKey</span></td>
+        <td><p>The cache key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>CachePrefix + CacheKey.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Cache_CachingProvider_GetEnumerator.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Cache.CachingProvider.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Cache/CachingProvider.cs/#L118">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Cache_CachingProvider_GetEnumerator_" data-uid="DotNetNuke.Services.Cache.CachingProvider.GetEnumerator*"></a>
+  <h4 id="DotNetNuke_Services_Cache_CachingProvider_GetEnumerator" data-uid="DotNetNuke.Services.Cache.CachingProvider.GetEnumerator">GetEnumerator()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IDictionaryEnumerator GetEnumerator()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDictionaryEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Cache_CachingProvider_GetItem_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Cache.CachingProvider.GetItem(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Cache/CachingProvider.cs/#L128">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Cache_CachingProvider_GetItem_" data-uid="DotNetNuke.Services.Cache.CachingProvider.GetItem*"></a>
+  <h4 id="DotNetNuke_Services_Cache_CachingProvider_GetItem_System_String_" data-uid="DotNetNuke.Services.Cache.CachingProvider.GetItem(System.String)">GetItem(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual object GetItem(string cacheKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cacheKey</span></td>
+        <td><p>The cache key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><p>cache content.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Cache_CachingProvider_Insert_System_String_System_Object_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Cache.CachingProvider.Insert(System.String%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Cache/CachingProvider.cs/#L138">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Cache_CachingProvider_Insert_" data-uid="DotNetNuke.Services.Cache.CachingProvider.Insert*"></a>
+  <h4 id="DotNetNuke_Services_Cache_CachingProvider_Insert_System_String_System_Object_" data-uid="DotNetNuke.Services.Cache.CachingProvider.Insert(System.String,System.Object)">Insert(String, Object)</h4>
+  <div class="markdown level1 summary"><p>Inserts the specified cache key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Insert(string cacheKey, object itemToCache)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cacheKey</span></td>
+        <td><p>The cache key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">itemToCache</span></td>
+        <td><p>The object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Cache_CachingProvider_Insert_System_String_System_Object_DotNetNuke_Services_Cache_DNNCacheDependency_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Cache.CachingProvider.Insert(System.String%2CSystem.Object%2CDotNetNuke.Services.Cache.DNNCacheDependency)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Cache/CachingProvider.cs/#L149">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Cache_CachingProvider_Insert_" data-uid="DotNetNuke.Services.Cache.CachingProvider.Insert*"></a>
+  <h4 id="DotNetNuke_Services_Cache_CachingProvider_Insert_System_String_System_Object_DotNetNuke_Services_Cache_DNNCacheDependency_" data-uid="DotNetNuke.Services.Cache.CachingProvider.Insert(System.String,System.Object,DotNetNuke.Services.Cache.DNNCacheDependency)">Insert(String, Object, DNNCacheDependency)</h4>
+  <div class="markdown level1 summary"><p>Inserts the specified cache key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Insert(string cacheKey, object itemToCache, DNNCacheDependency dependency)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cacheKey</span></td>
+        <td><p>The cache key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">itemToCache</span></td>
+        <td><p>The object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Cache.DNNCacheDependency.html">DNNCacheDependency</a></td>
+        <td><span class="parametername">dependency</span></td>
+        <td><p>The dependency.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Cache_CachingProvider_Insert_System_String_System_Object_DotNetNuke_Services_Cache_DNNCacheDependency_DateTime_TimeSpan_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Cache.CachingProvider.Insert(System.String%2CSystem.Object%2CDotNetNuke.Services.Cache.DNNCacheDependency%2CDateTime%2CTimeSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Cache/CachingProvider.cs/#L162">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Cache_CachingProvider_Insert_" data-uid="DotNetNuke.Services.Cache.CachingProvider.Insert*"></a>
+  <h4 id="DotNetNuke_Services_Cache_CachingProvider_Insert_System_String_System_Object_DotNetNuke_Services_Cache_DNNCacheDependency_DateTime_TimeSpan_" data-uid="DotNetNuke.Services.Cache.CachingProvider.Insert(System.String,System.Object,DotNetNuke.Services.Cache.DNNCacheDependency,DateTime,TimeSpan)">Insert(String, Object, DNNCacheDependency, DateTime, TimeSpan)</h4>
+  <div class="markdown level1 summary"><p>Inserts the specified cache key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Insert(string cacheKey, object itemToCache, DNNCacheDependency dependency, DateTime absoluteExpiration, TimeSpan slidingExpiration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cacheKey</span></td>
+        <td><p>The cache key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">itemToCache</span></td>
+        <td><p>The object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Cache.DNNCacheDependency.html">DNNCacheDependency</a></td>
+        <td><span class="parametername">dependency</span></td>
+        <td><p>The dependency.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">absoluteExpiration</span></td>
+        <td><p>The absolute expiration.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td><span class="parametername">slidingExpiration</span></td>
+        <td><p>The sliding expiration.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Cache_CachingProvider_Insert_System_String_System_Object_DotNetNuke_Services_Cache_DNNCacheDependency_DateTime_TimeSpan_CacheItemPriority_CacheItemRemovedCallback_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Cache.CachingProvider.Insert(System.String%2CSystem.Object%2CDotNetNuke.Services.Cache.DNNCacheDependency%2CDateTime%2CTimeSpan%2CCacheItemPriority%2CCacheItemRemovedCallback)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Cache/CachingProvider.cs/#L177">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Cache_CachingProvider_Insert_" data-uid="DotNetNuke.Services.Cache.CachingProvider.Insert*"></a>
+  <h4 id="DotNetNuke_Services_Cache_CachingProvider_Insert_System_String_System_Object_DotNetNuke_Services_Cache_DNNCacheDependency_DateTime_TimeSpan_CacheItemPriority_CacheItemRemovedCallback_" data-uid="DotNetNuke.Services.Cache.CachingProvider.Insert(System.String,System.Object,DotNetNuke.Services.Cache.DNNCacheDependency,DateTime,TimeSpan,CacheItemPriority,CacheItemRemovedCallback)">Insert(String, Object, DNNCacheDependency, DateTime, TimeSpan, CacheItemPriority, CacheItemRemovedCallback)</h4>
+  <div class="markdown level1 summary"><p>Inserts the specified cache key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Insert(string cacheKey, object itemToCache, DNNCacheDependency dependency, DateTime absoluteExpiration, TimeSpan slidingExpiration, CacheItemPriority priority, CacheItemRemovedCallback onRemoveCallback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cacheKey</span></td>
+        <td><p>The cache key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">itemToCache</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Cache.DNNCacheDependency.html">DNNCacheDependency</a></td>
+        <td><span class="parametername">dependency</span></td>
+        <td><p>The dependency.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">absoluteExpiration</span></td>
+        <td><p>The absolute expiration.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td><span class="parametername">slidingExpiration</span></td>
+        <td><p>The sliding expiration.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CacheItemPriority</span></td>
+        <td><span class="parametername">priority</span></td>
+        <td><p>The priority.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CacheItemRemovedCallback</span></td>
+        <td><span class="parametername">onRemoveCallback</span></td>
+        <td><p>The on remove callback.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Cache_CachingProvider_Instance.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Cache.CachingProvider.Instance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Cache/CachingProvider.cs/#L103">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Cache_CachingProvider_Instance_" data-uid="DotNetNuke.Services.Cache.CachingProvider.Instance*"></a>
+  <h4 id="DotNetNuke_Services_Cache_CachingProvider_Instance" data-uid="DotNetNuke.Services.Cache.CachingProvider.Instance">Instance()</h4>
+  <div class="markdown level1 summary"><p>Instances of  caching provider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CachingProvider Instance()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Cache.CachingProvider.html">CachingProvider</a></td>
+        <td><p>The Implemments provider of cache system defind in web.config.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Cache_CachingProvider_IsWebFarm.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Cache.CachingProvider.IsWebFarm%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Cache/CachingProvider.cs/#L189">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Cache_CachingProvider_IsWebFarm_" data-uid="DotNetNuke.Services.Cache.CachingProvider.IsWebFarm*"></a>
+  <h4 id="DotNetNuke_Services_Cache_CachingProvider_IsWebFarm" data-uid="DotNetNuke.Services.Cache.CachingProvider.IsWebFarm">IsWebFarm()</h4>
+  <div class="markdown level1 summary"><p>Determines whether is web farm.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool IsWebFarm()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if is web farm; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Cache_CachingProvider_PurgeCache.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Cache.CachingProvider.PurgeCache%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Cache/CachingProvider.cs/#L198">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Cache_CachingProvider_PurgeCache_" data-uid="DotNetNuke.Services.Cache.CachingProvider.PurgeCache*"></a>
+  <h4 id="DotNetNuke_Services_Cache_CachingProvider_PurgeCache" data-uid="DotNetNuke.Services.Cache.CachingProvider.PurgeCache">PurgeCache()</h4>
+  <div class="markdown level1 summary"><p>Purges the cache.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string PurgeCache()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Cache_CachingProvider_Remove_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Cache.CachingProvider.Remove(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Cache/CachingProvider.cs/#L207">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Cache_CachingProvider_Remove_" data-uid="DotNetNuke.Services.Cache.CachingProvider.Remove*"></a>
+  <h4 id="DotNetNuke_Services_Cache_CachingProvider_Remove_System_String_" data-uid="DotNetNuke.Services.Cache.CachingProvider.Remove(System.String)">Remove(String)</h4>
+  <div class="markdown level1 summary"><p>Removes the specified cache key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Remove(string CacheKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">CacheKey</span></td>
+        <td><p>The cache key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Cache_CachingProvider_RemoveInternal_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Cache.CachingProvider.RemoveInternal(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Cache/CachingProvider.cs/#L279">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Cache_CachingProvider_RemoveInternal_" data-uid="DotNetNuke.Services.Cache.CachingProvider.RemoveInternal*"></a>
+  <h4 id="DotNetNuke_Services_Cache_CachingProvider_RemoveInternal_System_String_" data-uid="DotNetNuke.Services.Cache.CachingProvider.RemoveInternal(System.String)">RemoveInternal(String)</h4>
+  <div class="markdown level1 summary"><p>Removes the internal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RemoveInternal(string cacheKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cacheKey</span></td>
+        <td><p>The cache key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Cache/CachingProvider.cs/#L42" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

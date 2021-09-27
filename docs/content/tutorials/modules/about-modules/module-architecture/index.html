@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Module Architecture  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Module Architecture  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    <meta property="og:title" content="Module Architecture -- DNN Docs">
+    <meta property="og:image" content="../../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="Module Architecture -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/tutorials/modules/about-modules/module-architecture/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fabout-modules%2Fmodule-architecture%2Findex.html&amp;text=Module%20Architecture%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fabout-modules%2Fmodule-architecture%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fabout-modules%2Fmodule-architecture%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fabout-modules%2Fmodule-architecture%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20Module%20Architecture%20|%20DNN%20Docs&amp;body=Module%20Architecture%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fabout-modules%2Fmodule-architecture%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for Module Architecture&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bmodule-architecture%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Ftutorials%2Fmodules%2Fabout-modules%2Fmodule-architecture%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/tutorials/modules/about-modules/module-architecture/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="module-architecture">
+<h1 id="module-architecture">Module Architecture</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">09.02.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 6 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 6 minutes  to read</span>
+</div>
+
+<p>Although every module provides a different set of features and functionality, some architectural elements are common among modules. Most DNN modules are developed using an n-tier architecture. Whether you build a Web Forms module, an MVC module, or a SPA module, you implement most of these layers in your module.</p>
+<p><img src="/images/gra-module-architecture.png" alt="Module architecture"></p>
+<h2 id="data-access-layer">Data Access Layer</h2>
+<p>DNN supports three Data Access Layer (DAL) frameworks: DAL, DAL+, and DAL2. All three are based on the same underlying provider model, which enables DNN to be used with different database management systems.</p>
+<p>Note: DNN ships with a SQL Server database provider. Other third-party database providers are available for Oracle, MySQL, and MS Access; however, MySQL and MS Access providers are no longer maintained or supported.</p>
+<p>DAL is a fully abstracted implementation that requires the following:</p>
+<ul>
+<li>An abstract data provider class that defines your data layer API.</li>
+<li>A concrete implementation of this abstract class for every database type you wish to support (typically just SQL Server).</li>
+<li>Database scripts to create the stored procedures, tables, and views required by your module.</li>
+</ul>
+<p>DAL+ adds generic data access methods to the core platform to eliminate the need for the abstract and concrete data provider classes. You can still use alternate databases, and you must still provide the necessary database scripts.</p>
+<p>DAL2 uses the PetaPOCO Micro-ORM, which eliminates the need for writing stored procedures. DAL2 provides additional features, including integrated cache management, which further simplifies your code.</p>
+<p>You can use any data access method, even those not directly supported by DNN. You can also use more than one DAL technology within a single module.</p>
+<p>Tip: Use DAL2 for most of your standard CRUD queries, and use DAL+ for more complex queries that may require performance tuning. This approach simplifies development and lets you focus your performance-tuning efforts.</p>
+<h2 id="caching-layer">Caching Layer</h2>
+<p>Database access is one of the slowest actions performed by a web application. In many systems, the data is stored in a format that is different from the format in which it will be used. Applications often perform complex queries to filter the dataset and then alter the format of the results prior to use. If the database is not local, the query takes longer, depending on network speed. Database queries are orders of magnitude slower than using an in-memory cache.</p>
+<p>Caching is ideal for:</p>
+<ul>
+<li>Any data that is expensive to compute and yields the same results for a period of time.</li>
+<li>Any data segment that is invariant for a subset of users or for a specific URL.</li>
+</ul>
+<p>DNN provides built-in caching with the Cache API. If you use DNN's DAL or DAL+ APIs, implement the <a href="https://docs.microsoft.com/en-us/azure/architecture/patterns/cache-aside">Cache-Aside Pattern</a> for optimum performance. You can configure DAL2's built-in caching by using attributes in your code.</p>
+<p>The Cache API can be extended to use different cache stores. The abstraction provided by the Cache API ensures that modules perform seamlessly, regardless of the caching provider installed by the site administrator.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>If a class would be stored in the cache, mark it <code>[Serializable]</code> to ensure that it is stored correctly by out-of-process caching providers.</p>
+</div>
+<pre><code>
+    [Serializable]
+    public class MyInfoClass
+    {
+        // Property declarations...
+    }
+
+</code></pre>
+<h2 id="business-logic-layer">Business Logic Layer</h2>
+<p>Most business rules are implemented in the business logic layer. These rules can be as simple as validating data or as complex as orchestrating workflows across multiple back-end systems. This layer is also responsible for coordinating calls to the caching and data access layers.</p>
+<p>DNN provides APIs for handling common tasks, such as application security, file storage, list management, event logging, and full-text search. These APIs are fully abstracted and extensible so you can focus on just the business rules that are specific to your module.</p>
+<h2 id="service-layer">Service Layer</h2>
+<p>DNN provides the Service Framework, which you can use for quickly defining web services. The Service Framework provides integrated access to common DNN entities within your service methods, so that your service can determine which site is being called, the user making the request, and the module facilitating the request. You can also secure your web services by specifying which applications and which users can access your service endpoints.</p>
+<h2 id="presentation-layer">Presentation Layer</h2>
+<p>The core component in the presentation layer is the module control. Every unique view of a module is registered as a module control in the <a class="xref" href="../../../extensions/dnn-manifest-schema/index.html">DNN Manifest</a>.</p>
+<p>DNN APIs make it easy to access any module control, thus simplifying view management within your module.</p>
+<p>Alternatively, modules can implement their own view dispatch methods to control when specific views are shown or how the module appears on the page.</p>
+<p>For Web Forms modules, the primary view component is an ASP.NET user control, called a module control in DNN. For MVC and SPA modules, DNN expanded the definition of module controls to accommodate their alternative view-rendering pipelines.</p>
+<div class="related-topics" hidden=""><span><a href="/content/tutorials/modules/about-modules/module-features/index.html">Common Module Features</a></span></div><div class="links" hidden=""><span><a href="https://www.dnnsoftware.com/dnn-api/">DNN Module APIs</a></span></div></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

@@ -1,0 +1,494 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PermissionInfoBase
+    -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PermissionInfoBase
+    -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfoBase.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfoBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase">
+  
+  
+  <h1 id="DotNetNuke_Security_Permissions_PermissionInfoBase" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase" class="text-break">Class PermissionInfoBase
+  </h1>
+  <div class="markdown level0 summary"><p>PermissionInfoBase provides a base class for PermissionInfo classes.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html">BaseEntityInfo</a></div>
+    <div class="level2"><a class="xref" href="DotNetNuke.Security.Permissions.PermissionInfo.html">PermissionInfo</a></div>
+    <div class="level3"><span class="xref">PermissionInfoBase</span></div>
+      <div class="level4"><a class="xref" href="Dnn.PersonaBar.Library.Model.MenuPermissionInfo.html">MenuPermissionInfo</a></div>
+      <div class="level4"><a class="xref" href="DotNetNuke.Entities.Content.Workflow.ContentWorkflowStatePermission.html">ContentWorkflowStatePermission</a></div>
+      <div class="level4"><a class="xref" href="DotNetNuke.Entities.Content.Workflow.Entities.WorkflowStatePermission.html">WorkflowStatePermission</a></div>
+      <div class="level4"><a class="xref" href="DotNetNuke.Security.Permissions.DesktopModulePermissionInfo.html">DesktopModulePermissionInfo</a></div>
+      <div class="level4"><a class="xref" href="DotNetNuke.Security.Permissions.FolderPermissionInfo.html">FolderPermissionInfo</a></div>
+      <div class="level4"><a class="xref" href="DotNetNuke.Security.Permissions.ModulePermissionInfo.html">ModulePermissionInfo</a></div>
+      <div class="level4"><a class="xref" href="DotNetNuke.Security.Permissions.TabPermissionInfo.html">TabPermissionInfo</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionInfo.html#DotNetNuke_Security_Permissions_PermissionInfo_ModuleDefID">PermissionInfo.ModuleDefID</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionInfo.html#DotNetNuke_Security_Permissions_PermissionInfo_PermissionCode">PermissionInfo.PermissionCode</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionInfo.html#DotNetNuke_Security_Permissions_PermissionInfo_PermissionID">PermissionInfo.PermissionID</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionInfo.html#DotNetNuke_Security_Permissions_PermissionInfo_PermissionKey">PermissionInfo.PermissionKey</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionInfo.html#DotNetNuke_Security_Permissions_PermissionInfo_PermissionName">PermissionInfo.PermissionName</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_CreatedByUserID">BaseEntityInfo.CreatedByUserID</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_CreatedOnDate">BaseEntityInfo.CreatedOnDate</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_LastModifiedByUserID">BaseEntityInfo.LastModifiedByUserID</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_LastModifiedOnDate">BaseEntityInfo.LastModifiedOnDate</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_CreatedByUser_System_Int32_">BaseEntityInfo.CreatedByUser(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_LastModifiedByUser_System_Int32_">BaseEntityInfo.LastModifiedByUser(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_CloneBaseProperties_DotNetNuke_Entities_BaseEntityInfo_DotNetNuke_Entities_BaseEntityInfo_">BaseEntityInfo.CloneBaseProperties(BaseEntityInfo, BaseEntityInfo)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Security.Permissions.html">DotNetNuke.Security.Permissions</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Security_Permissions_PermissionInfoBase_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class PermissionInfoBase : PermissionInfo</code></pre>
+  </div>
+  <h5 id="DotNetNuke_Security_Permissions_PermissionInfoBase_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>All Permission calsses have  a common set of properties</p>
+<ul>
+<li>AllowAccess</li>
+<li>RoleID</li>
+<li>RoleName</li>
+<li>UserID</li>
+<li>Username</li>
+<li>DisplayName</li>
+</ul>
+<p>and these are implemented in this base class.</p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfoBase__ctor.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfoBase.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L45">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionInfoBase__ctor_" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.#ctor*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionInfoBase__ctor" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.#ctor">PermissionInfoBase()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.Security.Permissions.PermissionInfoBase.html">PermissionInfoBase</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PermissionInfoBase()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfoBase_AllowAccess.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfoBase.AllowAccess%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L61">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionInfoBase_AllowAccess_" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.AllowAccess*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionInfoBase_AllowAccess" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.AllowAccess">AllowAccess</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether gets and sets  aflag that indicates whether the user or role has permission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AllowAccess { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A Boolean.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfoBase_DisplayName.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfoBase.DisplayName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L81">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionInfoBase_DisplayName_" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.DisplayName*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionInfoBase_DisplayName" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.DisplayName">DisplayName</h4>
+  <div class="markdown level1 summary"><p>Gets or sets and sets the User's DisplayName.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DisplayName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A String.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfoBase_RoleID.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfoBase.RoleID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L101">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionInfoBase_RoleID_" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.RoleID*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionInfoBase_RoleID" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.RoleID">RoleID</h4>
+  <div class="markdown level1 summary"><p>Gets or sets and sets the Role ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RoleID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>An Integer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfoBase_RoleName.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfoBase.RoleName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L121">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionInfoBase_RoleName_" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.RoleName*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionInfoBase_RoleName" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.RoleName">RoleName</h4>
+  <div class="markdown level1 summary"><p>Gets or sets and sets the Role Name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RoleName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A String.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfoBase_UserID.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfoBase.UserID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L141">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionInfoBase_UserID_" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.UserID*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionInfoBase_UserID" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.UserID">UserID</h4>
+  <div class="markdown level1 summary"><p>Gets or sets and sets the User ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int UserID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>An Integer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfoBase_Username.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfoBase.Username%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L161">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionInfoBase_Username_" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.Username*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionInfoBase_Username" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.Username">Username</h4>
+  <div class="markdown level1 summary"><p>Gets or sets and sets the User Name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Username { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A String.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfoBase_FillInternal_IDataReader_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfoBase.FillInternal(IDataReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L181">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionInfoBase_FillInternal_" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.FillInternal*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionInfoBase_FillInternal_IDataReader_" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.FillInternal(IDataReader)">FillInternal(IDataReader)</h4>
+  <div class="markdown level1 summary"><p>FillInternal fills the PermissionInfoBase from a Data Reader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void FillInternal(IDataReader dr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td><p>The Data Reader to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionInfo.html#DotNetNuke_Security_Permissions_PermissionInfo_FillInternal_IDataReader_">PermissionInfo.FillInternal(IDataReader)</a></div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L32" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

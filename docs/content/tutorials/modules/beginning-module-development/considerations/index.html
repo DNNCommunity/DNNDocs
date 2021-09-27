@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Module Design Considerations  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Module Design Considerations  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    <meta property="og:title" content="Module Design Considerations -- DNN Docs">
+    <meta property="og:image" content="../../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="Module Design Considerations -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/tutorials/modules/beginning-module-development/considerations/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fconsiderations%2Findex.html&amp;text=Module%20Design%20Considerations%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fconsiderations%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fconsiderations%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fconsiderations%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20Module%20Design%20Considerations%20|%20DNN%20Docs&amp;body=Module%20Design%20Considerations%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fconsiderations%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for Module Design Considerations&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bmod-dev-design%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fconsiderations%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/tutorials/modules/beginning-module-development/considerations/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="mod-dev-design">
+<h1 id="module-design-considerations">Module Design Considerations</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">07.00.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 18 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 18 minutes  to read</span>
+</div>
+
+<p>Now that you have your bearings and you know what you want to accomplish with the module, let's look at some aspects that will have an influence on how you will code this. What follows are a number of decision points you will come across while you're moving from your module's concept to code.</p>
+<h2 id="3-tier-design-and-mvc">3 Tier Design and MVC</h2>
+<p>By far the most common architecture in ASP.NET Web Forms in the 3-tiered approach where you have a presentation layer, a business layer and a data access layer (DAL). This approach also pervades the DNN Platform. The idea is to separate your code between these 3 layers so that it becomes easier to make changes in one layer without affecting any others. This makes the solution easier to maintain. Concretely the ascx files and their code behind would constitute the presentation layer code, the Sql methods the data layer and the various controllers and objects the business layer. In DNN you'll find the entire data layer under the namespace DotNetNuke.Data.</p>
+<p>But as simple as it sounds, it's as difficult to keep consistent and Web Forms has been faulted by many for not encouraging developers enough to keep their code well separated. MVC is seen as a logical progression in web development and it claims to provide an ever better &quot;separation of concerns&quot;. DNN 7.5 is slated to provide support for modules that wish to follow this programming paradigm. A full discussion of the merits of MVC falls outside the scope of this book, however, and given that support for MVC has not yet been implemented in DNN as of this writing, I will focus on a 3-tier approach in the remainder of this chapter. Keep in mind that this is a totally valid way of creating your modules.</p>
+<h2 id="dal">DAL</h2>
+<p>The Data Access Layer is probably the easiest layer to recognize in any DNN module (and DNN itself). And again we've seen significant changes in the technical landscape since DNN was first created. The DAL is responsible for persisting the objects of our application to some data store. Or to put it more simply: it stores the various records in the various database tables of our application and can retrieve those again.</p>
+<p>Because DNN was designed to be very flexible and extensible, many parts were designed following the <em>provider model pattern</em>. Basically you have an abstract class defining a number of abstract methods and then you have a concrete implementation of the class which is constructed by some factory method at runtime. This allows DNN to support other databases than SQL Server like MySQL or Oracle. If you wanted to have DNN run on Oracle all you'd need to do is to create the concrete class that implements all the defined methods and you'd need to create the various scripts to create the correct database schema in Oracle. This has actually been done in the past and it was a commercial project. But it's an enormous undertaking with limited benefits. What turned out to be the biggest stumbling block is that it needed to be repeated for each and every module you had if you wished to run your DNN on Oracle. So more and more it is assumed that you are using DNN on SQL Server, especially since SQL Server has been accepted as a enterprise grade database and since there are free entry level versions of this. But you'll see the legacy of this in the naming of some parts. Like the .SqlDataProvider filename extension for the scripts for SQL Server. As you can imagine the Oracle provider had .OracleDataProvider files.</p>
+<p>This development is why DNN has been moving away from the provider pattern for a while now. The above is dubbed the DAL 1. The first move was to add generic methods in the data provider that allowed module developers to avoid having to code the data provider abstract class and sql data provider implementation in their own code for each and every function. Instead you could code you method directly calling a specific stored procedure. This mechanism is referred to as DAL +.</p>
+<p>There are two developments in the data access domain since the original DNN that have had significant impact on ASP.NET in general and the way DNN interacts with data specifically: ORM and LINQ. To start with the latter, LINQ is a set of extensions to the .NET languages allowing developers to make SQL-like queries of various collection types (arrays, dictionaries, etc). It has become hugely popular since its introduction in .NET 3.5. There are many good resources on LINQ and I will assume you are familiar with it. ORMs, or Object Relational Model mappers in full, remove the repetitive task for developers of creating CRUD (Create, Read, Update, Delete) statements for their objects between their code and the database. Instead the developer can hand over an object and tell the ORM &quot;just store this&quot; and the ORM will craft the SQL dynamically to make this happen. ORMs like Microsoft's Entity Framework can be an incredibly powerful tool and time winner for developers. But there are a few downsides to this. First you'll need to extensively decorate your code to make sure the ORM does exactly what you want it to. Then there is obviously a performance penalty. And finally you'll have a dependency on a component that is not yours. Especially the latter two points make it less than ideal for the module developer who wishes to redistribute. You'd be forced to redistribute the ORM along with your module. Instead, DNN has chosen to adopt a so-called Micro-ORM. A Micro-ORM is not quite as powerful as a full ORM, but what you lose in flexibility you get back in performance.</p>
+<p>DNN 7 ships with PetaPoco and introduces a new way of doing data access: DAL 2. This new layer promises to cut down the number of lines of code that module developers need to create significantly. The DAL 2 is discussed more in depth in the DAL chapter of this book.</p>
+<h2 id="client-side-vs-server-side">Client-side vs Server-side</h2>
+<p>Back in 2001 when ASP.NET was first released, the thinking was still very much thin client. Browsers were pretty dumb, buggy (IE) and non-standardized (again IE) so the best approach a developer could take was to do as much as possible on the server and limit what the browser did to just displaying HTML and sending back form data. This worked for a number of years until it was discovered that with Javascript you could alter the contents of a page and do similar interactions to the server as what the browser does when posting back eliminating the need for page postbacks. Ajax was born and soon every developer was asked to provide solutions that didn't require page refreshes any more. Microsoft released its own version of Ajax in ASP.NET using so-called <em>update panels</em>. Skip a few years and we see the emergence of jQuery and JSON. These two technologies make it trivially easy for developers to send data back and forth to the server and alter what is on screen. And it beats Microsoft's solution on two very important aspects: load and performance. Update panels send back the whole page to the server and the server responds with bulky HTML. This means that there are a lot of bytes going back and forth. With the more modern approach the developer decides selectively what is being sent back and forth, making this a much more efficient affair. Fast forward a few more years and Microsoft launches WebAPI which is intended to make developing services for data exchange between a web page and the server a lot easier. This has unlocked the full potential of jQuery/JSON for ASP.NET developers.</p>
+<p>DNN 7 includes enhanced support for jQuery (you'll find the libraries under Resources/Libraries), JSON (DNN ships with the most popular Newtonsoft.Json.dll library) and WebAPI. Details will be explained in another chapter in this book. What you should think about at this stage of your project, though, is how you will divide the work your module does. What is best done on the server and what will you do using services or even plainly in Javascript? Browsers are much better behaved these days and you are expected to provide a smooth experience on both high-bandwidth as well as low-bandwidth (read: mobile) connections. Naturally you will need to keep security in mind, too. Services can be exploited and every door you open on the server for your application is one more target for a hacker.</p>
+<h2 id="localization">Localization</h2>
+<p>For those of us that live outside the US it is all too familiar to see some new technological development only to find out that it is US English only. Or that it can't be used in a multilingual setting. This is not ill will, but more of a blind spot of many developers. &quot;It works for me&quot;. For years I have been involved in a team of people (mostly from Europe) that tries to identify internationalization issues in DNN and offer solutions for these. This team meets regularly and if there is one takeaway from these meetings it's that this is hard to do right especially if it was not taken into account at the very conception. Besides the obvious translation of texts we see on screen there are differences in how we write numbers, dates and even the direction we write. Making an application that behaves in the same way in all cultures is a daunting task. So I urge you not to underestimate this aspect of your module.</p>
+<p>Technically we discern between two types of localization: static- and content localization. The former deals with the texts and graphics that we ship with our work such as buttons (&quot;Submit&quot;, &quot;Cancel&quot;, etc), field texts (&quot;First Name&quot;), help texts, etc. Static localization is done through resource files. These are XML files with the .resx extension you'll find in the App_LocalResources folders everywhere. These files consist of key-value pairs where the value is the text in one specific language for that file. The US English text is in the file that is simply named MyControl.ascx.resx that you create and supply with your work. Then, if it needs to be translated to French, all a translator would need to do is to create a resource file called MyControl.ascx.fr-FR.resx (fr-FR stands for French as it's spoken in France as opposed to fr-CA which is French as it's spoken in Canada) with the French translations in it. DNN checks the user's browser settings and personal preferences to determine which languages the user prefers and then attempts to find the best match for each text on display. This process includes so-called <em>fallbacks</em> where one could specify that if the user is German speaking from Austria but no text can be found in de-AT then maybe the system should look for the German file for Germany (de-DE) before falling back on US English. As you can probably understand, this can get incredibly complex very quickly. And I hadn't even mentioned we also support overrides per portal and at host level. To keep this from totally bringing DNN to its knees a lot of caching is taking place.</p>
+<p>DNN Software provides the resx files for the entire DNN Platform for 5 languages besides English: Spanish, German, Italian, French and Dutch. But with some simple tools you can create your own translation for DNN if you need to. You can use the built-in editor in DNN through the languages page or you can use an external tool like the DNN Translator that you can find on CodePlex. Resource files are normally zipped up into <em>language packs</em>. An example is the aforementioned core language pack. But you can also have module specific language packs. As a module developer you may need to ask a translator to translate your resource files as a service for your customers so you can deliver these packs yourself.</p>
+<p>For the most part your concern with static localization means you use the ResourceKey attribute on your controls and add the key to the corresponding resx file. There should be a big red warning light on your monitor that flashes every time you are hard coding any bit of text to display to an end user. It just isn't done. This is not your only concern, but there is a more in depth discussion of localization in another chapter of this book.</p>
+<p><em>Content localization</em> is the domain of multilingual sites. It concerns all the features built into DNN to allow users to create content in different languages and have the site adapt to the user's preferences. The way it is implemented in DNN is that when a page has been designated to be multi lingual it in fact creates shadow copies of itself for the other languages that the portal wishes to support. It then copies all modules from the original page to those shadow pages. At this point translators can work on those modules translating their content and when done they will mark a page as done and it will become available in the site. Sometimes you might not want to have a copy of module, but rather the same one. That is also possible in DNN. You can manage that on the languages interface for a page. What you should be aware of as a module developer is the mechanism described above. Depending on your application you may (a) totally ignore the whole content localization aspect, (b) decide that for other languages the module should be copied as discrete instances, or (c) that your module should not be exploded into n versions but that the same module should appear on each page. In the latter case we'd speak of a module that implements content localization within itself. In the second case we let DNN handle content localization.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This is an extract from the Wrox book  <a href="https://www.amazon.com/Professional-DNN7-Open-Source-Platform/dp/111885084X">Professional DNN 7</a> by Shaun Walker et al. Copyright remains with P.A. Donker and Wiley Publishers.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

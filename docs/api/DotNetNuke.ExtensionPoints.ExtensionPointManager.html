@@ -1,0 +1,1307 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ExtensionPointManager
+    -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ExtensionPointManager
+    -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager">
+  
+  
+  <h1 id="DotNetNuke_ExtensionPoints_ExtensionPointManager" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager" class="text-break">Class ExtensionPointManager
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ExtensionPointManager</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.ExtensionPoints.html">DotNetNuke.ExtensionPoints</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ExtensionPointManager : object</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager__ctor.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L26">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager__ctor_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.#ctor*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager__ctor" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.#ctor">ExtensionPointManager()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.ExtensionPoints.ExtensionPointManager.html">ExtensionPointManager</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExtensionPointManager()</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_ComposeParts_System_Object___.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.ComposeParts(System.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L31">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_ComposeParts_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.ComposeParts*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_ComposeParts_System_Object___" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.ComposeParts(System.Object[])">ComposeParts(Object[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ComposeParts(params object[] attributeParts)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">attributeParts</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetContextMenuItemExtensionPoints_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetContextMenuItemExtensionPoints(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L115">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetContextMenuItemExtensionPoints_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetContextMenuItemExtensionPoints*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetContextMenuItemExtensionPoints_System_String_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetContextMenuItemExtensionPoints(System.String)">GetContextMenuItemExtensionPoints(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IContextMenuItemExtensionPoint&gt; GetContextMenuItemExtensionPoints(string module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.ExtensionPoints.IContextMenuItemExtensionPoint.html">IContextMenuItemExtensionPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetContextMenuItemExtensionPoints_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetContextMenuItemExtensionPoints(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L120">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetContextMenuItemExtensionPoints_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetContextMenuItemExtensionPoints*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetContextMenuItemExtensionPoints_System_String_System_String_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetContextMenuItemExtensionPoints(System.String,System.String)">GetContextMenuItemExtensionPoints(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IContextMenuItemExtensionPoint&gt; GetContextMenuItemExtensionPoints(string module, string group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.ExtensionPoints.IContextMenuItemExtensionPoint.html">IContextMenuItemExtensionPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetEditPagePanelExtensionPointFirstByPriority_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetEditPagePanelExtensionPointFirstByPriority(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L107">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetEditPagePanelExtensionPointFirstByPriority_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetEditPagePanelExtensionPointFirstByPriority*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetEditPagePanelExtensionPointFirstByPriority_System_String_System_String_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetEditPagePanelExtensionPointFirstByPriority(System.String,System.String)">GetEditPagePanelExtensionPointFirstByPriority(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEditPagePanelExtensionPoint GetEditPagePanelExtensionPointFirstByPriority(string module, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.ExtensionPoints.IEditPagePanelExtensionPoint.html">IEditPagePanelExtensionPoint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetEditPagePanelExtensionPoints_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetEditPagePanelExtensionPoints(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L93">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetEditPagePanelExtensionPoints_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetEditPagePanelExtensionPoints*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetEditPagePanelExtensionPoints_System_String_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetEditPagePanelExtensionPoints(System.String)">GetEditPagePanelExtensionPoints(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IEditPagePanelExtensionPoint&gt; GetEditPagePanelExtensionPoints(string module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.ExtensionPoints.IEditPagePanelExtensionPoint.html">IEditPagePanelExtensionPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetEditPagePanelExtensionPoints_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetEditPagePanelExtensionPoints(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L98">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetEditPagePanelExtensionPoints_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetEditPagePanelExtensionPoints*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetEditPagePanelExtensionPoints_System_String_System_String_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetEditPagePanelExtensionPoints(System.String,System.String)">GetEditPagePanelExtensionPoints(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IEditPagePanelExtensionPoint&gt; GetEditPagePanelExtensionPoints(string module, string group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.ExtensionPoints.IEditPagePanelExtensionPoint.html">IEditPagePanelExtensionPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetEditPageTabExtensionPoints_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetEditPageTabExtensionPoints(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L39">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetEditPageTabExtensionPoints_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetEditPageTabExtensionPoints*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetEditPageTabExtensionPoints_System_String_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetEditPageTabExtensionPoints(System.String)">GetEditPageTabExtensionPoints(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IEditPageTabExtensionPoint&gt; GetEditPageTabExtensionPoints(string module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.ExtensionPoints.IEditPageTabExtensionPoint.html">IEditPageTabExtensionPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetEditPageTabExtensionPoints_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetEditPageTabExtensionPoints(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L44">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetEditPageTabExtensionPoints_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetEditPageTabExtensionPoints*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetEditPageTabExtensionPoints_System_String_System_String_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetEditPageTabExtensionPoints(System.String,System.String)">GetEditPageTabExtensionPoints(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IEditPageTabExtensionPoint&gt; GetEditPageTabExtensionPoints(string module, string group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.ExtensionPoints.IEditPageTabExtensionPoint.html">IEditPageTabExtensionPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetGridColumnExtensionPoints_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetGridColumnExtensionPoints(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L163">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetGridColumnExtensionPoints_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetGridColumnExtensionPoints*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetGridColumnExtensionPoints_System_String_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetGridColumnExtensionPoints(System.String)">GetGridColumnExtensionPoints(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IGridColumnExtensionPoint&gt; GetGridColumnExtensionPoints(string module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.ExtensionPoints.IGridColumnExtensionPoint.html">IGridColumnExtensionPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetGridColumnExtensionPoints_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetGridColumnExtensionPoints(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L168">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetGridColumnExtensionPoints_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetGridColumnExtensionPoints*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetGridColumnExtensionPoints_System_String_System_String_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetGridColumnExtensionPoints(System.String,System.String)">GetGridColumnExtensionPoints(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IGridColumnExtensionPoint&gt; GetGridColumnExtensionPoints(string module, string group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.ExtensionPoints.IGridColumnExtensionPoint.html">IGridColumnExtensionPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetGridColumnExtensionPoints_System_String_System_String_DotNetNuke_ExtensionPoints_Filters_IExtensionPointFilter_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetGridColumnExtensionPoints(System.String%2CSystem.String%2CDotNetNuke.ExtensionPoints.Filters.IExtensionPointFilter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L173">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetGridColumnExtensionPoints_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetGridColumnExtensionPoints*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetGridColumnExtensionPoints_System_String_System_String_DotNetNuke_ExtensionPoints_Filters_IExtensionPointFilter_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetGridColumnExtensionPoints(System.String,System.String,DotNetNuke.ExtensionPoints.Filters.IExtensionPointFilter)">GetGridColumnExtensionPoints(String, String, IExtensionPointFilter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IGridColumnExtensionPoint&gt; GetGridColumnExtensionPoints(string module, string group, IExtensionPointFilter filter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.ExtensionPoints.Filters.IExtensionPointFilter.html">IExtensionPointFilter</a></td>
+        <td><span class="parametername">filter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.ExtensionPoints.IGridColumnExtensionPoint.html">IGridColumnExtensionPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetMenuItemExtensionPoints_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetMenuItemExtensionPoints(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L145">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetMenuItemExtensionPoints_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetMenuItemExtensionPoints*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetMenuItemExtensionPoints_System_String_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetMenuItemExtensionPoints(System.String)">GetMenuItemExtensionPoints(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IMenuItemExtensionPoint&gt; GetMenuItemExtensionPoints(string module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.ExtensionPoints.IMenuItemExtensionPoint.html">IMenuItemExtensionPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetMenuItemExtensionPoints_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetMenuItemExtensionPoints(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L150">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetMenuItemExtensionPoints_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetMenuItemExtensionPoints*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetMenuItemExtensionPoints_System_String_System_String_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetMenuItemExtensionPoints(System.String,System.String)">GetMenuItemExtensionPoints(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IMenuItemExtensionPoint&gt; GetMenuItemExtensionPoints(string module, string group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.ExtensionPoints.IMenuItemExtensionPoint.html">IMenuItemExtensionPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetMenuItemExtensionPoints_System_String_System_String_DotNetNuke_ExtensionPoints_Filters_IExtensionPointFilter_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetMenuItemExtensionPoints(System.String%2CSystem.String%2CDotNetNuke.ExtensionPoints.Filters.IExtensionPointFilter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L155">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetMenuItemExtensionPoints_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetMenuItemExtensionPoints*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetMenuItemExtensionPoints_System_String_System_String_DotNetNuke_ExtensionPoints_Filters_IExtensionPointFilter_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetMenuItemExtensionPoints(System.String,System.String,DotNetNuke.ExtensionPoints.Filters.IExtensionPointFilter)">GetMenuItemExtensionPoints(String, String, IExtensionPointFilter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IMenuItemExtensionPoint&gt; GetMenuItemExtensionPoints(string module, string group, IExtensionPointFilter filter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.ExtensionPoints.Filters.IExtensionPointFilter.html">IExtensionPointFilter</a></td>
+        <td><span class="parametername">filter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.ExtensionPoints.IMenuItemExtensionPoint.html">IMenuItemExtensionPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetScriptItemExtensionPoints_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetScriptItemExtensionPoints(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L79">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetScriptItemExtensionPoints_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetScriptItemExtensionPoints*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetScriptItemExtensionPoints_System_String_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetScriptItemExtensionPoints(System.String)">GetScriptItemExtensionPoints(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IScriptItemExtensionPoint&gt; GetScriptItemExtensionPoints(string module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.ExtensionPoints.IScriptItemExtensionPoint.html">IScriptItemExtensionPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetScriptItemExtensionPoints_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetScriptItemExtensionPoints(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L84">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetScriptItemExtensionPoints_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetScriptItemExtensionPoints*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetScriptItemExtensionPoints_System_String_System_String_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetScriptItemExtensionPoints(System.String,System.String)">GetScriptItemExtensionPoints(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IScriptItemExtensionPoint&gt; GetScriptItemExtensionPoints(string module, string group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.ExtensionPoints.IScriptItemExtensionPoint.html">IScriptItemExtensionPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetToolBarButtonExtensionPointFirstByPriority_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetToolBarButtonExtensionPointFirstByPriority(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L71">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetToolBarButtonExtensionPointFirstByPriority_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetToolBarButtonExtensionPointFirstByPriority*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetToolBarButtonExtensionPointFirstByPriority_System_String_System_String_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetToolBarButtonExtensionPointFirstByPriority(System.String,System.String)">GetToolBarButtonExtensionPointFirstByPriority(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IToolBarButtonExtensionPoint GetToolBarButtonExtensionPointFirstByPriority(string module, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.ExtensionPoints.IToolBarButtonExtensionPoint.html">IToolBarButtonExtensionPoint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetToolBarButtonExtensionPoints_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetToolBarButtonExtensionPoints(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L53">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetToolBarButtonExtensionPoints_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetToolBarButtonExtensionPoints*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetToolBarButtonExtensionPoints_System_String_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetToolBarButtonExtensionPoints(System.String)">GetToolBarButtonExtensionPoints(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IToolBarButtonExtensionPoint&gt; GetToolBarButtonExtensionPoints(string module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.ExtensionPoints.IToolBarButtonExtensionPoint.html">IToolBarButtonExtensionPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetToolBarButtonExtensionPoints_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetToolBarButtonExtensionPoints(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L58">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetToolBarButtonExtensionPoints_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetToolBarButtonExtensionPoints*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetToolBarButtonExtensionPoints_System_String_System_String_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetToolBarButtonExtensionPoints(System.String,System.String)">GetToolBarButtonExtensionPoints(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IToolBarButtonExtensionPoint&gt; GetToolBarButtonExtensionPoints(string module, string group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.ExtensionPoints.IToolBarButtonExtensionPoint.html">IToolBarButtonExtensionPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetToolBarButtonExtensionPoints_System_String_System_String_DotNetNuke_ExtensionPoints_Filters_IExtensionPointFilter_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetToolBarButtonExtensionPoints(System.String%2CSystem.String%2CDotNetNuke.ExtensionPoints.Filters.IExtensionPointFilter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L63">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetToolBarButtonExtensionPoints_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetToolBarButtonExtensionPoints*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetToolBarButtonExtensionPoints_System_String_System_String_DotNetNuke_ExtensionPoints_Filters_IExtensionPointFilter_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetToolBarButtonExtensionPoints(System.String,System.String,DotNetNuke.ExtensionPoints.Filters.IExtensionPointFilter)">GetToolBarButtonExtensionPoints(String, String, IExtensionPointFilter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IToolBarButtonExtensionPoint&gt; GetToolBarButtonExtensionPoints(string module, string group, IExtensionPointFilter filter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.ExtensionPoints.Filters.IExtensionPointFilter.html">IExtensionPointFilter</a></td>
+        <td><span class="parametername">filter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.ExtensionPoints.IToolBarButtonExtensionPoint.html">IToolBarButtonExtensionPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetUserControlExtensionPointFirstByPriority_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetUserControlExtensionPointFirstByPriority(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L129">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetUserControlExtensionPointFirstByPriority_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetUserControlExtensionPointFirstByPriority*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetUserControlExtensionPointFirstByPriority_System_String_System_String_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetUserControlExtensionPointFirstByPriority(System.String,System.String)">GetUserControlExtensionPointFirstByPriority(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IUserControlExtensionPoint GetUserControlExtensionPointFirstByPriority(string module, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.ExtensionPoints.IUserControlExtensionPoint.html">IUserControlExtensionPoint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_ExtensionPoints_ExtensionPointManager_GetUserControlExtensionPoints_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.ExtensionPoints.ExtensionPointManager.GetUserControlExtensionPoints(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L137">View Source</a>
+  </span>
+  <a id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetUserControlExtensionPoints_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetUserControlExtensionPoints*"></a>
+  <h4 id="DotNetNuke_ExtensionPoints_ExtensionPointManager_GetUserControlExtensionPoints_System_String_System_String_" data-uid="DotNetNuke.ExtensionPoints.ExtensionPointManager.GetUserControlExtensionPoints(System.String,System.String)">GetUserControlExtensionPoints(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IUserControlExtensionPoint&gt; GetUserControlExtensionPoints(string module, string group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.ExtensionPoints.IUserControlExtensionPoint.html">IUserControlExtensionPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/ExtensionPoints/ExtensionPointManager.cs/#L17" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

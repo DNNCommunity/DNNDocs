@@ -1,0 +1,707 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>The DNN Manifest Schema  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="The DNN Manifest Schema  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="og:title" content="The DNN Manifest Schema -- DNN Docs">
+    <meta property="og:image" content="../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="The DNN Manifest Schema -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/tutorials/extensions/dnn-manifest-schema/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fextensions%2Fdnn-manifest-schema%2Findex.html&amp;text=The%20DNN%20Manifest%20Schema%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fextensions%2Fdnn-manifest-schema%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fextensions%2Fdnn-manifest-schema%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fextensions%2Fdnn-manifest-schema%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20The%20DNN%20Manifest%20Schema%20|%20DNN%20Docs&amp;body=The%20DNN%20Manifest%20Schema%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fextensions%2Fdnn-manifest-schema%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for The DNN Manifest Schema&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bdnn-manifest-schema%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Ftutorials%2Fextensions%2Fdnn-manifest-schema%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/tutorials/extensions/dnn-manifest-schema/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="dnn-manifest-schema">
+<h1 id="the-dnn-manifest-schema">The DNN Manifest Schema</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">09.02.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 17 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 17 minutes  to read</span>
+</div>
+
+<p>The DNN <strong>manifest</strong> is an XML file (e.g., <strong>MyDNNExtension.dnn</strong>) that indicates how specific files in the extension package must be processed during installation.</p>
+<p>Only the files specifically declared in the manifest would be installed. Files inside any zip file specified in <code>component type=&quot;ResourceFile&quot;</code> do not have to be listed individually. Nonexistent files mentioned in the manifest will cause an error message.</p>
+<p>The manifest file extension must be <code>.dnn</code>. You can add the DNN version at the end; e.g., <code>MyDNNExtension.dnn7</code>.</p>
+<p>Save the manifest file in the base folder of your package and include it when zipping your package files.</p>
+<h2 id="schema">Schema</h2>
+<pre><code>
+    &lt;dotnetnuke type=&quot;Package&quot; version=&quot;8.0&quot;&gt;
+        &lt;packages&gt;
+            &lt;package name=&quot;MyCompany.SampleModule&quot; type=&quot;Module&quot; version=&quot;1.0.0&quot;&gt;
+                &lt;friendlyName&gt;My Sample Module&lt;/friendlyName&gt;
+                &lt;description&gt;My Sample Module is a demonstration module.&lt;/description&gt;
+                &lt;iconFile&gt;MyIcon.png&lt;/iconFile&gt;
+                &lt;owner&gt;
+                    &lt;name&gt;MyCompany or MyName&lt;/name&gt;
+                    &lt;organization&gt;MyCompany Corporation&lt;/organization&gt;
+                    &lt;url&gt;www.example.com&lt;/url&gt;
+                    &lt;email&gt;support@example.com&lt;/email&gt;
+                &lt;/owner&gt;
+                &lt;license src=&quot;MyLicense.txt&quot; /&gt;
+                &lt;releaseNotes src=&quot;MyReleaseNotes.txt&quot; /&gt;
+                &lt;azureCompatible&gt;true&lt;/azureCompatible&gt;
+                &lt;dependencies&gt;
+                    &lt;dependency type=&quot;coreVersion&quot;&gt;08.00.00&lt;/dependency&gt;
+                    ...
+                &lt;/dependencies&gt;
+                &lt;components&gt;
+                    &lt;component type=&quot;Module&quot;&gt;
+                        ...
+                    &lt;/component&gt;
+                    ...
+                &lt;/components&gt;
+            &lt;/package&gt;
+        &lt;/packages&gt;
+    &lt;/dotnetnuke&gt;
+
+</code></pre>
+<h2 id="package">package</h2>
+<pre><code>
+    &lt;package name=&quot;MyCompany.MySampleModule&quot; type=&quot;Module&quot; version=&quot;1.0.0&quot;&gt;
+    ...
+    &lt;/package&gt;
+
+</code></pre>
+<ul>
+<li><em>name</em> must be unique. To ensure your package's uniqueness, add your company as the prefix.</li>
+<li><em>type</em> can be one of the following:
+<ul>
+<li><code>Auth_System</code></li>
+<li><code>Container</code></li>
+<li><code>CoreLanguagePack</code></li>
+<li><a href="https://www.dnnsoftware.com/wiki/manifest-dashboardcontrol-component">DashboardControl</a></li>
+<li><code>ExtensionLanguagePack</code></li>
+<li><code>JavaScript_Library</code></li>
+<li><code>Library</code></li>
+<li><a href="https://www.dnnsoftware.com/wiki/modules">Module</a></li>
+<li><a href="https://www.dnnsoftware.com/wiki/providers">Provider</a></li>
+<li><a href="https://www.dnnsoftware.com/wiki/dotnetnuke-skins">Skin</a></li>
+<li><code>SkinObject</code></li>
+<li>other custom extension types</li>
+</ul>
+</li>
+<li><em>version</em> holds the version of your extension.</li>
+</ul>
+<p>Each package represents a DNN extension. You can install multiple extensions using a single DNN manifest by creating a <code>package</code> section for each extension inside the <code>packages</code> tag.</p>
+<p>Packages are installed in the order they appear in the manifest.</p>
+<p>Only the information about the <em>first</em> package is displayed during installation. This includes the package name, description, owner, license, and release notes.</p>
+<h3 id="friendlyname-and-description">friendlyName and description</h3>
+<pre><code>
+    &lt;friendlyName&gt;My Sample Module&lt;/friendlyName&gt;
+    &lt;description&gt;My Sample Module is a demonstration module.&lt;/description&gt;
+
+</code></pre>
+<p>The friendlyName and description are displayed during installation and are used in the <strong>Host &gt; Extensions</strong> page, which lists the extensions that are installed or are available for installation. The friendlyName can contain spaces and up to 250 characters; the description can hold up to 2000 characters.</p>
+<h3 id="iconfile">iconFile</h3>
+<pre><code>
+    &lt;iconFile&gt;MyIcon.png&lt;/iconFile&gt;
+
+</code></pre>
+<p>Optional. The icon is displayed in the DNN Control Panel's dropdown list and in the Extensions page. The <strong>.png</strong> format is preferred. If not specified, the DNN default icon is used.</p>
+<h3 id="owner">owner</h3>
+<pre><code>
+    &lt;owner&gt;
+        &lt;name&gt;MyCompany or MyName&lt;/name&gt;
+        &lt;organization&gt;MyCompany Inc.&lt;/organization&gt;
+        &lt;url&gt;www.example.com&lt;/url&gt;
+        &lt;email&gt;support@example.com&lt;/email&gt;
+    &lt;/owner&gt;
+
+</code></pre>
+<p>Optional, but encouraged. Information about the owner or creator of the extension.</p>
+<h3 id="license-and-releasenotes">license and releaseNotes</h3>
+<pre><code>
+    &lt;license src=&quot;MyLicense.txt&quot; /&gt;
+    &lt;releaseNotes src=&quot;MyReleaseNotes.txt&quot; /&gt;
+
+</code></pre>
+<p>Optional, but encouraged. These text files are displayed during the installation. The user is prompted to accept or decline the license. The release notes is displayed during the installation. The actual text can also be embedded within the tag without the src attribute.</p>
+<h3 id="azurecompatible">azureCompatible</h3>
+<pre><code>
+    &lt;azureCompatible&gt;true&lt;/azureCompatible&gt;
+
+</code></pre>
+<p>Optional. Default is <code>false</code>. Set to <code>true</code> if the extension is compatible with Microsoft Azure.</p>
+<h3 id="dependencies">dependencies</h3>
+<pre><code>
+    &lt;dependencies&gt;
+        &lt;dependency type=&quot;coreVersion&quot;&gt;08.00.00&lt;/dependency&gt;
+        ...
+    &lt;/dependencies&gt;
+
+</code></pre>
+<p>Dependencies can be any of these types (case-insensitive):</p>
+<ul>
+<li><p><strong>coreVersion</strong>. Minimum DNN version required by the extension being installed. Example:</p>
+<pre><code>
+    &lt;dependency type=&quot;coreVersion&quot;&gt;08.00.00&lt;/dependency&gt;
+
+</code></pre>
+</li>
+<li><p><strong>managedPackage</strong>. The name and minimum version of a package required by the extension being installed. The required package must already be listed in the core Packages table.</p>
+<pre><code>
+    &lt;dependency type=&quot;managedPackage&quot; version=&quot;1.0.0&quot;&gt;AnotherPackageRequiredByThisComponent&lt;/dependency&gt;
+
+</code></pre>
+</li>
+<li><p><strong>package</strong>. The name of a package required by the extension being installed. The required package must already be listed in the core Packages table. Example:</p>
+<pre><code>
+    &lt;dependency type=&quot;package&quot;&gt;AnotherPackageRequiredByThisComponent&lt;/dependency&gt;
+
+</code></pre>
+</li>
+<li><p><strong>type</strong>. A type in .NET, in a DNN library, or a third-party library. Ensures that the installation can create an object of the specified type. Example:</p>
+<pre><code>
+    &lt;dependency type=&quot;type&quot;&gt;System.Security.Principal.GenericPrincipal&lt;/dependency&gt;
+
+</code></pre>
+<div class="TIP">
+<h5>Tip</h5>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/framework/reflection-and-codedom/specifying-fully-qualified-type-names">Fully qualify</a> a type if it is not in the App_Code folder to avoid conflicts with similarly named types from multiple sources.</p>
+</div>
+</li>
+<li><p>Any custom dependency type included in the Dependency list. DNN can be extended by creating custom dependency types, which inherit from DotNetNuke.Services.Installer.Dependencies.DependencyBase and must be included in the Dependency list (Host &gt; Lists). Example:</p>
+<pre><code>
+    &lt;dependency type=&quot;SomeCustomDependencyType&quot;&gt;ValueNeededBySomeCustomDependencyType&lt;/dependency&gt;
+
+</code></pre>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The custom dependency type must already be installed before it is used in another installation.</p>
+</div>
+</li>
+</ul>
+<h2 id="components">components</h2>
+<pre><code>
+    &lt;components&gt;
+        &lt;component type=&quot;...&quot; /&gt;
+        &lt;component type=&quot;...&quot; /&gt;
+        ...
+    &lt;/components&gt;
+
+</code></pre>
+<p>Some component types are applicable only to the package type of the same name; generic component types can be used with any package type.</p>
+<table>
+    <th><strong>Package type</strong></th>
+    <th><strong>Specific component type</strong></th>
+    <th><strong>Generic component types</strong></th>
+    <tr>
+        <td>Auth_System</td>
+        <td>AuthenticationSystem</td>
+        <td rowspan="11"><center><br>Assembly<br>Cleanup<br>Config<br>File<br>ResourceFile<br>Script</center></td>
+    </tr>
+    <tr>
+        <td>Container</td>
+        <td>Container</td>
+    </tr>
+    <tr>
+        <td>CoreLanguagePack</td>
+        <td>CoreLanguage</td>
+    </tr>
+    <tr>
+        <td>ExtensionLanguagePack</td>
+        <td>ExtensionLanguage</td>
+    </tr>
+    <tr>
+        <td>JavaScript_Library</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Library</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Module</td>
+        <td>Module</td>
+    </tr>
+    <tr>
+        <td>Provider</td>
+        <td>Provider<br>URL Provider</td>
+    </tr>
+    <tr>
+        <td>Skin</td>
+        <td>Skin</td>
+    </tr>
+    <tr>
+        <td>SkinObject</td>
+        <td>SkinObject</td>
+    </tr>
+</table>
+<ul>
+<li><p><a href="https://www.dnnsoftware.com/wiki/manifest-assembly-component"><code>Assembly</code></a>. Assemblies to be installed in the main \bin folder of the installation. Assemblies are the compiled code portion of your extension. They can be your own assemblies or third-party assemblies that you ship with your extension.</p>
+<pre><code>
+    &lt;component type=&quot;Assembly&quot;&gt;
+        &lt;assemblies&gt;
+            &lt;assembly&gt;
+                &lt;path / &lt;!-- Path of the assembly to install. Relative to the \bin folder of the DNN installation. --&gt;
+                &lt;name / &lt;!-- Name of the assembly to install. --&gt;
+                &lt;version / &lt;!-- Version of the assembly to install. --&gt;
+            &lt;/assembly&gt;
+            &lt;assembly action=&quot;Unregister&quot;&gt;
+                &lt;path / &lt;!-- Path of the assembly to remove. Relative to the \bin folder of the DNN installation. --&gt;
+                &lt;name / &lt;!-- Name of the assembly to remove. --&gt;
+                &lt;version / &lt;!-- Version of the assembly to remove. --&gt;
+            &lt;/assembly&gt;
+            ...
+        &lt;/assemblies&gt;
+    &lt;/component&gt;
+
+</code></pre>
+</li>
+<li><p><a href="https://www.dnnsoftware.com/wiki/manifest-authenticationsystem-component"><code>AuthenticationSystem</code></a>. Defines a new Authentication System to be made available within DNN.  Examples include <strong>Facebook</strong>, <strong>Google</strong>, <strong>Twitter</strong>, and <strong>Microsoft Accounts</strong>. By default, DNN authenticates using its own database.</p>
+<pre><code>
+    &lt;component type=&quot;AuthenticationSystem&quot;&gt;
+        &lt;authenticationService&gt;
+            &lt;type&gt;Facebook&lt;/type&gt;
+            &lt;settingsControlSrc /&gt;
+            &lt;loginControlSrc /&gt;
+            &lt;logoffControlSrc /&gt;
+        &lt;/authenticationService&gt;
+        &lt;authenticationService /&gt;
+        ...
+    &lt;/component&gt;
+
+</code></pre>
+</li>
+<li><p><a href="https://www.dnnsoftware.com/wiki/cleanup-component"><code>Cleanup</code></a>. List of files that must be deleted during installation or upgrade of the package.</p>
+<p>You can list the files individually in the manifest.</p>
+<pre><code>
+    &lt;component type=&quot;Cleanup&quot; version=&quot;07.40.00&quot;&gt;
+        &lt;files&gt;
+            &lt;file&gt;
+                &lt;path&gt;bin&lt;/path&gt;
+                &lt;name&gt;MyFile.dll&lt;/name&gt;
+            &lt;/file&gt;
+            &lt;file /&gt;
+            ...
+        &lt;/files&gt;
+    &lt;/component&gt;
+
+</code></pre>
+<p>You can also list the files with their paths in a text file instead.</p>
+<pre><code>
+    &lt;component type=&quot;Cleanup&quot; version=&quot;07.40.00&quot; fileName=&quot;ListOfFilesToDelete.txt&quot; /&gt;
+
+</code></pre>
+<p>Starting with Dnn 9.5.0, you can also use a globbing patterns as in this example.</p>
+<pre><code>    &lt;component type=&quot;Cleanup&quot; version=&quot;07.40.00&quot; glob=&quot;DesktopModules/MyModule/scripts/*;DesktopModule/MyModule/images/*.gif;DesktopModules/MyModule/**/*.txt&quot; /&gt;
+</code></pre>
+<p>Notes:</p>
+<ul>
+<li>You can specify more than one globbing pattern on the same line by separating each pattern with <code>;</code></li>
+<li>More information on supported globbing patterns can be found at the <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.filesystemglobbing.matcher?view=dotnet-plat-ext-3.1#remarks">Microsoft.Extensions.FileSystemGlobbing documentation</a></li>
+<li>Globbing patterns can only be used to match files, not directories (if you need to delete a directory, first it needs to be empty, then you need to use one of the above methods to delete the actual directory).</li>
+<li>All methods take paths relative to the application root folder, for that reason <code>..</code> is intentionally not supported with globbing patterns in this component.</li>
+</ul>
+<p>See also:</p>
+<ul>
+<li>Component type <code>Config</code> to update configuration files during uninstall.</li>
+<li>Component type <code>Script</code> for data provider scripts that must be uninstalled.</li>
+</ul>
+</li>
+<li><p><a href="https://www.dnnsoftware.com/wiki/manifest-config-component"><code>Config</code></a>. Changes to do on the specified config file.</p>
+<pre><code>
+    &lt;component type=&quot;Config&quot;&gt;
+        &lt;config&gt;
+            &lt;configFile&gt;web.config&lt;/configFile &lt;!-- Name of config file, including its path relative to the root of the DNN installation. --&gt;
+            &lt;install&gt;
+                &lt;configuration&gt;
+                    &lt;nodes&gt;
+                        &lt;node path=&quot;/configuration/system.webServer/handlers&quot; action=&quot;update&quot; key=&quot;path&quot; collision=&quot;overwrite&quot;&gt;
+                            ...
+                        &lt;/node&gt;
+                        &lt;node /&gt;
+                        ...
+                    &lt;/nodes&gt;
+                &lt;/configuration&gt;
+            &lt;/install&gt;
+            &lt;uninstall&gt;
+                &lt;configuration&gt;
+                    &lt;nodes /&gt;
+                &lt;/configuration&gt;
+            &lt;/uninstall&gt;
+        &lt;/config&gt;
+        &lt;config /&gt;
+        ...
+    &lt;/component&gt;
+
+</code></pre>
+<p>For information on <code>node</code> attributes, see <a href="https://www.dnnsoftware.com/wiki/manifest-xml-merge">Manifest: XML Merge</a>.</p>
+</li>
+<li><p><a href="https://www.dnnsoftware.com/wiki/manifest-container-component"><code>Container</code></a>. Containers to be installed.</p>
+<pre><code>
+    &lt;component type=&quot;Container&quot;&gt;
+        &lt;containerFiles&gt;
+            &lt;basePath / &lt;!-- Target base folder for the component installation. Relative to the root of the DNN installation. --&gt;
+            &lt;containerName /&gt;
+            &lt;containerFile&gt;
+                &lt;path / &lt;!-- Target file folder. Relative to basePath. --&gt;
+                &lt;name /&gt;
+            &lt;/containerFile&gt;
+            &lt;containerFile /&gt;
+            ...
+        &lt;/containerFiles&gt;
+    &lt;/component&gt;
+
+</code></pre>
+</li>
+<li><p><a href="https://www.dnnsoftware.com/wiki/manifest-file-component"><code>File</code></a>. Files to be installed. By default, only files with allowed file extensions are installed; however, the host user can bypass this security check during installation. To view or modify the list of file extensions, go to your DNN installation and choose <strong>Host &gt; Host Settings &gt; Other Settings &gt; Allowable File Extensions</strong>.</p>
+<pre><code>
+    &lt;component type=&quot;File&quot;&gt;
+        &lt;files&gt;
+            &lt;basePath / &lt;!-- Target base folder for the component installation. Relative to the root of the DNN installation. --&gt;
+            &lt;file&gt;
+                &lt;path / &lt;!-- Target file folder. Relative to basePath. Also assumed to be the source file folder in the zip file, if sourceFileName is not defined. --&gt;
+                &lt;name /&gt;
+                &lt;sourceFileName / &lt;!-- The path and name of a file inside the zip file. --&gt;
+            &lt;/file&gt;
+            &lt;file /&gt;
+            ...
+        &lt;/files&gt;
+    &lt;/component&gt;
+
+</code></pre>
+<p>Example: To copy img/MyAwesomeImageFile.jpg from the zip file to desktopmodules/mymodule/images/MyFile.jpg,</p>
+<pre><code>
+    &lt;basePath&gt;desktopmodules/mymodule&lt;/basePath&gt;
+    &lt;file&gt;
+        &lt;path&gt;images&lt;/path&gt;
+        &lt;name&gt;MyFile.jpg&lt;/name&gt;
+        &lt;sourceFileName&gt;img/MyAwesomeImageFile.jpg&lt;/sourceFileName&gt;
+    &lt;/file&gt;
+
+</code></pre>
+</li>
+<li><p><a href="https://www.dnnsoftware.com/wiki/manifest-corelanguage-component"><code>CoreLanguage</code></a>. Language pack files required to localize the core DNN Platform for a specific culture. A core language pack can be installed during the DNN Platform installation or anytime after.</p>
+<pre><code>
+    &lt;component type=&quot;CoreLanguage&quot;&gt;
+        &lt;languageFiles&gt;
+            &lt;code /&gt;
+            &lt;displayName /&gt;
+            &lt;fallback / &lt;!-- Code for the alternative language. Used if a resource is not found in the current language pack. --&gt;
+            &lt;languageFile&gt;
+                &lt;path / &lt;!-- Target file folder. Relative to the root of the DNN installation. --&gt;
+                &lt;name /&gt;
+            &lt;/languageFile&gt;
+            &lt;languageFile /&gt;
+            ...
+        &lt;/languageFiles&gt;
+    &lt;/component&gt;
+
+</code></pre>
+<p>For the list of supported language codes, see the .NET <a href="https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo">CultureInfo</a> class.</p>
+</li>
+<li><p><a href="https://www.dnnsoftware.com/wiki/manifest-extensionlanguage-component"><code>ExtensionLanguage</code></a>. Language pack files required to localize a DNN extension for a specific culture.</p>
+<pre><code>
+    &lt;component type=&quot;ExtensionLanguage&quot;&gt;
+        &lt;languageFiles&gt;
+            &lt;code /&gt;
+            &lt;package / &lt;!-- Name of another package that contains the extension that this language pack is intended for. --&gt;
+            &lt;basePath / &lt;!-- Target base folder for the component installation. Relative to the root of the DNN installation. --&gt;
+            &lt;languageFile&gt;
+                &lt;path / &lt;!-- Target file folder. Relative to basePath. --&gt;
+                &lt;name /&gt;
+            &lt;/languageFile&gt;
+            &lt;languageFile /&gt;
+            ...
+        &lt;/languageFiles&gt;
+    &lt;/component&gt;
+
+</code></pre>
+<p>For the list of supported language codes, see the .NET <a href="https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo">CultureInfo</a> class.</p>
+</li>
+<li><p><a href="https://www.dnnsoftware.com/wiki/module-component"><code>Module</code></a>. Only one component with <code>type=&quot;Module&quot;</code> is allowed within a <code>package</code> section. To install a set of modules as a unit, create one <code>package</code> section per module in the same manifest.</p>
+<pre><code>
+    &lt;component type=&quot;Module&quot;&gt;
+        &lt;desktopModule&gt;
+            &lt;moduleName /&gt;
+            &lt;foldername /&gt;
+            &lt;businessControllerClass /&gt;
+            &lt;codeSubdirectory /&gt;
+            &lt;isAdmin /&gt;
+            &lt;isPremium /&gt;
+            &lt;supportedFeatures&lt;!-- Requires a value for businessControllerClass. --&gt;
+                &lt;supportedFeature type=&quot;Portable&quot; /&lt;!-- The module has import/export capabilities using the IPortable interface. --&gt;
+                &lt;supportedFeature type=&quot;Searchable&quot; /&lt;!-- The module can be indexed or searched using the ISearchable interface. --&gt;
+                &lt;supportedFeature type=&quot;Upgradeable&quot; /&lt;!-- The module can be upgraded using the IUpgradeable interface. --&gt;
+                ...
+            &lt;/supportedFeatures&gt;
+            &lt;moduleDefinition&gt;
+                &lt;friendlyName /&gt;
+                &lt;defaultCacheTime /&gt;
+                &lt;moduleControls&gt;
+                    &lt;moduleControl&gt;
+                        &lt;controlKey /&gt;
+                        &lt;controlSrc /&gt;
+                        &lt;supportsPartialRendering /&gt;
+                        &lt;controlTitle /&gt;
+                        &lt;controlType /&gt;
+                        &lt;iconFile /&gt;
+                        &lt;helpUrl /&gt;
+                    &lt;/moduleControl&gt;
+                    &lt;moduleControl /&gt;
+                    ...
+                &lt;/moduleControls&gt;
+                &lt;permissions&gt;
+                    &lt;!-- In &lt;permission&gt;,
+                        &quot;code&quot; is the code for the module,
+                        &quot;key&quot; is the code for the permission, and
+                        &quot;name&quot; is the user-friendly name for the permission.
+                    --&gt;
+                    &lt;permission code=&quot;...&quot; key=&quot;...&quot; name=&quot;...&quot; /&gt;
+                    &lt;permission code=&quot;...&quot; key=&quot;...&quot; name=&quot;...&quot; /&gt;
+                    ...
+                &lt;/permissions&gt;
+            &lt;/moduleDefinition&gt;
+        &lt;/desktopModule&gt;
+        &lt;eventMessage&gt;
+            &lt;processorType /&gt;
+            &lt;processorCommand /&gt;
+            &lt;attributes&gt;
+                &lt;node&gt;value&lt;/node&gt;
+            &lt;/attributes&gt;
+        &lt;/eventMessage&gt;
+    &lt;/component&gt;
+
+</code></pre>
+</li>
+<li><p><a href="https://www.dnnsoftware.com/wiki/manifest-provider-component"><code>Provider</code></a>. Extends the list of allowed file extensions. These additional file extensions apply only to the current installation and are not added to the global list of file extensions found in <strong>Host &gt; Host Settings &gt; Other Settings &gt; Allowable File Extensions</strong>. The following file extensions can be allowed: .ashx, .aspx, .ascx, .vb, .cs, .resx, .css, .js, .resources, .config, .xml, .htc, .html, .htm, .text, .vbproj, .csproj, and .sln.</p>
+<pre><code>
+    &lt;component type=&quot;Provider&quot; /&gt;
+
+</code></pre>
+</li>
+<li><p><a href="https://www.dnnsoftware.com/wiki/manifest-resourcefile-component"><code>ResourceFile</code></a>. Zip files to be expanded during installation. Can be used instead of <code>component type=&quot;File&quot;</code> to simplify the manifest for packages that contain many files.</p>
+<pre><code>
+    &lt;component type=&quot;ResourceFile&quot;&gt;
+        &lt;resourceFiles&gt;
+            &lt;basePath /&lt;!-- Target folder where the contents of the zip file will be installed. Relative to the root of the DNN installation. --&gt;
+            &lt;resourceFile&gt;
+                &lt;name /&lt;!-- Name of zip file. --&gt;
+            &lt;/resourceFile&gt;
+            &lt;resourceFile /&gt;
+            ...
+        &lt;/resourceFiles&gt;
+    &lt;/component&gt;
+
+</code></pre>
+</li>
+<li><p><a href="https://www.dnnsoftware.com/wiki/script-component"><code>Script</code></a>. Database scripts that the extension needs. The following scripts are handled differently:</p>
+<ul>
+<li><code>install.&lt;dataprovidertype&gt;</code> (e.g., <code>install.SqlDataProvider</code>) is executed <em>before</em> all other scripts, if the package is being installed for the first time.</li>
+<li><code>upgrade.&lt;dataprovidertype&gt;</code> (e.g., <code>upgrade.SqlDataProvider</code>) is executed <em>after</em> all regular scripts.</li>
+</ul>
+<pre><code>
+    &lt;component type=&quot;Script&quot;&gt;
+        &lt;scripts&gt;
+            &lt;basePath /&lt;!-- Target base folder for the component installation. Relative to the root of the DNN installation. --&gt;
+            &lt;script type=&quot;Install&quot; &gt;
+                &lt;path /&lt;!-- Target file folder. Relative to basePath. --&gt;
+                &lt;name /&lt;!-- Must be named &quot;&lt;scriptversion&gt;.&lt;dataprovider&gt;&quot;. Example: 01.00.00.SqlDataProvider --&gt;
+                &lt;version /&lt;!-- Version of script file to be installed. --&gt;
+            &lt;/script&gt;
+            &lt;script type=&quot;UnInstall&quot; &gt;
+                &lt;path /&lt;!-- Location of script file. Relative to basePath. --&gt;
+                &lt;name /&lt;!-- Must be named &quot;uninstall.&lt;dataprovidertype&gt;&quot;. Example: uninstall.SqlDataProvider --&gt;
+                &lt;version /&lt;!-- Version of script file to be removed. --&gt;
+            &lt;/script&gt;
+            ...
+        &lt;/scripts&gt;
+    &lt;/component&gt;
+
+</code></pre>
+</li>
+<li><p><a href="https://www.dnnsoftware.com/wiki/manifest-skin-component"><code>Skin</code></a>. All files related to the theme. The installer needs to parse the main theme files at installation time to replace relative folder names; therefore, every ASCX, HTML, or CSS file must be declared as a <code>skinFile</code>. Other files (i.e., images and scripts) can be packaged using component type <code>ResourceFile</code> to simplify the complexity of the theme manifest.</p>
+<pre><code>
+    &lt;component type=&quot;Skin&quot;&gt;
+        &lt;skinFiles&gt;
+            &lt;basePath /&lt;!-- Target base folder for the component installation. Relative to the root of the DNN installation. --&gt;
+            &lt;skinName /&gt;
+            &lt;skinFile&gt;
+                &lt;path /&lt;!-- Target file folder. Relative to basePath. --&gt;
+                &lt;name /&gt;
+            &lt;/skinFile&gt;
+            &lt;skinFile /&gt;
+            ...
+        &lt;/skinFiles&gt;
+    &lt;/component&gt;
+
+</code></pre>
+</li>
+<li><p><a href="https://www.dnnsoftware.com/wiki/manifest-skinobject-component"><code>SkinObject</code></a>. Custom theme objects.</p>
+<pre><code>
+    &lt;component type=&quot;SkinObject&quot;&gt;
+        &lt;moduleControl&gt;
+            &lt;controlKey /&lt;!-- Token of the skin object within square brackets []; e.g., [COPYRIGHT] --&gt;
+            &lt;controlSrc /&lt;!-- Target file folder for the theme object's ASCX file. --&gt;
+            &lt;supportsPartialRendering /&lt;!-- &quot;true&quot; if the theme object supports partial rendering through an MS AJAX update panel wrapper. Default: &quot;false&quot; --&gt;
+        &lt;/moduleControl&gt;
+    &lt;/component&gt;
+
+</code></pre>
+</li>
+<li><p><a href="https://www.dnnsoftware.com/wiki/manifest-url-provider"><code>URLProvider</code></a>. Custom URL provider to be used with the <strong>Advanced URL Management System (AUM)</strong>.</p>
+<pre><code>
+    &lt;component type=&quot;URLProvider&quot;&gt;
+        &lt;urlProvider&gt;
+            &lt;name /&gt;
+            &lt;type /&gt;
+            &lt;settingsControlSrc /&gt;
+            &lt;redirectAllUrls /&gt;
+            &lt;replaceAllUrls /&gt;
+            &lt;rewriteAllUrls /&gt;
+            &lt;desktopModule /&gt;
+        &lt;/urlProvider&gt;
+    &lt;/component&gt;
+
+</code></pre>
+</li>
+</ul>
+<div class="related-topics" hidden=""><span><a href="/content/tutorials/modules/about-modules/module-features/index.html">Common Module Features</a></span><span><a href="/content/tutorials/modules/about-modules/module-architecture/index.html">Module Architecture</a></span></div><div class="links" hidden=""><span><a href="https://uxguide.dnnsoftware.com/">DNN UX Guide</a></span><span><a href="https://web.archive.org/web/20160610221847/http://www.ifinity.com.au/Blog/EntryId/89/Top-5-DotNetNuke-Manifest-file-Module-Packaging-Tips">Top 5 DotNetNuke Manifest file Module Packaging Tips by Bruce Chapman</a></span><span><a href="https://www.dnnsoftware.com/community-blog/cid/142201/dal-2-a-new-dotnetnuke-data-layer-for-a-new-decade">DNN Community blog: DAL 2 — A New DotNetNuke Data Layer for a New Decade by Charles Nurse</a></span><span><a href="https://www.dnnsoftware.com/wiki/manifests">DNN Wiki: Manifests</a></span><span><a href="https://www.dnnsoftware.com/community-blog/cid/135060/the-new-extension-installer-manifest-part-1-introduction">DNN Community blog: The New Extension Installer Manifest — Part 1, Introduction by Charles Nurse</a></span><span><a href="https://www.dnnsoftware.com/dnn-api/">DNN Module APIs</a></span><span><a href="https://web.archive.org/web/20160610221847/http://www.ifinity.com.au/Blog/EntryId/89/Top-5-DotNetNuke-Manifest-file-Module-Packaging-Tips">Top 5 DotNetNuke Manifest file Module Packaging Tips by Bruce Chapman</a></span><span><a href="https://www.dnnsoftware.com/community-blog/cid/142201/dal-2-a-new-dotnetnuke-data-layer-for-a-new-decade">DNN Community blog: DAL 2 — A New DotNetNuke Data Layer for a New Decade by Charles Nurse</a></span><span><a href="https://www.dnnsoftware.com/wiki/manifests">DNN Wiki: Manifests</a></span><span><a href="https://www.dnnsoftware.com/community-blog/cid/135060/the-new-extension-installer-manifest-part-1-introduction">DNN Community blog: The New Extension Installer Manifest — Part 1, Introduction by Charles Nurse</a></span></div></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

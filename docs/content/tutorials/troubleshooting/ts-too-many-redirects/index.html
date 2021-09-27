@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Troubleshooting: Resolving the Too Many Redirects Error  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Troubleshooting: Resolving the Too Many Redirects Error  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="og:title" content="Troubleshooting: Resolving the Too Many Redirects Error -- DNN Docs">
+    <meta property="og:image" content="../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="Troubleshooting: Resolving the Too Many Redirects Error -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/tutorials/troubleshooting/ts-too-many-redirects/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Ftroubleshooting%2Fts-too-many-redirects%2Findex.html&amp;text=Troubleshooting%3A%20Resolving%20the%20Too%20Many%20Redirects%20Error%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Ftroubleshooting%2Fts-too-many-redirects%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Ftroubleshooting%2Fts-too-many-redirects%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Ftroubleshooting%2Fts-too-many-redirects%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20Troubleshooting%3A%20Resolving%20the%20Too%20Many%20Redirects%20Error%20|%20DNN%20Docs&amp;body=Troubleshooting%3A%20Resolving%20the%20Too%20Many%20Redirects%20Error%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Ftroubleshooting%2Fts-too-many-redirects%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for Troubleshooting: Resolving the Too Many Redirects Error&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bts-too-many-redirects%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Ftutorials%2Ftroubleshooting%2Fts-too-many-redirects%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/tutorials/troubleshooting/ts-too-many-redirects/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ts-too-many-redirects">
+<h1 id="troubleshooting-resolving-the-too-many-redirects-error">Troubleshooting: Resolving the Too Many Redirects Error</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">09.02.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 5 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 5 minutes  to read</span>
+</div>
+
+<h2 id="symptom">Symptom</h2>
+<p>This usually occurs when moving or migrating a website from one environment to another, but it can happen to brand new installations of DNN as well.  What happens is that when you attempt to view the website in the web browser, you receive the <code>ERR_TOO_MANY_REDIRECTS</code> error message in the web browser.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>There is sometimes a <code>NullReferenceException</code> error that can occur under similar circumstances. These steps can be used to resolve that error as well.</p>
+</div>
+<h2 id="possible-cause">Possible Cause</h2>
+<p>Usually a typo, but sometimes a simple misconfiguration when moving the website. The possible causes are listed below:</p>
+<ul>
+<li>Typo: Malformed or incorrect values in the <code>connectionStrings</code> section of the web.config.</li>
+<li>Typo: Incorrect website URL in the web.config, <code>PortalAlias</code> database table, <code>DefaultPortalAlias</code> row in the <code>PortalSettings</code> database table, IIS website bindings, and the SSL bindings.</li>
+<li>Invalid web.config:  Invalid XML in the web.config.</li>
+<li>Invalid web.config:  Unmerged updates in the web.config.</li>
+<li>Invalid permissions in the website's folder.</li>
+<li>Incompatible <code>urlRewrite</code> configuration.</li>
+<li>Incompatible SSL Setup.</li>
+</ul>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Often, you can find the cause of the issue by looking at the log files in the <code>/Portals/_default/logs/</code> folder.<br>
+Tools like the Network Tools in the web browser or telerik's Fiddler can help you inspect the response headers to determine where and how to troubleshoot the correct cause above.  If this is a redirect issue, look for <code>x-redirect-reason</code> in the response headers.</p>
+</div>
+<h2 id="solutions">Solutions</h2>
+<p>Here are the solutions for the causes found above.</p>
+<h3 id="typo">Typo</h3>
+<p>Go to each area and copy then paste the correct values.  A typo in something like the URL or database username is super-easy to miss by looking at it.</p>
+<p>Be sure to review each of the following areas:</p>
+<ul>
+<li><code>connectionStrings</code> section of the web.config (includes database server, database name, username, and password)</li>
+<li><code>PortalAlias</code> database table</li>
+<li><code>DefaultPortalAlias</code> row in the <code>PortalSettings</code> database table</li>
+<li><code>PortalAliasMapping</code> row in the <code>PortalSettings</code> database table (the value usually should be <code>REDIRECT</code>, but may need to be changed to <code>NONE</code> or <code>CANONICALURL</code>)</li>
+<li>HTTP and HTTPS website bindings in IIS</li>
+</ul>
+<p>This is the most common cause and solution for both the redirect and null errors.</p>
+<h3 id="invalid-webconfig">Invalid web.config</h3>
+<p>When copying and pasting values, it's very easy to accidentally add an unexpected character.  Compare the web.config before and after your change to determine if this is the correct solution.</p>
+<p>This includes the database passwords.  If you're generating the passwords using any security tool, be sure to remove any XML characters from the password.  This creates malformed XML.</p>
+<p>One of the easiest ways to troubleshoot the web.config is to <a href="https://docs.microsoft.com/en-us/iis/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis">enable tracing in IIS</a>.</p>
+<h3 id="invalid-permissions">Invalid Permissions</h3>
+<p><a class="xref" href="../../server/setup/set-up-dnn-folder/index.html">Reapply the permissions</a> to the main website folder and ensure that the permissions are propagated to all children folders.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>You may need to disable the permission inheritance, depending on your environment.</p>
+</div>
+<h3 id="incompatible-urlrewrite-configuration">Incompatible urlRewrite Configuration</h3>
+<p>Some websites may be adding URL rewrite rules in the web.config file itself.  While DNN has robust URL rewrite rules, this feature sometimes is necessary to use instead of DNN's URL rewrite features.</p>
+<p>When this is the case, this section may not be compatible with new locations where the website is being migrated to.  Careful review of each of these rules will need to be performed in order to determine which rule(s) may need to be removed.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>In development environments where you're restoring a staging or production website into it, you may find it easier to just remove that section entirely.  This is completely dependent on your specific needs.</p>
+</div>
+<h3 id="incompatible-ssl-setup">Incompatible SSL Setup</h3>
+<p>When you're using HTTPS/SSL and moving the website from one environment to another, you may be using a different Web Application Firewall (WAF) (e.g., Imperva, CloudFlare, etc.) or the WAF may be configured differently.  When this is the case, you might have to adjust how you're configuring SSL in DNN itself.</p>
+<p>For example, in development and/or staging, you may be using the <code>Enable SSL</code> and <code>Enforce SSL</code> settings to be sure that pages and other website assets are loading over HTTPS.  However, you may need to turn those off in production because both DNN and the WAF are both trying to redirect to the SSL version of the requested URL.  (Or vice versa...)</p>
+<div class="related-topics" hidden=""></div></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

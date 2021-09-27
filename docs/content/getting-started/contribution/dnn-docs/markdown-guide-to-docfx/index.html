@@ -1,0 +1,261 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Markdown Guide to DocFx  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Markdown Guide to DocFx  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    <meta property="og:title" content="Markdown Guide to DocFx -- DNN Docs">
+    <meta property="og:image" content="../../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="Markdown Guide to DocFx -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/getting-started/contribution/dnn-docs/markdown-guide-to-docfx/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Fgetting-started%2Fcontribution%2Fdnn-docs%2Fmarkdown-guide-to-docfx%2Findex.html&amp;text=Markdown%20Guide%20to%20DocFx%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Fgetting-started%2Fcontribution%2Fdnn-docs%2Fmarkdown-guide-to-docfx%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Fgetting-started%2Fcontribution%2Fdnn-docs%2Fmarkdown-guide-to-docfx%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Fgetting-started%2Fcontribution%2Fdnn-docs%2Fmarkdown-guide-to-docfx%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20Markdown%20Guide%20to%20DocFx%20|%20DNN%20Docs&amp;body=Markdown%20Guide%20to%20DocFx%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Fgetting-started%2Fcontribution%2Fdnn-docs%2Fmarkdown-guide-to-docfx%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for Markdown Guide to DocFx&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bmarkdown-guide-to-docfx%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Fgetting-started%2Fcontribution%2Fdnn-docs%2Fmarkdown-guide-to-docfx%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/getting-started/contribution/dnn-docs/markdown-guide-to-docfx/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="markdown-guide-to-docfx">
+<h1 id="markdown-guide-to-docfx">Markdown Guide to DocFX</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">09.02.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 4 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 4 minutes  to read</span>
+</div>
+
+<p>Once you start investigating the new DNN Docs files you’ll notice a different style of syntax. This is something called “markdown” and it’s the commonly accepted format/syntax for tasks just like this. Markdown is simple and easy to use.</p>
+<p>For example, you’ll do things like <code>**A BOLDED WORD**</code> instead of typing <code>&lt;strong&gt;A BOLDED WORD&lt;/strong&gt;</code> just to <strong>bold some text</strong>, which saves you multiple keystrokes.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Here are a few resources to help with Markdown to help get you started:</p>
+<ul>
+<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown cheatsheet</a> with examples and formatting info</li>
+<li><a href="https://dillinger.io/">Dillinger.io</a> is an online Markdown tool which can help convert HTML to Markdown and to work with Markdown</li>
+<li>Here's a helpful <a href="https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one">markdown plugin for Visual Studio Code</a></li>
+</ul>
+</div>
+<p><img src="/images/Markdown.jpg" alt="Markdown Syntax"></p>
+<h2 id="front-matter">Front Matter</h2>
+<p>While you’re editing DNN Docs you’ll see some lines at the very top of the document with things such as <code>UID</code>, <code>TOPIC</code>, <code>LOCALE</code>, <code>TITLE</code>, etc.. These items are referred to as <code>Front-Matter</code>. They help the system properly create cross-referenced hyperlinks, related content links, and they help with language/edition filtering and sorting.</p>
+<p><img src="/images/Front-Matter.jpg" alt="Front Matter Screenshot"></p>
+<p>If you are editing a currently existing document you won’t likely have to update much in the front matter section. Though, if you are creating a new document then please fill in as much as possible. Note that the section begins and ends with 3 dashes</p>
+<pre><code>    ---
+    Insert front matter here in all lowercase
+    ---
+</code></pre>
+<p>Before any updates get merged in the repo the reviewers will check out this section to make sure everything is good to go. One reason for reviewing this section is because the <code>UID</code> (unique identifier) must be, well… unique!</p>
+<h2 id="using-callouts-in-docs">Using Callouts in Docs</h2>
+<p>One thing you may see in the documentation is the use of “callouts”. These show up in the form of light-colored boxes with words such as <code>NOTE</code>, <code>IMPORTANT</code>, or <code>WARNING</code> in them.</p>
+<p>They look like this:</p>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p>This is important.</p>
+</div>
+<p>The callout above would look like this in markdown:</p>
+<pre><code>    &gt; [!IMPORTANT]
+    &gt; This is important.
+</code></pre>
+<p>If you want to include a callout in your docs content, the following callouts are currently supported:</p>
+<pre><code>    &gt; [!NOTE]
+    &gt; This is a note.
+</code></pre>
+<pre><code>    &gt; [!TIP]
+    &gt; This is a tip.
+</code></pre>
+<pre><code>    &gt; [!IMPORTANT]
+    &gt; This is an important statement.
+</code></pre>
+<pre><code>    &gt; [!CAUTION]
+    &gt; This is a caution.
+</code></pre>
+<pre><code>    &gt; [!WARNING]
+    &gt; This is a warning.
+</code></pre>
+<p>And here is something to note about callouts!</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>You cannot include a callout inside of a table.</p>
+</div>
+<h2 id="layout-formatting--structure">Layout, Formatting &amp; Structure</h2>
+<p>One beneift to Markdown is that the style and formatting of the content can be more simple and uniform across pages. The following examples of formatting and elements can help get you started with the basics.</p>
+<table>
+<thead>
+<tr>
+<th>Header 1</th>
+<th>Header 2</th>
+<th>Header 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>item 1</td>
+<td>item 2</td>
+<td>item 3</td>
+</tr>
+</tbody>
+</table>
+<p>The table above would look like this in markdown:</p>
+<pre><code>    |Header 1|Header 2|Header 3|
+    |---|---|---|
+    |item 1|item 2|item 3|
+</code></pre>
+<ol>
+<li>Ordered list items</li>
+<li><strong>bold list item</strong></li>
+<li><em>italic list item</em></li>
+</ol>
+<ul>
+<li>Unordered list items</li>
+<li><a href="https://www.DNNCommunity.org">link example</a></li>
+</ul>
+<p>The examples above would look like this in markdown:</p>
+<pre><code>    1. Ordered list items
+    2. **bold list item**
+    3. *italic list item*
+    - Unordered list items
+    - [link example](https://www.DNNCommunity.org)
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>DNN Platform Core Objects  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="DNN Platform Core Objects  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    <meta property="og:title" content="DNN Platform Core Objects -- DNN Docs">
+    <meta property="og:image" content="../../../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="DNN Platform Core Objects -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/features/general/dnn/platform-overview/platform-overview-core-objects/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ffeatures%2Fgeneral%2Fdnn%2Fplatform-overview%2Fplatform-overview-core-objects%2Findex.html&amp;text=DNN%20Platform%20Core%20Objects%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ffeatures%2Fgeneral%2Fdnn%2Fplatform-overview%2Fplatform-overview-core-objects%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ffeatures%2Fgeneral%2Fdnn%2Fplatform-overview%2Fplatform-overview-core-objects%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ffeatures%2Fgeneral%2Fdnn%2Fplatform-overview%2Fplatform-overview-core-objects%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20DNN%20Platform%20Core%20Objects%20|%20DNN%20Docs&amp;body=DNN%20Platform%20Core%20Objects%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Ffeatures%2Fgeneral%2Fdnn%2Fplatform-overview%2Fplatform-overview-core-objects%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for DNN Platform Core Objects&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bplatform-overview-core-objects%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Ffeatures%2Fgeneral%2Fdnn%2Fplatform-overview%2Fplatform-overview-core-objects%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/features/general/dnn/platform-overview/platform-overview-core-objects/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="platform-overview-core-objects">
+<h1 id="core-platform-objects">Core Platform Objects</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">07.00.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 19 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 19 minutes  to read</span>
+</div>
+
+<p>In this section we'll examine the basic building blocks of DNN from a technical perspective and see how they fit together.</p>
+<h2 id="portalssites">Portals/Sites</h2>
+<p>DNN is a powerful engine for creating websites. That is <em>websites</em>, plural not singular. One of DNN's core features is what is known as &quot;portal virtualization&quot;. That is: a single DNN <em>instance</em> can serve multiple discrete websites. An instance, here, is synonymous with a DNN <em>installation</em>. I.e. the files that you've copied to your server's DNN folder with a web.config file in the root (TIP: a universal way to spot a .net web application is the web.config in its root directory). The aforementioned websites are known as <em>portals</em>. <em>Portal</em> is the DNN API name for what you'd call a <em>website</em> or simply a <em>site</em>. It stems from the very first version of DNN and an era where you had several popular internet <em>portals</em> like Yahoo that aggregated content from other websites. The visual and textual language of DNN is rooted in this time, hence the term <em>Portal</em> to describe a site.</p>
+<p>So DNN can have multiple sites. But a single site can have multiple <em>aliases</em>. A <em>Portal Alias</em> is a fancy term for url, albeit technically more accurate. So a single site can appear as <code>http://www.acme.com</code> and <code>http://acme.com</code> as well as <code>http://public.acme.com</code>. Whenever a request is made to your server, IIS is responsible for routing the various urls (or <em>domains</em> as they're often called) to the correct applications. And your server's administrator would be responsible for making sure all these urls map to the DNN instance. After that, it's DNN that must decide which portal to serve based on the incoming url. So for each portal you can specify multiple portal aliases to let DNN route multiple urls to the same website.</p>
+<p><img src="/images/ch03f001.png" alt="Creating a new portal"></p>
+<p>If you look at the page where you specify a new portal (you'll find this under Site Management on the Host menu), you'll notice that there are two types of portal (&quot;Site Type&quot;): a <em>parent portal</em> and a <em>child portal</em>. These terms can be somewhat confusing as the child portal is not embedded within the parent portal at all. Instead, the only difference is in the form of the portal alias. Parent portals have at least one unique <em>domain</em>. So the urls mentioned above are all for parent portals. Child portals, on the other hand are defined like subdirectories of a domain. So a child portal given the above installation could be <a href="http://www.acme.com/public">http://www.acme.com/public</a>. Now the &quot;public&quot; portal is defined as a child portal. Still, all its data is kept strictly separate from <a href="http://www.acme.com">http://www.acme.com</a> (if that were a parent portal on the same installation).</p>
+<p>So why would we use child portals? Well, there are a couple of scenarios where this is useful. The first concerns cookies. Browsers typically protect the user's privacy by blocking any website from accessing cookies set by other websites. So a cookie set by Google cannot be read by Apple and vice versa. You can see where I'm going with this. The child portal's cookies will be accessible by the parent portal and vice versa. Crucially, this makes it possible to keep a user logged in (login status relies on cookies). So if a user has been shared between a parent and a child portal, that user could navigate between the two sites and not have log in every time he/she switches (so-called &quot;single sign-on&quot;). A second reason for child portals is one of access rights. For a new parent portal you need to add the new domain to IIS and to a DNS record. The person who is allowed to create new portals might very well not have that authority/access. So in that case a child portal is an alternative to create a new site without the necessity to access other company resources.</p>
+<p>The data for each portal can be divided in two parts: database data and file data. The former is stored in the various tables of your DNN database and the latter is stored in some file based storage location and called the <em>Home Directory</em>. By default this is found in the directory portals/[PortalID] of your installation. You can specify another location on your server's hard disk and since version 7.3 of DNN you can specify alternate (cloud based) locations for this storage (and you could even extend the framework and build your own provider for this but now I'm drifting off topic). The point of this paragraph is that you realize that the files for each portal are stored in discrete folders somewhere. And DNN makes sure that no files &quot;leak&quot; from one portal to another. Your portals are thus really discrete entities inside the framework. This is crucial if you think of the following use case. As a successful developer you have created a DNN installation that is perfectly tuned to serve small businesses in your local area with a website. For each customer you create a new portal: <a href="http://www.joeplumbing.com">http://www.joeplumbing.com</a>, <a href="http://www.jilldrycleaning.com">http://www.jilldrycleaning.com</a>, etc, etc. But you need to have peace of mind that the content of these sites is secured from each other. Knowing how DNN organizes content will give you this peace of mind.</p>
+<p><img src="/images/ch03f002.png" alt="The portal directory on the server's hard disk"></p>
+<p>Finally you should know that each portal has a unique <em>Portal ID</em> and <em>GUID</em>. The Portal GUID (Globally Unique IDentifier) is a relatively new addition but it's the Portal ID that is used throughout the framework to identify a portal. You'll find numerous tables in SQL have a column PortalID that refers back to the portal (stored in the Portals table). And by default the PortalID is used in the creation of the subdirectory under portals for the portal home directory.</p>
+<h2 id="tabspages">Tabs/Pages</h2>
+<p>Each website consists of a number of pages. Or to put it in DNN parlance: each portal has a number of <em>tabs</em>. The word <em>Tab</em> stems from the project that DNN was originally derived from: IBuySpy. In that sample project, Microsoft demonstrated how you could build a website using a tabbed layout. The term for page is thus <em>Tab</em> in the DNN API. Back in the bad old days of static websites (so before the wide-scale adoption of CMSs), the pages of a website were all discrete files (often .html files) on your web server. So typically there'd be a file index.html which would be served by the web server when the browser was first directed at the site. Then any page would be simply point to a file on the web server. Since the introduction of web applications like DNN we have parted with this way of doing websites. Instead the html that is served to the browser is built up on the fly by the web application on the server and sent immediately to the client. No html file exists any longer that stores that html that was served. Instead the application typically uses some form of templates that are subsequently filled with data from a database. In this way we can show a &quot;Hello Peter&quot; page when Peter is logged in and a &quot;Hello Shaun&quot; page when Shaun is logged in.</p>
+<p>The various tabs are stored in the Tabs table in the SQL database. And just like portals, tabs have a unique <em>Tab ID</em> (an auto incrementing integer) and GUID (called UniqueID in the table), but the TabID is used throughout the framework to identify them.</p>
+<p><img src="/images/ch03f003.png" alt="DNN's Tabs table in SQL"></p>
+<p>A web application like DNN includes logic to generate and interpret urls as the pages are no longer files on disk. This is not a trivial matter. Urls are crucial to SEO for instance, so you'll find many are very opinionated about this aspect of the framework. To cater for any scenario DNN has detached this part of the application so anyone can write their own version. The generic term for this is &quot;url rewriter&quot;. A url rewriter constructs urls that are displayed in the application than can then be subsequently interpreted by it and mapped to a specific tab ID. The first versions of DNN did not include much url rewriting and you would have seen urls like this: <a href="http://www.acme.com?tabid=32">http://www.acme.com?tabid=32</a>. As you can probably guess this url would show the tab with id 32. But in essence all url rewriters that exist even today just translate the incoming url (e.g. <a href="http://www.acme.com/products/dynamite">http://www.acme.com/products/dynamite</a>) to something similar to that raw url with tabid=xyz that is then used internally to find the right tab.</p>
+<p><img src="/images/ch03f004.png" alt="The page hierarchy of a typical DNN site"></p>
+<p>Tabs are organized in a tree. That is: they can be nested. In the Tabs table you'll see the ParentID value that points to the TabID value of the parent tab. This is how most modern websites are currently structured. Any page sits somewhere in a tree hierarchy. And ideally the url rewriter uses this hierarchy to create &quot;human friendly&quot; urls that reflect this by using the titles as if they were subdirectories. So the aforementioned url would point to a page with the title &quot;dynamite&quot; underneath the page with the title &quot;products&quot;. This makes sense not just to humans but it's greatly rewarded by Google as well in your ranking.</p>
+<h2 id="skin">Skin</h2>
+<p>Every tab has a setting telling DNN which <em>skin</em> to load to display it. The <em>skin</em> defines how various elements are positioned on the page and how they look. In other frameworks this is sometimes referred to as a <em>theme</em>. The DNN Platform aims to separate the concerns of programmers, designers and content managers as much as possible. So designers should be able to do their job independently from programmers for instance. What this means is that you can change the look and feel of a site without changing its functionality or content.</p>
+<p>A skin is typically comprised of some html template file (.ascx), javascript files and css files. And a single skin package can contain multiple of these skin templates. Often you'll find a template for the home page, for an admin page and for a regular (default) page. The home page would then include some extra space for a banner/image slider for instance. In the site settings you can specify the default skin to use for the site, but any page can override this setting and specify its own special skin to use.</p>
+<p>The most important element on a page is undoubtedly the one responsible for navigation; i.e. the menu. Other common elements are the logo and the banner for the site as well as the footer elements such as copyright messages and disclaimers. Obviously DNN will also need to know where to put the page's contents. For this the skin template defines a set of <em>panes</em>. Panes are essentially div elements that have been given a meaningful name by the designer: LeftPane, RightPane, BannerPane, etc. These names will show up in the UI and allow the user to specify where something will be added on the page. If you switch to Layout Mode (use the top right menu on the control bar) you'll see all these panes light up and you will see how the designer has subdivided the page for you.</p>
+<p><img src="/images/ch03f005.png" alt="Layout mode"></p>
+<h2 id="modules">Modules</h2>
+<p>Each tab in DNN displays any number of <em>modules</em>. Modules are basically the rectangular blobs you see spread on the page's surface and that each have a small menu when you switch to edit mode (to switch the mode go to the top right hand side of the page on the control bar).</p>
+<p><img src="/images/ch03f006.png" alt="Module menu in Edit mode"></p>
+<p>These modules are what makes the site tick. They are the fundamental building blocks of functionality of your site. You can have a module that displays a block of text (the most common module by far) but you can also have a module that shows a small calendar with events or a module that displays a list of (recent) news articles. And it all began with what has been dubbed &quot;Web 2.0&quot;. That is: the web is no longer a collection of static texts and images, but rather an interactive surface that allows people to modify its contents. Modules are the &quot;apps&quot; of the web. They perform a particular function (e.g. manage an event calendar). And it is one of the most important extension points of DNN. That is: you can create your own modules (explained elsewhere in this book) and let the users stick that on any page of their site. And the ease with which this can be done and the power it provides the developer is the number 1 reason for DNN's success.</p>
+<p><img src="/images/ch03f007.png" alt="Adding module's through the control bar"></p>
+<p>Modules are instantiated on a page through the &quot;module&quot; tab on the control panel. If you click &quot;Add Module&quot; a list of installed modules will show and you can drag and drop those onto your page surface. Typically you will then set some parameters like who can edit its contents and some generic parameters that concern the specifics of the module (e.g. whether to render a calendar or a chronological list of events). This is commonly referred to as the <em>Module Settings</em> and this can be accessed through the little menu that shows up when you are in edit mode (see fig 3-6).</p>
+<p>The installed modules on your DNN installation are managed on the &quot;Extensions&quot; page on the host menu. Here you will see what is installed, what is ready to install (has already been downloaded) and you can access the DNN Store for more modules (both free and commercial).</p>
+<p><img src="/images/ch03f008.png" alt="The extensions page"></p>
+<p>The first time you see the list of installed modules it may seem overwhelming. But most of those are administrative modules that you cannot (and should not) delete. They are part of the framework. Using the &quot;Install Extension Wizard&quot; button at the top of the page you can also install modules that you've downloaded (or created) and bypass the DNN Store. This is not a closed system like most mobile platforms. And you'll find hundreds of free (and often open source) modules on sites like Codeplex and Github. A module is delivered as a zip file. All you need to do is upload the zip file through the Extensions page and DNN takes care of the rest. This process has been made as easy as possible for both the administrator and the developer. Even upgrades are taken care of automatically. Just upload the zip file you've downloaded and the module will appear on the control bar so it can be dropped onto a page.</p>
+<p>When a module gets added to a pane it is wrapped inside what is known as a <em>container</em>. This is similar to a skin in that it is defined by the designer and is a template file that tells DNN how the module is wrapped. The container typically determines how the title of the module is rendered. And it can be used to draw a border around a module or give it an alternate background color. Containers are typically distributed along with the skin. And just like the skin you'll have a default container for the site and the ability to override the default for each module.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This is an extract from the Wrox book  <a href="https://www.amazon.com/Professional-DNN7-Open-Source-Platform/dp/111885084X">Professional DNN 7</a> by Shaun Walker et al. Copyright remains with P.A. Donker and Wiley Publishers.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

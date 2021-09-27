@@ -1,0 +1,318 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Wrapping it up  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Wrapping it up  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    <meta property="og:title" content="Wrapping it up -- DNN Docs">
+    <meta property="og:image" content="../../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="Wrapping it up -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/tutorials/modules/beginning-module-development/wrapping-up/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fwrapping-up%2Findex.html&amp;text=Wrapping%20it%20up%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fwrapping-up%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fwrapping-up%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fwrapping-up%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20Wrapping%20it%20up%20|%20DNN%20Docs&amp;body=Wrapping%20it%20up%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fwrapping-up%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for Wrapping it up&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bmod-dev-wrapping-up%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fwrapping-up%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/tutorials/modules/beginning-module-development/wrapping-up/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="mod-dev-wrapping-up">
+<h1 id="wrapping-it-up">Wrapping it up</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">07.00.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 13 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 13 minutes  to read</span>
+</div>
+
+<p>Once you're happy with how the module is working it's time to consider packaging. I've mentioned a few times that modules come as zip files. But there is a bit more to this.</p>
+<h2 id="the-manifest">The Manifest</h2>
+<p>By far the most crucial part of the module's package is the manifest. The manifest is an XML file with a .dnn extension that will tell the DNN installer how to install this module. It tells DNN the following:</p>
+<ul>
+<li>What it's about to install. Is this a module, a skin or some other type of extension?</li>
+<li>Who is the maker? Name, url, etc. You can also include a license blurb, here.</li>
+<li>In case it's a module: the definition of the module.</li>
+<li>SQL scripts to run.</li>
+<li>Where to put the files that are in the zip file.</li>
+</ul>
+<p>There are many options for the manifest but we don't need to go through them exhaustively at this stage. Let's look at the manifest for our Guestbook module to get an idea.</p>
+<p>Listing 16: Guestbook module manifest</p>
+<pre><code class="lang-xml">&lt;dotnetnuke type=&quot;Package&quot; version=&quot;5.0&quot;&gt;
+ &lt;packages&gt;
+  &lt;package name=&quot;WROX_Guestbook&quot; type=&quot;Module&quot; version=&quot;01.00.00&quot;&gt;
+   &lt;friendlyName&gt;Guestbook&lt;/friendlyName&gt;
+   &lt;description&gt;WROX.com Guestbook module&lt;/description&gt;
+   &lt;owner&gt;
+    &lt;name&gt;WROX.com&lt;/name&gt;
+    &lt;organization&gt;WROX.com&lt;/organization&gt;
+    &lt;url&gt;http://www.wrox.com&lt;/url&gt;
+    &lt;email&gt;modules@wrox.com&lt;/email&gt;
+   &lt;/owner&gt;
+   &lt;license src=&quot;License.txt&quot;/&gt;
+   &lt;releaseNotes src=&quot;ReleaseNotes.txt&quot;/&gt;
+   &lt;dependencies&gt;
+    &lt;dependency type=&quot;CoreVersion&quot;&gt;07.01.02&lt;/dependency&gt;
+   &lt;/dependencies&gt;
+   &lt;components&gt;
+    &lt;component type=&quot;Script&quot;&gt;
+     &lt;scripts&gt;
+      &lt;basePath&gt;DesktopModules\WROX\Guestbook&lt;/basePath&gt;
+      &lt;script type=&quot;Install&quot;&gt;
+       &lt;path&gt;Providers\DataProviders\SqlDataProvider&lt;/path&gt;
+       &lt;name&gt;01.00.00.SqlDataProvider&lt;/name&gt;
+       &lt;version&gt;01.00.00&lt;/version&gt;
+      &lt;/script&gt;
+      &lt;script type=&quot;UnInstall&quot;&gt;
+       &lt;path&gt;Providers\DataProviders\SqlDataProvider&lt;/path&gt;
+       &lt;name&gt;Uninstall.SqlDataProvider&lt;/name&gt;
+       &lt;version&gt;01.00.00&lt;/version&gt;
+      &lt;/script&gt;
+     &lt;/scripts&gt;
+    &lt;/component&gt;
+    &lt;component type=&quot;ResourceFile&quot;&gt;
+     &lt;resourceFiles&gt;
+      &lt;basePath&gt;DesktopModules\WROX\Guestbook&lt;/basePath&gt;
+      &lt;resourceFile&gt;
+       &lt;name&gt;Resources.zip&lt;/name&gt;
+      &lt;/resourceFile&gt;
+     &lt;/resourceFiles&gt;
+    &lt;/component&gt;
+    &lt;component type=&quot;Module&quot;&gt;
+     &lt;desktopModule&gt;
+      &lt;moduleName&gt;WROX_Guestbook&lt;/moduleName&gt;
+      &lt;foldername&gt;WROX/Guestbook&lt;/foldername&gt;
+      &lt;moduleDefinitions&gt;
+       &lt;moduleDefinition&gt;
+        &lt;friendlyName&gt;Guestbook&lt;/friendlyName&gt;
+        &lt;defaultCacheTime&gt;0&lt;/defaultCacheTime&gt;
+        &lt;moduleControls&gt;
+         &lt;moduleControl&gt;
+          &lt;controlKey/&gt;
+          &lt;controlSrc&gt;DesktopModules/WROX/Guestbook/View.ascx&lt;/controlSrc&gt;
+          &lt;supportsPartialRendering&gt;False&lt;/supportsPartialRendering&gt;
+          &lt;controlTitle/&gt;
+          &lt;controlType&gt;View&lt;/controlType&gt;
+          &lt;viewOrder&gt;0&lt;/viewOrder&gt;
+         &lt;/moduleControl&gt;
+         &lt;moduleControl&gt;
+          &lt;controlKey&gt;Edit&lt;/controlKey&gt;
+          &lt;controlSrc&gt;DesktopModules/WROX/Guestbook/Edit.ascx&lt;/controlSrc&gt;
+          &lt;supportsPartialRendering&gt;False&lt;/supportsPartialRendering&gt;
+          &lt;controlTitle&gt;Edit Content&lt;/controlTitle&gt;
+          &lt;controlType&gt;View&lt;/controlType&gt;
+          &lt;viewOrder&gt;0&lt;/viewOrder&gt;
+          &lt;supportsPopUps&gt;False&lt;/supportsPopUps&gt;
+         &lt;/moduleControl&gt;
+         &lt;moduleControl&gt;
+          &lt;controlKey&gt;Settings&lt;/controlKey&gt;
+          &lt;controlSrc&gt;DesktopModules/WROX/Guestbook/Settings.ascx&lt;/controlSrc&gt;
+          &lt;supportsPartialRendering&gt;False&lt;/supportsPartialRendering&gt;
+          &lt;controlTitle&gt;Guestbook Settings&lt;/controlTitle&gt;
+          &lt;controlType&gt;Edit&lt;/controlType&gt;
+          &lt;viewOrder&gt;0&lt;/viewOrder&gt;
+         &lt;/moduleControl&gt;
+        &lt;/moduleControls&gt;
+       &lt;/moduleDefinition&gt;
+      &lt;/moduleDefinitions&gt;
+     &lt;/desktopModule&gt;
+    &lt;/component&gt;
+    &lt;component type=&quot;Assembly&quot;&gt;
+     &lt;assemblies&gt;
+      &lt;assembly&gt;
+       &lt;name&gt;WROX.Modules.Guestbook.dll&lt;/name&gt;
+       &lt;path&gt;bin&lt;/path&gt;
+      &lt;/assembly&gt;
+     &lt;/assemblies&gt;
+    &lt;/component&gt;
+   &lt;/components&gt;
+  &lt;/package&gt;
+ &lt;/packages&gt;
+&lt;/dotnetnuke&gt;
+</code></pre>
+<h4 id="preamble">Preamble</h4>
+<p>The package node begins by telling DNN it's a module and which version this is. DNN uses this and the name attribute (WROX_Guestbook) to determine if the package has already been installed or not. So you should never ever change this name attribute or you will break your upgrade sequence!</p>
+<p>The opening tag is followed by a number of tags that have a vanity role. The friendly name is what is shown in the UI as name for the module and the description is shown on the Extensions page. The owner information and license/release notes are shown during installation.</p>
+<p>The dependency node you see makes sure that users who try to install this on a version older than DNN 7.1.2 will not be able to. DNN will inform them and stop the installation procedure. As I've pointed out earlier, if it would install it'd lead to a big mess with .net as a dependency on a higher version nr of a component will break our module entirely.</p>
+<p>So how about other dependencies? In our module we've also used a dependency on DotNetNuke.WebUtility. But since this ships with DNN, we can safely assume that that will work out fine. In other words: you only need to worry about dependencies on components that do not ship with DNN.</p>
+<h4 id="sql-scripts">SQL Scripts</h4>
+<p>The node &amp;lt;component type=&quot;Script&quot;&amp;gt; enumerates all SQL scripts. These are incremental and DNN uses the module name and the version number to figure out which scripts it should run. It should be clear that you should have a solid version numbering strategy if you are going to distribute the module. Errors in scripts are non-recoverable! If DNN somehow trips on one of those scripts the whole installation fails and you are stuck with a situation where some (parts of) scripts may have run and others have not. This is potentially catastrophic, so the only safe way to install modules is to back up your DNN installation first. Make sure to mention this to your audience when releasing an upgrade. It is up to you to make these upgrade scripts as solid as you can.</p>
+<p>The scripts are named xx.yy.zz.SqlDataProvider by convention. You can opt to make new installs start somewhere down the script history by adding a Install.xx.yy.zz.SqlDataProvider script. This is not uncommon for long-lived modules. If you examine the manifest of the Blog module 6.0.x you'll notice this is done at version 6. So there is a Install.06.00.00.SqlDataProvider script which makes new installs start there and continue up. If it's an upgrade all Install.* scripts are ignored.</p>
+<p>You should also include the UnInstall script. Obviously there is no version nr for this. During each upgrade the latest version is written over what was there. DNN then uses this script during the removal of the module if the user decides to uninstall. Again, if you're distributing to a wider audience spend some time perfecting these scripts. Make sure you make these scripts robust so there is little chance they fail. For instance: test if a procedure is there before you drop it. It may seem redundant, but a failure in the script can leave the uninstall hanging in midair and users will bombard you with (angry) emails.</p>
+<h4 id="resource-file">Resource File</h4>
+<p>A very common technique to deliver a bunch of files to the target DNN installation is to use a resources file. This is a zip file containing the whole tree of folders and files you wish to distribute. DNN will unpack it to the module folder. It saves you a lot of work announcing each individual file to install. Instead your approach changes to: which files can go into the resource file and which ones must be kept outside. The answer is that all dlls, SQL scripts and cleanup files must stay outside as they are not simply unzipped to the destination. Everything else can be zipped up.</p>
+<h4 id="module-definition">Module Definition</h4>
+<p>Earlier in this chapter we looked at how modules are embedded in DNN. It will come as no surprise then, that in the manifest we have a reflection of that. It is in the &amp;lt;component type=&quot;Module&quot;&amp;gt; node of the manifest. Walking through that you will recognize most of the fields of the relevant tables. This is where you tell DNN what your module is called, where it should go, which features it supports, the definition(s) and their controls, etc.</p>
+<p>There is an element in the definition we have not touched on: eventMessage. This tells DNN to have the module notified of some events. Typically you'll see an entry here to listen to &quot;upgrade&quot; as is the case here. It is quite possible you can't do all your upgrade processing with SQL scripts (like manipulation of files for instance). What this does is that DNN will run the upgrade method on the type supplied under businessControllerClass based on the list of versions in upgradeVersionsList. With this method you can embed logic in your module to do upgrades internally that require code to run.</p>
+<h4 id="assemblies">Assemblies</h4>
+<p>The node &amp;lt;component type=&quot;Assembly&quot;&amp;gt; lists all dlls to be installed. You actually need to specify the bin folder as there are scenarios where dlls can go elsewhere. Using the version attribute you can make sure DNN keeps track of versions of your dlls. This can be leveraged with shared dlls. Let's say you use Acme.dll and have compiled your module using version 1.1.0 from this company, then using the version code will prevent another module developer using the same Acme.dll but with version 1.0.0 to get that dll installed over yours as that might break your code. Note we are assuming that shared dlls always support backwards compatibility which is kind of an industry standard.</p>
+<h2 id="packing-up-our-guestbook-module">Packing up our guestbook module</h2>
+<p>To wrap it all up now all we need to do is zip up our work:</p>
+<ol>
+<li>Create a zip file called &quot;resources.zip&quot;. In it we put:</li>
+</ol>
+<ul>
+<li>the three ascx files (View, Edit, Settings),</li>
+<li>module.css</li>
+<li>App_LocalResources*.resx (preserve the folder in the zip file!)</li>
+</ul>
+<ol start="2">
+<li>Create a second zip file which incorporates:</li>
+</ol>
+<ul>
+<li>The resources.zip file you just created</li>
+<li>License.txt and ReleaseNotes.txt</li>
+<li>The manifest (Guestbook.dnn)</li>
+<li>Bin\Guestbook.dll</li>
+<li>Providers\DataProviders\SqlDataProvider*.SqlDataProvider</li>
+</ul>
+<p>This second zip file is your module. The convention is to give it a name along these lines: [ModuleName]_[Version]_[Install/Source].zip, so in the above case Guestbook_01.00.00_Install.zip. That immediately makes it clear to anyone familiar with DNN what the zip file is.</p>
+<h4 id="creating-a-source-version">Creating a Source version</h4>
+<p>It is fairly easy to create a source code distribution of the module using the same method as above. The only difference is that you'd include all necessary source code files in the resources.zip. The manifest would not need to be changed as the resources file is simply unpacked. But it would already prime the receiving DNN installation with SQL scripts and the module definition so that anyone wishing to work on the source would just need to fire up Visual Studio, load up your project and recompile to the site's bin folder when needed. This makes it incredibly easy for someone else to work with your source code.</p>
+<h2 id="build-automation">Build Automation</h2>
+<p>At this point you may think that all the packing and manifest creation described above is quite a bit of work. The good news is that this is very repetitive and that all other module developers go through the same process. As a result various mechanisms have surfaced to automate this process. The most common way is to use MSBuild tasks to do this. MSBuild is responsible for what happens when you click &quot;Build&quot; in Visual Studio. But it's not just about invoking the compiler. It can be extended to do all kinds of things, both before and after compilation. This is modelled after Ant and NAnt (the .net version of Ant). So like NAnt it, too, uses XML files to tell it what to do. Since MSBuild comes with .net it is very tightly integrated with your whole environment which many see as a bonus. Personally I use NAnt as it can be kept totally isolated from the project. But it's a matter of taste which build automation technology you use. Just know that once you have this tuned correctly, making a distributable module becomes trivially easy.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This is an extract from the Wrox book  <a href="https://www.amazon.com/Professional-DNN7-Open-Source-Platform/dp/111885084X">Professional DNN 7</a> by Shaun Walker et al. Copyright remains with P.A. Donker and Wiley Publishers.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

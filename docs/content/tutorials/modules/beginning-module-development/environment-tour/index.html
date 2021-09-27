@@ -1,0 +1,289 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Guided Tour of Your Work Environment  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Guided Tour of Your Work Environment  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    <meta property="og:title" content="Guided Tour of Your Work Environment -- DNN Docs">
+    <meta property="og:image" content="../../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="Guided Tour of Your Work Environment -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/tutorials/modules/beginning-module-development/environment-tour/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fenvironment-tour%2Findex.html&amp;text=Guided%20Tour%20of%20Your%20Work%20Environment%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fenvironment-tour%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fenvironment-tour%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fenvironment-tour%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20Guided%20Tour%20of%20Your%20Work%20Environment%20|%20DNN%20Docs&amp;body=Guided%20Tour%20of%20Your%20Work%20Environment%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fenvironment-tour%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for Guided Tour of Your Work Environment&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bmod-dev-work-environment%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fenvironment-tour%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/tutorials/modules/beginning-module-development/environment-tour/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="mod-dev-work-environment">
+<h1 id="a-guided-tour-of-your-work-environment">A Guided Tour of Your Work Environment</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">07.00.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 18 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 18 minutes  to read</span>
+</div>
+
+<p>We'll first go for a stroll to discover your new playground. Allow me to guide you around as we look at asp.net applications, the DNN Framework and DNN modules. I think it's a good way to get started if you understand how these various bits are built and relate to each other.</p>
+<h2 id="aspnet-web-forms">ASP.NET Web Forms</h2>
+<p>If you already know how to program an asp.net Web Forms application you can skip this section. Asp.net web forms was introduced back in 2001 with the first release of asp.net. Microsoft aimed to provide programmers with a programming model that resembled Windows programming on the web. For that they needed to resolve the web's stateless nature. This means: the server is not connected to the client outside of simply delivering some files and every time a browser makes a request it is seen in total isolation. The server does not &quot;know&quot; you made a request just two seconds before. This was not an issue in the old days of the static web. After all, all the server did was just serve out files that were on its hard disk to the client browser. But now Microsoft wanted to make it appear to programmers as if there was some kind of continuous connection between the browser and the server. And they solved this by passing a whole lot of hidden data back and forth between the browser and the server. Basically every time the browser would make a request it would send enough information to the server so it would know what happened previously. And although this mechanism has come under increased attack due to the volume of data being sent back and forth (read: slower response times), it remains a very powerful paradigm for web programming and very easy for developers to understand.</p>
+<p>So web forms behaves a lot like Win Forms in that you have a surface onto which you drop components (text boxes, buttons, dropdowns, etc) and in the so-called <em>Code Behind</em> files of these forms you catch Events that are triggered when a user interacts with those components (e.g. the clicking of a button, filling of a text box, etc). The aforementioned form is essentially a template where html is intermingled with blocks that the web forms processor recognizes and turns into what you need it to be. These templates are easily spotted on your server's hard disk as they have either the .aspx or the .ascx extension. An .aspx is a standalone web form, intended to be served as a complete page to the browser. An .ascx is a partial file called a <em>User Control</em>. I.e. it is embedded in either an .aspx or another .ascx (you can nest them) and is similar to the other components like text boxes and buttons that you add. The code behind files are either .vb or .cs depending on the development language (Visual Basic or C#).</p>
+<p>If you now go to your installed DNN application you'll understand what the majority of files are about. Other files we find are mostly static files (i.e. they are meant to be served &quot;as is&quot; by the server to the browser) such as images, css and js files. But there remain some others that are not served and are only meaningful to the asp.net engine. The first I want to call out is the <em>web.config</em>. There can be only one in the entire application and it sits in the root directory. It is an XML file that tells IIS various details about the application. Most importantly it tells IIS which components to hand requests to (routing). It is also the place where some application level settings are stored such as the connection string to the database for instance. This is extensible and various bits of the application can use the web.config to store settings as well (DNN stores information about its configuration in this file as well). Note that you should not use this file trivially. Although it's perfectly legal for you to use the web.config to store settings for your module, you must keep in mind that in many installations the web.config may have been changed by the owner and your settings may be tampered with inadvertently. As a general rule you should try to avoid tampering with this file as you can easily break the entire application if something goes wrong.</p>
+<p>Finally you should pay attention to the bin folder. That is where the .dll files reside. Dlls are compiled libraries of code. There are two ways to run code on the server in asp.net. You can have code files on the server that are compiled on-the-fly. That is: when a request comes in. Or you can precompile code into libraries and drop those in the bin folder. There are several advantages with the latter approach. For a start it means that the server doesn't need to compile as it has already been compiled. This is offset by the fact that the server will only compile if it finds that any of the code files has been altered. But still the compiled library offers a performance advantage. Secondly the compiled library hides the code from prying eyes. This may be important if you deliver a commercial solution and you don't want to hand over your source code. It also shields the code from tampering. This might be useful in cases where others have access to the server and you want to make sure no one tampers with the code. Finally it makes it simpler to manage versions of your work. A dll can be labeled with a version nr. Code files, too. But needing to check if any code files may have been updated or not can be a cumbersome task and having all code in a single dll is just that much simpler.</p>
+<p>Many of the dlls in the bin folder are interdependent. So you can't remove or replace them without risk of breaking the application. In .net the dependencies between dlls is recorded when they are created. For instance the DotNetNuke.Web.dll version 7.3.4 is dependent among (many) others on DotNetNuke.HttpModules.dll version 7.3.4, DotNetNuke.Instrumentation.dll version 7.3.4, DotNetNuke.dll version 7.3.4, DotNetNuke.Web.Client.dll version 7.3.4 and DotNetNuke.WebUtility.dll version 4.2.1. If any of those dlls would be replaced by one with a lower version nr or removed altogether, the DotNetNuke.Web.dll will throw an exception and halt all its work, breaking the entire application. So tampering with dlls is not for the faint of heart. You really need to know what you're doing.</p>
+<p>This concludes the brief overview of some of the critical parts of a .net web forms application. You should be aware of the above in case you wish to change things or if you need to debug some erroneous behavior.</p>
+<h2 id="the-dnn-platform">The DNN Platform</h2>
+<p>As a Web Forms application, DNN too has a bin folder, a web.config file and many of those .aspx and .ascx files. DNN (or DotNetNuke as it was called at the time) came right on the heels of the emergence of ASP.NET and was a continuation of one of the bigger sample projects in the first wave of ASP.NET. In many ways DNN has been a trail blazer for Web Forms and at times Microsoft has adjusted what it was doing based on what was happening in the DNN eco-system. And for those of us that have been around since that time we can see that history reflected in the various files and folders of the application. For newcomers it can be puzzling why you'd have /admin and /DesktopModules/Admin. Or /js vs. /Resources/Shared/scripts. Over time many developers have worked on the solution and like binary stars DNN and ASP.NET Web Forms have evolved in each other's gravity, sometimes changing the other's course. So at times the anatomy of DNN may feel somewhat quirky. So with that out of the way let's look at what you have on your hard disk after installing DNN. Table 1 shows a rundown of the most important folders in the application.</p>
+<p>Table 1: Major directories in a new DNN installation</p>
+<table>
+<thead>
+<tr>
+<th>Path</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/admin</td>
+<td>Various bits of functionality that can/are used throughout the framework, like the login button, the control panel or the module's settings panel.</td>
+</tr>
+<tr>
+<td>/App_Browsers</td>
+<td>Configuration files that allow DNN to know what a browser's capabilities are.</td>
+</tr>
+<tr>
+<td>/App_Data</td>
+<td>This is the standard <a href="http://ASP.NET">ASP.NET</a> folder to which an application's database will be written if you don't specify otherwise.</td>
+</tr>
+<tr>
+<td>/App_Data/Search</td>
+<td>DNN uses Lucene to index its contents. Lucene stores its files here.</td>
+</tr>
+<tr>
+<td>/App_GlobalResources</td>
+<td>You'll find DNN's common resource files here. These files store the most common texts used in the application (like &quot;Cancel&quot; or &quot;Submit&quot;).</td>
+</tr>
+<tr>
+<td>/bin</td>
+<td>See previous section</td>
+</tr>
+<tr>
+<td>/Components</td>
+<td>This is mostly empty. It used to be the place where the source version stored its source code.</td>
+</tr>
+<tr>
+<td>/Config</td>
+<td>Configuration files for various aspects of the application. These files remove the need to put everything in the web.config file.</td>
+</tr>
+<tr>
+<td>/controls</td>
+<td>Reusable controls. You can use these in your own modules as well. Controls like the Url Control (choose a url or a page in DNN) will save you a lot of work.</td>
+</tr>
+<tr>
+<td>/DesktopModules</td>
+<td>This is where modules are stored</td>
+</tr>
+<tr>
+<td>/DesktopModules/Admin</td>
+<td>Administrative modules like the SQL module or the Extensions module. You'll see these modules in action on the various admin pages.</td>
+</tr>
+<tr>
+<td>/Documentation</td>
+<td>Licenses and a quick guide to installing DNN</td>
+</tr>
+<tr>
+<td>/Icons</td>
+<td>You guessed it: icon image files that are used in the application</td>
+</tr>
+<tr>
+<td>/images</td>
+<td>Various images consisting mostly of the icons that were used in older versions of DNN</td>
+</tr>
+<tr>
+<td>/Install</td>
+<td>When DNN first installs it uses these folders to create the system. The default modules are found here as well as default skins and languages for instance. If you'd create a distribution based on DNN you'd put all your own stuff in this place so it installs by default.</td>
+</tr>
+<tr>
+<td>/js</td>
+<td>Various Javascripts</td>
+</tr>
+<tr>
+<td>/Licenses</td>
+<td>More licenses of components used in DNN</td>
+</tr>
+<tr>
+<td>/Portals</td>
+<td>Data directories that hold the files for the various portals</td>
+</tr>
+<tr>
+<td>/Portals/_default</td>
+<td>Data directory for the host. This is where you'll find the portal templates (the files that determine what pages to create for a new portal) for instance.</td>
+</tr>
+<tr>
+<td>/Providers</td>
+<td>Directories dedicated to extensible bits of DNN. You can override the default providers with your own if you want.</td>
+</tr>
+<tr>
+<td>/Providers/DataProviders/SqlDataProvider</td>
+<td>The default Data Provider is the SQL Data Provider. This means: we use SQL server by default. This directory contains all of the scripts DNN uses to get the data schema installed correctly and fill it with the first necessary data.</td>
+</tr>
+<tr>
+<td>/Resources</td>
+<td>Various shared files that can be served depending on the context. Modules may request jQuery to be sent to the client. The jQuery scripts are found under this folder. The folder has grown significantly since version 5 of DNN as more logic has been transferred to the client side. And the folder structure reflects the strong growth in that not everything is organized 100% logically.</td>
+</tr>
+</tbody>
+</table>
+<p>There is a certain analogy between the DNN folder structure and a typical Windows machine's folder structure. The DesktopModules folder is like the Programs folder on your Windows machine. It stores the various installed programs. The Portals folder is like the Users folder. It stores the user's files and makes sure some level of isolation is used to prevent one looking into the files of another (portal folders). Finally, the bin folder is like the System32 folder in that the dlls that are shared across the whole application go there.</p>
+<h2 id="anatomy-of-a-dnn-module">Anatomy of a DNN module</h2>
+<p>Now that we know what an asp.net web forms application and specifically DNN consists of, let's examine the constituent parts of a DNN module. As was mentioned before, a module is delivered as a zip file. But what's in the zip file and how does this fit into DNN? To better understand this we begin by dividing our application into the age old split of data and code. The code comes as .net web forms files such as .ascx, .js, .dll or code files (.cs, .vb). And these files are almost without exception stored in a subfolder of <em>DesktopModules</em> in your DNN installation and the bin folder in case of a dll. The user's data comes in two forms: files and relational data (i.e. tables of data). File-based data is stored in the portal home directory (default Portals/[PortalID]/) and SQL data in the SQL Server database. For the former you won't need to do anything (the portal home directory already exists) but for the latter you will need to create the necessary tables, procedures, etc. yourself through a set of scripts. These scripts create or update the schema your application needs in SQL. That's it. What you create is a bunch of files that either are copied to the DesktopModules folder, the bin folder or are used to generate the schema in SQL that the application will use.</p>
+<p>Let's look at the HTML module to see what this looks like in practice. In your installation you should find the following directory: /DesktopModules/HTML (fig. 2). In that directory you'll find 4 .ascx files and one .css file.</p>
+<p><img src="/images/ch13f002.png" alt="Figure 2: Html module directory."></p>
+<p>So these files are actually used to render to the client what the developer wanted (there are also a bunch of .txt files and a .manifest file in this folder that we'll ignore for now). Then there is an App_LocalResources folder. Like the App_GlobalResources this holds resource files that contain the text snippets that are used in the application (more information about this in the section on localization). And then under Providers/DataProviders/SqlDataProvider you'll find all the SQL script files that the module uses. These script files are only used during installation, so if you tamper with them now nothing will change. They remain on disk as a record of what has been done.</p>
+<p>The only file you're missing from the module is the one that was written to the bin folder: DotNetNuke.Modules.Html.dll. That file is the compiled version of all the source code that came with the module. In the source code version of DNN you'll find this source code under DNN Platform\Modules\HTML. This directory holds the entire HTML module project and is used to generate the zip file that is used to install it.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This is an extract from the Wrox book  <a href="https://www.amazon.com/Professional-DNN7-Open-Source-Platform/dp/111885084X">Professional DNN 7</a> by Shaun Walker et al. Copyright remains with P.A. Donker and Wiley Publishers.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

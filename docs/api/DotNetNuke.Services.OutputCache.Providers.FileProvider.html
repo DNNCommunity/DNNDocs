@@ -1,0 +1,682 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FileProvider
+    -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FileProvider
+    -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_OutputCache_Providers_FileProvider.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.OutputCache.Providers.FileProvider%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider">
+  
+  
+  <h1 id="DotNetNuke_Services_OutputCache_Providers_FileProvider" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider" class="text-break">Class FileProvider
+  </h1>
+  <div class="markdown level0 summary"><p>FileProvider implements the OutputCachingProvider for file storage.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="DotNetNuke.Services.OutputCache.OutputCachingProvider.html">OutputCachingProvider</a></div>
+    <div class="level2"><span class="xref">FileProvider</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.OutputCache.OutputCachingProvider.html#DotNetNuke_Services_OutputCache_OutputCachingProvider_GetProviderList">OutputCachingProvider.GetProviderList()</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.OutputCache.OutputCachingProvider.html#DotNetNuke_Services_OutputCache_OutputCachingProvider_Instance_System_String_">OutputCachingProvider.Instance(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.OutputCache.OutputCachingProvider.html#DotNetNuke_Services_OutputCache_OutputCachingProvider_RemoveItemFromAllProviders_System_Int32_">OutputCachingProvider.RemoveItemFromAllProviders(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.OutputCache.OutputCachingProvider.html#DotNetNuke_Services_OutputCache_OutputCachingProvider_GenerateCacheKey_System_Int32_StringCollection_StringCollection_SortedDictionary_System_String_System_String__">OutputCachingProvider.GenerateCacheKey(Int32, StringCollection, StringCollection, SortedDictionary&lt;String, String&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.OutputCache.OutputCachingProvider.html#DotNetNuke_Services_OutputCache_OutputCachingProvider_ByteArrayToString_System_Byte___">OutputCachingProvider.ByteArrayToString(Byte[])</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.OutputCache.OutputCachingProvider.html#DotNetNuke_Services_OutputCache_OutputCachingProvider_GenerateCacheKeyHash_System_Int32_System_String_">OutputCachingProvider.GenerateCacheKeyHash(Int32, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.OutputCache.OutputCachingProvider.html#DotNetNuke_Services_OutputCache_OutputCachingProvider_WriteStreamAsText_HttpContext_Stream_System_Int64_System_Int64_">OutputCachingProvider.WriteStreamAsText(HttpContext, Stream, Int64, Int64)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Services.OutputCache.Providers.html">DotNetNuke.Services.OutputCache.Providers</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Services_OutputCache_Providers_FileProvider_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FileProvider : OutputCachingProvider</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_OutputCache_Providers_FileProvider_AttribFileExtension.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.OutputCache.Providers.FileProvider.AttribFileExtension%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/OutputCache/Providers/FileProvider.cs/#L24">View Source</a>
+  </span>
+  <h4 id="DotNetNuke_Services_OutputCache_Providers_FileProvider_AttribFileExtension" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider.AttribFileExtension">AttribFileExtension</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string AttribFileExtension = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_OutputCache_Providers_FileProvider_DataFileExtension.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.OutputCache.Providers.FileProvider.DataFileExtension%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/OutputCache/Providers/FileProvider.cs/#L23">View Source</a>
+  </span>
+  <h4 id="DotNetNuke_Services_OutputCache_Providers_FileProvider_DataFileExtension" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider.DataFileExtension">DataFileExtension</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string DataFileExtension = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_OutputCache_Providers_FileProvider_TempFileExtension.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.OutputCache.Providers.FileProvider.TempFileExtension%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/OutputCache/Providers/FileProvider.cs/#L25">View Source</a>
+  </span>
+  <h4 id="DotNetNuke_Services_OutputCache_Providers_FileProvider_TempFileExtension" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider.TempFileExtension">TempFileExtension</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string TempFileExtension = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_OutputCache_Providers_FileProvider_GetItemCount_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.OutputCache.Providers.FileProvider.GetItemCount(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/OutputCache/Providers/FileProvider.cs/#L30">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_OutputCache_Providers_FileProvider_GetItemCount_" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider.GetItemCount*"></a>
+  <h4 id="DotNetNuke_Services_OutputCache_Providers_FileProvider_GetItemCount_System_Int32_" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider.GetItemCount(System.Int32)">GetItemCount(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetItemCount(int tabId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.OutputCache.OutputCachingProvider.html#DotNetNuke_Services_OutputCache_OutputCachingProvider_GetItemCount_System_Int32_">OutputCachingProvider.GetItemCount(Int32)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_OutputCache_Providers_FileProvider_GetOutput_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.OutputCache.Providers.FileProvider.GetOutput(System.Int32%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/OutputCache/Providers/FileProvider.cs/#L36">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_OutputCache_Providers_FileProvider_GetOutput_" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider.GetOutput*"></a>
+  <h4 id="DotNetNuke_Services_OutputCache_Providers_FileProvider_GetOutput_System_Int32_System_String_" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider.GetOutput(System.Int32,System.String)">GetOutput(Int32, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override byte[] GetOutput(int tabId, string cacheKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cacheKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.OutputCache.OutputCachingProvider.html#DotNetNuke_Services_OutputCache_OutputCachingProvider_GetOutput_System_Int32_System_String_">OutputCachingProvider.GetOutput(Int32, String)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_OutputCache_Providers_FileProvider_GetResponseFilter_System_Int32_System_Int32_Stream_System_String_TimeSpan_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.OutputCache.Providers.FileProvider.GetResponseFilter(System.Int32%2CSystem.Int32%2CStream%2CSystem.String%2CTimeSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/OutputCache/Providers/FileProvider.cs/#L54">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_OutputCache_Providers_FileProvider_GetResponseFilter_" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider.GetResponseFilter*"></a>
+  <h4 id="DotNetNuke_Services_OutputCache_Providers_FileProvider_GetResponseFilter_System_Int32_System_Int32_Stream_System_String_TimeSpan_" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider.GetResponseFilter(System.Int32,System.Int32,Stream,System.String,TimeSpan)">GetResponseFilter(Int32, Int32, Stream, String, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override OutputCacheResponseFilter GetResponseFilter(int tabId, int maxVaryByCount, Stream responseFilter, string cacheKey, TimeSpan cacheDuration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxVaryByCount</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><span class="parametername">responseFilter</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cacheKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td><span class="parametername">cacheDuration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.OutputCache.OutputCacheResponseFilter.html">OutputCacheResponseFilter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.OutputCache.OutputCachingProvider.html#DotNetNuke_Services_OutputCache_OutputCachingProvider_GetResponseFilter_System_Int32_System_Int32_Stream_System_String_TimeSpan_">OutputCachingProvider.GetResponseFilter(Int32, Int32, Stream, String, TimeSpan)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_OutputCache_Providers_FileProvider_PurgeCache_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.OutputCache.Providers.FileProvider.PurgeCache(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/OutputCache/Providers/FileProvider.cs/#L60">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_OutputCache_Providers_FileProvider_PurgeCache_" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider.PurgeCache*"></a>
+  <h4 id="DotNetNuke_Services_OutputCache_Providers_FileProvider_PurgeCache_System_Int32_" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider.PurgeCache(System.Int32)">PurgeCache(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void PurgeCache(int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.OutputCache.OutputCachingProvider.html#DotNetNuke_Services_OutputCache_OutputCachingProvider_PurgeCache_System_Int32_">OutputCachingProvider.PurgeCache(Int32)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_OutputCache_Providers_FileProvider_PurgeExpiredItems_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.OutputCache.Providers.FileProvider.PurgeExpiredItems(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/OutputCache/Providers/FileProvider.cs/#L70">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_OutputCache_Providers_FileProvider_PurgeExpiredItems_" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider.PurgeExpiredItems*"></a>
+  <h4 id="DotNetNuke_Services_OutputCache_Providers_FileProvider_PurgeExpiredItems_System_Int32_" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider.PurgeExpiredItems(System.Int32)">PurgeExpiredItems(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void PurgeExpiredItems(int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.OutputCache.OutputCachingProvider.html#DotNetNuke_Services_OutputCache_OutputCachingProvider_PurgeExpiredItems_System_Int32_">OutputCachingProvider.PurgeExpiredItems(Int32)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_OutputCache_Providers_FileProvider_Remove_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.OutputCache.Providers.FileProvider.Remove(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/OutputCache/Providers/FileProvider.cs/#L102">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_OutputCache_Providers_FileProvider_Remove_" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider.Remove*"></a>
+  <h4 id="DotNetNuke_Services_OutputCache_Providers_FileProvider_Remove_System_Int32_" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider.Remove(System.Int32)">Remove(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Remove(int tabId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.OutputCache.OutputCachingProvider.html#DotNetNuke_Services_OutputCache_OutputCachingProvider_Remove_System_Int32_">OutputCachingProvider.Remove(Int32)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_OutputCache_Providers_FileProvider_SetOutput_System_Int32_System_String_TimeSpan_System_Byte___.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.OutputCache.Providers.FileProvider.SetOutput(System.Int32%2CSystem.String%2CTimeSpan%2CSystem.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/OutputCache/Providers/FileProvider.cs/#L154">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_OutputCache_Providers_FileProvider_SetOutput_" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider.SetOutput*"></a>
+  <h4 id="DotNetNuke_Services_OutputCache_Providers_FileProvider_SetOutput_System_Int32_System_String_TimeSpan_System_Byte___" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider.SetOutput(System.Int32,System.String,TimeSpan,System.Byte[])">SetOutput(Int32, String, TimeSpan, Byte[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetOutput(int tabId, string cacheKey, TimeSpan duration, byte[] output)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cacheKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">output</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.OutputCache.OutputCachingProvider.html#DotNetNuke_Services_OutputCache_OutputCachingProvider_SetOutput_System_Int32_System_String_TimeSpan_System_Byte___">OutputCachingProvider.SetOutput(Int32, String, TimeSpan, Byte[])</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_OutputCache_Providers_FileProvider_StreamOutput_System_Int32_System_String_HttpContext_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.OutputCache.Providers.FileProvider.StreamOutput(System.Int32%2CSystem.String%2CHttpContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/OutputCache/Providers/FileProvider.cs/#L190">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_OutputCache_Providers_FileProvider_StreamOutput_" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider.StreamOutput*"></a>
+  <h4 id="DotNetNuke_Services_OutputCache_Providers_FileProvider_StreamOutput_System_Int32_System_String_HttpContext_" data-uid="DotNetNuke.Services.OutputCache.Providers.FileProvider.StreamOutput(System.Int32,System.String,HttpContext)">StreamOutput(Int32, String, HttpContext)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool StreamOutput(int tabId, string cacheKey, HttpContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cacheKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">HttpContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.OutputCache.OutputCachingProvider.html#DotNetNuke_Services_OutputCache_OutputCachingProvider_StreamOutput_System_Int32_System_String_HttpContext_">OutputCachingProvider.StreamOutput(Int32, String, HttpContext)</a></div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/OutputCache/Providers/FileProvider.cs/#L21" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

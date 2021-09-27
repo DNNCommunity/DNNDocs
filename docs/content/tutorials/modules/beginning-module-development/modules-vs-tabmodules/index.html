@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>About Modules, TabModules, Module Definitions  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="About Modules, TabModules, Module Definitions  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    <meta property="og:title" content="About Modules, TabModules, Module Definitions -- DNN Docs">
+    <meta property="og:image" content="../../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="About Modules, TabModules, Module Definitions -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/tutorials/modules/beginning-module-development/modules-vs-tabmodules/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fmodules-vs-tabmodules%2Findex.html&amp;text=About%20Modules%2C%20TabModules%2C%20Module%20Definitions%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fmodules-vs-tabmodules%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fmodules-vs-tabmodules%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fmodules-vs-tabmodules%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20About%20Modules%2C%20TabModules%2C%20Module%20Definitions%20|%20DNN%20Docs&amp;body=About%20Modules%2C%20TabModules%2C%20Module%20Definitions%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fmodules-vs-tabmodules%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for About Modules, TabModules, Module Definitions&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bmod-dev-modules-vs-tabmodules%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fmodules-vs-tabmodules%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/tutorials/modules/beginning-module-development/modules-vs-tabmodules/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="mod-dev-modules-vs-tabmodules">
+<h1 id="about-modules-tabmodules-module-definitions">About Modules, TabModules, Module Definitions</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">07.00.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 8 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 8 minutes  to read</span>
+</div>
+
+<p>Your module needs to be properly embedded in DNN for it to work. A surprising number of concepts come into play to make this happen. I find the best way to understand how this works is to look at what is stored in SQL. After all, that is where the registration of a module is stored. To get an idea of how the module is embedded in DNN we'll open up the following tables in turn and I'll try to walk you through the wiring. We'll start at the very top where your module has been announced to the system and drill down to find out how DNN knows which ascx to put where on the page.</p>
+<h2 id="packages">Packages</h2>
+<p>Packages are what you upload into DNN. The zip files. They contain the manifest and this table stores this manifest, the license (if it was included), owner details etc. Note the column PackageType (fig. 7). You'll see the various package types that are known in DNN. For the purpose of this chapter we are only interested in <em>Module</em> package types. It's the entry point of all extensions and for our purpose it's the least interesting table.</p>
+<p><img src="/images/ch13f007.png" alt="Figure 7: Packages table."></p>
+<h2 id="desktopmodules">DesktopModules</h2>
+<p>This is the data root for any module. Every module has a unique record in this table (fig. 8). You'll notice it refers back to Packages through PackageId and that the version is duplicated in this row (it was also present in the Packages table). This is because the Packages table is a recent addition. Most importantly this table tells DNN where the module is found (FolderName) and what it's called (ModuleName). Note that you should keep the latter unique to avoid clashes. This is because DNN uses this name to determine during installation whether it has already been installed. So choosing a name that is the same as an existing one will lead to a huge mess when people install your module and the other one is present as well. So stick to some convention like MyCompany_MyModule for the name. You won't see it in the UI as FriendlyName is used for that. Other aspects of note: IsPremium will tell DNN whether it is only reserved for some portals or whether all portals can use this. IsAdmin tells DNN whether it should only be available for administrators to instantiate and use.</p>
+<p><img src="/images/ch13f008.png" alt="Figure 8: DesktopModules table."></p>
+<h2 id="moduledefinitions">ModuleDefinitions</h2>
+<p>Next up is the module definition (fig. 9). It links to the DesktopModules table. So any module can contain one or more definitions. Each definition shows up as a blob on the page when you instantiate the module (i.e. drop it on the page). Most modules have just one definition. Multiple definitions falls outside the scope of this chapter (and I'm not a big fan of it to be honest). The Module Definition has a DefinitionName. Like the ModuleName this is best kept unique and stable. If you change the name of this, DNN will create a new definition next time you upgrade and then you'll have a module with multiple definitions and hence multiple blobs on screen (probably showing the same thing). It can get very messy if you start fidgeting with this value so choose it well right at the start along the same conventions mentioned above.</p>
+<p><img src="/images/ch13f009.png" alt="Figure 9: ModuleDefinitions table."></p>
+<h2 id="modulecontrols">ModuleControls</h2>
+<p>The Module Definition is basically a container for one or more module controls. The module control (fig. 10) tells DNN which ascx to show (yes, we're finally getting to your work) when the module is shown on a page. The ControlSrc is the relative path to the ascx to show. This ascx has to either inherit from DotNetNuke.Entities.Modules.DesktopModuleBase or implement DotNetNuke.UI.Modules.IModuleControl. You can actually use a type reference in this field if you wanted to. So how does DNN know which module control to load for a definition? That depends on the ControlKey. This key is used in the query string of the request to switch controls. So adding ctl=Edit would tell DNN to load the control where ControlKey equals &quot;Edit&quot;.</p>
+<p><img src="/images/ch13f010.png" alt="Figure 10: ModuleControls table."></p>
+<p>That has brought us to your control. We now know how DNN knows which ascx to load based on your module's registration in the framework. We'll now see what parts are involved when a module is instantiated on a page. Again we'll walk through the data to get an idea of how this is done.</p>
+<h2 id="modules">Modules</h2>
+<p>This is the root of every module in your site. Every module instantiation has a single record in this table (fig. 11). Note it does not tell DNN yet where it is placed on your site. Just that it exists (or is deleted etc). Most importantly this is where the ModuleId is generated. That is the unique key that you'll use throughout your code to keep stuff from one module separate from another.</p>
+<p><img src="/images/ch13f011.png" alt="Figure 11: Modules table."></p>
+<h2 id="tabmodules">TabModules</h2>
+<p>The TabModule is where the module meets the page (Tab). It tells DNN where the module should go. As you can understand you can have multiple tabmodules per module. That is: you can stick a module on multiple pages. The idea behind this is that you can share content across pages. To see this in action you can try the following. Open up your DNN, log in as admin and go to the Modules menu at the top. Now, instead of selecting &quot;Add New Module&quot; select &quot;Add Existing Module&quot;. You'll now need to select a page from where to copy the module from and select the module. If you do not select &quot;Make a Copy&quot;, only a new TabModule record will be created for that module so it will show exactly the same content as on the other page.</p>
+<p><img src="/images/ch13f012.png" alt="Figure 12: TabModules table."></p>
+<p>You'll notice in the TabModules table (fig. 12) the column PaneName and ModuleOrder. This tells DNN where to stick it on the current page given the skin you've used when you added the module. This explains why when you switch skins your modules are sometimes all stacked in the default pane. This is because DNN will try to find the pane on the selected skin, but if it isn't found (because the other skin had different pane names) the module will be added to the (mandatory) ContentPane.</p>
+<p>There are many more columns in this table that I will not elaborate on here. You'll probably notice they are closely linked to settings you see when you go to a module's settings popup. But now you should understand how DNN knows which control to stick were when it loads a page.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This is an extract from the Wrox book  <a href="https://www.amazon.com/Professional-DNN7-Open-Source-Platform/dp/111885084X">Professional DNN 7</a> by Shaun Walker et al. Copyright remains with P.A. Donker and Wiley Publishers.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

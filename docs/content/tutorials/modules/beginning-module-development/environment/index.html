@@ -1,0 +1,237 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>The Environment  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="The Environment  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    <meta property="og:title" content="The Environment -- DNN Docs">
+    <meta property="og:image" content="../../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="The Environment -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/tutorials/modules/beginning-module-development/environment/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fenvironment%2Findex.html&amp;text=The%20Environment%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fenvironment%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fenvironment%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fenvironment%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20The%20Environment%20|%20DNN%20Docs&amp;body=The%20Environment%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fenvironment%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for The Environment&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bmod-dev-environment%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Ftutorials%2Fmodules%2Fbeginning-module-development%2Fenvironment%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/tutorials/modules/beginning-module-development/environment/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="mod-dev-environment">
+<h1 id="the-environment">The Environment</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">07.00.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 13 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 13 minutes  to read</span>
+</div>
+
+<p>It's time to set up the environment in which we'll create our module. This means having a DNN instance up and running which we can access directly using Visual Studio.</p>
+<h2 id="dnn">DNN</h2>
+<p>For our environment we'll use the regular DNN Platform distribution as you can find this through the download link on <a href="http://www.dnnsoftware.com">http://www.dnnsoftware.com</a> or directly on Codeplex or GitHub. Note you'll typically find several distributions: the <em>New Install</em> version, the <em>Version Upgrade</em> version, the <em>Source Code</em> version and the <em>Web Platform Installer</em> version. The only difference between the first two is that the upgrade version comes without a few files that are typically tuned to your specific setting (like the web.config). So you can safely unzip and drop all files from an upgrade version over an existing version of DNN and the first time you go to the site, it will upgrade the application internally. The web platform version is, you guessed it, meant to work in conjunction with Microsoft's Web Platform Installer.</p>
+<p>For our development environment we'll be using the regular version. This is because we don't need to run the source version of DNN in order to develop a module. When developing our module we treat DNN as a black box and only use its API. Unless you want to find out how DNN works internally you don't need to develop inside the source version of DNN. Another good reason to use the non-source version is that it is faster. The source version requires a bit more work from the .net compiler and it quickly will become tedious if every time you want to test a code change you need to wait a minute before the site fires up. And finally another reason for steering clear of the source version is that you'll want your module to work in a production environment somewhere. And that is where the non-source version will be running. So you'll mimic as closely as possible the end result while developing your application.</p>
+<p>Now which DNN version number should you choose? This depends largely on whether you intend to distribute your work for a wider audience or whether this is a one off module where you already know the environment where it's supposed to run. Obviously for the latter you would choose the version that it's intended to run on. But if you wish to distribute your module for sale or for free, keep in mind that not everyone is running the latest version of DNN. So you might want to backtrack a little. The downside of course is that older versions have fewer features. It requires some level of experience in module development and good familiarity with the DNN API to make this call.</p>
+<p>The numbering of DNN versions follows the pattern of other .net applications in a familiar x.y.z pattern, where x, y and z are integers. By convention we write this with double digits, so 7.3.4 becomes 07.03.04. The first digit is the <em>major</em> version number, the second the <em>minor</em> version and the final digit is called the <em>revision</em>. The idea is that the risk of breakage (i.e. methods in the API no longer working the same as before or changes in the SQL schema) is higher for changes in the major version nr and smallest for the revisions. The latter are sometimes referred to as <em>bugfix releases</em> as they intend to not add or change any features but rather make repairs to new features that were added in the .0 version. So 7.3.4 is the fourth bugfix release of the 7.3 release. You'll find that commonly the .0 releases are rarely used in production environments as administrators wait to see if any bugs were introduced with the new features. .0 releases are more frequently used by developers to begin using the new features. Keep this in mind when choosing your version to develop on.</p>
+<p>Table 2 shows a list of highlights of releases since version 6.0. This may help you determine which version is the best for you to target if you aim to redistribute your work.</p>
+<p>Table 2: Major DNN releases between 2011 and 2014</p>
+<table>
+<thead>
+<tr>
+<th>DNN Version</th>
+<th>Release Date</th>
+<th>Highlights</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6.0</td>
+<td>July 2011</td>
+<td>Conversion from VB to C#New UI with PopupsAzure CompatibilityIntegration with DNN Store</td>
+</tr>
+<tr>
+<td>6.1</td>
+<td>November 2011</td>
+<td>Client Resource Management(Mobile) Device Capability APISite Redirection (target Mobile)Site Groups (Pro Edition)</td>
+</tr>
+<tr>
+<td>6.2</td>
+<td>May 2012</td>
+<td>Social API (Groups, Journal, Authentication etc)MVC Services Support (later pulled in favor of WebAPI)</td>
+</tr>
+<tr>
+<td>7.0</td>
+<td>November 2012</td>
+<td>New (simplified) installerNew UI and control barContent Sharing (Pro)Version Comparison (Pro)Support for WebAPI</td>
+</tr>
+<tr>
+<td>7.1</td>
+<td>July 2013</td>
+<td>New Search APINew Url ManagerChanged to Hashed Passwords</td>
+</tr>
+<tr>
+<td>7.2</td>
+<td>December 2013</td>
+<td>Inclusion of Bootstrap into default skinJavascript Library ManagementSubscriptions and Digest Notifications</td>
+</tr>
+<tr>
+<td>7.3</td>
+<td>June 2014</td>
+<td>Performance EnhancementsRemote Portal Home Directories</td>
+</tr>
+</tbody>
+</table>
+<h2 id="sql-server">SQL Server</h2>
+<p>Just as with Visual Studio, SQL comes in commercial and free (labeled &quot;Express&quot;) flavors. And just like with Visual Studio the free version suffices for our task at hand. In a nutshell the SQL Express versions are fully compatible with the full versions of SQL but just have some size and performance limitations that don't really concern us. As we're developing we want to see our code run and know it will run well in production.</p>
+<p>As to the version (i.e. 2005, 2008, etc) it is wise to stick to the version that DNN requires. This ensures you won't be doing anything that won't run on someone else's installation. The dependency was moved up to 2008 in version 7 of DNN. If you're just using tables, views, simple procedures and functions then it doesn't really matter whether you use 2008 or 2012. But you should be aware that some of your future users might be on 2008.</p>
+<h2 id="iis">IIS</h2>
+<p>We'll need to run our site so we need Microsoft's web server IIS. There are two flavors of this: a developer version called IIS Express and the full blown regular IIS. If you have a professional version of Windows you have access to a full version of IIS. Choosing the right one is not trivial and it has implications for your project, notably regarding debugging. In order to debug Visual Studio has to somehow be able to piggyback onto the process that is running your application so that it can monitor what is going on. So let's look at the differences.</p>
+<p>The regular IIS is integrated into your Windows environment and runs as a service. The obvious advantage is that it is exactly the same product as you'll find on a Windows Server edition, so you have peace of mind that what you observe you'd also observe in production. The downside is that Visual Studio doesn't really penetrate this. It can't go through the front door so to speak and ask to piggyback on the so-called <em>worker process</em> (the process that runs your DNN and module is called the worker process and has the executable name w3wp.exe). Actually, if it could do this it would constitute a grave breach of security. So to be able to debug your module, Visual Studio has to jump through some hoops. Instead it needs to ask Windows to be able to latch onto the worker process. But this is only possible if you are running Visual Studio with administrator privileges. So either you turn off UAC on your machine or you tweak your Visual Studio shortcut to run as Administrator by default.</p>
+<p>IIS Express was introduced with Visual Studio 2010 and replaced the older IIS developer edition called Cassini which really didn't compare with IIS. The new IIS Express was made to behave much more like its big brother. The biggest difference is that IIS Express is a standalone application so it does not run as a service on your machine. Instead it's Visual Studio which boots it into action when you hit F5 in your web project. Your project's settings will configure IIS Express to serve up the site you're working on and the process remains active until you stop debugging. Obviously Visual Studio has no issue latching onto the process here as it starts it up itself. There is also no issue with UAC as you run the process in your own account on the machine. So there are no hoops to jump through. The downside, however, is that all this only works when firing up a website. So to do this for a module project we need to at least also include the website project DNN (still you don't need the source version!) in your solution and set it as startup project. There is another complication in that when you start your project this way, it will fire up your default browser using localhost:[some portal number]. Under normal circumstances this will then add itself to the aliases of the running portal. But it becomes impossible/very complex to create new portals in the running instance as you'd need to register new urls and IIS Express can't do that. Finally, the moment you stop debugging you kill the process. This means you cannot make any code changes while the site is running. You don't have that limitation if you run the regular IIS.</p>
+<p>In conclusion: IIS Express is a great tool and a big step forwards since the old Cassini days, but it was really designed for monolithic website projects (i.e. where you're creating a whole website). For our purpose of developing a module inside a website that we don't want to touch, it is too limiting and it is preferable to use the full blown IIS if you have access to it.</p>
+<h2 id="to-vm-or-not-to-vm">To VM or Not To VM</h2>
+<p>You can go one step further to emulate the situation where the module will end up: by creating a virtual machine with a complete Windows Server edition on it. If you are an MSDN member this comes at no cost to you at all. The upside is that there are no more differences possible between your development environment and the production environment. Another benefit is that your development environment becomes trivially easy to move to another machine and to back up. Naturally it also comes at a cost. There's some performance loss as your PC will be running two operating systems side-by-side. Plus you'll need to install your development tools inside the VM. Personally I'm running my entire development environment on a VM on a Mac so I enjoy some of the aforementioned benefits.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This is an extract from the Wrox book  <a href="https://www.amazon.com/Professional-DNN7-Open-Source-Platform/dp/111885084X">Professional DNN 7</a> by Shaun Walker et al. Copyright remains with P.A. Donker and Wiley Publishers.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

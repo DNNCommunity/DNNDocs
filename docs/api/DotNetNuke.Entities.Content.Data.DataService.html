@@ -1,0 +1,1897 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DataService
+    -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DataService
+    -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Entities.Content.Data.DataService">
+  
+  
+  <h1 id="DotNetNuke_Entities_Content_Data_DataService" data-uid="DotNetNuke.Entities.Content.Data.DataService" class="text-break">Class DataService
+  </h1>
+  <div class="markdown level0 summary"><p>Persistent data of content with DataProvider instance.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DataService</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="DotNetNuke.Entities.Content.Data.IDataService.html">IDataService</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Entities.Content.Data.html">DotNetNuke.Entities.Content.Data</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Entities_Content_Data_DataService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DataService : object, IDataService</code></pre>
+  </div>
+  <h5 id="DotNetNuke_Entities_Content_Data_DataService_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>It's better to use Util.GetDataService instead of create new instance directly.</p>
+</div>
+  <h5 id="DotNetNuke_Entities_Content_Data_DataService_examples"><strong>Examples</strong></h5>
+  <pre><code>public ContentController() : this(Util.GetDataService())
+{
+}
+public ContentController(IDataService dataService)
+{
+    _dataService = dataService;
+}</code></pre>
+
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_AddContentItem_DotNetNuke_Entities_Content_ContentItem_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.AddContentItem(DotNetNuke.Entities.Content.ContentItem%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L39">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_AddContentItem_" data-uid="DotNetNuke.Entities.Content.Data.DataService.AddContentItem*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_AddContentItem_DotNetNuke_Entities_Content_ContentItem_System_Int32_" data-uid="DotNetNuke.Entities.Content.Data.DataService.AddContentItem(DotNetNuke.Entities.Content.ContentItem,System.Int32)">AddContentItem(ContentItem, Int32)</h4>
+  <div class="markdown level1 summary"><p>Adds the content item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AddContentItem(ContentItem contentItem, int createdByUserId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.ContentItem.html">ContentItem</a></td>
+        <td><span class="parametername">contentItem</span></td>
+        <td><p>The content item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">createdByUserId</span></td>
+        <td><p>The created by user id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>content item id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_AddContentType_DotNetNuke_Entities_Content_ContentType_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.AddContentType(DotNetNuke.Entities.Content.ContentType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L244">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_AddContentType_" data-uid="DotNetNuke.Entities.Content.Data.DataService.AddContentType*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_AddContentType_DotNetNuke_Entities_Content_ContentType_" data-uid="DotNetNuke.Entities.Content.Data.DataService.AddContentType(DotNetNuke.Entities.Content.ContentType)">AddContentType(ContentType)</h4>
+  <div class="markdown level1 summary"><p>Adds the type of the content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AddContentType(ContentType contentType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.ContentType.html">ContentType</a></td>
+        <td><span class="parametername">contentType</span></td>
+        <td><p>Type of the content.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>content type id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_AddHeirarchicalTerm_DotNetNuke_Entities_Content_Taxonomy_Term_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.AddHeirarchicalTerm(DotNetNuke.Entities.Content.Taxonomy.Term%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L316">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_AddHeirarchicalTerm_" data-uid="DotNetNuke.Entities.Content.Data.DataService.AddHeirarchicalTerm*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_AddHeirarchicalTerm_DotNetNuke_Entities_Content_Taxonomy_Term_System_Int32_" data-uid="DotNetNuke.Entities.Content.Data.DataService.AddHeirarchicalTerm(DotNetNuke.Entities.Content.Taxonomy.Term,System.Int32)">AddHeirarchicalTerm(Term, Int32)</h4>
+  <div class="markdown level1 summary"><p>Adds the heirarchical term.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AddHeirarchicalTerm(Term term, int createdByUserId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.Term.html">Term</a></td>
+        <td><span class="parametername">term</span></td>
+        <td><p>The term.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">createdByUserId</span></td>
+        <td><p>The created by user id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>term id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_AddMetaData_DotNetNuke_Entities_Content_ContentItem_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.AddMetaData(DotNetNuke.Entities.Content.ContentItem%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L169">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_AddMetaData_" data-uid="DotNetNuke.Entities.Content.Data.DataService.AddMetaData*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_AddMetaData_DotNetNuke_Entities_Content_ContentItem_System_String_System_String_" data-uid="DotNetNuke.Entities.Content.Data.DataService.AddMetaData(DotNetNuke.Entities.Content.ContentItem,System.String,System.String)">AddMetaData(ContentItem, String, String)</h4>
+  <div class="markdown level1 summary"><p>Adds the meta data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddMetaData(ContentItem contentItem, string name, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.ContentItem.html">ContentItem</a></td>
+        <td><span class="parametername">contentItem</span></td>
+        <td><p>The content item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_AddScopeType_DotNetNuke_Entities_Content_Taxonomy_ScopeType_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.AddScopeType(DotNetNuke.Entities.Content.Taxonomy.ScopeType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L278">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_AddScopeType_" data-uid="DotNetNuke.Entities.Content.Data.DataService.AddScopeType*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_AddScopeType_DotNetNuke_Entities_Content_Taxonomy_ScopeType_" data-uid="DotNetNuke.Entities.Content.Data.DataService.AddScopeType(DotNetNuke.Entities.Content.Taxonomy.ScopeType)">AddScopeType(ScopeType)</h4>
+  <div class="markdown level1 summary"><p>Adds the type of the scope.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AddScopeType(ScopeType scopeType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.ScopeType.html">ScopeType</a></td>
+        <td><span class="parametername">scopeType</span></td>
+        <td><p>Type of the scope.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>scope type id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_AddSimpleTerm_DotNetNuke_Entities_Content_Taxonomy_Term_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.AddSimpleTerm(DotNetNuke.Entities.Content.Taxonomy.Term%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L327">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_AddSimpleTerm_" data-uid="DotNetNuke.Entities.Content.Data.DataService.AddSimpleTerm*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_AddSimpleTerm_DotNetNuke_Entities_Content_Taxonomy_Term_System_Int32_" data-uid="DotNetNuke.Entities.Content.Data.DataService.AddSimpleTerm(DotNetNuke.Entities.Content.Taxonomy.Term,System.Int32)">AddSimpleTerm(Term, Int32)</h4>
+  <div class="markdown level1 summary"><p>Adds the simple term.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AddSimpleTerm(Term term, int createdByUserId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.Term.html">Term</a></td>
+        <td><span class="parametername">term</span></td>
+        <td><p>The term.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">createdByUserId</span></td>
+        <td><p>The created by user id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>term id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_AddTermToContent_DotNetNuke_Entities_Content_Taxonomy_Term_DotNetNuke_Entities_Content_ContentItem_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.AddTermToContent(DotNetNuke.Entities.Content.Taxonomy.Term%2CDotNetNuke.Entities.Content.ContentItem)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L333">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_AddTermToContent_" data-uid="DotNetNuke.Entities.Content.Data.DataService.AddTermToContent*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_AddTermToContent_DotNetNuke_Entities_Content_Taxonomy_Term_DotNetNuke_Entities_Content_ContentItem_" data-uid="DotNetNuke.Entities.Content.Data.DataService.AddTermToContent(DotNetNuke.Entities.Content.Taxonomy.Term,DotNetNuke.Entities.Content.ContentItem)">AddTermToContent(Term, ContentItem)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddTermToContent(Term term, ContentItem contentItem)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.Term.html">Term</a></td>
+        <td><span class="parametername">term</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.ContentItem.html">ContentItem</a></td>
+        <td><span class="parametername">contentItem</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_AddVocabulary_DotNetNuke_Entities_Content_Taxonomy_Vocabulary_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.AddVocabulary(DotNetNuke.Entities.Content.Taxonomy.Vocabulary%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L430">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_AddVocabulary_" data-uid="DotNetNuke.Entities.Content.Data.DataService.AddVocabulary*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_AddVocabulary_DotNetNuke_Entities_Content_Taxonomy_Vocabulary_System_Int32_" data-uid="DotNetNuke.Entities.Content.Data.DataService.AddVocabulary(DotNetNuke.Entities.Content.Taxonomy.Vocabulary,System.Int32)">AddVocabulary(Vocabulary, Int32)</h4>
+  <div class="markdown level1 summary"><p>Adds the vocabulary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AddVocabulary(Vocabulary vocabulary, int createdByUserId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.Vocabulary.html">Vocabulary</a></td>
+        <td><span class="parametername">vocabulary</span></td>
+        <td><p>The vocabulary.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">createdByUserId</span></td>
+        <td><p>The created by user id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Vocabulary id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_DeleteContentItem_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.DeleteContentItem(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L57">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_DeleteContentItem_" data-uid="DotNetNuke.Entities.Content.Data.DataService.DeleteContentItem*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_DeleteContentItem_System_Int32_" data-uid="DotNetNuke.Entities.Content.Data.DataService.DeleteContentItem(System.Int32)">DeleteContentItem(Int32)</h4>
+  <div class="markdown level1 summary"><p>Deletes the content item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteContentItem(int contentItemId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">contentItemId</span></td>
+        <td><p>The content item ID.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_DeleteContentType_DotNetNuke_Entities_Content_ContentType_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.DeleteContentType(DotNetNuke.Entities.Content.ContentType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L250">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_DeleteContentType_" data-uid="DotNetNuke.Entities.Content.Data.DataService.DeleteContentType*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_DeleteContentType_DotNetNuke_Entities_Content_ContentType_" data-uid="DotNetNuke.Entities.Content.Data.DataService.DeleteContentType(DotNetNuke.Entities.Content.ContentType)">DeleteContentType(ContentType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteContentType(ContentType contentType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.ContentType.html">ContentType</a></td>
+        <td><span class="parametername">contentType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_DeleteHeirarchicalTerm_DotNetNuke_Entities_Content_Taxonomy_Term_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.DeleteHeirarchicalTerm(DotNetNuke.Entities.Content.Taxonomy.Term)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L351">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_DeleteHeirarchicalTerm_" data-uid="DotNetNuke.Entities.Content.Data.DataService.DeleteHeirarchicalTerm*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_DeleteHeirarchicalTerm_DotNetNuke_Entities_Content_Taxonomy_Term_" data-uid="DotNetNuke.Entities.Content.Data.DataService.DeleteHeirarchicalTerm(DotNetNuke.Entities.Content.Taxonomy.Term)">DeleteHeirarchicalTerm(Term)</h4>
+  <div class="markdown level1 summary"><p>Deletes the heirarchical term.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteHeirarchicalTerm(Term term)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.Term.html">Term</a></td>
+        <td><span class="parametername">term</span></td>
+        <td><p>The term.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_DeleteMetaData_DotNetNuke_Entities_Content_ContentItem_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.DeleteMetaData(DotNetNuke.Entities.Content.ContentItem%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L224">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_DeleteMetaData_" data-uid="DotNetNuke.Entities.Content.Data.DataService.DeleteMetaData*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_DeleteMetaData_DotNetNuke_Entities_Content_ContentItem_System_String_System_String_" data-uid="DotNetNuke.Entities.Content.Data.DataService.DeleteMetaData(DotNetNuke.Entities.Content.ContentItem,System.String,System.String)">DeleteMetaData(ContentItem, String, String)</h4>
+  <div class="markdown level1 summary"><p>Deletes the meta data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteMetaData(ContentItem contentItem, string name, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.ContentItem.html">ContentItem</a></td>
+        <td><span class="parametername">contentItem</span></td>
+        <td><p>The content item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_DeleteScopeType_DotNetNuke_Entities_Content_Taxonomy_ScopeType_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.DeleteScopeType(DotNetNuke.Entities.Content.Taxonomy.ScopeType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L287">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_DeleteScopeType_" data-uid="DotNetNuke.Entities.Content.Data.DataService.DeleteScopeType*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_DeleteScopeType_DotNetNuke_Entities_Content_Taxonomy_ScopeType_" data-uid="DotNetNuke.Entities.Content.Data.DataService.DeleteScopeType(DotNetNuke.Entities.Content.Taxonomy.ScopeType)">DeleteScopeType(ScopeType)</h4>
+  <div class="markdown level1 summary"><p>Deletes the type of the scope.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteScopeType(ScopeType scopeType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.ScopeType.html">ScopeType</a></td>
+        <td><span class="parametername">scopeType</span></td>
+        <td><p>Type of the scope.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_DeleteSimpleTerm_DotNetNuke_Entities_Content_Taxonomy_Term_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.DeleteSimpleTerm(DotNetNuke.Entities.Content.Taxonomy.Term)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L342">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_DeleteSimpleTerm_" data-uid="DotNetNuke.Entities.Content.Data.DataService.DeleteSimpleTerm*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_DeleteSimpleTerm_DotNetNuke_Entities_Content_Taxonomy_Term_" data-uid="DotNetNuke.Entities.Content.Data.DataService.DeleteSimpleTerm(DotNetNuke.Entities.Content.Taxonomy.Term)">DeleteSimpleTerm(Term)</h4>
+  <div class="markdown level1 summary"><p>Deletes the simple term.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteSimpleTerm(Term term)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.Term.html">Term</a></td>
+        <td><span class="parametername">term</span></td>
+        <td><p>The term.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_DeleteVocabulary_DotNetNuke_Entities_Content_Taxonomy_Vocabulary_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.DeleteVocabulary(DotNetNuke.Entities.Content.Taxonomy.Vocabulary)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L447">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_DeleteVocabulary_" data-uid="DotNetNuke.Entities.Content.Data.DataService.DeleteVocabulary*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_DeleteVocabulary_DotNetNuke_Entities_Content_Taxonomy_Vocabulary_" data-uid="DotNetNuke.Entities.Content.Data.DataService.DeleteVocabulary(DotNetNuke.Entities.Content.Taxonomy.Vocabulary)">DeleteVocabulary(Vocabulary)</h4>
+  <div class="markdown level1 summary"><p>Deletes the vocabulary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteVocabulary(Vocabulary vocabulary)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.Vocabulary.html">Vocabulary</a></td>
+        <td><span class="parametername">vocabulary</span></td>
+        <td><p>The vocabulary.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_GetContentItem_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.GetContentItem(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L67">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_GetContentItem_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetContentItem*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_GetContentItem_System_Int32_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetContentItem(System.Int32)">GetContentItem(Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets the content item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDataReader GetContentItem(int contentItemId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">contentItemId</span></td>
+        <td><p>The content item id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><p>data reader.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_GetContentItems_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.GetContentItems(System.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L79">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_GetContentItems_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetContentItems*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_GetContentItems_System_Int32_System_Int32_System_Int32_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetContentItems(System.Int32,System.Int32,System.Int32)">GetContentItems(Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets the content items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDataReader GetContentItems(int contentTypeId, int tabId, int moduleId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">contentTypeId</span></td>
+        <td><p>The Id of the Content Type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabId</span></td>
+        <td><p>The Id of the Tab.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">moduleId</span></td>
+        <td><p>The Id of the Module.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><p>data reader.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_GetContentItemsByContentType_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.GetContentItemsByContentType(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L101">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_GetContentItemsByContentType_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetContentItemsByContentType*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_GetContentItemsByContentType_System_Int32_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetContentItemsByContentType(System.Int32)">GetContentItemsByContentType(Int32)</h4>
+  <div class="markdown level1 summary"><p>Get a list of content items of the specified content type, <code data-dev-comment-type="paramref" class="paramref">contentTypeId</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDataReader GetContentItemsByContentType(int contentTypeId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">contentTypeId</span></td>
+        <td><p>The type of content items you are searching for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_GetContentItemsByModuleId_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.GetContentItemsByModuleId(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L120">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_GetContentItemsByModuleId_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetContentItemsByModuleId*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_GetContentItemsByModuleId_System_Int32_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetContentItemsByModuleId(System.Int32)">GetContentItemsByModuleId(Int32)</h4>
+  <div class="markdown level1 summary"><p>Retrieve all content items associated with a articular Module ID, <code data-dev-comment-type="paramref" class="paramref">moduleId</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDataReader GetContentItemsByModuleId(int moduleId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">moduleId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_GetContentItemsByTabId_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.GetContentItemsByTabId(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L111">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_GetContentItemsByTabId_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetContentItemsByTabId*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_GetContentItemsByTabId_System_Int32_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetContentItemsByTabId(System.Int32)">GetContentItemsByTabId(Int32)</h4>
+  <div class="markdown level1 summary"><p>Get a list of content items based on TabID (PageID).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDataReader GetContentItemsByTabId(int tabId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabId</span></td>
+        <td><p>The TabID (or &quot;Page ID&quot;) that the content items are associated with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_GetContentItemsByTerm_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.GetContentItemsByTerm(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L91">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_GetContentItemsByTerm_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetContentItemsByTerm*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_GetContentItemsByTerm_System_String_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetContentItemsByTerm(System.String)">GetContentItemsByTerm(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the content items by term.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDataReader GetContentItemsByTerm(string term)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">term</span></td>
+        <td><p>The term.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><p>data reader.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_GetContentItemsByVocabularyId_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.GetContentItemsByVocabularyId(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L129">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_GetContentItemsByVocabularyId_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetContentItemsByVocabularyId*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_GetContentItemsByVocabularyId_System_Int32_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetContentItemsByVocabularyId(System.Int32)">GetContentItemsByVocabularyId(Int32)</h4>
+  <div class="markdown level1 summary"><p>Retrieve a list of content items containg terms from the specified Vocabulary ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDataReader GetContentItemsByVocabularyId(int vocabularyId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vocabularyId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_GetContentTypes.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.GetContentTypes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L259">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_GetContentTypes_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetContentTypes*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_GetContentTypes" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetContentTypes">GetContentTypes()</h4>
+  <div class="markdown level1 summary"><p>Gets the content types.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDataReader GetContentTypes()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><p>data reader.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_GetMetaData_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.GetMetaData(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L234">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_GetMetaData_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetMetaData*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_GetMetaData_System_Int32_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetMetaData(System.Int32)">GetMetaData(Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets the meta data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDataReader GetMetaData(int contentItemId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">contentItemId</span></td>
+        <td><p>The content item id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><p>data reader.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_GetScopeTypes.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.GetScopeTypes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L296">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_GetScopeTypes_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetScopeTypes*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_GetScopeTypes" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetScopeTypes">GetScopeTypes()</h4>
+  <div class="markdown level1 summary"><p>Gets the scope types.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDataReader GetScopeTypes()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><p>data reader.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_GetTerm_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.GetTerm(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L361">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_GetTerm_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetTerm*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_GetTerm_System_Int32_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetTerm(System.Int32)">GetTerm(Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets the term.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDataReader GetTerm(int termId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">termId</span></td>
+        <td><p>The term id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><p>data reader.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_GetTermsByContent_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.GetTermsByContent(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L380">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_GetTermsByContent_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetTermsByContent*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_GetTermsByContent_System_Int32_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetTermsByContent(System.Int32)">GetTermsByContent(Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets the content of the terms by.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDataReader GetTermsByContent(int contentItemId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">contentItemId</span></td>
+        <td><p>The content item id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><p>data reader.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_GetTermsByVocabulary_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.GetTermsByVocabulary(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L390">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_GetTermsByVocabulary_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetTermsByVocabulary*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_GetTermsByVocabulary_System_Int32_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetTermsByVocabulary(System.Int32)">GetTermsByVocabulary(Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets the terms by vocabulary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDataReader GetTermsByVocabulary(int vocabularyId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vocabularyId</span></td>
+        <td><p>The vocabulary id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><p>data reader.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_GetTermUsage_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.GetTermUsage(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L370">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_GetTermUsage_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetTermUsage*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_GetTermUsage_System_Int32_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetTermUsage(System.Int32)">GetTermUsage(Int32)</h4>
+  <div class="markdown level1 summary"><p>Retrieve term usage data for the specified Term ID, <code data-dev-comment-type="paramref" class="paramref">termId</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDataReader GetTermUsage(int termId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">termId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_GetUnIndexedContentItems.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.GetUnIndexedContentItems%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L138">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_GetUnIndexedContentItems_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetUnIndexedContentItems*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_GetUnIndexedContentItems" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetUnIndexedContentItems">GetUnIndexedContentItems()</h4>
+  <div class="markdown level1 summary"><p>Gets the un indexed content items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDataReader GetUnIndexedContentItems()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><p>data reader.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_GetVocabularies.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.GetVocabularies%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L456">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_GetVocabularies_" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetVocabularies*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_GetVocabularies" data-uid="DotNetNuke.Entities.Content.Data.DataService.GetVocabularies">GetVocabularies()</h4>
+  <div class="markdown level1 summary"><p>Gets the vocabularies.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDataReader GetVocabularies()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><p>data reader.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_RemoveTermsFromContent_DotNetNuke_Entities_Content_ContentItem_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.RemoveTermsFromContent(DotNetNuke.Entities.Content.ContentItem)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L399">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_RemoveTermsFromContent_" data-uid="DotNetNuke.Entities.Content.Data.DataService.RemoveTermsFromContent*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_RemoveTermsFromContent_DotNetNuke_Entities_Content_ContentItem_" data-uid="DotNetNuke.Entities.Content.Data.DataService.RemoveTermsFromContent(DotNetNuke.Entities.Content.ContentItem)">RemoveTermsFromContent(ContentItem)</h4>
+  <div class="markdown level1 summary"><p>Removes the content of the terms from.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveTermsFromContent(ContentItem contentItem)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.ContentItem.html">ContentItem</a></td>
+        <td><span class="parametername">contentItem</span></td>
+        <td><p>The content item.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_SynchronizeMetaData_DotNetNuke_Entities_Content_ContentItem_IEnumerable_KeyValuePair_System_String_System_String___IEnumerable_KeyValuePair_System_String_System_String___.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.SynchronizeMetaData(DotNetNuke.Entities.Content.ContentItem%2CIEnumerable%7BKeyValuePair%7BSystem.String%2CSystem.String%7D%7D%2CIEnumerable%7BKeyValuePair%7BSystem.String%2CSystem.String%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L175">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_SynchronizeMetaData_" data-uid="DotNetNuke.Entities.Content.Data.DataService.SynchronizeMetaData*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_SynchronizeMetaData_DotNetNuke_Entities_Content_ContentItem_IEnumerable_KeyValuePair_System_String_System_String___IEnumerable_KeyValuePair_System_String_System_String___" data-uid="DotNetNuke.Entities.Content.Data.DataService.SynchronizeMetaData(DotNetNuke.Entities.Content.ContentItem,IEnumerable{KeyValuePair{System.String,System.String}},IEnumerable{KeyValuePair{System.String,System.String}})">SynchronizeMetaData(ContentItem, IEnumerable&lt;KeyValuePair&lt;String, String&gt;&gt;, IEnumerable&lt;KeyValuePair&lt;String, String&gt;&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SynchronizeMetaData(ContentItem contentItem, IEnumerable&lt;KeyValuePair&lt;string, string&gt;&gt; added, IEnumerable&lt;KeyValuePair&lt;string, string&gt;&gt; deleted)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.ContentItem.html">ContentItem</a></td>
+        <td><span class="parametername">contentItem</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td><span class="parametername">added</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td><span class="parametername">deleted</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_UpdateContentItem_DotNetNuke_Entities_Content_ContentItem_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.UpdateContentItem(DotNetNuke.Entities.Content.ContentItem%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L148">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_UpdateContentItem_" data-uid="DotNetNuke.Entities.Content.Data.DataService.UpdateContentItem*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_UpdateContentItem_DotNetNuke_Entities_Content_ContentItem_System_Int32_" data-uid="DotNetNuke.Entities.Content.Data.DataService.UpdateContentItem(DotNetNuke.Entities.Content.ContentItem,System.Int32)">UpdateContentItem(ContentItem, Int32)</h4>
+  <div class="markdown level1 summary"><p>Updates the content item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateContentItem(ContentItem contentItem, int createdByUserId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.ContentItem.html">ContentItem</a></td>
+        <td><span class="parametername">contentItem</span></td>
+        <td><p>The content item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">createdByUserId</span></td>
+        <td><p>The created by user id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_UpdateContentType_DotNetNuke_Entities_Content_ContentType_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.UpdateContentType(DotNetNuke.Entities.Content.ContentType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L268">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_UpdateContentType_" data-uid="DotNetNuke.Entities.Content.Data.DataService.UpdateContentType*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_UpdateContentType_DotNetNuke_Entities_Content_ContentType_" data-uid="DotNetNuke.Entities.Content.Data.DataService.UpdateContentType(DotNetNuke.Entities.Content.ContentType)">UpdateContentType(ContentType)</h4>
+  <div class="markdown level1 summary"><p>Updates the type of the content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateContentType(ContentType contentType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.ContentType.html">ContentType</a></td>
+        <td><span class="parametername">contentType</span></td>
+        <td><p>Type of the content.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_UpdateHeirarchicalTerm_DotNetNuke_Entities_Content_Taxonomy_Term_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.UpdateHeirarchicalTerm(DotNetNuke.Entities.Content.Taxonomy.Term%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L409">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_UpdateHeirarchicalTerm_" data-uid="DotNetNuke.Entities.Content.Data.DataService.UpdateHeirarchicalTerm*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_UpdateHeirarchicalTerm_DotNetNuke_Entities_Content_Taxonomy_Term_System_Int32_" data-uid="DotNetNuke.Entities.Content.Data.DataService.UpdateHeirarchicalTerm(DotNetNuke.Entities.Content.Taxonomy.Term,System.Int32)">UpdateHeirarchicalTerm(Term, Int32)</h4>
+  <div class="markdown level1 summary"><p>Updates the heirarchical term.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateHeirarchicalTerm(Term term, int lastModifiedByUserId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.Term.html">Term</a></td>
+        <td><span class="parametername">term</span></td>
+        <td><p>The term.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">lastModifiedByUserId</span></td>
+        <td><p>The last modified by user id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_UpdateScopeType_DotNetNuke_Entities_Content_Taxonomy_ScopeType_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.UpdateScopeType(DotNetNuke.Entities.Content.Taxonomy.ScopeType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L305">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_UpdateScopeType_" data-uid="DotNetNuke.Entities.Content.Data.DataService.UpdateScopeType*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_UpdateScopeType_DotNetNuke_Entities_Content_Taxonomy_ScopeType_" data-uid="DotNetNuke.Entities.Content.Data.DataService.UpdateScopeType(DotNetNuke.Entities.Content.Taxonomy.ScopeType)">UpdateScopeType(ScopeType)</h4>
+  <div class="markdown level1 summary"><p>Updates the type of the scope.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateScopeType(ScopeType scopeType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.ScopeType.html">ScopeType</a></td>
+        <td><span class="parametername">scopeType</span></td>
+        <td><p>Type of the scope.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_UpdateSimpleTerm_DotNetNuke_Entities_Content_Taxonomy_Term_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.UpdateSimpleTerm(DotNetNuke.Entities.Content.Taxonomy.Term%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L419">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_UpdateSimpleTerm_" data-uid="DotNetNuke.Entities.Content.Data.DataService.UpdateSimpleTerm*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_UpdateSimpleTerm_DotNetNuke_Entities_Content_Taxonomy_Term_System_Int32_" data-uid="DotNetNuke.Entities.Content.Data.DataService.UpdateSimpleTerm(DotNetNuke.Entities.Content.Taxonomy.Term,System.Int32)">UpdateSimpleTerm(Term, Int32)</h4>
+  <div class="markdown level1 summary"><p>Updates the simple term.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateSimpleTerm(Term term, int lastModifiedByUserId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.Term.html">Term</a></td>
+        <td><span class="parametername">term</span></td>
+        <td><p>The term.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">lastModifiedByUserId</span></td>
+        <td><p>The last modified by user id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Content_Data_DataService_UpdateVocabulary_DotNetNuke_Entities_Content_Taxonomy_Vocabulary_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Data.DataService.UpdateVocabulary(DotNetNuke.Entities.Content.Taxonomy.Vocabulary%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L466">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Data_DataService_UpdateVocabulary_" data-uid="DotNetNuke.Entities.Content.Data.DataService.UpdateVocabulary*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Data_DataService_UpdateVocabulary_DotNetNuke_Entities_Content_Taxonomy_Vocabulary_System_Int32_" data-uid="DotNetNuke.Entities.Content.Data.DataService.UpdateVocabulary(DotNetNuke.Entities.Content.Taxonomy.Vocabulary,System.Int32)">UpdateVocabulary(Vocabulary, Int32)</h4>
+  <div class="markdown level1 summary"><p>Updates the vocabulary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateVocabulary(Vocabulary vocabulary, int lastModifiedByUserId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.Vocabulary.html">Vocabulary</a></td>
+        <td><span class="parametername">vocabulary</span></td>
+        <td><p>The vocabulary.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">lastModifiedByUserId</span></td>
+        <td><p>The last modified by user id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Entities.Content.Data.IDataService.html">IDataService</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Data/DataService.cs/#L29" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

@@ -1,0 +1,369 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Create a Unit Test for an MVC module  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Create a Unit Test for an MVC module  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    <meta property="og:title" content="Create a Unit Test for an MVC module -- DNN Docs">
+    <meta property="og:image" content="../../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="Create a Unit Test for an MVC module -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/tutorials/modules/mvc-modules/mvc-module-unittest/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fmvc-modules%2Fmvc-module-unittest%2Findex.html&amp;text=Create%20a%20Unit%20Test%20for%20an%20MVC%20module%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fmvc-modules%2Fmvc-module-unittest%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fmvc-modules%2Fmvc-module-unittest%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fmvc-modules%2Fmvc-module-unittest%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20Create%20a%20Unit%20Test%20for%20an%20MVC%20module%20|%20DNN%20Docs&amp;body=Create%20a%20Unit%20Test%20for%20an%20MVC%20module%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fmvc-modules%2Fmvc-module-unittest%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for Create a Unit Test for an MVC module&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bmvc-module-unittest%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Ftutorials%2Fmodules%2Fmvc-modules%2Fmvc-module-unittest%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/tutorials/modules/mvc-modules/mvc-module-unittest/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="mvc-module-unittest">
+<h1 id="create-a-unit-test-for-an-mvc-module">Create a Unit Test for an MVC module</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">09.02.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 9 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 9 minutes  to read</span>
+</div>
+
+<h2 id="overview">Overview</h2>
+<p>Because MVC controllers are the central business logic of an MVC module, it is a best practice to create automated unit tests to ensure they behave as intended. This example illustrates how to create a unit test for your module's MVC controller.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This unit test procedure is applicable only to modules created with the DNN MVC module template.</p>
+</div>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li>A module created with the DNN MVC module template in Visual Studio as a Project with Templates.</li>
+<li><a href="https://www.nuget.org/packages/Moq/">Moq</a>, a simulation framework for C#/.NET.</li>
+</ul>
+<h2 id="steps">Steps</h2>
+<ol>
+<li><p>Add a new unit test project to the MVC module solution.</p>
+<ol>
+<li><p>In Visual Studio's Solution Explorer, right-click on your MVC module solution and select Add &gt; New Project.</p>
+<p><img src="/images/scr-mvc-unittest-addproject.png" alt="Add New Project"></p>
+</li>
+<li><p>In the Add New Project dialog, select Unit Test Project, enter a name, and select the local folder to store it in.</p>
+<p><img src="/images/scr-mvc-unittest-create.png" alt="Create Unit Test project"></p>
+</li>
+</ol>
+</li>
+<li><p>Add the necessary MVC and DNN assembly references.</p>
+<p>For each assembly to be added to the new unit test project, right-click on the project's References node and add an assembly reference.</p>
+<p><img src="/images/scr-mvc-unittest-projref.png" alt="Project Reference"></p>
+<p>Add references to the following assemblies, as well as others that your module specifically needs:</p>
+<ul>
+<li>DotNetNuke</li>
+<li>DotNetNuke.Web.Mvc</li>
+<li>System.Web.Mvc</li>
+</ul>
+</li>
+<li><p>(Optional) Use Moq to simulate a data store.</p>
+<p>Moq is a simulation framework for C#/.NET, typically used in unit testing to quickly create dependency objects that mimic the actual objects. This project uses Moq to simulate an ItemManager object in order to run tests without requiring a database.</p>
+<p>Note: This step is not required for the example test, but it is needed in most real-world test cases.</p>
+<ol>
+<li><p>In Visual Studio's Solution Explorer, right-click on your unit test project.</p>
+</li>
+<li><p>Choose Manage Nuget Packages.</p>
+</li>
+<li><p>Search for Moq and install.</p>
+<p><img src="/images/scr-mvc-unittest-moqnuget.png" alt="Moq Nuget Installation"></p>
+</li>
+</ol>
+<p>This example creates a MockStores class for use with Moq to simulate a database and its behavior.</p>
+<p>Create a folder called Mocks and create a MockStores.cs file inside the folder. Enter the following code in MockStores.cs:</p>
+<pre><code>
+    using System.Collections.Generic;
+    using System.Linq;
+    using Dnn.Modules.CompanyName.MyMvcModule.Components;
+    using Dnn.Modules.CompanyName.MyMvcModule.Models;
+    using Moq;
+
+    namespace MyMvcModuleTests.Mocks
+    {
+        class MockStores
+        {
+            public static Mock&lt;IItemManager&gt; MockItemManager()
+            {
+                var allItems = new List&lt;Item&gt;();
+                var mock = new Mock&lt;IItemManager&gt;();
+
+                // void CreateItem(Item t);
+                mock.Setup(x =&gt; x.CreateItem(It.IsAny&lt;Item&gt;()))
+                    .Callback((Item i) =&gt;
+                    {
+                        allItems.Add(i);
+                    });
+
+                // void DeleteItem(int itemId, int moduleId);
+                mock.Setup(x =&gt; x.DeleteItem(It.IsAny&lt;int&gt;(), It.IsAny&lt;int&gt;()))
+                    .Callback((int id, int mid) =&gt;
+                    {
+                        var remItem = allItems.FirstOrDefault(i =&gt; i.ItemId == id &amp;&amp; i.ModuleId == mid);
+                        allItems.Remove(remItem);
+                    });
+
+                // void DeleteItem(Item t);
+                mock.Setup(x =&gt; x.DeleteItem(It.IsAny&lt;Item&gt;()))
+                    .Callback((Item di) =&gt;
+                    {
+                        var remItem = allItems.FirstOrDefault(i =&gt; i.ItemId == di.ItemId);
+                        allItems.Remove(remItem);
+                    });
+
+                // IEnumerable&lt;Item&gt; GetItems(int moduleId);
+                mock.Setup(x =&gt; x.GetItems(It.IsAny&lt;int&gt;()))
+                    .Returns((int mid) =&gt; allItems.Where(x =&gt; x.ModuleId == mid));
+
+                // Item GetItem(int itemId, int moduleId);
+                mock.Setup(x =&gt; x.GetItem(It.IsAny&lt;int&gt;(), It.IsAny&lt;int&gt;()))
+                    .Returns((int id, int mid) =&gt; allItems.FirstOrDefault(i =&gt; i.ItemId == id &amp;&amp; i.ModuleId == mid));
+
+                // void UpdateItem(Item t);
+                mock.Setup(x =&gt; x.UpdateItem(It.IsAny&lt;Item&gt;()))
+                    .Callback((Item i) =&gt;
+                    {
+                        allItems.Add(i);
+                    });
+
+                return mock;
+            }
+        }
+    }
+
+</code></pre>
+<p>The static MockItemManager() method in the MockStores class simulates all methods of an IItemManager implementation. Therefore, MockStores can be used in the controller as the IItemManager implementation.</p>
+<p>The allItems variable is a generic list of Item objects and serves as the data store.</p>
+</li>
+<li><p>Create the unit test.</p>
+<p>Tip: Unit test method names should be more descriptive than typical methods. Ideally, the test method name includes the name of the method being tested, the test being performed, and the expected result. Example: <code>Edit_CreateNewItem_ModuleIdAssignedinModel</code> could be the name of a test method that verifies if an Edit() method creates a new item (if the item does not yet exist) by checking if the moduleID is assigned in the view's model.</p>
+<p>This example creates a unit test for the ItemController class.</p>
+<p>You can rename the sample unit test file UnitTest1.cs (included as a default when the new unit test project was created) to ItemControllerTests.cs or create a new file. Then enter the following code in ItemControllerTests.cs:</p>
+<pre><code>
+	using System.Web.Mvc;
+	using Dnn.Modules.CompanyName.MyMvcModule.Controllers;
+	using Dnn.Modules.CompanyName.MyMvcModule.Models;
+	using Microsoft.VisualStudio.TestTools.UnitTesting;
+	using MyMvcModuleTests.Mocks;
+
+	namespace MyMvcModuleTests
+	{
+		[TestClass]
+		public class ItemControllerTests
+		{
+			[TestMethod]
+			public void Edit_CreateNewItem_ModuleIdAssignedinModel()
+			{
+				// 1 - Arrange
+				int moduleId = 2;
+				var mockData = MockStores.MockItemManager();
+				var modTwoItemCntrl = new ItemController(mockData.Object, moduleId); // Create a controller for the module with moduleId=2.
+
+				// 2 - Act
+				var actionResult = (ViewResult)modTwoItemCntrl.Edit(); // Call the edit view with no item Id (Add New).
+
+				// 3 - Assert
+				var itemModel = (Item)actionResult.Model;
+				Assert.IsTrue(itemModel != null &amp;&amp; itemModel.ModuleId == moduleId);
+			}
+		}
+	}
+
+</code></pre>
+<p>This sample unit test uses the Arrange Act Assert pattern of unit testing:</p>
+<ul>
+<li>Arrange: A new instance of ItemController is created with a new MockStores.MockItemManager instance and the moduleId. (The next step retrofits the ItemController constructor to work with this unit test.</li>
+<li>Act: The Edit() method of the control is called without any parameters, and the result is saved.</li>
+<li>Assert: The test verifies that the moduleId is set in the resulting View module before the add/edit-item view is rendered.</li>
+</ul>
+<p>If your controller has more complex business logic, you can automate the validation of the unit test.</p>
+</li>
+<li><p>Retrofit the ItemController.Edit() method to work with unit tests.</p>
+<p>In code that was generated using the MVC module templates, the ItemController has no dependency-injection capability for the data layer. In addition, some basic DNN environment objects, such as PortalSettings and ModuleContext are not available when running unit tests. Retrofitting the ItemController.Edit() method fixes these limitations.</p>
+<p>This example adds a constructor and class variable to the ItemController to inject the IItemManager implementation/simulator and moduleId.</p>
+<pre><code>
+    public ActionResult Edit(int itemId = -1)
+    {
+        // Ignore registration errors for unit tests.
+        try { DotNetNuke.Framework.JavaScriptLibraries.JavaScript.RequestRegistration(CommonJs.DnnPlugins); }
+        catch { }
+
+        if (PortalSettings != null)
+        {
+            var userlist = UserController.GetUsers(PortalSettings.PortalId);
+            var users = from user in userlist.Cast&lt;UserInfo&gt;().ToList()
+            select new SelectListItem { Text = user.DisplayName, Value = user.UserID.ToString() };
+
+            ViewBag.Users = users;
+        }
+
+        if (ModuleContext != null)
+        {
+            _moduleId = ModuleContext.ModuleId;
+        }
+
+        var item = (itemId == -1)
+            ? new Item { ModuleId = _moduleId }
+            : ItemManager.Instance.GetItem(itemId, _moduleId);
+
+        return View(item);
+    }
+
+</code></pre>
+<p>Some lines in the default ItemController are not applicable to this sample unit test, which uses an ItemController simulation.</p>
+<p>To ignore those lines when running the unit test, the retrofitted ItemController.Edit() method checks PortalSettings and ModuleContext, which get their values from the module's runtime engine. During the unit test, the runtime engine is bypassed by the ItemController simulation; therefore, these variables are set to <code>null</code> when the unit test is running.</p>
+<p>The _moduleId variable is passed to the constructor as the itemId parameter by the sample unit test and the ItemManager.Instance will be our mock instance because our unit test overrode the implementation in the constructor.</p>
+</li>
+<li><p>Run the unit test.</p>
+<p>You can run a unit test in Visual Studio:</p>
+<ul>
+<li>Test &gt; Debug</li>
+<li>Test &gt; Run</li>
+</ul>
+<p>The Test Explorer window gives you a quick view of all tests, the test results, and the commands to run them.</p>
+<p><img src="/images/scr-mvc-unittest-testexplorer.png" alt="Test Explorer"></p>
+<p>For more advanced users, unit tests can be scheduled to run automatically as part of your build process.</p>
+</li>
+</ol>
+<div class="related-topics" hidden=""><span><a href="/content/tutorials/modules/mvc-modules/unsupported-mvc-features/index.html">Unsupported MVC Features</a></span></div><div class="links" hidden=""><span><a href="https://docs.microsoft.com/en-us/visualstudio/test/unit-test-basics">Microsoft MSDN: Unit Test Basics</a></span><span><a href="https://www.visualstudio.com/en-gb/docs/test/continuous-testing/test-build">Microsoft Visual Studio: Run tests with your builds for continuous integration</a></span><span><a href="https://www.nuget.org/packages/Moq/">Moq</a></span></div></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

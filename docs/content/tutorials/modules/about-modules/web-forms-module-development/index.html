@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Web Forms Module Development  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Web Forms Module Development  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    <meta property="og:title" content="Web Forms Module Development -- DNN Docs">
+    <meta property="og:image" content="../../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="Web Forms Module Development -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/tutorials/modules/about-modules/web-forms-module-development/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fabout-modules%2Fweb-forms-module-development%2Findex.html&amp;text=Web%20Forms%20Module%20Development%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fabout-modules%2Fweb-forms-module-development%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fabout-modules%2Fweb-forms-module-development%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fabout-modules%2Fweb-forms-module-development%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20Web%20Forms%20Module%20Development%20|%20DNN%20Docs&amp;body=Web%20Forms%20Module%20Development%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fabout-modules%2Fweb-forms-module-development%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for Web Forms Module Development&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bweb-forms-module-development%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Ftutorials%2Fmodules%2Fabout-modules%2Fweb-forms-module-development%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/tutorials/modules/about-modules/web-forms-module-development/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="web-forms-module-development">
+<h1 id="web-forms-module-development">Web Forms Module Development</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">09.02.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 5 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 5 minutes  to read</span>
+</div>
+
+<h2 id="web-forms-module-architecture">Web Forms Module Architecture</h2>
+<p>Web Forms modules follow the standard DNN module architectural pattern and use a traditional server-side rendering model. When a page is requested, DNN will create an instance of the relevant module control as defined in the module definition. The module control inherits from a code-behind class that contains the presentation logic and that makes additional calls to the appropriate business methods in the Business Logic Layer.</p>
+<p><img src="/images/gra-module-architecture-wf.png" alt="Logical architecture of a Web Forms module"></p>
+<p>You can include web service endpoints to enable access by mobile applications, if necessary. When accessing the module from a mobile application, the presentation layer moves to the mobile device and the service layer becomes the server-side endpoint that calls the appropriate business methods.</p>
+<p><img src="/images/gra-module-architecture-mobile.png" alt="Accessing Web Forms Module via a Web Service"></p>
+<h2 id="building-web-forms-modules">Building Web Forms Modules</h2>
+<p>In Visual Studio, modules can be created as one of these project types:</p>
+<ul>
+<li>Web Site Project (WSP)</li>
+<li>Web Application Project (WAP)</li>
+</ul>
+<p>Modules built using the WSP project type include the source code as part of the module package. The source code is compiled at runtime, thereby, allowing you to easily alter code directly on the server. While this approach provides flexibility in making updates, it also decreases startup performance and can complicate module upgrades.</p>
+<p>Important: The WSP project type is not recommended for commercial module development, because it requires the distribution of source code with your module.</p>
+<p>WSP projects do not have a project file (.csproj or .vbproj). Instead, they rely on files being part of a complete website. When creating a WSP module, all user controls, the associated code-behind files, and other related files are placed in a project folder under the DesktopModules folder. All code files not associated with a user control must be placed in the App_Code folder in the website's root. This disjointed code model complicates module development and packaging.</p>
+<p>Modules built using the WAP project type are compiled at development time and do not require you to include the source code with your module. WAP projects have a project file and are created as standalone projects.</p>
+<p>Note: Microsoft recommends the WAP project type for ASP.NET development. (See <a href="https://docs.microsoft.com/en-us/previous-versions/aspnet/dd547590(v=vs.110)">Web Application Projects Versus Web Site Projects in Visual Studio</a>.)</p>
+<p>Although Visual Studio is recommended for module development, you can create modules using standard text editors or the included DNN Module Creator. However, these tools do not provide .NET compiler support; therefore, they are more suited for developing WSP-based modules.</p>
+<p>You can organize your Web Forms project files any way you wish. Many module developers organize project files based on the logical architecture.</p>
+<h2 id="packaging-web-forms-modules">Packaging Web Forms Modules</h2>
+<p>Modules created using the WAP project type can leverage MS Build scripts to automatically bundle the module files and module manifest. WSP-based modules can be packaged using the package wizard that is available in DNN.</p>
+<p>Regardless of project type, Web Forms module packages include the following files:</p>
+<ul>
+<li>Required
+<ul>
+<li>User controls (.ascx) contain the markup needed to render your module UI.</li>
+<li>Code files (.cs or .vb) contain business logic, caching logic and data access code (only included for WSP project types).</li>
+<li>Manifest file (.dnn) contains the module definition information required for installing the module.</li>
+<li>Assemblies (.dll) are the compiled module code and 3rd party reference libraries. WSP projects will not have an assembly for the compiled module, but may still include 3rd party reference libraries.</li>
+<li>SQL scripts (.sqldataprovider) are the code required to create or update your module's database objects.</li>
+</ul>
+</li>
+<li>Optional
+<ul>
+<li>Resource files (.resx) contain localization strings.</li>
+<li>JavaScript files (.js) contain code used for client-side logic.</li>
+<li>Stylesheets (.css) contain the custom styles needed by your module.</li>
+<li>Text files (.txt) include the release.txt and license.txt files that are displayed during module installation.</li>
+</ul>
+</li>
+</ul>
+<p>The DNN Module Creator automatically places files in the appropriate folders (App_Code and DesktopModules) and can be used to package the completed module.</p>
+<div class="related-topics" hidden=""></div><div class="links" hidden=""><span><a href="https://www.dnnsoftware.com/videos/">Module Development: DNN Video Library</a></span></div></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

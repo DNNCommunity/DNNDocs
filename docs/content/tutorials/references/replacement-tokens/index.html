@@ -1,0 +1,462 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>DNN Replacement Tokens  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="DNN Replacement Tokens  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    <meta name="description" content="Adding one or more of the below replacement tokens into content enables site or user data to be displayed to site users. An example would be to display the site description as part of the content of an HTML module on the About Us page, or adding a personalized salutation to the beginning of Newsletters.">
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="og:title" content="DNN Replacement Tokens -- DNN Docs">
+    <meta property="og:image" content="../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="DNN Replacement Tokens -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/tutorials/references/replacement-tokens/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Freferences%2Freplacement-tokens%2Findex.html&amp;text=DNN%20Replacement%20Tokens%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Freferences%2Freplacement-tokens%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Freferences%2Freplacement-tokens%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Freferences%2Freplacement-tokens%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20DNN%20Replacement%20Tokens%20|%20DNN%20Docs&amp;body=DNN%20Replacement%20Tokens%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Freferences%2Freplacement-tokens%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for DNN Replacement Tokens&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Breplacement-tokens%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Ftutorials%2Freferences%2Freplacement-tokens%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/tutorials/references/replacement-tokens/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="replacement-tokens">
+<h1 id="replacement-tokens">Replacement Tokens</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">09.02.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 5 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 5 minutes  to read</span>
+</div>
+
+<p>Tokens are formatted text which are replaced by real time information such as the site name or the date and time when rendered. For example: The token [DateTime:Now] displays the current date and time on your site. Tokens can be added to DNN skins, language files and the HTML module. Adding one or more of the below replacement tokens into content enables site or user data to be displayed to site users.</p>
+<p>An example use would be to display the Site Description as part of the content of an HTML module on the &quot;About Us&quot; page, or adding a personalized salutation to the beginning of Newsletters.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Replacement Token</strong></th>
+<th><strong>Example</strong></th>
+<th><strong>Replacement Token Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Culture Tokens</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>[Culture:EnglishName]</td>
+<td>French (Canada)</td>
+<td>The name of the culture in english</td>
+</tr>
+<tr>
+<td>[Culture:Lcid]</td>
+<td>3084</td>
+<td>The id of the culture.</td>
+</tr>
+<tr>
+<td>[Culture:Name]</td>
+<td>fr-CA</td>
+<td>The string identifier for the culture.</td>
+</tr>
+<tr>
+<td>[Culture:NativeName]</td>
+<td>Français (Canada)</td>
+<td>The name of the culture expressed in the language of that culture.</td>
+</tr>
+<tr>
+<td>[Culture:TwoLetterIsoCode]</td>
+<td>fr</td>
+<td>The 2 letter ISO code for the language.</td>
+</tr>
+<tr>
+<td>[Culture:ThreeLetterIsoCode]</td>
+<td>fra</td>
+<td>The 3 letter ISO code for the language.</td>
+</tr>
+<tr>
+<td>[Culture:DisplayName]</td>
+<td>French (Canada)</td>
+<td>The display name of the culture.</td>
+</tr>
+<tr>
+<td>[Culture:LanguageName]</td>
+<td>French</td>
+<td>The language portion only of the DisplayName.</td>
+</tr>
+<tr>
+<td>[Culture:LanguageNativeName]</td>
+<td>Français</td>
+<td>The language portion only of the NativeName.</td>
+</tr>
+<tr>
+<td>[Culture:CountryName]</td>
+<td>Canada</td>
+<td>The region portion only of the DisplayName.</td>
+</tr>
+<tr>
+<td>[Culture:CountryNativeName]</td>
+<td>Canada</td>
+<td>The region portion only of the NativeDisplayName.</td>
+</tr>
+<tr>
+<td><strong>Portal Tokens</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>[Portal:Currency]</td>
+<td>USD</td>
+<td>Displays the site currency type as set on the Site Settings screen.</td>
+</tr>
+<tr>
+<td>[Portal:Description]</td>
+<td>DNNCommunity.org is the Official Home of the DNN Community.</td>
+<td>Displays the site description as set on the Site Settings screen.</td>
+</tr>
+<tr>
+<td>[Portal:Email]</td>
+<td>admin@dnncommunity.org</td>
+<td>Displays the email address of the primary Administrator as set on the Site Settings screen.</td>
+</tr>
+<tr>
+<td>[Portal:FooterText]</td>
+<td>Copyright 2020 DNN Community</td>
+<td>Displays the copyright text entered in the Copyright field on the Site Settings screen.</td>
+</tr>
+<tr>
+<td>[Portal:HomeDirectory]</td>
+<td>/Portals/0</td>
+<td>Relative Path of the Portals Home Directory.</td>
+</tr>
+<tr>
+<td>[Portal:LogoFile]</td>
+<td>logo.gif</td>
+<td>Site Path to Logo file. E.g. logo.gif</td>
+</tr>
+<tr>
+<td>[Portal:PortalName]</td>
+<td>DNN Portal's Site Title</td>
+<td>The Site Title as set on the Site Settings screen.</td>
+</tr>
+<tr>
+<td>[Portal:URL]</td>
+<td>DNN Portal's URL</td>
+<td>The Site URL - <code>http(s)://</code> not included.</td>
+</tr>
+<tr>
+<td>[Portal:FullURL]</td>
+<td>DNN Portal's Full URL</td>
+<td>The Site URL - <code>http(s)://</code> included.</td>
+</tr>
+<tr>
+<td>[Portal:TimeZoneOffset]</td>
+<td>-480</td>
+<td>Difference in minutes between the default site time and UTC.</td>
+</tr>
+<tr>
+<td><strong>User Tokens</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>[User:DisplayName]</td>
+<td>George Washington</td>
+<td>The display name of the user.</td>
+</tr>
+<tr>
+<td>[User:Email]</td>
+<td>info@DNNCommunity.org</td>
+<td>The email address of the user.</td>
+</tr>
+<tr>
+<td>[User:FirstName]</td>
+<td>George</td>
+<td>The first name of the user.</td>
+</tr>
+<tr>
+<td>[User:LastName]</td>
+<td>Washington</td>
+<td>The last name of the user.</td>
+</tr>
+<tr>
+<td>[User:Username]</td>
+<td>GWashington</td>
+<td>The username of the user.</td>
+</tr>
+<tr>
+<td><strong>Membership Tokens</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>[Membership:Approved]</td>
+<td>Yes / No</td>
+<td>Indicates if the user is approved.</td>
+</tr>
+<tr>
+<td>[Membership:CreatedDate]</td>
+<td>10/4/2020 1:08 PM</td>
+<td>Displays the date and time when the user registered on the site.</td>
+</tr>
+<tr>
+<td>[Membership:IsOnline]</td>
+<td>Yes / No</td>
+<td>Indicates if the user is currently online.</td>
+</tr>
+<tr>
+<td>Page (Tab) Tokens</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>[Tab:Description]</td>
+<td>Welcome to Site Name</td>
+<td>Displays the description of the current page.</td>
+</tr>
+<tr>
+<td>[Tab:FullUrl]</td>
+<td><a href="https://dnncommunity.org/community/user-groups">https://dnncommunity.org/community/user-groups</a></td>
+<td>Displays the full URL of the current page.</td>
+</tr>
+<tr>
+<td>[Tab:IconFile]</td>
+<td>icon.gif</td>
+<td>Page relative path to icon file.</td>
+</tr>
+<tr>
+<td>[Tab:KeyWords]</td>
+<td>DNN, CMS, Content Management, Content Management System, DNNCMS, open source, aspnet, net, net core, web application, website development, microsoft, community, dotnetnuke,DotNetNuke</td>
+<td>Displays the keywords for the current page.</td>
+</tr>
+<tr>
+<td>[Tab:TabName]</td>
+<td>Home</td>
+<td>Page name</td>
+</tr>
+<tr>
+<td>[Tab:TabPath]</td>
+<td>//Parent//Page</td>
+<td>Page relative path (as it is saved within the database with double slash)</td>
+</tr>
+<tr>
+<td>[Tab:URL]</td>
+<td></td>
+<td>Page URL</td>
+</tr>
+<tr>
+<td><strong>Date Tokens</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>[DateTime:Now]</td>
+<td>10/15/2014 5:39 PM</td>
+<td>Current date and time.</td>
+</tr>
+<tr>
+<td>[DateTime:Now|f]</td>
+<td>Tuesday, October 26, 2014 5:39 PM</td>
+<td>Displays long date and short time.</td>
+</tr>
+<tr>
+<td>[DateTime:Now|F]</td>
+<td>Tuesday, October 26, 2014 5:39:20 PM</td>
+<td>Displays long date and long time.</td>
+</tr>
+<tr>
+<td>[DateTime:Now|g]</td>
+<td>10/26/2014 5:39 PM</td>
+<td>Displays short date and short time.</td>
+</tr>
+<tr>
+<td>[DateTime:Now|G]</td>
+<td>10/26/2014 5:39:20 PM</td>
+<td>Displays short date and long time.</td>
+</tr>
+<tr>
+<td>[DateTime:Now|Y]</td>
+<td>October, 2014</td>
+<td>Displays year and month.</td>
+</tr>
+<tr>
+<td>[DateTime:UTC]</td>
+<td>10/15/2014 5:39 PM</td>
+<td>Coordinated Universal Time.</td>
+</tr>
+<tr>
+<td>[DateTime:UTC|f]</td>
+<td>Tuesday, October 26, 2014 5:39 PM</td>
+<td>Coordinated Universal Time - long date and short time. Other appended options are F, g, G and Y; as for DateTime above.</td>
+</tr>
+<tr>
+<td>[DateTime:System]</td>
+<td>10/15/2014 5:39 PM</td>
+<td>Displays date and time as per local settings.</td>
+</tr>
+<tr>
+<td>[DateTime:System|f]</td>
+<td>Tuesday, October 26, 2014 5:39:20 PM</td>
+<td>Displays date and time as per local settings. This example displays long date and short time. Other appended options are F, g, G and Y; as for DateTime above.</td>
+</tr>
+<tr>
+<td><strong>Tick Tokens</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>[Ticks:Now]</td>
+<td>633282985407609550</td>
+<td>CPU tick count for current second.</td>
+</tr>
+<tr>
+<td>[Ticks:Today]</td>
+<td>633282624000000000</td>
+<td>CPU tick count since midnight.</td>
+</tr>
+<tr>
+<td>[Ticks:TicksPerDay]</td>
+<td>864000000000</td>
+<td>CPU ticks per day (for calculations)</td>
+</tr>
+</tbody>
+</table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

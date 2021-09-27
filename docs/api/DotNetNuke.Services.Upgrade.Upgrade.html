@@ -1,0 +1,2882 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Upgrade
+    -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Upgrade
+    -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Services.Upgrade.Upgrade">
+  
+  
+  <h1 id="DotNetNuke_Services_Upgrade_Upgrade" data-uid="DotNetNuke.Services.Upgrade.Upgrade" class="text-break">Class Upgrade
+  </h1>
+  <div class="markdown level0 summary"><p>The Upgrade class provides Shared/Static methods to Upgrade/Install
+a DotNetNuke Application.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Upgrade</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Services.Upgrade.html">DotNetNuke.Services.Upgrade</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Services_Upgrade_Upgrade_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Upgrade : object</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_DefaultProvider.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.DefaultProvider%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L66">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_DefaultProvider_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.DefaultProvider*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_DefaultProvider" data-uid="DotNetNuke.Services.Upgrade.Upgrade.DefaultProvider">DefaultProvider</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string DefaultProvider { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_RunTime.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.RunTime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L74">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_RunTime_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.RunTime*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_RunTime" data-uid="DotNetNuke.Services.Upgrade.Upgrade.RunTime">RunTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TimeSpan RunTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_ActivateLicense.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.ActivateLicense%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L2006">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_ActivateLicense_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.ActivateLicense*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_ActivateLicense" data-uid="DotNetNuke.Services.Upgrade.Upgrade.ActivateLicense">ActivateLicense()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ActivateLicense()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_AddAdminPage_DotNetNuke_Entities_Portals_PortalInfo_System_String_System_String_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.AddAdminPage(DotNetNuke.Entities.Portals.PortalInfo%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L183">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_AddAdminPage_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddAdminPage*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_AddAdminPage_DotNetNuke_Entities_Portals_PortalInfo_System_String_System_String_System_String_System_String_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddAdminPage(DotNetNuke.Entities.Portals.PortalInfo,System.String,System.String,System.String,System.String,System.Boolean)">AddAdminPage(PortalInfo, String, String, String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>AddAdminPage adds an Admin Tab Page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TabInfo AddAdminPage(PortalInfo portal, string tabName, string description, string tabIconFile, string tabIconFileLarge, bool isVisible)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalInfo.html">PortalInfo</a></td>
+        <td><span class="parametername">portal</span></td>
+        <td><p>The Portal.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tabName</span></td>
+        <td><p>The Name to give this new Tab.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tabIconFile</span></td>
+        <td><p>The Icon for this new Tab.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tabIconFileLarge</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isVisible</span></td>
+        <td><p>A flag indicating whether the tab is visible.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_AddAdminPages_System_String_System_String_System_String_System_String_System_Boolean_System_Int32_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.AddAdminPages(System.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Boolean%2CSystem.Int32%2CSystem.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L154">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_AddAdminPages_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddAdminPages*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_AddAdminPages_System_String_System_String_System_String_System_String_System_Boolean_System_Int32_System_String_System_String_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddAdminPages(System.String,System.String,System.String,System.String,System.Boolean,System.Int32,System.String,System.String,System.Boolean)">AddAdminPages(String, String, String, String, Boolean, Int32, String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>AddAdminPages adds an Admin Page and an associated Module to all configured Portals.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddAdminPages(string tabName, string description, string tabIconFile, string tabIconFileLarge, bool isVisible, int moduleDefId, string moduleTitle, string moduleIconFile, bool inheritPermissions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tabName</span></td>
+        <td><p>The Name to give this new Tab.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tabIconFile</span></td>
+        <td><p>The Icon for this new Tab.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tabIconFileLarge</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isVisible</span></td>
+        <td><p>A flag indicating whether the tab is visible.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">moduleDefId</span></td>
+        <td><p>The Module Deinition Id for the module to be aded to this tab.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">moduleTitle</span></td>
+        <td><p>The Module's title.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">moduleIconFile</span></td>
+        <td><p>The Module's icon.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inheritPermissions</span></td>
+        <td><p>Modules Inherit the Pages View Permisions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_AddHostPage_System_String_System_String_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.AddHostPage(System.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L210">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_AddHostPage_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddHostPage*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_AddHostPage_System_String_System_String_System_String_System_String_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddHostPage(System.String,System.String,System.String,System.String,System.Boolean)">AddHostPage(String, String, String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>AddHostPage adds a Host Tab Page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TabInfo AddHostPage(string tabName, string description, string tabIconFile, string tabIconFileLarge, bool isVisible)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tabName</span></td>
+        <td><p>The Name to give this new Tab.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tabIconFile</span></td>
+        <td><p>The Icon for this new Tab.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tabIconFileLarge</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isVisible</span></td>
+        <td><p>A flag indicating whether the tab is visible.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_AddModuleControl_System_Int32_System_String_System_String_System_String_System_String_DotNetNuke_Security_SecurityAccessLevel_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.AddModuleControl(System.Int32%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CDotNetNuke.Security.SecurityAccessLevel%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L237">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_AddModuleControl_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddModuleControl*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_AddModuleControl_System_Int32_System_String_System_String_System_String_System_String_DotNetNuke_Security_SecurityAccessLevel_System_Int32_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddModuleControl(System.Int32,System.String,System.String,System.String,System.String,DotNetNuke.Security.SecurityAccessLevel,System.Int32)">AddModuleControl(Int32, String, String, String, String, SecurityAccessLevel, Int32)</h4>
+  <div class="markdown level1 summary"><p>AddModuleControl adds a new Module Control to the system.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddModuleControl(int moduleDefId, string controlKey, string controlTitle, string controlSrc, string iconFile, SecurityAccessLevel controlType, int viewOrder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">moduleDefId</span></td>
+        <td><p>The Module Definition Id.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">controlKey</span></td>
+        <td><p>The key for this control in the Definition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">controlTitle</span></td>
+        <td><p>The title of this control.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">controlSrc</span></td>
+        <td><p>Te source of ths control.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">iconFile</span></td>
+        <td><p>The icon file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.SecurityAccessLevel.html">SecurityAccessLevel</a></td>
+        <td><span class="parametername">controlType</span></td>
+        <td><p>The type of control.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">viewOrder</span></td>
+        <td><p>The vieworder for this module.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_AddModuleDefinition_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.AddModuleDefinition(System.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L255">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_AddModuleDefinition_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddModuleDefinition*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_AddModuleDefinition_System_String_System_String_System_String_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddModuleDefinition(System.String,System.String,System.String)">AddModuleDefinition(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>AddModuleDefinition adds a new Core Module Definition to the system.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int AddModuleDefinition(string desktopModuleName, string description, string moduleDefinitionName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">desktopModuleName</span></td>
+        <td><p>The Friendly Name of the Module to Add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>Description of the Module.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">moduleDefinitionName</span></td>
+        <td><p>The Module Definition Name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The Module Definition Id of the new Module.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Services_Upgrade_Upgrade_AddModuleDefinition_System_String_System_String_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This overload asumes the module is an Admin module and not a Premium Module.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_AddModuleToPage_DotNetNuke_Entities_Tabs_TabInfo_System_Int32_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.AddModuleToPage(DotNetNuke.Entities.Tabs.TabInfo%2CSystem.Int32%2CSystem.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L274">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_AddModuleToPage_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddModuleToPage*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_AddModuleToPage_DotNetNuke_Entities_Tabs_TabInfo_System_Int32_System_String_System_String_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddModuleToPage(DotNetNuke.Entities.Tabs.TabInfo,System.Int32,System.String,System.String,System.Boolean)">AddModuleToPage(TabInfo, Int32, String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>AddModuleToPage adds a module to a Page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int AddModuleToPage(TabInfo page, int moduleDefId, string moduleTitle, string moduleIconFile, bool inheritPermissions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">page</span></td>
+        <td><p>The Page to add the Module to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">moduleDefId</span></td>
+        <td><p>The Module Deinition Id for the module to be aded to this tab.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">moduleTitle</span></td>
+        <td><p>The Module's title.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">moduleIconFile</span></td>
+        <td><p>The Module's icon.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inheritPermissions</span></td>
+        <td><p>Inherit the Pages View Permisions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_AddModuleToPage_DotNetNuke_Entities_Tabs_TabInfo_System_Int32_System_String_System_String_System_Boolean_System_Boolean_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.AddModuleToPage(DotNetNuke.Entities.Tabs.TabInfo%2CSystem.Int32%2CSystem.String%2CSystem.String%2CSystem.Boolean%2CSystem.Boolean%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L279">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_AddModuleToPage_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddModuleToPage*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_AddModuleToPage_DotNetNuke_Entities_Tabs_TabInfo_System_Int32_System_String_System_String_System_Boolean_System_Boolean_System_String_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddModuleToPage(DotNetNuke.Entities.Tabs.TabInfo,System.Int32,System.String,System.String,System.Boolean,System.Boolean,System.String)">AddModuleToPage(TabInfo, Int32, String, String, Boolean, Boolean, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int AddModuleToPage(TabInfo page, int moduleDefId, string moduleTitle, string moduleIconFile, bool inheritPermissions, bool displayTitle, string paneName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">page</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">moduleDefId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">moduleTitle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">moduleIconFile</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inheritPermissions</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">displayTitle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">paneName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_AddModuleToPage_System_String_System_Int32_System_Int32_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.AddModuleToPage(System.String%2CSystem.Int32%2CSystem.Int32%2CSystem.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L337">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_AddModuleToPage_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddModuleToPage*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_AddModuleToPage_System_String_System_Int32_System_Int32_System_String_System_String_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddModuleToPage(System.String,System.Int32,System.Int32,System.String,System.String,System.Boolean)">AddModuleToPage(String, Int32, Int32, String, String, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int AddModuleToPage(string tabPath, int portalId, int moduleDefId, string moduleTitle, string moduleIconFile, bool inheritPermissions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tabPath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">moduleDefId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">moduleTitle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">moduleIconFile</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inheritPermissions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_AddModuleToPages_System_String_System_Int32_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.AddModuleToPages(System.String%2CSystem.Int32%2CSystem.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L354">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_AddModuleToPages_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddModuleToPages*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_AddModuleToPages_System_String_System_Int32_System_String_System_String_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddModuleToPages(System.String,System.Int32,System.String,System.String,System.Boolean)">AddModuleToPages(String, Int32, String, String, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddModuleToPages(string tabPath, int moduleDefId, string moduleTitle, string moduleIconFile, bool inheritPermissions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tabPath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">moduleDefId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">moduleTitle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">moduleIconFile</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inheritPermissions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_AddPortal_XmlNode_System_Boolean_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.AddPortal(XmlNode%2CSystem.Boolean%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L522">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_AddPortal_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddPortal*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_AddPortal_XmlNode_System_Boolean_System_Int32_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddPortal(XmlNode,System.Boolean,System.Int32)">AddPortal(XmlNode, Boolean, Int32)</h4>
+  <div class="markdown level1 summary"><p>Obsolete, AddPortal manages the Installation of a new DotNetNuke Portal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int AddPortal(XmlNode node, bool status, int indent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">XmlNode</span></td>
+        <td><span class="parametername">node</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">status</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_AddPortal_XmlNode_System_Boolean_System_Int32_DotNetNuke_Entities_Users_UserInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.AddPortal(XmlNode%2CSystem.Boolean%2CSystem.Int32%2CDotNetNuke.Entities.Users.UserInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L379">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_AddPortal_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddPortal*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_AddPortal_XmlNode_System_Boolean_System_Int32_DotNetNuke_Entities_Users_UserInfo_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddPortal(XmlNode,System.Boolean,System.Int32,DotNetNuke.Entities.Users.UserInfo)">AddPortal(XmlNode, Boolean, Int32, UserInfo)</h4>
+  <div class="markdown level1 summary"><p>AddPortal manages the Installation of a new DotNetNuke Portal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int AddPortal(XmlNode node, bool status, int indent, UserInfo superUser = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">XmlNode</span></td>
+        <td><span class="parametername">node</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">status</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">superUser</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_DeleteFiles_System_String_Version_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.DeleteFiles(System.String%2CVersion%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L579">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_DeleteFiles_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.DeleteFiles*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_DeleteFiles_System_String_Version_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.DeleteFiles(System.String,Version,System.Boolean)">DeleteFiles(String, Version, Boolean)</h4>
+  <div class="markdown level1 summary"><p>DeleteFiles - clean up deprecated files and folders.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string DeleteFiles(string providerPath, Version version, bool writeFeedback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">providerPath</span></td>
+        <td><p>Path to provider.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Version</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The Version being Upgraded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">writeFeedback</span></td>
+        <td><p>Display status in UI?.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_DeleteInstallerFiles.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.DeleteInstallerFiles%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L538">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_DeleteInstallerFiles_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.DeleteInstallerFiles*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_DeleteInstallerFiles" data-uid="DotNetNuke.Services.Upgrade.Upgrade.DeleteInstallerFiles">DeleteInstallerFiles()</h4>
+  <div class="markdown level1 summary"><p>DeleteInstallerFiles - clean up install config and installwizard files
+If installwizard is ran again this will be recreated via the dotnetnuke.install.config.resources file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeleteInstallerFiles()</code></pre>
+  </div>
+  <h5 id="DotNetNuke_Services_Upgrade_Upgrade_DeleteInstallerFiles_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>uses FileSystemUtils.DeleteFile as it checks for readonly attribute status
+and changes it if required, as well as verifying file exists.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_ExecuteScript_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.ExecuteScript(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L674">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_ExecuteScript_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.ExecuteScript*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_ExecuteScript_System_String_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.ExecuteScript(System.String)">ExecuteScript(String)</h4>
+  <div class="markdown level1 summary"><p>ExecuteScript executes a special script.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ExecuteScript(string file)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">file</span></td>
+        <td><p>The script file to execute.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_ExecuteScripts_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.ExecuteScripts(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L637">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_ExecuteScripts_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.ExecuteScripts*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_ExecuteScripts_System_String_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.ExecuteScripts(System.String)">ExecuteScripts(String)</h4>
+  <div class="markdown level1 summary"><p>ExecuteScripts manages the Execution of Scripts from the Install/Scripts folder.
+It is also triggered by InstallDNN and UpgradeDNN.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ExecuteScripts(string strProviderPath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">strProviderPath</span></td>
+        <td><p>The path to the Data Provider.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_GetInstallPackages.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.GetInstallPackages%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1315">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_GetInstallPackages_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.GetInstallPackages*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_GetInstallPackages" data-uid="DotNetNuke.Services.Upgrade.Upgrade.GetInstallPackages">GetInstallPackages()</h4>
+  <div class="markdown level1 summary"><p>Gets a ist of installable extensions sorted to ensure dependencies are installed first.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDictionary&lt;string, PackageInfo&gt; GetInstallPackages()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="DotNetNuke.Services.Installer.Packages.PackageInfo.html">PackageInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_GetInstallTemplate_XmlDocument_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.GetInstallTemplate(XmlDocument)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L692">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_GetInstallTemplate_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.GetInstallTemplate*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_GetInstallTemplate_XmlDocument_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.GetInstallTemplate(XmlDocument)">GetInstallTemplate(XmlDocument)</h4>
+  <div class="markdown level1 summary"><p>GetInstallTemplate retrieves the Installation Template as specifeid in web.config.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetInstallTemplate(XmlDocument xmlDoc)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">XmlDocument</span></td>
+        <td><span class="parametername">xmlDoc</span></td>
+        <td><p>The Xml Document to load.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A string which contains the error message - if appropriate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_GetInstallVersion_XmlDocument_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.GetInstallVersion(XmlDocument)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L751">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_GetInstallVersion_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.GetInstallVersion*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_GetInstallVersion_XmlDocument_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.GetInstallVersion(XmlDocument)">GetInstallVersion(XmlDocument)</h4>
+  <div class="markdown level1 summary"><p>GetInstallVersion retrieves the Base Instal Version as specifeid in the install
+template.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Version GetInstallVersion(XmlDocument xmlDoc)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">XmlDocument</span></td>
+        <td><span class="parametername">xmlDoc</span></td>
+        <td><p>The Install Template.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Version</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_GetLogFile_System_String_Version_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.GetLogFile(System.String%2CVersion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L775">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_GetLogFile_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.GetLogFile*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_GetLogFile_System_String_Version_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.GetLogFile(System.String,Version)">GetLogFile(String, Version)</h4>
+  <div class="markdown level1 summary"><p>GetLogFile gets the filename for the version's log file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetLogFile(string providerPath, Version version)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">providerPath</span></td>
+        <td><p>The path to the Data Provider.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Version</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The Version.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_GetScriptFile_System_String_Version_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.GetScriptFile(System.String%2CVersion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L790">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_GetScriptFile_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.GetScriptFile*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_GetScriptFile_System_String_Version_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.GetScriptFile(System.String,Version)">GetScriptFile(String, Version)</h4>
+  <div class="markdown level1 summary"><p>GetScriptFile gets the filename for the version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetScriptFile(string providerPath, Version version)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">providerPath</span></td>
+        <td><p>The path to the Data Provider.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Version</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The Version.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_GetStringVersion_Version_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.GetStringVersion(Version)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L804">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_GetStringVersion_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.GetStringVersion*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_GetStringVersion_Version_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.GetStringVersion(Version)">GetStringVersion(Version)</h4>
+  <div class="markdown level1 summary"><p>GetStringVersion gets the Version String (xx.xx.xx) from the Version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetStringVersion(Version version)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Version</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The Version.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_GetSuperUser_XmlDocument_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.GetSuperUser(XmlDocument%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L845">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_GetSuperUser_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.GetSuperUser*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_GetSuperUser_XmlDocument_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.GetSuperUser(XmlDocument,System.Boolean)">GetSuperUser(XmlDocument, Boolean)</h4>
+  <div class="markdown level1 summary"><p>GetSuperUser gets the superuser from the Install Template.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UserInfo GetSuperUser(XmlDocument xmlTemplate, bool writeFeedback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">XmlDocument</span></td>
+        <td><span class="parametername">xmlTemplate</span></td>
+        <td><p>The install Templae.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">writeFeedback</span></td>
+        <td><p>a flag to determine whether to output feedback.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_GetUpgradeScripts_System_String_Version_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.GetUpgradeScripts(System.String%2CVersion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L904">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_GetUpgradeScripts_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.GetUpgradeScripts*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_GetUpgradeScripts_System_String_Version_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.GetUpgradeScripts(System.String,Version)">GetUpgradeScripts(String, Version)</h4>
+  <div class="markdown level1 summary"><p>GetUpgradeScripts gets an ArrayList of the Scripts required to Upgrade to the
+current Assembly Version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ArrayList GetUpgradeScripts(string providerPath, Version databaseVersion)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">providerPath</span></td>
+        <td><p>The path to the Data Provider.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Version</span></td>
+        <td><span class="parametername">databaseVersion</span></td>
+        <td><p>The current Database Version.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ArrayList</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_InitialiseHostSettings_XmlDocument_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.InitialiseHostSettings(XmlDocument%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L967">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_InitialiseHostSettings_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.InitialiseHostSettings*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_InitialiseHostSettings_XmlDocument_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.InitialiseHostSettings(XmlDocument,System.Boolean)">InitialiseHostSettings(XmlDocument, Boolean)</h4>
+  <div class="markdown level1 summary"><p>InitialiseHostSettings gets the Host Settings from the Install Template.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InitialiseHostSettings(XmlDocument xmlTemplate, bool writeFeedback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">XmlDocument</span></td>
+        <td><span class="parametername">xmlTemplate</span></td>
+        <td><p>The install Templae.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">writeFeedback</span></td>
+        <td><p>a flag to determine whether to output feedback.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_InstallDatabase_Version_System_String_XmlDocument_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.InstallDatabase(Version%2CSystem.String%2CXmlDocument%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1046">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_InstallDatabase_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.InstallDatabase*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_InstallDatabase_Version_System_String_XmlDocument_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.InstallDatabase(Version,System.String,XmlDocument,System.Boolean)">InstallDatabase(Version, String, XmlDocument, Boolean)</h4>
+  <div class="markdown level1 summary"><p>InstallDatabase runs all the &quot;scripts&quot; identifed in the Install Template to
+install the base version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string InstallDatabase(Version version, string providerPath, XmlDocument xmlDoc, bool writeFeedback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Version</span></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">providerPath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">XmlDocument</span></td>
+        <td><span class="parametername">xmlDoc</span></td>
+        <td><p>The Xml Document to load.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">writeFeedback</span></td>
+        <td><p>A flag that determines whether to output feedback to the Response Stream.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A string which contains the error message - if appropriate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_InstallDNN_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.InstallDNN(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1083">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_InstallDNN_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.InstallDNN*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_InstallDNN_System_String_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.InstallDNN(System.String)">InstallDNN(String)</h4>
+  <div class="markdown level1 summary"><p>InstallDNN manages the Installation of a new DotNetNuke Application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InstallDNN(string strProviderPath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">strProviderPath</span></td>
+        <td><p>The path to the Data Provider.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_InstallFiles_XmlDocument_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.InstallFiles(XmlDocument%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1199">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_InstallFiles_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.InstallFiles*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_InstallFiles_XmlDocument_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.InstallFiles(XmlDocument,System.Boolean)">InstallFiles(XmlDocument, Boolean)</h4>
+  <div class="markdown level1 summary"><p>InstallFiles intsalls any files listed in the Host Install Configuration file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InstallFiles(XmlDocument xmlDoc, bool writeFeedback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">XmlDocument</span></td>
+        <td><span class="parametername">xmlDoc</span></td>
+        <td><p>The Xml Document to load.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">writeFeedback</span></td>
+        <td><p>A flag that determines whether to output feedback to the Response Stream.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_InstallPackage_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.InstallPackage(System.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1224">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_InstallPackage_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.InstallPackage*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_InstallPackage_System_String_System_String_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.InstallPackage(System.String,System.String,System.Boolean)">InstallPackage(String, String, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool InstallPackage(string file, string packageType, bool writeFeedback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">file</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">packageType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">writeFeedback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_InstallPackages_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.InstallPackages(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1362">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_InstallPackages_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.InstallPackages*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_InstallPackages_System_String_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.InstallPackages(System.String,System.Boolean)">InstallPackages(String, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InstallPackages(string packageType, bool writeFeedback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">packageType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">writeFeedback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_IsLanguageEnabled_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.IsLanguageEnabled(System.Int32%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L2274">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_IsLanguageEnabled_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.IsLanguageEnabled*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_IsLanguageEnabled_System_Int32_System_String_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.IsLanguageEnabled(System.Int32,System.String)">IsLanguageEnabled(Int32, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static bool IsLanguageEnabled(int portalid, string code)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">code</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_IsNETFrameworkCurrent_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.IsNETFrameworkCurrent(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1383">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_IsNETFrameworkCurrent_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.IsNETFrameworkCurrent*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_IsNETFrameworkCurrent_System_String_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.IsNETFrameworkCurrent(System.String)">IsNETFrameworkCurrent(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNETFrameworkCurrent(string version)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_MakeModulePremium_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.MakeModulePremium(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L126">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_MakeModulePremium_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.MakeModulePremium*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_MakeModulePremium_System_String_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.MakeModulePremium(System.String)">MakeModulePremium(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void MakeModulePremium(string moduleName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">moduleName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_RemoveAdminPages_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.RemoveAdminPages(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1419">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_RemoveAdminPages_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.RemoveAdminPages*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_RemoveAdminPages_System_String_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.RemoveAdminPages(System.String)">RemoveAdminPages(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveAdminPages(string tabPath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tabPath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_RemoveHostPage_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.RemoveHostPage(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1434">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_RemoveHostPage_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.RemoveHostPage*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_RemoveHostPage_System_String_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.RemoveHostPage(System.String)">RemoveHostPage(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveHostPage(string pageName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pageName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_RemoveInvalidAntiForgeryCookie.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.RemoveInvalidAntiForgeryCookie%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L2036">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_RemoveInvalidAntiForgeryCookie_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.RemoveInvalidAntiForgeryCookie*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_RemoveInvalidAntiForgeryCookie" data-uid="DotNetNuke.Services.Upgrade.Upgrade.RemoveInvalidAntiForgeryCookie">RemoveInvalidAntiForgeryCookie()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool RemoveInvalidAntiForgeryCookie()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_RemoveModule_System_String_System_String_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.RemoveModule(System.String%2CSystem.String%2CSystem.Int32%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L91">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_RemoveModule_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.RemoveModule*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_RemoveModule_System_String_System_String_System_Int32_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.RemoveModule(System.String,System.String,System.Int32,System.Boolean)">RemoveModule(String, String, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int RemoveModule(string desktopModuleName, string tabName, int parentId, bool removeTab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">desktopModuleName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tabName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">parentId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">removeTab</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_SetInstallTemplate_XmlDocument_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.SetInstallTemplate(XmlDocument)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L714">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_SetInstallTemplate_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.SetInstallTemplate*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_SetInstallTemplate_XmlDocument_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.SetInstallTemplate(XmlDocument)">SetInstallTemplate(XmlDocument)</h4>
+  <div class="markdown level1 summary"><p>SetInstalltemplate saves the XmlDocument back to Installation Template specified in web.config.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SetInstallTemplate(XmlDocument xmlDoc)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">XmlDocument</span></td>
+        <td><span class="parametername">xmlDoc</span></td>
+        <td><p>The Xml Document to save.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A string which contains the error massage - if appropriate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_StartTimer.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.StartTimer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1444">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_StartTimer_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.StartTimer*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_StartTimer" data-uid="DotNetNuke.Services.Upgrade.Upgrade.StartTimer">StartTimer()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void StartTimer()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_UpdateConfig_System_String_System_String_Version_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.UpdateConfig(System.String%2CSystem.String%2CVersion%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1684">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_UpdateConfig_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpdateConfig*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_UpdateConfig_System_String_System_String_Version_System_String_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpdateConfig(System.String,System.String,Version,System.String)">UpdateConfig(String, String, Version, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string UpdateConfig(string providerPath, string configFile, Version version, string reason)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">providerPath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">configFile</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Version</span></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_UpdateConfig_System_String_Version_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.UpdateConfig(System.String%2CVersion%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1617">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_UpdateConfig_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpdateConfig*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_UpdateConfig_System_String_Version_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpdateConfig(System.String,Version,System.Boolean)">UpdateConfig(String, Version, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string UpdateConfig(string providerPath, Version version, bool writeFeedback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">providerPath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Version</span></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">writeFeedback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_UpdateConfig_System_String_Version_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.UpdateConfig(System.String%2CVersion%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1645">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_UpdateConfig_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpdateConfig*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_UpdateConfig_System_String_Version_System_String_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpdateConfig(System.String,Version,System.String)">UpdateConfig(String, Version, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string UpdateConfig(string configFile, Version version, string reason)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">configFile</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Version</span></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_UpdateNewtonsoftVersion.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.UpdateNewtonsoftVersion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1978">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_UpdateNewtonsoftVersion_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpdateNewtonsoftVersion*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_UpdateNewtonsoftVersion" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpdateNewtonsoftVersion">UpdateNewtonsoftVersion()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool UpdateNewtonsoftVersion()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_UpgradeApplication.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.UpgradeApplication%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1459">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_UpgradeApplication_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpgradeApplication*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_UpgradeApplication" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpgradeApplication">UpgradeApplication()</h4>
+  <div class="markdown level1 summary"><p>UpgradeApplication - This overload is used for general application upgrade operations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpgradeApplication()</code></pre>
+  </div>
+  <h5 id="DotNetNuke_Services_Upgrade_Upgrade_UpgradeApplication_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Since it is not version specific and is invoked whenever the application is
+restarted, the operations must be re-executable.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_UpgradeApplication_System_String_Version_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.UpgradeApplication(System.String%2CVersion%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1519">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_UpgradeApplication_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpgradeApplication*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_UpgradeApplication_System_String_Version_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpgradeApplication(System.String,Version,System.Boolean)">UpgradeApplication(String, Version, Boolean)</h4>
+  <div class="markdown level1 summary"><p>UpgradeApplication - This overload is used for version specific application upgrade operations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string UpgradeApplication(string providerPath, Version version, bool writeFeedback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">providerPath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Version</span></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">writeFeedback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Services_Upgrade_Upgrade_UpgradeApplication_System_String_Version_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This should be used for file system modifications or upgrade operations which
+should only happen once. Database references are not recommended because future
+versions of the application may result in code incompatibilties.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_UpgradeDNN_System_String_Version_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.UpgradeDNN(System.String%2CVersion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1746">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_UpgradeDNN_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpgradeDNN*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_UpgradeDNN_System_String_Version_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpgradeDNN(System.String,Version)">UpgradeDNN(String, Version)</h4>
+  <div class="markdown level1 summary"><p>UpgradeDNN manages the Upgrade of an exisiting DotNetNuke Application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpgradeDNN(string providerPath, Version dataBaseVersion)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">providerPath</span></td>
+        <td><p>The path to the Data Provider.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Version</span></td>
+        <td><span class="parametername">dataBaseVersion</span></td>
+        <td><p>The current Database Version.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_UpgradeIndicator_Version_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.UpgradeIndicator(Version%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1792">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_UpgradeIndicator_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpgradeIndicator*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_UpgradeIndicator_Version_System_Boolean_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpgradeIndicator(Version,System.Boolean,System.Boolean)">UpgradeIndicator(Version, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string UpgradeIndicator(Version version, bool isLocal, bool isSecureConnection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Version</span></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isLocal</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isSecureConnection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_UpgradeIndicator_Version_System_String_System_String_System_String_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.UpgradeIndicator(Version%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1797">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_UpgradeIndicator_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpgradeIndicator*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_UpgradeIndicator_Version_System_String_System_String_System_String_System_Boolean_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpgradeIndicator(Version,System.String,System.String,System.String,System.Boolean,System.Boolean)">UpgradeIndicator(Version, String, String, String, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string UpgradeIndicator(Version version, string packageType, string packageName, string culture, bool isLocal, bool isSecureConnection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Version</span></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">packageType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">packageName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isLocal</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isSecureConnection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_UpgradeRedirect.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.UpgradeRedirect%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1848">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_UpgradeRedirect_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpgradeRedirect*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_UpgradeRedirect" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpgradeRedirect">UpgradeRedirect()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string UpgradeRedirect()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_UpgradeRedirect_Version_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.UpgradeRedirect(Version%2CSystem.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1853">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_UpgradeRedirect_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpgradeRedirect*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_UpgradeRedirect_Version_System_String_System_String_System_String_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpgradeRedirect(Version,System.String,System.String,System.String)">UpgradeRedirect(Version, String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string UpgradeRedirect(Version version, string packageType, string packageName, string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Version</span></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">packageType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">packageName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_UpgradeVersion_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.UpgradeVersion(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1886">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_UpgradeVersion_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpgradeVersion*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_UpgradeVersion_System_String_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpgradeVersion(System.String,System.Boolean)">UpgradeVersion(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>UpgradeVersion upgrades a single version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string UpgradeVersion(string scriptFile, bool writeFeedback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">scriptFile</span></td>
+        <td><p>The upgrade script file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">writeFeedback</span></td>
+        <td><p>Write status to Response Stream?.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Upgrade_Upgrade_UpgradeVersion_System_String_System_Boolean_System_Boolean__.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Upgrade.Upgrade.UpgradeVersion(System.String%2CSystem.Boolean%2CSystem.Boolean%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L1903">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_UpgradeVersion_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpgradeVersion*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_UpgradeVersion_System_String_System_Boolean_System_Boolean__" data-uid="DotNetNuke.Services.Upgrade.Upgrade.UpgradeVersion(System.String,System.Boolean,System.Boolean@)">UpgradeVersion(String, Boolean, out Boolean)</h4>
+  <div class="markdown level1 summary"><p>UpgradeVersion upgrades a single version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string UpgradeVersion(string scriptFile, bool writeFeedback, out bool scriptExecuted)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">scriptFile</span></td>
+        <td><p>The upgrade script file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">writeFeedback</span></td>
+        <td><p>Write status to Response Stream?.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">scriptExecuted</span></td>
+        <td><p>Identity whether the script file executed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Upgrade/Upgrade.cs/#L58" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

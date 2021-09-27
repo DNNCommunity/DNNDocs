@@ -1,0 +1,1226 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IDataService
+    -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IDataService
+    -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService">
+  
+  
+  <h1 id="DotNetNuke_Services_Social_Notifications_Data_IDataService" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService" class="text-break">Interface IDataService
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Services.Social.Notifications.Data.html">DotNetNuke.Services.Social.Notifications.Data</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IDataService</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService_AddNotificationTypeAction_System_Int32_System_String_System_String_System_String_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService.AddNotificationTypeAction(System.Int32%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L53">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Social_Notifications_Data_IDataService_AddNotificationTypeAction_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.AddNotificationTypeAction*"></a>
+  <h4 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_AddNotificationTypeAction_System_Int32_System_String_System_String_System_String_System_String_System_Int32_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.AddNotificationTypeAction(System.Int32,System.String,System.String,System.String,System.String,System.Int32)">AddNotificationTypeAction(Int32, String, String, String, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a new Notification Type Action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int AddNotificationTypeAction(int notificationTypeId, string nameResourceKey, string descriptionResourceKey, string confirmResourceKey, string apiCall, int createdByUserId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">notificationTypeId</span></td>
+        <td><p>Id of the Notification Type to which the Notification Type Action is associated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">nameResourceKey</span></td>
+        <td><p>Resource key used to get the localized name of the Notification Type Action.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">descriptionResourceKey</span></td>
+        <td><p>Resource key used to get the localized description of the Notification Type Action.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">confirmResourceKey</span></td>
+        <td><p>Resource key used to get the localized confirm text of the Notification Type Action.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">apiCall</span></td>
+        <td><p>Relative url to the api that has to be call when selection the Notification Type Action.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">createdByUserId</span></td>
+        <td><p>Id of the user that created the Notification Type Action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The created Notification Type Action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService_CountNotifications_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService.CountNotifications(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L111">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Social_Notifications_Data_IDataService_CountNotifications_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.CountNotifications*"></a>
+  <h4 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_CountNotifications_System_Int32_System_Int32_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.CountNotifications(System.Int32,System.Int32)">CountNotifications(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets the amount of Notifications of a user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int CountNotifications(int userId, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>Id of the user from who count the Notifications.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td><p>Portal Id of the user.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The amount of Notifications of a user.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService_CreateNotificationType_System_String_System_String_System_Int32_System_Int32_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService.CreateNotificationType(System.String%2CSystem.String%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L21">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Social_Notifications_Data_IDataService_CreateNotificationType_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.CreateNotificationType*"></a>
+  <h4 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_CreateNotificationType_System_String_System_String_System_Int32_System_Int32_System_Int32_System_Boolean_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.CreateNotificationType(System.String,System.String,System.Int32,System.Int32,System.Int32,System.Boolean)">CreateNotificationType(String, String, Int32, Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates a new Notification Type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int CreateNotificationType(string name, string description, int timeToLive, int desktopModuleId, int createUpdateUserId, bool isTask)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of the Notification Type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>Description of the Notification Type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">timeToLive</span></td>
+        <td><p>Time to live of the Notification Type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">desktopModuleId</span></td>
+        <td><p>Id of the desktop module to which the Notification Type is associated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">createUpdateUserId</span></td>
+        <td><p>Id of the user that creates and updates the Notification Type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isTask</span></td>
+        <td><p>Whether this Notification Type is task or not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Id of the created Notification Type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService_DeleteNotification_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService.DeleteNotification(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L95">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Social_Notifications_Data_IDataService_DeleteNotification_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.DeleteNotification*"></a>
+  <h4 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_DeleteNotification_System_Int32_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.DeleteNotification(System.Int32)">DeleteNotification(Int32)</h4>
+  <div class="markdown level1 summary"><p>Delete a Notification.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DeleteNotification(int notificationId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">notificationId</span></td>
+        <td><p>Id of the Notification to delete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService_DeleteNotificationType_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService.DeleteNotificationType(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L27">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Social_Notifications_Data_IDataService_DeleteNotificationType_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.DeleteNotificationType*"></a>
+  <h4 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_DeleteNotificationType_System_Int32_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.DeleteNotificationType(System.Int32)">DeleteNotificationType(Int32)</h4>
+  <div class="markdown level1 summary"><p>Deletes an existing Notification Type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DeleteNotificationType(int notificationTypeId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">notificationTypeId</span></td>
+        <td><p>Id of the Notification Type to delete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService_DeleteNotificationTypeAction_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService.DeleteNotificationTypeAction(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L59">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Social_Notifications_Data_IDataService_DeleteNotificationTypeAction_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.DeleteNotificationTypeAction*"></a>
+  <h4 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_DeleteNotificationTypeAction_System_Int32_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.DeleteNotificationTypeAction(System.Int32)">DeleteNotificationTypeAction(Int32)</h4>
+  <div class="markdown level1 summary"><p>Deletes a Notification Type Action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DeleteNotificationTypeAction(int notificationTypeActionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">notificationTypeActionId</span></td>
+        <td><p>Id of the Notification Type Action to deleted.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService_DeleteUserNotifications_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService.DeleteUserNotifications(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L103">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Social_Notifications_Data_IDataService_DeleteUserNotifications_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.DeleteUserNotifications*"></a>
+  <h4 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_DeleteUserNotifications_System_Int32_System_Int32_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.DeleteUserNotifications(System.Int32,System.Int32)">DeleteUserNotifications(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Deletes all the Notifications of a user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int DeleteUserNotifications(int portalID, int userID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalID</span></td>
+        <td><p>Portal Id of the user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">userID</span></td>
+        <td><p>User from who delete all the Notifications.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Amount of deleted Notifications.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotification_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotification(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L128">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotification_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotification*"></a>
+  <h4 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotification_System_Int32_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotification(System.Int32)">GetNotification(Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets a Notification.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDataReader GetNotification(int notificationId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">notificationId</span></td>
+        <td><p>Id of the Notification to get.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><p>DataReader with the retrieved data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotificationByContext_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotificationByContext(System.Int32%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L136">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotificationByContext_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotificationByContext*"></a>
+  <h4 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotificationByContext_System_Int32_System_String_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotificationByContext(System.Int32,System.String)">GetNotificationByContext(Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Gets a Notification.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDataReader GetNotificationByContext(int notificationTypeId, string context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">notificationTypeId</span></td>
+        <td><p>Id of the Noticationb type of the Notification.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>Context of the Notification to get.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><p>DataReader with the retrieved data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotifications_System_Int32_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotifications(System.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L121">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotifications_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotifications*"></a>
+  <h4 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotifications_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotifications(System.Int32,System.Int32,System.Int32,System.Int32)">GetNotifications(Int32, Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets a paginated list of Notifications.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDataReader GetNotifications(int userId, int portalId, int afterNotificationId, int numberOfRecords)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>Id of the user from get the Notifications.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td><p>Portal Id of the user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">afterNotificationId</span></td>
+        <td><p>Id of the Notification after which get the list of Notificationss.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">numberOfRecords</span></td>
+        <td><p>Maximum amount of retrieved Notifications.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><p>DataReader with the retrieved data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotificationType_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotificationType(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L34">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotificationType_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotificationType*"></a>
+  <h4 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotificationType_System_Int32_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotificationType(System.Int32)">GetNotificationType(Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets a Notification Type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDataReader GetNotificationType(int notificationTypeId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">notificationTypeId</span></td>
+        <td><p>If of the Notification Type to get.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><p>IDataReader with the retrieved data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotificationTypeAction_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotificationTypeAction(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L66">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotificationTypeAction_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotificationTypeAction*"></a>
+  <h4 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotificationTypeAction_System_Int32_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotificationTypeAction(System.Int32)">GetNotificationTypeAction(Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets a Notification Type Action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDataReader GetNotificationTypeAction(int notificationTypeActionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">notificationTypeActionId</span></td>
+        <td><p>Id of the Notification Type Action to get.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><p>DataReader with the retrieved data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotificationTypeActionByName_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotificationTypeActionByName(System.Int32%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L74">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotificationTypeActionByName_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotificationTypeActionByName*"></a>
+  <h4 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotificationTypeActionByName_System_Int32_System_String_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotificationTypeActionByName(System.Int32,System.String)">GetNotificationTypeActionByName(Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Gets a Notification Type Action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDataReader GetNotificationTypeActionByName(int notificationTypeId, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">notificationTypeId</span></td>
+        <td><p>Id of the Notification Type to which the Notification Type Action is associated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of the Notification Type Action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><p>DataReader with the retrieved data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotificationTypeActions_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotificationTypeActions(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L81">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotificationTypeActions_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotificationTypeActions*"></a>
+  <h4 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotificationTypeActions_System_Int32_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotificationTypeActions(System.Int32)">GetNotificationTypeActions(Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets all the Notification Type Action of a Notification Type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDataReader GetNotificationTypeActions(int notificationTypeId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">notificationTypeId</span></td>
+        <td><p>Id of the Notification Type from which we want to get the associated Notification Type Actions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><p>DataReader with the retrieved data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotificationTypeByName_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotificationTypeByName(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L41">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotificationTypeByName_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotificationTypeByName*"></a>
+  <h4 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_GetNotificationTypeByName_System_String_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.GetNotificationTypeByName(System.String)">GetNotificationTypeByName(String)</h4>
+  <div class="markdown level1 summary"><p>Gets a Notification Type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDataReader GetNotificationTypeByName(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of the Notification Type to get.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><p>IDataReader with the retrieved data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService_GetToasts_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService.GetToasts(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L165">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Social_Notifications_Data_IDataService_GetToasts_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.GetToasts*"></a>
+  <h4 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_GetToasts_System_Int32_System_Int32_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.GetToasts(System.Int32,System.Int32)">GetToasts(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Get a list of Toast Notifications that have not been delivered yet.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDataReader GetToasts(int userId, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>Id of the user from who we want to know which Toast Notifications have not been delivered yet.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td><p>Portal Id of the user.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><p>DataReader with the retrieved data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService_IsToastPending_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService.IsToastPending(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L143">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Social_Notifications_Data_IDataService_IsToastPending_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.IsToastPending*"></a>
+  <h4 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_IsToastPending_System_Int32_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.IsToastPending(System.Int32)">IsToastPending(Int32)</h4>
+  <div class="markdown level1 summary"><p>Whether a Toast Notification is pending or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsToastPending(int notificationId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">notificationId</span></td>
+        <td><p>Id of the Notification to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the Toast Notification is pending, False if it is not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService_MarkReadyForToast_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService.MarkReadyForToast(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L150">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Social_Notifications_Data_IDataService_MarkReadyForToast_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.MarkReadyForToast*"></a>
+  <h4 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_MarkReadyForToast_System_Int32_System_Int32_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.MarkReadyForToast(System.Int32,System.Int32)">MarkReadyForToast(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Mark a Toast ready for sending.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void MarkReadyForToast(int notificationId, int userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">notificationId</span></td>
+        <td><p>The notification Id.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>The Recipient User Id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService_MarkToastSent_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService.MarkToastSent(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L157">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Social_Notifications_Data_IDataService_MarkToastSent_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.MarkToastSent*"></a>
+  <h4 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_MarkToastSent_System_Int32_System_Int32_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.MarkToastSent(System.Int32,System.Int32)">MarkToastSent(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Mark Toast being already sent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void MarkToastSent(int notificationId, int userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">notificationId</span></td>
+        <td><p>The notification Id.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>The Recipient User Id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Social_Notifications_Data_IDataService_SendNotification_DotNetNuke_Services_Social_Notifications_Notification_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Social.Notifications.Data.IDataService.SendNotification(DotNetNuke.Services.Social.Notifications.Notification%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L89">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Social_Notifications_Data_IDataService_SendNotification_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.SendNotification*"></a>
+  <h4 id="DotNetNuke_Services_Social_Notifications_Data_IDataService_SendNotification_DotNetNuke_Services_Social_Notifications_Notification_System_Int32_" data-uid="DotNetNuke.Services.Social.Notifications.Data.IDataService.SendNotification(DotNetNuke.Services.Social.Notifications.Notification,System.Int32)">SendNotification(Notification, Int32)</h4>
+  <div class="markdown level1 summary"><p>Send a notification to its receivers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int SendNotification(Notification notification, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Social.Notifications.Notification.html">Notification</a></td>
+        <td><span class="parametername">notification</span></td>
+        <td><p>Notification to send.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td><p>Portal id of the Notification.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Id of the new message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Social/Notifications/Data/IDataService.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

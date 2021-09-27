@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Get DNN Docs Running Locally  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Get DNN Docs Running Locally  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    <meta property="og:title" content="Get DNN Docs Running Locally -- DNN Docs">
+    <meta property="og:image" content="../../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="Get DNN Docs Running Locally -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/getting-started/contribution/dnn-docs/get-dnn-docs-running-locally/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Fgetting-started%2Fcontribution%2Fdnn-docs%2Fget-dnn-docs-running-locally%2Findex.html&amp;text=Get%20DNN%20Docs%20Running%20Locally%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Fgetting-started%2Fcontribution%2Fdnn-docs%2Fget-dnn-docs-running-locally%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Fgetting-started%2Fcontribution%2Fdnn-docs%2Fget-dnn-docs-running-locally%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Fgetting-started%2Fcontribution%2Fdnn-docs%2Fget-dnn-docs-running-locally%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20Get%20DNN%20Docs%20Running%20Locally%20|%20DNN%20Docs&amp;body=Get%20DNN%20Docs%20Running%20Locally%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Fgetting-started%2Fcontribution%2Fdnn-docs%2Fget-dnn-docs-running-locally%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for Get DNN Docs Running Locally&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bget-dnn-docs-running-locally%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Fgetting-started%2Fcontribution%2Fdnn-docs%2Fget-dnn-docs-running-locally%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/getting-started/contribution/dnn-docs/get-dnn-docs-running-locally/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="get-dnn-docs-running-locally">
+<h1 id="get-dnn-docs-running-locally">Get DNN Docs Running Locally</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">09.02.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 4 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 4 minutes  to read</span>
+</div>
+
+<p>The project uses the <code>docfx</code> library to pull XML comments from the DNN Platform source code and combine that with articles written in Markdown to form the documentation for DNN.</p>
+<h2 id="installing-git">Installing Git</h2>
+<p>If you do not have Git installed you will need to install Git first. You can find instructions on installing Git from <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">here</a></p>
+<h2 id="installing-docfx">Installing DocFX</h2>
+<p>DocFX may be installed on Windows via <em>Chocolatey</em> by calling <code>choco install docfx -y</code></p>
+<p>If you are on MacOS you can install it with <em>Homebrew</em> <code>brew install docfx</code></p>
+<p>Or you can download and unzip <code>docfx.zip</code> from <a href="https://github.com/dotnet/docfx/releases">GitHub</a>, extract it to a folder and then set your <code>PATH</code> to that folder so you can run it anywhere.</p>
+<h2 id="setting-up-the-dnn-docs-project">Setting Up the DNN Docs Project</h2>
+<p>After installing DocFX, the next step is to clone this repo.  'Cloning the repo' will simply create a copy of the repo (files and folders) on your local machine so that you can work with them.</p>
+<p>Note the following example command clones the repo to the location of <code>c:\dev</code>. Update the <code>c:\dev</code> location to your location of choice on your machine.</p>
+<pre><code>c:\dev&gt; git clone https://github.com/DNNCommunity/DNNDocs.git
+</code></pre>
+<p>The previous command will have created a folder called <code>DNNDocs</code> in the <code>c:\dev</code> folder. Navigate to that directory by using the cd (Change Directory) command. <code>cd</code> into the <code>DNNDocs</code> folder.</p>
+<pre><code>c:\dev&gt; cd DNNDocs
+</code></pre>
+<p>Next, you'll need to fork and/or clone the <a href="https://github.com/dnnsoftware/Dnn.Platform">Dnn.Platform repository</a> into a <strong>sub-folder</strong> of the <code>DNNDocs</code> root folder. The reason is that the project reads the XML comments in the source code and creates API documentation from that, in addition to the documentation center articles.</p>
+<p>Please note that you don't need to create the sub-folder, it will be created for you when running the command shown below.  Also, the cloning for this repository could take a few minutes depending on your internet connection speed.</p>
+<pre><code>c:\dev\DNNDocs&gt;git clone https://github.com/dnnsoftware/Dnn.Platform.git
+</code></pre>
+<p>If you've run the <code>clone</code> command from the path we've been using, you'll now have the DNN repository at the expected path as in the example below.</p>
+<p><em>c:\dev\DNNDocs\Dnn.Platform</em></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Don't worry about the DNN source code existing here. It is already being ignored for any future commits.</p>
+</div>
+<h2 id="running-the-dnn-docs-project-locally">Running the DNN Docs Project Locally</h2>
+<p>You should now be able to run the development version of the docs locally with the following command:</p>
+<pre><code>docfx --serve
+</code></pre>
+<div class="NOTE">
+<h5>Note</h5>
+<p>You should run your shell in administrator mode for this to work!</p>
+</div>
+<p>The first time, the compilation process could take quite a while. You may see a couple of warning messages. Eventually, you should see a message similar to:</p>
+<pre><code>Serving &quot;C:\dev\DNNDocs\_site&quot; on https://localhost:8080
+</code></pre>
+<p>Open that page up in your browser to see the documentation.</p>
+<p><a href="https://localhost:8080">https://localhost:8080</a></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Depending on the configuration of your development environment, you may need to use the non-SSL version of the local website URL instead.</p>
+</div>
+<p><a href="http://localhost:8080">http://localhost:8080</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

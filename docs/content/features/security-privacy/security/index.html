@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>DNN Platform Security  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="DNN Platform Security  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="og:title" content="DNN Platform Security -- DNN Docs">
+    <meta property="og:image" content="../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="DNN Platform Security -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/features/security-privacy/security/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ffeatures%2Fsecurity-privacy%2Fsecurity%2Findex.html&amp;text=DNN%20Platform%20Security%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ffeatures%2Fsecurity-privacy%2Fsecurity%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ffeatures%2Fsecurity-privacy%2Fsecurity%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ffeatures%2Fsecurity-privacy%2Fsecurity%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20DNN%20Platform%20Security%20|%20DNN%20Docs&amp;body=DNN%20Platform%20Security%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Ffeatures%2Fsecurity-privacy%2Fsecurity%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for DNN Platform Security&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bplatform-overview-security%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Ffeatures%2Fsecurity-privacy%2Fsecurity%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/features/security-privacy/security/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="platform-overview-security">
+<h1 id="security">Security</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">07.00.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 6 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 6 minutes  to read</span>
+</div>
+
+<p>Security is an integral part of web applications and DNN has many features built into it to allow you to create very advanced applications in this respect. Module developers can leverage this and not be concerned with authentication and/or authorization at all. Instead they can leave this to the framework and focus on their application. In turn DNN devolves this to components that can be switched out. This is a very powerful feature allowing you to use Active Directory authentication or to leverage OAuth providers like Facebook.</p>
+<h2 id="users">Users</h2>
+<p>It should come as no surprise that <em>users</em> are individual login accounts in DNN. You'll find them in the Users table in SQL and on the User Accounts page on the Admin menu. Each user is uniquely identified through a username for authentication purposes. In data, however, users are identified through an auto incrementing integer User ID similar to tabs and portals. Whenever a user account is created, that user will only be able to log in to the portal in which it was created. But the user can be shared between portals (UserPortals table in SQL) although there is no proper UI for that right now.</p>
+<p><img src="/images/ch03f009.png" alt="User management page"></p>
+<h2 id="roles">Roles</h2>
+<p><em>Roles</em> are what drive security in the platform. A user can belong to one or more roles and these roles are used throughout the application to set permissions. This is similar to what you'd be used to on your Windows machine. There are several roles that are installed by default: Administrators, Registered Users, Subscribers and Unverified Users. Administrators have access to all aspects of a portal. Registered Users is a role that is assigned automatically to any new account. Subscribers is a role to which users can opt in voluntarily. Finally Unverified Users is used for those users that have enlisted but have not yet verified (through an email link) that they are who they say they are. The thinking behind this last role is that you can accept a registration but exclude those from certain functionalities as the registration would have already given that user the Registered Users role.</p>
+<p><img src="/images/ch03f010.png" alt="Role management page"></p>
+<p>These roles are specific to the portal. They have a unique RoleId (again an auto incremented integer) which is used to refer to them throughout the framework. There are two virtual roles that are worth mentioning here. They are virtual in the sense that they do not exist in the Roles table in SQL but are used in the API for specific cases. These virtual roles are All Users and Unauthenticated Users. The first (RoleID = -1) you will use to allow both authenticated and unauthenticated users access to something. The second is to target unauthenticated users only. So you could show a login panel or some explanatory text to those users only, for instance.</p>
+<p>You'll see the roles come back whenever you edit permissions for specific part of the website. Both pages and modules on those pages have permissions. Below is a screenshot from a module's permission screen. You can add roles and/or users to the grid and set permissions by checking the checkboxes. What these permissions will do depends very much on the module and will be discussed in later chapters.</p>
+<p><img src="/images/ch03f011.png" alt="A module's permissions screen"></p>
+<h2 id="host">Host</h2>
+<p>Upon installation DNN will create a first user account that is the <em>host</em> account. This account has administrative privileges in all portals as well as the ability to access all resources that are common to all portals. <em>Host</em> is synonymous with <em>Superuser</em> in DNN. You can add as many host accounts as you like. These accounts are the only ones able to create and delete portals, install and delete modules, etc. You will immediately notice you're logged in as superuser by the appearance of the Host menu in the control bar.</p>
+<h2 id="admin">Admin</h2>
+<p><em>Admins</em> are regular user accounts that have been added to the Administrators role. Admins will see the Admin menu on the control bar and have the ability to change the portal such as adding and removing pages, creating and deleting users, roles, etc. Admins cannot install components to the system such as modules. Nor can they alter files that run code on the server. Care has been taken to make sure that admins are sandboxed to allow them only the ability to change content and appearance of a portal.</p>
+<h1 id="summary">Summary</h1>
+<p>In this chapter we've looked at DNN from 30000 feet high. We've seen the hierarchy of the DNN instance, a portal or site, a tab or page and finally the module. We now have a rough idea of where our data is stored and that DNN uses this to construct the pages that are being served out to the client's browser. We've also seen how DNN organizes security using users and roles. Understanding the above is key to being able to comprehend more in-depth how DNN works and how you can create your own website or web application with it.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This is an extract from the Wrox book  <a href="https://www.amazon.com/Professional-DNN7-Open-Source-Platform/dp/111885084X">Professional DNN 7</a> by Shaun Walker et al. Copyright remains with P.A. Donker and Wiley Publishers.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Configure the Member Directory Module  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Configure the Member Directory Module  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    <meta property="og:title" content="Configure the Member Directory Module -- DNN Docs">
+    <meta property="og:image" content="../../../../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="Configure the Member Directory Module -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/tutorials/references/included-modules/social-modules/module-member-directory/config-module-member-directory/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Freferences%2Fincluded-modules%2Fsocial-modules%2Fmodule-member-directory%2Fconfig-module-member-directory%2Findex.html&amp;text=Configure%20the%20Member%20Directory%20Module%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Freferences%2Fincluded-modules%2Fsocial-modules%2Fmodule-member-directory%2Fconfig-module-member-directory%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Freferences%2Fincluded-modules%2Fsocial-modules%2Fmodule-member-directory%2Fconfig-module-member-directory%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Freferences%2Fincluded-modules%2Fsocial-modules%2Fmodule-member-directory%2Fconfig-module-member-directory%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20Configure%20the%20Member%20Directory%20Module%20|%20DNN%20Docs&amp;body=Configure%20the%20Member%20Directory%20Module%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Freferences%2Fincluded-modules%2Fsocial-modules%2Fmodule-member-directory%2Fconfig-module-member-directory%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for Configure the Member Directory Module&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bconfig-module-member-directory%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Ftutorials%2Freferences%2Fincluded-modules%2Fsocial-modules%2Fmodule-member-directory%2Fconfig-module-member-directory%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/tutorials/references/included-modules/social-modules/module-member-directory/config-module-member-directory/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="config-module-member-directory">
+<h1 id="configure-the-member-directory-module">Configure the Member Directory Module</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">09.02.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 4 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 4 minutes  to read</span>
+</div>
+
+<p>In the Member Directory module, you can configure:</p>
+<ul>
+<li>the HTML templates used to display member information,</li>
+<li>how the list is filtered and sorted,</li>
+<li>how users can search for members in the list, and</li>
+<li>how the list is divided into pages.</li>
+</ul>
+<h2 id="steps">Steps</h2>
+<ol>
+<li><p>Go to the page containing the module to configure. Edit the page.</p>
+</li>
+<li><p>In the module's action menu bar, go to <strong>Manage (gear icon) &gt; Settings</strong>.</p>
+<p><img src="/images/scr-actionmenu-manage-settings.png" alt="Manage action menu &gt; Settings"></p>
+</li>
+<li><p>Go to the <strong>Member Directory Settings</strong> tab.</p>
+<p><img src="/images/scr-modulesettings-MemberDirectory.png" alt="Module Settings — Member Directory"></p>
+<p> </p>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>Templates</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item Template</strong></td>
+<td>The HTML template used to display the first and every other (odd-numbered) item in the directory.</td>
+</tr>
+<tr>
+<td><strong>Alternate Item Template</strong></td>
+<td>The HTML template used to display the second and every other (even-numbered) item in the directory. Leave this blank to use the <strong>Item Template</strong> for all members.</td>
+</tr>
+<tr>
+<td><strong>Enable PopUp</strong></td>
+<td>If checked, the member details are displayed in a pop-up window when the user hovers over the member's listing.</td>
+</tr>
+<tr>
+<td><strong>PopUp Template</strong></td>
+<td>The HTML template used to display a member's details in a pop-up window.</td>
+</tr>
+</tbody>
+</table>
+<pre><code> 
+</code></pre>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>Filters and Sorting</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Filter By</strong></td>
+<td><ul><li><strong>No Filter</strong>. Displays all members.</li><li><strong>User</strong>. Displays the profile of the current user.</li><li><strong>Group</strong>. Displays only the members of the selected group.<br><img src="/images/scr-modulesettings-MemberDirectory-FilterGroup.png" alt="Module Settings — Member Directory — Filter by Group"> </li><li><strong>Relationship</strong>. Displays only the members with the selected relationship to the current user. (Friends or Followers)<br><img src="/images/scr-modulesettings-MemberDirectory-FilterRelationship.png" alt="Module Settings — Member Directory — Filter by Relationship"></li><li><strong>Profile Property</strong>. Displays only the members who have the specified value for the selected property.<br><img src="/images/scr-modulesettings-MemberDirectory-FilterProfileProperty.png" alt="Module Settings — Member Directory — Filter by Property"></li></ul></td>
+</tr>
+<tr>
+<td><strong>Sort Field<br>Sort List By</strong></td>
+<td>Sorts the list based on the selected field.</td>
+</tr>
+<tr>
+<td><strong>Sort Order<br>Sort Direction</strong></td>
+<td>Sorts the list in ascending or descending order.</td>
+</tr>
+<tr>
+<td><strong>Exclude Host Users</strong></td>
+<td>If checked, hosts are excluded from the resulting list.</td>
+</tr>
+</tbody>
+</table>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Checking this option is useful for security. By hiding users with maximum permissions, you reduce the risk of hackers targeting those accounts or leveraging the names of those users in social engineering attacks.
+ </p>
+</div>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>Search Settings</strong></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Display Search</strong></td>
+<td><ul><li><strong>None</strong>. Removes the search capability.</li><li><strong>Simple Search</strong>. Provides a basic case-insensitive search of the <strong>Display Name</strong> field only.</li><li><strong>Simple and Advanced Search</strong>. Provides both the basic search and the advanced search. The <strong>Advanced Search</strong> allows you to narrow the search results by performing a case-insensitive Boolean-AND search on the specified <strong>Search Fields</strong>.</li></ul></td>
+<td><strong>Search Field 1</strong><br><strong>Search Field 2</strong><br><strong>Search Field 3</strong><br><strong>Search Field 4</strong></td>
+<td>The fields to be used in the <strong>Advanced Search</strong>.</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>Paging Options</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Disable Paging</strong></td>
+<td>If checked, only the first page of the results is displayed and the Load more button is hidden.</td>
+</tr>
+<tr>
+<td><strong>Page Size</strong></td>
+<td>The number of items to display in each result page. (1 — 100)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="example">Example</h2>
+<ul>
+<li>To list the current user's friends or followers,
+<ol>
+<li>Under Filters and Sorting, choose Relationship.</li>
+<li>In the dropdown, choose Friends or Followers.</li>
+</ol>
+</li>
+<li>To add the current user's abbreviated profile on a page, such as on a sidebar,
+<ol>
+<li>Under Filters and Sorting, choose User.</li>
+<li>Under Search Settings, set Display Search to None.</li>
+</ol>
+</li>
+<li>To allow the user to search for other members in the entire site,
+<ol>
+<li>Under Filters and Sorting, choose No Filter.</li>
+<li>Under Search Settings, set Display Search to Simple Search or Simple and Advanced Search.</li>
+<li>Choose four fields that you allow the users to search on.</li>
+</ol>
+</li>
+<li>To list the members of a group,
+<ol>
+<li>Under Filters and Sorting, choose Group.</li>
+<li>In the dropdown, choose the social group or role group.</li>
+</ol>
+</li>
+<li>To list members located in a specific geographical area.
+<ol>
+<li>Under Filters and Sorting, choose Profile Property.</li>
+<li>In the dropdown, choose a location field, such as City, Region, or Postal Code.</li>
+<li>In the text field, enter the value to match for the selected property.</li>
+</ol>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

@@ -1,0 +1,940 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Control Bar to Persona Bar  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Control Bar to Persona Bar  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="og:title" content="Control Bar to Persona Bar -- DNN Docs">
+    <meta property="og:image" content="../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="Control Bar to Persona Bar -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/tutorials/references/control-bar-to-persona-bar/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Freferences%2Fcontrol-bar-to-persona-bar%2Findex.html&amp;text=Control%20Bar%20to%20Persona%20Bar%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Freferences%2Fcontrol-bar-to-persona-bar%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Freferences%2Fcontrol-bar-to-persona-bar%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Freferences%2Fcontrol-bar-to-persona-bar%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20Control%20Bar%20to%20Persona%20Bar%20|%20DNN%20Docs&amp;body=Control%20Bar%20to%20Persona%20Bar%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Freferences%2Fcontrol-bar-to-persona-bar%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for Control Bar to Persona Bar&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bcontrol-bar-to-persona-bar%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Ftutorials%2Freferences%2Fcontrol-bar-to-persona-bar%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/tutorials/references/control-bar-to-persona-bar/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="control-bar-to-persona-bar">
+<h1 id="control-bar-to-persona-bar">Control Bar to Persona Bar</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">09.02.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 18 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 18 minutes  to read</span>
+</div>
+
+<p>The following tables show the correspondence between the old Control Panel/Bar and the new Persona Bar.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The Persona Bar varies according to the product and to the permissions granted to the current authenticated (logged-in) user through roles. Examples: A host or superuser has access to almost all menu items, whereas a community manager would have access to only the features required to manage the community-related aspects of the site.</p>
+</div>
+<h2 id="admin">Admin</h2>
+<p><img src="/images/scr-menuAdminCommon.png" alt="Old Control Panel/Bar menu - Admin - Common"></p>
+<table>
+<thead>
+<tr>
+<th><strong>Control Panel/Bar</strong></th>
+<th><strong>Persona Bar</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Admin &gt; Event Viewer</strong></td>
+<td><strong>Manage &gt; Admin Logs</strong></td>
+</tr>
+<tr>
+<td><strong>Admin &gt; File Management</strong></td>
+<td><strong>Content &gt; Assets</strong></td>
+</tr>
+<tr>
+<td><strong>Admin &gt; Page Management</strong></td>
+<td><strong>Content &gt; Pages</strong></td>
+</tr>
+<tr>
+<td><strong>Admin &gt; Recycle Bin</strong></td>
+<td><strong>Content &gt; Recycle Bin</strong></td>
+</tr>
+<tr>
+<td><strong>Admin &gt; Security Roles</strong></td>
+<td><strong>Manage &gt; Roles</strong></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Basic Settings</strong> tab</li><li><strong>Site Details</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Site Settings</strong></li><li><strong>Site Info</strong> tab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Basic Settings tab</strong></li><li><strong>Site Marketing</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; SEO</strong></li><li><strong>Sitemap Settings</strong> tab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Basic Settings</strong> tab</li><li><strong>Appearance</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Site Settings</strong></li><li><strong>Site Info</strong> tab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Page Management</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Site Settings</strong></li><li><strong>Site Behavior</strong> tab</li><li><strong>Default Pages</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin</strong>&gt; Site Settings**</li><li><strong>Advanced Settings</strong> tab</li><li><strong>Security Settings</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Security</strong></li><li><strong>Login Settings</strong> tab</li><li><strong>Basic Login Settings</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Payment Settings</strong> subtab</li></ol></td>
+<td>(deprecated)</td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Advanced Settings tab</strong></li><li><strong>Usability Settings</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Site Settings</strong></li><li><strong>Site Info</strong> tab</li></ol><br>Site TimeZone only. The rest were deprecated.</td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Version Settings</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Site Settings</strong></li><li><strong>Site Behavior</strong> tab</li><li><strong>More</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Form Builder (Enable)</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Site Settings</strong></li><li><strong>Site Behavior</strong> tab</li><li><strong>More</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Structured Content (Enable)</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Site Settings</strong></li><li><strong>Site Behavior</strong> tab</li><li><strong>More</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Site Aliases</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Site Settings</strong></li><li><strong>Site Behavior</strong> tab</li><li><strong>Site Aliases</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>SMTP Server Settings</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Servers</strong></li><li><strong>Server Settings</strong> tab</li><li><strong>SMTP Server</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>SSL Settings</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Security</strong></li><li><strong>More</strong> tab</li><li><strong>SSL Settings</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Messaging Settings</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Site Settings</strong></li><li><strong>Site Behavior</strong> tab</li><li><strong>Messaging</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Host Settings</strong> subtab</li></ol><br>Field: Expiry Date</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Host Settings</strong> subtab</li></ol><br>Field: Hosting Fee</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Host Settings</strong> subtab</li></ol><br>Field: Disk Space</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Host Settings</strong> subtab</li></ol><br>Field: Page Quota</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Host Settings</strong> subtab</li></ol><br>Field: User Quota</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Host Settings</strong> subtab</li></ol><br>Field: Available modules</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Client Resource Management</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Servers</strong></li><li><strong>Server Settings</strong> tab</li><li><strong>Performance</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Page Output Settings</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Site Behavior</strong></li><li><strong>Default Pages</strong> tab</li></ol><br><strong>HTML Page Header Tags</strong> only. The rest were deprecated.</td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>User Account Settings</strong> tab</li><li><strong>Registration Settings</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Security</strong></li><li><strong>Member Accounts</strong> tab</li><li><strong>Registration Settings</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>User Account Settings</strong> tab</li><li><strong>Login Settings</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Security</strong></li><li><strong>Login Settings</strong> tab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>User Account Settings</strong> tab</li><li><strong>Profile Settings</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Site Behavior</strong></li><li><strong>User Profiles</strong> tab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Stylesheet Editor</strong> tab</li></ol></td>
+<td><strong>Settings &gt; Custom CSS</strong></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Advanced URL Settings</strong> tab</li><li><strong>URL Settings</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; SEO</strong></li><li><strong>URL Management</strong> tab</li><li><strong>General Settings</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Site Settings</strong></li><li><strong>Advanced URL Settings</strong> tab</li><li><strong>Extension URL Providers</strong> subtab</li></ol></td>
+<td>(not yet available)</td>
+</tr>
+<tr>
+<td><strong>Admin &gt; User Accounts</strong></td>
+<td><strong>Manage &gt; Users</strong></td>
+</tr>
+</tbody>
+</table>
+<p><img src="/images/scr-menuAdminAdvanced.png" alt="Old Control Panel/Bar menu - Admin - Advanced"></p>
+<table>
+<thead>
+<tr>
+<th><strong>Control Panel/Bar</strong></th>
+<th><strong>Persona Bar</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><ol><li><strong>Admin &gt; Advanced URL Management</strong></li><li><strong>General</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; SEO</strong></li><li><strong>URL Management</strong> tab</li><li><strong>General Settings</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Advanced URL Management</strong></li><li><strong>Regular Expressions</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; SEO</strong></li><li><strong>URL Management</strong> tab</li><li><strong>Expressions</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Advanced URL Management</strong></li><li><strong>Test URL</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; SEO</strong></li><li><strong>URL Management</strong> tab</li><li><strong>Test URL</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><strong>Admin &gt; Extensions</strong></td>
+<td><strong>Settings &gt; Extensions</strong></td>
+</tr>
+<tr>
+<td><strong>Admin &gt; Google Analytics Pro</strong></td>
+<td><strong>Settings &gt; Connectors</strong></td>
+</tr>
+<tr>
+<td><strong>Admin &gt; Languages</strong></td>
+<td><ol><li><strong>Settings &gt; Site Settings</strong></li><li><strong>Language</strong> tab</li></ol></td>
+</tr>
+<tr>
+<td><strong>Admin &gt; Lists</strong></td>
+<td>(deprecated)</td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Search Admin</strong></li><li><strong>General</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Site Settings</strong></li><li><strong>Search</strong> tab</li><li><strong>Basic Settings</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Search Admin</strong></li><li><strong>Synonyms</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Site Settings</strong></li><li><strong>Search</strong> tab</li><li><strong>Synonyms</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Search Admin</strong></li><li><strong>Ignore Words</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Site Settings</strong></li><li><strong>Search</strong> tab</li><li><strong>Ignore Words</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Admin &gt; Search Admin</strong></li><li><strong>Advanced Crawlers</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Site Settings</strong></li><li><strong>Search</strong> tab</li><li><strong>Crawling</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><strong>Admin &gt; Search Engine Site Map</strong></td>
+<td><ol><li><strong>Settings &gt; SEO</strong></li><li><strong>Sitemap Settings</strong> tab</li></ol></td>
+</tr>
+<tr>
+<td><strong>Admin &gt; SharePoint Connector</strong></td>
+<td><strong>Settings &gt; Connectors</strong></td>
+</tr>
+<tr>
+<td><strong>Admin &gt; Site Wizard</strong></td>
+<td>(deprecated)</td>
+</tr>
+<tr>
+<td><strong>Admin &gt; Taxonomy</strong></td>
+<td><strong>Settings &gt; Vocabularies</strong></td>
+</tr>
+<tr>
+<td><strong>Admin &gt; Themes</strong></td>
+<td><strong>Manage &gt; Themes</strong></td>
+</tr>
+<tr>
+<td><strong>Admin &gt; User Switcher</strong></td>
+<td><ol><li><strong>Manage &gt; Users</strong></li><li>(ellipses for the target account) tab</li><li><strong>Login As User</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><strong>Admin &gt; Workflow Management</strong></td>
+<td><strong>Settings &gt; Workflow</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="host">Host</h2>
+<p><img src="/images/scr-menuHostCommon.png" alt="Old Control Panel/Bar menu - Host - Common"></p>
+<table>
+<thead>
+<tr>
+<th><strong>Control Panel/Bar</strong></th>
+<th><strong>Persona Bar</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><ol><li><strong>Host &gt; Dashboard</strong></li><li><strong>Web Server</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Servers</strong></li><li><strong>System Info</strong> tab</li><li><strong>Web</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Dashboard</strong></li><li><strong>Database Server</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Servers</strong></li><li><strong>System Info</strong> tab</li><li><strong>Database</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Dashboard</strong></li><li><strong>Host</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Servers</strong></li><li><strong>System Info</strong> tab</li><li><strong>Application</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Dashboard</strong></li><li><strong>Websites</strong> tab</li></ol></td>
+<td><strong>Manage &gt; Sites</strong></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Dashboard</strong></li><li><strong>Modules</strong> tab</li></ol></td>
+<td><strong>Settings &gt; Extensions</strong></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Dashboard</strong></li><li><strong>Themes</strong> tabi</li></ol></td>
+<td><strong>Manage &gt; Themes</strong></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Extensions</strong></li><li><strong>Installed Extensions</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Extensions</strong></li><li><strong>Installed Extensions</strong> tab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Extensions</strong></li><li><strong>Available Extensions</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Extensions</strong></li><li><strong>Available Extensions</strong> tab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Extensions</strong></li><li><strong>Purchased Extensions</strong> tab</li></ol></td>
+<td>(deprecated)</td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Extensions</strong></li><li><strong>More Extensions</strong> tab</li></ol></td>
+<td>(deprecated)</td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Extensions</strong></li><li><strong>Install Extension Wizard</strong> button tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Extensions</strong></li><li><strong>Install Extension</strong> button tab</li><ol></ol></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Extensions</strong></li><li><strong>Create New Extension</strong> button tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Extensions</strong></li><li><strong>Create New Extension</strong> button tab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Extensions</strong></li><li><strong>Create New Module</strong> button tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Extensions</strong></li><li><strong>Create New Module</strong> button tab</li></ol></td>
+</tr>
+<tr>
+<td><strong>Host &gt; File Management</strong></td>
+<td><strong>Content &gt; Assets</strong></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Basic Settings</strong> tab</li><li><strong>Configuration</strong> subtab</li></ol><br>Fields:<ul><li><strong>Product</strong></li><li><strong>Version</strong></li><li><strong>Data Provider</strong></li><li><strong>GUID</strong></li><li><strong>Is Web Farm</strong></li></ul></td>
+<td><ol><li><strong>Settings &gt; Servers</strong></li><li><strong>System Info</strong> tab</li><li><strong>Application</strong> subtab</li></ol><br>Fields:<ul><li><strong>Product</strong></li><li><strong>Version</strong></li><li><strong>Data Provider</strong></li><li><strong>Host GUID</strong></li><li><strong>Web Farm Enabled</strong></li></ul></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Basic Settings</strong> tab</li><li><strong>Configuration</strong> subtab</li></ol><br>Field: <strong>Upgrade Available</strong></td>
+<td>(not yet available)</td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Basic Settings</strong> tab</li><li><strong>Configuration</strong> subtab</li></ol><br>Fields:<ul><li><strong>.NET Framework</strong></li><li><strong>ASP.NET Identity</strong></li><li><strong>Relative Path</strong></li><li><strong>Physical Path</strong></li><li><strong>Server Time</strong></li></ul></td>
+<td><ol><li><strong>Settings &gt; Servers</strong></li><li><strong>System Info</strong> tab</li><li><strong>Web</strong> subtab</li></ol><br>Fields:<ul><li><strong>.NET Framework Version</strong></li><li><strong>ASP.NET Identity</strong></li><li><strong>Relative Path</strong></li><li><strong>Physical Path</strong></li><li><strong>Server Time</strong></li></ul></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Basic Settings</strong> tab</li><li><strong>Configuration</strong> subtab</li></ol><br>Field: Server Name</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Basic Settings</strong> tab</li><li><strong>Configuration</strong> subtab</li></ol><br>Field: IP Address</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Basic Settings</strong> tab</li><li><strong>Configuration</strong> subtab</li></ol><br>Field: Permissions</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Basic Settings</strong> tab</li><li><strong>Host Details</strong> subtab</li></ol><br>Fields:<ul><li><strong>Host Website</strong></li><li><strong>Host Title</strong></li><li><strong>Host Email</strong></li></ul></td>
+<td>(deprecated)</td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li>Basic Settings** tab</li><li><strong>Host Details</strong> subtab</li></ol><br>Field: Host URL</td>
+<td><ol><li><strong>Settings &gt; Servers</strong></li><li><strong>System Info</strong> tab</li><li><strong>Web</strong> subtab</li></ol><br>Field: Site URL</td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Basic Settings</strong> tab</li><li><strong>Host Details</strong> subtab</li><br>Field: Enable Remember Me on Login Control</ol></td>
+<td><ol><li><strong>Settings &gt; Security</strong></li><li><strong>More</strong> tab</li><li><strong>More Security Settings</strong> subtab</li></ol><br>Field: <strong>Enable Remember Me on Login Control</strong></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Basic Settings</strong> tab</li><li><strong>Appearance</strong> subtab</li></ol><br>Field: Show Copyright Credits</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Basic Settings</strong> tab</li><li><strong>Appearance</strong> subtab</li></ol><br>Field: Use Custom Error Messages</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Basic Settings</strong> tab</li><li><strong>Appearance subtab</strong></li></ol><br>Field: Use Custom Module CSS Class</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Basic Settings</strong> tab</li><li><strong>Appearance subtab</strong></li></ol><br>Field: Require SSL for Upgrade Wizard</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Basic Settings</strong> tab</li><li><strong>Appearance subtab</strong></li></ol><br>Field: Host Theme</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Basic Settings</strong> tab</li><li><strong>Appearance subtab</strong></li></ol><br>Field: Host Container</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Basic Settings</strong> tab</li><li><strong>Appearance subtab</strong></li></ol><br>Field: Edit Theme</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Basic Settings</strong> tab</li><li><strong>Appearance subtab</strong></li></ol><br>Field: Edit Container</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Basic Settings</strong> tab</li><li><strong>Appearance subtab</strong></li></ol><br>Field: Fallback Theme Doctype</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Basic Settings</strong> tab</li><li><strong>Payment Settings</strong> subtab</li></ol><br></td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Friendly URL Settings</strong> subtab</li></ol></td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Proxy Settings</strong> subtab</li></ol></td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>SMTP Server Settings</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Servers</strong></li><li><strong>Server Settings</strong> tab</li><li><strong>SMTP Server</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Performance Settings subtab</strong></li></ol></td>
+<td><ol><li><strong>Settings &gt; Servers</strong></li><li><strong>Server Settings</strong> tab</li><li><strong>Performance</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>jQuery Settings</strong> subtab</li></ol></td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>CDN Settings</strong> subtab</li></ol></td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Client Resource Management</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Servers</strong></li><li><strong>Server Settings</strong> tab</li><li><strong>Performance</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Membership Management</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Security</strong></li><li><strong>Member Accounts</strong> tab</li><li><strong>Member Management</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Login IP Filters</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Security</strong></li><li><strong>Login Settings</strong> tab</li><li><strong>Login IP Filters</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Search Settings</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Site Settings</strong></li><li><strong>Search</strong> tab</li><li>Basic Settings** subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Advanced Settings</strong> tab</li><li><strong>Search Criteria</strong> subtab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Site Settings</strong></li><li><strong>Search</strong> tab</li><li><strong>File Extensions</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Other Settings</strong> tab</li></ol><br>Field: Enable Request Filters</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Other Settings</strong> tab</li></ol><br>Field: <strong>Control Panel</strong></td>
+<td>(deprecated)</td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Other Settings</strong> tab</li></ol><br>Field: <strong>Enable Users Online</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Other Settings</strong> tab</li></ol><br>Field: <strong>Users Online Time</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Other Settings</strong> tab</li></ol><br>Fields:<ul><li><strong>Auto-Unlock Accounts After</strong></li><li><strong>Allowable File Extensions</strong></li><li>**Debug Mode</li><li><strong>Show Critical Errors on Screen</strong></li><li><strong>Max Upload Size</strong></li><li><strong>Time Before Timeout</strong></li></ul></td>
+<td><ol><li><strong>Settings &gt; Security</strong></li><li><strong>More</strong> tab</li><li><strong>More Security Settings</strong> subtab</li></ol><br>Fields:<ul><li><strong>Auto-Unlock Accounts After</strong></li><li><strong>Allowable File Extensions</strong></li><li><strong>Debug Mode</strong></li><li><strong>Show Critical Errors on Screen</strong></li><li><strong>Max Upload Size</strong></li><li><strong>Time Before Timeout</strong></li></ul></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Other Settings</strong> tab</li></ol><br>Field: Enable Event Log Buffer</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Other Settings</strong> tab</li></ol><br>Field: Help URL</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Other Settings</strong> tab</li></ol><br>Field: Enable Module Online Help</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Other Settings</strong> tab</li></ol><br>Field: Auto-Sync File System</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Other Settings</strong> tab</li></ol><br>Field: Allow Content Localization</td>
+<td></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Other Settings</strong> tab</li></ol><br>Field: Participate in DNN Improvement Program</td>
+<td><ul><li><strong>Settings &gt; Site Settings</strong></li><li><strong>Site Behavior</strong> tab</li><li><strong>More</strong> subtab</li><br>Field: Participate in DNN Improvement Program</ul></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Host Settings</strong></li><li><strong>Logs</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Servers</strong></li><li><strong>Server Settings</strong> tab</li><li><strong>Logs</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><strong>Host &gt; Knowledge Base</strong></td>
+<td><strong>[logo] &gt; Documentation</strong></td>
+</tr>
+<tr>
+<td><strong>Host &gt; Site Management</strong></td>
+<td><strong>Manage &gt; Sites</strong></td>
+</tr>
+</tbody>
+</table>
+<p><img src="/images/scr-menuHostAdvanced.png" alt="Old Control Panel/Bar menu - Host - Advanced"></p>
+<table>
+<thead>
+<tr>
+<th><strong>Control Panel/Bar</strong></th>
+<th><strong>Persona Bar</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Host &gt; Activate Your License</strong></td>
+<td>Settings &gt; About</td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Advanced URL management</strong></li><li><strong>General</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; SEO</strong></li><li><strong>URL Management</strong> tab</li><li><strong>General Settings</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Advanced URL management</strong></li><li><strong>Regular Expressions</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; SEO</strong></li><li><strong>URL Management</strong> tab</li><li><strong>Expressions</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><strong>Host &gt; Configuration Manager</strong></td>
+<td><strong>Settings &gt; Config Manager</strong></td>
+</tr>
+<tr>
+<td><strong>Host &gt; HTML Editor Manager</strong></td>
+<td><ol><li><strong>Settings &gt; Site Settings</strong></li><li><strong>Site Behavior</strong> tab</li><li><strong>More</strong> subtab</li></ol><br>Field: HTML Editor Manager</td>
+</tr>
+<tr>
+<td><strong>Host &gt; License Management</strong></td>
+<td><strong>Settings &gt; About</strong></td>
+</tr>
+<tr>
+<td><strong>Host &gt; Lists</strong></td>
+<td>(deprecated)</td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Manage Web Servers</strong></li><li><strong>Server Web Request Adapter</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Servers</strong></li><li><strong>Server Settings</strong> tab</li><li><strong>Web Servers</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Manage Web Servers</strong></li><li><strong>Caching</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Servers</strong></li><li><strong>Server Settings</strong> tab</li><li><strong>Performance</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Manage Web Servers</strong></li><li><strong>Servers</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Servers</strong></li><li><strong>Server Settings</strong> tab</li><li><strong>Web Servers</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Manage Web Servers</strong></li><li><strong>Memory Usage</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Servers</strong></li><li><strong>Server Settings</strong> tab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Manage Web Servers</strong></li><li><strong>SSL Offload Header Value</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Security</strong></li><li><strong>More</strong> tab</li><li><strong>SSL Settings</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><strong>Host &gt; My Support Tickets</strong></td>
+<td><ol><li><strong>[logo] &gt; Customer Portal</strong></li><li><strong>Open or View Support Tickets</strong> tab</li></ol></td>
+</tr>
+<tr>
+<td><strong>Host &gt; Schedule</strong></td>
+<td><ol><li><strong>Settings &gt; Scheduler</strong></li><li><strong>Scheduler</strong> tab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Security Analyzer</strong></li><li><strong>Audit Checks</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Security</strong></li><li><strong>Security Analyzer</strong> tab</li><li><strong>Audit Checks</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Security Analyzer</strong></li><li><strong>Search Filesystem and Database</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Security</strong></li><li><strong>Security Analyzer</strong> tab</li><li><strong>Scanner Check</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Security Analyzer</strong></li><li><strong>Super User Activity</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Security</strong></li><li><strong>Security Analyzer</strong> tab</li><li><strong>Super User Activity</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Security Analyzer</strong></li><li><strong>Recently Modified Files</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Security</strong></li><li><strong>Security Analyzer</strong> tab</li><li><strong>Scanner Check</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><ol><li><strong>Host &gt; Security Analyzer</strong></li><li><strong>Recently Modified Settings</strong> tab</li></ol></td>
+<td><ol><li><strong>Settings &gt; Security</strong></li><li><strong>Security Analyzer</strong> tab</li><li><strong>Scanner Check</strong> subtab</li></ol></td>
+</tr>
+<tr>
+<td><strong>Host &gt; Security Center</strong></td>
+<td><ol><li><strong>Settings &gt; Security</strong></li><li><strong>Security Bulletins</strong> tab</li></ol></td>
+</tr>
+<tr>
+<td><strong>Host &gt; SharePoint Connector</strong></td>
+<td>(deprecated)</td>
+</tr>
+<tr>
+<td><strong>Host &gt; Site Groups</strong></td>
+<td><ol><li><strong>Manage &gt; Sites</strong></li><li><strong>Site Groups</strong> tab</li></ol></td>
+</tr>
+<tr>
+<td><strong>Host &gt; SQL</strong></td>
+<td><strong>Settings &gt; SQL Console</strong></td>
+</tr>
+<tr>
+<td><strong>Host &gt; SuperUser Accounts</strong></td>
+<td><ol><li><strong>Manage &gt; Users</strong></li><li>From the <strong>Show</strong> dropdown, choose <strong>Superusers</strong>. tab</li></ol></td>
+</tr>
+<tr>
+<td><strong>Host &gt; User Switcher</strong></td>
+<td><ol><li><strong>Manage &gt; Users</strong></li><li>From the ellipses menu for the target account, choose <strong>Login As User</strong>. tab</li></ol></td>
+</tr>
+</tbody>
+</table>
+<h2 id="tools">Tools</h2>
+<p><img src="/images/scr-menuTools.png" alt="Old Control Panel/Bar menu - Tools"></p>
+<table>
+<thead>
+<tr>
+<th><strong>Control Panel/Bar</strong></th>
+<th><strong>Persona Bar</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Tools &gt; Clear Cache</strong></td>
+<td><ol><li><strong>Settings &gt; Servers</strong></li><li><strong>Clear Cache</strong> button tab</li></ol></td>
+</tr>
+<tr>
+<td><strong>Tools &gt; Restart Application</strong></td>
+<td><ol><li><strong>Settings &gt; Servers</strong></li><li><strong>Restart Application</strong> button tab</li></ol></td>
+</tr>
+<tr>
+<td><strong>Tools &gt; Go to website</strong></td>
+<td><strong>Manage &gt; Sites</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="help">Help</h2>
+<p><img src="/images/scr-menuHelp.png" alt="Old Control Panel/Bar menu - Help"></p>
+<table>
+<thead>
+<tr>
+<th><strong>Control Panel/Bar</strong></th>
+<th><strong>Persona Bar</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Help &gt; Online Help</strong></td>
+<td><strong>[logo] &gt; Documentation</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="modules">Modules</h2>
+<p><img src="/images/scr-menuModules.png" alt="Old Control Panel/Bar menu - Modules"></p>
+<table>
+<thead>
+<tr>
+<th><strong>Control Panel/Bar</strong></th>
+<th><strong>Persona Bar</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Modules &gt; Add New Module</strong></td>
+<td><strong>Edit Bar</strong> and on the page</td>
+</tr>
+<tr>
+<td><strong>Modules &gt; Add Existing Module</strong></td>
+<td><strong>Edit Bar</strong> and on the page</td>
+</tr>
+<tr>
+<td><strong>Modules &gt; Create Module</strong></td>
+<td><ol><li><strong>Settings &gt; Extensions</strong></li><li><strong>Create New Module</strong> button tab</li></ol></td>
+</tr>
+<tr>
+<td><strong>Modules &gt; Find More Modules</strong></td>
+<td>(deprecated)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pages">Pages</h2>
+<p><img src="/images/scr-menuPages.png" alt="Old Control Panel/Bar menu - Pages"></p>
+<table>
+<thead>
+<tr>
+<th><strong>Control Panel/Bar</strong></th>
+<th><strong>Persona Bar</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Pages &gt; Add New Page</strong></td>
+<td><ol><li><strong>Content &gt; Pages</strong></li><li><strong>Add Page</strong> or <strong>Add Multiple Pages</strong> tab</li></ol><br><a class="xref" href="../../../common/obsolete/index.html">how to</a></td>
+</tr>
+<tr>
+<td><strong>Pages &gt; Copy Page</strong></td>
+<td><strong>Content &gt; Pages</strong><br><a class="xref" href="../../../common/obsolete/index.html">how to</a></td>
+</tr>
+<tr>
+<td><strong>pages &gt; Copy Permissions to Children</strong></td>
+<td><ol><li><strong>Content &gt; Pages</strong></li><li>Click/Tap the gear icon, and go to the <strong>Permissions</strong> tab.</li><li><strong>Copy Permissions to Descendant Pages</strong> button subtab</li></ol></td>
+</tr>
+<tr>
+<td><strong>Pages &gt; Import Page</strong></td>
+<td><ol><li><strong>Content &gt; Pages</strong></li><li><strong>Add Page</strong> or <strong>Add Multiple Pages</strong> tab</li><li>In <strong>Template Mode</strong>, select <strong>Import from XML</strong>. subtab</li></ol></td>
+</tr>
+</tbody>
+</table>
+<h2 id="users">Users</h2>
+<p><img src="/images/scr-menuUsers.png" alt="Old Control Panel/Bar menu - Users"></p>
+<table>
+<thead>
+<tr>
+<th><strong>Control Panel/Bar</strong></th>
+<th><strong>Persona Bar</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Users &gt; Add New User</strong></td>
+<td><ol><li><strong>Manage &gt; Users</strong></li><li><strong>Add User</strong> button tab</li></ol><br>[<a class="xref" href="../../security/user-accounts/create-user-account/index.html">how to</a></td>
+</tr>
+<tr>
+<td><strong>Users &gt; Manage Users</strong></td>
+<td><ol><li><strong>Manage &gt; Users</strong></li><li><strong>Add User</strong> button tab</li></ol><br><a class="xref" href="../../security/user-accounts/about-user-accounts/index.html">[how to]</a></td>
+</tr>
+<tr>
+<td><strong>Users &gt; Manage Roles</strong></td>
+<td><strong>Manage &gt; Roles</strong><br><a class="xref" href="../../security/role-based-access/index.html">[how to]</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ondemand">OnDemand</h2>
+<p><img src="/images/scr-menuOnDemand.png" alt="Old Control Panel/Bar menu - OnDemand"></p>
+<table>
+<thead>
+<tr>
+<th><strong>Control Panel/Bar</strong></th>
+<th><strong>Persona Bar</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>OnDemand &gt; Manage Account</strong></td>
+<td>(not yet available)</td>
+</tr>
+<tr>
+<td><strong>OnDemand &gt; Manage Exports</strong></td>
+<td>(not yet available)</td>
+</tr>
+<tr>
+<td><strong>OnDemand &gt; Check for Updates</strong></td>
+<td><ol><li><strong>Settings &gt; Site Settings</strong></li><li><strong>Site Behavior</strong> tab</li><li><strong>More</strong> subtab</li></ol><br>Check for Software Upgrades</td>
+</tr>
+<tr>
+<td><strong>OnDemand &gt; Manage Updates</strong></td>
+<td>(not yet available)</td>
+</tr>
+<tr>
+<td><strong>OnDemand &gt; Start Site Maintenance</strong></td>
+<td>(not yet available)</td>
+</tr>
+<tr>
+<td><strong>OnDemand &gt; Getting Started Guide</strong></td>
+<td><strong>[logo] &gt; Documentation</strong></td>
+</tr>
+<tr>
+<td><strong>OnDemand &gt; Get Support</strong></td>
+<td><strong>[logo] &gt; Contact Support</strong></td>
+</tr>
+<tr>
+<td><strong>OnDemand &gt; FTP Access</strong></td>
+<td>(not yet available)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="edit-page">Edit Page</h2>
+<p><img src="/images/scr-menuEditPage.png" alt="Old Control Panel/Bar menu - Edit Page"></p>
+<table>
+<thead>
+<tr>
+<th><strong>Control Panel/Bar</strong></th>
+<th><strong>Persona Bar</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Edit Page</strong></td>
+<td><strong>Edit</strong> (pencil) icon at the bottom of the Persona Bar</td>
+</tr>
+</tbody>
+</table>
+<div class="related-topics" hidden=""><span><a href="/content/tutorials/references/included-modules/administrators-included-modules-overview/index.html">Included Modules</a></span><span><a href="/content/tutorials/references/persona-bar-by-role/index.html">Persona Bar by Role</a></span><span><a href="/content/tutorials/references/providers-reference/index.html">Providers Reference</a></span></div></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

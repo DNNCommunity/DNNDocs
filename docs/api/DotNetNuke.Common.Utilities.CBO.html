@@ -1,0 +1,2911 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CBO
+    -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CBO
+    -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Common.Utilities.CBO">
+  
+  
+  <h1 id="DotNetNuke_Common_Utilities_CBO" data-uid="DotNetNuke.Common.Utilities.CBO" class="text-break">Class CBO
+  </h1>
+  <div class="markdown level0 summary"><p>The CBO class generates objects.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;<a class="xref" href="DotNetNuke.Common.Utilities.ICBO.html">ICBO</a>, <a class="xref" href="DotNetNuke.Common.Utilities.CBO.html">CBO</a>&gt;</div>
+    <div class="level2"><span class="xref">CBO</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="DotNetNuke.Common.Utilities.ICBO.html">ICBO</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html#DotNetNuke_Framework_ServiceLocator_2_Instance">ServiceLocator&lt;ICBO, CBO&gt;.Instance</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html#DotNetNuke_Framework_ServiceLocator_2_Factory">ServiceLocator&lt;ICBO, CBO&gt;.Factory</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html#DotNetNuke_Framework_ServiceLocator_2_SetTestableInstance__0_">ServiceLocator&lt;ICBO, CBO&gt;.SetTestableInstance(ICBO)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html#DotNetNuke_Framework_ServiceLocator_2_ClearInstance">ServiceLocator&lt;ICBO, CBO&gt;.ClearInstance()</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html#DotNetNuke_Framework_ServiceLocator_2_GetFactory">ServiceLocator&lt;ICBO, CBO&gt;.GetFactory()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Common.Utilities.html">DotNetNuke.Common.Utilities</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Common_Utilities_CBO_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CBO : ServiceLocator&lt;ICBO, CBO&gt;, ICBO</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_CloneObject_System_Object_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.CloneObject(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L40">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_CloneObject_" data-uid="DotNetNuke.Common.Utilities.CBO.CloneObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_CloneObject_System_Object_" data-uid="DotNetNuke.Common.Utilities.CBO.CloneObject(System.Object)">CloneObject(Object)</h4>
+  <div class="markdown level1 summary"><p>CloneObject clones an object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object CloneObject(object objObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">objObject</span></td>
+        <td><p>The Object to Clone.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_CloseDataReader_IDataReader_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.CloseDataReader(IDataReader%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L99">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_CloseDataReader_" data-uid="DotNetNuke.Common.Utilities.CBO.CloseDataReader*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_CloseDataReader_IDataReader_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.CBO.CloseDataReader(IDataReader,System.Boolean)">CloseDataReader(IDataReader, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CloseDataReader(IDataReader dr, bool closeReader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">closeReader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_CreateObject_Type_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.CreateObject(Type%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Obsolete/CBO.cs/#L25">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_CreateObject_" data-uid="DotNetNuke.Common.Utilities.CBO.CreateObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_CreateObject_Type_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.CBO.CreateObject(Type,System.Boolean)">CreateObject(Type, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object CreateObject(Type objType, bool initialise)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">objType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">initialise</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_CreateObject__1.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.CreateObject%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Obsolete/CBO.cs/#L18">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_CreateObject_" data-uid="DotNetNuke.Common.Utilities.CBO.CreateObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_CreateObject__1" data-uid="DotNetNuke.Common.Utilities.CBO.CreateObject``1">CreateObject&lt;TObject&gt;()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TObject CreateObject&lt;TObject&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_CreateObject__1_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.CreateObject%60%601(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L120">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_CreateObject_" data-uid="DotNetNuke.Common.Utilities.CBO.CreateObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_CreateObject__1_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.CBO.CreateObject``1(System.Boolean)">CreateObject&lt;TObject&gt;(Boolean)</h4>
+  <div class="markdown level1 summary"><p>CreateObject creates a new object of Type TObject.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TObject CreateObject&lt;TObject&gt;(bool initialise)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">initialise</span></td>
+        <td><p>A flag that indicates whether to initialise the
+object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td><p>The type of object to create.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_DeserializeObject__1_Stream_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.DeserializeObject%60%601(Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L135">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_DeserializeObject_" data-uid="DotNetNuke.Common.Utilities.CBO.DeserializeObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_DeserializeObject__1_Stream_" data-uid="DotNetNuke.Common.Utilities.CBO.DeserializeObject``1(Stream)">DeserializeObject&lt;TObject&gt;(Stream)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TObject DeserializeObject&lt;TObject&gt;(Stream stream)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_DeserializeObject__1_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.DeserializeObject%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L125">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_DeserializeObject_" data-uid="DotNetNuke.Common.Utilities.CBO.DeserializeObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_DeserializeObject__1_System_String_" data-uid="DotNetNuke.Common.Utilities.CBO.DeserializeObject``1(System.String)">DeserializeObject&lt;TObject&gt;(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TObject DeserializeObject&lt;TObject&gt;(string fileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_DeserializeObject__1_TextReader_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.DeserializeObject%60%601(TextReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L140">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_DeserializeObject_" data-uid="DotNetNuke.Common.Utilities.CBO.DeserializeObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_DeserializeObject__1_TextReader_" data-uid="DotNetNuke.Common.Utilities.CBO.DeserializeObject``1(TextReader)">DeserializeObject&lt;TObject&gt;(TextReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TObject DeserializeObject&lt;TObject&gt;(TextReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_DeserializeObject__1_XmlDocument_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.DeserializeObject%60%601(XmlDocument)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L130">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_DeserializeObject_" data-uid="DotNetNuke.Common.Utilities.CBO.DeserializeObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_DeserializeObject__1_XmlDocument_" data-uid="DotNetNuke.Common.Utilities.CBO.DeserializeObject``1(XmlDocument)">DeserializeObject&lt;TObject&gt;(XmlDocument)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TObject DeserializeObject&lt;TObject&gt;(XmlDocument document)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">XmlDocument</span></td>
+        <td><span class="parametername">document</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_DeserializeObject__1_XmlReader_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.DeserializeObject%60%601(XmlReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L145">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_DeserializeObject_" data-uid="DotNetNuke.Common.Utilities.CBO.DeserializeObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_DeserializeObject__1_XmlReader_" data-uid="DotNetNuke.Common.Utilities.CBO.DeserializeObject``1(XmlReader)">DeserializeObject&lt;TObject&gt;(XmlReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TObject DeserializeObject&lt;TObject&gt;(XmlReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">XmlReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_DeserializeSettings_IDictionary_XmlNode_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.DeserializeSettings(IDictionary%2CXmlNode%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L412">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_DeserializeSettings_" data-uid="DotNetNuke.Common.Utilities.CBO.DeserializeSettings*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_DeserializeSettings_IDictionary_XmlNode_System_String_" data-uid="DotNetNuke.Common.Utilities.CBO.DeserializeSettings(IDictionary,XmlNode,System.String)">DeserializeSettings(IDictionary, XmlNode, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeserializeSettings(IDictionary dictionary, XmlNode rootNode, string elementName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDictionary</span></td>
+        <td><span class="parametername">dictionary</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">XmlNode</span></td>
+        <td><span class="parametername">rootNode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">elementName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_FillCollection_IDataReader_Type_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.FillCollection(IDataReader%2CType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L175">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_FillCollection_" data-uid="DotNetNuke.Common.Utilities.CBO.FillCollection*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_FillCollection_IDataReader_Type_" data-uid="DotNetNuke.Common.Utilities.CBO.FillCollection(IDataReader,Type)">FillCollection(IDataReader, Type)</h4>
+  <div class="markdown level1 summary"><p>FillCollection fills a Collection of objects from a DataReader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ArrayList FillCollection(IDataReader dr, Type objType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td><p>The Data Reader.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">objType</span></td>
+        <td><p>The type of the Object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ArrayList</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_FillCollection_IDataReader_Type_IList__.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.FillCollection(IDataReader%2CType%2CIList%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L203">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_FillCollection_" data-uid="DotNetNuke.Common.Utilities.CBO.FillCollection*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_FillCollection_IDataReader_Type_IList__" data-uid="DotNetNuke.Common.Utilities.CBO.FillCollection(IDataReader,Type,IList@)">FillCollection(IDataReader, Type, ref IList)</h4>
+  <div class="markdown level1 summary"><p>FillCollection fills a Collection of objects from a DataReader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IList FillCollection(IDataReader dr, Type objType, ref IList objToFill)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td><p>The Data Reader.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">objType</span></td>
+        <td><p>The type of the Object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IList</span></td>
+        <td><span class="parametername">objToFill</span></td>
+        <td><p>An IList to fill.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_FillCollection_IDataReader_Type_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.FillCollection(IDataReader%2CType%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L189">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_FillCollection_" data-uid="DotNetNuke.Common.Utilities.CBO.FillCollection*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_FillCollection_IDataReader_Type_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.CBO.FillCollection(IDataReader,Type,System.Boolean)">FillCollection(IDataReader, Type, Boolean)</h4>
+  <div class="markdown level1 summary"><p>FillCollection fills a Collection of objects from a DataReader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ArrayList FillCollection(IDataReader dr, Type objType, bool closeReader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td><p>The Data Reader.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">objType</span></td>
+        <td><p>The type of the Object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">closeReader</span></td>
+        <td><p>Flag that indicates whether the Data Reader should be closed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ArrayList</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_FillCollection_IDataReader_Type__System_Int32__.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.FillCollection(IDataReader%2CType%40%2CSystem.Int32%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L261">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_FillCollection_" data-uid="DotNetNuke.Common.Utilities.CBO.FillCollection*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_FillCollection_IDataReader_Type__System_Int32__" data-uid="DotNetNuke.Common.Utilities.CBO.FillCollection(IDataReader,Type@,System.Int32@)">FillCollection(IDataReader, ref Type, ref Int32)</h4>
+  <div class="markdown level1 summary"><p>Generic version of FillCollection fills a List custom business object of a specified type
+from the supplied DataReader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ArrayList FillCollection(IDataReader dr, ref Type objType, ref int totalRecords)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td><p>The IDataReader to use to fill the object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">objType</span></td>
+        <td><p>The type of the Object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">totalRecords</span></td>
+        <td><p>The total No of records.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ArrayList</span></td>
+        <td><p>A List of custom business objects.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_FillCollection__1_IDataReader_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.FillCollection%60%601(IDataReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L216">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_FillCollection_" data-uid="DotNetNuke.Common.Utilities.CBO.FillCollection*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_FillCollection__1_IDataReader_" data-uid="DotNetNuke.Common.Utilities.CBO.FillCollection``1(IDataReader)">FillCollection&lt;TItem&gt;(IDataReader)</h4>
+  <div class="markdown level1 summary"><p>FillCollection fills a Collection of objects from a DataReader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;TItem&gt; FillCollection&lt;TItem&gt;(IDataReader dr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td><p>The Data Reader.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;TItem&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TItem</span></td>
+        <td><p>The type of object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_FillCollection__1_IDataReader_IList___0__System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.FillCollection%60%601(IDataReader%2CIList%7B%60%600%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L245">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_FillCollection_" data-uid="DotNetNuke.Common.Utilities.CBO.FillCollection*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_FillCollection__1_IDataReader_IList___0__System_Boolean_" data-uid="DotNetNuke.Common.Utilities.CBO.FillCollection``1(IDataReader,IList{``0},System.Boolean)">FillCollection&lt;TItem&gt;(IDataReader, IList&lt;TItem&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>FillCollection fills a List of objects from a DataReader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IList&lt;TItem&gt; FillCollection&lt;TItem&gt;(IDataReader dr, IList&lt;TItem&gt; objToFill, bool closeReader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td><p>The Data Reader.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IList</span>&lt;TItem&gt;</td>
+        <td><span class="parametername">objToFill</span></td>
+        <td><p>The List to fill.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">closeReader</span></td>
+        <td><p>A flag that indicates whether the DataReader should be closed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;TItem&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TItem</span></td>
+        <td><p>The type of the Object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_FillCollection__1_IDataReader_IList___0___.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.FillCollection%60%601(IDataReader%2CIList%7B%60%600%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L230">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_FillCollection_" data-uid="DotNetNuke.Common.Utilities.CBO.FillCollection*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_FillCollection__1_IDataReader_IList___0___" data-uid="DotNetNuke.Common.Utilities.CBO.FillCollection``1(IDataReader,IList{``0}@)">FillCollection&lt;TItem&gt;(IDataReader, ref IList&lt;TItem&gt;)</h4>
+  <div class="markdown level1 summary"><p>FillCollection fills a Collection of objects from a DataReader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IList&lt;TItem&gt; FillCollection&lt;TItem&gt;(IDataReader dr, ref IList&lt;TItem&gt; objToFill)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td><p>The Data Reader.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IList</span>&lt;TItem&gt;</td>
+        <td><span class="parametername">objToFill</span></td>
+        <td><p>The List to fill.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;TItem&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TItem</span></td>
+        <td><p>The type of object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_FillCollection__1_IDataReader_System_Int32__.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.FillCollection%60%601(IDataReader%2CSystem.Int32%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L296">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_FillCollection_" data-uid="DotNetNuke.Common.Utilities.CBO.FillCollection*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_FillCollection__1_IDataReader_System_Int32__" data-uid="DotNetNuke.Common.Utilities.CBO.FillCollection``1(IDataReader,System.Int32@)">FillCollection&lt;T&gt;(IDataReader, ref Int32)</h4>
+  <div class="markdown level1 summary"><p>Generic version of FillCollection fills a List custom business object of a specified type
+from the supplied DataReader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;T&gt; FillCollection&lt;T&gt;(IDataReader dr, ref int totalRecords)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td><p>The IDataReader to use to fill the object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">totalRecords</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;T&gt;</td>
+        <td><p>A List of custom business objects.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the business object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_FillDictionary__1_IDataReader_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.FillDictionary%60%601(IDataReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Obsolete/CBO.cs/#L32">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_FillDictionary_" data-uid="DotNetNuke.Common.Utilities.CBO.FillDictionary*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_FillDictionary__1_IDataReader_" data-uid="DotNetNuke.Common.Utilities.CBO.FillDictionary``1(IDataReader)">FillDictionary&lt;TItem&gt;(IDataReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDictionary&lt;int, TItem&gt; FillDictionary&lt;TItem&gt;(IDataReader dr)
+    where TItem : IHydratable</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.Int32</span>, TItem&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TItem</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_FillDictionary__1_IDataReader_IDictionary_System_Int32___0___.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.FillDictionary%60%601(IDataReader%2CIDictionary%7BSystem.Int32%2C%60%600%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Obsolete/CBO.cs/#L40">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_FillDictionary_" data-uid="DotNetNuke.Common.Utilities.CBO.FillDictionary*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_FillDictionary__1_IDataReader_IDictionary_System_Int32___0___" data-uid="DotNetNuke.Common.Utilities.CBO.FillDictionary``1(IDataReader,IDictionary{System.Int32,``0}@)">FillDictionary&lt;TItem&gt;(IDataReader, ref IDictionary&lt;Int32, TItem&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDictionary&lt;int, TItem&gt; FillDictionary&lt;TItem&gt;(IDataReader dr, ref IDictionary&lt;int, TItem&gt; objToFill)
+    where TItem : IHydratable</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.Int32</span>, TItem&gt;</td>
+        <td><span class="parametername">objToFill</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.Int32</span>, TItem&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TItem</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_FillDictionary__2_System_String_IDataReader_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.FillDictionary%60%602(System.String%2CIDataReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L328">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_FillDictionary_" data-uid="DotNetNuke.Common.Utilities.CBO.FillDictionary*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_FillDictionary__2_System_String_IDataReader_" data-uid="DotNetNuke.Common.Utilities.CBO.FillDictionary``2(System.String,IDataReader)">FillDictionary&lt;TKey, TValue&gt;(String, IDataReader)</h4>
+  <div class="markdown level1 summary"><p>FillDictionary fills a Dictionary of objects from a DataReader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;TKey, TValue&gt; FillDictionary&lt;TKey, TValue&gt;(string keyField, IDataReader dr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keyField</span></td>
+        <td><p>The key field used for the Key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td><p>The Data Reader.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary</span>&lt;TKey, TValue&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td><p>The key for the Dictionary.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>The value for the Dictionary Item.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_FillDictionary__2_System_String_IDataReader_IDictionary___0___1__.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.FillDictionary%60%602(System.String%2CIDataReader%2CIDictionary%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L359">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_FillDictionary_" data-uid="DotNetNuke.Common.Utilities.CBO.FillDictionary*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_FillDictionary__2_System_String_IDataReader_IDictionary___0___1__" data-uid="DotNetNuke.Common.Utilities.CBO.FillDictionary``2(System.String,IDataReader,IDictionary{``0,``1})">FillDictionary&lt;TKey, TValue&gt;(String, IDataReader, IDictionary&lt;TKey, TValue&gt;)</h4>
+  <div class="markdown level1 summary"><p>FillDictionary fills a Dictionary of objects from a DataReader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;TKey, TValue&gt; FillDictionary&lt;TKey, TValue&gt;(string keyField, IDataReader dr, IDictionary&lt;TKey, TValue&gt; objDictionary)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keyField</span></td>
+        <td><p>The key field used for the Key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td><p>The Data Reader.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IDictionary</span>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">objDictionary</span></td>
+        <td><p>The Dictionary to fill.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary</span>&lt;TKey, TValue&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td><p>The key for the Dictionary.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>The value for the Dictionary Item.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_FillDictionary__2_System_String_IDataReader_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.FillDictionary%60%602(System.String%2CIDataReader%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L343">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_FillDictionary_" data-uid="DotNetNuke.Common.Utilities.CBO.FillDictionary*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_FillDictionary__2_System_String_IDataReader_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.CBO.FillDictionary``2(System.String,IDataReader,System.Boolean)">FillDictionary&lt;TKey, TValue&gt;(String, IDataReader, Boolean)</h4>
+  <div class="markdown level1 summary"><p>FillDictionary fills a Dictionary of objects from a DataReader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;TKey, TValue&gt; FillDictionary&lt;TKey, TValue&gt;(string keyField, IDataReader dr, bool closeReader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keyField</span></td>
+        <td><p>The key field used for the Key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td><p>The Data Reader.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">closeReader</span></td>
+        <td><p>A flag indicating whether to close the reader.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary</span>&lt;TKey, TValue&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td><p>The key for the Dictionary.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>The value for the Dictionary Item.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_FillObject_IDataReader_Type_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.FillObject(IDataReader%2CType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Obsolete/CBO.cs/#L48">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_FillObject_" data-uid="DotNetNuke.Common.Utilities.CBO.FillObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_FillObject_IDataReader_Type_" data-uid="DotNetNuke.Common.Utilities.CBO.FillObject(IDataReader,Type)">FillObject(IDataReader, Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object FillObject(IDataReader dr, Type objType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">objType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_FillObject_IDataReader_Type_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.FillObject(IDataReader%2CType%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Obsolete/CBO.cs/#L55">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_FillObject_" data-uid="DotNetNuke.Common.Utilities.CBO.FillObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_FillObject_IDataReader_Type_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.CBO.FillObject(IDataReader,Type,System.Boolean)">FillObject(IDataReader, Type, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object FillObject(IDataReader dr, Type objType, bool closeReader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">objType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">closeReader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_FillObject__1_IDataReader_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.FillObject%60%601(IDataReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L372">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_FillObject_" data-uid="DotNetNuke.Common.Utilities.CBO.FillObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_FillObject__1_IDataReader_" data-uid="DotNetNuke.Common.Utilities.CBO.FillObject``1(IDataReader)">FillObject&lt;TObject&gt;(IDataReader)</h4>
+  <div class="markdown level1 summary"><p>FillObject fills an object from a DataReader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TObject FillObject&lt;TObject&gt;(IDataReader dr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td><p>The Data Reader.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td><p>The type of the object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_FillObject__1_IDataReader_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.FillObject%60%601(IDataReader%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L386">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_FillObject_" data-uid="DotNetNuke.Common.Utilities.CBO.FillObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_FillObject__1_IDataReader_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.CBO.FillObject``1(IDataReader,System.Boolean)">FillObject&lt;TObject&gt;(IDataReader, Boolean)</h4>
+  <div class="markdown level1 summary"><p>FillObject fills an object from a DataReader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TObject FillObject&lt;TObject&gt;(IDataReader dr, bool closeReader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td><p>The Data Reader.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">closeReader</span></td>
+        <td><p>A flag that indicates the reader should be closed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td><p>The type of the object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_FillQueryable__1_IDataReader_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.FillQueryable%60%601(IDataReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L391">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_FillQueryable_" data-uid="DotNetNuke.Common.Utilities.CBO.FillQueryable*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_FillQueryable__1_IDataReader_" data-uid="DotNetNuke.Common.Utilities.CBO.FillQueryable``1(IDataReader)">FillQueryable&lt;TItem&gt;(IDataReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IQueryable&lt;TItem&gt; FillQueryable&lt;TItem&gt;(IDataReader dr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IQueryable</span>&lt;TItem&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TItem</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_FillSortedList__2_System_String_IDataReader_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.FillSortedList%60%602(System.String%2CIDataReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L406">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_FillSortedList_" data-uid="DotNetNuke.Common.Utilities.CBO.FillSortedList*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_FillSortedList__2_System_String_IDataReader_" data-uid="DotNetNuke.Common.Utilities.CBO.FillSortedList``2(System.String,IDataReader)">FillSortedList&lt;TKey, TValue&gt;(String, IDataReader)</h4>
+  <div class="markdown level1 summary"><p>FillSortedList fills a SortedList of objects from a DataReader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SortedList&lt;TKey, TValue&gt; FillSortedList&lt;TKey, TValue&gt;(string keyField, IDataReader dr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keyField</span></td>
+        <td><p>The key field used for the Key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td><p>The Data Reader.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SortedList</span>&lt;TKey, TValue&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td><p>The key for the SortedList.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>The value for the SortedList Item.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_GetCachedObject__1_DotNetNuke_Common_Utilities_CacheItemArgs_DotNetNuke_Common_Utilities_CacheItemExpiredCallback_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.GetCachedObject%60%601(DotNetNuke.Common.Utilities.CacheItemArgs%2CDotNetNuke.Common.Utilities.CacheItemExpiredCallback)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L477">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_GetCachedObject_" data-uid="DotNetNuke.Common.Utilities.CBO.GetCachedObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_GetCachedObject__1_DotNetNuke_Common_Utilities_CacheItemArgs_DotNetNuke_Common_Utilities_CacheItemExpiredCallback_" data-uid="DotNetNuke.Common.Utilities.CBO.GetCachedObject``1(DotNetNuke.Common.Utilities.CacheItemArgs,DotNetNuke.Common.Utilities.CacheItemExpiredCallback)">GetCachedObject&lt;TObject&gt;(CacheItemArgs, CacheItemExpiredCallback)</h4>
+  <div class="markdown level1 summary"><p>GetCachedObject gets an object from the Cache.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TObject GetCachedObject&lt;TObject&gt;(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Common.Utilities.CacheItemArgs.html">CacheItemArgs</a></td>
+        <td><span class="parametername">cacheItemArgs</span></td>
+        <td><p>A CacheItemArgs object that provides parameters to manage the
+cache AND to fetch the item if the cache has expired.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Common.Utilities.CacheItemExpiredCallback.html">CacheItemExpiredCallback</a></td>
+        <td><span class="parametername">cacheItemExpired</span></td>
+        <td><p>A CacheItemExpiredCallback delegate that is used to repopulate
+the cache if the item has expired.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td><p>The type of th object to fetch.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_GetCachedObject__1_DotNetNuke_Common_Utilities_CacheItemArgs_DotNetNuke_Common_Utilities_CacheItemExpiredCallback_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.GetCachedObject%60%601(DotNetNuke.Common.Utilities.CacheItemArgs%2CDotNetNuke.Common.Utilities.CacheItemExpiredCallback%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L482">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_GetCachedObject_" data-uid="DotNetNuke.Common.Utilities.CBO.GetCachedObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_GetCachedObject__1_DotNetNuke_Common_Utilities_CacheItemArgs_DotNetNuke_Common_Utilities_CacheItemExpiredCallback_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.CBO.GetCachedObject``1(DotNetNuke.Common.Utilities.CacheItemArgs,DotNetNuke.Common.Utilities.CacheItemExpiredCallback,System.Boolean)">GetCachedObject&lt;TObject&gt;(CacheItemArgs, CacheItemExpiredCallback, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TObject GetCachedObject&lt;TObject&gt;(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired, bool saveInDictionary)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Common.Utilities.CacheItemArgs.html">CacheItemArgs</a></td>
+        <td><span class="parametername">cacheItemArgs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Common.Utilities.CacheItemExpiredCallback.html">CacheItemExpiredCallback</a></td>
+        <td><span class="parametername">cacheItemExpired</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">saveInDictionary</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_GetFactory.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.GetFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L648">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_GetFactory_" data-uid="DotNetNuke.Common.Utilities.CBO.GetFactory*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_GetFactory" data-uid="DotNetNuke.Common.Utilities.CBO.GetFactory">GetFactory()</h4>
+  <div class="markdown level1 summary"><p>Gets the service locator factory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override Func&lt;ICBO&gt; GetFactory()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<a class="xref" href="DotNetNuke.Common.Utilities.ICBO.html">ICBO</a>&gt;</td>
+        <td><p>A factory function.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">DotNetNuke.Framework.ServiceLocator&lt;DotNetNuke.Common.Utilities.ICBO, DotNetNuke.Common.Utilities.CBO&gt;.GetFactory()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_GetProperties_Type_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.GetProperties(Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L506">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_GetProperties_" data-uid="DotNetNuke.Common.Utilities.CBO.GetProperties*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_GetProperties_Type_" data-uid="DotNetNuke.Common.Utilities.CBO.GetProperties(Type)">GetProperties(Type)</h4>
+  <div class="markdown level1 summary"><p>GetProperties gets a Dictionary of the Properties for an object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, PropertyInfo&gt; GetProperties(Type objType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">objType</span></td>
+        <td><p>The type of the object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">PropertyInfo</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_GetProperties__1.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.GetProperties%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L494">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_GetProperties_" data-uid="DotNetNuke.Common.Utilities.CBO.GetProperties*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_GetProperties__1" data-uid="DotNetNuke.Common.Utilities.CBO.GetProperties``1">GetProperties&lt;TObject&gt;()</h4>
+  <div class="markdown level1 summary"><p>GetProperties gets a Dictionary of the Properties for an object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, PropertyInfo&gt; GetProperties&lt;TObject&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">PropertyInfo</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td><p>The type of the object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_InitializeObject_System_Object_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.InitializeObject(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L518">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_InitializeObject_" data-uid="DotNetNuke.Common.Utilities.CBO.InitializeObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_InitializeObject_System_Object_" data-uid="DotNetNuke.Common.Utilities.CBO.InitializeObject(System.Object)">InitializeObject(Object)</h4>
+  <div class="markdown level1 summary"><p>InitializeObject initialises all the properties of an object to their
+Null Values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InitializeObject(object objObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">objObject</span></td>
+        <td><p>The object to Initialise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_InitializeObject_System_Object_Type_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.InitializeObject(System.Object%2CType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L539">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_InitializeObject_" data-uid="DotNetNuke.Common.Utilities.CBO.InitializeObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_InitializeObject_System_Object_Type_" data-uid="DotNetNuke.Common.Utilities.CBO.InitializeObject(System.Object,Type)">InitializeObject(Object, Type)</h4>
+  <div class="markdown level1 summary"><p>InitializeObject initialises all the properties of an object to their
+Null Values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object InitializeObject(object objObject, Type objType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">objObject</span></td>
+        <td><p>The object to Initialise.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">objType</span></td>
+        <td><p>The type of the object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_SerializeObject_System_Object_Stream_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.SerializeObject(System.Object%2CStream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L597">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_SerializeObject_" data-uid="DotNetNuke.Common.Utilities.CBO.SerializeObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_SerializeObject_System_Object_Stream_" data-uid="DotNetNuke.Common.Utilities.CBO.SerializeObject(System.Object,Stream)">SerializeObject(Object, Stream)</h4>
+  <div class="markdown level1 summary"><p>SerializeObject serializes an Object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SerializeObject(object objObject, Stream stream)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">objObject</span></td>
+        <td><p>The object to Initialise.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>A Stream to serialize to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_SerializeObject_System_Object_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.SerializeObject(System.Object%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L560">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_SerializeObject_" data-uid="DotNetNuke.Common.Utilities.CBO.SerializeObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_SerializeObject_System_Object_System_String_" data-uid="DotNetNuke.Common.Utilities.CBO.SerializeObject(System.Object,System.String)">SerializeObject(Object, String)</h4>
+  <div class="markdown level1 summary"><p>SerializeObject serializes an Object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SerializeObject(object objObject, string fileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">objObject</span></td>
+        <td><p>The object to Initialise.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>A filename for the resulting serialized xml.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_SerializeObject_System_Object_TextWriter_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.SerializeObject(System.Object%2CTextWriter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L613">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_SerializeObject_" data-uid="DotNetNuke.Common.Utilities.CBO.SerializeObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_SerializeObject_System_Object_TextWriter_" data-uid="DotNetNuke.Common.Utilities.CBO.SerializeObject(System.Object,TextWriter)">SerializeObject(Object, TextWriter)</h4>
+  <div class="markdown level1 summary"><p>SerializeObject serializes an Object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SerializeObject(object objObject, TextWriter textWriter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">objObject</span></td>
+        <td><p>The object to Initialise.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TextWriter</span></td>
+        <td><span class="parametername">textWriter</span></td>
+        <td><p>A TextWriter to serialize to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_SerializeObject_System_Object_XmlDocument_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.SerializeObject(System.Object%2CXmlDocument)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L577">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_SerializeObject_" data-uid="DotNetNuke.Common.Utilities.CBO.SerializeObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_SerializeObject_System_Object_XmlDocument_" data-uid="DotNetNuke.Common.Utilities.CBO.SerializeObject(System.Object,XmlDocument)">SerializeObject(Object, XmlDocument)</h4>
+  <div class="markdown level1 summary"><p>SerializeObject serializes an Object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SerializeObject(object objObject, XmlDocument document)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">objObject</span></td>
+        <td><p>The object to Initialise.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">XmlDocument</span></td>
+        <td><span class="parametername">document</span></td>
+        <td><p>An XmlDocument to serialize to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_SerializeObject_System_Object_XmlWriter_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.SerializeObject(System.Object%2CXmlWriter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L630">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_SerializeObject_" data-uid="DotNetNuke.Common.Utilities.CBO.SerializeObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_SerializeObject_System_Object_XmlWriter_" data-uid="DotNetNuke.Common.Utilities.CBO.SerializeObject(System.Object,XmlWriter)">SerializeObject(Object, XmlWriter)</h4>
+  <div class="markdown level1 summary"><p>SerializeObject serializes an Object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SerializeObject(object objObject, XmlWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">objObject</span></td>
+        <td><p>The object to Initialise.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">XmlWriter</span></td>
+        <td><span class="parametername">writer</span></td>
+        <td><p>An XmlWriter to serialize to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_SerializeSettings_IDictionary_XmlDocument_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.SerializeSettings(IDictionary%2CXmlDocument%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L435">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_SerializeSettings_" data-uid="DotNetNuke.Common.Utilities.CBO.SerializeSettings*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_SerializeSettings_IDictionary_XmlDocument_System_String_System_String_" data-uid="DotNetNuke.Common.Utilities.CBO.SerializeSettings(IDictionary,XmlDocument,System.String,System.String)">SerializeSettings(IDictionary, XmlDocument, String, String)</h4>
+  <div class="markdown level1 summary"><p>Iterates items in a IDictionary object and generates XML nodes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SerializeSettings(IDictionary dictionary, XmlDocument document, string targetPath, string elementName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDictionary</span></td>
+        <td><span class="parametername">dictionary</span></td>
+        <td><p>The IDictionary to iterate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">XmlDocument</span></td>
+        <td><span class="parametername">document</span></td>
+        <td><p>The XML document the node should be added to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetPath</span></td>
+        <td><p>Path at which to serialize settings.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">elementName</span></td>
+        <td><p>The name of the new element created.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_DotNetNuke_Common_Utilities_ICBO_FillCollection__1_IDataReader_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.DotNetNuke%23Common%23Utilities%23ICBO%23FillCollection%60%601(IDataReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L1052">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_DotNetNuke_Common_Utilities_ICBO_FillCollection_" data-uid="DotNetNuke.Common.Utilities.CBO.DotNetNuke#Common#Utilities#ICBO#FillCollection*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_DotNetNuke_Common_Utilities_ICBO_FillCollection__1_IDataReader_" data-uid="DotNetNuke.Common.Utilities.CBO.DotNetNuke#Common#Utilities#ICBO#FillCollection``1(IDataReader)">ICBO.FillCollection&lt;TObject&gt;(IDataReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;TItem&gt; ICBO.FillCollection&lt;TItem&gt;(IDataReader dr)
+    where TItem : new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;TItem&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TItem</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_DotNetNuke_Common_Utilities_ICBO_FillObject__1_IDataReader_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.DotNetNuke%23Common%23Utilities%23ICBO%23FillObject%60%601(IDataReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L1058">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_DotNetNuke_Common_Utilities_ICBO_FillObject_" data-uid="DotNetNuke.Common.Utilities.CBO.DotNetNuke#Common#Utilities#ICBO#FillObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_DotNetNuke_Common_Utilities_ICBO_FillObject__1_IDataReader_" data-uid="DotNetNuke.Common.Utilities.CBO.DotNetNuke#Common#Utilities#ICBO#FillObject``1(IDataReader)">ICBO.FillObject&lt;TObject&gt;(IDataReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TObject ICBO.FillObject&lt;TObject&gt;(IDataReader dr)
+    where TObject : new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Common_Utilities_CBO_DotNetNuke_Common_Utilities_ICBO_GetCachedObject__1_DotNetNuke_Common_Utilities_CacheItemArgs_DotNetNuke_Common_Utilities_CacheItemExpiredCallback_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CBO.DotNetNuke%23Common%23Utilities%23ICBO%23GetCachedObject%60%601(DotNetNuke.Common.Utilities.CacheItemArgs%2CDotNetNuke.Common.Utilities.CacheItemExpiredCallback%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CBO.cs/#L1064">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CBO_DotNetNuke_Common_Utilities_ICBO_GetCachedObject_" data-uid="DotNetNuke.Common.Utilities.CBO.DotNetNuke#Common#Utilities#ICBO#GetCachedObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_DotNetNuke_Common_Utilities_ICBO_GetCachedObject__1_DotNetNuke_Common_Utilities_CacheItemArgs_DotNetNuke_Common_Utilities_CacheItemExpiredCallback_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.CBO.DotNetNuke#Common#Utilities#ICBO#GetCachedObject``1(DotNetNuke.Common.Utilities.CacheItemArgs,DotNetNuke.Common.Utilities.CacheItemExpiredCallback,System.Boolean)">ICBO.GetCachedObject&lt;TObject&gt;(CacheItemArgs, CacheItemExpiredCallback, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TObject ICBO.GetCachedObject&lt;TObject&gt;(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired, bool saveInDictionary)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Common.Utilities.CacheItemArgs.html">CacheItemArgs</a></td>
+        <td><span class="parametername">cacheItemArgs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Common.Utilities.CacheItemExpiredCallback.html">CacheItemExpiredCallback</a></td>
+        <td><span class="parametername">cacheItemExpired</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">saveInDictionary</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.ICBO.html">ICBO</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Obsolete/CBO.cs/#L16" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

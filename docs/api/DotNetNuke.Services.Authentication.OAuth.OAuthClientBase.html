@@ -1,0 +1,1614 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class OAuthClientBase
+    -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class OAuthClientBase
+    -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase">
+  
+  
+  <h1 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase" class="text-break">Class OAuthClientBase
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">OAuthClientBase</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Services.Authentication.OAuth.html">DotNetNuke.Services.Authentication.OAuth</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class OAuthClientBase : object</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase__ctor_System_Int32_DotNetNuke_Services_Authentication_AuthMode_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.%23ctor(System.Int32%2CDotNetNuke.Services.Authentication.AuthMode%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L67">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase__ctor_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.#ctor*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase__ctor_System_Int32_DotNetNuke_Services_Authentication_AuthMode_System_String_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.#ctor(System.Int32,DotNetNuke.Services.Authentication.AuthMode,System.String)">OAuthClientBase(Int32, AuthMode, String)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.html">OAuthClientBase</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected OAuthClientBase(int portalId, AuthMode mode, string service)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Authentication.AuthMode.html">AuthMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">service</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_OAuthTokenKey.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.OAuthTokenKey%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L28">View Source</a>
+  </span>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_OAuthTokenKey" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.OAuthTokenKey">OAuthTokenKey</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected const string OAuthTokenKey = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AccessToken.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AccessToken%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L150">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AccessToken_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AccessToken*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AccessToken" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AccessToken">AccessToken</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string AccessToken { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_APIKey.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.APIKey%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L114">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_APIKey_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.APIKey*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_APIKey" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.APIKey">APIKey</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string APIKey { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_APIResource.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.APIResource%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L153">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_APIResource_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.APIResource*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_APIResource" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.APIResource">APIResource</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string APIResource { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_APISecret.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.APISecret%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L116">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_APISecret_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.APISecret*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_APISecret" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.APISecret">APISecret</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string APISecret { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AuthorizationEndpoint.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AuthorizationEndpoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L133">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AuthorizationEndpoint_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AuthorizationEndpoint*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AuthorizationEndpoint" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AuthorizationEndpoint">AuthorizationEndpoint</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Uri AuthorizationEndpoint { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Uri</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AuthToken.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AuthToken%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L135">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AuthToken_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AuthToken*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AuthToken" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AuthToken">AuthToken</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string AuthToken { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AuthTokenExpiry.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AuthTokenExpiry%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L137">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AuthTokenExpiry_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AuthTokenExpiry*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AuthTokenExpiry" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AuthTokenExpiry">AuthTokenExpiry</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected TimeSpan AuthTokenExpiry { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AuthTokenName.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AuthTokenName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L146">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AuthTokenName_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AuthTokenName*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AuthTokenName" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AuthTokenName">AuthTokenName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string AuthTokenName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AutoMatchExistingUsers.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AutoMatchExistingUsers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L89">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AutoMatchExistingUsers_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AutoMatchExistingUsers*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AutoMatchExistingUsers" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AutoMatchExistingUsers">AutoMatchExistingUsers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool AutoMatchExistingUsers { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_CallbackUri.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.CallbackUri%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L94">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_CallbackUri_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.CallbackUri*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_CallbackUri" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.CallbackUri">CallbackUri</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Uri CallbackUri { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Uri</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_MeGraphEndpoint.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.MeGraphEndpoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L139">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_MeGraphEndpoint_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.MeGraphEndpoint*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_MeGraphEndpoint" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.MeGraphEndpoint">MeGraphEndpoint</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Uri MeGraphEndpoint { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Uri</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_Mode.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.Mode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L118">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_Mode_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.Mode*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_Mode" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.Mode">Mode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AuthMode Mode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Authentication.AuthMode.html">AuthMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_OAuthHeaderCode.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.OAuthHeaderCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L143">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_OAuthHeaderCode_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.OAuthHeaderCode*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_OAuthHeaderCode" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.OAuthHeaderCode">OAuthHeaderCode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string OAuthHeaderCode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_OAuthVerifier.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.OAuthVerifier%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L104">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_OAuthVerifier_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.OAuthVerifier*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_OAuthVerifier" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.OAuthVerifier">OAuthVerifier</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string OAuthVerifier { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_OAuthVersion.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.OAuthVersion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L120">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_OAuthVersion_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.OAuthVersion*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_OAuthVersion" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.OAuthVersion">OAuthVersion</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string OAuthVersion { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_PrefixServiceToUserName.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.PrefixServiceToUserName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L84">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_PrefixServiceToUserName_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.PrefixServiceToUserName*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_PrefixServiceToUserName" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.PrefixServiceToUserName">PrefixServiceToUserName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool PrefixServiceToUserName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_RequestTokenEndpoint.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.RequestTokenEndpoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L124">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_RequestTokenEndpoint_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.RequestTokenEndpoint*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_RequestTokenEndpoint" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.RequestTokenEndpoint">RequestTokenEndpoint</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Uri RequestTokenEndpoint { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Uri</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_RequestTokenMethod.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.RequestTokenMethod%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L126">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_RequestTokenMethod_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.RequestTokenMethod*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_RequestTokenMethod" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.RequestTokenMethod">RequestTokenMethod</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected HttpMethod RequestTokenMethod { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Authentication.OAuth.HttpMethod.html">HttpMethod</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_Scope.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.Scope%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L148">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_Scope_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.Scope*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_Scope" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.Scope">Scope</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string Scope { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_Service.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.Service%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L96">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_Service_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.Service*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_Service" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.Service">Service</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Service { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_TokenEndpoint.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.TokenEndpoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L141">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_TokenEndpoint_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.TokenEndpoint*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_TokenEndpoint" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.TokenEndpoint">TokenEndpoint</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Uri TokenEndpoint { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Uri</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_TokenMethod.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.TokenMethod%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L122">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_TokenMethod_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.TokenMethod*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_TokenMethod" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.TokenMethod">TokenMethod</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected HttpMethod TokenMethod { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Authentication.OAuth.HttpMethod.html">HttpMethod</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_TokenSecret.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.TokenSecret%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L128">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_TokenSecret_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.TokenSecret*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_TokenSecret" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.TokenSecret">TokenSecret</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string TokenSecret { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_UserGuid.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.UserGuid%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L130">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_UserGuid_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.UserGuid*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_UserGuid" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.UserGuid">UserGuid</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string UserGuid { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_UserGuidKey.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.UserGuidKey%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L98">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_UserGuidKey_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.UserGuidKey*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_UserGuidKey" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.UserGuidKey">UserGuidKey</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string UserGuidKey { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_VerificationCode.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.VerificationCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L109">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_VerificationCode_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.VerificationCode*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_VerificationCode" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.VerificationCode">VerificationCode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string VerificationCode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AuthenticateUser_DotNetNuke_Services_Authentication_OAuth_UserData_DotNetNuke_Entities_Portals_PortalSettings_System_String_Action_NameValueCollection__Action_DotNetNuke_Services_Authentication_UserAuthenticatedEventArgs__.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AuthenticateUser(DotNetNuke.Services.Authentication.OAuth.UserData%2CDotNetNuke.Entities.Portals.PortalSettings%2CSystem.String%2CAction%7BNameValueCollection%7D%2CAction%7BDotNetNuke.Services.Authentication.UserAuthenticatedEventArgs%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L180">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AuthenticateUser_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AuthenticateUser*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_AuthenticateUser_DotNetNuke_Services_Authentication_OAuth_UserData_DotNetNuke_Entities_Portals_PortalSettings_System_String_Action_NameValueCollection__Action_DotNetNuke_Services_Authentication_UserAuthenticatedEventArgs__" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.AuthenticateUser(DotNetNuke.Services.Authentication.OAuth.UserData,DotNetNuke.Entities.Portals.PortalSettings,System.String,Action{NameValueCollection},Action{DotNetNuke.Services.Authentication.UserAuthenticatedEventArgs})">AuthenticateUser(UserData, PortalSettings, String, Action&lt;NameValueCollection&gt;, Action&lt;UserAuthenticatedEventArgs&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void AuthenticateUser(UserData user, PortalSettings settings, string IPAddress, Action&lt;NameValueCollection&gt; addCustomProperties, Action&lt;UserAuthenticatedEventArgs&gt; onAuthenticated)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Authentication.OAuth.UserData.html">UserData</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalSettings.html">PortalSettings</a></td>
+        <td><span class="parametername">settings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">IPAddress</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">NameValueCollection</span>&gt;</td>
+        <td><span class="parametername">addCustomProperties</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="DotNetNuke.Services.Authentication.UserAuthenticatedEventArgs.html">UserAuthenticatedEventArgs</a>&gt;</td>
+        <td><span class="parametername">onAuthenticated</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_Authorize.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.Authorize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L289">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_Authorize_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.Authorize*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_Authorize" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.Authorize">Authorize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual AuthorisationResult Authorize()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Authentication.OAuth.AuthorisationResult.html">AuthorisationResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_GenerateNonce.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.GenerateNonce%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L387">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_GenerateNonce_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.GenerateNonce*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_GenerateNonce" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.GenerateNonce">GenerateNonce()</h4>
+  <div class="markdown level1 summary"><p>Generate a nonce.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string GenerateNonce()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_GenerateSignature_Uri_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String__List_DotNetNuke_Services_Authentication_OAuth_QueryParameter___.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.GenerateSignature(Uri%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%40%2CList%7BDotNetNuke.Services.Authentication.OAuth.QueryParameter%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L313">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_GenerateSignature_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.GenerateSignature*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_GenerateSignature_Uri_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String__List_DotNetNuke_Services_Authentication_OAuth_QueryParameter___" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.GenerateSignature(Uri,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String@,List{DotNetNuke.Services.Authentication.OAuth.QueryParameter}@)">GenerateSignature(Uri, String, String, String, String, String, String, String, out String, out List&lt;QueryParameter&gt;)</h4>
+  <div class="markdown level1 summary"><p>Generates a signature using the HMAC-SHA1 algorithm.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GenerateSignature(Uri url, string token, string tokenSecret, string callbackurl, string oauthVerifier, string httpMethod, string timeStamp, string nonce, out string normalizedUrl, out List&lt;QueryParameter&gt; requestParameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Uri</span></td>
+        <td><span class="parametername">url</span></td>
+        <td><p>The full url that needs to be signed including its non OAuth url parameters.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The token, if available. If not available pass null or an empty string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tokenSecret</span></td>
+        <td><p>The token secret, if available. If not available pass null or an empty string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">callbackurl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">oauthVerifier</span></td>
+        <td><p>This value MUST be included when exchanging Request Tokens for Access Tokens. Otherwise pass a null or an empty string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">httpMethod</span></td>
+        <td><p>The http method used. Must be a valid HTTP method verb (POST,GET,PUT, etc).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">timeStamp</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">nonce</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">normalizedUrl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="DotNetNuke.Services.Authentication.OAuth.QueryParameter.html">QueryParameter</a>&gt;</td>
+        <td><span class="parametername">requestParameters</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A base64 string of the hash value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_GenerateTimeStamp.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.GenerateTimeStamp%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L376">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_GenerateTimeStamp_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.GenerateTimeStamp*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_GenerateTimeStamp" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.GenerateTimeStamp">GenerateTimeStamp()</h4>
+  <div class="markdown level1 summary"><p>Generate the timestamp for the signature.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string GenerateTimeStamp()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_GetCurrentUser__1.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.GetCurrentUser%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L328">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_GetCurrentUser_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.GetCurrentUser*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_GetCurrentUser__1" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.GetCurrentUser``1">GetCurrentUser&lt;TUserData&gt;()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TUserData GetCurrentUser&lt;TUserData&gt;()
+    where TUserData : UserData</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TUserData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TUserData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_GetExpiry_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.GetExpiry(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L393">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_GetExpiry_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.GetExpiry*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_GetExpiry_System_String_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.GetExpiry(System.String)">GetExpiry(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual TimeSpan GetExpiry(string responseText)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">responseText</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_GetToken_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.GetToken(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L398">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_GetToken_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.GetToken*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_GetToken_System_String_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.GetToken(System.String)">GetToken(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string GetToken(string responseText)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">responseText</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_HaveVerificationCode.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.HaveVerificationCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L346">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_HaveVerificationCode_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.HaveVerificationCode*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_HaveVerificationCode" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.HaveVerificationCode">HaveVerificationCode()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HaveVerificationCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_IsCurrentService.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.IsCurrentService%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L351">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_IsCurrentService_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.IsCurrentService*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_IsCurrentService" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.IsCurrentService">IsCurrentService()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCurrentService()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_IsCurrentUserAuthorized.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.IsCurrentUserAuthorized%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L357">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_IsCurrentUserAuthorized_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.IsCurrentUserAuthorized*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_IsCurrentUserAuthorized" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.IsCurrentUserAuthorized">IsCurrentUserAuthorized()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCurrentUserAuthorized()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_LoadTokenCookie_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.LoadTokenCookie(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L403">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_LoadTokenCookie_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.LoadTokenCookie*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_LoadTokenCookie_System_String_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.LoadTokenCookie(System.String)">LoadTokenCookie(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void LoadTokenCookie(string suffix)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">suffix</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_RemoveToken.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.RemoveToken%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L362">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_RemoveToken_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.RemoveToken*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_RemoveToken" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.RemoveToken">RemoveToken()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveToken()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_UrlEncode_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.UrlEncode(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L161">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_UrlEncode_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.UrlEncode*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_OAuth_OAuthClientBase_UrlEncode_System_String_" data-uid="DotNetNuke.Services.Authentication.OAuth.OAuthClientBase.UrlEncode(System.String)">UrlEncode(String)</h4>
+  <div class="markdown level1 summary"><p>This is a different Url Encode implementation since the default .NET one outputs the percent encoding in lower case.
+While this is not a problem with the percent encoding spec, it is used in upper case throughout OAuth.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string UrlEncode(string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to Url encode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Returns a Url encoded string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Authentication/OAuth/OAuthClientBase.cs/#L26" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

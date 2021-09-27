@@ -1,0 +1,543 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ModulePackageWriter
+    -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ModulePackageWriter
+    -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Installer_Writers_ModulePackageWriter.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Writers.ModulePackageWriter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Services.Installer.Writers.ModulePackageWriter">
+  
+  
+  <h1 id="DotNetNuke_Services_Installer_Writers_ModulePackageWriter" data-uid="DotNetNuke.Services.Installer.Writers.ModulePackageWriter" class="text-break">Class ModulePackageWriter
+  </h1>
+  <div class="markdown level0 summary"><p>The ModulePackageWriter class.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html">PackageWriterBase</a></div>
+    <div class="level2"><span class="xref">ModulePackageWriter</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_AppCodeFiles">PackageWriterBase.AppCodeFiles</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_Assemblies">PackageWriterBase.Assemblies</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_CleanUpFiles">PackageWriterBase.CleanUpFiles</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_Files">PackageWriterBase.Files</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_IncludeAssemblies">PackageWriterBase.IncludeAssemblies</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_Log">PackageWriterBase.Log</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_Resources">PackageWriterBase.Resources</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_Scripts">PackageWriterBase.Scripts</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_Versions">PackageWriterBase.Versions</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_AppCodePath">PackageWriterBase.AppCodePath</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_AssemblyPath">PackageWriterBase.AssemblyPath</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_BasePath">PackageWriterBase.BasePath</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_HasProjectFile">PackageWriterBase.HasProjectFile</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_LegacyError">PackageWriterBase.LegacyError</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_Package">PackageWriterBase.Package</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_WriteManifestEndElement_XmlWriter_">PackageWriterBase.WriteManifestEndElement(XmlWriter)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_WriteManifestStartElement_XmlWriter_">PackageWriterBase.WriteManifestStartElement(XmlWriter)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_AddFile_DotNetNuke_Services_Installer_InstallFile_">PackageWriterBase.AddFile(InstallFile)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_AddResourceFile_DotNetNuke_Services_Installer_InstallFile_">PackageWriterBase.AddResourceFile(InstallFile)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_CreatePackage_System_String_System_String_System_String_System_Boolean_">PackageWriterBase.CreatePackage(String, String, String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_GetFiles_System_Boolean_">PackageWriterBase.GetFiles(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_WriteManifest_System_String_System_String_">PackageWriterBase.WriteManifest(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_WriteManifest_XmlWriter_System_String_">PackageWriterBase.WriteManifest(XmlWriter, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_WriteManifest_System_Boolean_">PackageWriterBase.WriteManifest(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_WriteManifest_XmlWriter_System_Boolean_">PackageWriterBase.WriteManifest(XmlWriter, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_AddFile_System_String_">PackageWriterBase.AddFile(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_AddFile_System_String_System_String_">PackageWriterBase.AddFile(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_ConvertLegacyManifest_XPathNavigator_XmlWriter_">PackageWriterBase.ConvertLegacyManifest(XPathNavigator, XmlWriter)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_GetFiles_System_Boolean_System_Boolean_">PackageWriterBase.GetFiles(Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_ParseFiles_DirectoryInfo_System_String_">PackageWriterBase.ParseFiles(DirectoryInfo, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_ParseFolder_System_String_System_String_">PackageWriterBase.ParseFolder(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_ParseProjectFile_FileInfo_System_Boolean_">PackageWriterBase.ParseProjectFile(FileInfo, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_WriteFilesToManifest_XmlWriter_">PackageWriterBase.WriteFilesToManifest(XmlWriter)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Services.Installer.Writers.html">DotNetNuke.Services.Installer.Writers</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Services_Installer_Writers_ModulePackageWriter_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ModulePackageWriter : PackageWriterBase</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Installer_Writers_ModulePackageWriter__ctor_DotNetNuke_Entities_Modules_DesktopModuleInfo_DotNetNuke_Services_Installer_Packages_PackageInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Writers.ModulePackageWriter.%23ctor(DotNetNuke.Entities.Modules.DesktopModuleInfo%2CDotNetNuke.Services.Installer.Packages.PackageInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Writers/ModulePackageWriter.cs/#L98">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Writers_ModulePackageWriter__ctor_" data-uid="DotNetNuke.Services.Installer.Writers.ModulePackageWriter.#ctor*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Writers_ModulePackageWriter__ctor_DotNetNuke_Entities_Modules_DesktopModuleInfo_DotNetNuke_Services_Installer_Packages_PackageInfo_" data-uid="DotNetNuke.Services.Installer.Writers.ModulePackageWriter.#ctor(DotNetNuke.Entities.Modules.DesktopModuleInfo,DotNetNuke.Services.Installer.Packages.PackageInfo)">ModulePackageWriter(DesktopModuleInfo, PackageInfo)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.Services.Installer.Writers.ModulePackageWriter.html">ModulePackageWriter</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModulePackageWriter(DesktopModuleInfo desktopModule, PackageInfo package)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.DesktopModuleInfo.html">DesktopModuleInfo</a></td>
+        <td><span class="parametername">desktopModule</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Installer.Packages.PackageInfo.html">PackageInfo</a></td>
+        <td><span class="parametername">package</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Installer_Writers_ModulePackageWriter__ctor_DotNetNuke_Entities_Modules_DesktopModuleInfo_XPathNavigator_DotNetNuke_Services_Installer_Packages_PackageInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Writers.ModulePackageWriter.%23ctor(DotNetNuke.Entities.Modules.DesktopModuleInfo%2CXPathNavigator%2CDotNetNuke.Services.Installer.Packages.PackageInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Writers/ModulePackageWriter.cs/#L67">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Writers_ModulePackageWriter__ctor_" data-uid="DotNetNuke.Services.Installer.Writers.ModulePackageWriter.#ctor*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Writers_ModulePackageWriter__ctor_DotNetNuke_Entities_Modules_DesktopModuleInfo_XPathNavigator_DotNetNuke_Services_Installer_Packages_PackageInfo_" data-uid="DotNetNuke.Services.Installer.Writers.ModulePackageWriter.#ctor(DotNetNuke.Entities.Modules.DesktopModuleInfo,XPathNavigator,DotNetNuke.Services.Installer.Packages.PackageInfo)">ModulePackageWriter(DesktopModuleInfo, XPathNavigator, PackageInfo)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.Services.Installer.Writers.ModulePackageWriter.html">ModulePackageWriter</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModulePackageWriter(DesktopModuleInfo desktopModule, XPathNavigator manifestNav, PackageInfo package)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.DesktopModuleInfo.html">DesktopModuleInfo</a></td>
+        <td><span class="parametername">desktopModule</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">XPathNavigator</span></td>
+        <td><span class="parametername">manifestNav</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Installer.Packages.PackageInfo.html">PackageInfo</a></td>
+        <td><span class="parametername">package</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Installer_Writers_ModulePackageWriter__ctor_DotNetNuke_Services_Installer_Packages_PackageInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Writers.ModulePackageWriter.%23ctor(DotNetNuke.Services.Installer.Packages.PackageInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Writers/ModulePackageWriter.cs/#L86">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Writers_ModulePackageWriter__ctor_" data-uid="DotNetNuke.Services.Installer.Writers.ModulePackageWriter.#ctor*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Writers_ModulePackageWriter__ctor_DotNetNuke_Services_Installer_Packages_PackageInfo_" data-uid="DotNetNuke.Services.Installer.Writers.ModulePackageWriter.#ctor(DotNetNuke.Services.Installer.Packages.PackageInfo)">ModulePackageWriter(PackageInfo)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.Services.Installer.Writers.ModulePackageWriter.html">ModulePackageWriter</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModulePackageWriter(PackageInfo package)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Installer.Packages.PackageInfo.html">PackageInfo</a></td>
+        <td><span class="parametername">package</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Installer_Writers_ModulePackageWriter__ctor_XPathNavigator_DotNetNuke_Services_Installer_InstallerInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Writers.ModulePackageWriter.%23ctor(XPathNavigator%2CDotNetNuke.Services.Installer.InstallerInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Writers/ModulePackageWriter.cs/#L37">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Writers_ModulePackageWriter__ctor_" data-uid="DotNetNuke.Services.Installer.Writers.ModulePackageWriter.#ctor*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Writers_ModulePackageWriter__ctor_XPathNavigator_DotNetNuke_Services_Installer_InstallerInfo_" data-uid="DotNetNuke.Services.Installer.Writers.ModulePackageWriter.#ctor(XPathNavigator,DotNetNuke.Services.Installer.InstallerInfo)">ModulePackageWriter(XPathNavigator, InstallerInfo)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.Services.Installer.Writers.ModulePackageWriter.html">ModulePackageWriter</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModulePackageWriter(XPathNavigator manifestNav, InstallerInfo installer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">XPathNavigator</span></td>
+        <td><span class="parametername">manifestNav</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Installer.InstallerInfo.html">InstallerInfo</a></td>
+        <td><span class="parametername">installer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Installer_Writers_ModulePackageWriter_Dependencies.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Writers.ModulePackageWriter.Dependencies%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Writers/ModulePackageWriter.cs/#L114">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Writers_ModulePackageWriter_Dependencies_" data-uid="DotNetNuke.Services.Installer.Writers.ModulePackageWriter.Dependencies*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Writers_ModulePackageWriter_Dependencies" data-uid="DotNetNuke.Services.Installer.Writers.ModulePackageWriter.Dependencies">Dependencies</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override Dictionary&lt;string, string&gt; Dependencies { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_Dependencies">PackageWriterBase.Dependencies</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Installer_Writers_ModulePackageWriter_DesktopModule.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Writers.ModulePackageWriter.DesktopModule%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Writers/ModulePackageWriter.cs/#L111">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Writers_ModulePackageWriter_DesktopModule_" data-uid="DotNetNuke.Services.Installer.Writers.ModulePackageWriter.DesktopModule*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Writers_ModulePackageWriter_DesktopModule" data-uid="DotNetNuke.Services.Installer.Writers.ModulePackageWriter.DesktopModule">DesktopModule</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the associated Desktop Module.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DesktopModuleInfo DesktopModule { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.DesktopModuleInfo.html">DesktopModuleInfo</a></td>
+        <td><p>A DesktopModuleInfo object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Services_Installer_Writers_ModulePackageWriter_WriteManifestComponent_XmlWriter_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Writers.ModulePackageWriter.WriteManifestComponent(XmlWriter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Writers/ModulePackageWriter.cs/#L134">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Writers_ModulePackageWriter_WriteManifestComponent_" data-uid="DotNetNuke.Services.Installer.Writers.ModulePackageWriter.WriteManifestComponent*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Writers_ModulePackageWriter_WriteManifestComponent_XmlWriter_" data-uid="DotNetNuke.Services.Installer.Writers.ModulePackageWriter.WriteManifestComponent(XmlWriter)">WriteManifestComponent(XmlWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void WriteManifestComponent(XmlWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">XmlWriter</span></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Installer.Writers.PackageWriterBase.html#DotNetNuke_Services_Installer_Writers_PackageWriterBase_WriteManifestComponent_XmlWriter_">PackageWriterBase.WriteManifestComponent(XmlWriter)</a></div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Writers/ModulePackageWriter.cs/#L28" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

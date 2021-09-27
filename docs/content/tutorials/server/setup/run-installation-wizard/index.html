@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Run the DNN Installation Wizard  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Run the DNN Installation Wizard  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    <meta property="og:title" content="Run the DNN Installation Wizard -- DNN Docs">
+    <meta property="og:image" content="../../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="Run the DNN Installation Wizard -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/tutorials/server/setup/run-installation-wizard/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fserver%2Fsetup%2Frun-installation-wizard%2Findex.html&amp;text=Run%20the%20DNN%20Installation%20Wizard%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fserver%2Fsetup%2Frun-installation-wizard%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fserver%2Fsetup%2Frun-installation-wizard%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fserver%2Fsetup%2Frun-installation-wizard%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20Run%20the%20DNN%20Installation%20Wizard%20|%20DNN%20Docs&amp;body=Run%20the%20DNN%20Installation%20Wizard%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fserver%2Fsetup%2Frun-installation-wizard%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for Run the DNN Installation Wizard&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Brun-installation-wizard%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Ftutorials%2Fserver%2Fsetup%2Frun-installation-wizard%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/tutorials/server/setup/run-installation-wizard/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="run-installation-wizard">
+<h1 id="run-the-dnn-installation-wizard">Run the DNN Installation Wizard</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">09.02.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 3 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 3 minutes  to read</span>
+</div>
+
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li><a class="xref" href="../set-up-dnn-folder/index.html">DNN installed with folder permissions for the user account that will run your website.</a></li>
+<li><a class="xref" href="../set-up-iis/index.html">IIS enabled and set up.</a></li>
+<li><a class="xref" href="../set-up-sql/index.html">SQL installed and set up.</a></li>
+</ul>
+<h2 id="steps">Steps</h2>
+<ol>
+<li><p>Run the DNN Installation Wizard.</p>
+<ol>
+<li><p>Open your website (<code>https://www.dnndev.me</code>) in a browser.</p>
+</li>
+<li><p>Under Administrative Information, enter the username, password, and email address for the host / super user account to create. This account will have permissions for all websites created in this DNN installation.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Remember the host's username and password, which you will need to manage your websites.</div><p>
+
+</li>
+<li><p>Under Website Information, enter the name, template, and language to use for the first website.</p>
+</li>
+<li><p>Set the Database Information options.</p>
+<ul>
+<li><p>Database Setup: Custom</p>
+</li>
+<li><p>Database Type: SQL Server/SQL Server Express Database</p>
+</li>
+<li><p>Server Name:</p>
+<p>Developers and Designers: You can use the default value (example: <code>.\SQLExpress</code> or <code>(local)</code>).</p>
+<p>Administrators: Set the value to <code>(local)</code>.</p>
+</li>
+<li><p>Database Name: Enter the name of the SQL database you created earlier.</p>
+</li>
+<li><p>Object Qualifier:</p>
+<p>Developers:</p>
+<ul>
+<li>If creating modules for your own websites, set objectQualifier to blank.</li>
+<li>If creating modules for sale, set objectQualifier to <code>dnn</code> to prepend <code>dnn_</code> to all DNN-generated objects, such as tables and stored procedures. This practice is recommended in your local development environment, so that you can catch name-matching errors that could occur if the target DNN installation's objectQualifier setting (found in web.config) is not blank.</li>
+</ul>
+</li>
+<li><p>Security: User Defined</p>
+</li>
+<li><p>For Database Username / Password, enter the information for the SQL user you created earlier.</p>
+</li>
+</ul>
+</li>
+<li><p>Follow the prompts to the end of the wizard.</p>
+</li>
+</ol>
+<p><img src="/images/scr-InstallWizard-7.png" alt="DNN Installation Wizard"></p>
+</li>
+<li><p>Test the installation by viewing the first website.</p>
+</li>
+<li><p>(Optional) To assist with localization, modify the <strong>web.config</strong> file to set <code>ShowMissingKeys</code> to <code>true</code>.</p>
+<pre><code>
+        &lt;add key=&quot;ShowMissingKeys&quot; value=&quot;true&quot; /&gt;
+
+</code></pre>
+<p>If set to <strong>TRUE</strong>,</p>
+<ul>
+<li>Any localized text in DNN will be displayed with an &quot;L&quot; in front of it to help with translating text in your module.</li>
+<li>DNN displays an error if the localized version of a string is missing from the resource files. The resource files are XML files that contain the localized string tables.</li>
+</ul>
+</li>
+</ol>
+<div class="links" hidden=""><span><a href="https://www.dnnsoftware.com/wiki/setting-up-your-module-development-environment">DNN Wiki: Setting up Your Module Development Environment</a></span><span><a href="https://www.christoc.com/Tutorials/All-Tutorials/aid/1">Setting up your DotNetNuke Module Development Environment by Chris Hammond</a></span><span><a href="https://www.dnnsoftware.com/community-blog/cid/155070/installing-dnn">DNN Community Blog: Installing DNN by Clinton Patterson</a></span></div></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

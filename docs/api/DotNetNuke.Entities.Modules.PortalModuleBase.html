@@ -1,0 +1,1611 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PortalModuleBase
+    -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PortalModuleBase
+    -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase">
+  
+  
+  <h1 id="DotNetNuke_Entities_Modules_PortalModuleBase" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase" class="text-break">Class PortalModuleBase
+  </h1>
+  <div class="markdown level0 summary"><p>The PortalModuleBase class defines a custom base class inherited by all
+desktop portal modules within the Portal.</p>
+<p>The PortalModuleBase class defines portal specific properties
+that are used by the portal framework to correctly display portal modules.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="DotNetNuke.Framework.UserControlBase.html">UserControlBase</a></div>
+    <div class="level2"><span class="xref">PortalModuleBase</span></div>
+      <div class="level3"><a class="xref" href="DotNetNuke.Entities.Modules.ModuleSettingsBase.html">ModuleSettingsBase</a></div>
+      <div class="level3"><a class="xref" href="DotNetNuke.Entities.Modules.UserModuleBase.html">UserModuleBase</a></div>
+      <div class="level3"><a class="xref" href="DotNetNuke.Services.Authentication.AuthenticationSettingsBase.html">AuthenticationSettingsBase</a></div>
+      <div class="level3"><a class="xref" href="DotNetNuke.Services.FileSystem.FolderMappingSettingsControlBase.html">FolderMappingSettingsControlBase</a></div>
+      <div class="level3"><a class="xref" href="DotNetNuke.UI.UserControls.Help.html">Help</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="DotNetNuke.UI.Modules.IModuleControl.html">IModuleControl</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.UserControlBase.html#DotNetNuke_Framework_UserControlBase_IsHostMenu">UserControlBase.IsHostMenu</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.UserControlBase.html#DotNetNuke_Framework_UserControlBase_PortalSettings">UserControlBase.PortalSettings</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Entities.Modules.html">DotNetNuke.Entities.Modules</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Entities_Modules_PortalModuleBase_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PortalModuleBase : UserControlBase, IModuleControl</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_FileInfoRegex.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.FileInfoRegex%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L39">View Source</a>
+  </span>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_FileInfoRegex" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.FileInfoRegex">FileInfoRegex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static readonly Regex FileInfoRegex</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Regex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_Actions.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.Actions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L257">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_Actions_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.Actions*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_Actions" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.Actions">Actions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleActionCollection Actions { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.Actions.ModuleActionCollection.html">ModuleActionCollection</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_CacheDirectory.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.CacheDirectory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L216">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_CacheDirectory_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.CacheDirectory*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_CacheDirectory" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.CacheDirectory">CacheDirectory</h4>
+  <div class="markdown level1 summary"><p>Gets the CacheDirectory property is used to return the location of the &quot;Cache&quot;
+Directory for the Module.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CacheDirectory { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_CacheFileName.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.CacheFileName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L233">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_CacheFileName_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.CacheFileName*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_CacheFileName" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.CacheFileName">CacheFileName</h4>
+  <div class="markdown level1 summary"><p>Gets the CacheFileName property is used to store the FileName for this Module's
+Cache.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CacheFileName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_CacheKey.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.CacheKey%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L245">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_CacheKey_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.CacheKey*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_CacheKey" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.CacheKey">CacheKey</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CacheKey { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_ContainerControl.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.ContainerControl%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L48">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_ContainerControl_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.ContainerControl*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_ContainerControl" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.ContainerControl">ContainerControl</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Control ContainerControl { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Control</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_Control.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.Control%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L151">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_Control_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.Control*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_Control" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.Control">Control</h4>
+  <div class="markdown level1 summary"><p>Gets the underlying base control for this ModuleControl.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Control Control { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Control</span></td>
+        <td><p>A String.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_ControlName.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.ControlName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L179">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_ControlName_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.ControlName*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_ControlName" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.ControlName">ControlName</h4>
+  <div class="markdown level1 summary"><p>Gets the Name for this control.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ControlName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A String.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_ControlPath.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.ControlPath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L165">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_ControlPath_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.ControlPath*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_ControlPath" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.ControlPath">ControlPath</h4>
+  <div class="markdown level1 summary"><p>Gets the Path for this control (used primarily for UserControls).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ControlPath { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A String.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_DependencyProvider.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.DependencyProvider%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L366">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_DependencyProvider_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.DependencyProvider*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_DependencyProvider" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.DependencyProvider">DependencyProvider</h4>
+  <div class="markdown level1 summary"><p>Gets the Dependency Provider to resolve registered
+services with the container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IServiceProvider DependencyProvider { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IServiceProvider</span></td>
+        <td><p>The Dependency Service.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_EditMode.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.EditMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L67">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_EditMode_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.EditMode*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_EditMode" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.EditMode">EditMode</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the EditMode property is used to determine whether the user is in the
+Administrator role
+Cache.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool EditMode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_HelpURL.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.HelpURL%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L272">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_HelpURL_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.HelpURL*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_HelpURL" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.HelpURL">HelpURL</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string HelpURL { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_IsEditable.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.IsEditable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L75">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_IsEditable_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.IsEditable*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_IsEditable" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.IsEditable">IsEditable</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEditable { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_LocalResourceFile.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.LocalResourceFile%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L336">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_LocalResourceFile_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.LocalResourceFile*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_LocalResourceFile" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.LocalResourceFile">LocalResourceFile</h4>
+  <div class="markdown level1 summary"><p>Gets or sets and sets the local resource file for this control.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string LocalResourceFile { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A String.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_ModuleConfiguration.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.ModuleConfiguration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L285">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_ModuleConfiguration_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.ModuleConfiguration*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_ModuleConfiguration" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.ModuleConfiguration">ModuleConfiguration</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleInfo ModuleConfiguration { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.ModuleInfo.html">ModuleInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_ModuleContext.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.ModuleContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L193">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_ModuleContext_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.ModuleContext*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_ModuleContext" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.ModuleContext">ModuleContext</h4>
+  <div class="markdown level1 summary"><p>Gets the Module Context for this control.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleInstanceContext ModuleContext { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.UI.Modules.ModuleInstanceContext.html">ModuleInstanceContext</a></td>
+        <td><p>A ModuleInstanceContext.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_ModuleId.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.ModuleId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L315">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_ModuleId_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.ModuleId*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_ModuleId" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.ModuleId">ModuleId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ModuleId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_PortalAlias.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.PortalAlias%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L125">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_PortalAlias_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.PortalAlias*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_PortalAlias" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.PortalAlias">PortalAlias</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PortalAliasInfo PortalAlias { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalAliasInfo.html">PortalAliasInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_PortalId.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.PortalId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L85">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_PortalId_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.PortalId*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_PortalId" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.PortalId">PortalId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PortalId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_Settings.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.Settings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L135">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_Settings_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.Settings*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_Settings" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.Settings">Settings</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Hashtable Settings { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Hashtable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_TabId.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.TabId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L95">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_TabId_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.TabId*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_TabId" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.TabId">TabId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TabId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_TabModuleId.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.TabModuleId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L300">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_TabModuleId_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.TabModuleId*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_TabModuleId" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.TabModuleId">TabModuleId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TabModuleId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_UserId.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.UserId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L115">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_UserId_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.UserId*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_UserId" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.UserId">UserId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int UserId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_UserInfo.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.UserInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L105">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_UserInfo_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.UserInfo*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_UserInfo" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.UserInfo">UserInfo</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UserInfo UserInfo { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_AddActionHandler_DotNetNuke_Entities_Modules_Actions_ActionEventHandler_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.AddActionHandler(DotNetNuke.Entities.Modules.Actions.ActionEventHandler)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L487">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_AddActionHandler_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.AddActionHandler*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_AddActionHandler_DotNetNuke_Entities_Modules_Actions_ActionEventHandler_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.AddActionHandler(DotNetNuke.Entities.Modules.Actions.ActionEventHandler)">AddActionHandler(ActionEventHandler)</h4>
+  <div class="markdown level1 summary"><p>Helper method that can be used to add an ActionEventHandler to the Skin for this
+Module Control.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AddActionHandler(ActionEventHandler e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.Actions.ActionEventHandler.html">ActionEventHandler</a></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_Dispose.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L416">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_Dispose_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.Dispose*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_Dispose" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_EditUrl.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.EditUrl%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L368">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_EditUrl_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.EditUrl*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_EditUrl" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.EditUrl">EditUrl()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string EditUrl()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_EditUrl_System_Int32_System_String_System_Boolean_System_String___.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.EditUrl(System.Int32%2CSystem.String%2CSystem.Boolean%2CSystem.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L403">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_EditUrl_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.EditUrl*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_EditUrl_System_Int32_System_String_System_Boolean_System_String___" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.EditUrl(System.Int32,System.String,System.Boolean,System.String[])">EditUrl(Int32, String, Boolean, String[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string EditUrl(int TabID, string ControlKey, bool PageRedirect, params string[] AdditionalParameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">TabID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">ControlKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">PageRedirect</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">AdditionalParameters</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_EditUrl_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.EditUrl(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L375">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_EditUrl_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.EditUrl*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_EditUrl_System_String_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.EditUrl(System.String)">EditUrl(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string EditUrl(string ControlKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">ControlKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_EditUrl_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.EditUrl(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L382">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_EditUrl_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.EditUrl*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_EditUrl_System_String_System_String_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.EditUrl(System.String,System.String)">EditUrl(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string EditUrl(string KeyName, string KeyValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">KeyName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">KeyValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_EditUrl_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.EditUrl(System.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L389">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_EditUrl_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.EditUrl*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_EditUrl_System_String_System_String_System_String_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.EditUrl(System.String,System.String,System.String)">EditUrl(String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string EditUrl(string KeyName, string KeyValue, string ControlKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">KeyName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">KeyValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">ControlKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_EditUrl_System_String_System_String_System_String_System_String___.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.EditUrl(System.String%2CSystem.String%2CSystem.String%2CSystem.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L396">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_EditUrl_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.EditUrl*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_EditUrl_System_String_System_String_System_String_System_String___" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.EditUrl(System.String,System.String,System.String,System.String[])">EditUrl(String, String, String, String[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string EditUrl(string KeyName, string KeyValue, string ControlKey, params string[] AdditionalParameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">KeyName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">KeyValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">ControlKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">AdditionalParameters</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_GetCacheFileName_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.GetCacheFileName(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L425">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_GetCacheFileName_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.GetCacheFileName*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_GetCacheFileName_System_Int32_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.GetCacheFileName(System.Int32)">GetCacheFileName(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetCacheFileName(int tabModuleId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabModuleId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_GetCacheKey_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.GetCacheKey(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L434">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_GetCacheKey_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.GetCacheKey*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_GetCacheKey_System_Int32_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.GetCacheKey(System.Int32)">GetCacheKey(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetCacheKey(int tabModuleId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabModuleId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_GetNextActionID.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.GetNextActionID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L410">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_GetNextActionID_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.GetNextActionID*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_GetNextActionID" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.GetNextActionID">GetNextActionID()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetNextActionID()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_LocalizeSafeJsString_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.LocalizeSafeJsString(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L501">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_LocalizeSafeJsString_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.LocalizeSafeJsString*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_LocalizeSafeJsString_System_String_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.LocalizeSafeJsString(System.String)">LocalizeSafeJsString(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string LocalizeSafeJsString(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_LocalizeString_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.LocalizeString(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L496">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_LocalizeString_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.LocalizeString*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_LocalizeString_System_String_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.LocalizeString(System.String)">LocalizeString(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string LocalizeString(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_OnInit_EventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.OnInit(EventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L450">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_OnInit_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.OnInit*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_OnInit_EventArgs_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.OnInit(EventArgs)">OnInit(EventArgs)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnInit(EventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_OnLoad_EventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L465">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_OnLoad_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_OnLoad_EventArgs_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs)">OnLoad(EventArgs)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnLoad(EventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Entities_Modules_PortalModuleBase_SynchronizeModule.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Modules.PortalModuleBase.SynchronizeModule%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L443">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_SynchronizeModule_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.SynchronizeModule*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_SynchronizeModule" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.SynchronizeModule">SynchronizeModule()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SynchronizeModule()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.UI.Modules.IModuleControl.html">IModuleControl</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Modules/PortalModuleBase.cs/#L37" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

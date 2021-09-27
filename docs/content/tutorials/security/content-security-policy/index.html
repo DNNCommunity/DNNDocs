@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Content Security Policy (CSP) in DNN  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Content Security Policy (CSP) in DNN  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="og:title" content="Content Security Policy (CSP) in DNN -- DNN Docs">
+    <meta property="og:image" content="../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="Content Security Policy (CSP) in DNN -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/tutorials/security/content-security-policy/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fsecurity%2Fcontent-security-policy%2Findex.html&amp;text=Content%20Security%20Policy%20(CSP)%20in%20DNN%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fsecurity%2Fcontent-security-policy%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fsecurity%2Fcontent-security-policy%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fsecurity%2Fcontent-security-policy%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20Content%20Security%20Policy%20(CSP)%20in%20DNN%20|%20DNN%20Docs&amp;body=Content%20Security%20Policy%20(CSP)%20in%20DNN%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fsecurity%2Fcontent-security-policy%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for Content Security Policy (CSP) in DNN&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bcontent-security-policy%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Ftutorials%2Fsecurity%2Fcontent-security-policy%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/tutorials/security/content-security-policy/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="content-security-policy">
+<h1 id="content-security-policy-csp-in-dnn">Content Security Policy (CSP) in DNN</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">09.02.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 4 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 4 minutes  to read</span>
+</div>
+
+<p>Since the internet has existed, people have been trying to deface websites, hack applications, and distribute malware.  Some of the ways we attempt to mitigate this includes using firewalls to keep unwanted visitors out and implementing SSL to secure traffic between admins and the website.</p>
+<p>Of course, there are still other security issues to address.  One of them is cross site scripting (XSS).  An example could be that we have a user profile that offers a biography section with rich text.  Rich text allows users to add some markup to their content (bold, color, etc.) and sometimes even call scripts from other websites.  And of course, these scripts can be hostile.</p>
+<p>In this never-ending battle there is a concept that can help prevent this, referred to as content security policy (CSP).  CSP allows you to define what content can be displayed on your website.  For instance, you may want to allow videos from YouTube or Vimeo (but no other website).  And maybe you want to execute scripts from your CDN but nowhere else.</p>
+<p>More in-depth information about CSP can be found on Mozilla's website below:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP">https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP</a></li>
+</ul>
+<h2 id="what-features-can-we-use-in-our-own-csp">What Features Can We Use in Our Own CSP?</h2>
+<p>There is a lot that we can define.  We have all kinds of resources loading from our websites, but the most common are images, scripts, styles, fonts, and media.  We can set these types to allow our own content and websites that we select.  Mind you, sometimes those websites also use external sources because they use Bootstrap, Open Sans, icons, etc.  It can easily require multiple iterations to have your CSP set correctly and completely.</p>
+<p>Here is a helpful cheat sheet to get you started:</p>
+<ul>
+<li><a href="https://scotthelme.co.uk/csp-cheat-sheet/">https://scotthelme.co.uk/csp-cheat-sheet/</a></li>
+</ul>
+<h2 id="do-i-need-to-create-this-from-scratch">Do I Need to Create this from Scratch?</h2>
+<p>No.  Here are some easy-to-follow-steps:</p>
+<ol>
+<li>Start with a default version (see below).</li>
+<li>Visit your website to see what has been blocked by your CSP.</li>
+<li>Import your CSP using: <a href="https://report-uri.com/home/generate">https://report-uri.com/home/generate</a></li>
+<li>Adjust the items you need and generate a new CSP version.</li>
+</ol>
+<div class="NOTE">
+<h5>Note</h5>
+<p>As always... Remember to backup your <code>web.config</code> for easy roll back.  Even a minor mistake can break features or even cause your website to go down.</p>
+</div>
+<p>The fastest way to work on this (<em>besides a staging or UAT environment</em>) is:</p>
+<ol>
+<li>Have an FTP app like <a href="https://filezilla-project.org/">Filezilla</a> ready.</li>
+<li>Download the working <code>web.config</code> and rename it to something useful, like <code>web-ORIGINAL.config</code>.</li>
+<li>Download the version again, this will be the one work-in-progress.</li>
+</ol>
+<h2 id="now-where-do-i-put-this-csp">Now where do I put this CSP?</h2>
+<p>The CSP is placed in your <code>web.config</code> in the <code>customHeaders</code> section. T here is an example below.</p>
+<p>This version has some common items incorporated for when Bootstrap is used, as well as Google Fonts, and some native share buttons.</p>
+<pre><code class="lang-xml">&lt;httpProtocol&gt;
+    &lt;customHeaders&gt;
+        &lt;add name=&quot;Content-Security-Policy&quot; value=&quot;default-src 'self' ; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com https://www.googletagmanager.com https://*.twitter.com https://apis.google.com/js/plusone.js https://platform.linkedin.com/in.js https://assets.pinterest.com/js/pinit.js https://static.ak.fbcdn.net https://cdn.syndication.twimg.com connect-src; style-src 'self' 'unsafe-inline' http://fonts.googleapis.com https://maxcdn.bootstrapcdn.com; img-src * data: ; media-src 'none' ; object-src 'self' ; frame-src https://www.youtube.com https://i.s-microsoft.com https://platform.twitter.com  https://syndication.twitter.com/;&quot; /&gt;
+    &lt;/customHeaders&gt;
+&lt;/httpProtocol&gt;
+</code></pre>
+<h2 id="are-there-any-reasons-to-not-implement-a-csp">Are There Any Reasons to Not Implement a CSP?</h2>
+<p>Not all browsers fully support CSP.  If you have websites that are being visited by people with older web browsers, you might serve them websites that are not working properly.</p>
+<p>You can check the current status of this using the website below.</p>
+<ul>
+<li><a href="https://caniuse.com/#feat=contentsecuritypolicy">https://caniuse.com/#feat=contentsecuritypolicy</a></li>
+</ul>
+<h3 id="related-content">Related Content</h3>
+<ul>
+<li><a class="xref" href="../security-headers/index.html">Security Headers in DNN</a></li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

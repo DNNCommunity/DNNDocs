@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>SPA Module Development  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="SPA Module Development  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    <meta property="og:title" content="SPA Module Development -- DNN Docs">
+    <meta property="og:image" content="../../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="SPA Module Development -- DNN Docs">
+    <meta property="og:url" content="https://dnndocs.com/content/tutorials/modules/about-modules/spa-module-development/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fabout-modules%2Fspa-module-development%2Findex.html&amp;text=SPA%20Module%20Development%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fabout-modules%2Fspa-module-development%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fabout-modules%2Fspa-module-development%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fabout-modules%2Fspa-module-development%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20SPA%20Module%20Development%20|%20DNN%20Docs&amp;body=SPA%20Module%20Development%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdnndocs.com%2Fcontent%2Ftutorials%2Fmodules%2Fabout-modules%2Fspa-module-development%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for SPA Module Development&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bspa-module-development%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmaster%2Fcontent%2Ftutorials%2Fmodules%2Fabout-modules%2Fspa-module-development%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/master/content/tutorials/modules/about-modules/spa-module-development/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="spa-module-development">
+<h1 id="spa-module-development">SPA Module Development</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">09.02.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left"> &bull; 9 minutes  to read</div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">&nbsp;&bull; 9 minutes  to read</span>
+</div>
+
+<h2 id="overview">Overview</h2>
+<p>Single-Page Application (SPA) frameworks are a newer alternative to server-side web development frameworks such as ASP.NET. SPA replaces the full-page updates of server-side frameworks, with small targeted updates of select page elements. This lightweight approach results in a faster and more responsive UI.</p>
+<p>DNN's SPA module type simplifies the creation of modules that simulate traditional SPA applications and that use AJAX for all server interactions.</p>
+<p>The SPA module framework consists of standard html, javascript and css by providing DNN-specific functionality and can be supplemented by other SPA frameworks, such as AngularJS, Knockout, and React.</p>
+<h2 id="spa-module-architecture">SPA Module Architecture</h2>
+<p>In a SPA module, each HTML file loads the necessary JavaScript and CSS to properly render the UI. SPA modules also make AJAX calls to the business layer through the service layer. This architecture is similar to <a class="xref" href="../web-forms-module-development/index.html">the mobile application architecture for Web Forms modules</a>.</p>
+<p><img src="/images/gra-module-architecture-spa.png" alt="Logical architecture of a SPA module"></p>
+<p>When a DNN page is requested, the framework looks up the requested module control in the module definition. In an SPA module, the module control identifies a specific HTML file. DNN tokens in the HTML file are replaced with site-specific data before the HTML is injected into the page.</p>
+<h2 id="building-spa-modules">Building SPA Modules</h2>
+<p>You have more development options available when building SPA modules compared to MVC modules. The server-side code can be created in Visual Studio as Web Application Project (WAP) or Web Site Project (WAP) types. (See <a href="https://msdn.microsoft.com/en-us/library/dd547590%28v=vs.110%29.aspx">Web Application Projects Versus Web Site Projects in Visual Studio</a>.) Because the presentation layer is created with plain HTML, JavaScript, and CSS, its components can be built using any code editor.</p>
+<p>You can choose to build the SPA module with all presentation layer code in one project and all server-side code in a separate project. This approach makes it easy to use different development tools that are optimized for server-side or client-side development.</p>
+<p>Alternatively, you can use Visual Studio to create a single project that includes both server-side and client-side components. This approach leverages the MS Build system to easily package your module as part of your development process. The DNN SPA module template is set up for this approach.</p>
+<h2 id="accessing-dnn-features">Accessing DNN Features</h2>
+<p>Web Forms and MVC modules can easily access rendering-related DNN features because they are both server-side technologies. SPA modules use client-side technology and, therefore, require a different approach to access DNN features. Because a SPA module uses standard HTML, DNN provides custom tokens that can be included in the HTML to access data and APIs.</p>
+<p>The following SPA module tokens can be used in your HTML:</p>
+<ul>
+<li><p><strong>JavaScript</strong> or <strong>JS</strong> : registers a JavaScript file with the Client Resource Manager. This token takes a json object with the following properties in order to register a specific javascript file.</p>
+<ul>
+<li><strong>jsname</strong> : A named client script library that is included with Dnn. If the jsname is not provided, the path property must be provided.
+Valid values are names of javascript libraries defined in Extensions =&gt; Installed Extensions =&gt; Javascript Libraries</li>
+<li><strong>path</strong> : The path to the javascript file to load (do not use jsname if you use this property).</li>
+<li><strong>priority</strong> : The optional load order priority when multiple javascript files are loaded.</li>
+<li><strong>provider</strong> : Optionally define the provider to use to inject the javascript file in specific places of the rendered html, valid values are :
+<ul>
+<li>DnnBodyProvider : Will load the javascript file in the body of the html.</li>
+<li>DnnPageHeaderProvider : <strong>default if not provided</strong>, Will load the javascript in the page head section.</li>
+<li>DnnFormBottom : Will load the javascript file at the bottom of the global page form (near the bottom of the body).</li>
+</ul>
+</li>
+<li><strong>version</strong> : Optionally provide the version of the file to load if using the jsname property.</li>
+<li><strong>specific</strong> Use in combination with the jsname to decide which version of the library to load if multiple versions are available, valid values are:
+<ul>
+<li><strong>Exact</strong> : The exact version.</li>
+<li><strong>LatestMajor</strong> : The latest major version.</li>
+<li><strong>LatestMinor</strong> : The latest minor version.</li>
+<li><strong>Latest</strong> : The latest version registered.</li>
+</ul>
+</li>
+</ul>
+<p>Examples:</p>
+<pre><code>[JavaScript]: { jsname: &quot;jQuery&quot; }]
+[JavaScript:{ path: &quot;~/DesktopModules/MyModule/scrpts/script.js&quot;}]
+</code></pre>
+</li>
+<li><p><strong>CSS</strong> : Registers a stylesheet with the Client Resource Manager. A local path or a url can be provided, in order to support both http and https, do not provide the protocol when using a url, it will automatically default to the protocol used in the page where it is injected. This token takes a json object with the following properties:</p>
+<ul>
+<li><strong>path</strong> : The path or url to the css file.</li>
+<li><strong>priority</strong> : An optional load order priority.</li>
+<li><strong>provider</strong> : Can be used to optionaly enforce a specific injection provider, see available providers in the Javascrip token.</li>
+</ul>
+<p>Examples:</p>
+<pre><code>[Css:{ path: &quot;//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css&quot;}]
+[Css:{ path: &quot;~/Resources/Shared/components/CodeEditor/lib/codemirror.css&quot;}]
+</code></pre>
+</li>
+<li><p><strong>AntiForgeryToken</strong> : includes an anti-forgery token in the page to prevent Cross-Site Request Forgery (CSRF) attacks.</p>
+<p>Example:</p>
+<pre><code>[AntiForgeryToken:True]
+</code></pre>
+</li>
+<li><p><strong>ModuleAction</strong> : identifies custom module actions.
+This token takes a json object with the following properties for the module action options</p>
+<ul>
+<li><strong>controlKey</strong> : The control key as defined for that control in the module manifest</li>
+<li><strong>icon</strong> : An optional path the to action icon, if not provided will default to the edit pencil icon.</li>
+<li><strong>localResourceFile</strong> : The path to the localization resource file to use for the action title.</li>
+<li><strong>securityAccessLevel</strong> : Defines the visibility permissions for this module action. Valid values are Edit, Admin, Host and View.</li>
+<li><strong>title</strong> : The title of the action, if provided this way, the title will not be localizable (use titleKey instead if you need localization).</li>
+<li><strong>titleKey</strong> : The name of the resource key to use from the localResourceFile to localize your action title.</li>
+</ul>
+<p>Example:</p>
+<pre><code>[ModuleAction:{controlKey : &quot;Settings&quot;, securityAccessLevel : &quot;Edit&quot;,  title: &quot;Settings&quot; }]
+</code></pre>
+</li>
+<li><p><strong>Resx</strong> : includes a localized resource string in the page. This token takes a json object to define the localization key to get, valid properties are:</p>
+<ul>
+<li><strong>key</strong> : The name of the localization key to get the localized value.</li>
+<li><strong>localResourceFile</strong> : Can optionaly be used to specify from which localization file to use, if not provided, it will default to a localization resource file in the App_LocalResources folder next to the view contol with the same name. So if your view is <code>~/DesktopModules/MyModule/view.html</code> it will look for <code>~/DesktopModules/MyModule/App_LocalResources/view.resx</code>.</li>
+</ul>
+<p>Example :</p>
+<pre><code>&lt;button id=&quot;cancelButton&quot;&gt;[Resx:{key: &quot;Cancel&quot;}]&lt;/button&gt;
+</code></pre>
+</li>
+<li><p><strong>Request</strong> : includes the page-request query string in the page.</p>
+</li>
+<li><p><strong>ModuleContext</strong> : includes a DNN module context property in the page. Supported module context properties include:</p>
+<ul>
+<li><strong>ModuleId</strong> : The ID of the module.</li>
+<li><strong>TabModuleId</strong> : The TabModule ID for the module.</li>
+<li><strong>TabId</strong> : The page (tab) ID where the module is currently displayed.</li>
+<li><strong>PortalId</strong> : The site (portal) ID where the module is currently displayed.</li>
+<li><strong>IsSuperUser</strong> : Gets a value indicating whether the current user is a SuperUser (Host).</li>
+<li><strong>EditMode</strong> : Gets a value indicating whether the module is currently in edit mode.</li>
+<li><strong>SettingName</strong> : You can access a specific module setting by using the setting name, instead of a predefined property name.</li>
+</ul>
+</li>
+</ul>
+<div class="related-topics" hidden=""></div><div class="links" hidden=""><span><a href="https://en.wikipedia.org/wiki/Single-page_application">Wikipedia: Single-Page Application</a></span><span><a href="https://www.dnnsoftware.com/wiki/ipropertyaccess">DNN Wiki: Token Replacement API</a></span><span><a href="https://www.dnnsoftware.com/wiki/tokens">DNN Wiki: Standard DNN Tokens</a></span></div></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

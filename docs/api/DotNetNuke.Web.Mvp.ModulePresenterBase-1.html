@@ -1,0 +1,1151 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ModulePresenterBase&lt;TView&gt;
+    -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ModulePresenterBase&lt;TView&gt;
+    -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1">
+  
+  
+  <h1 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1" class="text-break">Class ModulePresenterBase&lt;TView&gt;
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ModulePresenterBase&lt;TView&gt;</span></div>
+      <div class="level2"><a class="xref" href="DotNetNuke.Web.Mvp.ModulePresenter-1.html">ModulePresenter&lt;TView&gt;</a></div>
+      <div class="level2"><a class="xref" href="DotNetNuke.Web.Mvp.ModulePresenter-2.html">ModulePresenter&lt;TView, TModel&gt;</a></div>
+      <div class="level2"><a class="xref" href="DotNetNuke.Web.Mvp.ModuleSettingsPresenter-2.html">ModuleSettingsPresenter&lt;TView, TModel&gt;</a></div>
+      <div class="level2"><a class="xref" href="DotNetNuke.Web.Mvp.ModuleSettingsPresenterBase-1.html">ModuleSettingsPresenterBase&lt;TView&gt;</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Web.Mvp.html">DotNetNuke.Web.Mvp</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.Web.dll</h6>
+  <h5 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class ModulePresenterBase&lt;TView&gt; : Presenter&lt;TView&gt; where TView : class, IModuleViewBase</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TView</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1__ctor__0_.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.%23ctor(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L23">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1__ctor_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.#ctor*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1__ctor__0_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.#ctor(`0)">ModulePresenterBase(TView)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ModulePresenterBase(TView view)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TView</span></td>
+        <td><span class="parametername">view</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_AllowAnonymousAccess.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.AllowAnonymousAccess%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L73">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_AllowAnonymousAccess_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.AllowAnonymousAccess*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_AllowAnonymousAccess" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.AllowAnonymousAccess">AllowAnonymousAccess</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool AllowAnonymousAccess { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_AutoDataBind.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.AutoDataBind%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L47">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_AutoDataBind_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.AutoDataBind*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_AutoDataBind" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.AutoDataBind">AutoDataBind</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AutoDataBind { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_IsEditable.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.IsEditable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L51">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_IsEditable_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.IsEditable*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_IsEditable" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.IsEditable">IsEditable</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEditable { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_IsPostBack.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.IsPostBack%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L53">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_IsPostBack_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.IsPostBack*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_IsPostBack" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.IsPostBack">IsPostBack</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPostBack { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_IsSuperUser.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.IsSuperUser%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L55">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_IsSuperUser_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.IsSuperUser*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_IsSuperUser" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.IsSuperUser">IsSuperUser</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSuperUser { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_IsUserAuthorized.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.IsUserAuthorized%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L81">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_IsUserAuthorized_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.IsUserAuthorized*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_IsUserAuthorized" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.IsUserAuthorized">IsUserAuthorized</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool IsUserAuthorized { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_LocalResourceFile.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.LocalResourceFile%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L57">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_LocalResourceFile_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.LocalResourceFile*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_LocalResourceFile" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.LocalResourceFile">LocalResourceFile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string LocalResourceFile { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_ModuleContext.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.ModuleContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L59">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_ModuleContext_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.ModuleContext*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_ModuleContext" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.ModuleContext">ModuleContext</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleInstanceContext ModuleContext { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ModuleInstanceContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_ModuleId.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.ModuleId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L61">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_ModuleId_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.ModuleId*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_ModuleId" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.ModuleId">ModuleId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ModuleId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_ModuleInfo.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.ModuleInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L49">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_ModuleInfo_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.ModuleInfo*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_ModuleInfo" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.ModuleInfo">ModuleInfo</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleInfo ModuleInfo { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ModuleInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_PortalId.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.PortalId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L63">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_PortalId_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.PortalId*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_PortalId" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.PortalId">PortalId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PortalId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_Settings.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.Settings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L69">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_Settings_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.Settings*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_Settings" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.Settings">Settings</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, string&gt; Settings { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_TabId.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.TabId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L65">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_TabId_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.TabId*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_TabId" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.TabId">TabId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TabId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_UserId.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.UserId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L67">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_UserId_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.UserId*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_UserId" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.UserId">UserId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int UserId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_Validator.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.Validator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L71">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_Validator_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.Validator*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_Validator" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.Validator">Validator</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Validator Validator { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Web.Validators.Validator.html">Validator</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_CheckAuthPolicy.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.CheckAuthPolicy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L99">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_CheckAuthPolicy_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.CheckAuthPolicy*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_CheckAuthPolicy" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.CheckAuthPolicy">CheckAuthPolicy()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool CheckAuthPolicy()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_LoadFromContext.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.LoadFromContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L116">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_LoadFromContext_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.LoadFromContext*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_LoadFromContext" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.LoadFromContext">LoadFromContext()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void LoadFromContext()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_LocalizeString_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.LocalizeString(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L136">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_LocalizeString_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.LocalizeString*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_LocalizeString_System_String_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.LocalizeString(System.String)">LocalizeString(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string LocalizeString(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_OnInit.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.OnInit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L151">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_OnInit_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.OnInit*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_OnInit" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.OnInit">OnInit()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnInit()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_OnLoad.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.OnLoad%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L155">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_OnLoad_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.OnLoad*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_OnLoad" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.OnLoad">OnLoad()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnLoad()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_OnNoCurrentUser.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.OnNoCurrentUser%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L159">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_OnNoCurrentUser_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.OnNoCurrentUser*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_OnNoCurrentUser" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.OnNoCurrentUser">OnNoCurrentUser()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnNoCurrentUser()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_OnUnauthorizedUser.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.OnUnauthorizedUser%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L164">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_OnUnauthorizedUser_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.OnUnauthorizedUser*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_OnUnauthorizedUser" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.OnUnauthorizedUser">OnUnauthorizedUser()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnUnauthorizedUser()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_ProcessModuleLoadException_Exception_.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.ProcessModuleLoadException(Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L184">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_ProcessModuleLoadException_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.ProcessModuleLoadException*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_ProcessModuleLoadException_Exception_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.ProcessModuleLoadException(Exception)">ProcessModuleLoadException(Exception)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ProcessModuleLoadException(Exception ex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Exception</span></td>
+        <td><span class="parametername">ex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_RedirectToAccessDenied.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.RedirectToAccessDenied%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L169">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_RedirectToAccessDenied_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.RedirectToAccessDenied*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_RedirectToAccessDenied" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.RedirectToAccessDenied">RedirectToAccessDenied()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RedirectToAccessDenied()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_RedirectToCurrentPage.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.RedirectToCurrentPage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L174">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_RedirectToCurrentPage_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.RedirectToCurrentPage*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_RedirectToCurrentPage" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.RedirectToCurrentPage">RedirectToCurrentPage()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RedirectToCurrentPage()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_RedirectToLogin.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.RedirectToLogin%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L179">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_RedirectToLogin_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.RedirectToLogin*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_RedirectToLogin" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.RedirectToLogin">RedirectToLogin()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RedirectToLogin()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_RestoreState_StateBag_.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.RestoreState(StateBag)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L89">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_RestoreState_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.RestoreState*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_RestoreState_StateBag_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.RestoreState(StateBag)">RestoreState(StateBag)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void RestoreState(StateBag stateBag)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StateBag</span></td>
+        <td><span class="parametername">stateBag</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_SaveState_StateBag_.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.SaveState(StateBag)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L94">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_SaveState_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.SaveState*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_SaveState_StateBag_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.SaveState(StateBag)">SaveState(StateBag)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SaveState(StateBag stateBag)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StateBag</span></td>
+        <td><span class="parametername">stateBag</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_ShowMessage_System_String_ModuleMessage_ModuleMessageType_.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.ShowMessage(System.String%2CModuleMessage.ModuleMessageType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L194">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_ShowMessage_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.ShowMessage*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_ShowMessage_System_String_ModuleMessage_ModuleMessageType_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.ShowMessage(System.String,ModuleMessage.ModuleMessageType)">ShowMessage(String, ModuleMessage.ModuleMessageType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ShowMessage(string message, ModuleMessage.ModuleMessageType messageType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">ModuleMessage.ModuleMessageType</span></td>
+        <td><span class="parametername">messageType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_ShowMessage_System_String_ModuleMessage_ModuleMessageType_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.ShowMessage(System.String%2CModuleMessage.ModuleMessageType%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L199">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_ShowMessage_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.ShowMessage*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_ShowMessage_System_String_ModuleMessage_ModuleMessageType_System_Boolean_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.ShowMessage(System.String,ModuleMessage.ModuleMessageType,System.Boolean)">ShowMessage(String, ModuleMessage.ModuleMessageType, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ShowMessage(string message, ModuleMessage.ModuleMessageType messageType, bool localize)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">ModuleMessage.ModuleMessageType</span></td>
+        <td><span class="parametername">messageType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">localize</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_ShowMessage_System_String_System_String_ModuleMessage_ModuleMessageType_.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.ShowMessage(System.String%2CSystem.String%2CModuleMessage.ModuleMessageType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L189">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_ShowMessage_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.ShowMessage*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_ShowMessage_System_String_System_String_ModuleMessage_ModuleMessageType_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.ShowMessage(System.String,System.String,ModuleMessage.ModuleMessageType)">ShowMessage(String, String, ModuleMessage.ModuleMessageType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ShowMessage(string messageHeader, string message, ModuleMessage.ModuleMessageType messageType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">messageHeader</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">ModuleMessage.ModuleMessageType</span></td>
+        <td><span class="parametername">messageType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/master/apiSpec/new?filename=DotNetNuke_Web_Mvp_ModulePresenterBase_1_ShowMessage_System_String_System_String_ModuleMessage_ModuleMessageType_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Mvp.ModulePresenterBase%601.ShowMessage(System.String%2CSystem.String%2CModuleMessage.ModuleMessageType%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L204">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_ShowMessage_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.ShowMessage*"></a>
+  <h4 id="DotNetNuke_Web_Mvp_ModulePresenterBase_1_ShowMessage_System_String_System_String_ModuleMessage_ModuleMessageType_System_Boolean_" data-uid="DotNetNuke.Web.Mvp.ModulePresenterBase`1.ShowMessage(System.String,System.String,ModuleMessage.ModuleMessageType,System.Boolean)">ShowMessage(String, String, ModuleMessage.ModuleMessageType, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ShowMessage(string messageHeader, string message, ModuleMessage.ModuleMessageType messageType, bool localize)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">messageHeader</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">ModuleMessage.ModuleMessageType</span></td>
+        <td><span class="parametername">messageType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">localize</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Mvp/ModulePresenterBase.cs/#L19" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>
