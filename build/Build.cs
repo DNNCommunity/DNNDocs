@@ -56,7 +56,7 @@ class Build : NukeBuild
     const string pluginsProjectName = "DNNCommunity.DNNDocs.Plugins";
 
     // Define directories
-    AbsolutePath siteDirectory = RootDirectory / "_site";
+    AbsolutePath siteDirectory = RootDirectory / "docs";
     AbsolutePath pluginsDirectory = RootDirectory / "templates" / "dnn-docs" / "plugins";
     AbsolutePath dnnPlatformDirectory = RootDirectory / "Dnn.Platform";
 
@@ -126,8 +126,9 @@ class Build : NukeBuild
             Git("config --global user.email 'info@dnncommunity.org'");
             Git($"remote set-url origin https://DNNCommunity:{GithubToken}@github.com/DNNCommunity/DNNDocs.git");
             Git("checkout site");
-            Git("add _site");
+            Git("add docs");
             Git("commit -m \"Commiting latest build\"");
             Git("push origin site");
+            Git($"git checkout {currentCommit}");
         });
 }
