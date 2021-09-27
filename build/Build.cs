@@ -103,6 +103,7 @@ class Build : NukeBuild
         .DependsOn(PullDnnRepo)
         .Executes(() =>
         {
+            DocFXMetadata(s => s.SetFilterConfigFile(RootDirectory / "docfx.json"));
             DocFXBuild(s => s.SetConfigFile(RootDirectory / "docfx.json"));
         });
 
