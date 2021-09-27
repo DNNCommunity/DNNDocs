@@ -140,6 +140,8 @@ class Build : NukeBuild
             Git("status");
             Git("add docs -f");
             Git("status");
+            Git("checkout -- .");
+            Git("status");
             Git("commit --allow-empty -m \"Commiting latest build\"");
             Git("status");
             Git("push -f origin site");
