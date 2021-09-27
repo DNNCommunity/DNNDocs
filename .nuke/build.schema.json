@@ -81,7 +81,8 @@
               "Deploy",
               "PullDnnRepo",
               "Restore",
-              "Serve"
+              "Serve",
+              "TemplateExportDefault"
             ]
           }
         },
@@ -101,7 +102,8 @@
               "Deploy",
               "PullDnnRepo",
               "Restore",
-              "Serve"
+              "Serve",
+              "TemplateExportDefault"
             ]
           }
         },
