@@ -129,6 +129,6 @@ class Build : NukeBuild
             Git("add docs");
             Git("commit -m \"Commiting latest build\"");
             Git("push origin site");
-            Git($"git checkout {currentCommit}");
+            Git($"checkout {currentCommit}");
         });
 }
