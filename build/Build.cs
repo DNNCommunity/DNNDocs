@@ -135,9 +135,13 @@ class Build : NukeBuild
             Git("config --global user.name 'DNN Community'");
             Git("config --global user.email 'info@dnncommunity.org'");
             Git($"remote set-url origin https://DNNCommunity:{GithubToken}@github.com/DNNCommunity/DNNDocs.git");
-            Git("checkout site");
+            Git("status");
+            Git("checkout -b site");
+            Git("status");
             Git("add docs");
+            Git("status");
             Git("commit --allow-empty -m \"Commiting latest build\"");
+            Git("status");
             Git("push origin site");
             Git($"checkout {currentCommit}");
         });
