@@ -12,7 +12,7 @@ Dnn.Platform/
 /dist
 /tmp
 /obj
-/_site
+/docs
 /api/*.yml
 /api/*.manifest
 
