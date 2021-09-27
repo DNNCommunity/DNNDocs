@@ -136,7 +136,7 @@ class Build : NukeBuild
             Git("config --global user.email 'info@dnncommunity.org'");
             Git($"remote set-url origin https://DNNCommunity:{GithubToken}@github.com/DNNCommunity/DNNDocs.git");
             Git("status");
-            Git("checkout -b site");
+            Git("checkout -b site -- docs");
             Git("status");
             Git("add docs");
             Git("status");
