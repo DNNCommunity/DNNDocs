@@ -138,7 +138,7 @@ class Build : NukeBuild
             Git("status");
             Git("checkout -b site");
             Git("status");
-            Git("add docs");
+            Git("add docs -f");
             Git("status");
             Git("commit --allow-empty -m \"Commiting latest build\"");
             Git("status");
