@@ -127,7 +127,7 @@ class Build : NukeBuild
             Git($"remote set-url origin https://DNNCommunity:{GithubToken}@github.com/DNNCommunity/DNNDocs.git");
             Git("checkout site");
             Git("add docs");
-            Git("commit -m \"Commiting latest build\"");
+            Git("commit --allow-empty -m \"Commiting latest build\"");
             Git("push origin site");
             Git($"checkout {currentCommit}");
         });
