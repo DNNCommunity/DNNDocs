@@ -23,14 +23,14 @@ exports.getFeedbackHref = getFeedbackHref;
 
 function getHtmlUrl(_path) {
     if (!_path) return '';
-    var dnndocsBaseUrl = 'https://dnndocs.com/';
+    var dnndocsBaseUrl = 'https://docs.dnncommunity.org/';
     var htmlurl = dnndocsBaseUrl + _path.replace('.md', '.html');
     return htmlurl;
 }
 
 function getTwitterShareHref(_path, title) {
     if (!_path) return '';
-    var dnndocsBaseUrl = 'https://dnndocs.com/';
+    var dnndocsBaseUrl = 'https://docs.dnncommunity.org/';
     var original_referer = encodeURIComponent(dnndocsBaseUrl + _path.replace('.md', '.html'));
     var url = original_referer;
     var text = encodeURIComponent(title) + '%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS';
@@ -41,7 +41,7 @@ function getTwitterShareHref(_path, title) {
 
 function getLinkedInShareHref(_path) {
     if (!_path) return '';
-    var dnndocsBaseUrl = 'https://dnndocs.com/';
+    var dnndocsBaseUrl = 'https://docs.dnncommunity.org/';
     var url = encodeURIComponent(dnndocsBaseUrl + _path.replace('.md', '.html'));
     var linkedInShareHref = 'https://www.linkedin.com/cws/share?url=' + url;
     return linkedInShareHref;
@@ -49,7 +49,7 @@ function getLinkedInShareHref(_path) {
 
 function getFacebookShareHref(_path) {
     if (!_path) return '';
-    var dnndocsBaseUrl = 'https://dnndocs.com/';
+    var dnndocsBaseUrl = 'https://docs.dnncommunity.org/';
     var url = encodeURIComponent(dnndocsBaseUrl + _path.replace('.md', '.html'));
     var facebookShareHref = 'https://www.facebook.com/sharer/sharer.php?u=' + url;
     return facebookShareHref;
@@ -57,7 +57,7 @@ function getFacebookShareHref(_path) {
 
 function getEmailShareHref(_path, title) {
     if (!_path) return '';
-    var dnndocsBaseUrl = 'https://dnndocs.com/';
+    var dnndocsBaseUrl = 'https://docs.dnncommunity.org/';
     var subject = '[Shared%20Article]%20' + encodeURIComponent(title) + '%20|%20DNN%20Docs';
     var body = encodeURIComponent(title) + '%20|%20DNN%20Docs%0A%0A' + encodeURIComponent(dnndocsBaseUrl + _path.replace('.md', '.html')) + '%0A%0A';
     return 'mailto:?subject=' + subject + '&body=' + body;
@@ -67,7 +67,7 @@ function getFeedbackHref(docurl, title, uid) {
     if (!docurl) return '';
     var newIssueUrl = 'https://github.com/DNNCommunity/DNNDocs/issues/new';
     title = 'Feedback for ' + title;
-    var body = '%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20dnndocs.com%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5B' + encodeURIComponent(uid) + '%5D(' + encodeURIComponent(docurl) + ')';
+    var body = '%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20docs.dnncommunity.org%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5B' + encodeURIComponent(uid) + '%5D(' + encodeURIComponent(docurl) + ')';
     return newIssueUrl + '?title=' + title + '&body=' + body;
 }
 
