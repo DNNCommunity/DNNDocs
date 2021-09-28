@@ -92,6 +92,7 @@ class Build : NukeBuild
     .DependsOn(Clean)
     .Executes(() =>
     {
+        // Prevents a bug where git sends ok message to the error output sink
         GitLogger = (type, output) => Logger.Info(output);
         Git($"clone https://github.com/dnnsoftware/Dnn.Platform.git {dnnPlatformDirectory}");
     });
@@ -132,6 +133,9 @@ class Build : NukeBuild
         .Before(Compile)
         .Executes(() =>
         {
+            // Prevents a bug where git sends ok message to the error output sink
+            GitLogger = (type, output) => Logger.Info(output);
+
             // Because in CI we are in detached head,
             // we create a local deploy branch to track our commit.
             Git("switch -c deploy");
