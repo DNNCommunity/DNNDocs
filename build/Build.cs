@@ -7,14 +7,15 @@ using Nuke.Common.Execution;
 using Nuke.Common.IO;
 using Nuke.Common.Git;
 using Nuke.Common.Tools.DocFX;
+using Nuke.Common.Tools.DotNet;
 using Nuke.Common.Tools.MSBuild;
 using Nuke.Common.ProjectModel;
 using Nuke.Common.Tooling;
-using Nuke.Common.Tools.DotNet;
 using Nuke.Common.Utilities.Collections;
 using static Nuke.Common.EnvironmentInfo;
 using static Nuke.Common.IO.FileSystemTasks;
 using static Nuke.Common.IO.PathConstruction;
+using static Nuke.Common.IO.TextTasks;
 using static Nuke.Common.Tools.DocFX.DocFXTasks;
 using static Nuke.Common.Tools.DotNet.DotNetTasks;
 using static Nuke.Common.Tools.Git.GitTasks;
@@ -159,6 +160,9 @@ class Build : NukeBuild
             Git("status");
             Git("checkout deploy -- docs"); // pulls only docs from our temporary deploy branch.
             Git("status");
+
+            WriteAllText(RootDirectory / "docs" / "CNAME", "docs.dnncommunity.org");
+
             Git("add docs"); // stage the docs
             Git("status");
             Git("commit --allow-empty -m \"Commit latest build\"");
