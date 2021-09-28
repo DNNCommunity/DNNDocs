@@ -161,7 +161,7 @@ class Build : NukeBuild
             Git("status");
             Git("add docs"); // stage the docs
             Git("status");
-            Git("commit --allow-empty -m 'Commit latest changes.'");
+            Git("commit --allow-empty -m \"Commit latest build\"");
             Git("status");
             Git("push origin site"); // Should push only the change with linear history and a proper diff.
         });
