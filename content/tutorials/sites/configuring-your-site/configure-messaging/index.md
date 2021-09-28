@@ -48,4 +48,20 @@ related-topics: update-site-info,assign-key-pages,add-metadata-to-pages,access-w
     |---|---|
     |<strong>Send Emails</strong>|If enabled, the system sends an email to the user for each message and notification.|
     |<strong>Include Attachments</strong>|If enabled, system emails can include file attachments.|
-    
+   
+
+	## Change the Body Content Messaging Center Emails
+	
+	The Template for Emails the Messaging center sends is part of the Language Pack DNN uses for Localization. 
+	You can edit these as follows: 
+	
+	In the Persona Bar, navigate to Settings > Site Settings > Languages. 
+	Click on the last Icon on the right of a Language. 
+	Make sure you select "Host" to change the text for all Portals and the option with the "name of your site" for the current Portal. 
+	
+	> [!Note]
+    > Do not select "Global" as your change would get overwritten on the next DNN upgrade.
+	
+	In the Resource File Dropdown, navigate to GlobalResources.resx > GlobalResources 
+	Edit the value of EMAIL_MESSAGING_DISPATCH_BODY.Text to change the Template of the sent Email.
+	Make sure you keep the [TOKENS] used in this Template in the new Email Template.
