@@ -164,5 +164,6 @@ class Build : NukeBuild
             Git("commit --allow-empty -m \"Commit latest build\"");
             Git("status");
             Git("push origin site"); // Should push only the change with linear history and a proper diff.
+            Git("checkout deploy");
         });
 }
