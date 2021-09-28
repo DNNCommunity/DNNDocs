@@ -153,9 +153,15 @@ class Build : NukeBuild
             Git("status");
             Git("commit --allow-empty -m \"Commit latest build\""); // We allow an empty commit in case the last change did not affect the site.
             Git("status");
-            Git("checkout -b site origin/site");
+            Git("checkout -b site origin/site"); // pulling a local copy of the current deployment.
             Git("status");
-            Git("cherry-pick deploy"); // This only picks the very last commit on that branch.
+            Git("rm -r ."); // Delete all files before so we have a diff if something is no longer present in the new build.
+            Git("status");
+            Git("checkout deploy -- docs"); // pulls only docs from our temporary deploy branch.
+            Git("status");
+            Git("add docs"); // stage the docs
+            Git("status");
+            Git("commit --allow-empty -m 'Commit latest changes.'");
             Git("status");
             Git("push origin site"); // Should push only the change with linear history and a proper diff.
         });
