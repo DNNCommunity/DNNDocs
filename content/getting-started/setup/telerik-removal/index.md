@@ -62,7 +62,7 @@ Navigate to `Settings > Servers` in the `Persona Bar` and click the `Clear Cache
 Navigate to `Settings > Extensions (Modules)` in the `Persona Bar` and uninstall the `Digital Assets Management` extension.  Be sure to check the `Delete Files` checkbox.
 
 ### Step 9
-Navigate to `Settings > Extensions (Modules)` in the `Persona Bar` and uninstall the `Messaging` extension _if it exists_.  **Do not** confuse with the `Message Center` extension.  Be sure to check the `Delete Files` checkbox.
+Navigate to `Settings > Extensions (Modules)` in the `Persona Bar` and uninstall the `Messaging` extension _if it exists_.  **Do not confuse with the `Message Center` extension.**  Be sure to check the `Delete Files` checkbox.
 
 ### Step 10
 Navigate to `Settings > Extensions (Libraries)` in the `Persona Bar` and uninstall the `DotNetNuke Telerik Web Components` extension.  Be sure to check the `Delete Files` checkbox.
