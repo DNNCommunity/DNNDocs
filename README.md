@@ -61,7 +61,7 @@ You can now open <a href="http://localhost:8080" target="_blank">http://localhos
 ## Contributing
 You are now all setup to start your first contribution.
 
-First, it is recommended to create a new branch to collect your changes without touching the **master** branch, this will make it easier later when you will need to **pull** the latest changes from the **upstream** remote (the official repository). You can use any branch name that makes sense to you as long as it does not have spaces or special characters other than - and _. Popular naming conventions are something that describes the issue solved or simply the issue number. To create a new branch you can type the following command:
+First, it is recommended to create a new branch to collect your changes without touching the **main** branch, this will make it easier later when you will need to **pull** the latest changes from the **upstream** remote (the official repository). You can use any branch name that makes sense to you as long as it does not have spaces or special characters other than - and _. Popular naming conventions are something that describes the issue solved or simply the issue number. To create a new branch you can type the following command:
 
 ```
 git checkout -b your-branch-name
@@ -99,11 +99,11 @@ Now your changes are available in your **fork** of the repository for anyone to 
 
 ## Updating from upstream
 
-A couple of days or weeks have passed and you are still all setup to continue contributing, but sice time has past, other awesome contributors have been working hard and now **upstream**, **origin** and your local **clone** may be out of sync with different content. Let's bring those back in sync. Remember how you can only read (**pull**) from the official repository (**upstream** remote) but you can read and write (**pull** and **push**) to your fork (**origin** remote). This means we will need to pull from upstream to your local clone and then push this back to your origin to get the 3 back in sync. But first we need to change our branch to the default (**master**) branch. Here is the series of commands to do what is explained in the paragraph:
+A couple of days or weeks have passed and you are still all setup to continue contributing, but sice time has past, other awesome contributors have been working hard and now **upstream**, **origin** and your local **clone** may be out of sync with different content. Let's bring those back in sync. Remember how you can only read (**pull**) from the official repository (**upstream** remote) but you can read and write (**pull** and **push**) to your fork (**origin** remote). This means we will need to pull from upstream to your local clone and then push this back to your origin to get the 3 back in sync. But first we need to change our branch to the default (**main**) branch. Here is the series of commands to do what is explained in the paragraph:
 
 ```
-git checkout master
-git pull upstream master
+git checkout main
+git pull upstream main
 git push
 ```
 
