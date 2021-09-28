@@ -128,23 +128,31 @@ class Build : NukeBuild
                 .EnableServe());
         });
 
+    Target CreateDeployBranch => _ => _
+        .Before(Compile)
+        .Executes(() =>
+        {
+            // Because in CI we are in detached head,
+            // we create a local deploy branch to track our commit.
+            Git("switch -c deploy");
+        });
+
     Target Deploy => _ => _
+        .DependsOn(CreateDeployBranch)
         .DependsOn(Compile)
         .Executes(() => {
-            var currentCommit = GitCurrentCommit();
             Git("config --global user.name 'DNN Community'");
             Git("config --global user.email 'info@dnncommunity.org'");
             Git($"remote set-url origin https://DNNCommunity:{GithubToken}@github.com/DNNCommunity/DNNDocs.git");
             Git("status");
-            Git("checkout -b site");
+            Git("add docs -f"); // Force adding because it is usually gitignored.
             Git("status");
-            Git("add docs -f");
+            Git("commit --allow-empty -m \"Commit latest build\""); // We allow an empty commit in case the last change did not affect the site.
             Git("status");
-            Git("checkout -- .");
+            Git("checkout -b site origin/site");
             Git("status");
-            Git("commit --allow-empty -m \"Commiting latest build\"");
+            Git("cherry-pick deploy"); // This only picks the very last commit on that branch.
             Git("status");
-            Git("push -f origin site");
-            Git($"checkout {currentCommit}");
+            Git("push origin site"); // Should push only the change with linear history and a proper diff.
         });
 }
