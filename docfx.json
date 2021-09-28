@@ -30,7 +30,7 @@
   ],
   "build": {
     "sitemap": {
-      "baseUrl": "https://dnndocs.com/"
+      "baseUrl": "https://docs.dnncommunity.org/"
     },
     "content": [
       {
