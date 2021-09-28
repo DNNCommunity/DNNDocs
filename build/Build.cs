@@ -27,13 +27,13 @@ using static Nuke.Common.Tools.MSBuild.MSBuildTasks;
     GitHubActionsImage.MacOsLatest,
     GitHubActionsImage.UbuntuLatest,
     ImportGitHubTokenAs = "GithubToken",
-    OnPullRequestBranches = new[] { "master" },
+    OnPullRequestBranches = new[] { "main" },
     InvokedTargets = new[] { nameof(Compile) })]
 [GitHubActions(
     "Deploy",
     GitHubActionsImage.WindowsLatest,
     ImportGitHubTokenAs = "GithubToken",
-    OnPushBranches = new[] { "master" },
+    OnPushBranches = new[] { "main" },
     InvokedTargets = new[] { nameof(Deploy) })]
 class Build : NukeBuild
 {
