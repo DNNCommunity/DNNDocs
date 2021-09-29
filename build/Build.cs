@@ -34,7 +34,8 @@ using static Nuke.Common.Tools.MSBuild.MSBuildTasks;
     GitHubActionsImage.WindowsLatest,
     ImportGitHubTokenAs = "GithubToken",
     OnPushBranches = new[] { "main" },
-    InvokedTargets = new[] { nameof(Deploy) })]
+    InvokedTargets = new[] { nameof(Deploy) },
+    ImportSecrets = new[] { "ACCESS_TOKEN" })]
 class Build : NukeBuild
 {
     /// Support plugins are available for:
@@ -142,8 +143,21 @@ class Build : NukeBuild
             Git("switch -c deploy");
         });
 
+    Target CreateTokenFile => _ => _
+        .Before(Compile)
+        .Executes(() => {
+            var filePath = RootDirectory / "github-token.txt";
+            Touch(filePath);
+            var token = Environment.GetEnvironmentVariable("ACCESS_TOKEN");
+            if (!string.IsNullOrEmpty(token))
+            {
+                WriteAllText(filePath, token);
+            }
+        });
+
     Target Deploy => _ => _
         .DependsOn(CreateDeployBranch)
+        .DependsOn(CreateTokenFile)
         .DependsOn(Compile)
         .Executes(() => {
             Git("config --global user.name 'DNN Community'");

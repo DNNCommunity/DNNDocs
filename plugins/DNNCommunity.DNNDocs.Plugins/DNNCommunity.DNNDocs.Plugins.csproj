@@ -54,7 +54,6 @@
     <Compile Include="MoreLinksProcessor.cs" />
     <Compile Include="PageStatsProcessor.cs" />
     <Compile Include="PageStatsBuildStep.cs" />
-    <Compile Include="Models\GitHub.cs" />
     <Compile Include="Providers\GitHubApi.cs" />
     <Compile Include="RepoStatsBuildStep.cs" />
     <Compile Include="RepoStatsProcessor.cs" />
