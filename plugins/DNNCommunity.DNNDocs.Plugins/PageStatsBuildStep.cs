@@ -6,6 +6,7 @@ using Microsoft.DocAsCode.Plugins;
 using Microsoft.DocAsCode.Build.ConceptualDocuments;
 using DNNCommunity.DNNDocs.Plugins.Models;
 using DNNCommunity.DNNDocs.Plugins.Providers;
+using Newtonsoft.Json;
 
 namespace DNNCommunity.DNNDocs.Plugins
 {
@@ -34,9 +35,11 @@ namespace DNNCommunity.DNNDocs.Plugins
                     string transformedFilePathFromRoot = model.LocalPathFromRoot.Replace("/", "%2F");
                     List<Commits> gitCommits = GitHubApi.Instance(rootPath).GetCommits(models, transformedFilePathFromRoot);
 
-                    if (gitCommits != null)
+                    if (gitCommits != null && gitCommits.Count > 0)
                     {
+                        System.Console.WriteLine(JsonConvert.SerializeObject(gitCommits));
                         var commits = gitCommits
+                            .Where(x => x.Author != null)
                             .GroupBy(x => x.Author.Login)
                             .OrderByDescending(x => x.Count())
                             .Select(x => x.FirstOrDefault())
