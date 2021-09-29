@@ -149,8 +149,13 @@ class Build : NukeBuild
             var filePath = RootDirectory / "github-token.txt";
             Touch(filePath);
             var token = Environment.GetEnvironmentVariable("ACCESS_TOKEN");
-            if (!string.IsNullOrEmpty(token))
+            if (string.IsNullOrEmpty(token))
             {
+                Logger.Warn("No api key specified.");
+            }
+            else
+            {
+                Logger.Info("Api key created.");
                 WriteAllText(filePath, token);
             }
         });
