@@ -91,7 +91,7 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
                 webRequest.ServicePoint.Expect100Continue = false;
                 var authenticationString = $"access_token:{accessToken}";
                 var basicAuthString = Convert.ToBase64String(Encoding.ASCII.GetBytes(authenticationString));
-                webRequest.Headers.Add("Authentication", "Basic " + basicAuthString);
+                webRequest.Headers.Add("Authorization", "Basic " + basicAuthString);
 
                 try
                 {
