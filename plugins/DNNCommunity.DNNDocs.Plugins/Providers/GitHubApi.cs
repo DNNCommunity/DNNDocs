@@ -6,6 +6,7 @@ using Microsoft.DocAsCode.Plugins;
 using Newtonsoft.Json;
 using DNNCommunity.DNNDocs.Plugins.Models;
 using System;
+using System.Text;
 
 namespace DNNCommunity.DNNDocs.Plugins.Providers
 {
@@ -88,7 +89,9 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
                 webRequest.Method = "GET";
                 webRequest.UserAgent = "request";
                 webRequest.ServicePoint.Expect100Continue = false;
-                webRequest.Headers.Add("access_token", accessToken);
+                var authenticationString = $"access_token:{accessToken}";
+                var basicAuthString = Convert.ToBase64String(Encoding.ASCII.GetBytes(authenticationString));
+                webRequest.Headers.Add("Authentication", "Basic " + basicAuthString);
 
                 try
                 {

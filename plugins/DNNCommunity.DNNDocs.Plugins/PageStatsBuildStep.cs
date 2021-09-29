@@ -31,7 +31,7 @@ namespace DNNCommunity.DNNDocs.Plugins
             {
                 if (model.Type == DocumentType.Article)
                 {
-                    string transformedFilePathFromRoot = model.LocalPathFromRoot.Replace("/", "%2F").TrimEnd('.');
+                    string transformedFilePathFromRoot = model.LocalPathFromRoot.Replace("/", "%2F");
                     List<Commits> gitCommits = GitHubApi.Instance(rootPath).GetCommits(models, transformedFilePathFromRoot);
 
                     if (gitCommits != null)
