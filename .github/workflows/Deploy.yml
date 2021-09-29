@@ -38,3 +38,4 @@ jobs:
         run: ./build.cmd Deploy
         env:
           GithubToken: ${{ secrets.GITHUB_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}

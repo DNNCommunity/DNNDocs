@@ -26,8 +26,9 @@ namespace DNNCommunity.DNNDocs.Plugins
         #region Postbuild
         public void Postbuild(ImmutableList<FileModel> models, IHostService host)
         {
-            List<Contributor> gitContributors = GitHubApi.GetContributors(models);
-            List<Commits> gitCommits = GitHubApi.GetCommits(models, "");
+            var rootPath = models[0].BaseDir;
+            List<Contributor> gitContributors = GitHubApi.Instance(rootPath).GetContributors(models);
+            List<Commits> gitCommits = GitHubApi.Instance(rootPath).GetCommits(models, "");
 
             if (gitContributors != null && gitCommits != null)
             {

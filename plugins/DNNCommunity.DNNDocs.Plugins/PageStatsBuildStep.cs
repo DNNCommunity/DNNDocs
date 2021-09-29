@@ -26,12 +26,13 @@ namespace DNNCommunity.DNNDocs.Plugins
         #region Postbuild
         public void Postbuild(ImmutableList<FileModel> models, IHostService host)
         {
+            var rootPath = models[0].BaseDir;
             foreach (var model in models)
             {
                 if (model.Type == DocumentType.Article)
                 {
-                    string transformedFilePathFromRoot = model.LocalPathFromRoot.Replace("/", "%2F");
-                    List<Commits> gitCommits = GitHubApi.GetCommits(models, transformedFilePathFromRoot);
+                    string transformedFilePathFromRoot = model.LocalPathFromRoot.Replace("/", "%2F").TrimEnd('.');
+                    List<Commits> gitCommits = GitHubApi.Instance(rootPath).GetCommits(models, transformedFilePathFromRoot);
 
                     if (gitCommits != null)
                     {
