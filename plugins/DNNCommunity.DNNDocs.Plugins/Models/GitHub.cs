@@ -4,7 +4,19 @@ namespace DNNCommunity.DNNDocs.Plugins.Models
 {
     public class GitHub
     {
-        [JsonProperty(PropertyName = "access_token")]
-        public string MyAccessToken { get; set; }
+        private string myAccessToken;
+
+        [JsonProperty(PropertyName = "accessToken")]
+        public string MyAccessToken { 
+            get {
+                System.Console.WriteLine("get myAccessToken: ", this.myAccessToken);
+                return this.myAccessToken;
+            }
+
+            set {
+                this.myAccessToken = value;
+                System.Console.WriteLine("set myAccessToken: ", this.myAccessToken);
+            }
+        }
     }
 }

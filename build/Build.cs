@@ -122,7 +122,7 @@ class Build : NukeBuild
         .DependsOn(Clean)
         .DependsOn(Restore)
         .DependsOn(BuildPlugins)
-        .DependsOn(PullDnnRepo)
+        // .DependsOn(PullDnnRepo)
         .Executes(() =>
         {
             DocFXBuild(s => s
