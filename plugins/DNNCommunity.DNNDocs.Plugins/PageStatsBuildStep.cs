@@ -37,7 +37,6 @@ namespace DNNCommunity.DNNDocs.Plugins
 
                     if (gitCommits != null && gitCommits.Count > 0)
                     {
-                        System.Console.WriteLine(JsonConvert.SerializeObject(gitCommits));
                         var commits = gitCommits
                             .Where(x => x.Author != null)
                             .GroupBy(x => x.Author.Login)
