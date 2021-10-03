@@ -36,7 +36,7 @@ Unless you are part of the DNNDocs core team, you will only have read access (yo
 ## Running the DNN Docs Project Locally
 
 ### .NET Frameworks
-You should insure that you already have [.NET Framework v5.0](https://dotnet.microsoft.com/download/dotnet) and the "Developer Pack" for [.NET Framework v4.6.2](https://dotnet.microsoft.com/download/dotnet-framework/net462) install on your machine before trying the build process.
+You should ensure that you already have [.NET 5.0](https://dotnet.microsoft.com/download/dotnet) (used by the `build` project) and the "Developer Pack" for [.NET Framework 4.6.2](https://dotnet.microsoft.com/download/dotnet-framework/net462) (used by the custom `DocFx` plugins) installed on your machine before trying the build process.
 
 You should now be able to run the development version of the docs locally with the following command:
 
