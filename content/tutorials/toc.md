@@ -242,12 +242,13 @@
 ##[Persona Bar Style Guide](xref:persona-bar-style-guide)
 
 #[JWT](xref:jwt)
-##[Access Token](xref:developers-jwt-access-token)
-##[Auth Handler](xref:developers-jwt-auth-handler)
-##[Page Request](xref:developers-jwt-page-request)
-##[Server Response](xref:developers-jwt-server-response)
-##[User Credentials](xref:developers-jwt-user-credentials)
 ##[Setup JWT for Auth](xref:developers-setup-jwt-for-auth)
+##[Create a Web API with JWT](xref:developers-create-a-web-api-with-jwt)
+##[User Credentials](xref:developers-jwt-user-credentials)
+##[Server Response](xref:developers-jwt-server-response)
+##[Access Token](xref:developers-jwt-access-token)
+##[Page Request](xref:developers-jwt-page-request)
+##[Auth Handler](xref:developers-jwt-auth-handler)
 
 #[Various](xref:menu-placeholder)
 ##[Image Handler](xref:image-handler)
