@@ -106,3 +106,37 @@ related-topics: administrators-included-modules-overview,requirements,dnn-overvi
 |2009 Jun 23|[5.1.0](https://github.com/dnnsoftware/Dnn.Releases.Archive.5x/tree/master/05.01.00)|
 |2009 Feb 25|[5.0.1](https://github.com/dnnsoftware/Dnn.Releases.Archive.5x/tree/master/05.00.01)|
 |2008 Dec 24|[5.0.0](https://github.com/dnnsoftware/Dnn.Releases.Archive.5x/tree/master/05.00.00)|
+|2009 Sep 2|[4.9.5](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.09.05)|
+|2009 May 31|[4.9.4](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.09.04)|
+|2009 Apr 7|[4.9.3](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.09.03)|
+|2009 Feb 18|[4.9.2](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.09.02)|
+||[4.9.1](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.09.01)|
+||[4.9.0](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.09.00)|
+||[4.8.4](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.08.04)|
+||[4.8.3](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.08.03)|
+||[4.8.2](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.08.02)|
+||[4.8.1](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.08.01)|
+||[4.8.0](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.08.00)|
+||[4.7.0](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.07.00)|
+||[4.6.2](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.06.02)|
+||[4.6.0](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.06.00)|
+||[4.5.5](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.05.05)|
+||[4.5.4](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.05.04)|
+||[4.5.3](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.05.03)|
+||[4.5.2](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.05.02)|
+||[4.5.1](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.05.01)|
+||[4.5.0](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.05.00)|
+||[4.4.1](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.04.01)|
+||[4.4.0](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.04.00)|
+||[4.3.7](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.03.07)|
+||[4.3.6](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.03.06)|
+||[4.3.5](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.03.05)|
+||[4.3.4](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.03.04)|
+||[4.3.3](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.03.03)|
+||[4.3.2](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.03.02)|
+||[4.3.1](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.03.01)|
+||[4.3.0](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.03.00)|
+||[4.0.3](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.00.03)|
+||[4.0.2](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.00.02)|
+||[4.0.1](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.00.01)|
+||[4.0.0](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.00.00)|
