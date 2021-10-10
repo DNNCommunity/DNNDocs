@@ -140,30 +140,30 @@ related-topics: administrators-included-modules-overview,requirements,dnn-overvi
 ||[4.0.2](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.00.02)|
 ||[4.0.1](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.00.01)|
 ||[4.0.0](https://github.com/dnnsoftware/Dnn.Releases.Archive.4x/tree/master/04.00.00)|
-||[3.0.4 (Alpha)](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.00.04%20(Alpha))|
-||[3.0.5 (Alpha)](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.00.05%20(Alpha))|
-||[3.0.6 (Alpha)](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.00.06%20(Alpha))|
-||[3.0.7 (Alpha)](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.00.07%20(Alpha))|
-||[3.0.8 (Beta)](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.00.08%20(Beta))|
-||[3.0.9 (Beta)](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.00.09%20(Beta))|
-||[3.0.10 (Beta)](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.00.10%20(Beta))|
-||[3.0.11 (Beta)](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.00.11%20(Beta))|
-||[3.0.12 (Beta)](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.00.12%20(Beta))|
-||[3.0.13](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.00.13)|
-||[3.1.0](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.01.00)|
-||[3.1.1](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.01.01)|
-||[3.2.0](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.02.00)|
-||[3.2.1](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.02.01)|
-||[3.2.2](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.02.02)|
-||[3.3.0](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.03.00)|
-||[3.3.1](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.03.01)|
-||[3.3.2](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.03.02)|
-||[3.3.3](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.03.03)|
-||[3.3.4](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.03.04)|
-||[3.3.5](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.03.05)|
-||[3.3.6](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.03.06)|
 ||[3.3.7](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.03.07)|
+||[3.3.6](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.03.06)|
+||[3.3.5](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.03.05)|
+||[3.3.4](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.03.04)|
+||[3.3.3](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.03.03)|
+||[3.3.2](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.03.02)|
+||[3.3.1](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.03.01)|
+||[3.3.0](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.03.00)|
+||[3.2.2](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.02.02)|
+||[3.2.1](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.02.01)|
+||[3.2.0](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.02.00)|
+||[3.1.1](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.01.01)|
+||[3.1.0](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.01.00)|
+||[3.0.13](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.00.13)|
+||[3.0.12 (Beta)](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.00.12%20(Beta))|
+||[3.0.11 (Beta)](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.00.11%20(Beta))|
+||[3.0.10 (Beta)](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.00.10%20(Beta))|
+||[3.0.9 (Beta)](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.00.09%20(Beta))|
+||[3.0.8 (Beta)](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.00.08%20(Beta))|
+||[3.0.7 (Alpha)](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.00.07%20(Alpha))|
+||[3.0.6 (Alpha)](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.00.06%20(Alpha))|
+||[3.0.5 (Alpha)](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.00.05%20(Alpha))|
+||[3.0.4 (Alpha)](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.00.04%20(Alpha))|
+||[2.1.2](https://github.com/dnnsoftware/Dnn.Releases.Archive.2x/tree/master/02.01.02)|
+||[2.1.1 (Beta)](https://github.com/dnnsoftware/Dnn.Releases.Archive.2x/tree/master/02.01.01%20(Beta))|
 ||[2.0.3 (Beta)](https://github.com/dnnsoftware/Dnn.Releases.Archive.2x/tree/master/02.00.03%20(Beta))|
 ||[2.0.4](https://github.com/dnnsoftware/Dnn.Releases.Archive.2x/tree/master/02.00.04)|
-||[2.1.1 (Beta)](https://github.com/dnnsoftware/Dnn.Releases.Archive.2x/tree/master/02.01.01%20(Beta))|
-||[2.1.2](https://github.com/dnnsoftware/Dnn.Releases.Archive.2x/tree/master/02.01.02)|
