@@ -163,3 +163,7 @@ related-topics: administrators-included-modules-overview,requirements,dnn-overvi
 ||[3.3.5](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.03.05)|
 ||[3.3.6](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.03.06)|
 ||[3.3.7](https://github.com/dnnsoftware/Dnn.Releases.Archive.3x/tree/master/03.03.07)|
+||[2.0.3 (Beta)](https://github.com/dnnsoftware/Dnn.Releases.Archive.2x/tree/master/02.00.03%20(Beta))|
+||[2.0.4](https://github.com/dnnsoftware/Dnn.Releases.Archive.2x/tree/master/02.00.04)|
+||[2.1.1 (Beta)](https://github.com/dnnsoftware/Dnn.Releases.Archive.2x/tree/master/02.01.01%20(Beta))|
+||[2.1.2](https://github.com/dnnsoftware/Dnn.Releases.Archive.2x/tree/master/02.01.02)|
