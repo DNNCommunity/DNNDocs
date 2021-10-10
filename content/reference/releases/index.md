@@ -12,6 +12,11 @@ related-topics: administrators-included-modules-overview,requirements,dnn-overvi
 
 |**Release Date**|**Version**|
 |---|---|
+|2021 Aug 24|[9.10.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.10.1)|
+|2021 Jul 21|[9.10.0](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.10.0)|
+|2021 Apr 13|[9.9.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.9.1)|
+|2021 Feb 23|[9.9.0](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.9.0)|
+|2021 Jan 6|[9.8.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.8.1)|
 |2020 Nov 10|[9.8.0](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.8.0)|
 |2020 Sep 21|[9.7.2](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.7.2)|
 |2020 Sep 09|[9.7.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.7.1)|
