@@ -244,6 +244,7 @@
 #[JWT](xref:jwt)
 ##[Setup JWT for Auth](xref:developers-setup-jwt-for-auth)
 ##[Create a Web API with JWT](xref:developers-create-a-web-api-with-jwt)
+##[Renew a JWT Token](xref:developers-renew-a-jwt-token)
 ##[User Credentials](xref:developers-jwt-user-credentials)
 ##[Server Response](xref:developers-jwt-server-response)
 ##[Access Token](xref:developers-jwt-access-token)
