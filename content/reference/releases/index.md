@@ -167,8 +167,8 @@ related-topics: administrators-included-modules-overview,requirements,dnn-overvi
 ||[2.1.1 (Beta)](https://github.com/dnnsoftware/Dnn.Releases.Archive.2x/tree/master/02.01.01%20(Beta))|
 ||[2.0.3 (Beta)](https://github.com/dnnsoftware/Dnn.Releases.Archive.2x/tree/master/02.00.03%20(Beta))|
 ||[2.0.4](https://github.com/dnnsoftware/Dnn.Releases.Archive.2x/tree/master/02.00.04)|
-||[1.0.10e](https://github.com/dnnsoftware/Dnn.Releases.Archive.2x/tree/master/01.00.10e)|
-||[1.0.9](https://github.com/dnnsoftware/Dnn.Releases.Archive.2x/tree/master/01.00.09)|
-||[1.0.8](https://github.com/dnnsoftware/Dnn.Releases.Archive.2x/tree/master/01.00.08)|
-||[1.0.7](https://github.com/dnnsoftware/Dnn.Releases.Archive.2x/tree/master/01.00.07)|
-||[1.0.5](https://github.com/dnnsoftware/Dnn.Releases.Archive.2x/tree/master/01.00.05)|
+||[1.0.10e](https://github.com/dnnsoftware/Dnn.Releases.Archive.1x/tree/master/01.00.10e)|
+||[1.0.9](https://github.com/dnnsoftware/Dnn.Releases.Archive.1x/tree/master/01.00.09)|
+||[1.0.8](https://github.com/dnnsoftware/Dnn.Releases.Archive.1x/tree/master/01.00.08)|
+||[1.0.7](https://github.com/dnnsoftware/Dnn.Releases.Archive.1x/tree/master/01.00.07)|
+||[1.0.5](https://github.com/dnnsoftware/Dnn.Releases.Archive.1x/tree/master/01.00.05)|
