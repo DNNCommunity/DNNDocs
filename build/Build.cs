@@ -111,7 +111,7 @@ class Build : NukeBuild
                 return true;
             }
         }
-        return false;
+        return true;
     }
 
     Target Compile => _ => _
