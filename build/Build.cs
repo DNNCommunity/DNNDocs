@@ -110,6 +110,7 @@ class Build : NukeBuild
             if (userResponse.KeyChar.ToString().ToUpper() == "Y") {
                 return true;
             }
+            return false;
         }
         return true;
     }
