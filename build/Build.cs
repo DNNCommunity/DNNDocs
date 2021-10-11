@@ -45,18 +45,23 @@ class Build : NukeBuild
     ///   - Microsoft VisualStudio     https://nuke.build/visualstudio
     ///   - Microsoft VSCode           https://nuke.build/vscode
 
+    // Default target is defined here for when the build is called without a target.
     public static int Main() => Execute<Build>(x => x.Serve);
 
+    // Project specific constants
+    private const string organizationName = "DNNCommunity";
+    private const string repositoryName = "DNNDocs";
+    private const string pluginsProjectName = "DNNCommunity.DNNDocs.Plugins";
+
+    // CLI parameters.
     [Parameter("Configuration to build - Default is 'Debug' (local) or 'Release' (server)")]
     readonly Configuration Configuration = IsLocalBuild ? Configuration.Debug : Configuration.Release;
-
     [Parameter("Github Token")]
     readonly string GithubToken;
 
+    // Nuke features injection.
     [Solution] readonly Solution Solution;
-    [GitRepository] readonly GitRepository repository;
-
-    const string pluginsProjectName = "DNNCommunity.DNNDocs.Plugins";
+    [GitRepository] readonly GitRepository gitRepository;
 
     // Define directories
     AbsolutePath siteDirectory = RootDirectory / "docs";
@@ -177,13 +182,14 @@ class Build : NukeBuild
         });
 
     Target Deploy => _ => _
+        .OnlyWhenDynamic(() => gitRepository.ToString() == $"https://github.com/{organizationName}/{repositoryName}")
         .DependsOn(CreateDeployBranch)
         .DependsOn(CreateTokenFile)
         .DependsOn(Compile)
         .Executes(() => {
             Git("config --global user.name 'DNN Community'");
             Git("config --global user.email 'info@dnncommunity.org'");
-            Git($"remote set-url origin https://DNNCommunity:{GithubToken}@github.com/DNNCommunity/DNNDocs.git");
+            Git($"remote set-url origin https://{organizationName}:{GithubToken}@github.com/{organizationName}/{repositoryName}.git");
             Git("status");
             Git("add docs -f"); // Force adding because it is usually gitignored.
             Git("status");
