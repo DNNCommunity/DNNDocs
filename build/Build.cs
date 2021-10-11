@@ -20,6 +20,7 @@ using static Nuke.Common.Tools.DocFX.DocFXTasks;
 using static Nuke.Common.Tools.DotNet.DotNetTasks;
 using static Nuke.Common.Tools.Git.GitTasks;
 using static Nuke.Common.Tools.MSBuild.MSBuildTasks;
+using System.Linq.Expressions;
 
 [GitHubActions(
     "PR_Validation",
@@ -44,7 +45,7 @@ class Build : NukeBuild
     ///   - Microsoft VisualStudio     https://nuke.build/visualstudio
     ///   - Microsoft VSCode           https://nuke.build/vscode
 
-    public static int Main () => Execute<Build>(x => x.Serve);
+    public static int Main() => Execute<Build>(x => x.Serve);
 
     [Parameter("Configuration to build - Default is 'Debug' (local) or 'Release' (server)")]
     readonly Configuration Configuration = IsLocalBuild ? Configuration.Debug : Configuration.Release;
@@ -83,7 +84,7 @@ class Build : NukeBuild
     .DependsOn(Restore)
     .Executes(() =>
     {
-        MSBuild(s =>  s
+        MSBuild(s => s
         .SetProjectFile(Solution.GetProject(pluginsProjectName))
         .SetConfiguration(Configuration));
         var sourceFile = Solution.GetProject(pluginsProjectName).Directory / "bin" / Configuration / $"{pluginsProjectName}.dll";
@@ -91,13 +92,28 @@ class Build : NukeBuild
     });
 
     Target PullDnnRepo => _ => _
-    .DependsOn(Clean)
-    .Executes(() =>
+        .OnlyWhenDynamic(() => IncludeApi())
+        .DependsOn(Clean)
+        .Executes(() =>
+        {
+            // Prevents a bug where git sends ok message to the error output sink
+            GitLogger = (type, output) => Logger.Info(output);
+            Git($"clone https://github.com/dnnsoftware/Dnn.Platform.git {dnnPlatformDirectory}");
+        });
+
+    private bool IncludeApi()
     {
-        // Prevents a bug where git sends ok message to the error output sink
-        GitLogger = (type, output) => Logger.Info(output);
-        Git($"clone https://github.com/dnnsoftware/Dnn.Platform.git {dnnPlatformDirectory}");
-    });
+        bool result = false;
+        if(!IsServerBuild)
+        {
+            Console.Write("Would you like to build the API documentation for Dnn.Platform? (yes/no): ");
+            var userResponse = Console.ReadKey();
+            if (userResponse.KeyChar.ToString().ToUpper() == "Y") {
+                result = true;
+            }
+        }
+        return result;
+    }
 
     Target Compile => _ => _
         .DependsOn(Clean)
