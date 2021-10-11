@@ -103,16 +103,15 @@ class Build : NukeBuild
 
     private bool IncludeApi()
     {
-        bool result = false;
         if(!IsServerBuild)
         {
-            Console.Write("Would you like to build the API documentation for Dnn.Platform? (yes/no): ");
+            Console.Write("Would you like to build the API documentation for Dnn.Platform? (yes/no) [no]: ");
             var userResponse = Console.ReadKey();
             if (userResponse.KeyChar.ToString().ToUpper() == "Y") {
-                result = true;
+                return true;
             }
         }
-        return result;
+        return false;
     }
 
     Target Compile => _ => _
