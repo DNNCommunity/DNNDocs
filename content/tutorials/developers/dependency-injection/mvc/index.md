@@ -49,11 +49,9 @@ Try to build your module and install it. You will get a screen that looks like t
 
 ## Add NuGets
 
-Add the Dependency Injection NuGet which currently lives in your local NuGet feed
+Add the Dependency Injection NuGet package
 
-- `NuGetFeed\DotNetNuke.DependencyInjection.9.4.0.156-alpha.nupkg`
-
-Once DNN 9.4 is released it will be available on the public NuGet Feed.
+- `DotNetNuke.DependencyInjection`
 
 ## Create Service to Inject
 
