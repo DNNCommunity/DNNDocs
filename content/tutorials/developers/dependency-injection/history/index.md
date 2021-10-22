@@ -188,6 +188,10 @@ You can use **Dependency Injection** anywhere in DNN, not just in module code. I
 In your custom 3rd-party library or module create a new file called `Startup` and you will register all of your dependencies in this file. Let's register our `IMessageService` and `CloudMessageService` from earlier.
 
 ```csharp
+using DotNetNuke.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+
 public class Startup : IDnnStartup
 {
     public void ConfigureServices(IServiceCollection services)
