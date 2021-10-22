@@ -17,7 +17,6 @@ links:
 
 Dependency Injection is used in many modern applications, it is ubiquitous across .NET application development. In .NET Core it has been built into the platform as a core feature that gets configured during the App Startup code. DNN was built before Dependency Injection became so popular in .NET, and in-lieu of Dependency Injection the Factory Pattern was heavily used. Adding Dependency Injection in DNN will be the first major step towards migrating to .NET Core.
 
-This past week was Microsoft Build 2019 and the big announcement was .NET 5 which effectively confirms that .NET Framework is legacy and products need to move to .NET Core and then .NET 5 to stay relevant.
 
 - [.NET 5 and the Future](https://www.andrewhoefling.com/Blog/Post/net-5-and-the-future-of-net-framework-and-net-core)
 
