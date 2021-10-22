@@ -45,7 +45,7 @@ Windows Powershell:
 .\build.ps1
 ```
 
-Widnows CommandLine:
+Windows CommandLine:
 ```
 build.cmd
 ```
