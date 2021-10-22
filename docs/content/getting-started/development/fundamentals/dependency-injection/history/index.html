@@ -1,0 +1,370 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Dependency Injection - History/Background  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Dependency Injection - History/Background  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    <meta property="og:title" content="Dependency Injection - History/Background -- DNN Docs">
+    <meta property="og:image" content="../../../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="Dependency Injection - History/Background -- DNN Docs">
+    <meta property="og:url" content="https://docs.dnncommunity.org/content/getting-started/development/fundamentals/dependency-injection/history/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdocs.dnncommunity.org%2Fcontent%2Fgetting-started%2Fdevelopment%2Ffundamentals%2Fdependency-injection%2Fhistory%2Findex.html&amp;text=Dependency%20Injection%20-%20History%2FBackground%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdocs.dnncommunity.org%2Fcontent%2Fgetting-started%2Fdevelopment%2Ffundamentals%2Fdependency-injection%2Fhistory%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdocs.dnncommunity.org%2Fcontent%2Fgetting-started%2Fdevelopment%2Ffundamentals%2Fdependency-injection%2Fhistory%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdocs.dnncommunity.org%2Fcontent%2Fgetting-started%2Fdevelopment%2Ffundamentals%2Fdependency-injection%2Fhistory%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20Dependency%20Injection%20-%20History%2FBackground%20|%20DNN%20Docs&amp;body=Dependency%20Injection%20-%20History%2FBackground%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdocs.dnncommunity.org%2Fcontent%2Fgetting-started%2Fdevelopment%2Ffundamentals%2Fdependency-injection%2Fhistory%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for Dependency Injection - History/Background&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20docs.dnncommunity.org%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bgetting-started-development-fundamentals-dependency-injection-history%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmain%2Fcontent%2Fgetting-started%2Fdevelopment%2Ffundamentals%2Fdependency-injection%2Fhistory%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/main/content/getting-started/development/fundamentals/dependency-injection/history/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="getting-started-development-fundamentals-dependency-injection-history">
+<h1 id="dependency-injection-historybackground">Dependency Injection: History/Background</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">09.04.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left">10/22/2021 &bull; 12 minutes  to read</div>
+    <div class="pull-left">Contributors&nbsp;
+        <a href="https://github.com/david-poindexter" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
+        </a>
+    </div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">10/22/2021</span>
+    <span class="pull-left">&nbsp;&bull; 12 minutes  to read</span>
+    <span class="pull-left">&nbsp;&bull;&nbsp;Contributors&nbsp;
+        <a href="https://github.com/david-poindexter" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
+        </a>
+    </span>
+</div>
+
+<div class="NOTE">
+<h5>Note</h5>
+<p>This article was originally a blog post by Andrew Hoefling as he implemented the initial dependency injection pattern in DNN. Some details may have changed in the meantime.</p>
+</div>
+<p>Dependency Injection is used in many modern applications, it is ubiquitous across .NET application development. In .NET Core it has been built into the platform as a core feature that gets configured during the App Startup code. DNN was built before Dependency Injection became so popular in .NET, and in-lieu of Dependency Injection the Factory Pattern was heavily used. Adding Dependency Injection in DNN will be the first major step towards migrating to .NET Core.</p>
+<ul>
+<li><a href="https://www.andrewhoefling.com/Blog/Post/net-5-and-the-future-of-net-framework-and-net-core">.NET 5 and the Future</a></li>
+</ul>
+<p>5 days after the announcement of .NET 5 I created a Pull Request which added Dependency Injection into DNN adding the first major <strong>ASP.NET Core</strong> improvement to the platform. This is a statement that the community leaders are committed to modernizing the platform.</p>
+<ul>
+<li><a href="https://github.com/dnnsoftware/Dnn.Platform/pull/2774">Added Dependency Injection to all Module Patterns and Removed Circular Dependencies in Module Pipeline</a></li>
+</ul>
+<p>The new code uses the <strong>exact</strong> same library that is used by ASP.NET Core. By modernizing the architecture of DNN I am helping prepare the platform for migrating to modern .NET technologies.</p>
+<h2 id="what-is-dependency-injection">What is Dependency Injection?</h2>
+<p>The S.O.L.I.D. Principles of Object Oriented Programming are taught to many developers which stand for:</p>
+<ul>
+<li><strong>S</strong>ingle Responsibility Principle</li>
+<li><strong>O</strong>pen Closed Principle</li>
+<li><strong>L</strong>iskov Substitution Principle</li>
+<li><strong>I</strong>nterface Segregation Principle</li>
+<li><strong>D</strong>ependency Inversion Principle</li>
+</ul>
+<p>S.O.L.I.D. Principles were made famous by <strong>Robert C. Martin</strong> also known as &quot;Uncle Bob&quot;</p>
+<p>Dependency Injection is a form of <strong>Inversion of Control</strong> which is an implementation of the last principle <strong>Dependency Inversion</strong>.</p>
+<p><strong>This principle states that your code should depend on abstractions and not concrete implementations.</strong></p>
+<p>In .NET that is best re-phased as your code should depend on interfaces and not concrete classes. This allows the implementation to be swapped out without other modules being dependent on the new implementation. As long as it still implements the exact same contract or interface.</p>
+<h3 id="dependency-injection-example">Dependency Injection Example</h3>
+<p>Let's look at how the Inversion of Control works in practice. Suppose you have a simple C# class that gets a message that can be used for displaying text on a screen. Let's call our class the <code>MessageService</code> and the code looks like this.</p>
+<pre><code class="lang-csharp">public class MessageService
+{
+    public string GetMessage()
+    {
+        return &quot;Hello World!&quot;;
+    }
+}
+</code></pre>
+<p>Now there is a class that takes the data from <code>MessageService</code> and prints it to the console. This class will be called <code>Program</code>.</p>
+<pre><code class="lang-csharp">public class Program
+{
+    public void Display()
+    {
+        MessageService service = new MessageService();
+        string message = service.GetMessage();
+        Console.WriteLine(message);
+    }
+}
+</code></pre>
+<p>After this application has gone to production, there is a need to change how <code>MessageService</code> works. Now the <code>MessageService</code> needs to be changed to <code>CloudMessageService</code> and use several cloud based resources to return the data.</p>
+<p><strong>Every place where <code>MessageService</code> was referenced needs to updated.</strong></p>
+<p>Instead if you use an <strong>Inversion of Control</strong> implementation such as <strong>Dependency Injection</strong> you will be safe and only need to update your registration of <code>MessageService</code> to <code>CloudMessageService</code>.</p>
+<p>Create an interface that will make the methods of <code>MessageService</code>, we will call this interface <code>IMessageService</code>.</p>
+<pre><code class="lang-csharp">public interface IMessageService
+{
+    string GetMessage();
+}
+</code></pre>
+<p>Once you create the interface, we can make sure both our <code>MessageService</code> and <code>CloudMessageService</code> implement the same interface.</p>
+<pre><code class="lang-csharp">public class MessageService : IMessageService
+{
+    public string GetMessage()
+    {
+        return &quot;Hello World!&quot;;
+    }
+}
+
+public class CloudMessageService : IMessageService
+{
+    public string GetMessage()
+    {
+        // Omitted invocations to cloud resources
+        return &quot;Hello World from the Cloud!&quot;;
+    }
+}
+</code></pre>
+<p>Once we have the necessary abstraction (interface) in place and the different concrete implementations that implement the abstraction you can write your application code to depend on the abstraction. This is by definition <strong>Inversion of Control</strong>. Using <strong>Dependency Injection</strong> your code would look like this.</p>
+<pre><code class="lang-csharp">public class Program
+{
+    private IMessageService _messageService;
+
+    public Program(IMessageService messageService)
+    {
+        _messageService = messageService;
+    }
+
+    public void Display()
+    {
+        string message = _messageService.GetMessage();
+        Console.WriteLine(message);
+    }
+}
+</code></pre>
+<p>No matter what implementation of <code>IMessageService</code> that needs to be created, this code will always remain the same. This is the power of <strong>Dependency Injection</strong> and why it is used in many applications built by developers all over the world.</p>
+<h3 id="dnn-and-the-factory-pattern">DNN and The Factory Pattern</h3>
+<p>When DNN was built Dependency Injection wasn't used as much and the Factory Pattern was heavily used. A simple explanation of a Factory is a static class that creates objects for you. There is no convention or rule that states the object needs to be an abstraction or concrete class.</p>
+<p>In the case of DNN the factories that currently exist create concrete classes which tightly couples dependencies.</p>
+<p><strong>There is no easy way to split up business rules from 1 library to the next.</strong></p>
+<h2 id="net-core">.NET Core</h2>
+<p>ASP.NET Core built Dependency Injection right into the framework and runtime, there is no 3rd party library needed to get it to work. In .NET Framework you would need to include different 3rd Party Libraries and create your custom configuration objects and methods that would configure the Dependency Injection. The App Startup code in .NET Core has been simplified and there is a convenient method that allows the developer to register any dependent services.</p>
+<p>Consider this example which registers our <code>IMessageService</code> from above in a .NET Core Application.</p>
+<pre><code class="lang-csharp">public IServiceProvider ConfigureServices(IServiceCollection services)
+{
+    services.AddScoped&lt;IMessageService, MessageService&gt;();
+
+    // omitted code
+    return services.BuildServiceProvider();
+}
+</code></pre>
+<p>If DNN supported a similar technology, the tightly coupled dependencies in the platform could start being built into abstractions (interfaces).</p>
+<h2 id="dnns-migration">DNN's Migration</h2>
+<p>DNN and .NET Core were once a big topic in the Technology Advisory Group especially since the announcement from Microsoft about <a href="https://devblogs.microsoft.com/dotnet/introducing-net-5/">.NET 5</a>. As part of the migration to .NET Core DNN would need to make small incremental changes. Some major changes would include:</p>
+<ul>
+<li>Stabilizing a .NET Standard 2.0 compliant library and API</li>
+<li>Creating a module pattern that is .NET Standard 2.0 compliant</li>
+</ul>
+<p>Consider that DNN is built using the WebForms technology of <code>System.Web</code>. This technology is not compliant as a .NET Standard 2.0 project, however much of the platform can be built into abstractions (interfaces) that are <strong>NOT</strong> dependent on <code>System.Web</code>. Once the platform libraries and APIs are abstracted to that point, changes can be made to the code that will make it .NET Standard 2.0 complaint. At that point more and more libraries can be converted to ASP.NET Core.</p>
+<p><strong>Creating these abstractions is Inversion of Control</strong></p>
+<p>This is a text book example of <strong>Inversion of Control</strong> and is the secret answer to migrating the platform to .NET Core.</p>
+<h2 id="how-do-i-get-started">How Do I Get Started?</h2>
+<p>Once the <strong>Pull Request</strong> is accepted which should be for DNN 9.4 you can start using <strong>Dependency Injection</strong> immediately. Anyone that upgrades their site to DNN 9.4 will be using it even though they may not realize it. As part of the change I increased performance in the Module Pipeline by leveraging <strong>Dependency Injection</strong> (There will be another blog dedicated to that).</p>
+<p><strong>Dependency Injection</strong> in DNN 9.4 is going to be very easy to use and will be supported in the following module types:</p>
+<ul>
+<li>MVC</li>
+<li>SPA</li>
+<li>Razor3</li>
+<li>Web Forms</li>
+<li>Anywhere in DNN</li>
+</ul>
+<p>You can use <strong>Dependency Injection</strong> anywhere in DNN, not just in module code. If you built a 3rd-party library that needs it, you can create your registrations and that 3rd-party library will just work.</p>
+<h3 id="startup-file">Startup File</h3>
+<p>In your custom 3rd-party library or module create a new file called <code>Startup</code> and you will register all of your dependencies in this file. Let's register our <code>IMessageService</code> and <code>CloudMessageService</code> from earlier.</p>
+<pre><code class="lang-csharp">using DotNetNuke.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+
+public class Startup : IDnnStartup
+{
+    public void ConfigureServices(IServiceCollection services)
+    {
+        services.AddScoped&lt;IMessageService, CloudMessageService&gt;();
+    }
+}
+</code></pre>
+<p>As long as the <code>Startup</code> file implements the <code>IDnnStartup</code> interface from <code>DotNetNuke.DependencyInjection</code> it will run automatically at Application Start. There is nothing else you need to do to register your dependencies.</p>
+<h3 id="injecting-objects">Injecting Objects</h3>
+<p><strong>Constructor Injection is the recommended</strong> way to use <strong>Dependency Injection</strong>. In your module code just add the abstraction (interface) to the constructor.</p>
+<pre><code class="lang-csharp">public class HomeController : DnnController
+{
+    protected IMessageService MessageService { get; }
+    public HomeController(IMessageService messageService)
+    {
+        MessageService = messageService;
+    }
+
+    public ActionResult Index()
+    {
+        var model = new HelloWorldModel
+        {
+            Message = MessageService.GetMessage()
+        };
+        return View(model);
+    }
+}
+</code></pre>
+<h3 id="service-locator-pattern">Service Locator Pattern</h3>
+<p>The <strong>Service Locator Pattern</strong> is manually requesting the object instead of using Constructor Injection. It is commonly referred to as an <strong>anti-pattern</strong> and should be <strong>avoided</strong> at all costs. Web Forms Modules are the <strong>only</strong> modules that don't support Constructor Injection and have a <strong>Service Locator</strong> in the parent class.</p>
+<p>To access the Service Locator the code will need to implement one of the following classes:</p>
+<ul>
+<li><code>PortalModuleBase</code></li>
+<li><code>ModuleSettingsBase</code></li>
+<li><code>AuthenticationConfigBase</code></li>
+<li><code>AuthenticationLogoffBase</code></li>
+<li><code>AuthenticationLoginBase</code></li>
+</ul>
+<p>Each of these base classes have a <code>DependencyProvider</code> which gives the code easy access to resolve any registered service in the container.</p>
+<p><strong>This is an anti-pattern but a suitable workaround while abstractions are built.</strong></p>
+<h4 id="supported-modules">Supported Modules</h4>
+<p>Modules supporting Constructor Injection</p>
+<ul>
+<li>MVC</li>
+<li>SPA/Web API</li>
+<li>Razor3</li>
+</ul>
+<p>Modules not supporting Constructor Injection</p>
+<ul>
+<li>WebForms</li>
+</ul>
+<p>WebForms modules will <strong>NOT</strong> support Dependency Injection and you must use the Service Locator Pattern to access any registered services.</p>
+<h2 id="next-steps">Next Steps</h2>
+<p>This week (5/14/2019) there will be a new blog posted every day with an explanation on how to use DNN Dependency Injection with a different module pattern, including code samples. <strong>With a presentation at <a href="https://www.youtube.com/watch?v=GKZXBN8sMNE">Southern Fried DNN</a> showcasing the new features.</strong></p>
+<p><strong>Exciting times ahead for DNN</strong></p>
+<div class="links" hidden=""><span><a href="https://www.andrewhoefling.com/Blog/Post/dnn-dependency-injection">Andrew Hoefling: DNN Dependency Injection</a></span><span><a href="https://www.andrewhoefling.com/Blog/Post/dnn-dependency-injection">Southern Fried DNN: DNN Dependency Injection and .NET Core</a></span></div></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>

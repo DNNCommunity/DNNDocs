@@ -1,0 +1,314 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Dependency Injection - SPA &amp; Web API Modules  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Dependency Injection - SPA &amp; Web API Modules  -- DNN Docs">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    <meta property="og:title" content="Dependency Injection - SPA &amp; Web API Modules -- DNN Docs">
+    <meta property="og:image" content="../../../../../../images/dnn_docs_logo.png">
+    <meta property="og:description" content="Dependency Injection - SPA &amp; Web API Modules -- DNN Docs">
+    <meta property="og:url" content="https://docs.dnncommunity.org/content/getting-started/development/fundamentals/dependency-injection/web-api/index.html">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-137422488-1');
+    </script></head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="docs-search">
+                <div class="form-group">
+                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdocs.dnncommunity.org%2Fcontent%2Fgetting-started%2Fdevelopment%2Ffundamentals%2Fdependency-injection%2Fweb-api%2Findex.html&amp;text=Dependency%20Injection%20-%20SPA%20%26%20Web%20API%20Modules%20%7C%20DNN%20Docs%20%7C%20%23DNNCMS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdocs.dnncommunity.org%2Fcontent%2Fgetting-started%2Fdevelopment%2Ffundamentals%2Fdependency-injection%2Fweb-api%2Findex.html" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fdocs.dnncommunity.org%2Fcontent%2Fgetting-started%2Fdevelopment%2Ffundamentals%2Fdependency-injection%2Fweb-api%2Findex.html" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdocs.dnncommunity.org%2Fcontent%2Fgetting-started%2Fdevelopment%2Ffundamentals%2Fdependency-injection%2Fweb-api%2Findex.html" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="mailto:?subject=[Shared%20Article]%20Dependency%20Injection%20-%20SPA%20%26%20Web%20API%20Modules%20|%20DNN%20Docs&amp;body=Dependency%20Injection%20-%20SPA%20%26%20Web%20API%20Modules%20|%20DNN%20Docs%0A%0Ahttps%3A%2F%2Fdocs.dnncommunity.org%2Fcontent%2Fgetting-started%2Fdevelopment%2Ffundamentals%2Fdependency-injection%2Fweb-api%2Findex.html%0A%0A"><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/issues/new?title=Feedback for Dependency Injection - SPA &amp; Web API Modules&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20docs.dnncommunity.org%20%E2%9E%9F%20Core%20Team%20processing.*%0A%0A*%20Content%20Source%3A%20%5Bgetting-started-development-fundamentals-dependency-injection-web-api%5D(https%3A%2F%2Fgithub.com%2FDNNCommunity%2FDNNDocs%2Fblob%2Fmain%2Fcontent%2Fgetting-started%2Fdevelopment%2Ffundamentals%2Fdependency-injection%2Fweb-api%2Findex.md%2F%23L1)" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/blob/main/content/getting-started/development/fundamentals/dependency-injection/web-api/index.md/#L1" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="getting-started-development-fundamentals-dependency-injection-web-api">
+<h1 id="dependency-injection-spa--web-api-modules">Dependency Injection: SPA &amp; Web API Modules</h1>
+<div class="page-version">
+    DNN Version: <span class="dnn-version">09.04.00</span>
+    
+</div>
+<div class="page-stats row visible-xs">
+    <div class="pull-left">10/22/2021 &bull; 6 minutes  to read</div>
+    <div class="pull-left">Contributors&nbsp;
+        <a href="https://github.com/david-poindexter" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
+        </a>
+    </div>
+</div>
+<div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">10/22/2021</span>
+    <span class="pull-left">&nbsp;&bull; 6 minutes  to read</span>
+    <span class="pull-left">&nbsp;&bull;&nbsp;Contributors&nbsp;
+        <a href="https://github.com/david-poindexter" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
+        </a>
+    </span>
+</div>
+
+<div class="NOTE">
+<h5>Note</h5>
+<p>This article was originally a blog post by Andrew Hoefling as he implemented the initial dependency injection pattern in DNN. Some details may have changed in the meantime.</p>
+</div>
+<p>Dependency Injection is a new feature coming to DNN in 9.4 that allows you to inject abstractions or other objects into your SPA Web API Module Controllers. This has been a common practice in both ASP.NET Web API and ASP.NET Core application development. Removing the tight coupling between your controller code and business layer of your module.</p>
+<p>Heading into the weekend following Microsoft Build 2019 (5 days after .NET 5 was announced) I submited a noteworthy <a href="https://github.com/dnnsoftware/Dnn.Platform/pull/2774">Pull Request</a> to DNN that adds Dependency Injection into the platform, a feature accessible in any 3rd-party library or module. If you are not familliar with Dependency Injection and want to learn what this means for the platform you should read my first blog in the series <a class="xref" href="../history/index.html">DNN Dependency Injection: .NET Core</a>.</p>
+<h3 id="getting-started">Getting Started</h3>
+<p>Getting started with Dependency Injection in a DNN SPA Web API Module requires minimal changes from your existing code. We will cover a step-by-step guide on how to add Dependency Injection with sample code so you can immediately start taking advantage of the new features in your project.</p>
+<h4 id="clone-the-sample-code">Clone the Sample Code</h4>
+<p>I created a <a href="https://github.com/ahoefling/DNN.DependencyInjection.Samples/tree/spa_clean">sample project</a> on GitHub that let's you start with a clean SPA Web API Module and follow along in the Dependency Injection Guide. The Sample code creates a simple HTML page and renders data from the Web API Controller using jQuery.</p>
+<p>Go ahead and clone the repo or use your own.</p>
+<pre><code class="lang-pwsh">git clone --branch spa_clean https://github.com/ahoefling/DNN.DependencyInjection.Samples
+</code></pre>
+<p>Open the Solution file: <code>DNN.DependencyInjection.Samples.sln</code></p>
+<h4 id="building-and-packaging">Building and Packaging</h4>
+<p>The sample project simplifies the building and packaging. To create the installer build the solution in <strong>Release Mode</strong>.</p>
+<p>You will find the installer file in</p>
+<pre><code>.\Module_Installers\Dnn.DependencyInjection.Samples.Spa_00.00.01_Install.zip
+</code></pre>
+<p>Try to build your module and install it. You will get a screen that looks like this
+<img src="https://www.andrewhoefling.com/Portals/2/adam/Image%20&amp;%20Lightbox/X3hDbDUSfUGsNBDb43kJtg/Image/dnn-spa.JPG" alt="Screenshot of a DNN site with &quot;Hello World&quot; displayed in the content pane"></p>
+<h2 id="add-nugets">Add NuGets</h2>
+<p>Add the Dependency Injection NuGet package</p>
+<ul>
+<li><code>DotNetNuke.DependencyInjection</code></li>
+</ul>
+<h2 id="create-service-to-inject">Create Service to Inject</h2>
+<p>Create an interface and implementation that will be injected into our <code>HomeController</code>. We will be building a simple <code>MessageService</code> that implements <code>IMessageService</code>.</p>
+<h5 id="imessageservice">IMessageService</h5>
+<pre><code class="lang-csharp">public interface IMessageService
+{
+    string GetMessage();
+}
+</code></pre>
+<h5 id="messageservice">MessageService</h5>
+<pre><code class="lang-csharp">public class MessageService : IMessageService
+{
+    public string GetMessage()
+    {
+        return &quot;Hello from Dependency Injection World!!&quot;;
+    }
+}
+</code></pre>
+<h2 id="add-startup-code">Add Startup Code</h2>
+<p>Before we can use our new <code>IMessageService</code> and implementation we need to register the service. Create a <code>Startup.cs</code> in the root of the project. The <code>Startup</code> class will inherit the <code>IDnnStartup</code> which provides the configuration method where services can be registered into the Dependency Injection container.</p>
+<h3 id="implement-interface">Implement Interface</h3>
+<pre><code class="lang-csharp">using DotNetNuke.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+
+public class Startup : IDnnStartup
+{
+    public void ConfigureServices(IServiceCollection services)
+    {
+        // add service registration
+    }
+}
+
+The interface contains a method named `ConfigureServices` which includes a parameter of `IServiceCollection` which is the object that allows the code to register services. **The `IServiceCollection` is the same object used in ASP.NET Core applications which will help your module be ready for a .NET Core version of DNN**
+
+### Register IMessageService
+
+```csharp
+using DotNetNuke.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions
+
+public class Startup : IDnnStartup
+{
+    public void ConfigureServices(IServiceCollection services)
+    {
+        services.AddScoped&lt;IMessageService, MessageService&gt;();
+    }
+}
+
+There is nothing else you need to do with `Startup` code, **DNN will automatically invoke the code and register your services**.
+
+## Add Constructor Injection
+
+The `IMessageService` has been correctly registered with the DNN Dependency Injection Provider. The SPA Web API Module is ready to start using Constructor Injection, this is where the services are included in the constructor with minimal work from the module developer.
+
+```csharp
+[DnnModuleAuthorize(AccessLevel = SecurityAccessLevel.Anonymous)]
+public class HomeController : DnnApiController
+{
+    protected IMessageService MessageService { get; }
+
+    public HomeController(IMessageService messageService)
+    {
+        MessageService = messageService;
+    }
+
+    // omitted code
+}
+</code></pre>
+<p><strong>Yes, all you need to do is add the abstractions to the constructor parameters.</strong></p>
+<h3 id="use-the-messageservice">Use the MessageService</h3>
+<p>Update the <code>Get</code> action to use the injected <code>IMessageService</code></p>
+<pre><code class="lang-csharp">[AllowAnonymous]
+[HttpGet]
+public string Get()
+{
+    return MessageService.GetMessage();
+}
+</code></pre>
+<h3 id="complete-homecontroller-code">Complete HomeController Code</h3>
+<pre><code class="lang-csharp">[DnnModuleAuthorize(AccessLevel = SecurityAccessLevel.Anonymous)]
+public class HomeController : DnnApiController
+{
+    protected IMessageService MessageService { get; }
+
+    public HomeController(IMessageService messageService)
+    {
+        MessageService = messageService;
+    }
+
+    [AllowAnonymous]
+    [HttpGet]
+    public string Get()
+    {
+        return MessageService.GetMessage();
+    }
+}
+</code></pre>
+<h2 id="final-result">Final Result</h2>
+<p>Now that our module is complete you can install it into your DNN 9.4 or greater website and see Dependency Injection working in practice. Your module will look something like this.</p>
+<p><img src="https://www.andrewhoefling.com/Portals/2/adam/Image%20&amp;%20Lightbox/s2Q5wP6b5kenNp9Tlrc5aQ/Image/dnn-spa-di.JPG" alt="Screenshot of a DNN site with &quot;Hello from Dependency Injection World!!&quot; displayed in the content pane"></p>
+<h3 id="sample-code">Sample Code</h3>
+<p>If you had trouble getting this working take a look at the completed sample code</p>
+<ul>
+<li><a href="https://github.com/ahoefling/DNN.DependencyInjection.Samples/tree/spa_di">Sample Code</a></li>
+</ul>
+<h2 id="next-steps">Next Steps</h2>
+<p>You should now have a successfully building installer file that you can deploy to your DNN 9.4 or greater website that uses Dependency Injection. This new feature provides power and simplicity to module development.</p>
+<div class="links" hidden=""><span><a href="https://www.andrewhoefling.com/Blog/Post/dnn-dependency-injection-spa-web-api-modules-constructor-injection">Andrew Hoefling: DNN Dependency Injection: SPA & Web API Modules</a></span></div></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				indexName: 'dnnsoftware',
+    				inputSelector: selector,
+    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
+    				debug: false // Set debug to true if you want to inspect the dropdown
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    </script>
+  </body>
+</html>
