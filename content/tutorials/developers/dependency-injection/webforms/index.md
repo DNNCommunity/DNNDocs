@@ -104,6 +104,10 @@ The interface contains a method named `ConfigureServices` which includes a param
 ### Register IMessageService
 
 ```csharp
+using DotNetNuke.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions
+
 public class Startup : IDnnStartup
 {
     public void ConfigureServices(IServiceCollection services)
@@ -111,7 +115,6 @@ public class Startup : IDnnStartup
         services.AddScoped<IMessageService, MessageService>();
     }
 }
-```
 
 There is nothing else you need to do with `Startup` code, **DNN will automatically invoke the code and register your services**.
 
