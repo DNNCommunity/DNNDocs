@@ -158,7 +158,7 @@ If DNN supported a similar technology, the tightly coupled dependencies in the p
 
 ## DNN's Migration
 
-DNN and .NET Core is a big topic in the Technology Advisory Group especially since the announcement from Microsoft about [.NET 5](https://devblogs.microsoft.com/dotnet/introducing-net-5/) and .NET Framework's move to legacy. As part of the migration to .NET Core DNN needs to make small incremental changes. Some major changes includes:
+DNN and .NET Core is a big topic in the Technology Advisory Group especially since the announcement from Microsoft about [.NET 5](https://devblogs.microsoft.com/dotnet/introducing-net-5/). As part of the migration to .NET Core DNN needs to make small incremental changes. Some major changes includes:
 
 - Stabilizing a .NET Standard 2.0 compliant library and API
 - Creating a module pattern that is .NET Standard 2.0 compliant
