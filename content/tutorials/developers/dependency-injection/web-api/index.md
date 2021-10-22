@@ -85,6 +85,10 @@ Before we can use our new `IMessageService` and implementation we need to regist
 ### Implement Interface
 
 ```csharp
+using DotNetNuke.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+
 public class Startup : IDnnStartup
 {
     public void ConfigureServices(IServiceCollection services)
@@ -92,7 +96,6 @@ public class Startup : IDnnStartup
         // add service registration
     }
 }
-```
 
 The interface contains a method named `ConfigureServices` which includes a parameter of `IServiceCollection` which is the object that allows the code to register services. **The `IServiceCollection` is the same object used in ASP.NET Core applications which will help your module be ready for a .NET Core version of DNN**
 
