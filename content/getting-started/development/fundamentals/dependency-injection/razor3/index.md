@@ -1,12 +1,9 @@
 ﻿---
-uid: dependency-injection-razor3
+uid: getting-started-development-fundamentals-dependency-injection-razor3
 locale: en
-title: Dependency Injection: Razor3 Modules
+title: Dependency Injection - Razor3 Modules
 dnnversion: 09.04.00
-links:
-  [
-    "[Andrew Hoefling: DNN Dependency Injection: Razor3 Modules](https://www.andrewhoefling.com/Blog/Post/dnn-dependency-injection-razor3-modules-constructor-injection)"
-  ]
+links: ["[Andrew Hoefling: DNN Dependency Injection: Razor3 Modules](https://www.andrewhoefling.com/Blog/Post/dnn-dependency-injection-razor3-modules-constructor-injection)"]
 ---
 
 # Dependency Injection: Razor3 Modules
@@ -16,7 +13,7 @@ links:
 
 Dependency Injection is a new feature coming to DNN in 9.4 that allows you to inject abstractions or other objects into your Razor3 Module. This has been a common practice in both ASP.NET and ASP.NET Core application development. Removing the tight coupling between your controller code and business layer of your module.
 
-Heading into the weekend following Microsoft Build 2019 (5 days after .NET 5 was announced) I submited a noteworthy [Pull Request](https://github.com/dnnsoftware/Dnn.Platform/pull/2774) to DNN that adds Dependency Injection into the platform, a feature accessible in any 3rd-party library or module. If you are not familliar with Dependency Injection and want to learn what this means for the platform you should read my first blog in the series [DNN Dependency Injection: .NET Core](xref:dependency-injection-history).
+Heading into the weekend following Microsoft Build 2019 (5 days after .NET 5 was announced) I submited a noteworthy [Pull Request](https://github.com/dnnsoftware/Dnn.Platform/pull/2774) to DNN that adds Dependency Injection into the platform, a feature accessible in any 3rd-party library or module. If you are not familliar with Dependency Injection and want to learn what this means for the platform you should read my first blog in the series [DNN Dependency Injection: .NET Core](xref:getting-started-development-fundamentals-dependency-injection-history).
 
 ### Getting Started
 

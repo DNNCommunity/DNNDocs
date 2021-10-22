@@ -1,16 +1,12 @@
 ﻿---
-uid: dependency-injection-history
+uid: getting-started-development-fundamentals-dependency-injection-history
 locale: en
-title: Dependency Injection History/Background
+title: Dependency Injection - History/Background
 dnnversion: 09.04.00
-links:
-  [
-    "[Andrew Hoefling: DNN Dependency Injection](https://www.andrewhoefling.com/Blog/Post/dnn-dependency-injection)",
-    "[Southern Fried DNN: DNN Dependency Injection and .NET Core](https://www.andrewhoefling.com/Blog/Post/dnn-dependency-injection)",
-  ]
+links: ["[Andrew Hoefling: DNN Dependency Injection](https://www.andrewhoefling.com/Blog/Post/dnn-dependency-injection)","[Southern Fried DNN: DNN Dependency Injection and .NET Core](https://www.andrewhoefling.com/Blog/Post/dnn-dependency-injection)"]
 ---
 
-# Dependency Injection History/Background
+# Dependency Injection: History/Background
 
 > [!NOTE]
 > This article was originally a blog post by Andrew Hoefling as he implemented the initial dependency injection pattern in DNN. Some details may have changed in the meantime.

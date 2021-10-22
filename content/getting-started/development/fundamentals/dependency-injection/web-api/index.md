@@ -1,35 +1,32 @@
 ﻿---
-uid: dependency-injection-mvc
+uid: getting-started-development-fundamentals-dependency-injection-web-api
 locale: en
-title: Dependency Injection: MVC Modules
+title: Dependency Injection - SPA & Web API Modules
 dnnversion: 09.04.00
-links:
-  [
-    "[Andrew Hoefling: DNN Dependency Injection: MVC Modules](https://www.andrewhoefling.com/Blog/Post/dnn-dependency-injection-mvc-modules-constructor-injection)"
-  ]
+links: ["[Andrew Hoefling: DNN Dependency Injection: SPA & Web API Modules](https://www.andrewhoefling.com/Blog/Post/dnn-dependency-injection-spa-web-api-modules-constructor-injection)"]
 ---
 
-# Dependency Injection: MVC Modules
+# Dependency Injection: SPA & Web API Modules
 
 > [!NOTE]
 > This article was originally a blog post by Andrew Hoefling as he implemented the initial dependency injection pattern in DNN. Some details may have changed in the meantime.
 
-Dependency Injection is a new feature coming to DNN in 9.4 that allows you to inject abstractions or other objects into your MVC Module Controllers. This has been a common practice in both ASP.NET MVC and ASP.NET Core MVC application development. Removing the tight coupling between your controller code and business layer of your module.
+Dependency Injection is a new feature coming to DNN in 9.4 that allows you to inject abstractions or other objects into your SPA Web API Module Controllers. This has been a common practice in both ASP.NET Web API and ASP.NET Core application development. Removing the tight coupling between your controller code and business layer of your module.
 
-Heading into the weekend following Microsoft Build 2019 (5 days after .NET 5 was announced) I submited a noteworthy [Pull Request](https://github.com/dnnsoftware/Dnn.Platform/pull/2774) to DNN that adds Dependency Injection into the platform, a feature accessible in any 3rd-party library or module. If you are not familliar with Dependency Injection and want to learn what this means for the platform you should read my first blog in the series [DNN Dependency Injection: .NET Core](xref:dependency-injection-history).
+Heading into the weekend following Microsoft Build 2019 (5 days after .NET 5 was announced) I submited a noteworthy [Pull Request](https://github.com/dnnsoftware/Dnn.Platform/pull/2774) to DNN that adds Dependency Injection into the platform, a feature accessible in any 3rd-party library or module. If you are not familliar with Dependency Injection and want to learn what this means for the platform you should read my first blog in the series [DNN Dependency Injection: .NET Core](xref:getting-started-development-fundamentals-dependency-injection-history).
 
 ### Getting Started
 
-Getting started with Dependency Injection in a DNN MVC Module requires minimal changes from your existing code. We will cover a step-by-step guide on how to add Dependency Injection with sample code so you can immediately start taking advantage of the new features in your project.
+Getting started with Dependency Injection in a DNN SPA Web API Module requires minimal changes from your existing code. We will cover a step-by-step guide on how to add Dependency Injection with sample code so you can immediately start taking advantage of the new features in your project.
 
 #### Clone the Sample Code
 
-I created a [sample project](https://github.com/ahoefling/DNN.DependencyInjection.Samples/tree/mvc_clean) on GitHub that let's you start with a clean MVC Module and follow along in the Dependency Injection Guide.
+I created a [sample project](https://github.com/ahoefling/DNN.DependencyInjection.Samples/tree/spa_clean) on GitHub that let's you start with a clean SPA Web API Module and follow along in the Dependency Injection Guide. The Sample code creates a simple HTML page and renders data from the Web API Controller using jQuery.
 
 Go ahead and clone the repo or use your own.
 
 ```pwsh
-git clone --branch mvc_clean https://github.com/ahoefling/DNN.DependencyInjection.Samples
+git clone --branch spa_clean https://github.com/ahoefling/DNN.DependencyInjection.Samples
 ```
 
 Open the Solution file: `DNN.DependencyInjection.Samples.sln`
@@ -41,11 +38,11 @@ The sample project simplifies the building and packaging. To create the installe
 You will find the installer file in
 
 ```
-.\src\Dnn.DependencyInjection.Samples.Mvc\packages\Dnn.DependencyInjection.Samples.Mvc_00.00.01_Install.zip
+.\Module_Installers\Dnn.DependencyInjection.Samples.Spa_00.00.01_Install.zip
 ```
 
 Try to build your module and install it. You will get a screen that looks like this
-![Screenshot of a DNN site with "Hello World" displayed in the content pane](https://www.andrewhoefling.com/Portals/2/adam/Image%20&%20Lightbox/yT6zrKP0Dk-aOv4lsQqkOQ/Image/dnn-mvc.JPG)
+![Screenshot of a DNN site with "Hello World" displayed in the content pane](https://www.andrewhoefling.com/Portals/2/adam/Image%20&%20Lightbox/X3hDbDUSfUGsNBDb43kJtg/Image/dnn-spa.JPG)
 
 ## Add NuGets
 
@@ -102,6 +99,10 @@ The interface contains a method named `ConfigureServices` which includes a param
 ### Register IMessageService
 
 ```csharp
+using DotNetNuke.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions
+
 public class Startup : IDnnStartup
 {
     public void ConfigureServices(IServiceCollection services)
@@ -109,16 +110,16 @@ public class Startup : IDnnStartup
         services.AddScoped<IMessageService, MessageService>();
     }
 }
-```
 
 There is nothing else you need to do with `Startup` code, **DNN will automatically invoke the code and register your services**.
 
 ## Add Constructor Injection
 
-The `IMessageService` has been correctly registered with the DNN Dependency Injection Provider. The MVC Module is ready to start using Constructor Injection, this is where the services are included in the constructor with minimal work from the module developer.
+The `IMessageService` has been correctly registered with the DNN Dependency Injection Provider. The SPA Web API Module is ready to start using Constructor Injection, this is where the services are included in the constructor with minimal work from the module developer.
 
 ```csharp
-public class HomeController : DnnController
+[DnnModuleAuthorize(AccessLevel = SecurityAccessLevel.Anonymous)]
+public class HomeController : DnnApiController
 {
     protected IMessageService MessageService { get; }
 
@@ -135,16 +136,14 @@ public class HomeController : DnnController
 
 ### Use the MessageService
 
-Update the `Index` action to use the injected `IMessageService`
+Update the `Get` action to use the injected `IMessageService`
 
 ```csharp
-public ActionResult Index()
+[AllowAnonymous]
+[HttpGet]
+public string Get()
 {
-    var model = new HelloWorld
-    {
-        Message = "Hello World"
-    };
-    return View(model);
+    return MessageService.GetMessage();
 }
 ```
 
@@ -152,8 +151,7 @@ public ActionResult Index()
 
 ```csharp
 [DnnModuleAuthorize(AccessLevel = SecurityAccessLevel.Anonymous)]
-[DnnHandleError]
-public class HomeController : DnnController
+public class HomeController : DnnApiController
 {
     protected IMessageService MessageService { get; }
 
@@ -162,13 +160,11 @@ public class HomeController : DnnController
         MessageService = messageService;
     }
 
-    public ActionResult Index()
+    [AllowAnonymous]
+    [HttpGet]
+    public string Get()
     {
-        var model = new HelloWorld
-        {
-            Message = "Hello World"
-        };
-        return View(model);
+        return MessageService.GetMessage();
     }
 }
 ```
@@ -177,13 +173,13 @@ public class HomeController : DnnController
 
 Now that our module is complete you can install it into your DNN 9.4 or greater website and see Dependency Injection working in practice. Your module will look something like this.
 
-![Screenshot of a DNN site with "Hello from Dependency Injection World!!" displayed in the content pane](https://www.andrewhoefling.com/Portals/2/adam/Image%20&%20Lightbox/rZPp0YgQnkeZvU9s8F0FSg/Image/dnn-mvc-di.JPG)
+![Screenshot of a DNN site with "Hello from Dependency Injection World!!" displayed in the content pane](https://www.andrewhoefling.com/Portals/2/adam/Image%20&%20Lightbox/s2Q5wP6b5kenNp9Tlrc5aQ/Image/dnn-spa-di.JPG)
 
 ### Sample Code
 
 If you had trouble getting this working take a look at the completed sample code
 
-- [Sample Code](https://github.com/ahoefling/DNN.DependencyInjection.Samples/tree/mvc_di)
+- [Sample Code](https://github.com/ahoefling/DNN.DependencyInjection.Samples/tree/spa_di)
 
 ## Next Steps
 
