@@ -1,5 +1,5 @@
 ---
-uid: current date  
+uid: currentdate  
 locale: en  
 title: Current Date Theme object  
 dnnversion: 09.02.00  
