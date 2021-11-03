@@ -75,18 +75,22 @@ Navigate to `Settings > Extensions (Libraries)` in the `Persona Bar` and uninsta
 Navigate to `Settings > Extensions (Libraries)` in the `Persona Bar` and uninstall the `DotNetNuke Deprecated Website Codebehind files` extension.  Be sure to check the `Delete Files` checkbox.
 
 ### Step 13
+Navigate to `Settings > Extensions (Libraries)` in the `Persona Bar` and uninstall the `DNN Security HotFix 2017.1` extension.  Be sure to check the `Delete Files` checkbox.  NOTE: Not all installations will have this extension installed.
+
+### Step 14
 Open the `SiteUrls.config` file within the site root and search for "Telerik".  Delete all rewrite rules, `<RewriteRule>...</RewriteRule>`, that reference it.
  
-### Step 14
+### Step 15
 Open the `web.config` file within the site root and search for "Telerik".  Delete any lines that reference it.
 
-### Step 15
+### Step 16
 Remove the old extension packages for the Telerik components just removed.  
 In the folder '\App_Data\ExtensionPackages', remove all packages starting with:  
 `Library_DotNetNuke.Telerik_*`  
 `Library_DotNetNuke.Web.Deprecated_*`  
 `Library_DotNetNuke.Website.Deprecated_*`  
+`DNNSecurityHotFix*`
 
  
-### Step 16
+### Step 17
 Test all third-party modules to make sure they still work without Telerik.  If any do not work properly, please contact the developer/vendor for further guidance.
