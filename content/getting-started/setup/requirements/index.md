@@ -14,6 +14,7 @@ The following are required for **DNN Platform** 9.4.0 and later.
 *   Windows 8
 *   Windows 8.1
 *   Windows 10
+*   Windows 11
 *   Windows Server 2008 R2 (SP 1 Required)
 *   Windows Server 2012 R2
 *   Windows Server 2016
@@ -39,6 +40,7 @@ The following are required for **DNN Platform** 9.4.0 and later.
 *   Microsoft SQL Server 2016 (supported with DNN 8.0.4+)
 *   Microsoft SQL Server 2017
 *   Microsoft SQL Server 2017 Express
+*   Microsoft SQL Server 2019
 *   Microsoft Azure SQL Database
 
 ## Browsers
@@ -58,6 +60,7 @@ For creating extensions:
 
 *   Visual Studio 2017
 *   Visual Studio 2019
+*   Visual Studio 2022
 
 > [!Note]
 > Starting with DNN 9.4.0, .NET Framework 4.7.2+ is required, however, it is still possible to use older versions of Visual Studio, and .NET Framework for extension development.  The minimum version for extension development is dependent upon the targeted DNN Minimum Version.
@@ -66,13 +69,13 @@ For contributing to DNN Platform:
 
 *   Visual Studio 2017
 *   Visual Studio 2019
-
+*   Visual Studio 2022
 
 ## Recommended Environment
 
 *   Most current Windows & IIS Environment Possible
 *   Most Current SQL Server Available, minimum recommendation of SQL Server 2014
 *   **For developers:** Developer Editions of SQL provide best flexibility
-*   **For developers:** Visual Studio 2019
+*   **For developers:** Visual Studio 2022
 
 Please click the **Improve this Doc** button above to help us improve this page.
