@@ -115,11 +115,11 @@
         <a href="https://github.com/david-poindexter" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
         </a>
-        <a href="https://github.com/ajwaka" target="_blank">
-            <img class="img-circle" src="https://avatars.githubusercontent.com/u/662138?v=4" alt="ajwaka">
-        </a>
         <a href="https://github.com/bdukes" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/59507?v=4" alt="bdukes">
+        </a>
+        <a href="https://github.com/ajwaka" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/662138?v=4" alt="ajwaka">
         </a>
         <a href="https://github.com/mitchelsellers" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/5659113?v=4" alt="mitchelsellers">
@@ -136,11 +136,11 @@
         <a href="https://github.com/david-poindexter" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
         </a>
-        <a href="https://github.com/ajwaka" target="_blank">
-            <img class="img-circle" src="https://avatars.githubusercontent.com/u/662138?v=4" alt="ajwaka">
-        </a>
         <a href="https://github.com/bdukes" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/59507?v=4" alt="bdukes">
+        </a>
+        <a href="https://github.com/ajwaka" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/662138?v=4" alt="ajwaka">
         </a>
         <a href="https://github.com/mitchelsellers" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/5659113?v=4" alt="mitchelsellers">
@@ -205,17 +205,19 @@ GO
 <h3 id="step-13">Step 13</h3>
 <p>Navigate to <code>Settings &gt; Extensions (Modules)</code> in the <code>Persona Bar</code> and uninstall the <code>DNN Security HotFix 2017.1</code> extension.  Be sure to check the <code>Delete Files</code> checkbox.  NOTE: Not all installations will have this extension installed.</p>
 <h3 id="step-14">Step 14</h3>
-<p>Open the <code>SiteUrls.config</code> file within the site root and search for &quot;Telerik&quot;.  Delete all rewrite rules, <code>&lt;RewriteRule&gt;...&lt;/RewriteRule&gt;</code>, that reference it.</p>
+<p>Navigate to <code>Settings &gt; Extensions (Providers)</code> in the <code>Persona Bar</code> and uninstall the <code>RadEditor Manager</code> extension.  Be sure to check the <code>Delete Files</code> checkbox.  NOTE: Not all installations will have this extension installed.</p>
 <h3 id="step-15">Step 15</h3>
-<p>Open the <code>web.config</code> file within the site root and search for &quot;Telerik&quot;.  Delete any lines that reference it.</p>
+<p>Open the <code>SiteUrls.config</code> file within the site root and search for &quot;Telerik&quot;.  Delete all rewrite rules, <code>&lt;RewriteRule&gt;...&lt;/RewriteRule&gt;</code>, that reference it.</p>
 <h3 id="step-16">Step 16</h3>
+<p>Open the <code>web.config</code> file within the site root and search for &quot;Telerik&quot;.  Delete any lines that reference it.</p>
+<h3 id="step-17">Step 17</h3>
 <p>Remove the old extension packages for the Telerik components just removed.<br>
 In the folder '\App_Data\ExtensionPackages', remove all packages starting with:<br>
 <code>Library_DotNetNuke.Telerik_*</code><br>
 <code>Library_DotNetNuke.Web.Deprecated_*</code><br>
 <code>Library_DotNetNuke.Website.Deprecated_*</code><br>
 <code>DNNSecurityHotFix*</code></p>
-<h3 id="step-17">Step 17</h3>
+<h3 id="step-18">Step 18</h3>
 <p>Test all third-party modules to make sure they still work without Telerik.  If any do not work properly, please contact the developer/vendor for further guidance.</p>
 </article>
           </div>
