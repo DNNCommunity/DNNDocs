@@ -75,7 +75,7 @@ Navigate to `Settings > Extensions (Libraries)` in the `Persona Bar` and uninsta
 Navigate to `Settings > Extensions (Libraries)` in the `Persona Bar` and uninstall the `DotNetNuke Deprecated Website Codebehind files` extension.  Be sure to check the `Delete Files` checkbox.
 
 ### Step 13
-Navigate to `Settings > Extensions (Libraries)` in the `Persona Bar` and uninstall the `DNN Security HotFix 2017.1` extension.  Be sure to check the `Delete Files` checkbox.  NOTE: Not all installations will have this extension installed.
+Navigate to `Settings > Extensions (Modules)` in the `Persona Bar` and uninstall the `DNN Security HotFix 2017.1` extension.  Be sure to check the `Delete Files` checkbox.  NOTE: Not all installations will have this extension installed.
 
 ### Step 14
 Open the `SiteUrls.config` file within the site root and search for "Telerik".  Delete all rewrite rules, `<RewriteRule>...</RewriteRule>`, that reference it.
