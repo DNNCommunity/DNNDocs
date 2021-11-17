@@ -78,12 +78,15 @@ Navigate to `Settings > Extensions (Libraries)` in the `Persona Bar` and uninsta
 Navigate to `Settings > Extensions (Modules)` in the `Persona Bar` and uninstall the `DNN Security HotFix 2017.1` extension.  Be sure to check the `Delete Files` checkbox.  NOTE: Not all installations will have this extension installed.
 
 ### Step 14
+Navigate to `Settings > Extensions (Providers)` in the `Persona Bar` and uninstall the `RadEditor Manager` extension.  Be sure to check the `Delete Files` checkbox.  NOTE: Not all installations will have this extension installed.
+
+### Step 15
 Open the `SiteUrls.config` file within the site root and search for "Telerik".  Delete all rewrite rules, `<RewriteRule>...</RewriteRule>`, that reference it.
  
-### Step 15
+### Step 16
 Open the `web.config` file within the site root and search for "Telerik".  Delete any lines that reference it.
 
-### Step 16
+### Step 17
 Remove the old extension packages for the Telerik components just removed.  
 In the folder '\App_Data\ExtensionPackages', remove all packages starting with:  
 `Library_DotNetNuke.Telerik_*`  
@@ -91,6 +94,5 @@ In the folder '\App_Data\ExtensionPackages', remove all packages starting with:
 `Library_DotNetNuke.Website.Deprecated_*`  
 `DNNSecurityHotFix*`
 
- 
-### Step 17
+### Step 18
 Test all third-party modules to make sure they still work without Telerik.  If any do not work properly, please contact the developer/vendor for further guidance.
