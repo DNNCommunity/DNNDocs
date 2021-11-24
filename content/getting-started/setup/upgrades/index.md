@@ -55,12 +55,15 @@ Extract the desired "Upgrade" ZIP package to the root of the website. (_If the "
 Rename the `app_offline.htm` file to something like `app_offline.htm.disabled`. This will automatically bring the website back online.
 
 ## Step 6 - Initiate Upgrade
-Visit `http(s)://yourdomain.com/install/install.aspx?mode=upgrade` to initiate the upgrade.
+Visit `http(s)://yourdomain.com/install/upgradewizard.aspx` to initiate the upgrade, you will be prompted to input valid Super User credentials to complete the upgrade.
 
 ## Step 7 - Check for Errors
 Review upgrade results for any errors during the upgrade process. If no errors, proceed to the next step. 
 
 If any errors are experienced, either resolve the errors (_contingent upon experience and skill level_), or restore website from the backup created in **Step 3**.
+
+> [!NOTE]
+> If you need to restore a website it is important to REMOVE all files and replace with the backup copy and not simply apply the backup over the top of the failed upgrade site.  Failure to follow this guidance can result in a non-functional restore.
 
 ## Step 8 - Test
 Visit the upgraded website to ensure everything is working as expected. 
@@ -70,7 +73,7 @@ If any issues are experienced, either resolve the issues (_contingent upon exper
 ## Step 9 - Repeat Steps 1-8 As Necessary
 If the suggested upgrade path contains multiple upgrades, repeat **Steps 1-8** as necessary to get to the desired version of DNN Platform.
 
-## Step 10 - [Telerik Removal *](xref:setup-telerik-removal)
+## Step 10 - [Remove Telerik *](xref:setup-telerik-removal)
 Learn the basic steps for removing `Telerik` from **DNN Platform**.
 
 ##### \* This is an OPTIONAL setup step for DNN Platorm, but HIGHLY RECOMMENDED. This is possible only in DNN 9.8.0 (and above for the 9.x series of releases). In DNN 10.x, Telerik removal will be forced, and no longer optional.
