@@ -55,7 +55,7 @@ Extract the desired "Upgrade" ZIP package to the root of the website. (_If the "
 Rename the `app_offline.htm` file to something like `app_offline.htm.disabled`. This will automatically bring the website back online.
 
 ## Step 6 - Initiate Upgrade
-Visit `http(s)://yourdomain.com/install/upgradewizard.aspx` to initiate the upgrade, you will be prompted to input valid Super User credentials to complete the upgrade.
+Visit `http(s)://yourdomain.com/install/upgradewizard.aspx` to initiate the upgrade. You will be prompted to input valid Super User credentials to complete the upgrade.
 
 ## Step 7 - Check for Errors
 Review upgrade results for any errors during the upgrade process. If no errors, proceed to the next step. 
