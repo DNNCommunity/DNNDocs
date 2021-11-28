@@ -71,7 +71,7 @@ For contributing to DNN Platform:
 
 *   Most current Windows & IIS Environment Possible
 *   Most Current SQL Server Available, minimum recommendation of SQL Server 2016
-*   **For developers:** Developer Editions of SQL provides best flexibility
+*   **For developers:** SQL Developer Editions provide the best flexibility
 *   **For developers:** Visual Studio 2022
 
 Please click the **Improve this Doc** button above to help us improve this page.
