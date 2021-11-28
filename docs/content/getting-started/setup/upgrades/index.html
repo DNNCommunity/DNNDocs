@@ -110,19 +110,25 @@
     
 </div>
 <div class="page-stats row visible-xs">
-    <div class="pull-left">10/23/2021 &bull; 6 minutes  to read</div>
+    <div class="pull-left">11/28/2021 &bull; 6 minutes  to read</div>
     <div class="pull-left">Contributors&nbsp;
         <a href="https://github.com/david-poindexter" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
         </a>
+        <a href="https://github.com/mitchelsellers" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/5659113?v=4" alt="mitchelsellers">
+        </a>
     </div>
 </div>
 <div class="page-stats row visible-sm visible-md visible-lg visible-xl">
-    <span class="pull-left">10/23/2021</span>
+    <span class="pull-left">11/28/2021</span>
     <span class="pull-left">&nbsp;&bull; 6 minutes  to read</span>
     <span class="pull-left">&nbsp;&bull;&nbsp;Contributors&nbsp;
         <a href="https://github.com/david-poindexter" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
+        </a>
+        <a href="https://github.com/mitchelsellers" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/5659113?v=4" alt="mitchelsellers">
         </a>
     </span>
 </div>
@@ -174,16 +180,20 @@
 <h2 id="step-5---bring-website-online">Step 5 - Bring Website Online</h2>
 <p>Rename the <code>app_offline.htm</code> file to something like <code>app_offline.htm.disabled</code>. This will automatically bring the website back online.</p>
 <h2 id="step-6---initiate-upgrade">Step 6 - Initiate Upgrade</h2>
-<p>Visit <code>http(s)://yourdomain.com/install/install.aspx?mode=upgrade</code> to initiate the upgrade.</p>
+<p>Visit <code>http(s)://yourdomain.com/install/upgradewizard.aspx</code> to initiate the upgrade. You will be prompted to input valid Super User credentials to complete the upgrade.</p>
 <h2 id="step-7---check-for-errors">Step 7 - Check for Errors</h2>
 <p>Review upgrade results for any errors during the upgrade process. If no errors, proceed to the next step.</p>
 <p>If any errors are experienced, either resolve the errors (<em>contingent upon experience and skill level</em>), or restore website from the backup created in <strong>Step 3</strong>.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>If you need to restore a website, it is important to first remove all files.  Then, replace it with the backup copy. It is not adequate to simply apply the backup over the top of the failed upgrade site.  Failure to follow this guidance can result in a non-functional, restored site.</p>
+</div>
 <h2 id="step-8---test">Step 8 - Test</h2>
 <p>Visit the upgraded website to ensure everything is working as expected.</p>
 <p>If any issues are experienced, either resolve the issues (<em>contingent upon experience and skill level</em>), or restore website from the backup created in <strong>Step 3</strong>.</p>
 <h2 id="step-9---repeat-steps-1-8-as-necessary">Step 9 - Repeat Steps 1-8 As Necessary</h2>
 <p>If the suggested upgrade path contains multiple upgrades, repeat <strong>Steps 1-8</strong> as necessary to get to the desired version of DNN Platform.</p>
-<h2 id="step-10---telerik-removal-">Step 10 - <a class="xref" href="../telerik-removal/index.html">Telerik Removal *</a></h2>
+<h2 id="step-10---remove-telerik-">Step 10 - <a class="xref" href="../telerik-removal/index.html">Remove Telerik *</a></h2>
 <p>Learn the basic steps for removing <code>Telerik</code> from <strong>DNN Platform</strong>.</p>
 <h5 id="-this-is-an-optional-setup-step-for-dnn-platorm-but-highly-recommended-this-is-possible-only-in-dnn-980-and-above-for-the-9x-series-of-releases-in-dnn-10x-telerik-removal-will-be-forced-and-no-longer-optional">* This is an OPTIONAL setup step for DNN Platorm, but HIGHLY RECOMMENDED. This is possible only in DNN 9.8.0 (and above for the 9.x series of releases). In DNN 10.x, Telerik removal will be forced, and no longer optional.</h5>
 </article>
