@@ -63,7 +63,7 @@ Review upgrade results for any errors during the upgrade process. If no errors, 
 If any errors are experienced, either resolve the errors (_contingent upon experience and skill level_), or restore website from the backup created in **Step 3**.
 
 > [!NOTE]
-> If you need to restore a website it is important to REMOVE all files and replace with the backup copy and not simply apply the backup over the top of the failed upgrade site.  Failure to follow this guidance can result in a non-functional restore.
+> If you need to restore a website, it is important to first remove all files.  Then, replace it with the backup copy. It is not adequate to simply apply the backup over the top of the failed upgrade site.  Failure to follow this guidance can result in a non-functional, restored site.
 
 ## Step 8 - Test
 Visit the upgraded website to ensure everything is working as expected. 
