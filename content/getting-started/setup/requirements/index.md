@@ -7,7 +7,7 @@ related-topics: install-extension,administrators-included-modules-overview,dnn-o
 ---
 
 # DNN Platform Requirements
-The following are required for **DNN Platform** 9.4.0 and later.
+The following information applies to **DNN Platform** 9.4.0 and later.
 
 ## Supported Operating Systems
 
@@ -15,33 +15,29 @@ The following are required for **DNN Platform** 9.4.0 and later.
 *   Windows 8.1
 *   Windows 10
 *   Windows 11
-*   Windows Server 2008 R2 (SP 1 Required)
-*   Windows Server 2012 R2
-*   Windows Server 2016
-*   Windows Server 2019
-*   Microsoft Azure
+*   Windows Server 2012 R2 or Later
+*   Microsoft Azure App Service (PaaS)
+
+> [!Note]
+> The Microsoft IIS feature must be installed/enabled
 
 ## .NET Framework
 
-*   4.7.2+
-
-## Web Server
-
-*   Microsoft IIS 7.5, 8.0, 8.5, 10
+*   4.7.2 Minimum
 
 ## Database Server
 
-*   Microsoft SQL Server 2008 R2
-*   Microsoft SQL Server 2008 Express R2
+DNN Platform requires a single Microsoft SQL Server database and supports all current editions of Microsoft SQL Server including.
+
 *   Microsoft SQL Server 2012
-*   Microsoft SQL Server 2012 Express
 *   Microsoft SQL Server 2014
-*   Microsoft SQL Server 2014 Express
 *   Microsoft SQL Server 2016 (supported with DNN 8.0.4+)
 *   Microsoft SQL Server 2017
-*   Microsoft SQL Server 2017 Express
 *   Microsoft SQL Server 2019
 *   Microsoft Azure SQL Database
+
+> [!Note]
+> Although DNN products can utilize any edition of SQL Server production environments should consider possible performance limitations if using Express editions of SQL Server.
 
 ## Browsers
 
@@ -74,8 +70,8 @@ For contributing to DNN Platform:
 ## Recommended Environment
 
 *   Most current Windows & IIS Environment Possible
-*   Most Current SQL Server Available, minimum recommendation of SQL Server 2014
-*   **For developers:** Developer Editions of SQL provide best flexibility
+*   Most Current SQL Server Available, minimum recommendation of SQL Server 2016
+*   **For developers:** SQL Developer Editions provide the best flexibility
 *   **For developers:** Visual Studio 2022
 
 Please click the **Improve this Doc** button above to help us improve this page.
