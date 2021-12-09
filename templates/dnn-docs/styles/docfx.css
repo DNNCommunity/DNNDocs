@@ -376,6 +376,14 @@ article section {
   font-size: 2.5rem;
 }
 
+.DocSearch-Container {
+  z-index: 1000 !important;
+}
+
+#docsearch-home .DocSearch-Button {
+  width: 97% !important;
+}
+
 @keyframes index-loading {
     from { transform: scale(1) rotate(0deg);}
     to { transform: scale(1) rotate(360deg);}
