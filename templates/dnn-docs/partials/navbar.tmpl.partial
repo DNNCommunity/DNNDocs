@@ -12,11 +12,9 @@
       {{>partials/logo}}
     </div>
     <div class="collapse navbar-collapse" id="navbar">
-      <form class="navbar-form navbar-right" role="search" id="docs-search">
-        <div class="form-group">
-          <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
-        </div>
-      </form>
+      <div class="navbar-right">
+        <div id="docsearch-navbar" class="navbar-form navbar-right"></div>
+      </div>
     </div>
   </div>
 </nav>

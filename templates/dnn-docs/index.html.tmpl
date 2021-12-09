@@ -74,7 +74,7 @@
                     <div class="col-lg-12">
                         <div class="search well well">
                             <label for="homesearch" class="sr-only">Search the docs</label>
-                            <input id="homesearch" class="form-control docs-search docs-search-home" placeholder="Search the docs...">
+                            <div id="docsearch-home"></div>
                         </div>
                     </div>
                 </div>
@@ -250,7 +250,7 @@
 		<script>
         (function() {
             document.addEventListener('DOMContentLoaded', function () {                
-                docsearch(document.dnndocs.algolia('input.docs-search-home'));  						
+                docsearch(document.dnndocs.algolia('#docsearch-home'));  						
             });
         }());
     </script> 
