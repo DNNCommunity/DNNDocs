@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
   	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    <link rel="preconnect" href="https://ZPKP9SED9P-dsn.algolia.net" crossorigin="">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@alpha">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../toc.html">
     <meta property="og:title" content="The DNN Manifest Schema -- DNN Docs">
@@ -53,11 +54,9 @@
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="docs-search">
-                <div class="form-group">
-                  <input type="text" class="form-control docs-search" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
+              <div class="navbar-right">
+                <div id="docsearch-navbar" class="navbar-form navbar-right"></div>
+              </div>
             </div>
           </div>
         </nav>
@@ -677,7 +676,7 @@
 </code></pre>
 </li>
 </ul>
-<div class="related-topics" hidden=""><span><a href="/content/features/general/dnn/dnn-overview/index.html">An Overview of DNN Solutions</a></span><span><a href="/content/features/general/dnn/dnn-overview/index.html">An Overview of DNN Solutions</a></span></div><div class="links" hidden=""><span><a href="https://uxguide.dnnsoftware.com/">DNN UX Guide</a></span><span><a href="https://web.archive.org/web/20160610221847/http://www.ifinity.com.au/Blog/EntryId/89/Top-5-DotNetNuke-Manifest-file-Module-Packaging-Tips">Top 5 DotNetNuke Manifest file Module Packaging Tips by Bruce Chapman</a></span><span><a href="https://www.dnnsoftware.com/community-blog/cid/142201/dal-2-a-new-dotnetnuke-data-layer-for-a-new-decade">DNN Community blog: DAL 2 — A New DotNetNuke Data Layer for a New Decade by Charles Nurse</a></span><span><a href="https://www.dnnsoftware.com/wiki/manifests">DNN Wiki: Manifests</a></span><span><a href="https://www.dnnsoftware.com/community-blog/cid/135060/the-new-extension-installer-manifest-part-1-introduction">DNN Community blog: The New Extension Installer Manifest — Part 1, Introduction by Charles Nurse</a></span><span><a href="https://www.dnnsoftware.com/dnn-api/">DNN Module APIs</a></span><span><a href="https://web.archive.org/web/20160610221847/http://www.ifinity.com.au/Blog/EntryId/89/Top-5-DotNetNuke-Manifest-file-Module-Packaging-Tips">Top 5 DotNetNuke Manifest file Module Packaging Tips by Bruce Chapman</a></span><span><a href="https://www.dnnsoftware.com/community-blog/cid/142201/dal-2-a-new-dotnetnuke-data-layer-for-a-new-decade">DNN Community blog: DAL 2 — A New DotNetNuke Data Layer for a New Decade by Charles Nurse</a></span><span><a href="https://www.dnnsoftware.com/wiki/manifests">DNN Wiki: Manifests</a></span><span><a href="https://www.dnnsoftware.com/community-blog/cid/135060/the-new-extension-installer-manifest-part-1-introduction">DNN Community blog: The New Extension Installer Manifest — Part 1, Introduction by Charles Nurse</a></span></div></article>
+<div class="related-topics" hidden=""></div><div class="links" hidden=""><span><a href="https://uxguide.dnnsoftware.com/">DNN UX Guide</a></span><span><a href="https://web.archive.org/web/20160610221847/http://www.ifinity.com.au/Blog/EntryId/89/Top-5-DotNetNuke-Manifest-file-Module-Packaging-Tips">Top 5 DotNetNuke Manifest file Module Packaging Tips by Bruce Chapman</a></span><span><a href="https://www.dnnsoftware.com/community-blog/cid/142201/dal-2-a-new-dotnetnuke-data-layer-for-a-new-decade">DNN Community blog: DAL 2 — A New DotNetNuke Data Layer for a New Decade by Charles Nurse</a></span><span><a href="https://www.dnnsoftware.com/wiki/manifests">DNN Wiki: Manifests</a></span><span><a href="https://www.dnnsoftware.com/community-blog/cid/135060/the-new-extension-installer-manifest-part-1-introduction">DNN Community blog: The New Extension Installer Manifest — Part 1, Introduction by Charles Nurse</a></span><span><a href="https://www.dnnsoftware.com/dnn-api/">DNN Module APIs</a></span><span><a href="https://web.archive.org/web/20160610221847/http://www.ifinity.com.au/Blog/EntryId/89/Top-5-DotNetNuke-Manifest-file-Module-Packaging-Tips">Top 5 DotNetNuke Manifest file Module Packaging Tips by Bruce Chapman</a></span><span><a href="https://www.dnnsoftware.com/community-blog/cid/142201/dal-2-a-new-dotnetnuke-data-layer-for-a-new-decade">DNN Community blog: DAL 2 — A New DotNetNuke Data Layer for a New Decade by Charles Nurse</a></span><span><a href="https://www.dnnsoftware.com/wiki/manifests">DNN Wiki: Manifests</a></span><span><a href="https://www.dnnsoftware.com/community-blog/cid/135060/the-new-extension-installer-manifest-part-1-introduction">DNN Community blog: The New Extension Installer Manifest — Part 1, Introduction by Charles Nurse</a></span></div></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
@@ -711,20 +710,19 @@
     <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"></script>
     <script type="text/javascript">
     	document.dnndocs = {
     		algolia: function(selector) {
     			return {
-    				apiKey: '28b61113e36d4775658a3e6eec04e94f',
+    				container: selector,
+    				appId: 'ZPKP9SED9P',
     				indexName: 'dnnsoftware',
-    				inputSelector: selector,
-    				algoliaOptions: { 'facetFilters': [["tags:api","tags:docs"]] },
-    				debug: false // Set debug to true if you want to inspect the dropdown
+    				apiKey: '37bfc247275fb9e8fcecbda599134a30',
     			}	
     		}
     	};	
-    	docsearch(document.dnndocs.algolia('input.docs-search'));  
+    	docsearch(document.dnndocs.algolia('#docsearch-navbar'));  
     </script>
   </body>
 </html>
