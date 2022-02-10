@@ -84,7 +84,7 @@ Navigate to `Settings > Extensions (Providers)` in the `Persona Bar` and uninsta
 Open the `SiteUrls.config` file within the site root and search for "Telerik".  Delete all rewrite rules, `<RewriteRule>...</RewriteRule>`, that reference it.
  
 ### Step 16
-Open the `web.config` file within the site root and search for "Telerik".  Delete any lines that reference it.
+Open the `web.config` file within the site root and search for "Telerik" and "RadEditorProvider".  Delete any lines that reference these.
 
 ### Step 17
 Remove the old extension packages for the Telerik components just removed.  
@@ -92,6 +92,7 @@ In the folder '\App_Data\ExtensionPackages', remove all packages starting with:
 `Library_DotNetNuke.Telerik_*`  
 `Library_DotNetNuke.Web.Deprecated_*`  
 `Library_DotNetNuke.Website.Deprecated_*`  
+`RadEditorProvider*`  
 `DNNSecurityHotFix*`
 
 ### Step 18
