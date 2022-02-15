@@ -44,6 +44,9 @@ To gain a deeper understanding of how to use Prompt and more quickly learn the c
 ## Extending Prompt
 Of course, you are not limited to the built-in commands that Prompt provides.  If you know how to program in .NET, you can create your own commands and easily integrate them. This makes it possible, for instance, to generate reports or perform other actions unique to your company. Additionally, third-party modules and libraries can create commands to extend Prompt.  
 
-
+### Outlined Process of Creating New Commands
+https://youtu.be/yVlcAgxII0Y?t=1880
+1) Implement a Command Base
+2) Override the ConsoleResultModule Run()
 
 
