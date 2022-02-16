@@ -16,7 +16,7 @@
 #### [Web API](xref:getting-started-development-fundamentals-dependency-injection-web-api)
 #### [WebForms](xref:getting-started-development-fundamentals-dependency-injection-webforms)
 # [Contribution](xref:getting-started-contribution)
-## [Contribute to DNN Platform[(https://github.com/dnnsoftware/Dnn.Platform/blob/develop/CONTRIBUTING.md)
+## [Contribute to DNN Platform](https://github.com/dnnsoftware/Dnn.Platform/blob/develop/CONTRIBUTING.md)
 ## [Contribute to DNN Docs](xref:contribute-to-docs)
 ### [Edit an Article](xref:how-to-edit-an-article)
 ### [Edit an Article in the Browser](xref:how-to-edit-an-article-in-browser)
