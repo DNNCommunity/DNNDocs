@@ -44,9 +44,21 @@ To gain a deeper understanding of how to use Prompt and more quickly learn the c
 ## Extending Prompt
 Of course, you are not limited to the built-in commands that Prompt provides.  If you know how to program in .NET, you can create your own commands and easily integrate them. This makes it possible, for instance, to generate reports or perform other actions unique to your company. Additionally, third-party modules and libraries can create commands to extend Prompt.  
 
-### Outlined Process of Creating New Commands
+### Creating New Commands
+Creating new commands for DNN is is quite easy and can be done in the same way as most other extensions. After you have created a project that extends DNN, you can follow the steps below to create a new command.
+
+1)Import Nessessary Classes
+    using Dnn.PersonaBar.Library.Prompt;
+    using Dnn.PersonaBar.Library.Prompt.Attributes;
+    using Dnn.PersonaBar.Library.Prompt.Models;
+    using DotNetNuke.Entities.Portals; - Only needed if you implement the init function -
+    using DotNetNuke.Entities.Users; - Only needed if you implement the init function -
+2) Create a class that implements the ConsoleCommandBase, IConsoleCommand classes
+3) Override the functions required
+    - The Run() function is what is run when you hit enter on the CLI
+    - The Init function is what recieves any flags passed in. You should perform validation from within this function
+4) Declare Flags/Params needed by your command
+    - In the Init function, use the function GetFlagValue to retrieve flag values passed in.
+    - You can use the FlagParameter attribute to link info to the flag to be displayed in by the help command.
+
 https://youtu.be/yVlcAgxII0Y?t=1880
-1) Implement a Command Base
-2) Override the ConsoleResultModule Run()
-
-
