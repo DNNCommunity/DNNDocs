@@ -62,7 +62,7 @@ Creating new commands for DNN is quite easy and can be done in the same way as m
  <li>Override the functions required</li>
  <ul>
     <li> The Run function is what is run when your command is called. </li>
-    <li> The Init function does not need to be overridden, but it is what recieves any flags passed in. You can perform validation of flags from within this function </li>
+    <li>The Init function does not need to be overridden, but it is what receives any flags passed in. You can perform validation of flags from within this function.</li>
  </ul>
  <li>Declare Flags/Params needed by your command.</li>
  <ul>
