@@ -55,7 +55,7 @@ Creating new commands for DNN is quite easy and can be done in the same way as m
     <li>`using DotNetNuke.Entities.Portals;`  (Only needed if you implement the `Init` function)</li>
     <li>`using DotNetNuke.Entities.Users;` (Only needed if you implement the `Init` function)</li>
  </ul>
- <li> Create a class that implements the ConsoleCommandBase, IConsoleCommand classes </li>
+ <li>Create a class that implements the `ConsoleCommandBase, IConsoleCommand` classes</li>
  <ul>
   <li> This class will be the main class you will create the command in</li>
  </ul>
