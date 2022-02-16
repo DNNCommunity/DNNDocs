@@ -47,7 +47,7 @@ Of course, you are not limited to the built-in commands that Prompt provides.  I
 ### Creating New Commands
 Creating new commands for DNN is quite easy and can be done in the same way as most other extensions. After you have created a project that extends DNN, you can follow the steps below to create a new command.
 <ol>
- <li> Import Nessessary Classes </li>
+ <li>Import Nessessary Classes</li>
   <ul>
     <li>`using Dnn.PersonaBar.Library.Prompt;`</li>
     <li>`using Dnn.PersonaBar.Library.Prompt.Attributes;`</li>
