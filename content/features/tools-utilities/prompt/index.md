@@ -52,7 +52,7 @@ Creating new commands for DNN is quite easy and can be done in the same way as m
     <li>`using Dnn.PersonaBar.Library.Prompt;`</li>
     <li>`using Dnn.PersonaBar.Library.Prompt.Attributes;`</li>
     <li>`using Dnn.PersonaBar.Library.Prompt.Models;`</li>
-    <li> using DotNetNuke.Entities.Portals; - Only needed if you implement the init function - </li>
+    <li>`using DotNetNuke.Entities.Portals;`  (Only needed if you implement the `Init` function)</li>
     <li> using DotNetNuke.Entities.Users; - Only needed if you implement the init function - </li>
  </ul>
  <li> Create a class that implements the ConsoleCommandBase, IConsoleCommand classes </li>
