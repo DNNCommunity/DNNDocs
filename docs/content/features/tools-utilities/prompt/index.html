@@ -109,19 +109,25 @@
     
 </div>
 <div class="page-stats row visible-xs">
-    <div class="pull-left">2/26/2020 &bull; 4 minutes  to read</div>
+    <div class="pull-left">2/16/2022 &bull; 5 minutes  to read</div>
     <div class="pull-left">Contributors&nbsp;
         <a href="https://github.com/david-poindexter" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
         </a>
+        <a href="https://github.com/SmallMistake" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/44900498?v=4" alt="SmallMistake">
+        </a>
     </div>
 </div>
 <div class="page-stats row visible-sm visible-md visible-lg visible-xl">
-    <span class="pull-left">2/26/2020</span>
-    <span class="pull-left">&nbsp;&bull; 4 minutes  to read</span>
+    <span class="pull-left">2/16/2022</span>
+    <span class="pull-left">&nbsp;&bull; 5 minutes  to read</span>
     <span class="pull-left">&nbsp;&bull;&nbsp;Contributors&nbsp;
         <a href="https://github.com/david-poindexter" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
+        </a>
+        <a href="https://github.com/SmallMistake" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/44900498?v=4" alt="SmallMistake">
         </a>
     </span>
 </div>
@@ -149,6 +155,37 @@
 <p>To gain a deeper understanding of how to use Prompt and more quickly learn the command, we also encourage you to type <code>help syntax</code> or <code>help learn</code> at the command prompt. The former tells you how to construct a command, while the latter explains the actions and components built-in to Prompt and how they’re used to create commands.</p>
 <h2 id="extending-prompt">Extending Prompt</h2>
 <p>Of course, you are not limited to the built-in commands that Prompt provides.  If you know how to program in .NET, you can create your own commands and easily integrate them. This makes it possible, for instance, to generate reports or perform other actions unique to your company. Additionally, third-party modules and libraries can create commands to extend Prompt.</p>
+<h3 id="creating-new-commands">Creating New Commands</h3>
+<p>Creating new commands for DNN is quite easy and can be done in the same way as most other extensions. After you have created a project that extends DNN, you can follow the steps below to create a new command.</p>
+<ol>
+ <li>Import Nessessary Classes</li>
+  <ul>
+    <li>`using Dnn.PersonaBar.Library.Prompt;`</li>
+    <li>`using Dnn.PersonaBar.Library.Prompt.Attributes;`</li>
+    <li>`using Dnn.PersonaBar.Library.Prompt.Models;`</li>
+    <li>`using DotNetNuke.Entities.Portals;`  (Only needed if you implement the `Init` function)</li>
+    <li>`using DotNetNuke.Entities.Users;` (Only needed if you implement the `Init` function)</li>
+ </ul>
+ <li>Create a class that implements the `ConsoleCommandBase, IConsoleCommand` classes</li>
+ <ul>
+  <li>This class will be the main class you will create the command in</li>
+ </ul>
+ <li>Override the functions required</li>
+ <ul>
+    <li>The `Run` function is what is executed when your command is called.</li>
+    <li>The Init function does not need to be overridden, but it is what receives any flags passed in. You can perform validation of flags from within this function.</li>
+ </ul>
+ <li>Declare Flags/Params needed by your command.</li>
+ <ul>
+    <li>In the `Init` function, use the function `GetFlagValue` to retrieve flag values passed in.</li>
+    <li>You can use the `FlagParameter` attribute to link info to a flag. The linked info will be displayed when the help function is used.</li>
+ </ul>
+</ol>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This method is largely based off of the demo shown at the 2022 DNN Conference linked below. If you would like to see source code, you can find it there.<br>
+<a href="https://youtu.be/yVlcAgxII0Y?t=1880">https://youtu.be/yVlcAgxII0Y?t=1880</a></p>
+</div>
 </article>
           </div>
           
