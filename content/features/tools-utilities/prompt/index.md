@@ -67,7 +67,7 @@ Creating new commands for DNN is quite easy and can be done in the same way as m
  <li> Declare Flags/Params needed by your command </li>
  <ul>
     <li> In the Init function, use the function GetFlagValue to retrieve flag values passed in </li>
-    <li> You can use the FlagParameter attribute to link info to a flag. The linked info will be displayed when the help function is used. </li>
+    <li>You can use the `FlagParameter` attribute to link info to a flag. The linked info will be displayed when the help function is used.</li>
  </ul>
 </ol>
 
