@@ -57,7 +57,7 @@ Creating new commands for DNN is quite easy and can be done in the same way as m
  </ul>
  <li>Create a class that implements the `ConsoleCommandBase, IConsoleCommand` classes</li>
  <ul>
-  <li> This class will be the main class you will create the command in</li>
+  <li>This class will be the main class you will create the command in</li>
  </ul>
  <li>Override the functions required</li>
  <ul>
