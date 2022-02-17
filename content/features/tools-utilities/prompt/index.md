@@ -46,31 +46,25 @@ Of course, you are not limited to the built-in commands that Prompt provides.  I
 
 ### Creating New Commands
 Creating new commands for DNN is quite easy and can be done in the same way as most other extensions. After you have created a project that extends DNN, you can follow the steps below to create a new command.
-<ol>
- <li>Import Nessessary Classes</li>
-  <ul>
-    <li>`using Dnn.PersonaBar.Library.Prompt;`</li>
-    <li>`using Dnn.PersonaBar.Library.Prompt.Attributes;`</li>
-    <li>`using Dnn.PersonaBar.Library.Prompt.Models;`</li>
-    <li>`using DotNetNuke.Entities.Portals;`  (Only needed if you implement the `Init` function)</li>
-    <li>`using DotNetNuke.Entities.Users;` (Only needed if you implement the `Init` function)</li>
- </ul>
- <li>Create a class that implements the `ConsoleCommandBase, IConsoleCommand` classes</li>
- <ul>
-  <li>This class will be the main class you will create the command in</li>
- </ul>
- <li>Override the functions required</li>
- <ul>
-    <li>The `Run` function is what is executed when your command is called.</li>
-    <li>The Init function does not need to be overridden, but it is what receives any flags passed in. You can perform validation of flags from within this function.</li>
- </ul>
- <li>Declare Flags/Params needed by your command.</li>
- <ul>
-    <li>In the `Init` function, use the function `GetFlagValue` to retrieve flag values passed in.</li>
-    <li>You can use the `FlagParameter` attribute to link info to a flag. The linked info will be displayed when the help function is used.</li>
- </ul>
-</ol>
+
+1. Import Nessessary Classes
+   * `using Dnn.PersonaBar.Library.Prompt;`
+   * `using Dnn.PersonaBar.Library.Prompt.Attributes;`
+   * `using Dnn.PersonaBar.Library.Prompt.Models;`
+   * `using DotNetNuke.Entities.Portals;`  (Only needed if you implement the `Init` function)
+   * `using DotNetNuke.Entities.Users;` (Only needed if you implement the `Init` function)
+
+2. Create a class that implements the `ConsoleCommandBase, IConsoleCommand` classes
+   * This class will be the main class you will create the command in.
+
+3. Override the functions required
+   * The `Run` function is what is executed when your command is called.
+   * The Init function does not need to be overridden, but it is what receives any flags passed in. You can perform validation of flags from within this function.
+
+4. Declare Flags/Params needed by your command.
+   * In the `Init` function, use the function `GetFlagValue` to retrieve flag values passed in.
+   * You can use the `FlagParameter` attribute to link info to a flag. The linked info will be displayed when the help function is used.
 
 > [!Note]
-> This method is largely based off of the demo shown at the 2022 DNN Conference linked below. If you would like to see source code, you can find it there.<br>
-> https://youtu.be/yVlcAgxII0Y?t=1880
+This method is largely based off of the demo shown at the 2022 DNN Conference linked below. If you would like to see source code, you can find it there.<br>
+https://youtu.be/yVlcAgxII0Y?t=1880
