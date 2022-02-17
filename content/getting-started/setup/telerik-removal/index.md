@@ -81,7 +81,7 @@ Navigate to `Settings > Extensions (Modules)` in the `Persona Bar` and uninstall
 Navigate to `Settings > Extensions (Providers)` in the `Persona Bar` and uninstall the `RadEditor Manager` extension.  Be sure to check the `Delete Files` checkbox.  NOTE: Not all installations will have this extension installed.
 
 ### Step 15
-Navigate to `Settings > Extensions (Providers)` in the `Persona Bar` and uninstall any `Telerik` related extension(s).  Be sure to check the `Delete Files` checkbox.  NOTE: Not all installations will have these extension installed.
+Navigate to `Settings > Extensions (Providers)` in the `Persona Bar` and uninstall the  `Telerik Editor Provider` extension.  Be sure to check the `Delete Files` checkbox.  NOTE: Not all installations will have these extension installed.
 
 ### Step 16
 Open the `SiteUrls.config` file within the site root and search for "Telerik".  Delete all rewrite rules, `<RewriteRule>...</RewriteRule>`, that reference it.
