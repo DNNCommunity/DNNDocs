@@ -381,3 +381,6 @@ MigrationBackup/
 
 /templates/dnn-docs/plugins
 /github-token.txt
+
+#VS Code files
+/*.code-workspace
