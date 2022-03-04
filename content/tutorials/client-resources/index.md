@@ -144,7 +144,8 @@ If you view the source of the final Dnn page, you should see the following resul
 <script src="https://unpkg.com/@dnncommunity/dnn-elements/dist/dnn/dnn.esm.js" type="module" async="async" crossorigin="anonymous">
 ```
 
-Notes on this example: though it is common the just include the `async` attribute without the value assignment (e.g. `async="true"`), Dnn's HtmlAttributesAsString is expecting `name:value` pairs and produces unexpected results in some cases (e.g. with no :value for async, `HtmlAttributesAsString = "type:module,async"` would not end up with `async` in the output).
+> [!NOTE]
+> Though it is common the just include the `async` attribute without the value assignment (e.g. `async="true"`), DNN's `HtmlAttributesAsString` is expecting `name:value` pairs and produces unexpected results in some cases (e.g. with no :value for `async`, `HtmlAttributesAsString = "type:module,async"` would not end up with `async` in the output).
 
 
 ## Configuration
