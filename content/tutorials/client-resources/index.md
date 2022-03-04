@@ -112,7 +112,7 @@ Similarly, requesting a resource with the same name as another resource will rep
     Version="8.0.0" />
 ```
 
-##### C# Code Example using the above Controls to set `<script>` attributes
+#### C# Code
 
 There are situations where adding assets requires code and the above token and helper methods are not appropriate or available. Also the simpler, RegisterScript() option does not yet support the HtmlAttributes option. 
 
