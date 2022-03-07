@@ -11,4 +11,8 @@ Following is an list of content management features within **DNN Platform**.
 ## [Sites](xref:sites)
 Learn the features of sites within **DNN Platform**.
 
+## [Localization](xref:localization)
+Learn about localization within **DNN Platform**.
+
+
 Please click the **Improve this Doc** button above to help us improve this page.
