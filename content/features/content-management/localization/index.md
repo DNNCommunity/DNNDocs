@@ -11,27 +11,28 @@ DNN comes with a built in framework for localizing your content, The overall pro
 
 ### Setting Up Your Site for Localization
 
-Step 1: Add the Language of Your Choosing.
+Step 1: Add the Language of Your Choosing
   * You can access the add language dialog under `Settings` - `Site Settings` - `Languages`. Click the `+ Add New Language` button.
 
 ![Step1-add-language](https://user-images.githubusercontent.com/44900498/157099858-0f331a9e-0ad0-48fd-9bb2-66d8f3078366.jpg)
 
-Step 2: Verify that the New Language is Enabled. 
+Step 2: Verify that the New Language is Enabled 
   * This is marked with a check mark. If not, use the cog icon to enable the language.
 
 ![Step2-enable-language](https://user-images.githubusercontent.com/44900498/157099882-7d4f2ad5-58fa-492d-a62b-0d6044c1f89a.jpg)
 
-Step 3: Enable Content Localization.
+Step 3: Enable Content Localization
   * It is recommended to flip the radio button `Make All Pages Translatable` on because this will make unique copies of each page that represents the translation of that page.
 
-> [!Warning] The default language can not be changed afterwards.
->
+> [!Warning]
+> The default language can not be changed afterwards.
+
 ![Step3-enable-content-localization](https://user-images.githubusercontent.com/44900498/157102148-0caf1e2c-e74f-4303-8417-d3910a5d472a.jpg)
 
 
   * you can now visit your pages and start localizing content. As an admin, you'll find the language switcher most of the time (depending on the theme) at the right top of your screen.
 
-Step 4: Translate a Page.
+Step 4: Translate a Page
   * Now that you have translatable versions of each page a new `Localization` tab has been added under `Content` - `Pages` for each page.
   * Once you have finished translating the page via the language specific version mark your translated page as 'translated' and give it a go (if you desire) to be published.
 
