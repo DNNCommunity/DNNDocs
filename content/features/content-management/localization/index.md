@@ -11,7 +11,7 @@ DNN comes with a built in framework for localizing your content, The overall pro
 
 ### Setting Up Your Site for Localization
 
-Step 1: Add the Language of Your Choosing
+Step 1: Add a Language of Your Choosing
   * You can access the add language dialog under `Settings` - `Site Settings` - `Languages`. Click the `+ Add New Language` button.
 
 ![Step1-add-language](https://user-images.githubusercontent.com/44900498/157099858-0f331a9e-0ad0-48fd-9bb2-66d8f3078366.jpg)
@@ -22,7 +22,7 @@ Step 2: Verify the New Language is Enabled
 ![Step2-enable-language](https://user-images.githubusercontent.com/44900498/157099882-7d4f2ad5-58fa-492d-a62b-0d6044c1f89a.jpg)
 
 Step 3: Enable Content Localization
-  * It is recommended to flip the radio button `Make All Pages Translatable` on because this will make unique copies of each page that represents the translation of that page.
+  * It is recommended to flip the radio button `Make All Pages Translatable` on because this will make unique copies of each page that represent the translation of that page.
 
 > [!Warning]
 > The default language can not be changed afterwards.
