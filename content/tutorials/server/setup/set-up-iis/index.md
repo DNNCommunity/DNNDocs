@@ -99,4 +99,8 @@ You can create a new website or set up an existing one for use with DNN. Choose 
 
     The account **IIS AppPool\\AppPoolName** is automatically created by IIS.
 
+    > [!Note]
+    > For security best practices, you should use either an App Pool Identity or an individual machine/AD account (often used by Control Panels) - not a Network Service.
+    > An **App Pool** represents a way to seperate web applications from one another and prevent them from harming each other or their environments. Thus, you should generally only assign one worker process to one App Pool.
+
     See [Set Up DNN Folder and the User Account](xref:set-up-dnn-folder).
