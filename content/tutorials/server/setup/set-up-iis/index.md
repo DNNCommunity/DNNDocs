@@ -37,7 +37,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](https://www.
 
 
 
-        ![IISUpdated](https://user-images.githubusercontent.com/44900498/157516146-f7cb1f9d-058f-48d4-86bc-983eaa7897ab.png)
+        ![IISUpdated](/images/IISUpdated.png)
 
 
 
