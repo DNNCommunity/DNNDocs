@@ -37,7 +37,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](https://www.
 
 
 
-        ![IIS options to turn on](/images/scr-InstallIIS-6.png)
+        ![IISUpdated](/images/IISUpdated.png)
 
 
 
@@ -98,5 +98,9 @@ You can create a new website or set up an existing one for use with DNN. Choose 
 4.  If you do not use **NETWORK SERVICE** as the user account to run your website, verify that **IIS AppPool\\AppPoolName** has **Full** or **Modify** permissions for the DNN installation folder.
 
     The account **IIS AppPool\\AppPoolName** is automatically created by IIS.
+
+    > [!Note]
+    > For security best practices, you should use either an App Pool Identity or an individual machine/AD account (often used by Control Panels) - not a Network Service.
+    > An **App Pool** represents a way to separate web applications from one another and prevents them from harming each other or their environments. Thus, you should generally only assign one worker process to one App Pool.
 
     See [Set Up DNN Folder and the User Account](xref:set-up-dnn-folder).
