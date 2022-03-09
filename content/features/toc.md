@@ -6,6 +6,7 @@
 # [Content Management](xref:content-management)
 ## [Sites](xref:sites)
 ### [Import/Export](xref:import-export)
+## [Localization](xref:localization)
 # [Extensibility](xref:extensibility)
 ## [Event System](xref:event-system)
 ## [Extensions](xref:extensions)
