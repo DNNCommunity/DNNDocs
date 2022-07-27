@@ -27,16 +27,15 @@ using System.Linq.Expressions;
     GitHubActionsImage.WindowsLatest,
     GitHubActionsImage.MacOsLatest,
     GitHubActionsImage.UbuntuLatest,
-    ImportGitHubTokenAs = "GithubToken",
+    ImportSecrets = new[] { "GithubToken" },
     OnPullRequestBranches = new[] { "main" },
     InvokedTargets = new[] { nameof(Compile) })]
 [GitHubActions(
     "Deploy",
     GitHubActionsImage.WindowsLatest,
-    ImportGitHubTokenAs = "GithubToken",
+    ImportSecrets = new[] { "GithubToken", "ACCESS_TOKEN" },
     OnPushBranches = new[] { "main" },
-    InvokedTargets = new[] { nameof(Deploy) },
-    ImportSecrets = new[] { "ACCESS_TOKEN" })]
+    InvokedTargets = new[] { nameof(Deploy) })]
 class Build : NukeBuild
 {
     /// Support plugins are available for:
@@ -97,7 +96,7 @@ class Build : NukeBuild
         .Executes(() =>
         {
             // Prevents a bug where git sends ok message to the error output sink
-            GitLogger = (type, output) => Logger.Info(output);
+            GitLogger = (type, output) => Serilog.Log.Information(output);
             Git($"clone https://github.com/dnnsoftware/Dnn.Platform.git {dnnPlatformDirectory}");
         });
 
@@ -152,7 +151,7 @@ class Build : NukeBuild
         .Executes(() =>
         {
             // Prevents a bug where git sends ok message to the error output sink
-            GitLogger = (type, output) => Logger.Info(output);
+            GitLogger = (type, output) => Serilog.Log.Information(output);
 
             // Because in CI we are in detached head,
             // we create a local deploy branch to track our commit.
@@ -167,11 +166,11 @@ class Build : NukeBuild
             var token = Environment.GetEnvironmentVariable("ACCESS_TOKEN");
             if (string.IsNullOrEmpty(token))
             {
-                Logger.Warn("No api key specified.");
+                Serilog.Log.Warning("No api key specified.");
             }
             else
             {
-                Logger.Info("Api key created.");
+                Serilog.Log.Information("Api key created.");
                 WriteAllText(filePath, token);
             }
         });
