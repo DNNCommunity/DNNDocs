@@ -6,6 +6,7 @@ using Microsoft.DocAsCode.Plugins;
 using Microsoft.DocAsCode.Build.ConceptualDocuments;
 using DNNCommunity.DNNDocs.Plugins.Models;
 using DNNCommunity.DNNDocs.Plugins.Providers;
+using System;
 
 namespace DNNCommunity.DNNDocs.Plugins
 {
@@ -26,9 +27,14 @@ namespace DNNCommunity.DNNDocs.Plugins
         #region Postbuild
         public void Postbuild(ImmutableList<FileModel> models, IHostService host)
         {
+            Console.WriteLine($"Processing Repo Stats for {models.Count()} models");
             var rootPath = models[0].BaseDir;
+            
             List<Contributor> gitContributors = GitHubApi.Instance(rootPath).GetContributors(models);
+            Console.WriteLine($"Found {gitContributors.Count()} contributors");
+
             List<Commits> gitCommits = GitHubApi.Instance(rootPath).GetCommits(models, "");
+            Console.WriteLine($"Found {gitCommits.Count()} commits");
 
             if (gitContributors != null && gitCommits != null)
             {
@@ -40,10 +46,21 @@ namespace DNNCommunity.DNNDocs.Plugins
 
                         for (var i = 1; i < 6; i++)
                         {
-                            content["gitContributor" + i + "Contributions"] = gitContributors[i - 1].Contributions;
-                            content["gitContributor" + i + "Login"] = gitContributors[i - 1].Login;
-                            content["gitContributor" + i + "AvatarUrl"] = gitContributors[i - 1].AvatarUrl;
-                            content["gitContributor" + i + "HtmlUrl"] = gitContributors[i - 1].HtmlUrl;
+                            try
+                            {
+                                content["gitContributor" + i + "Contributions"] = gitContributors[i - 1].Contributions;
+                                content["gitContributor" + i + "Login"] = gitContributors[i - 1].Login;
+                                content["gitContributor" + i + "AvatarUrl"] = gitContributors[i - 1].AvatarUrl;
+                                content["gitContributor" + i + "HtmlUrl"] = gitContributors[i - 1].HtmlUrl;
+                            }
+                            catch (Exception)
+                            {
+                                // Ignore failures with an empty string
+                                content["gitContributor" + i + "Contributions"] = String.Empty;
+                                content["gitContributor" + i + "Login"] = String.Empty;
+                                content["gitContributor" + i + "AvatarUrl"] = String.Empty;
+                                content["gitContributor" + i + "HtmlUrl"] = String.Empty;
+                            }
                         }
 
                         var commits = gitCommits
@@ -55,10 +72,22 @@ namespace DNNCommunity.DNNDocs.Plugins
                         int index = 1;
                         foreach (var commit in commits)
                         {
-                            content["gitRecentContributor" + index + "Login"] = commit.Author.Login;
-                            content["gitRecentContributor" + index + "AvatarUrl"] = commit.Author.AvatarUrl;
-                            content["gitRecentContributor" + index + "HtmlUrl"] = commit.Author.HtmlUrl;
-                            index++;
+                            try
+                            {
+                                content["gitRecentContributor" + index + "Login"] = commit.Author.Login;
+                                content["gitRecentContributor" + index + "AvatarUrl"] = commit.Author.AvatarUrl;
+                                content["gitRecentContributor" + index + "HtmlUrl"] = commit.Author.HtmlUrl;
+                            }
+                            catch (Exception)
+                            {
+                                // Ignore failures with an empty string
+                                content["gitRecentContributor" + index + "Login"] = String.Empty;
+                                content["gitRecentContributor" + index + "AvatarUrl"] = String.Empty;
+                                content["gitRecentContributor" + index + "HtmlUrl"] = String.Empty;
+                            }
+                            finally{
+                                index++;
+                            }
                         }
                     }
                 }
