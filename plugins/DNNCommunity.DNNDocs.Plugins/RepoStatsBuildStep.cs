@@ -36,7 +36,7 @@ namespace DNNCommunity.DNNDocs.Plugins
             List<Commits> gitCommits = GitHubApi.Instance(rootPath).GetCommits(models, "");
             Console.WriteLine($"Found {gitCommits.Count()} commits");
 
-            if (gitContributors != null && gitCommits != null)
+            if (gitContributors.Any() && gitCommits.Any())
             {
                 foreach (var model in models)
                 {
