@@ -38,12 +38,13 @@ namespace DNNCommunity.DNNDocs.Plugins
 
             if (gitContributors.Any() && gitCommits.Any())
             {
-                foreach (var model in models)
+                foreach (var model in models.Select((value, index) => new { value, index }))
                 {
-                    if (model.Type == DocumentType.Article)
+                    Console.WriteLine($"Processing model {model.index} of {models.Count()}");
+                    if (model.value.Type == DocumentType.Article)
                     {
-                        var content = (Dictionary<string, object>)model.Content;
-
+                        var content = (Dictionary<string, object>)model.value.Content;
+                        Console.WriteLine($"Processing Article : {model.value.OriginalFileAndType.FullPath}");
                         for (var i = 1; i < 6; i++)
                         {
                             try
@@ -66,27 +67,26 @@ namespace DNNCommunity.DNNDocs.Plugins
                         var commits = gitCommits
                             .GroupBy(x => x.Author.Login)
                             .OrderByDescending(x => x.Count())
-                            .Select(x => x.FirstOrDefault())
+                            .Select(x => x.FirstOrDefault())? // FirstOrDefault might return null and the next like would fail.
                             .Take(5);
 
-                        int index = 1;
-                        foreach (var commit in commits)
+                        foreach (var commit in commits.Select((value, index) => new { value, index }))
                         {
                             try
                             {
-                                content["gitRecentContributor" + index + "Login"] = commit.Author.Login;
-                                content["gitRecentContributor" + index + "AvatarUrl"] = commit.Author.AvatarUrl;
-                                content["gitRecentContributor" + index + "HtmlUrl"] = commit.Author.HtmlUrl;
+                                content["gitRecentContributor" + commit.index + "Login"] = commit.value.Author.Login;
+                                content["gitRecentContributor" + commit.index + "AvatarUrl"] = commit.value.Author.AvatarUrl;
+                                content["gitRecentContributor" + commit.index + "HtmlUrl"] = commit.value.Author.HtmlUrl;
                             }
                             catch (Exception)
                             {
                                 // Ignore failures with an empty string
-                                content["gitRecentContributor" + index + "Login"] = String.Empty;
-                                content["gitRecentContributor" + index + "AvatarUrl"] = String.Empty;
-                                content["gitRecentContributor" + index + "HtmlUrl"] = String.Empty;
+                                content["gitRecentContributor" + commit.index + "Login"] = String.Empty;
+                                content["gitRecentContributor" + commit.index + "AvatarUrl"] = String.Empty;
+                                content["gitRecentContributor" + commit.index + "HtmlUrl"] = String.Empty;
                             }
                             finally{
-                                index++;
+                                Console.WriteLine($"Processed commit {commit.index} of {commits.Count()}");
                             }
                         }
                     }
