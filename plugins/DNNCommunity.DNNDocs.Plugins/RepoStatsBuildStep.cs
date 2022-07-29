@@ -49,6 +49,7 @@ namespace DNNCommunity.DNNDocs.Plugins
                         {
                             try
                             {
+                                Console.WriteLine($"Adding contributor {i}: {gitContributors[i-1].Login}");
                                 content["gitContributor" + i + "Contributions"] = gitContributors[i - 1].Contributions;
                                 content["gitContributor" + i + "Login"] = gitContributors[i - 1].Login;
                                 content["gitContributor" + i + "AvatarUrl"] = gitContributors[i - 1].AvatarUrl;
@@ -56,11 +57,7 @@ namespace DNNCommunity.DNNDocs.Plugins
                             }
                             catch (Exception)
                             {
-                                // Ignore failures with an empty string
-                                content["gitContributor" + i + "Contributions"] = String.Empty;
-                                content["gitContributor" + i + "Login"] = String.Empty;
-                                content["gitContributor" + i + "AvatarUrl"] = String.Empty;
-                                content["gitContributor" + i + "HtmlUrl"] = String.Empty;
+                                // Ignore failures
                             }
                         }
 
@@ -69,21 +66,20 @@ namespace DNNCommunity.DNNDocs.Plugins
                             .OrderByDescending(x => x.Count())
                             .Select(x => x.FirstOrDefault())? // FirstOrDefault might return null and the next like would fail.
                             .Take(5);
+                        Console.WriteLine($"Found {commits.Count()} most recent commits");
 
                         foreach (var commit in commits.Select((value, index) => new { value, index }))
                         {
                             try
                             {
+                                Console.WriteLine($"Adding commit {commit.index} from: {commit.value.Author.Login}");
                                 content["gitRecentContributor" + commit.index + "Login"] = commit.value.Author.Login;
                                 content["gitRecentContributor" + commit.index + "AvatarUrl"] = commit.value.Author.AvatarUrl;
                                 content["gitRecentContributor" + commit.index + "HtmlUrl"] = commit.value.Author.HtmlUrl;
                             }
                             catch (Exception)
                             {
-                                // Ignore failures with an empty string
-                                content["gitRecentContributor" + commit.index + "Login"] = String.Empty;
-                                content["gitRecentContributor" + commit.index + "AvatarUrl"] = String.Empty;
-                                content["gitRecentContributor" + commit.index + "HtmlUrl"] = String.Empty;
+                                // Ignore failures
                             }
                             finally{
                                 Console.WriteLine($"Processed commit {commit.index} of {commits.Count()}");
