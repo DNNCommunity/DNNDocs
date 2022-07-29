@@ -61,12 +61,17 @@ namespace DNNCommunity.DNNDocs.Plugins
                             }
                         }
 
-                        var commits = gitCommits
-                            .GroupBy(x => x.Author.Login)
-                            .OrderByDescending(x => x.Count())
-                            .Select(x => x.FirstOrDefault())? // FirstOrDefault might return null and the next like would fail.
-                            .Take(5);
-                        Console.WriteLine($"Found {commits.Count()} most recent commits");
+                        var groupedCommits = gitCommits.GroupBy(x => x.Author.Login);
+                        Console.WriteLine($"Found {groupedCommits.Count()} grouped commits.");
+
+                        groupedCommits = groupedCommits.OrderByDescending(x => x.Count());
+                        Console.WriteLine("Ordered the grouped commits by count.");
+
+                        var commits = groupedCommits.Select(x => x.FirstOrDefault());
+                        Console.WriteLine($"Found {commits.Count()} commits as in the first group.");
+
+                        commits = commits.Take(5);
+                        Console.WriteLine($"Took the top {commits.Count()} commits only.");
 
                         foreach (var commit in commits.Select((value, index) => new { value, index }))
                         {
