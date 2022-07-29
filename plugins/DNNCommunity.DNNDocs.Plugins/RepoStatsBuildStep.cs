@@ -50,7 +50,7 @@ namespace DNNCommunity.DNNDocs.Plugins
                             try
                             {
                                 content["gitContributor" + i + "Contributions"] = gitContributors[i - 1].Contributions;
-                                Console.WriteLine($"Added contributor contributions {i}: {gitContributors[i - 1].Contributions}");
+                                Console.WriteLine($"Added contributor {i} contributions: {gitContributors[i - 1].Contributions}");
                                 content["gitContributor" + i + "Login"] = gitContributors[i - 1].Login;
                                 Console.WriteLine($"Added contributor {i} login: {gitContributors[i-1].Login}");
                                 content["gitContributor" + i + "AvatarUrl"] = gitContributors[i - 1].AvatarUrl;
@@ -64,7 +64,7 @@ namespace DNNCommunity.DNNDocs.Plugins
                             }
                         }
 
-                        var groupedCommits = gitCommits.GroupBy(x => x.Author.Login);
+                        var groupedCommits = gitCommits.GroupBy(x => x?.Author?.Login);
                         Console.WriteLine($"Found {groupedCommits.Count()} grouped commits.");
 
                         groupedCommits = groupedCommits.OrderByDescending(x => x.Count());
