@@ -49,11 +49,14 @@ namespace DNNCommunity.DNNDocs.Plugins
                         {
                             try
                             {
-                                Console.WriteLine($"Adding contributor {i}: {gitContributors[i-1].Login}");
                                 content["gitContributor" + i + "Contributions"] = gitContributors[i - 1].Contributions;
+                                Console.WriteLine($"Added contributor contributions {i}: {gitContributors[i - 1].Contributions}");
                                 content["gitContributor" + i + "Login"] = gitContributors[i - 1].Login;
+                                Console.WriteLine($"Added contributor {i} login: {gitContributors[i-1].Login}");
                                 content["gitContributor" + i + "AvatarUrl"] = gitContributors[i - 1].AvatarUrl;
+                                Console.WriteLine($"Added contributor {i} avatar url: {gitContributors[i - 1].AvatarUrl}");
                                 content["gitContributor" + i + "HtmlUrl"] = gitContributors[i - 1].HtmlUrl;
+                                Console.WriteLine($"Added contributor {i} html url: {gitContributors[i - 1].HtmlUrl}");
                             }
                             catch (Exception)
                             {
