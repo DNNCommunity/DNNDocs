@@ -66,7 +66,6 @@ Tools and utilities features within **DNN Platform**.
 * Password Expiry
 * Profanity Filter
 * Providers
-* Recycle Bin
 * Scheduler / Scheduled Tasks
 * Search
 * Security

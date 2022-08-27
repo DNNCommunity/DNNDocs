@@ -7,6 +7,7 @@
 ## [Sites](xref:sites)
 ### [Import/Export](xref:import-export)
 ## [Localization](xref:localization)
+## [Recycle Bin](xref:recycle-bin)
 # [Extensibility](xref:extensibility)
 ## [Event System](xref:event-system)
 ## [Extensions](xref:extensions)

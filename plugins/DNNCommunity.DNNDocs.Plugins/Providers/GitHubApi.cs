@@ -41,7 +41,7 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
         {
             if (string.IsNullOrEmpty(gitHubToken))
             {
-                return null;
+                return new List<Contributor>();
             }
 
             var contributorsEndpoint = "https://api.github.com/repos/DNNCommunity/DNNDocs/contributors";
@@ -49,7 +49,7 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
 
             if (string.IsNullOrEmpty(resultsAsJson))
             {
-                return null;
+                return new List<Contributor>();
             }
 
             var contributors = JsonConvert.DeserializeObject<List<Contributor>>(resultsAsJson);
@@ -61,7 +61,7 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
 
             if (string.IsNullOrEmpty(gitHubToken))
             {
-                return null;
+                return new List<Commits>();
             }
             
             var commitsEndpoint = "https://api.github.com/repos/DNNCommunity/DNNDocs/commits";
@@ -72,7 +72,7 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
             var resultsAsJson = MakeRequest(commitsEndpoint, gitHubToken);
             if (string.IsNullOrEmpty(resultsAsJson))
             {
-                return null;
+                return new List<Commits>();
             }
 
             var commits = JsonConvert.DeserializeObject<List<Commits>>(resultsAsJson);
@@ -131,12 +131,17 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
         private string GetToken()
         {
             var filePath = Path.Combine(this.rootPath, "github-token.txt");
+            Console.WriteLine($"Loading token from: {filePath}");
             if (!File.Exists(filePath))
             {
-                return null;
+                Console.WriteLine($"The token file does not exist");
+                return String.Empty;
             }
-            
-            return File.ReadAllText(filePath);
+
+            var contents = File.ReadAllText(filePath);
+            Console.WriteLine($"Token file length was {contents.Length}");
+
+            return contents;
         }
     }
 }
