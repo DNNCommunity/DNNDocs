@@ -109,17 +109,23 @@
     
 </div>
 <div class="page-stats row visible-xs">
-    <div class="pull-left">9/9/2020 &bull; 11 minutes  to read</div>
+    <div class="pull-left">3/4/2022 &bull; 13 minutes  to read</div>
     <div class="pull-left">Contributors&nbsp;
+        <a href="https://github.com/jeremy-farrance" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/653301?v=4" alt="jeremy-farrance">
+        </a>
         <a href="https://github.com/bdukes" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/59507?v=4" alt="bdukes">
         </a>
     </div>
 </div>
 <div class="page-stats row visible-sm visible-md visible-lg visible-xl">
-    <span class="pull-left">9/9/2020</span>
-    <span class="pull-left">&nbsp;&bull; 11 minutes  to read</span>
+    <span class="pull-left">3/4/2022</span>
+    <span class="pull-left">&nbsp;&bull; 13 minutes  to read</span>
     <span class="pull-left">&nbsp;&bull;&nbsp;Contributors&nbsp;
+        <a href="https://github.com/jeremy-farrance" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/653301?v=4" alt="jeremy-farrance">
+        </a>
         <a href="https://github.com/bdukes" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/59507?v=4" alt="bdukes">
         </a>
@@ -132,7 +138,7 @@
 <p>There are also WebForms controls which can be used in the <code>ascx</code> files within your module and theme, as well as helpers for MVC modules (introduced in DNN 9.7.0) and tokens for SPA modules.</p>
 <h3 id="javascript-libraries">JavaScript Libraries</h3>
 <p>In addition to requesting individual files, DNN also has a JavaScript Library extension type.  This allows requesting a JavaScript library by name, and, optionally, a version range.  Unlike other package types, multiple versions of a JavaScript library can be installed at once.  JavaScript libraries can specify dependencies, which will automatically be included when the script is requested (e.g. a Bootstrap JS library can depend on the jQuery library, and requesting Boostrap will automatically cause jQuery to also be included on the page).</p>
-<p>The <a class="xref" href="../../../api/DotNetNuke.Framework.JavaScriptLibraries.JavaScript.html"><code>JavaScript</code></a> class provides three overloads of the <code>RequestRegistration</code> method.  The first overload takes only the name of the library, which will request the latest version of the library.  The second overload takes the library name and a version (this requests that specific version).  The final overload takes the library name, a version, and a <a class="xref" href="../../../api/DotNetNuke.Framework.JavaScriptLibraries.SpecificVersion.html"><code>SpecificVersion</code></a> value indicating the acceptable version range.  For example, <code>RequestRegistration(&quot;swiper&quot;, new Version(6, 0, 1), SpecificVersion.LatestMajor)</code> will get the highest 6.x version of Swiper.  If different versions of the same library are requested on the same page, the higher version will be included.</p>
+<p>The <a href="xref:DotNetNuke.Framework.JavaScriptLibraries.JavaScript"><code>JavaScript</code></a> class provides three overloads of the <code>RequestRegistration</code> method.  The first overload takes only the name of the library, which will request the latest version of the library.  The second overload takes the library name and a version (this requests that specific version).  The final overload takes the library name, a version, and a <a href="xref:DotNetNuke.Framework.JavaScriptLibraries.SpecificVersion"><code>SpecificVersion</code></a> value indicating the acceptable version range.  For example, <code>RequestRegistration(&quot;swiper&quot;, new Version(6, 0, 1), SpecificVersion.LatestMajor)</code> will get the highest 6.x version of Swiper.  If different versions of the same library are requested on the same page, the higher version will be included.</p>
 <h2 id="basic-concepts">Basic Concepts</h2>
 <h3 id="providers">Providers</h3>
 <p>When requesting a script or style sheet, a <em>provider</em> can be specified.  DNN provides three providers, which specify which section of the page the resource will be referenced from.  The available providers are as follows:</p>
@@ -195,6 +201,34 @@
     Name=&quot;dnndefault&quot;
     Version=&quot;8.0.0&quot; /&gt;
 </code></pre>
+<h4 id="c-code">C# Code</h4>
+<p>There are situations where adding assets requires code and the above token and helper methods are not appropriate or available. Also the simpler, RegisterScript() option does not yet support the HtmlAttributes option.</p>
+<p>In the following example (Razor/C#) we will register a remote CDN script from UNPKG (from a published NPM package) and dynamically get it on the page as a proper ES Module (ESM) and set the <code>type=&quot;module&quot;</code> and other attributes as needed. This approach can be used in a wide variety of places including RazorHost scripts, any Razor Templating code (e.g. DDR Menus or a 2sxc View), code-behind in .aspx/.ascx files, etc.</p>
+<pre><code class="lang-charp">@using DotNetNuke.Web.Client.ClientResourceManagement
+
+@{
+  // Add a &lt;script&gt; tag in the head as a JS module
+  var include = new DnnJsInclude 
+  {
+    FilePath = &quot;https://unpkg.com/@dnncommunity/dnn-elements/dist/dnn/dnn.esm.js&quot;, 
+    ForceProvider = &quot;DnnPageHeaderProvider&quot;,
+    Priority = 501, 
+    HtmlAttributesAsString = &quot;type:module,async:async,crossorigin:anonymous&quot;,
+  };
+  var includes = (Context.CurrentHandler as Page).FindControl(&quot;ClientResourceIncludes&quot;);
+  if (includes != null)
+  {
+    includes.Controls.Add(include);
+  }  
+}
+</code></pre>
+<p>If you view the source of the final Dnn page, you should see the following result in your <code>&lt;head&gt;</code>:</p>
+<pre><code>&lt;script src=&quot;https://unpkg.com/@dnncommunity/dnn-elements/dist/dnn/dnn.esm.js&quot; type=&quot;module&quot; async=&quot;async&quot; crossorigin=&quot;anonymous&quot;&gt;
+</code></pre>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Though it is common the just include the <code>async</code> attribute without the value assignment (e.g. <code>async=&quot;true&quot;</code>), DNN's <code>HtmlAttributesAsString</code> is expecting <code>name:value</code> pairs and produces unexpected results in some cases (e.g. with no :value for <code>async</code>, <code>HtmlAttributesAsString = &quot;type:module,async&quot;</code> would not end up with <code>async</code> in the output).</p>
+</div>
 <h2 id="configuration">Configuration</h2>
 <p>Some of the details of how the scripts and styles get included on the page can be managed by the administrator of the site.  On the <em>Servers</em> page of the Persona Bar, in the <em>Performance</em> sub-tab of the <em>Server Settings</em> tab, there is a <em>Client Resource Management</em> section.  The section can be managed globally and/or for different sites individually.</p>
 <p><img src="/images/scr-ClientResourceManagement.png" alt="Client Resource Management screenshot"></p>

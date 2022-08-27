@@ -299,7 +299,7 @@ namespace SampleProject.DnnEvents.ContainerEvents
 <li>TabRestored (restored from the page recycle bin)</li>
 <li>TabMarkedAsPublished</li>
 </ul>
-<p>Tab Events are registered by decorating a class with <code>[Export(typeof(ITabEventHandler))]</code> and implementing the <a class="xref" href="../../../../api/DotNetNuke.Entities.Tabs.Actions.ITabEventHandler.html"><code>ITabEventHandler</code></a> interface.</p>
+<p>Tab Events are registered by decorating a class with <code>[Export(typeof(ITabEventHandler))]</code> and implementing the <a href="xref:DotNetNuke.Entities.Tabs.Actions.ITabEventHandler"><code>ITabEventHandler</code></a> interface.</p>
 <p>DNN will automatically register your Tab Event Handler when the DNN website loads.</p>
 <p>The following example implements a complete Tab Event Handler with the event options stubbed out.</p>
 <pre><code>    using System.ComponentModel.Composition;
@@ -357,7 +357,7 @@ namespace SampleProject.DnnEvents.ContainerEvents
 <li>UserApproved (restored from the page recycle bin)</li>
 <li>UserUpdated</li>
 </ul>
-<p>User Events are registered by decorating a class with <code>[Export(typeof(IUserEventHandlers))]</code> and implementing the <a class="xref" href="../../../../api/DotNetNuke.Entities.Users.IUserEventHandlers.html"><code>IUserEventHandlers</code></a> interface.</p>
+<p>User Events are registered by decorating a class with <code>[Export(typeof(IUserEventHandlers))]</code> and implementing the <a href="xref:DotNetNuke.Entities.Users.IUserEventHandlers"><code>IUserEventHandlers</code></a> interface.</p>
 <p>DNN will automatically register your Tab Event Handler when the DNN website loads.</p>
 <p>The following example implements a complete Tab Event Handler with the event options stubbed out.</p>
 <pre><code>using System.ComponentModel.Composition;

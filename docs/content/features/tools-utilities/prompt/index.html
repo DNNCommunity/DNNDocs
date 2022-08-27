@@ -109,7 +109,7 @@
     
 </div>
 <div class="page-stats row visible-xs">
-    <div class="pull-left">2/16/2022 &bull; 5 minutes  to read</div>
+    <div class="pull-left">2/17/2022 &bull; 5 minutes  to read</div>
     <div class="pull-left">Contributors&nbsp;
         <a href="https://github.com/david-poindexter" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
@@ -120,7 +120,7 @@
     </div>
 </div>
 <div class="page-stats row visible-sm visible-md visible-lg visible-xl">
-    <span class="pull-left">2/16/2022</span>
+    <span class="pull-left">2/17/2022</span>
     <span class="pull-left">&nbsp;&bull; 5 minutes  to read</span>
     <span class="pull-left">&nbsp;&bull;&nbsp;Contributors&nbsp;
         <a href="https://github.com/david-poindexter" target="_blank">
@@ -158,34 +158,38 @@
 <h3 id="creating-new-commands">Creating New Commands</h3>
 <p>Creating new commands for DNN is quite easy and can be done in the same way as most other extensions. After you have created a project that extends DNN, you can follow the steps below to create a new command.</p>
 <ol>
- <li>Import Nessessary Classes</li>
-  <ul>
-    <li>`using Dnn.PersonaBar.Library.Prompt;`</li>
-    <li>`using Dnn.PersonaBar.Library.Prompt.Attributes;`</li>
-    <li>`using Dnn.PersonaBar.Library.Prompt.Models;`</li>
-    <li>`using DotNetNuke.Entities.Portals;`  (Only needed if you implement the `Init` function)</li>
-    <li>`using DotNetNuke.Entities.Users;` (Only needed if you implement the `Init` function)</li>
- </ul>
- <li>Create a class that implements the `ConsoleCommandBase, IConsoleCommand` classes</li>
- <ul>
-  <li>This class will be the main class you will create the command in</li>
- </ul>
- <li>Override the functions required</li>
- <ul>
-    <li>The `Run` function is what is executed when your command is called.</li>
-    <li>The Init function does not need to be overridden, but it is what receives any flags passed in. You can perform validation of flags from within this function.</li>
- </ul>
- <li>Declare Flags/Params needed by your command.</li>
- <ul>
-    <li>In the `Init` function, use the function `GetFlagValue` to retrieve flag values passed in.</li>
-    <li>You can use the `FlagParameter` attribute to link info to a flag. The linked info will be displayed when the help function is used.</li>
- </ul>
+<li><p>Import Nessessary Classes</p>
+<ul>
+<li><code>using Dnn.PersonaBar.Library.Prompt;</code></li>
+<li><code>using Dnn.PersonaBar.Library.Prompt.Attributes;</code></li>
+<li><code>using Dnn.PersonaBar.Library.Prompt.Models;</code></li>
+<li><code>using DotNetNuke.Entities.Portals;</code>  (Only needed if you implement the <code>Init</code> function)</li>
+<li><code>using DotNetNuke.Entities.Users;</code> (Only needed if you implement the <code>Init</code> function)</li>
+</ul>
+</li>
+<li><p>Create a class that implements the <code>ConsoleCommandBase, IConsoleCommand</code> classes</p>
+<ul>
+<li>This class will be the main class you will create the command in.</li>
+</ul>
+</li>
+<li><p>Override the functions required</p>
+<ul>
+<li>The <code>Run</code> function is what is executed when your command is called.</li>
+<li>The Init function does not need to be overridden, but it is what receives any flags passed in. You can perform validation of flags from within this function.</li>
+</ul>
+</li>
+<li><p>Declare Flags/Params needed by your command.</p>
+<ul>
+<li>In the <code>Init</code> function, use the function <code>GetFlagValue</code> to retrieve flag values passed in.</li>
+<li>You can use the <code>FlagParameter</code> attribute to link info to a flag. The linked info will be displayed when the help function is used.</li>
+</ul>
+</li>
 </ol>
 <div class="NOTE">
 <h5>Note</h5>
+</div>
 <p>This method is largely based off of the demo shown at the 2022 DNN Conference linked below. If you would like to see source code, you can find it there.<br>
 <a href="https://youtu.be/yVlcAgxII0Y?t=1880">https://youtu.be/yVlcAgxII0Y?t=1880</a></p>
-</div>
 </article>
           </div>
           

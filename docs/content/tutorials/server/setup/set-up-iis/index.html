@@ -109,7 +109,7 @@
     
 </div>
 <div class="page-stats row visible-xs">
-    <div class="pull-left">3/7/2020 &bull; 3 minutes  to read</div>
+    <div class="pull-left">3/9/2022 &bull; 3 minutes  to read</div>
     <div class="pull-left">Contributors&nbsp;
         <a href="https://github.com/david-poindexter" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
@@ -117,7 +117,7 @@
     </div>
 </div>
 <div class="page-stats row visible-sm visible-md visible-lg visible-xl">
-    <span class="pull-left">3/7/2020</span>
+    <span class="pull-left">3/9/2022</span>
     <span class="pull-left">&nbsp;&bull; 3 minutes  to read</span>
     <span class="pull-left">&nbsp;&bull;&nbsp;Contributors&nbsp;
         <a href="https://github.com/david-poindexter" target="_blank">
@@ -149,7 +149,7 @@
 </li>
 <li>Internet Information Services Hostable Web Core</li>
 </ul>
-<p><img src="/images/scr-InstallIIS-6.png" alt="IIS options to turn on"></p>
+<p><img src="/images/IISUpdated.png" alt="IISUpdated"></p>
 </li>
 </ol>
 </li>
@@ -188,6 +188,11 @@ You can create a new website or set up an existing one for use with DNN. Choose 
 </li>
 <li><p>If you do not use <strong>NETWORK SERVICE</strong> as the user account to run your website, verify that <strong>IIS AppPool\AppPoolName</strong> has <strong>Full</strong> or <strong>Modify</strong> permissions for the DNN installation folder.</p>
 <p>The account <strong>IIS AppPool\AppPoolName</strong> is automatically created by IIS.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>For security best practices, you should use either an App Pool Identity or an individual machine/AD account (often used by Control Panels) - not a Network Service.
+An <strong>App Pool</strong> represents a way to separate web applications from one another and prevents them from harming each other or their environments. Thus, you should generally only assign one worker process to one App Pool.</p>
+</div>
 <p>See <a class="xref" href="../set-up-dnn-folder/index.html">Set Up DNN Folder and the User Account</a>.</p>
 </li>
 </ol>
