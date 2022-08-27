@@ -112,6 +112,42 @@ Similarly, requesting a resource with the same name as another resource will rep
     Version="8.0.0" />
 ```
 
+#### C# Code
+
+There are situations where adding assets requires code and the above token and helper methods are not appropriate or available. Also the simpler, RegisterScript() option does not yet support the HtmlAttributes option. 
+
+In the following example (Razor/C#) we will register a remote CDN script from UNPKG (from a published NPM package) and dynamically get it on the page as a proper ES Module (ESM) and set the `type="module"` and other attributes as needed. This approach can be used in a wide variety of places including RazorHost scripts, any Razor Templating code (e.g. DDR Menus or a 2sxc View), code-behind in .aspx/.ascx files, etc.
+
+```charp
+@using DotNetNuke.Web.Client.ClientResourceManagement
+
+@{
+  // Add a <script> tag in the head as a JS module
+  var include = new DnnJsInclude 
+  {
+    FilePath = "https://unpkg.com/@dnncommunity/dnn-elements/dist/dnn/dnn.esm.js", 
+    ForceProvider = "DnnPageHeaderProvider",
+    Priority = 501, 
+    HtmlAttributesAsString = "type:module,async:async,crossorigin:anonymous",
+  };
+  var includes = (Context.CurrentHandler as Page).FindControl("ClientResourceIncludes");
+  if (includes != null)
+  {
+    includes.Controls.Add(include);
+  }  
+}
+```
+
+If you view the source of the final Dnn page, you should see the following result in your `<head>`:
+
+```
+<script src="https://unpkg.com/@dnncommunity/dnn-elements/dist/dnn/dnn.esm.js" type="module" async="async" crossorigin="anonymous">
+```
+
+> [!NOTE]
+> Though it is common the just include the `async` attribute without the value assignment (e.g. `async="true"`), DNN's `HtmlAttributesAsString` is expecting `name:value` pairs and produces unexpected results in some cases (e.g. with no :value for `async`, `HtmlAttributesAsString = "type:module,async"` would not end up with `async` in the output).
+
+
 ## Configuration
 
 Some of the details of how the scripts and styles get included on the page can be managed by the administrator of the site.  On the _Servers_ page of the Persona Bar, in the _Performance_ sub-tab of the _Server Settings_ tab, there is a _Client Resource Management_ section.  The section can be managed globally and/or for different sites individually.
