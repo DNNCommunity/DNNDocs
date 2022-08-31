@@ -69,9 +69,6 @@ When requesting a script or CSS file, a name and version can also be specified, 
 [JavaScript:{ path: "/Portals/_default/Skins/MySkin/Scripts/mySliders.min.js", priority: 10001, provider: "DnnFormBottomProvider" }]
 ```
 
-If `jsname` is provided but `path` is not provided, DNN will load the pre-installed javascript library (extension).
-
-If both `jsname` and `path` are provided, `jsname` only serves to add a comment in the resulting html (to help troubleshooting) but the file in `path` is registered.
 
 #### WebForms
 
