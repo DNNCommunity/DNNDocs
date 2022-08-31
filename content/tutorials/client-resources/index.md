@@ -100,7 +100,7 @@ Starting with DNN v9.11.0, `htmlAttributes` can also be used in the SPA token to
 [JavaScript:{ path: "~/DesktopModules/ResourceManager/Scripts/dnn-resource-manager/dnn-resource-manager.esm.js", htmlAttributes: { type: "module" } }]
 [JavaScript:{ path: "~/DesktopModules/ResourceManager/Scripts/dnn-resource-manager/dnn-resource-manager.js", htmlAttributes: { nomodule: "nomodule" } }]
 [JavaScript:{ path: "https://www.google.com/recaptcha/api.js", htmlAttributes: { async: "async", defer: "defer" } }]
-[Css:{ path: "https://fonts.googleapis.com/css2?family=Oswald&display=swap" htmlAttributes: { media:"print } }]
+[Css:{ path: "https://fonts.googleapis.com/css2?family=Oswald&display=swap" htmlAttributes: { media:"print" } }]
 
 ##### Remove and replace CSS and JS requests
 
