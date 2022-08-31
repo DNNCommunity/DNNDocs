@@ -69,6 +69,10 @@ When requesting a script or CSS file, a name and version can also be specified, 
 [JavaScript:{ path: "/Portals/_default/Skins/MySkin/Scripts/mySliders.min.js", priority: 10001, provider: "DnnFormBottomProvider" }]
 ```
 
+If `jsname` is provided but `path` is not provided, DNN will load the pre-installed javascript library (extension).
+
+If both `jsname` and `path` are provided, `jsname` only serves to add a comment in the resulting html (to help troubleshooting) but the file in `path` is registered.
+
 #### WebForms
 
 ```html
@@ -92,6 +96,13 @@ When using the WebForms controls, there's an additional attribute, `HtmlAttribut
 <dnn:DnnCssInclude runat="server" FilePath="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" HtmlAttributesAsString="integrity:sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z,crossorigin:anonymous">" />
 
 <dnn:DnnJsInclude runat="server" FilePath="https://www.google.com/recaptcha/api.js" ForceProvider="DnnPageHeaderProvider" HtmlAttributesAsString="async:async,defer:defer" />
+```
+
+Starting with DNN v9.11.0, `htmlAttributesAsString` can also be used in the SPA token to add custom html attributes to a script tag:
+```html
+[JavaScript:{ path: "/DesktopModules/ResourceManager/Scripts/dnn-resource-manager/dnn-resource-manager.esm.js", htmlAttributesAsString: "type:module"}]
+[JavaScript:{ path: "/DesktopModules/ResourceManager/Scripts/dnn-resource-manager/dnn-resource-manager.js", htmlAttributesAsString: "nomodule:nomodule"}]
+[JavaScript:{ path: "https://www.google.com/recaptcha/api.js", htmlAttributesAsString: "async:async,defer:defer"}]
 ```
 
 ##### Remove and replace CSS and JS requests
