@@ -95,11 +95,13 @@ When using the WebForms controls, there's an additional attribute, `HtmlAttribut
 <dnn:DnnJsInclude runat="server" FilePath="https://www.google.com/recaptcha/api.js" ForceProvider="DnnPageHeaderProvider" HtmlAttributesAsString="async:async,defer:defer" />
 ```
 
-Starting with DNN v9.11.0, `htmlAttributes` can also be used in the SPA token to add custom html attributes to a script tag:
+Starting with DNN v9.11.0, `htmlAttributes` can also be used in the SPA token to add custom html attributes to a script or css tag:
 ```html
 [JavaScript:{ path: "~/DesktopModules/ResourceManager/Scripts/dnn-resource-manager/dnn-resource-manager.esm.js", htmlAttributes: { type: "module" } }]
 [JavaScript:{ path: "~/DesktopModules/ResourceManager/Scripts/dnn-resource-manager/dnn-resource-manager.js", htmlAttributes: { nomodule: "nomodule" } }]
 [JavaScript:{ path: "https://www.google.com/recaptcha/api.js", htmlAttributes: { async: "async", defer: "defer" } }]
+[Css:{ path: "https://fonts.googleapis.com/css2?family=Oswald&display=swap" htmlAttributes: { media:"print } }]
+
 ##### Remove and replace CSS and JS requests
 
 There are two additional theme objects, `DnnCssExclude` and `DnnJsExclude` which can stop a requested CSS or JavaScript file from being included on the page.  A common usage of this feature is for a theme to stop DNN from including its default CSS:
