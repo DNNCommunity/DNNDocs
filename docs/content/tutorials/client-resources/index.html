@@ -109,25 +109,37 @@
     
 </div>
 <div class="page-stats row visible-xs">
-    <div class="pull-left">3/4/2022 &bull; 13 minutes  to read</div>
+    <div class="pull-left">11/23/2022 &bull; 13 minutes  to read</div>
     <div class="pull-left">Contributors&nbsp;
+        <a href="https://github.com/valadas" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/6371568?v=4" alt="valadas">
+        </a>
         <a href="https://github.com/jeremy-farrance" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/653301?v=4" alt="jeremy-farrance">
         </a>
         <a href="https://github.com/bdukes" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/59507?v=4" alt="bdukes">
+        </a>
+        <a href="https://github.com/david-poindexter" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
         </a>
     </div>
 </div>
 <div class="page-stats row visible-sm visible-md visible-lg visible-xl">
-    <span class="pull-left">3/4/2022</span>
+    <span class="pull-left">11/23/2022</span>
     <span class="pull-left">&nbsp;&bull; 13 minutes  to read</span>
     <span class="pull-left">&nbsp;&bull;&nbsp;Contributors&nbsp;
+        <a href="https://github.com/valadas" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/6371568?v=4" alt="valadas">
+        </a>
         <a href="https://github.com/jeremy-farrance" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/653301?v=4" alt="jeremy-farrance">
         </a>
         <a href="https://github.com/bdukes" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/59507?v=4" alt="bdukes">
+        </a>
+        <a href="https://github.com/david-poindexter" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
         </a>
     </span>
 </div>
@@ -190,9 +202,17 @@
 
 &lt;dnn:DnnJsInclude runat=&quot;server&quot; FilePath=&quot;https://www.google.com/recaptcha/api.js&quot; ForceProvider=&quot;DnnPageHeaderProvider&quot; HtmlAttributesAsString=&quot;async:async,defer:defer&quot; /&gt;
 </code></pre>
-<h5 id="remove-and-replace-css-and-js-requests">Remove and replace CSS and JS requests</h5>
-<p>There are two additional theme objects, <code>DnnCssExclude</code> and <code>DnnJsExclude</code> which can stop a requested CSS or JavaScript file from being included on the page.  A common usage of this feature is for a theme to stop DNN from including its default CSS:</p>
-<pre><code class="lang-html">&lt;dnn:DnnCssExclude runat=&quot;server&quot; Name=&quot;dnndefault&quot; /&gt;
+<p>Starting with DNN v9.11.0, <code>htmlAttributes</code> can also be used in the SPA token to add custom html attributes to a script tag:</p>
+<pre><code class="lang-html">[JavaScript:{ path: &quot;~/DesktopModules/ResourceManager/Scripts/dnn-resource-manager/dnn-resource-manager.esm.js&quot;, htmlAttributes: { type: &quot;module&quot; } }]
+[JavaScript:{ path: &quot;~/DesktopModules/ResourceManager/Scripts/dnn-resource-manager/dnn-resource-manager.js&quot;, htmlAttributes: { nomodule: &quot;nomodule&quot; } }]
+[JavaScript:{ path: &quot;https://www.google.com/recaptcha/api.js&quot;, htmlAttributes: { async: &quot;async&quot;, defer: &quot;defer&quot; } }]
+
+##### Remove and replace CSS and JS requests
+
+There are two additional theme objects, `DnnCssExclude` and `DnnJsExclude` which can stop a requested CSS or JavaScript file from being included on the page.  A common usage of this feature is for a theme to stop DNN from including its default CSS:
+
+```html
+&lt;dnn:DnnCssExclude runat=&quot;server&quot; Name=&quot;dnndefault&quot; /&gt;
 </code></pre>
 <p>Similarly, requesting a resource with the same name as another resource will replace the first resource (i.e. requests with the same name are de-duplicated).  To use the version 8 default CSS instead of version 7:</p>
 <pre><code class="lang-html">&lt;dnn:DnnCssInclude runat=&quot;server&quot;
