@@ -69,6 +69,7 @@ When requesting a script or CSS file, a name and version can also be specified, 
 [JavaScript:{ path: "/Portals/_default/Skins/MySkin/Scripts/mySliders.min.js", priority: 10001, provider: "DnnFormBottomProvider" }]
 ```
 
+
 #### WebForms
 
 ```html
@@ -93,6 +94,12 @@ When using the WebForms controls, there's an additional attribute, `HtmlAttribut
 
 <dnn:DnnJsInclude runat="server" FilePath="https://www.google.com/recaptcha/api.js" ForceProvider="DnnPageHeaderProvider" HtmlAttributesAsString="async:async,defer:defer" />
 ```
+
+Starting with DNN v9.11.0, `htmlAttributes` can also be used in the SPA token to add custom html attributes to a script tag:
+```html
+[JavaScript:{ path: "~/DesktopModules/ResourceManager/Scripts/dnn-resource-manager/dnn-resource-manager.esm.js", htmlAttributes: { type: "module" } }]
+[JavaScript:{ path: "~/DesktopModules/ResourceManager/Scripts/dnn-resource-manager/dnn-resource-manager.js", htmlAttributes: { nomodule: "nomodule" } }]
+[JavaScript:{ path: "https://www.google.com/recaptcha/api.js", htmlAttributes: { async: "async", defer: "defer" } }]
 
 ##### Remove and replace CSS and JS requests
 
