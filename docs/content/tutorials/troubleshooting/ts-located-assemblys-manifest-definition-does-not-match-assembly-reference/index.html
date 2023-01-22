@@ -155,7 +155,7 @@
 <p>If there is an existing <code>bindingRedirect</code>, then it isn't covering the conflict which is causing the error. The most common reason for this is that the version range in the <code>oldVersion</code> attribute doesn't cover all conflicting versions. Updating <code>oldVersion</code> to use a wide range (e.g. <code>0.0.0.0-32767.32767.32767.32767</code>) will typically resolve this.</p>
 <h3 id="synchronize-versions-of-dll-files-and-bindingredirect-entries">Synchronize versions of <code>.dll</code> files and <code>bindingRedirect</code> entries</h3>
 <p>If the site has a full page error, a relatively quick way to resolve any mismatches it to use the <a href="https://www.powershellgallery.com/packages/BindingRedirects">BindingRedirects PowerShell module</a> which has a command to synchronize the binding redirects in the <code>web.config</code> with the files in the <code>bin</code> (though it won't add new binding redirects). To use that, run <code>Install-Module -Name BindingRedirects</code> (see <a href="https://docs.microsoft.com/en-us/powershell/scripting/gallery/installing-psget">the getting started docs</a> if <code>Install-Module</code> isn't available on your system). Once the PowerShell module is installed, call <code>Sync-BindingRedirect 'C:\inetpub\wwwroot\mysite.com\web.config'</code> (using the site's actual path) to update any incorrect binding redirects.</p>
-<div class="related-topics" hidden=""><span><a href="/content/tutorials/troubleshooting/ts-missing-persona-bar/index.html">Troubleshooting: Missing Persona Bar</a></span></div></article>
+<div class="related-topics" hidden=""></div></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
