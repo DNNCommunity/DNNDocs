@@ -384,3 +384,6 @@ MigrationBackup/
 
 #VS Code files
 /*.code-workspace
+
+#Nuke Build
+.nuke/temp

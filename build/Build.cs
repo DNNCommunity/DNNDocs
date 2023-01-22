@@ -6,7 +6,6 @@ using Nuke.Common.CI.GitHubActions;
 using Nuke.Common.Execution;
 using Nuke.Common.IO;
 using Nuke.Common.Git;
-using Nuke.Common.Tools.DocFX;
 using Nuke.Common.Tools.DotNet;
 using Nuke.Common.Tools.MSBuild;
 using Nuke.Common.ProjectModel;
@@ -16,7 +15,6 @@ using static Nuke.Common.EnvironmentInfo;
 using static Nuke.Common.IO.FileSystemTasks;
 using static Nuke.Common.IO.PathConstruction;
 using static Nuke.Common.IO.TextTasks;
-using static Nuke.Common.Tools.DocFX.DocFXTasks;
 using static Nuke.Common.Tools.DotNet.DotNetTasks;
 using static Nuke.Common.Tools.Git.GitTasks;
 using static Nuke.Common.Tools.MSBuild.MSBuildTasks;
@@ -46,6 +44,13 @@ class Build : NukeBuild
 
     // Default target is defined here for when the build is called without a target.
     public static int Main() => Execute<Build>(x => x.Serve);
+
+    [PackageExecutable(
+        packageId: "docfx",
+        packageExecutable: "docfx.dll",
+        Framework = "net6.0"
+        )]
+    readonly Tool DnnDocFX;
 
     // Project specific constants
     private const string organizationName = "DNNCommunity";
@@ -91,7 +96,7 @@ class Build : NukeBuild
         MSBuild(s => s
         .SetProjectFile(Solution.GetProject(pluginsProjectName))
         .SetConfiguration(Configuration));
-        var sourceFile = Solution.GetProject(pluginsProjectName).Directory / "bin" / Configuration / $"{pluginsProjectName}.dll";
+        var sourceFile = Solution.GetProject(pluginsProjectName).Directory / "bin" / Configuration / "net6.0" / $"{pluginsProjectName}.dll";
         CopyFileToDirectory(sourceFile, pluginsDirectory, FileExistsPolicy.OverwriteIfNewer, true);
     });
 
@@ -126,16 +131,15 @@ class Build : NukeBuild
         .DependsOn(PullDnnRepo)
         .Executes(() =>
         {
-            DocFXMetadata(s => s.SetFilterConfigFile(RootDirectory / "docfx.json"));
-            DocFXBuild(s => s.SetConfigFile(RootDirectory / "docfx.json"));
+            DnnDocFX?.Invoke("metadata docfx.json");
+            DnnDocFX?.Invoke("build docfx.json");
         });
 
     Target TemplateExportDefault => _ => _
         .DependsOn(Restore)
         .Executes(() =>
         {
-            DocFXTemplate(s => s
-                .SetProcessArgumentConfigurator(a => a.Add("export default")));
+            DnnDocFX?.Invoke("template export default");
         });
 
 
@@ -146,9 +150,7 @@ class Build : NukeBuild
         .DependsOn(PullDnnRepo)
         .Executes(() =>
         {
-            DocFXBuild(s => s
-                .SetConfigFile(RootDirectory / "docfx.json")
-                .EnableServe());
+            DnnDocFX?.Invoke("--serve");
         });
 
     Target CreateDeployBranch => _ => _
