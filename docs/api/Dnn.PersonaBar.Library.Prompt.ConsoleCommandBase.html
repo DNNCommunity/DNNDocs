@@ -1,0 +1,887 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ConsoleCommandBase
+  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ConsoleCommandBase
+  -- DNN Docs">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://ZPKP9SED9P-dsn.algolia.net" crossorigin="">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@alpha">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+  
+  
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-137422488-1');
+    </script>  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <div class="navbar-right">
+                <div id="docsearch-navbar" class="navbar-form navbar-right"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase.md&amp;value=---%0Auid%3A%20Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase">
+
+
+  <h1 id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase" class="text-break">Class ConsoleCommandBase
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ConsoleCommandBase</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Dnn.PersonaBar.Library.Prompt.IConsoleCommand.html">IConsoleCommand</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Dnn.PersonaBar.Library.Prompt.html">Dnn.PersonaBar.Library.Prompt</a></h6>
+  <h6><strong>Assembly</strong>: Dnn.PersonaBar.Library.dll</h6>
+  <h5 id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class ConsoleCommandBase : object, IConsoleCommand</code></pre>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_Args.md&amp;value=---%0Auid%3A%20Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.Args%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Prompt/ConsoleCommandBase.cs/#L36">View Source</a>
+  </span>
+  <a id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_Args_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.Args*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_Args" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.Args">Args</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string[] Args { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_Flags.md&amp;value=---%0Auid%3A%20Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.Flags%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Prompt/ConsoleCommandBase.cs/#L38">View Source</a>
+  </span>
+  <a id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_Flags_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.Flags*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_Flags" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.Flags">Flags</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Hashtable Flags { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Hashtable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_LocalResourceFile.md&amp;value=---%0Auid%3A%20Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.LocalResourceFile%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Prompt/ConsoleCommandBase.cs/#L20">View Source</a>
+  </span>
+  <a id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_LocalResourceFile_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.LocalResourceFile*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_LocalResourceFile" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.LocalResourceFile">LocalResourceFile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract string LocalResourceFile { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_PortalId.md&amp;value=---%0Auid%3A%20Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.PortalId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Prompt/ConsoleCommandBase.cs/#L32">View Source</a>
+  </span>
+  <a id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_PortalId_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.PortalId*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_PortalId" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.PortalId">PortalId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int PortalId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_PortalSettings.md&amp;value=---%0Auid%3A%20Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.PortalSettings%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Prompt/ConsoleCommandBase.cs/#L28">View Source</a>
+  </span>
+  <a id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_PortalSettings_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.PortalSettings*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_PortalSettings" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.PortalSettings">PortalSettings</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected PortalSettings PortalSettings { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalSettings.html">PortalSettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_ResultHtml.md&amp;value=---%0Auid%3A%20Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.ResultHtml%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Prompt/ConsoleCommandBase.cs/#L23">View Source</a>
+  </span>
+  <a id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_ResultHtml_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.ResultHtml*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_ResultHtml" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.ResultHtml">ResultHtml</h4>
+  <div class="markdown level1 summary"><p>Gets resource key for the result html.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string ResultHtml { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_TabId.md&amp;value=---%0Auid%3A%20Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.TabId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Prompt/ConsoleCommandBase.cs/#L34">View Source</a>
+  </span>
+  <a id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_TabId_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.TabId*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_TabId" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.TabId">TabId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int TabId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_User.md&amp;value=---%0Auid%3A%20Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.User%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Prompt/ConsoleCommandBase.cs/#L30">View Source</a>
+  </span>
+  <a id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_User_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.User*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_User" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.User">User</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected UserInfo User { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_ValidationMessage.md&amp;value=---%0Auid%3A%20Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.ValidationMessage%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Prompt/ConsoleCommandBase.cs/#L26">View Source</a>
+  </span>
+  <a id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_ValidationMessage_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.ValidationMessage*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_ValidationMessage" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.ValidationMessage">ValidationMessage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ValidationMessage { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_AddMessage_System_String_.md&amp;value=---%0Auid%3A%20Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.AddMessage(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Prompt/ConsoleCommandBase.cs/#L147">View Source</a>
+  </span>
+  <a id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_AddMessage_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.AddMessage*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_AddMessage_System_String_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.AddMessage(System.String)">AddMessage(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AddMessage(string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_GetFlagValue__1_System_String_System_String___0_System_Boolean_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.GetFlagValue%60%601(System.String%2CSystem.String%2C%60%600%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Prompt/ConsoleCommandBase.cs/#L49">View Source</a>
+  </span>
+  <a id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_GetFlagValue_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.GetFlagValue*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_GetFlagValue__1_System_String_System_String___0_System_Boolean_System_Boolean_System_Boolean_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.GetFlagValue``1(System.String,System.String,``0,System.Boolean,System.Boolean,System.Boolean)">GetFlagValue&lt;T&gt;(String, String, T, Boolean, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get the flag value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual T GetFlagValue&lt;T&gt;(string flag, string fieldName, T defaultVal, bool required = false, bool checkmain = false, bool checkpositive = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">flag</span></td>
+        <td><p>Flag name to look.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fieldName</span></td>
+        <td><p>Filed name to show in message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">defaultVal</span></td>
+        <td><p>Default value of the flag, if any.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">required</span></td>
+        <td><p>Is this a required flag or not.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">checkmain</span></td>
+        <td><p>Try to find the flag value in first args or not.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">checkpositive</span></td>
+        <td><p>This would be applicable only if the output is of type int or double and value should be positive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The flag value or <code data-dev-comment-type="paramref" class="paramref">defaultVal</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of the output expected.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_HasFlag_System_String_.md&amp;value=---%0Auid%3A%20Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.HasFlag(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Prompt/ConsoleCommandBase.cs/#L129">View Source</a>
+  </span>
+  <a id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_HasFlag_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.HasFlag*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_HasFlag_System_String_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.HasFlag(System.String)">HasFlag(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool HasFlag(string flagName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">flagName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_Init_System_String___DotNetNuke_Entities_Portals_PortalSettings_DotNetNuke_Entities_Users_UserInfo_System_Int32_.md&amp;value=---%0Auid%3A%20Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.Init(System.String%5B%5D%2CDotNetNuke.Entities.Portals.PortalSettings%2CDotNetNuke.Entities.Users.UserInfo%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Prompt/ConsoleCommandBase.cs/#L103">View Source</a>
+  </span>
+  <a id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_Init_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.Init*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_Init_System_String___DotNetNuke_Entities_Portals_PortalSettings_DotNetNuke_Entities_Users_UserInfo_System_Int32_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.Init(System.String[],DotNetNuke.Entities.Portals.PortalSettings,DotNetNuke.Entities.Users.UserInfo,System.Int32)">Init(String[], PortalSettings, UserInfo, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Init(string[] args, PortalSettings portalSettings, UserInfo userInfo, int activeTabId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalSettings.html">PortalSettings</a></td>
+        <td><span class="parametername">portalSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">userInfo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">activeTabId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_Initialize_System_String___DotNetNuke_Entities_Portals_PortalSettings_DotNetNuke_Entities_Users_UserInfo_System_Int32_.md&amp;value=---%0Auid%3A%20Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.Initialize(System.String%5B%5D%2CDotNetNuke.Entities.Portals.PortalSettings%2CDotNetNuke.Entities.Users.UserInfo%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Prompt/ConsoleCommandBase.cs/#L108">View Source</a>
+  </span>
+  <a id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_Initialize_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.Initialize*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_Initialize_System_String___DotNetNuke_Entities_Portals_PortalSettings_DotNetNuke_Entities_Users_UserInfo_System_Int32_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.Initialize(System.String[],DotNetNuke.Entities.Portals.PortalSettings,DotNetNuke.Entities.Users.UserInfo,System.Int32)">Initialize(String[], PortalSettings, UserInfo, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize(string[] args, PortalSettings portalSettings, UserInfo userInfo, int activeTabId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalSettings.html">PortalSettings</a></td>
+        <td><span class="parametername">portalSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">userInfo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">activeTabId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_IsFlag_System_Object_.md&amp;value=---%0Auid%3A%20Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.IsFlag(System.Object)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Prompt/ConsoleCommandBase.cs/#L135">View Source</a>
+  </span>
+  <a id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_IsFlag_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.IsFlag*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_IsFlag_System_Object_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.IsFlag(System.Object)">IsFlag(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool IsFlag(object input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_IsValid.md&amp;value=---%0Auid%3A%20Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.IsValid%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Prompt/ConsoleCommandBase.cs/#L124">View Source</a>
+  </span>
+  <a id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_IsValid_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.IsValid*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_IsValid" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.IsValid">IsValid()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool IsValid()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_LocalizeString_System_String_.md&amp;value=---%0Auid%3A%20Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.LocalizeString(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Prompt/ConsoleCommandBase.cs/#L141">View Source</a>
+  </span>
+  <a id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_LocalizeString_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.LocalizeString*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_LocalizeString_System_String_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.LocalizeString(System.String)">LocalizeString(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string LocalizeString(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_Run.md&amp;value=---%0Auid%3A%20Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.Run%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Prompt/ConsoleCommandBase.cs/#L121">View Source</a>
+  </span>
+  <a id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_Run_" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.Run*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Prompt_ConsoleCommandBase_Run" data-uid="Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.Run">Run()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract ConsoleResultModel Run()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Dnn.PersonaBar.Library.Prompt.Models.ConsoleResultModel.html">ConsoleResultModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Dnn.PersonaBar.Library.Prompt.IConsoleCommand.html">IConsoleCommand</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Prompt/ConsoleCommandBase.cs/#L16" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				container: selector,
+    				appId: 'ZPKP9SED9P',
+    				indexName: 'dnnsoftware',
+    				apiKey: '37bfc247275fb9e8fcecbda599134a30',
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('#docsearch-navbar'));  
+    </script>
+  </body>
+</html>

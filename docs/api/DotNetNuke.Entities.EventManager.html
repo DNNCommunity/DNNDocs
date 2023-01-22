@@ -1,0 +1,1774 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class EventManager
+  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class EventManager
+  -- DNN Docs">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://ZPKP9SED9P-dsn.algolia.net" crossorigin="">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@alpha">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+  
+  
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-137422488-1');
+    </script>  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <div class="navbar-right">
+                <div id="docsearch-navbar" class="navbar-form navbar-right"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Entities.EventManager">
+
+
+  <h1 id="DotNetNuke_Entities_EventManager" data-uid="DotNetNuke.Entities.EventManager" class="text-break">Class EventManager
+</h1>
+  <div class="markdown level0 summary"><p>Manages DNN Events.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;<a class="xref" href="DotNetNuke.Entities.IEventManager.html">IEventManager</a>, <a class="xref" href="DotNetNuke.Entities.EventManager.html">EventManager</a>&gt;</div>
+    <div class="level2"><span class="xref">EventManager</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="DotNetNuke.Entities.IEventManager.html">IEventManager</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html#DotNetNuke_Framework_ServiceLocator_2_Instance">ServiceLocator&lt;IEventManager, EventManager&gt;.Instance</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html#DotNetNuke_Framework_ServiceLocator_2_Factory">ServiceLocator&lt;IEventManager, EventManager&gt;.Factory</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html#DotNetNuke_Framework_ServiceLocator_2_SetTestableInstance__0_">ServiceLocator&lt;IEventManager, EventManager&gt;.SetTestableInstance(IEventManager)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html#DotNetNuke_Framework_ServiceLocator_2_ClearInstance">ServiceLocator&lt;IEventManager, EventManager&gt;.ClearInstance()</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html#DotNetNuke_Framework_ServiceLocator_2_GetFactory">ServiceLocator&lt;IEventManager, EventManager&gt;.GetFactory()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Entities.html">DotNetNuke.Entities</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Entities_EventManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EventManager : ServiceLocator&lt;IEventManager, EventManager&gt;, IEventManager</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager__ctor.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L29">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager__ctor_" data-uid="DotNetNuke.Entities.EventManager.#ctor*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager__ctor" data-uid="DotNetNuke.Entities.EventManager.#ctor">EventManager()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.Entities.EventManager.html">EventManager</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventManager()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager__ctor_DotNetNuke_Abstractions_Logging_IEventLogger_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.%23ctor(DotNetNuke.Abstractions.Logging.IEventLogger)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L37">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager__ctor_" data-uid="DotNetNuke.Entities.EventManager.#ctor*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager__ctor_DotNetNuke_Abstractions_Logging_IEventLogger_" data-uid="DotNetNuke.Entities.EventManager.#ctor(DotNetNuke.Abstractions.Logging.IEventLogger)">EventManager(IEventLogger)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.Entities.EventManager.html">EventManager</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventManager(IEventLogger eventLogger)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td><p>An event logger.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_GetFactory.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.GetFactory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L634">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_GetFactory_" data-uid="DotNetNuke.Entities.EventManager.GetFactory*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_GetFactory" data-uid="DotNetNuke.Entities.EventManager.GetFactory">GetFactory()</h4>
+  <div class="markdown level1 summary"><p>Gets the service locator factory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override Func&lt;IEventManager&gt; GetFactory()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<a class="xref" href="DotNetNuke.Entities.IEventManager.html">IEventManager</a>&gt;</td>
+        <td><p>A factory function.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">DotNetNuke.Framework.ServiceLocator&lt;DotNetNuke.Entities.IEventManager, DotNetNuke.Entities.EventManager&gt;.GetFactory()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnFileAdded_DotNetNuke_Services_FileSystem_EventArgs_FileAddedEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnFileAdded(DotNetNuke.Services.FileSystem.EventArgs.FileAddedEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L221">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnFileAdded_" data-uid="DotNetNuke.Entities.EventManager.OnFileAdded*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnFileAdded_DotNetNuke_Services_FileSystem_EventArgs_FileAddedEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnFileAdded(DotNetNuke.Services.FileSystem.EventArgs.FileAddedEventArgs)">OnFileAdded(FileAddedEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a file was added.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnFileAdded(FileAddedEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.EventArgs.FileAddedEventArgs.html">FileAddedEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnFileChanged_DotNetNuke_Services_FileSystem_EventArgs_FileChangedEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnFileChanged(DotNetNuke.Services.FileSystem.EventArgs.FileChangedEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L232">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnFileChanged_" data-uid="DotNetNuke.Entities.EventManager.OnFileChanged*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnFileChanged_DotNetNuke_Services_FileSystem_EventArgs_FileChangedEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnFileChanged(DotNetNuke.Services.FileSystem.EventArgs.FileChangedEventArgs)">OnFileChanged(FileChangedEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a file was changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnFileChanged(FileChangedEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.EventArgs.FileChangedEventArgs.html">FileChangedEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnFileDeleted_DotNetNuke_Services_FileSystem_EventArgs_FileDeletedEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnFileDeleted(DotNetNuke.Services.FileSystem.EventArgs.FileDeletedEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L243">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnFileDeleted_" data-uid="DotNetNuke.Entities.EventManager.OnFileDeleted*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnFileDeleted_DotNetNuke_Services_FileSystem_EventArgs_FileDeletedEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnFileDeleted(DotNetNuke.Services.FileSystem.EventArgs.FileDeletedEventArgs)">OnFileDeleted(FileDeletedEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a file was deleted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnFileDeleted(FileDeletedEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.EventArgs.FileDeletedEventArgs.html">FileDeletedEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnFileDownloaded_DotNetNuke_Services_FileSystem_EventArgs_FileDownloadedEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnFileDownloaded(DotNetNuke.Services.FileSystem.EventArgs.FileDownloadedEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L265">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnFileDownloaded_" data-uid="DotNetNuke.Entities.EventManager.OnFileDownloaded*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnFileDownloaded_DotNetNuke_Services_FileSystem_EventArgs_FileDownloadedEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnFileDownloaded(DotNetNuke.Services.FileSystem.EventArgs.FileDownloadedEventArgs)">OnFileDownloaded(FileDownloadedEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a file was downloaded.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnFileDownloaded(FileDownloadedEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.EventArgs.FileDownloadedEventArgs.html">FileDownloadedEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnFileMetadataChanged_DotNetNuke_Services_FileSystem_EventArgs_FileChangedEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnFileMetadataChanged(DotNetNuke.Services.FileSystem.EventArgs.FileChangedEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L254">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnFileMetadataChanged_" data-uid="DotNetNuke.Entities.EventManager.OnFileMetadataChanged*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnFileMetadataChanged_DotNetNuke_Services_FileSystem_EventArgs_FileChangedEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnFileMetadataChanged(DotNetNuke.Services.FileSystem.EventArgs.FileChangedEventArgs)">OnFileMetadataChanged(FileChangedEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a file metadata was changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnFileMetadataChanged(FileChangedEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.EventArgs.FileChangedEventArgs.html">FileChangedEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnFileMoved_DotNetNuke_Services_FileSystem_EventArgs_FileMovedEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnFileMoved(DotNetNuke.Services.FileSystem.EventArgs.FileMovedEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L276">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnFileMoved_" data-uid="DotNetNuke.Entities.EventManager.OnFileMoved*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnFileMoved_DotNetNuke_Services_FileSystem_EventArgs_FileMovedEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnFileMoved(DotNetNuke.Services.FileSystem.EventArgs.FileMovedEventArgs)">OnFileMoved(FileMovedEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a file was moved.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnFileMoved(FileMovedEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.EventArgs.FileMovedEventArgs.html">FileMovedEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnFileOverwritten_DotNetNuke_Services_FileSystem_EventArgs_FileChangedEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnFileOverwritten(DotNetNuke.Services.FileSystem.EventArgs.FileChangedEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L287">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnFileOverwritten_" data-uid="DotNetNuke.Entities.EventManager.OnFileOverwritten*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnFileOverwritten_DotNetNuke_Services_FileSystem_EventArgs_FileChangedEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnFileOverwritten(DotNetNuke.Services.FileSystem.EventArgs.FileChangedEventArgs)">OnFileOverwritten(FileChangedEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a file was overwritten.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnFileOverwritten(FileChangedEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.EventArgs.FileChangedEventArgs.html">FileChangedEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnFileRenamed_DotNetNuke_Services_FileSystem_EventArgs_FileRenamedEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnFileRenamed(DotNetNuke.Services.FileSystem.EventArgs.FileRenamedEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L298">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnFileRenamed_" data-uid="DotNetNuke.Entities.EventManager.OnFileRenamed*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnFileRenamed_DotNetNuke_Services_FileSystem_EventArgs_FileRenamedEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnFileRenamed(DotNetNuke.Services.FileSystem.EventArgs.FileRenamedEventArgs)">OnFileRenamed(FileRenamedEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a file was renamed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnFileRenamed(FileRenamedEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.EventArgs.FileRenamedEventArgs.html">FileRenamedEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnFolderAdded_DotNetNuke_Services_FileSystem_EventArgs_FolderChangedEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnFolderAdded(DotNetNuke.Services.FileSystem.EventArgs.FolderChangedEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L309">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnFolderAdded_" data-uid="DotNetNuke.Entities.EventManager.OnFolderAdded*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnFolderAdded_DotNetNuke_Services_FileSystem_EventArgs_FolderChangedEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnFolderAdded(DotNetNuke.Services.FileSystem.EventArgs.FolderChangedEventArgs)">OnFolderAdded(FolderChangedEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a folder was added.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnFolderAdded(FolderChangedEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.EventArgs.FolderChangedEventArgs.html">FolderChangedEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnFolderDeleted_DotNetNuke_Services_FileSystem_EventArgs_FolderDeletedEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnFolderDeleted(DotNetNuke.Services.FileSystem.EventArgs.FolderDeletedEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L318">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnFolderDeleted_" data-uid="DotNetNuke.Entities.EventManager.OnFolderDeleted*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnFolderDeleted_DotNetNuke_Services_FileSystem_EventArgs_FolderDeletedEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnFolderDeleted(DotNetNuke.Services.FileSystem.EventArgs.FolderDeletedEventArgs)">OnFolderDeleted(FolderDeletedEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a folder was deleted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnFolderDeleted(FolderDeletedEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.EventArgs.FolderDeletedEventArgs.html">FolderDeletedEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnFolderMoved_DotNetNuke_Services_FileSystem_EventArgs_FolderMovedEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnFolderMoved(DotNetNuke.Services.FileSystem.EventArgs.FolderMovedEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L327">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnFolderMoved_" data-uid="DotNetNuke.Entities.EventManager.OnFolderMoved*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnFolderMoved_DotNetNuke_Services_FileSystem_EventArgs_FolderMovedEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnFolderMoved(DotNetNuke.Services.FileSystem.EventArgs.FolderMovedEventArgs)">OnFolderMoved(FolderMovedEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a folder was moved.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnFolderMoved(FolderMovedEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.EventArgs.FolderMovedEventArgs.html">FolderMovedEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnFolderRenamed_DotNetNuke_Services_FileSystem_EventArgs_FolderRenamedEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnFolderRenamed(DotNetNuke.Services.FileSystem.EventArgs.FolderRenamedEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L336">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnFolderRenamed_" data-uid="DotNetNuke.Entities.EventManager.OnFolderRenamed*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnFolderRenamed_DotNetNuke_Services_FileSystem_EventArgs_FolderRenamedEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnFolderRenamed(DotNetNuke.Services.FileSystem.EventArgs.FolderRenamedEventArgs)">OnFolderRenamed(FolderRenamedEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a folder was renamed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnFolderRenamed(FolderRenamedEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.EventArgs.FolderRenamedEventArgs.html">FolderRenamedEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnFollowRequested_DotNetNuke_Entities_Users_RelationshipEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnFollowRequested(DotNetNuke.Entities.Users.RelationshipEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L345">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnFollowRequested_" data-uid="DotNetNuke.Entities.EventManager.OnFollowRequested*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnFollowRequested_DotNetNuke_Entities_Users_RelationshipEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnFollowRequested(DotNetNuke.Entities.Users.RelationshipEventArgs)">OnFollowRequested(RelationshipEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a user requested to follow another user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnFollowRequested(RelationshipEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.RelationshipEventArgs.html">RelationshipEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnFriendshipAccepted_DotNetNuke_Entities_Users_RelationshipEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnFriendshipAccepted(DotNetNuke.Entities.Users.RelationshipEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L354">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnFriendshipAccepted_" data-uid="DotNetNuke.Entities.EventManager.OnFriendshipAccepted*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnFriendshipAccepted_DotNetNuke_Entities_Users_RelationshipEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnFriendshipAccepted(DotNetNuke.Entities.Users.RelationshipEventArgs)">OnFriendshipAccepted(RelationshipEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a user has accepted a friendship request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnFriendshipAccepted(RelationshipEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.RelationshipEventArgs.html">RelationshipEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnFriendshipDeleted_DotNetNuke_Entities_Users_RelationshipEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnFriendshipDeleted(DotNetNuke.Entities.Users.RelationshipEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L363">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnFriendshipDeleted_" data-uid="DotNetNuke.Entities.EventManager.OnFriendshipDeleted*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnFriendshipDeleted_DotNetNuke_Entities_Users_RelationshipEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnFriendshipDeleted(DotNetNuke.Entities.Users.RelationshipEventArgs)">OnFriendshipDeleted(RelationshipEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a user deleted a friendship.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnFriendshipDeleted(RelationshipEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.RelationshipEventArgs.html">RelationshipEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnFriendshipRequested_DotNetNuke_Entities_Users_RelationshipEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnFriendshipRequested(DotNetNuke.Entities.Users.RelationshipEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L372">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnFriendshipRequested_" data-uid="DotNetNuke.Entities.EventManager.OnFriendshipRequested*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnFriendshipRequested_DotNetNuke_Entities_Users_RelationshipEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnFriendshipRequested(DotNetNuke.Entities.Users.RelationshipEventArgs)">OnFriendshipRequested(RelationshipEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a user has requested a friendship.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnFriendshipRequested(RelationshipEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.RelationshipEventArgs.html">RelationshipEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnModuleCreated_DotNetNuke_Entities_Modules_Actions_ModuleEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnModuleCreated(DotNetNuke.Entities.Modules.Actions.ModuleEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L381">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnModuleCreated_" data-uid="DotNetNuke.Entities.EventManager.OnModuleCreated*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnModuleCreated_DotNetNuke_Entities_Modules_Actions_ModuleEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnModuleCreated(DotNetNuke.Entities.Modules.Actions.ModuleEventArgs)">OnModuleCreated(ModuleEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a module was created.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnModuleCreated(ModuleEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.Actions.ModuleEventArgs.html">ModuleEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnModuleDeleted_DotNetNuke_Entities_Modules_Actions_ModuleEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnModuleDeleted(DotNetNuke.Entities.Modules.Actions.ModuleEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L390">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnModuleDeleted_" data-uid="DotNetNuke.Entities.EventManager.OnModuleDeleted*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnModuleDeleted_DotNetNuke_Entities_Modules_Actions_ModuleEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnModuleDeleted(DotNetNuke.Entities.Modules.Actions.ModuleEventArgs)">OnModuleDeleted(ModuleEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a module was deleted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnModuleDeleted(ModuleEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.Actions.ModuleEventArgs.html">ModuleEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnModuleRemoved_DotNetNuke_Entities_Modules_Actions_ModuleEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnModuleRemoved(DotNetNuke.Entities.Modules.Actions.ModuleEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L399">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnModuleRemoved_" data-uid="DotNetNuke.Entities.EventManager.OnModuleRemoved*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnModuleRemoved_DotNetNuke_Entities_Modules_Actions_ModuleEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnModuleRemoved(DotNetNuke.Entities.Modules.Actions.ModuleEventArgs)">OnModuleRemoved(ModuleEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a module was removed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnModuleRemoved(ModuleEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.Actions.ModuleEventArgs.html">ModuleEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnModuleUpdated_DotNetNuke_Entities_Modules_Actions_ModuleEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnModuleUpdated(DotNetNuke.Entities.Modules.Actions.ModuleEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L408">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnModuleUpdated_" data-uid="DotNetNuke.Entities.EventManager.OnModuleUpdated*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnModuleUpdated_DotNetNuke_Entities_Modules_Actions_ModuleEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnModuleUpdated(DotNetNuke.Entities.Modules.Actions.ModuleEventArgs)">OnModuleUpdated(ModuleEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a module was updated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnModuleUpdated(ModuleEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.Actions.ModuleEventArgs.html">ModuleEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnPortalCreated_DotNetNuke_Entities_Portals_PortalCreatedEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnPortalCreated(DotNetNuke.Entities.Portals.PortalCreatedEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L417">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnPortalCreated_" data-uid="DotNetNuke.Entities.EventManager.OnPortalCreated*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnPortalCreated_DotNetNuke_Entities_Portals_PortalCreatedEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnPortalCreated(DotNetNuke.Entities.Portals.PortalCreatedEventArgs)">OnPortalCreated(PortalCreatedEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a portal was created.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnPortalCreated(PortalCreatedEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalCreatedEventArgs.html">PortalCreatedEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnPortalSettingUpdated_DotNetNuke_Entities_Portals_PortalSettingUpdatedEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnPortalSettingUpdated(DotNetNuke.Entities.Portals.PortalSettingUpdatedEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L426">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnPortalSettingUpdated_" data-uid="DotNetNuke.Entities.EventManager.OnPortalSettingUpdated*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnPortalSettingUpdated_DotNetNuke_Entities_Portals_PortalSettingUpdatedEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnPortalSettingUpdated(DotNetNuke.Entities.Portals.PortalSettingUpdatedEventArgs)">OnPortalSettingUpdated(PortalSettingUpdatedEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a portal setting was updated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnPortalSettingUpdated(PortalSettingUpdatedEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalSettingUpdatedEventArgs.html">PortalSettingUpdatedEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnPortalTemplateCreated_DotNetNuke_Entities_Portals_PortalTemplateEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnPortalTemplateCreated(DotNetNuke.Entities.Portals.PortalTemplateEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L435">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnPortalTemplateCreated_" data-uid="DotNetNuke.Entities.EventManager.OnPortalTemplateCreated*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnPortalTemplateCreated_DotNetNuke_Entities_Portals_PortalTemplateEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnPortalTemplateCreated(DotNetNuke.Entities.Portals.PortalTemplateEventArgs)">OnPortalTemplateCreated(PortalTemplateEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a portal template was created.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnPortalTemplateCreated(PortalTemplateEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalTemplateEventArgs.html">PortalTemplateEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnProfileUpdated_DotNetNuke_Entities_Profile_ProfileEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnProfileUpdated(DotNetNuke.Entities.Profile.ProfileEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L444">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnProfileUpdated_" data-uid="DotNetNuke.Entities.EventManager.OnProfileUpdated*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnProfileUpdated_DotNetNuke_Entities_Profile_ProfileEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnProfileUpdated(DotNetNuke.Entities.Profile.ProfileEventArgs)">OnProfileUpdated(ProfileEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a user profile was updated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnProfileUpdated(ProfileEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Profile.ProfileEventArgs.html">ProfileEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnRoleCreated_DotNetNuke_Security_Roles_RoleEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnRoleCreated(DotNetNuke.Security.Roles.RoleEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L453">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnRoleCreated_" data-uid="DotNetNuke.Entities.EventManager.OnRoleCreated*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnRoleCreated_DotNetNuke_Security_Roles_RoleEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnRoleCreated(DotNetNuke.Security.Roles.RoleEventArgs)">OnRoleCreated(RoleEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a role was created.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnRoleCreated(RoleEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleEventArgs.html">RoleEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnRoleDeleted_DotNetNuke_Security_Roles_RoleEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnRoleDeleted(DotNetNuke.Security.Roles.RoleEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L462">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnRoleDeleted_" data-uid="DotNetNuke.Entities.EventManager.OnRoleDeleted*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnRoleDeleted_DotNetNuke_Security_Roles_RoleEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnRoleDeleted(DotNetNuke.Security.Roles.RoleEventArgs)">OnRoleDeleted(RoleEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a role was deleted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnRoleDeleted(RoleEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleEventArgs.html">RoleEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnRoleJoined_DotNetNuke_Security_Roles_RoleEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnRoleJoined(DotNetNuke.Security.Roles.RoleEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L471">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnRoleJoined_" data-uid="DotNetNuke.Entities.EventManager.OnRoleJoined*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnRoleJoined_DotNetNuke_Security_Roles_RoleEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnRoleJoined(DotNetNuke.Security.Roles.RoleEventArgs)">OnRoleJoined(RoleEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a role was joined.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnRoleJoined(RoleEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleEventArgs.html">RoleEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnRoleLeft_DotNetNuke_Security_Roles_RoleEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnRoleLeft(DotNetNuke.Security.Roles.RoleEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L480">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnRoleLeft_" data-uid="DotNetNuke.Entities.EventManager.OnRoleLeft*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnRoleLeft_DotNetNuke_Security_Roles_RoleEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnRoleLeft(DotNetNuke.Security.Roles.RoleEventArgs)">OnRoleLeft(RoleEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a role was left.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnRoleLeft(RoleEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleEventArgs.html">RoleEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnTabCreated_DotNetNuke_Entities_Tabs_Actions_TabEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnTabCreated(DotNetNuke.Entities.Tabs.Actions.TabEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L489">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnTabCreated_" data-uid="DotNetNuke.Entities.EventManager.OnTabCreated*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnTabCreated_DotNetNuke_Entities_Tabs_Actions_TabEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnTabCreated(DotNetNuke.Entities.Tabs.Actions.TabEventArgs)">OnTabCreated(TabEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a page (tab) was created.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnTabCreated(TabEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.Actions.TabEventArgs.html">TabEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnTabDeleted_DotNetNuke_Entities_Tabs_Actions_TabEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnTabDeleted(DotNetNuke.Entities.Tabs.Actions.TabEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L498">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnTabDeleted_" data-uid="DotNetNuke.Entities.EventManager.OnTabDeleted*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnTabDeleted_DotNetNuke_Entities_Tabs_Actions_TabEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnTabDeleted(DotNetNuke.Entities.Tabs.Actions.TabEventArgs)">OnTabDeleted(TabEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a page (tab) was deleted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnTabDeleted(TabEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.Actions.TabEventArgs.html">TabEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnTabDeserialize_DotNetNuke_Entities_Tabs_Actions_TabSyncEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnTabDeserialize(DotNetNuke.Entities.Tabs.Actions.TabSyncEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L507">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnTabDeserialize_" data-uid="DotNetNuke.Entities.EventManager.OnTabDeserialize*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnTabDeserialize_DotNetNuke_Entities_Tabs_Actions_TabSyncEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnTabDeserialize(DotNetNuke.Entities.Tabs.Actions.TabSyncEventArgs)">OnTabDeserialize(TabSyncEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a page (tab) is deserialized.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnTabDeserialize(TabSyncEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.Actions.TabSyncEventArgs.html">TabSyncEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnTabMarkedAsPublished_DotNetNuke_Entities_Tabs_Actions_TabEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnTabMarkedAsPublished(DotNetNuke.Entities.Tabs.Actions.TabEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L516">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnTabMarkedAsPublished_" data-uid="DotNetNuke.Entities.EventManager.OnTabMarkedAsPublished*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnTabMarkedAsPublished_DotNetNuke_Entities_Tabs_Actions_TabEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnTabMarkedAsPublished(DotNetNuke.Entities.Tabs.Actions.TabEventArgs)">OnTabMarkedAsPublished(TabEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a page (tab) was marked as published.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnTabMarkedAsPublished(TabEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.Actions.TabEventArgs.html">TabEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnTabRemoved_DotNetNuke_Entities_Tabs_Actions_TabEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnTabRemoved(DotNetNuke.Entities.Tabs.Actions.TabEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L525">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnTabRemoved_" data-uid="DotNetNuke.Entities.EventManager.OnTabRemoved*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnTabRemoved_DotNetNuke_Entities_Tabs_Actions_TabEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnTabRemoved(DotNetNuke.Entities.Tabs.Actions.TabEventArgs)">OnTabRemoved(TabEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a page (tab) was removed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnTabRemoved(TabEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.Actions.TabEventArgs.html">TabEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnTabRestored_DotNetNuke_Entities_Tabs_Actions_TabEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnTabRestored(DotNetNuke.Entities.Tabs.Actions.TabEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L534">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnTabRestored_" data-uid="DotNetNuke.Entities.EventManager.OnTabRestored*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnTabRestored_DotNetNuke_Entities_Tabs_Actions_TabEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnTabRestored(DotNetNuke.Entities.Tabs.Actions.TabEventArgs)">OnTabRestored(TabEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a page (tab) was restored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnTabRestored(TabEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.Actions.TabEventArgs.html">TabEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnTabSerialize_DotNetNuke_Entities_Tabs_Actions_TabSyncEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnTabSerialize(DotNetNuke.Entities.Tabs.Actions.TabSyncEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L543">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnTabSerialize_" data-uid="DotNetNuke.Entities.EventManager.OnTabSerialize*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnTabSerialize_DotNetNuke_Entities_Tabs_Actions_TabSyncEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnTabSerialize(DotNetNuke.Entities.Tabs.Actions.TabSyncEventArgs)">OnTabSerialize(TabSyncEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a page (tab) is serialized.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnTabSerialize(TabSyncEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.Actions.TabSyncEventArgs.html">TabSyncEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnTabUpdated_DotNetNuke_Entities_Tabs_Actions_TabEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnTabUpdated(DotNetNuke.Entities.Tabs.Actions.TabEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L552">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnTabUpdated_" data-uid="DotNetNuke.Entities.EventManager.OnTabUpdated*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnTabUpdated_DotNetNuke_Entities_Tabs_Actions_TabEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnTabUpdated(DotNetNuke.Entities.Tabs.Actions.TabEventArgs)">OnTabUpdated(TabEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a page (tab) was updated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnTabUpdated(TabEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.Actions.TabEventArgs.html">TabEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnUnfollowRequested_DotNetNuke_Entities_Users_RelationshipEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnUnfollowRequested(DotNetNuke.Entities.Users.RelationshipEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L561">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnUnfollowRequested_" data-uid="DotNetNuke.Entities.EventManager.OnUnfollowRequested*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnUnfollowRequested_DotNetNuke_Entities_Users_RelationshipEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnUnfollowRequested(DotNetNuke.Entities.Users.RelationshipEventArgs)">OnUnfollowRequested(RelationshipEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a user as requested to unfollow another user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnUnfollowRequested(RelationshipEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.RelationshipEventArgs.html">RelationshipEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnUserApproved_DotNetNuke_Entities_Users_UserEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnUserApproved(DotNetNuke.Entities.Users.UserEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L570">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnUserApproved_" data-uid="DotNetNuke.Entities.EventManager.OnUserApproved*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnUserApproved_DotNetNuke_Entities_Users_UserEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnUserApproved(DotNetNuke.Entities.Users.UserEventArgs)">OnUserApproved(UserEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a user was approved.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnUserApproved(UserEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserEventArgs.html">UserEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnUserAuthenticated_DotNetNuke_Entities_Users_UserEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnUserAuthenticated(DotNetNuke.Entities.Users.UserEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L579">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnUserAuthenticated_" data-uid="DotNetNuke.Entities.EventManager.OnUserAuthenticated*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnUserAuthenticated_DotNetNuke_Entities_Users_UserEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnUserAuthenticated(DotNetNuke.Entities.Users.UserEventArgs)">OnUserAuthenticated(UserEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a user was authenticated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnUserAuthenticated(UserEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserEventArgs.html">UserEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnUserCreated_DotNetNuke_Entities_Users_UserEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnUserCreated(DotNetNuke.Entities.Users.UserEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L588">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnUserCreated_" data-uid="DotNetNuke.Entities.EventManager.OnUserCreated*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnUserCreated_DotNetNuke_Entities_Users_UserEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnUserCreated(DotNetNuke.Entities.Users.UserEventArgs)">OnUserCreated(UserEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a user was created.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnUserCreated(UserEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserEventArgs.html">UserEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnUserDeleted_DotNetNuke_Entities_Users_UserEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnUserDeleted(DotNetNuke.Entities.Users.UserEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L597">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnUserDeleted_" data-uid="DotNetNuke.Entities.EventManager.OnUserDeleted*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnUserDeleted_DotNetNuke_Entities_Users_UserEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnUserDeleted(DotNetNuke.Entities.Users.UserEventArgs)">OnUserDeleted(UserEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a user was deleted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnUserDeleted(UserEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserEventArgs.html">UserEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnUserRemoved_DotNetNuke_Entities_Users_UserEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnUserRemoved(DotNetNuke.Entities.Users.UserEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L606">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnUserRemoved_" data-uid="DotNetNuke.Entities.EventManager.OnUserRemoved*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnUserRemoved_DotNetNuke_Entities_Users_UserEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnUserRemoved(DotNetNuke.Entities.Users.UserEventArgs)">OnUserRemoved(UserEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a user was removed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnUserRemoved(UserEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserEventArgs.html">UserEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_OnUserUpdated_DotNetNuke_Entities_Users_UpdateUserEventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.OnUserUpdated(DotNetNuke.Entities.Users.UpdateUserEventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L615">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_OnUserUpdated_" data-uid="DotNetNuke.Entities.EventManager.OnUserUpdated*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_OnUserUpdated_DotNetNuke_Entities_Users_UpdateUserEventArgs_" data-uid="DotNetNuke.Entities.EventManager.OnUserUpdated(DotNetNuke.Entities.Users.UpdateUserEventArgs)">OnUserUpdated(UpdateUserEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Fires up when a user was updated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnUserUpdated(UpdateUserEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UpdateUserEventArgs.html">UpdateUserEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_EventManager_RefreshTabSyncHandlers.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.EventManager.RefreshTabSyncHandlers%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L624">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_EventManager_RefreshTabSyncHandlers_" data-uid="DotNetNuke.Entities.EventManager.RefreshTabSyncHandlers*"></a>
+  <h4 id="DotNetNuke_Entities_EventManager_RefreshTabSyncHandlers" data-uid="DotNetNuke.Entities.EventManager.RefreshTabSyncHandlers">RefreshTabSyncHandlers()</h4>
+  <div class="markdown level1 summary"><p>Refreshes the page (tab) synchronization handlers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RefreshTabSyncHandlers()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Entities.IEventManager.html">IEventManager</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/EventManager.cs/#L24" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				container: selector,
+    				appId: 'ZPKP9SED9P',
+    				indexName: 'dnnsoftware',
+    				apiKey: '37bfc247275fb9e8fcecbda599134a30',
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('#docsearch-navbar'));  
+    </script>
+  </body>
+</html>

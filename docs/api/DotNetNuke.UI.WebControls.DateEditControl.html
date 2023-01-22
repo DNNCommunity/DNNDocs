@@ -1,0 +1,661 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DateEditControl
+  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DateEditControl
+  -- DNN Docs">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://ZPKP9SED9P-dsn.algolia.net" crossorigin="">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@alpha">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+  
+  
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-137422488-1');
+    </script>  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <div class="navbar-right">
+                <div id="docsearch-navbar" class="navbar-form navbar-right"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_UI_WebControls_DateEditControl.md&amp;value=---%0Auid%3A%20DotNetNuke.UI.WebControls.DateEditControl%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.UI.WebControls.DateEditControl">
+
+
+  <h1 id="DotNetNuke_UI_WebControls_DateEditControl" data-uid="DotNetNuke.UI.WebControls.DateEditControl" class="text-break">Class DateEditControl
+</h1>
+  <div class="markdown level0 summary"><p>The DateEditControl control provides a standard UI component for editing
+date properties.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html">EditControl</a></div>
+    <div class="level2"><span class="xref">DateEditControl</span></div>
+      <div class="level3"><a class="xref" href="DotNetNuke.UI.WebControls.DateTimeEditControl.html">DateTimeEditControl</a></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IPostBackDataHandler</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_ItemAdded">EditControl.ItemAdded</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_ItemDeleted">EditControl.ItemDeleted</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_ValueChanged">EditControl.ValueChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_IsValid">EditControl.IsValid</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_EditControlClientId">EditControl.EditControlClientId</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_CustomAttributes">EditControl.CustomAttributes</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_EditMode">EditControl.EditMode</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_LocalResourceFile">EditControl.LocalResourceFile</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_Name">EditControl.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_Category">EditControl.Category</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_OldValue">EditControl.OldValue</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_Required">EditControl.Required</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_SystemType">EditControl.SystemType</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_Value">EditControl.Value</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_DataField">EditControl.DataField</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_User">EditControl.User</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_RaisePostDataChangedEvent">EditControl.RaisePostDataChangedEvent()</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_OnAttributesChanged">EditControl.OnAttributesChanged()</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_OnItemAdded_DotNetNuke_UI_WebControls_PropertyEditorEventArgs_">EditControl.OnItemAdded(PropertyEditorEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_OnItemDeleted_DotNetNuke_UI_WebControls_PropertyEditorEventArgs_">EditControl.OnItemDeleted(PropertyEditorEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_OnValueChanged_DotNetNuke_UI_WebControls_PropertyEditorEventArgs_">EditControl.OnValueChanged(PropertyEditorEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_Render_HtmlTextWriter_">EditControl.Render(HtmlTextWriter)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.UI.WebControls.html">DotNetNuke.UI.WebControls</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_UI_WebControls_DateEditControl_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DateEditControl : EditControl</code></pre>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_UI_WebControls_DateEditControl_DateValue.md&amp;value=---%0Auid%3A%20DotNetNuke.UI.WebControls.DateEditControl.DateValue%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/UI/WebControls/PropertyEditor/Edit Controls/DateEditControl.cs/#L35">View Source</a>
+  </span>
+  <a id="DotNetNuke_UI_WebControls_DateEditControl_DateValue_" data-uid="DotNetNuke.UI.WebControls.DateEditControl.DateValue*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_DateEditControl_DateValue" data-uid="DotNetNuke.UI.WebControls.DateEditControl.DateValue">DateValue</h4>
+  <div class="markdown level1 summary"><p>Gets dateValue returns the Date representation of the Value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected DateTime DateValue { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><p>A Date representing the Value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_UI_WebControls_DateEditControl_DefaultFormat.md&amp;value=---%0Auid%3A%20DotNetNuke.UI.WebControls.DateEditControl.DefaultFormat%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/UI/WebControls/PropertyEditor/Edit Controls/DateEditControl.cs/#L60">View Source</a>
+  </span>
+  <a id="DotNetNuke_UI_WebControls_DateEditControl_DefaultFormat_" data-uid="DotNetNuke.UI.WebControls.DateEditControl.DefaultFormat*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_DateEditControl_DefaultFormat" data-uid="DotNetNuke.UI.WebControls.DateEditControl.DefaultFormat">DefaultFormat</h4>
+  <div class="markdown level1 summary"><p>Gets defaultDateFormat is a string that will be used to format the date in the absence of a
+FormatAttribute.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string DefaultFormat { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A String representing the default format to use to render the date.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_UI_WebControls_DateEditControl_Format.md&amp;value=---%0Auid%3A%20DotNetNuke.UI.WebControls.DateEditControl.Format%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/UI/WebControls/PropertyEditor/Edit Controls/DateEditControl.cs/#L71">View Source</a>
+  </span>
+  <a id="DotNetNuke_UI_WebControls_DateEditControl_Format_" data-uid="DotNetNuke.UI.WebControls.DateEditControl.Format*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_DateEditControl_Format" data-uid="DotNetNuke.UI.WebControls.DateEditControl.Format">Format</h4>
+  <div class="markdown level1 summary"><p>Gets format is a string that will be used to format the date in View mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string Format { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A String representing the format to use to render the date.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_UI_WebControls_DateEditControl_OldDateValue.md&amp;value=---%0Auid%3A%20DotNetNuke.UI.WebControls.DateEditControl.OldDateValue%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/UI/WebControls/PropertyEditor/Edit Controls/DateEditControl.cs/#L95">View Source</a>
+  </span>
+  <a id="DotNetNuke_UI_WebControls_DateEditControl_OldDateValue_" data-uid="DotNetNuke.UI.WebControls.DateEditControl.OldDateValue*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_DateEditControl_OldDateValue" data-uid="DotNetNuke.UI.WebControls.DateEditControl.OldDateValue">OldDateValue</h4>
+  <div class="markdown level1 summary"><p>Gets oldDateValue returns the Date representation of the OldValue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected DateTime OldDateValue { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><p>A Date representing the OldValue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_UI_WebControls_DateEditControl_StringValue.md&amp;value=---%0Auid%3A%20DotNetNuke.UI.WebControls.DateEditControl.StringValue%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/UI/WebControls/PropertyEditor/Edit Controls/DateEditControl.cs/#L116">View Source</a>
+  </span>
+  <a id="DotNetNuke_UI_WebControls_DateEditControl_StringValue_" data-uid="DotNetNuke.UI.WebControls.DateEditControl.StringValue*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_DateEditControl_StringValue" data-uid="DotNetNuke.UI.WebControls.DateEditControl.StringValue">StringValue</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the Value expressed as a String.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override string StringValue { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_StringValue">EditControl.StringValue</a></div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_UI_WebControls_DateEditControl_CreateChildControls.md&amp;value=---%0Auid%3A%20DotNetNuke.UI.WebControls.DateEditControl.CreateChildControls%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/UI/WebControls/PropertyEditor/Edit Controls/DateEditControl.cs/#L152">View Source</a>
+  </span>
+  <a id="DotNetNuke_UI_WebControls_DateEditControl_CreateChildControls_" data-uid="DotNetNuke.UI.WebControls.DateEditControl.CreateChildControls*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_DateEditControl_CreateChildControls" data-uid="DotNetNuke.UI.WebControls.DateEditControl.CreateChildControls">CreateChildControls()</h4>
+  <div class="markdown level1 summary"><p>The DateEditControl control provides a standard UI component for editing
+date properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void CreateChildControls()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_UI_WebControls_DateEditControl_LoadDateControls.md&amp;value=---%0Auid%3A%20DotNetNuke.UI.WebControls.DateEditControl.LoadDateControls%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/UI/WebControls/PropertyEditor/Edit Controls/DateEditControl.cs/#L170">View Source</a>
+  </span>
+  <a id="DotNetNuke_UI_WebControls_DateEditControl_LoadDateControls_" data-uid="DotNetNuke.UI.WebControls.DateEditControl.LoadDateControls*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_DateEditControl_LoadDateControls" data-uid="DotNetNuke.UI.WebControls.DateEditControl.LoadDateControls">LoadDateControls()</h4>
+  <div class="markdown level1 summary"><p>The DateEditControl control provides a standard UI component for editing
+date properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void LoadDateControls()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_UI_WebControls_DateEditControl_LoadPostData_System_String_NameValueCollection_.md&amp;value=---%0Auid%3A%20DotNetNuke.UI.WebControls.DateEditControl.LoadPostData(System.String%2CNameValueCollection)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/UI/WebControls/PropertyEditor/Edit Controls/DateEditControl.cs/#L136">View Source</a>
+  </span>
+  <a id="DotNetNuke_UI_WebControls_DateEditControl_LoadPostData_" data-uid="DotNetNuke.UI.WebControls.DateEditControl.LoadPostData*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_DateEditControl_LoadPostData_System_String_NameValueCollection_" data-uid="DotNetNuke.UI.WebControls.DateEditControl.LoadPostData(System.String,NameValueCollection)">LoadPostData(String, NameValueCollection)</h4>
+  <div class="markdown level1 summary"><p>LoadPostData loads the Post Back Data and determines whether the value has change.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool LoadPostData(string postDataKey, NameValueCollection postCollection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">postDataKey</span></td>
+        <td><p>A key to the PostBack Data to load.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">NameValueCollection</span></td>
+        <td><span class="parametername">postCollection</span></td>
+        <td><p>A name value collection of postback data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value has changed, otherwise <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_LoadPostData_System_String_NameValueCollection_">EditControl.LoadPostData(String, NameValueCollection)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_UI_WebControls_DateEditControl_OnDataChanged_EventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.UI.WebControls.DateEditControl.OnDataChanged(EventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/UI/WebControls/PropertyEditor/Edit Controls/DateEditControl.cs/#L180">View Source</a>
+  </span>
+  <a id="DotNetNuke_UI_WebControls_DateEditControl_OnDataChanged_" data-uid="DotNetNuke.UI.WebControls.DateEditControl.OnDataChanged*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_DateEditControl_OnDataChanged_EventArgs_" data-uid="DotNetNuke.UI.WebControls.DateEditControl.OnDataChanged(EventArgs)">OnDataChanged(EventArgs)</h4>
+  <div class="markdown level1 summary"><p>OnDataChanged is called by the PostBack Handler when the Data has changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnDataChanged(EventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td><p>An EventArgs object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_OnDataChanged_EventArgs_">EditControl.OnDataChanged(EventArgs)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_UI_WebControls_DateEditControl_OnPreRender_EventArgs_.md&amp;value=---%0Auid%3A%20DotNetNuke.UI.WebControls.DateEditControl.OnPreRender(EventArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/UI/WebControls/PropertyEditor/Edit Controls/DateEditControl.cs/#L190">View Source</a>
+  </span>
+  <a id="DotNetNuke_UI_WebControls_DateEditControl_OnPreRender_" data-uid="DotNetNuke.UI.WebControls.DateEditControl.OnPreRender*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_DateEditControl_OnPreRender_EventArgs_" data-uid="DotNetNuke.UI.WebControls.DateEditControl.OnPreRender(EventArgs)">OnPreRender(EventArgs)</h4>
+  <div class="markdown level1 summary"><p>The DateEditControl control provides a standard UI component for editing
+date properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnPreRender(EventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_UI_WebControls_DateEditControl_RenderEditMode_HtmlTextWriter_.md&amp;value=---%0Auid%3A%20DotNetNuke.UI.WebControls.DateEditControl.RenderEditMode(HtmlTextWriter)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/UI/WebControls/PropertyEditor/Edit Controls/DateEditControl.cs/#L204">View Source</a>
+  </span>
+  <a id="DotNetNuke_UI_WebControls_DateEditControl_RenderEditMode_" data-uid="DotNetNuke.UI.WebControls.DateEditControl.RenderEditMode*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_DateEditControl_RenderEditMode_HtmlTextWriter_" data-uid="DotNetNuke.UI.WebControls.DateEditControl.RenderEditMode(HtmlTextWriter)">RenderEditMode(HtmlTextWriter)</h4>
+  <div class="markdown level1 summary"><p>RenderEditMode is called by the base control to render the control in Edit Mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void RenderEditMode(HtmlTextWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HtmlTextWriter</span></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_RenderEditMode_HtmlTextWriter_">EditControl.RenderEditMode(HtmlTextWriter)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_UI_WebControls_DateEditControl_RenderViewMode_HtmlTextWriter_.md&amp;value=---%0Auid%3A%20DotNetNuke.UI.WebControls.DateEditControl.RenderViewMode(HtmlTextWriter)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/UI/WebControls/PropertyEditor/Edit Controls/DateEditControl.cs/#L211">View Source</a>
+  </span>
+  <a id="DotNetNuke_UI_WebControls_DateEditControl_RenderViewMode_" data-uid="DotNetNuke.UI.WebControls.DateEditControl.RenderViewMode*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_DateEditControl_RenderViewMode_HtmlTextWriter_" data-uid="DotNetNuke.UI.WebControls.DateEditControl.RenderViewMode(HtmlTextWriter)">RenderViewMode(HtmlTextWriter)</h4>
+  <div class="markdown level1 summary"><p>RenderViewMode renders the View (readonly) mode of the control.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void RenderViewMode(HtmlTextWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HtmlTextWriter</span></td>
+        <td><span class="parametername">writer</span></td>
+        <td><p>A HtmlTextWriter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html#DotNetNuke_UI_WebControls_EditControl_RenderViewMode_HtmlTextWriter_">EditControl.RenderViewMode(HtmlTextWriter)</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IPostBackDataHandler</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/UI/WebControls/PropertyEditor/Edit Controls/DateEditControl.cs/#L26" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				container: selector,
+    				appId: 'ZPKP9SED9P',
+    				indexName: 'dnnsoftware',
+    				apiKey: '37bfc247275fb9e8fcecbda599134a30',
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('#docsearch-navbar'));  
+    </script>
+  </body>
+</html>

@@ -1,15 +1,15 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Module Injection Filter  -- DNN Docs</title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Module Injection Filter  -- DNN Docs">
-    <meta name="generator" content="docfx 2.56.6.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
@@ -23,22 +23,22 @@
     <meta property="og:image" content="../../../../images/dnn_docs_logo.png">
     <meta property="og:description" content="Module Injection Filter -- DNN Docs">
     <meta property="og:url" content="https://docs.dnncommunity.org/content/tutorials/extensions/module-injection/index.html">
-    
-    
-    
+  
+  
+  
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-    
+
       gtag('config', 'UA-137422488-1');
-    </script></head>
+    </script>  </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -48,7 +48,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../images/dnn_docs_logo.png" alt="">
               </a>
@@ -60,7 +60,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container">
             <div class="hide-when-search pull-left" id="breadcrumb">
@@ -93,7 +93,7 @@
           </div>
         </div>      </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -109,31 +109,20 @@
     
 </div>
 <div class="page-stats row visible-xs">
-    <div class="pull-left">12/8/2019 &bull; 5 minutes  to read</div>
-    <div class="pull-left">Contributors&nbsp;
-        <a href="https://github.com/david-poindexter" target="_blank">
-            <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
-        </a>
-    </div>
+    <div class="pull-left"> &bull; 5 minutes  to read</div>
 </div>
 <div class="page-stats row visible-sm visible-md visible-lg visible-xl">
-    <span class="pull-left">12/8/2019</span>
     <span class="pull-left">&nbsp;&bull; 5 minutes  to read</span>
-    <span class="pull-left">&nbsp;&bull;&nbsp;Contributors&nbsp;
-        <a href="https://github.com/david-poindexter" target="_blank">
-            <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
-        </a>
-    </span>
 </div>
 
 <p>Module Injection Filters are a mechanism in DNN that allows you to specify if a module should be displayed or hidden. When DNN is displaying a page, for every module on the page, it asks all of the Module Injection Filters whether it should add the module or not. If there is <em>any</em> module injection filter that excludes the module, then it won't be included on the page.  This is a fairly low-level extension point that can be used to enable some scenarios that are otherwise difficult to achieve.</p>
 <h2 id="when-not-to-use">When Not to Use</h2>
-<p>DNN's <a href="xref:DotNetNuke.UI.Modules.StandardModuleInjectionFilter"><code>StandardModuleInjectionFilter</code></a> takes care of hiding modules that are deleted, expired, or excluded via permissions. Much of the time, you'll want to use one of these mechanisms, rather than implementing a custom Module Injection Filter. For instance, if you are trying to dynamically show or hide content on a page based on a user's role, you should use the module's permissions setting instead.  If you just want to show/hide content <em>within</em> a custom module, it is usually more appropriate to place that logic inside the module.</p>
+<p>DNN's <a class="xref" href="../../../../api/DotNetNuke.UI.Modules.StandardModuleInjectionFilter.html"><code>StandardModuleInjectionFilter</code></a> takes care of hiding modules that are deleted, expired, or excluded via permissions. Much of the time, you'll want to use one of these mechanisms, rather than implementing a custom Module Injection Filter. For instance, if you are trying to dynamically show or hide content on a page based on a user's role, you should use the module's permissions setting instead.  If you just want to show/hide content <em>within</em> a custom module, it is usually more appropriate to place that logic inside the module.</p>
 <h2 id="when-to-use">When to Use</h2>
 <p>There are a number of scenarios that are not easily handled by any existing mechanism that DNN provides. If the criteria for hiding/showing a module cannot be tied to permissions (e.g. geolocation, cookie values, complex date/time rules, last visit date, etc.) then a custom Module Injection Filter may be a good avenue to consider. One good use case is A/B testing, the initial reason for development of the feature. Another reason to choose a custom Module Injection Filter is to apply one uniform hide/show rule to a variety of types of modules, or to modules that your team did not develop (whether built-in or third party).</p>
 <p>One method you can use when hiding arbitrary modules is to leverage the Tags module setting to indicate modules which should be hidden in a certain scenario. For example, you could <a class="xref" href="../../sites/configuring-your-site/vocabularies/add-term-to-vocabulary/index.html">create two terms</a>, <em>Hide A</em> and <em>Hide B</em> to exclude content based on an A/B testing cookie value. Then when those terms are applied as a tag to a module, you can use a custom Module Injection Filter to show or hide the content appropriately. See the linked <a href="https://github.com/dnnsoftware/Dnn.InjectionFilter.Sample">GitHub Injection Filter Samples</a> for a starting point for a tag-based filter.</p>
 <h2 id="how-to-add-a-module-injection-filter">How to Add a Module Injection Filter?</h2>
-<p>DNN simply includes any class that implements <a href="xref:DotNetNuke.UI.Modules.IModuleInjectionFilter"><code>StandardModuleInjectionFilter</code></a> in the collection of filters to ask. To implement the interface, a class only needs to implement one method, <code>CanInjectModule</code>, which takes the relevant <code>ModuleInfo</code> and <code>PortalSettings</code> objects, and returns either True or False.</p>
+<p>DNN simply includes any class that implements <a class="xref" href="../../../../api/DotNetNuke.UI.Modules.IModuleInjectionFilter.html"><code>StandardModuleInjectionFilter</code></a> in the collection of filters to ask. To implement the interface, a class only needs to implement one method, <code>CanInjectModule</code>, which takes the relevant <code>ModuleInfo</code> and <code>PortalSettings</code> objects, and returns either True or False.</p>
 <pre><code class="lang-csharp">    using DotNetNuke.Collections;
     using DotNetNuke.Entities.Modules;
     using DotNetNuke.Entities.Portals;
@@ -179,9 +168,9 @@
     &lt;/packages&gt;
 &lt;/dotnetnuke&gt;
 </code></pre>
-<div class="related-topics" hidden=""><span><a href="/content/tutorials/modules/about-modules/module-features/index.html">Common Module Features</a></span><span><a href="/content/tutorials/modules/creating-modules/developers-creating-modules-overview/index.html">Creating a Module</a></span></div><div class="links" hidden=""><span><a href="https://www.dnnsoftware.com/community-blog/cid/155402/discover-dnn-module-injection-filters">DNN Community Blog: Discover DNN Module Injection Filters</a></span><span><a href="https://github.com/dnnsoftware/Dnn.InjectionFilter.Sample">GitHub Injection Filter Samples</a></span></div></article>
+</article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
@@ -195,7 +184,7 @@
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -203,13 +192,13 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            
-            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+      
+      <span>by the community, for the community... <strong>#DNNCMS</strong></span>
           </div>
         </div>
       </footer>
     </div>
-    
+
     <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>

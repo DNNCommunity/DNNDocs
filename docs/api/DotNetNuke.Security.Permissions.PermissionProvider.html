@@ -1,0 +1,2826 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PermissionProvider
+  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PermissionProvider
+  -- DNN Docs">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://ZPKP9SED9P-dsn.algolia.net" crossorigin="">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@alpha">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+  
+  
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-137422488-1');
+    </script>  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <div class="navbar-right">
+                <div id="docsearch-navbar" class="navbar-form navbar-right"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Security.Permissions.PermissionProvider">
+
+
+  <h1 id="DotNetNuke_Security_Permissions_PermissionProvider" data-uid="DotNetNuke.Security.Permissions.PermissionProvider" class="text-break">Class PermissionProvider
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">PermissionProvider</span></div>
+      <div class="level2"><a class="xref" href="DotNetNuke.Security.Permissions.CorePermissionProvider.html">CorePermissionProvider</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Security.Permissions.html">DotNetNuke.Security.Permissions</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Security_Permissions_PermissionProvider_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PermissionProvider : object</code></pre>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_LocalResourceFile.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.LocalResourceFile%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L68">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_LocalResourceFile_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.LocalResourceFile*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_LocalResourceFile" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.LocalResourceFile">LocalResourceFile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string LocalResourceFile { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanAddContentToPage_DotNetNuke_Entities_Tabs_TabInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanAddContentToPage(DotNetNuke.Entities.Tabs.TabInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L555">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanAddContentToPage_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanAddContentToPage*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanAddContentToPage_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanAddContentToPage(DotNetNuke.Entities.Tabs.TabInfo)">CanAddContentToPage(TabInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can add content to a page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanAddContentToPage(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanAddFolder_DotNetNuke_Services_FileSystem_FolderInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanAddFolder(DotNetNuke.Services.FileSystem.FolderInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L97">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanAddFolder_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanAddFolder*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanAddFolder_DotNetNuke_Services_FileSystem_FolderInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanAddFolder(DotNetNuke.Services.FileSystem.FolderInfo)">CanAddFolder(FolderInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can add a folder or file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanAddFolder(FolderInfo folder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderInfo.html">FolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanAddPage_DotNetNuke_Entities_Tabs_TabInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanAddPage(DotNetNuke.Entities.Tabs.TabInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L563">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanAddPage_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanAddPage*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanAddPage_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanAddPage(DotNetNuke.Entities.Tabs.TabInfo)">CanAddPage(TabInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can add a child page to a page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanAddPage(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanAddTopLevel_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanAddTopLevel(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L635">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanAddTopLevel_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanAddTopLevel*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanAddTopLevel_System_Int32_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanAddTopLevel(System.Int32)">CanAddTopLevel(Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can add top level pages.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanAddTopLevel(int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td><p>The id of the portal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanAdminFolder_DotNetNuke_Services_FileSystem_FolderInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanAdminFolder(DotNetNuke.Services.FileSystem.FolderInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L120">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanAdminFolder_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanAdminFolder*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanAdminFolder_DotNetNuke_Services_FileSystem_FolderInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanAdminFolder(DotNetNuke.Services.FileSystem.FolderInfo)">CanAdminFolder(FolderInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can administer a folder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanAdminFolder(FolderInfo folder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderInfo.html">FolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanAdminModule_DotNetNuke_Entities_Modules_ModuleInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanAdminModule(DotNetNuke.Entities.Modules.ModuleInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L303">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanAdminModule_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanAdminModule*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanAdminModule_DotNetNuke_Entities_Modules_ModuleInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanAdminModule(DotNetNuke.Entities.Modules.ModuleInfo)">CanAdminModule(ModuleInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can administer a module.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanAdminModule(ModuleInfo module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.ModuleInfo.html">ModuleInfo</a></td>
+        <td><span class="parametername">module</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanAdminPage_DotNetNuke_Entities_Tabs_TabInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanAdminPage(DotNetNuke.Entities.Tabs.TabInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L571">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanAdminPage_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanAdminPage*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanAdminPage_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanAdminPage(DotNetNuke.Entities.Tabs.TabInfo)">CanAdminPage(TabInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can administer a page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanAdminPage(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanBrowseFolder_DotNetNuke_Services_FileSystem_FolderInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanBrowseFolder(DotNetNuke.Services.FileSystem.FolderInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L105">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanBrowseFolder_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanBrowseFolder*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanBrowseFolder_DotNetNuke_Services_FileSystem_FolderInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanBrowseFolder(DotNetNuke.Services.FileSystem.FolderInfo)">CanBrowseFolder(FolderInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can browse the folder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanBrowseFolder(FolderInfo folder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderInfo.html">FolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanCopyFolder_DotNetNuke_Services_FileSystem_FolderInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanCopyFolder(DotNetNuke.Services.FileSystem.FolderInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L133">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanCopyFolder_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanCopyFolder*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanCopyFolder_DotNetNuke_Services_FileSystem_FolderInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanCopyFolder(DotNetNuke.Services.FileSystem.FolderInfo)">CanCopyFolder(FolderInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can copy a folder or file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanCopyFolder(FolderInfo folder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderInfo.html">FolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanCopyPage_DotNetNuke_Entities_Tabs_TabInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanCopyPage(DotNetNuke.Entities.Tabs.TabInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L579">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanCopyPage_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanCopyPage*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanCopyPage_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanCopyPage(DotNetNuke.Entities.Tabs.TabInfo)">CanCopyPage(TabInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can copy a page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanCopyPage(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanDeleteFolder_DotNetNuke_Services_FileSystem_FolderInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanDeleteFolder(DotNetNuke.Services.FileSystem.FolderInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L141">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanDeleteFolder_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanDeleteFolder*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanDeleteFolder_DotNetNuke_Services_FileSystem_FolderInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanDeleteFolder(DotNetNuke.Services.FileSystem.FolderInfo)">CanDeleteFolder(FolderInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can delete a folder or file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanDeleteFolder(FolderInfo folder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderInfo.html">FolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanDeleteModule_DotNetNuke_Entities_Modules_ModuleInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanDeleteModule(DotNetNuke.Entities.Modules.ModuleInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L311">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanDeleteModule_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanDeleteModule*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanDeleteModule_DotNetNuke_Entities_Modules_ModuleInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanDeleteModule(DotNetNuke.Entities.Modules.ModuleInfo)">CanDeleteModule(ModuleInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can delete a module.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanDeleteModule(ModuleInfo module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.ModuleInfo.html">ModuleInfo</a></td>
+        <td><span class="parametername">module</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanDeletePage_DotNetNuke_Entities_Tabs_TabInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanDeletePage(DotNetNuke.Entities.Tabs.TabInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L587">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanDeletePage_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanDeletePage*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanDeletePage_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanDeletePage(DotNetNuke.Entities.Tabs.TabInfo)">CanDeletePage(TabInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can delete a page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanDeletePage(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanEditModuleContent_DotNetNuke_Entities_Modules_ModuleInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanEditModuleContent(DotNetNuke.Entities.Modules.ModuleInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L319">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanEditModuleContent_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanEditModuleContent*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanEditModuleContent_DotNetNuke_Entities_Modules_ModuleInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanEditModuleContent(DotNetNuke.Entities.Modules.ModuleInfo)">CanEditModuleContent(ModuleInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can edit module content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanEditModuleContent(ModuleInfo module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.ModuleInfo.html">ModuleInfo</a></td>
+        <td><span class="parametername">module</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanExportModule_DotNetNuke_Entities_Modules_ModuleInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanExportModule(DotNetNuke.Entities.Modules.ModuleInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L327">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanExportModule_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanExportModule*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanExportModule_DotNetNuke_Entities_Modules_ModuleInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanExportModule(DotNetNuke.Entities.Modules.ModuleInfo)">CanExportModule(ModuleInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can export a module.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanExportModule(ModuleInfo module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.ModuleInfo.html">ModuleInfo</a></td>
+        <td><span class="parametername">module</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanExportPage_DotNetNuke_Entities_Tabs_TabInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanExportPage(DotNetNuke.Entities.Tabs.TabInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L595">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanExportPage_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanExportPage*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanExportPage_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanExportPage(DotNetNuke.Entities.Tabs.TabInfo)">CanExportPage(TabInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can export a page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanExportPage(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanImportModule_DotNetNuke_Entities_Modules_ModuleInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanImportModule(DotNetNuke.Entities.Modules.ModuleInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L335">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanImportModule_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanImportModule*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanImportModule_DotNetNuke_Entities_Modules_ModuleInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanImportModule(DotNetNuke.Entities.Modules.ModuleInfo)">CanImportModule(ModuleInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can import a module.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanImportModule(ModuleInfo module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.ModuleInfo.html">ModuleInfo</a></td>
+        <td><span class="parametername">module</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanImportPage_DotNetNuke_Entities_Tabs_TabInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanImportPage(DotNetNuke.Entities.Tabs.TabInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L603">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanImportPage_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanImportPage*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanImportPage_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanImportPage(DotNetNuke.Entities.Tabs.TabInfo)">CanImportPage(TabInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can import a page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanImportPage(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanManageFolder_DotNetNuke_Services_FileSystem_FolderInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanManageFolder(DotNetNuke.Services.FileSystem.FolderInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L149">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanManageFolder_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanManageFolder*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanManageFolder_DotNetNuke_Services_FileSystem_FolderInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanManageFolder(DotNetNuke.Services.FileSystem.FolderInfo)">CanManageFolder(FolderInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can manage a folder's settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanManageFolder(FolderInfo folder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderInfo.html">FolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanManageModule_DotNetNuke_Entities_Modules_ModuleInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanManageModule(DotNetNuke.Entities.Modules.ModuleInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L343">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanManageModule_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanManageModule*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanManageModule_DotNetNuke_Entities_Modules_ModuleInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanManageModule(DotNetNuke.Entities.Modules.ModuleInfo)">CanManageModule(ModuleInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can manage a module's settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanManageModule(ModuleInfo module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.ModuleInfo.html">ModuleInfo</a></td>
+        <td><span class="parametername">module</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanManagePage_DotNetNuke_Entities_Tabs_TabInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanManagePage(DotNetNuke.Entities.Tabs.TabInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L611">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanManagePage_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanManagePage*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanManagePage_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanManagePage(DotNetNuke.Entities.Tabs.TabInfo)">CanManagePage(TabInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can manage a page's settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanManagePage(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanNavigateToPage_DotNetNuke_Entities_Tabs_TabInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanNavigateToPage(DotNetNuke.Entities.Tabs.TabInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L619">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanNavigateToPage_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanNavigateToPage*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanNavigateToPage_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanNavigateToPage(DotNetNuke.Entities.Tabs.TabInfo)">CanNavigateToPage(TabInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can see a page in a navigation object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanNavigateToPage(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanViewFolder_DotNetNuke_Services_FileSystem_FolderInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanViewFolder(DotNetNuke.Services.FileSystem.FolderInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L157">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanViewFolder_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanViewFolder*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanViewFolder_DotNetNuke_Services_FileSystem_FolderInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanViewFolder(DotNetNuke.Services.FileSystem.FolderInfo)">CanViewFolder(FolderInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can view a folder or file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanViewFolder(FolderInfo folder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderInfo.html">FolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanViewModule_DotNetNuke_Entities_Modules_ModuleInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanViewModule(DotNetNuke.Entities.Modules.ModuleInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L351">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanViewModule_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanViewModule*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanViewModule_DotNetNuke_Entities_Modules_ModuleInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanViewModule(DotNetNuke.Entities.Modules.ModuleInfo)">CanViewModule(ModuleInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can view a module.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanViewModule(ModuleInfo module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.ModuleInfo.html">ModuleInfo</a></td>
+        <td><span class="parametername">module</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_CanViewPage_DotNetNuke_Entities_Tabs_TabInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.CanViewPage(DotNetNuke.Entities.Tabs.TabInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L627">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_CanViewPage_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanViewPage*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_CanViewPage_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.CanViewPage(DotNetNuke.Entities.Tabs.TabInfo)">CanViewPage(TabInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user can view a page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanViewPage(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td><p>The page.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_DeleteFolderPermissionsByUser_DotNetNuke_Entities_Users_UserInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.DeleteFolderPermissionsByUser(DotNetNuke.Entities.Users.UserInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L162">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_DeleteFolderPermissionsByUser_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.DeleteFolderPermissionsByUser*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_DeleteFolderPermissionsByUser_DotNetNuke_Entities_Users_UserInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.DeleteFolderPermissionsByUser(DotNetNuke.Entities.Users.UserInfo)">DeleteFolderPermissionsByUser(UserInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void DeleteFolderPermissionsByUser(UserInfo objUser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">objUser</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_DeleteModulePermissionsByUser_DotNetNuke_Entities_Users_UserInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.DeleteModulePermissionsByUser(DotNetNuke.Entities.Users.UserInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L369">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_DeleteModulePermissionsByUser_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.DeleteModulePermissionsByUser*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_DeleteModulePermissionsByUser_DotNetNuke_Entities_Users_UserInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.DeleteModulePermissionsByUser(DotNetNuke.Entities.Users.UserInfo)">DeleteModulePermissionsByUser(UserInfo)</h4>
+  <div class="markdown level1 summary"><p>DeleteModulePermissionsByUser deletes a user's Module Permission in the Database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void DeleteModulePermissionsByUser(UserInfo user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The user.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_DeletePortalPermissionsByUser_DotNetNuke_Entities_Users_UserInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.DeletePortalPermissionsByUser(DotNetNuke.Entities.Users.UserInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L791">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_DeletePortalPermissionsByUser_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.DeletePortalPermissionsByUser*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_DeletePortalPermissionsByUser_DotNetNuke_Entities_Users_UserInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.DeletePortalPermissionsByUser(DotNetNuke.Entities.Users.UserInfo)">DeletePortalPermissionsByUser(UserInfo)</h4>
+  <div class="markdown level1 summary"><p>DeletePortalPermissionsByUser deletes a user's Portal Permissions in the Database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void DeletePortalPermissionsByUser(UserInfo user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The user.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_DeleteTabPermissionsByUser_DotNetNuke_Entities_Users_UserInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.DeleteTabPermissionsByUser(DotNetNuke.Entities.Users.UserInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L662">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_DeleteTabPermissionsByUser_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.DeleteTabPermissionsByUser*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_DeleteTabPermissionsByUser_DotNetNuke_Entities_Users_UserInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.DeleteTabPermissionsByUser(DotNetNuke.Entities.Users.UserInfo)">DeleteTabPermissionsByUser(UserInfo)</h4>
+  <div class="markdown level1 summary"><p>DeleteTabPermissionsByUser deletes a user's Tab Permissions in the Database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void DeleteTabPermissionsByUser(UserInfo user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The user.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_GetDesktopModulePermission_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.GetDesktopModulePermission(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L755">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_GetDesktopModulePermission_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.GetDesktopModulePermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_GetDesktopModulePermission_System_Int32_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.GetDesktopModulePermission(System.Int32)">GetDesktopModulePermission(Int32)</h4>
+  <div class="markdown level1 summary"><p>GetDesktopModulePermission gets a DesktopModule Permission from the Database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DesktopModulePermissionInfo GetDesktopModulePermission(int desktopModulePermissionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">desktopModulePermissionId</span></td>
+        <td><p>The ID of the DesktopModule Permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.DesktopModulePermissionInfo.html">DesktopModulePermissionInfo</a></td>
+        <td><p>A <a class="xref" href="DotNetNuke.Security.Permissions.DesktopModulePermissionInfo.html">DesktopModulePermissionInfo</a> or <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_GetDesktopModulePermissions_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.GetDesktopModulePermissions(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L763">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_GetDesktopModulePermissions_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.GetDesktopModulePermissions*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_GetDesktopModulePermissions_System_Int32_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.GetDesktopModulePermissions(System.Int32)">GetDesktopModulePermissions(Int32)</h4>
+  <div class="markdown level1 summary"><p>GetDesktopModulePermissions gets a DesktopModulePermissionCollection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DesktopModulePermissionCollection GetDesktopModulePermissions(int portalDesktopModuleId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalDesktopModuleId</span></td>
+        <td><p>The ID of the DesktopModule.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.DesktopModulePermissionCollection.html">DesktopModulePermissionCollection</a></td>
+        <td><p>A <a class="xref" href="DotNetNuke.Security.Permissions.DesktopModulePermissionCollection.html">DesktopModulePermissionCollection</a> with the desktop module permissions, or an empty <a class="xref" href="DotNetNuke.Security.Permissions.DesktopModulePermissionCollection.html">DesktopModulePermissionCollection</a> if the desktop module wasn't found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_GetFolderPermissionsCollectionByFolder_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.GetFolderPermissionsCollectionByFolder(System.Int32%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L167">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_GetFolderPermissionsCollectionByFolder_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.GetFolderPermissionsCollectionByFolder*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_GetFolderPermissionsCollectionByFolder_System_Int32_System_String_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.GetFolderPermissionsCollectionByFolder(System.Int32,System.String)">GetFolderPermissionsCollectionByFolder(Int32, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual FolderPermissionCollection GetFolderPermissionsCollectionByFolder(int portalID, string folder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">folder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.FolderPermissionCollection.html">FolderPermissionCollection</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_GetModulePermissions_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.GetModulePermissions(System.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L379">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_GetModulePermissions_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.GetModulePermissions*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_GetModulePermissions_System_Int32_System_Int32_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.GetModulePermissions(System.Int32,System.Int32)">GetModulePermissions(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>GetModulePermissions gets a ModulePermissionCollection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual ModulePermissionCollection GetModulePermissions(int moduleID, int tabID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">moduleID</span></td>
+        <td><p>The ID of the module.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabID</span></td>
+        <td><p>The ID of the tab.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.ModulePermissionCollection.html">ModulePermissionCollection</a></td>
+        <td><p>A <a class="xref" href="DotNetNuke.Security.Permissions.ModulePermissionCollection.html">ModulePermissionCollection</a> with the module permissions, or an empty <a class="xref" href="DotNetNuke.Security.Permissions.ModulePermissionCollection.html">ModulePermissionCollection</a> if the module wasn't found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_GetPortalPermissions_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.GetPortalPermissions(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L800">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_GetPortalPermissions_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.GetPortalPermissions*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_GetPortalPermissions_System_Int32_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.GetPortalPermissions(System.Int32)">GetPortalPermissions(Int32)</h4>
+  <div class="markdown level1 summary"><p>GetPortalPermissions gets a PortalPermissionCollection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual PortalPermissionCollection GetPortalPermissions(int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td><p>The ID of the portal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.PortalPermissionCollection.html">PortalPermissionCollection</a></td>
+        <td><p>A <a class="xref" href="DotNetNuke.Security.Permissions.PortalPermissionCollection.html">PortalPermissionCollection</a> with the portal permissions, or an empty <a class="xref" href="DotNetNuke.Security.Permissions.PortalPermissionCollection.html">PortalPermissionCollection</a> if the portal wasn't found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_GetTabPermissions_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.GetTabPermissions(System.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L672">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_GetTabPermissions_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.GetTabPermissions*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_GetTabPermissions_System_Int32_System_Int32_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.GetTabPermissions(System.Int32,System.Int32)">GetTabPermissions(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>GetTabPermissions gets a TabPermissionCollection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TabPermissionCollection GetTabPermissions(int tabId, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabId</span></td>
+        <td><p>The ID of the tab.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td><p>The ID of the portal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.TabPermissionCollection.html">TabPermissionCollection</a></td>
+        <td><p>A <a class="xref" href="DotNetNuke.Security.Permissions.TabPermissionCollection.html">TabPermissionCollection</a> instance with the tab's permissions, or an empty <a class="xref" href="DotNetNuke.Security.Permissions.TabPermissionCollection.html">TabPermissionCollection</a> if it can't be found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_HasDesktopModulePermission_DotNetNuke_Security_Permissions_DesktopModulePermissionCollection_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.HasDesktopModulePermission(DotNetNuke.Security.Permissions.DesktopModulePermissionCollection%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L784">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_HasDesktopModulePermission_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.HasDesktopModulePermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_HasDesktopModulePermission_DotNetNuke_Security_Permissions_DesktopModulePermissionCollection_System_String_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.HasDesktopModulePermission(DotNetNuke.Security.Permissions.DesktopModulePermissionCollection,System.String)">HasDesktopModulePermission(DesktopModulePermissionCollection, String)</h4>
+  <div class="markdown level1 summary"><p>HasDesktopModulePermission checks whether the current user has a specific DesktopModule Permission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool HasDesktopModulePermission(DesktopModulePermissionCollection desktopModulePermissions, string permissionKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.DesktopModulePermissionCollection.html">DesktopModulePermissionCollection</a></td>
+        <td><span class="parametername">desktopModulePermissions</span></td>
+        <td><p>The Permissions for the DesktopModule.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">permissionKey</span></td>
+        <td><p>The Permission to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the current user has the requested permission, otherwise <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_HasFolderPermission_DotNetNuke_Security_Permissions_FolderPermissionCollection_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.HasFolderPermission(DotNetNuke.Security.Permissions.FolderPermissionCollection%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L218">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_HasFolderPermission_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.HasFolderPermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_HasFolderPermission_DotNetNuke_Security_Permissions_FolderPermissionCollection_System_String_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.HasFolderPermission(DotNetNuke.Security.Permissions.FolderPermissionCollection,System.String)">HasFolderPermission(FolderPermissionCollection, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool HasFolderPermission(FolderPermissionCollection objFolderPermissions, string permissionKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.FolderPermissionCollection.html">FolderPermissionCollection</a></td>
+        <td><span class="parametername">objFolderPermissions</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">permissionKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_HasModuleAccess_DotNetNuke_Security_SecurityAccessLevel_System_String_DotNetNuke_Entities_Modules_ModuleInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.HasModuleAccess(DotNetNuke.Security.SecurityAccessLevel%2CSystem.String%2CDotNetNuke.Entities.Modules.ModuleInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L405">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_HasModuleAccess_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.HasModuleAccess*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_HasModuleAccess_DotNetNuke_Security_SecurityAccessLevel_System_String_DotNetNuke_Entities_Modules_ModuleInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.HasModuleAccess(DotNetNuke.Security.SecurityAccessLevel,System.String,DotNetNuke.Entities.Modules.ModuleInfo)">HasModuleAccess(SecurityAccessLevel, String, ModuleInfo)</h4>
+  <div class="markdown level1 summary"><p>Determines if user has the necessary permissions to access an item with the designated AccessLevel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool HasModuleAccess(SecurityAccessLevel accessLevel, string permissionKey, ModuleInfo moduleConfiguration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.SecurityAccessLevel.html">SecurityAccessLevel</a></td>
+        <td><span class="parametername">accessLevel</span></td>
+        <td><p>The SecurityAccessLevel required to access a portal module or module action.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">permissionKey</span></td>
+        <td><p>If Security Access is Edit the permissionKey is the actual &quot;edit&quot; permission required.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.ModuleInfo.html">ModuleInfo</a></td>
+        <td><span class="parametername">moduleConfiguration</span></td>
+        <td><p>The ModuleInfo object for the associated module.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A boolean value indicating if the user has the necessary permissions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Security_Permissions_PermissionProvider_HasModuleAccess_DotNetNuke_Security_SecurityAccessLevel_System_String_DotNetNuke_Entities_Modules_ModuleInfo__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Every module control and module action has an associated permission level.  This
+function determines whether the user represented by UserName has sufficient permissions, as
+determined by the PortalSettings and ModuleSettings, to access a resource with the
+designated AccessLevel.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_HasModulePermission_DotNetNuke_Entities_Modules_ModuleInfo_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.HasModulePermission(DotNetNuke.Entities.Modules.ModuleInfo%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L893">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_HasModulePermission_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.HasModulePermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_HasModulePermission_DotNetNuke_Entities_Modules_ModuleInfo_System_String_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.HasModulePermission(DotNetNuke.Entities.Modules.ModuleInfo,System.String)">HasModulePermission(ModuleInfo, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool HasModulePermission(ModuleInfo moduleConfiguration, string permissionKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.ModuleInfo.html">ModuleInfo</a></td>
+        <td><span class="parametername">moduleConfiguration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">permissionKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_HasModulePermission_DotNetNuke_Security_Permissions_ModulePermissionCollection_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.HasModulePermission(DotNetNuke.Security.Permissions.ModulePermissionCollection%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L481">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_HasModulePermission_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.HasModulePermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_HasModulePermission_DotNetNuke_Security_Permissions_ModulePermissionCollection_System_String_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.HasModulePermission(DotNetNuke.Security.Permissions.ModulePermissionCollection,System.String)">HasModulePermission(ModulePermissionCollection, String)</h4>
+  <div class="markdown level1 summary"><p>HasModulePermission checks whether the current user has a specific Module Permission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool HasModulePermission(ModulePermissionCollection modulePermissions, string permissionKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.ModulePermissionCollection.html">ModulePermissionCollection</a></td>
+        <td><span class="parametername">modulePermissions</span></td>
+        <td><p>The Permissions for the Module.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">permissionKey</span></td>
+        <td><p>The Permission to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the current user has the requested permission, otherwise <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_HasPortalPermission_DotNetNuke_Security_Permissions_PortalPermissionCollection_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.HasPortalPermission(DotNetNuke.Security.Permissions.PortalPermissionCollection%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L820">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_HasPortalPermission_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.HasPortalPermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_HasPortalPermission_DotNetNuke_Security_Permissions_PortalPermissionCollection_System_String_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.HasPortalPermission(DotNetNuke.Security.Permissions.PortalPermissionCollection,System.String)">HasPortalPermission(PortalPermissionCollection, String)</h4>
+  <div class="markdown level1 summary"><p>HasPortalPermission checks whether the current user has a specific Portal Permission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool HasPortalPermission(PortalPermissionCollection portalPermissions, string permissionKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.PortalPermissionCollection.html">PortalPermissionCollection</a></td>
+        <td><span class="parametername">portalPermissions</span></td>
+        <td><p>The Permissions for the Portal.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">permissionKey</span></td>
+        <td><p>The Permission to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the current user has the requested permission, otherwise <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_HasTabPermission_DotNetNuke_Security_Permissions_TabPermissionCollection_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.HasTabPermission(DotNetNuke.Security.Permissions.TabPermissionCollection%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L693">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_HasTabPermission_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.HasTabPermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_HasTabPermission_DotNetNuke_Security_Permissions_TabPermissionCollection_System_String_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.HasTabPermission(DotNetNuke.Security.Permissions.TabPermissionCollection,System.String)">HasTabPermission(TabPermissionCollection, String)</h4>
+  <div class="markdown level1 summary"><p>HasTabPermission checks whether the current user has a specific Tab Permission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool HasTabPermission(TabPermissionCollection tabPermissions, string permissionKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.TabPermissionCollection.html">TabPermissionCollection</a></td>
+        <td><span class="parametername">tabPermissions</span></td>
+        <td><p>The Permissions for the Tab.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">permissionKey</span></td>
+        <td><p>The Permission to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the current user has the requested permission, otherwise <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_ImplicitRolesForFolders_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.ImplicitRolesForFolders(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L547">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_ImplicitRolesForFolders_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.ImplicitRolesForFolders*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_ImplicitRolesForFolders_System_Int32_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.ImplicitRolesForFolders(System.Int32)">ImplicitRolesForFolders(Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns a list with all roles with implicit permissions on Folders.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IEnumerable&lt;RoleInfo&gt; ImplicitRolesForFolders(int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td><p>The Portal Id where the permissions are.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.Security.Roles.RoleInfo.html">RoleInfo</a>&gt;</td>
+        <td><p>A List with the implicit roles.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_ImplicitRolesForPages_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.ImplicitRolesForPages(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L539">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_ImplicitRolesForPages_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.ImplicitRolesForPages*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_ImplicitRolesForPages_System_Int32_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.ImplicitRolesForPages(System.Int32)">ImplicitRolesForPages(Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns a list with all roles with implicit permissions on Tabs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IEnumerable&lt;RoleInfo&gt; ImplicitRolesForPages(int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td><p>The Portal Id where the Roles are.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.Security.Roles.RoleInfo.html">RoleInfo</a>&gt;</td>
+        <td><p>A List with the implicit roles.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_Instance.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.Instance%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L76">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_Instance_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.Instance*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_Instance" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.Instance">Instance()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PermissionProvider Instance()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html">PermissionProvider</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_IsDeniedModulePermission_DotNetNuke_Entities_Modules_ModuleInfo_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.IsDeniedModulePermission(DotNetNuke.Entities.Modules.ModuleInfo%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L900">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_IsDeniedModulePermission_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.IsDeniedModulePermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_IsDeniedModulePermission_DotNetNuke_Entities_Modules_ModuleInfo_System_String_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.IsDeniedModulePermission(DotNetNuke.Entities.Modules.ModuleInfo,System.String)">IsDeniedModulePermission(ModuleInfo, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool IsDeniedModulePermission(ModuleInfo moduleConfiguration, string permissionKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.ModuleInfo.html">ModuleInfo</a></td>
+        <td><span class="parametername">moduleConfiguration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">permissionKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_IsDeniedTabPermission_DotNetNuke_Entities_Tabs_TabInfo_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.IsDeniedTabPermission(DotNetNuke.Entities.Tabs.TabInfo%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L907">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_IsDeniedTabPermission_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.IsDeniedTabPermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_IsDeniedTabPermission_DotNetNuke_Entities_Tabs_TabInfo_System_String_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.IsDeniedTabPermission(DotNetNuke.Entities.Tabs.TabInfo,System.String)">IsDeniedTabPermission(TabInfo, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool IsDeniedTabPermission(TabInfo tab, string permissionKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">permissionKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_IsPageAdmin_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.IsPageAdmin(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L649">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_IsPageAdmin_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.IsPageAdmin*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_IsPageAdmin_System_Int32_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.IsPageAdmin(System.Int32)">IsPageAdmin(Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns a flag indicating whether the current user is a page admin.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool IsPageAdmin(int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td><p>The id of the portal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A flag indicating whether the user has permission.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_IsPortalEditor.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.IsPortalEditor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L88">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_IsPortalEditor_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.IsPortalEditor*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_IsPortalEditor" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.IsPortalEditor">IsPortalEditor()</h4>
+  <div class="markdown level1 summary"><p>The portal editor can edit whole site's content, it should be only administrators by default.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool IsPortalEditor()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the current user is in the administrator role for the current portal, otherwise <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_SaveFolderPermissions_DotNetNuke_Services_FileSystem_FolderInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.SaveFolderPermissions(DotNetNuke.Services.FileSystem.FolderInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L225">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_SaveFolderPermissions_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.SaveFolderPermissions*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_SaveFolderPermissions_DotNetNuke_Services_FileSystem_FolderInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.SaveFolderPermissions(DotNetNuke.Services.FileSystem.FolderInfo)">SaveFolderPermissions(FolderInfo)</h4>
+  <div class="markdown level1 summary"><p>SaveFolderPermissions updates a Folder's permissions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SaveFolderPermissions(FolderInfo folder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderInfo.html">FolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td><p>The Folder to update.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_SaveFolderPermissions_DotNetNuke_Services_FileSystem_IFolderInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.SaveFolderPermissions(DotNetNuke.Services.FileSystem.IFolderInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L232">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_SaveFolderPermissions_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.SaveFolderPermissions*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_SaveFolderPermissions_DotNetNuke_Services_FileSystem_IFolderInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.SaveFolderPermissions(DotNetNuke.Services.FileSystem.IFolderInfo)">SaveFolderPermissions(IFolderInfo)</h4>
+  <div class="markdown level1 summary"><p>SaveFolderPermissions updates a Folder's permissions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SaveFolderPermissions(IFolderInfo folder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFolderInfo.html">IFolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td><p>The Folder to update.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_SaveModulePermissions_DotNetNuke_Entities_Modules_ModuleInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.SaveModulePermissions(DotNetNuke.Entities.Modules.ModuleInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L505">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_SaveModulePermissions_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.SaveModulePermissions*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_SaveModulePermissions_DotNetNuke_Entities_Modules_ModuleInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.SaveModulePermissions(DotNetNuke.Entities.Modules.ModuleInfo)">SaveModulePermissions(ModuleInfo)</h4>
+  <div class="markdown level1 summary"><p>SaveModulePermissions updates a Module's permissions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SaveModulePermissions(ModuleInfo module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.ModuleInfo.html">ModuleInfo</a></td>
+        <td><span class="parametername">module</span></td>
+        <td><p>The Module to update.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_SavePortalPermissions_DotNetNuke_Entities_Portals_PortalInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.SavePortalPermissions(DotNetNuke.Entities.Portals.PortalInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L840">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_SavePortalPermissions_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.SavePortalPermissions*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_SavePortalPermissions_DotNetNuke_Entities_Portals_PortalInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.SavePortalPermissions(DotNetNuke.Entities.Portals.PortalInfo)">SavePortalPermissions(PortalInfo)</h4>
+  <div class="markdown level1 summary"><p>SavePortalPermissions saves a Portal's permissions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SavePortalPermissions(PortalInfo portal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalInfo.html">PortalInfo</a></td>
+        <td><span class="parametername">portal</span></td>
+        <td><p>The Portal to update.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_SaveTabPermissions_DotNetNuke_Entities_Tabs_TabInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.SaveTabPermissions(DotNetNuke.Entities.Tabs.TabInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L720">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_SaveTabPermissions_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.SaveTabPermissions*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_SaveTabPermissions_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.SaveTabPermissions(DotNetNuke.Entities.Tabs.TabInfo)">SaveTabPermissions(TabInfo)</h4>
+  <div class="markdown level1 summary"><p>SaveTabPermissions saves a Tab's permissions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SaveTabPermissions(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td><p>The Tab to update.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionProvider_SupportsFullControl.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionProvider.SupportsFullControl%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L81">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_PermissionProvider_SupportsFullControl_" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.SupportsFullControl*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionProvider_SupportsFullControl" data-uid="DotNetNuke.Security.Permissions.PermissionProvider.SupportsFullControl">SupportsFullControl()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool SupportsFullControl()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionProvider.cs/#L27" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				container: selector,
+    				appId: 'ZPKP9SED9P',
+    				indexName: 'dnnsoftware',
+    				apiKey: '37bfc247275fb9e8fcecbda599134a30',
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('#docsearch-navbar'));  
+    </script>
+  </body>
+</html>

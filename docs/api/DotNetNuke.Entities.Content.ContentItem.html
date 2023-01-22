@@ -1,0 +1,1112 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ContentItem
+  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ContentItem
+  -- DNN Docs">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://ZPKP9SED9P-dsn.algolia.net" crossorigin="">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@alpha">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+  
+  
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-137422488-1');
+    </script>  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <div class="navbar-right">
+                <div id="docsearch-navbar" class="navbar-form navbar-right"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_ContentItem.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.ContentItem%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Entities.Content.ContentItem">
+
+
+  <h1 id="DotNetNuke_Entities_Content_ContentItem" data-uid="DotNetNuke.Entities.Content.ContentItem" class="text-break">Class ContentItem
+</h1>
+  <div class="markdown level0 summary"><p>The ContentItem class which itself inherits from BaseEntityInfo paves the way for easily adding support for taxonomy,
+tagging and other ContentItem dependant features to your DotNetNuke extensions.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html">BaseEntityInfo</a></div>
+    <div class="level2"><span class="xref">ContentItem</span></div>
+      <div class="level3"><a class="xref" href="DotNetNuke.Entities.Modules.DesktopModuleInfo.html">DesktopModuleInfo</a></div>
+      <div class="level3"><a class="xref" href="DotNetNuke.Entities.Modules.ModuleInfo.html">ModuleInfo</a></div>
+      <div class="level3"><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="DotNetNuke.Entities.Modules.IHydratable.html">IHydratable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_CreatedByUserID">BaseEntityInfo.CreatedByUserID</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_CreatedOnDate">BaseEntityInfo.CreatedOnDate</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_LastModifiedByUserID">BaseEntityInfo.LastModifiedByUserID</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_LastModifiedOnDate">BaseEntityInfo.LastModifiedOnDate</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_CreatedByUser_System_Int32_">BaseEntityInfo.CreatedByUser(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_LastModifiedByUser_System_Int32_">BaseEntityInfo.LastModifiedByUser(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_CloneBaseProperties_DotNetNuke_Entities_BaseEntityInfo_DotNetNuke_Entities_BaseEntityInfo_">BaseEntityInfo.CloneBaseProperties(BaseEntityInfo, BaseEntityInfo)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Entities.Content.html">DotNetNuke.Entities.Content</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ContentItem : BaseEntityInfo, IHydratable</code></pre>
+  </div>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>
+Content Items are a collection of individual pieces of content in a DotNetNuke site. Each content item is associated with a single Content Type.
+</p>
+<p>
+Only modules that implement content items (done so by the module developers) can take advantage of some of its benefits, such as Taxonomy.
+</p>
+<p>
+Because ContentItem already implements IHydratable, you will not do so in your custom entity class. Instead,
+you will need to create overrides of the KeyID property and the Fill method already implemented in the ContentItem class.
+Don&apos;t forget to call ContentItem&apos;s FillInternal method in your Fill method override.
+</p>
+</div>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_examples"><strong>Examples</strong></h5>
+  <pre><code>[Serializable]
+public class DesktopModuleInfo : ContentItem, IXmlSerializable
+{
+        #region IHydratable Members
+
+        public override void Fill(IDataReader dr)
+        {
+            DesktopModuleID = Null.SetNullInteger(dr[&quot;DesktopModuleID&quot;]);
+            PackageID = Null.SetNullInteger(dr[&quot;PackageID&quot;]);
+            ModuleName = Null.SetNullString(dr[&quot;ModuleName&quot;]);
+            FriendlyName = Null.SetNullString(dr[&quot;FriendlyName&quot;]);
+            Description = Null.SetNullString(dr[&quot;Description&quot;]);
+            FolderName = Null.SetNullString(dr[&quot;FolderName&quot;]);
+            Version = Null.SetNullString(dr[&quot;Version&quot;]);
+            base.FillInternal(dr);
+        }
+
+        #endregion
+}</code></pre>
+
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_ContentItem__ctor.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.ContentItem.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/ContentItem.cs/#L73">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_ContentItem__ctor_" data-uid="DotNetNuke.Entities.Content.ContentItem.#ctor*"></a>
+  <h4 id="DotNetNuke_Entities_Content_ContentItem__ctor" data-uid="DotNetNuke.Entities.Content.ContentItem.#ctor">ContentItem()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.Entities.Content.ContentItem.html">ContentItem</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ContentItem()</code></pre>
+  </div>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem__ctor_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Content Items are a collection of individual pieces of content in a DotNetNuke site. Each content item is associated with a single Content Type.
+</p>
+<p>
+Only modules that implement content items (done so by the module developers) can take advantage of some of its benefits, such as Taxonomy.
+</p>
+<p>
+Because ContentItem already implements IHydratable, you will not do so in your custom entity class. Instead,
+you will need to create overrides of the KeyID property and the Fill method already implemented in the ContentItem class.
+Don&apos;t forget to call ContentItem&apos;s FillInternal method in your Fill method override.
+</p>
+</div>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_ContentItem_Content.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.ContentItem.Content%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/ContentItem.cs/#L148">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_ContentItem_Content_" data-uid="DotNetNuke.Entities.Content.ContentItem.Content*"></a>
+  <h4 id="DotNetNuke_Entities_Content_ContentItem_Content" data-uid="DotNetNuke.Entities.Content.ContentItem.Content">Content</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Content { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The content.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_Content_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Content Items are a collection of individual pieces of content in a DotNetNuke site. Each content item is associated with a single Content Type.
+</p>
+<p>
+Only modules that implement content items (done so by the module developers) can take advantage of some of its benefits, such as Taxonomy.
+</p>
+<p>
+Because ContentItem already implements IHydratable, you will not do so in your custom entity class. Instead,
+you will need to create overrides of the KeyID property and the Fill method already implemented in the ContentItem class.
+Don&apos;t forget to call ContentItem&apos;s FillInternal method in your Fill method override.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_ContentItem_ContentItemId.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.ContentItem.ContentItemId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/ContentItem.cs/#L139">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_ContentItem_ContentItemId_" data-uid="DotNetNuke.Entities.Content.ContentItem.ContentItemId*"></a>
+  <h4 id="DotNetNuke_Entities_Content_ContentItem_ContentItemId" data-uid="DotNetNuke.Entities.Content.ContentItem.ContentItemId">ContentItemId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the content item id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ContentItemId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The content item id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_ContentItemId_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Content Items are a collection of individual pieces of content in a DotNetNuke site. Each content item is associated with a single Content Type.
+</p>
+<p>
+Only modules that implement content items (done so by the module developers) can take advantage of some of its benefits, such as Taxonomy.
+</p>
+<p>
+Because ContentItem already implements IHydratable, you will not do so in your custom entity class. Instead,
+you will need to create overrides of the KeyID property and the Fill method already implemented in the ContentItem class.
+Don&apos;t forget to call ContentItem&apos;s FillInternal method in your Fill method override.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_ContentItem_ContentKey.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.ContentItem.ContentKey%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/ContentItem.cs/#L155">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_ContentItem_ContentKey_" data-uid="DotNetNuke.Entities.Content.ContentItem.ContentKey*"></a>
+  <h4 id="DotNetNuke_Entities_Content_ContentItem_ContentKey" data-uid="DotNetNuke.Entities.Content.ContentItem.ContentKey">ContentKey</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the content key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ContentKey { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The content key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_ContentKey_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Content Items are a collection of individual pieces of content in a DotNetNuke site. Each content item is associated with a single Content Type.
+</p>
+<p>
+Only modules that implement content items (done so by the module developers) can take advantage of some of its benefits, such as Taxonomy.
+</p>
+<p>
+Because ContentItem already implements IHydratable, you will not do so in your custom entity class. Instead,
+you will need to create overrides of the KeyID property and the Fill method already implemented in the ContentItem class.
+Don&apos;t forget to call ContentItem&apos;s FillInternal method in your Fill method override.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_ContentItem_ContentTitle.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.ContentItem.ContentTitle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/ContentItem.cs/#L192">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_ContentItem_ContentTitle_" data-uid="DotNetNuke.Entities.Content.ContentItem.ContentTitle*"></a>
+  <h4 id="DotNetNuke_Entities_Content_ContentItem_ContentTitle" data-uid="DotNetNuke.Entities.Content.ContentItem.ContentTitle">ContentTitle</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the title of the ContentItem.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ContentTitle { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_ContentTitle_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Content Items are a collection of individual pieces of content in a DotNetNuke site. Each content item is associated with a single Content Type.
+</p>
+<p>
+Only modules that implement content items (done so by the module developers) can take advantage of some of its benefits, such as Taxonomy.
+</p>
+<p>
+Because ContentItem already implements IHydratable, you will not do so in your custom entity class. Instead,
+you will need to create overrides of the KeyID property and the Fill method already implemented in the ContentItem class.
+Don&apos;t forget to call ContentItem&apos;s FillInternal method in your Fill method override.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_ContentItem_ContentTypeId.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.ContentItem.ContentTypeId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/ContentItem.cs/#L163">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_ContentItem_ContentTypeId_" data-uid="DotNetNuke.Entities.Content.ContentItem.ContentTypeId*"></a>
+  <h4 id="DotNetNuke_Entities_Content_ContentItem_ContentTypeId" data-uid="DotNetNuke.Entities.Content.ContentItem.ContentTypeId">ContentTypeId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the content type id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ContentTypeId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The content type id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_ContentTypeId_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Content Items are a collection of individual pieces of content in a DotNetNuke site. Each content item is associated with a single Content Type.
+</p>
+<p>
+Only modules that implement content items (done so by the module developers) can take advantage of some of its benefits, such as Taxonomy.
+</p>
+<p>
+Because ContentItem already implements IHydratable, you will not do so in your custom entity class. Instead,
+you will need to create overrides of the KeyID property and the Fill method already implemented in the ContentItem class.
+Don&apos;t forget to call ContentItem&apos;s FillInternal method in your Fill method override.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_ContentItem_Files.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.ContentItem.Files%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/ContentItem.cs/#L109">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_ContentItem_Files_" data-uid="DotNetNuke.Entities.Content.ContentItem.Files*"></a>
+  <h4 id="DotNetNuke_Entities_Content_ContentItem_Files" data-uid="DotNetNuke.Entities.Content.ContentItem.Files">Files</h4>
+  <div class="markdown level1 summary"><p>Gets files that are attached to this ContentItem.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;IFileInfo&gt; Files { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_Files_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Content Items are a collection of individual pieces of content in a DotNetNuke site. Each content item is associated with a single Content Type.
+</p>
+<p>
+Only modules that implement content items (done so by the module developers) can take advantage of some of its benefits, such as Taxonomy.
+</p>
+<p>
+Because ContentItem already implements IHydratable, you will not do so in your custom entity class. Instead,
+you will need to create overrides of the KeyID property and the Fill method already implemented in the ContentItem class.
+Don&apos;t forget to call ContentItem&apos;s FillInternal method in your Fill method override.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_ContentItem_Images.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.ContentItem.Images%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/ContentItem.cs/#L127">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_ContentItem_Images_" data-uid="DotNetNuke.Entities.Content.ContentItem.Images*"></a>
+  <h4 id="DotNetNuke_Entities_Content_ContentItem_Images" data-uid="DotNetNuke.Entities.Content.ContentItem.Images">Images</h4>
+  <div class="markdown level1 summary"><p>Gets images associated with this ContentItem.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;IFileInfo&gt; Images { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_Images_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Content Items are a collection of individual pieces of content in a DotNetNuke site. Each content item is associated with a single Content Type.
+</p>
+<p>
+Only modules that implement content items (done so by the module developers) can take advantage of some of its benefits, such as Taxonomy.
+</p>
+<p>
+Because ContentItem already implements IHydratable, you will not do so in your custom entity class. Instead,
+you will need to create overrides of the KeyID property and the Fill method already implemented in the ContentItem class.
+Don&apos;t forget to call ContentItem&apos;s FillInternal method in your Fill method override.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_ContentItem_Indexed.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.ContentItem.Indexed%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/ContentItem.cs/#L172">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_ContentItem_Indexed_" data-uid="DotNetNuke.Entities.Content.ContentItem.Indexed*"></a>
+  <h4 id="DotNetNuke_Entities_Content_ContentItem_Indexed" data-uid="DotNetNuke.Entities.Content.ContentItem.Indexed">Indexed</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="DotNetNuke.Entities.Content.ContentItem.html">ContentItem</a> is indexed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Indexed { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if indexed; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_Indexed_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Content Items are a collection of individual pieces of content in a DotNetNuke site. Each content item is associated with a single Content Type.
+</p>
+<p>
+Only modules that implement content items (done so by the module developers) can take advantage of some of its benefits, such as Taxonomy.
+</p>
+<p>
+Because ContentItem already implements IHydratable, you will not do so in your custom entity class. Instead,
+you will need to create overrides of the KeyID property and the Fill method already implemented in the ContentItem class.
+Don&apos;t forget to call ContentItem&apos;s FillInternal method in your Fill method override.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_ContentItem_KeyID.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.ContentItem.KeyID%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/ContentItem.cs/#L221">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_ContentItem_KeyID_" data-uid="DotNetNuke.Entities.Content.ContentItem.KeyID*"></a>
+  <h4 id="DotNetNuke_Entities_Content_ContentItem_KeyID" data-uid="DotNetNuke.Entities.Content.ContentItem.KeyID">KeyID</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the key ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual int KeyID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The key ID.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_KeyID_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If you derive class has its own key id, please override this property and set the value to your own key id.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_ContentItem_Metadata.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.ContentItem.Metadata%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/ContentItem.cs/#L84">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_ContentItem_Metadata_" data-uid="DotNetNuke.Entities.Content.ContentItem.Metadata*"></a>
+  <h4 id="DotNetNuke_Entities_Content_ContentItem_Metadata" data-uid="DotNetNuke.Entities.Content.ContentItem.Metadata">Metadata</h4>
+  <div class="markdown level1 summary"><p>Gets the metadata.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NameValueCollection Metadata { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">NameValueCollection</span></td>
+        <td><p>metadata collection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_Metadata_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Content Items are a collection of individual pieces of content in a DotNetNuke site. Each content item is associated with a single Content Type.
+</p>
+<p>
+Only modules that implement content items (done so by the module developers) can take advantage of some of its benefits, such as Taxonomy.
+</p>
+<p>
+Because ContentItem already implements IHydratable, you will not do so in your custom entity class. Instead,
+you will need to create overrides of the KeyID property and the Fill method already implemented in the ContentItem class.
+Don&apos;t forget to call ContentItem&apos;s FillInternal method in your Fill method override.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_ContentItem_ModuleID.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.ContentItem.ModuleID%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/ContentItem.cs/#L181">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_ContentItem_ModuleID_" data-uid="DotNetNuke.Entities.Content.ContentItem.ModuleID*"></a>
+  <h4 id="DotNetNuke_Entities_Content_ContentItem_ModuleID" data-uid="DotNetNuke.Entities.Content.ContentItem.ModuleID">ModuleID</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the module ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ModuleID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The module ID.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_ModuleID_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Content Items are a collection of individual pieces of content in a DotNetNuke site. Each content item is associated with a single Content Type.
+</p>
+<p>
+Only modules that implement content items (done so by the module developers) can take advantage of some of its benefits, such as Taxonomy.
+</p>
+<p>
+Because ContentItem already implements IHydratable, you will not do so in your custom entity class. Instead,
+you will need to create overrides of the KeyID property and the Fill method already implemented in the ContentItem class.
+Don&apos;t forget to call ContentItem&apos;s FillInternal method in your Fill method override.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_ContentItem_StateID.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.ContentItem.StateID%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/ContentItem.cs/#L210">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_ContentItem_StateID_" data-uid="DotNetNuke.Entities.Content.ContentItem.StateID*"></a>
+  <h4 id="DotNetNuke_Entities_Content_ContentItem_StateID" data-uid="DotNetNuke.Entities.Content.ContentItem.StateID">StateID</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the Content Workflow State ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int StateID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The Content Workflow State ID.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_StateID_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Content Items are a collection of individual pieces of content in a DotNetNuke site. Each content item is associated with a single Content Type.
+</p>
+<p>
+Only modules that implement content items (done so by the module developers) can take advantage of some of its benefits, such as Taxonomy.
+</p>
+<p>
+Because ContentItem already implements IHydratable, you will not do so in your custom entity class. Instead,
+you will need to create overrides of the KeyID property and the Fill method already implemented in the ContentItem class.
+Don&apos;t forget to call ContentItem&apos;s FillInternal method in your Fill method override.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_ContentItem_TabID.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.ContentItem.TabID%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/ContentItem.cs/#L188">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_ContentItem_TabID_" data-uid="DotNetNuke.Entities.Content.ContentItem.TabID*"></a>
+  <h4 id="DotNetNuke_Entities_Content_ContentItem_TabID" data-uid="DotNetNuke.Entities.Content.ContentItem.TabID">TabID</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the tab ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TabID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The tab ID.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_TabID_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Content Items are a collection of individual pieces of content in a DotNetNuke site. Each content item is associated with a single Content Type.
+</p>
+<p>
+Only modules that implement content items (done so by the module developers) can take advantage of some of its benefits, such as Taxonomy.
+</p>
+<p>
+Because ContentItem already implements IHydratable, you will not do so in your custom entity class. Instead,
+you will need to create overrides of the KeyID property and the Fill method already implemented in the ContentItem class.
+Don&apos;t forget to call ContentItem&apos;s FillInternal method in your Fill method override.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_ContentItem_Terms.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.ContentItem.Terms%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/ContentItem.cs/#L97">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_ContentItem_Terms_" data-uid="DotNetNuke.Entities.Content.ContentItem.Terms*"></a>
+  <h4 id="DotNetNuke_Entities_Content_ContentItem_Terms" data-uid="DotNetNuke.Entities.Content.ContentItem.Terms">Terms</h4>
+  <div class="markdown level1 summary"><p>Gets the terms.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Term&gt; Terms { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.Term.html">Term</a>&gt;</td>
+        <td><p>Terms Collection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_Terms_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Content Items are a collection of individual pieces of content in a DotNetNuke site. Each content item is associated with a single Content Type.
+</p>
+<p>
+Only modules that implement content items (done so by the module developers) can take advantage of some of its benefits, such as Taxonomy.
+</p>
+<p>
+Because ContentItem already implements IHydratable, you will not do so in your custom entity class. Instead,
+you will need to create overrides of the KeyID property and the Fill method already implemented in the ContentItem class.
+Don&apos;t forget to call ContentItem&apos;s FillInternal method in your Fill method override.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_ContentItem_Videos.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.ContentItem.Videos%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/ContentItem.cs/#L118">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_ContentItem_Videos_" data-uid="DotNetNuke.Entities.Content.ContentItem.Videos*"></a>
+  <h4 id="DotNetNuke_Entities_Content_ContentItem_Videos" data-uid="DotNetNuke.Entities.Content.ContentItem.Videos">Videos</h4>
+  <div class="markdown level1 summary"><p>Gets video files attached to this ContentItem.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;IFileInfo&gt; Videos { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_Videos_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Content Items are a collection of individual pieces of content in a DotNetNuke site. Each content item is associated with a single Content Type.
+</p>
+<p>
+Only modules that implement content items (done so by the module developers) can take advantage of some of its benefits, such as Taxonomy.
+</p>
+<p>
+Because ContentItem already implements IHydratable, you will not do so in your custom entity class. Instead,
+you will need to create overrides of the KeyID property and the Fill method already implemented in the ContentItem class.
+Don&apos;t forget to call ContentItem&apos;s FillInternal method in your Fill method override.
+</p>
+</div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_ContentItem_Clone_DotNetNuke_Entities_Content_ContentItem_DotNetNuke_Entities_Content_ContentItem_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.ContentItem.Clone(DotNetNuke.Entities.Content.ContentItem%2CDotNetNuke.Entities.Content.ContentItem)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/ContentItem.cs/#L271">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_ContentItem_Clone_" data-uid="DotNetNuke.Entities.Content.ContentItem.Clone*"></a>
+  <h4 id="DotNetNuke_Entities_Content_ContentItem_Clone_DotNetNuke_Entities_Content_ContentItem_DotNetNuke_Entities_Content_ContentItem_" data-uid="DotNetNuke.Entities.Content.ContentItem.Clone(DotNetNuke.Entities.Content.ContentItem,DotNetNuke.Entities.Content.ContentItem)">Clone(ContentItem, ContentItem)</h4>
+  <div class="markdown level1 summary"><p>The ContentItem class which itself inherits from BaseEntityInfo paves the way for easily adding support for taxonomy,
+tagging and other ContentItem dependant features to your DotNetNuke extensions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Clone(ContentItem cloneItem, ContentItem originalItem)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.ContentItem.html">ContentItem</a></td>
+        <td><span class="parametername">cloneItem</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.ContentItem.html">ContentItem</a></td>
+        <td><span class="parametername">originalItem</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_Clone_DotNetNuke_Entities_Content_ContentItem_DotNetNuke_Entities_Content_ContentItem__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Content Items are a collection of individual pieces of content in a DotNetNuke site. Each content item is associated with a single Content Type.
+</p>
+<p>
+Only modules that implement content items (done so by the module developers) can take advantage of some of its benefits, such as Taxonomy.
+</p>
+<p>
+Because ContentItem already implements IHydratable, you will not do so in your custom entity class. Instead,
+you will need to create overrides of the KeyID property and the Fill method already implemented in the ContentItem class.
+Don&apos;t forget to call ContentItem&apos;s FillInternal method in your Fill method override.
+</p>
+</div>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_Clone_DotNetNuke_Entities_Content_ContentItem_DotNetNuke_Entities_Content_ContentItem__examples">Examples</h5>
+  <pre><code>[Serializable]
+public class DesktopModuleInfo : ContentItem, IXmlSerializable
+{
+        #region IHydratable Members
+
+        public override void Fill(IDataReader dr)
+        {
+            DesktopModuleID = Null.SetNullInteger(dr[&quot;DesktopModuleID&quot;]);
+            PackageID = Null.SetNullInteger(dr[&quot;PackageID&quot;]);
+            ModuleName = Null.SetNullString(dr[&quot;ModuleName&quot;]);
+            FriendlyName = Null.SetNullString(dr[&quot;FriendlyName&quot;]);
+            Description = Null.SetNullString(dr[&quot;Description&quot;]);
+            FolderName = Null.SetNullString(dr[&quot;FolderName&quot;]);
+            Version = Null.SetNullString(dr[&quot;Version&quot;]);
+            base.FillInternal(dr);
+        }
+
+        #endregion
+}</code></pre>
+
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_ContentItem_Fill_IDataReader_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.ContentItem.Fill(IDataReader)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/ContentItem.cs/#L239">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_ContentItem_Fill_" data-uid="DotNetNuke.Entities.Content.ContentItem.Fill*"></a>
+  <h4 id="DotNetNuke_Entities_Content_ContentItem_Fill_IDataReader_" data-uid="DotNetNuke.Entities.Content.ContentItem.Fill(IDataReader)">Fill(IDataReader)</h4>
+  <div class="markdown level1 summary"><p>Fill this content object will the information from data reader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Fill(IDataReader dr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td><p>The data reader.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_Fill_IDataReader__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Content Items are a collection of individual pieces of content in a DotNetNuke site. Each content item is associated with a single Content Type.
+</p>
+<p>
+Only modules that implement content items (done so by the module developers) can take advantage of some of its benefits, such as Taxonomy.
+</p>
+<p>
+Because ContentItem already implements IHydratable, you will not do so in your custom entity class. Instead,
+you will need to create overrides of the KeyID property and the Fill method already implemented in the ContentItem class.
+Don&apos;t forget to call ContentItem&apos;s FillInternal method in your Fill method override.
+</p>
+</div>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_Fill_IDataReader__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Entities.Modules.IHydratable.html#DotNetNuke_Entities_Modules_IHydratable_Fill_IDataReader_">Fill</a>(<span class="xref">IDataReader</span>)</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_ContentItem_FillInternal_IDataReader_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.ContentItem.FillInternal(IDataReader)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/ContentItem.cs/#L249">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_ContentItem_FillInternal_" data-uid="DotNetNuke.Entities.Content.ContentItem.FillInternal*"></a>
+  <h4 id="DotNetNuke_Entities_Content_ContentItem_FillInternal_IDataReader_" data-uid="DotNetNuke.Entities.Content.ContentItem.FillInternal(IDataReader)">FillInternal(IDataReader)</h4>
+  <div class="markdown level1 summary"><p>Fills the internal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void FillInternal(IDataReader dr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td><p>The data reader contains module information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_FillInternal_IDataReader_">BaseEntityInfo.FillInternal(IDataReader)</a></div>
+  <h5 id="DotNetNuke_Entities_Content_ContentItem_FillInternal_IDataReader__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Please remember to call base.FillInternal or base.Fill method in your Fill method.</p>
+</div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Entities.Modules.IHydratable.html">IHydratable</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/ContentItem.cs/#L61" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				container: selector,
+    				appId: 'ZPKP9SED9P',
+    				indexName: 'dnnsoftware',
+    				apiKey: '37bfc247275fb9e8fcecbda599134a30',
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('#docsearch-navbar'));  
+    </script>
+  </body>
+</html>

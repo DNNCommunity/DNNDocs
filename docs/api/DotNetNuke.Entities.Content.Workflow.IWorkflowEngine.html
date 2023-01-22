@@ -1,0 +1,787 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IWorkflowEngine
+  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IWorkflowEngine
+  -- DNN Docs">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://ZPKP9SED9P-dsn.algolia.net" crossorigin="">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@alpha">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+  
+  
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-137422488-1');
+    </script>  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <div class="navbar-right">
+                <div id="docsearch-navbar" class="navbar-form navbar-right"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_Workflow_IWorkflowEngine.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Workflow.IWorkflowEngine%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine">
+
+
+  <h1 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine" class="text-break">Interface IWorkflowEngine
+</h1>
+  <div class="markdown level0 summary"><p>This class represents the Workflow Engine.
+It allows start, complete/discard and move forward and backward the workflow associated to a ContentItem.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Entities.Content.Workflow.html">DotNetNuke.Entities.Content.Workflow</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IWorkflowEngine</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_CompleteState_DotNetNuke_Entities_Content_Workflow_Dto_StateTransaction_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.CompleteState(DotNetNuke.Entities.Content.Workflow.Dto.StateTransaction)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Workflow/IWorkflowEngine.cs/#L34">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_CompleteState_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.CompleteState*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_CompleteState_DotNetNuke_Entities_Content_Workflow_Dto_StateTransaction_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.CompleteState(DotNetNuke.Entities.Content.Workflow.Dto.StateTransaction)">CompleteState(StateTransaction)</h4>
+  <div class="markdown level1 summary"><p>This method completes a state moving the workflow forward to the next state.
+If the next state is not the last one it send notifications to the reviewers of the next state,
+otherwise send the notification to the user that submit the draft in case the workflow complete.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void CompleteState(StateTransaction stateTransaction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Workflow.Dto.StateTransaction.html">StateTransaction</a></td>
+        <td><span class="parametername">stateTransaction</span></td>
+        <td><p>State transaction Dto.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Workflow.Exceptions.WorkflowConcurrencyException.html">WorkflowConcurrencyException</a></td>
+        <td><p>Thrown when the current state of the workflow is not the same of the current state specified in the StateTransaction Dto.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Workflow.Exceptions.WorkflowSecurityException.html">WorkflowSecurityException</a></td>
+        <td><p>Thrown when the user does not have review permission on the current state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_CompleteWorkflow_DotNetNuke_Entities_Content_Workflow_Dto_StateTransaction_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.CompleteWorkflow(DotNetNuke.Entities.Content.Workflow.Dto.StateTransaction)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Workflow/IWorkflowEngine.cs/#L87">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_CompleteWorkflow_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.CompleteWorkflow*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_CompleteWorkflow_DotNetNuke_Entities_Content_Workflow_Dto_StateTransaction_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.CompleteWorkflow(DotNetNuke.Entities.Content.Workflow.Dto.StateTransaction)">CompleteWorkflow(StateTransaction)</h4>
+  <div class="markdown level1 summary"><p>This method completes the workflow no matter what is the current state.
+It also sends a system notification to the user that submit the workflow to let him know about the complete workflow action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void CompleteWorkflow(StateTransaction stateTransaction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Workflow.Dto.StateTransaction.html">StateTransaction</a></td>
+        <td><span class="parametername">stateTransaction</span></td>
+        <td><p>State transaction Dto.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_CompleteWorkflow_DotNetNuke_Entities_Content_Workflow_Dto_StateTransaction__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method does not check review permission on the current state.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Workflow.Exceptions.WorkflowConcurrencyException.html">WorkflowConcurrencyException</a></td>
+        <td><p>Thrown when the current state of the workflow is not the same of the current state specified in the StateTransaction Dto.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_DiscardState_DotNetNuke_Entities_Content_Workflow_Dto_StateTransaction_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.DiscardState(DotNetNuke.Entities.Content.Workflow.Dto.StateTransaction)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Workflow/IWorkflowEngine.cs/#L45">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_DiscardState_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.DiscardState*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_DiscardState_DotNetNuke_Entities_Content_Workflow_Dto_StateTransaction_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.DiscardState(DotNetNuke.Entities.Content.Workflow.Dto.StateTransaction)">DiscardState(StateTransaction)</h4>
+  <div class="markdown level1 summary"><p>This method discard a state moving the workflow backward to the previous state.
+If the previous state is not the first one it send notifications to the reviewers of the previous state,
+otherwise send the notification to the user that submit the draft in case the workflow is in the draft state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DiscardState(StateTransaction stateTransaction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Workflow.Dto.StateTransaction.html">StateTransaction</a></td>
+        <td><span class="parametername">stateTransaction</span></td>
+        <td><p>State transaction Dto.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Workflow.Exceptions.WorkflowConcurrencyException.html">WorkflowConcurrencyException</a></td>
+        <td><p>Thrown when the current state of the workflow is not the same of the current state specified in the StateTransaction Dto.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Workflow.Exceptions.WorkflowSecurityException.html">WorkflowSecurityException</a></td>
+        <td><p>Thrown when the user does not have review permission on the current state.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Workflow.Exceptions.WorkflowInvalidOperationException.html">WorkflowInvalidOperationException</a></td>
+        <td><p>Thrown when trying to discard a workflow in the last state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_DiscardWorkflow_DotNetNuke_Entities_Content_Workflow_Dto_StateTransaction_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.DiscardWorkflow(DotNetNuke.Entities.Content.Workflow.Dto.StateTransaction)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Workflow/IWorkflowEngine.cs/#L78">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_DiscardWorkflow_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.DiscardWorkflow*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_DiscardWorkflow_DotNetNuke_Entities_Content_Workflow_Dto_StateTransaction_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.DiscardWorkflow(DotNetNuke.Entities.Content.Workflow.Dto.StateTransaction)">DiscardWorkflow(StateTransaction)</h4>
+  <div class="markdown level1 summary"><p>This method discards the workflow no matter what is the current state.
+It also sends a system notification to the user that submit the workflow to let him know about the discard workflow action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DiscardWorkflow(StateTransaction stateTransaction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Workflow.Dto.StateTransaction.html">StateTransaction</a></td>
+        <td><span class="parametername">stateTransaction</span></td>
+        <td><p>State transaction Dto.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_DiscardWorkflow_DotNetNuke_Entities_Content_Workflow_Dto_StateTransaction__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method does not check review permission on the current state.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Workflow.Exceptions.WorkflowConcurrencyException.html">WorkflowConcurrencyException</a></td>
+        <td><p>Thrown when the current state of the workflow is not the same of the current state specified in the StateTransaction Dto.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_GetStartedDraftStateUser_DotNetNuke_Entities_Content_ContentItem_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.GetStartedDraftStateUser(DotNetNuke.Entities.Content.ContentItem)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Workflow/IWorkflowEngine.cs/#L93">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_GetStartedDraftStateUser_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.GetStartedDraftStateUser*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_GetStartedDraftStateUser_DotNetNuke_Entities_Content_ContentItem_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.GetStartedDraftStateUser(DotNetNuke.Entities.Content.ContentItem)">GetStartedDraftStateUser(ContentItem)</h4>
+  <div class="markdown level1 summary"><p>This method returns the user that started the workflow for the contentItem.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">UserInfo GetStartedDraftStateUser(ContentItem contentItem)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.ContentItem.html">ContentItem</a></td>
+        <td><span class="parametername">contentItem</span></td>
+        <td><p>ContentItem.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><p>User Info.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_GetStartedDraftStateUser_DotNetNuke_Entities_Content_ContentItem__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If Content Item has no workflow, returns null.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_GetSubmittedDraftStateUser_DotNetNuke_Entities_Content_ContentItem_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.GetSubmittedDraftStateUser(DotNetNuke.Entities.Content.ContentItem)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Workflow/IWorkflowEngine.cs/#L99">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_GetSubmittedDraftStateUser_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.GetSubmittedDraftStateUser*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_GetSubmittedDraftStateUser_DotNetNuke_Entities_Content_ContentItem_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.GetSubmittedDraftStateUser(DotNetNuke.Entities.Content.ContentItem)">GetSubmittedDraftStateUser(ContentItem)</h4>
+  <div class="markdown level1 summary"><p>This method returns the user that submitted the contentItem.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">UserInfo GetSubmittedDraftStateUser(ContentItem contentItem)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.ContentItem.html">ContentItem</a></td>
+        <td><span class="parametername">contentItem</span></td>
+        <td><p>ContentItem.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><p>User Info.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_GetSubmittedDraftStateUser_DotNetNuke_Entities_Content_ContentItem__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If Content Item has no workflow or the content has not submitted yet, returns null.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_IsWorkflowCompleted_DotNetNuke_Entities_Content_ContentItem_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.IsWorkflowCompleted(DotNetNuke.Entities.Content.ContentItem)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Workflow/IWorkflowEngine.cs/#L57">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_IsWorkflowCompleted_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.IsWorkflowCompleted*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_IsWorkflowCompleted_DotNetNuke_Entities_Content_ContentItem_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.IsWorkflowCompleted(DotNetNuke.Entities.Content.ContentItem)">IsWorkflowCompleted(ContentItem)</h4>
+  <div class="markdown level1 summary"><p>This method returns true if the workflow associated to the Content Item is completed (it is in the last state).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsWorkflowCompleted(ContentItem contentItem)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.ContentItem.html">ContentItem</a></td>
+        <td><span class="parametername">contentItem</span></td>
+        <td><p>Content item entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the workflow is completed, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_IsWorkflowCompleted_DotNetNuke_Entities_Content_ContentItem__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Content Item without workflow is considered as completed as well.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_IsWorkflowCompleted_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.IsWorkflowCompleted(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Workflow/IWorkflowEngine.cs/#L51">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_IsWorkflowCompleted_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.IsWorkflowCompleted*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_IsWorkflowCompleted_System_Int32_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.IsWorkflowCompleted(System.Int32)">IsWorkflowCompleted(Int32)</h4>
+  <div class="markdown level1 summary"><p>This method returns true if the workflow associated to the Content Item is completed (it is in the last state).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsWorkflowCompleted(int contentItemId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">contentItemId</span></td>
+        <td><p>Content item Id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the workflow is completed, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_IsWorkflowCompleted_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Content Item without workflow is considered as completed as well.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_IsWorkflowOnDraft_DotNetNuke_Entities_Content_ContentItem_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.IsWorkflowOnDraft(DotNetNuke.Entities.Content.ContentItem)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Workflow/IWorkflowEngine.cs/#L69">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_IsWorkflowOnDraft_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.IsWorkflowOnDraft*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_IsWorkflowOnDraft_DotNetNuke_Entities_Content_ContentItem_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.IsWorkflowOnDraft(DotNetNuke.Entities.Content.ContentItem)">IsWorkflowOnDraft(ContentItem)</h4>
+  <div class="markdown level1 summary"><p>This method returns true if the workflow associated to the Content Item is in draft (it is in the first state).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsWorkflowOnDraft(ContentItem contentItem)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.ContentItem.html">ContentItem</a></td>
+        <td><span class="parametername">contentItem</span></td>
+        <td><p>Content item entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the workflow is in draft, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_IsWorkflowOnDraft_DotNetNuke_Entities_Content_ContentItem__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Content Item without workflow is considered as not in draft.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_IsWorkflowOnDraft_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.IsWorkflowOnDraft(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Workflow/IWorkflowEngine.cs/#L63">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_IsWorkflowOnDraft_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.IsWorkflowOnDraft*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_IsWorkflowOnDraft_System_Int32_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.IsWorkflowOnDraft(System.Int32)">IsWorkflowOnDraft(Int32)</h4>
+  <div class="markdown level1 summary"><p>This method returns true if the workflow associated to the Content Item is in draft (it is in the first state).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsWorkflowOnDraft(int contentItemId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">contentItemId</span></td>
+        <td><p>Content item Id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the workflow is in draft, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_IsWorkflowOnDraft_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Content Item without workflow is considered as not in draft.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_StartWorkflow_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.StartWorkflow(System.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Workflow/IWorkflowEngine.cs/#L24">View Source</a>
+  </span>
+  <a id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_StartWorkflow_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.StartWorkflow*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_StartWorkflow_System_Int32_System_Int32_System_Int32_" data-uid="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.StartWorkflow(System.Int32,System.Int32,System.Int32)">StartWorkflow(Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>This method starts a workflow for a Content Item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void StartWorkflow(int workflowId, int contentItemId, int userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">workflowId</span></td>
+        <td><p>Workflow Id.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">contentItemId</span></td>
+        <td><p>Content item Id.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>User Id of the user that start the workflow.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Workflow.Exceptions.WorkflowInvalidOperationException.html">WorkflowInvalidOperationException</a></td>
+        <td><p>Thrown when start a workflow on a Content Item that already has a started workflow.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Entities/Content/Workflow/IWorkflowEngine.cs/#L16" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				container: selector,
+    				appId: 'ZPKP9SED9P',
+    				indexName: 'dnnsoftware',
+    				apiKey: '37bfc247275fb9e8fcecbda599134a30',
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('#docsearch-navbar'));  
+    </script>
+  </body>
+</html>

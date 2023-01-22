@@ -1,0 +1,645 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CacheItemArgs
+  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CacheItemArgs
+  -- DNN Docs">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://ZPKP9SED9P-dsn.algolia.net" crossorigin="">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@alpha">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+  
+  
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-137422488-1');
+    </script>  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <div class="navbar-right">
+                <div id="docsearch-navbar" class="navbar-form navbar-right"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_CacheItemArgs.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CacheItemArgs%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs">
+
+
+  <h1 id="DotNetNuke_Common_Utilities_CacheItemArgs" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs" class="text-break">Class CacheItemArgs
+</h1>
+  <div class="markdown level0 summary"><p>The CacheItemArgs class provides an EventArgs implementation for the
+CacheItemExpiredCallback delegate.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">CacheItemArgs</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Common.Utilities.html">DotNetNuke.Common.Utilities</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Common_Utilities_CacheItemArgs_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CacheItemArgs : object</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_CacheItemArgs__ctor_System_String_CacheItemPriority_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CacheItemArgs.%23ctor(System.String%2CCacheItemPriority)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CacheItemArgs.cs/#L49">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CacheItemArgs__ctor_" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.#ctor*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CacheItemArgs__ctor_System_String_CacheItemPriority_" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.#ctor(System.String,CacheItemPriority)">CacheItemArgs(String, CacheItemPriority)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.Common.Utilities.CacheItemArgs.html">CacheItemArgs</a> class.
+Constructs a new CacheItemArgs Object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheItemArgs(string key, CacheItemPriority priority)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CacheItemPriority</span></td>
+        <td><span class="parametername">priority</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_CacheItemArgs__ctor_System_String_System_Int32_CacheItemPriority_System_Object___.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CacheItemArgs.%23ctor(System.String%2CSystem.Int32%2CCacheItemPriority%2CSystem.Object%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CacheItemArgs.cs/#L74">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CacheItemArgs__ctor_" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.#ctor*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CacheItemArgs__ctor_System_String_System_Int32_CacheItemPriority_System_Object___" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.#ctor(System.String,System.Int32,CacheItemPriority,System.Object[])">CacheItemArgs(String, Int32, CacheItemPriority, Object[])</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.Common.Utilities.CacheItemArgs.html">CacheItemArgs</a> class.
+Constructs a new CacheItemArgs Object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheItemArgs(string key, int timeout, CacheItemPriority priority, params object[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CacheItemPriority</span></td>
+        <td><span class="parametername">priority</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_CacheItemArgs__ctor_System_String_System_Int32_CacheItemPriority_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CacheItemArgs.%23ctor(System.String%2CSystem.Int32%2CCacheItemPriority)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CacheItemArgs.cs/#L61">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CacheItemArgs__ctor_" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.#ctor*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CacheItemArgs__ctor_System_String_System_Int32_CacheItemPriority_" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.#ctor(System.String,System.Int32,CacheItemPriority)">CacheItemArgs(String, Int32, CacheItemPriority)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.Common.Utilities.CacheItemArgs.html">CacheItemArgs</a> class.
+Constructs a new CacheItemArgs Object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheItemArgs(string key, int timeout, CacheItemPriority priority)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CacheItemPriority</span></td>
+        <td><span class="parametername">priority</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_CacheItemArgs__ctor_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CacheItemArgs.%23ctor(System.String%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CacheItemArgs.cs/#L38">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CacheItemArgs__ctor_" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.#ctor*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CacheItemArgs__ctor_System_String_System_Int32_" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.#ctor(System.String,System.Int32)">CacheItemArgs(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.Common.Utilities.CacheItemArgs.html">CacheItemArgs</a> class.
+Constructs a new CacheItemArgs Object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheItemArgs(string key, int timeout)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_CacheItemArgs__ctor_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CacheItemArgs.%23ctor(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CacheItemArgs.cs/#L27">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CacheItemArgs__ctor_" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.#ctor*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CacheItemArgs__ctor_System_String_" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.#ctor(System.String)">CacheItemArgs(String)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.Common.Utilities.CacheItemArgs.html">CacheItemArgs</a> class.
+Constructs a new CacheItemArgs Object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheItemArgs(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_CacheItemArgs_CacheCallback.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CacheItemArgs.CacheCallback%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CacheItemArgs.cs/#L106">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CacheItemArgs_CacheCallback_" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.CacheCallback*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CacheItemArgs_CacheCallback" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.CacheCallback">CacheCallback</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the Cache Item's CacheItemRemovedCallback delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheItemRemovedCallback CacheCallback { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CacheItemRemovedCallback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_CacheItemArgs_CacheDependency.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CacheItemArgs.CacheDependency%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CacheItemArgs.cs/#L109">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CacheItemArgs_CacheDependency_" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.CacheDependency*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CacheItemArgs_CacheDependency" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.CacheDependency">CacheDependency</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the Cache Item's CacheDependency.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DNNCacheDependency CacheDependency { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Cache.DNNCacheDependency.html">DNNCacheDependency</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_CacheItemArgs_CacheKey.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CacheItemArgs.CacheKey%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CacheItemArgs.cs/#L112">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CacheItemArgs_CacheKey_" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.CacheKey*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CacheItemArgs_CacheKey" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.CacheKey">CacheKey</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the Cache Item's Key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CacheKey { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_CacheItemArgs_CachePriority.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CacheItemArgs.CachePriority%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CacheItemArgs.cs/#L117">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CacheItemArgs_CachePriority_" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.CachePriority*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CacheItemArgs_CachePriority" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.CachePriority">CachePriority</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the Cache Item's priority (defaults to Default).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheItemPriority CachePriority { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CacheItemPriority</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Common_Utilities_CacheItemArgs_CachePriority_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Note: DotNetNuke currently doesn't support the ASP.NET Cache's
+ItemPriority, but this is included for possible future use.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_CacheItemArgs_CacheTimeOut.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CacheItemArgs.CacheTimeOut%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CacheItemArgs.cs/#L120">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CacheItemArgs_CacheTimeOut_" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.CacheTimeOut*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CacheItemArgs_CacheTimeOut" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.CacheTimeOut">CacheTimeOut</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the Cache Item's Timeout.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CacheTimeOut { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_CacheItemArgs_ParamList.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CacheItemArgs.ParamList%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CacheItemArgs.cs/#L83">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CacheItemArgs_ParamList_" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.ParamList*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CacheItemArgs_ParamList" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.ParamList">ParamList</h4>
+  <div class="markdown level1 summary"><p>Gets the Cache Item's Parameter List.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ArrayList ParamList { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ArrayList</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_CacheItemArgs_Params.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CacheItemArgs.Params%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CacheItemArgs.cs/#L123">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CacheItemArgs_Params_" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.Params*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CacheItemArgs_Params" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.Params">Params</h4>
+  <div class="markdown level1 summary"><p>Gets the Cache Item's Parameter Array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object[] Params { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_CacheItemArgs_ProcedureName.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.CacheItemArgs.ProcedureName%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CacheItemArgs.cs/#L125">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_CacheItemArgs_ProcedureName_" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.ProcedureName*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CacheItemArgs_ProcedureName" data-uid="DotNetNuke.Common.Utilities.CacheItemArgs.ProcedureName">ProcedureName</h4>
+  <div class="markdown level1 summary"><p>The CacheItemArgs class provides an EventArgs implementation for the
+CacheItemExpiredCallback delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ProcedureName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/CacheItemArgs.cs/#L18" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				container: selector,
+    				appId: 'ZPKP9SED9P',
+    				indexName: 'dnnsoftware',
+    				apiKey: '37bfc247275fb9e8fcecbda599134a30',
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('#docsearch-navbar'));  
+    </script>
+  </body>
+</html>

@@ -1,15 +1,15 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Image Handler  -- DNN Docs</title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Image Handler  -- DNN Docs">
-    <meta name="generator" content="docfx 2.56.6.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
@@ -23,22 +23,22 @@
     <meta property="og:image" content="../../../../images/dnn_docs_logo.png">
     <meta property="og:description" content="Image Handler -- DNN Docs">
     <meta property="og:url" content="https://docs.dnncommunity.org/content/tutorials/developers/image-handler/index.html">
-    
-    
-    
+  
+  
+  
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-    
+
       gtag('config', 'UA-137422488-1');
-    </script></head>
+    </script>  </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -48,7 +48,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../images/dnn_docs_logo.png" alt="">
               </a>
@@ -60,7 +60,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container">
             <div class="hide-when-search pull-left" id="breadcrumb">
@@ -93,7 +93,7 @@
           </div>
         </div>      </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -109,21 +109,10 @@
     
 </div>
 <div class="page-stats row visible-xs">
-    <div class="pull-left">12/8/2019 &bull; 6 minutes  to read</div>
-    <div class="pull-left">Contributors&nbsp;
-        <a href="https://github.com/david-poindexter" target="_blank">
-            <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
-        </a>
-    </div>
+    <div class="pull-left"> &bull; 6 minutes  to read</div>
 </div>
 <div class="page-stats row visible-sm visible-md visible-lg visible-xl">
-    <span class="pull-left">12/8/2019</span>
     <span class="pull-left">&nbsp;&bull; 6 minutes  to read</span>
-    <span class="pull-left">&nbsp;&bull;&nbsp;Contributors&nbsp;
-        <a href="https://github.com/david-poindexter" target="_blank">
-            <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
-        </a>
-    </span>
 </div>
 
 <p>Out of the box, DNN includes an endpoint which can retrieve, transform, and serve images from your DNN site.  This feature can be used by developers within their modules, designers within their themes, and content creators in their content.</p>
@@ -200,7 +189,7 @@
 <p>One of the primary reasons someone might want to use the image handler is to resize images, and prevent users from downloading excessively large images (you may want to use <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-srcset"><code>srcset</code></a> or <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture"><code>&lt;picture&gt;</code></a> to serve different sized based on the browser's viewport size).</p>
 <p>To get started resizing, you can just add a <code>w</code> or <code>h</code> parameter to set the width and/or height.  You can adjust the behavior of the resizing by specifying a resize mode.</p>
 <h2 id="resize-modes">Resize Modes</h2>
-<p>There are four <a href="xref:DotNetNuke.Services.GeneratedImage.ImageResizeMode">resize modes</a> supported when resizing, specified via the <code>resizemode</code> parameter.</p>
+<p>There are four <a class="xref" href="../../../../api/DotNetNuke.Services.GeneratedImage.ImageResizeMode.html">resize modes</a> supported when resizing, specified via the <code>resizemode</code> parameter.</p>
 <table>
 <thead>
 <tr>
@@ -252,10 +241,10 @@
 <p>The image can be rotated and/or flipped using the <code>rotateflip</code> parameter.  The value for the parameter will be in the format <code>Rotate{degrees}Flip{axis}</code>.  The valid values for <code>degrees</code> are <code>None</code>, <code>90</code>, <code>180</code>, and <code>270</code>.  The valid values for <code>axis</code> are <code>None</code>, <code>X</code>, <code>Y</code>, and <code>XY</code>.  For example <code>&amp;rotateflip=RotateNoneFlipY</code>, <code>&amp;rotateflip=Rotate180FlipNone</code>, <code>&amp;rotateflip=Rotate270FlipXY</code>.</p>
 <h2 id="custom-modes">Custom Modes</h2>
 <p>The image handler is based on a project by Torsten Weggen, and he has a <a href="https://github.com/weggetor/BBImageHandler-8">collection of extensions</a> to the version built into DNN that add extra modes.  This project also serves as a collection of examples for how to create your own custom mode.  The project includes modes such as Database Image, Barcode, Thermometer, and Web Thumbnail.</p>
-<p>Creating your own mode involes implementing a .NET class that inherits from <a href="xref:DotNetNuke.Services.GeneratedImage.ImageTransform"><code>DotNetNuke.Services.GeneratedImage.ImageTransform</code></a>, which primarily involves generating an <a href="https://docs.microsoft.com/en-us/dotnet/api/system.drawing.image"><code>Image</code></a> value.  Public properties on the class are automatically able to by set via the query string.</p>
-<div class="links" hidden=""><span><a href="https://www.dnnsoftware.com/community-blog/cid/155173/dnnimagehandler--hot-or-not-">DNN Blog: DnnImageHandler - hot or not ?</a></span><span><a href="https://www.dnnsoftware.com/community-blog/cid/155618/dnn-imagehandler">DNN Blog: DNN Imagehandler</a></span></div></article>
+<p>Creating your own mode involes implementing a .NET class that inherits from <a class="xref" href="../../../../api/DotNetNuke.Services.GeneratedImage.ImageTransform.html"><code>DotNetNuke.Services.GeneratedImage.ImageTransform</code></a>, which primarily involves generating an <a href="https://docs.microsoft.com/en-us/dotnet/api/system.drawing.image"><code>Image</code></a> value.  Public properties on the class are automatically able to by set via the query string.</p>
+</article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
@@ -269,7 +258,7 @@
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -277,13 +266,13 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            
-            <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+      
+      <span>by the community, for the community... <strong>#DNNCMS</strong></span>
           </div>
         </div>
       </footer>
     </div>
-    
+
     <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>

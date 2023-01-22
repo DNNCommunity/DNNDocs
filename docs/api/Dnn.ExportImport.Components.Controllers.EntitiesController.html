@@ -1,0 +1,1706 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class EntitiesController
+  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class EntitiesController
+  -- DNN Docs">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://ZPKP9SED9P-dsn.algolia.net" crossorigin="">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@alpha">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+  
+  
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-137422488-1');
+    </script>  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <div class="navbar-right">
+                <div id="docsearch-navbar" class="navbar-form navbar-right"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController">
+
+
+  <h1 id="Dnn_ExportImport_Components_Controllers_EntitiesController" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController" class="text-break">Class EntitiesController
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;<a class="xref" href="Dnn.ExportImport.Components.Interfaces.IEntitiesController.html">IEntitiesController</a>, <a class="xref" href="Dnn.ExportImport.Components.Controllers.EntitiesController.html">EntitiesController</a>&gt;</div>
+    <div class="level2"><span class="xref">EntitiesController</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Dnn.ExportImport.Components.Interfaces.IEntitiesController.html">IEntitiesController</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html#DotNetNuke_Framework_ServiceLocator_2_Instance">ServiceLocator&lt;IEntitiesController, EntitiesController&gt;.Instance</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html#DotNetNuke_Framework_ServiceLocator_2_Factory">ServiceLocator&lt;IEntitiesController, EntitiesController&gt;.Factory</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html#DotNetNuke_Framework_ServiceLocator_2_SetTestableInstance__0_">ServiceLocator&lt;IEntitiesController, EntitiesController&gt;.SetTestableInstance(IEntitiesController)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html#DotNetNuke_Framework_ServiceLocator_2_ClearInstance">ServiceLocator&lt;IEntitiesController, EntitiesController&gt;.ClearInstance()</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html#DotNetNuke_Framework_ServiceLocator_2_GetFactory">ServiceLocator&lt;IEntitiesController, EntitiesController&gt;.GetFactory()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Dnn.ExportImport.Components.Controllers.html">Dnn.ExportImport.Components.Controllers</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.SiteExportImport.dll</h6>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EntitiesController : ServiceLocator&lt;IEntitiesController, EntitiesController&gt;, IEntitiesController</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_GetAllJobs_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.GetAllJobs(System.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L61">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetAllJobs_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetAllJobs*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetAllJobs_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetAllJobs(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">GetAllJobs(Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;ExportImportJob&gt; GetAllJobs(int? portalId, int? pageSize, int? pageIndex, int? jobType, string keywords)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">pageSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">pageIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">jobType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keywords</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<a class="xref" href="Dnn.ExportImport.Components.Entities.ExportImportJob.html">ExportImportJob</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetAllJobs_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_GetAllJobsCount_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.GetAllJobsCount(System.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L55">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetAllJobsCount_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetAllJobsCount*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetAllJobsCount_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetAllJobsCount(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">GetAllJobsCount(Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetAllJobsCount(int? portalId, int? jobType, string keywords)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">jobType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keywords</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetAllJobsCount_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_GetFactory.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.GetFactory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L221">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetFactory_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetFactory*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetFactory" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetFactory">GetFactory()</h4>
+  <div class="markdown level1 summary"><p>Gets the service locator factory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override Func&lt;IEntitiesController&gt; GetFactory()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<a class="xref" href="Dnn.ExportImport.Components.Interfaces.IEntitiesController.html">IEntitiesController</a>&gt;</td>
+        <td><p>A factory function.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">DotNetNuke.Framework.ServiceLocator&lt;Dnn.ExportImport.Components.Interfaces.IEntitiesController, Dnn.ExportImport.Components.Controllers.EntitiesController&gt;.GetFactory()</span></div>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetFactory_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_GetFirstActiveJob.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.GetFirstActiveJob%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L28">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetFirstActiveJob_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetFirstActiveJob*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetFirstActiveJob" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetFirstActiveJob">GetFirstActiveJob()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExportImportJob GetFirstActiveJob()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Dnn.ExportImport.Components.Entities.ExportImportJob.html">ExportImportJob</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetFirstActiveJob_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_GetJobById_System_Int32_.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.GetJobById(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L34">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetJobById_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetJobById*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetJobById_System_Int32_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetJobById(System.Int32)">GetJobById(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExportImportJob GetJobById(int jobId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">jobId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Dnn.ExportImport.Components.Entities.ExportImportJob.html">ExportImportJob</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetJobById_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_GetJobChekpoints_System_Int32_.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.GetJobChekpoints(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L98">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetJobChekpoints_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetJobChekpoints*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetJobChekpoints_System_Int32_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetJobChekpoints(System.Int32)">GetJobChekpoints(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;ExportImportChekpoint&gt; GetJobChekpoints(int jobId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">jobId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<a class="xref" href="Dnn.ExportImport.Components.Entities.ExportImportChekpoint.html">ExportImportChekpoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetJobChekpoints_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_GetJobFullLog_System_Int32_.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.GetJobFullLog(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L49">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetJobFullLog_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetJobFullLog*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetJobFullLog_System_Int32_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetJobFullLog(System.Int32)">GetJobFullLog(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;ExportImportJobLog&gt; GetJobFullLog(int jobId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">jobId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<a class="xref" href="Dnn.ExportImport.Components.Entities.ExportImportJobLog.html">ExportImportJobLog</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetJobFullLog_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_GetJobSummaryLog_System_Int32_.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.GetJobSummaryLog(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L43">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetJobSummaryLog_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetJobSummaryLog*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetJobSummaryLog_System_Int32_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetJobSummaryLog(System.Int32)">GetJobSummaryLog(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;ExportImportJobLog&gt; GetJobSummaryLog(int jobId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">jobId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<a class="xref" href="Dnn.ExportImport.Components.Entities.ExportImportJobLog.html">ExportImportJobLog</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetJobSummaryLog_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_GetLastJobTime_System_Int32_Dnn_ExportImport_Components_Common_JobType_.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.GetLastJobTime(System.Int32%2CDnn.ExportImport.Components.Common.JobType)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L68">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetLastJobTime_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetLastJobTime*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetLastJobTime_System_Int32_Dnn_ExportImport_Components_Common_JobType_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetLastJobTime(System.Int32,Dnn.ExportImport.Components.Common.JobType)">GetLastJobTime(Int32, JobType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime? GetLastJobTime(int portalId, JobType jobType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Dnn.ExportImport.Components.Common.JobType.html">JobType</a></td>
+        <td><span class="parametername">jobType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetLastJobTime_System_Int32_Dnn_ExportImport_Components_Common_JobType__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_GetModulePermissions_System_Int32_DateTime_System_Nullable_DateTime__.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.GetModulePermissions(System.Int32%2CDateTime%2CSystem.Nullable%7BDateTime%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L152">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetModulePermissions_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetModulePermissions*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetModulePermissions_System_Int32_DateTime_System_Nullable_DateTime__" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetModulePermissions(System.Int32,DateTime,System.Nullable{DateTime})">GetModulePermissions(Int32, DateTime, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;ExportModulePermission&gt; GetModulePermissions(int moduleId, DateTime toDate, DateTime? fromDate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">moduleId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">toDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">fromDate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<a class="xref" href="Dnn.ExportImport.Dto.Pages.ExportModulePermission.html">ExportModulePermission</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetModulePermissions_System_Int32_DateTime_System_Nullable_DateTime___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_GetModules_System_Int32_System_Boolean_DateTime_System_Nullable_DateTime__.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.GetModules(System.Int32%2CSystem.Boolean%2CDateTime%2CSystem.Nullable%7BDateTime%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L138">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetModules_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetModules*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetModules_System_Int32_System_Boolean_DateTime_System_Nullable_DateTime__" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetModules(System.Int32,System.Boolean,DateTime,System.Nullable{DateTime})">GetModules(Int32, Boolean, DateTime, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;ExportModule&gt; GetModules(int tabId, bool includeDeleted, DateTime toDate, DateTime? fromDate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">includeDeleted</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">toDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">fromDate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<a class="xref" href="Dnn.ExportImport.Dto.Pages.ExportModule.html">ExportModule</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetModules_System_Int32_System_Boolean_DateTime_System_Nullable_DateTime___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_GetModuleSettings_System_Int32_DateTime_System_Nullable_DateTime__.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.GetModuleSettings(System.Int32%2CDateTime%2CSystem.Nullable%7BDateTime%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L145">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetModuleSettings_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetModuleSettings*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetModuleSettings_System_Int32_DateTime_System_Nullable_DateTime__" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetModuleSettings(System.Int32,DateTime,System.Nullable{DateTime})">GetModuleSettings(Int32, DateTime, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;ExportModuleSetting&gt; GetModuleSettings(int moduleId, DateTime toDate, DateTime? fromDate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">moduleId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">toDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">fromDate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<a class="xref" href="Dnn.ExportImport.Dto.Pages.ExportModuleSetting.html">ExportModuleSetting</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetModuleSettings_System_Int32_DateTime_System_Nullable_DateTime___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_GetPermissionInfo_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.GetPermissionInfo(System.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L179">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetPermissionInfo_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetPermissionInfo*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetPermissionInfo_System_String_System_String_System_String_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetPermissionInfo(System.String,System.String,System.String)">GetPermissionInfo(String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PermissionInfo GetPermissionInfo(string permissionCode, string permissionKey, string permissionName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">permissionCode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">permissionKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">permissionName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.PermissionInfo.html">PermissionInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetPermissionInfo_System_String_System_String_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_GetPortalTabs_System_Int32_System_Boolean_System_Boolean_DateTime_System_Nullable_DateTime__.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.GetPortalTabs(System.Int32%2CSystem.Boolean%2CSystem.Boolean%2CDateTime%2CSystem.Nullable%7BDateTime%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L110">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetPortalTabs_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetPortalTabs*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetPortalTabs_System_Int32_System_Boolean_System_Boolean_DateTime_System_Nullable_DateTime__" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetPortalTabs(System.Int32,System.Boolean,System.Boolean,DateTime,System.Nullable{DateTime})">GetPortalTabs(Int32, Boolean, Boolean, DateTime, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;ExportTabInfo&gt; GetPortalTabs(int portalId, bool includeDeleted, bool includeSystem, DateTime toDate, DateTime? fromDate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">includeDeleted</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">includeSystem</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">toDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">fromDate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<a class="xref" href="Dnn.ExportImport.Dto.Pages.ExportTabInfo.html">ExportTabInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetPortalTabs_System_Int32_System_Boolean_System_Boolean_DateTime_System_Nullable_DateTime___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabModules_System_Int32_System_Boolean_DateTime_System_Nullable_DateTime__.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.GetTabModules(System.Int32%2CSystem.Boolean%2CDateTime%2CSystem.Nullable%7BDateTime%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L159">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabModules_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetTabModules*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabModules_System_Int32_System_Boolean_DateTime_System_Nullable_DateTime__" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetTabModules(System.Int32,System.Boolean,DateTime,System.Nullable{DateTime})">GetTabModules(Int32, Boolean, DateTime, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;ExportTabModule&gt; GetTabModules(int tabId, bool includeDeleted, DateTime toDate, DateTime? fromDate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">includeDeleted</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">toDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">fromDate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<a class="xref" href="Dnn.ExportImport.Dto.Pages.ExportTabModule.html">ExportTabModule</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabModules_System_Int32_System_Boolean_DateTime_System_Nullable_DateTime___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabModuleSettings_System_Int32_DateTime_System_Nullable_DateTime__.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.GetTabModuleSettings(System.Int32%2CDateTime%2CSystem.Nullable%7BDateTime%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L166">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabModuleSettings_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetTabModuleSettings*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabModuleSettings_System_Int32_DateTime_System_Nullable_DateTime__" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetTabModuleSettings(System.Int32,DateTime,System.Nullable{DateTime})">GetTabModuleSettings(Int32, DateTime, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;ExportTabModuleSetting&gt; GetTabModuleSettings(int tabId, DateTime toDate, DateTime? fromDate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">toDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">fromDate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<a class="xref" href="Dnn.ExportImport.Dto.Pages.ExportTabModuleSetting.html">ExportTabModuleSetting</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabModuleSettings_System_Int32_DateTime_System_Nullable_DateTime___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabModuleSettings_System_Int32_System_Boolean_DateTime_System_Nullable_DateTime__.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.GetTabModuleSettings(System.Int32%2CSystem.Boolean%2CDateTime%2CSystem.Nullable%7BDateTime%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L172">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabModuleSettings_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetTabModuleSettings*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabModuleSettings_System_Int32_System_Boolean_DateTime_System_Nullable_DateTime__" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetTabModuleSettings(System.Int32,System.Boolean,DateTime,System.Nullable{DateTime})">GetTabModuleSettings(Int32, Boolean, DateTime, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;ExportTabModuleSetting&gt; GetTabModuleSettings(int tabId, bool includeDeleted, DateTime toDate, DateTime? fromDate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">includeDeleted</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">toDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">fromDate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<a class="xref" href="Dnn.ExportImport.Dto.Pages.ExportTabModuleSetting.html">ExportTabModuleSetting</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabModuleSettings_System_Int32_System_Boolean_DateTime_System_Nullable_DateTime___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabPermissions_System_Int32_DateTime_System_Nullable_DateTime__.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.GetTabPermissions(System.Int32%2CDateTime%2CSystem.Nullable%7BDateTime%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L124">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabPermissions_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetTabPermissions*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabPermissions_System_Int32_DateTime_System_Nullable_DateTime__" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetTabPermissions(System.Int32,DateTime,System.Nullable{DateTime})">GetTabPermissions(Int32, DateTime, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;ExportTabPermission&gt; GetTabPermissions(int tabId, DateTime toDate, DateTime? fromDate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">toDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">fromDate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<a class="xref" href="Dnn.ExportImport.Dto.Pages.ExportTabPermission.html">ExportTabPermission</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabPermissions_System_Int32_DateTime_System_Nullable_DateTime___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabSettings_System_Int32_DateTime_System_Nullable_DateTime__.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.GetTabSettings(System.Int32%2CDateTime%2CSystem.Nullable%7BDateTime%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L117">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabSettings_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetTabSettings*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabSettings_System_Int32_DateTime_System_Nullable_DateTime__" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetTabSettings(System.Int32,DateTime,System.Nullable{DateTime})">GetTabSettings(Int32, DateTime, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;ExportTabSetting&gt; GetTabSettings(int tabId, DateTime toDate, DateTime? fromDate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">toDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">fromDate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<a class="xref" href="Dnn.ExportImport.Dto.Pages.ExportTabSetting.html">ExportTabSetting</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabSettings_System_Int32_DateTime_System_Nullable_DateTime___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabUrls_System_Int32_DateTime_System_Nullable_DateTime__.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.GetTabUrls(System.Int32%2CDateTime%2CSystem.Nullable%7BDateTime%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L131">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabUrls_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetTabUrls*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabUrls_System_Int32_DateTime_System_Nullable_DateTime__" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.GetTabUrls(System.Int32,DateTime,System.Nullable{DateTime})">GetTabUrls(Int32, DateTime, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;ExportTabUrl&gt; GetTabUrls(int tabId, DateTime toDate, DateTime? fromDate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">toDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">fromDate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<a class="xref" href="Dnn.ExportImport.Dto.Pages.ExportTabUrl.html">ExportTabUrl</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_GetTabUrls_System_Int32_DateTime_System_Nullable_DateTime___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_RemoveJob_Dnn_ExportImport_Components_Entities_ExportImportJob_.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.RemoveJob(Dnn.ExportImport.Components.Entities.ExportImportJob)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L92">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_RemoveJob_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.RemoveJob*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_RemoveJob_Dnn_ExportImport_Components_Entities_ExportImportJob_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.RemoveJob(Dnn.ExportImport.Components.Entities.ExportImportJob)">RemoveJob(ExportImportJob)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveJob(ExportImportJob job)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Dnn.ExportImport.Components.Entities.ExportImportJob.html">ExportImportJob</a></td>
+        <td><span class="parametername">job</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_RemoveJob_Dnn_ExportImport_Components_Entities_ExportImportJob__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_RunSchedule.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.RunSchedule%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L204">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_RunSchedule_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.RunSchedule*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_RunSchedule" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.RunSchedule">RunSchedule()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RunSchedule()</code></pre>
+  </div>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_RunSchedule_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_SetJobCancelled_Dnn_ExportImport_Components_Entities_ExportImportJob_.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.SetJobCancelled(Dnn.ExportImport.Components.Entities.ExportImportJob)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L86">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_SetJobCancelled_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.SetJobCancelled*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_SetJobCancelled_Dnn_ExportImport_Components_Entities_ExportImportJob_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.SetJobCancelled(Dnn.ExportImport.Components.Entities.ExportImportJob)">SetJobCancelled(ExportImportJob)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetJobCancelled(ExportImportJob job)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Dnn.ExportImport.Components.Entities.ExportImportJob.html">ExportImportJob</a></td>
+        <td><span class="parametername">job</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_SetJobCancelled_Dnn_ExportImport_Components_Entities_ExportImportJob__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_SetTabModuleDeleted_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.SetTabModuleDeleted(System.Int32%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L192">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_SetTabModuleDeleted_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.SetTabModuleDeleted*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_SetTabModuleDeleted_System_Int32_System_Boolean_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.SetTabModuleDeleted(System.Int32,System.Boolean)">SetTabModuleDeleted(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTabModuleDeleted(int tabModuleId, bool isDeleted)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabModuleId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isDeleted</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_SetTabModuleDeleted_System_Int32_System_Boolean__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_SetTabSpecificData_System_Int32_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.SetTabSpecificData(System.Int32%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L186">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_SetTabSpecificData_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.SetTabSpecificData*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_SetTabSpecificData_System_Int32_System_Boolean_System_Boolean_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.SetTabSpecificData(System.Int32,System.Boolean,System.Boolean)">SetTabSpecificData(Int32, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTabSpecificData(int tabId, bool isDeleted, bool isVisible)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tabId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isDeleted</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isVisible</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_SetTabSpecificData_System_Int32_System_Boolean_System_Boolean__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_SetUserDeleted_System_Int32_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.SetUserDeleted(System.Int32%2CSystem.Int32%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L198">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_SetUserDeleted_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.SetUserDeleted*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_SetUserDeleted_System_Int32_System_Int32_System_Boolean_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.SetUserDeleted(System.Int32,System.Int32,System.Boolean)">SetUserDeleted(Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetUserDeleted(int portalId, int userId, bool isDeleted)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isDeleted</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_SetUserDeleted_System_Int32_System_Int32_System_Boolean__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_UpdateJobChekpoint_Dnn_ExportImport_Components_Entities_ExportImportChekpoint_.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.UpdateJobChekpoint(Dnn.ExportImport.Components.Entities.ExportImportChekpoint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L104">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_UpdateJobChekpoint_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.UpdateJobChekpoint*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_UpdateJobChekpoint_Dnn_ExportImport_Components_Entities_ExportImportChekpoint_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.UpdateJobChekpoint(Dnn.ExportImport.Components.Entities.ExportImportChekpoint)">UpdateJobChekpoint(ExportImportChekpoint)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateJobChekpoint(ExportImportChekpoint checkpoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Dnn.ExportImport.Components.Entities.ExportImportChekpoint.html">ExportImportChekpoint</a></td>
+        <td><span class="parametername">checkpoint</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_UpdateJobChekpoint_Dnn_ExportImport_Components_Entities_ExportImportChekpoint__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_UpdateJobInfo_Dnn_ExportImport_Components_Entities_ExportImportJob_.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.UpdateJobInfo(Dnn.ExportImport.Components.Entities.ExportImportJob)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L74">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_UpdateJobInfo_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.UpdateJobInfo*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_UpdateJobInfo_Dnn_ExportImport_Components_Entities_ExportImportJob_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.UpdateJobInfo(Dnn.ExportImport.Components.Entities.ExportImportJob)">UpdateJobInfo(ExportImportJob)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateJobInfo(ExportImportJob job)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Dnn.ExportImport.Components.Entities.ExportImportJob.html">ExportImportJob</a></td>
+        <td><span class="parametername">job</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_UpdateJobInfo_Dnn_ExportImport_Components_Entities_ExportImportJob__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=Dnn_ExportImport_Components_Controllers_EntitiesController_UpdateJobStatus_Dnn_ExportImport_Components_Entities_ExportImportJob_.md&amp;value=---%0Auid%3A%20Dnn.ExportImport.Components.Controllers.EntitiesController.UpdateJobStatus(Dnn.ExportImport.Components.Entities.ExportImportJob)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L80">View Source</a>
+  </span>
+  <a id="Dnn_ExportImport_Components_Controllers_EntitiesController_UpdateJobStatus_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.UpdateJobStatus*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_EntitiesController_UpdateJobStatus_Dnn_ExportImport_Components_Entities_ExportImportJob_" data-uid="Dnn.ExportImport.Components.Controllers.EntitiesController.UpdateJobStatus(Dnn.ExportImport.Components.Entities.ExportImportJob)">UpdateJobStatus(ExportImportJob)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateJobStatus(ExportImportJob job)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Dnn.ExportImport.Components.Entities.ExportImportJob.html">ExportImportJob</a></td>
+        <td><span class="parametername">job</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Dnn_ExportImport_Components_Controllers_EntitiesController_UpdateJobStatus_Dnn_ExportImport_Components_Entities_ExportImportJob__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Dnn.ExportImport.Components.Interfaces.IEntitiesController.html">IEntitiesController</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html">ServiceLocator</a>&lt;TContract, TSelf&gt;</div>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Modules/DnnExportImport/Components/Controllers/EntitiesController.cs/#L23" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				container: selector,
+    				appId: 'ZPKP9SED9P',
+    				indexName: 'dnnsoftware',
+    				apiKey: '37bfc247275fb9e8fcecbda599134a30',
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('#docsearch-navbar'));  
+    </script>
+  </body>
+</html>

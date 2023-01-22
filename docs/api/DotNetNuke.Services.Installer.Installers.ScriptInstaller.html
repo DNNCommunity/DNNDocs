@@ -1,0 +1,782 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ScriptInstaller
+  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ScriptInstaller
+  -- DNN Docs">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://ZPKP9SED9P-dsn.algolia.net" crossorigin="">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@alpha">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+  
+  
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-137422488-1');
+    </script>  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <div class="navbar-right">
+                <div id="docsearch-navbar" class="navbar-form navbar-right"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Installer_Installers_ScriptInstaller.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Installers.ScriptInstaller%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller">
+
+
+  <h1 id="DotNetNuke_Services_Installer_Installers_ScriptInstaller" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller" class="text-break">Class ScriptInstaller
+</h1>
+  <div class="markdown level0 summary"><p>The ScriptInstaller installs Script Components to a DotNetNuke site.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="DotNetNuke.Services.Installer.Installers.ComponentInstallerBase.html">ComponentInstallerBase</a></div>
+    <div class="level2"><a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html">FileInstaller</a></div>
+    <div class="level3"><span class="xref">ScriptInstaller</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_SupportsManifestOnlyInstall">FileInstaller.SupportsManifestOnlyInstall</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_DeleteFiles">FileInstaller.DeleteFiles</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_Files">FileInstaller.Files</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_DefaultPath">FileInstaller.DefaultPath</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_PhysicalBasePath">FileInstaller.PhysicalBasePath</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_BasePath">FileInstaller.BasePath</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_ReadManifest_XPathNavigator_">FileInstaller.ReadManifest(XPathNavigator)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_CommitFile_DotNetNuke_Services_Installer_InstallFile_">FileInstaller.CommitFile(InstallFile)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_DeleteFile_DotNetNuke_Services_Installer_InstallFile_">FileInstaller.DeleteFile(InstallFile)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_InstallFile_DotNetNuke_Services_Installer_InstallFile_">FileInstaller.InstallFile(InstallFile)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_ReadCustomManifest_XPathNavigator_">FileInstaller.ReadCustomManifest(XPathNavigator)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_ReadManifestItem_XPathNavigator_System_Boolean_">FileInstaller.ReadManifestItem(XPathNavigator, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_RollbackFile_DotNetNuke_Services_Installer_InstallFile_">FileInstaller.RollbackFile(InstallFile)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.ComponentInstallerBase.html#DotNetNuke_Services_Installer_Installers_ComponentInstallerBase_InstallMode">ComponentInstallerBase.InstallMode</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.ComponentInstallerBase.html#DotNetNuke_Services_Installer_Installers_ComponentInstallerBase_Log">ComponentInstallerBase.Log</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.ComponentInstallerBase.html#DotNetNuke_Services_Installer_Installers_ComponentInstallerBase_PackageFiles">ComponentInstallerBase.PackageFiles</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.ComponentInstallerBase.html#DotNetNuke_Services_Installer_Installers_ComponentInstallerBase_PhysicalSitePath">ComponentInstallerBase.PhysicalSitePath</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.ComponentInstallerBase.html#DotNetNuke_Services_Installer_Installers_ComponentInstallerBase_Completed">ComponentInstallerBase.Completed</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.ComponentInstallerBase.html#DotNetNuke_Services_Installer_Installers_ComponentInstallerBase_Package">ComponentInstallerBase.Package</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.ComponentInstallerBase.html#DotNetNuke_Services_Installer_Installers_ComponentInstallerBase_Skipped">ComponentInstallerBase.Skipped</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.ComponentInstallerBase.html#DotNetNuke_Services_Installer_Installers_ComponentInstallerBase_Type">ComponentInstallerBase.Type</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.ComponentInstallerBase.html#DotNetNuke_Services_Installer_Installers_ComponentInstallerBase_Version">ComponentInstallerBase.Version</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Installer.Installers.ComponentInstallerBase.html#DotNetNuke_Services_Installer_Installers_ComponentInstallerBase_ReadEventMessageNode_XPathNavigator_">ComponentInstallerBase.ReadEventMessageNode(XPathNavigator)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Services.Installer.Installers.html">DotNetNuke.Services.Installer.Installers</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ScriptInstaller : FileInstaller</code></pre>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Installer_Installers_ScriptInstaller_AllowableFiles.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Installers.ScriptInstaller.AllowableFiles%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Installers/ScriptInstaller.cs/#L25">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_AllowableFiles_" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.AllowableFiles*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_AllowableFiles" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.AllowableFiles">AllowableFiles</h4>
+  <div class="markdown level1 summary"><p>Gets a list of allowable file extensions (in addition to the Host's List).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string AllowableFiles { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Installer.Installers.ComponentInstallerBase.html#DotNetNuke_Services_Installer_Installers_ComponentInstallerBase_AllowableFiles">ComponentInstallerBase.AllowableFiles</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Installer_Installers_ScriptInstaller_CollectionNodeName.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Installers.ScriptInstaller.CollectionNodeName%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Installers/ScriptInstaller.cs/#L61">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_CollectionNodeName_" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.CollectionNodeName*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_CollectionNodeName" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.CollectionNodeName">CollectionNodeName</h4>
+  <div class="markdown level1 summary"><p>Gets the name of the Collection Node (<code>scripts</code>).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override string CollectionNodeName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_CollectionNodeName">FileInstaller.CollectionNodeName</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Installer_Installers_ScriptInstaller_InstallScript.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Installers.ScriptInstaller.InstallScript%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Installers/ScriptInstaller.cs/#L34">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_InstallScript_" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.InstallScript*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_InstallScript" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.InstallScript">InstallScript</h4>
+  <div class="markdown level1 summary"><p>Gets the base Install Script (if present).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected InstallFile InstallScript { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Installer.InstallFile.html">InstallFile</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Installer_Installers_ScriptInstaller_InstallScripts.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Installers.ScriptInstaller.InstallScripts%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Installers/ScriptInstaller.cs/#L43">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_InstallScripts_" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.InstallScripts*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_InstallScripts" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.InstallScripts">InstallScripts</h4>
+  <div class="markdown level1 summary"><p>Gets the collection of versioned Install Scripts.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SortedList&lt;Version, InstallFile&gt; InstallScripts { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SortedList</span>&lt;<span class="xref">Version</span>, <a class="xref" href="DotNetNuke.Services.Installer.InstallFile.html">InstallFile</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Installer_Installers_ScriptInstaller_ItemNodeName.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Installers.ScriptInstaller.ItemNodeName%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Installers/ScriptInstaller.cs/#L70">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_ItemNodeName_" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.ItemNodeName*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_ItemNodeName" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.ItemNodeName">ItemNodeName</h4>
+  <div class="markdown level1 summary"><p>Gets the name of the Item Node (<code>script</code>).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override string ItemNodeName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_ItemNodeName">FileInstaller.ItemNodeName</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Installer_Installers_ScriptInstaller_PostUpgradeScripts.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Installers.ScriptInstaller.PostUpgradeScripts%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Installers/ScriptInstaller.cs/#L101">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_PostUpgradeScripts_" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.PostUpgradeScripts*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_PostUpgradeScripts" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.PostUpgradeScripts">PostUpgradeScripts</h4>
+  <div class="markdown level1 summary"><p>Gets a list of Post-Upgrade Scripts (if present) - these scripts will always run after and versioned upgrade scripts and also after initial install.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IList&lt;InstallFile&gt; PostUpgradeScripts { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<a class="xref" href="DotNetNuke.Services.Installer.InstallFile.html">InstallFile</a>&gt;</td>
+        <td><p>A list of <a class="xref" href="DotNetNuke.Services.Installer.InstallFile.html">InstallFile</a> instances.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Installer_Installers_ScriptInstaller_PreUpgradeScripts.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Installers.ScriptInstaller.PreUpgradeScripts%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Installers/ScriptInstaller.cs/#L88">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_PreUpgradeScripts_" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.PreUpgradeScripts*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_PreUpgradeScripts" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.PreUpgradeScripts">PreUpgradeScripts</h4>
+  <div class="markdown level1 summary"><p>Gets a list of Pre-Upgrade Scripts (if present) - these scripts will always run before any upgrade scripts but not upon initial installation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IList&lt;InstallFile&gt; PreUpgradeScripts { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<a class="xref" href="DotNetNuke.Services.Installer.InstallFile.html">InstallFile</a>&gt;</td>
+        <td><p>A list of <a class="xref" href="DotNetNuke.Services.Installer.InstallFile.html">InstallFile</a> instances.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Installer_Installers_ScriptInstaller_ProviderConfiguration.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Installers.ScriptInstaller.ProviderConfiguration%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Installers/ScriptInstaller.cs/#L78">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_ProviderConfiguration_" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.ProviderConfiguration*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_ProviderConfiguration" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.ProviderConfiguration">ProviderConfiguration</h4>
+  <div class="markdown level1 summary"><p>The ScriptInstaller installs Script Components to a DotNetNuke site.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ProviderConfiguration ProviderConfiguration { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Framework.Providers.ProviderConfiguration.html">ProviderConfiguration</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Installer_Installers_ScriptInstaller_UnInstallScripts.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Installers.ScriptInstaller.UnInstallScripts%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Installers/ScriptInstaller.cs/#L52">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_UnInstallScripts_" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.UnInstallScripts*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_UnInstallScripts" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.UnInstallScripts">UnInstallScripts</h4>
+  <div class="markdown level1 summary"><p>Gets the collection of UnInstall Scripts.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SortedList&lt;Version, InstallFile&gt; UnInstallScripts { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SortedList</span>&lt;<span class="xref">Version</span>, <a class="xref" href="DotNetNuke.Services.Installer.InstallFile.html">InstallFile</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Installer_Installers_ScriptInstaller_UpgradeScript.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Installers.ScriptInstaller.UpgradeScript%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Installers/ScriptInstaller.cs/#L96">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_UpgradeScript_" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.UpgradeScript*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_UpgradeScript" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.UpgradeScript">UpgradeScript</h4>
+  <div class="markdown level1 summary"><p>The ScriptInstaller installs Script Components to a DotNetNuke site.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected InstallFile UpgradeScript { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Installer.InstallFile.html">InstallFile</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Installer_Installers_ScriptInstaller_Commit.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Installers.ScriptInstaller.Commit%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Installers/ScriptInstaller.cs/#L110">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_Commit_" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.Commit*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_Commit" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.Commit">Commit()</h4>
+  <div class="markdown level1 summary"><p>The Commit method finalizes the Install and commits any pending changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Commit()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_Commit">FileInstaller.Commit()</a></div>
+  <h5 id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_Commit_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>In the case of Files this is not necessary.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Installer_Installers_ScriptInstaller_Install.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Installers.ScriptInstaller.Install%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Installers/ScriptInstaller.cs/#L116">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_Install_" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.Install*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_Install" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.Install">Install()</h4>
+  <div class="markdown level1 summary"><p>The Install method installs the file component.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Install()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_Install">FileInstaller.Install()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Installer_Installers_ScriptInstaller_IsCorrectType_DotNetNuke_Services_Installer_InstallFileType_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Installers.ScriptInstaller.IsCorrectType(DotNetNuke.Services.Installer.InstallFileType)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Installers/ScriptInstaller.cs/#L218">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_IsCorrectType_" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.IsCorrectType*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_IsCorrectType_DotNetNuke_Services_Installer_InstallFileType_" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.IsCorrectType(DotNetNuke.Services.Installer.InstallFileType)">IsCorrectType(InstallFileType)</h4>
+  <div class="markdown level1 summary"><p>Gets a flag that determines what type of file this installer supports.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool IsCorrectType(InstallFileType type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Installer.InstallFileType.html">InstallFileType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The type of file being processed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if this is the correct <code data-dev-comment-type="paramref" class="paramref">type</code>, otherwise <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_IsCorrectType_DotNetNuke_Services_Installer_InstallFileType_">FileInstaller.IsCorrectType(InstallFileType)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Installer_Installers_ScriptInstaller_ProcessFile_DotNetNuke_Services_Installer_InstallFile_XPathNavigator_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Installers.ScriptInstaller.ProcessFile(DotNetNuke.Services.Installer.InstallFile%2CXPathNavigator)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Installers/ScriptInstaller.cs/#L224">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_ProcessFile_" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.ProcessFile*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_ProcessFile_DotNetNuke_Services_Installer_InstallFile_XPathNavigator_" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.ProcessFile(DotNetNuke.Services.Installer.InstallFile,XPathNavigator)">ProcessFile(InstallFile, XPathNavigator)</h4>
+  <div class="markdown level1 summary"><p>The ProcessFile method determines what to do with parsed &quot;file&quot; node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void ProcessFile(InstallFile file, XPathNavigator nav)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Installer.InstallFile.html">InstallFile</a></td>
+        <td><span class="parametername">file</span></td>
+        <td><p>The file represented by the node.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">XPathNavigator</span></td>
+        <td><span class="parametername">nav</span></td>
+        <td><p>The XPathNavigator representing the node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_ProcessFile_DotNetNuke_Services_Installer_InstallFile_XPathNavigator_">FileInstaller.ProcessFile(InstallFile, XPathNavigator)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Installer_Installers_ScriptInstaller_Rollback.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Installers.ScriptInstaller.Rollback%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Installers/ScriptInstaller.cs/#L201">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_Rollback_" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.Rollback*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_Rollback" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.Rollback">Rollback()</h4>
+  <div class="markdown level1 summary"><p>The Rollback method undoes the installation of the file component in the event that one of the other components fails.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Rollback()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_Rollback">FileInstaller.Rollback()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Installer_Installers_ScriptInstaller_UnInstall.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Installers.ScriptInstaller.UnInstall%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Installers/ScriptInstaller.cs/#L207">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_UnInstall_" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.UnInstall*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_UnInstall" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.UnInstall">UnInstall()</h4>
+  <div class="markdown level1 summary"><p>The UnInstall method uninstalls the file component.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void UnInstall()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_UnInstall">FileInstaller.UnInstall()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Installer_Installers_ScriptInstaller_UnInstallFile_DotNetNuke_Services_Installer_InstallFile_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Installer.Installers.ScriptInstaller.UnInstallFile(DotNetNuke.Services.Installer.InstallFile)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Installers/ScriptInstaller.cs/#L273">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_UnInstallFile_" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.UnInstallFile*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Installers_ScriptInstaller_UnInstallFile_DotNetNuke_Services_Installer_InstallFile_" data-uid="DotNetNuke.Services.Installer.Installers.ScriptInstaller.UnInstallFile(DotNetNuke.Services.Installer.InstallFile)">UnInstallFile(InstallFile)</h4>
+  <div class="markdown level1 summary"><p>The UnInstallFile method unInstalls a single file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void UnInstallFile(InstallFile scriptFile)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Installer.InstallFile.html">InstallFile</a></td>
+        <td><span class="parametername">scriptFile</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Installer.Installers.FileInstaller.html#DotNetNuke_Services_Installer_Installers_FileInstaller_UnInstallFile_DotNetNuke_Services_Installer_InstallFile_">FileInstaller.UnInstallFile(InstallFile)</a></div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Installer/Installers/ScriptInstaller.cs/#L16" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				container: selector,
+    				appId: 'ZPKP9SED9P',
+    				indexName: 'dnnsoftware',
+    				apiKey: '37bfc247275fb9e8fcecbda599134a30',
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('#docsearch-navbar'));  
+    </script>
+  </body>
+</html>

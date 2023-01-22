@@ -1,0 +1,1508 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FileInfo
+  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FileInfo
+  -- DNN Docs">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://ZPKP9SED9P-dsn.algolia.net" crossorigin="">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@alpha">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+  
+  
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-137422488-1');
+    </script>  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <div class="navbar-right">
+                <div id="docsearch-navbar" class="navbar-form navbar-right"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Services.FileSystem.FileInfo">
+
+
+  <h1 id="DotNetNuke_Services_FileSystem_FileInfo" data-uid="DotNetNuke.Services.FileSystem.FileInfo" class="text-break">Class FileInfo
+</h1>
+  <div class="markdown level0 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html">BaseEntityInfo</a></div>
+    <div class="level2"><span class="xref">FileInfo</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="DotNetNuke.Entities.Modules.IHydratable.html">IHydratable</a></div>
+    <div><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_CreatedByUserID">BaseEntityInfo.CreatedByUserID</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_CreatedOnDate">BaseEntityInfo.CreatedOnDate</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_LastModifiedByUserID">BaseEntityInfo.LastModifiedByUserID</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_LastModifiedOnDate">BaseEntityInfo.LastModifiedOnDate</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_CreatedByUser_System_Int32_">BaseEntityInfo.CreatedByUser(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_LastModifiedByUser_System_Int32_">BaseEntityInfo.LastModifiedByUser(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_FillInternal_IDataReader_">BaseEntityInfo.FillInternal(IDataReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_CloneBaseProperties_DotNetNuke_Entities_BaseEntityInfo_DotNetNuke_Entities_BaseEntityInfo_">BaseEntityInfo.CloneBaseProperties(BaseEntityInfo, BaseEntityInfo)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Services.FileSystem.html">DotNetNuke.Services.FileSystem</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Services_FileSystem_FileInfo_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FileInfo : BaseEntityInfo, IHydratable, IFileInfo</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo__ctor.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L40">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo__ctor_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.#ctor*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo__ctor" data-uid="DotNetNuke.Services.FileSystem.FileInfo.#ctor">FileInfo()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.Services.FileSystem.FileInfo.html">FileInfo</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FileInfo()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo__ctor_Guid_Guid_System_Int32_System_String_System_String_System_Int32_System_Int32_System_Int32_System_String_System_String_System_Int32_System_Int32_System_Boolean_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.%23ctor(Guid%2CGuid%2CSystem.Int32%2CSystem.String%2CSystem.String%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.String%2CSystem.String%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L96">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo__ctor_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.#ctor*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo__ctor_Guid_Guid_System_Int32_System_String_System_String_System_Int32_System_Int32_System_Int32_System_String_System_String_System_Int32_System_Int32_System_Boolean_System_String_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.#ctor(Guid,Guid,System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32,System.Int32,System.Boolean,System.String)">FileInfo(Guid, Guid, Int32, String, String, Int32, Int32, Int32, String, String, Int32, Int32, Boolean, String)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.Services.FileSystem.FileInfo.html">FileInfo</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FileInfo(Guid uniqueId, Guid versionGuid, int portalId, string filename, string extension, int filesize, int width, int height, string contentType, string folder, int folderId, int storageLocation, bool cached, string hash)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Guid</span></td>
+        <td><span class="parametername">uniqueId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Guid</span></td>
+        <td><span class="parametername">versionGuid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filename</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">extension</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">filesize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">contentType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">folder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">folderId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">storageLocation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">cached</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">hash</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo__ctor_System_Int32_System_String_System_String_System_Int32_System_Int32_System_Int32_System_String_System_String_System_Int32_System_Int32_System_Boolean_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.%23ctor(System.Int32%2CSystem.String%2CSystem.String%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.String%2CSystem.String%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L76">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo__ctor_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.#ctor*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo__ctor_System_Int32_System_String_System_String_System_Int32_System_Int32_System_Int32_System_String_System_String_System_Int32_System_Int32_System_Boolean_System_String_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.#ctor(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32,System.Int32,System.Boolean,System.String)">FileInfo(Int32, String, String, Int32, Int32, Int32, String, String, Int32, Int32, Boolean, String)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.Services.FileSystem.FileInfo.html">FileInfo</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FileInfo(int portalId, string filename, string extension, int filesize, int width, int height, string contentType, string folder, int folderId, int storageLocation, bool cached, string hash)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filename</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">extension</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">filesize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">contentType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">folder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">folderId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">storageLocation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">cached</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">hash</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo__ctor_System_Int32_System_String_System_String_System_Int32_System_Int32_System_Int32_System_String_System_String_System_Int32_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.%23ctor(System.Int32%2CSystem.String%2CSystem.String%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.String%2CSystem.String%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L58">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo__ctor_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.#ctor*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo__ctor_System_Int32_System_String_System_String_System_Int32_System_Int32_System_Int32_System_String_System_String_System_Int32_System_Int32_System_Boolean_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.#ctor(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32,System.Int32,System.Boolean)">FileInfo(Int32, String, String, Int32, Int32, Int32, String, String, Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.Services.FileSystem.FileInfo.html">FileInfo</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FileInfo(int portalId, string filename, string extension, int filesize, int width, int height, string contentType, string folder, int folderId, int storageLocation, bool cached)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filename</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">extension</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">filesize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">contentType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">folder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">folderId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">storageLocation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">cached</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_ContentItemID.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.ContentItemID%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L442">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_ContentItemID_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.ContentItemID*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_ContentItemID" data-uid="DotNetNuke.Services.FileSystem.FileInfo.ContentItemID">ContentItemID</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a reference to ContentItem, to use in Workflows.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ContentItemID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_ContentType.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.ContentType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L245">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_ContentType_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.ContentType*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_ContentType" data-uid="DotNetNuke.Services.FileSystem.FileInfo.ContentType">ContentType</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ContentType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_Description.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.Description%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L422">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_Description_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.Description*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_Description" data-uid="DotNetNuke.Services.FileSystem.FileInfo.Description">Description</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Description { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_EnablePublishPeriod.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.EnablePublishPeriod%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L431">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_EnablePublishPeriod_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.EnablePublishPeriod*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_EnablePublishPeriod" data-uid="DotNetNuke.Services.FileSystem.FileInfo.EnablePublishPeriod">EnablePublishPeriod</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether publish period is enabled for the file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool EnablePublishPeriod { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_EndDate.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.EndDate%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L428">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_EndDate_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.EndDate*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_EndDate" data-uid="DotNetNuke.Services.FileSystem.FileInfo.EndDate">EndDate</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the date on which the file ends to be published.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime EndDate { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_Extension.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.Extension%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L249">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_Extension_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.Extension*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_Extension" data-uid="DotNetNuke.Services.FileSystem.FileInfo.Extension">Extension</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Extension { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_FileAttributes.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.FileAttributes%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L191">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_FileAttributes_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.FileAttributes*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_FileAttributes" data-uid="DotNetNuke.Services.FileSystem.FileInfo.FileAttributes">FileAttributes</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FileAttributes? FileAttributes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">FileAttributes</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_FileId.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.FileId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L253">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_FileId_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.FileId*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_FileId" data-uid="DotNetNuke.Services.FileSystem.FileInfo.FileId">FileId</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FileId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_FileName.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.FileName%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L265">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_FileName_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.FileName*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_FileName" data-uid="DotNetNuke.Services.FileSystem.FileInfo.FileName">FileName</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FileName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_Folder.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.Folder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L269">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_Folder_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.Folder*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_Folder" data-uid="DotNetNuke.Services.FileSystem.FileInfo.Folder">Folder</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Folder { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_FolderId.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.FolderId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L290">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_FolderId_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.FolderId*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_FolderId" data-uid="DotNetNuke.Services.FileSystem.FileInfo.FolderId">FolderId</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FolderId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_FolderMappingID.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.FolderMappingID%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L375">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_FolderMappingID_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.FolderMappingID*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_FolderMappingID" data-uid="DotNetNuke.Services.FileSystem.FileInfo.FolderMappingID">FolderMappingID</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FolderMappingID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_HasBeenPublished.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.HasBeenPublished%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L437">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_HasBeenPublished_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.HasBeenPublished*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_HasBeenPublished" data-uid="DotNetNuke.Services.FileSystem.FileInfo.HasBeenPublished">HasBeenPublished</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether gets a flag which says whether the file has ever been published.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBeenPublished { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_Height.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.Height%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L115">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_Height_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.Height*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_Height" data-uid="DotNetNuke.Services.FileSystem.FileInfo.Height">Height</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Height { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_IsCached.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.IsCached%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L135">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_IsCached_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.IsCached*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_IsCached" data-uid="DotNetNuke.Services.FileSystem.FileInfo.IsCached">IsCached</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCached { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_IsEnabled.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.IsEnabled%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L234">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_IsEnabled_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.IsEnabled*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_IsEnabled" data-uid="DotNetNuke.Services.FileSystem.FileInfo.IsEnabled">IsEnabled</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the file is enabled,
+considering if the publish period is active and if the current date is within the publish period.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEnabled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_KeyID.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.KeyID%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L445">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_KeyID_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.KeyID*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_KeyID" data-uid="DotNetNuke.Services.FileSystem.FileInfo.KeyID">KeyID</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int KeyID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_LastModificationTime.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.LastModificationTime%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L347">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_LastModificationTime_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.LastModificationTime*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_LastModificationTime" data-uid="DotNetNuke.Services.FileSystem.FileInfo.LastModificationTime">LastModificationTime</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime LastModificationTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_PhysicalPath.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.PhysicalPath%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L139">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_PhysicalPath_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.PhysicalPath*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_PhysicalPath" data-uid="DotNetNuke.Services.FileSystem.FileInfo.PhysicalPath">PhysicalPath</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PhysicalPath { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_PortalId.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.PortalId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L294">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_PortalId_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.PortalId*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_PortalId" data-uid="DotNetNuke.Services.FileSystem.FileInfo.PortalId">PortalId</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PortalId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_PublishedVersion.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.PublishedVersion%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L434">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_PublishedVersion_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.PublishedVersion*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_PublishedVersion" data-uid="DotNetNuke.Services.FileSystem.FileInfo.PublishedVersion">PublishedVersion</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the published version number of the file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PublishedVersion { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_RelativePath.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.RelativePath%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L182">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_RelativePath_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.RelativePath*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_RelativePath" data-uid="DotNetNuke.Services.FileSystem.FileInfo.RelativePath">RelativePath</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RelativePath { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_SHA1Hash.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.SHA1Hash%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L327">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_SHA1Hash_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.SHA1Hash*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_SHA1Hash" data-uid="DotNetNuke.Services.FileSystem.FileInfo.SHA1Hash">SHA1Hash</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SHA1Hash { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_Size.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.Size%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L299">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_Size_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.Size*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_Size" data-uid="DotNetNuke.Services.FileSystem.FileInfo.Size">Size</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Size { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_StartDate.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.StartDate%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L425">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_StartDate_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.StartDate*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_StartDate" data-uid="DotNetNuke.Services.FileSystem.FileInfo.StartDate">StartDate</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the date on which the file starts to be published.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime StartDate { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_StorageLocation.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.StorageLocation%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L303">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_StorageLocation_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.StorageLocation*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_StorageLocation" data-uid="DotNetNuke.Services.FileSystem.FileInfo.StorageLocation">StorageLocation</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int StorageLocation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_SupportsFileAttributes.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.SupportsFileAttributes%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L208">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_SupportsFileAttributes_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.SupportsFileAttributes*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_SupportsFileAttributes" data-uid="DotNetNuke.Services.FileSystem.FileInfo.SupportsFileAttributes">SupportsFileAttributes</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SupportsFileAttributes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_Title.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.Title%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L419">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_Title_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.Title*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_Title" data-uid="DotNetNuke.Services.FileSystem.FileInfo.Title">Title</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a metadata field with an optional title associated to the file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Title { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_UniqueId.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.UniqueId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L257">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_UniqueId_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.UniqueId*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_UniqueId" data-uid="DotNetNuke.Services.FileSystem.FileInfo.UniqueId">UniqueId</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid UniqueId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Guid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_VersionGuid.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.VersionGuid%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L261">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_VersionGuid_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.VersionGuid*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_VersionGuid" data-uid="DotNetNuke.Services.FileSystem.FileInfo.VersionGuid">VersionGuid</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid VersionGuid { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Guid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_Width.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.Width%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L307">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_Width_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.Width*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_Width" data-uid="DotNetNuke.Services.FileSystem.FileInfo.Width">Width</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Width { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileInfo_Fill_IDataReader_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileInfo.Fill(IDataReader)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L461">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileInfo_Fill_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.Fill*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileInfo_Fill_IDataReader_" data-uid="DotNetNuke.Services.FileSystem.FileInfo.Fill(IDataReader)">Fill(IDataReader)</h4>
+  <div class="markdown level1 summary"><p>Represents the File object and holds the Properties of that object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Fill(IDataReader dr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Entities.Modules.IHydratable.html">IHydratable</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileInfo.cs/#L25" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				container: selector,
+    				appId: 'ZPKP9SED9P',
+    				indexName: 'dnnsoftware',
+    				apiKey: '37bfc247275fb9e8fcecbda599134a30',
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('#docsearch-navbar'));  
+    </script>
+  </body>
+</html>

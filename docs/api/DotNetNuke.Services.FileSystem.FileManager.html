@@ -1,0 +1,2220 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FileManager
+  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FileManager
+  -- DNN Docs">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://ZPKP9SED9P-dsn.algolia.net" crossorigin="">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@alpha">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+  
+  
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-137422488-1');
+    </script>  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <div class="navbar-right">
+                <div id="docsearch-navbar" class="navbar-form navbar-right"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Services.FileSystem.FileManager">
+
+
+  <h1 id="DotNetNuke_Services_FileSystem_FileManager" data-uid="DotNetNuke.Services.FileSystem.FileManager" class="text-break">Class FileManager
+</h1>
+  <div class="markdown level0 summary"><p>Exposes methods to manage files.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="DotNetNuke.ComponentModel.ComponentBase-2.html">ComponentBase</a>&lt;<a class="xref" href="DotNetNuke.Services.FileSystem.IFileManager.html">IFileManager</a>, <a class="xref" href="DotNetNuke.Services.FileSystem.FileManager.html">FileManager</a>&gt;</div>
+    <div class="level2"><span class="xref">FileManager</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="DotNetNuke.Services.FileSystem.IFileManager.html">IFileManager</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.ComponentModel.ComponentBase-2.html#DotNetNuke_ComponentModel_ComponentBase_2_Instance">ComponentBase&lt;IFileManager, FileManager&gt;.Instance</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.ComponentModel.ComponentBase-2.html#DotNetNuke_ComponentModel_ComponentBase_2_RegisterInstance__0_">ComponentBase&lt;IFileManager, FileManager&gt;.RegisterInstance(IFileManager)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Services.FileSystem.html">DotNetNuke.Services.FileSystem</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Services_FileSystem_FileManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FileManager : ComponentBase&lt;IFileManager, FileManager&gt;, IFileManager</code></pre>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_ContentTypes.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.ContentTypes%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L47">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_ContentTypes_" data-uid="DotNetNuke.Services.FileSystem.FileManager.ContentTypes*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_ContentTypes" data-uid="DotNetNuke.Services.FileSystem.FileManager.ContentTypes">ContentTypes</h4>
+  <div class="markdown level1 summary"><p>Gets the system defined content types.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IDictionary&lt;string, string&gt; ContentTypes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_WhiteList.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.WhiteList%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L53">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_WhiteList_" data-uid="DotNetNuke.Services.FileSystem.FileManager.WhiteList*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_WhiteList" data-uid="DotNetNuke.Services.FileSystem.FileManager.WhiteList">WhiteList</h4>
+  <div class="markdown level1 summary"><p>Gets current user's file upload extension whitelist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FileExtensionWhitelist WhiteList { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Common.Utilities.FileExtensionWhitelist.html">FileExtensionWhitelist</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_AddFile_DotNetNuke_Services_FileSystem_IFolderInfo_System_String_Stream_System_Boolean_System_Boolean_System_Boolean_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.AddFile(DotNetNuke.Services.FileSystem.IFolderInfo%2CSystem.String%2CStream%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L152">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_AddFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.AddFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_AddFile_DotNetNuke_Services_FileSystem_IFolderInfo_System_String_Stream_System_Boolean_System_Boolean_System_Boolean_System_String_System_Int32_" data-uid="DotNetNuke.Services.FileSystem.FileManager.AddFile(DotNetNuke.Services.FileSystem.IFolderInfo,System.String,Stream,System.Boolean,System.Boolean,System.Boolean,System.String,System.Int32)">AddFile(IFolderInfo, String, Stream, Boolean, Boolean, Boolean, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Adds a file to the specified folder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IFileInfo AddFile(IFolderInfo folder, string fileName, Stream fileContent, bool overwrite, bool checkPermissions, bool ignoreWhiteList, string contentType, int createdByUserID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFolderInfo.html">IFolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td><p>The folder where to add the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The name of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><span class="parametername">fileContent</span></td>
+        <td><p>The content of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">overwrite</span></td>
+        <td><p>Indicates if the file has to be over-written if it exists.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">checkPermissions</span></td>
+        <td><p>Indicates if permissions have to be met.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ignoreWhiteList</span></td>
+        <td><p>Indicates whether the whitelist should be ignored.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">contentType</span></td>
+        <td><p>The content type of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">createdByUserID</span></td>
+        <td><p>ID of the user that creates the file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><p>A <a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a> as specified by the parameters.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderProviderException.html">FolderProviderException</a></td>
+        <td><p>Thrown when the underlying system throw an exception.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.InvalidFileExtensionException.html">InvalidFileExtensionException</a></td>
+        <td><p>Thrown when the extension of the specified file is not allowed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.NoSpaceAvailableException.html">NoSpaceAvailableException</a></td>
+        <td><p>Thrown when the portal has no space available to store the specified file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.PermissionsNotMetException.html">PermissionsNotMetException</a></td>
+        <td><p>Thrown when permissions are not met.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_AddFile_DotNetNuke_Services_FileSystem_IFolderInfo_System_String_Stream_System_Boolean_System_Boolean_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.AddFile(DotNetNuke.Services.FileSystem.IFolderInfo%2CSystem.String%2CStream%2CSystem.Boolean%2CSystem.Boolean%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L132">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_AddFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.AddFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_AddFile_DotNetNuke_Services_FileSystem_IFolderInfo_System_String_Stream_System_Boolean_System_Boolean_System_String_System_Int32_" data-uid="DotNetNuke.Services.FileSystem.FileManager.AddFile(DotNetNuke.Services.FileSystem.IFolderInfo,System.String,Stream,System.Boolean,System.Boolean,System.String,System.Int32)">AddFile(IFolderInfo, String, Stream, Boolean, Boolean, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Adds a file to the specified folder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IFileInfo AddFile(IFolderInfo folder, string fileName, Stream fileContent, bool overwrite, bool checkPermissions, string contentType, int createdByUserID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFolderInfo.html">IFolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td><p>The folder where to add the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The name of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><span class="parametername">fileContent</span></td>
+        <td><p>The content of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">overwrite</span></td>
+        <td><p>Indicates if the file has to be over-written if it exists.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">checkPermissions</span></td>
+        <td><p>Indicates if permissions have to be met.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">contentType</span></td>
+        <td><p>The content type of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">createdByUserID</span></td>
+        <td><p>ID of the user that creates the file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><p>A <a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a> as specified by the parameters.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderProviderException.html">FolderProviderException</a></td>
+        <td><p>Thrown when the underlying system throw an exception.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.InvalidFileExtensionException.html">InvalidFileExtensionException</a></td>
+        <td><p>Thrown when the extension of the specified file is not allowed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.NoSpaceAvailableException.html">NoSpaceAvailableException</a></td>
+        <td><p>Thrown when the portal has no space available to store the specified file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.PermissionsNotMetException.html">PermissionsNotMetException</a></td>
+        <td><p>Thrown when permissions are not met.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_AddFile_DotNetNuke_Services_FileSystem_IFolderInfo_System_String_Stream_System_Boolean_System_Boolean_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.AddFile(DotNetNuke.Services.FileSystem.IFolderInfo%2CSystem.String%2CStream%2CSystem.Boolean%2CSystem.Boolean%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L113">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_AddFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.AddFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_AddFile_DotNetNuke_Services_FileSystem_IFolderInfo_System_String_Stream_System_Boolean_System_Boolean_System_String_" data-uid="DotNetNuke.Services.FileSystem.FileManager.AddFile(DotNetNuke.Services.FileSystem.IFolderInfo,System.String,Stream,System.Boolean,System.Boolean,System.String)">AddFile(IFolderInfo, String, Stream, Boolean, Boolean, String)</h4>
+  <div class="markdown level1 summary"><p>Adds a file to the specified folder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IFileInfo AddFile(IFolderInfo folder, string fileName, Stream fileContent, bool overwrite, bool checkPermissions, string contentType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFolderInfo.html">IFolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td><p>The folder where to add the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The name of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><span class="parametername">fileContent</span></td>
+        <td><p>The content of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">overwrite</span></td>
+        <td><p>Indicates if the file has to be over-written if it exists.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">checkPermissions</span></td>
+        <td><p>Indicates if permissions have to be met.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">contentType</span></td>
+        <td><p>The content type of the file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><p>A <a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a> as specified by the parameters.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderProviderException.html">FolderProviderException</a></td>
+        <td><p>Thrown when the underlying system throw an exception.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.InvalidFileExtensionException.html">InvalidFileExtensionException</a></td>
+        <td><p>Thrown when the extension of the specified file is not allowed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.NoSpaceAvailableException.html">NoSpaceAvailableException</a></td>
+        <td><p>Thrown when the portal has no space available to store the specified file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.PermissionsNotMetException.html">PermissionsNotMetException</a></td>
+        <td><p>Thrown when permissions are not met.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_AddFile_DotNetNuke_Services_FileSystem_IFolderInfo_System_String_Stream_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.AddFile(DotNetNuke.Services.FileSystem.IFolderInfo%2CSystem.String%2CStream%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L95">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_AddFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.AddFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_AddFile_DotNetNuke_Services_FileSystem_IFolderInfo_System_String_Stream_System_Boolean_" data-uid="DotNetNuke.Services.FileSystem.FileManager.AddFile(DotNetNuke.Services.FileSystem.IFolderInfo,System.String,Stream,System.Boolean)">AddFile(IFolderInfo, String, Stream, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Adds a file to the specified folder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IFileInfo AddFile(IFolderInfo folder, string fileName, Stream fileContent, bool overwrite)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFolderInfo.html">IFolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td><p>The folder where to add the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The name of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><span class="parametername">fileContent</span></td>
+        <td><p>The content of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">overwrite</span></td>
+        <td><p>Indicates if the file has to be over-written if it exits.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><p>A <a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a> as specified by the parameters.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_AddFile_DotNetNuke_Services_FileSystem_IFolderInfo_System_String_Stream_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.AddFile(DotNetNuke.Services.FileSystem.IFolderInfo%2CSystem.String%2CStream)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L84">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_AddFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.AddFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_AddFile_DotNetNuke_Services_FileSystem_IFolderInfo_System_String_Stream_" data-uid="DotNetNuke.Services.FileSystem.FileManager.AddFile(DotNetNuke.Services.FileSystem.IFolderInfo,System.String,Stream)">AddFile(IFolderInfo, String, Stream)</h4>
+  <div class="markdown level1 summary"><p>Adds a file to the specified folder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IFileInfo AddFile(IFolderInfo folder, string fileName, Stream fileContent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFolderInfo.html">IFolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td><p>The folder where to add the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The name of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><span class="parametername">fileContent</span></td>
+        <td><p>The content of the file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><p>A <a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a> as specified by the parameters.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_CopyFile_DotNetNuke_Services_FileSystem_IFileInfo_DotNetNuke_Services_FileSystem_IFolderInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.CopyFile(DotNetNuke.Services.FileSystem.IFileInfo%2CDotNetNuke.Services.FileSystem.IFolderInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L349">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_CopyFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.CopyFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_CopyFile_DotNetNuke_Services_FileSystem_IFileInfo_DotNetNuke_Services_FileSystem_IFolderInfo_" data-uid="DotNetNuke.Services.FileSystem.FileManager.CopyFile(DotNetNuke.Services.FileSystem.IFileInfo,DotNetNuke.Services.FileSystem.IFolderInfo)">CopyFile(IFileInfo, IFolderInfo)</h4>
+  <div class="markdown level1 summary"><p>Copies the specified file into the specified folder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IFileInfo CopyFile(IFileInfo file, IFolderInfo destinationFolder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><span class="parametername">file</span></td>
+        <td><p>The file to copy.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFolderInfo.html">IFolderInfo</a></td>
+        <td><span class="parametername">destinationFolder</span></td>
+        <td><p>The folder where to copy the file to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><p>A <a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a> with the information of the copied file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_DeleteFile_DotNetNuke_Services_FileSystem_IFileInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.DeleteFile(DotNetNuke.Services.FileSystem.IFileInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L435">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_DeleteFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.DeleteFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_DeleteFile_DotNetNuke_Services_FileSystem_IFileInfo_" data-uid="DotNetNuke.Services.FileSystem.FileManager.DeleteFile(DotNetNuke.Services.FileSystem.IFileInfo)">DeleteFile(IFileInfo)</h4>
+  <div class="markdown level1 summary"><p>Deletes the specified file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void DeleteFile(IFileInfo file)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><span class="parametername">file</span></td>
+        <td><p>The file to delete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderProviderException.html">FolderProviderException</a></td>
+        <td><p>Thrown when the underlying system throw an exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_DeleteFiles_IEnumerable_DotNetNuke_Services_FileSystem_IFileInfo__.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.DeleteFiles(IEnumerable%7BDotNetNuke.Services.FileSystem.IFileInfo%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L448">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_DeleteFiles_" data-uid="DotNetNuke.Services.FileSystem.FileManager.DeleteFiles*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_DeleteFiles_IEnumerable_DotNetNuke_Services_FileSystem_IFileInfo__" data-uid="DotNetNuke.Services.FileSystem.FileManager.DeleteFiles(IEnumerable{DotNetNuke.Services.FileSystem.IFileInfo})">DeleteFiles(IEnumerable&lt;IFileInfo&gt;)</h4>
+  <div class="markdown level1 summary"><p>Deletes the specified files.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void DeleteFiles(IEnumerable&lt;IFileInfo&gt; files)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a>&gt;</td>
+        <td><span class="parametername">files</span></td>
+        <td><p>The files to delete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_FileExists_DotNetNuke_Services_FileSystem_IFolderInfo_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.FileExists(DotNetNuke.Services.FileSystem.IFolderInfo%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L478">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_FileExists_" data-uid="DotNetNuke.Services.FileSystem.FileManager.FileExists*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_FileExists_DotNetNuke_Services_FileSystem_IFolderInfo_System_String_System_Boolean_" data-uid="DotNetNuke.Services.FileSystem.FileManager.FileExists(DotNetNuke.Services.FileSystem.IFolderInfo,System.String,System.Boolean)">FileExists(IFolderInfo, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Checks the existence of the specified file in the specified folder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool FileExists(IFolderInfo folder, string fileName, bool retrieveUnpublishedFiles)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFolderInfo.html">IFolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td><p>The folder where to check the existence of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The file name to check the existence of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">retrieveUnpublishedFiles</span></td>
+        <td><p>Indicates if the file is retrieved from All files or from Published files.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A bool value indicating whether the file exists or not in the specified folder.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderProviderException.html">FolderProviderException</a></td>
+        <td><p>Thrown when the underlying system throw an exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_FileExists_DotNetNuke_Services_FileSystem_IFolderInfo_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.FileExists(DotNetNuke.Services.FileSystem.IFolderInfo%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L465">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_FileExists_" data-uid="DotNetNuke.Services.FileSystem.FileManager.FileExists*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_FileExists_DotNetNuke_Services_FileSystem_IFolderInfo_System_String_" data-uid="DotNetNuke.Services.FileSystem.FileManager.FileExists(DotNetNuke.Services.FileSystem.IFolderInfo,System.String)">FileExists(IFolderInfo, String)</h4>
+  <div class="markdown level1 summary"><p>Checks the existence of the specified file in the specified folder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool FileExists(IFolderInfo folder, string fileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFolderInfo.html">IFolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td><p>The folder where to check the existence of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The file name to check the existence of.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A bool value indicating whether the file exists or not in the specified folder.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderProviderException.html">FolderProviderException</a></td>
+        <td><p>Thrown when the underlying system throw an exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_GetContentType_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.GetContentType(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L504">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_GetContentType_" data-uid="DotNetNuke.Services.FileSystem.FileManager.GetContentType*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_GetContentType_System_String_" data-uid="DotNetNuke.Services.FileSystem.FileManager.GetContentType(System.String)">GetContentType(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the Content Type for the specified file extension.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string GetContentType(string extension)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">extension</span></td>
+        <td><p>The file extension.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The Content Type for the specified extension.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_GetFile_DotNetNuke_Services_FileSystem_IFolderInfo_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.GetFile(DotNetNuke.Services.FileSystem.IFolderInfo%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L557">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_GetFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.GetFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_GetFile_DotNetNuke_Services_FileSystem_IFolderInfo_System_String_System_Boolean_" data-uid="DotNetNuke.Services.FileSystem.FileManager.GetFile(DotNetNuke.Services.FileSystem.IFolderInfo,System.String,System.Boolean)">GetFile(IFolderInfo, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets the file metadata for the specified file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IFileInfo GetFile(IFolderInfo folder, string fileName, bool retrieveUnpublishedFiles)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFolderInfo.html">IFolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td><p>The folder where the file is stored.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The name of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">retrieveUnpublishedFiles</span></td>
+        <td><p>Indicates if the file is retrieved from All files or from Published files.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><p>The <a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a> object with the metadata of the specified file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_GetFile_DotNetNuke_Services_FileSystem_IFolderInfo_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.GetFile(DotNetNuke.Services.FileSystem.IFolderInfo%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L547">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_GetFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.GetFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_GetFile_DotNetNuke_Services_FileSystem_IFolderInfo_System_String_" data-uid="DotNetNuke.Services.FileSystem.FileManager.GetFile(DotNetNuke.Services.FileSystem.IFolderInfo,System.String)">GetFile(IFolderInfo, String)</h4>
+  <div class="markdown level1 summary"><p>Gets the file metadata for the specified file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IFileInfo GetFile(IFolderInfo folder, string fileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFolderInfo.html">IFolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td><p>The folder where the file is stored.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The name of the file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><p>The <a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a> object with the metadata of the specified file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_GetFile_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.GetFile(System.Int32%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L521">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_GetFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.GetFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_GetFile_System_Int32_System_Boolean_" data-uid="DotNetNuke.Services.FileSystem.FileManager.GetFile(System.Int32,System.Boolean)">GetFile(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets the file metadata for the specified file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IFileInfo GetFile(int fileID, bool retrieveUnpublishedFiles)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">fileID</span></td>
+        <td><p>The file identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">retrieveUnpublishedFiles</span></td>
+        <td><p>Indicates if the file is retrieved from All files or from Published files.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><p>The <a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a> object with the metadata of the specified file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_GetFile_System_Int32_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.GetFile(System.Int32%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L581">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_GetFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.GetFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_GetFile_System_Int32_System_String_System_Boolean_" data-uid="DotNetNuke.Services.FileSystem.FileManager.GetFile(System.Int32,System.String,System.Boolean)">GetFile(Int32, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets the file metadata for the specified file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IFileInfo GetFile(int portalId, string relativePath, bool retrieveUnpublishedFiles)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td><p>The portal ID or Null.NullInteger for the Host.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">relativePath</span></td>
+        <td><p>Relative path to the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">retrieveUnpublishedFiles</span></td>
+        <td><p>Indicates if the file is retrieved from All files or from Published files.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><p>The <a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a> object with the metadata of the specified file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Services_FileSystem_FileManager_GetFile_System_Int32_System_String_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Host and portal settings commonly return a relative path to a file.  This method uses that relative path to fetch file metadata.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_GetFile_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.GetFile(System.Int32%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L570">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_GetFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.GetFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_GetFile_System_Int32_System_String_" data-uid="DotNetNuke.Services.FileSystem.FileManager.GetFile(System.Int32,System.String)">GetFile(Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Gets the file metadata for the specified file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IFileInfo GetFile(int portalId, string relativePath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalId</span></td>
+        <td><p>The portal ID or Null.NullInteger for the Host.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">relativePath</span></td>
+        <td><p>Relative path to the file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><p>The <a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a> object with the metadata of the specified file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Services_FileSystem_FileManager_GetFile_System_Int32_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Host and portal settings commonly return a relative path to a file.  This method uses that relative path to fetch file metadata.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_GetFile_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.GetFile(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L512">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_GetFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.GetFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_GetFile_System_Int32_" data-uid="DotNetNuke.Services.FileSystem.FileManager.GetFile(System.Int32)">GetFile(Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets the file metadata for the specified file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IFileInfo GetFile(int fileID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">fileID</span></td>
+        <td><p>The file identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><p>The <a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a> object with the metadata of the specified file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_GetFileContent_DotNetNuke_Services_FileSystem_IFileInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.GetFileContent(DotNetNuke.Services.FileSystem.IFileInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L608">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_GetFileContent_" data-uid="DotNetNuke.Services.FileSystem.FileManager.GetFileContent*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_GetFileContent_DotNetNuke_Services_FileSystem_IFileInfo_" data-uid="DotNetNuke.Services.FileSystem.FileManager.GetFileContent(DotNetNuke.Services.FileSystem.IFileInfo)">GetFileContent(IFileInfo)</h4>
+  <div class="markdown level1 summary"><p>Gets the content of the specified file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Stream GetFileContent(IFileInfo file)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><span class="parametername">file</span></td>
+        <td><p>The file to get the content from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><p>A stream with the content of the file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderProviderException.html">FolderProviderException</a></td>
+        <td><p>Thrown when the underlying system throw an exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_GetSeekableStream_Stream_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.GetSeekableStream(Stream)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L636">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_GetSeekableStream_" data-uid="DotNetNuke.Services.FileSystem.FileManager.GetSeekableStream*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_GetSeekableStream_Stream_" data-uid="DotNetNuke.Services.FileSystem.FileManager.GetSeekableStream(Stream)">GetSeekableStream(Stream)</h4>
+  <div class="markdown level1 summary"><p>Gets a seekable Stream based on the specified non-seekable Stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Stream GetSeekableStream(Stream stream)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>A non-seekable Stream.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><p>A seekable Stream.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_GetUrl_DotNetNuke_Services_FileSystem_IFileInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.GetUrl(DotNetNuke.Services.FileSystem.IFileInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L674">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_GetUrl_" data-uid="DotNetNuke.Services.FileSystem.FileManager.GetUrl*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_GetUrl_DotNetNuke_Services_FileSystem_IFileInfo_" data-uid="DotNetNuke.Services.FileSystem.FileManager.GetUrl(DotNetNuke.Services.FileSystem.IFileInfo)">GetUrl(IFileInfo)</h4>
+  <div class="markdown level1 summary"><p>Gets the direct URL to the file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetUrl(IFileInfo file)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><span class="parametername">file</span></td>
+        <td><p>The file to get the Url.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The direct URL to the file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderProviderException.html">FolderProviderException</a></td>
+        <td><p>Thrown when the underlying system throw an exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_IsImageFile_DotNetNuke_Services_FileSystem_IFileInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.IsImageFile(DotNetNuke.Services.FileSystem.IFileInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L695">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_IsImageFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.IsImageFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_IsImageFile_DotNetNuke_Services_FileSystem_IFileInfo_" data-uid="DotNetNuke.Services.FileSystem.FileManager.IsImageFile(DotNetNuke.Services.FileSystem.IFileInfo)">IsImageFile(IFileInfo)</h4>
+  <div class="markdown level1 summary"><p>Gets a flag that determines if the file is an Image.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool IsImageFile(IFileInfo file)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><span class="parametername">file</span></td>
+        <td><p>The file to test.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The flag as a boolean value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_MoveFile_DotNetNuke_Services_FileSystem_IFileInfo_DotNetNuke_Services_FileSystem_IFolderInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.MoveFile(DotNetNuke.Services.FileSystem.IFileInfo%2CDotNetNuke.Services.FileSystem.IFolderInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L709">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_MoveFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.MoveFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_MoveFile_DotNetNuke_Services_FileSystem_IFileInfo_DotNetNuke_Services_FileSystem_IFolderInfo_" data-uid="DotNetNuke.Services.FileSystem.FileManager.MoveFile(DotNetNuke.Services.FileSystem.IFileInfo,DotNetNuke.Services.FileSystem.IFolderInfo)">MoveFile(IFileInfo, IFolderInfo)</h4>
+  <div class="markdown level1 summary"><p>Moves the specified file into the specified folder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IFileInfo MoveFile(IFileInfo file, IFolderInfo destinationFolder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><span class="parametername">file</span></td>
+        <td><p>The file to move.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFolderInfo.html">IFolderInfo</a></td>
+        <td><span class="parametername">destinationFolder</span></td>
+        <td><p>The folder where to move the file to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><p>An <a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a> with the information of the moved file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderProviderException.html">FolderProviderException</a></td>
+        <td><p>Thrown when the underlying system throw an exception.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.InvalidFileExtensionException.html">InvalidFileExtensionException</a></td>
+        <td><p>Thrown when the extension of the specified file is not allowed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.NoSpaceAvailableException.html">NoSpaceAvailableException</a></td>
+        <td><p>Thrown when the portal has no space available to store the specified file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.PermissionsNotMetException.html">PermissionsNotMetException</a></td>
+        <td><p>Thrown when permissions are not met.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_RenameFile_DotNetNuke_Services_FileSystem_IFileInfo_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.RenameFile(DotNetNuke.Services.FileSystem.IFileInfo%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L789">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_RenameFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.RenameFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_RenameFile_DotNetNuke_Services_FileSystem_IFileInfo_System_String_" data-uid="DotNetNuke.Services.FileSystem.FileManager.RenameFile(DotNetNuke.Services.FileSystem.IFileInfo,System.String)">RenameFile(IFileInfo, String)</h4>
+  <div class="markdown level1 summary"><p>Renames the specified file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IFileInfo RenameFile(IFileInfo file, string newFileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><span class="parametername">file</span></td>
+        <td><p>The file to rename.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">newFileName</span></td>
+        <td><p>The new filename to assign to the file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><p>An <a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a> with the information of the renamed file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FileAlreadyExistsException.html">FileAlreadyExistsException</a></td>
+        <td><p>Thrown when the folder already contains a file with the same name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_SetAttributes_DotNetNuke_Services_FileSystem_IFileInfo_FileAttributes_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.SetAttributes(DotNetNuke.Services.FileSystem.IFileInfo%2CFileAttributes)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L847">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_SetAttributes_" data-uid="DotNetNuke.Services.FileSystem.FileManager.SetAttributes*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_SetAttributes_DotNetNuke_Services_FileSystem_IFileInfo_FileAttributes_" data-uid="DotNetNuke.Services.FileSystem.FileManager.SetAttributes(DotNetNuke.Services.FileSystem.IFileInfo,FileAttributes)">SetAttributes(IFileInfo, FileAttributes)</h4>
+  <div class="markdown level1 summary"><p>Sets the specified FileAttributes of the file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAttributes(IFileInfo file, FileAttributes fileAttributes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><span class="parametername">file</span></td>
+        <td><p>The file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">FileAttributes</span></td>
+        <td><span class="parametername">fileAttributes</span></td>
+        <td><p>The file attributes to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_UnzipFile_DotNetNuke_Services_FileSystem_IFileInfo_DotNetNuke_Services_FileSystem_IFolderInfo_IList_System_String__.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.UnzipFile(DotNetNuke.Services.FileSystem.IFileInfo%2CDotNetNuke.Services.FileSystem.IFolderInfo%2CIList%7BSystem.String%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L894">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_UnzipFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.UnzipFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_UnzipFile_DotNetNuke_Services_FileSystem_IFileInfo_DotNetNuke_Services_FileSystem_IFolderInfo_IList_System_String__" data-uid="DotNetNuke.Services.FileSystem.FileManager.UnzipFile(DotNetNuke.Services.FileSystem.IFileInfo,DotNetNuke.Services.FileSystem.IFolderInfo,IList{System.String})">UnzipFile(IFileInfo, IFolderInfo, IList&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Extracts the files and folders contained in the specified zip file to the specified folder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual int UnzipFile(IFileInfo file, IFolderInfo destinationFolder, IList&lt;string&gt; invalidFiles)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><span class="parametername">file</span></td>
+        <td><p>The file to unzip.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFolderInfo.html">IFolderInfo</a></td>
+        <td><span class="parametername">destinationFolder</span></td>
+        <td><p>The folder to unzip to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">invalidFiles</span></td>
+        <td><p>Files which can't exact.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Total files count in the zip file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_UnzipFile_DotNetNuke_Services_FileSystem_IFileInfo_DotNetNuke_Services_FileSystem_IFolderInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.UnzipFile(DotNetNuke.Services.FileSystem.IFileInfo%2CDotNetNuke.Services.FileSystem.IFolderInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L882">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_UnzipFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.UnzipFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_UnzipFile_DotNetNuke_Services_FileSystem_IFileInfo_DotNetNuke_Services_FileSystem_IFolderInfo_" data-uid="DotNetNuke.Services.FileSystem.FileManager.UnzipFile(DotNetNuke.Services.FileSystem.IFileInfo,DotNetNuke.Services.FileSystem.IFolderInfo)">UnzipFile(IFileInfo, IFolderInfo)</h4>
+  <div class="markdown level1 summary"><p>Extracts the files and folders contained in the specified zip file to the specified folder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void UnzipFile(IFileInfo file, IFolderInfo destinationFolder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><span class="parametername">file</span></td>
+        <td><p>The file to unzip.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFolderInfo.html">IFolderInfo</a></td>
+        <td><span class="parametername">destinationFolder</span></td>
+        <td><p>The folder to unzip to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_UnzipFile_DotNetNuke_Services_FileSystem_IFileInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.UnzipFile(DotNetNuke.Services.FileSystem.IFileInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L868">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_UnzipFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.UnzipFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_UnzipFile_DotNetNuke_Services_FileSystem_IFileInfo_" data-uid="DotNetNuke.Services.FileSystem.FileManager.UnzipFile(DotNetNuke.Services.FileSystem.IFileInfo)">UnzipFile(IFileInfo)</h4>
+  <div class="markdown level1 summary"><p>Extracts the files and folders contained in the specified zip file to the folder where the file belongs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void UnzipFile(IFileInfo file)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><span class="parametername">file</span></td>
+        <td><p>The file to unzip.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_UpdateFile_DotNetNuke_Services_FileSystem_IFileInfo_Stream_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.UpdateFile(DotNetNuke.Services.FileSystem.IFileInfo%2CStream)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L929">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_UpdateFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.UpdateFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_UpdateFile_DotNetNuke_Services_FileSystem_IFileInfo_Stream_" data-uid="DotNetNuke.Services.FileSystem.FileManager.UpdateFile(DotNetNuke.Services.FileSystem.IFileInfo,Stream)">UpdateFile(IFileInfo, Stream)</h4>
+  <div class="markdown level1 summary"><p>Regenerates the hash and updates the metadata of the specified file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IFileInfo UpdateFile(IFileInfo file, Stream fileContent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><span class="parametername">file</span></td>
+        <td><p>The file to update.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><span class="parametername">fileContent</span></td>
+        <td><p>Stream used to regenerate the hash.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><p>A <a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a> as the updated file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_UpdateFile_DotNetNuke_Services_FileSystem_IFileInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.UpdateFile(DotNetNuke.Services.FileSystem.IFileInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L912">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_UpdateFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.UpdateFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_UpdateFile_DotNetNuke_Services_FileSystem_IFileInfo_" data-uid="DotNetNuke.Services.FileSystem.FileManager.UpdateFile(DotNetNuke.Services.FileSystem.IFileInfo)">UpdateFile(IFileInfo)</h4>
+  <div class="markdown level1 summary"><p>Updates the metadata of the specified file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IFileInfo UpdateFile(IFileInfo file)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><span class="parametername">file</span></td>
+        <td><p>The file to update.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><p>A <a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a> as the updated file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.InvalidMetadataValuesException.html">InvalidMetadataValuesException</a></td>
+        <td><p>Thrown when the file metadata are not valid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_WriteFile_DotNetNuke_Services_FileSystem_IFileInfo_Stream_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.WriteFile(DotNetNuke.Services.FileSystem.IFileInfo%2CStream)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L985">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_WriteFile_" data-uid="DotNetNuke.Services.FileSystem.FileManager.WriteFile*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_WriteFile_DotNetNuke_Services_FileSystem_IFileInfo_Stream_" data-uid="DotNetNuke.Services.FileSystem.FileManager.WriteFile(DotNetNuke.Services.FileSystem.IFileInfo,Stream)">WriteFile(IFileInfo, Stream)</h4>
+  <div class="markdown level1 summary"><p>Writes the content of the specified file into the specified stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void WriteFile(IFileInfo file, Stream stream)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><span class="parametername">file</span></td>
+        <td><p>The file to write into the stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>The stream to write to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_FileManager_WriteFileToResponse_DotNetNuke_Services_FileSystem_IFileInfo_DotNetNuke_Services_FileSystem_ContentDisposition_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.FileManager.WriteFileToResponse(DotNetNuke.Services.FileSystem.IFileInfo%2CDotNetNuke.Services.FileSystem.ContentDisposition)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L1008">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_FileManager_WriteFileToResponse_" data-uid="DotNetNuke.Services.FileSystem.FileManager.WriteFileToResponse*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager_WriteFileToResponse_DotNetNuke_Services_FileSystem_IFileInfo_DotNetNuke_Services_FileSystem_ContentDisposition_" data-uid="DotNetNuke.Services.FileSystem.FileManager.WriteFileToResponse(DotNetNuke.Services.FileSystem.IFileInfo,DotNetNuke.Services.FileSystem.ContentDisposition)">WriteFileToResponse(IFileInfo, ContentDisposition)</h4>
+  <div class="markdown level1 summary"><p>Downloads the specified file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void WriteFileToResponse(IFileInfo file, ContentDisposition contentDisposition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileInfo.html">IFileInfo</a></td>
+        <td><span class="parametername">file</span></td>
+        <td><p>The file to download.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.ContentDisposition.html">ContentDisposition</a></td>
+        <td><span class="parametername">contentDisposition</span></td>
+        <td><p>Indicates how to display the document once downloaded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.PermissionsNotMetException.html">PermissionsNotMetException</a></td>
+        <td><p>Thrown when permissions are not met.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Services.FileSystem.IFileManager.html">IFileManager</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/FileManager.cs/#L41" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				container: selector,
+    				appId: 'ZPKP9SED9P',
+    				indexName: 'dnnsoftware',
+    				apiKey: '37bfc247275fb9e8fcecbda599134a30',
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('#docsearch-navbar'));  
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1587 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class HtmlUtils
+  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class HtmlUtils
+  -- DNN Docs">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://ZPKP9SED9P-dsn.algolia.net" crossorigin="">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@alpha">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+  
+  
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-137422488-1');
+    </script>  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <div class="navbar-right">
+                <div id="docsearch-navbar" class="navbar-form navbar-right"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Common.Utilities.HtmlUtils">
+
+
+  <h1 id="DotNetNuke_Common_Utilities_HtmlUtils" data-uid="DotNetNuke.Common.Utilities.HtmlUtils" class="text-break">Class HtmlUtils
+</h1>
+  <div class="markdown level0 summary"><p>HtmlUtils is a Utility class that provides Html Utility methods.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">HtmlUtils</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Common.Utilities.html">DotNetNuke.Common.Utilities</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Common_Utilities_HtmlUtils_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class HtmlUtils : object</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_AbsoluteToRelativeUrls_System_String_IEnumerable_System_String__.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.AbsoluteToRelativeUrls(System.String%2CIEnumerable%7BSystem.String%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L540">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_AbsoluteToRelativeUrls_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.AbsoluteToRelativeUrls*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_AbsoluteToRelativeUrls_System_String_IEnumerable_System_String__" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.AbsoluteToRelativeUrls(System.String,IEnumerable{System.String})">AbsoluteToRelativeUrls(String, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Searches the provided html for absolute hrefs that match the provided aliases and converts them to relative urls.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string AbsoluteToRelativeUrls(string html, IEnumerable&lt;string&gt; aliases)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">html</span></td>
+        <td><p>The input html.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">aliases</span></td>
+        <td><p>a list of aliases that should be made into relative urls.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>html string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_Clean_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.Clean(System.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L44">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_Clean_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.Clean*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_Clean_System_String_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.Clean(System.String,System.Boolean)">Clean(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Clean removes any HTML Tags, Entities (and optionally any punctuation) from
+a string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Clean(string html, bool removePunctuation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">html</span></td>
+        <td><p>The HTML to clean.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">removePunctuation</span></td>
+        <td><p>A flag indicating whether to remove punctuation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The cleaned up string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNetNuke_Common_Utilities_HtmlUtils_Clean_System_String_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Encoded Tags are getting decoded, as they are part of the content!.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_CleanWithTagInfo_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.CleanWithTagInfo(System.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L81">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_CleanWithTagInfo_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.CleanWithTagInfo*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_CleanWithTagInfo_System_String_System_String_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.CleanWithTagInfo(System.String,System.String,System.Boolean)">CleanWithTagInfo(String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>CleanWithTagInfo removes unspecified HTML Tags, Entities (and optionally any punctuation) from a string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string CleanWithTagInfo(string html, string tagsFilter, bool removePunctuation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">html</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tagsFilter</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">removePunctuation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The cleaned up string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_ContainsEntity_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.ContainsEntity(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L243">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_ContainsEntity_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.ContainsEntity*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_ContainsEntity_System_String_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.ContainsEntity(System.String)">ContainsEntity(String)</h4>
+  <div class="markdown level1 summary"><p>Checks whether the string contains any HTML Entity or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ContainsEntity(string html)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">html</span></td>
+        <td><p>The HTML content to clean up.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the string contains any entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_ConvertToHtml_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.ConvertToHtml(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L153">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_ConvertToHtml_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.ConvertToHtml*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_ConvertToHtml_System_String_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.ConvertToHtml(System.String)">ConvertToHtml(String)</h4>
+  <div class="markdown level1 summary"><p>Formats <code data-dev-comment-type="paramref" class="paramref">strText</code> as HTML by replacing line feeds by <code>&lt;br /&gt;</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ConvertToHtml(string strText)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">strText</span></td>
+        <td><p>Text to format.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The formatted HTML.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_ConvertToText_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.ConvertToText(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L170">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_ConvertToText_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.ConvertToText*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_ConvertToText_System_String_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.ConvertToText(System.String)">ConvertToText(String)</h4>
+  <div class="markdown level1 summary"><p>Formats HTML as text by removing <code>&lt;br /&gt;</code> tags and replacing by linefeeds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ConvertToText(string strHtml)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">strHtml</span></td>
+        <td><p>HTML to format.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The formatted text.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_FormatEmail_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.FormatEmail(System.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L118">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_FormatEmail_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.FormatEmail*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_FormatEmail_System_String_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.FormatEmail(System.String,System.Boolean)">FormatEmail(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Formats an Email address.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FormatEmail(string email, bool cloak)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">email</span></td>
+        <td><p>The email address to format.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">cloak</span></td>
+        <td><p>A flag that indicates whether the text should be cloaked.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The formatted email address.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_FormatEmail_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.FormatEmail(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L109">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_FormatEmail_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.FormatEmail*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_FormatEmail_System_String_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.FormatEmail(System.String)">FormatEmail(String)</h4>
+  <div class="markdown level1 summary"><p>Formats an Email address as a cloaked html link.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FormatEmail(string email)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">email</span></td>
+        <td><p>The email address to format.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The email address as a cloaked html link.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_FormatText_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.FormatText(System.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L145">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_FormatText_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.FormatText*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_FormatText_System_String_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.FormatText(System.String,System.Boolean)">FormatText(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>FormatText replaces <code>&lt;br /&gt;</code> tags by LineFeed characters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FormatText(string html, bool retainSpace)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">html</span></td>
+        <td><p>The HTML content to clean up.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">retainSpace</span></td>
+        <td><p>Whether retain Space.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The cleaned up string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_FormatWebsite_System_Object_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.FormatWebsite(System.Object)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L190">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_FormatWebsite_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.FormatWebsite*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_FormatWebsite_System_Object_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.FormatWebsite(System.Object)">FormatWebsite(Object)</h4>
+  <div class="markdown level1 summary"><p>Format a domain name including link.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FormatWebsite(object website)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">website</span></td>
+        <td><p>The domain name to format.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The formatted domain name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_IsHtml_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.IsHtml(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L367">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_IsHtml_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.IsHtml*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_IsHtml_System_String_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.IsHtml(System.String)">IsHtml(String)</h4>
+  <div class="markdown level1 summary"><p>Determines whether or not the passed in string contains any HTML tags.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsHtml(string text)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>Text to be inspected.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True for HTML and False for plain text.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_IsUrlEncoded_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.IsUrlEncoded(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L251">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_IsUrlEncoded_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.IsUrlEncoded*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_IsUrlEncoded_System_String_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.IsUrlEncoded(System.String)">IsUrlEncoded(String)</h4>
+  <div class="markdown level1 summary"><p>Checks whether the string contains any URL encoded entity or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsUrlEncoded(string text)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>The string check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the string contains any URL encoded entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_RemoveInlineStyle_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.RemoveInlineStyle(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L259">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_RemoveInlineStyle_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.RemoveInlineStyle*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_RemoveInlineStyle_System_String_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.RemoveInlineStyle(System.String)">RemoveInlineStyle(String)</h4>
+  <div class="markdown level1 summary"><p>Removes Inline CSS Styles.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string RemoveInlineStyle(string html)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">html</span></td>
+        <td><p>The HTML content to clean up.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The cleaned up string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_Shorten_System_String_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.Shorten(System.String%2CSystem.Int32%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L217">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_Shorten_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.Shorten*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_Shorten_System_String_System_Int32_System_String_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.Shorten(System.String,System.Int32,System.String)">Shorten(String, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Shorten returns the first <code data-dev-comment-type="paramref" class="paramref">length</code> characters of a string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Shorten(string txt, int length, string suffix)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">txt</span></td>
+        <td><p>The text to reduce.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">length</span></td>
+        <td><p>The max number of characters to return.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">suffix</span></td>
+        <td><p>An optional suffix to append to the shortened string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The shortened string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_StripEntities_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.StripEntities(System.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L231">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_StripEntities_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.StripEntities*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_StripEntities_System_String_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.StripEntities(System.String,System.Boolean)">StripEntities(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>StripEntities removes the HTML Entities from the content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string StripEntities(string html, bool retainSpace)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">html</span></td>
+        <td><p>The HTML content to clean up.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">retainSpace</span></td>
+        <td><p>Indicates whether to replace the Entity by a space (<span class="xref">true</span>) or nothing (<span class="xref">false</span>).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The cleaned up string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_StripNonWord_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.StripNonWord(System.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L353">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_StripNonWord_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.StripNonWord*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_StripNonWord_System_String_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.StripNonWord(System.String,System.Boolean)">StripNonWord(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>StripNonWord removes any Non-Word Character from the content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string StripNonWord(string html, bool retainSpace)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">html</span></td>
+        <td><p>The HTML content to clean up.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">retainSpace</span></td>
+        <td><p>Indicates whether to replace the Non-Word Character by a space (true) or nothing (false).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The cleaned up string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_StripPunctuation_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.StripPunctuation(System.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L309">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_StripPunctuation_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.StripPunctuation*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_StripPunctuation_System_String_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.StripPunctuation(System.String,System.Boolean)">StripPunctuation(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>StripPunctuation removes the Punctuation from the content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string StripPunctuation(string html, bool retainSpace)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">html</span></td>
+        <td><p>The HTML content to clean up.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">retainSpace</span></td>
+        <td><p>Indicates whether to replace the Punctuation by a space (true) or nothing (false).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The cleaned up string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_StripTags_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.StripTags(System.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L268">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_StripTags_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.StripTags*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_StripTags_System_String_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.StripTags(System.String,System.Boolean)">StripTags(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>StripTags removes the HTML Tags from the content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string StripTags(string html, bool retainSpace)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">html</span></td>
+        <td><p>The HTML content to clean up.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">retainSpace</span></td>
+        <td><p>Indicates whether to replace the Tag by a space (<span class="xref">true</span>) or nothing (<span class="xref">false</span>).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The cleaned up string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_StripUnspecifiedTags_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.StripUnspecifiedTags(System.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L278">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_StripUnspecifiedTags_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.StripUnspecifiedTags*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_StripUnspecifiedTags_System_String_System_String_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.StripUnspecifiedTags(System.String,System.String,System.Boolean)">StripUnspecifiedTags(String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>StripUnspecifiedTags removes the HTML tags from the content -- leaving behind the info for the specified HTML tags.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string StripUnspecifiedTags(string html, string specifiedTags, bool retainSpace)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">html</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">specifiedTags</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">retainSpace</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The cleaned up string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_StripWhiteSpace_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.StripWhiteSpace(System.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L339">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_StripWhiteSpace_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.StripWhiteSpace*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_StripWhiteSpace_System_String_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.StripWhiteSpace(System.String,System.Boolean)">StripWhiteSpace(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>StripWhiteSpace removes the WhiteSpace from the content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string StripWhiteSpace(string html, bool retainSpace)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">html</span></td>
+        <td><p>The HTML content to clean up.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">retainSpace</span></td>
+        <td><p>Indicates whether to replace the WhiteSpace by a space (true) or nothing (false).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The cleaned up string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_WriteError_HttpResponse_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.WriteError(HttpResponse%2CSystem.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L381">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_WriteError_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.WriteError*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_WriteError_HttpResponse_System_String_System_String_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.WriteError(HttpResponse,System.String,System.String)">WriteError(HttpResponse, String, String)</h4>
+  <div class="markdown level1 summary"><p>WriteError outputs an Error Message during Install/Upgrade etc.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteError(HttpResponse response, string file, string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HttpResponse</span></td>
+        <td><span class="parametername">response</span></td>
+        <td><p>The ASP.Net Response object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">file</span></td>
+        <td><p>The filename where the Error Occurred.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The error message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_WriteFeedback_HttpResponse_System_Int32_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.WriteFeedback(HttpResponse%2CSystem.Int32%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L406">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_WriteFeedback_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.WriteFeedback*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_WriteFeedback_HttpResponse_System_Int32_System_String_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.WriteFeedback(HttpResponse,System.Int32,System.String,System.Boolean)">WriteFeedback(HttpResponse, Int32, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>WriteFeedback outputs a Feedback Line during Install/Upgrade etc.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteFeedback(HttpResponse response, int indent, string message, bool showtime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HttpResponse</span></td>
+        <td><span class="parametername">response</span></td>
+        <td><p>The ASP.Net Response object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td><p>The indent for this feedback message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The feedback message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">showtime</span></td>
+        <td><p>Show the timespan before the message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_WriteFeedback_HttpResponse_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.WriteFeedback(HttpResponse%2CSystem.Int32%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L396">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_WriteFeedback_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.WriteFeedback*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_WriteFeedback_HttpResponse_System_Int32_System_String_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.WriteFeedback(HttpResponse,System.Int32,System.String)">WriteFeedback(HttpResponse, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>WriteFeedback outputs a Feedback Line during Install/Upgrade etc.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteFeedback(HttpResponse response, int indent, string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HttpResponse</span></td>
+        <td><span class="parametername">response</span></td>
+        <td><p>The ASP.Net Response object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td><p>The indent for this feedback message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The feedback message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_WriteFooter_HttpResponse_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.WriteFooter(HttpResponse)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L455">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_WriteFooter_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.WriteFooter*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_WriteFooter_HttpResponse_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.WriteFooter(HttpResponse)">WriteFooter(HttpResponse)</h4>
+  <div class="markdown level1 summary"><p>WriteFooter outputs the Footer during Install/Upgrade etc.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteFooter(HttpResponse response)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HttpResponse</span></td>
+        <td><span class="parametername">response</span></td>
+        <td><p>The ASP.Net Response object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_WriteHeader_HttpResponse_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.WriteHeader(HttpResponse%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L465">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_WriteHeader_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.WriteHeader*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_WriteHeader_HttpResponse_System_String_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.WriteHeader(HttpResponse,System.String)">WriteHeader(HttpResponse, String)</h4>
+  <div class="markdown level1 summary"><p>WriteHeader outputs the Header during Install/Upgrade etc.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteHeader(HttpResponse response, string mode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HttpResponse</span></td>
+        <td><span class="parametername">response</span></td>
+        <td><p>The ASP.Net Response object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mode</span></td>
+        <td><p>The mode Install/Upgrade etc.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_WriteKeepAlive.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.WriteKeepAlive%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L440">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_WriteKeepAlive_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.WriteKeepAlive*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_WriteKeepAlive" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.WriteKeepAlive">WriteKeepAlive()</h4>
+  <div class="markdown level1 summary"><p>This method adds an empty char to the response stream to avoid closing http connection on long running tasks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteKeepAlive()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_WriteScriptSuccessError_HttpResponse_System_Boolean_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.WriteScriptSuccessError(HttpResponse%2CSystem.Boolean%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L524">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_WriteScriptSuccessError_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.WriteScriptSuccessError*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_WriteScriptSuccessError_HttpResponse_System_Boolean_System_String_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.WriteScriptSuccessError(HttpResponse,System.Boolean,System.String)">WriteScriptSuccessError(HttpResponse, Boolean, String)</h4>
+  <div class="markdown level1 summary"><p>HtmlUtils is a Utility class that provides Html Utility methods.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteScriptSuccessError(HttpResponse response, bool bSuccess, string strLogFile)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HttpResponse</span></td>
+        <td><span class="parametername">response</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bSuccess</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">strLogFile</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Common_Utilities_HtmlUtils_WriteSuccessError_HttpResponse_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Common.Utilities.HtmlUtils.WriteSuccessError(HttpResponse%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L519">View Source</a>
+  </span>
+  <a id="DotNetNuke_Common_Utilities_HtmlUtils_WriteSuccessError_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.WriteSuccessError*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_HtmlUtils_WriteSuccessError_HttpResponse_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.HtmlUtils.WriteSuccessError(HttpResponse,System.Boolean)">WriteSuccessError(HttpResponse, Boolean)</h4>
+  <div class="markdown level1 summary"><p>HtmlUtils is a Utility class that provides Html Utility methods.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteSuccessError(HttpResponse response, bool bSuccess)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HttpResponse</span></td>
+        <td><span class="parametername">response</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bSuccess</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Common/Utilities/HtmlUtils.cs/#L16" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				container: selector,
+    				appId: 'ZPKP9SED9P',
+    				indexName: 'dnnsoftware',
+    				apiKey: '37bfc247275fb9e8fcecbda599134a30',
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('#docsearch-navbar'));  
+    </script>
+  </body>
+</html>

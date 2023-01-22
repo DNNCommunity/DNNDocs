@@ -1,0 +1,402 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DigestAuthMessageHandler
+  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DigestAuthMessageHandler
+  -- DNN Docs">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://ZPKP9SED9P-dsn.algolia.net" crossorigin="">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@alpha">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+  
+  
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-137422488-1');
+    </script>  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <div class="navbar-right">
+                <div id="docsearch-navbar" class="navbar-form navbar-right"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Web_Api_Auth_DigestAuthMessageHandler.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Api.Auth.DigestAuthMessageHandler%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Web.Api.Auth.DigestAuthMessageHandler">
+
+
+  <h1 id="DotNetNuke_Web_Api_Auth_DigestAuthMessageHandler" data-uid="DotNetNuke.Web.Api.Auth.DigestAuthMessageHandler" class="text-break">Class DigestAuthMessageHandler
+</h1>
+  <div class="markdown level0 summary"><p>Digest authentication message handler.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html">AuthMessageHandlerBase</a></div>
+    <div class="level2"><span class="xref">DigestAuthMessageHandler</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html#DotNetNuke_Web_Api_Auth_AuthMessageHandlerBase_BypassAntiForgeryToken">AuthMessageHandlerBase.BypassAntiForgeryToken</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html#DotNetNuke_Web_Api_Auth_AuthMessageHandlerBase_DefaultInclude">AuthMessageHandlerBase.DefaultInclude</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html#DotNetNuke_Web_Api_Auth_AuthMessageHandlerBase_ForceSsl">AuthMessageHandlerBase.ForceSsl</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html#DotNetNuke_Web_Api_Auth_AuthMessageHandlerBase_IsXmlHttpRequest_HttpRequestMessage_">AuthMessageHandlerBase.IsXmlHttpRequest(HttpRequestMessage)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html#DotNetNuke_Web_Api_Auth_AuthMessageHandlerBase_SetCurrentPrincipal_IPrincipal_HttpRequestMessage_">AuthMessageHandlerBase.SetCurrentPrincipal(IPrincipal, HttpRequestMessage)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html#DotNetNuke_Web_Api_Auth_AuthMessageHandlerBase_SendAsync_HttpRequestMessage_CancellationToken_">AuthMessageHandlerBase.SendAsync(HttpRequestMessage, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html#DotNetNuke_Web_Api_Auth_AuthMessageHandlerBase_NeedsAuthentication_HttpRequestMessage_">AuthMessageHandlerBase.NeedsAuthentication(HttpRequestMessage)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Web.Api.Auth.html">DotNetNuke.Web.Api.Auth</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.Web.dll</h6>
+  <h5 id="DotNetNuke_Web_Api_Auth_DigestAuthMessageHandler_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DigestAuthMessageHandler : AuthMessageHandlerBase</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Web_Api_Auth_DigestAuthMessageHandler__ctor_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Api.Auth.DigestAuthMessageHandler.%23ctor(System.Boolean%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Api/Auth/DigestAuthMessageHandler.cs/#L24">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Api_Auth_DigestAuthMessageHandler__ctor_" data-uid="DotNetNuke.Web.Api.Auth.DigestAuthMessageHandler.#ctor*"></a>
+  <h4 id="DotNetNuke_Web_Api_Auth_DigestAuthMessageHandler__ctor_System_Boolean_System_Boolean_" data-uid="DotNetNuke.Web.Api.Auth.DigestAuthMessageHandler.#ctor(System.Boolean,System.Boolean)">DigestAuthMessageHandler(Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.Web.Api.Auth.DigestAuthMessageHandler.html">DigestAuthMessageHandler</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DigestAuthMessageHandler(bool includeByDefault, bool forceSsl)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">includeByDefault</span></td>
+        <td><p>Should this handler be included by default on all routes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">forceSsl</span></td>
+        <td><p>Should this handler enforce SSL usage.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Web_Api_Auth_DigestAuthMessageHandler_AuthScheme.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Api.Auth.DigestAuthMessageHandler.AuthScheme%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Api/Auth/DigestAuthMessageHandler.cs/#L30">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Api_Auth_DigestAuthMessageHandler_AuthScheme_" data-uid="DotNetNuke.Web.Api.Auth.DigestAuthMessageHandler.AuthScheme*"></a>
+  <h4 id="DotNetNuke_Web_Api_Auth_DigestAuthMessageHandler_AuthScheme" data-uid="DotNetNuke.Web.Api.Auth.DigestAuthMessageHandler.AuthScheme">AuthScheme</h4>
+  <div class="markdown level1 summary"><p>Gets the name of the authentication scheme.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string AuthScheme { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html#DotNetNuke_Web_Api_Auth_AuthMessageHandlerBase_AuthScheme">AuthMessageHandlerBase.AuthScheme</a></div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Web_Api_Auth_DigestAuthMessageHandler_OnInboundRequest_HttpRequestMessage_CancellationToken_.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Api.Auth.DigestAuthMessageHandler.OnInboundRequest(HttpRequestMessage%2CCancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Api/Auth/DigestAuthMessageHandler.cs/#L33">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Api_Auth_DigestAuthMessageHandler_OnInboundRequest_" data-uid="DotNetNuke.Web.Api.Auth.DigestAuthMessageHandler.OnInboundRequest*"></a>
+  <h4 id="DotNetNuke_Web_Api_Auth_DigestAuthMessageHandler_OnInboundRequest_HttpRequestMessage_CancellationToken_" data-uid="DotNetNuke.Web.Api.Auth.DigestAuthMessageHandler.OnInboundRequest(HttpRequestMessage,CancellationToken)">OnInboundRequest(HttpRequestMessage, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>A chance to process inbound requests.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override HttpResponseMessage OnInboundRequest(HttpRequestMessage request, CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HttpRequestMessage</span></td>
+        <td><span class="parametername">request</span></td>
+        <td><p>The request message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>A cancellationtoken.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HttpResponseMessage</span></td>
+        <td><p>null normally, if a response is returned all inbound processing is terminated and the resposne is returned.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html#DotNetNuke_Web_Api_Auth_AuthMessageHandlerBase_OnInboundRequest_HttpRequestMessage_CancellationToken_">AuthMessageHandlerBase.OnInboundRequest(HttpRequestMessage, CancellationToken)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Web_Api_Auth_DigestAuthMessageHandler_OnOutboundResponse_HttpResponseMessage_CancellationToken_.md&amp;value=---%0Auid%3A%20DotNetNuke.Web.Api.Auth.DigestAuthMessageHandler.OnOutboundResponse(HttpResponseMessage%2CCancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Api/Auth/DigestAuthMessageHandler.cs/#L56">View Source</a>
+  </span>
+  <a id="DotNetNuke_Web_Api_Auth_DigestAuthMessageHandler_OnOutboundResponse_" data-uid="DotNetNuke.Web.Api.Auth.DigestAuthMessageHandler.OnOutboundResponse*"></a>
+  <h4 id="DotNetNuke_Web_Api_Auth_DigestAuthMessageHandler_OnOutboundResponse_HttpResponseMessage_CancellationToken_" data-uid="DotNetNuke.Web.Api.Auth.DigestAuthMessageHandler.OnOutboundResponse(HttpResponseMessage,CancellationToken)">OnOutboundResponse(HttpResponseMessage, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>A change to process outbound responses.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override HttpResponseMessage OnOutboundResponse(HttpResponseMessage response, CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HttpResponseMessage</span></td>
+        <td><span class="parametername">response</span></td>
+        <td><p>The response message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>A cancellationtoken.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HttpResponseMessage</span></td>
+        <td><p>The responsemessage.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html#DotNetNuke_Web_Api_Auth_AuthMessageHandlerBase_OnOutboundResponse_HttpResponseMessage_CancellationToken_">AuthMessageHandlerBase.OnOutboundResponse(HttpResponseMessage, CancellationToken)</a></div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.Web/Api/Auth/DigestAuthMessageHandler.cs/#L19" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				container: selector,
+    				appId: 'ZPKP9SED9P',
+    				indexName: 'dnnsoftware',
+    				apiKey: '37bfc247275fb9e8fcecbda599134a30',
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('#docsearch-navbar'));  
+    </script>
+  </body>
+</html>

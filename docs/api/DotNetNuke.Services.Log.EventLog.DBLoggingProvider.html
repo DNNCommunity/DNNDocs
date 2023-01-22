@@ -1,0 +1,1222 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DBLoggingProvider
+  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DBLoggingProvider
+  -- DNN Docs">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://ZPKP9SED9P-dsn.algolia.net" crossorigin="">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@alpha">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+  
+  
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-137422488-1');
+    </script>  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <div class="navbar-right">
+                <div id="docsearch-navbar" class="navbar-form navbar-right"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+              <ul class="nav nav-pills">
+                <li role="presentation dropdown">
+                  <a class="dropdown-toggle" id="shareMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="glyphicon glyphicon-share"></i> Share
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="shareMenu">
+                    <li><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href=""><i class="fas fa-envelope"></i> Email</a></li>
+                  </ul>
+                </li>
+                <li role="presentation">
+                  <a href="" target="_blank"><i class="glyphicon glyphicon-comment"></i> Feedback</a>
+                </li>
+                <li role="presentation">
+                  <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" target="_blank"><i class="glyphicon glyphicon-new-window"></i> Improve this Doc</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle"></a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider">
+
+
+  <h1 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider" class="text-break">Class DBLoggingProvider
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html">LoggingProvider</a></div>
+    <div class="level2"><span class="xref">DBLoggingProvider</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_Instance">LoggingProvider.Instance()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.Services.Log.EventLog.html">DotNetNuke.Services.Log.EventLog</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DBLoggingProvider : LoggingProvider</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_LogTypeCacheKey.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.LogTypeCacheKey%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L26">View Source</a>
+  </span>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_LogTypeCacheKey" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.LogTypeCacheKey">LogTypeCacheKey</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string LogTypeCacheKey = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_LogTypeInfoByKeyCacheKey.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.LogTypeInfoByKeyCacheKey%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L28">View Source</a>
+  </span>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_LogTypeInfoByKeyCacheKey" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.LogTypeInfoByKeyCacheKey">LogTypeInfoByKeyCacheKey</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string LogTypeInfoByKeyCacheKey = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_LogTypeInfoCacheKey.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.LogTypeInfoCacheKey%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L27">View Source</a>
+  </span>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_LogTypeInfoCacheKey" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.LogTypeInfoCacheKey">LogTypeInfoCacheKey</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string LogTypeInfoCacheKey = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_AddLog_DotNetNuke_Services_Log_EventLog_LogInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.AddLog(DotNetNuke.Services.Log.EventLog.LogInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L38">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_AddLog_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.AddLog*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_AddLog_DotNetNuke_Services_Log_EventLog_LogInfo_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.AddLog(DotNetNuke.Services.Log.EventLog.LogInfo)">AddLog(LogInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void AddLog(LogInfo logInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Log.EventLog.LogInfo.html">LogInfo</a></td>
+        <td><span class="parametername">logInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_AddLog_DotNetNuke_Services_Log_EventLog_LogInfo_">LoggingProvider.AddLog(LogInfo)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_AddLogType_System_String_System_String_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.AddLogType(System.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L66">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_AddLogType_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.AddLogType*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_AddLogType_System_String_System_String_System_String_System_String_System_String_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.AddLogType(System.String,System.String,System.String,System.String,System.String)">AddLogType(String, String, String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void AddLogType(string logTypeKey, string logTypeFriendlyName, string logTypeDescription, string logTypeCSSClass, string logTypeOwner)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logTypeKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logTypeFriendlyName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logTypeDescription</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logTypeCSSClass</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logTypeOwner</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_AddLogType_System_String_System_String_System_String_System_String_System_String_">LoggingProvider.AddLogType(String, String, String, String, String)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_AddLogTypeConfigInfo_System_String_System_Boolean_System_String_System_String_System_String_System_String_System_Boolean_System_String_System_String_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.AddLogTypeConfigInfo(System.String%2CSystem.Boolean%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Boolean%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L73">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_AddLogTypeConfigInfo_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.AddLogTypeConfigInfo*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_AddLogTypeConfigInfo_System_String_System_Boolean_System_String_System_String_System_String_System_String_System_Boolean_System_String_System_String_System_String_System_String_System_String_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.AddLogTypeConfigInfo(System.String,System.Boolean,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.String,System.String)">AddLogTypeConfigInfo(String, Boolean, String, String, String, String, Boolean, String, String, String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void AddLogTypeConfigInfo(string id, bool loggingIsActive, string logTypeKey, string logTypePortalID, string keepMostRecent, string logFileName, bool emailNotificationIsActive, string threshold, string thresholdTime, string thresholdTimeType, string mailFromAddress, string mailToAddress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">loggingIsActive</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logTypeKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logTypePortalID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keepMostRecent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logFileName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">emailNotificationIsActive</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">threshold</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">thresholdTime</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">thresholdTimeType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mailFromAddress</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mailToAddress</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_AddLogTypeConfigInfo_System_String_System_Boolean_System_String_System_String_System_String_System_String_System_Boolean_System_String_System_String_System_String_System_String_System_String_">LoggingProvider.AddLogTypeConfigInfo(String, Boolean, String, String, String, String, Boolean, String, String, String, String, String)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_ClearLog.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.ClearLog%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L115">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_ClearLog_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.ClearLog*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_ClearLog" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.ClearLog">ClearLog()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ClearLog()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_ClearLog">LoggingProvider.ClearLog()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_DeleteLog_DotNetNuke_Services_Log_EventLog_LogInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.DeleteLog(DotNetNuke.Services.Log.EventLog.LogInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L121">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_DeleteLog_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.DeleteLog*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_DeleteLog_DotNetNuke_Services_Log_EventLog_LogInfo_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.DeleteLog(DotNetNuke.Services.Log.EventLog.LogInfo)">DeleteLog(LogInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void DeleteLog(LogInfo logInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Log.EventLog.LogInfo.html">LogInfo</a></td>
+        <td><span class="parametername">logInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_DeleteLog_DotNetNuke_Services_Log_EventLog_LogInfo_">LoggingProvider.DeleteLog(LogInfo)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_DeleteLogType_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.DeleteLogType(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L127">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_DeleteLogType_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.DeleteLogType*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_DeleteLogType_System_String_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.DeleteLogType(System.String)">DeleteLogType(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void DeleteLogType(string logTypeKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logTypeKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_DeleteLogType_System_String_">LoggingProvider.DeleteLogType(String)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_DeleteLogTypeConfigInfo_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.DeleteLogTypeConfigInfo(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L134">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_DeleteLogTypeConfigInfo_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.DeleteLogTypeConfigInfo*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_DeleteLogTypeConfigInfo_System_String_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.DeleteLogTypeConfigInfo(System.String)">DeleteLogTypeConfigInfo(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void DeleteLogTypeConfigInfo(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_DeleteLogTypeConfigInfo_System_String_">LoggingProvider.DeleteLogTypeConfigInfo(String)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_GetLog_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.GetLog(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L213">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_GetLog_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.GetLog*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_GetLog_System_String_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.GetLog(System.String)">GetLog(String)</h4>
+  <div class="markdown level1 summary"><p>Retrieves a single event log via the Log Guid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ILogInfo GetLog(string logGuid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logGuid</span></td>
+        <td><p>A string reprenstation of the log Guid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.ILogInfo.html">ILogInfo</a></td>
+        <td><p>The <a class="xref" href="DotNetNuke.Abstractions.Logging.ILogInfo.html">ILogInfo</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_GetLog_System_String_">LoggingProvider.GetLog(String)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_GetLogs_System_Int32_System_String_System_Int32_System_Int32_System_Int32__.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.GetLogs(System.Int32%2CSystem.String%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L142">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_GetLogs_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.GetLogs*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_GetLogs_System_Int32_System_String_System_Int32_System_Int32_System_Int32__" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.GetLogs(System.Int32,System.String,System.Int32,System.Int32,System.Int32@)">GetLogs(Int32, String, Int32, Int32, ref Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override List&lt;LogInfo&gt; GetLogs(int portalID, string logType, int pageSize, int pageIndex, ref int totalRecords)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pageSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pageIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">totalRecords</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="DotNetNuke.Services.Log.EventLog.LogInfo.html">LogInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_GetLogs_System_Int32_System_String_System_Int32_System_Int32_System_Int32__">LoggingProvider.GetLogs(Int32, String, Int32, Int32, ref Int32)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_GetLogTypeConfigInfo.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.GetLogTypeConfigInfo%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L150">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_GetLogTypeConfigInfo_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.GetLogTypeConfigInfo*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_GetLogTypeConfigInfo" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.GetLogTypeConfigInfo">GetLogTypeConfigInfo()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ArrayList GetLogTypeConfigInfo()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ArrayList</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_GetLogTypeConfigInfo">LoggingProvider.GetLogTypeConfigInfo()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_GetLogTypeConfigInfoByID_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.GetLogTypeConfigInfoByID(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L180">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_GetLogTypeConfigInfoByID_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.GetLogTypeConfigInfoByID*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_GetLogTypeConfigInfoByID_System_String_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.GetLogTypeConfigInfoByID(System.String)">GetLogTypeConfigInfoByID(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override LogTypeConfigInfo GetLogTypeConfigInfoByID(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Log.EventLog.LogTypeConfigInfo.html">LogTypeConfigInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_GetLogTypeConfigInfoByID_System_String_">LoggingProvider.GetLogTypeConfigInfoByID(String)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_GetLogTypeInfo.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.GetLogTypeInfo%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L186">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_GetLogTypeInfo_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.GetLogTypeInfo*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_GetLogTypeInfo" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.GetLogTypeInfo">GetLogTypeInfo()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ArrayList GetLogTypeInfo()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ArrayList</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_GetLogTypeInfo">LoggingProvider.GetLogTypeInfo()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_GetSingleLog_DotNetNuke_Services_Log_EventLog_LogInfo_DotNetNuke_Services_Log_EventLog_LoggingProvider_ReturnType_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.GetSingleLog(DotNetNuke.Services.Log.EventLog.LogInfo%2CDotNetNuke.Services.Log.EventLog.LoggingProvider.ReturnType)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L194">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_GetSingleLog_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.GetSingleLog*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_GetSingleLog_DotNetNuke_Services_Log_EventLog_LogInfo_DotNetNuke_Services_Log_EventLog_LoggingProvider_ReturnType_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.GetSingleLog(DotNetNuke.Services.Log.EventLog.LogInfo,DotNetNuke.Services.Log.EventLog.LoggingProvider.ReturnType)">GetSingleLog(LogInfo, LoggingProvider.ReturnType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override object GetSingleLog(LogInfo logInfo, LoggingProvider.ReturnType returnType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Log.EventLog.LogInfo.html">LogInfo</a></td>
+        <td><span class="parametername">logInfo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.ReturnType.html">LoggingProvider.ReturnType</a></td>
+        <td><span class="parametername">returnType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_GetSingleLog_DotNetNuke_Services_Log_EventLog_LogInfo_DotNetNuke_Services_Log_EventLog_LoggingProvider_ReturnType_">LoggingProvider.GetSingleLog(LogInfo, LoggingProvider.ReturnType)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_LoggingIsEnabled_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.LoggingIsEnabled(System.String%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L234">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_LoggingIsEnabled_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.LoggingIsEnabled*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_LoggingIsEnabled_System_String_System_Int32_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.LoggingIsEnabled(System.String,System.Int32)">LoggingIsEnabled(String, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool LoggingIsEnabled(string logType, int portalID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">portalID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_LoggingIsEnabled_System_String_System_Int32_">LoggingProvider.LoggingIsEnabled(String, Int32)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_PurgeLogBuffer.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.PurgeLogBuffer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L252">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_PurgeLogBuffer_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.PurgeLogBuffer*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_PurgeLogBuffer" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.PurgeLogBuffer">PurgeLogBuffer()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void PurgeLogBuffer()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_PurgeLogBuffer">LoggingProvider.PurgeLogBuffer()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_SendLogNotifications.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.SendLogNotifications%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L283">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_SendLogNotifications_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.SendLogNotifications*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_SendLogNotifications" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.SendLogNotifications">SendLogNotifications()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SendLogNotifications()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_SendLogNotifications">LoggingProvider.SendLogNotifications()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_SupportsEmailNotification.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.SupportsEmailNotification%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L309">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_SupportsEmailNotification_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.SupportsEmailNotification*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_SupportsEmailNotification" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.SupportsEmailNotification">SupportsEmailNotification()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool SupportsEmailNotification()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_SupportsEmailNotification">LoggingProvider.SupportsEmailNotification()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_SupportsInternalViewer.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.SupportsInternalViewer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L315">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_SupportsInternalViewer_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.SupportsInternalViewer*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_SupportsInternalViewer" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.SupportsInternalViewer">SupportsInternalViewer()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool SupportsInternalViewer()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_SupportsInternalViewer">LoggingProvider.SupportsInternalViewer()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_SupportsSendToCoreTeam.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.SupportsSendToCoreTeam%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L321">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_SupportsSendToCoreTeam_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.SupportsSendToCoreTeam*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_SupportsSendToCoreTeam" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.SupportsSendToCoreTeam">SupportsSendToCoreTeam()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool SupportsSendToCoreTeam()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_SupportsSendToCoreTeam">LoggingProvider.SupportsSendToCoreTeam()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_SupportsSendViaEmail.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.SupportsSendViaEmail%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L327">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_SupportsSendViaEmail_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.SupportsSendViaEmail*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_SupportsSendViaEmail" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.SupportsSendViaEmail">SupportsSendViaEmail()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool SupportsSendViaEmail()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_SupportsSendViaEmail">LoggingProvider.SupportsSendViaEmail()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_UpdateLogType_System_String_System_String_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.UpdateLogType(System.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L335">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_UpdateLogType_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.UpdateLogType*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_UpdateLogType_System_String_System_String_System_String_System_String_System_String_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.UpdateLogType(System.String,System.String,System.String,System.String,System.String)">UpdateLogType(String, String, String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void UpdateLogType(string logTypeKey, string logTypeFriendlyName, string logTypeDescription, string logTypeCSSClass, string logTypeOwner)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logTypeKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logTypeFriendlyName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logTypeDescription</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logTypeCSSClass</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logTypeOwner</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_UpdateLogType_System_String_System_String_System_String_System_String_System_String_">LoggingProvider.UpdateLogType(String, String, String, String, String)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_Log_EventLog_DBLoggingProvider_UpdateLogTypeConfigInfo_System_String_System_Boolean_System_String_System_String_System_String_System_String_System_Boolean_System_String_System_String_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.Log.EventLog.DBLoggingProvider.UpdateLogTypeConfigInfo(System.String%2CSystem.Boolean%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Boolean%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L342">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_UpdateLogTypeConfigInfo_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.UpdateLogTypeConfigInfo*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_DBLoggingProvider_UpdateLogTypeConfigInfo_System_String_System_Boolean_System_String_System_String_System_String_System_String_System_Boolean_System_String_System_String_System_String_System_String_System_String_" data-uid="DotNetNuke.Services.Log.EventLog.DBLoggingProvider.UpdateLogTypeConfigInfo(System.String,System.Boolean,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.String,System.String)">UpdateLogTypeConfigInfo(String, Boolean, String, String, String, String, Boolean, String, String, String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void UpdateLogTypeConfigInfo(string id, bool loggingIsActive, string logTypeKey, string logTypePortalID, string keepMostRecent, string logFileName, bool emailNotificationIsActive, string threshold, string thresholdTime, string thresholdTimeType, string mailFromAddress, string mailToAddress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">loggingIsActive</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logTypeKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logTypePortalID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keepMostRecent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logFileName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">emailNotificationIsActive</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">threshold</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">thresholdTime</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">thresholdTimeType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mailFromAddress</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mailToAddress</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Services.Log.EventLog.LoggingProvider.html#DotNetNuke_Services_Log_EventLog_LoggingProvider_UpdateLogTypeConfigInfo_System_String_System_Boolean_System_String_System_String_System_String_System_String_System_Boolean_System_String_System_String_System_String_System_String_System_String_">LoggingProvider.UpdateLogTypeConfigInfo(String, Boolean, String, String, String, String, Boolean, String, String, String, String, String)</a></div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/Log/EventLog/DBLoggingProvider.cs/#L24" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				container: selector,
+    				appId: 'ZPKP9SED9P',
+    				indexName: 'dnnsoftware',
+    				apiKey: '37bfc247275fb9e8fcecbda599134a30',
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('#docsearch-navbar'));  
+    </script>
+  </body>
+</html>
