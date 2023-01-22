@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Composition;
 using System.Text.RegularExpressions;
-using System.Web.UI.WebControls;
 
 namespace DNNCommunity.DNNDocs.Plugins
 {

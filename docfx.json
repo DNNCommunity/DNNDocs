@@ -4,6 +4,8 @@
       "src": [
         {
           "files": [
+            "Dnn.Platform/DNN Platform/DotNetNuke.Abstractions/DotNetNuke.Abstractions.csproj",
+            "Dnn.Platform/DNN Platform/DotNetNuke.DependencyInjection/DotNetNuke.DependencyInjection.csproj",
             "Dnn.Platform/DNN Platform/Library/DotNetNuke.Library.csproj",
             "Dnn.Platform/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Dnn.PersonaBar.Library.csproj",
             "Dnn.Platform/DNN Platform/DotNetNuke.Instrumentation/DotNetNuke.Instrumentation.csproj",
@@ -22,29 +24,6 @@
         }
       ],
       "dest": "api",
-      "properties": {
-        "TargetFramework": "net472"
-      },
-      "disableGitFeatures": false,
-      "disableDefaultFilter": false
-    },
-    {
-      "src": [
-        {
-          "files": [
-            "Dnn.Platform/DNN Platform/DotNetNuke.Abstractions/DotNetNuke.Abstractions.csproj",
-            "Dnn.Platform/DNN Platform/DotNetNuke.DependencyInjection/DotNetNuke.DependencyInjection.csproj"
-          ],
-          "exclude": [
-            "**/bin/**",
-            "**/obj/**"
-          ]
-        }
-      ],
-      "dest": "api",
-      "properties": {
-        "TargetFramework": "netstandard2.0"
-      },
       "disableGitFeatures": false,
       "disableDefaultFilter": false
     }
