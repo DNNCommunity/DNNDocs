@@ -93,7 +93,7 @@ CSS
 ```
 
 ## Positioning and z-index
-When elements are not positioned "static", or have negative margins or transparency, a layering context is created and the css property `z-index` can be used to defined their height in those layers. A higher number means the element is on top of any other elements that does not specify a `z-index` or has a lower one. This layering context is local and contained within the parent element, except when `float` is used. Historically many DNN controls and themes use floats and for that reason a number range has been traditionally used to attempt to prevent conflicts between modules and themes. Here are the z-index values used within DNN:
+When elements are not positioned "static", or have negative margins or transparency, a layering context is created. The CSS property `z-index` can be used to define their height in those layers. A higher number means the element is on top of any other elements that do not specify a `z-index` or has a lower one. This layering context is local and contained within the parent element, except when `float` is used. Historically, many DNN controls and themes use floats, so a number range has been traditionally used to attempt to prevent conflicts between modules and themes. Here are the z-index values used within DNN:
 
 - DNN FormPopup: **100000** (for modules that use built-in popups)
 - DNN Menu sub-items: **1001**
