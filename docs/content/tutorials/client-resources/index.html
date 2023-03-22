@@ -157,12 +157,12 @@
 </code></pre>
 <h4 id="webforms">WebForms</h4>
 <pre><code class="lang-html">&lt;%@ Register TagPrefix=&quot;dnn&quot; Namespace=&quot;DotNetNuke.Web.Client.ClientResourceManagement&quot; Assembly=&quot;DotNetNuke.Web.Client&quot; %&gt;
-&lt;%@ Register TagPrefix=&quot;dnn&quot; TagName=&quot;JavaScriptLibraryInclude&quot; Src=&quot;JavaScriptLibraryInclude&quot; Src=&quot;~/admin/Skins/JavaScriptLibraryInclude.ascx&quot; %&gt;
+&lt;%@ Register TagPrefix=&quot;dnn&quot; TagName=&quot;JavaScriptLibraryInclude&quot; Src=&quot;~/admin/Skins/JavaScriptLibraryInclude.ascx&quot; %&gt;
 
 &lt;dnn:DnnCssInclude runat=&quot;server&quot; PathNameAlias=&quot;SkinPath&quot; FilePath=&quot;Styles/bootstrap.min.css&quot; Priority=&quot;14&quot; Name=&quot;bootstrap&quot; Version=&quot;4.5.2&quot; /&gt;
 &lt;dnn:DnnCssInclude runat=&quot;server&quot; FilePath=&quot;https://fonts.googleapis.com/css2?family=Oswald&amp;display=swap&quot; /&gt;
 
-&lt;dnn:JavaScriptLibraryInclude runat=&quot;server&quot; Name=&quot;swiper&quot; Version=&quot;6.0.1&quot;, SpecificVersion=&quot;LatestMajor&quot; /&gt;
+&lt;dnn:JavaScriptLibraryInclude runat=&quot;server&quot; Name=&quot;swiper&quot; Version=&quot;6.0.1&quot; SpecificVersion=&quot;LatestMajor&quot; /&gt;
 
 &lt;dnn:DnnJsInclude runat=&quot;server&quot; PathNameAlias=&quot;SkinPath&quot; FilePath=&quot;Scripts/bootstrap.min.js&quot; ForceProvider=&quot;DnnFormBottomProvider&quot; Name=&quot;bootstrap&quot; Version=&quot;4.5.2&quot; /&gt;
 &lt;dnn:DnnJsInclude runat=&quot;server&quot; PathNameAlias=&quot;SkinPath&quot; FilePath=&quot;Scripts/mySliders.min.js&quot; ForceProvider=&quot;DnnFormBottomProvider&quot; Priority=&quot;10001&quot; /&gt;

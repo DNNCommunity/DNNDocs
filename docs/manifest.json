@@ -4500,7 +4500,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Data.DataProvider.html",
-          "hash": "VghzRdFg+RTcML8G99N8Bucipcr6eYz7H5Q3zcOSa8Y="
+          "hash": "r/hnL0uN27YmMJKmlKtbZXQSn8JfKpv2EuJAhlvJccY="
         }
       },
       "is_incremental": false,
@@ -4668,7 +4668,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Data.SqlDataProvider.html",
-          "hash": "G8JaNfuXczhHU2YjhFWZvHe0vbAFPDs5m9IM4L4P1Ns="
+          "hash": "jWKlZ3lrCxrZJsOxiXpNXhkh/HjtkcIyRecIJLMC9Zc="
         }
       },
       "is_incremental": false,
@@ -5892,7 +5892,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Host.ServerController.html",
-          "hash": "f8jUf75P6HesPKDYo9xp5Q3IlHBFns0yxw1/gPwNhfA="
+          "hash": "HVCLfcLZKKQ3YCjsgKkVaPuFof5c3iQfe7WwjiTaE8Y="
         }
       },
       "is_incremental": false,
@@ -16452,7 +16452,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Scheduling.DNNScheduler.html",
-          "hash": "yOw+bXEPTJNue2raWsam2XFX+w8Y7c407DbeuSFF/KE="
+          "hash": "mdrtANAhND04pzJ+M8JkKGRXUn+SjLrmFC5IpRawEuA="
         }
       },
       "is_incremental": false,
@@ -16584,7 +16584,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Scheduling.SchedulerClient.html",
-          "hash": "YDHHdZEDGHfLtY8qelo8bc8PdkKkuHsjaOWUPe2SC04="
+          "hash": "pff1auvsodnNS8eak29QKqccnOfleZ/Ho1mFp6r5N2A="
         }
       },
       "is_incremental": false,
@@ -17976,7 +17976,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Syndication.RssHandler.html",
-          "hash": "kcJaJcflOk/XzaiFvPqECa7cnvZ6k1t3oPvOwsXEfLI="
+          "hash": "A9Qe7IoKHXmZGAeXttTijL1dDe/77fty0/075TPOzHk="
         }
       },
       "is_incremental": false,
@@ -17988,7 +17988,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Syndication.SyndicationHandlerBase.html",
-          "hash": "GPcs5skzCssRmqqOTMtpre8Bam54aXEQ0Sa8KB4JKn8="
+          "hash": "kLPVZi0bjQffPjOt3pTE6a6f4W5gSb5sC/LIJrYPkGU="
         }
       },
       "is_incremental": false,
@@ -18000,7 +18000,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Syndication.html",
-          "hash": "zLTcck631CQY2f/iyRDuobKw+6Whz9QFuZClJX7Patk="
+          "hash": "Vu9gLuI8cx0DDsGKQ5O2fdjczF0vBAtEEm2W92ZdF/E="
         }
       },
       "is_incremental": false,
@@ -18025,6 +18025,30 @@
         ".html": {
           "relative_path": "api/DotNetNuke.Services.SystemDateTime.html",
           "hash": "vp+85pN27b7CZYIGr27T7o6ws2cBgm3iNk1D4LrXW38="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.SystemHealth.WebServerMonitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.SystemHealth.WebServerMonitor.html",
+          "hash": "UvD4fEHHXIynn5ipd2pwM4Qu8QrYZqc0zTo/9jXVZeU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.SystemHealth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.SystemHealth.html",
+          "hash": "aL0AIRLkgJIIiVu6jkvc19TYQ6/6VJDiQBO7/sqTPCs="
         }
       },
       "is_incremental": false,
@@ -19908,7 +19932,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.UI.UserControls.HelpButtonControl.html",
-          "hash": "mkI09RnKxyyRswIrI+/2m8Pdhs17PToccEio1eJ/3GA="
+          "hash": "fhPr709gusQBjIKLJdJHzB0cdxKz9pAnsWHVO7XkLhc="
         }
       },
       "is_incremental": false,
@@ -19980,7 +20004,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.UI.UserControls.SectionHeadControl.html",
-          "hash": "2LOzhz8GYc/ekY9va+8SvzCtKLUdljM7pBOfV4Y9kGc="
+          "hash": "UWOzooCxtWvx4doIguE9RKbGiBnpmgvuB8LUDHTY/oA="
         }
       },
       "is_incremental": false,
@@ -19992,7 +20016,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.UI.UserControls.TextEditor.html",
-          "hash": "LiQtoosxOtEjQrnuxxdxlX4vnRPcPRgVnsk9gphQrbI="
+          "hash": "iA/NcYnEiLciefkniDccSlzr7ZmsobQIsDZNh3Q8pDM="
         }
       },
       "is_incremental": false,
@@ -20004,7 +20028,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.UI.UserControls.URLTrackingControl.html",
-          "hash": "2DweZ41e8urTqeFM0F55cBlDYup8hJb0Q5FW/fLwZ1U="
+          "hash": "lsMubSLo3kpjFzpz+qeH5x2T7USmGVblUL8AbdAg9Co="
         }
       },
       "is_incremental": false,
@@ -25548,7 +25572,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "uIBCC1owGzoKY/ja6U+lsOCVKA9qem3KTtMjYd7WeSg="
+          "hash": "bHV04ITCwz92T0Jj/Djl/IWMAGNoe2dURT1sn/goUpU="
         }
       },
       "is_incremental": false,
@@ -35724,7 +35748,7 @@
       "output": {
         ".html": {
           "relative_path": "content/tutorials/client-resources/index.html",
-          "hash": "mpyHxiDvH4R38P7WkSV9v53prq/tbarZoaA6cP6uKmg="
+          "hash": "kFmwYV42jz7KbvPqUJ58ZJnprx01KAnYqvJ0/I9jCns="
         }
       },
       "is_incremental": false,
@@ -44459,7 +44483,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 2132,
+          "total_file_count": 2134,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
