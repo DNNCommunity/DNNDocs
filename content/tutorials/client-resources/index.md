@@ -74,12 +74,12 @@ When requesting a script or CSS file, a name and version can also be specified, 
 
 ```html
 <%@ Register TagPrefix="dnn" Namespace="DotNetNuke.Web.Client.ClientResourceManagement" Assembly="DotNetNuke.Web.Client" %>
-<%@ Register TagPrefix="dnn" TagName="JavaScriptLibraryInclude" Src="JavaScriptLibraryInclude" Src="~/admin/Skins/JavaScriptLibraryInclude.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="JavaScriptLibraryInclude" Src="~/admin/Skins/JavaScriptLibraryInclude.ascx" %>
 
 <dnn:DnnCssInclude runat="server" PathNameAlias="SkinPath" FilePath="Styles/bootstrap.min.css" Priority="14" Name="bootstrap" Version="4.5.2" />
 <dnn:DnnCssInclude runat="server" FilePath="https://fonts.googleapis.com/css2?family=Oswald&display=swap" />
 
-<dnn:JavaScriptLibraryInclude runat="server" Name="swiper" Version="6.0.1", SpecificVersion="LatestMajor" />
+<dnn:JavaScriptLibraryInclude runat="server" Name="swiper" Version="6.0.1" SpecificVersion="LatestMajor" />
 
 <dnn:DnnJsInclude runat="server" PathNameAlias="SkinPath" FilePath="Scripts/bootstrap.min.js" ForceProvider="DnnFormBottomProvider" Name="bootstrap" Version="4.5.2" />
 <dnn:DnnJsInclude runat="server" PathNameAlias="SkinPath" FilePath="Scripts/mySliders.min.js" ForceProvider="DnnFormBottomProvider" Priority="10001" />
