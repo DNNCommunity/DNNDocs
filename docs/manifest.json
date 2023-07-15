@@ -4716,7 +4716,19 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.DependencyInjection.Extensions.TypeExtensions.html",
-          "hash": "jWTMGtj/AtYBw02E8m1Q0IoL8FxVG8jLp64RP2SEUFE="
+          "hash": "J3xDhuR/IkWI2G824grj8bvjBx8G+qu7ZoeHq0XTS3I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.DependencyInjection.Extensions.TypesResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.DependencyInjection.Extensions.TypesResult.html",
+          "hash": "w86ZLhBEIi/2MDS7pCTiIfdP7QpNh6MAlhNLTDHEqu4="
         }
       },
       "is_incremental": false,
@@ -4728,7 +4740,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.DependencyInjection.Extensions.html",
-          "hash": "uNvPAWF1JJzkqvugbCZf+miANWX7a8vVXnX9l08ul2A="
+          "hash": "pR7Dk85eEAaUi0ImTFDDqQqD+lAadQy1fZhWt9Bvq1g="
         }
       },
       "is_incremental": false,
@@ -4748,11 +4760,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.DependencyInjection.LazyWrapper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.DependencyInjection.LazyWrapper-1.html",
+          "hash": "srqkKV4CssHsKIv+LVJWGoM0GveMKXyjm7uW03MApp0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.DependencyInjection.yml",
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.DependencyInjection.html",
-          "hash": "J1+l4v8/9mOYtNztlo31XNm4pRThM4HlEuuW0RSIMqM="
+          "hash": "cV9Vs9ab5DwRfH12JB/BpJDCp5ONjDZVapjMvRDyY3w="
         }
       },
       "is_incremental": false,
@@ -10020,7 +10044,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Framework.JavaScriptLibraries.JavaScript.html",
-          "hash": "b03jbnymeELg7pKb6xoIVO6TRUAlsXrzFo4Q8OQ5X/U="
+          "hash": "WcPOlJblCyo8E+q1TB71+QNYtKWlxfQQAl67JUO27hc="
         }
       },
       "is_incremental": false,
@@ -10140,7 +10164,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Framework.Reflection.html",
-          "hash": "khlYGEKJ4gmYVAe+bf4ZbwGDBqV3OD/rcHj9hrlMs2Q="
+          "hash": "zGa3kVvDs/Uvo0lK7qA+egjkTbUI5taRLSVClHYXQh4="
         }
       },
       "is_incremental": false,
@@ -11664,7 +11688,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Analytics.AnalyticsEngineBase.html",
-          "hash": "m+XEXGSrofxQLOf0yjACAII3JWfHzxWSjET+p7kZGgE="
+          "hash": "S1+MY4mFTxLA/2hvL2k1AJO4LuLIa5KqbOQoPDnsVGk="
         }
       },
       "is_incremental": false,
@@ -11756,6 +11780,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Analytics.GoogleAnalytics4Engine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Analytics.GoogleAnalytics4Engine.html",
+          "hash": "8A+2Tm0exZKBD+m1SrqcMHpyW/jpftkkaxFQzrkvqY4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Services.Analytics.GoogleAnalyticsController.yml",
       "output": {
         ".html": {
@@ -11784,7 +11820,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Analytics.html",
-          "hash": "RNw0YhoL+24OhSzC78GsNXzcwbQRMxsMxgPeYdAOe8c="
+          "hash": "gDPilYsNz2QiCqZhI1vjPehKJ+SCBdxGrQ6q9tOPVaA="
         }
       },
       "is_incremental": false,
@@ -15792,7 +15828,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Mail.Mail.html",
-          "hash": "kFPJv9HJ0ym4UiGny6zG4eiEUmKuFnfAsb7b8iQEqaM="
+          "hash": "gUc6pXjQbMsdu1gL6bLlvHVowKNbvpe7SmGo0+WW6ik="
         }
       },
       "is_incremental": false,
@@ -15876,7 +15912,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Mail.MessageType.html",
-          "hash": "Sk6AnDBPKXzPPfZqWYQhmHdFAJLCzSp5J/KW1H7evPs="
+          "hash": "GaIxO4WJG7iVldLcHhIu+xYbGue1xs6DZbWIbsL7Jtg="
         }
       },
       "is_incremental": false,
@@ -18876,7 +18912,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Startup.html",
-          "hash": "U9NDE9yKrXHjVqeoqmMDQq5ONmgTyAmdKvN5TlRJuV8="
+          "hash": "yXwbRq4rP4hXBNWAhDdeDnK0Yp23Jmh6nV5Ww6agDlI="
         }
       },
       "is_incremental": false,
@@ -21648,7 +21684,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Api.SupportedModulesAttribute.html",
-          "hash": "2KM6H8RPjY7x4LYP1mXHHlw/l2wa10KWNbCj8Q0/rS0="
+          "hash": "KjwJdflL3rNjL3NM9jl0/IC4Kh8g+o/d6DQHIe0X4xQ="
         }
       },
       "is_incremental": false,
@@ -22224,7 +22260,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.DependencyInjectionInitialize.html",
-          "hash": "6UVGEWp2BWwiAIg8NeA8nxQdhFoZbdDgEAZ/nR8KeAo="
+          "hash": "/hz+6gFRvNIB5OnXOVtPF8D9S8lBNOYihA/TdGrt/2g="
         }
       },
       "is_incremental": false,
@@ -22992,7 +23028,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Mvc.Extensions.StartupExtensions.html",
-          "hash": "qujA13knOlzlAYfmsMaBNo4FRQn3hwvqLfMf6ubA1Xk="
+          "hash": "EPJ3NpawFDY0G5/OFNN7FlH830v2oxyFWVWUdR8bjN8="
         }
       },
       "is_incremental": false,
@@ -23004,7 +23040,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Mvc.Extensions.html",
-          "hash": "QIkhiQIa5xBVRve4eMXlc+LV11AjtZYaK+tCEsT97/A="
+          "hash": "kosKlmHPp5D9xa+u7Z4mXG9eLwD/ifNRh8nlJQ4ex8Q="
         }
       },
       "is_incremental": false,
@@ -25572,7 +25608,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "bHV04ITCwz92T0Jj/Djl/IWMAGNoe2dURT1sn/goUpU="
+          "hash": "xtBMbCUAudOD2SUa+FM/pKU8H/TLdxvQcMLg/+rHWmQ="
         }
       },
       "is_incremental": false,
@@ -25692,7 +25728,7 @@
       "output": {
         ".html": {
           "relative_path": "content/features/extensibility/extensions/index.html",
-          "hash": "0zV2w7kU9n3Yz9QAxNJpeSKVP6xUf8ad54aMrx+aRRU="
+          "hash": "EuD+eDi/hLknQD2PVDxyLZz2gdK72mcNGvrmh9ti8Xk="
         }
       },
       "is_incremental": false,
@@ -26304,7 +26340,7 @@
       "output": {
         ".html": {
           "relative_path": "content/getting-started/setup/upgrades/suggested-upgrade-path/index.html",
-          "hash": "wcxdaItAxyABfB6vjxdzRjqUmBMjPSv7ugXdyT+WMvw="
+          "hash": "wbzlk/gIBHRVXUl5ZCo7iE+pkDWxpPYcYiHHY0jMuD8="
         }
       },
       "is_incremental": false,
@@ -44483,7 +44519,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 2134,
+          "total_file_count": 2137,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

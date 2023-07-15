@@ -109,8 +109,7 @@
 
   <h1 id="DotNetNuke_DependencyInjection_Extensions_TypeExtensions" data-uid="DotNetNuke.DependencyInjection.Extensions.TypeExtensions" class="text-break">Class TypeExtensions
 </h1>
-  <div class="markdown level0 summary"><p><see cref="!:Type"></see> specific extensions to be used
-in Dependency Injection invocations.</p>
+  <div class="markdown level0 summary"><p><see cref="!:Type"></see> specific extensions to be used in Dependency Injection invocations.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -128,21 +127,141 @@ in Dependency Injection invocations.</p>
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_DependencyInjection_Extensions_TypeExtensions_SafeGetTypes_Assembly_DotNetNuke_Instrumentation_ILog_.md&amp;value=---%0Auid%3A%20DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes(Assembly%2CDotNetNuke.Instrumentation.ILog)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_DependencyInjection_Extensions_TypeExtensions_BuildLoaderExceptionsMessage_IReadOnlyDictionary_Assembly_ReflectionTypeLoadException__.md&amp;value=---%0Auid%3A%20DotNetNuke.DependencyInjection.Extensions.TypeExtensions.BuildLoaderExceptionsMessage(IReadOnlyDictionary%7BAssembly%2CReflectionTypeLoadException%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.DependencyInjection/Extensions/TypeExtensions.cs/#L46">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.DependencyInjection/Extensions/TypeExtensions.cs/#L113">View Source</a>
   </span>
-  <a id="DotNetNuke_DependencyInjection_Extensions_TypeExtensions_SafeGetTypes_" data-uid="DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes*"></a>
-  <h4 id="DotNetNuke_DependencyInjection_Extensions_TypeExtensions_SafeGetTypes_Assembly_DotNetNuke_Instrumentation_ILog_" data-uid="DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes(Assembly,DotNetNuke.Instrumentation.ILog)">SafeGetTypes(Assembly, ILog)</h4>
-  <div class="markdown level1 summary"><p>Safely Get all Types from the assembly. If there
-is an error while retrieving the types it will
-return an empty array of <see cref="!:Type"></see>.</p>
+  <a id="DotNetNuke_DependencyInjection_Extensions_TypeExtensions_BuildLoaderExceptionsMessage_" data-uid="DotNetNuke.DependencyInjection.Extensions.TypeExtensions.BuildLoaderExceptionsMessage*"></a>
+  <h4 id="DotNetNuke_DependencyInjection_Extensions_TypeExtensions_BuildLoaderExceptionsMessage_IReadOnlyDictionary_Assembly_ReflectionTypeLoadException__" data-uid="DotNetNuke.DependencyInjection.Extensions.TypeExtensions.BuildLoaderExceptionsMessage(IReadOnlyDictionary{Assembly,ReflectionTypeLoadException})">BuildLoaderExceptionsMessage(IReadOnlyDictionary&lt;Assembly, ReflectionTypeLoadException&gt;)</h4>
+  <div class="markdown level1 summary"><p>Builds a message to load for a collection of <see cref="!:ReflectionTypeLoadException"></see> instances.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Type[] SafeGetTypes(this Assembly assembly, ILog logger = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static StringBuilder BuildLoaderExceptionsMessage(this IReadOnlyDictionary&lt;Assembly, ReflectionTypeLoadException&gt; loadExceptions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">Assembly</span>, <span class="xref">ReflectionTypeLoadException</span>&gt;</td>
+        <td><span class="parametername">loadExceptions</span></td>
+        <td><p>A dictionary mapping <see cref="!:Assembly"></see> to <see cref="!:ReflectionTypeLoadException"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StringBuilder</span></td>
+        <td><p>A <see cref="!:StringBuilder"></see> containing the message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_DependencyInjection_Extensions_TypeExtensions_LogOtherExceptions_DotNetNuke_DependencyInjection_Extensions_TypesResult_DotNetNuke_Instrumentation_ILog_.md&amp;value=---%0Auid%3A%20DotNetNuke.DependencyInjection.Extensions.TypeExtensions.LogOtherExceptions(DotNetNuke.DependencyInjection.Extensions.TypesResult%2CDotNetNuke.Instrumentation.ILog)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.DependencyInjection/Extensions/TypeExtensions.cs/#L95">View Source</a>
+  </span>
+  <a id="DotNetNuke_DependencyInjection_Extensions_TypeExtensions_LogOtherExceptions_" data-uid="DotNetNuke.DependencyInjection.Extensions.TypeExtensions.LogOtherExceptions*"></a>
+  <h4 id="DotNetNuke_DependencyInjection_Extensions_TypeExtensions_LogOtherExceptions_DotNetNuke_DependencyInjection_Extensions_TypesResult_DotNetNuke_Instrumentation_ILog_" data-uid="DotNetNuke.DependencyInjection.Extensions.TypeExtensions.LogOtherExceptions(DotNetNuke.DependencyInjection.Extensions.TypesResult,DotNetNuke.Instrumentation.ILog)">LogOtherExceptions(TypesResult, ILog)</h4>
+  <div class="markdown level1 summary"><p>Logs the exceptions in <a class="xref" href="DotNetNuke.DependencyInjection.Extensions.TypesResult.html#DotNetNuke_DependencyInjection_Extensions_TypesResult_OtherExceptions">OtherExceptions</a> of <code data-dev-comment-type="paramref" class="paramref">result</code> using <code data-dev-comment-type="paramref" class="paramref">logger</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LogOtherExceptions(this TypesResult result, ILog logger)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.DependencyInjection.Extensions.TypesResult.html">TypesResult</a></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>The types result to log.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Instrumentation.ILog.html">ILog</a></td>
+        <td><span class="parametername">logger</span></td>
+        <td><p>The logger.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_DependencyInjection_Extensions_TypeExtensions_SafeGetTypes.md&amp;value=---%0Auid%3A%20DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.DependencyInjection/Extensions/TypeExtensions.cs/#L58">View Source</a>
+  </span>
+  <a id="DotNetNuke_DependencyInjection_Extensions_TypeExtensions_SafeGetTypes_" data-uid="DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes*"></a>
+  <h4 id="DotNetNuke_DependencyInjection_Extensions_TypeExtensions_SafeGetTypes" data-uid="DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes">SafeGetTypes()</h4>
+  <div class="markdown level1 summary"><p>Safely get all types from all assemblies.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TypesResult SafeGetTypes()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.DependencyInjection.Extensions.TypesResult.html">TypesResult</a></td>
+        <td><p>A sequence of all available <see cref="!:Type"></see> instances, along with errors and warnings.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_DependencyInjection_Extensions_TypeExtensions_SafeGetTypes_Assembly_DotNetNuke_Instrumentation_ILog_.md&amp;value=---%0Auid%3A%20DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes(Assembly%2CDotNetNuke.Instrumentation.ILog)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.DependencyInjection/Extensions/TypeExtensions.cs/#L31">View Source</a>
+  </span>
+  <a id="DotNetNuke_DependencyInjection_Extensions_TypeExtensions_SafeGetTypes_" data-uid="DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes*"></a>
+  <h4 id="DotNetNuke_DependencyInjection_Extensions_TypeExtensions_SafeGetTypes_Assembly_DotNetNuke_Instrumentation_ILog_" data-uid="DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes(Assembly,DotNetNuke.Instrumentation.ILog)">SafeGetTypes(Assembly, ILog)</h4>
+  <div class="markdown level1 summary"><p>Safely Get all Types from the assembly. If there is an error while retrieving the types it will return an empty array of <see cref="!:Type"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Type[] SafeGetTypes(this Assembly assembly, ILog logger)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -163,7 +282,7 @@ return an empty array of <see cref="!:Type"></see>.</p>
       <tr>
         <td><a class="xref" href="DotNetNuke.Instrumentation.ILog.html">ILog</a></td>
         <td><span class="parametername">logger</span></td>
-        <td><p>A optional <a class="xref" href="DotNetNuke.Instrumentation.ILog.html">ILog</a> object. This will log any messages from the exception catching to the logs as an Error.</p>
+        <td><p>A optional <a class="xref" href="DotNetNuke.Instrumentation.ILog.html">ILog</a> object. This will log issues loading the types.</p>
 </td>
       </tr>
     </tbody>
@@ -189,13 +308,11 @@ return an empty array of <see cref="!:Type"></see>.</p>
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_DependencyInjection_Extensions_TypeExtensions_SafeGetTypes_Assembly_.md&amp;value=---%0Auid%3A%20DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes(Assembly)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.DependencyInjection/Extensions/TypeExtensions.cs/#L26">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.DependencyInjection/Extensions/TypeExtensions.cs/#L21">View Source</a>
   </span>
   <a id="DotNetNuke_DependencyInjection_Extensions_TypeExtensions_SafeGetTypes_" data-uid="DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes*"></a>
   <h4 id="DotNetNuke_DependencyInjection_Extensions_TypeExtensions_SafeGetTypes_Assembly_" data-uid="DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes(Assembly)">SafeGetTypes(Assembly)</h4>
-  <div class="markdown level1 summary"><p>Safely Get all Types from the assembly. If there
-is an error while retrieving the types it will
-return an empty array of <see cref="!:Type"></see>.</p>
+  <div class="markdown level1 summary"><p>Safely Get all Types from the assembly. If there is an error while retrieving the types it will return an empty array of <see cref="!:Type"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -239,6 +356,56 @@ return an empty array of <see cref="!:Type"></see>.</p>
   <h5 id="DotNetNuke_DependencyInjection_Extensions_TypeExtensions_SafeGetTypes_Assembly__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This is obsolete because logging is not added. Please use the SafeGetTypes with the ILog parameter.</p>
 </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_DependencyInjection_Extensions_TypeExtensions_SafeGetTypes_IEnumerable_Assembly__.md&amp;value=---%0Auid%3A%20DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes(IEnumerable%7BAssembly%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.DependencyInjection/Extensions/TypeExtensions.cs/#L84">View Source</a>
+  </span>
+  <a id="DotNetNuke_DependencyInjection_Extensions_TypeExtensions_SafeGetTypes_" data-uid="DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes*"></a>
+  <h4 id="DotNetNuke_DependencyInjection_Extensions_TypeExtensions_SafeGetTypes_IEnumerable_Assembly__" data-uid="DotNetNuke.DependencyInjection.Extensions.TypeExtensions.SafeGetTypes(IEnumerable{Assembly})">SafeGetTypes(IEnumerable&lt;Assembly&gt;)</h4>
+  <div class="markdown level1 summary"><p>Safely get all types from a set of assemblies.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TypesResult SafeGetTypes(this IEnumerable&lt;Assembly&gt; assemblies)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Assembly</span>&gt;</td>
+        <td><span class="parametername">assemblies</span></td>
+        <td><p>The assemblies.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.DependencyInjection.Extensions.TypesResult.html">TypesResult</a></td>
+        <td><p>A sequence of all available <see cref="!:Type"></see> instances, along with errors and warnings.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
 
@@ -247,7 +414,7 @@ return an empty array of <see cref="!:Type"></see>.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.DependencyInjection/Extensions/TypeExtensions.cs/#L16" class="contribution-link">View Source</a>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/DotNetNuke.DependencyInjection/Extensions/TypeExtensions.cs/#L15" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
