@@ -2,7 +2,7 @@
 uid: nuget-Microsoft.Web.Infrastructure-1.0.0.0
 locale: en
 title: NuGet package Microsoft.Web.Infrastructure version 1.0.0.0
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

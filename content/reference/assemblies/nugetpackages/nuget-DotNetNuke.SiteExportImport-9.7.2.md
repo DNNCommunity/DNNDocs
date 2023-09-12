@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.SiteExportImport-9.7.2
 locale: en
 title: NuGet package DotNetNuke.SiteExportImport version 9.7.2
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 
@@ -29,4 +29,14 @@ Details of published NuGet package.
 
 |Assembly|Version|
 |---|---|
+|DotNetNuke.DependencyInjection.dll|9.7.2.0|
+|DotNetNuke.dll|9.7.2.0|
+|DotNetNuke.Instrumentation.dll|9.7.2.0|
+|DotNetNuke.log4net.dll|3.0.1.0|
+|DotNetNuke.SiteExportImport.dll|9.7.2.0|
+|DotNetNuke.SiteExportImport.Library.dll|9.7.2.0|
+|DotNetNuke.Web.dll|9.7.2.0|
+|DotNetNuke.WebUtility.dll|4.2.1.783|
+|Microsoft.ApplicationBlocks.Data.dll|2.0.0.0|
+|Microsoft.Extensions.DependencyInjection.dll|2.1.1.18157|
 

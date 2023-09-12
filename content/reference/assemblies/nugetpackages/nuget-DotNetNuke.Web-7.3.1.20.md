@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.Web-7.3.1.20
 locale: en
 title: NuGet package DotNetNuke.Web version 7.3.1.20
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

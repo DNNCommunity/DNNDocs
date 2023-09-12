@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.Core-9.2.0.366
 locale: en
 title: NuGet package DotNetNuke.Core version 9.2.0.366
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

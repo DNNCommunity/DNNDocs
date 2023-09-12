@@ -2,7 +2,7 @@
 uid: nuget-System.Management.Automation-6.1.2
 locale: en
 title: NuGet package System.Management.Automation version 6.1.2
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

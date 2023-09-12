@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.Instrumentation-9.8.0
 locale: en
 title: NuGet package DotNetNuke.Instrumentation version 9.8.0
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 
@@ -27,4 +27,10 @@ Details of published NuGet package.
 
 |Assembly|Version|
 |---|---|
+|DotNetNuke.DependencyInjection.dll|9.8.0.0|
+|DotNetNuke.dll|9.8.0.0|
+|DotNetNuke.Instrumentation.dll|9.8.0.0|
+|DotNetNuke.log4net.dll|3.0.1.0|
+|Microsoft.ApplicationBlocks.Data.dll|2.0.0.0|
+|Microsoft.Extensions.DependencyInjection.dll|2.1.1.18157|
 

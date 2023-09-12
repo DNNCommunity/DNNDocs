@@ -92,4 +92,14 @@ Each will open a page where you'll find a complete rundown of the assemblies tha
 |[9.7.1](xref:assemblies-9.7.1)|9.7.1.0|[details](xref:assemblies-9.7.1)|
 |[9.7.2](xref:assemblies-9.7.2)|9.7.2.0|[details](xref:assemblies-9.7.2)|
 |[9.8.0](xref:assemblies-9.8.0)|9.8.0.0|[details](xref:assemblies-9.8.0)|
+|[9.8.1](xref:assemblies-9.8.1)|9.8.1.0|[details](xref:assemblies-9.8.1)|
+|[9.9.0](xref:assemblies-9.9.0)|9.9.0.0|[details](xref:assemblies-9.9.0)|
+|[9.9.1](xref:assemblies-9.9.1)|9.9.1.0|[details](xref:assemblies-9.9.1)|
+|[9.10.0](xref:assemblies-9.10.0)|9.10.0.0|[details](xref:assemblies-9.10.0)|
+|[9.10.1](xref:assemblies-9.10.1)|9.10.1.0|[details](xref:assemblies-9.10.1)|
+|[9.10.2](xref:assemblies-9.10.2)|9.10.2.0|[details](xref:assemblies-9.10.2)|
+|[9.11.0](xref:assemblies-9.11.0)|9.11.0.46|[details](xref:assemblies-9.11.0)|
+|[9.11.1](xref:assemblies-9.11.1)|9.11.1.19|[details](xref:assemblies-9.11.1)|
+|[9.11.2](xref:assemblies-9.11.2)|9.11.2.0|[details](xref:assemblies-9.11.2)|
+|[9.12.0](xref:assemblies-9.12.0)|9.12.0.0|[details](xref:assemblies-9.12.0)|
 
