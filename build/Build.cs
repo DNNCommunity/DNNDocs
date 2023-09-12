@@ -107,7 +107,7 @@ class Build : NukeBuild
         {
             // Prevents a bug where git sends ok message to the error output sink
             GitLogger = (type, output) => Serilog.Log.Information(output);
-            Git($"config --system core.longpaths true");
+            Git($"config --global core.longpaths true");
             Git($"clone https://github.com/dnnsoftware/Dnn.Platform.git {dnnPlatformDirectory}");
         });
 
