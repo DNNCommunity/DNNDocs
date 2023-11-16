@@ -302,7 +302,8 @@ Some component types are applicable only to the package type of the same name; g
 
 *   [`Cleanup`](https://www.dnnsoftware.com/wiki/cleanup-component). List of files that must be deleted during installation or upgrade of the package.
 
-    You can list the files individually in the manifest.
+    - You can list the files individually in the manifest.
+	- You can also remove folders. These have to be empty, so you need to remove the files first.
 
     ```
 
@@ -315,6 +316,9 @@ Some component types are applicable only to the package type of the same name; g
                 <file />
                 ...
             </files>
+			<folder>
+					<path>DesktopModules/MyModule/DeleteFolder</path>
+			</folder>
         </component>
 
     ```
@@ -336,7 +340,7 @@ Some component types are applicable only to the package type of the same name; g
     Notes:
     * You can specify more than one globbing pattern on the same line by separating each pattern with `;`
     * More information on supported globbing patterns can be found at the [Microsoft.Extensions.FileSystemGlobbing documentation](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.filesystemglobbing.matcher?view=dotnet-plat-ext-3.1#remarks)
-    * Globbing patterns can only be used to match files, not directories (if you need to delete a directory, first it needs to be empty, then you need to use one of the above methods to delete the actual directory).
+    * Globbing patterns can only be used to match files and folders inside a folder. not the folder itself.(if you need to delete a directory, first it needs to be empty, then you need to use one of the above methods to delete the actual directory).
     * All methods take paths relative to the application root folder, for that reason `..` is intentionally not supported with globbing patterns in this component.
 
     See also:
