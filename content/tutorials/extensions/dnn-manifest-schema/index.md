@@ -316,9 +316,9 @@ Some component types are applicable only to the package type of the same name; g
                 <file />
                 ...
             </files>
-			<folder>
-					<path>DesktopModules/MyModule/DeleteFolder</path>
-			</folder>
+            <folder>
+                        <path>DesktopModules/MyModule/DeleteFolder</path>
+            </folder>
         </component>
 
     ```
