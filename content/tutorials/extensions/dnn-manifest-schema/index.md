@@ -303,7 +303,7 @@ Some component types are applicable only to the package type of the same name; g
 *   [`Cleanup`](https://www.dnnsoftware.com/wiki/cleanup-component). List of files that must be deleted during installation or upgrade of the package.
 
     - You can list the files individually in the manifest.
-	- You can also remove folders. These have to be empty, so you need to remove the files first.
+    - You can also remove folders. These have to be empty, so you need to remove the files first.
 
     ```
 
