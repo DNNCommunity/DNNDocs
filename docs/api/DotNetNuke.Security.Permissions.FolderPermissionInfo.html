@@ -122,6 +122,9 @@
   <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="DotNetNuke.Entities.Modules.IHydratable.html">IHydratable</a></div>
+    <div><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IFolderPermissionInfo.html">IFolderPermissionInfo</a></div>
+    <div><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionInfo.html">IPermissionInfo</a></div>
+    <div><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -187,7 +190,7 @@
   <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
   <h5 id="DotNetNuke_Security_Permissions_FolderPermissionInfo_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class FolderPermissionInfo : PermissionInfoBase, IHydratable</code></pre>
+    <pre><code class="lang-csharp hljs">public class FolderPermissionInfo : PermissionInfoBase, IHydratable, IFolderPermissionInfo, IPermissionInfo, IPermissionDefinitionInfo</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -196,7 +199,7 @@
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_FolderPermissionInfo__ctor.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.FolderPermissionInfo.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/FolderPermissionInfo.cs/#L27">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/FolderPermissionInfo.cs/#L28">View Source</a>
   </span>
   <a id="DotNetNuke_Security_Permissions_FolderPermissionInfo__ctor_" data-uid="DotNetNuke.Security.Permissions.FolderPermissionInfo.#ctor*"></a>
   <h4 id="DotNetNuke_Security_Permissions_FolderPermissionInfo__ctor" data-uid="DotNetNuke.Security.Permissions.FolderPermissionInfo.#ctor">FolderPermissionInfo()</h4>
@@ -210,10 +213,45 @@ Constructs a new FolderPermissionInfo.</p>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_FolderPermissionInfo__ctor_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.FolderPermissionInfo.%23ctor(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/FolderPermissionInfo.cs/#L51">View Source</a>
+  </span>
+  <a id="DotNetNuke_Security_Permissions_FolderPermissionInfo__ctor_" data-uid="DotNetNuke.Security.Permissions.FolderPermissionInfo.#ctor*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_FolderPermissionInfo__ctor_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionInfo_" data-uid="DotNetNuke.Security.Permissions.FolderPermissionInfo.#ctor(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo)">FolderPermissionInfo(IPermissionDefinitionInfo)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DotNetNuke.Security.Permissions.FolderPermissionInfo.html">FolderPermissionInfo</a> class.
+Constructs a new FolderPermissionInfo.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FolderPermissionInfo(IPermissionDefinitionInfo permission)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></td>
+        <td><span class="parametername">permission</span></td>
+        <td><p>A PermissionInfo object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_FolderPermissionInfo__ctor_DotNetNuke_Security_Permissions_PermissionInfo_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.FolderPermissionInfo.%23ctor(DotNetNuke.Security.Permissions.PermissionInfo)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/FolderPermissionInfo.cs/#L40">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/FolderPermissionInfo.cs/#L41">View Source</a>
   </span>
   <a id="DotNetNuke_Security_Permissions_FolderPermissionInfo__ctor_" data-uid="DotNetNuke.Security.Permissions.FolderPermissionInfo.#ctor*"></a>
   <h4 id="DotNetNuke_Security_Permissions_FolderPermissionInfo__ctor_DotNetNuke_Security_Permissions_PermissionInfo_" data-uid="DotNetNuke.Security.Permissions.FolderPermissionInfo.#ctor(DotNetNuke.Security.Permissions.PermissionInfo)">FolderPermissionInfo(PermissionInfo)</h4>
@@ -250,7 +288,7 @@ Constructs a new FolderPermissionInfo.</p>
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_FolderPermissionInfo_FolderID.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.FolderPermissionInfo.FolderID%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/FolderPermissionInfo.cs/#L65">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/FolderPermissionInfo.cs/#L93">View Source</a>
   </span>
   <a id="DotNetNuke_Security_Permissions_FolderPermissionInfo_FolderID_" data-uid="DotNetNuke.Security.Permissions.FolderPermissionInfo.FolderID*"></a>
   <h4 id="DotNetNuke_Security_Permissions_FolderPermissionInfo_FolderID" data-uid="DotNetNuke.Security.Permissions.FolderPermissionInfo.FolderID">FolderID</h4>
@@ -280,7 +318,7 @@ Constructs a new FolderPermissionInfo.</p>
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_FolderPermissionInfo_FolderPath.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.FolderPermissionInfo.FolderPath%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/FolderPermissionInfo.cs/#L95">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/FolderPermissionInfo.cs/#L157">View Source</a>
   </span>
   <a id="DotNetNuke_Security_Permissions_FolderPermissionInfo_FolderPath_" data-uid="DotNetNuke.Security.Permissions.FolderPermissionInfo.FolderPath*"></a>
   <h4 id="DotNetNuke_Security_Permissions_FolderPermissionInfo_FolderPath" data-uid="DotNetNuke.Security.Permissions.FolderPermissionInfo.FolderPath">FolderPath</h4>
@@ -310,7 +348,7 @@ Constructs a new FolderPermissionInfo.</p>
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_FolderPermissionInfo_FolderPermissionID.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.FolderPermissionInfo.FolderPermissionID%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/FolderPermissionInfo.cs/#L50">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/FolderPermissionInfo.cs/#L62">View Source</a>
   </span>
   <a id="DotNetNuke_Security_Permissions_FolderPermissionInfo_FolderPermissionID_" data-uid="DotNetNuke.Security.Permissions.FolderPermissionInfo.FolderPermissionID*"></a>
   <h4 id="DotNetNuke_Security_Permissions_FolderPermissionInfo_FolderPermissionID" data-uid="DotNetNuke.Security.Permissions.FolderPermissionInfo.FolderPermissionID">FolderPermissionID</h4>
@@ -340,7 +378,7 @@ Constructs a new FolderPermissionInfo.</p>
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_FolderPermissionInfo_KeyID.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.FolderPermissionInfo.KeyID%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/FolderPermissionInfo.cs/#L111">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/FolderPermissionInfo.cs/#L173">View Source</a>
   </span>
   <a id="DotNetNuke_Security_Permissions_FolderPermissionInfo_KeyID_" data-uid="DotNetNuke.Security.Permissions.FolderPermissionInfo.KeyID*"></a>
   <h4 id="DotNetNuke_Security_Permissions_FolderPermissionInfo_KeyID" data-uid="DotNetNuke.Security.Permissions.FolderPermissionInfo.KeyID">KeyID</h4>
@@ -372,7 +410,7 @@ Constructs a new FolderPermissionInfo.</p>
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_FolderPermissionInfo_PortalID.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.FolderPermissionInfo.PortalID%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/FolderPermissionInfo.cs/#L80">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/FolderPermissionInfo.cs/#L125">View Source</a>
   </span>
   <a id="DotNetNuke_Security_Permissions_FolderPermissionInfo_PortalID_" data-uid="DotNetNuke.Security.Permissions.FolderPermissionInfo.PortalID*"></a>
   <h4 id="DotNetNuke_Security_Permissions_FolderPermissionInfo_PortalID" data-uid="DotNetNuke.Security.Permissions.FolderPermissionInfo.PortalID">PortalID</h4>
@@ -404,7 +442,7 @@ Constructs a new FolderPermissionInfo.</p>
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_FolderPermissionInfo_Fill_IDataReader_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.FolderPermissionInfo.Fill(IDataReader)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/FolderPermissionInfo.cs/#L128">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/FolderPermissionInfo.cs/#L190">View Source</a>
   </span>
   <a id="DotNetNuke_Security_Permissions_FolderPermissionInfo_Fill_" data-uid="DotNetNuke.Security.Permissions.FolderPermissionInfo.Fill*"></a>
   <h4 id="DotNetNuke_Security_Permissions_FolderPermissionInfo_Fill_IDataReader_" data-uid="DotNetNuke.Security.Permissions.FolderPermissionInfo.Fill(IDataReader)">Fill(IDataReader)</h4>
@@ -437,6 +475,15 @@ Constructs a new FolderPermissionInfo.</p>
   <div>
       <a class="xref" href="DotNetNuke.Entities.Modules.IHydratable.html">IHydratable</a>
   </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IFolderPermissionInfo.html">IFolderPermissionInfo</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionInfo.html">IPermissionInfo</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
@@ -449,7 +496,7 @@ Constructs a new FolderPermissionInfo.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/FolderPermissionInfo.cs/#L14" class="contribution-link">View Source</a>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/FolderPermissionInfo.cs/#L15" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -123,6 +123,8 @@ Permissions.</p>
   </div>
   <div class="implements">
     <h5>Implements</h5>
+    <div><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionInfo.html">IPermissionInfo</a></div>
+    <div><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></div>
     <div><a class="xref" href="DotNetNuke.Entities.Modules.IHydratable.html">IHydratable</a></div>
   </div>
   <div class="inheritedMembers">
@@ -189,7 +191,7 @@ Permissions.</p>
   <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
   <h5 id="DotNetNuke_Security_Permissions_DesktopModulePermissionInfo_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DesktopModulePermissionInfo : PermissionInfoBase, IHydratable</code></pre>
+    <pre><code class="lang-csharp hljs">public class DesktopModulePermissionInfo : PermissionInfoBase, IPermissionInfo, IPermissionDefinitionInfo, IHydratable</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -524,6 +526,12 @@ Permissions.</p>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionInfo.html">IPermissionInfo</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a>
+  </div>
   <div>
       <a class="xref" href="DotNetNuke.Entities.Modules.IHydratable.html">IHydratable</a>
   </div>

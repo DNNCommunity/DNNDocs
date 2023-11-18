@@ -127,6 +127,11 @@
       <div class="level4"><a class="xref" href="DotNetNuke.Security.Permissions.PortalPermissionInfo.html">PortalPermissionInfo</a></div>
       <div class="level4"><a class="xref" href="DotNetNuke.Security.Permissions.TabPermissionInfo.html">TabPermissionInfo</a></div>
   </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionInfo.html">IPermissionInfo</a></div>
+    <div><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -170,10 +175,10 @@
   <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
   <h5 id="DotNetNuke_Security_Permissions_PermissionInfoBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class PermissionInfoBase : PermissionInfo</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class PermissionInfoBase : PermissionInfo, IPermissionInfo, IPermissionDefinitionInfo</code></pre>
   </div>
   <h5 id="DotNetNuke_Security_Permissions_PermissionInfoBase_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>All Permission calsses have  a common set of properties</p>
+  <div class="markdown level0 remarks"><p>All Permission classes have  a common set of properties</p>
 <ul>
 <li>AllowAccess</li>
 <li>RoleID</li>
@@ -191,7 +196,7 @@
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfoBase__ctor.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfoBase.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L38">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L39">View Source</a>
   </span>
   <a id="DotNetNuke_Security_Permissions_PermissionInfoBase__ctor_" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.#ctor*"></a>
   <h4 id="DotNetNuke_Security_Permissions_PermissionInfoBase__ctor" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.#ctor">PermissionInfoBase()</h4>
@@ -203,7 +208,7 @@
     <pre><code class="lang-csharp hljs">public PermissionInfoBase()</code></pre>
   </div>
   <h5 id="DotNetNuke_Security_Permissions_PermissionInfoBase__ctor_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>All Permission calsses have  a common set of properties</p>
+  <div class="markdown level1 remarks"><p>All Permission classes have  a common set of properties</p>
 <ul>
 <li>AllowAccess</li>
 <li>RoleID</li>
@@ -225,7 +230,7 @@
   </span>
   <a id="DotNetNuke_Security_Permissions_PermissionInfoBase_AllowAccess_" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.AllowAccess*"></a>
   <h4 id="DotNetNuke_Security_Permissions_PermissionInfoBase_AllowAccess" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.AllowAccess">AllowAccess</h4>
-  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether gets and sets  aflag that indicates whether the user or role has permission.</p>
+  <div class="markdown level1 summary"><p>PermissionInfoBase provides a base class for PermissionInfo classes.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -243,13 +248,12 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>A Boolean.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <h5 id="DotNetNuke_Security_Permissions_PermissionInfoBase_AllowAccess_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>All Permission calsses have  a common set of properties</p>
+  <div class="markdown level1 remarks"><p>All Permission classes have  a common set of properties</p>
 <ul>
 <li>AllowAccess</li>
 <li>RoleID</li>
@@ -265,11 +269,11 @@
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfoBase_DisplayName.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfoBase.DisplayName%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L66">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L65">View Source</a>
   </span>
   <a id="DotNetNuke_Security_Permissions_PermissionInfoBase_DisplayName_" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.DisplayName*"></a>
   <h4 id="DotNetNuke_Security_Permissions_PermissionInfoBase_DisplayName" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.DisplayName">DisplayName</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the User's DisplayName.</p>
+  <div class="markdown level1 summary"><p>PermissionInfoBase provides a base class for PermissionInfo classes.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -287,13 +291,12 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>A String.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <h5 id="DotNetNuke_Security_Permissions_PermissionInfoBase_DisplayName_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>All Permission calsses have  a common set of properties</p>
+  <div class="markdown level1 remarks"><p>All Permission classes have  a common set of properties</p>
 <ul>
 <li>AllowAccess</li>
 <li>RoleID</li>
@@ -309,7 +312,7 @@
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfoBase_RoleID.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfoBase.RoleID%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L82">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L80">View Source</a>
   </span>
   <a id="DotNetNuke_Security_Permissions_PermissionInfoBase_RoleID_" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.RoleID*"></a>
   <h4 id="DotNetNuke_Security_Permissions_PermissionInfoBase_RoleID" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.RoleID">RoleID</h4>
@@ -331,13 +334,12 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><p>An Integer.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <h5 id="DotNetNuke_Security_Permissions_PermissionInfoBase_RoleID_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>All Permission calsses have  a common set of properties</p>
+  <div class="markdown level1 remarks"><p>All Permission classes have  a common set of properties</p>
 <ul>
 <li>AllowAccess</li>
 <li>RoleID</li>
@@ -353,11 +355,11 @@
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfoBase_RoleName.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfoBase.RoleName%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L98">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L96">View Source</a>
   </span>
   <a id="DotNetNuke_Security_Permissions_PermissionInfoBase_RoleName_" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.RoleName*"></a>
   <h4 id="DotNetNuke_Security_Permissions_PermissionInfoBase_RoleName" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.RoleName">RoleName</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the Role Name.</p>
+  <div class="markdown level1 summary"><p>PermissionInfoBase provides a base class for PermissionInfo classes.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -375,13 +377,12 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>A String.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <h5 id="DotNetNuke_Security_Permissions_PermissionInfoBase_RoleName_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>All Permission calsses have  a common set of properties</p>
+  <div class="markdown level1 remarks"><p>All Permission classes have  a common set of properties</p>
 <ul>
 <li>AllowAccess</li>
 <li>RoleID</li>
@@ -397,7 +398,7 @@
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfoBase_UserID.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfoBase.UserID%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L114">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L111">View Source</a>
   </span>
   <a id="DotNetNuke_Security_Permissions_PermissionInfoBase_UserID_" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.UserID*"></a>
   <h4 id="DotNetNuke_Security_Permissions_PermissionInfoBase_UserID" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.UserID">UserID</h4>
@@ -419,13 +420,12 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><p>An Integer.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <h5 id="DotNetNuke_Security_Permissions_PermissionInfoBase_UserID_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>All Permission calsses have  a common set of properties</p>
+  <div class="markdown level1 remarks"><p>All Permission classes have  a common set of properties</p>
 <ul>
 <li>AllowAccess</li>
 <li>RoleID</li>
@@ -441,11 +441,11 @@
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfoBase_Username.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfoBase.Username%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L130">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L127">View Source</a>
   </span>
   <a id="DotNetNuke_Security_Permissions_PermissionInfoBase_Username_" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.Username*"></a>
   <h4 id="DotNetNuke_Security_Permissions_PermissionInfoBase_Username" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.Username">Username</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the User Name.</p>
+  <div class="markdown level1 summary"><p>PermissionInfoBase provides a base class for PermissionInfo classes.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -463,13 +463,12 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>A String.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <h5 id="DotNetNuke_Security_Permissions_PermissionInfoBase_Username_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>All Permission calsses have  a common set of properties</p>
+  <div class="markdown level1 remarks"><p>All Permission classes have  a common set of properties</p>
 <ul>
 <li>AllowAccess</li>
 <li>RoleID</li>
@@ -487,7 +486,7 @@
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfoBase_FillInternal_IDataReader_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfoBase.FillInternal(IDataReader)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L146">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L157">View Source</a>
   </span>
   <a id="DotNetNuke_Security_Permissions_PermissionInfoBase_FillInternal_" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.FillInternal*"></a>
   <h4 id="DotNetNuke_Security_Permissions_PermissionInfoBase_FillInternal_IDataReader_" data-uid="DotNetNuke.Security.Permissions.PermissionInfoBase.FillInternal(IDataReader)">FillInternal(IDataReader)</h4>
@@ -519,7 +518,7 @@
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionInfo.html#DotNetNuke_Security_Permissions_PermissionInfo_FillInternal_IDataReader_">PermissionInfo.FillInternal(IDataReader)</a></div>
   <h5 id="DotNetNuke_Security_Permissions_PermissionInfoBase_FillInternal_IDataReader__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>All Permission calsses have  a common set of properties</p>
+  <div class="markdown level1 remarks"><p>All Permission classes have  a common set of properties</p>
 <ul>
 <li>AllowAccess</li>
 <li>RoleID</li>
@@ -530,6 +529,13 @@
 </ul>
 <p>and these are implemented in this base class.</p>
 </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionInfo.html">IPermissionInfo</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
@@ -542,7 +548,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L27" class="contribution-link">View Source</a>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfoBase.cs/#L28" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

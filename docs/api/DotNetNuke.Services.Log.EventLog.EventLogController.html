@@ -924,7 +924,7 @@
   </span>
   <a id="DotNetNuke_Services_Log_EventLog_EventLogController_AddLogTypeConfigInfo_" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.AddLogTypeConfigInfo*"></a>
   <h4 id="DotNetNuke_Services_Log_EventLog_EventLogController_AddLogTypeConfigInfo_DotNetNuke_Services_Log_EventLog_LogTypeConfigInfo_" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.AddLogTypeConfigInfo(DotNetNuke.Services.Log.EventLog.LogTypeConfigInfo)">AddLogTypeConfigInfo(LogTypeConfigInfo)</h4>
-  <div class="markdown level1 summary"><p>Provides a readily testable way to manage a Singleton.</p>
+  <div class="markdown level1 summary"><p>Adds a <a class="xref" href="DotNetNuke.Abstractions.Logging.ILogTypeConfigInfo.html">ILogTypeConfigInfo</a> to the database.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -1015,7 +1015,7 @@
   </span>
   <a id="DotNetNuke_Services_Log_EventLog_EventLogController_ClearLog_" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.ClearLog*"></a>
   <h4 id="DotNetNuke_Services_Log_EventLog_EventLogController_ClearLog" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.ClearLog">ClearLog()</h4>
-  <div class="markdown level1 summary"><p>Provides a readily testable way to manage a Singleton.</p>
+  <div class="markdown level1 summary"><p>Clears the Event Log.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -1031,7 +1031,7 @@
   </span>
   <a id="DotNetNuke_Services_Log_EventLog_EventLogController_DeleteLog_" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.DeleteLog*"></a>
   <h4 id="DotNetNuke_Services_Log_EventLog_EventLogController_DeleteLog_DotNetNuke_Services_Log_EventLog_LogInfo_" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.DeleteLog(DotNetNuke.Services.Log.EventLog.LogInfo)">DeleteLog(LogInfo)</h4>
-  <div class="markdown level1 summary"><p>Provides a readily testable way to manage a Singleton.</p>
+  <div class="markdown level1 summary"><p>Deletes a specific Event Log.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -1064,7 +1064,7 @@
   </span>
   <a id="DotNetNuke_Services_Log_EventLog_EventLogController_DeleteLogType_" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.DeleteLogType*"></a>
   <h4 id="DotNetNuke_Services_Log_EventLog_EventLogController_DeleteLogType_DotNetNuke_Services_Log_EventLog_LogTypeInfo_" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.DeleteLogType(DotNetNuke.Services.Log.EventLog.LogTypeInfo)">DeleteLogType(LogTypeInfo)</h4>
-  <div class="markdown level1 summary"><p>Provides a readily testable way to manage a Singleton.</p>
+  <div class="markdown level1 summary"><p>Deletes an existing <a class="xref" href="DotNetNuke.Abstractions.Logging.ILogTypeInfo.html">ILogTypeInfo</a> from the database.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -1097,7 +1097,7 @@
   </span>
   <a id="DotNetNuke_Services_Log_EventLog_EventLogController_DeleteLogTypeConfigInfo_" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.DeleteLogTypeConfigInfo*"></a>
   <h4 id="DotNetNuke_Services_Log_EventLog_EventLogController_DeleteLogTypeConfigInfo_DotNetNuke_Services_Log_EventLog_LogTypeConfigInfo_" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.DeleteLogTypeConfigInfo(DotNetNuke.Services.Log.EventLog.LogTypeConfigInfo)">DeleteLogTypeConfigInfo(LogTypeConfigInfo)</h4>
-  <div class="markdown level1 summary"><p>Provides a readily testable way to manage a Singleton.</p>
+  <div class="markdown level1 summary"><p>Delete an existing <a class="xref" href="DotNetNuke.Abstractions.Logging.ILogTypeConfigInfo.html">ILogTypeConfigInfo</a> from the database..</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -1214,7 +1214,7 @@
   </span>
   <a id="DotNetNuke_Services_Log_EventLog_EventLogController_GetLogs_" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.GetLogs*"></a>
   <h4 id="DotNetNuke_Services_Log_EventLog_EventLogController_GetLogs_System_Int32_System_String_System_Int32_System_Int32_System_Int32__" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.GetLogs(System.Int32,System.String,System.Int32,System.Int32,System.Int32@)">GetLogs(Int32, String, Int32, Int32, ref Int32)</h4>
-  <div class="markdown level1 summary"><p>Provides a readily testable way to manage a Singleton.</p>
+  <div class="markdown level1 summary"><p>Get the Event Log.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -1234,27 +1234,32 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">portalID</span></td>
-        <td></td>
+        <td><p>The portal id.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">logType</span></td>
-        <td></td>
+        <td><p>The log type.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">pageSize</span></td>
-        <td></td>
+        <td><p>The page size.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">pageIndex</span></td>
-        <td></td>
+        <td><p>The page index.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">totalRecords</span></td>
-        <td></td>
+        <td><p>The total records.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1269,7 +1274,8 @@
     <tbody>
       <tr>
         <td><span class="xref">List</span>&lt;<a class="xref" href="DotNetNuke.Services.Log.EventLog.LogInfo.html">LogInfo</a>&gt;</td>
-        <td></td>
+        <td><p>The logs.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1313,7 +1319,7 @@
   </span>
   <a id="DotNetNuke_Services_Log_EventLog_EventLogController_GetLogTypeConfigInfoByID_" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.GetLogTypeConfigInfoByID*"></a>
   <h4 id="DotNetNuke_Services_Log_EventLog_EventLogController_GetLogTypeConfigInfoByID_System_String_" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.GetLogTypeConfigInfoByID(System.String)">GetLogTypeConfigInfoByID(String)</h4>
-  <div class="markdown level1 summary"><p>Provides a readily testable way to manage a Singleton.</p>
+  <div class="markdown level1 summary"><p>Get the <a class="xref" href="DotNetNuke.Abstractions.Logging.ILogTypeConfigInfo.html">ILogTypeConfigInfo</a> by id..</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -1333,7 +1339,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">id</span></td>
-        <td></td>
+        <td><p>The id.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1348,7 +1355,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="DotNetNuke.Services.Log.EventLog.LogTypeConfigInfo.html">LogTypeConfigInfo</a></td>
-        <td></td>
+        <td><p>The log type config info.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1361,7 +1369,7 @@
   </span>
   <a id="DotNetNuke_Services_Log_EventLog_EventLogController_GetLogTypeInfoDictionary_" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.GetLogTypeInfoDictionary*"></a>
   <h4 id="DotNetNuke_Services_Log_EventLog_EventLogController_GetLogTypeInfoDictionary" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.GetLogTypeInfoDictionary">GetLogTypeInfoDictionary()</h4>
-  <div class="markdown level1 summary"><p>Provides a readily testable way to manage a Singleton.</p>
+  <div class="markdown level1 summary"><p>Gets the log type info dictionary.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -1379,7 +1387,8 @@
     <tbody>
       <tr>
         <td><span class="xref">Dictionary</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="DotNetNuke.Services.Log.EventLog.LogTypeInfo.html">LogTypeInfo</a>&gt;</td>
-        <td></td>
+        <td><p>The dictionary.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1445,7 +1454,7 @@
   </span>
   <a id="DotNetNuke_Services_Log_EventLog_EventLogController_PurgeLogBuffer_" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.PurgeLogBuffer*"></a>
   <h4 id="DotNetNuke_Services_Log_EventLog_EventLogController_PurgeLogBuffer" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.PurgeLogBuffer">PurgeLogBuffer()</h4>
-  <div class="markdown level1 summary"><p>Provides a readily testable way to manage a Singleton.</p>
+  <div class="markdown level1 summary"><p>Purge the log buffer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -1461,7 +1470,7 @@
   </span>
   <a id="DotNetNuke_Services_Log_EventLog_EventLogController_UpdateLogType_" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.UpdateLogType*"></a>
   <h4 id="DotNetNuke_Services_Log_EventLog_EventLogController_UpdateLogType_DotNetNuke_Services_Log_EventLog_LogTypeInfo_" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.UpdateLogType(DotNetNuke.Services.Log.EventLog.LogTypeInfo)">UpdateLogType(LogTypeInfo)</h4>
-  <div class="markdown level1 summary"><p>Provides a readily testable way to manage a Singleton.</p>
+  <div class="markdown level1 summary"><p>Update the log type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -1494,7 +1503,7 @@
   </span>
   <a id="DotNetNuke_Services_Log_EventLog_EventLogController_UpdateLogTypeConfigInfo_" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.UpdateLogTypeConfigInfo*"></a>
   <h4 id="DotNetNuke_Services_Log_EventLog_EventLogController_UpdateLogTypeConfigInfo_DotNetNuke_Services_Log_EventLog_LogTypeConfigInfo_" data-uid="DotNetNuke.Services.Log.EventLog.EventLogController.UpdateLogTypeConfigInfo(DotNetNuke.Services.Log.EventLog.LogTypeConfigInfo)">UpdateLogTypeConfigInfo(LogTypeConfigInfo)</h4>
-  <div class="markdown level1 summary"><p>Provides a readily testable way to manage a Singleton.</p>
+  <div class="markdown level1 summary"><p>UPdate the log type config info.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>

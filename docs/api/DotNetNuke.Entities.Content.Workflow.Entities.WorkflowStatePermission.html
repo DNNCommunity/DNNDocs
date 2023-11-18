@@ -120,6 +120,11 @@
     <div class="level3"><a class="xref" href="DotNetNuke.Security.Permissions.PermissionInfoBase.html">PermissionInfoBase</a></div>
     <div class="level4"><span class="xref">WorkflowStatePermission</span></div>
   </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionInfo.html">IPermissionInfo</a></div>
+    <div><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -184,7 +189,7 @@
   <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
   <h5 id="DotNetNuke_Entities_Content_Workflow_Entities_WorkflowStatePermission_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class WorkflowStatePermission : PermissionInfoBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class WorkflowStatePermission : PermissionInfoBase, IPermissionInfo, IPermissionDefinitionInfo</code></pre>
   </div>
   <h3 id="properties">Properties
 </h3>
@@ -250,6 +255,13 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionInfo.html">IPermissionInfo</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>

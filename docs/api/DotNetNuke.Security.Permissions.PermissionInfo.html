@@ -119,6 +119,10 @@
     <div class="level2"><span class="xref">PermissionInfo</span></div>
       <div class="level3"><a class="xref" href="DotNetNuke.Security.Permissions.PermissionInfoBase.html">PermissionInfoBase</a></div>
   </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -147,7 +151,7 @@
   <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
   <h5 id="DotNetNuke_Security_Permissions_PermissionInfo_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PermissionInfo : BaseEntityInfo</code></pre>
+    <pre><code class="lang-csharp hljs">public class PermissionInfo : BaseEntityInfo, IPermissionDefinitionInfo</code></pre>
   </div>
   <h3 id="properties">Properties
 </h3>
@@ -160,7 +164,7 @@
   </span>
   <a id="DotNetNuke_Security_Permissions_PermissionInfo_ModuleDefID_" data-uid="DotNetNuke.Security.Permissions.PermissionInfo.ModuleDefID*"></a>
   <h4 id="DotNetNuke_Security_Permissions_PermissionInfo_ModuleDefID" data-uid="DotNetNuke.Security.Permissions.PermissionInfo.ModuleDefID">ModuleDefID</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the Mdoule Definition ID.</p>
+  <div class="markdown level1 summary"><p>Gets or sets the Module Definition ID.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -178,8 +182,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><p>An Integer.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -188,11 +191,11 @@
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfo_PermissionCode.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfo.PermissionCode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfo.cs/#L29">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfo.cs/#L33">View Source</a>
   </span>
   <a id="DotNetNuke_Security_Permissions_PermissionInfo_PermissionCode_" data-uid="DotNetNuke.Security.Permissions.PermissionInfo.PermissionCode*"></a>
   <h4 id="DotNetNuke_Security_Permissions_PermissionInfo_PermissionCode" data-uid="DotNetNuke.Security.Permissions.PermissionInfo.PermissionCode">PermissionCode</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the Permission Code.</p>
+  <div class="markdown level1 summary"><p>PermissionInfo provides the Entity Layer for Permissions.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -210,8 +213,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>A String.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -220,11 +222,11 @@
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfo_PermissionID.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfo.PermissionID%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfo.cs/#L34">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfo.cs/#L37">View Source</a>
   </span>
   <a id="DotNetNuke_Security_Permissions_PermissionInfo_PermissionID_" data-uid="DotNetNuke.Security.Permissions.PermissionInfo.PermissionID*"></a>
   <h4 id="DotNetNuke_Security_Permissions_PermissionInfo_PermissionID" data-uid="DotNetNuke.Security.Permissions.PermissionInfo.PermissionID">PermissionID</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the Permission ID.</p>
+  <div class="markdown level1 summary"><p>PermissionInfo provides the Entity Layer for Permissions.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -242,8 +244,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><p>An Integer.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -252,11 +253,11 @@
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfo_PermissionKey.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfo.PermissionKey%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfo.cs/#L39">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfo.cs/#L46">View Source</a>
   </span>
   <a id="DotNetNuke_Security_Permissions_PermissionInfo_PermissionKey_" data-uid="DotNetNuke.Security.Permissions.PermissionInfo.PermissionKey*"></a>
   <h4 id="DotNetNuke_Security_Permissions_PermissionInfo_PermissionKey" data-uid="DotNetNuke.Security.Permissions.PermissionInfo.PermissionKey">PermissionKey</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the Permission Key.</p>
+  <div class="markdown level1 summary"><p>PermissionInfo provides the Entity Layer for Permissions.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -274,8 +275,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>A String.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -284,11 +284,11 @@
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfo_PermissionName.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfo.PermissionName%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfo.cs/#L44">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfo.cs/#L50">View Source</a>
   </span>
   <a id="DotNetNuke_Security_Permissions_PermissionInfo_PermissionName_" data-uid="DotNetNuke.Security.Permissions.PermissionInfo.PermissionName*"></a>
   <h4 id="DotNetNuke_Security_Permissions_PermissionInfo_PermissionName" data-uid="DotNetNuke.Security.Permissions.PermissionInfo.PermissionName">PermissionName</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the Permission Name.</p>
+  <div class="markdown level1 summary"><p>PermissionInfo provides the Entity Layer for Permissions.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -306,8 +306,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>A String.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -318,7 +317,7 @@
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Security_Permissions_PermissionInfo_FillInternal_IDataReader_.md&amp;value=---%0Auid%3A%20DotNetNuke.Security.Permissions.PermissionInfo.FillInternal(IDataReader)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfo.cs/#L50">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfo.cs/#L66">View Source</a>
   </span>
   <a id="DotNetNuke_Security_Permissions_PermissionInfo_FillInternal_" data-uid="DotNetNuke.Security.Permissions.PermissionInfo.FillInternal*"></a>
   <h4 id="DotNetNuke_Security_Permissions_PermissionInfo_FillInternal_IDataReader_" data-uid="DotNetNuke.Security.Permissions.PermissionInfo.FillInternal(IDataReader)">FillInternal(IDataReader)</h4>
@@ -349,6 +348,10 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="DotNetNuke.Entities.BaseEntityInfo.html#DotNetNuke_Entities_BaseEntityInfo_FillInternal_IDataReader_">BaseEntityInfo.FillInternal(IDataReader)</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(Object)</a>
@@ -361,7 +364,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfo.cs/#L18" class="contribution-link">View Source</a>
+                    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Security/Permissions/PermissionInfo.cs/#L19" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

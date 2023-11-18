@@ -108,7 +108,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dnn.ExportImport.Components.Common.Util.html",
-          "hash": "OE1IgyclKDW+HWEjesRTD3qVNev36eWeuO7O3FVChTY="
+          "hash": "1wYTWUA9Wc2R+f9PzWTDDERVTUq7rwPV1qhlOqxHKT4="
         }
       },
       "is_incremental": false,
@@ -1968,7 +1968,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dnn.PersonaBar.Library.Helper.PortalHelper.html",
-          "hash": "yUheIpLH98OD0JYpg0vo/V2EsJd9VLNsu512f9irSlw="
+          "hash": "B5H2fHDrOpwOgnX7BP8P88V2id4RSgTjCdRttly5Iio="
         }
       },
       "is_incremental": false,
@@ -2028,7 +2028,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dnn.PersonaBar.Library.Model.MenuPermissionInfo.html",
-          "hash": "lFkKFhkb4ev/jsCGJHeVIkxGkCq4uod8JRD2P4rsVPA="
+          "hash": "cXgyudQPoKwXZA0uLjN/WeXiL/gyUOBn7xUR7mrZPwc="
         }
       },
       "is_incremental": false,
@@ -2136,7 +2136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dnn.PersonaBar.Library.Prompt.Attributes.ConsoleCommandAttribute.html",
-          "hash": "UXxfoKrnF6VJPnaavqvk+05ujZtiPTHB3GlpYxNqFcI="
+          "hash": "X5Vu1xH2iC3OgfK9SIVm9vgwiw7qzH5/BgP5TOyr/Fc="
         }
       },
       "is_incremental": false,
@@ -2148,7 +2148,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dnn.PersonaBar.Library.Prompt.Attributes.FlagParameterAttribute.html",
-          "hash": "tf0tDyZDebAw1xDkSA5mvCdqUDMK6KeQthJH1RV6ENM="
+          "hash": "mfDmg61hV60kEB5+9BHj2xD4B7KZobQAqD5J0VfBRQw="
         }
       },
       "is_incremental": false,
@@ -2208,7 +2208,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.html",
-          "hash": "zKfN33V6VSPkvesRCR2mq8wnIjFexckOCXVf2d2OJSI="
+          "hash": "PL3nyBl5hz2vvNJMPyPlay0hbiZeaAcrzWtFqjMIb1M="
         }
       },
       "is_incremental": false,
@@ -2220,7 +2220,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dnn.PersonaBar.Library.Prompt.IConsoleCommand.html",
-          "hash": "hBAaUJsdRqrCvp9GksmYtDKk+hWiqbhr5mrvKiaDZdY="
+          "hash": "nYyYywcLg6HA1eInIpW5t7YJZnm19DD49Yqf/TbxFcM="
         }
       },
       "is_incremental": false,
@@ -2232,7 +2232,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dnn.PersonaBar.Library.Prompt.Models.ConsoleErrorResultModel.html",
-          "hash": "I2R+o7NeXA77OFiITBfl6xHdE8K603/FasuHjqMurmg="
+          "hash": "2tF2gJqwVVvGVny/x+3XkwVVn2V+Yyf/pM6qgOTemg4="
         }
       },
       "is_incremental": false,
@@ -2244,7 +2244,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dnn.PersonaBar.Library.Prompt.Models.ConsoleResultModel.html",
-          "hash": "Be3XIdbJ7Gqt7SsMgslz8SrV8ocu1r5TCFSxqpG+kK8="
+          "hash": "+Ro1gJXjntVe0+s2Xky+keY4tqFZmeiVLFSO1M19UoM="
         }
       },
       "is_incremental": false,
@@ -2256,7 +2256,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dnn.PersonaBar.Library.Prompt.Models.PagingInfo.html",
-          "hash": "pn9KJFoLo5gg5/YpbJX/2MqKhJ5ltL8L29xPZJl4ras="
+          "hash": "xJyknU959xCgBVbG1RVUemhgFhZ+2DJF4Y9Ov2keGAk="
         }
       },
       "is_incremental": false,
@@ -2712,7 +2712,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Abstractions.Portals.IPortalSettings.html",
-          "hash": "Tu6++6+VixnYoUhmRVMU/+x/cFuYXS7ktI/Uwk4Pofk="
+          "hash": "zGStRouf1UW60Jy1MToG8GAnjtKoooNSsVwresjhJxU="
         }
       },
       "is_incremental": false,
@@ -2869,6 +2869,66 @@
         ".html": {
           "relative_path": "api/DotNetNuke.Abstractions.Prompt.html",
           "hash": "Ct5HaJjtQ+ZEi0NsjurZF1g6xz63bJO3rPyvx6xOU44="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Security.Permissions.IFolderPermissionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Security.Permissions.IFolderPermissionInfo.html",
+          "hash": "YFl6tuyrrOLH1UKGDVxvTY3BpzK/EKaCFaTf6iP/Peg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html",
+          "hash": "LT1GHVTwAJGa5gm5sGOzJt91LewRLF3s+iQkqPmXfa0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService.html",
+          "hash": "QRGj/WZ3tuQk14LWDYz4iELRVEyW8UwVqJgO7Bjqj04="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Security.Permissions.IPermissionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Security.Permissions.IPermissionInfo.html",
+          "hash": "3plz9OhONCpR4vz+JBvwk1zd1IPUR4ZFBP4GpUphJOk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Security.Permissions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Security.Permissions.html",
+          "hash": "1K+lwgw6Qp3DtLCgd8tbU/ETz1IStBdns0/ALQg3qwo="
         }
       },
       "is_incremental": false,
@@ -3312,7 +3372,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Common.Extensions.HttpContextDependencyInjectionExtensions.html",
-          "hash": "OTZttggmLxeaXPbQNqfPkoq0D/trAmzkXcABBIfupRQ="
+          "hash": "XKDKzSufsa3OPNowUkE9+j5SXolf46/D25ysCQhhZzc="
         }
       },
       "is_incremental": false,
@@ -3348,7 +3408,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Common.Globals.PerformanceSettings.html",
-          "hash": "HjcEAIp7dbo2/HdSlNB7b6VEahq24hmvd+Fh/cvk1MA="
+          "hash": "XOEfCP1/+5pRriU52M3q5febaq4o+GW7T255DZdLyGs="
         }
       },
       "is_incremental": false,
@@ -3360,7 +3420,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Common.Globals.PortalRegistrationType.html",
-          "hash": "dG9ryxDwv2/zFt3dVu5v2Y5sXQrA5DF0pvFL4pSnw+E="
+          "hash": "1g0KRAiRuB3JI4s17CC4eVzNi0VS+EWusPKC+7HGX/k="
         }
       },
       "is_incremental": false,
@@ -3372,7 +3432,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Common.Globals.UpgradeStatus.html",
-          "hash": "NsNytediI0IwWKAXqDc1FfoDAqkHdgp+hIOihp0kQG0="
+          "hash": "q49lDbXYes9sNk0yfHIXNg627HOmMwpD4tUr4s1jv08="
         }
       },
       "is_incremental": false,
@@ -3384,7 +3444,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Common.Globals.html",
-          "hash": "uqoEQoDRxQIyX0/otPOysV6fC9tLV0qZTUvH6BNaxYA="
+          "hash": "MndKnND7I3ipJwK0SXJQX2Mbnf10BobeBI/q3R4QzVg="
         }
       },
       "is_incremental": false,
@@ -3516,7 +3576,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Common.Lists.ListController.html",
-          "hash": "zb7BR91NoYXNDDtIFmaJM5BrcNIgghb7Y2OlwX6NcRA="
+          "hash": "MStttZToyk2G8fjc6cY2IChI2DVfBhcD8aLppl0+HTU="
         }
       },
       "is_incremental": false,
@@ -3540,7 +3600,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Common.Lists.ListEntryInfoCollection.html",
-          "hash": "/7XsFJd7eq3AQ+h359ToA/MxQV3TZc7I/Q7UMGMnp4A="
+          "hash": "QBS2rx9cwKwfM9K/rm3Y2RRW4eXIcNe9nqJLXEVvZmQ="
         }
       },
       "is_incremental": false,
@@ -3612,7 +3672,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Common.Utilities.CBO.html",
-          "hash": "mbcf/mgH8sTJvJp9WPVFiPgKTPHgOqKIlZgKoxX4T98="
+          "hash": "FD2qKKf/W6n4UlUJTwFMLzp6LDuhJdUlsJB3geKC3WY="
         }
       },
       "is_incremental": false,
@@ -3660,7 +3720,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Common.Utilities.Config.ConfigFileType.html",
-          "hash": "BOCojqpNgVkUyiqYWDeczbwad+I09YvyPoqAoHcXyJk="
+          "hash": "ZazmgwQrtTvjlQ8FzCyV5ocWU4XmXdIIijKnoin34hI="
         }
       },
       "is_incremental": false,
@@ -3672,7 +3732,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Common.Utilities.Config.FcnMode.html",
-          "hash": "kSKTyWif1zrX5XLSfr6J7FJVB7LXNr8HFUND6FlwYJ0="
+          "hash": "+3bwsoLF9JSVb0sf7qgLbRyDLzi54buwGljix2BytFU="
         }
       },
       "is_incremental": false,
@@ -3684,7 +3744,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Common.Utilities.Config.html",
-          "hash": "vioNiYg+1LUskMg8Lz4F7mYznQkd7/A/rNZMB6ryMLg="
+          "hash": "h+nq5ShlnwnG2X/EBV3gDjJVFsa9LFnA1aVovgm2SDg="
         }
       },
       "is_incremental": false,
@@ -3732,7 +3792,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Common.Utilities.DateUtils.html",
-          "hash": "CGOV7i53Fa3C/JrqK50VxLT0GaCYIYDQ4w8ZrV0m/j0="
+          "hash": "Tqm/J0qdjeG85CR3UFwm/fzxPFWMhk+1BE6ynI3ciKk="
         }
       },
       "is_incremental": false,
@@ -3792,7 +3852,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Common.Utilities.FileSystemExtensions.html",
-          "hash": "hVheqMZR5ZXsXeMgW/MCFQ9J4lcNqmvC0dhrG/1iZlE="
+          "hash": "k78kN4HCgrfQddY+Y5ath4E7iaUA/ET4dPvcz+mdTjg="
         }
       },
       "is_incremental": false,
@@ -3816,7 +3876,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Common.Utilities.FileSystemUtils.html",
-          "hash": "Ae5OxupvxLGEDrGX9Eq/hq4R+9DC4OhI+BnHfh3ALto="
+          "hash": "EiAO1imjbmhPh44ysXJ0oCkJ/DrXz7CXsr4XnQ4Ryzs="
         }
       },
       "is_incremental": false,
@@ -3828,7 +3888,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Common.Utilities.HtmlUtils.html",
-          "hash": "9kSZe2nnJAHUlWD6XW5EuaSZyDkvMh/W9AoBPJ9t7Jc="
+          "hash": "O3TJ7FJUvEqnd9fgOOAcc8osTVVNXEJ1aS9A9uQUtHE="
         }
       },
       "is_incremental": false,
@@ -4152,7 +4212,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Common.Utilities.XmlUtils.html",
-          "hash": "mOxJwRArw6UNW8VOu3Brj18YPFrzoSIIAiQZqr3yvhc="
+          "hash": "byBfCsAaq3v5OZ634O0+97s+asnd7F8/GR76cEzgaz4="
         }
       },
       "is_incremental": false,
@@ -4500,7 +4560,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Data.DataProvider.html",
-          "hash": "r/hnL0uN27YmMJKmlKtbZXQSn8JfKpv2EuJAhlvJccY="
+          "hash": "edILwXuK2ta+RAvaTZKVNu+ThzFgU9+/ESbM+20OvGY="
         }
       },
       "is_incremental": false,
@@ -4716,7 +4776,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.DependencyInjection.Extensions.TypeExtensions.html",
-          "hash": "J3xDhuR/IkWI2G824grj8bvjBx8G+qu7ZoeHq0XTS3I="
+          "hash": "p9PdsOyfna26SRmggnS3KLzVTrRFsyWBI8rJv1ANuGE="
         }
       },
       "is_incremental": false,
@@ -5244,7 +5304,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Content.Workflow.ContentWorkflow.html",
-          "hash": "4yMVCAidmQKY1SjoOkcFNrXjgaRyQ7/sdBIUAOHJDyE="
+          "hash": "8TIs873kGmGtf5rbO/Ea3Y32pWuKWLFPnCKbisH7ZII="
         }
       },
       "is_incremental": false,
@@ -5256,7 +5316,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Content.Workflow.ContentWorkflowController.html",
-          "hash": "fgdUxo2D9OAWatunKdNIT+9MMcjy9iahEcvjq9nWj5s="
+          "hash": "eZVIUxWYQSHNHPe0ZH36hoyBqdsD+fgHybvr5nRRCpE="
         }
       },
       "is_incremental": false,
@@ -5268,7 +5328,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Content.Workflow.ContentWorkflowLog.html",
-          "hash": "+rg3pb/kdKFXi0UIQEVzRlPmyoe/DbVn/sLj+EmxteY="
+          "hash": "7IYalOWAyD7qyZ1gfsj2kMaaCkIObqg6rTSc+tV3sFE="
         }
       },
       "is_incremental": false,
@@ -5316,7 +5376,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Content.Workflow.ContentWorkflowStatePermission.html",
-          "hash": "XQxwd0G7D8/sWsoongKiClKNPjiSV0mhSoqqI3EdHOU="
+          "hash": "sgLpiVFb2YWEk9U8gjHWhFKEcoJvUEKyJdaqJ+Hz5QM="
         }
       },
       "is_incremental": false,
@@ -5424,7 +5484,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Content.Workflow.Entities.WorkflowStatePermission.html",
-          "hash": "tYCwOqoPZMi9DO4iHQq6p9IUaD52VuiGejnzA6PTils="
+          "hash": "mTpSPKVkx7u3B5n9DiB4dyVSch6PqQuAcvttioiHV5g="
         }
       },
       "is_incremental": false,
@@ -5568,7 +5628,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Content.Workflow.IContentWorkflowController.html",
-          "hash": "LoaGyg2ZYKJz3t8ISMD5FNU9Y1ZdRgwumSC/60tHY84="
+          "hash": "7BP0fX8KbSdFaWSlho/J7QwITE534eHs5ck83+51M8g="
         }
       },
       "is_incremental": false,
@@ -5748,7 +5808,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Controllers.HostController.html",
-          "hash": "b+R9ZLssGzTLplUeG5FEzXScmlIDqhaIb6WH8E1VCwE="
+          "hash": "ZmfHxtHngiY1QVPu44bP4zFoK2JIdWvIuz7EocP3nJE="
         }
       },
       "is_incremental": false,
@@ -5760,7 +5820,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Controllers.IHostController.html",
-          "hash": "9wT0bnexxvQcZsAtGGwi2b7VIvMQn4wyM4fcKPEz0Vc="
+          "hash": "uc5Xef5diF6cdWXQtjq4vXPqtTHa8HM1T4qvmuYKp74="
         }
       },
       "is_incremental": false,
@@ -5772,7 +5832,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Controllers.html",
-          "hash": "cYAAMDRUDgVxLliRDAIgSHm/ci2WarOX9LBsCVZjivI="
+          "hash": "l92z+yNVD5VNwh264PyDAQKWIwcojmSReihI9kXflMc="
         }
       },
       "is_incremental": false,
@@ -5844,7 +5904,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Host.Host.html",
-          "hash": "cSWTrICDI4YvO4wYbiC/hn+C9CH90HkKYCK5HrIhvtY="
+          "hash": "89+NOuev7NciPp35NzLrNVUBzrk0sPWdt7Oq3vABPws="
         }
       },
       "is_incremental": false,
@@ -5880,7 +5940,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Host.IPFilterController.html",
-          "hash": "r6KnNmo4enHC9XT7uat1U/5+zFSgv3e7jx5TI27JtfY="
+          "hash": "1gMpP5BP/g4Ao0YS40qVe/wCG5E5WAaHG+JoBRVaf08="
         }
       },
       "is_incremental": false,
@@ -5916,7 +5976,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Host.ServerController.html",
-          "hash": "HVCLfcLZKKQ3YCjsgKkVaPuFof5c3iQfe7WwjiTaE8Y="
+          "hash": "l2FQBnzj6Wha+J1EO4J1wbBxIwiFyLxupaceOBXXRU0="
         }
       },
       "is_incremental": false,
@@ -5976,7 +6036,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Icons.IconController.html",
-          "hash": "LbwL+M4/HMGpM6FrG1y2OofvowhSQgATMe66HA3GJKQ="
+          "hash": "VDNMmKEswgLIvfGl8U0E1vp7vakjoTBKYZ7YP+zM5wE="
         }
       },
       "is_incremental": false,
@@ -6420,7 +6480,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Modules.ISearchable.html",
-          "hash": "sw01cNttPlHRi5XTNcOtctLGBQqqxW4RVSOo06vZtfQ="
+          "hash": "l2V/tbgrhNKdh5Ylf7CpXQnfJv1ev147fqftRvHJY4g="
         }
       },
       "is_incremental": false,
@@ -6504,7 +6564,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Modules.Internal.IModuleController.html",
-          "hash": "FvqQbZh2oK17v4ekDrfLoXEVmhw577tXVbSpEVk6R2Q="
+          "hash": "cKuIPcl9iJoLJD+2HBiEls5yKurK31X97p0Kc60yO88="
         }
       },
       "is_incremental": false,
@@ -6516,7 +6576,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Modules.Internal.TestableModuleController.html",
-          "hash": "RIgrLIL7oWFf1nkM6LJiZsxlj/Qy5b82JqbfH4gt9Cg="
+          "hash": "xJEng/9/3V9uJfw0T2BAQ6Ht3RPvS78hvNYnFHHT+pE="
         }
       },
       "is_incremental": false,
@@ -6564,7 +6624,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Modules.ModuleController.html",
-          "hash": "ekOAO4TX3SfZ2E5dYLDyiPOj3Tz+r3wEVpvrBCuzkmY="
+          "hash": "a4i6QzJyvVY40gq6e4D7Zy+3FJzeaygeY/D+2Zx0S00="
         }
       },
       "is_incremental": false,
@@ -6636,7 +6696,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Modules.PortalModuleBase.html",
-          "hash": "LxsExDHP1UVy7OM4iKSOarjFRWo7DYJUKlAA3wBZSMY="
+          "hash": "nUlvK2HXYS0uaePXpxePalL4oXVCknJV1uGloGdbhxM="
         }
       },
       "is_incremental": false,
@@ -6792,7 +6852,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Modules.Settings.SerializationController.html",
-          "hash": "rnZqfKSr1PtFbm0hfBX5HirlOKMOpYSCb5BDe2lASXw="
+          "hash": "nG9rOrhKoIrEY9Gj6ecTKzskTtFx0efThkE4kztgIMQ="
         }
       },
       "is_incremental": false,
@@ -7188,7 +7248,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Portals.Internal.IPortalAliasController.html",
-          "hash": "hVC2fwoKFFgNlbnDLM+0FXtUHMJuk1RHRRNfx0shbX4="
+          "hash": "IIchnTHjqVMkv+Crg0LRMXWDwT9C782HA60NWN9X6XU="
         }
       },
       "is_incremental": false,
@@ -7200,7 +7260,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Portals.Internal.IPortalSettings.html",
-          "hash": "JDexJwHUwVNfdu1kBTQdOqrZA1h+p12jLOH95v+fmLk="
+          "hash": "EO24o8CMrJ+/ZSTA+H2s6qpfFSDayeZvrjp/48KwrI4="
         }
       },
       "is_incremental": false,
@@ -7212,7 +7272,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Portals.Internal.IPortalTemplateIO.html",
-          "hash": "xeTYEeam5mmZVcedoNuyvmb7D939CNup4LmluY11wvE="
+          "hash": "nhqZevLV6IaOofaAcWJy/p3ABKoU7zWvXdPXd8GpROE="
         }
       },
       "is_incremental": false,
@@ -7224,7 +7284,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Portals.Internal.PortalTemplateIO.html",
-          "hash": "Di5X99V7DXFfiR6eTeN2FuTeBvvKvbInT8LaRuY9GNs="
+          "hash": "7RcU+pHC39QBNXDRA47fXNbWR3QdV49uIOz9EPlLTls="
         }
       },
       "is_incremental": false,
@@ -7248,7 +7308,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Portals.Internal.TestablePortalAliasController.html",
-          "hash": "+qWuKFKJuUBTsaNtLfCNrMSJWW/+/TJddlP9WIp4VEM="
+          "hash": "c0Y550BKpln5lZtdM7VGvRBgKscnWSbG1EPKISC0rLI="
         }
       },
       "is_incremental": false,
@@ -7260,7 +7320,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Portals.Internal.TestablePortalController.html",
-          "hash": "TYg0Uj6SB/up0hZkdCxj//H4S0pDYctmdIn+H1LNxyY="
+          "hash": "YsMCFVAo0LlMc7/RTmugyLKuNLO6Gi2tGGWIZud8lw8="
         }
       },
       "is_incremental": false,
@@ -7296,7 +7356,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Portals.PortalAliasCollection.html",
-          "hash": "z4rYnDmpF6DiuO1OZjHuqQjN5mmV+rhoegNolBcarxg="
+          "hash": "X+ygO9ZpvAmeJM2AsBthJHWnoaMiCi6uzazFOsWGdS0="
         }
       },
       "is_incremental": false,
@@ -7308,7 +7368,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Portals.PortalAliasController.html",
-          "hash": "cNew6TDHm60aRPpd1pWf922w8mGtAqUVLD+49Zy4+Js="
+          "hash": "1M1MrK4idiEl1Fx3XWTo7iTdr3YtKfazb5seCuf7M/U="
         }
       },
       "is_incremental": false,
@@ -7344,7 +7404,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Portals.PortalController.PortalTemplateInfo.html",
-          "hash": "4LHcQxP2vaD6eb+6/dZS60ybc7QQRgLADIMmOwEpf7o="
+          "hash": "RKMA2aW6KE9o6mn9MX7RcvLmM7M0K9NIhuOkxgKLbfY="
         }
       },
       "is_incremental": false,
@@ -7356,7 +7416,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Portals.PortalController.html",
-          "hash": "LLVfegP/tYMF8G7D3WGGeupAdIA/UomFzyN7pGDC++Q="
+          "hash": "7Umg7EKbUz82IGw52jmE/AT8UF0IP9+BMux+hJa0kMQ="
         }
       },
       "is_incremental": false,
@@ -7476,7 +7536,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Portals.PortalSettings.html",
-          "hash": "cQchgMQDu+vOmqdQ97jZojnq84PNx8hY3UcuI771Ytw="
+          "hash": "ZTkJJt6UXb7bdUB0Z7SRl2ocLI+z6hvsjtShLGk12fQ="
         }
       },
       "is_incremental": false,
@@ -7632,7 +7692,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Profile.ProfileController.html",
-          "hash": "I1b6GY+J40CcaKDl2Up4yoES6yq3alAo9yUu2JOGr24="
+          "hash": "3qrmwHi3FhBfdp10wwGZ9Ox7QTZnWXS7cATsM/xP+Ug="
         }
       },
       "is_incremental": false,
@@ -7872,7 +7932,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Tabs.Internal.ITabController.html",
-          "hash": "5mmtXluRDpbhxmEK1xnbx3xFyrHcZ7aCF9Ygk/ACjVk="
+          "hash": "S079PSzFJpw+D5Cx0/imWW1kwVqNeRn7XNTMu9xeetQ="
         }
       },
       "is_incremental": false,
@@ -7884,7 +7944,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Tabs.Internal.TestableTabController.html",
-          "hash": "goEVXnhwFeqX7oVVCwSfyS5DY9jP7mCKX6tYLrLTo8U="
+          "hash": "DWSoSStzKEoAN/8lVw4FBMQwwCyQG0/hXSRx81cjT8o="
         }
       },
       "is_incremental": false,
@@ -7980,7 +8040,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Tabs.TabController.html",
-          "hash": "JxIV/k5Cu38TJ/98uTN7KQ2REFvl/ptxXL7XSMUB/io="
+          "hash": "EXSNc7WfFOBnG0Hoa9mq3KrH0xBTRzpxfH+iFyP3NX0="
         }
       },
       "is_incremental": false,
@@ -8784,7 +8844,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Users.AnonymousUserInfo.html",
-          "hash": "XYxM71F6bP2LFWGH7IVvLFJzeXsQ7A4yvKucoUQA3sI="
+          "hash": "Wmu7kjTfYpT0W0okkE5Ux+M10ZVUUfZ1t66XNd7X6cU="
         }
       },
       "is_incremental": false,
@@ -8796,7 +8856,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Users.BaseUserInfo.html",
-          "hash": "iugSUOLuIsXhznattdvUHHIXoL1p7buuYM4K5KN8CN0="
+          "hash": "440DuaUswjRHJuVx28ZoSfYZQZVkHrWk0eIhC/uTpfU="
         }
       },
       "is_incremental": false,
@@ -8856,7 +8916,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Users.Internal.IUserController.html",
-          "hash": "CHg9eTFJy8ySSBAVXCttinVsais2GFIOstUUapak19k="
+          "hash": "BnZ6OZa8FDiKyYKWjjjReloGAu9J905KjB+gay2KvQ0="
         }
       },
       "is_incremental": false,
@@ -8868,7 +8928,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Users.Internal.TestableUserController.html",
-          "hash": "Yh+wGH0jZl32vi3bPyaGa5XtgfypOA2zOWIzysvNneo="
+          "hash": "PfxLJ2iSFoqs6ULmpQi68gJ2wZJNftZ2Tnd+s5jhq/8="
         }
       },
       "is_incremental": false,
@@ -9000,7 +9060,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Users.OnlineUserInfo.html",
-          "hash": "VWBIgV5fUSclxYyM760KIefUUpe9AFyzME5sc1CK6/c="
+          "hash": "3j6AwCyPiVxhlsmfVi/UkgJwryPZhpjPVHUj9NwuhY0="
         }
       },
       "is_incremental": false,
@@ -9012,7 +9072,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Users.ProfilePropertyAccess.html",
-          "hash": "PBdS256vCDH/RsOstctod2ttr4/lXF7XkIE8TGSsYCM="
+          "hash": "i6dU18iZpt5swXSUskQFcP7mKTseMDbq9dQ3xLg5qB0="
         }
       },
       "is_incremental": false,
@@ -9024,7 +9084,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Users.PurgeUsersOnline.html",
-          "hash": "wqJ+uAZoS35EoY4b+BNY95aJhfyWqkvpv9sZYTsgGqk="
+          "hash": "cY41Zyya054itU/yOZw0mLfQNYM45JkBuG/mjYTdF1k="
         }
       },
       "is_incremental": false,
@@ -9264,7 +9324,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Users.UserController.html",
-          "hash": "tQECEYiV3qceSJAAMfY1YO+lmpaBh8YMv5NaGEcPecc="
+          "hash": "H/1FVEFJ5NrknIXom+JaIOReBCM4vLmuQ61NiAY5ZzQ="
         }
       },
       "is_incremental": false,
@@ -9336,7 +9396,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Entities.Users.UserOnlineController.html",
-          "hash": "HlF479IyS2nh4w/Egu7xsRPlN0cst5AdrmZhkjR+olI="
+          "hash": "1BbHOuik1tgnDhPJaNAlVo8y7XYU3j9oJ7xtZRoIwXM="
         }
       },
       "is_incremental": false,
@@ -10164,7 +10224,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Framework.Reflection.html",
-          "hash": "zGa3kVvDs/Uvo0lK7qA+egjkTbUI5taRLSVClHYXQh4="
+          "hash": "oqPNbrNQe83WHVInkhEs/Oqd9+qORVSyw1z6GV+Yq/A="
         }
       },
       "is_incremental": false,
@@ -10224,7 +10284,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Framework.SecurityPolicy.html",
-          "hash": "69o1aIobOwAd+tjfb5xsJBE0GUbXF4C0luNWKT4Omx0="
+          "hash": "PU56YOMuSnUo5ru9BgiXXZYVNzvJR6aYOXytoLhjsn8="
         }
       },
       "is_incremental": false,
@@ -10272,7 +10332,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Framework.jQuery.html",
-          "hash": "DjluS3JAsGVtPbl5+rJ8zc3NaV004BYEd8FuFmFUan0="
+          "hash": "zudElcYMoRNGx7xre4xyeSIxWtgzRKTPNbt56d2E2p8="
         }
       },
       "is_incremental": false,
@@ -10296,7 +10356,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Instrumentation.DnnLog.html",
-          "hash": "UHjbf+LozAjA9+rCF95VR1HYU7wKCP8qmRZxuqJYNYM="
+          "hash": "LP7dMeaoe2aSmAXyh499AOKI+4h3FcRqraTyq8z8wl8="
         }
       },
       "is_incremental": false,
@@ -10369,6 +10429,30 @@
         ".html": {
           "relative_path": "api/DotNetNuke.Instrumentation.html",
           "hash": "nKYtC5koHuRW412r/IAA9r1H+1df5fJQtTX3s4U95uw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Internal.SourceGenerators.DnnDeprecatedAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Internal.SourceGenerators.DnnDeprecatedAttribute.html",
+          "hash": "j7MSgI2AfSIHWEZN6sB4KtcGaZBTlBqCwH1JGAp9djs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Internal.SourceGenerators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Internal.SourceGenerators.html",
+          "hash": "25CXILnPGifubIxlXf5SLz+t7v92ws3aW3prUUtnw0c="
         }
       },
       "is_incremental": false,
@@ -10596,7 +10680,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Prompt.ConsoleCommand.ParameterMapping.html",
-          "hash": "6uKnaiNM1tIup2krMWP+JWGQoQpm+ICGrrZ3Vwn6EvA="
+          "hash": "aAva4MMHNcdpVS5471ymsvJBea74DucTSN4GAvNpFVQ="
         }
       },
       "is_incremental": false,
@@ -10752,7 +10836,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Providers.FolderProviders.AzureFolderProvider.Settings.html",
-          "hash": "r8yhx5/2dVik2RbAEBq9oU7NzqXWF7w7o4TO/nX5C/8="
+          "hash": "+3iV25w+tELmoEzL1WfmaUfM9WSdNaRUpk6yXytmneg="
         }
       },
       "is_incremental": false,
@@ -10896,7 +10980,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Security.Membership.AspNetMembershipProvider.html",
-          "hash": "E+8IIw9nPPRTfWBEiIBXyMb6YMeNo4FLMLLo/OgZ17I="
+          "hash": "JMNDJLE54VBgK+Qkpg0ScO/BcbaqFPsawjWoxuJ5z/w="
         }
       },
       "is_incremental": false,
@@ -11136,7 +11220,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Security.Permissions.DesktopModulePermissionInfo.html",
-          "hash": "yv3VmTWPUMFtL/rIR2B1Ttx7m1VHUif3UGCVDmmNNFA="
+          "hash": "z7KFTVEEjQhkbC8bB4v+laFup/HO2mYG7fae2gHgzCw="
         }
       },
       "is_incremental": false,
@@ -11148,7 +11232,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Security.Permissions.FolderPermissionCollection.html",
-          "hash": "S1hg/6SkSVZIVUqr8cEWIK7IqSSZ6GYM8/opzJVWlZg="
+          "hash": "t3e6woevP5ayIsp6OrEka4lJ3i+pseME1GlB4MmOBtM="
         }
       },
       "is_incremental": false,
@@ -11172,7 +11256,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Security.Permissions.FolderPermissionInfo.html",
-          "hash": "SJNfBFxtjW8DqWGhwZ0s57k8sRRvEEKGNovaKx/7gpY="
+          "hash": "cFLAjLz1kL0U3Dyekg14XwG8p+7NCIcAkivwP0ueXAY="
         }
       },
       "is_incremental": false,
@@ -11220,7 +11304,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Security.Permissions.ModulePermissionInfo.html",
-          "hash": "ZRtin35mID0IqI6tGdUR6oA+W+IQDkqMFqJIDRv5pIE="
+          "hash": "5HZLK9Kc7ECRWJGuj2LXkQnYrCbBbhXWKeUg0z0NZic="
         }
       },
       "is_incremental": false,
@@ -11232,7 +11316,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Security.Permissions.PermissionController.html",
-          "hash": "FjwN6xxemj4zYQwPMY3ZONutkCfS+6kCRsxNGe/lsn8="
+          "hash": "kT+Mak4VILrmbUL9FugNCNaqjq+plQ2025xPDq/8lzk="
         }
       },
       "is_incremental": false,
@@ -11244,7 +11328,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Security.Permissions.PermissionInfo.html",
-          "hash": "TSnoCzzDdM8n+DpGB6h9GVZ1JWaM2ceh8MX+YMHmuYE="
+          "hash": "6lj1GjJVxpezy5q9bk+0HXXbkmTBOmoT/W8Oe6GNoTQ="
         }
       },
       "is_incremental": false,
@@ -11256,7 +11340,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Security.Permissions.PermissionInfoBase.html",
-          "hash": "R61+aVVprbbbZRNQO5Je4bS9bCaGlkDEN4bJQgvaYps="
+          "hash": "kvVPLxUf8pxxvREh2LzOKQqN/MqNqmDkOj/mRmcAfXQ="
         }
       },
       "is_incremental": false,
@@ -11304,7 +11388,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Security.Permissions.PortalPermissionInfo.html",
-          "hash": "EqUxppy0wO6gNNfiyByGNpyFdh4v4tylEoSp6ypazJ0="
+          "hash": "ZxMuzFeI499HO4lgbX0ez1KKXd6oRHmwGHZ+ndGaWAI="
         }
       },
       "is_incremental": false,
@@ -11340,7 +11424,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Security.Permissions.TabPermissionInfo.html",
-          "hash": "Kjv1DOmF/mYs0FnOGGyMpB7aCBuU9rGOVatl2FMmmqc="
+          "hash": "MLGt/CJM1gZ05gTtCLK8nEejSNDOVF4eC+U8N4Y3V0I="
         }
       },
       "is_incremental": false,
@@ -11364,7 +11448,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Security.PortalSecurity.ConfigType.html",
-          "hash": "loxEJsZy5emD0y0zlg+6It/7F456EfXwfu+1+gl4ZO0="
+          "hash": "IMDLrPi89y48583A15PUZm8S5F165zU8wtM8GACuYVs="
         }
       },
       "is_incremental": false,
@@ -11376,7 +11460,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Security.PortalSecurity.FilterFlag.html",
-          "hash": "gifJtvlehjrZQvGKrRuLF5la/BsmsuPLU+g3tN6On10="
+          "hash": "sQjAg8l2j6uT0N9qfUlRIenkelUoD5jZYECLoibEJa8="
         }
       },
       "is_incremental": false,
@@ -11388,7 +11472,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Security.PortalSecurity.FilterScope.html",
-          "hash": "uImf6Ep2Y5vpQqUsgvM2Y2JQYq2/0FftthAei9TO06A="
+          "hash": "9l9MCzMWskbDqheVrEgHgIh9YHayGhNwyb+RR2rBeHE="
         }
       },
       "is_incremental": false,
@@ -11400,7 +11484,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Security.PortalSecurity.html",
-          "hash": "OeHL4FHszI9TnRryNhw7l2B7UqZAQAw+xe53t3xU+9I="
+          "hash": "DFZqKrK/wrUd75zMiJjrtLwwiL/G7dyWcgsKKHqXBvw="
         }
       },
       "is_incremental": false,
@@ -11508,7 +11592,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Security.Roles.Internal.IRoleController.html",
-          "hash": "K1Jbmtry+qae+A701Xth1wf+PYXp3dxD1UPL6foEDH0="
+          "hash": "uk9DysXt7EJKBEDsbuNF3f0q3f+jZJ4jc7SscjeAomQ="
         }
       },
       "is_incremental": false,
@@ -11520,7 +11604,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Security.Roles.Internal.TestableRoleController.html",
-          "hash": "5iO5eBXhboOcU1v1L14HZFo+y7GmtfMc6bMq/4e4BGY="
+          "hash": "Mtxg4i+y0bFS/uIkh/MDEyR9kVT3F0rlb3r2J6azSik="
         }
       },
       "is_incremental": false,
@@ -11556,7 +11640,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Security.Roles.RoleController.html",
-          "hash": "yRO3D1A6oKIUV21Y7dk9013CzkP7MOhvKntEEkGSWoc="
+          "hash": "a1WYjdKLj6QIZxp7YT+J+ge4uCsP1nYJdNR7myxz+LY="
         }
       },
       "is_incremental": false,
@@ -11988,7 +12072,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Authentication.AuthenticationLoginBase.UserAuthenticatedEventHandler.html",
-          "hash": "nGrbG/LHTJ+g36g0i+FPAHinCHD2QLUjkxss+xC7shE="
+          "hash": "sYn/gvZOKIdEuhgIOkupxYiXZ8onU2aiybcomAQB/XU="
         }
       },
       "is_incremental": false,
@@ -12000,7 +12084,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Authentication.AuthenticationLoginBase.html",
-          "hash": "VfUWvDNZW/sHLojEnjAV2Gddv7QphNDTfkB/OGTmSY4="
+          "hash": "s1K75gEfbzV/kTFr3/9q+I0rPrnke27IJcM45qW2pik="
         }
       },
       "is_incremental": false,
@@ -12492,7 +12576,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.DependencyInjection.IScopeAccessor.html",
-          "hash": "NvvYofj3tbyk35E47Ss3RnmVcsFIg5V2G5OMQUktq6k="
+          "hash": "27Nldc1qD5gmS15qp9JcB1vtMSQEEsxOcSU6/OJr6c0="
         }
       },
       "is_incremental": false,
@@ -12504,7 +12588,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.DependencyInjection.ScopeAccessor.html",
-          "hash": "0B6J+I/JARgn3PINY6kkONmSFfBV8ZZ1HxRIQ0Dd9/4="
+          "hash": "o/4ivXpu31rQnAc1kAP9NElGaZJcxEIrwWC/XjkTT2E="
         }
       },
       "is_incremental": false,
@@ -12516,7 +12600,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.DependencyInjection.html",
-          "hash": "8RMDMaXjdlJSzEsmMFMRq7QadQT8UoavLDv9sFa+IyU="
+          "hash": "XHa+ugpUu+sOXuEGaFptk6fvKWT6WQ8WEMXChdvjNOo="
         }
       },
       "is_incremental": false,
@@ -12600,7 +12684,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.EventQueue.EventQueueController.html",
-          "hash": "T4jKsf9QHmC+v80tuuE6MUu/WrS6bV6BYiS74eKSQEk="
+          "hash": "L01HTNz08IcpYK2M5/TTrjHlSKT3m6JtWq/InWhZM4M="
         }
       },
       "is_incremental": false,
@@ -13140,7 +13224,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.FileSystem.FolderManager.html",
-          "hash": "TWWcxu4+A2Ic8Q7oRmluknk+HGnQLWqMaSOB7SmDq7M="
+          "hash": "FQsCDxP6SacqxjtVKAEFja61XCO7xcMuceDAAKQqA8Y="
         }
       },
       "is_incremental": false,
@@ -13872,7 +13956,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.GeneratedImage.IPCount.html",
-          "hash": "LLkdEpbmgtE0x1PFCobcgMy6UC9oiSZTM1lX1mrJ36A="
+          "hash": "NvHt1stLnNp1tBN5BdOh1cRPTjwd8+bDJ04lJEUR49M="
         }
       },
       "is_incremental": false,
@@ -14268,7 +14352,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Installer.InstallFile.html",
-          "hash": "gj6PGs73ajUi5SrxbRZ9CnA6AZrkZ0Qy6sJmYE8HlKM="
+          "hash": "SVOUbKOh3WyIx+Pt0zDrLYrJw5caegMWvdEiZJRwmzs="
         }
       },
       "is_incremental": false,
@@ -14568,7 +14652,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Installer.LegacyUtil.html",
-          "hash": "WaxHSPaloDcyPPCKwOmSlK2zJIat3KPMVGNyYh26gqQ="
+          "hash": "Ie1TOmaICBWHhYQYJtfVPGhOLecSAZB3GHsRQoMyVII="
         }
       },
       "is_incremental": false,
@@ -14664,7 +14748,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Installer.Packages.PackageController.html",
-          "hash": "8Jx9xmZLeeUR7xxsugorzgCX7H6XkyCXR7DgrTnbx7s="
+          "hash": "ZRGIAIuoETlSQ+erfzowLXROsTd7eFNTFeZ6esHE1TE="
         }
       },
       "is_incremental": false,
@@ -15444,7 +15528,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Localization.Localization.html",
-          "hash": "FNDIUqP5VGFfraiuczMUAo9cjx3UwKqVplAxM/2cg0w="
+          "hash": "uyVpFVSBTLoIG4suiTX0CNeKlbFfBNhpO2s0Dlmo0Ls="
         }
       },
       "is_incremental": false,
@@ -15576,7 +15660,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Log.EventLog.EventLogController.html",
-          "hash": "cRE84YKdTZ053PXHvJEZwG7CgxKSh4FiLQHHL1n6ccU="
+          "hash": "8q3+tZNPZonu0EfjM9773LU5+7HLRRxbua7MwKH2u5E="
         }
       },
       "is_incremental": false,
@@ -15624,7 +15708,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Log.EventLog.IEventLogController.html",
-          "hash": "HhbDnq4D7Rk5s71diWBE+Pu92uq4TdNiPGzcA/NYD2M="
+          "hash": "GZB9CCHl2OoQFlr8QS/35V0PKmEqjNNGveyLxFPb61Q="
         }
       },
       "is_incremental": false,
@@ -15660,7 +15744,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Log.EventLog.LogController.html",
-          "hash": "R6hekd9lphtwryjMeNGutVUJ1hQHM2UvOmyGHyXDECw="
+          "hash": "akesBb3Hj1/lyYYicD/8VY8ruX+bAx9pmPQ71dT6cxI="
         }
       },
       "is_incremental": false,
@@ -15816,7 +15900,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Mail.CoreMailProvider.html",
-          "hash": "wub9IHhcjneY91dTZcmMxgTxFGuTuZigKkC9wV0T+r0="
+          "hash": "0Xv4A0m34+j5efUDo+gnKWmRmGoIV6PK4uo8eOVGXcc="
         }
       },
       "is_incremental": false,
@@ -15828,7 +15912,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Mail.Mail.html",
-          "hash": "gUc6pXjQbMsdu1gL6bLlvHVowKNbvpe7SmGo0+WW6ik="
+          "hash": "jmW5N24mzyjAkVArZk3A+qis0QkDsFRPk3BkXy0x7hw="
         }
       },
       "is_incremental": false,
@@ -15876,7 +15960,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Mail.MailKitMailProvider.html",
-          "hash": "m/LRBpi/PShrh1avpwVsczfo1WZT3u8BPWNZRJXdE2E="
+          "hash": "8Zu5IpFB1eWvvYmv2u2HuXt4T7SbR+Usq8ScOExQOD0="
         }
       },
       "is_incremental": false,
@@ -15900,7 +15984,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Mail.MailProvider.html",
-          "hash": "hfOtb9VReSKxvgip/MkHktrSAB4V9H5JWLbWaqMtS4w="
+          "hash": "BMoWcE6wgIIib7rVOm23JtsD6uhZ5mL6vmMxuN+HkIc="
         }
       },
       "is_incremental": false,
@@ -15913,6 +15997,78 @@
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Mail.MessageType.html",
           "hash": "GaIxO4WJG7iVldLcHhIu+xYbGue1xs6DZbWIbsL7Jtg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Mail.OAuth.IOAuth2SmtpClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Mail.OAuth.IOAuth2SmtpClient.html",
+          "hash": "kG3Se8mZpQmIpSFZz26+lUp0nYAEmLMHEwCXRmWpXEQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Mail.OAuth.ISmtpOAuthController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Mail.OAuth.ISmtpOAuthController.html",
+          "hash": "yf7qNn5s3JhaxauSzVbQrInjoglcRzpd3HaguWgTqw4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Mail.OAuth.ISmtpOAuthProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Mail.OAuth.ISmtpOAuthProvider.html",
+          "hash": "GyC0rk3cj7+dbEBDKoDO/PZU5rBkAwjCGnVZHGN3DKg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Mail.OAuth.SmtpOAuthController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Mail.OAuth.SmtpOAuthController.html",
+          "hash": "Tt2P8Z+aM5E6U71GbvBF2tu0suW8gCSp/jW2iSa5wdw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Mail.OAuth.SmtpOAuthSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Mail.OAuth.SmtpOAuthSetting.html",
+          "hash": "Fo9AXvgu00FQDIlYo47ej9XPfA2Kq1oU31APw5rJ+eE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Mail.OAuth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Mail.OAuth.html",
+          "hash": "jNRG3d59r579pw7BZks3UHNLThuADZRuzLAdg5c43LA="
         }
       },
       "is_incremental": false,
@@ -15948,7 +16104,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Mail.SmtpInfo.html",
-          "hash": "iVP5msJ1B3S4EoVBR2EYYhDCTyt0rlWSe76qeCqBgh0="
+          "hash": "ABCKn9tLE5LA9OauLuNhgMXbSTMEZ9M5k5p7Kcet640="
         }
       },
       "is_incremental": false,
@@ -16644,7 +16800,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Scheduling.SchedulingController.html",
-          "hash": "zD0K+Vh5II3fCzVitEhwxcQ8SKAhUvs2ojjDJ31Xq8A="
+          "hash": "sWrM05mVHh63DnFGft5w23FuhmUVLaqRw/aRwrory0I="
         }
       },
       "is_incremental": false,
@@ -16956,7 +17112,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Search.IndexingProvider.html",
-          "hash": "JvaB+DneYTuL1xSg9v7q44Q+PKIDtxsgE1GQidc8VVw="
+          "hash": "5Ei4pzeVF2LmrDb/Be0YLFefEYgAW+qmaaWTif3kf7Q="
         }
       },
       "is_incremental": false,
@@ -16968,7 +17124,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Search.IndexingProviderBase.html",
-          "hash": "xn4iJUFR+h3b5K5TCUG3rDhp6RkWeyNz2rZgNR+2fXo="
+          "hash": "4NwxYaYs4dk5IbVjnSu3N8fxFLDvMGBRbBs/P5tHrhs="
         }
       },
       "is_incremental": false,
@@ -17100,7 +17256,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Search.SearchConfig.html",
-          "hash": "WFURXkT8+ALyeuelB8bEoIVTpz5UNLawVGUK1wmqcrQ="
+          "hash": "3EfhxX7egCrCwomxISAMHJKNJhQjWht0SPvUb8xxPPQ="
         }
       },
       "is_incremental": false,
@@ -17148,7 +17304,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Search.SearchCriteriaCollection.html",
-          "hash": "tUdnepx4wkN3LXsnas9wA/Btc/Gp68LkIP29+l7pY2g="
+          "hash": "XmjctKUFcKxknAaUHqv3wCtk4tt/gVuy+KEQR8M2igY="
         }
       },
       "is_incremental": false,
@@ -17172,7 +17328,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Search.SearchDataStoreController.html",
-          "hash": "MnShyV7M6jtwz0gy30YYeGA7Xu/8xZinu9UuEEOOUeI="
+          "hash": "Xho3ZHAqEn57QA4hDzKHnpUIB5XxN/VM24qpFNXpAxQ="
         }
       },
       "is_incremental": false,
@@ -17184,7 +17340,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Search.SearchDataStoreProvider.html",
-          "hash": "OIiPW+0CxR2pm3hDiIBk286Cl6Zu6Zg7J2LRCSgvAps="
+          "hash": "Oc/dvUU+5BBJcC0sATNtrHhOOoLIzIoCSAypSINjWiI="
         }
       },
       "is_incremental": false,
@@ -17208,7 +17364,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Search.SearchItemInfo.html",
-          "hash": "7RDKbiuhzSBH08BgdmNnGLuFeVR6Vwx9QmuOcdgj5lE="
+          "hash": "IsLAuixoqOFf5nOvN+CqbSXejaC1mSIDhCrLmEt5FzI="
         }
       },
       "is_incremental": false,
@@ -17220,7 +17376,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Search.SearchItemInfoCollection.html",
-          "hash": "W/bv4KLHTT2tPR7/75Wb/88jSeXiKaxIFmYRt3g1rTk="
+          "hash": "fO4tdiUe0UMFv4g4s9147fFGK8z93362zG3M+noRTKY="
         }
       },
       "is_incremental": false,
@@ -17232,7 +17388,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Search.SearchResultsInfo.html",
-          "hash": "iNgJOouOmwUHomx88SEWFY8K5uMSNYwZptBGeR52YGs="
+          "hash": "NUNl/WHR7SZtus6w8j5z3SqaBLYEUUnKAYXvqdN+J4I="
         }
       },
       "is_incremental": false,
@@ -17244,7 +17400,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Search.SearchResultsInfoCollection.html",
-          "hash": "DlQKJe/2MKmCidUmSAGD61xOKiG0lIgrAMhpJDl5Re4="
+          "hash": "iMjG55w0q+KBL8dps6Pb0rTBq0AQyWFkJxC48Y1xPOY="
         }
       },
       "is_incremental": false,
@@ -18048,7 +18204,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.SystemDateTime.SystemDateTime.html",
-          "hash": "a22dzoFi0HRHteh6wqN9NG65zxb7g6+PdkzjlV0br3Y="
+          "hash": "ny0eVgBAKTEgfW/mTi2CygZdqEDEN5NzP1/A2DXXzM0="
         }
       },
       "is_incremental": false,
@@ -18072,7 +18228,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.SystemHealth.WebServerMonitor.html",
-          "hash": "UvD4fEHHXIynn5ipd2pwM4Qu8QrYZqc0zTo/9jXVZeU="
+          "hash": "SHD26DMbEuIjkRg1MWnI5+hhj+G+XgXwLGazumqKOos="
         }
       },
       "is_incremental": false,
@@ -18756,7 +18912,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Upgrade.Upgrade.html",
-          "hash": "Wn6tjy4dJAqoumMyDd7Dxr5wJGJwzeKGO7UXZhtjAJg="
+          "hash": "hEFpSV1PyQRXHlad9+e+sIDEMDdbAlCzEnfcZPUZcEg="
         }
       },
       "is_incremental": false,
@@ -18780,7 +18936,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Url.FriendlyUrl.FriendlyUrlProvider.html",
-          "hash": "sPx+P/bHvEecMhFlsqCIaXDFb4PMUV73shLEH0RN02U="
+          "hash": "eYbo3wbyPGUM13RJQxdFACxKHbC2FCKWPi1geOSHt+Q="
         }
       },
       "is_incremental": false,
@@ -18912,7 +19068,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Startup.html",
-          "hash": "yXwbRq4rP4hXBNWAhDdeDnK0Yp23Jmh6nV5Ww6agDlI="
+          "hash": "I1iApxk6CrbQdHFb3m+oBsuxsKlyzUoK6SgYe8VIbGE="
         }
       },
       "is_incremental": false,
@@ -18936,7 +19092,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.UI.Containers.ActionButton.html",
-          "hash": "t9q0iwMaAANL39trcgt/bK0rNMy3X+a0Kns5s3DP+Rk="
+          "hash": "2x7RJFk9axIguEwiIU1XYbLEqeFcPxbRC55wvC5uaNQ="
         }
       },
       "is_incremental": false,
@@ -19404,7 +19560,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.UI.Modules.ModuleControlFactory.html",
-          "hash": "VvX09EnaOdpm/yPdi1Fbs/lVFi4IP+QgRx5vLfzrHrk="
+          "hash": "jhHxiDp4zyKj91L68JOVq2yIMx9cr6nELV/LLpANBdI="
         }
       },
       "is_incremental": false,
@@ -20112,7 +20268,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.UI.Utilities.DNNClientAPI.MinMaxPersistanceType.html",
-          "hash": "CfcnF5sIEsBVchcFWrbMzLNNfVcJvrNErvfm++HaK6E="
+          "hash": "n5PMB1d1LHX2fWUe0ENPb5cA7gu04c36lLbMWQ6EISM="
         }
       },
       "is_incremental": false,
@@ -20124,7 +20280,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.UI.Utilities.DNNClientAPI.PageCallBackType.html",
-          "hash": "D6+k9dOsfUEztIV/x0bKRpYuP0kNdt4qMRIlsTCWFLM="
+          "hash": "Q1/m99QKyn6jH6rl9LsiBY7TKNUFxYHw2M2mKB0MSrI="
         }
       },
       "is_incremental": false,
@@ -20136,7 +20292,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.UI.Utilities.DNNClientAPI.html",
-          "hash": "4W0Wh83Lv/vyrpG1XLyT3b128e+nOSIv2zGx8PStbGs="
+          "hash": "1V+FWVHxZzRqXfC8/VtJjx6+l5w+v6pJQaXTObjX3ME="
         }
       },
       "is_incremental": false,
@@ -21768,7 +21924,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Client.ClientResourceManagement.ClientResourceManager.html",
-          "hash": "zn4LOtglwE7YxXdPB6UilQIKQNVQxVgykdC6u4rFXIU="
+          "hash": "Adjozob2Q+Yd5sxoIxPul4oDaW0JTo4eEaRpiUrbfeg="
         }
       },
       "is_incremental": false,
@@ -21888,7 +22044,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Client.ClientResourceSettings.html",
-          "hash": "Ao+RzLmasV6N//6+Smhm1vgdn5krqQ864oeVgCVz/AM="
+          "hash": "Z9dpJzcm8gNwcq5sa4RjFH7ZCCSFLcP8qhffnbbRyt4="
         }
       },
       "is_incremental": false,
@@ -22272,7 +22428,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.InternalServices.ContentWorkflowServiceController.html",
-          "hash": "2HdVoS3WBrlcX3wEEpD5xBeZpE5GODloGU+AKh0Ug7M="
+          "hash": "bre8kT+XO75MC+g+Tpckb8pbsawthr0h5FX8iyZgFmM="
         }
       },
       "is_incremental": false,
@@ -22980,7 +23136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Mvc.Common.TypeHelper.html",
-          "hash": "RNdsX2xrCFPFBEvTBdVp5nUOje/NiX/q6UQfAcGYvD0="
+          "hash": "2CLjIYLxewVcdEgMhtJLX7P1cTwDmc9+IXc8eJ3jxAE="
         }
       },
       "is_incremental": false,
@@ -23064,7 +23220,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Mvc.Framework.ActionFilters.AuthorizeAttributeBase.html",
-          "hash": "7vaTxrp3dTI54a57npD1wQkbfCrfZSDnAc5hiLvlx54="
+          "hash": "dgHoNXfEfFu6FnLlmBDVh1F72w9nKq/TzHeCJXWXwy4="
         }
       },
       "is_incremental": false,
@@ -23856,7 +24012,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Mvp.AttributeBasedViewStateSerializer.html",
-          "hash": "A33F8LR9SKPupizdNrFJurSl3soFqa7I4EjQpY93gpc="
+          "hash": "8XALuikKsU0fooh4AQtV0hbVO1SZ4vX3I3FJNRlQGqw="
         }
       },
       "is_incremental": false,
@@ -23928,7 +24084,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Mvp.IModuleViewBase.html",
-          "hash": "11h6kKkos02xJcz/fxHG3/p8JCp0Fbgm/JcPL/blRew="
+          "hash": "ZWXykvJTqpQnFScFCf1EHWU5yggCoWhTGtMy9etCmOU="
         }
       },
       "is_incremental": false,
@@ -23940,7 +24096,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Mvp.ISettingsView-1.html",
-          "hash": "ki04qvMFTcBHnpxZ3E9UdBaigGJatxbvkBPFBkUmh0U="
+          "hash": "2exwVKnAnIcc91QPmWurzRVpMH3iL1kQK4Kb7jZCqjg="
         }
       },
       "is_incremental": false,
@@ -23952,7 +24108,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Mvp.ISettingsView.html",
-          "hash": "Xx0KD4snlerLGyouBDVFHWCGKbUNWkVn6fN08rYJ/S0="
+          "hash": "hypvUKNuzu75c78lQzTqMKaImHVfUPO8kKbdrSk942U="
         }
       },
       "is_incremental": false,
@@ -24024,7 +24180,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Mvp.ModulePresenterBase-1.html",
-          "hash": "+oarclvfOAUSaOpNp+M5ZFbwDgjlFrr6s69/7sM3eYQ="
+          "hash": "hiUHvvui9NpR0dZ7tLhJmQlhe5dKVa8VKG6/u6OVx8o="
         }
       },
       "is_incremental": false,
@@ -24036,7 +24192,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Mvp.ModuleSettingsPresenter-2.html",
-          "hash": "QBhUNoHSFSY3RuNqPD20BGBjwqus7S3fWfqS/hfBlWs="
+          "hash": "wIyXx4UAcdL/q2MVs2MnGBBlQrTXGRUuxnN7Li3dhUk="
         }
       },
       "is_incremental": false,
@@ -24048,7 +24204,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Mvp.ModuleSettingsPresenterBase-1.html",
-          "hash": "srW9vuOWReh/VoV1sIwuwUsEV+eNBmr1dEG5AAaMXqg="
+          "hash": "/eQpLQ43YWdRwAL1iU3KsdcqMY/ZCKxz5wSph/OvP2E="
         }
       },
       "is_incremental": false,
@@ -24060,7 +24216,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Mvp.ModuleView-1.html",
-          "hash": "BoHse1gvJ4yGoIQ7eeaVBTZTcE4ZYJwBwVn7lMQHmbw="
+          "hash": "d1TAYG+DzaqajkXaw64drfz+lljPvTRnf4w5oQ0Awac="
         }
       },
       "is_incremental": false,
@@ -24084,7 +24240,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Mvp.ModuleViewBase.html",
-          "hash": "nm+FG440XImBYoLmzV+xWdTIOu5NZvnPEynXCOgcOk8="
+          "hash": "fnS/W/j0UIpAKoUhmiPnjJIt29ONZoefk0rVFhnHLlU="
         }
       },
       "is_incremental": false,
@@ -24096,7 +24252,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Mvp.ProfileModuleViewBase-1.html",
-          "hash": "b8Agcr9+uJh4J0tP0noCUNxdPBrDk/kqptm9rx8vKXM="
+          "hash": "5WDifZk9EZgcJ0zXuR1fDb8Wl3++dHvUziS4FHyZIec="
         }
       },
       "is_incremental": false,
@@ -24108,7 +24264,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Mvp.SettingsModel.html",
-          "hash": "Gg095v2CudykA4wgmcn1kugT4Y85M6HLhCy/mEdRf7w="
+          "hash": "XTSBFilJ9hdRCrxODbWL7to6BgYoLDw7IKQ8ENQC92c="
         }
       },
       "is_incremental": false,
@@ -24120,7 +24276,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Mvp.SettingsView-1.html",
-          "hash": "+881wF8IHB+pxc3z4j7Kyvtx6zgB8eRCEj/fwfYV03c="
+          "hash": "zRTzVb9USZ83nWZ4voZkomTNSfx0k74lB1mZGkfCaW0="
         }
       },
       "is_incremental": false,
@@ -24132,7 +24288,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Mvp.SettingsViewBase.html",
-          "hash": "pL150MuKy/FBEGvs+gvIW3Mg+OhckPI/464JzfdbF/w="
+          "hash": "nRm+SqVda2A2A1TbrO0kdcyibbqaEEsvhQjiSU9xSkI="
         }
       },
       "is_incremental": false,
@@ -24144,7 +24300,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Mvp.ViewStateAttribute.html",
-          "hash": "1Ps8mqVF4j7lA4WIhXY7FDT6ANpHUBPq9WxykJ2cgzo="
+          "hash": "fBlT3FB2WD0r2uY+OURu//MDvzG9NzZwhSLDMfsPNFc="
         }
       },
       "is_incremental": false,
@@ -24192,7 +24348,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.Mvp.WebServiceViewOfT-1.html",
-          "hash": "M27m19fI8txyR3MRjSx4bX36zUXFY3GeinJwJp1Zk0U="
+          "hash": "yRtWMvuGX2YGJWv4I/4fb9HpMAoW9juMOimT5V3GJIE="
         }
       },
       "is_incremental": false,
@@ -24360,7 +24516,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.UI.Utilities.html",
-          "hash": "jzZQfznL5DE7dc/BZsTcuhWEZo1c6p+wrtIolht34Hw="
+          "hash": "Z/b/+sojl1cuMFFxRUxxpj0FFpBZbIEWnek674P8x7A="
         }
       },
       "is_incremental": false,
@@ -24588,7 +24744,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Web.UI.WebControls.DnnFormEditor.html",
-          "hash": "ajbWt4iUvwcND0GGyPfQzRg9fDJS0xcCk+iZ6UqcOuI="
+          "hash": "XhnkRFkjGd9OM7D5qa88WsVoLRb+dd4co9SXq8cLC/I="
         }
       },
       "is_incremental": false,
@@ -25608,7 +25764,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "xtBMbCUAudOD2SUa+FM/pKU8H/TLdxvQcMLg/+rHWmQ="
+          "hash": "pNITiV5YLhDkMd5Ttu9BTUCY4qa/0MUoya2BEU5h1CA="
         }
       },
       "is_incremental": false,
@@ -25728,7 +25884,7 @@
       "output": {
         ".html": {
           "relative_path": "content/features/extensibility/extensions/index.html",
-          "hash": "0zV2w7kU9n3Yz9QAxNJpeSKVP6xUf8ad54aMrx+aRRU="
+          "hash": "EuD+eDi/hLknQD2PVDxyLZz2gdK72mcNGvrmh9ti8Xk="
         }
       },
       "is_incremental": false,
@@ -35820,7 +35976,7 @@
       "output": {
         ".html": {
           "relative_path": "content/tutorials/extensions/dnn-manifest-schema/index.html",
-          "hash": "xsuYQREPvBpXer6HDo3j+QgLPAL9LpasydKIs7PyA1Q="
+          "hash": "c6cBCisMoCfo2ihUncCVfWZ7oiSudS8jEzot66MFZpc="
         }
       },
       "is_incremental": false,
@@ -44519,7 +44675,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 2137,
+          "total_file_count": 2150,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

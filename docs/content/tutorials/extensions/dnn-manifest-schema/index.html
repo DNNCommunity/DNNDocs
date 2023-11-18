@@ -360,7 +360,10 @@
 </code></pre>
 </li>
 <li><p><a href="https://www.dnnsoftware.com/wiki/cleanup-component"><code>Cleanup</code></a>. List of files that must be deleted during installation or upgrade of the package.</p>
-<p>You can list the files individually in the manifest.</p>
+<ul>
+<li>You can list the files individually in the manifest.</li>
+<li>You can also remove folders. These have to be empty, so you need to remove the files first.</li>
+</ul>
 <pre><code>
     &lt;component type=&quot;Cleanup&quot; version=&quot;07.40.00&quot;&gt;
         &lt;files&gt;
@@ -371,6 +374,9 @@
             &lt;file /&gt;
             ...
         &lt;/files&gt;
+        &lt;folder&gt;
+                    &lt;path&gt;DesktopModules/MyModule/DeleteFolder&lt;/path&gt;
+        &lt;/folder&gt;
     &lt;/component&gt;
 
 </code></pre>
