@@ -2,7 +2,7 @@
 uid: nuget-Newtonsoft.Json-4.5.5
 locale: en
 title: NuGet package Newtonsoft.Json version 4.5.5
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

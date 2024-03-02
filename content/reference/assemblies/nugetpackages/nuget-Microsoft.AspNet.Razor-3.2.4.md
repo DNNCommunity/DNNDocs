@@ -2,7 +2,7 @@
 uid: nuget-Microsoft.AspNet.Razor-3.2.4
 locale: en
 title: NuGet package Microsoft.AspNet.Razor version 3.2.4
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

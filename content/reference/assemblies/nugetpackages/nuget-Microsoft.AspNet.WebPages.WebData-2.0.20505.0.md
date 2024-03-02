@@ -2,7 +2,7 @@
 uid: nuget-Microsoft.AspNet.WebPages.WebData-2.0.20505.0
 locale: en
 title: NuGet package Microsoft.AspNet.WebPages.WebData version 2.0.20505.0
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

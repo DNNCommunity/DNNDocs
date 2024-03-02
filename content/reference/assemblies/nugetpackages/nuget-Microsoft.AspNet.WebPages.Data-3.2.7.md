@@ -2,7 +2,7 @@
 uid: nuget-Microsoft.AspNet.WebPages.Data-3.2.7
 locale: en
 title: NuGet package Microsoft.AspNet.WebPages.Data version 3.2.7
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

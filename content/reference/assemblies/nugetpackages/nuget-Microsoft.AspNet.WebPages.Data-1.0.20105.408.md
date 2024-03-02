@@ -2,7 +2,7 @@
 uid: nuget-Microsoft.AspNet.WebPages.Data-1.0.20105.408
 locale: en
 title: NuGet package Microsoft.AspNet.WebPages.Data version 1.0.20105.408
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

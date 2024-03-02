@@ -2,7 +2,7 @@
 uid: nuget-System.IdentityModel.Tokens.Jwt-6.6.0
 locale: en
 title: NuGet package System.IdentityModel.Tokens.Jwt version 6.6.0
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

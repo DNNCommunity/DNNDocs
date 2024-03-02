@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.Web.Deprecated-9.8.0
 locale: en
 title: NuGet package DotNetNuke.Web.Deprecated version 9.8.0
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 
@@ -27,4 +27,12 @@ Details of published NuGet package.
 
 |Assembly|Version|
 |---|---|
+|DotNetNuke.DependencyInjection.dll|9.8.0.0|
+|DotNetNuke.dll|9.8.0.0|
+|DotNetNuke.Web.Deprecated.dll|9.8.0.0|
+|DotNetNuke.Web.dll|9.8.0.0|
+|DotNetNuke.WebUtility.dll|4.2.1.783|
+|Microsoft.ApplicationBlocks.Data.dll|2.0.0.0|
+|Microsoft.Extensions.DependencyInjection.dll|2.1.1.18157|
+|Telerik.Web.UI.dll|2013.2.717.40|
 

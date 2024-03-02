@@ -2,7 +2,7 @@
 uid: nuget-Microsoft.SqlServer.Compact-4.0.8854.2
 locale: en
 title: NuGet package Microsoft.SqlServer.Compact version 4.0.8854.2
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

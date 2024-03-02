@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.Web.Client-9.3.1
 locale: en
 title: NuGet package DotNetNuke.Web.Client version 9.3.1
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

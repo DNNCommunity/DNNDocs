@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.Bundle-9.1.0.367
 locale: en
 title: NuGet package DotNetNuke.Bundle version 9.1.0.367
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

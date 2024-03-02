@@ -23,7 +23,7 @@ Numbered columns refer to the NuGet packages listed below this list.
 |Dnn.PersonaBar.Extensions.dll|9.6.0.0|
 |Dnn.PersonaBar.Library.dll|9.6.0.0|
 |Dnn.PersonaBar.UI.dll|9.6.0.0|
-|DNNConnect.CKEditorProvider.dll|1.0.7|
+|DNNConnect.CKEditorProvider.dll|1.0.8|
 |DotNetNuke.Abstractions.dll|9.6.0.0|
 |DotNetNuke.DependencyInjection.dll|9.6.0.0|
 |DotNetNuke.dll|9.6.0.0|
@@ -40,6 +40,7 @@ Numbered columns refer to the NuGet packages listed below this list.
 |DotNetNuke.Modules.MemberDirectory.dll|9.6.0.0|
 |DotNetNuke.Modules.RazorHost.dll|9.6.0.0|
 |DotNetNuke.Providers.AspNetClientCapabilityProvider.dll|9.6.0.0|
+|DotNetNuke.Providers.Caching.SimpleWebFarmCachingProvider.dll|9.6.0.0|
 |DotNetNuke.Providers.FolderProviders.dll|9.6.0.0|
 |DotNetNuke.Services.Syndication.dll|9.6.0.0|
 |DotNetNuke.SiteExportImport.dll|9.6.0.0|

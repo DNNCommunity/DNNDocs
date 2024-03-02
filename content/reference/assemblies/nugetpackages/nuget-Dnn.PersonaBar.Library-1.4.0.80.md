@@ -2,7 +2,7 @@
 uid: nuget-Dnn.PersonaBar.Library-1.4.0.80
 locale: en
 title: NuGet package Dnn.PersonaBar.Library version 1.4.0.80
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

@@ -2,7 +2,7 @@
 uid: nuget-Microsoft.AspNet.WebHelpers-3.1.2
 locale: en
 title: NuGet package Microsoft.AspNet.WebHelpers version 3.1.2
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

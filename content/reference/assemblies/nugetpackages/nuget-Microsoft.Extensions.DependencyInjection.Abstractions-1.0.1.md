@@ -2,7 +2,7 @@
 uid: nuget-Microsoft.Extensions.DependencyInjection.Abstractions-1.0.1
 locale: en
 title: NuGet package Microsoft.Extensions.DependencyInjection.Abstractions version 1.0.1
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 
