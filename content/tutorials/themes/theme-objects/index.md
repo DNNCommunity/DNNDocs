@@ -120,14 +120,13 @@ The <dnn:BREADCRUMB...> block should be placed in the Theme on the spot you want
 |ACTIONBUTTON|Displays an action from the **module action menu**.|
 |[BREADCRUMB](xref:breadcrumb)|Displays the path to the current tab (`>` is the default separator). Example: `PageName1 > PageName2 > PageName3`|
 |[CSSINCLUDE](xref:cssinclude)|Load Custom Stylesheet for your Theme|
+|CSSEXCLUDE|Prevents a stylesheet reference from being included in the page.|
 |CONTROLPANEL|Displays the DNN control panel. If the **CONTROLPANEL** theme object is not used in the theme, then DNN inserts a control panel control at the top of the page.|
 |[COPYRIGHT](xref:copyright)|Displays the copyright notice for the website.|
 |[CURRENTDATE](xref:currentdate)|Displays the current date on the server.|
 |[DDRMENU](xref:ddrmenu-overview)|Displays a menu using the **DDRMenu** control.|
-|DNNCSSEXCLUDE|Prevents a stylesheet reference from being included in the page.|
-|DNNCSSINCLUDE|Adds a stylesheet reference to the page.|
-|DNNJSEXCLUDE|Prevents a JavaScript file reference from being included in the page.|
-|DNNJSINCLUDE|Adds a JavaScript file reference to the page.|
+|JSEXCLUDE|Prevents a JavaScript file reference from being included in the page.|
+|JSINCLUDE|Adds a JavaScript file reference to the page.|
 |DOTNETNUKE|Displays the copyright notice for DNN.|
 |HELP|Displays a **Help** link, which sends an email to the website's administrator, using the user's default email client.|
 |HOSTNAME|Displays the host title linked to the host URL. The host title and host URL are defined on the host settings page.|
