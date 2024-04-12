@@ -11,7 +11,7 @@ links:
 
 # Current Date Theme Object Introduction  
 
-			Displays the current date
+Displays the current date
   
 **Current Version:** 01.00.00  
 
@@ -20,8 +20,8 @@ links:
 
 ### ASCX
 ``` html
-	<%@ Register TagPrefix="dnn" TagName="CURRENTDATE" Src="~/Admin/Skins/CurrentDate.ascx" %>  
-	<dnn:CurrentDate runat="server" id="dnnCurrentDate" />
+<%@ Register TagPrefix="dnn" TagName="CURRENTDATE" Src="~/Admin/Skins/CurrentDate.ascx" %>  
+<dnn:CurrentDate runat="server" id="dnnCurrentDate" />
 ```
 
 ### HTML Token
@@ -29,7 +29,7 @@ links:
 
 ### HTML Object Token
 ``` html
-	<object id="dnnCURRENTDATE" codetype="dotnetnuke/server" codebase="CURRENTDATE"></object>
+<object id="dnnCURRENTDATE" codetype="dotnetnuke/server" codebase="CURRENTDATE"></object>
 ```
 
 | Attribute | Description | Default | Posssible Values | DNN Version |
