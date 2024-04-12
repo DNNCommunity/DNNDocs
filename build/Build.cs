@@ -23,8 +23,6 @@ using System.Linq.Expressions;
 [GitHubActions(
     "PR_Validation",
     GitHubActionsImage.WindowsLatest,
-    GitHubActionsImage.MacOsLatest,
-    GitHubActionsImage.UbuntuLatest,
     ImportSecrets = new[] { "GithubToken" },
     OnPullRequestBranches = new[] { "main" },
     InvokedTargets = new[] { nameof(Compile) })]
