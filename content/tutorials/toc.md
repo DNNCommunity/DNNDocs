@@ -236,7 +236,7 @@
 ###[CSSINCLUDE](xref:cssinclude)
 ###[CSSEXINCLUDE](xref:cssexclude)
 ###[COPYRIGHT](xref:copyright)
-###[CURRENTDATE](xref:breadcrumb)
+###[CURRENTDATE](xref:currentdate)
 ###[DDRMenu](xref:ddrmenu-overview)
 ####[Overview](xref:ddrmenu-overview)
 ####[Reference Guide](xref:ddrmenu-reference-guide)
