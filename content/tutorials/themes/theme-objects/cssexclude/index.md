@@ -11,7 +11,7 @@ links:
 
 # CSSEXCLUDE Theme Object Introduction  
 
-			Allows you to exclude a Stylesheet (that DNN would normally load) from being loaded
+Allows you to exclude a Stylesheet (that DNN would normally load) from being loaded
   
 **Current Version:** 01.00.00  
 
@@ -20,16 +20,16 @@ links:
 
 ### ASCX
 ``` html
-			<%@ Register TagPrefix="dnn" TagName="CssExclude" src="~/Admin/Skins/DnnCssExclude.ascx" %>  
-			<dnn:CssExclude runat="server" name="DnnDefault" />
+<%@ Register TagPrefix="dnn" TagName="CssExclude" src="~/Admin/Skins/DnnCssExclude.ascx" %>  
+<dnn:CssExclude runat="server" name="DnnDefault" />
 ```
 
 ### HTML Token
-			[DNNCSSEXCLUDE]
+[DNNCSSEXCLUDE]
 
 ### HTML Object Token
 ``` html
-			<object id="DNNCSSEXCLUDE" codetype="dotnetnuke/server" codebase="DNNCSSEXCLUDE"> 
+<object id="DNNCSSEXCLUDE" codetype="dotnetnuke/server" codebase="DNNCSSEXCLUDE"> 
 ```
 
 | Attribute | Description | Default | Posssible Values | DNN Version |
@@ -40,6 +40,6 @@ links:
 					
 ### Don't load Default.css
 ~~~html
-		<dnn:CssExclude runat="server" name="DnnDefault" />
+<dnn:CssExclude runat="server" name="DnnDefault" />
 ~~~
 					
