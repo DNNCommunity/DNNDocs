@@ -115,19 +115,17 @@
     <span class="pull-left">&nbsp;&bull; 1 minute  to read</span>
 </div>
 
-<pre><code>		Allows you to exclude a Stylesheet (that DNN would normally load) from being loaded
-</code></pre>
+<p>Allows you to exclude a Stylesheet (that DNN would normally load) from being loaded</p>
 <p><strong>Current Version:</strong> 01.00.00</p>
 <h2 id="include-in-theme">Include in Theme</h2>
 <h3 id="ascx">ASCX</h3>
-<pre><code class="lang-html">			&lt;%@ Register TagPrefix=&quot;dnn&quot; TagName=&quot;CssExclude&quot; src=&quot;~/Admin/Skins/DnnCssExclude.ascx&quot; %&gt;  
-			&lt;dnn:CssExclude runat=&quot;server&quot; name=&quot;DnnDefault&quot; /&gt;
+<pre><code class="lang-html">&lt;%@ Register TagPrefix=&quot;dnn&quot; TagName=&quot;CssExclude&quot; src=&quot;~/Admin/Skins/DnnCssExclude.ascx&quot; %&gt;  
+&lt;dnn:CssExclude runat=&quot;server&quot; name=&quot;DnnDefault&quot; /&gt;
 </code></pre>
 <h3 id="html-token">HTML Token</h3>
-<pre><code>		[DNNCSSEXCLUDE]
-</code></pre>
+<p>[DNNCSSEXCLUDE]</p>
 <h3 id="html-object-token">HTML Object Token</h3>
-<pre><code class="lang-html">			&lt;object id=&quot;DNNCSSEXCLUDE&quot; codetype=&quot;dotnetnuke/server&quot; codebase=&quot;DNNCSSEXCLUDE&quot;&gt; 
+<pre><code class="lang-html">&lt;object id=&quot;DNNCSSEXCLUDE&quot; codetype=&quot;dotnetnuke/server&quot; codebase=&quot;DNNCSSEXCLUDE&quot;&gt; 
 </code></pre>
 <table>
 <thead>
@@ -151,7 +149,7 @@
 </table>
 <h2 id="examples">Examples:</h2>
 <h3 id="dont-load-defaultcss">Don't load Default.css</h3>
-<pre><code class="lang-html">		&lt;dnn:CssExclude runat=&quot;server&quot; name=&quot;DnnDefault&quot; /&gt;
+<pre><code class="lang-html">&lt;dnn:CssExclude runat=&quot;server&quot; name=&quot;DnnDefault&quot; /&gt;
 </code></pre>
 </article>
           </div>
