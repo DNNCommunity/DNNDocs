@@ -234,7 +234,7 @@
 ##[Theme Objects](xref:theme-objects)
 ###[Breadcrumb](xref:breadcrumb)
 ###[CSSINCLUDE](xref:cssinclude)
-###[CSSEXINCLUDE](xref:cssexclude)
+###[CSSEXCLUDE](xref:cssexclude)
 ###[COPYRIGHT](xref:copyright)
 ###[CURRENTDATE](xref:currentdate)
 ###[DDRMenu](xref:ddrmenu-overview)
