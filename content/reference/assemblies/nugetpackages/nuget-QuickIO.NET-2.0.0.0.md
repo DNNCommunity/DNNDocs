@@ -2,7 +2,7 @@
 uid: nuget-QuickIO.NET-2.0.0.0
 locale: en
 title: NuGet package QuickIO.NET version 2.0.0.0
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

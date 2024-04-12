@@ -2,7 +2,7 @@
 uid: nuget-RestSharp-105.0.1
 locale: en
 title: NuGet package RestSharp version 105.0.1
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

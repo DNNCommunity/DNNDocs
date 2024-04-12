@@ -2,7 +2,7 @@
 uid: nuget-Microsoft.AspNet.Razor-1.0.20105.408
 locale: en
 title: NuGet package Microsoft.AspNet.Razor version 1.0.20105.408
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

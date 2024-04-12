@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.WebApi-9.1.1.129
 locale: en
 title: NuGet package DotNetNuke.WebApi version 9.1.1.129
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

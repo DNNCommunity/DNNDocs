@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.Instrumentation-9.2.1.533
 locale: en
 title: NuGet package DotNetNuke.Instrumentation version 9.2.1.533
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

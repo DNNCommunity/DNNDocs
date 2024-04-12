@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.Web.Client-9.7.2
 locale: en
 title: NuGet package DotNetNuke.Web.Client version 9.7.2
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 
@@ -26,4 +26,9 @@ Details of published NuGet package.
 
 |Assembly|Version|
 |---|---|
+|DotNetNuke.DependencyInjection.dll|9.7.2.0|
+|DotNetNuke.dll|9.7.2.0|
+|DotNetNuke.Web.Client.dll|9.7.2.0|
+|Microsoft.ApplicationBlocks.Data.dll|2.0.0.0|
+|Microsoft.Extensions.DependencyInjection.dll|2.1.1.18157|
 

@@ -1,0 +1,55 @@
+---
+uid: nuget-DotNetNuke.Web.Mvc-9.11.0
+locale: en
+title: NuGet package DotNetNuke.Web.Mvc version 9.11.0
+dnnversion: 09.12.00
+related-topics: referencing-dnn-assemblies
+---
+
+# NuGet package DotNetNuke.Web.Mvc version 9.11.0
+Details of published NuGet package.
+*All Assemblies* lists all the assemblies that are included in this package or any dependent package.
+
+## Included Assemblies
+
+|Assembly|Version|
+|---|---|
+|DotNetNuke.Web.Mvc.dll|9.11.0.46|
+
+## Dependencies
+
+|Package|Version|Link|
+|---|---|---|
+|DotNetNuke.Web|9.11.0|[NuGet](https://www.nuget.org/packages/DotNetNuke.Web/9.11.0)|
+|DotNetNuke.Web.Client|9.11.0|[NuGet](https://www.nuget.org/packages/DotNetNuke.Web.Client/9.11.0)|
+|DotNetNuke.WebApi|9.11.0|[NuGet](https://www.nuget.org/packages/DotNetNuke.WebApi/9.11.0)|
+|Microsoft.AspNet.Mvc|5.2.9|[NuGet](https://www.nuget.org/packages/Microsoft.AspNet.Mvc/5.2.9)|
+|Microsoft.AspNet.Razor|3.2.9|[NuGet](https://www.nuget.org/packages/Microsoft.AspNet.Razor/3.2.9)|
+|Microsoft.AspNet.WebPages|3.2.9|[NuGet](https://www.nuget.org/packages/Microsoft.AspNet.WebPages/3.2.9)|
+|Microsoft.Web.Infrastructure|1.0.0|[NuGet](https://www.nuget.org/packages/Microsoft.Web.Infrastructure/1.0.0)|
+
+## All Assemblies
+
+|Assembly|Version|
+|---|---|
+|DotNetNuke.DependencyInjection.dll|9.11.0.46|
+|DotNetNuke.dll|9.11.0.46|
+|DotNetNuke.Instrumentation.dll|9.11.0.46|
+|DotNetNuke.log4net.dll|3.0.2.0|
+|DotNetNuke.Web.Client.dll|9.11.0.46|
+|DotNetNuke.Web.dll|9.11.0.46|
+|DotNetNuke.Web.Mvc.dll|9.11.0.46|
+|DotNetNuke.WebUtility.dll|4.2.1.783|
+|Microsoft.ApplicationBlocks.Data.dll|2.0.0.0|
+|Microsoft.Extensions.DependencyInjection.dll|2.1.1.18157|
+|Microsoft.Web.Infrastructure.dll|1.0.20105.407|
+|Newtonsoft.Json.dll|10.0.3.21018|
+|System.Net.Http.Formatting.dll|5.2.61129.10|
+|System.Web.Helpers.dll|3.0.61129.10|
+|System.Web.Http.dll|5.2.61129.10|
+|System.Web.Mvc.dll|5.2.61129.10|
+|System.Web.Razor.dll|3.0.61129.10|
+|System.Web.WebPages.Deployment.dll|3.0.61129.10|
+|System.Web.WebPages.dll|3.0.61129.10|
+|System.Web.WebPages.Razor.dll|3.0.61129.10|
+

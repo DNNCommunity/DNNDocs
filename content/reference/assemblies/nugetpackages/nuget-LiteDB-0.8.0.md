@@ -2,7 +2,7 @@
 uid: nuget-LiteDB-0.8.0
 locale: en
 title: NuGet package LiteDB version 0.8.0
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

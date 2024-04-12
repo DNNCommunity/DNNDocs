@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.Web-8.0.2.4
 locale: en
 title: NuGet package DotNetNuke.Web version 8.0.2.4
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

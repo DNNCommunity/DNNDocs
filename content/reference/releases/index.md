@@ -2,7 +2,7 @@
 uid: releases
 locale: en
 title: Releases
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: administrators-included-modules-overview,requirements,dnn-overview,control-bar-to-persona-bar,persona-bar-by-role,providers,more-resources
 ---
 
@@ -12,6 +12,10 @@ related-topics: administrators-included-modules-overview,requirements,dnn-overvi
 
 |**Release Date**|**Version**|
 |---|---|
+|2023 Jun 22|[9.12.0](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.12.0)|
+|2023 Mar 28|[9.11.2](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.11.2)|
+|2023 Feb 22|[9.11.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.11.1)|
+|2022 Sep 28|[9.11.0](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.11.0)|
 |2021 Oct 19|[9.10.2](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.10.2)|
 |2021 Aug 24|[9.10.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.10.1)|
 |2021 Jul 21|[9.10.0](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.10.0)|
