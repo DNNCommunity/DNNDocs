@@ -153,7 +153,7 @@
     <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_Internal_FileSecurityController_GetFactory.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.Internal.FileSecurityController.GetFactory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/Internal/FileSecurityController.cs/#L45">View Source</a>
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/Internal/FileSecurityController.cs/#L58">View Source</a>
   </span>
   <a id="DotNetNuke_Services_FileSystem_Internal_FileSecurityController_GetFactory_" data-uid="DotNetNuke.Services.FileSystem.Internal.FileSecurityController.GetFactory*"></a>
   <h4 id="DotNetNuke_Services_FileSystem_Internal_FileSecurityController_GetFactory" data-uid="DotNetNuke.Services.FileSystem.Internal.FileSecurityController.GetFactory">GetFactory()</h4>
@@ -234,6 +234,56 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><p><span class="xref">true</span> if the file has valid content, otherwise <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DNNCommunity/DNNDocs/new/main/apiSpec/new?filename=DotNetNuke_Services_FileSystem_Internal_FileSecurityController_ValidateNotExectuable_Stream_.md&amp;value=---%0Auid%3A%20DotNetNuke.Services.FileSystem.Internal.FileSecurityController.ValidateNotExectuable(Stream)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dnnsoftware/Dnn.Platform/blob/develop/DNN Platform/Library/Services/FileSystem/Internal/FileSecurityController.cs/#L45">View Source</a>
+  </span>
+  <a id="DotNetNuke_Services_FileSystem_Internal_FileSecurityController_ValidateNotExectuable_" data-uid="DotNetNuke.Services.FileSystem.Internal.FileSecurityController.ValidateNotExectuable*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_Internal_FileSecurityController_ValidateNotExectuable_Stream_" data-uid="DotNetNuke.Services.FileSystem.Internal.FileSecurityController.ValidateNotExectuable(Stream)">ValidateNotExectuable(Stream)</h4>
+  <div class="markdown level1 summary"><p>Checks the file content isn't an exectuable file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ValidateNotExectuable(Stream fileContent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><span class="parametername">fileContent</span></td>
+        <td><p>The File Content.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the file is an exectuable file.</p>
 </td>
       </tr>
     </tbody>
