@@ -239,6 +239,7 @@
 ####[Razor Templates Overview](xref:ddrmenu-razor-templates-overview)
 ####[Token Templates](xref:ddrmenu-token-templates)
 ####[XSLT Templates](xref:ddrmenu-xslt-templates)
+###[TEXT](xref:text)
 ##[Persona Bar Style Guide](xref:persona-bar-style-guide)
 
 #[JWT](xref:jwt)
