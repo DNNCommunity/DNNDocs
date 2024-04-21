@@ -10,23 +10,20 @@ links:
 ---
 
 # TEXT Theme Object Introduction  
-
-Displays Localized text in your theme / skin, also supports the use of DNN Core Token replacement. 
+Displays localized text in your theme/skin, and supports DNN Core Token replacement. 
  
-The text will be loaded from a resource file (*.resx), you need a separate resx file per language. 
+The text will be loaded from a resource file (`*.resx`), you need a separate RESX file per language. 
  
-These should be located in a folder named "App_LocalResources" (in the Theme folder). 
- 
+These should be located in a folder named `App_LocalResources` (in the theme/skin folder).  
   
  
 ## Naming convention: 
  
-When your skin file = index.ascx: 
-Default language: index.ascx.resx 
-French: index.ascx.fr-FR.resx 
-German: index.ascx.de-DE.resx 
- 
-  
+When your skin file is `index.ascx`:
+* `index.ascx.resx` (Default Language)
+* `index.ascx.fr-FR.resx` (French)
+* `index.ascx.de-DE.resx` (German)
+
  
 ## Resource file content: 
  
