@@ -41016,7 +41016,19 @@
       "output": {
         ".html": {
           "relative_path": "content/tutorials/themes/theme-objects/index.html",
-          "hash": "o2mu8MMohhlsRzQWmeSlhHGCCFlhwhXIS6hYE99Y0LE="
+          "hash": "y5wpnbJXurDA7Ws08LC5GbFe63Upc5d9M3yYAIT0M8c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/tutorials/themes/theme-objects/text/readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/tutorials/themes/theme-objects/text/readme.html",
+          "hash": "xKRryQQqreTXTiuSJRyxJu814EKCnOOrDm6L43FsUkY="
         }
       },
       "is_incremental": false,
@@ -41028,7 +41040,7 @@
       "output": {
         ".html": {
           "relative_path": "content/tutorials/toc.html",
-          "hash": "QnaVb2a2oX/8fyAjWG90OKDZwxbCMnsB2xalhubpUZ4="
+          "hash": "mnLMzz1VYUfWEIBzWZ6mQ/tWk6g45izZDXo3LQlJviQ="
         }
       },
       "is_incremental": false,
@@ -46217,7 +46229,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 1288,
+          "total_file_count": 1289,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
