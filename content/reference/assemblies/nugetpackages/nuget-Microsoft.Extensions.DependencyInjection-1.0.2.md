@@ -2,7 +2,7 @@
 uid: nuget-Microsoft.Extensions.DependencyInjection-1.0.2
 locale: en
 title: NuGet package Microsoft.Extensions.DependencyInjection version 1.0.2
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

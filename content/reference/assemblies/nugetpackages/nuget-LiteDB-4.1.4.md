@@ -2,7 +2,7 @@
 uid: nuget-LiteDB-4.1.4
 locale: en
 title: NuGet package LiteDB version 4.1.4
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

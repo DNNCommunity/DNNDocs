@@ -2,7 +2,7 @@
 uid: nuget-Microsoft.AspNet.WebApi.Client-5.1.1
 locale: en
 title: NuGet package Microsoft.AspNet.WebApi.Client version 5.1.1
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

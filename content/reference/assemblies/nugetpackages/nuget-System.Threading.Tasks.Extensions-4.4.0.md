@@ -2,7 +2,7 @@
 uid: nuget-System.Threading.Tasks.Extensions-4.4.0
 locale: en
 title: NuGet package System.Threading.Tasks.Extensions version 4.4.0
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 

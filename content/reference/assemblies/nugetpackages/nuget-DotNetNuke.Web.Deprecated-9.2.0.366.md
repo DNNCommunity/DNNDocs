@@ -2,7 +2,7 @@
 uid: nuget-DotNetNuke.Web.Deprecated-9.2.0.366
 locale: en
 title: NuGet package DotNetNuke.Web.Deprecated version 9.2.0.366
-dnnversion: 09.08.00
+dnnversion: 09.12.00
 related-topics: referencing-dnn-assemblies
 ---
 
