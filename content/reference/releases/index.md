@@ -1,4 +1,4 @@
-﻿---
+---
 uid: releases
 locale: en
 title: Releases
@@ -12,6 +12,10 @@ related-topics: administrators-included-modules-overview,requirements,dnn-overvi
 
 |**Release Date**|**Version**|
 |---|---|
+|2024 Mar 06|[9.13.3](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.3)|
+|2024 Jan 17|[9.13.2](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.2)|
+|2023 Dec 06|[9.13.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.1)|
+|2023 Sep 23|[9.13.0](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.0)|
 |2023 Jun 22|[9.12.0](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.12.0)|
 |2023 Mar 28|[9.11.2](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.11.2)|
 |2023 Feb 22|[9.11.1](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.11.1)|
