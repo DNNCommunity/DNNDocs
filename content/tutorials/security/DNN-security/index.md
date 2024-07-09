@@ -14,7 +14,7 @@ DNN makes every effort to quickly analyze reported security issues and to provid
 ## Reporting Security Issues
 
 > [!Important]
-> To report potential security issues and questionable security scan results, please contact DNN by email at [security@dnnsoftware.com](mailto:security@dnnsoftware.com).
+> To report potential security issues and questionable security scan results, please see the [DNN Security Policy](https://github.com/dnnsoftware/Dnn.Platform/security/policy).
 
 All submissions are viewed by members of the DNN Security Task Force only. Submissions are discussed outside the Task Force, only if permitted by the individual or company that reported the issue.
 
