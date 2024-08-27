@@ -494,6 +494,7 @@ Some component types are applicable only to the package type of the same name; g
                     ...
                 </supportedFeatures>
                 <moduleDefinition>
+                    <definitionName />
                     <friendlyName />
                     <defaultCacheTime />
                     <moduleControls>
