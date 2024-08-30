@@ -7,6 +7,8 @@ dnnversion: 09.02.00
 
 # Create a Trusted Certificate for Internal Webservers
 
+**Important notice:** these instructions are meant for a local development machine or an intranet site, **not** for a public website.
+
 ## Prerequisites
 
 [Enable and Set Up IIS](xref:set-up-iis)
