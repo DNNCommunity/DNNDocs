@@ -1,0 +1,32 @@
+  <h4 class="hlead"><i class="fas fa-globe" style="color: #9F58A9"></i> Upcoming Events</h4>
+  <p>Learn more about DNN at these community events:</p>
+  <ul class="events-list text-center">
+      <li>
+          <a href="https://www.dnnsummit.org/" target="_blank">
+              <img src="images/sidebar/2025-Dnn-Summit-Vegas-j26zFozr9J.png">
+          </a>
+          <span class="details">
+            Las Vegas and Virtual<br>
+            Feb 3-4, 2025
+          </span>
+      </li>
+      <li>
+          <a href="http://www.southernfrieddnn.com/" target="_blank">
+              <img src="images/southernfried-logo.jpg">
+          </a>
+          <span class="details">
+            Virtual (Zoom)<br>
+            3rd Thursday Every Month
+          </span>
+      </li>
+      <li>
+          <p><strong>Recent events:</strong></p>
+          <a href="https://www.dnn-connect.org/" target="_blank">
+              <img src="images/sidebar/2024-Dnn-Connect-Champery-bv93voa26j.png">
+          </a>
+          <span class="details">
+            Champery, Switzerland<br>
+            May 23-26, 2024
+          </span>
+      </li>
+  </ul>

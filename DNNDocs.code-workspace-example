@@ -1,0 +1,56 @@
+{
+	"folders": [
+		{
+			"name": "DNNDocs (root)",
+			"path": "."
+		},
+		{
+			"name": "templates/dnn-docs",
+			"path": "templates/dnn-docs"
+		},
+		{
+			"name": "content",
+			"path": "content"
+		},	],
+	"settings": {
+		"editor.tabSize": 2,
+		"editor.insertSpaces": true,
+		"editor.detectIndentation": false,
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+        "path": "pwsh.exe",
+        "args": [
+          "-noexit",
+          "-command",
+          "Write-Host 'See the .code-workspace file to update these terminal startup commands, reminders, etc.' -ForegroundColor DarkCyan;",
+          "Write-Host \"PowerShell ($($PSVersionTable.PSEdition)): v$($PSVersionTable.PSVersion)\" -ForegroundColor DarkCyan;",
+          "Write-Host '';",
+          "Write-Host 'DNNDocs - GitHub forked and local';",
+          "Write-Host 'REQUIRED: .NET Runtime 6 (Noted 20240865)' -ForegroundColor Yellow;",
+          "Write-Host '';",
+          "Write-Host 'REMINDERS:' -ForegroundColor Magenta;",
+          "Write-Host 'Home page                             /templates/dnn-docs/index.html.tmpl' -ForegroundColor Magenta;",
+          "Write-Host 'Build using Powershell,               \"> .\\build\"';",
+          "Write-Host 'List installed .NET runtimes or SDKs, \"> dotnet --list-runtimes\" (or --list-sdks)';",
+          "Write-Host 'See the README to Update from Upstream' -ForegroundColor Magenta;",
+          "# Write-Host 'Reminder: cool or useful reminder goes here, \"> nvm use vNN.NN.NN \"' -ForegroundColor Magenta;",
+          "# ls ; # for subsequent commands"
+        ]
+      }
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+      "*.sln": ".env, .browserslistrc, .eslint*, .*.json, .git*, .editorconfig, .nvmrc, .*ignore, gulp*.js, *.code-workspace, build.*, global.json",
+      "README.md": "READ*",
+    },
+  },
+  "extensions": {
+    "recommendations": [
+      "alefragnani.project-manager",
+      "gruntfuggly.todo-tree",
+      "aaron-bond.better-comments",
+    ]
+  }
+}
