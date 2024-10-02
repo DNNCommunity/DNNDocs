@@ -4,17 +4,18 @@ locale: en
 title: Breadcrumb Theme object  
 dnnversion: 09.02.00  
 previous-topic: theme-objects  
-next-topic: copyright  
+next-topic: contentpane  
 related-topics: theme-objects,themes,create-theme  
 links:  
 ---
 
 # Breadcrumb Theme Object Introduction  
 
-The Breadcrumb Theme Object displays the path to the currently selected page in the menu structure like this:
-RootPage > SubPage > SubSubPage
-The starting level, separator and styling are configurable.
-  
+The Breadcrumb Theme Object displays the path to the currently selected page in the menu structure like this: 
+RootPage > SubPage > SubSubPage 
+The starting level, separator and styling are configurable. 
+
+
 **Current Version:** 01.00.00  
 
 > [!NOTE]  
@@ -43,17 +44,31 @@ The starting level, separator and styling are configurable.
 | RootLevel | The root level of the breadcrumb links. | 1 | Valid values include:<br/>-1 : show word “Root” and then all breadcrumb tabs<br/>0 : show all breadcrumb tabs<br/>(Integer > 0) : skip n breadcrumb tabs before displaying | 01.00.00 |
 | UseTitle | Use the PageTitle instead of PageName | False | True / False | 01.00.00 |
 
+
+
+
+
 ## Examples:
 
 ### Default
 Default implementation.
+
 ~~~html
 <dnn:Breadcrumb runat="server" id="dnnBreadcrumb"  />
 ~~~
 
 
+### Separator
+Change the Separator used for Breadcrumbs
+
+~~~html
+<dnn:Breadcrumb id="dnnBreadcrumb" Separator=" > " runat="server"   />
+~~~
+
+
 ### Options
 Change Separator, Css Class, Root Level and use Page Title instead of Page Name
+
 ~~~html
 <dnn:Breadcrumb id="dnnBreadcrumb" Separator=">" CssClass="breadcrumb" RootLevel="1" UseTitle="true"  runat="server"   />
 ~~~

@@ -3,17 +3,18 @@ uid: copyright
 locale: en  
 title: Copyright Theme object  
 dnnversion: 09.02.00  
-previous-topic: breadcrumb  
-next-topic: cssinclude  
+previous-topic: contentpane  
+next-topic: cssexclude  
 related-topics: theme-objects,themes,create-theme  
 links:  
 ---
 
 # Copyright Theme Object Introduction  
 
-Displays the copyright notice for the portal, which can be edited in the Website Settings.
-You can use the [year] token to dynamically inject the current year
-  
+Displays the copyright notice for the portal, which can be edited in the Website Settings. 
+You can use the [year] token to dynamically inject the current year 
+
+
 **Current Version:** 01.00.00  
 
 
@@ -36,6 +37,10 @@ You can use the [year] token to dynamically inject the current year
 | Attribute | Description | Default | Posssible Values | DNN Version |
 | --- | --- | --- | --- | --- |
 | CssClass | The CSS Class of the copyright link  |  |  | 01.00.00 |
+
+
+
+
 
 ## Examples:
 

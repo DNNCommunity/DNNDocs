@@ -1,17 +1,17 @@
 ---
-uid: cssexclude  
+uid: jsexclude  
 locale: en  
-title: CSSEXCLUDE Theme object  
+title: JSEXCLUDE Theme object  
 dnnversion: 09.02.00  
-previous-topic: copyright  
-next-topic: cssinclude  
+previous-topic: hostname  
+next-topic: language  
 related-topics: theme-objects,themes,create-theme  
 links:  
 ---
 
-# CSSEXCLUDE Theme Object Introduction  
+# JSEXCLUDE Theme Object Introduction  
 
-Allows you to exclude a Stylesheet (that DNN would normally load) from being loaded 
+Allows you to exclude a Javascript (that DNN would normally load) from being loaded 
 
 
 **Current Version:** 01.00.00  
@@ -21,16 +21,16 @@ Allows you to exclude a Stylesheet (that DNN would normally load) from being loa
 
 ### ASCX
 ``` html
-<%@ Register TagPrefix="dnn" TagName="CssExclude" src="~/Admin/Skins/DnnCssExclude.ascx" %>  
+<%@ Register TagPrefix="dnn" TagName="JsExclude" src="~/Admin/Skins/DnnJsExclude.ascx" %>  
 <dnn:CssExclude runat="server" name="DnnDefault" />
 ```
 
 ### HTML Token
-[DNNCSSEXCLUDE]
+[DNNJSEXCLUDE]
 
 ### HTML Object Token
 ``` html
-<object id="DNNCSSEXCLUDE" codetype="dotnetnuke/server" codebase="DNNCSSEXCLUDE"> 
+<object id="DNNJSSEXCLUDE" codetype="dotnetnuke/server" codebase="DNNJSEXCLUDE"> 
 ```
 
 | Attribute | Description | Default | Posssible Values | DNN Version |
@@ -43,8 +43,8 @@ Allows you to exclude a Stylesheet (that DNN would normally load) from being loa
 
 ## Examples:
 
-### Don't load Default.css
+### Don't load DNN.js
 ~~~html
-<dnn:CssExclude runat="server" name="DnnDefault" />
+<dnn:JsExclude runat="server" name="DnnDefault" />
 ~~~
 

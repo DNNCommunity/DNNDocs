@@ -4,7 +4,7 @@ locale: en
 title: DDRMenu XSLT Templates Overview
 dnnversion: 09.02.00
 previous-topic: ddrmenu-token-templates
-next-topic: text
+next-topic: dotnetnuke
 related-topics: theme-objects,themes,create-theme
 links: ["[DNN Wiki: DotNetNuke Skins](https://www.dnnsoftware.com/wiki/dotnetnuke-skins)","[DNN Community blog: DotNetNuke Skinning 101 (Part 3) by Joe Brinkman](https://www.dnnsoftware.com/community-blog/cid/131995/dotnetnuke-skinning-101-part-3)","[DNN Professional Training: Creating HTML Skins](https://www.dnnsoftware.com/services/professional-training/training-videos-subscription/skinning-2-creating-html-skins)","[Skinning Tool / Online Reference for DNN Skins & Container Objects by 10 Pound Gorilla](https://www.10poundgorilla.com)"]
 ---
