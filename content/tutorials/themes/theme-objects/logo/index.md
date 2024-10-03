@@ -3,7 +3,7 @@ uid: logo
 locale: en  
 title: Logo Theme object  
 dnnversion: 09.02.00  
-previous-topic: login  
+previous-topic: login sko  
 next-topic: privacy  
 related-topics: theme-objects,themes,create-theme  
 links:  
@@ -11,7 +11,8 @@ links:
 
 # Logo Theme Object Introduction  
 
-Displays the portal logo 
+Displays the Site logo. 
+The Logo can be set in the Site Settings. 
 
 
 **Current Version:** 01.00.00  
@@ -35,7 +36,9 @@ Displays the portal logo
 
 | Attribute | Description | Default | Posssible Values | DNN Version |
 | --- | --- | --- | --- | --- |
-| CssClass | Css Class of the image |  | Css Class String | 01.00.00 |
+| CssClass | Css Class of the Image |  | Css Class String | 01.00.00 |
+| LinkCssClass  | Css Class of the Link |  | Css Class String | 01.00.00 |
+| InjectSvg | Set whether to inject the SVG content inline instead of wrapping it in an IMG tag. | False | True/False | 09.00.00 |
 
 
 
