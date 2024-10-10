@@ -40896,7 +40896,19 @@
       "output": {
         ".html": {
           "relative_path": "content/tutorials/themes/theme-objects/breadcrumb/index.html",
-          "hash": "OfJYorbb+EN2ZDnXvlzvdnewoqa1u0ieX5URxsm4chk="
+          "hash": "b4Dh4HsnHMAf6rQCWWPYI0lMefre/SKAr29+7Jps544="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/tutorials/themes/theme-objects/contentpane/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/tutorials/themes/theme-objects/contentpane/index.html",
+          "hash": "mN4gs0F3YwTi1AhNYQd+9/pjhuUwgjSO8vv98/hDsz8="
         }
       },
       "is_incremental": false,
@@ -40908,7 +40920,7 @@
       "output": {
         ".html": {
           "relative_path": "content/tutorials/themes/theme-objects/copyright/index.html",
-          "hash": "QNemzAX5HhpGmTLlcUSnZbuLv3NpKdrmssJ27CJ81as="
+          "hash": "Od/mrmLR/GecUmK0BhPugFgldi9gwC08QDksWixUGJg="
         }
       },
       "is_incremental": false,
@@ -40920,7 +40932,7 @@
       "output": {
         ".html": {
           "relative_path": "content/tutorials/themes/theme-objects/cssexclude/index.html",
-          "hash": "nXMIUgFBmOnGmYwD07eJsRn0ecTZoBlDvd4uG/ad/Mo="
+          "hash": "XlMk5QqQRY+fv9K48RsRVUnZVlo+GaAKVleGB3QYiKQ="
         }
       },
       "is_incremental": false,
@@ -40932,7 +40944,7 @@
       "output": {
         ".html": {
           "relative_path": "content/tutorials/themes/theme-objects/cssinclude/index.html",
-          "hash": "jQHDiWmR3RcDkII0XWpy+V4KAED2W2pdKB/HO+WB0Mw="
+          "hash": "C8O8tvmpJSemJhEBzsaiNwshkWe40QOLHpzlyzHMeTc="
         }
       },
       "is_incremental": false,
@@ -40944,7 +40956,7 @@
       "output": {
         ".html": {
           "relative_path": "content/tutorials/themes/theme-objects/currentdate/index.html",
-          "hash": "MsAFYJzRX0AwVlrNo/Efwf0cYerwP3ly3MZT/xqLXy0="
+          "hash": "4HK03H/sBSTJuS4tMjtrmGLKZViiiqDv7VoPF0YraMs="
         }
       },
       "is_incremental": false,
@@ -41012,11 +41024,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "content/tutorials/themes/theme-objects/index.md",
+      "source_relative_path": "content/tutorials/themes/theme-objects/dotnetnuke/index.md",
       "output": {
         ".html": {
-          "relative_path": "content/tutorials/themes/theme-objects/index.html",
-          "hash": "bJ+7BTr74REN/E0gi+qDz7wHaRIF/IijPYsSyB4lSSY="
+          "relative_path": "content/tutorials/themes/theme-objects/dotnetnuke/index.html",
+          "hash": "/Ifrtk8GpOaPqAvA/1o+ytVtgjQrkEKn214IQ5yC5dM="
         }
       },
       "is_incremental": false,
@@ -41024,23 +41036,164 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "content/tutorials/themes/theme-objects/text/readme.md",
+      "source_relative_path": "content/tutorials/themes/theme-objects/help/index.md",
       "output": {
         ".html": {
-          "relative_path": "content/tutorials/themes/theme-objects/text/readme.html",
-          "hash": "WLRDvL6JVuqgE7MRau7mZp0vK+RV4StK4AkaEQGVUEI="
+          "relative_path": "content/tutorials/themes/theme-objects/help/index.html",
+          "hash": "uSj/HlumVXmtszT+dxumsWAE6e+n5FaHLaAQK+ijw4s="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "content/tutorials/themes/theme-objects/hostname/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/tutorials/themes/theme-objects/hostname/index.html",
+          "hash": "0rZy2hUCv/fkomh9wApfFwTcfS/j1zte8rsm3LNBR8w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "content/tutorials/themes/theme-objects/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/tutorials/themes/theme-objects/index.html",
+          "hash": "qh6/rID8yStqQqLJXyGrkNBo78XqpcdyLd638drM0hE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/tutorials/themes/theme-objects/jsexclude/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/tutorials/themes/theme-objects/jsexclude/index.html",
+          "hash": "QMEQNVNiu15ONfT+RSqjEtzpz7eN+DLjFAAIQigz6Z0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/tutorials/themes/theme-objects/language/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/tutorials/themes/theme-objects/language/index.html",
+          "hash": "u6yd/ebk9qmkibMPRLSNTg7dtIAGhMiEtcnbQ82kBSE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/tutorials/themes/theme-objects/login/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/tutorials/themes/theme-objects/login/index.html",
+          "hash": "euUlcQBHOIegCcM/ejzLZVKslgV3+TUWl2BO/XCTIog="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/tutorials/themes/theme-objects/logo/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/tutorials/themes/theme-objects/logo/index.html",
+          "hash": "Kn8ZP++eGsazrurFK61BZt+IYmmAnhd3TJ1n/lU2aBg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "content/tutorials/themes/theme-objects/privacy/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/tutorials/themes/theme-objects/privacy/index.html",
+          "hash": "kX+OzreobberE899QLp0m1+acKfXjibvWKMtA/dct2Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/tutorials/themes/theme-objects/search/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/tutorials/themes/theme-objects/search/index.html",
+          "hash": "n1ohfEWSz6ncs3Yi898i6uKNyaDYJgt1ZWExoJg/uR8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/tutorials/themes/theme-objects/terms/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/tutorials/themes/theme-objects/terms/index.html",
+          "hash": "Ub7yzgMidIWzAZumzNs7oQbDRnCbRVh2yEhlVowaEHA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/tutorials/themes/theme-objects/text/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/tutorials/themes/theme-objects/text/index.html",
+          "hash": "mnZ1WU3zvvv/MbAz14PMBm4XKac8dMtM3ASjcCNRdQQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/tutorials/themes/theme-objects/user/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/tutorials/themes/theme-objects/user/index.html",
+          "hash": "8hX3iLaFkzFDR5wVMecgSbaMZgxXC3uofQ0RacOs5g0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
       "type": "Toc",
       "source_relative_path": "content/tutorials/toc.md",
       "output": {
         ".html": {
           "relative_path": "content/tutorials/toc.html",
-          "hash": "mnLMzz1VYUfWEIBzWZ6mQ/tWk6g45izZDXo3LQlJviQ="
+          "hash": "sZryWOhGyYxuP5HRYtNxb9lNyRWElmHaCTUSeAOgT2Y="
         }
       },
       "is_incremental": false,
@@ -46251,7 +46404,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 1289,
+          "total_file_count": 1301,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
