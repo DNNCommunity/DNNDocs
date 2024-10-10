@@ -117,34 +117,34 @@ The <dnn:BREADCRUMB...> block should be placed in the Theme on the spot you want
 
 |**Theme Object**|**Description**|
 |---|---|
-|ACTIONBUTTON|Displays an action from the **module action menu**.|
 |[BREADCRUMB](xref:breadcrumb)|Displays the path to the current tab (`>` is the default separator). Example: `PageName1 > PageName2 > PageName3`|
-|[CSSINCLUDE](xref:cssinclude)|Load Custom Stylesheet for your Theme|
-|[CSSEXCLUDE](xref:cssexclude)|Prevents a stylesheet reference from being included in the page.|
+|[CONTENTPANE](xref:contentpane)|Injects a placeholder where u user with Page Edit Rights can insert DNN Modules(s).|
 |[COPYRIGHT](xref:copyright)|Displays the copyright notice for the website.|
+|[CSSEXCLUDE](xref:cssexclude)|Prevents a stylesheet reference from being included in the page.|
+|[CSSINCLUDE](xref:cssinclude)|Load Custom Stylesheet for your Theme|
 |[CURRENTDATE](xref:currentdate)|Displays the current date on the server.|
 |[DDRMENU](xref:ddrmenu-overview)|Displays a menu using the **DDRMenu** control.|
-|JSEXCLUDE|Prevents a JavaScript file reference from being included in the page.|
+|[DOTNETNUKE](xref:dotnetnuke)|Displays the copyright notice for DNN.|
+|[HELP](xref:help)|Displays a **Help** link, which sends an email to the website's administrator, using the user's default email client.|
+|[HOSTNAME](xref:hostname)|Displays the host title linked to the host URL. The host title and host URL are defined on the host settings page.|
+|[JSEXCLUDE](xref:jsexclude)|Prevents a JavaScript file reference from being included in the page.|
 |JSINCLUDE|Adds a JavaScript file reference to the page.|
-|DOTNETNUKE|Displays the copyright notice for DNN.|
-|HELP|Displays a **Help** link, which sends an email to the website's administrator, using the user's default email client.|
-|HOSTNAME|Displays the host title linked to the host URL. The host title and host URL are defined on the host settings page.|
 |JQUERY|Adds jQuery JavaScript reference to the page.|
 |JAVASCRIPTLIBRARYINCLUDE|Include an installed Javascripot Library|
-|LANGUAGE|Displays the language selector dropdown list or the language flags based on the theme object attribute settings.|
+|[LANGUAGE](xref:language)|Displays the language selector dropdown list or the language flags based on the theme object attribute settings.|
 |LINKTOFULLSITE|Displays a link to the Desktop version of the website|
 |LINKTOMOBILE|Displays a link to the Mobile version of the website|
-|LOGIN|Displays **Login** for anonymous users and **Logout** for authenticated users.|
-|LOGO|Displays the website's logo.|
+|[LOGIN](xref:login)|Displays **Login** for anonymous users and **Logout** for authenticated users.|
+|[LOGO](xref:logo)|Displays the website's logo.|
 |META|Add Meta Tags to your page|
-|PRIVACY|Displays a link to the Privacy Information page for the website.|
-|SEARCH|Displays the search input box.|
+|[PRIVACY](xref:privacy)|Displays a link to the Privacy Information page for the website.|
+|[SEARCH](xref:search)|Displays the search input box.|
 |SIGNIN|Displays the login control.|
 |TAGS|Displays the **Tag** control allowing users to view and edit tags associated with the page or module.|
-|TERMS|Displays a link to the Terms and Conditions page of the website.|
+|[TERMS](xref:terms)|Displays a link to the Terms and Conditions page of the website.|
 |[TEXT](xref:text)|Displays localized text in your theme and supports the use of token replacement.|
 |TOAST|Adds the toast notification control to the page. Toast messages will be shown when a new user notification or message is received.|
-|USER|Displays a **Register** link for anonymous users or the user's name for authenticated users.|
+|[USER](xref:user)|Displays a **Register** link for anonymous users or the user's name for authenticated users.|
 |USERANDLOGIN|Displays a **Register** / **login** / **User** block.|
 
 |**Container Object**|**Description**|
@@ -156,6 +156,7 @@ The <dnn:BREADCRUMB...> block should be placed in the Theme on the spot you want
 
 |**Legacy Theme Object**|**Description**|**Replaced by**|
 |---|---|---|
+|ACTIONBUTTON|Displays an action from the **module action menu**.|
 |CONTROLPANEL|**Obsolete in DNN 9+.** Displays the DNN control panel. If the CONTROLPANEL theme object is not used in the theme, then DNN inserts a control panel control at the top of the page.|
 |LEFTMENU|Displays a vertical menu layout.|DDR Menu with the appropriate template|
 |LINKS|Displays a flat menu of links associated with the current tab level and the parent node.|DDR Menu with the appropriate template|

@@ -3,27 +3,30 @@ uid: text
 locale: en  
 title: TEXT Theme object  
 dnnversion: 09.02.00  
-previous-topic: ddrmenu  
-next-topic: theme-objects
+previous-topic: terms  
+next-topic: user  
 related-topics: theme-objects,themes,create-theme  
 links:  
 ---
 
 # TEXT Theme Object Introduction  
-Displays localized text in your theme/skin, and supports DNN Core Token replacement. 
+
+Displays Localized text in your theme / skin, also supports the use of DNN Core Token replacement. 
  
-The text will be loaded from a resource file (`*.resx`), you need a separate RESX file per language. 
+The text will be loaded from a resource file (*.resx), you need a separate resx file per language. 
  
-These should be located in a folder named `App_LocalResources` (in the theme/skin folder).  
+These should be located in a folder named "App_LocalResources" (in the Theme folder). 
+ 
   
  
 ## Naming convention: 
  
-When your skin file is `index.ascx`:
-* `index.ascx.resx` (Default Language)
-* `index.ascx.fr-FR.resx` (French)
-* `index.ascx.de-DE.resx` (German)
-
+When your skin file = index.ascx: 
+Default language: index.ascx.resx 
+French: index.ascx.fr-FR.resx 
+German: index.ascx.de-DE.resx 
+ 
+  
  
 ## Resource file content: 
  
@@ -72,14 +75,13 @@ Below is only a small selection of the tokens that can be useful, but you can us
 
 
 
-| Name | Value | Description |
-| --- | --- | --- | 
-| User Display name | [User:displayname] | The display name of the current user |
-| User First Name | [User:firstname] | The first name of the current user |
-| User Lastname | [User:lastname] | The last name of the current user |
-| Portal Name | [Portal:portalname] | The name of the current Portal |
-	
 
+| Name | Value | Description | 
+| --- | --- | --- | 
+| User Display name | The display name of the current user | The display name of the current user |
+| User First Name | The first name of the current user | The first name of the current user |
+| User Lastname | The last name of the current user | The last name of the current user |
+| Portal Name | The name of the current Portal | The name of the current Portal |
 
 
 ## Examples:

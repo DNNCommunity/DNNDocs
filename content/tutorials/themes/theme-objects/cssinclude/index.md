@@ -3,7 +3,7 @@ uid: cssinclude
 locale: en  
 title: CSSInclude Theme object  
 dnnversion: 09.02.00  
-previous-topic: copyright  
+previous-topic: cssexclude  
 next-topic: currentdate  
 related-topics: theme-objects,themes,create-theme  
 links:  
@@ -11,8 +11,9 @@ links:
 
 # CSSInclude Theme Object Introduction  
 
-Load a Custom Stylesheet for your Theme
-  
+Load a Custom Stylesheet for your Theme 
+
+
 **Current Version:** 01.00.00  
 
 > [!NOTE]  
@@ -45,9 +46,13 @@ Although the loading specific CSS files for a Layout or a Container seems like a
 | PathNameAlias | Base Location of the CSS file to load |  | SkinPath<br/>SharedScripts | 01.00.00 |
 | Priority | With this value you can set the relative order of the loaded Style Sheet. Where 100 is after Portal.css (which is prio 35) | 100 | DefaultCss: 5<br/>ModuleCss: 10<br/>SkinCss: 15<br/>SpecificSkinCss: 20<br/>ContainerCss: 25<br/>SpecificContainerCss: 30<br/>PortalCss: 35<br/>Default value: 100 | 01.00.00 |
 
+
+
+
+
 ## Examples:
 
 ### Load Blue Style Sheet
 ~~~html
-<dnn:DnnCssInclude runat="server" FilePath="css/blue.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude runat="server" FilePath="custom/css/blue.css" PathNameAlias="SkinPath" />
 ~~~
