@@ -2424,7 +2424,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Abstractions.Application.IApplicationInfo.html",
-          "hash": "r1NxI5zTuZ2kcb+FqGoN9swWfmyT3Qyn0uQ+NORy80E="
+          "hash": "8q3IxRhHxq2Oos0kCKNbMnIfioAz3AxMO/n0YL3Tw7Y="
         }
       },
       "is_incremental": false,
@@ -3444,7 +3444,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Common.Globals.html",
-          "hash": "J1nVRW8fvqSUKe5aP2ywiNo01aUEBTv6hn6DSMdUlk8="
+          "hash": "yv7p53F+qC74BXokmq9A1z9kO+LLL/QxzqmTUvxZJ8U="
         }
       },
       "is_incremental": false,
@@ -10356,7 +10356,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Instrumentation.DnnLog.html",
-          "hash": "sCGnBn/zZQaPEXOYkMsh1VnEvjnjbrTBTOiPgLhxSvA="
+          "hash": "Y3LzDEvKJJpVqAzP0Pj8FZWon/Yr2gqLvwtwlbV6V9c="
         }
       },
       "is_incremental": false,
@@ -10368,7 +10368,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Instrumentation.DnnLogger.html",
-          "hash": "xnZC4jFqs4i2izvb+Eso6Jmw40TPubDesjKMJn1xqhU="
+          "hash": "SDqJcWefNVTqGpjsRTVB48gLIH9E1bIaUjwH4Ov6gJI="
         }
       },
       "is_incremental": false,
@@ -10416,7 +10416,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Instrumentation.LoggerSourceImpl.html",
-          "hash": "+zDblOQ6Igf6Wi2JGWGUH9iQsbW6r5uZUQ+/LODuqUY="
+          "hash": "fb95mSYodeu/p+yOyIriUB/+9XrVWfNoxl3amRJvT4Y="
         }
       },
       "is_incremental": false,
@@ -10428,7 +10428,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Instrumentation.html",
-          "hash": "qoUNDe3hEVSJihQjmu3U2enm6X6VE/85UtxgoitKXqc="
+          "hash": "pRNro4QrjRXjqm6D2l5lu3odrGRPby5uYS+/IaKZyXU="
         }
       },
       "is_incremental": false,
@@ -37512,7 +37512,7 @@
       "output": {
         ".html": {
           "relative_path": "content/tutorials/extensions/dnn-manifest-schema/index.html",
-          "hash": "Y5u4m55akX+jK+6Na0WtcV3wycUR0DDw4RJHZIYZ5tQ="
+          "hash": "ZKm1an9P3oquo8PKrUgrfaAXqP0cdVR2vnnTB9dmQhw="
         }
       },
       "is_incremental": false,
