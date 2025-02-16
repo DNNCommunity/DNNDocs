@@ -37452,7 +37452,7 @@
       "output": {
         ".html": {
           "relative_path": "content/reference/releases/index.html",
-          "hash": "eDjy2OqAxnxpLsuGhtnnxwfMHoir4XmWIQMb/pWbkUA="
+          "hash": "GPAkdQA8TOauDTtdyZdytOApz8hgCKQx+gzaRURgGIE="
         }
       },
       "is_incremental": false,
@@ -39601,6 +39601,18 @@
         ".html": {
           "relative_path": "content/tutorials/server/smtp-servers/index.html",
           "hash": "PgfRyEiRsQHl/WwtVmqhsLt21hei4ALjM+C3pPYy1bk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/tutorials/server/smtp-servers/set-up-oauth-microsoft-365/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/tutorials/server/smtp-servers/set-up-oauth-microsoft-365/index.html",
+          "hash": "RBmrwYrHVaag9S8OLbOAdye/beuJaqHM6LpmsoQsbvE="
         }
       },
       "is_incremental": false,
@@ -46404,7 +46416,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 1301,
+          "total_file_count": 1302,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
