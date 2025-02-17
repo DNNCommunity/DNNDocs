@@ -30,7 +30,7 @@ This page describes the necessary steps to make OAUTH SMTP work with Microsoft 3
 * As Admin => Userdetails - E-mail - E-mail apps: In the account settings ensure that the option *Verified SMTP* is enabled. 
 
 > [!WARNING]
-> In the tenantsettings Verified SMTP is not always enabled. You can enable this option for a user with the Powershell command: *Set-CASMailbox -Identity [login-address] -SmtpClientAuthenticationDisabled $false*
+> In the tenant settings Verified SMTP is not always enabled. You can enable this option for a user with the Powershell command: `Set-CASMailbox -Identity [login-address] -SmtpClientAuthenticationDisabled $false`
 
 > In Powershell ISE:
 >    * Install-Module -Name ExchangeOnlineManagement
