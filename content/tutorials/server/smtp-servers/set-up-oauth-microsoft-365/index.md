@@ -53,7 +53,7 @@ Create an **App registration** (portal.azure.com -> App registrations)
     * Select **Microsoft Graph** -> Delegated -> SMTP.Send (Send emails from mailboxes using SMTP AUTH) -> Add permission
     * Select **APIs my organisation uses** -> Office 365 online -> Application permissions -> 
 
-* In the lef menu > Overview
+* In the left menu > Overview
     * Copy the **Directory (tenant) ID** for later use
     * Copy the **Application (client) ID** for later use 
 
