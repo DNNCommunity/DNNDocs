@@ -76,7 +76,7 @@ Create an **App registration** (portal.azure.com -> App registrations)
 * Personabar - Servers - Server settings
 * SMTP authentication:
     * SMTP Authentiaction: **OAUTH**
-    * Auth Provider: **Echange Online**
+    * Auth Provider: **Exchange Online**
     * Tenant id: **[Your Tenant ID]**
     * Client id: **[Your Client ID]**
     * Client Secret: **[Your Secret]**
