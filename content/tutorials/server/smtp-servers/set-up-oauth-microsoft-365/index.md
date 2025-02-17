@@ -82,7 +82,7 @@ Create an **App registration** (portal.azure.com -> App registrations)
     * Client Secret: **[Your Secret]**
 
 * Click **Authorize**
-* Enter your mailbox usercredentials
+* Enter your mailbox user credentials
 * Click **Test SMTP Settings** to check if the setup is successful.
 
 > **Your OAuth provider's configuration has been completed.**
