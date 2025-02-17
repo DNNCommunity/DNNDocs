@@ -23,7 +23,7 @@ This page describes the necessary steps to make OAUTH SMTP work with Microsoft 3
 > [!WARNING]
 > To avoid errors with the authentication in step 5, make sure that the SSL settings are correct. It must be set on **ON**. 
 * Personabar - Security - More - SSL Settings: Make sure that SSL Settings = **ON** (/images/scr-m365-oauth-sslsetting.png)  
-* Personabar - Security - Login settings: Check the site administrator account. You need to use this e-mailaddress in M365, because the site administrator is the sender.
+* Personabar - Security - Login settings: Check the site administrator account. You need to use this e-mail address in M365, because the site administrator is the sender.
 
 ## 2. Create a mailbox in M365 Exchange
 * Create a mailbox with a licence. Use the address of the site administrator.
