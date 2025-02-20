@@ -14460,7 +14460,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DotNetNuke.Services.Installer.Installers.ConfigInstaller.html",
-          "hash": "xyFAIWm//KrHG4fN5WYNc0qEUkMQQ1EDIIWyuN9IsN4="
+          "hash": "ZwGNP4FTs7AyZ+4+n5qQMSZMuCFZb/9HOQcx/n7rCaE="
         }
       },
       "is_incremental": false,
@@ -39612,7 +39612,7 @@
       "output": {
         ".html": {
           "relative_path": "content/tutorials/server/smtp-servers/set-up-oauth-microsoft-365/index.html",
-          "hash": "RBmrwYrHVaag9S8OLbOAdye/beuJaqHM6LpmsoQsbvE="
+          "hash": "6OC2cnG61KIKSugeS50AHBSaGFvMTUGV/NL+6AUz2+E="
         }
       },
       "is_incremental": false,
@@ -41205,7 +41205,7 @@
       "output": {
         ".html": {
           "relative_path": "content/tutorials/toc.html",
-          "hash": "sZryWOhGyYxuP5HRYtNxb9lNyRWElmHaCTUSeAOgT2Y="
+          "hash": "rbebKwj6OgNG4iguBLxDLSyx37kHtPYNBMZ2UcbK9/c="
         }
       },
       "is_incremental": false,
@@ -44546,6 +44546,17 @@
       "output": {
         "resource": {
           "relative_path": "images/scr-cp-ModulesList-Drag.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/scr-m365-oauth-sslsetting.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/scr-m365-oauth-sslsetting.png"
         }
       },
       "is_incremental": false,
