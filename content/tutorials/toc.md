@@ -9,7 +9,7 @@
 ##[Maintenance](xref:menu-placeholder)
 ###[Server Performance](xref:server-performance)
 ##[SMTP Servers](xref:smtp-servers)
-###[OAUTH Microsoft 365]xref:set-up-oauth-microsoft-365
+###[SMTP OAUTH Microsoft 365](xref:set-up-oauth-microsoft-365)
 
 #[Sites](xref:sites)
 ##[Managing Sites](xref:administrators-sites-overview)
