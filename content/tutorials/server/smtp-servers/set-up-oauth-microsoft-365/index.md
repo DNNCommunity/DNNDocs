@@ -10,7 +10,7 @@ next-topic: smtp-servers
 # How to implement OAUTH using DNN and Microsoft 365
 
 ## Introduction
-This page describes the necessary steps to make OAUTH SMTP work with Microsoft 365.   
+This page describes the necessary steps to make SMTP work using OAUTH with Microsoft 365.   
 
 ## Setup steps
 1. Check some settings in DNN
