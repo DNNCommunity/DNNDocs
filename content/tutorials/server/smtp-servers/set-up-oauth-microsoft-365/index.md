@@ -1,16 +1,16 @@
 ---
 uid: set-up-oauth-microsoft-365
 locale: en
-title: How to implement OAUTH using DNN and Microsoft 365
+title: How to implement SMTP using OAuth with Microsoft 365
 dnnversion: 09.02.00
 previous-topic: smtp-servers
 next-topic: smtp-servers
 ---
 
-# How to implement OAUTH using DNN and Microsoft 365
+# How to implement SMTP using OAuth with Microsoft 365
 
 ## Introduction
-This page describes the necessary steps to make SMTP work using OAUTH with Microsoft 365.   
+This page describes the necessary steps to make SMTP work using OAuth with Microsoft 365.   
 
 ## Setup steps
 1. Check some settings in DNN
@@ -85,4 +85,4 @@ Create an **App registration** (portal.azure.com -> App registrations)
 * Enter your mailbox user credentials
 * Click **Test SMTP Settings** to check if the setup is successful.
 
-> **Your OAuth provider's configuration has been completed.**
+> **Your OAuth provider configuration has been completed.**
