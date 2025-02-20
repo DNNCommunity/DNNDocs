@@ -22,17 +22,19 @@ This page describes the necessary steps to make SMTP work using OAuth with Micro
 ## 1. Check some settings in DNN
 > [!WARNING]
 > To avoid errors with the authentication in step 5, make sure that the SSL settings are correct. It must be set on **ON**. 
-* Personabar - Security - More - SSL Settings: Make sure that SSL Settings = **ON** (/images/scr-m365-oauth-sslsetting.png)  
+* Personabar - Security - More - SSL Settings: Make sure that SSL Settings = **ON** 
+![Alt text](/images/scr-m365-oauth-sslsetting.png "SSL settings")
+
 * Personabar - Security - Login settings: Check the site administrator account. You need to use this e-mail address in M365, because the site administrator is the sender.
 
 ## 2. Create a mailbox in M365 Exchange
 * Create a mailbox with a licence. Use the address of the site administrator.
 * As Admin => Userdetails - E-mail - E-mail apps: In the account settings ensure that the option *Verified SMTP* is enabled. 
 
-> [!WARNING]
+> [!NOTE]
 > In the tenant settings Verified SMTP is not always enabled. You can enable this option for a user with the Powershell command: `Set-CASMailbox -Identity [login-address] -SmtpClientAuthenticationDisabled $false`
 
-> In Powershell ISE:
+> In Powershell:
 >    * Install-Module -Name ExchangeOnlineManagement
 >    * Connect-ExchangeOnline -Organization [TENANTID]
 >    * Set-CASMailbox -Identity [login-address] -SmtpClientAuthenticationDisabled $false
@@ -53,6 +55,11 @@ Create an **App registration** (portal.azure.com -> App registrations)
     * Select **Microsoft Graph** -> Delegated -> SMTP.Send (Send emails from mailboxes using SMTP AUTH) -> Add permission
     * Select **APIs my organisation uses** -> Office 365 online -> Application permissions -> 
 
+> [!NOTE]
+> Grant admin consent
+![Alt text](/images/scr-m365-oauth-permissions.png "Grant admin consent ")
+
+
 * In the left menu > Overview
     * Copy the **Directory (tenant) ID** for later use
     * Copy the **Application (client) ID** for later use 
@@ -64,7 +71,7 @@ Create an **App registration** (portal.azure.com -> App registrations)
 * Copy the **Application ID**
 * Copy the **Object ID**
 
-**In Powershell ISE:**
+**In Powershell:**
 * Install-Module -Name ExchangeOnlineManagement
 * Connect-ExchangeOnline -Organization **[TENANTID]**
 * New-ServicePrincipal -AppId **[Application ID]** -ObjectId **[Oject ID]**
