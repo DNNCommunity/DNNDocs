@@ -39612,7 +39612,7 @@
       "output": {
         ".html": {
           "relative_path": "content/tutorials/server/smtp-servers/set-up-oauth-microsoft-365/index.html",
-          "hash": "slH9XUFYkjoKHTWOLFbeDwb6k4xlH5NHNJzVXDK6O8Y="
+          "hash": "oi2o0Sf8pmKBJvW/49PzhcP6JrIXPMO0CjlIY9ZwBRQ="
         }
       },
       "is_incremental": false,
@@ -44546,6 +44546,17 @@
       "output": {
         "resource": {
           "relative_path": "images/scr-cp-ModulesList-Drag.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/scr-m365-oauth-permissions.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/scr-m365-oauth-permissions.png"
         }
       },
       "is_incremental": false,

@@ -131,20 +131,23 @@
 <p>To avoid errors with the authentication in step 5, make sure that the SSL settings are correct. It must be set on <strong>ON</strong>.</p>
 </div>
 <ul>
-<li>Personabar - Security - More - SSL Settings: Make sure that SSL Settings = <strong>ON</strong> (/images/scr-m365-oauth-sslsetting.png)</li>
-<li>Personabar - Security - Login settings: Check the site administrator account. You need to use this e-mail address in M365, because the site administrator is the sender.</li>
+<li><p>Personabar - Security - More - SSL Settings: Make sure that SSL Settings = <strong>ON</strong>
+<img src="/images/scr-m365-oauth-sslsetting.png" alt="Alt text" title="SSL settings"></p>
+</li>
+<li><p>Personabar - Security - Login settings: Check the site administrator account. You need to use this e-mail address in M365, because the site administrator is the sender.</p>
+</li>
 </ul>
 <h2 id="2-create-a-mailbox-in-m365-exchange">2. Create a mailbox in M365 Exchange</h2>
 <ul>
 <li>Create a mailbox with a licence. Use the address of the site administrator.</li>
 <li>As Admin =&gt; Userdetails - E-mail - E-mail apps: In the account settings ensure that the option <em>Verified SMTP</em> is enabled.</li>
 </ul>
-<div class="WARNING">
-<h5>Warning</h5>
+<div class="NOTE">
+<h5>Note</h5>
 <p>In the tenant settings Verified SMTP is not always enabled. You can enable this option for a user with the Powershell command: <code>Set-CASMailbox -Identity [login-address] -SmtpClientAuthenticationDisabled $false</code></p>
 </div>
 <blockquote>
-<p>In Powershell ISE:</p>
+<p>In Powershell:</p>
 <ul>
 <li>Install-Module -Name ExchangeOnlineManagement</li>
 <li>Connect-ExchangeOnline -Organization [TENANTID]</li>
@@ -154,32 +157,38 @@
 <h2 id="3-create-an-app-registration-in-the-m365-azure">3. Create an APP registration in the M365 Azure</h2>
 <p>Create an <strong>App registration</strong> (portal.azure.com -&gt; App registrations)</p>
 <ul>
-<li><p>Give it a name and choose the <strong>single tenant</strong> option</p>
-</li>
-<li><p>In the left menu -&gt; Manage - Authentication and choose <strong>Add a platfom</strong> =&gt; <strong>web</strong>:</p>
+<li>Give it a name and choose the <strong>single tenant</strong> option</li>
+<li>In the left menu -&gt; Manage - Authentication and choose <strong>Add a platfom</strong> =&gt; <strong>web</strong>:
 <ul>
 <li>enter your domainname</li>
 </ul>
 </li>
-<li><p>In the left menu -&gt; Manage - Authentication and choose <strong>Add redirect URIs</strong>:</p>
+<li>In the left menu -&gt; Manage - Authentication and choose <strong>Add redirect URIs</strong>:
 <ul>
 <li>https://[SITEURL]/Providers/SmtpOAuthProviders/ExchangeOnline/Authorize.aspx</li>
 <li>https://[SITEURL]</li>
 </ul>
 </li>
-<li><p>In the left menu -&gt; Manage - Certificates and Secrets</p>
+<li>In the left menu -&gt; Manage - Certificates and Secrets
 <ul>
 <li>Choose <strong>New client secret</strong>:</li>
 <li>Create a secret and save your key for later use.</li>
 </ul>
 </li>
-<li><p>In the left menu -&gt; Manage - API permissions and choose <strong>Add a permission</strong>:</p>
+<li>In the left menu -&gt; Manage - API permissions and choose <strong>Add a permission</strong>:
 <ul>
 <li>Select <strong>Microsoft Graph</strong> -&gt; Delegated -&gt; SMTP.Send (Send emails from mailboxes using SMTP AUTH) -&gt; Add permission</li>
 <li>Select <strong>APIs my organisation uses</strong> -&gt; Office 365 online -&gt; Application permissions -&gt;</li>
 </ul>
 </li>
-<li><p>In the left menu &gt; Overview</p>
+</ul>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Grant admin consent
+<img src="/images/scr-m365-oauth-permissions.png" alt="Alt text" title="Grant admin consent "></p>
+</div>
+<ul>
+<li>In the left menu &gt; Overview
 <ul>
 <li>Copy the <strong>Directory (tenant) ID</strong> for later use</li>
 <li>Copy the <strong>Application (client) ID</strong> for later use</li>
@@ -194,7 +203,7 @@
 <li>Copy the <strong>Application ID</strong></li>
 <li>Copy the <strong>Object ID</strong></li>
 </ul>
-<p><strong>In Powershell ISE:</strong></p>
+<p><strong>In Powershell:</strong></p>
 <ul>
 <li>Install-Module -Name ExchangeOnlineManagement</li>
 <li>Connect-ExchangeOnline -Organization <strong>[TENANTID]</strong></li>
