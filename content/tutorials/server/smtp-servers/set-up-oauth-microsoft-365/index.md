@@ -79,7 +79,7 @@ Create an **App registration** (portal.azure.com -> App registrations)
     * Copy the value of **SID**
 * Add-MailboxPermission -Identity "[mailaddress]" -User [SID] -AccessRights FullAccess
 
-## 4. Setup the mailbox in DNN 
+## 5. Setup the mailbox in DNN 
 * Personabar - Servers - Server settings
 * SMTP authentication:
     * SMTP Authentiaction: **OAUTH**
