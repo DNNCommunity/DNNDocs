@@ -205,7 +205,8 @@ class Build : NukeBuild
             Git("status");
             Git("add docs -f"); // Force adding because it is usually gitignored.
             Git("status");
-            Git("commit --allow-empty -m", "Commit latest build"); // We allow an empty commit in case the last change did not affect the site.
+            var latestBuildMessage = "Commit latest build";
+            Git($"commit --allow-empty -m {latestBuildMessage}"); // We allow an empty commit in case the last change did not affect the site.
             Git("status");
             Git("fetch origin");
             Git("status");
@@ -220,7 +221,7 @@ class Build : NukeBuild
 
             Git("add docs"); // stage the docs
             Git("status");
-            Git("commit --allow-empty -m", "Commit latest build");
+            Git($"commit --allow-empty -m {latestBuildMessage}");
             Git("status");
             Git("push origin site"); // Should push only the change with linear history and a proper diff.
             Git("checkout deploy");
