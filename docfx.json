@@ -4,17 +4,16 @@
       "src": [
         {
           "files": [
-            "Dnn.Platform/DNN Platform/DotNetNuke.Abstractions/DotNetNuke.Abstractions.csproj",
-            "Dnn.Platform/DNN Platform/DotNetNuke.DependencyInjection/DotNetNuke.DependencyInjection.csproj",
-            "Dnn.Platform/DNN Platform/Library/DotNetNuke.Library.csproj",
-            "Dnn.Platform/Dnn.AdminExperience/Library/Dnn.PersonaBar.Library/Dnn.PersonaBar.Library.csproj",
-            "Dnn.Platform/DNN Platform/DotNetNuke.Instrumentation/DotNetNuke.Instrumentation.csproj",
-            "Dnn.Platform/DNN Platform/Providers/FolderProviders/DotNetNuke.Providers.FolderProviders.csproj",
-            "Dnn.Platform/DNN Platform/Modules/DnnExportImport/DnnExportImport.csproj",
-            "Dnn.Platform/DNN Platform/Modules/DnnExportImportLibrary/DnnExportImportLibrary.csproj",
-            "Dnn.Platform/DNN Platform/DotNetNuke.Web.Client/DotNetNuke.Web.Client.csproj",
-            "Dnn.Platform/DNN Platform/DotNetNuke.Web.Mvc/DotNetNuke.Web.Mvc.csproj",
-            "Dnn.Platform/DNN Platform/DotNetNuke.Web/DotNetNuke.Web.csproj"
+            "packages/DotNetNuke.Core*/**/DotNetNuke.dll",
+            "packages/DotNetNuke.Abstractions*/**/DotNetNuke.Abstractions.dll",
+            "packages/DotNetNuke.DependencyInjection*/**/DotNetNuke.DependencyInjection.dll",
+            "packages/Dnn.PersonaBar.Library*/**/Dnn.PersonaBar.Library.dll",
+            "packages/DotNetNuke.Instrumentation*/**/DotNetNuke.Instrumentation.dll",
+            "packages/DotNetNuke.Providers.FolderProviders*/**/DotNetNuke.Providers.FolderProviders.dll",
+            "packages/DotNetNuke.SiteExportImport*/**/DotNetNuke.SiteExportImport.dll",
+            "packages/DotNetNuke.Web*/**/DotNetNuke.Web.dll",
+            "packages/DotNetNuke.Web*/**/DotNetNuke.Web.Client.dll",
+            "packages/DotNetNuke.Web*/**/DotNetNuke.Web.Mvc.dll"
           ],
           "exclude": [
             "**/bin/**",
@@ -25,7 +24,7 @@
       ],
       "dest": "api",
       "disableGitFeatures": false,
-      "disableDefaultFilter": false
+      "disableDefaultFilter": false,
     }
   ],
   "build": {
@@ -62,11 +61,11 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": ["default", "templates/dnn-docs"],
-    "postProcessors": ["RepoStatsProcessor","PageStatsProcessor","MoreLinksProcessor"],
+    //"postProcessors": ["RepoStatsProcessor","PageStatsProcessor","MoreLinksProcessor"],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
     "keepFileLink": false,
     "cleanupCacheHistory": false,
-    "disableGitFeatures": false 
+    "disableGitFeatures": false
   }
 }
