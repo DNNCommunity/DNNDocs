@@ -31,8 +31,7 @@
         "Deploy",
         "PullDnnPackages",
         "Restore",
-        "Serve",
-        "TemplateExportDefault"
+        "Serve"
       ]
     },
     "Verbosity": {
