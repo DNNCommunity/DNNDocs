@@ -380,7 +380,7 @@ healthchecksdb
 MigrationBackup/
 
 /templates/dnn-docs/plugins
-/github-token.txt
+/.env
 
 #VS Code files
 /*.code-workspace

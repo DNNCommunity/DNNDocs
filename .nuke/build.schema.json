@@ -24,10 +24,10 @@
     "ExecutableTarget": {
       "type": "string",
       "enum": [
+        "BuildPlugins",
         "Clean",
         "Compile",
         "CreateDeployBranch",
-        "CreateTokenFile",
         "Deploy",
         "PullDnnPackages",
         "Restore",

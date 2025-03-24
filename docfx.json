@@ -24,7 +24,7 @@
       ],
       "dest": "api",
       "disableGitFeatures": false,
-      "disableDefaultFilter": false,
+      "disableDefaultFilter": false
     }
   ],
   "build": {
@@ -61,7 +61,6 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": ["default", "templates/dnn-docs"],
-    //"postProcessors": ["RepoStatsProcessor","PageStatsProcessor","MoreLinksProcessor"],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
     "keepFileLink": false,
