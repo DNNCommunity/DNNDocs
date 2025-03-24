@@ -1,25 +1,16 @@
 using System;
 using System.Linq;
 using Nuke.Common;
-using Nuke.Common.CI;
 using Nuke.Common.CI.GitHubActions;
-using Nuke.Common.Execution;
 using Nuke.Common.IO;
 using Nuke.Common.Git;
-using Nuke.Common.Tools.DocFX;
 using Nuke.Common.Tools.DotNet;
 using Nuke.Common.Tools.MSBuild;
 using Nuke.Common.ProjectModel;
 using Nuke.Common.Tooling;
 using Nuke.Common.Utilities.Collections;
-using static Nuke.Common.EnvironmentInfo;
-using static Nuke.Common.IO.PathConstruction;
-using static Nuke.Common.IO.TextTasks;
-using static Nuke.Common.Tools.DocFX.DocFXTasks;
 using static Nuke.Common.Tools.DotNet.DotNetTasks;
 using static Nuke.Common.Tools.Git.GitTasks;
-using static Nuke.Common.Tools.MSBuild.MSBuildTasks;
-using System.Linq.Expressions;
 using Nuke.Common.Tools.NuGet;
 
 [GitHubActions(
@@ -87,21 +78,22 @@ class Build : NukeBuild
             projects.ForEach(project => DotNetRestore(s => s.SetProjectFile(project)));
         });
 
-    //Target BuildPlugins => _ => _
-    //.DependsOn(Clean)
-    //.DependsOn(Restore)
-    //.Executes(() =>
-    //{
-    //    var project = Solution.AllProjects.FirstOrDefault(p => p.Name.Contains("Plugins"));
-    //    MSBuild(s => s
-    //    .SetProjectFile(project)
-    //    .SetConfiguration(Configuration));
-    //    var sourceFile = project.Directory / "bin" / Configuration / "net8.0" / $"{pluginsProjectName}.dll";
-    //    sourceFile.CopyToDirectory(pluginsDirectory, ExistsPolicy.FileOverwrite, createDirectories: true);
-    //});
+    Target BuildPlugins => _ => _
+    .DependsOn(Clean)
+    .DependsOn(Restore)
+    .Executes(() =>
+    {
+        var project = Solution.AllProjects.FirstOrDefault(p => p.Name.Contains("Plugins"));
+        DotNetBuild(s => s
+            .SetProjectFile(project)
+            .SetConfiguration(Configuration));
+        DotNetPublish(s => s
+            .SetProject(project)
+            .SetConfiguration(Configuration)
+            .SetOutput(pluginsDirectory));
+    });
 
     Target PullDnnPackages => _ => _
-        .OnlyWhenDynamic(() => IncludeApi())
         .DependsOn(Clean)
         .Executes(() =>
         {
@@ -123,24 +115,10 @@ class Build : NukeBuild
                     .SetOutputDirectory(RootDirectory / "packages")));
         });
 
-    private bool IncludeApi()
-    {
-        if(!IsServerBuild)
-        {
-            Console.Write("Would you like to build the API documentation for Dnn.Platform? (yes/no) [no]: ");
-            var userResponse = Console.ReadKey();
-            if (userResponse.KeyChar.ToString().ToUpper() == "Y") {
-                return true;
-            }
-            return false;
-        }
-        return true;
-    }
-
     Target Compile => _ => _
         .DependsOn(Clean)
         .DependsOn(Restore)
-        //.DependsOn(BuildPlugins)
+        .DependsOn(BuildPlugins)
         .DependsOn(PullDnnPackages)
         .Executes(() =>
         {
@@ -148,20 +126,10 @@ class Build : NukeBuild
             DnnDocFX?.Invoke("build", RootDirectory);
         });
 
-    Target TemplateExportDefault => _ => _
-        .DependsOn(Restore)
-        .Executes(() =>
-        {
-            DnnDocFX?.Invoke("template export default", RootDirectory);
-        });
-
-
     Target Serve => _ => _
         .DependsOn(Clean)
         .DependsOn(Restore)
-        .DependsOn(Compile)
-        //.DependsOn(BuildPlugins)
-        .DependsOn(PullDnnPackages)
+        .DependsOn(BuildPlugins)
         .Executes(() =>
         {
             DnnDocFX?.Invoke("--serve --open-browser", RootDirectory);
@@ -176,27 +144,9 @@ class Build : NukeBuild
             Git("switch -c deploy");
         });
 
-    Target CreateTokenFile => _ => _
-        .Before(Compile)
-        .Executes(() => {
-            var filePath = RootDirectory / "github-token.txt";
-            filePath.TouchFile();
-            var token = Environment.GetEnvironmentVariable("ACCESS_TOKEN");
-            if (string.IsNullOrEmpty(token))
-            {
-                Serilog.Log.Warning("No api key specified.");
-            }
-            else
-            {
-                Serilog.Log.Information("Api key created.");
-                filePath.WriteAllText(token);
-            }
-        });
-
     Target Deploy => _ => _
         .OnlyWhenDynamic(() => gitRepository.ToString() == $"https://github.com/{organizationName}/{repositoryName}")
         .DependsOn(CreateDeployBranch)
-        .DependsOn(CreateTokenFile)
         .DependsOn(Compile)
         .Executes(() => {
             Git("config --global user.name 'DNN Community'");

@@ -1,110 +1,100 @@
-﻿using System.Collections.Generic;
-using System.Collections.Immutable;
+﻿using System.Collections.Immutable;
 using System.Composition;
-using System.Linq;
-using Microsoft.DocAsCode.Plugins;
-using Microsoft.DocAsCode.Build.ConceptualDocuments;
+using System.Diagnostics;
 using DNNCommunity.DNNDocs.Plugins.Models;
 using DNNCommunity.DNNDocs.Plugins.Providers;
-using System;
+using Docfx.Plugins;
+using Octokit;
 
 namespace DNNCommunity.DNNDocs.Plugins
 {
-    [Export(nameof(ConceptualDocumentProcessor), typeof(IDocumentBuildStep))]
+    [Export("ConceptualDocumentProcessor", typeof(IDocumentBuildStep))]
     public class RepoStatsBuildStep : IDocumentBuildStep
     {
-        #region Build
-        public void Build(FileModel model, IHostService host)
-        {
-            // do nothing
-        }
-        #endregion
+        public string Name => nameof(RepoStatsBuildStep);
 
         public int BuildOrder => 2;
 
-        public string Name => nameof(RepoStatsBuildStep);
+        public RepoStatsBuildStep()
+        {
+            Console.WriteLine($"[plugin] {nameof(RepoStatsBuildStep)} loaded.");
+        }
 
-        #region Postbuild
+        public void Build(FileModel model, IHostService host)
+        {
+        }
+
         public void Postbuild(ImmutableList<FileModel> models, IHostService host)
         {
-            Console.WriteLine($"Processing Repo Stats for {models.Count()} models");
-            var rootPath = models[0].BaseDir;
-            
-            List<Contributor> gitContributors = GitHubApi.Instance(rootPath).GetContributors(models);
-            Console.WriteLine($"Found {gitContributors.Count()} contributors");
 
-            List<Commits> gitCommits = GitHubApi.Instance(rootPath).GetCommits(models, "");
-            Console.WriteLine($"Found {gitCommits.Count()} commits");
+            if (models == null || models.Count == 0)
+            {
+                Console.WriteLine("[PLUGIN] No models to process.");
+                return;
+            }
 
-            if (gitContributors.Any() && gitCommits.Any())
+            Console.WriteLine($"[PLUGIN] {nameof(RepoStatsBuildStep)} Processing Repo Stats for {models.Count()} models");
+
+            var gitHubApi = new GitHubApi();
+            var contributors = gitHubApi.GetContributorsAsync().GetAwaiter().GetResult();
+            Console.WriteLine($"Found {contributors.Count} contributors");
+
+            var commits = gitHubApi.GetCommitsAsync().GetAwaiter().GetResult();
+            Console.WriteLine($"Found {commits.Count} commits");
+
+            if (contributors.Any() && commits.Any())
             {
                 foreach (var model in models.Select((value, index) => new { value, index }))
                 {
-                    Console.WriteLine($"Processing model {model.index} of {models.Count()}");
+                    Console.WriteLine($"Processing model {model.index + 1} of {models.Count}");
+
                     if (model.value.Type == DocumentType.Article)
                     {
                         var content = (Dictionary<string, object>)model.value.Content;
                         Console.WriteLine($"Processing Article : {model.value.OriginalFileAndType.FullPath}");
-                        for (var i = 1; i < 6; i++)
+
+                        // Add top 5 contributors (or fewer if not enough)
+                        for (var i = 0; i < Math.Min(5, contributors.Count); i++)
                         {
-                            try
-                            {
-                                content["gitContributor" + i + "Contributions"] = gitContributors[i - 1].Contributions;
-                                Console.WriteLine($"Added contributor {i} contributions: {gitContributors[i - 1].Contributions}");
-                                content["gitContributor" + i + "Login"] = gitContributors[i - 1].Login;
-                                Console.WriteLine($"Added contributor {i} login: {gitContributors[i-1].Login}");
-                                content["gitContributor" + i + "AvatarUrl"] = gitContributors[i - 1].AvatarUrl;
-                                Console.WriteLine($"Added contributor {i} avatar url: {gitContributors[i - 1].AvatarUrl}");
-                                content["gitContributor" + i + "HtmlUrl"] = gitContributors[i - 1].HtmlUrl;
-                                Console.WriteLine($"Added contributor {i} html url: {gitContributors[i - 1].HtmlUrl}");
-                            }
-                            catch (Exception)
-                            {
-                                // Ignore failures
-                            }
+                            var contributor = contributors[i];
+                            content[$"gitContributor{i + 1}Contributions"] = contributor.Total;
+                            content[$"gitContributor{i + 1}Login"] = contributor.Author.Login;
+                            content[$"gitContributor{i + 1}AvatarUrl"] = contributor.Author.AvatarUrl;
+                            content[$"gitContributor{i + 1}HtmlUrl"] = contributor.Author.HtmlUrl;
+
+                            Console.WriteLine($"Added contributor {i + 1}: {contributor.Author.Login}");
                         }
 
-                        var groupedCommits = gitCommits.GroupBy(x => x?.Author?.Login);
-                        Console.WriteLine($"Found {groupedCommits.Count()} grouped commits.");
+                        // Group commits by author login and order by number of commits
+                        var groupedCommits = commits
+                            .Where(c => c.Author != null && c.Author.Login != null)
+                            .GroupBy(c => c.Author.Login)
+                            .OrderByDescending(g => g.Count())
+                            .Select(g => g.First())
+                            .Take(5)
+                            .ToList();
 
-                        groupedCommits = groupedCommits.OrderByDescending(x => x.Count());
-                        Console.WriteLine("Ordered the grouped commits by count.");
+                        Console.WriteLine($"Selected top {groupedCommits.Count} recent contributors based on commits.");
 
-                        var commits = groupedCommits.Select(x => x.FirstOrDefault());
-                        Console.WriteLine($"Found {commits.Count()} commits as in the first group.");
-
-                        commits = commits.Take(5);
-                        Console.WriteLine($"Took the top {commits.Count()} commits only.");
-
-                        foreach (var commit in commits.Select((value, index) => new { value, index }))
+                        for (var i = 0; i < groupedCommits.Count; i++)
                         {
-                            try
-                            {
-                                Console.WriteLine($"Adding commit {commit.index} from: {commit.value.Author.Login}");
-                                content["gitRecentContributor" + commit.index + "Login"] = commit.value.Author.Login;
-                                content["gitRecentContributor" + commit.index + "AvatarUrl"] = commit.value.Author.AvatarUrl;
-                                content["gitRecentContributor" + commit.index + "HtmlUrl"] = commit.value.Author.HtmlUrl;
-                            }
-                            catch (Exception)
-                            {
-                                // Ignore failures
-                            }
-                            finally{
-                                Console.WriteLine($"Processed commit {commit.index} of {commits.Count()}");
-                            }
+                            var commit = groupedCommits[i];
+                            var author = commit.Author;
+
+                            content[$"gitRecentContributor{i}Login"] = author.Login;
+                            content[$"gitRecentContributor{i}AvatarUrl"] = author.AvatarUrl;
+                            content[$"gitRecentContributor{i}HtmlUrl"] = author.HtmlUrl;
+
+                            Console.WriteLine($"Added recent contributor {i}: {author.Login}");
                         }
                     }
                 }
             }
         }
-        #endregion
 
-        #region Prebuild
         public IEnumerable<FileModel> Prebuild(ImmutableList<FileModel> models, IHostService host)
         {
             return models;
         }
-        #endregion
-
     }
 }
