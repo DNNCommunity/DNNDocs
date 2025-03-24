@@ -109,10 +109,27 @@
     
 </div>
 <div class="page-stats row visible-xs">
-    <div class="pull-left"> &bull; 3 minutes  to read</div>
+    <div class="pull-left">03/24/2025 &bull; 3 minutes  to read</div>
+    <div class="pull-left">Contributors&nbsp;
+        <a href="https://github.com/valadas" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/6371568?v=4" alt="valadas">
+        </a>
+        <a href="https://github.com/david-poindexter" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
+        </a>
+    </div>
 </div>
 <div class="page-stats row visible-sm visible-md visible-lg visible-xl">
+    <span class="pull-left">03/24/2025</span>
     <span class="pull-left">&nbsp;&bull; 3 minutes  to read</span>
+    <span class="pull-left">&nbsp;&bull;&nbsp;Contributors&nbsp;
+        <a href="https://github.com/valadas" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/6371568?v=4" alt="valadas">
+        </a>
+        <a href="https://github.com/david-poindexter" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
+        </a>
+    </span>
 </div>
 
 <p>The project uses the <code>docfx</code> library to pull XML comments from the DNN Platform source code and combine that with articles written in Markdown to form the documentation for DNN.</p>
@@ -148,7 +165,7 @@
 <p><a href="http://localhost:8080">http://localhost:8080</a></p>
 <h3 id="optional-git-integrations">Optional git integrations</h3>
 <p>We use a handful of plugins that will not work unless you have a valid authentication to github REST APIs. This step is optional but if not performed, you won't get some of the features like displaying contributors on pages. If you need to work in that area you will need to <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens">Setup a git personal access token</a>. Once that is created, copy your token (you will only view it once) and create a <code>.env</code> file at the root of the project with a line like this (everything after the <code>=</code> sign is the token you copied).</p>
-<pre><code>GITHUB_TOKEN=github_pat_xxxxxxxxxx
+<pre><code>GithubToken=github_pat_xxxxxxxxxx
 </code></pre>
 </article>
           </div>
