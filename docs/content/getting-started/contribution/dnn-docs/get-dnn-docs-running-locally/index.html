@@ -109,40 +109,28 @@
     
 </div>
 <div class="page-stats row visible-xs">
-    <div class="pull-left"> &bull; 4 minutes  to read</div>
+    <div class="pull-left"> &bull; 3 minutes  to read</div>
 </div>
 <div class="page-stats row visible-sm visible-md visible-lg visible-xl">
-    <span class="pull-left">&nbsp;&bull; 4 minutes  to read</span>
+    <span class="pull-left">&nbsp;&bull; 3 minutes  to read</span>
 </div>
 
 <p>The project uses the <code>docfx</code> library to pull XML comments from the DNN Platform source code and combine that with articles written in Markdown to form the documentation for DNN.</p>
 <h2 id="installing-git">Installing Git</h2>
 <p>If you do not have Git installed you will need to install Git first. You can find instructions on installing Git from <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">here</a></p>
-<h2 id="installing-docfx">Installing DocFX</h2>
-<p>DocFX may be installed on Windows via <em>Chocolatey</em> by calling <code>choco install docfx -y</code></p>
-<p>If you are on MacOS you can install it with <em>Homebrew</em> <code>brew install docfx</code></p>
-<p>Or you can download and unzip <code>docfx.zip</code> from <a href="https://github.com/dotnet/docfx/releases">GitHub</a>, extract it to a folder and then set your <code>PATH</code> to that folder so you can run it anywhere.</p>
+<h2 id="installing-dotnet">Installing dotnet</h2>
+<p>Our cross-platform build scripts handle obtaining docfx for you, however you will need to have the latest .net SDK installed. <a href="https://dotnet.microsoft.com/en-us/download">Download .NET</a></p>
 <h2 id="setting-up-the-dnn-docs-project">Setting Up the DNN Docs Project</h2>
-<p>After installing DocFX, the next step is to clone this repo.  'Cloning the repo' will simply create a copy of the repo (files and folders) on your local machine so that you can work with them.</p>
+<p>The next step is to clone this repo. 'Cloning the repo' will simply create a copy of the repo (files and folders) on your local machine so that you can work with them.</p>
 <p>Note the following example command clones the repo to the location of <code>c:\dev</code>. Update the <code>c:\dev</code> location to your location of choice on your machine.</p>
 <pre><code>c:\dev&gt; git clone https://github.com/DNNCommunity/DNNDocs.git
 </code></pre>
 <p>The previous command will have created a folder called <code>DNNDocs</code> in the <code>c:\dev</code> folder. Navigate to that directory by using the cd (Change Directory) command. <code>cd</code> into the <code>DNNDocs</code> folder.</p>
 <pre><code>c:\dev&gt; cd DNNDocs
 </code></pre>
-<p>Next, you'll need to fork and/or clone the <a href="https://github.com/dnnsoftware/Dnn.Platform">Dnn.Platform repository</a> into a <strong>sub-folder</strong> of the <code>DNNDocs</code> root folder. The reason is that the project reads the XML comments in the source code and creates API documentation from that, in addition to the documentation center articles.</p>
-<p>Please note that you don't need to create the sub-folder, it will be created for you when running the command shown below.  Also, the cloning for this repository could take a few minutes depending on your internet connection speed.</p>
-<pre><code>c:\dev\DNNDocs&gt;git clone https://github.com/dnnsoftware/Dnn.Platform.git
-</code></pre>
-<p>If you've run the <code>clone</code> command from the path we've been using, you'll now have the DNN repository at the expected path as in the example below.</p>
-<p><em>c:\dev\DNNDocs\Dnn.Platform</em></p>
-<div class="NOTE">
-<h5>Note</h5>
-<p>Don't worry about the DNN source code existing here. It is already being ignored for any future commits.</p>
-</div>
 <h2 id="running-the-dnn-docs-project-locally">Running the DNN Docs Project Locally</h2>
 <p>You should now be able to run the development version of the docs locally with the following command:</p>
-<pre><code>docfx --serve
+<pre><code>./build.cmd
 </code></pre>
 <div class="NOTE">
 <h5>Note</h5>
@@ -158,6 +146,10 @@
 <p>Depending on the configuration of your development environment, you may need to use the non-SSL version of the local website URL instead.</p>
 </div>
 <p><a href="http://localhost:8080">http://localhost:8080</a></p>
+<h3 id="optional-git-integrations">Optional git integrations</h3>
+<p>We use a handful of plugins that will not work unless you have a valid authentication to github REST APIs. This step is optional but if not performed, you won't get some of the features like displaying contributors on pages. If you need to work in that area you will need to <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens">Setup a git personal access token</a>. Once that is created, copy your token (you will only view it once) and create a <code>.env</code> file at the root of the project with a line like this (everything after the <code>=</code> sign is the token you copied).</p>
+<pre><code>GITHUB_TOKEN=github_pat_xxxxxxxxxx
+</code></pre>
 </article>
           </div>
 
