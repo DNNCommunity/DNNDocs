@@ -56,5 +56,5 @@ Open that page up in your browser to see the documentation.
 We use a handful of plugins that will not work unless you have a valid authentication to github REST APIs. This step is optional but if not performed, you won't get some of the features like displaying contributors on pages. If you need to work in that area you will need to [Setup a git personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens). Once that is created, copy your token (you will only view it once) and create a `.env` file at the root of the project with a line like this (everything after the `=` sign is the token you copied).
 
 ```
-GITHUB_TOKEN=github_pat_xxxxxxxxxx
+GithubToken=github_pat_xxxxxxxxxx
 ```
