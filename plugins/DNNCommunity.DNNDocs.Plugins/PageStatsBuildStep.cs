@@ -38,7 +38,6 @@ namespace DNNCommunity.DNNDocs.Plugins
 
             foreach (var model in models)
             {
-                Console.WriteLine($"[PLUGIN] {nameof(PageStatsBuildStep)} processing {model.File}");
 
                 if (model.Type != DocumentType.Article) continue;
 
@@ -61,6 +60,7 @@ namespace DNNCommunity.DNNDocs.Plugins
 
                     var content = (Dictionary<string, object>)model.Content;
 
+                    var contributorsList = new List<string>();
                     int index = 1;
                     foreach (var commit in topContributors)
                     {
@@ -68,13 +68,15 @@ namespace DNNCommunity.DNNDocs.Plugins
                         content[$"gitPageContributor{index}AvatarUrl"] = commit.Author.AvatarUrl;
                         content[$"gitPageContributor{index}HtmlUrl"] = commit.Author.HtmlUrl;
 
-                        Console.WriteLine($"Added page contributor {index}: {commit.Author.Login}");
+                        contributorsList.Add(commit.Author.Login);
                         index++;
                     }
 
                     // Set the page last updated date based on the latest commit
-                    content["gitPageDate"] = gitCommits[0].Commit.Author.Date.DateTime.ToShortDateString();
-                    Console.WriteLine($"Set page last update date: {content["gitPageDate"]}");
+                    var lastUpdated = gitCommits[0].Commit.Author.Date.DateTime.ToShortDateString();
+                    content["gitPageDate"] = lastUpdated;
+                    
+                    Console.WriteLine($"[PLUGIN] {nameof(PageStatsBuildStep)} processed {model.File} | Contributors: {string.Join(", ", contributorsList)} | Last Updated: {lastUpdated}");
                 }
             }
         }
