@@ -7,6 +7,10 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
         private readonly string token;
         private readonly GitHubClient client;
 
+        private const int RateLimitThreshold = 1000; // Starts throtling if less than x calls remaining for the next hour.
+        private const int MaxDelayMs = 15000; // Maximum delay of 15 seconds.
+        private const double ExponentialBase = 1.5; // Exponential base for progressive backoff.
+
         public GitHubApi()
         {
             DotNetEnv.Env.Load(); // Loads .env file if it exists, into environment varialbes.
@@ -21,8 +25,6 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
 
             var rateLimits = client.RateLimit.GetRateLimits().GetAwaiter().GetResult();
             Console.WriteLine($"Remaining: {rateLimits.Resources.Core.Remaining}, Resets at: {rateLimits.Resources.Core.Reset}");
-            Console.WriteLine($"Search Remaining: {rateLimits.Resources.Search.Remaining}, Resets at: {rateLimits.Resources.Search.Reset}");
-            Console.WriteLine($"GraphQL Remaining: {rateLimits.Resources.Graphql.Remaining}, Resets at: {rateLimits.Resources.Graphql.Reset}");
         }
 
         public async Task<IReadOnlyList<Contributor>> GetContributorsAsync()
@@ -32,6 +34,7 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
                 return new List<Contributor>();
             }
 
+            await this.ThrottleIfNeeded();
             return await client.Repository.Statistics.GetContributors("DNNCommunity", "DNNDocs");
         }
 
@@ -46,7 +49,27 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
             if (!string.IsNullOrEmpty(path))
                 request.Path = path;
 
+            await this.ThrottleIfNeeded();
             return await client.Repository.Commit.GetAll("DNNCommunity", "DNNDocs", request);
+        }
+
+        private async Task ThrottleIfNeeded()
+        {
+            var rateLimits = await client.RateLimit.GetRateLimits();
+            var remaining = rateLimits.Resources.Core.Remaining;
+            var limit = rateLimits.Resources.Core.Limit;
+            var reset = rateLimits.Resources.Core.Reset;
+
+
+            if (remaining < RateLimitThreshold)
+            {
+                int delayFactor = RateLimitThreshold - remaining;
+                int delayMs = (int)Math.Pow(ExponentialBase, delayFactor);
+                delayMs = Math.Min(delayMs, MaxDelayMs);
+
+                Console.WriteLine($"[Throttle] Nearing rate limit, delaying {delayMs} ms... GitHub API remaining: {remaining}/{limit}, resets at {reset}");
+                await Task.Delay(delayMs);
+            }
         }
     }
 }
