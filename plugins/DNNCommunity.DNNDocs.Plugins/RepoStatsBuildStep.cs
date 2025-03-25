@@ -40,6 +40,10 @@ namespace DNNCommunity.DNNDocs.Plugins
             Console.WriteLine($"Found {contributors.Count} contributors");
 
             var commits = gitHubApi.GetCommitsAsync().GetAwaiter().GetResult();
+
+            // Order the commits by date
+            commits = commits.OrderByDescending(c => c.Commit.Author.Date).ToList();
+
             Console.WriteLine($"Found {commits.Count} commits");
 
             if (contributors.Any() && commits.Any())
@@ -54,7 +58,8 @@ namespace DNNCommunity.DNNDocs.Plugins
                         Console.WriteLine($"Processing Article : {model.value.OriginalFileAndType.FullPath}");
 
                         // Add top 5 contributors (or fewer if not enough)
-                        for (var i = 0; i < Math.Min(5, contributors.Count); i++)
+                        var topContributors = contributors = contributors.OrderByDescending(c => c.Total).ToList();
+                        for (var i = 0; i < Math.Min(5, topContributors.Count); i++)
                         {
                             var contributor = contributors[i];
                             content[$"gitContributor{i + 1}Contributions"] = contributor.Total;
@@ -65,27 +70,38 @@ namespace DNNCommunity.DNNDocs.Plugins
                             Console.WriteLine($"Added contributor {i + 1}: {contributor.Author.Login}");
                         }
 
-                        // Group commits by author login and order by number of commits
-                        var groupedCommits = commits
-                            .Where(c => c.Author != null && c.Author.Login != null)
-                            .GroupBy(c => c.Author.Login)
-                            .OrderByDescending(g => g.Count())
-                            .Select(g => g.First())
-                            .Take(5)
-                            .ToList();
+                        var recentContributors = new List<Octokit.Contributor>();
+                        var seen = new HashSet<string>();
 
-                        Console.WriteLine($"Selected top {groupedCommits.Count} recent contributors based on commits.");
-
-                        for (var i = 0; i < groupedCommits.Count; i++)
+                        foreach (var commit in commits)
                         {
-                            var commit = groupedCommits[i];
-                            var author = commit.Author;
+                            var login = commit.Author?.Login;
+                            if (login != null && seen.Add(login))
+                            {
+                                var contributor = contributors.FirstOrDefault(c => c.Author.Login == login);
+                                if (contributor != null)
+                                {
+                                    recentContributors.Add(contributor);
+                                }
 
-                            content[$"gitRecentContributor{i}Login"] = author.Login;
-                            content[$"gitRecentContributor{i}AvatarUrl"] = author.AvatarUrl;
-                            content[$"gitRecentContributor{i}HtmlUrl"] = author.HtmlUrl;
+                                if (recentContributors.Count == 5)
+                                {
+                                    break;
+                                }
+                            }
+                        }
 
-                            Console.WriteLine($"Added recent contributor {i}: {author.Login}");
+                        Console.WriteLine($"Selected top {recentContributors.Count} recent contributors based on commits.");
+
+                        for (var i = 0; i < recentContributors.Count; i++)
+                        {
+                            var author = recentContributors[i].Author;
+
+                            content[$"gitRecentContributor{i + 1}Login"] = author.Login;
+                            content[$"gitRecentContributor{i + 1}AvatarUrl"] = author.AvatarUrl;
+                            content[$"gitRecentContributor{i + 1}HtmlUrl"] = author.HtmlUrl;
+
+                            Console.WriteLine($"Added recent contributor {i + 1}: {author.Login}");
                         }
                     }
                 }

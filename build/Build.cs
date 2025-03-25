@@ -122,6 +122,11 @@ class Build : NukeBuild
         .DependsOn(PullDnnPackages)
         .Executes(() =>
         {
+            if (!InvokedTargets.Contains(Deploy))
+            {
+                Environment.SetEnvironmentVariable("SKIP_CONTRIBUTORS", "true");
+            }
+
             DnnDocFX?.Invoke("metadata", RootDirectory);
             DnnDocFX?.Invoke("build", RootDirectory);
         });
