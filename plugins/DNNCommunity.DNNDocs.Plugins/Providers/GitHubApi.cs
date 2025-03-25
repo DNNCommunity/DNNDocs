@@ -17,7 +17,12 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
             client = new GitHubClient(new ProductHeaderValue("DNNDocsPlugin"));
            
             // Optionally pull from env if not passed
-            this.token = Environment.GetEnvironmentVariable("GithubToken") ?? string.Empty;
+            var skip = Environment.GetEnvironmentVariable("SKIP_CONTRIBUTORS") == "true";
+            if (!skip)
+            {
+                this.token = Environment.GetEnvironmentVariable("GithubToken") ?? string.Empty;
+            }
+
             if (!string.IsNullOrEmpty(this.token))
             {
                 client.Credentials = new Credentials(this.token);
