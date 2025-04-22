@@ -1,147 +1,80 @@
-﻿using System.Collections.Generic;
-using System.IO;
-using System.Net;
-using System.Collections.Immutable;
-using Microsoft.DocAsCode.Plugins;
-using Newtonsoft.Json;
-using DNNCommunity.DNNDocs.Plugins.Models;
-using System;
-using System.Text;
+﻿using Octokit;
 
 namespace DNNCommunity.DNNDocs.Plugins.Providers
 {
-    public sealed class GitHubApi
+    public class GitHubApi
     {
-        private static GitHubApi instance;
-        private string gitHubToken;
-        private string rootPath;
-        
-        static GitHubApi()
-        {
-        }
+        private readonly string token;
+        private readonly GitHubClient client;
 
-        private GitHubApi(string rootPath)
-        {
-            this.rootPath = rootPath;
-            gitHubToken = GetToken();
-        }
+        private const int RateLimitThreshold = 1000; // Starts throtling if less than x calls remaining for the next hour.
+        private const int MaxDelayMs = 15000; // Maximum delay of 15 seconds.
+        private const double ExponentialBase = 1.5; // Exponential base for progressive backoff.
 
-
-        public static GitHubApi Instance(string rootPath)
+        public GitHubApi()
         {
-            if (instance is null)
+            DotNetEnv.Env.Load(); // Loads .env file if it exists, into environment varialbes.
+            client = new GitHubClient(new ProductHeaderValue("DNNDocsPlugin"));
+           
+            // Optionally pull from env if not passed
+            var skip = Environment.GetEnvironmentVariable("SKIP_CONTRIBUTORS") == "true";
+            if (!skip)
             {
-                instance = new GitHubApi(rootPath);
+                this.token = Environment.GetEnvironmentVariable("GithubToken") ?? string.Empty;
             }
 
-            return instance;
+            if (!string.IsNullOrEmpty(this.token))
+            {
+                client.Credentials = new Credentials(this.token);
+            }
+
+            var rateLimits = client.RateLimit.GetRateLimits().GetAwaiter().GetResult();
+            Console.WriteLine($"Remaining: {rateLimits.Resources.Core.Remaining}, Resets at: {rateLimits.Resources.Core.Reset}");
         }
 
-        public List<Contributor> GetContributors(ImmutableList<FileModel> models)
+        public async Task<IReadOnlyList<Contributor>> GetContributorsAsync()
         {
-            if (string.IsNullOrEmpty(gitHubToken))
+            if (string.IsNullOrEmpty(this.token))
             {
                 return new List<Contributor>();
             }
 
-            var contributorsEndpoint = "https://api.github.com/repos/DNNCommunity/DNNDocs/contributors";
-            var resultsAsJson = MakeRequest(contributorsEndpoint, gitHubToken);
-
-            if (string.IsNullOrEmpty(resultsAsJson))
-            {
-                return new List<Contributor>();
-            }
-
-            var contributors = JsonConvert.DeserializeObject<List<Contributor>>(resultsAsJson);
-            return contributors;
+            await this.ThrottleIfNeeded();
+            return await client.Repository.Statistics.GetContributors("DNNCommunity", "DNNDocs");
         }
 
-        public List<Commits> GetCommits(ImmutableList<FileModel> models, string path)
+        public async Task<IReadOnlyList<GitHubCommit>> GetCommitsAsync(string path = "")
         {
-
-            if (string.IsNullOrEmpty(gitHubToken))
+            if (string.IsNullOrEmpty(this.token))
             {
-                return new List<Commits>();
-            }
-            
-            var commitsEndpoint = "https://api.github.com/repos/DNNCommunity/DNNDocs/commits";
-            if (path != "") {
-                commitsEndpoint = commitsEndpoint + "?path=" + path;
+                return new List<GitHubCommit>();
             }
 
-            var resultsAsJson = MakeRequest(commitsEndpoint, gitHubToken);
-            if (string.IsNullOrEmpty(resultsAsJson))
-            {
-                return new List<Commits>();
-            }
+            var request = new CommitRequest();
+            if (!string.IsNullOrEmpty(path))
+                request.Path = path;
 
-            var commits = JsonConvert.DeserializeObject<List<Commits>>(resultsAsJson);
-            return commits;
+            await this.ThrottleIfNeeded();
+            return await client.Repository.Commit.GetAll("DNNCommunity", "DNNDocs", request);
         }
 
-        public string MakeRequest(string endpoint, string accessToken)
+        private async Task ThrottleIfNeeded()
         {
-            HttpWebRequest webRequest = WebRequest.Create(endpoint) as HttpWebRequest;
+            var rateLimits = await client.RateLimit.GetRateLimits();
+            var remaining = rateLimits.Resources.Core.Remaining;
+            var limit = rateLimits.Resources.Core.Limit;
+            var reset = rateLimits.Resources.Core.Reset;
 
-            if (webRequest != null)
+
+            if (remaining < RateLimitThreshold)
             {
-                webRequest.ContentType = "application/json";
-                webRequest.Method = "GET";
-                webRequest.UserAgent = "request";
-                webRequest.ServicePoint.Expect100Continue = false;
-                var authenticationString = $"access_token:{accessToken}";
-                var basicAuthString = Convert.ToBase64String(Encoding.ASCII.GetBytes(authenticationString));
-                webRequest.Headers.Add("Authorization", "Basic " + basicAuthString);
+                int delayFactor = RateLimitThreshold - remaining;
+                int delayMs = (int)Math.Pow(ExponentialBase, delayFactor);
+                delayMs = Math.Min(delayMs, MaxDelayMs);
 
-                try
-                {
-                    WebResponse webResponse = webRequest.GetResponse();
-                    var status = ((HttpWebResponse)webResponse).StatusDescription;
-
-                    bool failed = false;
-                    if (status.Contains("Unauthorized"))
-                    {
-                        failed = true;
-                    }
-
-                    using (var s = webResponse.GetResponseStream())
-                    {
-                        using (var sr = new StreamReader(s))
-                        {
-                            string resultsAsJson = sr.ReadToEnd();
-                            if (failed)
-                            {
-                                return null;
-                            }
-                            return resultsAsJson;
-                        }
-                    }
-                }
-                catch (Exception)
-                {
-                    return null;
-                }
+                Console.WriteLine($"[Throttle] Nearing rate limit, delaying {delayMs} ms... GitHub API remaining: {remaining}/{limit}, resets at {reset}");
+                await Task.Delay(delayMs);
             }
-            else
-            {
-                return null;
-            }
-        }
-
-        private string GetToken()
-        {
-            var filePath = Path.Combine(this.rootPath, "github-token.txt");
-            Console.WriteLine($"Loading token from: {filePath}");
-            if (!File.Exists(filePath))
-            {
-                Console.WriteLine($"The token file does not exist");
-                return String.Empty;
-            }
-
-            var contents = File.ReadAllText(filePath);
-            Console.WriteLine($"Token file length was {contents.Length}");
-
-            return contents;
         }
     }
 }
