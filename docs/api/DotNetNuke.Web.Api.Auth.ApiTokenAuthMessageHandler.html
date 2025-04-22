@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SearchDataStoreProvider  -- DNN Docs</title>
+    <title>Class ApiTokenAuthMessageHandler  -- DNN Docs</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SearchDataStoreProvider  -- DNN Docs">
+    <meta name="title" content="Class ApiTokenAuthMessageHandler  -- DNN Docs">
     <meta name="generator" content="docfx ">
   
     <link rel="shortcut icon" href="../favicon.ico">
@@ -82,21 +82,57 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="DotNetNuke.Services.Search.SearchDataStoreProvider">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Web.Api.Auth.ApiTokenAuthMessageHandler">
 
 
 
-  <h1 id="DotNetNuke_Services_Search_SearchDataStoreProvider" data-uid="DotNetNuke.Services.Search.SearchDataStoreProvider" class="text-break">Class SearchDataStoreProvider</h1>
+  <h1 id="DotNetNuke_Web_Api_Auth_ApiTokenAuthMessageHandler" data-uid="DotNetNuke.Web.Api.Auth.ApiTokenAuthMessageHandler" class="text-break">Class ApiTokenAuthMessageHandler</h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">SearchDataStoreProvider</span></div>
-      <div class="level2"><a class="xref" href="DotNetNuke.Services.Search.SearchDataStore.html">SearchDataStore</a></div>
+    <div class="level1"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpmessagehandler">HttpMessageHandler</a></div>
+    <div class="level2"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.delegatinghandler">DelegatingHandler</a></div>
+    <div class="level3"><a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html">AuthMessageHandlerBase</a></div>
+    <div class="level4"><span class="xref">ApiTokenAuthMessageHandler</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html#DotNetNuke_Web_Api_Auth_AuthMessageHandlerBase_OnOutboundResponse_System_Net_Http_HttpResponseMessage_System_Threading_CancellationToken_">AuthMessageHandlerBase.OnOutboundResponse(HttpResponseMessage, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html#DotNetNuke_Web_Api_Auth_AuthMessageHandlerBase_IsXmlHttpRequest_System_Net_Http_HttpRequestMessage_">AuthMessageHandlerBase.IsXmlHttpRequest(HttpRequestMessage)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html#DotNetNuke_Web_Api_Auth_AuthMessageHandlerBase_SetCurrentPrincipal_System_Security_Principal_IPrincipal_System_Net_Http_HttpRequestMessage_">AuthMessageHandlerBase.SetCurrentPrincipal(IPrincipal, HttpRequestMessage)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html#DotNetNuke_Web_Api_Auth_AuthMessageHandlerBase_SendAsync_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken_">AuthMessageHandlerBase.SendAsync(HttpRequestMessage, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html#DotNetNuke_Web_Api_Auth_AuthMessageHandlerBase_NeedsAuthentication_System_Net_Http_HttpRequestMessage_">AuthMessageHandlerBase.NeedsAuthentication(HttpRequestMessage)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html#DotNetNuke_Web_Api_Auth_AuthMessageHandlerBase_DefaultInclude">AuthMessageHandlerBase.DefaultInclude</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html#DotNetNuke_Web_Api_Auth_AuthMessageHandlerBase_ForceSsl">AuthMessageHandlerBase.ForceSsl</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.delegatinghandler.dispose">DelegatingHandler.Dispose(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.delegatinghandler.innerhandler">DelegatingHandler.InnerHandler</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpmessagehandler.dispose#system-net-http-httpmessagehandler-dispose">HttpMessageHandler.Dispose()</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
@@ -119,36 +155,118 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.html">DotNetNuke</a>.<a class="xref" href="DotNetNuke.Services.html">Services</a>.<a class="xref" href="DotNetNuke.Services.Search.html">Search</a></h6>
-  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
-  <h5 id="DotNetNuke_Services_Search_SearchDataStoreProvider_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.html">DotNetNuke</a>.<a class="xref" href="DotNetNuke.Web.html">Web</a>.<a class="xref" href="DotNetNuke.Web.Api.html">Api</a>.<a class="xref" href="DotNetNuke.Web.Api.Auth.html">Auth</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.Web.dll</h6>
+  <h5 id="DotNetNuke_Web_Api_Auth_ApiTokenAuthMessageHandler_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 7.1.0. No longer used in the Search infrastructure. Scheduled for removal in v10.0.0.&quot;)]
-public abstract class SearchDataStoreProvider</code></pre>
+    <pre><code class="lang-csharp hljs">public class ApiTokenAuthMessageHandler : AuthMessageHandlerBase, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
 
 
-  <a id="DotNetNuke_Services_Search_SearchDataStoreProvider__ctor_" data-uid="DotNetNuke.Services.Search.SearchDataStoreProvider.#ctor*"></a>
-  <h4 id="DotNetNuke_Services_Search_SearchDataStoreProvider__ctor" data-uid="DotNetNuke.Services.Search.SearchDataStoreProvider.#ctor">SearchDataStoreProvider()</h4>
+  <a id="DotNetNuke_Web_Api_Auth_ApiTokenAuthMessageHandler__ctor_" data-uid="DotNetNuke.Web.Api.Auth.ApiTokenAuthMessageHandler.#ctor*"></a>
+  <h4 id="DotNetNuke_Web_Api_Auth_ApiTokenAuthMessageHandler__ctor_System_Boolean_System_Boolean_DotNetNuke_Web_Api_Auth_ApiTokens_IApiTokenController_" data-uid="DotNetNuke.Web.Api.Auth.ApiTokenAuthMessageHandler.#ctor(System.Boolean,System.Boolean,DotNetNuke.Web.Api.Auth.ApiTokens.IApiTokenController)">ApiTokenAuthMessageHandler(bool, bool, IApiTokenController)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected SearchDataStoreProvider()</code></pre>
+    <pre><code class="lang-csharp hljs">public ApiTokenAuthMessageHandler(bool includeByDefault, bool forceSsl, IApiTokenController apiTokenController)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">includeByDefault</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">forceSsl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Web.Api.Auth.ApiTokens.IApiTokenController.html">IApiTokenController</a></td>
+        <td><span class="parametername">apiTokenController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="DotNetNuke_Web_Api_Auth_ApiTokenAuthMessageHandler_AuthScheme_" data-uid="DotNetNuke.Web.Api.Auth.ApiTokenAuthMessageHandler.AuthScheme*"></a>
+  <h4 id="DotNetNuke_Web_Api_Auth_ApiTokenAuthMessageHandler_AuthScheme" data-uid="DotNetNuke.Web.Api.Auth.ApiTokenAuthMessageHandler.AuthScheme">AuthScheme</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string AuthScheme { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html#DotNetNuke_Web_Api_Auth_AuthMessageHandlerBase_AuthScheme">AuthMessageHandlerBase.AuthScheme</a></div>
+
+
+  <a id="DotNetNuke_Web_Api_Auth_ApiTokenAuthMessageHandler_BypassAntiForgeryToken_" data-uid="DotNetNuke.Web.Api.Auth.ApiTokenAuthMessageHandler.BypassAntiForgeryToken*"></a>
+  <h4 id="DotNetNuke_Web_Api_Auth_ApiTokenAuthMessageHandler_BypassAntiForgeryToken" data-uid="DotNetNuke.Web.Api.Auth.ApiTokenAuthMessageHandler.BypassAntiForgeryToken">BypassAntiForgeryToken</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool BypassAntiForgeryToken { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html#DotNetNuke_Web_Api_Auth_AuthMessageHandlerBase_BypassAntiForgeryToken">AuthMessageHandlerBase.BypassAntiForgeryToken</a></div>
   <h3 id="methods">Methods
 </h3>
 
 
-  <a id="DotNetNuke_Services_Search_SearchDataStoreProvider_GetSearchItems_" data-uid="DotNetNuke.Services.Search.SearchDataStoreProvider.GetSearchItems*"></a>
-  <h4 id="DotNetNuke_Services_Search_SearchDataStoreProvider_GetSearchItems_System_Int32_System_Int32_System_Int32_" data-uid="DotNetNuke.Services.Search.SearchDataStoreProvider.GetSearchItems(System.Int32,System.Int32,System.Int32)">GetSearchItems(int, int, int)</h4>
+  <a id="DotNetNuke_Web_Api_Auth_ApiTokenAuthMessageHandler_OnInboundRequest_" data-uid="DotNetNuke.Web.Api.Auth.ApiTokenAuthMessageHandler.OnInboundRequest*"></a>
+  <h4 id="DotNetNuke_Web_Api_Auth_ApiTokenAuthMessageHandler_OnInboundRequest_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken_" data-uid="DotNetNuke.Web.Api.Auth.ApiTokenAuthMessageHandler.OnInboundRequest(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)">OnInboundRequest(HttpRequestMessage, CancellationToken)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract SearchResultsInfoCollection GetSearchItems(int portalId, int tabId, int moduleId)</code></pre>
+    <pre><code class="lang-csharp hljs">public override HttpResponseMessage OnInboundRequest(HttpRequestMessage request, CancellationToken cancellationToken)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -161,18 +279,13 @@ public abstract class SearchDataStoreProvider</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">portalId</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage">HttpRequestMessage</a></td>
+        <td><span class="parametername">request</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">tabId</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">moduleId</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -187,110 +300,17 @@ public abstract class SearchDataStoreProvider</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DotNetNuke.Services.Search.SearchResultsInfoCollection.html">SearchResultsInfoCollection</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage">HttpResponseMessage</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-
-
-  <a id="DotNetNuke_Services_Search_SearchDataStoreProvider_GetSearchResults_" data-uid="DotNetNuke.Services.Search.SearchDataStoreProvider.GetSearchResults*"></a>
-  <h4 id="DotNetNuke_Services_Search_SearchDataStoreProvider_GetSearchResults_System_Int32_System_String_" data-uid="DotNetNuke.Services.Search.SearchDataStoreProvider.GetSearchResults(System.Int32,System.String)">GetSearchResults(int, string)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract SearchResultsInfoCollection GetSearchResults(int portalId, string criteria)</code></pre>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.html#DotNetNuke_Web_Api_Auth_AuthMessageHandlerBase_OnInboundRequest_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken_">AuthMessageHandlerBase.OnInboundRequest(HttpRequestMessage, CancellationToken)</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">portalId</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">criteria</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DotNetNuke.Services.Search.SearchResultsInfoCollection.html">SearchResultsInfoCollection</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="DotNetNuke_Services_Search_SearchDataStoreProvider_Instance_" data-uid="DotNetNuke.Services.Search.SearchDataStoreProvider.Instance*"></a>
-  <h4 id="DotNetNuke_Services_Search_SearchDataStoreProvider_Instance" data-uid="DotNetNuke.Services.Search.SearchDataStoreProvider.Instance">Instance()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static SearchDataStoreProvider Instance()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DotNetNuke.Services.Search.SearchDataStoreProvider.html">SearchDataStoreProvider</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="DotNetNuke_Services_Search_SearchDataStoreProvider_StoreSearchItems_" data-uid="DotNetNuke.Services.Search.SearchDataStoreProvider.StoreSearchItems*"></a>
-  <h4 id="DotNetNuke_Services_Search_SearchDataStoreProvider_StoreSearchItems_DotNetNuke_Services_Search_SearchItemInfoCollection_" data-uid="DotNetNuke.Services.Search.SearchDataStoreProvider.StoreSearchItems(DotNetNuke.Services.Search.SearchItemInfoCollection)">StoreSearchItems(SearchItemInfoCollection)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void StoreSearchItems(SearchItemInfoCollection searchItems)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DotNetNuke.Services.Search.SearchItemInfoCollection.html">SearchItemInfoCollection</a></td>
-        <td><span class="parametername">searchItems</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(object)</a>

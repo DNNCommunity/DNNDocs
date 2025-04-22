@@ -110,12 +110,6 @@
       <a class="xref" href="DotNetNuke.Services.Search.IndexingProviderBase.html#DotNetNuke_Services_Search_IndexingProviderBase_SetLastCheckpointData_System_Int32_System_Int32_System_String_">IndexingProviderBase.SetLastCheckpointData(int, int, string)</a>
     </div>
     <div>
-      <a class="xref" href="DotNetNuke.Services.Search.IndexingProviderBase.html#DotNetNuke_Services_Search_IndexingProviderBase_GetSearchDocuments_System_Int32_System_DateTime_">IndexingProviderBase.GetSearchDocuments(int, DateTime)</a>
-    </div>
-    <div>
-      <a class="xref" href="DotNetNuke.Services.Search.IndexingProviderBase.html#DotNetNuke_Services_Search_IndexingProviderBase_GetSearchIndexItems_System_Int32_">IndexingProviderBase.GetSearchIndexItems(int)</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
     <div>
@@ -153,7 +147,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ModuleIndexer()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please use overload with IBusinessControllerProvider. Scheduled removal in v12.0.0.&quot;)]
+public ModuleIndexer()</code></pre>
   </div>
 
 
@@ -163,7 +158,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ModuleIndexer(bool needSearchModules)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please use overload with IBusinessControllerProvider. Scheduled removal in v12.0.0.&quot;)]
+public ModuleIndexer(bool needSearchModules)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -182,17 +178,15 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-</h3>
 
 
-  <a id="DotNetNuke_Services_Search_ModuleIndexer_ConvertSearchItemInfoToSearchDocument_" data-uid="DotNetNuke.Services.Search.ModuleIndexer.ConvertSearchItemInfoToSearchDocument*"></a>
-  <h4 id="DotNetNuke_Services_Search_ModuleIndexer_ConvertSearchItemInfoToSearchDocument_DotNetNuke_Services_Search_SearchItemInfo_" data-uid="DotNetNuke.Services.Search.ModuleIndexer.ConvertSearchItemInfoToSearchDocument(DotNetNuke.Services.Search.SearchItemInfo)">ConvertSearchItemInfoToSearchDocument(SearchItemInfo)</h4>
+  <a id="DotNetNuke_Services_Search_ModuleIndexer__ctor_" data-uid="DotNetNuke.Services.Search.ModuleIndexer.#ctor*"></a>
+  <h4 id="DotNetNuke_Services_Search_ModuleIndexer__ctor_System_Boolean_DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_" data-uid="DotNetNuke.Services.Search.ModuleIndexer.#ctor(System.Boolean,DotNetNuke.Abstractions.Modules.IBusinessControllerProvider)">ModuleIndexer(bool, IBusinessControllerProvider)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SearchDocument ConvertSearchItemInfoToSearchDocument(SearchItemInfo searchItem)</code></pre>
+    <pre><code class="lang-csharp hljs">public ModuleIndexer(bool needSearchModules, IBusinessControllerProvider businessControllerProvider)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -205,27 +199,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DotNetNuke.Services.Search.SearchItemInfo.html">SearchItemInfo</a></td>
-        <td><span class="parametername">searchItem</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">needSearchModules</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.html">IBusinessControllerProvider</a></td>
+        <td><span class="parametername">businessControllerProvider</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DotNetNuke.Services.Search.Entities.SearchDocument.html">SearchDocument</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h3 id="methods">Methods
+</h3>
 
 
   <a id="DotNetNuke_Services_Search_ModuleIndexer_GetModuleMetaData_" data-uid="DotNetNuke.Services.Search.ModuleIndexer.GetModuleMetaData*"></a>

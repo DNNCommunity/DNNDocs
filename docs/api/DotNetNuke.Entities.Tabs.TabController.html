@@ -939,12 +939,65 @@ public void AddMissingLanguages(int portalId, int tabId)</code></pre>
 
 
   <a id="DotNetNuke_Entities_Tabs_TabController_DeserializePanes_" data-uid="DotNetNuke.Entities.Tabs.TabController.DeserializePanes*"></a>
+  <h4 id="DotNetNuke_Entities_Tabs_TabController_DeserializePanes_DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_System_Xml_XmlNode_System_Int32_System_Int32_DotNetNuke_Entities_Portals_PortalTemplateModuleAction_System_Collections_Hashtable_" data-uid="DotNetNuke.Entities.Tabs.TabController.DeserializePanes(DotNetNuke.Abstractions.Modules.IBusinessControllerProvider,System.Xml.XmlNode,System.Int32,System.Int32,DotNetNuke.Entities.Portals.PortalTemplateModuleAction,System.Collections.Hashtable)">DeserializePanes(IBusinessControllerProvider, XmlNode, int, int, PortalTemplateModuleAction, Hashtable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeserializePanes(IBusinessControllerProvider businessControllerProvider, XmlNode nodePanes, int portalId, int tabId, PortalTemplateModuleAction mergeTabs, Hashtable hModules)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.html">IBusinessControllerProvider</a></td>
+        <td><span class="parametername">businessControllerProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlnode">XmlNode</a></td>
+        <td><span class="parametername">nodePanes</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">tabId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalTemplateModuleAction.html">PortalTemplateModuleAction</a></td>
+        <td><span class="parametername">mergeTabs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.hashtable">Hashtable</a></td>
+        <td><span class="parametername">hModules</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Tabs_TabController_DeserializePanes_" data-uid="DotNetNuke.Entities.Tabs.TabController.DeserializePanes*"></a>
   <h4 id="DotNetNuke_Entities_Tabs_TabController_DeserializePanes_System_Xml_XmlNode_System_Int32_System_Int32_DotNetNuke_Entities_Portals_PortalTemplateModuleAction_System_Collections_Hashtable_" data-uid="DotNetNuke.Entities.Tabs.TabController.DeserializePanes(System.Xml.XmlNode,System.Int32,System.Int32,DotNetNuke.Entities.Portals.PortalTemplateModuleAction,System.Collections.Hashtable)">DeserializePanes(XmlNode, int, int, PortalTemplateModuleAction, Hashtable)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DeserializePanes(XmlNode nodePanes, int portalId, int tabId, PortalTemplateModuleAction mergeTabs, Hashtable hModules)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please use overload with IBusinessControllerProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static void DeserializePanes(XmlNode nodePanes, int portalId, int tabId, PortalTemplateModuleAction mergeTabs, Hashtable hModules)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -986,12 +1039,152 @@ public void AddMissingLanguages(int portalId, int tabId)</code></pre>
 
 
   <a id="DotNetNuke_Entities_Tabs_TabController_DeserializeTab_" data-uid="DotNetNuke.Entities.Tabs.TabController.DeserializeTab*"></a>
+  <h4 id="DotNetNuke_Entities_Tabs_TabController_DeserializeTab_DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_System_Xml_XmlNode_DotNetNuke_Entities_Tabs_TabInfo_System_Collections_Hashtable_System_Int32_System_Boolean_DotNetNuke_Entities_Portals_PortalTemplateModuleAction_System_Collections_Hashtable_" data-uid="DotNetNuke.Entities.Tabs.TabController.DeserializeTab(DotNetNuke.Abstractions.Modules.IBusinessControllerProvider,System.Xml.XmlNode,DotNetNuke.Entities.Tabs.TabInfo,System.Collections.Hashtable,System.Int32,System.Boolean,DotNetNuke.Entities.Portals.PortalTemplateModuleAction,System.Collections.Hashtable)">DeserializeTab(IBusinessControllerProvider, XmlNode, TabInfo, Hashtable, int, bool, PortalTemplateModuleAction, Hashtable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TabInfo DeserializeTab(IBusinessControllerProvider businessControllerProvider, XmlNode tabNode, TabInfo tab, Hashtable tabs, int portalId, bool isAdminTemplate, PortalTemplateModuleAction mergeTabs, Hashtable modules)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.html">IBusinessControllerProvider</a></td>
+        <td><span class="parametername">businessControllerProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlnode">XmlNode</a></td>
+        <td><span class="parametername">tabNode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.hashtable">Hashtable</a></td>
+        <td><span class="parametername">tabs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">isAdminTemplate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalTemplateModuleAction.html">PortalTemplateModuleAction</a></td>
+        <td><span class="parametername">mergeTabs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.hashtable">Hashtable</a></td>
+        <td><span class="parametername">modules</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Tabs_TabController_DeserializeTab_" data-uid="DotNetNuke.Entities.Tabs.TabController.DeserializeTab*"></a>
+  <h4 id="DotNetNuke_Entities_Tabs_TabController_DeserializeTab_DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_System_Xml_XmlNode_DotNetNuke_Entities_Tabs_TabInfo_System_Int32_DotNetNuke_Entities_Portals_PortalTemplateModuleAction_" data-uid="DotNetNuke.Entities.Tabs.TabController.DeserializeTab(DotNetNuke.Abstractions.Modules.IBusinessControllerProvider,System.Xml.XmlNode,DotNetNuke.Entities.Tabs.TabInfo,System.Int32,DotNetNuke.Entities.Portals.PortalTemplateModuleAction)">DeserializeTab(IBusinessControllerProvider, XmlNode, TabInfo, int, PortalTemplateModuleAction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TabInfo DeserializeTab(IBusinessControllerProvider businessControllerProvider, XmlNode tabNode, TabInfo tab, int portalId, PortalTemplateModuleAction mergeTabs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.html">IBusinessControllerProvider</a></td>
+        <td><span class="parametername">businessControllerProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlnode">XmlNode</a></td>
+        <td><span class="parametername">tabNode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalTemplateModuleAction.html">PortalTemplateModuleAction</a></td>
+        <td><span class="parametername">mergeTabs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Tabs_TabController_DeserializeTab_" data-uid="DotNetNuke.Entities.Tabs.TabController.DeserializeTab*"></a>
   <h4 id="DotNetNuke_Entities_Tabs_TabController_DeserializeTab_System_Xml_XmlNode_DotNetNuke_Entities_Tabs_TabInfo_System_Collections_Hashtable_System_Int32_System_Boolean_DotNetNuke_Entities_Portals_PortalTemplateModuleAction_System_Collections_Hashtable_" data-uid="DotNetNuke.Entities.Tabs.TabController.DeserializeTab(System.Xml.XmlNode,DotNetNuke.Entities.Tabs.TabInfo,System.Collections.Hashtable,System.Int32,System.Boolean,DotNetNuke.Entities.Portals.PortalTemplateModuleAction,System.Collections.Hashtable)">DeserializeTab(XmlNode, TabInfo, Hashtable, int, bool, PortalTemplateModuleAction, Hashtable)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TabInfo DeserializeTab(XmlNode tabNode, TabInfo tab, Hashtable tabs, int portalId, bool isAdminTemplate, PortalTemplateModuleAction mergeTabs, Hashtable modules)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please use overload with IBusinessControllerProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static TabInfo DeserializeTab(XmlNode tabNode, TabInfo tab, Hashtable tabs, int portalId, bool isAdminTemplate, PortalTemplateModuleAction mergeTabs, Hashtable modules)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1063,7 +1256,8 @@ public void AddMissingLanguages(int portalId, int tabId)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TabInfo DeserializeTab(XmlNode tabNode, TabInfo tab, int portalId, PortalTemplateModuleAction mergeTabs)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please use overload with IBusinessControllerProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static TabInfo DeserializeTab(XmlNode tabNode, TabInfo tab, int portalId, PortalTemplateModuleAction mergeTabs)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -3209,12 +3403,137 @@ public void AddMissingLanguages(int portalId, int tabId)</code></pre>
 
 
   <a id="DotNetNuke_Entities_Tabs_TabController_SerializeTab_" data-uid="DotNetNuke.Entities.Tabs.TabController.SerializeTab*"></a>
+  <h4 id="DotNetNuke_Entities_Tabs_TabController_SerializeTab_DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_System_Xml_XmlDocument_DotNetNuke_Entities_Tabs_TabInfo_System_Boolean_" data-uid="DotNetNuke.Entities.Tabs.TabController.SerializeTab(DotNetNuke.Abstractions.Modules.IBusinessControllerProvider,System.Xml.XmlDocument,DotNetNuke.Entities.Tabs.TabInfo,System.Boolean)">SerializeTab(IBusinessControllerProvider, XmlDocument, TabInfo, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static XmlNode SerializeTab(IBusinessControllerProvider businessControllerProvider, XmlDocument tabXml, TabInfo objTab, bool includeContent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.html">IBusinessControllerProvider</a></td>
+        <td><span class="parametername">businessControllerProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmldocument">XmlDocument</a></td>
+        <td><span class="parametername">tabXml</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">objTab</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">includeContent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlnode">XmlNode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Tabs_TabController_SerializeTab_" data-uid="DotNetNuke.Entities.Tabs.TabController.SerializeTab*"></a>
+  <h4 id="DotNetNuke_Entities_Tabs_TabController_SerializeTab_DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_System_Xml_XmlDocument_System_Collections_Hashtable_DotNetNuke_Entities_Tabs_TabInfo_DotNetNuke_Entities_Portals_PortalInfo_System_Boolean_" data-uid="DotNetNuke.Entities.Tabs.TabController.SerializeTab(DotNetNuke.Abstractions.Modules.IBusinessControllerProvider,System.Xml.XmlDocument,System.Collections.Hashtable,DotNetNuke.Entities.Tabs.TabInfo,DotNetNuke.Entities.Portals.PortalInfo,System.Boolean)">SerializeTab(IBusinessControllerProvider, XmlDocument, Hashtable, TabInfo, PortalInfo, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static XmlNode SerializeTab(IBusinessControllerProvider businessControllerProvider, XmlDocument tabXml, Hashtable tabs, TabInfo tab, PortalInfo portal, bool includeContent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.html">IBusinessControllerProvider</a></td>
+        <td><span class="parametername">businessControllerProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmldocument">XmlDocument</a></td>
+        <td><span class="parametername">tabXml</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.hashtable">Hashtable</a></td>
+        <td><span class="parametername">tabs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalInfo.html">PortalInfo</a></td>
+        <td><span class="parametername">portal</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">includeContent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlnode">XmlNode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Tabs_TabController_SerializeTab_" data-uid="DotNetNuke.Entities.Tabs.TabController.SerializeTab*"></a>
   <h4 id="DotNetNuke_Entities_Tabs_TabController_SerializeTab_System_Xml_XmlDocument_DotNetNuke_Entities_Tabs_TabInfo_System_Boolean_" data-uid="DotNetNuke.Entities.Tabs.TabController.SerializeTab(System.Xml.XmlDocument,DotNetNuke.Entities.Tabs.TabInfo,System.Boolean)">SerializeTab(XmlDocument, TabInfo, bool)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static XmlNode SerializeTab(XmlDocument tabXml, TabInfo objTab, bool includeContent)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please use overload with IBusinessControllerProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static XmlNode SerializeTab(XmlDocument tabXml, TabInfo objTab, bool includeContent)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -3266,7 +3585,8 @@ public void AddMissingLanguages(int portalId, int tabId)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static XmlNode SerializeTab(XmlDocument tabXml, Hashtable tabs, TabInfo tab, PortalInfo portal, bool includeContent)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please use overload with IBusinessControllerProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static XmlNode SerializeTab(XmlDocument tabXml, Hashtable tabs, TabInfo tab, PortalInfo portal, bool includeContent)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

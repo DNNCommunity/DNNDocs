@@ -110,7 +110,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ExportImportScheduler(ScheduleHistoryItem objScheduleHistoryItem)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please use overload with ExportImportEngine. Scheduled removal in v12.0.0.&quot;)]
+public ExportImportScheduler(ScheduleHistoryItem objScheduleHistoryItem)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -125,6 +126,43 @@
       <tr>
         <td><a class="xref" href="DotNetNuke.Services.Scheduling.ScheduleHistoryItem.html">ScheduleHistoryItem</a></td>
         <td><span class="parametername">objScheduleHistoryItem</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Dnn_ExportImport_Components_Scheduler_ExportImportScheduler__ctor_" data-uid="Dnn.ExportImport.Components.Scheduler.ExportImportScheduler.#ctor*"></a>
+  <h4 id="Dnn_ExportImport_Components_Scheduler_ExportImportScheduler__ctor_DotNetNuke_Services_Scheduling_ScheduleHistoryItem_Dnn_ExportImport_Components_Interfaces_IEntitiesController_Dnn_ExportImport_Components_Engines_ExportImportEngine_" data-uid="Dnn.ExportImport.Components.Scheduler.ExportImportScheduler.#ctor(DotNetNuke.Services.Scheduling.ScheduleHistoryItem,Dnn.ExportImport.Components.Interfaces.IEntitiesController,Dnn.ExportImport.Components.Engines.ExportImportEngine)">ExportImportScheduler(ScheduleHistoryItem, IEntitiesController, ExportImportEngine)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExportImportScheduler(ScheduleHistoryItem objScheduleHistoryItem, IEntitiesController entitiesController, ExportImportEngine engine)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Scheduling.ScheduleHistoryItem.html">ScheduleHistoryItem</a></td>
+        <td><span class="parametername">objScheduleHistoryItem</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Dnn.ExportImport.Components.Interfaces.IEntitiesController.html">IEntitiesController</a></td>
+        <td><span class="parametername">entitiesController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Dnn.ExportImport.Components.Engines.ExportImportEngine.html">ExportImportEngine</a></td>
+        <td><span class="parametername">engine</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -134,8 +134,41 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ExportImportEngine()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please use overload with IEnumerable&lt;BasePortableService&gt;. Scheduled removal in v12.0.0.&quot;)]
+public ExportImportEngine()</code></pre>
   </div>
+
+
+  <a id="Dnn_ExportImport_Components_Engines_ExportImportEngine__ctor_" data-uid="Dnn.ExportImport.Components.Engines.ExportImportEngine.#ctor*"></a>
+  <h4 id="Dnn_ExportImport_Components_Engines_ExportImportEngine__ctor_System_Collections_Generic_IEnumerable_Dnn_ExportImport_Components_Services_BasePortableService__Dnn_ExportImport_Components_Controllers_ExportController_" data-uid="Dnn.ExportImport.Components.Engines.ExportImportEngine.#ctor(System.Collections.Generic.IEnumerable{Dnn.ExportImport.Components.Services.BasePortableService},Dnn.ExportImport.Components.Controllers.ExportController)">ExportImportEngine(IEnumerable&lt;BasePortableService&gt;, ExportController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExportImportEngine(IEnumerable&lt;BasePortableService&gt; portableServices, ExportController exportController)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Dnn.ExportImport.Components.Services.BasePortableService.html">BasePortableService</a>&gt;</td>
+        <td><span class="parametername">portableServices</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Dnn.ExportImport.Components.Controllers.ExportController.html">ExportController</a></td>
+        <td><span class="parametername">exportController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
 

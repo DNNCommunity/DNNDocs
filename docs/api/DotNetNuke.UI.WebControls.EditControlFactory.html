@@ -146,7 +146,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static EditControl CreateEditControl(EditorInfo editorInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please use overload with IServiceProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static EditControl CreateEditControl(EditorInfo editorInfo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -158,6 +159,53 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.UI.WebControls.EditorInfo.html">EditorInfo</a></td>
+        <td><span class="parametername">editorInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.UI.WebControls.EditControl.html">EditControl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_UI_WebControls_EditControlFactory_CreateEditControl_" data-uid="DotNetNuke.UI.WebControls.EditControlFactory.CreateEditControl*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_EditControlFactory_CreateEditControl_System_IServiceProvider_DotNetNuke_UI_WebControls_EditorInfo_" data-uid="DotNetNuke.UI.WebControls.EditControlFactory.CreateEditControl(System.IServiceProvider,DotNetNuke.UI.WebControls.EditorInfo)">CreateEditControl(IServiceProvider, EditorInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EditControl CreateEditControl(IServiceProvider serviceProvider, EditorInfo editorInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></td>
+        <td><span class="parametername">serviceProvider</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><a class="xref" href="DotNetNuke.UI.WebControls.EditorInfo.html">EditorInfo</a></td>
         <td><span class="parametername">editorInfo</span></td>

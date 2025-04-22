@@ -235,7 +235,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool ProcessMessages(EventMessageCollection eventMessages)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please use overload with IServiceProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static bool ProcessMessages(EventMessageCollection eventMessages)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -272,12 +273,159 @@
 
 
   <a id="DotNetNuke_Services_EventQueue_EventQueueController_ProcessMessages_" data-uid="DotNetNuke.Services.EventQueue.EventQueueController.ProcessMessages*"></a>
+  <h4 id="DotNetNuke_Services_EventQueue_EventQueueController_ProcessMessages_System_IServiceProvider_DotNetNuke_Services_EventQueue_EventMessageCollection_" data-uid="DotNetNuke.Services.EventQueue.EventQueueController.ProcessMessages(System.IServiceProvider,DotNetNuke.Services.EventQueue.EventMessageCollection)">ProcessMessages(IServiceProvider, EventMessageCollection)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ProcessMessages(IServiceProvider serviceProvider, EventMessageCollection eventMessages)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></td>
+        <td><span class="parametername">serviceProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.EventQueue.EventMessageCollection.html">EventMessageCollection</a></td>
+        <td><span class="parametername">eventMessages</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_EventQueue_EventQueueController_ProcessMessages_" data-uid="DotNetNuke.Services.EventQueue.EventQueueController.ProcessMessages*"></a>
+  <h4 id="DotNetNuke_Services_EventQueue_EventQueueController_ProcessMessages_System_IServiceProvider_System_String_" data-uid="DotNetNuke.Services.EventQueue.EventQueueController.ProcessMessages(System.IServiceProvider,System.String)">ProcessMessages(IServiceProvider, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ProcessMessages(IServiceProvider serviceProvider, string eventName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></td>
+        <td><span class="parametername">serviceProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">eventName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_EventQueue_EventQueueController_ProcessMessages_" data-uid="DotNetNuke.Services.EventQueue.EventQueueController.ProcessMessages*"></a>
+  <h4 id="DotNetNuke_Services_EventQueue_EventQueueController_ProcessMessages_System_IServiceProvider_System_String_System_String_" data-uid="DotNetNuke.Services.EventQueue.EventQueueController.ProcessMessages(System.IServiceProvider,System.String,System.String)">ProcessMessages(IServiceProvider, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ProcessMessages(IServiceProvider serviceProvider, string eventName, string subscriberId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></td>
+        <td><span class="parametername">serviceProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">eventName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">subscriberId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_EventQueue_EventQueueController_ProcessMessages_" data-uid="DotNetNuke.Services.EventQueue.EventQueueController.ProcessMessages*"></a>
   <h4 id="DotNetNuke_Services_EventQueue_EventQueueController_ProcessMessages_System_String_" data-uid="DotNetNuke.Services.EventQueue.EventQueueController.ProcessMessages(System.String)">ProcessMessages(string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool ProcessMessages(string eventName)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please use overload with IServiceProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static bool ProcessMessages(string eventName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -319,7 +467,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool ProcessMessages(string eventName, string subscriberId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please use overload with IServiceProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static bool ProcessMessages(string eventName, string subscriberId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -386,59 +535,6 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">eventName</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="DotNetNuke_Services_EventQueue_EventQueueController_SendMessage_" data-uid="DotNetNuke.Services.EventQueue.EventQueueController.SendMessage*"></a>
-  <h4 id="DotNetNuke_Services_EventQueue_EventQueueController_SendMessage_DotNetNuke_Services_EventQueue_EventMessage_System_String_System_Boolean_" data-uid="DotNetNuke.Services.EventQueue.EventQueueController.SendMessage(DotNetNuke.Services.EventQueue.EventMessage,System.String,System.Boolean)">SendMessage(EventMessage, string, bool)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 7.0.0. Use Sendmessage(message, eventName) instead. Scheduled for removal in v10.0.0.&quot;)]
-public bool SendMessage(EventMessage message, string eventName, bool encryptMessage)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DotNetNuke.Services.EventQueue.EventMessage.html">EventMessage</a></td>
-        <td><span class="parametername">message</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">eventName</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td><span class="parametername">encryptMessage</span></td>
         <td></td>
       </tr>
     </tbody>

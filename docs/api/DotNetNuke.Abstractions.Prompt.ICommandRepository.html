@@ -100,12 +100,12 @@
 
 
   <a id="DotNetNuke_Abstractions_Prompt_ICommandRepository_GetCommand_" data-uid="DotNetNuke.Abstractions.Prompt.ICommandRepository.GetCommand*"></a>
-  <h4 id="DotNetNuke_Abstractions_Prompt_ICommandRepository_GetCommand_System_String_" data-uid="DotNetNuke.Abstractions.Prompt.ICommandRepository.GetCommand(System.String)">GetCommand(string)</h4>
+  <h4 id="DotNetNuke_Abstractions_Prompt_ICommandRepository_GetCommand_System_IServiceProvider_System_String_" data-uid="DotNetNuke.Abstractions.Prompt.ICommandRepository.GetCommand(System.IServiceProvider,System.String)">GetCommand(IServiceProvider, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IConsoleCommand GetCommand(string commandName)</code></pre>
+    <pre><code class="lang-csharp hljs">IConsoleCommand GetCommand(IServiceProvider serviceProvider, string commandName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -117,6 +117,11 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></td>
+        <td><span class="parametername">serviceProvider</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">commandName</span></td>

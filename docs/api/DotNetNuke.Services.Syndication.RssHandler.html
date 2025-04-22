@@ -126,8 +126,36 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RssHandler()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please use overload with ISearchController. Scheduled removal in v12.0.0.&quot;)]
+public RssHandler()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Services_Syndication_RssHandler__ctor_" data-uid="DotNetNuke.Services.Syndication.RssHandler.#ctor*"></a>
+  <h4 id="DotNetNuke_Services_Syndication_RssHandler__ctor_DotNetNuke_Services_Search_Controllers_ISearchController_" data-uid="DotNetNuke.Services.Syndication.RssHandler.#ctor(DotNetNuke.Services.Search.Controllers.ISearchController)">RssHandler(ISearchController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RssHandler(ISearchController searchController)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Search.Controllers.ISearchController.html">ISearchController</a></td>
+        <td><span class="parametername">searchController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
 

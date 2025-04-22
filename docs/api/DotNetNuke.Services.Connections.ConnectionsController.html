@@ -154,8 +154,41 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ConnectionsController()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please use overload with IConnectionsManager. Scheduled removal in v12.0.0.&quot;)]
+public ConnectionsController()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Services_Connections_ConnectionsController__ctor_" data-uid="DotNetNuke.Services.Connections.ConnectionsController.#ctor*"></a>
+  <h4 id="DotNetNuke_Services_Connections_ConnectionsController__ctor_System_IServiceProvider_DotNetNuke_Services_Connections_IConnectionsManager_" data-uid="DotNetNuke.Services.Connections.ConnectionsController.#ctor(System.IServiceProvider,DotNetNuke.Services.Connections.IConnectionsManager)">ConnectionsController(IServiceProvider, IConnectionsManager)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConnectionsController(IServiceProvider serviceProvider, IConnectionsManager connectionsManager)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></td>
+        <td><span class="parametername">serviceProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Connections.IConnectionsManager.html">IConnectionsManager</a></td>
+        <td><span class="parametername">connectionsManager</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
 

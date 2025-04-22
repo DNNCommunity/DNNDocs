@@ -156,17 +156,15 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public CommandRepository()</code></pre>
   </div>
-  <h3 id="methods">Methods
-</h3>
 
 
-  <a id="DotNetNuke_Prompt_CommandRepository_GetCommand_" data-uid="DotNetNuke.Prompt.CommandRepository.GetCommand*"></a>
-  <h4 id="DotNetNuke_Prompt_CommandRepository_GetCommand_System_String_" data-uid="DotNetNuke.Prompt.CommandRepository.GetCommand(System.String)">GetCommand(string)</h4>
+  <a id="DotNetNuke_Prompt_CommandRepository__ctor_" data-uid="DotNetNuke.Prompt.CommandRepository.#ctor*"></a>
+  <h4 id="DotNetNuke_Prompt_CommandRepository__ctor_Microsoft_Extensions_DependencyInjection_IServiceScopeFactory_" data-uid="DotNetNuke.Prompt.CommandRepository.#ctor(Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)">CommandRepository(IServiceScopeFactory)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IConsoleCommand GetCommand(string commandName)</code></pre>
+    <pre><code class="lang-csharp hljs">public CommandRepository(IServiceScopeFactory serviceScopeFactory)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -178,6 +176,40 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><span class="xref">IServiceScopeFactory</span></td>
+        <td><span class="parametername">serviceScopeFactory</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="DotNetNuke_Prompt_CommandRepository_GetCommand_" data-uid="DotNetNuke.Prompt.CommandRepository.GetCommand*"></a>
+  <h4 id="DotNetNuke_Prompt_CommandRepository_GetCommand_System_IServiceProvider_System_String_" data-uid="DotNetNuke.Prompt.CommandRepository.GetCommand(System.IServiceProvider,System.String)">GetCommand(IServiceProvider, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IConsoleCommand GetCommand(IServiceProvider serviceProvider, string commandName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></td>
+        <td><span class="parametername">serviceProvider</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">commandName</span></td>

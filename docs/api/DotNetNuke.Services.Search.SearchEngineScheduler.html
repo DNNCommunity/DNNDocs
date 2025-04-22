@@ -174,7 +174,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SearchEngineScheduler(ScheduleHistoryItem objScheduleHistoryItem)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please use overload with IBusinessControllerProvider. Scheduled removal in v12.0.0.&quot;)]
+public SearchEngineScheduler(ScheduleHistoryItem objScheduleHistoryItem)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -189,6 +190,38 @@
       <tr>
         <td><a class="xref" href="DotNetNuke.Services.Scheduling.ScheduleHistoryItem.html">ScheduleHistoryItem</a></td>
         <td><span class="parametername">objScheduleHistoryItem</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Search_SearchEngineScheduler__ctor_" data-uid="DotNetNuke.Services.Search.SearchEngineScheduler.#ctor*"></a>
+  <h4 id="DotNetNuke_Services_Search_SearchEngineScheduler__ctor_DotNetNuke_Services_Scheduling_ScheduleHistoryItem_DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_" data-uid="DotNetNuke.Services.Search.SearchEngineScheduler.#ctor(DotNetNuke.Services.Scheduling.ScheduleHistoryItem,DotNetNuke.Abstractions.Modules.IBusinessControllerProvider)">SearchEngineScheduler(ScheduleHistoryItem, IBusinessControllerProvider)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SearchEngineScheduler(ScheduleHistoryItem objScheduleHistoryItem, IBusinessControllerProvider businessControllerProvider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Scheduling.ScheduleHistoryItem.html">ScheduleHistoryItem</a></td>
+        <td><span class="parametername">objScheduleHistoryItem</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.html">IBusinessControllerProvider</a></td>
+        <td><span class="parametername">businessControllerProvider</span></td>
         <td></td>
       </tr>
     </tbody>

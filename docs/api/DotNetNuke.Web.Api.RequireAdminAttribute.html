@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IContentWorkflowAction  -- DNN Docs</title>
+    <title>Class RequireAdminAttribute  -- DNN Docs</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IContentWorkflowAction  -- DNN Docs">
+    <meta name="title" content="Class RequireAdminAttribute  -- DNN Docs">
     <meta name="generator" content="docfx ">
   
     <link rel="shortcut icon" href="../favicon.ico">
@@ -82,31 +82,60 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="DotNetNuke.Entities.Content.Workflow.IContentWorkflowAction">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Web.Api.RequireAdminAttribute">
 
 
 
-  <h1 id="DotNetNuke_Entities_Content_Workflow_IContentWorkflowAction" data-uid="DotNetNuke.Entities.Content.Workflow.IContentWorkflowAction" class="text-break">Interface IContentWorkflowAction</h1>
+  <h1 id="DotNetNuke_Web_Api_RequireAdminAttribute" data-uid="DotNetNuke.Web.Api.RequireAdminAttribute" class="text-break">Class RequireAdminAttribute</h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.html">DotNetNuke</a>.<a class="xref" href="DotNetNuke.Entities.html">Entities</a>.<a class="xref" href="DotNetNuke.Entities.Content.html">Content</a>.<a class="xref" href="DotNetNuke.Entities.Content.Workflow.html">Workflow</a></h6>
-  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
-  <h5 id="DotNetNuke_Entities_Content_Workflow_IContentWorkflowAction_syntax">Syntax</h5>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="DotNetNuke.Web.Api.AuthorizeAttributeBase.html">AuthorizeAttributeBase</a></div>
+    <div class="level2"><span class="xref">RequireAdminAttribute</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.Api.AuthorizeAttributeBase.html#DotNetNuke_Web_Api_AuthorizeAttributeBase_IsAnonymousAttributePresent_System_Web_Http_Controllers_HttpActionContext_">AuthorizeAttributeBase.IsAnonymousAttributePresent(HttpActionContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.Api.AuthorizeAttributeBase.html#DotNetNuke_Web_Api_AuthorizeAttributeBase_OnAuthorization_System_Web_Http_Controllers_HttpActionContext_">AuthorizeAttributeBase.OnAuthorization(HttpActionContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.Api.AuthorizeAttributeBase.html#DotNetNuke_Web_Api_AuthorizeAttributeBase_SkipAuthorization_System_Web_Http_Controllers_HttpActionContext_">AuthorizeAttributeBase.SkipAuthorization(HttpActionContext)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.html">DotNetNuke</a>.<a class="xref" href="DotNetNuke.Web.html">Web</a>.<a class="xref" href="DotNetNuke.Web.Api.html">Api</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.Web.dll</h6>
+  <h5 id="DotNetNuke_Web_Api_RequireAdminAttribute_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 7.4.0. Use IWorkflowEngine. Scheduled for removal in v10.0.0.&quot;)]
-public interface IContentWorkflowAction</code></pre>
+    <pre><code class="lang-csharp hljs">public class RequireAdminAttribute : AuthorizeAttributeBase</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+
+
+  <a id="DotNetNuke_Web_Api_RequireAdminAttribute__ctor_" data-uid="DotNetNuke.Web.Api.RequireAdminAttribute.#ctor*"></a>
+  <h4 id="DotNetNuke_Web_Api_RequireAdminAttribute__ctor" data-uid="DotNetNuke.Web.Api.RequireAdminAttribute.#ctor">RequireAdminAttribute()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RequireAdminAttribute()</code></pre>
   </div>
   <h3 id="methods">Methods
 </h3>
 
 
-  <a id="DotNetNuke_Entities_Content_Workflow_IContentWorkflowAction_GetAction_" data-uid="DotNetNuke.Entities.Content.Workflow.IContentWorkflowAction.GetAction*"></a>
-  <h4 id="DotNetNuke_Entities_Content_Workflow_IContentWorkflowAction_GetAction_System_String___" data-uid="DotNetNuke.Entities.Content.Workflow.IContentWorkflowAction.GetAction(System.String[])">GetAction(string[])</h4>
+  <a id="DotNetNuke_Web_Api_RequireAdminAttribute_IsAuthorized_" data-uid="DotNetNuke.Web.Api.RequireAdminAttribute.IsAuthorized*"></a>
+  <h4 id="DotNetNuke_Web_Api_RequireAdminAttribute_IsAuthorized_DotNetNuke_Web_Api_AuthFilterContext_" data-uid="DotNetNuke.Web.Api.RequireAdminAttribute.IsAuthorized(DotNetNuke.Web.Api.AuthFilterContext)">IsAuthorized(AuthFilterContext)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string GetAction(string[] parameters)</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool IsAuthorized(AuthFilterContext context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -119,8 +148,8 @@ public interface IContentWorkflowAction</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</td>
-        <td><span class="parametername">parameters</span></td>
+        <td><a class="xref" href="DotNetNuke.Web.Api.AuthFilterContext.html">AuthFilterContext</a></td>
+        <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -135,11 +164,13 @@ public interface IContentWorkflowAction</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Web.Api.AuthorizeAttributeBase.html#DotNetNuke_Web_Api_AuthorizeAttributeBase_IsAuthorized_DotNetNuke_Web_Api_AuthFilterContext_">AuthorizeAttributeBase.IsAuthorized(AuthFilterContext)</a></div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(object)</a>

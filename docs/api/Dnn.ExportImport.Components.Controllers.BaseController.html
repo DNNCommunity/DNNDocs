@@ -136,8 +136,36 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BaseController()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please use overload with IEnumerable&lt;BasePortableService&gt;. Scheduled removal in v12.0.0.&quot;)]
+public BaseController()</code></pre>
   </div>
+
+
+  <a id="Dnn_ExportImport_Components_Controllers_BaseController__ctor_" data-uid="Dnn.ExportImport.Components.Controllers.BaseController.#ctor*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_BaseController__ctor_System_Collections_Generic_IEnumerable_Dnn_ExportImport_Components_Services_BasePortableService__" data-uid="Dnn.ExportImport.Components.Controllers.BaseController.#ctor(System.Collections.Generic.IEnumerable{Dnn.ExportImport.Components.Services.BasePortableService})">BaseController(IEnumerable&lt;BasePortableService&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BaseController(IEnumerable&lt;BasePortableService&gt; portableServices)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Dnn.ExportImport.Components.Services.BasePortableService.html">BasePortableService</a>&gt;</td>
+        <td><span class="parametername">portableServices</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="fields">Fields
 </h3>
 
@@ -160,6 +188,33 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="Dnn_ExportImport_Components_Controllers_BaseController_PortableServices_" data-uid="Dnn.ExportImport.Components.Controllers.BaseController.PortableServices*"></a>
+  <h4 id="Dnn_ExportImport_Components_Controllers_BaseController_PortableServices" data-uid="Dnn.ExportImport.Components.Controllers.BaseController.PortableServices">PortableServices</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IEnumerable&lt;BasePortableService&gt; PortableServices { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Dnn.ExportImport.Components.Services.BasePortableService.html">BasePortableService</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -211,12 +266,12 @@
 
 
   <a id="Dnn_ExportImport_Components_Controllers_BaseController_BuildJobSummary_" data-uid="Dnn.ExportImport.Components.Controllers.BaseController.BuildJobSummary*"></a>
-  <h4 id="Dnn_ExportImport_Components_Controllers_BaseController_BuildJobSummary_System_Int32_" data-uid="Dnn.ExportImport.Components.Controllers.BaseController.BuildJobSummary(System.Int32)">BuildJobSummary(int)</h4>
+  <h4 id="Dnn_ExportImport_Components_Controllers_BaseController_BuildJobSummary_System_Collections_Generic_IEnumerable_Dnn_ExportImport_Components_Services_BasePortableService__System_Int32_" data-uid="Dnn.ExportImport.Components.Controllers.BaseController.BuildJobSummary(System.Collections.Generic.IEnumerable{Dnn.ExportImport.Components.Services.BasePortableService},System.Int32)">BuildJobSummary(IEnumerable&lt;BasePortableService&gt;, int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected static ImportExportSummary BuildJobSummary(int jobId)</code></pre>
+    <pre><code class="lang-csharp hljs">protected static ImportExportSummary BuildJobSummary(IEnumerable&lt;BasePortableService&gt; portableServices, int jobId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -228,6 +283,11 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Dnn.ExportImport.Components.Services.BasePortableService.html">BasePortableService</a>&gt;</td>
+        <td><span class="parametername">portableServices</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><span class="parametername">jobId</span></td>
@@ -253,12 +313,12 @@
 
 
   <a id="Dnn_ExportImport_Components_Controllers_BaseController_BuildJobSummary_" data-uid="Dnn.ExportImport.Components.Controllers.BaseController.BuildJobSummary*"></a>
-  <h4 id="Dnn_ExportImport_Components_Controllers_BaseController_BuildJobSummary_System_String_Dnn_ExportImport_Interfaces_IExportImportRepository_Dnn_ExportImport_Components_Dto_ImportExportSummary_" data-uid="Dnn.ExportImport.Components.Controllers.BaseController.BuildJobSummary(System.String,Dnn.ExportImport.Interfaces.IExportImportRepository,Dnn.ExportImport.Components.Dto.ImportExportSummary)">BuildJobSummary(string, IExportImportRepository, ImportExportSummary)</h4>
+  <h4 id="Dnn_ExportImport_Components_Controllers_BaseController_BuildJobSummary_System_Collections_Generic_IEnumerable_Dnn_ExportImport_Components_Services_BasePortableService__System_String_Dnn_ExportImport_Interfaces_IExportImportRepository_Dnn_ExportImport_Components_Dto_ImportExportSummary_" data-uid="Dnn.ExportImport.Components.Controllers.BaseController.BuildJobSummary(System.Collections.Generic.IEnumerable{Dnn.ExportImport.Components.Services.BasePortableService},System.String,Dnn.ExportImport.Interfaces.IExportImportRepository,Dnn.ExportImport.Components.Dto.ImportExportSummary)">BuildJobSummary(IEnumerable&lt;BasePortableService&gt;, string, IExportImportRepository, ImportExportSummary)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected static void BuildJobSummary(string packageId, IExportImportRepository repository, ImportExportSummary summary)</code></pre>
+    <pre><code class="lang-csharp hljs">protected static void BuildJobSummary(IEnumerable&lt;BasePortableService&gt; portableServices, string packageId, IExportImportRepository repository, ImportExportSummary summary)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -270,6 +330,11 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Dnn.ExportImport.Components.Services.BasePortableService.html">BasePortableService</a>&gt;</td>
+        <td><span class="parametername">portableServices</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">packageId</span></td>

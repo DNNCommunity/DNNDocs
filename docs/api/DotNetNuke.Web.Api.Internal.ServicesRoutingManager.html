@@ -97,6 +97,7 @@
   <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="DotNetNuke.Web.Api.IMapRoute.html">IMapRoute</a></div>
+    <div><a class="xref" href="DotNetNuke.Common.Internal.IRoutingManager.html">IRoutingManager</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -123,20 +124,37 @@
   <h6><strong>Assembly</strong>: DotNetNuke.Web.dll</h6>
   <h5 id="DotNetNuke_Web_Api_Internal_ServicesRoutingManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class ServicesRoutingManager : IMapRoute</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class ServicesRoutingManager : IMapRoute, IRoutingManager</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
 
 
   <a id="DotNetNuke_Web_Api_Internal_ServicesRoutingManager__ctor_" data-uid="DotNetNuke.Web.Api.Internal.ServicesRoutingManager.#ctor*"></a>
-  <h4 id="DotNetNuke_Web_Api_Internal_ServicesRoutingManager__ctor" data-uid="DotNetNuke.Web.Api.Internal.ServicesRoutingManager.#ctor">ServicesRoutingManager()</h4>
+  <h4 id="DotNetNuke_Web_Api_Internal_ServicesRoutingManager__ctor_System_IServiceProvider_" data-uid="DotNetNuke.Web.Api.Internal.ServicesRoutingManager.#ctor(System.IServiceProvider)">ServicesRoutingManager(IServiceProvider)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ServicesRoutingManager()</code></pre>
+    <pre><code class="lang-csharp hljs">public ServicesRoutingManager(IServiceProvider serviceProvider)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></td>
+        <td><span class="parametername">serviceProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
 
@@ -338,6 +356,9 @@
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="DotNetNuke.Web.Api.IMapRoute.html">IMapRoute</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Internal.IRoutingManager.html">IRoutingManager</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

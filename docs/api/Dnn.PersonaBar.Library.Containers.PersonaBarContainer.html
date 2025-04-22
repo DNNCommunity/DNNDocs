@@ -133,12 +133,25 @@
 
 
   <a id="Dnn_PersonaBar_Library_Containers_PersonaBarContainer__ctor_" data-uid="Dnn.PersonaBar.Library.Containers.PersonaBarContainer.#ctor*"></a>
-  <h4 id="Dnn_PersonaBar_Library_Containers_PersonaBarContainer__ctor_DotNetNuke_Abstractions_INavigationManager_" data-uid="Dnn.PersonaBar.Library.Containers.PersonaBarContainer.#ctor(DotNetNuke.Abstractions.INavigationManager)">PersonaBarContainer(INavigationManager)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Dnn_PersonaBar_Library_Containers_PersonaBarContainer__ctor" data-uid="Dnn.PersonaBar.Library.Containers.PersonaBarContainer.#ctor">PersonaBarContainer()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Dnn.PersonaBar.Library.Containers.PersonaBarContainer.html">PersonaBarContainer</a> class.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PersonaBarContainer(INavigationManager navigationManager)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please use overload with INavigationManager. Scheduled removal in v12.0.0.&quot;)]
+public PersonaBarContainer()</code></pre>
+  </div>
+
+
+  <a id="Dnn_PersonaBar_Library_Containers_PersonaBarContainer__ctor_" data-uid="Dnn.PersonaBar.Library.Containers.PersonaBarContainer.#ctor*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Containers_PersonaBarContainer__ctor_DotNetNuke_Abstractions_INavigationManager_Dnn_PersonaBar_Library_Controllers_IPersonaBarController_" data-uid="Dnn.PersonaBar.Library.Containers.PersonaBarContainer.#ctor(DotNetNuke.Abstractions.INavigationManager,Dnn.PersonaBar.Library.Controllers.IPersonaBarController)">PersonaBarContainer(INavigationManager, IPersonaBarController)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Dnn.PersonaBar.Library.Containers.PersonaBarContainer.html">PersonaBarContainer</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PersonaBarContainer(INavigationManager navigationManager, IPersonaBarController personaBarController)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -153,7 +166,14 @@
       <tr>
         <td><a class="xref" href="DotNetNuke.Abstractions.INavigationManager.html">INavigationManager</a></td>
         <td><span class="parametername">navigationManager</span></td>
-        <td></td>
+        <td><p>The navigation manager.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Dnn.PersonaBar.Library.Controllers.IPersonaBarController.html">IPersonaBarController</a></td>
+        <td><span class="parametername">personaBarController</span></td>
+        <td><p>The Persona Bar controller.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -167,7 +187,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IPersonaBarContainer Instance { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please resolve via dependency injection. Scheduled removal in v12.0.0.&quot;)]
+public static IPersonaBarContainer Instance { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">

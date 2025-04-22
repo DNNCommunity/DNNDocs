@@ -1,0 +1,1672 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AdvancedPermissionProvider  -- DNN Docs</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AdvancedPermissionProvider  -- DNN Docs">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/dnndocs.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://ZPKP9SED9P-dsn.algolia.net" crossorigin>
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@alpha">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="og:title" content=" -- DNN Docs">
+    <meta property="og:image" content="../images/dnn_docs_logo.png">
+    <meta property="og:description" content=" -- DNN Docs">
+    <meta property="og:url" content="">
+  
+  
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137422488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-137422488-1');
+    </script>  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/dnn_docs_logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <div class="navbar-right">
+                <div id="docsearch-navbar" class="navbar-form navbar-right"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container">
+            <div class="hide-when-search pull-left" id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <div class="pull-right">
+            </div>
+          </div>
+        </div>      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider">
+
+
+
+  <h1 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider" class="text-break">Class AdvancedPermissionProvider</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html">PermissionProvider</a></div>
+    <div class="level2"><span class="xref">AdvancedPermissionProvider</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_Instance">PermissionProvider.Instance()</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_SupportsFullControl">PermissionProvider.SupportsFullControl()</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanBrowseFolder_DotNetNuke_Services_FileSystem_FolderInfo_">PermissionProvider.CanBrowseFolder(FolderInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanAdminFolder_DotNetNuke_Services_FileSystem_FolderInfo_">PermissionProvider.CanAdminFolder(FolderInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanViewFolder_DotNetNuke_Services_FileSystem_FolderInfo_">PermissionProvider.CanViewFolder(FolderInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_DeleteFolderPermissionsByUser_DotNetNuke_Entities_Users_UserInfo_">PermissionProvider.DeleteFolderPermissionsByUser(UserInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_SaveFolderPermissions_DotNetNuke_Services_FileSystem_FolderInfo_">PermissionProvider.SaveFolderPermissions(FolderInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_SaveFolderPermissions_DotNetNuke_Services_FileSystem_IFolderInfo_">PermissionProvider.SaveFolderPermissions(IFolderInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanAdminModule_DotNetNuke_Entities_Modules_ModuleInfo_">PermissionProvider.CanAdminModule(ModuleInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_DeleteModulePermissionsByUser_DotNetNuke_Entities_Users_UserInfo_">PermissionProvider.DeleteModulePermissionsByUser(UserInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_HasModulePermission_DotNetNuke_Security_Permissions_ModulePermissionCollection_System_String_">PermissionProvider.HasModulePermission(ModulePermissionCollection, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_SaveModulePermissions_DotNetNuke_Entities_Modules_ModuleInfo_">PermissionProvider.SaveModulePermissions(ModuleInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanAddTopLevel_System_Int32_">PermissionProvider.CanAddTopLevel(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_IsPageAdmin_System_Int32_">PermissionProvider.IsPageAdmin(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_DeleteTabPermissionsByUser_DotNetNuke_Entities_Users_UserInfo_">PermissionProvider.DeleteTabPermissionsByUser(UserInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_SaveTabPermissions_DotNetNuke_Entities_Tabs_TabInfo_">PermissionProvider.SaveTabPermissions(TabInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_GetDesktopModulePermission_System_Int32_">PermissionProvider.GetDesktopModulePermission(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_GetDesktopModulePermissions_System_Int32_">PermissionProvider.GetDesktopModulePermissions(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_DeletePortalPermissionsByUser_DotNetNuke_Entities_Users_UserInfo_">PermissionProvider.DeletePortalPermissionsByUser(UserInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_GetPortalPermissions_System_Int32_">PermissionProvider.GetPortalPermissions(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_HasPortalPermission_DotNetNuke_Security_Permissions_PortalPermissionCollection_System_String_">PermissionProvider.HasPortalPermission(PortalPermissionCollection, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_SavePortalPermissions_DotNetNuke_Entities_Portals_PortalInfo_">PermissionProvider.SavePortalPermissions(PortalInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_HasModulePermission_DotNetNuke_Entities_Modules_ModuleInfo_System_String_">PermissionProvider.HasModulePermission(ModuleInfo, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_IsDeniedModulePermission_DotNetNuke_Entities_Modules_ModuleInfo_System_String_">PermissionProvider.IsDeniedModulePermission(ModuleInfo, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_IsDeniedTabPermission_DotNetNuke_Entities_Tabs_TabInfo_System_String_">PermissionProvider.IsDeniedTabPermission(TabInfo, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_LocalResourceFile">PermissionProvider.LocalResourceFile</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.html">DotNetNuke</a>.<a class="xref" href="DotNetNuke.Security.html">Security</a>.<a class="xref" href="DotNetNuke.Security.Permissions.html">Permissions</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
+  <h5 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AdvancedPermissionProvider : PermissionProvider</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider__ctor_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.#ctor*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider__ctor" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.#ctor">AdvancedPermissionProvider()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AdvancedPermissionProvider()</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+
+
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_ContentEditors" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.ContentEditors">ContentEditors</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string ContentEditors = &quot;Content Editors&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_ContentManagers" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.ContentManagers">ContentManagers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string ContentManagers = &quot;Content Managers&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanAddContentToPage_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanAddContentToPage*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanAddContentToPage_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanAddContentToPage(DotNetNuke.Entities.Tabs.TabInfo)">CanAddContentToPage(TabInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanAddContentToPage(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanAddContentToPage_DotNetNuke_Entities_Tabs_TabInfo_">PermissionProvider.CanAddContentToPage(TabInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanAddFolder_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanAddFolder*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanAddFolder_DotNetNuke_Services_FileSystem_FolderInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanAddFolder(DotNetNuke.Services.FileSystem.FolderInfo)">CanAddFolder(FolderInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanAddFolder(FolderInfo folder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderInfo.html">FolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanAddFolder_DotNetNuke_Services_FileSystem_FolderInfo_">PermissionProvider.CanAddFolder(FolderInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanAddPage_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanAddPage*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanAddPage_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanAddPage(DotNetNuke.Entities.Tabs.TabInfo)">CanAddPage(TabInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanAddPage(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanAddPage_DotNetNuke_Entities_Tabs_TabInfo_">PermissionProvider.CanAddPage(TabInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanAdminPage_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanAdminPage*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanAdminPage_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanAdminPage(DotNetNuke.Entities.Tabs.TabInfo)">CanAdminPage(TabInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanAdminPage(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanAdminPage_DotNetNuke_Entities_Tabs_TabInfo_">PermissionProvider.CanAdminPage(TabInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanCopyFolder_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanCopyFolder*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanCopyFolder_DotNetNuke_Services_FileSystem_FolderInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanCopyFolder(DotNetNuke.Services.FileSystem.FolderInfo)">CanCopyFolder(FolderInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanCopyFolder(FolderInfo folder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderInfo.html">FolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanCopyFolder_DotNetNuke_Services_FileSystem_FolderInfo_">PermissionProvider.CanCopyFolder(FolderInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanCopyPage_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanCopyPage*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanCopyPage_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanCopyPage(DotNetNuke.Entities.Tabs.TabInfo)">CanCopyPage(TabInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanCopyPage(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanCopyPage_DotNetNuke_Entities_Tabs_TabInfo_">PermissionProvider.CanCopyPage(TabInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanDeleteFolder_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanDeleteFolder*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanDeleteFolder_DotNetNuke_Services_FileSystem_FolderInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanDeleteFolder(DotNetNuke.Services.FileSystem.FolderInfo)">CanDeleteFolder(FolderInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanDeleteFolder(FolderInfo folder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderInfo.html">FolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanDeleteFolder_DotNetNuke_Services_FileSystem_FolderInfo_">PermissionProvider.CanDeleteFolder(FolderInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanDeleteModule_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanDeleteModule*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanDeleteModule_DotNetNuke_Entities_Modules_ModuleInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanDeleteModule(DotNetNuke.Entities.Modules.ModuleInfo)">CanDeleteModule(ModuleInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanDeleteModule(ModuleInfo module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.ModuleInfo.html">ModuleInfo</a></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanDeleteModule_DotNetNuke_Entities_Modules_ModuleInfo_">PermissionProvider.CanDeleteModule(ModuleInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanDeletePage_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanDeletePage*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanDeletePage_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanDeletePage(DotNetNuke.Entities.Tabs.TabInfo)">CanDeletePage(TabInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanDeletePage(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanDeletePage_DotNetNuke_Entities_Tabs_TabInfo_">PermissionProvider.CanDeletePage(TabInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanEditModuleContent_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanEditModuleContent*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanEditModuleContent_DotNetNuke_Entities_Modules_ModuleInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanEditModuleContent(DotNetNuke.Entities.Modules.ModuleInfo)">CanEditModuleContent(ModuleInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanEditModuleContent(ModuleInfo module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.ModuleInfo.html">ModuleInfo</a></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanEditModuleContent_DotNetNuke_Entities_Modules_ModuleInfo_">PermissionProvider.CanEditModuleContent(ModuleInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanExportModule_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanExportModule*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanExportModule_DotNetNuke_Entities_Modules_ModuleInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanExportModule(DotNetNuke.Entities.Modules.ModuleInfo)">CanExportModule(ModuleInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanExportModule(ModuleInfo module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.ModuleInfo.html">ModuleInfo</a></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanExportModule_DotNetNuke_Entities_Modules_ModuleInfo_">PermissionProvider.CanExportModule(ModuleInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanExportPage_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanExportPage*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanExportPage_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanExportPage(DotNetNuke.Entities.Tabs.TabInfo)">CanExportPage(TabInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanExportPage(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanExportPage_DotNetNuke_Entities_Tabs_TabInfo_">PermissionProvider.CanExportPage(TabInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanImportModule_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanImportModule*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanImportModule_DotNetNuke_Entities_Modules_ModuleInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanImportModule(DotNetNuke.Entities.Modules.ModuleInfo)">CanImportModule(ModuleInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanImportModule(ModuleInfo module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.ModuleInfo.html">ModuleInfo</a></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanImportModule_DotNetNuke_Entities_Modules_ModuleInfo_">PermissionProvider.CanImportModule(ModuleInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanImportPage_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanImportPage*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanImportPage_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanImportPage(DotNetNuke.Entities.Tabs.TabInfo)">CanImportPage(TabInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanImportPage(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanImportPage_DotNetNuke_Entities_Tabs_TabInfo_">PermissionProvider.CanImportPage(TabInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanManageFolder_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanManageFolder*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanManageFolder_DotNetNuke_Services_FileSystem_FolderInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanManageFolder(DotNetNuke.Services.FileSystem.FolderInfo)">CanManageFolder(FolderInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanManageFolder(FolderInfo folder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.FolderInfo.html">FolderInfo</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanManageFolder_DotNetNuke_Services_FileSystem_FolderInfo_">PermissionProvider.CanManageFolder(FolderInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanManageModule_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanManageModule*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanManageModule_DotNetNuke_Entities_Modules_ModuleInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanManageModule(DotNetNuke.Entities.Modules.ModuleInfo)">CanManageModule(ModuleInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanManageModule(ModuleInfo module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.ModuleInfo.html">ModuleInfo</a></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanManageModule_DotNetNuke_Entities_Modules_ModuleInfo_">PermissionProvider.CanManageModule(ModuleInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanManagePage_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanManagePage*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanManagePage_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanManagePage(DotNetNuke.Entities.Tabs.TabInfo)">CanManagePage(TabInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanManagePage(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanManagePage_DotNetNuke_Entities_Tabs_TabInfo_">PermissionProvider.CanManagePage(TabInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanNavigateToPage_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanNavigateToPage*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanNavigateToPage_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanNavigateToPage(DotNetNuke.Entities.Tabs.TabInfo)">CanNavigateToPage(TabInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanNavigateToPage(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanNavigateToPage_DotNetNuke_Entities_Tabs_TabInfo_">PermissionProvider.CanNavigateToPage(TabInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanViewModule_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanViewModule*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanViewModule_DotNetNuke_Entities_Modules_ModuleInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanViewModule(DotNetNuke.Entities.Modules.ModuleInfo)">CanViewModule(ModuleInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanViewModule(ModuleInfo module)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.ModuleInfo.html">ModuleInfo</a></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanViewModule_DotNetNuke_Entities_Modules_ModuleInfo_">PermissionProvider.CanViewModule(ModuleInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanViewPage_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanViewPage*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_CanViewPage_DotNetNuke_Entities_Tabs_TabInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.CanViewPage(DotNetNuke.Entities.Tabs.TabInfo)">CanViewPage(TabInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanViewPage(TabInfo tab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_CanViewPage_DotNetNuke_Entities_Tabs_TabInfo_">PermissionProvider.CanViewPage(TabInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_GetFolderPermissionsCollectionByFolder_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.GetFolderPermissionsCollectionByFolder*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_GetFolderPermissionsCollectionByFolder_System_Int32_System_String_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.GetFolderPermissionsCollectionByFolder(System.Int32,System.String)">GetFolderPermissionsCollectionByFolder(int, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override FolderPermissionCollection GetFolderPermissionsCollectionByFolder(int portalId, string folder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.FolderPermissionCollection.html">FolderPermissionCollection</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_GetFolderPermissionsCollectionByFolder_System_Int32_System_String_">PermissionProvider.GetFolderPermissionsCollectionByFolder(int, string)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_GetModulePermissions_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.GetModulePermissions*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_GetModulePermissions_System_Int32_System_Int32_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.GetModulePermissions(System.Int32,System.Int32)">GetModulePermissions(int, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ModulePermissionCollection GetModulePermissions(int moduleId, int tabId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">moduleId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">tabId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.ModulePermissionCollection.html">ModulePermissionCollection</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_GetModulePermissions_System_Int32_System_Int32_">PermissionProvider.GetModulePermissions(int, int)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_GetTabPermissions_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.GetTabPermissions*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_GetTabPermissions_System_Int32_System_Int32_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.GetTabPermissions(System.Int32,System.Int32)">GetTabPermissions(int, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override TabPermissionCollection GetTabPermissions(int tabId, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">tabId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.TabPermissionCollection.html">TabPermissionCollection</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_GetTabPermissions_System_Int32_System_Int32_">PermissionProvider.GetTabPermissions(int, int)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_HasDesktopModulePermission_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.HasDesktopModulePermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_HasDesktopModulePermission_DotNetNuke_Security_Permissions_DesktopModulePermissionCollection_System_String_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.HasDesktopModulePermission(DotNetNuke.Security.Permissions.DesktopModulePermissionCollection,System.String)">HasDesktopModulePermission(DesktopModulePermissionCollection, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool HasDesktopModulePermission(DesktopModulePermissionCollection desktopModulePermissions, string permissionKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.DesktopModulePermissionCollection.html">DesktopModulePermissionCollection</a></td>
+        <td><span class="parametername">desktopModulePermissions</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">permissionKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_HasDesktopModulePermission_DotNetNuke_Security_Permissions_DesktopModulePermissionCollection_System_String_">PermissionProvider.HasDesktopModulePermission(DesktopModulePermissionCollection, string)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_HasFolderPermission_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.HasFolderPermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_HasFolderPermission_DotNetNuke_Security_Permissions_FolderPermissionCollection_System_String_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.HasFolderPermission(DotNetNuke.Security.Permissions.FolderPermissionCollection,System.String)">HasFolderPermission(FolderPermissionCollection, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool HasFolderPermission(FolderPermissionCollection objFolderPermissions, string permissionKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.FolderPermissionCollection.html">FolderPermissionCollection</a></td>
+        <td><span class="parametername">objFolderPermissions</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">permissionKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_HasFolderPermission_DotNetNuke_Security_Permissions_FolderPermissionCollection_System_String_">PermissionProvider.HasFolderPermission(FolderPermissionCollection, string)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_HasModuleAccess_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.HasModuleAccess*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_HasModuleAccess_DotNetNuke_Security_SecurityAccessLevel_System_String_DotNetNuke_Entities_Modules_ModuleInfo_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.HasModuleAccess(DotNetNuke.Security.SecurityAccessLevel,System.String,DotNetNuke.Entities.Modules.ModuleInfo)">HasModuleAccess(SecurityAccessLevel, string, ModuleInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool HasModuleAccess(SecurityAccessLevel accessLevel, string permissionKey, ModuleInfo moduleConfiguration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.SecurityAccessLevel.html">SecurityAccessLevel</a></td>
+        <td><span class="parametername">accessLevel</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">permissionKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.ModuleInfo.html">ModuleInfo</a></td>
+        <td><span class="parametername">moduleConfiguration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_HasModuleAccess_DotNetNuke_Security_SecurityAccessLevel_System_String_DotNetNuke_Entities_Modules_ModuleInfo_">PermissionProvider.HasModuleAccess(SecurityAccessLevel, string, ModuleInfo)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_HasTabPermission_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.HasTabPermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_HasTabPermission_DotNetNuke_Security_Permissions_TabPermissionCollection_System_String_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.HasTabPermission(DotNetNuke.Security.Permissions.TabPermissionCollection,System.String)">HasTabPermission(TabPermissionCollection, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool HasTabPermission(TabPermissionCollection tabPermissions, string permissionKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.TabPermissionCollection.html">TabPermissionCollection</a></td>
+        <td><span class="parametername">tabPermissions</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">permissionKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_HasTabPermission_DotNetNuke_Security_Permissions_TabPermissionCollection_System_String_">PermissionProvider.HasTabPermission(TabPermissionCollection, string)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_ImplicitRolesForFolders_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.ImplicitRolesForFolders*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_ImplicitRolesForFolders_System_Int32_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.ImplicitRolesForFolders(System.Int32)">ImplicitRolesForFolders(int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IEnumerable&lt;RoleInfo&gt; ImplicitRolesForFolders(int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="DotNetNuke.Security.Roles.RoleInfo.html">RoleInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_ImplicitRolesForFolders_System_Int32_">PermissionProvider.ImplicitRolesForFolders(int)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_ImplicitRolesForPages_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.ImplicitRolesForPages*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_ImplicitRolesForPages_System_Int32_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.ImplicitRolesForPages(System.Int32)">ImplicitRolesForPages(int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IEnumerable&lt;RoleInfo&gt; ImplicitRolesForPages(int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="DotNetNuke.Security.Roles.RoleInfo.html">RoleInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_ImplicitRolesForPages_System_Int32_">PermissionProvider.ImplicitRolesForPages(int)</a></div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_IsPortalEditor_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.IsPortalEditor*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider_IsPortalEditor" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.IsPortalEditor">IsPortalEditor()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsPortalEditor()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DotNetNuke.Security.Permissions.PermissionProvider.html#DotNetNuke_Security_Permissions_PermissionProvider_IsPortalEditor">PermissionProvider.IsPortalEditor()</a></div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(object)</a>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>by the community, for the community... <strong>#DNNCMS</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.3.1/anchor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"></script>
+    <script type="text/javascript">
+    	document.dnndocs = {
+    		algolia: function(selector) {
+    			return {
+    				container: selector,
+    				appId: 'ZPKP9SED9P',
+    				indexName: 'dnnsoftware',
+    				apiKey: '37bfc247275fb9e8fcecbda599134a30',
+    			}	
+    		}
+    	};	
+    	docsearch(document.dnndocs.algolia('#docsearch-navbar'));  
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+
+  </body>
+</html>

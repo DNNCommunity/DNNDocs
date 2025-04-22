@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ContentExtensions  -- DNN Docs</title>
+    <title>Interface IBusinessControllerProvider  -- DNN Docs</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ContentExtensions  -- DNN Docs">
+    <meta name="title" content="Interface IBusinessControllerProvider  -- DNN Docs">
     <meta name="generator" content="docfx ">
   
     <link rel="shortcut icon" href="../favicon.ico">
@@ -82,60 +82,30 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="DotNetNuke.Entities.Content.ContentExtensions">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider">
 
 
 
-  <h1 id="DotNetNuke_Entities_Content_ContentExtensions" data-uid="DotNetNuke.Entities.Content.ContentExtensions" class="text-break">Class ContentExtensions</h1>
+  <h1 id="DotNetNuke_Abstractions_Modules_IBusinessControllerProvider" data-uid="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider" class="text-break">Interface IBusinessControllerProvider</h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">ContentExtensions</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.html">DotNetNuke</a>.<a class="xref" href="DotNetNuke.Entities.html">Entities</a>.<a class="xref" href="DotNetNuke.Entities.Content.html">Content</a></h6>
-  <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
-  <h5 id="DotNetNuke_Entities_Content_ContentExtensions_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.html">DotNetNuke</a>.<a class="xref" href="DotNetNuke.Abstractions.html">Abstractions</a>.<a class="xref" href="DotNetNuke.Abstractions.Modules.html">Modules</a></h6>
+  <h6><strong>Assembly</strong>: DotNetNuke.Abstractions.dll</h6>
+  <h5 id="DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 7.0.0. Moving ContentExtensions to the DotNetNuke.Entities.Content namespace was an error. Please use DotNetNuke.Entities.Content.Common.ContentExtensions. Scheduled for removal in v10.0.0.&quot;)]
-public static class ContentExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IBusinessControllerProvider</code></pre>
   </div>
   <h3 id="methods">Methods
 </h3>
 
 
-  <a id="DotNetNuke_Entities_Content_ContentExtensions_ToDelimittedString_" data-uid="DotNetNuke.Entities.Content.ContentExtensions.ToDelimittedString*"></a>
-  <h4 id="DotNetNuke_Entities_Content_ContentExtensions_ToDelimittedString_System_Collections_Generic_List_DotNetNuke_Entities_Content_Taxonomy_Term__System_String_" data-uid="DotNetNuke.Entities.Content.ContentExtensions.ToDelimittedString(System.Collections.Generic.List{DotNetNuke.Entities.Content.Taxonomy.Term},System.String)">ToDelimittedString(List&lt;Term&gt;, string)</h4>
+  <a id="DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_GetInstance_" data-uid="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.GetInstance*"></a>
+  <h4 id="DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_GetInstance_System_String_" data-uid="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.GetInstance(System.String)">GetInstance(string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ToDelimittedString(this List&lt;Term&gt; terms, string delimiter)</code></pre>
+    <pre><code class="lang-csharp hljs">object GetInstance(string businessControllerTypeName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -148,13 +118,8 @@ public static class ContentExtensions</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.Term.html">Term</a>&gt;</td>
-        <td><span class="parametername">terms</span></td>
-        <td></td>
-      </tr>
-      <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">delimiter</span></td>
+        <td><span class="parametername">businessControllerTypeName</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -169,20 +134,20 @@ public static class ContentExtensions</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
 
-  <a id="DotNetNuke_Entities_Content_ContentExtensions_ToDelimittedString_" data-uid="DotNetNuke.Entities.Content.ContentExtensions.ToDelimittedString*"></a>
-  <h4 id="DotNetNuke_Entities_Content_ContentExtensions_ToDelimittedString_System_Collections_Generic_List_DotNetNuke_Entities_Content_Taxonomy_Term__System_String_System_String_" data-uid="DotNetNuke.Entities.Content.ContentExtensions.ToDelimittedString(System.Collections.Generic.List{DotNetNuke.Entities.Content.Taxonomy.Term},System.String,System.String)">ToDelimittedString(List&lt;Term&gt;, string, string)</h4>
+  <a id="DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_GetInstance_" data-uid="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.GetInstance*"></a>
+  <h4 id="DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_GetInstance_System_Type_" data-uid="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.GetInstance(System.Type)">GetInstance(Type)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ToDelimittedString(this List&lt;Term&gt; terms, string format, string delimiter)</code></pre>
+    <pre><code class="lang-csharp hljs">object GetInstance(Type businessControllerType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -195,18 +160,8 @@ public static class ContentExtensions</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.Term.html">Term</a>&gt;</td>
-        <td><span class="parametername">terms</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">format</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">delimiter</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">businessControllerType</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -221,11 +176,129 @@ public static class ContentExtensions</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+
+
+  <a id="DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_GetInstance_" data-uid="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.GetInstance*"></a>
+  <h4 id="DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_GetInstance__1_System_String_" data-uid="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.GetInstance``1(System.String)">GetInstance&lt;T&gt;(string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">T GetInstance&lt;T&gt;(string businessControllerTypeName) where T : class</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">businessControllerTypeName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_GetInstance_" data-uid="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.GetInstance*"></a>
+  <h4 id="DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_GetInstance__1_System_Type_" data-uid="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.GetInstance``1(System.Type)">GetInstance&lt;T&gt;(Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">T GetInstance&lt;T&gt;(Type businessControllerType) where T : class</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">businessControllerType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(object)</a>
+  </div>
 
 </article>
           </div>

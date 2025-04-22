@@ -154,8 +154,36 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PortalTemplateController()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please use overload with IBusinessControllerProvider. Scheduled removal in v12.0.0.&quot;)]
+public PortalTemplateController()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Entities_Portals_Templates_PortalTemplateController__ctor_" data-uid="DotNetNuke.Entities.Portals.Templates.PortalTemplateController.#ctor*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_Templates_PortalTemplateController__ctor_DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_" data-uid="DotNetNuke.Entities.Portals.Templates.PortalTemplateController.#ctor(DotNetNuke.Abstractions.Modules.IBusinessControllerProvider)">PortalTemplateController(IBusinessControllerProvider)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PortalTemplateController(IBusinessControllerProvider businessControllerProvider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.html">IBusinessControllerProvider</a></td>
+        <td><span class="parametername">businessControllerProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
 
@@ -213,7 +241,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public (bool success, string message) ExportPortalTemplate(int portalId, string fileName, string description, bool isMultiLanguage, IEnumerable&lt;string&gt; locales, string localizationCulture, IEnumerable&lt;int&gt; exportTabIds, bool includeContent, bool includeFiles, bool includeModules, bool includeProfile, bool includeRoles)</code></pre>
+    <pre><code class="lang-csharp hljs">public (bool Success, string Message) ExportPortalTemplate(int portalId, string fileName, string description, bool isMultiLanguage, IEnumerable&lt;string&gt; locales, string localizationCulture, IEnumerable&lt;int&gt; exportTabIds, bool includeContent, bool includeFiles, bool includeModules, bool includeProfile, bool includeRoles)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -297,7 +325,7 @@
     </thead>
     <tbody>
       <tr>
-        <td>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.string-.success">success</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.string-.message">message</a>)</td>
+        <td>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.string-.success">Success</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.string-.message">Message</a>)</td>
         <td></td>
       </tr>
     </tbody>

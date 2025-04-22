@@ -138,8 +138,41 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RedirectionController()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.0. Please use overload with IPortalController. Scheduled removal in v12.0.0.&quot;)]
+public RedirectionController()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Services_Mobile_RedirectionController__ctor_" data-uid="DotNetNuke.Services.Mobile.RedirectionController.#ctor*"></a>
+  <h4 id="DotNetNuke_Services_Mobile_RedirectionController__ctor_DotNetNuke_Entities_Portals_IPortalController_DotNetNuke_Abstractions_Logging_IEventLogger_" data-uid="DotNetNuke.Services.Mobile.RedirectionController.#ctor(DotNetNuke.Entities.Portals.IPortalController,DotNetNuke.Abstractions.Logging.IEventLogger)">RedirectionController(IPortalController, IEventLogger)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RedirectionController(IPortalController portalController, IEventLogger eventLogger)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
 

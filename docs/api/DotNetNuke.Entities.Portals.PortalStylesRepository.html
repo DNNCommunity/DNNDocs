@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ContentWorkflowSource  -- DNN Docs</title>
+    <title>Class PortalStylesRepository  -- DNN Docs</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ContentWorkflowSource  -- DNN Docs">
+    <meta name="title" content="Class PortalStylesRepository  -- DNN Docs">
     <meta name="generator" content="docfx ">
   
     <link rel="shortcut icon" href="../favicon.ico">
@@ -82,20 +82,46 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="DotNetNuke.Entities.Content.Workflow.ContentWorkflowSource">
+            <article class="content wrap" id="_content" data-uid="DotNetNuke.Entities.Portals.PortalStylesRepository">
 
 
 
-  <h1 id="DotNetNuke_Entities_Content_Workflow_ContentWorkflowSource" data-uid="DotNetNuke.Entities.Content.Workflow.ContentWorkflowSource" class="text-break">Class ContentWorkflowSource</h1>
+  <h1 id="DotNetNuke_Entities_Portals_PortalStylesRepository" data-uid="DotNetNuke.Entities.Portals.PortalStylesRepository" class="text-break">Class PortalStylesRepository</h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">ContentWorkflowSource</span></div>
+    <div class="level1"><a class="xref" href="DotNetNuke.Entities.Modules.Settings.SettingsRepository-1.html">SettingsRepository</a>&lt;<a class="xref" href="DotNetNuke.Entities.Portals.PortalStyles.html">PortalStyles</a>&gt;</div>
+    <div class="level2"><span class="xref">PortalStylesRepository</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="DotNetNuke.Entities.Modules.Settings.ISettingsRepository-1.html">ISettingsRepository</a>&lt;<a class="xref" href="DotNetNuke.Entities.Portals.PortalStyles.html">PortalStyles</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.Modules.Settings.SettingsRepository-1.html#DotNetNuke_Entities_Modules_Settings_SettingsRepository_1_GetSettings_DotNetNuke_Entities_Modules_ModuleInfo_">SettingsRepository&lt;PortalStyles&gt;.GetSettings(ModuleInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.Modules.Settings.SettingsRepository-1.html#DotNetNuke_Entities_Modules_Settings_SettingsRepository_1_GetSettings_System_Int32_">SettingsRepository&lt;PortalStyles&gt;.GetSettings(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.Modules.Settings.SettingsRepository-1.html#DotNetNuke_Entities_Modules_Settings_SettingsRepository_1_SaveSettings_DotNetNuke_Entities_Modules_ModuleInfo__0_">SettingsRepository&lt;PortalStyles&gt;.SaveSettings(ModuleInfo, PortalStyles)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.Modules.Settings.SettingsRepository-1.html#DotNetNuke_Entities_Modules_Settings_SettingsRepository_1_SaveSettings_System_Int32__0_">SettingsRepository&lt;PortalStyles&gt;.SaveSettings(int, PortalStyles)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.Modules.Settings.SettingsRepository-1.html#DotNetNuke_Entities_Modules_Settings_SettingsRepository_1_LoadMapping">SettingsRepository&lt;PortalStyles&gt;.LoadMapping()</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.Modules.Settings.SettingsRepository-1.html#DotNetNuke_Entities_Modules_Settings_SettingsRepository_1_CreateMapping">SettingsRepository&lt;PortalStyles&gt;.CreateMapping()</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.Modules.Settings.SettingsRepository-1.html#DotNetNuke_Entities_Modules_Settings_SettingsRepository_1_MappingCacheKey">SettingsRepository&lt;PortalStyles&gt;.MappingCacheKey</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
@@ -118,127 +144,28 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.html">DotNetNuke</a>.<a class="xref" href="DotNetNuke.Entities.html">Entities</a>.<a class="xref" href="DotNetNuke.Entities.Content.html">Content</a>.<a class="xref" href="DotNetNuke.Entities.Content.Workflow.html">Workflow</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.html">DotNetNuke</a>.<a class="xref" href="DotNetNuke.Entities.html">Entities</a>.<a class="xref" href="DotNetNuke.Entities.Portals.html">Portals</a></h6>
   <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
-  <h5 id="DotNetNuke_Entities_Content_Workflow_ContentWorkflowSource_syntax">Syntax</h5>
+  <h5 id="DotNetNuke_Entities_Portals_PortalStylesRepository_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 7.4.0. Use IWorkflowEngine. Scheduled for removal in v10.0.0.&quot;)]
-public class ContentWorkflowSource</code></pre>
+    <pre><code class="lang-csharp hljs">public class PortalStylesRepository : SettingsRepository&lt;PortalStyles&gt;, ISettingsRepository&lt;PortalStyles&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
 
 
-  <a id="DotNetNuke_Entities_Content_Workflow_ContentWorkflowSource__ctor_" data-uid="DotNetNuke.Entities.Content.Workflow.ContentWorkflowSource.#ctor*"></a>
-  <h4 id="DotNetNuke_Entities_Content_Workflow_ContentWorkflowSource__ctor" data-uid="DotNetNuke.Entities.Content.Workflow.ContentWorkflowSource.#ctor">ContentWorkflowSource()</h4>
+  <a id="DotNetNuke_Entities_Portals_PortalStylesRepository__ctor_" data-uid="DotNetNuke.Entities.Portals.PortalStylesRepository.#ctor*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalStylesRepository__ctor" data-uid="DotNetNuke.Entities.Portals.PortalStylesRepository.#ctor">PortalStylesRepository()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ContentWorkflowSource()</code></pre>
+    <pre><code class="lang-csharp hljs">public PortalStylesRepository()</code></pre>
   </div>
-  <h3 id="properties">Properties
-</h3>
-
-
-  <a id="DotNetNuke_Entities_Content_Workflow_ContentWorkflowSource_SourceId_" data-uid="DotNetNuke.Entities.Content.Workflow.ContentWorkflowSource.SourceId*"></a>
-  <h4 id="DotNetNuke_Entities_Content_Workflow_ContentWorkflowSource_SourceId" data-uid="DotNetNuke.Entities.Content.Workflow.ContentWorkflowSource.SourceId">SourceId</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int SourceId { get; set; }</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Entities.Modules.Settings.ISettingsRepository-1.html">ISettingsRepository&lt;T&gt;</a>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="DotNetNuke_Entities_Content_Workflow_ContentWorkflowSource_SourceName_" data-uid="DotNetNuke.Entities.Content.Workflow.ContentWorkflowSource.SourceName*"></a>
-  <h4 id="DotNetNuke_Entities_Content_Workflow_ContentWorkflowSource_SourceName" data-uid="DotNetNuke.Entities.Content.Workflow.ContentWorkflowSource.SourceName">SourceName</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string SourceName { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="DotNetNuke_Entities_Content_Workflow_ContentWorkflowSource_SourceType_" data-uid="DotNetNuke.Entities.Content.Workflow.ContentWorkflowSource.SourceType*"></a>
-  <h4 id="DotNetNuke_Entities_Content_Workflow_ContentWorkflowSource_SourceType" data-uid="DotNetNuke.Entities.Content.Workflow.ContentWorkflowSource.SourceType">SourceType</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string SourceType { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="DotNetNuke_Entities_Content_Workflow_ContentWorkflowSource_WorkflowId_" data-uid="DotNetNuke.Entities.Content.Workflow.ContentWorkflowSource.WorkflowId*"></a>
-  <h4 id="DotNetNuke_Entities_Content_Workflow_ContentWorkflowSource_WorkflowId" data-uid="DotNetNuke.Entities.Content.Workflow.ContentWorkflowSource.WorkflowId">WorkflowId</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int WorkflowId { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(object)</a>

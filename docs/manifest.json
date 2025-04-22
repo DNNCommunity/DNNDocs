@@ -875,6 +875,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Dnn.ExportImport.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dnn.ExportImport.Startup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dnn.ExportImport.Startup",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dnn.ExportImport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dnn.ExportImport.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dnn.ExportImport",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Dnn.PersonaBar.Library.AppEvents.Attributes.IgnoreVersionMatchCheckAttribute.yml",
       "output": {
         ".html": {
@@ -997,7 +1025,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Dnn.PersonaBar.Library.Attributes.MenuPermissionAttribute",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Dnn.PersonaBar.Library.Attributes.MenuPermissionAttribute.yml\" sourcestartlinenumber=\"1\">An attribute which allows specifying Persona Bar permissions on a Web API controller class or action method.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2387,6 +2415,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.Modules.IBusinessControllerProvider",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Modules.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Modules.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.Modules",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Abstractions.Portals.IPortalAliasInfo.yml",
       "output": {
         ".html": {
@@ -2439,6 +2495,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Abstractions.Portals.IPortalSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Portals.IPortalStyles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Portals.IPortalStyles.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.Portals.IPortalStyles",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Portals.StyleColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Portals.StyleColor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.Portals.StyleColor",
       "Summary": null
     },
     {
@@ -3157,6 +3241,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Collections.SerializablePagedList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Collections.SerializablePagedList-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Collections.SerializablePagedList<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Collections.yml",
       "output": {
         ".html": {
@@ -3363,6 +3461,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Common.Internal.IGlobals",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Common.Internal.IRoutingManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Common.Internal.IRoutingManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Common.Internal.IRoutingManager",
       "Summary": null
     },
     {
@@ -4319,6 +4431,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.ComponentModel.ContainerWithServiceProviderFallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.ComponentModel.ContainerWithServiceProviderFallback.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.ComponentModel.ContainerWithServiceProviderFallback",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.ComponentModel.DataAnnotations.CacheableAttribute.yml",
       "output": {
         ".html": {
@@ -5005,20 +5131,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Entities.Content.ContentExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Entities.Content.ContentExtensions.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Entities.Content.ContentExtensions",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Entities.Content.ContentItem.yml",
       "output": {
         ".html": {
@@ -5439,104 +5551,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Entities.Content.Workflow.ContentWorkflow.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Entities.Content.Workflow.ContentWorkflow.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Entities.Content.Workflow.ContentWorkflow",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Entities.Content.Workflow.ContentWorkflowController.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Entities.Content.Workflow.ContentWorkflowController.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Entities.Content.Workflow.ContentWorkflowController",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Entities.Content.Workflow.ContentWorkflowLog.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Entities.Content.Workflow.ContentWorkflowLog.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Entities.Content.Workflow.ContentWorkflowLog",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Entities.Content.Workflow.ContentWorkflowLogType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Entities.Content.Workflow.ContentWorkflowLogType.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Entities.Content.Workflow.ContentWorkflowLogType",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Entities.Content.Workflow.ContentWorkflowSource.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Entities.Content.Workflow.ContentWorkflowSource.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Entities.Content.Workflow.ContentWorkflowSource",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Entities.Content.Workflow.ContentWorkflowState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Entities.Content.Workflow.ContentWorkflowState.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Entities.Content.Workflow.ContentWorkflowState",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Entities.Content.Workflow.ContentWorkflowStatePermission.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Entities.Content.Workflow.ContentWorkflowStatePermission.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Entities.Content.Workflow.ContentWorkflowStatePermission",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Entities.Content.Workflow.Dto.ActionMessage.yml",
       "output": {
         ".html": {
@@ -5799,34 +5813,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Entities.Content.Workflow.Exceptions",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Entities.Content.Workflow.IContentWorkflowAction.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Entities.Content.Workflow.IContentWorkflowAction.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Entities.Content.Workflow.IContentWorkflowAction",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Entities.Content.Workflow.IContentWorkflowController.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Entities.Content.Workflow.IContentWorkflowController.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Entities.Content.Workflow.IContentWorkflowController",
       "Summary": null
     },
     {
@@ -6447,6 +6433,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Entities.Modules.BusinessControllerProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Entities.Modules.BusinessControllerProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Entities.Modules.BusinessControllerProvider",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Entities.Modules.BusinessControllerProviderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Entities.Modules.BusinessControllerProviderExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Entities.Modules.BusinessControllerProviderExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Entities.Modules.Communications.IModuleCommunicator.yml",
       "output": {
         ".html": {
@@ -6807,20 +6821,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Entities.Modules.IPortable",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Entities.Modules.ISearchable.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Entities.Modules.ISearchable.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Entities.Modules.ISearchable",
       "Summary": null
     },
     {
@@ -7567,6 +7567,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Entities.Portals.Extensions.IPortalSettingsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Entities.Portals.Extensions.IPortalSettingsExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Entities.Portals.Extensions.IPortalSettingsExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Entities.Portals.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Entities.Portals.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Entities.Portals.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Entities.Portals.IPortalAliasController.yml",
       "output": {
         ".html": {
@@ -7955,6 +7983,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Entities.Portals.PortalSettingsExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Entities.Portals.PortalStyles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Entities.Portals.PortalStyles.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Entities.Portals.PortalStyles",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Entities.Portals.PortalStylesRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Entities.Portals.PortalStylesRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Entities.Portals.PortalStylesRepository",
       "Summary": null
     },
     {
@@ -12005,6 +12061,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Security.Permissions.AdvancedPermissionProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Security.Permissions.AdvancedPermissionProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Security.Permissions.AdvancedPermissionProvider",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Security.Permissions.Controls.DesktopModulePermissionsGrid.yml",
       "output": {
         ".html": {
@@ -12561,6 +12631,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Security.Roles.IRoleEventHandlers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Security.Roles.IRoleUpdateEventHandlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Security.Roles.IRoleUpdateEventHandlers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Security.Roles.IRoleUpdateEventHandlers",
       "Summary": null
     },
     {
@@ -13611,6 +13695,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Services.Connections.IConnector",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Connections.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Connections.Startup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.Connections.Startup",
       "Summary": null
     },
     {
@@ -18949,20 +19047,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Services.Search.IndexingProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Services.Search.IndexingProvider.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Services.Search.IndexingProvider",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Services.Search.IndexingProviderBase.yml",
       "output": {
         ".html": {
@@ -19117,20 +19201,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Services.Search.SearchConfig.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Services.Search.SearchConfig.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Services.Search.SearchConfig",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Services.Search.SearchContentModuleInfo.yml",
       "output": {
         ".html": {
@@ -19159,76 +19229,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Services.Search.SearchCriteria.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Services.Search.SearchCriteria.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Services.Search.SearchCriteria",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Services.Search.SearchCriteriaCollection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Services.Search.SearchCriteriaCollection.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Services.Search.SearchCriteriaCollection",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Services.Search.SearchDataStore.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Services.Search.SearchDataStore.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Services.Search.SearchDataStore",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Services.Search.SearchDataStoreController.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Services.Search.SearchDataStoreController.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Services.Search.SearchDataStoreController",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Services.Search.SearchDataStoreProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Services.Search.SearchDataStoreProvider.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Services.Search.SearchDataStoreProvider",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Services.Search.SearchEngineScheduler.yml",
       "output": {
         ".html": {
@@ -19239,62 +19239,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Services.Search.SearchEngineScheduler",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Services.Search.SearchItemInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Services.Search.SearchItemInfo.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Services.Search.SearchItemInfo",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Services.Search.SearchItemInfoCollection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Services.Search.SearchItemInfoCollection.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Services.Search.SearchItemInfoCollection",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Services.Search.SearchResultsInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Services.Search.SearchResultsInfo.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Services.Search.SearchResultsInfo",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Services.Search.SearchResultsInfoCollection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Services.Search.SearchResultsInfoCollection.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Services.Search.SearchResultsInfoCollection",
       "Summary": null
     },
     {
@@ -20223,34 +20167,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Services.SystemDateTime.SystemDateTime.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Services.SystemDateTime.SystemDateTime.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Services.SystemDateTime.SystemDateTime",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Services.SystemDateTime.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Services.SystemDateTime.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Services.SystemDateTime",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Services.SystemHealth.WebServerMonitor.yml",
       "output": {
         ".html": {
@@ -20877,20 +20793,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Services.Upgrade.Internals.InstallController",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Services.Upgrade.Internals.Steps.ActivateLicenseStep.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Services.Upgrade.Internals.Steps.ActivateLicenseStep.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Services.Upgrade.Internals.Steps.ActivateLicenseStep",
       "Summary": null
     },
     {
@@ -24003,6 +23905,258 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Api.ApiTokenAuthorizeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Api.ApiTokenAuthorizeAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Api.ApiTokenAuthorizeAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokenAuthMessageHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokenAuthMessageHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Api.Auth.ApiTokenAuthMessageHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.ApiTokenController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.ApiTokenController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Api.Auth.ApiTokens.ApiTokenController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.ApiTokenExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.ApiTokenExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Api.Auth.ApiTokens.ApiTokenExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.ApiTokenFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.ApiTokenFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Api.Auth.ApiTokens.ApiTokenFilter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.ApiTokenSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.ApiTokenSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Api.Auth.ApiTokens.ApiTokenSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.ApiTokenSettingsRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.ApiTokenSettingsRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Api.Auth.ApiTokens.ApiTokenSettingsRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.ApiTokenTimespan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.ApiTokenTimespan.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Api.Auth.ApiTokens.ApiTokenTimespan",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.IApiTokenController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.IApiTokenController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Api.Auth.ApiTokens.IApiTokenController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.Models.ApiToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.Models.ApiToken.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Api.Auth.ApiTokens.Models.ApiToken",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.Models.ApiTokenAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.Models.ApiTokenAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Api.Auth.ApiTokens.Models.ApiTokenAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.Models.ApiTokenBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.Models.ApiTokenBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Api.Auth.ApiTokens.Models.ApiTokenBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.Models.ApiTokenKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.Models.ApiTokenKey.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Api.Auth.ApiTokens.Models.ApiTokenKey",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.Models.ApiTokenScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.Models.ApiTokenScope.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Api.Auth.ApiTokens.Models.ApiTokenScope",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Api.Auth.ApiTokens.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.Repositories.IApiTokenRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.Repositories.IApiTokenRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Api.Auth.ApiTokens.Repositories.IApiTokenRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.Repositories.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Api.Auth.ApiTokens.Repositories",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Api.Auth.ApiTokens.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Api.Auth.ApiTokens",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Web.Api.Auth.AuthMessageHandlerBase.yml",
       "output": {
         ".html": {
@@ -24405,6 +24559,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Web.Api.Internal",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Api.RequireAdminAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Api.RequireAdminAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Api.RequireAdminAttribute",
       "Summary": null
     },
     {

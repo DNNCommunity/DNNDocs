@@ -152,13 +152,30 @@
 
 
   <a id="DotNetNuke_Services_Connections_ConnectionsManager_GetConnectors_" data-uid="DotNetNuke.Services.Connections.ConnectionsManager.GetConnectors*"></a>
-  <h4 id="DotNetNuke_Services_Connections_ConnectionsManager_GetConnectors" data-uid="DotNetNuke.Services.Connections.ConnectionsManager.GetConnectors">GetConnectors()</h4>
+  <h4 id="DotNetNuke_Services_Connections_ConnectionsManager_GetConnectors_System_IServiceProvider_" data-uid="DotNetNuke.Services.Connections.ConnectionsManager.GetConnectors(System.IServiceProvider)">GetConnectors(IServiceProvider)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IList&lt;IConnector&gt; GetConnectors()</code></pre>
+    <pre><code class="lang-csharp hljs">public IList&lt;IConnector&gt; GetConnectors(IServiceProvider serviceProvider)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></td>
+        <td><span class="parametername">serviceProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -201,16 +218,6 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="DotNetNuke.Framework.ServiceLocator-2.html#DotNetNuke_Framework_ServiceLocator_2_GetFactory">ServiceLocator&lt;IConnectionsManager, ConnectionsManager&gt;.GetFactory()</a></div>
-
-
-  <a id="DotNetNuke_Services_Connections_ConnectionsManager_RegisterConnections_" data-uid="DotNetNuke.Services.Connections.ConnectionsManager.RegisterConnections*"></a>
-  <h4 id="DotNetNuke_Services_Connections_ConnectionsManager_RegisterConnections" data-uid="DotNetNuke.Services.Connections.ConnectionsManager.RegisterConnections">RegisterConnections()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RegisterConnections()</code></pre>
-  </div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="DotNetNuke.Services.Connections.IConnectionsManager.html">IConnectionsManager</a>
