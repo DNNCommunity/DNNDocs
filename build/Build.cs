@@ -1,9 +1,7 @@
 using System;
 using System.Linq;
 using Nuke.Common;
-using Nuke.Common.CI;
 using Nuke.Common.CI.GitHubActions;
-using Nuke.Common.Execution;
 using Nuke.Common.IO;
 using Nuke.Common.Git;
 using Nuke.Common.Tools.DotNet;
@@ -11,14 +9,9 @@ using Nuke.Common.Tools.MSBuild;
 using Nuke.Common.ProjectModel;
 using Nuke.Common.Tooling;
 using Nuke.Common.Utilities.Collections;
-using static Nuke.Common.EnvironmentInfo;
-using static Nuke.Common.IO.FileSystemTasks;
-using static Nuke.Common.IO.PathConstruction;
-using static Nuke.Common.IO.TextTasks;
 using static Nuke.Common.Tools.DotNet.DotNetTasks;
 using static Nuke.Common.Tools.Git.GitTasks;
-using static Nuke.Common.Tools.MSBuild.MSBuildTasks;
-using System.Linq.Expressions;
+using Nuke.Common.Tools.NuGet;
 
 [GitHubActions(
     "PR_Validation",
@@ -43,11 +36,10 @@ class Build : NukeBuild
     // Default target is defined here for when the build is called without a target.
     public static int Main() => Execute<Build>(x => x.Serve);
 
-    [PackageExecutable(
+    [NuGetPackage(
         packageId: "docfx",
-        packageExecutable: "docfx.dll",
-        Framework = "net6.0"
-        )]
+        packageExecutable: "docfx.dll"
+    )]
     readonly Tool DnnDocFX;
 
     // Project specific constants
@@ -74,9 +66,9 @@ class Build : NukeBuild
         .Before(Restore)
         .Executes(() =>
         {
-            EnsureCleanDirectory(siteDirectory);
-            EnsureCleanDirectory(pluginsDirectory);
-            EnsureCleanDirectory(dnnPlatformDirectory);
+            siteDirectory.CreateOrCleanDirectory();
+            pluginsDirectory.CreateOrCleanDirectory();
+            dnnPlatformDirectory.CreateOrCleanDirectory();
         });
 
     Target Restore => _ => _
@@ -91,99 +83,75 @@ class Build : NukeBuild
     .DependsOn(Restore)
     .Executes(() =>
     {
-        MSBuild(s => s
-        .SetProjectFile(Solution.GetProject(pluginsProjectName))
-        .SetConfiguration(Configuration));
-        var sourceFile = Solution.GetProject(pluginsProjectName).Directory / "bin" / Configuration / "net6.0" / $"{pluginsProjectName}.dll";
-        CopyFileToDirectory(sourceFile, pluginsDirectory, FileExistsPolicy.OverwriteIfNewer, true);
+        var project = Solution.AllProjects.FirstOrDefault(p => p.Name.Contains("Plugins"));
+        DotNetBuild(s => s
+            .SetProjectFile(project)
+            .SetConfiguration(Configuration));
+        DotNetPublish(s => s
+            .SetProject(project)
+            .SetConfiguration(Configuration)
+            .SetOutput(pluginsDirectory));
     });
 
-    Target PullDnnRepo => _ => _
-        .OnlyWhenDynamic(() => IncludeApi())
+    Target PullDnnPackages => _ => _
         .DependsOn(Clean)
         .Executes(() =>
         {
-            // Prevents a bug where git sends ok message to the error output sink
-            GitLogger = (type, output) => Serilog.Log.Information(output);
-            Git($"clone https://github.com/dnnsoftware/Dnn.Platform.git {dnnPlatformDirectory}");
+            var packages = new string[] {
+                "DotNetNuke.Core",
+                "DotNetNuke.Abstractions",
+                "DotNetNuke.DependencyInjection",
+                "DotNetNuke.Instrumentation",
+                "Dnn.PersonaBar.Library",
+                "DotNetNuke.Providers.FolderProviders",
+                "DotNetNuke.SiteExportImport",
+                "DotNetNuke.Web",
+                "DotNetNuke.Web.Client",
+                "DotNetNuke.Web.Mvc",
+            };
+            packages.ForEach(package =>
+                NuGetTasks.NuGetInstall(_ => _
+                    .SetPackageID(package)
+                    .SetOutputDirectory(RootDirectory / "packages")));
         });
-
-    private bool IncludeApi()
-    {
-        if(!IsServerBuild)
-        {
-            Console.Write("Would you like to build the API documentation for Dnn.Platform? (yes/no) [no]: ");
-            var userResponse = Console.ReadKey();
-            if (userResponse.KeyChar.ToString().ToUpper() == "Y") {
-                return true;
-            }
-            return false;
-        }
-        return true;
-    }
 
     Target Compile => _ => _
         .DependsOn(Clean)
         .DependsOn(Restore)
         .DependsOn(BuildPlugins)
-        .DependsOn(PullDnnRepo)
+        .DependsOn(PullDnnPackages)
         .Executes(() =>
         {
-            DnnDocFX?.Invoke("metadata docfx.json");
-            DnnDocFX?.Invoke("build docfx.json");
-        });
+            if (!InvokedTargets.Contains(Deploy))
+            {
+                Environment.SetEnvironmentVariable("SKIP_CONTRIBUTORS", "true");
+            }
 
-    Target TemplateExportDefault => _ => _
-        .DependsOn(Restore)
-        .Executes(() =>
-        {
-            DnnDocFX?.Invoke("template export default");
+            DnnDocFX?.Invoke("metadata", RootDirectory);
+            DnnDocFX?.Invoke("build", RootDirectory);
         });
-
 
     Target Serve => _ => _
         .DependsOn(Clean)
         .DependsOn(Restore)
         .DependsOn(BuildPlugins)
-        .DependsOn(PullDnnRepo)
         .Executes(() =>
         {
-            DnnDocFX?.Invoke("--serve");
+            DnnDocFX?.Invoke("--serve --open-browser", RootDirectory);
         });
 
     Target CreateDeployBranch => _ => _
         .Before(Compile)
         .Executes(() =>
         {
-            // Prevents a bug where git sends ok message to the error output sink
-            GitLogger = (type, output) => Serilog.Log.Information(output);
-
             // Because in CI we are in detached head,
             // we create a local deploy branch to track our commit.
             Git("switch -c deploy");
         });
 
-    Target CreateTokenFile => _ => _
-        .Before(Compile)
-        .Executes(() => {
-            var filePath = RootDirectory / "github-token.txt";
-            Touch(filePath);
-            var token = Environment.GetEnvironmentVariable("ACCESS_TOKEN");
-            if (string.IsNullOrEmpty(token))
-            {
-                Serilog.Log.Warning("No api key specified.");
-            }
-            else
-            {
-                Serilog.Log.Information("Api key created.");
-                WriteAllText(filePath, token);
-            }
-        });
-
     Target Deploy => _ => _
         .OnlyWhenDynamic(() => gitRepository.ToString() == $"https://github.com/{organizationName}/{repositoryName}")
         .DependsOn(CreateDeployBranch)
-        .DependsOn(CreateTokenFile)
         .DependsOn(Compile)
         .Executes(() => {
             Git("config --global user.name 'DNN Community'");
@@ -192,7 +160,8 @@ class Build : NukeBuild
             Git("status");
             Git("add docs -f"); // Force adding because it is usually gitignored.
             Git("status");
-            Git("commit --allow-empty -m \"Commit latest build\""); // We allow an empty commit in case the last change did not affect the site.
+            var latestBuildMessage = "Commit latest build";
+            Git($"commit --allow-empty -m {latestBuildMessage}"); // We allow an empty commit in case the last change did not affect the site.
             Git("status");
             Git("fetch origin");
             Git("status");
@@ -203,11 +172,11 @@ class Build : NukeBuild
             Git("checkout deploy -- docs"); // pulls only docs from our temporary deploy branch.
             Git("status");
 
-            WriteAllText(RootDirectory / "docs" / "CNAME", "docs.dnncommunity.org");
+            (RootDirectory / "docs" / "CNAME").WriteAllText("docs.dnncommunity.org");
 
             Git("add docs"); // stage the docs
             Git("status");
-            Git("commit --allow-empty -m \"Commit latest build\"");
+            Git($"commit --allow-empty -m {latestBuildMessage}");
             Git("status");
             Git("push origin site"); // Should push only the change with linear history and a proper diff.
             Git("checkout deploy");
