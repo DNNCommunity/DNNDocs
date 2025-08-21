@@ -1186,12 +1186,70 @@
 
 
   <a id="DotNetNuke_Common_Utilities_UrlUtils_ReplaceQSParam_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.ReplaceQSParam*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_UrlUtils_ReplaceQSParam_DotNetNuke_Abstractions_Application_IHostSettings_System_String_System_String_System_String_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.ReplaceQSParam(DotNetNuke.Abstractions.Application.IHostSettings,System.String,System.String,System.String)">ReplaceQSParam(IHostSettings, string, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ReplaceQSParam(IHostSettings hostSettings, string url, string param, string newValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">url</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">param</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">newValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Utilities_UrlUtils_ReplaceQSParam_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.ReplaceQSParam*"></a>
   <h4 id="DotNetNuke_Common_Utilities_UrlUtils_ReplaceQSParam_System_String_System_String_System_String_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.ReplaceQSParam(System.String,System.String,System.String)">ReplaceQSParam(string, string, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ReplaceQSParam(string url, string param, string newValue)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static string ReplaceQSParam(string url, string param, string newValue)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1238,12 +1296,65 @@
 
 
   <a id="DotNetNuke_Common_Utilities_UrlUtils_StripQSParam_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.StripQSParam*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_UrlUtils_StripQSParam_DotNetNuke_Abstractions_Application_IHostSettings_System_String_System_String_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.StripQSParam(DotNetNuke.Abstractions.Application.IHostSettings,System.String,System.String)">StripQSParam(IHostSettings, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string StripQSParam(IHostSettings hostSettings, string url, string param)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">url</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">param</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Utilities_UrlUtils_StripQSParam_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.StripQSParam*"></a>
   <h4 id="DotNetNuke_Common_Utilities_UrlUtils_StripQSParam_System_String_System_String_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.StripQSParam(System.String,System.String)">StripQSParam(string, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string StripQSParam(string url, string param)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static string StripQSParam(string url, string param)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

@@ -291,6 +291,58 @@
 
 
   <a id="DotNetNuke_Entities_Profile_ProfileController_GetPropertyDefinition_" data-uid="DotNetNuke.Entities.Profile.ProfileController.GetPropertyDefinition*"></a>
+  <h4 id="DotNetNuke_Entities_Profile_ProfileController_GetPropertyDefinition_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_System_Int32_" data-uid="DotNetNuke.Entities.Profile.ProfileController.GetPropertyDefinition(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32,System.Int32)">GetPropertyDefinition(IHostSettings, int, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ProfilePropertyDefinition GetPropertyDefinition(IHostSettings hostSettings, int definitionId, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">definitionId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Profile.ProfilePropertyDefinition.html">ProfilePropertyDefinition</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Profile_ProfileController_GetPropertyDefinition_" data-uid="DotNetNuke.Entities.Profile.ProfileController.GetPropertyDefinition*"></a>
   <h4 id="DotNetNuke_Entities_Profile_ProfileController_GetPropertyDefinition_System_Int32_" data-uid="DotNetNuke.Entities.Profile.ProfileController.GetPropertyDefinition(System.Int32)">GetPropertyDefinition(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -339,7 +391,8 @@ public static ProfilePropertyDefinition GetPropertyDefinition(int definitionId)<
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ProfilePropertyDefinition GetPropertyDefinition(int definitionId, int portalId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static ProfilePropertyDefinition GetPropertyDefinition(int definitionId, int portalId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -381,12 +434,65 @@ public static ProfilePropertyDefinition GetPropertyDefinition(int definitionId)<
 
 
   <a id="DotNetNuke_Entities_Profile_ProfileController_GetPropertyDefinitionByName_" data-uid="DotNetNuke.Entities.Profile.ProfileController.GetPropertyDefinitionByName*"></a>
+  <h4 id="DotNetNuke_Entities_Profile_ProfileController_GetPropertyDefinitionByName_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_System_String_" data-uid="DotNetNuke.Entities.Profile.ProfileController.GetPropertyDefinitionByName(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32,System.String)">GetPropertyDefinitionByName(IHostSettings, int, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ProfilePropertyDefinition GetPropertyDefinitionByName(IHostSettings hostSettings, int portalId, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Profile.ProfilePropertyDefinition.html">ProfilePropertyDefinition</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Profile_ProfileController_GetPropertyDefinitionByName_" data-uid="DotNetNuke.Entities.Profile.ProfileController.GetPropertyDefinitionByName*"></a>
   <h4 id="DotNetNuke_Entities_Profile_ProfileController_GetPropertyDefinitionByName_System_Int32_System_String_" data-uid="DotNetNuke.Entities.Profile.ProfileController.GetPropertyDefinitionByName(System.Int32,System.String)">GetPropertyDefinitionByName(int, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ProfilePropertyDefinition GetPropertyDefinitionByName(int portalId, string name)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static ProfilePropertyDefinition GetPropertyDefinitionByName(int portalId, string name)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -428,12 +534,65 @@ public static ProfilePropertyDefinition GetPropertyDefinition(int definitionId)<
 
 
   <a id="DotNetNuke_Entities_Profile_ProfileController_GetPropertyDefinitionsByCategory_" data-uid="DotNetNuke.Entities.Profile.ProfileController.GetPropertyDefinitionsByCategory*"></a>
+  <h4 id="DotNetNuke_Entities_Profile_ProfileController_GetPropertyDefinitionsByCategory_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_System_String_" data-uid="DotNetNuke.Entities.Profile.ProfileController.GetPropertyDefinitionsByCategory(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32,System.String)">GetPropertyDefinitionsByCategory(IHostSettings, int, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ProfilePropertyDefinitionCollection GetPropertyDefinitionsByCategory(IHostSettings hostSettings, int portalId, string category)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">category</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Profile.ProfilePropertyDefinitionCollection.html">ProfilePropertyDefinitionCollection</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Profile_ProfileController_GetPropertyDefinitionsByCategory_" data-uid="DotNetNuke.Entities.Profile.ProfileController.GetPropertyDefinitionsByCategory*"></a>
   <h4 id="DotNetNuke_Entities_Profile_ProfileController_GetPropertyDefinitionsByCategory_System_Int32_System_String_" data-uid="DotNetNuke.Entities.Profile.ProfileController.GetPropertyDefinitionsByCategory(System.Int32,System.String)">GetPropertyDefinitionsByCategory(int, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ProfilePropertyDefinitionCollection GetPropertyDefinitionsByCategory(int portalId, string category)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static ProfilePropertyDefinitionCollection GetPropertyDefinitionsByCategory(int portalId, string category)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -453,6 +612,63 @@ public static ProfilePropertyDefinition GetPropertyDefinition(int definitionId)<
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">category</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Profile.ProfilePropertyDefinitionCollection.html">ProfilePropertyDefinitionCollection</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Profile_ProfileController_GetPropertyDefinitionsByPortal_" data-uid="DotNetNuke.Entities.Profile.ProfileController.GetPropertyDefinitionsByPortal*"></a>
+  <h4 id="DotNetNuke_Entities_Profile_ProfileController_GetPropertyDefinitionsByPortal_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_System_Boolean_System_Boolean_" data-uid="DotNetNuke.Entities.Profile.ProfileController.GetPropertyDefinitionsByPortal(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32,System.Boolean,System.Boolean)">GetPropertyDefinitionsByPortal(IHostSettings, int, bool, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ProfilePropertyDefinitionCollection GetPropertyDefinitionsByPortal(IHostSettings hostSettings, int portalId, bool clone, bool includeDeleted)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">clone</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">includeDeleted</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -569,7 +785,8 @@ public static ProfilePropertyDefinition GetPropertyDefinition(int definitionId)<
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ProfilePropertyDefinitionCollection GetPropertyDefinitionsByPortal(int portalId, bool clone, bool includeDeleted)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static ProfilePropertyDefinitionCollection GetPropertyDefinitionsByPortal(int portalId, bool clone, bool includeDeleted)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

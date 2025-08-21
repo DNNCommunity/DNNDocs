@@ -122,6 +122,12 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
+      <a class="xref" href="DotNetNuke.Framework.UserControlBase.html#DotNetNuke_Framework_UserControlBase_JavaScriptStringEncode_System_String_">UserControlBase.JavaScriptStringEncode(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.UserControlBase.html#DotNetNuke_Framework_UserControlBase_JavaScriptStringEncode_System_String_System_Boolean_">UserControlBase.JavaScriptStringEncode(string, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="DotNetNuke.Framework.UserControlBase.html#DotNetNuke_Framework_UserControlBase_IsHostMenu">UserControlBase.IsHostMenu</a>
     </div>
     <div>
@@ -1618,13 +1624,103 @@ public string GetCacheKey(int tabModuleId)</code></pre>
   </table>
 
 
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_LocalizeHtml_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.LocalizeHtml*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_LocalizeHtml_System_String_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.LocalizeHtml(System.String)">LocalizeHtml(string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IHtmlString LocalizeHtml(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ihtmlstring">IHtmlString</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_LocalizeJsString_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.LocalizeJsString*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_LocalizeJsString_System_String_System_Boolean_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.LocalizeJsString(System.String,System.Boolean)">LocalizeJsString(string, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IHtmlString LocalizeJsString(string key, bool addDoubleQuotes = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">addDoubleQuotes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ihtmlstring">IHtmlString</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Entities_Modules_PortalModuleBase_LocalizeSafeJsString_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.LocalizeSafeJsString*"></a>
   <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_LocalizeSafeJsString_System_String_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.LocalizeSafeJsString(System.String)">LocalizeSafeJsString(string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected string LocalizeSafeJsString(string key)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use LocalizeJsString. Scheduled for removal in v12.0.0.&quot;)]
+protected string LocalizeSafeJsString(string key)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1666,7 +1762,50 @@ public string GetCacheKey(int tabModuleId)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected string LocalizeString(string key)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use LocalizeText or LocalizeHtml. Scheduled for removal in v12.0.0.&quot;)]
+protected string LocalizeString(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Modules_PortalModuleBase_LocalizeText_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.LocalizeText*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_PortalModuleBase_LocalizeText_System_String_" data-uid="DotNetNuke.Entities.Modules.PortalModuleBase.LocalizeText(System.String)">LocalizeText(string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string LocalizeText(string key)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

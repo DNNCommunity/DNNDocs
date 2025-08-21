@@ -94,6 +94,10 @@
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
     <div class="level1"><span class="xref">JavaScript</span></div>
   </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="DotNetNuke.Framework.JavaScriptLibraries.IJavaScriptLibraryHelper.html">IJavaScriptLibraryHelper</a></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -122,7 +126,7 @@
   <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
   <h5 id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class JavaScript</code></pre>
+    <pre><code class="lang-csharp hljs">public class JavaScript : IJavaScriptLibraryHelper</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -136,6 +140,58 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected JavaScript()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript__ctor_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.#ctor*"></a>
+  <h4 id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript__ctor_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Application_IHostSettingsService_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Portals_IPortalController_DotNetNuke_Framework_JavaScriptLibraries_IJavaScriptLibraryController_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.#ctor(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Application.IHostSettingsService,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Portals.IPortalController,DotNetNuke.Framework.JavaScriptLibraries.IJavaScriptLibraryController)">JavaScript(IHostSettings, IHostSettingsService, IApplicationStatusInfo, IEventLogger, IPortalController, IJavaScriptLibraryController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public JavaScript(IHostSettings hostSettings, IHostSettingsService hostSettingsService, IApplicationStatusInfo appStatus, IEventLogger eventLogger, IPortalController portalController, IJavaScriptLibraryController javaScriptLibraryController)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettingsService.html">IHostSettingsService</a></td>
+        <td><span class="parametername">hostSettingsService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Framework.JavaScriptLibraries.IJavaScriptLibraryController.html">IJavaScriptLibraryController</a></td>
+        <td><span class="parametername">javaScriptLibraryController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
 
@@ -146,8 +202,108 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetJQueryScriptReference()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static string GetJQueryScriptReference()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_GetJQueryScriptReference_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.GetJQueryScriptReference*"></a>
+  <h4 id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_GetJQueryScriptReference_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Application_IHostSettingsService_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.GetJQueryScriptReference(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Application.IHostSettingsService)">GetJQueryScriptReference(IHostSettings, IHostSettingsService)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetJQueryScriptReference(IHostSettings hostSettings, IHostSettingsService hostSettingsService)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettingsService.html">IHostSettingsService</a></td>
+        <td><span class="parametername">hostSettingsService</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_GetScriptPath_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.GetScriptPath*"></a>
+  <h4 id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_GetScriptPath_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Application_IHostSettingsService_System_String_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.GetScriptPath(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Application.IHostSettingsService,System.String)">GetScriptPath(IHostSettings, IHostSettingsService, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetScriptPath(IHostSettings hostSettings, IHostSettingsService hostSettingsService, string libraryName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettingsService.html">IHostSettingsService</a></td>
+        <td><span class="parametername">hostSettingsService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">libraryName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -171,7 +327,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetScriptPath(string libraryName)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static string GetScriptPath(string libraryName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -208,12 +365,60 @@
 
 
   <a id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_IsInstalled_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.IsInstalled*"></a>
+  <h4 id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_IsInstalled_DotNetNuke_Framework_JavaScriptLibraries_IJavaScriptLibraryController_System_String_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.IsInstalled(DotNetNuke.Framework.JavaScriptLibraries.IJavaScriptLibraryController,System.String)">IsInstalled(IJavaScriptLibraryController, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInstalled(IJavaScriptLibraryController javaScriptLibraryController, string jsname)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Framework.JavaScriptLibraries.IJavaScriptLibraryController.html">IJavaScriptLibraryController</a></td>
+        <td><span class="parametername">javaScriptLibraryController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">jsname</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_IsInstalled_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.IsInstalled*"></a>
   <h4 id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_IsInstalled_System_String_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.IsInstalled(System.String)">IsInstalled(string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsInstalled(string jsname)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IJavaScriptLibraryController. Scheduled for removal in v12.0.0.&quot;)]
+public static bool IsInstalled(string jsname)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -250,12 +455,65 @@
 
 
   <a id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_JQueryUIFile_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.JQueryUIFile*"></a>
+  <h4 id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_JQueryUIFile_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Application_IHostSettingsService_System_Boolean_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.JQueryUIFile(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Application.IHostSettingsService,System.Boolean)">JQueryUIFile(IHostSettings, IHostSettingsService, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string JQueryUIFile(IHostSettings hostSettings, IHostSettingsService hostSettingsService, bool getMinFile)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettingsService.html">IHostSettingsService</a></td>
+        <td><span class="parametername">hostSettingsService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">getMinFile</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_JQueryUIFile_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.JQueryUIFile*"></a>
   <h4 id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_JQueryUIFile_System_Boolean_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.JQueryUIFile(System.Boolean)">JQueryUIFile(bool)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string JQueryUIFile(bool getMinFile)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static string JQueryUIFile(bool getMinFile)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -292,12 +550,65 @@
 
 
   <a id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_Register_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.Register*"></a>
+  <h4 id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_Register_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Application_IHostSettingsService_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Abstractions_Portals_IPortalSettings_System_Web_UI_Page_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.Register(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Application.IHostSettingsService,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Abstractions.Portals.IPortalSettings,System.Web.UI.Page)">Register(IHostSettings, IHostSettingsService, IApplicationStatusInfo, IEventLogger, IPortalSettings, Page)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Register(IHostSettings hostSettings, IHostSettingsService hostSettingsService, IApplicationStatusInfo appStatus, IEventLogger eventLogger, IPortalSettings portalSettings, Page page)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettingsService.html">IHostSettingsService</a></td>
+        <td><span class="parametername">hostSettingsService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalSettings.html">IPortalSettings</a></td>
+        <td><span class="parametername">portalSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.page">Page</a></td>
+        <td><span class="parametername">page</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_Register_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.Register*"></a>
   <h4 id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_Register_System_Web_UI_Page_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.Register(System.Web.UI.Page)">Register(Page)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Register(Page page)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static void Register(Page page)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -351,12 +662,154 @@
 
 
   <a id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_RequestRegistration_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.RequestRegistration*"></a>
+  <h4 id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_RequestRegistration_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Abstractions_Portals_IPortalSettings_System_String_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.RequestRegistration(DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Abstractions.Portals.IPortalSettings,System.String)">RequestRegistration(IApplicationStatusInfo, IEventLogger, IPortalSettings, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RequestRegistration(IApplicationStatusInfo appStatus, IEventLogger eventLogger, IPortalSettings portalSettings, string jsname)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalSettings.html">IPortalSettings</a></td>
+        <td><span class="parametername">portalSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">jsname</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_RequestRegistration_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.RequestRegistration*"></a>
+  <h4 id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_RequestRegistration_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Abstractions_Portals_IPortalSettings_System_String_System_Version_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.RequestRegistration(DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Abstractions.Portals.IPortalSettings,System.String,System.Version)">RequestRegistration(IApplicationStatusInfo, IEventLogger, IPortalSettings, string, Version)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RequestRegistration(IApplicationStatusInfo appStatus, IEventLogger eventLogger, IPortalSettings portalSettings, string jsname, Version version)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalSettings.html">IPortalSettings</a></td>
+        <td><span class="parametername">portalSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">jsname</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.version">Version</a></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_RequestRegistration_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.RequestRegistration*"></a>
+  <h4 id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_RequestRegistration_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Abstractions_Portals_IPortalSettings_System_String_System_Version_DotNetNuke_Framework_JavaScriptLibraries_SpecificVersion_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.RequestRegistration(DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Abstractions.Portals.IPortalSettings,System.String,System.Version,DotNetNuke.Framework.JavaScriptLibraries.SpecificVersion)">RequestRegistration(IApplicationStatusInfo, IEventLogger, IPortalSettings, string, Version, SpecificVersion)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RequestRegistration(IApplicationStatusInfo appStatus, IEventLogger eventLogger, IPortalSettings portalSettings, string jsname, Version version, SpecificVersion specific)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalSettings.html">IPortalSettings</a></td>
+        <td><span class="parametername">portalSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">jsname</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.version">Version</a></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Framework.JavaScriptLibraries.SpecificVersion.html">SpecificVersion</a></td>
+        <td><span class="parametername">specific</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_RequestRegistration_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.RequestRegistration*"></a>
   <h4 id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_RequestRegistration_System_String_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.RequestRegistration(System.String)">RequestRegistration(string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RequestRegistration(string jsname)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IApplicationStatusInfo. Scheduled for removal in v12.0.0.&quot;)]
+public static void RequestRegistration(string jsname)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -383,7 +836,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RequestRegistration(string jsname, Version version)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IApplicationStatusInfo. Scheduled for removal in v12.0.0.&quot;)]
+public static void RequestRegistration(string jsname, Version version)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -415,7 +869,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RequestRegistration(string jsname, Version version, SpecificVersion specific)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IApplicationStatusInfo. Scheduled for removal in v12.0.0.&quot;)]
+public static void RequestRegistration(string jsname, Version version, SpecificVersion specific)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -452,7 +907,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool UseDebugScript()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static bool UseDebugScript()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
@@ -471,13 +927,103 @@
   </table>
 
 
+  <a id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_UseDebugScript_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.UseDebugScript*"></a>
+  <h4 id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_UseDebugScript_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.UseDebugScript(DotNetNuke.Abstractions.Application.IApplicationStatusInfo)">UseDebugScript(IApplicationStatusInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool UseDebugScript(IApplicationStatusInfo appStatus)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_Version_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.Version*"></a>
+  <h4 id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_Version_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_System_String_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.Version(DotNetNuke.Abstractions.Application.IApplicationStatusInfo,System.String)">Version(IApplicationStatusInfo, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Version(IApplicationStatusInfo appStatus, string jsname)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">jsname</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_Version_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.Version*"></a>
   <h4 id="DotNetNuke_Framework_JavaScriptLibraries_JavaScript_Version_System_String_" data-uid="DotNetNuke.Framework.JavaScriptLibraries.JavaScript.Version(System.String)">Version(string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string Version(string jsname)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IApplicationStatusInfo. Scheduled for removal in v12.0.0.&quot;)]
+public static string Version(string jsname)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -511,6 +1057,10 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Framework.JavaScriptLibraries.IJavaScriptLibraryHelper.html">IJavaScriptLibraryHelper</a>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(object)</a>

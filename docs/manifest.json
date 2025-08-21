@@ -1309,146 +1309,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Dnn.PersonaBar.Library.DTO.Permission.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Dnn.PersonaBar.Library.DTO.Permission.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Dnn.PersonaBar.Library.DTO.Permission",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Dnn.PersonaBar.Library.DTO.Permissions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Dnn.PersonaBar.Library.DTO.Permissions.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Dnn.PersonaBar.Library.DTO.Permissions",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Dnn.PersonaBar.Library.DTO.RolePermission.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Dnn.PersonaBar.Library.DTO.RolePermission.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Dnn.PersonaBar.Library.DTO.RolePermission",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Dnn.PersonaBar.Library.DTO.Tabs.LocaleInfoDto.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Dnn.PersonaBar.Library.DTO.Tabs.LocaleInfoDto.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Dnn.PersonaBar.Library.DTO.Tabs.LocaleInfoDto",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Dnn.PersonaBar.Library.DTO.Tabs.NodeCheckedState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Dnn.PersonaBar.Library.DTO.Tabs.NodeCheckedState.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Dnn.PersonaBar.Library.DTO.Tabs.NodeCheckedState",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Dnn.PersonaBar.Library.DTO.Tabs.TabDto.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Dnn.PersonaBar.Library.DTO.Tabs.TabDto.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Dnn.PersonaBar.Library.DTO.Tabs.TabDto",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Dnn.PersonaBar.Library.DTO.Tabs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Dnn.PersonaBar.Library.DTO.Tabs.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Dnn.PersonaBar.Library.DTO.Tabs",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Dnn.PersonaBar.Library.DTO.UserPermission.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Dnn.PersonaBar.Library.DTO.UserPermission.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Dnn.PersonaBar.Library.DTO.UserPermission",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Dnn.PersonaBar.Library.DTO.UserSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Dnn.PersonaBar.Library.DTO.UserSettings.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Dnn.PersonaBar.Library.DTO.UserSettings",
-      "Summary": "<p sourcefile=\"api/Dnn.PersonaBar.Library.DTO.UserSettings.yml\" sourcestartlinenumber=\"1\">Persona Bar Settings For User.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Dnn.PersonaBar.Library.DTO.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Dnn.PersonaBar.Library.DTO.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Dnn.PersonaBar.Library.DTO",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Dnn.PersonaBar.Library.Data.DataService.yml",
       "output": {
         ".html": {
@@ -1505,6 +1365,104 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Dnn.PersonaBar.Library.Dto.Permission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dnn.PersonaBar.Library.Dto.Permission.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dnn.PersonaBar.Library.Dto.Permission",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dnn.PersonaBar.Library.Dto.Permissions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dnn.PersonaBar.Library.Dto.Permissions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dnn.PersonaBar.Library.Dto.Permissions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dnn.PersonaBar.Library.Dto.RolePermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dnn.PersonaBar.Library.Dto.RolePermission.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dnn.PersonaBar.Library.Dto.RolePermission",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dnn.PersonaBar.Library.Dto.Tabs.LocaleInfoDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dnn.PersonaBar.Library.Dto.Tabs.LocaleInfoDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dnn.PersonaBar.Library.Dto.Tabs.LocaleInfoDto",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dnn.PersonaBar.Library.Dto.Tabs.NodeCheckedState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dnn.PersonaBar.Library.Dto.Tabs.NodeCheckedState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dnn.PersonaBar.Library.Dto.Tabs.NodeCheckedState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dnn.PersonaBar.Library.Dto.Tabs.TabDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dnn.PersonaBar.Library.Dto.Tabs.TabDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dnn.PersonaBar.Library.Dto.Tabs.TabDto",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dnn.PersonaBar.Library.Dto.Tabs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dnn.PersonaBar.Library.Dto.Tabs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dnn.PersonaBar.Library.Dto.Tabs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Dnn.PersonaBar.Library.Dto.TimeZoneDto.yml",
       "output": {
         ".html": {
@@ -1519,10 +1477,38 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Dnn.PersonaBar.Library.Dto_1.yml",
+      "source_relative_path": "api/Dnn.PersonaBar.Library.Dto.UserPermission.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Dnn.PersonaBar.Library.Dto_1.html"
+          "relative_path": "api/Dnn.PersonaBar.Library.Dto.UserPermission.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dnn.PersonaBar.Library.Dto.UserPermission",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dnn.PersonaBar.Library.Dto.UserSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dnn.PersonaBar.Library.Dto.UserSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dnn.PersonaBar.Library.Dto.UserSettings",
+      "Summary": "<p sourcefile=\"api/Dnn.PersonaBar.Library.Dto.UserSettings.yml\" sourcestartlinenumber=\"1\">Persona Bar Settings For User.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dnn.PersonaBar.Library.Dto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dnn.PersonaBar.Library.Dto.html"
         }
       },
       "version": "",
@@ -1599,7 +1585,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Dnn.PersonaBar.Library.Helper.PortalHelper",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Dnn.PersonaBar.Library.Helper.PortalHelper.yml\" sourcestartlinenumber=\"1\">A helper for portals.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1795,7 +1781,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Dnn.PersonaBar.Library.Prompt.Attributes.ConsoleCommandAttribute",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Dnn.PersonaBar.Library.Prompt.Attributes.ConsoleCommandAttribute.yml\" sourcestartlinenumber=\"1\">An attribute to mark Prompt console commands.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1879,7 +1865,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Dnn.PersonaBar.Library.Prompt.ConsoleCommandBase.yml\" sourcestartlinenumber=\"1\">A Prompt console command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1893,7 +1879,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Dnn.PersonaBar.Library.Prompt.IConsoleCommand",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Dnn.PersonaBar.Library.Prompt.IConsoleCommand.yml\" sourcestartlinenumber=\"1\">A Prompt console command.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1907,7 +1893,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Dnn.PersonaBar.Library.Prompt.Models.ConsoleErrorResultModel",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Dnn.PersonaBar.Library.Prompt.Models.ConsoleErrorResultModel.yml\" sourcestartlinenumber=\"1\">A console result that represents an error.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1935,7 +1921,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Dnn.PersonaBar.Library.Prompt.Models.PagingInfo",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Dnn.PersonaBar.Library.Prompt.Models.PagingInfo.yml\" sourcestartlinenumber=\"1\">Information about paging.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2103,7 +2089,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Dnn.PersonaBar.Library.ServiceScope",
-      "Summary": ""
+      "Summary": "<p sourcefile=\"api/Dnn.PersonaBar.Library.ServiceScope.yml\" sourcestartlinenumber=\"1\">The scope of a menu item.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2117,6 +2103,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Dnn.PersonaBar.Library",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Application.CacheControlHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Application.CacheControlHeader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.Application.CacheControlHeader",
       "Summary": null
     },
     {
@@ -2163,6 +2163,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Application.IHostSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Application.IHostSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.Application.IHostSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Abstractions.Application.IHostSettingsService.yml",
       "output": {
         ".html": {
@@ -2177,6 +2191,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Application.IMailSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Application.IMailSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.Application.IMailSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Application.PerformanceSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Application.PerformanceSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.Application.PerformanceSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Abstractions.Application.ReleaseMode.yml",
       "output": {
         ".html": {
@@ -2187,6 +2229,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Abstractions.Application.ReleaseMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Application.SchedulerMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Application.SchedulerMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.Application.SchedulerMode",
       "Summary": null
     },
     {
@@ -2667,6 +2723,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Prompt.IConsoleOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Prompt.IConsoleOutput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.Prompt.IConsoleOutput",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Abstractions.Prompt.IConsoleResultModel.yml",
       "output": {
         ".html": {
@@ -2705,6 +2775,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Abstractions.Prompt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Security.IFileExtensionAllowList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Security.IFileExtensionAllowList.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.Security.IFileExtensionAllowList",
       "Summary": null
     },
     {
@@ -6153,6 +6237,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Entities.Host.HostSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Entities.Host.HostSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Entities.Host.HostSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Entities.Host.IIPFilterController.yml",
       "output": {
         ".html": {
@@ -6205,6 +6303,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Entities.Host.IServerWebRequestAdapter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Entities.Host.MailSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Entities.Host.MailSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Entities.Host.MailSettings",
       "Summary": null
     },
     {
@@ -9695,20 +9807,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DotNetNuke.Entities.Users.PurgeUsersOnline.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DotNetNuke.Entities.Users.PurgeUsersOnline.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "DotNetNuke.Entities.Users.PurgeUsersOnline",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Entities.Users.RelationshipDirection.yml",
       "output": {
         ".html": {
@@ -10885,6 +10983,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Framework.JavaScriptLibraries.IJavaScriptLibraryHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Framework.JavaScriptLibraries.IJavaScriptLibraryHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Framework.JavaScriptLibraries.IJavaScriptLibraryHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Framework.JavaScriptLibraries.JavaScript.yml",
       "output": {
         ".html": {
@@ -11669,6 +11781,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Prompt.HtmlOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Prompt.HtmlOutput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Prompt.HtmlOutput",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Prompt.PagingInfo.yml",
       "output": {
         ".html": {
@@ -11679,6 +11805,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Prompt.PagingInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Prompt.TextOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Prompt.TextOutput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Prompt.TextOutput",
       "Summary": null
     },
     {
@@ -15827,6 +15967,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Installer.ILocalUpgradeService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Installer.ILocalUpgradeService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.Installer.ILocalUpgradeService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Services.Installer.InstallFile.yml",
       "output": {
         ".html": {
@@ -16187,6 +16341,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Services.Installer.LegacyUtil",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Installer.LocalUpgradeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Installer.LocalUpgradeInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.Installer.LocalUpgradeInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Installer.LocalUpgradeService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Installer.LocalUpgradeService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.Installer.LocalUpgradeService",
       "Summary": null
     },
     {
@@ -20363,6 +20545,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Tokens.HtmlEncodingPropertyAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Tokens.HtmlEncodingPropertyAccess.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.Tokens.HtmlEncodingPropertyAccess",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Services.Tokens.HtmlTokenReplace.yml",
       "output": {
         ".html": {
@@ -20401,6 +20597,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Services.Tokens.JavaScriptDto",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Tokens.JavaScriptEncodingPropertyAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Tokens.JavaScriptEncodingPropertyAccess.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.Tokens.JavaScriptEncodingPropertyAccess",
       "Summary": null
     },
     {
@@ -20527,6 +20737,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Services.Tokens.TokenReplace",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Tokens.UrlEncodingPropertyAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Tokens.UrlEncodingPropertyAccess.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.Tokens.UrlEncodingPropertyAccess",
       "Summary": null
     },
     {

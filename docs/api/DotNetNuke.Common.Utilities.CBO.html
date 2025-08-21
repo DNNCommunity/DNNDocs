@@ -156,6 +156,33 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public CBO()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Common_Utilities_CBO__ctor_" data-uid="DotNetNuke.Common.Utilities.CBO.#ctor*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO__ctor_DotNetNuke_Abstractions_Application_IHostSettings_" data-uid="DotNetNuke.Common.Utilities.CBO.#ctor(DotNetNuke.Abstractions.Application.IHostSettings)">CBO(IHostSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CBO(IHostSettings hostSettings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
 
@@ -1515,12 +1542,152 @@
 
 
   <a id="DotNetNuke_Common_Utilities_CBO_GetCachedObject_" data-uid="DotNetNuke.Common.Utilities.CBO.GetCachedObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_GetCachedObject__1_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Common_Utilities_CacheItemArgs_DotNetNuke_Common_Utilities_CacheItemExpiredCallback_" data-uid="DotNetNuke.Common.Utilities.CBO.GetCachedObject``1(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Common.Utilities.CacheItemArgs,DotNetNuke.Common.Utilities.CacheItemExpiredCallback)">GetCachedObject&lt;TObject&gt;(IHostSettings, CacheItemArgs, CacheItemExpiredCallback)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TObject GetCachedObject&lt;TObject&gt;(IHostSettings hostSettings, CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Common.Utilities.CacheItemArgs.html">CacheItemArgs</a></td>
+        <td><span class="parametername">cacheItemArgs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Common.Utilities.CacheItemExpiredCallback.html">CacheItemExpiredCallback</a></td>
+        <td><span class="parametername">cacheItemExpired</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Utilities_CBO_GetCachedObject_" data-uid="DotNetNuke.Common.Utilities.CBO.GetCachedObject*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_CBO_GetCachedObject__1_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Common_Utilities_CacheItemArgs_DotNetNuke_Common_Utilities_CacheItemExpiredCallback_System_Boolean_" data-uid="DotNetNuke.Common.Utilities.CBO.GetCachedObject``1(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Common.Utilities.CacheItemArgs,DotNetNuke.Common.Utilities.CacheItemExpiredCallback,System.Boolean)">GetCachedObject&lt;TObject&gt;(IHostSettings, CacheItemArgs, CacheItemExpiredCallback, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TObject GetCachedObject&lt;TObject&gt;(IHostSettings hostSettings, CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired, bool saveInDictionary)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Common.Utilities.CacheItemArgs.html">CacheItemArgs</a></td>
+        <td><span class="parametername">cacheItemArgs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Common.Utilities.CacheItemExpiredCallback.html">CacheItemExpiredCallback</a></td>
+        <td><span class="parametername">cacheItemExpired</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">saveInDictionary</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Utilities_CBO_GetCachedObject_" data-uid="DotNetNuke.Common.Utilities.CBO.GetCachedObject*"></a>
   <h4 id="DotNetNuke_Common_Utilities_CBO_GetCachedObject__1_DotNetNuke_Common_Utilities_CacheItemArgs_DotNetNuke_Common_Utilities_CacheItemExpiredCallback_" data-uid="DotNetNuke.Common.Utilities.CBO.GetCachedObject``1(DotNetNuke.Common.Utilities.CacheItemArgs,DotNetNuke.Common.Utilities.CacheItemExpiredCallback)">GetCachedObject&lt;TObject&gt;(CacheItemArgs, CacheItemExpiredCallback)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TObject GetCachedObject&lt;TObject&gt;(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static TObject GetCachedObject&lt;TObject&gt;(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1582,7 +1749,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TObject GetCachedObject&lt;TObject&gt;(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired, bool saveInDictionary)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static TObject GetCachedObject&lt;TObject&gt;(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired, bool saveInDictionary)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

@@ -225,6 +225,68 @@ public static void AddToZip(ref ZipOutputStream zipFile, string filePath, string
   </table>
 
 
+  <a id="DotNetNuke_Common_Utilities_FileSystemUtils_AddToZipAsync_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.AddToZipAsync*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_FileSystemUtils_AddToZipAsync_System_IO_Compression_ZipArchive_System_String_System_String_System_String_System_Threading_CancellationToken_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.AddToZipAsync(System.IO.Compression.ZipArchive,System.String,System.String,System.String,System.Threading.CancellationToken)">AddToZipAsync(ZipArchive, string, string, string, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task AddToZipAsync(ZipArchive zipFile, string filePath, string fileName, string folder, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.compression.ziparchive">ZipArchive</a></td>
+        <td><span class="parametername">zipFile</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">filePath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">fileName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">folder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Common_Utilities_FileSystemUtils_CopyFile_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.CopyFile*"></a>
   <h4 id="DotNetNuke_Common_Utilities_FileSystemUtils_CopyFile_System_String_System_String_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.CopyFile(System.String,System.String)">CopyFile(string, string)</h4>
   <div class="markdown level1 summary"></div>
@@ -251,6 +313,53 @@ public static void AddToZip(ref ZipOutputStream zipFile, string filePath, string
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">destFileName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Utilities_FileSystemUtils_CopyFileAsync_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.CopyFileAsync*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_FileSystemUtils_CopyFileAsync_System_String_System_String_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.CopyFileAsync(System.String,System.String)">CopyFileAsync(string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task CopyFileAsync(string sourceFileName, string destFileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">sourceFileName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">destFileName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -284,6 +393,53 @@ public static void AddToZip(ref ZipOutputStream zipFile, string filePath, string
   </table>
 
 
+  <a id="DotNetNuke_Common_Utilities_FileSystemUtils_DeleteEmptyFoldersRecursiveAsync_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.DeleteEmptyFoldersRecursiveAsync*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_FileSystemUtils_DeleteEmptyFoldersRecursiveAsync_System_String_System_Threading_CancellationToken_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.DeleteEmptyFoldersRecursiveAsync(System.String,System.Threading.CancellationToken)">DeleteEmptyFoldersRecursiveAsync(string, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task DeleteEmptyFoldersRecursiveAsync(string path, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Common_Utilities_FileSystemUtils_DeleteFile_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.DeleteFile*"></a>
   <h4 id="DotNetNuke_Common_Utilities_FileSystemUtils_DeleteFile_System_String_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.DeleteFile(System.String)">DeleteFile(string)</h4>
   <div class="markdown level1 summary"></div>
@@ -305,6 +461,48 @@ public static void AddToZip(ref ZipOutputStream zipFile, string filePath, string
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">fileName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Utilities_FileSystemUtils_DeleteFileAsync_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.DeleteFileAsync*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_FileSystemUtils_DeleteFileAsync_System_String_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.DeleteFileAsync(System.String)">DeleteFileAsync(string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task DeleteFileAsync(string fileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">fileName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -363,13 +561,118 @@ public static void AddToZip(ref ZipOutputStream zipFile, string filePath, string
   </table>
 
 
+  <a id="DotNetNuke_Common_Utilities_FileSystemUtils_DeleteFileWithWaitAsync_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.DeleteFileWithWaitAsync*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_FileSystemUtils_DeleteFileWithWaitAsync_System_String_System_Int16_System_Int16_System_Threading_CancellationToken_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.DeleteFileWithWaitAsync(System.String,System.Int16,System.Int16,System.Threading.CancellationToken)">DeleteFileWithWaitAsync(string, short, short, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;bool&gt; DeleteFileWithWaitAsync(string fileName, short waitInMilliseconds, short maxAttempts, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">fileName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></td>
+        <td><span class="parametername">waitInMilliseconds</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></td>
+        <td><span class="parametername">maxAttempts</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Utilities_FileSystemUtils_DeleteFiles_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.DeleteFiles*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_FileSystemUtils_DeleteFiles_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_System_Array_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.DeleteFiles(DotNetNuke.Abstractions.Application.IApplicationStatusInfo,System.Array)">DeleteFiles(IApplicationStatusInfo, Array)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string DeleteFiles(IApplicationStatusInfo appStatus, Array arrPaths)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.array">Array</a></td>
+        <td><span class="parametername">arrPaths</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Common_Utilities_FileSystemUtils_DeleteFiles_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.DeleteFiles*"></a>
   <h4 id="DotNetNuke_Common_Utilities_FileSystemUtils_DeleteFiles_System_Array_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.DeleteFiles(System.Array)">DeleteFiles(Array)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string DeleteFiles(Array arrPaths)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IApplicationStatusInfo. Scheduled removal in v12.0.0.&quot;)]
+public static string DeleteFiles(Array arrPaths)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -399,6 +702,58 @@ public static void AddToZip(ref ZipOutputStream zipFile, string filePath, string
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Utilities_FileSystemUtils_DeleteFilesAsync_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.DeleteFilesAsync*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_FileSystemUtils_DeleteFilesAsync_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_System_Array_System_Threading_CancellationToken_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.DeleteFilesAsync(DotNetNuke.Abstractions.Application.IApplicationStatusInfo,System.Array,System.Threading.CancellationToken)">DeleteFilesAsync(IApplicationStatusInfo, Array, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;string&gt; DeleteFilesAsync(IApplicationStatusInfo appStatus, Array arrPaths, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.array">Array</a></td>
+        <td><span class="parametername">arrPaths</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -437,6 +792,58 @@ public static void AddToZip(ref ZipOutputStream zipFile, string filePath, string
   </table>
 
 
+  <a id="DotNetNuke_Common_Utilities_FileSystemUtils_DeleteFilesRecursiveAsync_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.DeleteFilesRecursiveAsync*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_FileSystemUtils_DeleteFilesRecursiveAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.DeleteFilesRecursiveAsync(System.String,System.String,System.Threading.CancellationToken)">DeleteFilesRecursiveAsync(string, string, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task DeleteFilesRecursiveAsync(string strRoot, string filter, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">strRoot</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">filter</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Common_Utilities_FileSystemUtils_DeleteFolderRecursive_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.DeleteFolderRecursive*"></a>
   <h4 id="DotNetNuke_Common_Utilities_FileSystemUtils_DeleteFolderRecursive_System_String_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.DeleteFolderRecursive(System.String)">DeleteFolderRecursive(string)</h4>
   <div class="markdown level1 summary"></div>
@@ -458,6 +865,53 @@ public static void AddToZip(ref ZipOutputStream zipFile, string filePath, string
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">strRoot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Utilities_FileSystemUtils_DeleteFolderRecursiveAsync_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.DeleteFolderRecursiveAsync*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_FileSystemUtils_DeleteFolderRecursiveAsync_System_String_System_Threading_CancellationToken_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.DeleteFolderRecursiveAsync(System.String,System.Threading.CancellationToken)">DeleteFolderRecursiveAsync(string, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task DeleteFolderRecursiveAsync(string strRoot, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">strRoot</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -548,6 +1002,53 @@ public static void AddToZip(ref ZipOutputStream zipFile, string filePath, string
   </table>
 
 
+  <a id="DotNetNuke_Common_Utilities_FileSystemUtils_ReadFileAsync_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.ReadFileAsync*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_FileSystemUtils_ReadFileAsync_System_String_System_Threading_CancellationToken_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.ReadFileAsync(System.String,System.Threading.CancellationToken)">ReadFileAsync(string, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;string&gt; ReadFileAsync(string filePath, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">filePath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Common_Utilities_FileSystemUtils_UnzipResources_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.UnzipResources*"></a>
   <h4 id="DotNetNuke_Common_Utilities_FileSystemUtils_UnzipResources_ICSharpCode_SharpZipLib_Zip_ZipInputStream_System_String_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.UnzipResources(ICSharpCode.SharpZipLib.Zip.ZipInputStream,System.String)">UnzipResources(ZipInputStream, string)</h4>
   <div class="markdown level1 summary"></div>
@@ -570,6 +1071,38 @@ public static void UnzipResources(ZipInputStream zipStream, string destPath)</co
       <tr>
         <td><span class="xref">ZipInputStream</span></td>
         <td><span class="parametername">zipStream</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">destPath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Utilities_FileSystemUtils_UnzipResources_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.UnzipResources*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_FileSystemUtils_UnzipResources_System_Collections_Generic_IEnumerable_System_IO_Compression_ZipArchiveEntry__System_String_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.UnzipResources(System.Collections.Generic.IEnumerable{System.IO.Compression.ZipArchiveEntry},System.String)">UnzipResources(IEnumerable&lt;ZipArchiveEntry&gt;, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UnzipResources(IEnumerable&lt;ZipArchiveEntry&gt; zipArchiveEntries, string destPath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.compression.ziparchiveentry">ZipArchiveEntry</a>&gt;</td>
+        <td><span class="parametername">zipArchiveEntries</span></td>
         <td></td>
       </tr>
       <tr>
@@ -607,6 +1140,110 @@ public static void UnzipResources(ZipInputStream zipStream, string destPath)</co
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">destPath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Utilities_FileSystemUtils_UnzipResourcesAsync_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.UnzipResourcesAsync*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_FileSystemUtils_UnzipResourcesAsync_System_Collections_Generic_IEnumerable_System_IO_Compression_ZipArchiveEntry__System_String_System_Threading_CancellationToken_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.UnzipResourcesAsync(System.Collections.Generic.IEnumerable{System.IO.Compression.ZipArchiveEntry},System.String,System.Threading.CancellationToken)">UnzipResourcesAsync(IEnumerable&lt;ZipArchiveEntry&gt;, string, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task UnzipResourcesAsync(IEnumerable&lt;ZipArchiveEntry&gt; zipArchiveEntries, string destPath, CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.compression.ziparchiveentry">ZipArchiveEntry</a>&gt;</td>
+        <td><span class="parametername">zipArchiveEntries</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">destPath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Utilities_FileSystemUtils_UnzipResourcesAsync_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.UnzipResourcesAsync*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_FileSystemUtils_UnzipResourcesAsync_System_IO_Compression_ZipArchive_System_String_System_Threading_CancellationToken_" data-uid="DotNetNuke.Common.Utilities.FileSystemUtils.UnzipResourcesAsync(System.IO.Compression.ZipArchive,System.String,System.Threading.CancellationToken)">UnzipResourcesAsync(ZipArchive, string, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task UnzipResourcesAsync(ZipArchive zipStream, string destPath, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.compression.ziparchive">ZipArchive</a></td>
+        <td><span class="parametername">zipStream</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">destPath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
         <td></td>
       </tr>
     </tbody>

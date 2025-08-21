@@ -213,8 +213,51 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AdvancedPermissionProvider()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IPermissionDefinitionService. Scheduled removal in v12.0.0.&quot;)]
+public AdvancedPermissionProvider()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider__ctor_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.#ctor*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_AdvancedPermissionProvider__ctor_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionService_DotNetNuke_Entities_Modules_IModuleController_DotNetNuke_Security_Roles_IRoleController_DotNetNuke_Entities_Tabs_ITabController_" data-uid="DotNetNuke.Security.Permissions.AdvancedPermissionProvider.#ctor(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService,DotNetNuke.Entities.Modules.IModuleController,DotNetNuke.Security.Roles.IRoleController,DotNetNuke.Entities.Tabs.ITabController)">AdvancedPermissionProvider(IPermissionDefinitionService, IModuleController, IRoleController, ITabController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AdvancedPermissionProvider(IPermissionDefinitionService permissionDefinitions, IModuleController moduleController, IRoleController roleController, ITabController tabController)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService.html">IPermissionDefinitionService</a></td>
+        <td><span class="parametername">permissionDefinitions</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.IModuleController.html">IModuleController</a></td>
+        <td><span class="parametername">moduleController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.IRoleController.html">IRoleController</a></td>
+        <td><span class="parametername">roleController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.ITabController.html">ITabController</a></td>
+        <td><span class="parametername">tabController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="fields">Fields
 </h3>
 

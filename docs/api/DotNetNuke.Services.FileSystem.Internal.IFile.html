@@ -136,6 +136,58 @@
   </table>
 
 
+  <a id="DotNetNuke_Services_FileSystem_Internal_IFile_CopyAsync_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.CopyAsync*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_Internal_IFile_CopyAsync_System_String_System_String_System_Boolean_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.CopyAsync(System.String,System.String,System.Boolean)">CopyAsync(string, string, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task CopyAsync(string sourceFileName, string destinationFileName, bool overwrite)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">sourceFileName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">destinationFileName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">overwrite</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Services_FileSystem_Internal_IFile_Create_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.Create*"></a>
   <h4 id="DotNetNuke_Services_FileSystem_Internal_IFile_Create_System_String_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.Create(System.String)">Create(string)</h4>
   <div class="markdown level1 summary"></div>
@@ -205,6 +257,48 @@
   </table>
 
 
+  <a id="DotNetNuke_Services_FileSystem_Internal_IFile_DeleteAsync_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.DeleteAsync*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_Internal_IFile_DeleteAsync_System_String_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.DeleteAsync(System.String)">DeleteAsync(string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task DeleteAsync(string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Services_FileSystem_Internal_IFile_Exists_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.Exists*"></a>
   <h4 id="DotNetNuke_Services_FileSystem_Internal_IFile_Exists_System_String_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.Exists(System.String)">Exists(string)</h4>
   <div class="markdown level1 summary"></div>
@@ -241,6 +335,48 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_FileSystem_Internal_IFile_ExistsAsync_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.ExistsAsync*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_Internal_IFile_ExistsAsync_System_String_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.ExistsAsync(System.String)">ExistsAsync(string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; ExistsAsync(string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -289,6 +425,48 @@
   </table>
 
 
+  <a id="DotNetNuke_Services_FileSystem_Internal_IFile_GetAttributesAsync_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.GetAttributesAsync*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_Internal_IFile_GetAttributesAsync_System_String_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.GetAttributesAsync(System.String)">GetAttributesAsync(string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;FileAttributes&gt; GetAttributesAsync(string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.fileattributes">FileAttributes</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Services_FileSystem_Internal_IFile_GetLastWriteTime_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.GetLastWriteTime*"></a>
   <h4 id="DotNetNuke_Services_FileSystem_Internal_IFile_GetLastWriteTime_System_String_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.GetLastWriteTime(System.String)">GetLastWriteTime(string)</h4>
   <div class="markdown level1 summary"></div>
@@ -331,6 +509,48 @@
   </table>
 
 
+  <a id="DotNetNuke_Services_FileSystem_Internal_IFile_GetLastWriteTimeAsync_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.GetLastWriteTimeAsync*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_Internal_IFile_GetLastWriteTimeAsync_System_String_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.GetLastWriteTimeAsync(System.String)">GetLastWriteTimeAsync(string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;DateTime&gt; GetLastWriteTimeAsync(string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Services_FileSystem_Internal_IFile_Move_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.Move*"></a>
   <h4 id="DotNetNuke_Services_FileSystem_Internal_IFile_Move_System_String_System_String_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.Move(System.String,System.String)">Move(string, string)</h4>
   <div class="markdown level1 summary"></div>
@@ -357,6 +577,53 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">destFileName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_FileSystem_Internal_IFile_MoveAsync_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.MoveAsync*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_Internal_IFile_MoveAsync_System_String_System_String_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.MoveAsync(System.String,System.String)">MoveAsync(string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task MoveAsync(string sourceFileName, string destFileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">sourceFileName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">destFileName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -447,6 +714,48 @@
   </table>
 
 
+  <a id="DotNetNuke_Services_FileSystem_Internal_IFile_ReadAllBytesAsync_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.ReadAllBytesAsync*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_Internal_IFile_ReadAllBytesAsync_System_String_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.ReadAllBytesAsync(System.String)">ReadAllBytesAsync(string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;byte[]&gt; ReadAllBytesAsync(string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Services_FileSystem_Internal_IFile_SetAttributes_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.SetAttributes*"></a>
   <h4 id="DotNetNuke_Services_FileSystem_Internal_IFile_SetAttributes_System_String_System_IO_FileAttributes_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.SetAttributes(System.String,System.IO.FileAttributes)">SetAttributes(string, FileAttributes)</h4>
   <div class="markdown level1 summary"></div>
@@ -473,6 +782,53 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.fileattributes">FileAttributes</a></td>
         <td><span class="parametername">fileAttributes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_FileSystem_Internal_IFile_SetAttributesAsync_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.SetAttributesAsync*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_Internal_IFile_SetAttributesAsync_System_String_System_IO_FileAttributes_" data-uid="DotNetNuke.Services.FileSystem.Internal.IFile.SetAttributesAsync(System.String,System.IO.FileAttributes)">SetAttributesAsync(string, FileAttributes)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task SetAttributesAsync(string path, FileAttributes fileAttributes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.fileattributes">FileAttributes</a></td>
+        <td><span class="parametername">fileAttributes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
         <td></td>
       </tr>
     </tbody>

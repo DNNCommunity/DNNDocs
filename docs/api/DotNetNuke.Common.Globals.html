@@ -2408,6 +2408,58 @@ public static string DateToString(DateTime dateValue)</code></pre>
   </table>
 
 
+  <a id="DotNetNuke_Common_Globals_DeleteFilesRecursiveAsync_" data-uid="DotNetNuke.Common.Globals.DeleteFilesRecursiveAsync*"></a>
+  <h4 id="DotNetNuke_Common_Globals_DeleteFilesRecursiveAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="DotNetNuke.Common.Globals.DeleteFilesRecursiveAsync(System.String,System.String,System.Threading.CancellationToken)">DeleteFilesRecursiveAsync(string, string, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task DeleteFilesRecursiveAsync(string strRoot, string filter, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">strRoot</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">filter</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Common_Globals_DeleteFolderRecursive_" data-uid="DotNetNuke.Common.Globals.DeleteFolderRecursive*"></a>
   <h4 id="DotNetNuke_Common_Globals_DeleteFolderRecursive_System_String_" data-uid="DotNetNuke.Common.Globals.DeleteFolderRecursive(System.String)">DeleteFolderRecursive(string)</h4>
   <div class="markdown level1 summary"></div>
@@ -2429,6 +2481,53 @@ public static string DateToString(DateTime dateValue)</code></pre>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">strRoot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Globals_DeleteFolderRecursiveAsync_" data-uid="DotNetNuke.Common.Globals.DeleteFolderRecursiveAsync*"></a>
+  <h4 id="DotNetNuke_Common_Globals_DeleteFolderRecursiveAsync_System_String_System_Threading_CancellationToken_" data-uid="DotNetNuke.Common.Globals.DeleteFolderRecursiveAsync(System.String,System.Threading.CancellationToken)">DeleteFolderRecursiveAsync(string, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task DeleteFolderRecursiveAsync(string strRoot, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">strRoot</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -3902,12 +4001,112 @@ public static string GetDBConnectionString()</code></pre>
 
 
   <a id="DotNetNuke_Common_Globals_GetExternalRequest_" data-uid="DotNetNuke.Common.Globals.GetExternalRequest*"></a>
+  <h4 id="DotNetNuke_Common_Globals_GetExternalRequest_DotNetNuke_Abstractions_Application_IHostSettings_System_String_" data-uid="DotNetNuke.Common.Globals.GetExternalRequest(DotNetNuke.Abstractions.Application.IHostSettings,System.String)">GetExternalRequest(IHostSettings, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static HttpWebRequest GetExternalRequest(IHostSettings hostSettings, string address)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">address</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.httpwebrequest">HttpWebRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Globals_GetExternalRequest_" data-uid="DotNetNuke.Common.Globals.GetExternalRequest*"></a>
+  <h4 id="DotNetNuke_Common_Globals_GetExternalRequest_DotNetNuke_Abstractions_Application_IHostSettings_System_String_System_Net_NetworkCredential_" data-uid="DotNetNuke.Common.Globals.GetExternalRequest(DotNetNuke.Abstractions.Application.IHostSettings,System.String,System.Net.NetworkCredential)">GetExternalRequest(IHostSettings, string, NetworkCredential)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static HttpWebRequest GetExternalRequest(IHostSettings hostSettings, string address, NetworkCredential credentials)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">address</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.networkcredential">NetworkCredential</a></td>
+        <td><span class="parametername">credentials</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.httpwebrequest">HttpWebRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Globals_GetExternalRequest_" data-uid="DotNetNuke.Common.Globals.GetExternalRequest*"></a>
   <h4 id="DotNetNuke_Common_Globals_GetExternalRequest_System_String_" data-uid="DotNetNuke.Common.Globals.GetExternalRequest(System.String)">GetExternalRequest(string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static HttpWebRequest GetExternalRequest(string address)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static HttpWebRequest GetExternalRequest(string address)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -3949,7 +4148,8 @@ public static string GetDBConnectionString()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static HttpWebRequest GetExternalRequest(string address, NetworkCredential credentials)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static HttpWebRequest GetExternalRequest(string address, NetworkCredential credentials)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -4424,8 +4624,51 @@ public static string GetHashValue(object hashObject, string defaultValue)</code>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PortalSettings GetHostPortalSettings()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static PortalSettings GetHostPortalSettings()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalSettings.html">PortalSettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Globals_GetHostPortalSettings_" data-uid="DotNetNuke.Common.Globals.GetHostPortalSettings*"></a>
+  <h4 id="DotNetNuke_Common_Globals_GetHostPortalSettings_DotNetNuke_Abstractions_Application_IHostSettings_" data-uid="DotNetNuke.Common.Globals.GetHostPortalSettings(DotNetNuke.Abstractions.Application.IHostSettings)">GetHostPortalSettings(IHostSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PortalSettings GetHostPortalSettings(IHostSettings hostSettings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -4529,12 +4772,60 @@ public static int GetLastAppliedIteration(Version version)</code></pre>
 
 
   <a id="DotNetNuke_Common_Globals_GetOnLineHelp_" data-uid="DotNetNuke.Common.Globals.GetOnLineHelp*"></a>
+  <h4 id="DotNetNuke_Common_Globals_GetOnLineHelp_DotNetNuke_Abstractions_Application_IHostSettings_System_String_" data-uid="DotNetNuke.Common.Globals.GetOnLineHelp(DotNetNuke.Abstractions.Application.IHostSettings,System.String)">GetOnLineHelp(IHostSettings, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetOnLineHelp(IHostSettings hostSettings, string helpUrl)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">helpUrl</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Globals_GetOnLineHelp_" data-uid="DotNetNuke.Common.Globals.GetOnLineHelp*"></a>
   <h4 id="DotNetNuke_Common_Globals_GetOnLineHelp_System_String_" data-uid="DotNetNuke.Common.Globals.GetOnLineHelp(System.String)">GetOnLineHelp(string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetOnLineHelp(string helpUrl)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static string GetOnLineHelp(string helpUrl)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -4696,12 +4987,60 @@ public static string GetOnLineHelp(string helpUrl, ModuleInfo moduleConfig)</cod
 
 
   <a id="DotNetNuke_Common_Globals_GetRoleName_" data-uid="DotNetNuke.Common.Globals.GetRoleName*"></a>
+  <h4 id="DotNetNuke_Common_Globals_GetRoleName_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_" data-uid="DotNetNuke.Common.Globals.GetRoleName(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32)">GetRoleName(IHostSettings, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetRoleName(IHostSettings hostSettings, int roleId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">roleId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Globals_GetRoleName_" data-uid="DotNetNuke.Common.Globals.GetRoleName*"></a>
   <h4 id="DotNetNuke_Common_Globals_GetRoleName_System_Int32_" data-uid="DotNetNuke.Common.Globals.GetRoleName(System.Int32)">GetRoleName(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetRoleName(int roleId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static string GetRoleName(int roleId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

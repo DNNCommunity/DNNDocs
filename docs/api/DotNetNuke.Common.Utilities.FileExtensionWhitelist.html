@@ -94,6 +94,10 @@
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
     <div class="level1"><span class="xref">FileExtensionWhitelist</span></div>
   </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="DotNetNuke.Abstractions.Security.IFileExtensionAllowList.html">IFileExtensionAllowList</a></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -119,7 +123,7 @@
   <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
   <h5 id="DotNetNuke_Common_Utilities_FileExtensionWhitelist_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class FileExtensionWhitelist</code></pre>
+    <pre><code class="lang-csharp hljs">public class FileExtensionWhitelist : IFileExtensionAllowList</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -264,6 +268,48 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Utilities_FileExtensionWhitelist_RestrictBy_" data-uid="DotNetNuke.Common.Utilities.FileExtensionWhitelist.RestrictBy*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_FileExtensionWhitelist_RestrictBy_DotNetNuke_Abstractions_Security_IFileExtensionAllowList_" data-uid="DotNetNuke.Common.Utilities.FileExtensionWhitelist.RestrictBy(DotNetNuke.Abstractions.Security.IFileExtensionAllowList)">RestrictBy(IFileExtensionAllowList)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IFileExtensionAllowList RestrictBy(IFileExtensionAllowList parentList)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.IFileExtensionAllowList.html">IFileExtensionAllowList</a></td>
+        <td><span class="parametername">parentList</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.IFileExtensionAllowList.html">IFileExtensionAllowList</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -471,6 +517,10 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Abstractions.Security.IFileExtensionAllowList.html">IFileExtensionAllowList</a>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(object)</a>

@@ -165,7 +165,8 @@ public PortalController()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PortalController(IBusinessControllerProvider businessControllerProvider)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IHostSettings. Scheduled removal in v12.0.0.&quot;)]
+public PortalController(IBusinessControllerProvider businessControllerProvider)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -180,6 +181,48 @@ public PortalController()</code></pre>
       <tr>
         <td><a class="xref" href="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.html">IBusinessControllerProvider</a></td>
         <td><span class="parametername">businessControllerProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController__ctor_" data-uid="DotNetNuke.Entities.Portals.PortalController.#ctor*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController__ctor_DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Abstractions_Logging_IEventLogger_" data-uid="DotNetNuke.Entities.Portals.PortalController.#ctor(DotNetNuke.Abstractions.Modules.IBusinessControllerProvider,DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Abstractions.Logging.IEventLogger)">PortalController(IBusinessControllerProvider, IHostSettings, IApplicationStatusInfo, IEventLogger)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PortalController(IBusinessControllerProvider businessControllerProvider, IHostSettings hostSettings, IApplicationStatusInfo appStatus, IEventLogger eventLogger)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.html">IBusinessControllerProvider</a></td>
+        <td><span class="parametername">businessControllerProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -247,12 +290,55 @@ public PortalController()</code></pre>
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_AddPortalDictionary_" data-uid="DotNetNuke.Entities.Portals.PortalController.AddPortalDictionary*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_AddPortalDictionary_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Data_DataProvider_System_Int32_System_Int32_" data-uid="DotNetNuke.Entities.Portals.PortalController.AddPortalDictionary(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Data.DataProvider,System.Int32,System.Int32)">AddPortalDictionary(IHostSettings, DataProvider, int, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddPortalDictionary(IHostSettings hostSettings, DataProvider dataProvider, int portalId, int tabId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.DataProvider.html">DataProvider</a></td>
+        <td><span class="parametername">dataProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">tabId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_AddPortalDictionary_" data-uid="DotNetNuke.Entities.Portals.PortalController.AddPortalDictionary*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_AddPortalDictionary_System_Int32_System_Int32_" data-uid="DotNetNuke.Entities.Portals.PortalController.AddPortalDictionary(System.Int32,System.Int32)">AddPortalDictionary(int, int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void AddPortalDictionary(int portalId, int tabId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static void AddPortalDictionary(int portalId, int tabId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -745,12 +831,55 @@ public int CreatePortal(string portalName, int adminUserId, string description, 
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_DeleteExpiredPortals_" data-uid="DotNetNuke.Entities.Portals.PortalController.DeleteExpiredPortals*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_DeleteExpiredPortals_DotNetNuke_Entities_Portals_IPortalController_DotNetNuke_Data_DataProvider_DotNetNuke_Abstractions_Portals_IPortalAliasService_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.DeleteExpiredPortals(DotNetNuke.Entities.Portals.IPortalController,DotNetNuke.Data.DataProvider,DotNetNuke.Abstractions.Portals.IPortalAliasService,System.String)">DeleteExpiredPortals(IPortalController, DataProvider, IPortalAliasService, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeleteExpiredPortals(IPortalController portalController, DataProvider dataProvider, IPortalAliasService portalAliasService, string serverPath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.DataProvider.html">DataProvider</a></td>
+        <td><span class="parametername">dataProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalAliasService.html">IPortalAliasService</a></td>
+        <td><span class="parametername">portalAliasService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">serverPath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_DeleteExpiredPortals_" data-uid="DotNetNuke.Entities.Portals.PortalController.DeleteExpiredPortals*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_DeleteExpiredPortals_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.DeleteExpiredPortals(System.String)">DeleteExpiredPortals(string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DeleteExpiredPortals(string serverPath)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static void DeleteExpiredPortals(string serverPath)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -772,12 +901,70 @@ public int CreatePortal(string portalName, int adminUserId, string description, 
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_DeletePortal_" data-uid="DotNetNuke.Entities.Portals.PortalController.DeletePortal*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_DeletePortal_DotNetNuke_Entities_Portals_IPortalController_DotNetNuke_Abstractions_Portals_IPortalAliasService_DotNetNuke_Abstractions_Portals_IPortalInfo_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.DeletePortal(DotNetNuke.Entities.Portals.IPortalController,DotNetNuke.Abstractions.Portals.IPortalAliasService,DotNetNuke.Abstractions.Portals.IPortalInfo,System.String)">DeletePortal(IPortalController, IPortalAliasService, IPortalInfo, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string DeletePortal(IPortalController portalController, IPortalAliasService portalAliasService, IPortalInfo portal, string serverPath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalAliasService.html">IPortalAliasService</a></td>
+        <td><span class="parametername">portalAliasService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalInfo.html">IPortalInfo</a></td>
+        <td><span class="parametername">portal</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">serverPath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_DeletePortal_" data-uid="DotNetNuke.Entities.Portals.PortalController.DeletePortal*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_DeletePortal_DotNetNuke_Entities_Portals_PortalInfo_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.DeletePortal(DotNetNuke.Entities.Portals.PortalInfo,System.String)">DeletePortal(PortalInfo, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string DeletePortal(PortalInfo portal, string serverPath)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static string DeletePortal(PortalInfo portal, string serverPath)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -851,12 +1038,112 @@ public int CreatePortal(string portalName, int adminUserId, string description, 
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_DeletePortalSetting_" data-uid="DotNetNuke.Entities.Portals.PortalController.DeletePortalSetting*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_DeletePortalSetting_DotNetNuke_Data_DataProvider_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Users_IUserController_System_Int32_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.DeletePortalSetting(DotNetNuke.Data.DataProvider,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Users.IUserController,System.Int32,System.String)">DeletePortalSetting(DataProvider, IEventLogger, IUserController, int, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeletePortalSetting(DataProvider dataProvider, IEventLogger eventLogger, IUserController userController, int portalId, string settingName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.DataProvider.html">DataProvider</a></td>
+        <td><span class="parametername">dataProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.IUserController.html">IUserController</a></td>
+        <td><span class="parametername">userController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_DeletePortalSetting_" data-uid="DotNetNuke.Entities.Portals.PortalController.DeletePortalSetting*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_DeletePortalSetting_DotNetNuke_Data_DataProvider_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Users_IUserController_System_Int32_System_String_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.DeletePortalSetting(DotNetNuke.Data.DataProvider,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Users.IUserController,System.Int32,System.String,System.String)">DeletePortalSetting(DataProvider, IEventLogger, IUserController, int, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeletePortalSetting(DataProvider dataProvider, IEventLogger eventLogger, IUserController userController, int portalId, string settingName, string cultureCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.DataProvider.html">DataProvider</a></td>
+        <td><span class="parametername">dataProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.IUserController.html">IUserController</a></td>
+        <td><span class="parametername">userController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">cultureCode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_DeletePortalSetting_" data-uid="DotNetNuke.Entities.Portals.PortalController.DeletePortalSetting*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_DeletePortalSetting_System_Int32_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.DeletePortalSetting(System.Int32,System.String)">DeletePortalSetting(int, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DeletePortalSetting(int portalID, string settingName)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with DataProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static void DeletePortalSetting(int portalID, string settingName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -888,7 +1175,8 @@ public int CreatePortal(string portalName, int adminUserId, string description, 
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DeletePortalSetting(int portalID, string settingName, string cultureCode)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with DataProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static void DeletePortalSetting(int portalID, string settingName, string cultureCode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -920,12 +1208,102 @@ public int CreatePortal(string portalName, int adminUserId, string description, 
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_DeletePortalSettings_" data-uid="DotNetNuke.Entities.Portals.PortalController.DeletePortalSettings*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_DeletePortalSettings_DotNetNuke_Data_DataProvider_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Users_IUserController_System_Int32_" data-uid="DotNetNuke.Entities.Portals.PortalController.DeletePortalSettings(DotNetNuke.Data.DataProvider,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Users.IUserController,System.Int32)">DeletePortalSettings(DataProvider, IEventLogger, IUserController, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeletePortalSettings(DataProvider dataProvider, IEventLogger eventLogger, IUserController userController, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.DataProvider.html">DataProvider</a></td>
+        <td><span class="parametername">dataProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.IUserController.html">IUserController</a></td>
+        <td><span class="parametername">userController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_DeletePortalSettings_" data-uid="DotNetNuke.Entities.Portals.PortalController.DeletePortalSettings*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_DeletePortalSettings_DotNetNuke_Data_DataProvider_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Users_IUserController_System_Int32_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.DeletePortalSettings(DotNetNuke.Data.DataProvider,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Users.IUserController,System.Int32,System.String)">DeletePortalSettings(DataProvider, IEventLogger, IUserController, int, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeletePortalSettings(DataProvider dataProvider, IEventLogger eventLogger, IUserController userController, int portalId, string cultureCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.DataProvider.html">DataProvider</a></td>
+        <td><span class="parametername">dataProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.IUserController.html">IUserController</a></td>
+        <td><span class="parametername">userController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">cultureCode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_DeletePortalSettings_" data-uid="DotNetNuke.Entities.Portals.PortalController.DeletePortalSettings*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_DeletePortalSettings_System_Int32_" data-uid="DotNetNuke.Entities.Portals.PortalController.DeletePortalSettings(System.Int32)">DeletePortalSettings(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DeletePortalSettings(int portalID)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with DataProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static void DeletePortalSettings(int portalID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -952,7 +1330,8 @@ public int CreatePortal(string portalName, int adminUserId, string description, 
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DeletePortalSettings(int portalID, string cultureCode)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with DataProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static void DeletePortalSettings(int portalID, string cultureCode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -979,12 +1358,65 @@ public int CreatePortal(string portalName, int adminUserId, string description, 
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_GetActivePortalLanguage_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetActivePortalLanguage*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_GetActivePortalLanguage_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_System_Int32_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetActivePortalLanguage(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,System.Int32)">GetActivePortalLanguage(IHostSettings, IApplicationStatusInfo, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetActivePortalLanguage(IHostSettings hostSettings, IApplicationStatusInfo appStatus, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_GetActivePortalLanguage_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetActivePortalLanguage*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_GetActivePortalLanguage_System_Int32_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetActivePortalLanguage(System.Int32)">GetActivePortalLanguage(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetActivePortalLanguage(int portalID)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static string GetActivePortalLanguage(int portalID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1047,12 +1479,70 @@ public IList&lt;PortalController.PortalTemplateInfo&gt; GetAvailablePortalTempla
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_GetEffectivePortalId_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetEffectivePortalId*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_GetEffectivePortalId_DotNetNuke_Entities_Portals_IPortalController_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Entities_Portals_IPortalGroupController_System_Int32_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetEffectivePortalId(DotNetNuke.Entities.Portals.IPortalController,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Entities.Portals.IPortalGroupController,System.Int32)">GetEffectivePortalId(IPortalController, IApplicationStatusInfo, IPortalGroupController, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetEffectivePortalId(IPortalController portalController, IApplicationStatusInfo appStatus, IPortalGroupController portalGroupController, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalGroupController.html">IPortalGroupController</a></td>
+        <td><span class="parametername">portalGroupController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_GetEffectivePortalId_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetEffectivePortalId*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_GetEffectivePortalId_System_Int32_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetEffectivePortalId(System.Int32)">GetEffectivePortalId(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int GetEffectivePortalId(int portalId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static int GetEffectivePortalId(int portalId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1089,12 +1579,75 @@ public IList&lt;PortalController.PortalTemplateInfo&gt; GetAvailablePortalTempla
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_GetEncryptedString_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetEncryptedString*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_GetEncryptedString_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Entities_Portals_IPortalController_System_String_System_Int32_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetEncryptedString(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Entities.Portals.IPortalController,System.String,System.Int32,System.String)">GetEncryptedString(IHostSettings, IPortalController, string, int, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetEncryptedString(IHostSettings hostSettings, IPortalController portalController, string settingName, int portalId, string passPhrase)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">passPhrase</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_GetEncryptedString_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetEncryptedString*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_GetEncryptedString_System_String_System_Int32_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetEncryptedString(System.String,System.Int32,System.String)">GetEncryptedString(string, int, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetEncryptedString(string settingName, int portalID, string passPhrase)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static string GetEncryptedString(string settingName, int portalID, string passPhrase)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1146,8 +1699,51 @@ public IList&lt;PortalController.PortalTemplateInfo&gt; GetAvailablePortalTempla
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ArrayList GetExpiredPortals()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with DataProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static ArrayList GetExpiredPortals()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist">ArrayList</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_GetExpiredPortals_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetExpiredPortals*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_GetExpiredPortals_DotNetNuke_Data_DataProvider_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetExpiredPortals(DotNetNuke.Data.DataProvider)">GetExpiredPortals(DataProvider)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ArrayList GetExpiredPortals(DataProvider dataProvider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.DataProvider.html">DataProvider</a></td>
+        <td><span class="parametername">dataProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -1324,12 +1920,60 @@ public IList&lt;PortalController.PortalTemplateInfo&gt; GetAvailablePortalTempla
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_GetPortalDefaultLanguage_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalDefaultLanguage*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_GetPortalDefaultLanguage_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalDefaultLanguage(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32)">GetPortalDefaultLanguage(IHostSettings, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetPortalDefaultLanguage(IHostSettings hostSettings, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_GetPortalDefaultLanguage_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalDefaultLanguage*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_GetPortalDefaultLanguage_System_Int32_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalDefaultLanguage(System.Int32)">GetPortalDefaultLanguage(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetPortalDefaultLanguage(int portalID)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static string GetPortalDefaultLanguage(int portalID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1371,8 +2015,56 @@ public IList&lt;PortalController.PortalTemplateInfo&gt; GetAvailablePortalTempla
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Dictionary&lt;int, int&gt; GetPortalDictionary()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static Dictionary&lt;int, int&gt; GetPortalDictionary()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_GetPortalDictionary_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalDictionary*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_GetPortalDictionary_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Data_DataProvider_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalDictionary(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Data.DataProvider)">GetPortalDictionary(IHostSettings, DataProvider)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;int, int&gt; GetPortalDictionary(IHostSettings hostSettings, DataProvider dataProvider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.DataProvider.html">DataProvider</a></td>
+        <td><span class="parametername">dataProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -1475,12 +2167,132 @@ public IList&lt;PortalController.PortalTemplateInfo&gt; GetAvailablePortalTempla
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_GetPortalSetting_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSetting*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_GetPortalSetting_DotNetNuke_Entities_Portals_IPortalController_System_String_System_Int32_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSetting(DotNetNuke.Entities.Portals.IPortalController,System.String,System.Int32,System.String)">GetPortalSetting(IPortalController, string, int, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetPortalSetting(IPortalController portalController, string settingName, int portalId, string defaultValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_GetPortalSetting_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSetting*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_GetPortalSetting_DotNetNuke_Entities_Portals_IPortalController_System_String_System_Int32_System_String_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSetting(DotNetNuke.Entities.Portals.IPortalController,System.String,System.Int32,System.String,System.String)">GetPortalSetting(IPortalController, string, int, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetPortalSetting(IPortalController portalController, string settingName, int portalId, string defaultValue, string cultureCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">cultureCode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_GetPortalSetting_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSetting*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_GetPortalSetting_System_String_System_Int32_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSetting(System.String,System.Int32,System.String)">GetPortalSetting(string, int, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetPortalSetting(string settingName, int portalID, string defaultValue)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static string GetPortalSetting(string settingName, int portalID, string defaultValue)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1532,7 +2344,8 @@ public IList&lt;PortalController.PortalTemplateInfo&gt; GetAvailablePortalTempla
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetPortalSetting(string settingName, int portalID, string defaultValue, string cultureCode)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static string GetPortalSetting(string settingName, int portalID, string defaultValue, string cultureCode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1584,12 +2397,137 @@ public IList&lt;PortalController.PortalTemplateInfo&gt; GetAvailablePortalTempla
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_GetPortalSettingAsBoolean_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSettingAsBoolean*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_GetPortalSettingAsBoolean_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_System_String_System_Int32_System_Boolean_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSettingAsBoolean(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,System.String,System.Int32,System.Boolean,System.String)">GetPortalSettingAsBoolean(IHostSettings, IApplicationStatusInfo, string, int, bool, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GetPortalSettingAsBoolean(IHostSettings hostSettings, IApplicationStatusInfo appStatus, string key, int portalId, bool defaultValue, string cultureCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">cultureCode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_GetPortalSettingAsBoolean_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSettingAsBoolean*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_GetPortalSettingAsBoolean_DotNetNuke_Entities_Portals_IPortalController_System_String_System_Int32_System_Boolean_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSettingAsBoolean(DotNetNuke.Entities.Portals.IPortalController,System.String,System.Int32,System.Boolean)">GetPortalSettingAsBoolean(IPortalController, string, int, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GetPortalSettingAsBoolean(IPortalController portalController, string key, int portalId, bool defaultValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_GetPortalSettingAsBoolean_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSettingAsBoolean*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_GetPortalSettingAsBoolean_System_String_System_Int32_System_Boolean_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSettingAsBoolean(System.String,System.Int32,System.Boolean)">GetPortalSettingAsBoolean(string, int, bool)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool GetPortalSettingAsBoolean(string key, int portalID, bool defaultValue)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static bool GetPortalSettingAsBoolean(string key, int portalID, bool defaultValue)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1641,7 +2579,8 @@ public IList&lt;PortalController.PortalTemplateInfo&gt; GetAvailablePortalTempla
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool GetPortalSettingAsBoolean(string key, int portalID, bool defaultValue, string cultureCode)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static bool GetPortalSettingAsBoolean(string key, int portalID, bool defaultValue, string cultureCode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1693,12 +2632,70 @@ public IList&lt;PortalController.PortalTemplateInfo&gt; GetAvailablePortalTempla
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_GetPortalSettingAsDouble_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSettingAsDouble*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_GetPortalSettingAsDouble_DotNetNuke_Entities_Portals_IPortalController_System_String_System_Int32_System_Double_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSettingAsDouble(DotNetNuke.Entities.Portals.IPortalController,System.String,System.Int32,System.Double)">GetPortalSettingAsDouble(IPortalController, string, int, double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double GetPortalSettingAsDouble(IPortalController portalController, string key, int portalId, double defaultValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_GetPortalSettingAsDouble_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSettingAsDouble*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_GetPortalSettingAsDouble_System_String_System_Int32_System_Double_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSettingAsDouble(System.String,System.Int32,System.Double)">GetPortalSettingAsDouble(string, int, double)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static double GetPortalSettingAsDouble(string key, int portalId, double defaultValue)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static double GetPortalSettingAsDouble(string key, int portalId, double defaultValue)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1745,12 +2742,137 @@ public IList&lt;PortalController.PortalTemplateInfo&gt; GetAvailablePortalTempla
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_GetPortalSettingAsInteger_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSettingAsInteger*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_GetPortalSettingAsInteger_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_System_String_System_Int32_System_Int32_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSettingAsInteger(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,System.String,System.Int32,System.Int32,System.String)">GetPortalSettingAsInteger(IHostSettings, IApplicationStatusInfo, string, int, int, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetPortalSettingAsInteger(IHostSettings hostSettings, IApplicationStatusInfo appStatus, string key, int portalId, int defaultValue, string cultureCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">cultureCode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_GetPortalSettingAsInteger_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSettingAsInteger*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_GetPortalSettingAsInteger_DotNetNuke_Entities_Portals_IPortalController_System_String_System_Int32_System_Int32_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSettingAsInteger(DotNetNuke.Entities.Portals.IPortalController,System.String,System.Int32,System.Int32)">GetPortalSettingAsInteger(IPortalController, string, int, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetPortalSettingAsInteger(IPortalController portalController, string key, int portalId, int defaultValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_GetPortalSettingAsInteger_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSettingAsInteger*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_GetPortalSettingAsInteger_System_String_System_Int32_System_Int32_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalSettingAsInteger(System.String,System.Int32,System.Int32)">GetPortalSettingAsInteger(string, int, int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int GetPortalSettingAsInteger(string key, int portalID, int defaultValue)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static int GetPortalSettingAsInteger(string key, int portalID, int defaultValue)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1802,7 +2924,8 @@ public IList&lt;PortalController.PortalTemplateInfo&gt; GetAvailablePortalTempla
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int GetPortalSettingAsInteger(string key, int portalID, int defaultValue, string cultureCode)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static int GetPortalSettingAsInteger(string key, int portalID, int defaultValue, string cultureCode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -2058,12 +3181,75 @@ public PortalController.PortalTemplateInfo GetPortalTemplate(string templatePath
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_GetPortalsByName_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalsByName*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_GetPortalsByName_DotNetNuke_Data_DataProvider_System_String_System_Int32_System_Int32_System_Int32__" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalsByName(DotNetNuke.Data.DataProvider,System.String,System.Int32,System.Int32,System.Int32@)">GetPortalsByName(DataProvider, string, int, int, ref int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ArrayList GetPortalsByName(DataProvider dataProvider, string nameToMatch, int pageIndex, int pageSize, ref int totalRecords)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.DataProvider.html">DataProvider</a></td>
+        <td><span class="parametername">dataProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">nameToMatch</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">pageIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">pageSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">totalRecords</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist">ArrayList</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_GetPortalsByName_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalsByName*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_GetPortalsByName_System_String_System_Int32_System_Int32_System_Int32__" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalsByName(System.String,System.Int32,System.Int32,System.Int32@)">GetPortalsByName(string, int, int, ref int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ArrayList GetPortalsByName(string nameToMatch, int pageIndex, int pageSize, ref int totalRecords)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with DataProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static ArrayList GetPortalsByName(string nameToMatch, int pageIndex, int pageSize, ref int totalRecords)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -2115,12 +3301,60 @@ public PortalController.PortalTemplateInfo GetPortalTemplate(string templatePath
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_GetPortalsByUser_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalsByUser*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_GetPortalsByUser_DotNetNuke_Data_DataProvider_System_Int32_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalsByUser(DotNetNuke.Data.DataProvider,System.Int32)">GetPortalsByUser(DataProvider, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ArrayList GetPortalsByUser(DataProvider dataProvider, int userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.DataProvider.html">DataProvider</a></td>
+        <td><span class="parametername">dataProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">userId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist">ArrayList</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_GetPortalsByUser_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalsByUser*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_GetPortalsByUser_System_Int32_" data-uid="DotNetNuke.Entities.Portals.PortalController.GetPortalsByUser(System.Int32)">GetPortalsByUser(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ArrayList GetPortalsByUser(int userId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with DataProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static ArrayList GetPortalsByUser(int userId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -2204,12 +3438,45 @@ public PortalController.PortalTemplateInfo GetPortalTemplate(string templatePath
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_IncrementCrmVersion_" data-uid="DotNetNuke.Entities.Portals.PortalController.IncrementCrmVersion*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_IncrementCrmVersion_DotNetNuke_Entities_Portals_IPortalController_System_Int32_" data-uid="DotNetNuke.Entities.Portals.PortalController.IncrementCrmVersion(DotNetNuke.Entities.Portals.IPortalController,System.Int32)">IncrementCrmVersion(IPortalController, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void IncrementCrmVersion(IPortalController portalController, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_IncrementCrmVersion_" data-uid="DotNetNuke.Entities.Portals.PortalController.IncrementCrmVersion*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_IncrementCrmVersion_System_Int32_" data-uid="DotNetNuke.Entities.Portals.PortalController.IncrementCrmVersion(System.Int32)">IncrementCrmVersion(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void IncrementCrmVersion(int portalID)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static void IncrementCrmVersion(int portalID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -2236,8 +3503,88 @@ public PortalController.PortalTemplateInfo GetPortalTemplate(string templatePath
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void IncrementOverridingPortalsCrmVersion()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static void IncrementOverridingPortalsCrmVersion()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_IncrementOverridingPortalsCrmVersion_" data-uid="DotNetNuke.Entities.Portals.PortalController.IncrementOverridingPortalsCrmVersion*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_IncrementOverridingPortalsCrmVersion_DotNetNuke_Entities_Portals_IPortalController_" data-uid="DotNetNuke.Entities.Portals.PortalController.IncrementOverridingPortalsCrmVersion(DotNetNuke.Entities.Portals.IPortalController)">IncrementOverridingPortalsCrmVersion(IPortalController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void IncrementOverridingPortalsCrmVersion(IPortalController portalController)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_IsChildPortal_" data-uid="DotNetNuke.Entities.Portals.PortalController.IsChildPortal*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_IsChildPortal_DotNetNuke_Abstractions_Portals_IPortalAliasService_DotNetNuke_Abstractions_Portals_IPortalInfo_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.IsChildPortal(DotNetNuke.Abstractions.Portals.IPortalAliasService,DotNetNuke.Abstractions.Portals.IPortalInfo,System.String)">IsChildPortal(IPortalAliasService, IPortalInfo, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsChildPortal(IPortalAliasService portalAliasService, IPortalInfo portal, string serverPath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalAliasService.html">IPortalAliasService</a></td>
+        <td><span class="parametername">portalAliasService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalInfo.html">IPortalInfo</a></td>
+        <td><span class="parametername">portal</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">serverPath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_IsChildPortal_" data-uid="DotNetNuke.Entities.Portals.PortalController.IsChildPortal*"></a>
@@ -2246,7 +3593,8 @@ public PortalController.PortalTemplateInfo GetPortalTemplate(string templatePath
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsChildPortal(PortalInfo portal, string serverPath)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IPortalAliasService. Scheduled for removal in v12.0.0.&quot;)]
+public static bool IsChildPortal(PortalInfo portal, string serverPath)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -2288,12 +3636,60 @@ public PortalController.PortalTemplateInfo GetPortalTemplate(string templatePath
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_IsMemberOfPortalGroup_" data-uid="DotNetNuke.Entities.Portals.PortalController.IsMemberOfPortalGroup*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_IsMemberOfPortalGroup_DotNetNuke_Entities_Portals_IPortalController_System_Int32_" data-uid="DotNetNuke.Entities.Portals.PortalController.IsMemberOfPortalGroup(DotNetNuke.Entities.Portals.IPortalController,System.Int32)">IsMemberOfPortalGroup(IPortalController, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsMemberOfPortalGroup(IPortalController portalController, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_IsMemberOfPortalGroup_" data-uid="DotNetNuke.Entities.Portals.PortalController.IsMemberOfPortalGroup*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_IsMemberOfPortalGroup_System_Int32_" data-uid="DotNetNuke.Entities.Portals.PortalController.IsMemberOfPortalGroup(System.Int32)">IsMemberOfPortalGroup(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsMemberOfPortalGroup(int portalId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static bool IsMemberOfPortalGroup(int portalId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -2479,12 +3875,60 @@ public void ParseTemplate(int portalId, PortalController.PortalTemplateInfo temp
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_UpdateEncryptedString_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdateEncryptedString*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_UpdateEncryptedString_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_System_String_System_String_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdateEncryptedString(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32,System.String,System.String,System.String)">UpdateEncryptedString(IHostSettings, int, string, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateEncryptedString(IHostSettings hostSettings, int portalId, string settingName, string settingValue, string passPhrase)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">passPhrase</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_UpdateEncryptedString_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdateEncryptedString*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_UpdateEncryptedString_System_Int32_System_String_System_String_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdateEncryptedString(System.Int32,System.String,System.String,System.String)">UpdateEncryptedString(int, string, string, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void UpdateEncryptedString(int portalID, string settingName, string settingValue, string passPhrase)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static void UpdateEncryptedString(int portalID, string settingName, string settingValue, string passPhrase)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -2521,12 +3965,50 @@ public void ParseTemplate(int portalId, PortalController.PortalTemplateInfo temp
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_UpdatePortalDefaultLanguage_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdatePortalDefaultLanguage*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_UpdatePortalDefaultLanguage_DotNetNuke_Data_DataProvider_System_Int32_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdatePortalDefaultLanguage(DotNetNuke.Data.DataProvider,System.Int32,System.String)">UpdatePortalDefaultLanguage(DataProvider, int, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdatePortalDefaultLanguage(DataProvider dataProvider, int portalId, string cultureCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.DataProvider.html">DataProvider</a></td>
+        <td><span class="parametername">dataProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">cultureCode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_UpdatePortalDefaultLanguage_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdatePortalDefaultLanguage*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_UpdatePortalDefaultLanguage_System_Int32_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdatePortalDefaultLanguage(System.Int32,System.String)">UpdatePortalDefaultLanguage(int, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void UpdatePortalDefaultLanguage(int portalID, string cultureCode)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with DataProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static void UpdatePortalDefaultLanguage(int portalID, string cultureCode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -2612,6 +4094,204 @@ public void ParseTemplate(int portalId, PortalController.PortalTemplateInfo temp
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_UpdatePortalSetting_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdatePortalSetting*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_UpdatePortalSetting_DotNetNuke_Entities_Portals_IPortalController_System_Int32_System_String_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdatePortalSetting(DotNetNuke.Entities.Portals.IPortalController,System.Int32,System.String,System.String)">UpdatePortalSetting(IPortalController, int, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdatePortalSetting(IPortalController portalController, int portalId, string settingName, string settingValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_UpdatePortalSetting_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdatePortalSetting*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_UpdatePortalSetting_DotNetNuke_Entities_Portals_IPortalController_System_Int32_System_String_System_String_System_Boolean_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdatePortalSetting(DotNetNuke.Entities.Portals.IPortalController,System.Int32,System.String,System.String,System.Boolean)">UpdatePortalSetting(IPortalController, int, string, string, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdatePortalSetting(IPortalController portalController, int portalId, string settingName, string settingValue, bool clearCache)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">clearCache</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_UpdatePortalSetting_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdatePortalSetting*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_UpdatePortalSetting_DotNetNuke_Entities_Portals_IPortalController_System_Int32_System_String_System_String_System_Boolean_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdatePortalSetting(DotNetNuke.Entities.Portals.IPortalController,System.Int32,System.String,System.String,System.Boolean,System.String)">UpdatePortalSetting(IPortalController, int, string, string, bool, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdatePortalSetting(IPortalController portalController, int portalId, string settingName, string settingValue, bool clearCache, string cultureCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">clearCache</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">cultureCode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_UpdatePortalSetting_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdatePortalSetting*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_UpdatePortalSetting_DotNetNuke_Entities_Portals_IPortalController_System_Int32_System_String_System_String_System_Boolean_System_String_System_Boolean_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdatePortalSetting(DotNetNuke.Entities.Portals.IPortalController,System.Int32,System.String,System.String,System.Boolean,System.String,System.Boolean)">UpdatePortalSetting(IPortalController, int, string, string, bool, string, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdatePortalSetting(IPortalController portalController, int portalId, string settingName, string settingValue, bool clearCache, string cultureCode, bool isSecure)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">clearCache</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">cultureCode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">isSecure</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_UpdatePortalSetting_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdatePortalSetting*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_UpdatePortalSetting_System_Int32_System_String_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdatePortalSetting(System.Int32,System.String,System.String)">UpdatePortalSetting(int, string, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -2654,7 +4334,8 @@ public void ParseTemplate(int portalId, PortalController.PortalTemplateInfo temp
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void UpdatePortalSetting(int portalID, string settingName, string settingValue, bool clearCache)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static void UpdatePortalSetting(int portalID, string settingName, string settingValue, bool clearCache)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -2696,7 +4377,8 @@ public void ParseTemplate(int portalId, PortalController.PortalTemplateInfo temp
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void UpdatePortalSetting(int portalID, string settingName, string settingValue, bool clearCache, string cultureCode)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static void UpdatePortalSetting(int portalID, string settingName, string settingValue, bool clearCache, string cultureCode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -2743,7 +4425,8 @@ public void ParseTemplate(int portalId, PortalController.PortalTemplateInfo temp
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void UpdatePortalSetting(int portalID, string settingName, string settingValue, bool clearCache, string cultureCode, bool isSecure)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static void UpdatePortalSetting(int portalID, string settingName, string settingValue, bool clearCache, string cultureCode, bool isSecure)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

@@ -154,8 +154,76 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RoleController()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IHostSettings. Scheduled removal in v12.0.0.&quot;)]
+public RoleController()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Security_Roles_RoleController__ctor_" data-uid="DotNetNuke.Security.Roles.RoleController.#ctor*"></a>
+  <h4 id="DotNetNuke_Security_Roles_RoleController__ctor_DotNetNuke_Security_Roles_RoleProvider_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Portals_IPortalController_DotNetNuke_Entities_Users_IUserController_DotNetNuke_Entities_IEventManager_DotNetNuke_Services_FileSystem_IFileManager_DotNetNuke_Services_FileSystem_IFolderManager_DotNetNuke_Data_DataProvider_" data-uid="DotNetNuke.Security.Roles.RoleController.#ctor(DotNetNuke.Security.Roles.RoleProvider,DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Portals.IPortalController,DotNetNuke.Entities.Users.IUserController,DotNetNuke.Entities.IEventManager,DotNetNuke.Services.FileSystem.IFileManager,DotNetNuke.Services.FileSystem.IFolderManager,DotNetNuke.Data.DataProvider)">RoleController(RoleProvider, IHostSettings, IEventLogger, IPortalController, IUserController, IEventManager, IFileManager, IFolderManager, DataProvider)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoleController(RoleProvider roleProvider, IHostSettings hostSettings, IEventLogger eventLogger, IPortalController portalController, IUserController userController, IEventManager eventManager, IFileManager fileManager, IFolderManager folderManager, DataProvider dataProvider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleProvider.html">RoleProvider</a></td>
+        <td><span class="parametername">roleProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.IUserController.html">IUserController</a></td>
+        <td><span class="parametername">userController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.IEventManager.html">IEventManager</a></td>
+        <td><span class="parametername">eventManager</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileManager.html">IFileManager</a></td>
+        <td><span class="parametername">fileManager</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFolderManager.html">IFolderManager</a></td>
+        <td><span class="parametername">folderManager</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.DataProvider.html">DataProvider</a></td>
+        <td><span class="parametername">dataProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
 
@@ -208,7 +276,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int AddRoleGroup(RoleGroupInfo objRoleGroupInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with RoleProvider. Scheduled removal in v12.0.0.&quot;)]
+public static int AddRoleGroup(RoleGroupInfo objRoleGroupInfo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -244,13 +313,13 @@
   </table>
 
 
-  <a id="DotNetNuke_Security_Roles_RoleController_AddUserRole_" data-uid="DotNetNuke.Security.Roles.RoleController.AddUserRole*"></a>
-  <h4 id="DotNetNuke_Security_Roles_RoleController_AddUserRole_DotNetNuke_Entities_Users_UserInfo_DotNetNuke_Security_Roles_RoleInfo_DotNetNuke_Entities_Portals_PortalSettings_DotNetNuke_Security_Roles_RoleStatus_System_DateTime_System_DateTime_System_Boolean_System_Boolean_" data-uid="DotNetNuke.Security.Roles.RoleController.AddUserRole(DotNetNuke.Entities.Users.UserInfo,DotNetNuke.Security.Roles.RoleInfo,DotNetNuke.Entities.Portals.PortalSettings,DotNetNuke.Security.Roles.RoleStatus,System.DateTime,System.DateTime,System.Boolean,System.Boolean)">AddUserRole(UserInfo, RoleInfo, PortalSettings, RoleStatus, DateTime, DateTime, bool, bool)</h4>
+  <a id="DotNetNuke_Security_Roles_RoleController_AddRoleGroup_" data-uid="DotNetNuke.Security.Roles.RoleController.AddRoleGroup*"></a>
+  <h4 id="DotNetNuke_Security_Roles_RoleController_AddRoleGroup_DotNetNuke_Security_Roles_RoleProvider_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Users_IUserController_DotNetNuke_Abstractions_Portals_IPortalSettings_DotNetNuke_Security_Roles_RoleGroupInfo_" data-uid="DotNetNuke.Security.Roles.RoleController.AddRoleGroup(DotNetNuke.Security.Roles.RoleProvider,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Users.IUserController,DotNetNuke.Abstractions.Portals.IPortalSettings,DotNetNuke.Security.Roles.RoleGroupInfo)">AddRoleGroup(RoleProvider, IEventLogger, IUserController, IPortalSettings, RoleGroupInfo)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void AddUserRole(UserInfo user, RoleInfo role, PortalSettings portalSettings, RoleStatus status, DateTime effectiveDate, DateTime expiryDate, bool notifyUser, bool isOwner)</code></pre>
+    <pre><code class="lang-csharp hljs">public static int AddRoleGroup(RoleProvider roleProvider, IEventLogger eventLogger, IUserController userController, IPortalSettings portalSettings, RoleGroupInfo roleGroupInfo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -262,6 +331,146 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleProvider.html">RoleProvider</a></td>
+        <td><span class="parametername">roleProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.IUserController.html">IUserController</a></td>
+        <td><span class="parametername">userController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalSettings.html">IPortalSettings</a></td>
+        <td><span class="parametername">portalSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleGroupInfo.html">RoleGroupInfo</a></td>
+        <td><span class="parametername">roleGroupInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Roles_RoleController_AddUserRole_" data-uid="DotNetNuke.Security.Roles.RoleController.AddUserRole*"></a>
+  <h4 id="DotNetNuke_Security_Roles_RoleController_AddUserRole_DotNetNuke_Entities_Users_UserInfo_DotNetNuke_Security_Roles_RoleInfo_DotNetNuke_Entities_Portals_PortalSettings_DotNetNuke_Security_Roles_RoleStatus_System_DateTime_System_DateTime_System_Boolean_System_Boolean_" data-uid="DotNetNuke.Security.Roles.RoleController.AddUserRole(DotNetNuke.Entities.Users.UserInfo,DotNetNuke.Security.Roles.RoleInfo,DotNetNuke.Entities.Portals.PortalSettings,DotNetNuke.Security.Roles.RoleStatus,System.DateTime,System.DateTime,System.Boolean,System.Boolean)">AddUserRole(UserInfo, RoleInfo, PortalSettings, RoleStatus, DateTime, DateTime, bool, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IRoleController. Scheduled removal in v12.0.0.&quot;)]
+public static void AddUserRole(UserInfo user, RoleInfo role, PortalSettings portalSettings, RoleStatus status, DateTime effectiveDate, DateTime expiryDate, bool notifyUser, bool isOwner)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleInfo.html">RoleInfo</a></td>
+        <td><span class="parametername">role</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalSettings.html">PortalSettings</a></td>
+        <td><span class="parametername">portalSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleStatus.html">RoleStatus</a></td>
+        <td><span class="parametername">status</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></td>
+        <td><span class="parametername">effectiveDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></td>
+        <td><span class="parametername">expiryDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">notifyUser</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">isOwner</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Roles_RoleController_AddUserRole_" data-uid="DotNetNuke.Security.Roles.RoleController.AddUserRole*"></a>
+  <h4 id="DotNetNuke_Security_Roles_RoleController_AddUserRole_DotNetNuke_Security_Roles_IRoleController_DotNetNuke_Entities_Users_IUserController_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Users_UserInfo_DotNetNuke_Security_Roles_RoleInfo_DotNetNuke_Entities_Portals_PortalSettings_DotNetNuke_Security_Roles_RoleStatus_System_DateTime_System_DateTime_System_Boolean_System_Boolean_" data-uid="DotNetNuke.Security.Roles.RoleController.AddUserRole(DotNetNuke.Security.Roles.IRoleController,DotNetNuke.Entities.Users.IUserController,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Users.UserInfo,DotNetNuke.Security.Roles.RoleInfo,DotNetNuke.Entities.Portals.PortalSettings,DotNetNuke.Security.Roles.RoleStatus,System.DateTime,System.DateTime,System.Boolean,System.Boolean)">AddUserRole(IRoleController, IUserController, IEventLogger, UserInfo, RoleInfo, PortalSettings, RoleStatus, DateTime, DateTime, bool, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddUserRole(IRoleController roleController, IUserController userController, IEventLogger eventLogger, UserInfo user, RoleInfo role, PortalSettings portalSettings, RoleStatus status, DateTime effectiveDate, DateTime expiryDate, bool notifyUser, bool isOwner)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.IRoleController.html">IRoleController</a></td>
+        <td><span class="parametername">roleController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.IUserController.html">IUserController</a></td>
+        <td><span class="parametername">userController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
         <td><span class="parametername">user</span></td>
@@ -527,7 +736,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DeleteRoleGroup(RoleGroupInfo objRoleGroupInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with RoleProvider. Scheduled removal in v12.0.0.&quot;)]
+public static void DeleteRoleGroup(RoleGroupInfo objRoleGroupInfo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -549,12 +759,113 @@
 
 
   <a id="DotNetNuke_Security_Roles_RoleController_DeleteRoleGroup_" data-uid="DotNetNuke.Security.Roles.RoleController.DeleteRoleGroup*"></a>
+  <h4 id="DotNetNuke_Security_Roles_RoleController_DeleteRoleGroup_DotNetNuke_Security_Roles_RoleProvider_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Users_IUserController_DotNetNuke_Abstractions_Portals_IPortalSettings_DotNetNuke_Security_Roles_RoleGroupInfo_" data-uid="DotNetNuke.Security.Roles.RoleController.DeleteRoleGroup(DotNetNuke.Security.Roles.RoleProvider,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Users.IUserController,DotNetNuke.Abstractions.Portals.IPortalSettings,DotNetNuke.Security.Roles.RoleGroupInfo)">DeleteRoleGroup(RoleProvider, IEventLogger, IUserController, IPortalSettings, RoleGroupInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeleteRoleGroup(RoleProvider roleProvider, IEventLogger eventLogger, IUserController userController, IPortalSettings portalSettings, RoleGroupInfo roleGroupInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleProvider.html">RoleProvider</a></td>
+        <td><span class="parametername">roleProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.IUserController.html">IUserController</a></td>
+        <td><span class="parametername">userController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalSettings.html">IPortalSettings</a></td>
+        <td><span class="parametername">portalSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleGroupInfo.html">RoleGroupInfo</a></td>
+        <td><span class="parametername">roleGroupInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Roles_RoleController_DeleteRoleGroup_" data-uid="DotNetNuke.Security.Roles.RoleController.DeleteRoleGroup*"></a>
+  <h4 id="DotNetNuke_Security_Roles_RoleController_DeleteRoleGroup_DotNetNuke_Security_Roles_RoleProvider_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Users_IUserController_DotNetNuke_Abstractions_Portals_IPortalSettings_System_Int32_System_Int32_" data-uid="DotNetNuke.Security.Roles.RoleController.DeleteRoleGroup(DotNetNuke.Security.Roles.RoleProvider,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Users.IUserController,DotNetNuke.Abstractions.Portals.IPortalSettings,System.Int32,System.Int32)">DeleteRoleGroup(RoleProvider, IEventLogger, IUserController, IPortalSettings, int, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with RoleProvider. Scheduled removal in v12.0.0.&quot;)]
+public static void DeleteRoleGroup(RoleProvider roleProvider, IEventLogger eventLogger, IUserController userController, IPortalSettings portalSettings, int portalId, int roleGroupId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleProvider.html">RoleProvider</a></td>
+        <td><span class="parametername">roleProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.IUserController.html">IUserController</a></td>
+        <td><span class="parametername">userController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalSettings.html">IPortalSettings</a></td>
+        <td><span class="parametername">portalSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">roleGroupId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Roles_RoleController_DeleteRoleGroup_" data-uid="DotNetNuke.Security.Roles.RoleController.DeleteRoleGroup*"></a>
   <h4 id="DotNetNuke_Security_Roles_RoleController_DeleteRoleGroup_System_Int32_System_Int32_" data-uid="DotNetNuke.Security.Roles.RoleController.DeleteRoleGroup(System.Int32,System.Int32)">DeleteRoleGroup(int, int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DeleteRoleGroup(int portalID, int roleGroupId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with RoleProvider. Scheduled removal in v12.0.0.&quot;)]
+public static void DeleteRoleGroup(int portalID, int roleGroupId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -586,7 +897,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool DeleteUserRole(UserInfo objUser, RoleInfo role, PortalSettings portalSettings, bool notifyUser)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IRoleController. Scheduled removal in v12.0.0.&quot;)]
+public static bool DeleteUserRole(UserInfo objUser, RoleInfo role, PortalSettings portalSettings, bool notifyUser)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -601,6 +913,93 @@
       <tr>
         <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
         <td><span class="parametername">objUser</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleInfo.html">RoleInfo</a></td>
+        <td><span class="parametername">role</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalSettings.html">PortalSettings</a></td>
+        <td><span class="parametername">portalSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">notifyUser</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Roles_RoleController_DeleteUserRole_" data-uid="DotNetNuke.Security.Roles.RoleController.DeleteUserRole*"></a>
+  <h4 id="DotNetNuke_Security_Roles_RoleController_DeleteUserRole_DotNetNuke_Security_Roles_RoleProvider_DotNetNuke_Security_Roles_IRoleController_DotNetNuke_Entities_IEventManager_DotNetNuke_Entities_Portals_IPortalController_DotNetNuke_Entities_Users_IUserController_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Users_UserInfo_DotNetNuke_Security_Roles_RoleInfo_DotNetNuke_Entities_Portals_PortalSettings_System_Boolean_" data-uid="DotNetNuke.Security.Roles.RoleController.DeleteUserRole(DotNetNuke.Security.Roles.RoleProvider,DotNetNuke.Security.Roles.IRoleController,DotNetNuke.Entities.IEventManager,DotNetNuke.Entities.Portals.IPortalController,DotNetNuke.Entities.Users.IUserController,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Users.UserInfo,DotNetNuke.Security.Roles.RoleInfo,DotNetNuke.Entities.Portals.PortalSettings,System.Boolean)">DeleteUserRole(RoleProvider, IRoleController, IEventManager, IPortalController, IUserController, IEventLogger, UserInfo, RoleInfo, PortalSettings, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool DeleteUserRole(RoleProvider roleProvider, IRoleController roleController, IEventManager eventManager, IPortalController portalController, IUserController userController, IEventLogger eventLogger, UserInfo user, RoleInfo role, PortalSettings portalSettings, bool notifyUser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleProvider.html">RoleProvider</a></td>
+        <td><span class="parametername">roleProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.IRoleController.html">IRoleController</a></td>
+        <td><span class="parametername">roleController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.IEventManager.html">IEventManager</a></td>
+        <td><span class="parametername">eventManager</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.IUserController.html">IUserController</a></td>
+        <td><span class="parametername">userController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">user</span></td>
         <td></td>
       </tr>
       <tr>
@@ -806,12 +1205,65 @@
 
 
   <a id="DotNetNuke_Security_Roles_RoleController_GetRoleGroup_" data-uid="DotNetNuke.Security.Roles.RoleController.GetRoleGroup*"></a>
+  <h4 id="DotNetNuke_Security_Roles_RoleController_GetRoleGroup_DotNetNuke_Security_Roles_RoleProvider_System_Int32_System_Int32_" data-uid="DotNetNuke.Security.Roles.RoleController.GetRoleGroup(DotNetNuke.Security.Roles.RoleProvider,System.Int32,System.Int32)">GetRoleGroup(RoleProvider, int, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoleGroupInfo GetRoleGroup(RoleProvider roleProvider, int portalId, int roleGroupId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleProvider.html">RoleProvider</a></td>
+        <td><span class="parametername">roleProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">roleGroupId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleGroupInfo.html">RoleGroupInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Roles_RoleController_GetRoleGroup_" data-uid="DotNetNuke.Security.Roles.RoleController.GetRoleGroup*"></a>
   <h4 id="DotNetNuke_Security_Roles_RoleController_GetRoleGroup_System_Int32_System_Int32_" data-uid="DotNetNuke.Security.Roles.RoleController.GetRoleGroup(System.Int32,System.Int32)">GetRoleGroup(int, int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static RoleGroupInfo GetRoleGroup(int portalId, int roleGroupId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with RoleProvider. Scheduled removal in v12.0.0.&quot;)]
+public static RoleGroupInfo GetRoleGroup(int portalId, int roleGroupId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -853,12 +1305,65 @@
 
 
   <a id="DotNetNuke_Security_Roles_RoleController_GetRoleGroupByName_" data-uid="DotNetNuke.Security.Roles.RoleController.GetRoleGroupByName*"></a>
+  <h4 id="DotNetNuke_Security_Roles_RoleController_GetRoleGroupByName_DotNetNuke_Security_Roles_RoleProvider_System_Int32_System_String_" data-uid="DotNetNuke.Security.Roles.RoleController.GetRoleGroupByName(DotNetNuke.Security.Roles.RoleProvider,System.Int32,System.String)">GetRoleGroupByName(RoleProvider, int, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoleGroupInfo GetRoleGroupByName(RoleProvider roleProvider, int portalId, string roleGroupName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleProvider.html">RoleProvider</a></td>
+        <td><span class="parametername">roleProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">roleGroupName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleGroupInfo.html">RoleGroupInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Roles_RoleController_GetRoleGroupByName_" data-uid="DotNetNuke.Security.Roles.RoleController.GetRoleGroupByName*"></a>
   <h4 id="DotNetNuke_Security_Roles_RoleController_GetRoleGroupByName_System_Int32_System_String_" data-uid="DotNetNuke.Security.Roles.RoleController.GetRoleGroupByName(System.Int32,System.String)">GetRoleGroupByName(int, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static RoleGroupInfo GetRoleGroupByName(int portalId, string roleGroupName)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with RoleProvider. Scheduled removal in v12.0.0.&quot;)]
+public static RoleGroupInfo GetRoleGroupByName(int portalId, string roleGroupName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -900,12 +1405,60 @@
 
 
   <a id="DotNetNuke_Security_Roles_RoleController_GetRoleGroups_" data-uid="DotNetNuke.Security.Roles.RoleController.GetRoleGroups*"></a>
+  <h4 id="DotNetNuke_Security_Roles_RoleController_GetRoleGroups_DotNetNuke_Security_Roles_RoleProvider_System_Int32_" data-uid="DotNetNuke.Security.Roles.RoleController.GetRoleGroups(DotNetNuke.Security.Roles.RoleProvider,System.Int32)">GetRoleGroups(RoleProvider, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ArrayList GetRoleGroups(RoleProvider roleProvider, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleProvider.html">RoleProvider</a></td>
+        <td><span class="parametername">roleProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist">ArrayList</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Roles_RoleController_GetRoleGroups_" data-uid="DotNetNuke.Security.Roles.RoleController.GetRoleGroups*"></a>
   <h4 id="DotNetNuke_Security_Roles_RoleController_GetRoleGroups_System_Int32_" data-uid="DotNetNuke.Security.Roles.RoleController.GetRoleGroups(System.Int32)">GetRoleGroups(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ArrayList GetRoleGroups(int portalID)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with RoleProvider. Scheduled removal in v12.0.0.&quot;)]
+public static ArrayList GetRoleGroups(int portalID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1323,12 +1876,50 @@
 
 
   <a id="DotNetNuke_Security_Roles_RoleController_SerializeRoleGroups_" data-uid="DotNetNuke.Security.Roles.RoleController.SerializeRoleGroups*"></a>
+  <h4 id="DotNetNuke_Security_Roles_RoleController_SerializeRoleGroups_DotNetNuke_Security_Roles_RoleProvider_System_Xml_XmlWriter_System_Int32_" data-uid="DotNetNuke.Security.Roles.RoleController.SerializeRoleGroups(DotNetNuke.Security.Roles.RoleProvider,System.Xml.XmlWriter,System.Int32)">SerializeRoleGroups(RoleProvider, XmlWriter, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SerializeRoleGroups(RoleProvider roleProvider, XmlWriter writer, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleProvider.html">RoleProvider</a></td>
+        <td><span class="parametername">roleProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter">XmlWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Roles_RoleController_SerializeRoleGroups_" data-uid="DotNetNuke.Security.Roles.RoleController.SerializeRoleGroups*"></a>
   <h4 id="DotNetNuke_Security_Roles_RoleController_SerializeRoleGroups_System_Xml_XmlWriter_System_Int32_" data-uid="DotNetNuke.Security.Roles.RoleController.SerializeRoleGroups(System.Xml.XmlWriter,System.Int32)">SerializeRoleGroups(XmlWriter, int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SerializeRoleGroups(XmlWriter writer, int portalID)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with RoleProvider. Scheduled removal in v12.0.0.&quot;)]
+public static void SerializeRoleGroups(XmlWriter writer, int portalID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1392,7 +1983,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void UpdateRoleGroup(RoleGroupInfo roleGroup)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with RoleProvider. Scheduled removal in v12.0.0.&quot;)]
+public static void UpdateRoleGroup(RoleGroupInfo roleGroup)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1431,6 +2023,115 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleGroupInfo.html">RoleGroupInfo</a></td>
+        <td><span class="parametername">roleGroup</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">includeRoles</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Roles_RoleController_UpdateRoleGroup_" data-uid="DotNetNuke.Security.Roles.RoleController.UpdateRoleGroup*"></a>
+  <h4 id="DotNetNuke_Security_Roles_RoleController_UpdateRoleGroup_DotNetNuke_Security_Roles_RoleProvider_DotNetNuke_Security_Roles_IRoleController_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Users_IUserController_DotNetNuke_Abstractions_Portals_IPortalSettings_DotNetNuke_Security_Roles_RoleGroupInfo_" data-uid="DotNetNuke.Security.Roles.RoleController.UpdateRoleGroup(DotNetNuke.Security.Roles.RoleProvider,DotNetNuke.Security.Roles.IRoleController,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Users.IUserController,DotNetNuke.Abstractions.Portals.IPortalSettings,DotNetNuke.Security.Roles.RoleGroupInfo)">UpdateRoleGroup(RoleProvider, IRoleController, IEventLogger, IUserController, IPortalSettings, RoleGroupInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateRoleGroup(RoleProvider roleProvider, IRoleController roleController, IEventLogger eventLogger, IUserController userController, IPortalSettings portalSettings, RoleGroupInfo roleGroup)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleProvider.html">RoleProvider</a></td>
+        <td><span class="parametername">roleProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.IRoleController.html">IRoleController</a></td>
+        <td><span class="parametername">roleController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.IUserController.html">IUserController</a></td>
+        <td><span class="parametername">userController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalSettings.html">IPortalSettings</a></td>
+        <td><span class="parametername">portalSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleGroupInfo.html">RoleGroupInfo</a></td>
+        <td><span class="parametername">roleGroup</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Roles_RoleController_UpdateRoleGroup_" data-uid="DotNetNuke.Security.Roles.RoleController.UpdateRoleGroup*"></a>
+  <h4 id="DotNetNuke_Security_Roles_RoleController_UpdateRoleGroup_DotNetNuke_Security_Roles_RoleProvider_DotNetNuke_Security_Roles_IRoleController_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Users_IUserController_DotNetNuke_Abstractions_Portals_IPortalSettings_DotNetNuke_Security_Roles_RoleGroupInfo_System_Boolean_" data-uid="DotNetNuke.Security.Roles.RoleController.UpdateRoleGroup(DotNetNuke.Security.Roles.RoleProvider,DotNetNuke.Security.Roles.IRoleController,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Users.IUserController,DotNetNuke.Abstractions.Portals.IPortalSettings,DotNetNuke.Security.Roles.RoleGroupInfo,System.Boolean)">UpdateRoleGroup(RoleProvider, IRoleController, IEventLogger, IUserController, IPortalSettings, RoleGroupInfo, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateRoleGroup(RoleProvider roleProvider, IRoleController roleController, IEventLogger eventLogger, IUserController userController, IPortalSettings portalSettings, RoleGroupInfo roleGroup, bool includeRoles)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleProvider.html">RoleProvider</a></td>
+        <td><span class="parametername">roleProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.IRoleController.html">IRoleController</a></td>
+        <td><span class="parametername">roleController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.IUserController.html">IUserController</a></td>
+        <td><span class="parametername">userController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalSettings.html">IPortalSettings</a></td>
+        <td><span class="parametername">portalSettings</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><a class="xref" href="DotNetNuke.Security.Roles.RoleGroupInfo.html">RoleGroupInfo</a></td>
         <td><span class="parametername">roleGroup</span></td>

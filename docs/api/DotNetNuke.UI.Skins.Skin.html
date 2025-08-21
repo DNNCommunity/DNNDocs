@@ -116,6 +116,12 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
+      <a class="xref" href="DotNetNuke.Framework.UserControlBase.html#DotNetNuke_Framework_UserControlBase_JavaScriptStringEncode_System_String_">UserControlBase.JavaScriptStringEncode(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.UserControlBase.html#DotNetNuke_Framework_UserControlBase_JavaScriptStringEncode_System_String_System_Boolean_">UserControlBase.JavaScriptStringEncode(string, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="DotNetNuke.Framework.UserControlBase.html#DotNetNuke_Framework_UserControlBase_IsHostMenu">UserControlBase.IsHostMenu</a>
     </div>
     <div>
@@ -580,6 +586,53 @@ public Skin()</code></pre>
       <tr>
         <td><a class="xref" href="DotNetNuke.Abstractions.INavigationManager.html">INavigationManager</a></td>
         <td><span class="parametername">navigationManager</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_UI_Skins_Skin__ctor_" data-uid="DotNetNuke.UI.Skins.Skin.#ctor*"></a>
+  <h4 id="DotNetNuke_UI_Skins_Skin__ctor_DotNetNuke_UI_Modules_IModuleControlPipeline_DotNetNuke_Abstractions_INavigationManager_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Application_IHostSettingsService_DotNetNuke_Framework_JavaScriptLibraries_IJavaScriptLibraryHelper_" data-uid="DotNetNuke.UI.Skins.Skin.#ctor(DotNetNuke.UI.Modules.IModuleControlPipeline,DotNetNuke.Abstractions.INavigationManager,DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Application.IHostSettingsService,DotNetNuke.Framework.JavaScriptLibraries.IJavaScriptLibraryHelper)">Skin(IModuleControlPipeline, INavigationManager, IHostSettings, IHostSettingsService, IJavaScriptLibraryHelper)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Skin(IModuleControlPipeline moduleControlPipeline, INavigationManager navigationManager, IHostSettings hostSettings, IHostSettingsService hostSettingsService, IJavaScriptLibraryHelper javaScript)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.UI.Modules.IModuleControlPipeline.html">IModuleControlPipeline</a></td>
+        <td><span class="parametername">moduleControlPipeline</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.INavigationManager.html">INavigationManager</a></td>
+        <td><span class="parametername">navigationManager</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettingsService.html">IHostSettingsService</a></td>
+        <td><span class="parametername">hostSettingsService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Framework.JavaScriptLibraries.IJavaScriptLibraryHelper.html">IJavaScriptLibraryHelper</a></td>
+        <td><span class="parametername">javaScript</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1501,12 +1554,60 @@ public Skin()</code></pre>
 
 
   <a id="DotNetNuke_UI_Skins_Skin_GetSkin_" data-uid="DotNetNuke.UI.Skins.Skin.GetSkin*"></a>
+  <h4 id="DotNetNuke_UI_Skins_Skin_GetSkin_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Framework_PageBase_" data-uid="DotNetNuke.UI.Skins.Skin.GetSkin(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Framework.PageBase)">GetSkin(IHostSettings, PageBase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Skin GetSkin(IHostSettings hostSettings, PageBase page)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Framework.PageBase.html">PageBase</a></td>
+        <td><span class="parametername">page</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.UI.Skins.Skin.html">Skin</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_UI_Skins_Skin_GetSkin_" data-uid="DotNetNuke.UI.Skins.Skin.GetSkin*"></a>
   <h4 id="DotNetNuke_UI_Skins_Skin_GetSkin_DotNetNuke_Framework_PageBase_" data-uid="DotNetNuke.UI.Skins.Skin.GetSkin(DotNetNuke.Framework.PageBase)">GetSkin(PageBase)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Skin GetSkin(PageBase page)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static Skin GetSkin(PageBase page)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

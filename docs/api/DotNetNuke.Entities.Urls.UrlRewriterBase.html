@@ -135,10 +135,90 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected UrlRewriterBase()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.0.2. Please use overload with IHostSettings. Scheduled removal in v12.0.0.&quot;)]
+protected UrlRewriterBase()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Entities_Urls_UrlRewriterBase__ctor_" data-uid="DotNetNuke.Entities.Urls.UrlRewriterBase.#ctor*"></a>
+  <h4 id="DotNetNuke_Entities_Urls_UrlRewriterBase__ctor_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Portals_IPortalAliasService_DotNetNuke_Abstractions_Application_IHostSettingsService_DotNetNuke_Entities_Portals_IPortalController_" data-uid="DotNetNuke.Entities.Urls.UrlRewriterBase.#ctor(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Portals.IPortalAliasService,DotNetNuke.Abstractions.Application.IHostSettingsService,DotNetNuke.Entities.Portals.IPortalController)">UrlRewriterBase(IHostSettings, IPortalAliasService, IHostSettingsService, IPortalController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected UrlRewriterBase(IHostSettings hostSettings, IPortalAliasService portalAliasService, IHostSettingsService hostSettingsService, IPortalController portalController)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalAliasService.html">IPortalAliasService</a></td>
+        <td><span class="parametername">portalAliasService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettingsService.html">IHostSettingsService</a></td>
+        <td><span class="parametername">hostSettingsService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
+
+
+  <a id="DotNetNuke_Entities_Urls_UrlRewriterBase_AutoAddAlias_" data-uid="DotNetNuke.Entities.Urls.UrlRewriterBase.AutoAddAlias*"></a>
+  <h4 id="DotNetNuke_Entities_Urls_UrlRewriterBase_AutoAddAlias_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Portals_IPortalAliasService_System_Web_HttpContextBase_" data-uid="DotNetNuke.Entities.Urls.UrlRewriterBase.AutoAddAlias(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Portals.IPortalAliasService,System.Web.HttpContextBase)">AutoAddAlias(IHostSettings, IPortalAliasService, HttpContextBase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static void AutoAddAlias(IHostSettings hostSettings, IPortalAliasService portalAliasService, HttpContextBase context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalAliasService.html">IPortalAliasService</a></td>
+        <td><span class="parametername">portalAliasService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.httpcontextbase">HttpContextBase</a></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
   <a id="DotNetNuke_Entities_Urls_UrlRewriterBase_AutoAddAlias_" data-uid="DotNetNuke.Entities.Urls.UrlRewriterBase.AutoAddAlias*"></a>
@@ -168,6 +248,58 @@
   </table>
 
 
+  <a id="DotNetNuke_Entities_Urls_UrlRewriterBase_AutoAddAlias_" data-uid="DotNetNuke.Entities.Urls.UrlRewriterBase.AutoAddAlias*"></a>
+  <h4 id="DotNetNuke_Entities_Urls_UrlRewriterBase_AutoAddAlias_System_Web_HttpContextBase_" data-uid="DotNetNuke.Entities.Urls.UrlRewriterBase.AutoAddAlias(System.Web.HttpContextBase)">AutoAddAlias(HttpContextBase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AutoAddAlias(HttpContextBase context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.httpcontextbase">HttpContextBase</a></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Urls_UrlRewriterBase_AutoAddPortalAliasEnabled_" data-uid="DotNetNuke.Entities.Urls.UrlRewriterBase.AutoAddPortalAliasEnabled*"></a>
+  <h4 id="DotNetNuke_Entities_Urls_UrlRewriterBase_AutoAddPortalAliasEnabled" data-uid="DotNetNuke.Entities.Urls.UrlRewriterBase.AutoAddPortalAliasEnabled">AutoAddPortalAliasEnabled()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool AutoAddPortalAliasEnabled()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Entities_Urls_UrlRewriterBase_CanAutoAddPortalAlias_" data-uid="DotNetNuke.Entities.Urls.UrlRewriterBase.CanAutoAddPortalAlias*"></a>
   <h4 id="DotNetNuke_Entities_Urls_UrlRewriterBase_CanAutoAddPortalAlias" data-uid="DotNetNuke.Entities.Urls.UrlRewriterBase.CanAutoAddPortalAlias">CanAutoAddPortalAlias()</h4>
   <div class="markdown level1 summary"></div>
@@ -176,6 +308,53 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected static bool CanAutoAddPortalAlias()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Urls_UrlRewriterBase_CanAutoAddPortalAlias_" data-uid="DotNetNuke.Entities.Urls.UrlRewriterBase.CanAutoAddPortalAlias*"></a>
+  <h4 id="DotNetNuke_Entities_Urls_UrlRewriterBase_CanAutoAddPortalAlias_DotNetNuke_Abstractions_Application_IHostSettingsService_DotNetNuke_Entities_Portals_IPortalController_" data-uid="DotNetNuke.Entities.Urls.UrlRewriterBase.CanAutoAddPortalAlias(DotNetNuke.Abstractions.Application.IHostSettingsService,DotNetNuke.Entities.Portals.IPortalController)">CanAutoAddPortalAlias(IHostSettingsService, IPortalController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static bool CanAutoAddPortalAlias(IHostSettingsService hostSettingsService, IPortalController portalController)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettingsService.html">IHostSettingsService</a></td>
+        <td><span class="parametername">hostSettingsService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
     <thead>
