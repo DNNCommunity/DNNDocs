@@ -31,8 +31,8 @@ The ASP.NET Membership Provider supports multiple password storage formats throu
 - **Security Level**: Highest
 - **Default Since**: DNN 7.1.0
 - **Hashing Algorithm**: 
-  - SHA1 (DNN 7.1.0 - 10.1.x)
-  - SHA256 (DNN 10.2.0+) - Enhanced security with stronger hashing
+  - SHA1 (DNN 7.1.0 - 10.1.0)
+  - SHA256 (DNN 10.1.1+) - Enhanced security with stronger hashing
 - **Description**: Passwords are irreversibly hashed using cryptographic algorithms. This is the most secure option as original passwords cannot be recovered even if the database is compromised.
 - **Recovery**: Password reset required - original passwords cannot be retrieved (see [Force Password Reset](#force-password-reset))
 
@@ -54,12 +54,12 @@ The ASP.NET Membership Provider supports multiple password storage formats throu
 |-------------|----------------|-------------------|
 | Pre-7.1.0   | Encrypted      | N/A               |
 | 7.1.0+      | Hashed         | SHA1              |
-| 10.2.0+     | Hashed         | SHA256            |
+| 10.1.1+     | Hashed         | SHA256            |
 
 ### Security Recommendations
 
-1. **Always use Hashed format** in production environments
-2. **Upgrade to SHA256** when using DNN 10.2.0 or later for enhanced security
+1. **Always use Hashed format** in production environments. [learn how to migrate](#migration-from-encrypted-to-hashed)
+2. **Upgrade to SHA256** when using DNN 10.1.1 or later for enhanced security. [learn how to migrate](#changing-from-sha-1-to-sha-256)
 3. **Never use Clear (plain text)** format except for development/testing purposes
 4. **Plan migration strategy** when upgrading from older DNN versions with encrypted passwords
 5. **Implement strong password policies** regardless of storage format
@@ -114,14 +114,14 @@ UPDATE Users
 SET UpdatePassword = 1
 ```
 
-### Changing only the hashing algorithm
+> 💡Is it critical to migrate from Encrypted to Hashed?
+Encrypted passwords use a 2-way encryption. This means that if any hacker gets a hold on the web.config file and the database, they will **easily** be able to decrypt ALL passwords. Hashed uses a one-way encryption method which means that passwords can't be reversed. Should a hacker obtain the database and web.config file, they can't reverse any password directly, they would have to invest quite a large amount of computing resources to reverse a single password (especially since DNN also uses a per-user password salt). We strongly encourage to migrate any site that uses "Encrypted" to "Hashed" as it quickly improves security tremendously.
+
+### Changing from SHA-1 to SHA-256
 
 > ⚠️ **Warning**: Because hashed passwords cannot be decrypted, this change will prevent any logins with the existing passwords (including super-users), which may be confusing for users. To help avoid confusion you may want to notify all your users about having to reset their passwords for better security. They will have to click on "Reset Password" to migrate to the new format. They will be able to enter their username and receive a special link by email to reset their password using a token.
 
 > 💡You can check the `LastPasswordChangedDate` in the `aspnet_Membership` table to see which users did change their passwords or not after the date of that change. You may use that information to later delete users that may no longer be activivally engaged. Additionally you can wipe the `Password` field if you want to make sure no passwords with the old algorithm are kept (before notifying users about the change).
-
-> 💡**Is it critical to migrate from Encrypted to Hashed?**
-Encrypted passwords use a 2-way encryption. This means that if any hacker gets a hold on the web.config file and the database, they will **easily** be able to decrypt ALL passwords. Hashed uses a one-way encryption method which means that passwords can't be reversed. Should a hacker obtain the database and web.config file, they can't reverse any password directly, they would have to invest quite a large amount of computing resources to reverse a single password (especially since DNN also uses a per-user password salt). We strongly encourage to migrate any site that uses "Encrypted" to "Hashed" as it quickly improves security tremendously.
 
 > 💡**Is it critical to migrate from SHA1 to SHA256?**
 SHA-1 has known collision weaknesses and is discouraged by most cryptographic compliance standards. Collisions aren’t a practical concern in per-user salted password storage, but some auditors or clients will flag any use of SHA-1 regardless of context. Moving to SHA-256 aligns better with PCI-DSS, NIST, ISO, and similar standards.
