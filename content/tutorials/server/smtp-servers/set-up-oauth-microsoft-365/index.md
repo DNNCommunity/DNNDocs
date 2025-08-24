@@ -81,6 +81,8 @@ Create an **App registration** (portal.azure.com -> App registrations)
 
 ## 5. Setup the mailbox in DNN 
 * Personabar - Servers - Server settings
+* SMTP Server and Port:
+    * smtp.office365.com:587
 * SMTP authentication:
     * SMTP Authentiaction: **OAUTH**
     * Auth Provider: **Exchange Online**
