@@ -54,7 +54,7 @@ The ASP.NET Membership Provider supports multiple password storage formats throu
 |-------------|----------------|-------------------|
 | Pre-7.1.0   | Encrypted      | N/A               |
 | 7.1.0+      | Hashed         | SHA1              |
-| 10.1.1+     | Hashed         | SHA256            |
+| 10.2.0+     | Hashed         | SHA256            |
 
 ### Security Recommendations
 
