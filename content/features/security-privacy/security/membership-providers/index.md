@@ -31,7 +31,7 @@ The ASP.NET Membership Provider supports multiple password storage formats throu
 - **Security Level**: Highest
 - **Default Since**: DNN 7.1.0
 - **Hashing Algorithm**: 
-  - SHA1 (DNN 7.1.0 - 10.1.x)
+  - SHA1 (DNN 7.1.0 - 10.1.0)
   - SHA256 (DNN 10.2.x) - Enhanced security with stronger hashing
 - **Description**: Passwords are irreversibly hashed using cryptographic algorithms. This is the most secure option as original passwords cannot be recovered even if the database is compromised.
 - **Recovery**: Password reset required - original passwords cannot be retrieved (see [Force Password Reset](#force-password-reset))
