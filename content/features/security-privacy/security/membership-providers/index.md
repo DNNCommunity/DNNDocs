@@ -59,7 +59,7 @@ The ASP.NET Membership Provider supports multiple password storage formats throu
 ### Security Recommendations
 
 1. **Always use Hashed format** in production environments. [learn how to migrate](#migration-from-encrypted-to-hashed)
-2. **Upgrade to SHA256** when using DNN 10.2.0 or later for enhanced security. [learn how to migrate](#changing-from-sha-1-to-sha-256)
+2. **Upgrade to SHA256** when using DNN 10.1.1 or later for enhanced security. [learn how to migrate](#changing-from-sha-1-to-sha-256)
 3. **Never use Clear (plain text)** format except for development/testing purposes
 4. **Plan migration strategy** when upgrading from older DNN versions with encrypted passwords
 5. **Implement strong password policies** regardless of storage format
