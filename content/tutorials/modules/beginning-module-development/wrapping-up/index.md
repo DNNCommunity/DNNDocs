@@ -159,7 +159,7 @@ Each assembly (`.dll` file) can have multiple versions:
 - **Assembly Version** this is the version that is actually used in Binding Redirects. For that reason, many developers of libraries do not increment it unless the library has breaking API changes. This avoids having lots of binding redirects in the `web.config` file.
 - **Product Version** or **Informational Version**: those are purely informational and can be any string more or less meaningful often including a branch or commit sha, etc.
 
-Because many popular packages do not increment the assembly version, but rather the file version **DNN uses File Version** for its own dependencies and we **recommend that extension developers do the same** for cross compatibility. DNN keeps your declared version in the Assemblies table and will automatically find the proper Assembly Version when automatically creating the binding redirect (if needed).
+Because many popular packages do not increment the assembly version, but rather the file version **DNN uses File Version** for its own dependencies and we **recommend that extension developers do the same** for cross compatibility. DNN keeps your declared version in the `Assemblies` table and will automatically find the proper Assembly Version when automatically creating the binding redirect (if needed).
 
 ## Packing up our guestbook module
 
