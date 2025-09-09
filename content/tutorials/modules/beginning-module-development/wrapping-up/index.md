@@ -156,7 +156,7 @@ If the `<version>` node is not provided, DNN will assume the assembly is the sam
 These days most dependencies comes from NuGet packages. Note that the NuGet package version might not match the assembly version or can even contain multiple assemblies so you need to inspect individual `.dll` files and not rely solely on the NuGet package name or version.
 Each assembly (`.dll` file) can have multiple versions:
 - **File Version** this version is exposed in Windows Explorer properties details view. It is most commonly incremented for each build of the library.
-- **Assembly Version** this is the version that is actually used in Binding Redirects. For that reason, many developers of libraries do not increment it unless the library has breaking API changes. This avoids having lots of binding redirects in the web.config file.
+- **Assembly Version** this is the version that is actually used in Binding Redirects. For that reason, many developers of libraries do not increment it unless the library has breaking API changes. This avoids having lots of binding redirects in the `web.config` file.
 - **Product Version** or **Informational Version**: those are purely informational and can be any string more or less meaningful often including a branch or commit sha, etc.
 
 Because many popular packages do not increment the assembly version, but rather the file version **DNN uses File Version** for its own dependencies and we **recommend that extension developers do the same** for cross compatibility. DNN keeps your declared version in the Assemblies table and will automatically find the proper Assembly Version when automatically creating the binding redirect (if needed).
