@@ -149,7 +149,17 @@ There is an element in the definition we have not touched on: eventMessage. This
 
 #### Assemblies
 
-The node \&lt;component type=&quot;Assembly&quot;\&gt; lists all dlls to be installed. You actually need to specify the bin folder as there are scenarios where dlls can go elsewhere. Using the version attribute you can make sure DNN keeps track of versions of your dlls. This can be leveraged with shared dlls. Let&#39;s say you use Acme.dll and have compiled your module using version 1.1.0 from this company, then using the version code will prevent another module developer using the same Acme.dll but with version 1.0.0 to get that dll installed over yours as that might break your code. Note we are assuming that shared dlls always support backwards compatibility which is kind of an industry standard.
+The node <component type="Assembly"> lists all dlls to be installed. You actually need to specify the bin folder as there are scenarios where dlls can go elsewhere. Using the version attribute you can make sure DNN keeps track of versions of your dlls. This can be leveraged with shared dlls. Let's say you use Acme.dll and have compiled your module using version 1.1.0 from this library, then using the version code will prevent another module developer using the same Acme.dll but with version 1.0.0 to get that dll installed over yours as that might break your code. Note we are assuming that shared dlls always support backwards compatibility which is kind of an industry standard except for major versions in which case the less maintained module could break and not the more recently maintained one.
+
+**Which version to use.**
+If the <version> node is not provided, DNN will assume the assembly is the same version as your package version (this is great for your own extension code .dll file so you don't need to edit the manifest on each new release).
+These days most dependencies comes from Nuget packages. Note that the Nuget package version might not match the assembly version or can even contain multiple assemblies so you need to inspect individual .dll files and not rely solely on the Nuget package name or version.
+Each assembly (.dll file) can have multiple versions:
+- **File Version** this version is exposed in Windows Explorer properties details view. It is most commonly incremented for each build of the library.
+- **Assembly Version** this is the version that is actually used in Binding Redirects. For that reason, many developers of libraries do not increment it unless the library has breaking API changes. This avoids having lots of binding redirects in the web.config file.
+- **Product Version** or **Informational Version**: those are purely informational and can be any string more or less meaningful often including a branch or commit sha, etc.
+
+Because many popular packages do not increment the assembly version, but rather the file version **DNN uses File Version** for its own dependencies and we **recommend that extension developers do the same** for cross compatibility. DNN keeps your declared version in the Assemblies table and will automatically find the proper Assembly Version when automatically creating the binding redirect (if needed).
 
 ## Packing up our guestbook module
 
