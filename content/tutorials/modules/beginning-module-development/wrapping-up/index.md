@@ -154,7 +154,7 @@ The node `<component type="Assembly">` lists all DLLs to be installed. You actua
 **Which version to use.**
 If the `<version>` node is not provided, DNN will assume the assembly is the same version as your package version (this is great for your own extension code `.dll` file so you don't need to edit the manifest on each new release).
 These days most dependencies comes from NuGet packages. Note that the NuGet package version might not match the assembly version or can even contain multiple assemblies so you need to inspect individual `.dll` files and not rely solely on the NuGet package name or version.
-Each assembly (.dll file) can have multiple versions:
+Each assembly (`.dll` file) can have multiple versions:
 - **File Version** this version is exposed in Windows Explorer properties details view. It is most commonly incremented for each build of the library.
 - **Assembly Version** this is the version that is actually used in Binding Redirects. For that reason, many developers of libraries do not increment it unless the library has breaking API changes. This avoids having lots of binding redirects in the web.config file.
 - **Product Version** or **Informational Version**: those are purely informational and can be any string more or less meaningful often including a branch or commit sha, etc.
