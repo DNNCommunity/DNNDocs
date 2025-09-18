@@ -15,6 +15,7 @@
 ## [Themes](xref:themes)
 # [Security/Privacy](xref:security-privacy)
 ## [Security](xref:platform-overview-security)
+### [Membership Providers](xref:security-membership-providers)
 ### [JWT](xref:jwt)
 ## [Privacy](xref:privacy)
 ### [Communication Settings](xref:privacy-communication-settings)

@@ -30,7 +30,7 @@ The below is, of course, subject to change. If your current version of DNN Platf
 |[08.00.04](https://github.com/dnnsoftware/Dnn.Releases.Archive.8x/tree/master/08.00.04)|[09.01.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1)|
 |[09.01.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1)|[09.03.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|
 |[09.03.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|[09.13.09](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.9)|
-|[09.13.09](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.9)|[10.00.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.0.1)|
+|[09.13.09](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.9)|[10.01.00](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.1.0)|
 
 > [!TIP]
 > **Upgrade Notes:** DotNetNuke has been around since 2002, and in that time has had a number of changes which can complicate matters during the process of upgrading through different versions. These include:
@@ -45,4 +45,6 @@ The below is, of course, subject to change. If your current version of DNN Platf
 - In DNN 9.2.0, multiple APIs were removed that were marked deprecated in DNN 7 and before. Most of the core modules have been updated since and you can find them at [https://github.com/dnncommunity](https://github.com/dnncommunity). If you have other modules installed, please check for updates before upgrading to DNN 9.2.0 or later.
 - DNN 9.4.0 introduced a minimum requirement of ASP.NET 4.7.2.
 - DNN 9.8.0 (and above for the 9.x series releases) brings the OPTIONAL (but HIGHLY RECOMMENDED) [Telerik Removal](xref:setup-telerik-removal).
+- DNN 10.0.0 introduced minimum requirements for ASP.NET 4.8 and SQL Server 2017. In addition, it will force-remove DNN-Provided Telerik versions. 
+- DNN 10.1.1 new installs use SHA256 as the default password hashing algorithm. This only affect new installs, if you want to migrate an upgraded site to SHA256, please read [the documentation for membership provider changes](xref:security-membership-providers).
 
