@@ -230,15 +230,16 @@
 <li>Implementing new password policies</li>
 </ul>
 <h3 id="migration-from-encrypted-to-hashed">Migration from &quot;encrypted&quot; to &quot;hashed&quot;</h3>
-<p>To change the password format in DNN from encrypted to hashed, you must edit the web.config file and change the passwordFormat attribute to <code>Hashed</code> within the &lt;add name=&quot;AspNetSqlMembershipProvider&quot; ... /&gt; section, and simultaneously set <code>enablePasswordRetrieval</code> to <code>false</code>. After this change, existing users' encrypted passwords will be converted to hashed passwords when they update their password.</p>
-<p>To force all users to reset their passwords, you can execute the following SQL query against your DNN database:</p>
+<p>To change the password format in DNN from encrypted to hashed, you must edit the web.config file and change the passwordFormat attribute to <code>Hashed</code> within the &lt;add name=&quot;AspNetSqlMembershipProvider&quot; ... /&gt; section, and simultaneously set <code>enablePasswordRetrieval</code> to <code>false</code>. After this change, existing users will still use encrypted passwords but any new user will be using hashed passwords.</p>
+<p>To force all users to migrate to hashed, there is currently no migration automation in DNN itself. You need to change the password storage mode for all users which means they will not be able to login and have to use the &quot;Reset Password&quot; feature.</p>
 <blockquote>
 <p>⚠️ <strong>Important</strong>: Always backup your database before executing any direct SQL modifications. Also, the default method to reset a password involves sending a verification link by email. Make sure emails work correctly and that your own superuser acccount has a proper email where you can receive that link.</p>
 </blockquote>
 <pre><code class="lang-sql">-- Force password reset for all users
-UPDATE Users 
-SET UpdatePassword = 1
+UPDATE aspnet_Membership 
+SET PasswordFormat = 1, Password = ''
 </code></pre>
+<p>After this change, no passwords will work. Each user, including super-users (hosts) and admins will have to click &quot;Reset Password&quot; to choose their own new password. You may want to send an email to all users before performing this migration so they know what to expect.</p>
 <blockquote>
 <p>💡Is it critical to migrate from Encrypted to Hashed?
 Encrypted passwords use a 2-way encryption. This means that if any hacker gets a hold on the web.config file and the database, they will <strong>easily</strong> be able to decrypt ALL passwords. Hashed uses a one-way encryption method which means that passwords can't be reversed. Should a hacker obtain the database and web.config file, they can't reverse any password directly, they would have to invest quite a large amount of computing resources to reverse a single password (especially since DNN also uses a per-user password salt). We strongly encourage to migrate any site that uses &quot;Encrypted&quot; to &quot;Hashed&quot; as it quickly improves security tremendously.</p>
