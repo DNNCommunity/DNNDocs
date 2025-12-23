@@ -99,6 +99,152 @@
 </h3>
 
 
+  <a id="DotNetNuke_Services_Installer_ILocalUpgradeService_DeleteLocalUpgrade_" data-uid="DotNetNuke.Services.Installer.ILocalUpgradeService.DeleteLocalUpgrade*"></a>
+  <h4 id="DotNetNuke_Services_Installer_ILocalUpgradeService_DeleteLocalUpgrade_System_String_System_Threading_CancellationToken_" data-uid="DotNetNuke.Services.Installer.ILocalUpgradeService.DeleteLocalUpgrade(System.String,System.Threading.CancellationToken)">DeleteLocalUpgrade(string, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task DeleteLocalUpgrade(string packageName, CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">packageName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Installer_ILocalUpgradeService_GetLocalUpgradeInfo_" data-uid="DotNetNuke.Services.Installer.ILocalUpgradeService.GetLocalUpgradeInfo*"></a>
+  <h4 id="DotNetNuke_Services_Installer_ILocalUpgradeService_GetLocalUpgradeInfo_System_String_System_IO_Stream_System_Threading_CancellationToken_" data-uid="DotNetNuke.Services.Installer.ILocalUpgradeService.GetLocalUpgradeInfo(System.String,System.IO.Stream,System.Threading.CancellationToken)">GetLocalUpgradeInfo(string, Stream, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;LocalUpgradeInfo&gt; GetLocalUpgradeInfo(string packageName, Stream archiveStream, CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">packageName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">archiveStream</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="DotNetNuke.Services.Installer.LocalUpgradeInfo.html">LocalUpgradeInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Installer_ILocalUpgradeService_GetLocalUpgradeInfo_" data-uid="DotNetNuke.Services.Installer.ILocalUpgradeService.GetLocalUpgradeInfo*"></a>
+  <h4 id="DotNetNuke_Services_Installer_ILocalUpgradeService_GetLocalUpgradeInfo_System_String_System_Threading_CancellationToken_" data-uid="DotNetNuke.Services.Installer.ILocalUpgradeService.GetLocalUpgradeInfo(System.String,System.Threading.CancellationToken)">GetLocalUpgradeInfo(string, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;LocalUpgradeInfo&gt; GetLocalUpgradeInfo(string file, CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">file</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="DotNetNuke.Services.Installer.LocalUpgradeInfo.html">LocalUpgradeInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Services_Installer_ILocalUpgradeService_GetLocalUpgrades_" data-uid="DotNetNuke.Services.Installer.ILocalUpgradeService.GetLocalUpgrades*"></a>
   <h4 id="DotNetNuke_Services_Installer_ILocalUpgradeService_GetLocalUpgrades_System_Threading_CancellationToken_" data-uid="DotNetNuke.Services.Installer.ILocalUpgradeService.GetLocalUpgrades(System.Threading.CancellationToken)">GetLocalUpgrades(CancellationToken)</h4>
   <div class="markdown level1 summary"></div>
@@ -135,6 +281,53 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="DotNetNuke.Services.Installer.LocalUpgradeInfo.html">LocalUpgradeInfo</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Installer_ILocalUpgradeService_StartLocalUpgrade_" data-uid="DotNetNuke.Services.Installer.ILocalUpgradeService.StartLocalUpgrade*"></a>
+  <h4 id="DotNetNuke_Services_Installer_ILocalUpgradeService_StartLocalUpgrade_DotNetNuke_Services_Installer_LocalUpgradeInfo_System_Threading_CancellationToken_" data-uid="DotNetNuke.Services.Installer.ILocalUpgradeService.StartLocalUpgrade(DotNetNuke.Services.Installer.LocalUpgradeInfo,System.Threading.CancellationToken)">StartLocalUpgrade(LocalUpgradeInfo, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task StartLocalUpgrade(LocalUpgradeInfo upgrade, CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Installer.LocalUpgradeInfo.html">LocalUpgradeInfo</a></td>
+        <td><span class="parametername">upgrade</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
         <td></td>
       </tr>
     </tbody>

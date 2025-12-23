@@ -2275,6 +2275,244 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.ClientResources.ClientResourceProviders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.ClientResources.ClientResourceProviders.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.ClientResources.ClientResourceProviders",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.ClientResources.CrossOrigin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.ClientResources.CrossOrigin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.ClientResources.CrossOrigin",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.ClientResources.FetchPriority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.ClientResources.FetchPriority.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.ClientResources.FetchPriority",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.ClientResources.FileOrder.Css.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.ClientResources.FileOrder.Css.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.ClientResources.FileOrder.Css",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.ClientResources.FileOrder.Js.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.ClientResources.FileOrder.Js.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.ClientResources.FileOrder.Js",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.ClientResources.FileOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.ClientResources.FileOrder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.ClientResources.FileOrder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.ClientResources.IClientResourceController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.ClientResources.IClientResourceController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.ClientResources.IClientResourceController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.ClientResources.IFontResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.ClientResources.IFontResource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.ClientResources.IFontResource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.ClientResources.ILinkResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.ClientResources.ILinkResource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.ClientResources.ILinkResource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.ClientResources.IResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.ClientResources.IResource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.ClientResources.IResource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.ClientResources.IScriptResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.ClientResources.IScriptResource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.ClientResources.IScriptResource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.ClientResources.IStylesheetResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.ClientResources.IStylesheetResource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.ClientResources.IStylesheetResource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.ClientResources.PathNameAlias.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.ClientResources.PathNameAlias.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.ClientResources.PathNameAlias",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.ClientResources.ReferrerPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.ClientResources.ReferrerPolicy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.ClientResources.ReferrerPolicy",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.ClientResources.ResourceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.ClientResources.ResourceType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.ClientResources.ResourceType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.ClientResources.StandardPriorities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.ClientResources.StandardPriorities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.ClientResources.StandardPriorities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.ClientResources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.ClientResources.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.ClientResources",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Abstractions.INavigationManager.yml",
       "output": {
         ".html": {
@@ -2495,6 +2733,104 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Abstractions.Modules",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Pages.IPageService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Pages.IPageService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.Pages.IPageService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Pages.PageMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Pages.PageMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.Pages.PageMessage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Pages.PageMessageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Pages.PageMessageType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.Pages.PageMessageType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Pages.PageMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Pages.PageMeta.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.Pages.PageMeta",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Pages.PagePriority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Pages.PagePriority.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.Pages.PagePriority",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Pages.PageTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Pages.PageTag.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.Pages.PageTag",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Pages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Pages.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.Pages",
       "Summary": null
     },
     {
@@ -13727,6 +14063,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.ClientDependency.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.ClientDependency.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.ClientDependency.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.ClientDependency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.ClientDependency.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.ClientDependency",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Services.Connections.ConnectionsController.yml",
       "output": {
         ".html": {
@@ -16373,6 +16737,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Installer.LocalUpgradeSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Installer.LocalUpgradeSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.Installer.LocalUpgradeSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Services.Installer.Log.LogEntry.yml",
       "output": {
         ".html": {
@@ -18581,6 +18959,48 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Services.OutputCache",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Pages.PageExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Pages.PageExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.Pages.PageExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Pages.PageService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Pages.PageService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.Pages.PageService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Pages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Pages.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.Pages",
       "Summary": null
     },
     {
@@ -24927,6 +25347,48 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Client.Cdf.ClientDependencyType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Client.Cdf.ClientDependencyType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Client.Cdf.ClientDependencyType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Client.Cdf.CssMediaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Client.Cdf.CssMediaType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Client.Cdf.CssMediaType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Client.Cdf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Client.Cdf.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Client.Cdf",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Web.Client.ClientResourceManagement.ClientResourceInclude.yml",
       "output": {
         ".html": {
@@ -25077,6 +25539,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Web.Client.ClientResourceManagement.DnnJsIncludeFallback",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Client.ClientResourceManagement.DnnResources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Client.ClientResourceManagement.DnnResources.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Client.ClientResourceManagement.DnnResources",
       "Summary": null
     },
     {

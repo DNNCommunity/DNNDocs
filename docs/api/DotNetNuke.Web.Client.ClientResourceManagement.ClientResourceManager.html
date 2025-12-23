@@ -122,7 +122,8 @@
   <h6><strong>Assembly</strong>: DotNetNuke.Web.Client.dll</h6>
   <h5 id="DotNetNuke_Web_Client_ClientResourceManagement_ClientResourceManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ClientResourceManager</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.0. Please use IClientResourceController instead. Scheduled for removal in v12.0.0.&quot;)]
+public class ClientResourceManager</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -1288,6 +1289,16 @@ public static void RegisterIEStylesheet(Page page, string filePath)</code></pre>
       </tr>
     </tbody>
   </table>
+
+
+  <a id="DotNetNuke_Web_Client_ClientResourceManagement_ClientResourceManager_RemoveConfiguration_" data-uid="DotNetNuke.Web.Client.ClientResourceManagement.ClientResourceManager.RemoveConfiguration*"></a>
+  <h4 id="DotNetNuke_Web_Client_ClientResourceManagement_ClientResourceManager_RemoveConfiguration" data-uid="DotNetNuke.Web.Client.ClientResourceManagement.ClientResourceManager.RemoveConfiguration">RemoveConfiguration()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveConfiguration()</code></pre>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(object)</a>

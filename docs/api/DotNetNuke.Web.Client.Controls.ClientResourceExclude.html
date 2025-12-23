@@ -186,7 +186,7 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.control.openfile">Control.OpenFile(string)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.control.onload">Control.OnLoad(EventArgs)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.control.onprerender">Control.OnPreRender(EventArgs)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.control.buildprofiletree">Control.BuildProfileTree(string, bool)</a>
@@ -416,13 +416,30 @@
 
 
   <a id="DotNetNuke_Web_Client_Controls_ClientResourceExclude__ctor_" data-uid="DotNetNuke.Web.Client.Controls.ClientResourceExclude.#ctor*"></a>
-  <h4 id="DotNetNuke_Web_Client_Controls_ClientResourceExclude__ctor" data-uid="DotNetNuke.Web.Client.Controls.ClientResourceExclude.#ctor">ClientResourceExclude()</h4>
+  <h4 id="DotNetNuke_Web_Client_Controls_ClientResourceExclude__ctor_DotNetNuke_Abstractions_ClientResources_IClientResourceController_" data-uid="DotNetNuke.Web.Client.Controls.ClientResourceExclude.#ctor(DotNetNuke.Abstractions.ClientResources.IClientResourceController)">ClientResourceExclude(IClientResourceController)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected ClientResourceExclude()</code></pre>
+    <pre><code class="lang-csharp hljs">protected ClientResourceExclude(IClientResourceController clientResourceController)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.ClientResources.IClientResourceController.html">IClientResourceController</a></td>
+        <td><span class="parametername">clientResourceController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
 </h3>
 
@@ -445,7 +462,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ClientDependencyType</span></td>
+        <td><a class="xref" href="DotNetNuke.Web.Client.Cdf.ClientDependencyType.html">ClientDependencyType</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -479,13 +496,13 @@
 </h3>
 
 
-  <a id="DotNetNuke_Web_Client_Controls_ClientResourceExclude_OnPreRender_" data-uid="DotNetNuke.Web.Client.Controls.ClientResourceExclude.OnPreRender*"></a>
-  <h4 id="DotNetNuke_Web_Client_Controls_ClientResourceExclude_OnPreRender_System_EventArgs_" data-uid="DotNetNuke.Web.Client.Controls.ClientResourceExclude.OnPreRender(System.EventArgs)">OnPreRender(EventArgs)</h4>
+  <a id="DotNetNuke_Web_Client_Controls_ClientResourceExclude_OnLoad_" data-uid="DotNetNuke.Web.Client.Controls.ClientResourceExclude.OnLoad*"></a>
+  <h4 id="DotNetNuke_Web_Client_Controls_ClientResourceExclude_OnLoad_System_EventArgs_" data-uid="DotNetNuke.Web.Client.Controls.ClientResourceExclude.OnLoad(System.EventArgs)">OnLoad(EventArgs)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnPreRender(EventArgs e)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnLoad(EventArgs e)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -505,7 +522,7 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.control.onprerender">Control.OnPreRender(EventArgs)</a></div>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.control.onload">Control.OnLoad(EventArgs)</a></div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.icomponent">IComponent</a>
