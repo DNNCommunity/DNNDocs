@@ -63,6 +63,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Dnn.ExportImport.Components.Common.ImportException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dnn.ExportImport.Components.Common.ImportException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dnn.ExportImport.Components.Common.ImportException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Dnn.ExportImport.Components.Common.JobStatus.yml",
       "output": {
         ".html": {
@@ -1236,6 +1250,20 @@
       "IsMRef": true,
       "Title": "Dnn.PersonaBar.Library.Controllers.LocalizationController",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dnn.PersonaBar.Library.Controllers.LocalizationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dnn.PersonaBar.Library.Controllers.LocalizationException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dnn.PersonaBar.Library.Controllers.LocalizationException",
+      "Summary": "<p sourcefile=\"api/Dnn.PersonaBar.Library.Controllers.LocalizationException.yml\" sourcestartlinenumber=\"1\">An exception thrown when issues are encountered with localization.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3493,6 +3521,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Collections.Internal.LockTimeoutException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Collections.Internal.LockTimeoutException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Collections.Internal.LockTimeoutException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Collections.Internal.LockingStrategy.yml",
       "output": {
         ".html": {
@@ -4371,6 +4413,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Common.Utilities.IPathUtils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Common.Utilities.IllegalZipFileException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Common.Utilities.IllegalZipFileException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Common.Utilities.IllegalZipFileException",
       "Summary": null
     },
     {
@@ -5565,6 +5621,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Entities.Content.ContentItemNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Entities.Content.ContentItemNotFoundException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Entities.Content.ContentItemNotFoundException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Entities.Content.ContentType.yml",
       "output": {
         ".html": {
@@ -5603,6 +5673,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Entities.Content.ContentTypeMemberNameFixer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Entities.Content.CorruptMetadataException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Entities.Content.CorruptMetadataException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Entities.Content.CorruptMetadataException",
       "Summary": null
     },
     {
@@ -5687,6 +5771,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Entities.Content.IContentTypeController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Entities.Content.ScopeNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Entities.Content.ScopeNotFoundException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Entities.Content.ScopeNotFoundException",
       "Summary": null
     },
     {
@@ -7105,6 +7203,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Entities.Modules.Definitions.UnknownModuleDefinitionVersionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Entities.Modules.Definitions.UnknownModuleDefinitionVersionException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Entities.Modules.Definitions.UnknownModuleDefinitionVersionException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Entities.Modules.Definitions.yml",
       "output": {
         ".html": {
@@ -7969,6 +8081,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Entities.Modules",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Entities.Portals.CreatePortalException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Entities.Portals.CreatePortalException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Entities.Portals.CreatePortalException",
       "Summary": null
     },
     {
@@ -9611,6 +9737,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Entities.Urls.IllegalRequestException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Entities.Urls.IllegalRequestException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Entities.Urls.IllegalRequestException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Entities.Urls.InternalAlias.yml",
       "output": {
         ".html": {
@@ -9719,6 +9859,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Entities.Urls.PathSizes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Entities.Urls.PortalNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Entities.Urls.PortalNotFoundException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Entities.Urls.PortalNotFoundException",
       "Summary": null
     },
     {
@@ -11291,6 +11445,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Framework.InvalidViewStateCacheKeyException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Framework.InvalidViewStateCacheKeyException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Framework.InvalidViewStateCacheKeyException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Framework.JavaScriptLibraries.CommonJs.yml",
       "output": {
         ".html": {
@@ -12467,6 +12635,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Security.Membership.UpdateUserException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Security.Membership.UpdateUserException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Security.Membership.UpdateUserException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Security.Membership.UserCreateStatus.yml",
       "output": {
         ".html": {
@@ -13195,6 +13377,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Security.Roles.RoleNotApprovedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Security.Roles.RoleNotApprovedException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Security.Roles.RoleNotApprovedException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Security.Roles.RoleNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Security.Roles.RoleNotFoundException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Security.Roles.RoleNotFoundException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Security.Roles.RoleProvider.yml",
       "output": {
         ".html": {
@@ -13779,6 +13989,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Services.Authentication.OAuth.OAuthConfigBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Authentication.OAuth.OAuthException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Authentication.OAuth.OAuthException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.Authentication.OAuth.OAuthException",
       "Summary": null
     },
     {
@@ -14381,6 +14605,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Services.EventQueue.EventMessageCollection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.EventQueue.EventMessageException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.EventQueue.EventMessageException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.EventQueue.EventMessageException",
       "Summary": null
     },
     {
@@ -15995,6 +16233,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.GeneratedImage.ImageQuantization.QuantizerException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.GeneratedImage.ImageQuantization.QuantizerException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.GeneratedImage.ImageQuantization.QuantizerException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Services.GeneratedImage.ImageQuantization.yml",
       "output": {
         ".html": {
@@ -17003,6 +17255,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Installer.ReadManifestException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Installer.ReadManifestException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.Installer.ReadManifestException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Services.Installer.TextEncoding.yml",
       "output": {
         ".html": {
@@ -17867,6 +18133,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Services.Localization.Persian",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Localization.PortalLocalizationRequiredException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Localization.PortalLocalizationRequiredException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.Localization.PortalLocalizationRequiredException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Localization.ResourceFileException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Localization.ResourceFileException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.Localization.ResourceFileException",
       "Summary": null
     },
     {
@@ -19383,6 +19677,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Search.BusinessControllerClassException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Search.BusinessControllerClassException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.Search.BusinessControllerClassException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Services.Search.Controllers.BaseResultController.yml",
       "output": {
         ".html": {
@@ -19939,6 +20247,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Services.Sitemap.SitemapChangeFrequency",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Sitemap.SitemapException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Sitemap.SitemapException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.Sitemap.SitemapException",
       "Summary": null
     },
     {
@@ -21595,6 +21917,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Services.Upgrade.TemplateNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Services.Upgrade.TemplateNotFoundException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Services.Upgrade.TemplateNotFoundException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Services.Upgrade.Upgrade.yml",
       "output": {
         ".html": {
@@ -22729,6 +23065,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.UI.Skins.InvalidContainerPathException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.UI.Skins.InvalidContainerPathException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.UI.Skins.InvalidContainerPathException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.UI.Skins.NavObjectBase.yml",
       "output": {
         ".html": {
@@ -23089,6 +23439,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.UI.UserControls.ModuleAuditControl",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.UI.UserControls.RenderException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.UI.UserControls.RenderException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.UI.UserControls.RenderException",
       "Summary": null
     },
     {
@@ -25165,6 +25529,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Api.Internal.InvalidAuthHandlerException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Api.Internal.InvalidAuthHandlerException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Api.Internal.InvalidAuthHandlerException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Web.Api.Internal.PagePermissionsAttributesHelper.yml",
       "output": {
         ".html": {
@@ -25735,6 +26113,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Web.Client.Providers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.Client.ScriptManagerRequiredException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.Client.ScriptManagerRequiredException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.Client.ScriptManagerRequiredException",
       "Summary": null
     },
     {
@@ -26589,6 +26981,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Web.InternalServices.ServiceRouteMapper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.InternalServices.SharingUnsupportedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.InternalServices.SharingUnsupportedException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.InternalServices.SharingUnsupportedException",
       "Summary": null
     },
     {

@@ -97,8 +97,8 @@
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="DotNetNuke.Entities.Portals.IPortalAliasController.html">IPortalAliasController</a></div>
     <div><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalAliasService.html">IPortalAliasService</a></div>
+    <div><a class="xref" href="DotNetNuke.Entities.Portals.IPortalAliasController.html">IPortalAliasController</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -143,7 +143,7 @@
   <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
   <h5 id="DotNetNuke_Entities_Portals_PortalAliasController_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PortalAliasController : ServiceLocator&lt;IPortalAliasController, PortalAliasController&gt;, IPortalAliasController, IPortalAliasService</code></pre>
+    <pre><code class="lang-csharp hljs">public class PortalAliasController : ServiceLocator&lt;IPortalAliasController, PortalAliasController&gt;, IPortalAliasService, IPortalAliasController</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -705,10 +705,10 @@ public static bool ValidateAlias(string portalAlias, bool ischild)</code></pre>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="DotNetNuke.Entities.Portals.IPortalAliasController.html">IPortalAliasController</a>
+      <a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalAliasService.html">IPortalAliasService</a>
   </div>
   <div>
-      <a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalAliasService.html">IPortalAliasService</a>
+      <a class="xref" href="DotNetNuke.Entities.Portals.IPortalAliasController.html">IPortalAliasController</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
