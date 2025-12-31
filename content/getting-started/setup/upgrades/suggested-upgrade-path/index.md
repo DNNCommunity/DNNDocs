@@ -2,7 +2,7 @@
 uid: setup-upgrades-suggested-upgrade-path
 locale: en
 title: DNN Platform Suggested Upgrade Path
-dnnversion: 09.13.08
+dnnversion: 10.01.02
 ---
 
 # DNN Platform Suggested Upgrade Path
