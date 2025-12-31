@@ -109,10 +109,13 @@
     
 </div>
 <div class="page-stats row visible-xs">
-    <div class="pull-left">11/28/2021 &bull; 6 minutes  to read</div>
+    <div class="pull-left">12/31/2025 &bull; 1 minute  to read</div>
     <div class="pull-left">Contributors&nbsp;
         <a href="https://github.com/david-poindexter" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
+        </a>
+        <a href="https://github.com/valadas" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/6371568?v=4" alt="valadas">
         </a>
         <a href="https://github.com/mitchelsellers" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/5659113?v=4" alt="mitchelsellers">
@@ -120,11 +123,14 @@
     </div>
 </div>
 <div class="page-stats row visible-sm visible-md visible-lg visible-xl">
-    <span class="pull-left">11/28/2021</span>
-    <span class="pull-left">&nbsp;&bull; 6 minutes  to read</span>
+    <span class="pull-left">12/31/2025</span>
+    <span class="pull-left">&nbsp;&bull; 1 minute  to read</span>
     <span class="pull-left">&nbsp;&bull;&nbsp;Contributors&nbsp;
         <a href="https://github.com/david-poindexter" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
+        </a>
+        <a href="https://github.com/valadas" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/6371568?v=4" alt="valadas">
         </a>
         <a href="https://github.com/mitchelsellers" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/5659113?v=4" alt="mitchelsellers">
@@ -137,64 +143,16 @@
 <h5>Note</h5>
 <p>Every upgrade scenario is unique in some shape, form or fashion. This document is by no means intended to address every scenario. Some upgrades can be quite complex and it is virtually impossible to cover every scenario. This document is intended to focus only on the upgrade basics.</p>
 </div>
-<h2 id="step-1---prepare">Step 1 - Prepare</h2>
-<p>Before starting the upgrade process, it is recommended to have a very clear understanding of all upgrade requirements and expectations. Here are some tips to help prepare.</p>
+<h2 id="upgrade-process-by-version">Upgrade Process by Version</h2>
+<p>The upgrade process for <strong>DNN Platform</strong> varies depending on which version you are upgrading from:</p>
+<h3 id="for-dnn-platform-versions-prior-to-1020">For DNN Platform versions prior to 10.2.0</h3>
+<p>If you are upgrading from a version of DNN Platform <strong>prior to 10.2.0</strong>, please follow the detailed steps outlined in the <a class="xref" href="pre-10.2.0-steps.html">Pre-10.2.0 Upgrade Guide</a>.</p>
+<h3 id="for-dnn-platform-versions-1020-and-later">For DNN Platform versions 10.2.0 and later</h3>
+<p>If you are upgrading from a version of DNN Platform <strong>10.2.0 or later</strong>, please follow the detailed steps outlined in the <a class="xref" href="post-10.2.0-steps.html">Post-10.2.0 Upgrade Guide</a>.</p>
+<h2 id="additional-resources">Additional Resources</h2>
 <ul>
-<li><p>Know the current version of DNN Platform.</p>
-</li>
-<li><p>Ensure <strong>AutoUpgrade</strong> setting is &quot;False&quot;. This setting can be found within <strong>AppSettings</strong> section of the <code>web.config</code> file in the root. Setting this to &quot;False&quot; will prevent the upgrade process from being triggered by normal site visitors.</p>
-</li>
-<li><p>Know the desired version of DNN Platform and download the appropriate &quot;Upgrade&quot; ZIP package from <a href="https://github.com/dnnsoftware/DNN.Platform/releases">the official repository on GitHub</a>. The file can be found in the <strong>Assets</strong> section for the desired version release and will have a naming convention like <strong>DNN_Platform_9.4.4_Upgrade.zip</strong>.</p>
-</li>
-<li><p>Know the <a class="xref" href="suggested-upgrade-path/index.html">suggested upgrade path</a> from the current version of DNN Platform and download all appropriate &quot;Upgrade&quot; ZIP packages from the above referenced GitHub link.</p>
-</li>
-<li><p>Know any changes to the minimum requirements for the desired version of DNN Platform and plan for implementation accordingly.</p>
-</li>
-<li><p>Know upgrade requirements (if applicable) for any installed third-party extensions and plan for implementation accordingly.</p>
-</li>
-<li><p>If possible, plan to test the upgrade in a non-production environment prior to attempting in production.</p>
-</li>
+<li><a class="xref" href="suggested-upgrade-path/index.html">Suggested Upgrade Path</a> - Learn the recommended upgrade path from your current version of DNN Platform</li>
 </ul>
-<h2 id="step-2---take-website-offline">Step 2 - Take Website Offline</h2>
-<p>When ready to begin the upgrade process, take the website offline to avoid any access or changes to the site by other users. This can be done by adding an <code>app_offline.htm</code> file to the root of the site. This is an ASP.NET feature and the HTML file can contain any HTML you see fit to communicate with site visitors about the site unavailability.</p>
-<div class="NOTE">
-<h5>Note</h5>
-<p>This also prevents access to any other site pages. Any attempts will be redirected to the base URL and will display the HTML message contained in the <code>app_offline.htm</code> file.</p>
-</div>
-<h2 id="step-3---backup-files--database">Step 3 - Backup Files &amp; Database</h2>
-<p>All files, folders and subfolders (root and below) can be manually copied to a temporary location outside of the website directory structure.</p>
-<p>The database can be backed up using Microsoft SQL Server Management Studio (SSMS).</p>
-<p>If this level of access to the server is not possible, there are other options depending on the hosting environment and available third-party extensions.  Following is a short list of alternate backup options.</p>
-<ul>
-<li>Secure File Transfer Protocol (SFTP) or File Transfer Protocol (FTP) in combination with remote Microsoft SQL Server Management Studio (SSMS).</li>
-<li>Control Panel (e.g., Plesk)</li>
-<li>DNN Backup (3rd-party module by Evotiva)</li>
-</ul>
-<h2 id="step-4---apply-upgrade-package">Step 4 - Apply Upgrade Package</h2>
-<p>Extract the desired &quot;Upgrade&quot; ZIP package to the root of the website. (<em>If the &quot;Upgrade&quot; ZIP file was already extracted to a temporary location, then simply copy the extracted files to the root of the website.</em>) If prompted, chose the option to overwrite/merge any files/folders.</p>
-<div class="IMPORTANT">
-<h5>Important</h5>
-<p>You may need to UNBLOCK the downloaded ZIP file. This can be accomplished by right-clicking on the ZIP, selecting Properties, and clicking &quot;Unblock&quot;.</p>
-</div>
-<h2 id="step-5---bring-website-online">Step 5 - Bring Website Online</h2>
-<p>Rename the <code>app_offline.htm</code> file to something like <code>app_offline.htm.disabled</code>. This will automatically bring the website back online.</p>
-<h2 id="step-6---initiate-upgrade">Step 6 - Initiate Upgrade</h2>
-<p>Visit <code>http(s)://yourdomain.com/install/upgradewizard.aspx</code> to initiate the upgrade. You will be prompted to input valid Super User credentials to complete the upgrade.</p>
-<h2 id="step-7---check-for-errors">Step 7 - Check for Errors</h2>
-<p>Review upgrade results for any errors during the upgrade process. If no errors, proceed to the next step.</p>
-<p>If any errors are experienced, either resolve the errors (<em>contingent upon experience and skill level</em>), or restore website from the backup created in <strong>Step 3</strong>.</p>
-<div class="NOTE">
-<h5>Note</h5>
-<p>If you need to restore a website, it is important to first remove all files.  Then, replace it with the backup copy. It is not adequate to simply apply the backup over the top of the failed upgrade site.  Failure to follow this guidance can result in a non-functional, restored site.</p>
-</div>
-<h2 id="step-8---test">Step 8 - Test</h2>
-<p>Visit the upgraded website to ensure everything is working as expected.</p>
-<p>If any issues are experienced, either resolve the issues (<em>contingent upon experience and skill level</em>), or restore website from the backup created in <strong>Step 3</strong>.</p>
-<h2 id="step-9---repeat-steps-1-8-as-necessary">Step 9 - Repeat Steps 1-8 As Necessary</h2>
-<p>If the suggested upgrade path contains multiple upgrades, repeat <strong>Steps 1-8</strong> as necessary to get to the desired version of DNN Platform.</p>
-<h2 id="step-10---remove-telerik-">Step 10 - <a class="xref" href="../telerik-removal/index.html">Remove Telerik *</a></h2>
-<p>Learn the basic steps for removing <code>Telerik</code> from <strong>DNN Platform</strong>.</p>
-<h5 id="-this-is-an-optional-setup-step-for-dnn-platorm-but-highly-recommended-this-is-possible-only-in-dnn-980-and-above-for-the-9x-series-of-releases-in-dnn-10x-telerik-removal-will-be-forced-and-no-longer-optional">* This is an OPTIONAL setup step for DNN Platorm, but HIGHLY RECOMMENDED. This is possible only in DNN 9.8.0 (and above for the 9.x series of releases). In DNN 10.x, Telerik removal will be forced, and no longer optional.</h5>
 </article>
           </div>
 

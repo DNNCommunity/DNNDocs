@@ -30533,6 +30533,26 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "content/getting-started/setup/upgrades/post-10.2.0-steps.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/getting-started/setup/upgrades/post-10.2.0-steps.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/getting-started/setup/upgrades/pre-10.2.0-steps.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/getting-started/setup/upgrades/pre-10.2.0-steps.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "content/getting-started/setup/upgrades/suggested-upgrade-path/index.md",
       "output": {
         ".html": {
