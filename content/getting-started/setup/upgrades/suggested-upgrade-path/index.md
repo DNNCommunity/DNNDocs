@@ -6,10 +6,10 @@ dnnversion: 10.01.02
 ---
 
 # DNN Platform Suggested Upgrade Path
-Following is the recommend upgrade path for **DNN Platform** based on experiences of many DNN Community members.
+Following is the recommended upgrade path for **DNN Platform** based on the experiences of many DNN Community members.
 
 > [!WARNING]
-> While the below has been tested and used successfully, there are no guarantees. Each upgrade scenario can result in unique complexities and challenges. Therefore, each upgrade should be treated with full context in mind. For common best-practices, please use [these basic upgrade steps](xref:setup-upgrades) to provide guidance.
+> While the below has been tested and used successfully, there are no guarantees. Each upgrade scenario can result in unique complexities and challenges. Therefore, each upgrade should be treated with full context in mind. For common best practices, please use [these basic upgrade steps](xref:setup-upgrades) to provide guidance.
 
 The below is, of course, subject to change. If your current version of DNN Platform is between any of the versions listed below, first upgrade to the closest listed version. For instance, if you are starting with version 09.02.00, you should upgrade first to version 09.03.02.
 
@@ -29,8 +29,11 @@ The below is, of course, subject to change. If your current version of DNN Platf
 |[07.04.02](https://github.com/dnnsoftware/Dnn.Releases.Archive.7x/tree/master/07.04.02)|[08.00.04](https://github.com/dnnsoftware/Dnn.Releases.Archive.8x/tree/master/08.00.04)|
 |[08.00.04](https://github.com/dnnsoftware/Dnn.Releases.Archive.8x/tree/master/08.00.04)|[09.01.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1)|
 |[09.01.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1)|[09.03.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|
-|[09.03.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|[09.13.10](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.10)|
-|[09.13.10](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.10)|[10.02.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.2.1)|
+|[09.03.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|[09.13.09](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.09)|
+|[09.13.09](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.09)|[10.02.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.2.1)|
+
+> [!NOTE]
+> If you are in a situation where you are unable to make the 09.13.09 -> 10.x upgrade, there is a hot-fix release [09.13.10](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.10), this was a special release that contains security patches through the DNN 10.02.00 release and can be used during periods when a 10.x upgrade is not possible.  For a successful upgrade, it is NOT necessary to stop at 09.13.10 prior to upgrading to 10.x.  There is NO guarantee that any future 9.13.x releases will be made, therefore it is suggested to try to prepare for a 10.x upgrade as soon as practical.
 
 > [!TIP]
 > **Upgrade Notes:** DotNetNuke has been around since 2002, and in that time has had a number of changes which can complicate matters during the process of upgrading through different versions. These include:
