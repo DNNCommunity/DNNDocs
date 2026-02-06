@@ -21,8 +21,8 @@ Allows you to exclude a Stylesheet (that DNN would normally load) from being loa
 
 ### ASCX
 ``` html
-<%@ Register TagPrefix="dnn" TagName="CssExclude" src="~/Admin/Skins/DnnCssExclude.ascx" %>  
-<dnn:CssExclude runat="server" name="DnnDefault" />
+<%@ Register TagPrefix="dnn" TagName="DnnCssExclude" src="~/Admin/Skins/DnnCssExclude.ascx" %>  
+<dnn:DnnCssExclude runat="server" name="DnnDefault" />
 ```
 
 ### HTML Token
@@ -45,6 +45,25 @@ Allows you to exclude a Stylesheet (that DNN would normally load) from being loa
 
 ### Don't load Default.css
 ~~~html
-<dnn:CssExclude runat="server" name="DnnDefault" />
+<dnn:DnnCssExclude runat="server" name="DnnDefault" />
+~~~
+
+### Load a newer Default.css version
+~~~html
+<dnn:DnnCssInclude runat="server" 
+                   FilePath="~/resources/shared/stylesheets/dnndefault/8.0.0/default.css"
+                   Priority="<%#FileOrder.Css.DefaultCss%>" 
+                   Name="dnndefault" 
+                   Version="8.0.0" />
+~~~
+
+### Load an older Default.css version
+~~~html
+<dnn:DnnCssInclude runat="server" 
+                   FilePath="~/resources/shared/stylesheets/dnndefault/7.0.0/default.css"
+                   Priority="<%#FileOrder.Css.DefaultCss%>" 
+                   Name="dnndefault" 
+                   Version="7.0.0"
+                   ForceVersion="true" />
 ~~~
 
