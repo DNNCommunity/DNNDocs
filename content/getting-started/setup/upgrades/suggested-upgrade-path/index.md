@@ -31,12 +31,16 @@ The below is, of course, subject to change. If your current version of DNN Platf
 |[09.01.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1)|[09.03.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|
 |[09.03.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|[09.13.09](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.09)|
 |[09.13.09](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.09)|[10.02.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.2.1)|
+|[10.02.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.02.01)|[10.02.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.2.2)|
 
 > [!NOTE]
-> If you are in a situation where you are unable to make the 09.13.09 -> 10.x upgrade, there is a hot-fix release [09.13.10](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.10), this was a special release that contains security patches through the DNN 10.02.00 release and can be used during periods when a 10.x upgrade is not possible.  For a successful upgrade, it is NOT necessary to stop at 09.13.10 prior to upgrading to 10.x.  There is NO guarantee that any future 9.13.x releases will be made, therefore it is suggested to try to prepare for a 10.x upgrade as soon as practical.
+> If you are in a situation where you are unable to make the 09.13.09 -> 10.x upgrade, there is a hot-fix release [09.13.10](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.10). This was a special release that contains security patches through the DNN 10.02.00 release and can be used during periods when a 10.x upgrade is not possible.  For a successful upgrade, it is NOT necessary to stop at 09.13.10 prior to upgrading to 10.x.  There is NO guarantee that any future 9.13.x releases will be made, therefore it is suggested to try to prepare for a 10.x upgrade as soon as practical.
 
 > [!TIP]
 > **Upgrade Notes:** DotNetNuke has been around since 2002, and in that time has had a number of changes which can complicate matters during the process of upgrading through different versions. These include:
+
+> [!NOTE]
+> If upgrading from DNN 10.02.02 and later, it is strongly recommended to follow the new upgrade process outlined in the [Post-10.2.0 Upgrade Guide](xref:setup-upgrades-post-10.2.0)
 
 ## Requirements Changes & Prerequisites
 - The changeover from DNN 3.x to DNN 4.x - DNN 3.x used ASP.NET 1.1, whereas DNN 4.x and above require ASP.NET 2.0.
