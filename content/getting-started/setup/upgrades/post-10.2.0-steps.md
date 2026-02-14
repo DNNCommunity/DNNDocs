@@ -16,20 +16,23 @@ Before starting the upgrade process, it is recommended to have a very clear unde
 
 * Know the current version of DNN Platform.
 
-* Know the desired version of DNN Platform and download the appropriate "Upgrade" ZIP package from [the official repository on GitHub](https://github.com/dnnsoftware/DNN.Platform/releases). The file can be found in the **Assets** section for the desired version release and will have a naming convention like **DNN_Platform_10.2.1_Upgrade.zip**.
+* Know the [suggested upgrade path](xref:setup-upgrades-suggested-upgrade-path) and take the necessary planning steps to make each of these upgrade steps for the best success.
 
-* Know the [suggested upgrade path](xref:setup-upgrades-suggested-upgrade-path) from the current version of DNN Platform and download all appropriate "Upgrade" ZIP packages from the above referenced GitHub link.
+* Download the appropriate "Upgrade" ZIP package for your upgrade from [the official repository on GitHub](https://github.com/dnnsoftware/DNN.Platform/releases). The file can be found in the **Assets** section for the desired version release and will have a naming convention like **DNN_Platform_10.2.1_Upgrade.zip**.
 
 * Know any changes to the minimum requirements for the desired version of DNN Platform and plan for implementation accordingly. 
 
-* Know upgrade requirements (if applicable) for any installed third-party extensions and plan for implementation accordingly.
+* Please know the upgrade requirements (if applicable) for any installed third-party extensions and plan for implementation accordingly.
 
-* If possible, plan to test the upgrade in a non-production environment prior to attempting in production.
+* If possible, plan to test the upgrade in a non-production environment prior to attempting it in production.
+
+> [!Tip]
+> If you use third-party modules, subscribe to the vendors' newsletters or otherwise to keep up to date with their releases and DNN Version support.
 
 ## Step 2 - Backup Files & Database
 All files, folders and subfolders (root and below) can be manually copied to a temporary location outside of the website directory structure.
 
-The database can be backed up using Microsoft SQL Server Management Studio (SSMS).
+The database can be backed up using Microsoft SQL Server Management Studio (SSMS) following standard backup rocesses.
 
 If this level of access to the server is not possible, there are other options depending on the hosting environment and available third-party extensions.  Following is a short list of alternate backup options.
 
@@ -37,8 +40,11 @@ If this level of access to the server is not possible, there are other options d
 * Control Panel (e.g., Plesk)
 * DNN Backup (3rd-party module by Evotiva)
 
+> [!Tip]
+> Be sure that you have tested/validated your backup process before continuing if using a new process.
+
 ## Step 3 - Upload Upgrade Package
-Login has a SuperUser (Host) and navigate to: Servers => System Info => Upgrades.
+Login as a SuperUser (Host) and navigate to: Settings => Servers => System Info => Upgrades.
 Click on "Upload Package" and upload the previously downloaded upgrade zip file.
 The system will validate the upgrade package and warn about potential issues if detected.
 
@@ -49,6 +55,9 @@ If the uploaded file is valid, it will be listed and have a "steps" button. Clic
 Review upgrade results for any errors during the upgrade process. If no errors, proceed to the next step. 
 
 If any errors are experienced, either resolve the errors (_contingent upon experience and skill level_), or restore website from the backup created in **Step 2**.
+
+> [!Warning]
+> If restoring from a backup, it is important to ALWAYS restore the website files & database at the same time, even if you don't believe the upgrade may have touched the database.
 
 > [!NOTE]
 > If you need to restore a website, it is important to first remove all files.  Then, replace it with the backup copy. It is not adequate to simply apply the backup over the top of the failed upgrade site.  Failure to follow this guidance can result in a non-functional, restored site.
