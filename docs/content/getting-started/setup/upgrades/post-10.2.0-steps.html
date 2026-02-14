@@ -109,17 +109,23 @@
     
 </div>
 <div class="page-stats row visible-xs">
-    <div class="pull-left">12/31/2025 &bull; 5 minutes  to read</div>
+    <div class="pull-left">02/13/2026 &bull; 5 minutes  to read</div>
     <div class="pull-left">Contributors&nbsp;
+        <a href="https://github.com/mitchelsellers" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/5659113?v=4" alt="mitchelsellers">
+        </a>
         <a href="https://github.com/valadas" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/6371568?v=4" alt="valadas">
         </a>
     </div>
 </div>
 <div class="page-stats row visible-sm visible-md visible-lg visible-xl">
-    <span class="pull-left">12/31/2025</span>
+    <span class="pull-left">02/13/2026</span>
     <span class="pull-left">&nbsp;&bull; 5 minutes  to read</span>
     <span class="pull-left">&nbsp;&bull;&nbsp;Contributors&nbsp;
+        <a href="https://github.com/mitchelsellers" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/5659113?v=4" alt="mitchelsellers">
+        </a>
         <a href="https://github.com/valadas" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/6371568?v=4" alt="valadas">
         </a>
@@ -136,28 +142,36 @@
 <ul>
 <li><p>Know the current version of DNN Platform.</p>
 </li>
-<li><p>Know the desired version of DNN Platform and download the appropriate &quot;Upgrade&quot; ZIP package from <a href="https://github.com/dnnsoftware/DNN.Platform/releases">the official repository on GitHub</a>. The file can be found in the <strong>Assets</strong> section for the desired version release and will have a naming convention like <strong>DNN_Platform_10.2.1_Upgrade.zip</strong>.</p>
+<li><p>Know the <a class="xref" href="suggested-upgrade-path/index.html">suggested upgrade path</a> and take the necessary planning steps to make each of these upgrade steps for the best success.</p>
 </li>
-<li><p>Know the <a class="xref" href="suggested-upgrade-path/index.html">suggested upgrade path</a> from the current version of DNN Platform and download all appropriate &quot;Upgrade&quot; ZIP packages from the above referenced GitHub link.</p>
+<li><p>Download the appropriate &quot;Upgrade&quot; ZIP package for your upgrade from <a href="https://github.com/dnnsoftware/DNN.Platform/releases">the official repository on GitHub</a>. The file can be found in the <strong>Assets</strong> section for the desired version release and will have a naming convention like <strong>DNN_Platform_10.2.1_Upgrade.zip</strong>.</p>
 </li>
 <li><p>Know any changes to the minimum requirements for the desired version of DNN Platform and plan for implementation accordingly.</p>
 </li>
-<li><p>Know upgrade requirements (if applicable) for any installed third-party extensions and plan for implementation accordingly.</p>
+<li><p>Please know the upgrade requirements (if applicable) for any installed third-party extensions and plan for implementation accordingly.</p>
 </li>
-<li><p>If possible, plan to test the upgrade in a non-production environment prior to attempting in production.</p>
+<li><p>If possible, plan to test the upgrade in a non-production environment prior to attempting it in production.</p>
 </li>
 </ul>
+<div class="TIP">
+<h5>Tip</h5>
+<p>If you use third-party modules, subscribe to the vendors' newsletters or otherwise to keep up to date with their releases and DNN Version support.</p>
+</div>
 <h2 id="step-2---backup-files--database">Step 2 - Backup Files &amp; Database</h2>
 <p>All files, folders and subfolders (root and below) can be manually copied to a temporary location outside of the website directory structure.</p>
-<p>The database can be backed up using Microsoft SQL Server Management Studio (SSMS).</p>
+<p>The database can be backed up using Microsoft SQL Server Management Studio (SSMS) following standard backup rocesses.</p>
 <p>If this level of access to the server is not possible, there are other options depending on the hosting environment and available third-party extensions.  Following is a short list of alternate backup options.</p>
 <ul>
 <li>Secure File Transfer Protocol (SFTP) or File Transfer Protocol (FTP) in combination with remote Microsoft SQL Server Management Studio (SSMS).</li>
 <li>Control Panel (e.g., Plesk)</li>
 <li>DNN Backup (3rd-party module by Evotiva)</li>
 </ul>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Be sure that you have tested/validated your backup process before continuing if using a new process.</p>
+</div>
 <h2 id="step-3---upload-upgrade-package">Step 3 - Upload Upgrade Package</h2>
-<p>Login has a SuperUser (Host) and navigate to: Servers =&gt; System Info =&gt; Upgrades.
+<p>Login as a SuperUser (Host) and navigate to: Settings =&gt; Servers =&gt; System Info =&gt; Upgrades.
 Click on &quot;Upload Package&quot; and upload the previously downloaded upgrade zip file.
 The system will validate the upgrade package and warn about potential issues if detected.</p>
 <h2 id="step-4---initiate-upgrade">Step 4 - Initiate Upgrade</h2>
@@ -165,6 +179,10 @@ The system will validate the upgrade package and warn about potential issues if 
 <h2 id="step-5---check-for-errors">Step 5 - Check for Errors</h2>
 <p>Review upgrade results for any errors during the upgrade process. If no errors, proceed to the next step.</p>
 <p>If any errors are experienced, either resolve the errors (<em>contingent upon experience and skill level</em>), or restore website from the backup created in <strong>Step 2</strong>.</p>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>If restoring from a backup, it is important to ALWAYS restore the website files &amp; database at the same time, even if you don't believe the upgrade may have touched the database.</p>
+</div>
 <div class="NOTE">
 <h5>Note</h5>
 <p>If you need to restore a website, it is important to first remove all files.  Then, replace it with the backup copy. It is not adequate to simply apply the backup over the top of the failed upgrade site.  Failure to follow this guidance can result in a non-functional, restored site.</p>
