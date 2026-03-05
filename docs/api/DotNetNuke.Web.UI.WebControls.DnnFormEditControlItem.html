@@ -185,6 +185,12 @@
       <a class="xref" href="DotNetNuke.Web.UI.WebControls.DnnFormItemBase.html#DotNetNuke_Web_UI_WebControls_DnnFormItemBase_ValidationExpression">DnnFormItemBase.ValidationExpression</a>
     </div>
     <div>
+      <a class="xref" href="DotNetNuke.Web.UI.WebControls.DnnFormItemBase.html#DotNetNuke_Web_UI_WebControls_DnnFormItemBase_AppStatus">DnnFormItemBase.AppStatus</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.UI.WebControls.DnnFormItemBase.html#DotNetNuke_Web_UI_WebControls_DnnFormItemBase_EventLogger">DnnFormItemBase.EventLogger</a>
+    </div>
+    <div>
       <a class="xref" href="DotNetNuke.Web.UI.WebControls.DnnFormItemBase.html#DotNetNuke_Web_UI_WebControls_DnnFormItemBase_ChildProperty">DnnFormItemBase.ChildProperty</a>
     </div>
     <div>
@@ -594,12 +600,50 @@ public DnnFormEditControlItem()</code></pre>
 
 
   <a id="DotNetNuke_Web_UI_WebControls_DnnFormEditControlItem__ctor_" data-uid="DotNetNuke.Web.UI.WebControls.DnnFormEditControlItem.#ctor*"></a>
+  <h4 id="DotNetNuke_Web_UI_WebControls_DnnFormEditControlItem__ctor_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Abstractions_Logging_IEventLogger_System_IServiceProvider_" data-uid="DotNetNuke.Web.UI.WebControls.DnnFormEditControlItem.#ctor(DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Abstractions.Logging.IEventLogger,System.IServiceProvider)">DnnFormEditControlItem(IApplicationStatusInfo, IEventLogger, IServiceProvider)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DnnFormEditControlItem(IApplicationStatusInfo appStatus, IEventLogger eventLogger, IServiceProvider serviceProvider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></td>
+        <td><span class="parametername">serviceProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Web_UI_WebControls_DnnFormEditControlItem__ctor_" data-uid="DotNetNuke.Web.UI.WebControls.DnnFormEditControlItem.#ctor*"></a>
   <h4 id="DotNetNuke_Web_UI_WebControls_DnnFormEditControlItem__ctor_System_IServiceProvider_" data-uid="DotNetNuke.Web.UI.WebControls.DnnFormEditControlItem.#ctor(System.IServiceProvider)">DnnFormEditControlItem(IServiceProvider)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DnnFormEditControlItem(IServiceProvider serviceProvider)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IApplicationStatusInfo. Scheduled removal in v12.0.0.&quot;)]
+public DnnFormEditControlItem(IServiceProvider serviceProvider)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

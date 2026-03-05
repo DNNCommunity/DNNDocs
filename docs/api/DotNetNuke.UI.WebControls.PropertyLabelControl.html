@@ -502,8 +502,46 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PropertyLabelControl()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IClientResourceController. Scheduled removal in v12.0.0.&quot;)]
+public PropertyLabelControl()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_UI_WebControls_PropertyLabelControl__ctor_" data-uid="DotNetNuke.UI.WebControls.PropertyLabelControl.#ctor*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_PropertyLabelControl__ctor_DotNetNuke_Abstractions_ClientResources_IClientResourceController_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Abstractions_Logging_IEventLogger_" data-uid="DotNetNuke.UI.WebControls.PropertyLabelControl.#ctor(DotNetNuke.Abstractions.ClientResources.IClientResourceController,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Abstractions.Logging.IEventLogger)">PropertyLabelControl(IClientResourceController, IApplicationStatusInfo, IEventLogger)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PropertyLabelControl(IClientResourceController clientResourceController, IApplicationStatusInfo appStatus, IEventLogger eventLogger)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.ClientResources.IClientResourceController.html">IClientResourceController</a></td>
+        <td><span class="parametername">clientResourceController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="fields">Fields
 </h3>
 

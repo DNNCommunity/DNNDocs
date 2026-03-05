@@ -141,12 +141,60 @@
 
 
   <a id="DotNetNuke_Services_Authentication_AuthenticationController_AddAuthentication_" data-uid="DotNetNuke.Services.Authentication.AuthenticationController.AddAuthentication*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_AuthenticationController_AddAuthentication_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Services_Authentication_AuthenticationInfo_" data-uid="DotNetNuke.Services.Authentication.AuthenticationController.AddAuthentication(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Services.Authentication.AuthenticationInfo)">AddAuthentication(IEventLogger, AuthenticationInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int AddAuthentication(IEventLogger eventLogger, AuthenticationInfo authSystem)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Authentication.AuthenticationInfo.html">AuthenticationInfo</a></td>
+        <td><span class="parametername">authSystem</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Authentication_AuthenticationController_AddAuthentication_" data-uid="DotNetNuke.Services.Authentication.AuthenticationController.AddAuthentication*"></a>
   <h4 id="DotNetNuke_Services_Authentication_AuthenticationController_AddAuthentication_DotNetNuke_Services_Authentication_AuthenticationInfo_" data-uid="DotNetNuke.Services.Authentication.AuthenticationController.AddAuthentication(DotNetNuke.Services.Authentication.AuthenticationInfo)">AddAuthentication(AuthenticationInfo)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int AddAuthentication(AuthenticationInfo authSystem)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static int AddAuthentication(AuthenticationInfo authSystem)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -183,12 +231,70 @@
 
 
   <a id="DotNetNuke_Services_Authentication_AuthenticationController_AddUserAuthentication_" data-uid="DotNetNuke.Services.Authentication.AuthenticationController.AddUserAuthentication*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_AuthenticationController_AddUserAuthentication_DotNetNuke_Abstractions_Logging_IEventLogger_System_Int32_System_String_System_String_" data-uid="DotNetNuke.Services.Authentication.AuthenticationController.AddUserAuthentication(DotNetNuke.Abstractions.Logging.IEventLogger,System.Int32,System.String,System.String)">AddUserAuthentication(IEventLogger, int, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int AddUserAuthentication(IEventLogger eventLogger, int userId, string authenticationType, string authenticationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">userId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">authenticationType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">authenticationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Authentication_AuthenticationController_AddUserAuthentication_" data-uid="DotNetNuke.Services.Authentication.AuthenticationController.AddUserAuthentication*"></a>
   <h4 id="DotNetNuke_Services_Authentication_AuthenticationController_AddUserAuthentication_System_Int32_System_String_System_String_" data-uid="DotNetNuke.Services.Authentication.AuthenticationController.AddUserAuthentication(System.Int32,System.String,System.String)">AddUserAuthentication(int, string, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int AddUserAuthentication(int userID, string authenticationType, string authenticationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static int AddUserAuthentication(int userID, string authenticationType, string authenticationToken)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -235,12 +341,45 @@
 
 
   <a id="DotNetNuke_Services_Authentication_AuthenticationController_DeleteAuthentication_" data-uid="DotNetNuke.Services.Authentication.AuthenticationController.DeleteAuthentication*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_AuthenticationController_DeleteAuthentication_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Services_Authentication_AuthenticationInfo_" data-uid="DotNetNuke.Services.Authentication.AuthenticationController.DeleteAuthentication(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Services.Authentication.AuthenticationInfo)">DeleteAuthentication(IEventLogger, AuthenticationInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeleteAuthentication(IEventLogger eventLogger, AuthenticationInfo authSystem)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Authentication.AuthenticationInfo.html">AuthenticationInfo</a></td>
+        <td><span class="parametername">authSystem</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Authentication_AuthenticationController_DeleteAuthentication_" data-uid="DotNetNuke.Services.Authentication.AuthenticationController.DeleteAuthentication*"></a>
   <h4 id="DotNetNuke_Services_Authentication_AuthenticationController_DeleteAuthentication_DotNetNuke_Services_Authentication_AuthenticationInfo_" data-uid="DotNetNuke.Services.Authentication.AuthenticationController.DeleteAuthentication(DotNetNuke.Services.Authentication.AuthenticationInfo)">DeleteAuthentication(AuthenticationInfo)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DeleteAuthentication(AuthenticationInfo authSystem)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void DeleteAuthentication(AuthenticationInfo authSystem)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -700,12 +839,45 @@
 
 
   <a id="DotNetNuke_Services_Authentication_AuthenticationController_UpdateAuthentication_" data-uid="DotNetNuke.Services.Authentication.AuthenticationController.UpdateAuthentication*"></a>
+  <h4 id="DotNetNuke_Services_Authentication_AuthenticationController_UpdateAuthentication_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Services_Authentication_AuthenticationInfo_" data-uid="DotNetNuke.Services.Authentication.AuthenticationController.UpdateAuthentication(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Services.Authentication.AuthenticationInfo)">UpdateAuthentication(IEventLogger, AuthenticationInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateAuthentication(IEventLogger eventLogger, AuthenticationInfo authSystem)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Authentication.AuthenticationInfo.html">AuthenticationInfo</a></td>
+        <td><span class="parametername">authSystem</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Authentication_AuthenticationController_UpdateAuthentication_" data-uid="DotNetNuke.Services.Authentication.AuthenticationController.UpdateAuthentication*"></a>
   <h4 id="DotNetNuke_Services_Authentication_AuthenticationController_UpdateAuthentication_DotNetNuke_Services_Authentication_AuthenticationInfo_" data-uid="DotNetNuke.Services.Authentication.AuthenticationController.UpdateAuthentication(DotNetNuke.Services.Authentication.AuthenticationInfo)">UpdateAuthentication(AuthenticationInfo)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void UpdateAuthentication(AuthenticationInfo authSystem)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void UpdateAuthentication(AuthenticationInfo authSystem)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

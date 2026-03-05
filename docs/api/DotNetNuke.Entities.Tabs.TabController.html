@@ -154,8 +154,46 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TabController()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IEventLogger. Scheduled removal in v12.0.0.&quot;)]
+public TabController()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Entities_Tabs_TabController__ctor_" data-uid="DotNetNuke.Entities.Tabs.TabController.#ctor*"></a>
+  <h4 id="DotNetNuke_Entities_Tabs_TabController__ctor_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Data_DataProvider_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionService_" data-uid="DotNetNuke.Entities.Tabs.TabController.#ctor(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Data.DataProvider,DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService)">TabController(IEventLogger, DataProvider, IPermissionDefinitionService)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TabController(IEventLogger eventLogger, DataProvider dataProvider, IPermissionDefinitionService permissionDefinitionService)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.DataProvider.html">DataProvider</a></td>
+        <td><span class="parametername">dataProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService.html">IPermissionDefinitionService</a></td>
+        <td><span class="parametername">permissionDefinitionService</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
 </h3>
 
@@ -520,6 +558,48 @@ public void AddMissingLanguages(int portalId, int tabId)</code></pre>
 
 
   <a id="DotNetNuke_Entities_Tabs_TabController_CopyDesignToChildren_" data-uid="DotNetNuke.Entities.Tabs.TabController.CopyDesignToChildren*"></a>
+  <h4 id="DotNetNuke_Entities_Tabs_TabController_CopyDesignToChildren_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Tabs_TabInfo_System_String_System_String_" data-uid="DotNetNuke.Entities.Tabs.TabController.CopyDesignToChildren(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Tabs.TabInfo,System.String,System.String)">CopyDesignToChildren(IEventLogger, TabInfo, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CopyDesignToChildren(IEventLogger eventLogger, TabInfo parentTab, string skinSrc, string containerSrc)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">parentTab</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">skinSrc</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">containerSrc</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Tabs_TabController_CopyDesignToChildren_" data-uid="DotNetNuke.Entities.Tabs.TabController.CopyDesignToChildren*"></a>
   <h4 id="DotNetNuke_Entities_Tabs_TabController_CopyDesignToChildren_DotNetNuke_Entities_Tabs_TabInfo_System_String_System_String_" data-uid="DotNetNuke.Entities.Tabs.TabController.CopyDesignToChildren(DotNetNuke.Entities.Tabs.TabInfo,System.String,System.String)">CopyDesignToChildren(TabInfo, string, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -562,7 +642,8 @@ public void AddMissingLanguages(int portalId, int tabId)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void CopyDesignToChildren(TabInfo parentTab, string skinSrc, string containerSrc, string cultureCode)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void CopyDesignToChildren(TabInfo parentTab, string skinSrc, string containerSrc, string cultureCode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1039,12 +1120,162 @@ public static void DeserializePanes(XmlNode nodePanes, int portalId, int tabId, 
 
 
   <a id="DotNetNuke_Entities_Tabs_TabController_DeserializeTab_" data-uid="DotNetNuke.Entities.Tabs.TabController.DeserializeTab*"></a>
+  <h4 id="DotNetNuke_Entities_Tabs_TabController_DeserializeTab_DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionService_System_Xml_XmlNode_DotNetNuke_Entities_Tabs_TabInfo_System_Collections_Hashtable_System_Int32_System_Boolean_DotNetNuke_Entities_Portals_PortalTemplateModuleAction_System_Collections_Hashtable_" data-uid="DotNetNuke.Entities.Tabs.TabController.DeserializeTab(DotNetNuke.Abstractions.Modules.IBusinessControllerProvider,DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService,System.Xml.XmlNode,DotNetNuke.Entities.Tabs.TabInfo,System.Collections.Hashtable,System.Int32,System.Boolean,DotNetNuke.Entities.Portals.PortalTemplateModuleAction,System.Collections.Hashtable)">DeserializeTab(IBusinessControllerProvider, IPermissionDefinitionService, XmlNode, TabInfo, Hashtable, int, bool, PortalTemplateModuleAction, Hashtable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TabInfo DeserializeTab(IBusinessControllerProvider businessControllerProvider, IPermissionDefinitionService permissionDefinitionService, XmlNode tabNode, TabInfo tab, Hashtable tabs, int portalId, bool isAdminTemplate, PortalTemplateModuleAction mergeTabs, Hashtable modules)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.html">IBusinessControllerProvider</a></td>
+        <td><span class="parametername">businessControllerProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService.html">IPermissionDefinitionService</a></td>
+        <td><span class="parametername">permissionDefinitionService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlnode">XmlNode</a></td>
+        <td><span class="parametername">tabNode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.hashtable">Hashtable</a></td>
+        <td><span class="parametername">tabs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">isAdminTemplate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalTemplateModuleAction.html">PortalTemplateModuleAction</a></td>
+        <td><span class="parametername">mergeTabs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.hashtable">Hashtable</a></td>
+        <td><span class="parametername">modules</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Tabs_TabController_DeserializeTab_" data-uid="DotNetNuke.Entities.Tabs.TabController.DeserializeTab*"></a>
+  <h4 id="DotNetNuke_Entities_Tabs_TabController_DeserializeTab_DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionService_System_Xml_XmlNode_DotNetNuke_Entities_Tabs_TabInfo_System_Int32_DotNetNuke_Entities_Portals_PortalTemplateModuleAction_" data-uid="DotNetNuke.Entities.Tabs.TabController.DeserializeTab(DotNetNuke.Abstractions.Modules.IBusinessControllerProvider,DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService,System.Xml.XmlNode,DotNetNuke.Entities.Tabs.TabInfo,System.Int32,DotNetNuke.Entities.Portals.PortalTemplateModuleAction)">DeserializeTab(IBusinessControllerProvider, IPermissionDefinitionService, XmlNode, TabInfo, int, PortalTemplateModuleAction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TabInfo DeserializeTab(IBusinessControllerProvider businessControllerProvider, IPermissionDefinitionService permissionDefinitionService, XmlNode tabNode, TabInfo tab, int portalId, PortalTemplateModuleAction mergeTabs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.html">IBusinessControllerProvider</a></td>
+        <td><span class="parametername">businessControllerProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService.html">IPermissionDefinitionService</a></td>
+        <td><span class="parametername">permissionDefinitionService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlnode">XmlNode</a></td>
+        <td><span class="parametername">tabNode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">tab</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalTemplateModuleAction.html">PortalTemplateModuleAction</a></td>
+        <td><span class="parametername">mergeTabs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Tabs_TabController_DeserializeTab_" data-uid="DotNetNuke.Entities.Tabs.TabController.DeserializeTab*"></a>
   <h4 id="DotNetNuke_Entities_Tabs_TabController_DeserializeTab_DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_System_Xml_XmlNode_DotNetNuke_Entities_Tabs_TabInfo_System_Collections_Hashtable_System_Int32_System_Boolean_DotNetNuke_Entities_Portals_PortalTemplateModuleAction_System_Collections_Hashtable_" data-uid="DotNetNuke.Entities.Tabs.TabController.DeserializeTab(DotNetNuke.Abstractions.Modules.IBusinessControllerProvider,System.Xml.XmlNode,DotNetNuke.Entities.Tabs.TabInfo,System.Collections.Hashtable,System.Int32,System.Boolean,DotNetNuke.Entities.Portals.PortalTemplateModuleAction,System.Collections.Hashtable)">DeserializeTab(IBusinessControllerProvider, XmlNode, TabInfo, Hashtable, int, bool, PortalTemplateModuleAction, Hashtable)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TabInfo DeserializeTab(IBusinessControllerProvider businessControllerProvider, XmlNode tabNode, TabInfo tab, Hashtable tabs, int portalId, bool isAdminTemplate, PortalTemplateModuleAction mergeTabs, Hashtable modules)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionDefinitionService. Scheduled for removal in v12.0.0.&quot;)]
+public static TabInfo DeserializeTab(IBusinessControllerProvider businessControllerProvider, XmlNode tabNode, TabInfo tab, Hashtable tabs, int portalId, bool isAdminTemplate, PortalTemplateModuleAction mergeTabs, Hashtable modules)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1121,7 +1352,8 @@ public static void DeserializePanes(XmlNode nodePanes, int portalId, int tabId, 
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TabInfo DeserializeTab(IBusinessControllerProvider businessControllerProvider, XmlNode tabNode, TabInfo tab, int portalId, PortalTemplateModuleAction mergeTabs)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionDefinitionService. Scheduled for removal in v12.0.0.&quot;)]
+public static TabInfo DeserializeTab(IBusinessControllerProvider businessControllerProvider, XmlNode tabNode, TabInfo tab, int portalId, PortalTemplateModuleAction mergeTabs)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

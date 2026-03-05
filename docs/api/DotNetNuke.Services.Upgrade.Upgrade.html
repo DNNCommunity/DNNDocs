@@ -193,12 +193,85 @@
 
 
   <a id="DotNetNuke_Services_Upgrade_Upgrade_AddAdminPage_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddAdminPage*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_AddAdminPage_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionService_DotNetNuke_Abstractions_Portals_IPortalInfo_System_String_System_String_System_String_System_String_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddAdminPage(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService,DotNetNuke.Abstractions.Portals.IPortalInfo,System.String,System.String,System.String,System.String,System.Boolean)">AddAdminPage(IPermissionDefinitionService, IPortalInfo, string, string, string, string, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TabInfo AddAdminPage(IPermissionDefinitionService permissionDefinitionService, IPortalInfo portal, string tabName, string description, string tabIconFile, string tabIconFileLarge, bool isVisible)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService.html">IPermissionDefinitionService</a></td>
+        <td><span class="parametername">permissionDefinitionService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalInfo.html">IPortalInfo</a></td>
+        <td><span class="parametername">portal</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">tabName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">description</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">tabIconFile</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">tabIconFileLarge</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">isVisible</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_AddAdminPage_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddAdminPage*"></a>
   <h4 id="DotNetNuke_Services_Upgrade_Upgrade_AddAdminPage_DotNetNuke_Entities_Portals_PortalInfo_System_String_System_String_System_String_System_String_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddAdminPage(DotNetNuke.Entities.Portals.PortalInfo,System.String,System.String,System.String,System.String,System.Boolean)">AddAdminPage(PortalInfo, string, string, string, string, bool)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TabInfo AddAdminPage(PortalInfo portal, string tabName, string description, string tabIconFile, string tabIconFileLarge, bool isVisible)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionDefinitionService. Scheduled for removal in v12.0.0.&quot;)]
+public static TabInfo AddAdminPage(PortalInfo portal, string tabName, string description, string tabIconFile, string tabIconFileLarge, bool isVisible)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -260,12 +333,85 @@
 
 
   <a id="DotNetNuke_Services_Upgrade_Upgrade_AddAdminPages_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddAdminPages*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_AddAdminPages_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionService_System_String_System_String_System_String_System_String_System_Boolean_System_Int32_System_String_System_String_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddAdminPages(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService,System.String,System.String,System.String,System.String,System.Boolean,System.Int32,System.String,System.String,System.Boolean)">AddAdminPages(IPermissionDefinitionService, string, string, string, string, bool, int, string, string, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddAdminPages(IPermissionDefinitionService permissionDefinitionService, string tabName, string description, string tabIconFile, string tabIconFileLarge, bool isVisible, int moduleDefId, string moduleTitle, string moduleIconFile, bool inheritPermissions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService.html">IPermissionDefinitionService</a></td>
+        <td><span class="parametername">permissionDefinitionService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">tabName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">description</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">tabIconFile</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">tabIconFileLarge</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">isVisible</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">moduleDefId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">moduleTitle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">moduleIconFile</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">inheritPermissions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_AddAdminPages_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddAdminPages*"></a>
   <h4 id="DotNetNuke_Services_Upgrade_Upgrade_AddAdminPages_System_String_System_String_System_String_System_String_System_Boolean_System_Int32_System_String_System_String_System_Boolean_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddAdminPages(System.String,System.String,System.String,System.String,System.Boolean,System.Int32,System.String,System.String,System.Boolean)">AddAdminPages(string, string, string, string, bool, int, string, string, bool)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void AddAdminPages(string tabName, string description, string tabIconFile, string tabIconFileLarge, bool isVisible, int moduleDefId, string moduleTitle, string moduleIconFile, bool inheritPermissions)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionDefinitionService. Scheduled for removal in v12.0.0.&quot;)]
+public static void AddAdminPages(string tabName, string description, string tabIconFile, string tabIconFileLarge, bool isVisible, int moduleDefId, string moduleTitle, string moduleIconFile, bool inheritPermissions)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -746,6 +892,73 @@
 
 
   <a id="DotNetNuke_Services_Upgrade_Upgrade_AddPortal_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddPortal*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_AddPortal_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_System_Xml_XmlNode_System_Boolean_System_Int32_DotNetNuke_Entities_Users_UserInfo_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddPortal(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,System.Xml.XmlNode,System.Boolean,System.Int32,DotNetNuke.Entities.Users.UserInfo)">AddPortal(IEventLogger, IApplicationStatusInfo, XmlNode, bool, int, UserInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int AddPortal(IEventLogger eventLogger, IApplicationStatusInfo appStatus, XmlNode node, bool status, int indent, UserInfo superUser = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlnode">XmlNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">status</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">indent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">superUser</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_AddPortal_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddPortal*"></a>
   <h4 id="DotNetNuke_Services_Upgrade_Upgrade_AddPortal_System_Xml_XmlNode_System_Boolean_System_Int32_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.AddPortal(System.Xml.XmlNode,System.Boolean,System.Int32)">AddPortal(XmlNode, bool, int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -804,7 +1017,8 @@ public static int AddPortal(XmlNode node, bool status, int indent)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int AddPortal(XmlNode node, bool status, int indent, UserInfo superUser = null)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IEventLogger. Scheduled removal in v12.0.0.&quot;)]
+public static int AddPortal(XmlNode node, bool status, int indent, UserInfo superUser = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1632,12 +1846,45 @@ public static int AddPortal(XmlNode node, bool status, int indent)</code></pre>
 
 
   <a id="DotNetNuke_Services_Upgrade_Upgrade_MakeModulePremium_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.MakeModulePremium*"></a>
+  <h4 id="DotNetNuke_Services_Upgrade_Upgrade_MakeModulePremium_DotNetNuke_Abstractions_Logging_IEventLogger_System_String_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.MakeModulePremium(DotNetNuke.Abstractions.Logging.IEventLogger,System.String)">MakeModulePremium(IEventLogger, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void MakeModulePremium(IEventLogger eventLogger, string moduleName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">moduleName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Upgrade_Upgrade_MakeModulePremium_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.MakeModulePremium*"></a>
   <h4 id="DotNetNuke_Services_Upgrade_Upgrade_MakeModulePremium_System_String_" data-uid="DotNetNuke.Services.Upgrade.Upgrade.MakeModulePremium(System.String)">MakeModulePremium(string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void MakeModulePremium(string moduleName)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void MakeModulePremium(string moduleName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

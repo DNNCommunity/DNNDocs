@@ -124,7 +124,8 @@ public class LanguageServiceController : DnnApiController</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LanguageServiceController(INavigationManager navigationManager)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IPortalAliasService. Scheduled removal in v12.0.0.&quot;)]
+public LanguageServiceController(INavigationManager navigationManager)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -139,6 +140,43 @@ public class LanguageServiceController : DnnApiController</code></pre>
       <tr>
         <td><a class="xref" href="DotNetNuke.Abstractions.INavigationManager.html">INavigationManager</a></td>
         <td><span class="parametername">navigationManager</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Web_InternalServices_LanguageServiceController__ctor_" data-uid="DotNetNuke.Web.InternalServices.LanguageServiceController.#ctor*"></a>
+  <h4 id="DotNetNuke_Web_InternalServices_LanguageServiceController__ctor_DotNetNuke_Abstractions_INavigationManager_DotNetNuke_Services_Localization_ILocaleController_DotNetNuke_Entities_Tabs_ITabController_" data-uid="DotNetNuke.Web.InternalServices.LanguageServiceController.#ctor(DotNetNuke.Abstractions.INavigationManager,DotNetNuke.Services.Localization.ILocaleController,DotNetNuke.Entities.Tabs.ITabController)">LanguageServiceController(INavigationManager, ILocaleController, ITabController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LanguageServiceController(INavigationManager navigationManager, ILocaleController localeController, ITabController tabController)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.INavigationManager.html">INavigationManager</a></td>
+        <td><span class="parametername">navigationManager</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Localization.ILocaleController.html">ILocaleController</a></td>
+        <td><span class="parametername">localeController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.ITabController.html">ITabController</a></td>
+        <td><span class="parametername">tabController</span></td>
         <td></td>
       </tr>
     </tbody>

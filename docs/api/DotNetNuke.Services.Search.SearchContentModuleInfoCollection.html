@@ -93,16 +93,44 @@
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
     <div class="level1"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.collectionbase">CollectionBase</a></div>
-    <div class="level2"><span class="xref">SearchContentModuleInfoCollection</span></div>
+    <div class="level2"><a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html">GenericCollectionBase</a>&lt;<a class="xref" href="DotNetNuke.Services.Search.SearchContentModuleInfo.html">SearchContentModuleInfo</a>&gt;</div>
+    <div class="level3"><span class="xref">SearchContentModuleInfoCollection</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ilist">IList</a></div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="DotNetNuke.Services.Search.SearchContentModuleInfo.html">SearchContentModuleInfo</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="DotNetNuke.Services.Search.SearchContentModuleInfo.html">SearchContentModuleInfo</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="DotNetNuke.Services.Search.SearchContentModuleInfo.html">SearchContentModuleInfo</a>&gt;</div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_Add__0_">GenericCollectionBase&lt;SearchContentModuleInfo&gt;.Add(SearchContentModuleInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_Remove__0_">GenericCollectionBase&lt;SearchContentModuleInfo&gt;.Remove(SearchContentModuleInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_Contains__0_">GenericCollectionBase&lt;SearchContentModuleInfo&gt;.Contains(SearchContentModuleInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_CopyTo__0___System_Int32_">GenericCollectionBase&lt;SearchContentModuleInfo&gt;.CopyTo(SearchContentModuleInfo[], int)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_IndexOf__0_">GenericCollectionBase&lt;SearchContentModuleInfo&gt;.IndexOf(SearchContentModuleInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_Insert_System_Int32__0_">GenericCollectionBase&lt;SearchContentModuleInfo&gt;.Insert(int, SearchContentModuleInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_IsReadOnly">GenericCollectionBase&lt;SearchContentModuleInfo&gt;.IsReadOnly</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_Item_System_Int32_">GenericCollectionBase&lt;SearchContentModuleInfo&gt;.this[int]</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.clear">CollectionBase.Clear()</a>
     </div>
@@ -177,7 +205,7 @@
   <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
   <h5 id="DotNetNuke_Services_Search_SearchContentModuleInfoCollection_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SearchContentModuleInfoCollection : CollectionBase, IList, ICollection, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class SearchContentModuleInfoCollection : GenericCollectionBase&lt;SearchContentModuleInfo&gt;, IList, ICollection, IList&lt;SearchContentModuleInfo&gt;, ICollection&lt;SearchContentModuleInfo&gt;, IEnumerable&lt;SearchContentModuleInfo&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -245,94 +273,8 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-</h3>
-
-
-  <a id="DotNetNuke_Services_Search_SearchContentModuleInfoCollection_Item_" data-uid="DotNetNuke.Services.Search.SearchContentModuleInfoCollection.Item*"></a>
-  <h4 id="DotNetNuke_Services_Search_SearchContentModuleInfoCollection_Item_System_Int32_" data-uid="DotNetNuke.Services.Search.SearchContentModuleInfoCollection.Item(System.Int32)">this[int]</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SearchContentModuleInfo this[int index] { get; set; }</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DotNetNuke.Services.Search.SearchContentModuleInfo.html">SearchContentModuleInfo</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
 </h3>
-
-
-  <a id="DotNetNuke_Services_Search_SearchContentModuleInfoCollection_Add_" data-uid="DotNetNuke.Services.Search.SearchContentModuleInfoCollection.Add*"></a>
-  <h4 id="DotNetNuke_Services_Search_SearchContentModuleInfoCollection_Add_DotNetNuke_Services_Search_SearchContentModuleInfo_" data-uid="DotNetNuke.Services.Search.SearchContentModuleInfoCollection.Add(DotNetNuke.Services.Search.SearchContentModuleInfo)">Add(SearchContentModuleInfo)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Add(SearchContentModuleInfo value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DotNetNuke.Services.Search.SearchContentModuleInfo.html">SearchContentModuleInfo</a></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 
 
   <a id="DotNetNuke_Services_Search_SearchContentModuleInfoCollection_AddRange_" data-uid="DotNetNuke.Services.Search.SearchContentModuleInfoCollection.AddRange*"></a>
@@ -389,181 +331,6 @@
   </table>
 
 
-  <a id="DotNetNuke_Services_Search_SearchContentModuleInfoCollection_Contains_" data-uid="DotNetNuke.Services.Search.SearchContentModuleInfoCollection.Contains*"></a>
-  <h4 id="DotNetNuke_Services_Search_SearchContentModuleInfoCollection_Contains_DotNetNuke_Services_Search_SearchContentModuleInfo_" data-uid="DotNetNuke.Services.Search.SearchContentModuleInfoCollection.Contains(DotNetNuke.Services.Search.SearchContentModuleInfo)">Contains(SearchContentModuleInfo)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Contains(SearchContentModuleInfo value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DotNetNuke.Services.Search.SearchContentModuleInfo.html">SearchContentModuleInfo</a></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="DotNetNuke_Services_Search_SearchContentModuleInfoCollection_CopyTo_" data-uid="DotNetNuke.Services.Search.SearchContentModuleInfoCollection.CopyTo*"></a>
-  <h4 id="DotNetNuke_Services_Search_SearchContentModuleInfoCollection_CopyTo_DotNetNuke_Services_Search_SearchContentModuleInfo___System_Int32_" data-uid="DotNetNuke.Services.Search.SearchContentModuleInfoCollection.CopyTo(DotNetNuke.Services.Search.SearchContentModuleInfo[],System.Int32)">CopyTo(SearchContentModuleInfo[], int)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CopyTo(SearchContentModuleInfo[] array, int index)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DotNetNuke.Services.Search.SearchContentModuleInfo.html">SearchContentModuleInfo</a>[]</td>
-        <td><span class="parametername">array</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="DotNetNuke_Services_Search_SearchContentModuleInfoCollection_IndexOf_" data-uid="DotNetNuke.Services.Search.SearchContentModuleInfoCollection.IndexOf*"></a>
-  <h4 id="DotNetNuke_Services_Search_SearchContentModuleInfoCollection_IndexOf_DotNetNuke_Services_Search_SearchContentModuleInfo_" data-uid="DotNetNuke.Services.Search.SearchContentModuleInfoCollection.IndexOf(DotNetNuke.Services.Search.SearchContentModuleInfo)">IndexOf(SearchContentModuleInfo)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int IndexOf(SearchContentModuleInfo value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DotNetNuke.Services.Search.SearchContentModuleInfo.html">SearchContentModuleInfo</a></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="DotNetNuke_Services_Search_SearchContentModuleInfoCollection_Insert_" data-uid="DotNetNuke.Services.Search.SearchContentModuleInfoCollection.Insert*"></a>
-  <h4 id="DotNetNuke_Services_Search_SearchContentModuleInfoCollection_Insert_System_Int32_DotNetNuke_Services_Search_SearchContentModuleInfo_" data-uid="DotNetNuke.Services.Search.SearchContentModuleInfoCollection.Insert(System.Int32,DotNetNuke.Services.Search.SearchContentModuleInfo)">Insert(int, SearchContentModuleInfo)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Insert(int index, SearchContentModuleInfo value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DotNetNuke.Services.Search.SearchContentModuleInfo.html">SearchContentModuleInfo</a></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="DotNetNuke_Services_Search_SearchContentModuleInfoCollection_Remove_" data-uid="DotNetNuke.Services.Search.SearchContentModuleInfoCollection.Remove*"></a>
-  <h4 id="DotNetNuke_Services_Search_SearchContentModuleInfoCollection_Remove_DotNetNuke_Services_Search_SearchContentModuleInfo_" data-uid="DotNetNuke.Services.Search.SearchContentModuleInfoCollection.Remove(DotNetNuke.Services.Search.SearchContentModuleInfo)">Remove(SearchContentModuleInfo)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Remove(SearchContentModuleInfo value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DotNetNuke.Services.Search.SearchContentModuleInfo.html">SearchContentModuleInfo</a></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
   <a id="DotNetNuke_Services_Search_SearchContentModuleInfoCollection_ToArray_" data-uid="DotNetNuke.Services.Search.SearchContentModuleInfoCollection.ToArray*"></a>
   <h4 id="DotNetNuke_Services_Search_SearchContentModuleInfoCollection_ToArray" data-uid="DotNetNuke.Services.Search.SearchContentModuleInfoCollection.ToArray">ToArray()</h4>
   <div class="markdown level1 summary"></div>
@@ -595,9 +362,30 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a>
   </div>
   <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a>
+  </div>
+  <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.CollectionExtensions.html#DotNetNuke_Collections_CollectionExtensions_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__">CollectionExtensions.ForEach&lt;TType&gt;(IEnumerable&lt;TType&gt;, Action&lt;TType&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.PagingExtensions.html#DotNetNuke_Collections_PagingExtensions_InPagesOf__1_System_Collections_Generic_IEnumerable___0__System_Int32_">PagingExtensions.InPagesOf&lt;T&gt;(IEnumerable&lt;T&gt;, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.PagingExtensions.html#DotNetNuke_Collections_PagingExtensions_ToPagedList__1_System_Collections_Generic_IEnumerable___0__System_Int32_System_Int32_">PagingExtensions.ToPagedList&lt;T&gt;(IEnumerable&lt;T&gt;, int, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.EnumerableExtensions.html#DotNetNuke_Collections_EnumerableExtensions_ToDataTable_System_Collections_Generic_IEnumerable_System_Object__">EnumerableExtensions.ToDataTable(IEnumerable&lt;dynamic&gt;)</a>
+  </div>
   <div>
       <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(object)</a>
   </div>

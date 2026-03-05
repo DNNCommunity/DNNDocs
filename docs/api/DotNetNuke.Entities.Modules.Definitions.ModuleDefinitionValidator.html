@@ -95,6 +95,10 @@
     <div class="level1"><a class="xref" href="DotNetNuke.Common.XmlValidatorBase.html">XmlValidatorBase</a></div>
     <div class="level2"><span class="xref">ModuleDefinitionValidator</span></div>
   </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -102,6 +106,12 @@
     </div>
     <div>
       <a class="xref" href="DotNetNuke.Common.XmlValidatorBase.html#DotNetNuke_Common_XmlValidatorBase_Validate_System_String_">XmlValidatorBase.Validate(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Common.XmlValidatorBase.html#DotNetNuke_Common_XmlValidatorBase_Dispose">XmlValidatorBase.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Common.XmlValidatorBase.html#DotNetNuke_Common_XmlValidatorBase_Dispose_System_Boolean_">XmlValidatorBase.Dispose(bool)</a>
     </div>
     <div>
       <a class="xref" href="DotNetNuke.Common.XmlValidatorBase.html#DotNetNuke_Common_XmlValidatorBase_ValidationCallBack_System_Object_System_Xml_Schema_ValidationEventArgs_">XmlValidatorBase.ValidationCallBack(object, ValidationEventArgs)</a>
@@ -138,7 +148,7 @@
   <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
   <h5 id="DotNetNuke_Entities_Modules_Definitions_ModuleDefinitionValidator_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ModuleDefinitionValidator : XmlValidatorBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class ModuleDefinitionValidator : XmlValidatorBase, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -240,6 +250,10 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="DotNetNuke.Common.XmlValidatorBase.html#DotNetNuke_Common_XmlValidatorBase_Validate_System_IO_Stream_">XmlValidatorBase.Validate(Stream)</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(object)</a>

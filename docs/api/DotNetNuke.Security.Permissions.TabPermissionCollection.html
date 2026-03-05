@@ -93,16 +93,44 @@
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
     <div class="level1"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.collectionbase">CollectionBase</a></div>
-    <div class="level2"><span class="xref">TabPermissionCollection</span></div>
+    <div class="level2"><a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html">GenericCollectionBase</a>&lt;<a class="xref" href="DotNetNuke.Security.Permissions.TabPermissionInfo.html">TabPermissionInfo</a>&gt;</div>
+    <div class="level3"><span class="xref">TabPermissionCollection</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ilist">IList</a></div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="DotNetNuke.Security.Permissions.TabPermissionInfo.html">TabPermissionInfo</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="DotNetNuke.Security.Permissions.TabPermissionInfo.html">TabPermissionInfo</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="DotNetNuke.Security.Permissions.TabPermissionInfo.html">TabPermissionInfo</a>&gt;</div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_Add__0_">GenericCollectionBase&lt;TabPermissionInfo&gt;.Add(TabPermissionInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_Remove__0_">GenericCollectionBase&lt;TabPermissionInfo&gt;.Remove(TabPermissionInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_Contains__0_">GenericCollectionBase&lt;TabPermissionInfo&gt;.Contains(TabPermissionInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_CopyTo__0___System_Int32_">GenericCollectionBase&lt;TabPermissionInfo&gt;.CopyTo(TabPermissionInfo[], int)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_IndexOf__0_">GenericCollectionBase&lt;TabPermissionInfo&gt;.IndexOf(TabPermissionInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_Insert_System_Int32__0_">GenericCollectionBase&lt;TabPermissionInfo&gt;.Insert(int, TabPermissionInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_IsReadOnly">GenericCollectionBase&lt;TabPermissionInfo&gt;.IsReadOnly</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_Item_System_Int32_">GenericCollectionBase&lt;TabPermissionInfo&gt;.this[int]</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.clear">CollectionBase.Clear()</a>
     </div>
@@ -177,7 +205,7 @@
   <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
   <h5 id="DotNetNuke_Security_Permissions_TabPermissionCollection_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TabPermissionCollection : CollectionBase, IList, ICollection, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class TabPermissionCollection : GenericCollectionBase&lt;TabPermissionInfo&gt;, IList, ICollection, IList&lt;TabPermissionInfo&gt;, ICollection&lt;TabPermissionInfo&gt;, IEnumerable&lt;TabPermissionInfo&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -277,94 +305,8 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-</h3>
-
-
-  <a id="DotNetNuke_Security_Permissions_TabPermissionCollection_Item_" data-uid="DotNetNuke.Security.Permissions.TabPermissionCollection.Item*"></a>
-  <h4 id="DotNetNuke_Security_Permissions_TabPermissionCollection_Item_System_Int32_" data-uid="DotNetNuke.Security.Permissions.TabPermissionCollection.Item(System.Int32)">this[int]</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TabPermissionInfo this[int index] { get; set; }</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DotNetNuke.Security.Permissions.TabPermissionInfo.html">TabPermissionInfo</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
 </h3>
-
-
-  <a id="DotNetNuke_Security_Permissions_TabPermissionCollection_Add_" data-uid="DotNetNuke.Security.Permissions.TabPermissionCollection.Add*"></a>
-  <h4 id="DotNetNuke_Security_Permissions_TabPermissionCollection_Add_DotNetNuke_Security_Permissions_TabPermissionInfo_" data-uid="DotNetNuke.Security.Permissions.TabPermissionCollection.Add(DotNetNuke.Security.Permissions.TabPermissionInfo)">Add(TabPermissionInfo)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Add(TabPermissionInfo value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DotNetNuke.Security.Permissions.TabPermissionInfo.html">TabPermissionInfo</a></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 
 
   <a id="DotNetNuke_Security_Permissions_TabPermissionCollection_Add_" data-uid="DotNetNuke.Security.Permissions.TabPermissionCollection.Add*"></a>
@@ -537,149 +479,6 @@
   </table>
 
 
-  <a id="DotNetNuke_Security_Permissions_TabPermissionCollection_Contains_" data-uid="DotNetNuke.Security.Permissions.TabPermissionCollection.Contains*"></a>
-  <h4 id="DotNetNuke_Security_Permissions_TabPermissionCollection_Contains_DotNetNuke_Security_Permissions_TabPermissionInfo_" data-uid="DotNetNuke.Security.Permissions.TabPermissionCollection.Contains(DotNetNuke.Security.Permissions.TabPermissionInfo)">Contains(TabPermissionInfo)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Contains(TabPermissionInfo value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DotNetNuke.Security.Permissions.TabPermissionInfo.html">TabPermissionInfo</a></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="DotNetNuke_Security_Permissions_TabPermissionCollection_IndexOf_" data-uid="DotNetNuke.Security.Permissions.TabPermissionCollection.IndexOf*"></a>
-  <h4 id="DotNetNuke_Security_Permissions_TabPermissionCollection_IndexOf_DotNetNuke_Security_Permissions_TabPermissionInfo_" data-uid="DotNetNuke.Security.Permissions.TabPermissionCollection.IndexOf(DotNetNuke.Security.Permissions.TabPermissionInfo)">IndexOf(TabPermissionInfo)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int IndexOf(TabPermissionInfo value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DotNetNuke.Security.Permissions.TabPermissionInfo.html">TabPermissionInfo</a></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="DotNetNuke_Security_Permissions_TabPermissionCollection_Insert_" data-uid="DotNetNuke.Security.Permissions.TabPermissionCollection.Insert*"></a>
-  <h4 id="DotNetNuke_Security_Permissions_TabPermissionCollection_Insert_System_Int32_DotNetNuke_Security_Permissions_TabPermissionInfo_" data-uid="DotNetNuke.Security.Permissions.TabPermissionCollection.Insert(System.Int32,DotNetNuke.Security.Permissions.TabPermissionInfo)">Insert(int, TabPermissionInfo)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Insert(int index, TabPermissionInfo value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DotNetNuke.Security.Permissions.TabPermissionInfo.html">TabPermissionInfo</a></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="DotNetNuke_Security_Permissions_TabPermissionCollection_Remove_" data-uid="DotNetNuke.Security.Permissions.TabPermissionCollection.Remove*"></a>
-  <h4 id="DotNetNuke_Security_Permissions_TabPermissionCollection_Remove_DotNetNuke_Security_Permissions_TabPermissionInfo_" data-uid="DotNetNuke.Security.Permissions.TabPermissionCollection.Remove(DotNetNuke.Security.Permissions.TabPermissionInfo)">Remove(TabPermissionInfo)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Remove(TabPermissionInfo value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DotNetNuke.Security.Permissions.TabPermissionInfo.html">TabPermissionInfo</a></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
   <a id="DotNetNuke_Security_Permissions_TabPermissionCollection_Remove_" data-uid="DotNetNuke.Security.Permissions.TabPermissionCollection.Remove*"></a>
   <h4 id="DotNetNuke_Security_Permissions_TabPermissionCollection_Remove_System_Int32_System_Int32_System_Int32_" data-uid="DotNetNuke.Security.Permissions.TabPermissionCollection.Remove(System.Int32,System.Int32,System.Int32)">Remove(int, int, int)</h4>
   <div class="markdown level1 summary"></div>
@@ -832,9 +631,30 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a>
   </div>
   <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a>
+  </div>
+  <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.CollectionExtensions.html#DotNetNuke_Collections_CollectionExtensions_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__">CollectionExtensions.ForEach&lt;TType&gt;(IEnumerable&lt;TType&gt;, Action&lt;TType&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.PagingExtensions.html#DotNetNuke_Collections_PagingExtensions_InPagesOf__1_System_Collections_Generic_IEnumerable___0__System_Int32_">PagingExtensions.InPagesOf&lt;T&gt;(IEnumerable&lt;T&gt;, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.PagingExtensions.html#DotNetNuke_Collections_PagingExtensions_ToPagedList__1_System_Collections_Generic_IEnumerable___0__System_Int32_System_Int32_">PagingExtensions.ToPagedList&lt;T&gt;(IEnumerable&lt;T&gt;, int, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.EnumerableExtensions.html#DotNetNuke_Collections_EnumerableExtensions_ToDataTable_System_Collections_Generic_IEnumerable_System_Object__">EnumerableExtensions.ToDataTable(IEnumerable&lt;dynamic&gt;)</a>
+  </div>
   <div>
       <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(object)</a>
   </div>

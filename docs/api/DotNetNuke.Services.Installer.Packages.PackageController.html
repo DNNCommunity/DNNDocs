@@ -154,10 +154,100 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PackageController()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IHostSettings. Scheduled removal in v12.0.0.&quot;)]
+public PackageController()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Services_Installer_Packages_PackageController__ctor_" data-uid="DotNetNuke.Services.Installer.Packages.PackageController.#ctor*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Packages_PackageController__ctor_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Logging_IEventLogger_" data-uid="DotNetNuke.Services.Installer.Packages.PackageController.#ctor(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Logging.IEventLogger)">PackageController(IHostSettings, IEventLogger)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PackageController(IHostSettings hostSettings, IEventLogger eventLogger)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
+
+
+  <a id="DotNetNuke_Services_Installer_Packages_PackageController_CanDeletePackage_" data-uid="DotNetNuke.Services.Installer.Packages.PackageController.CanDeletePackage*"></a>
+  <h4 id="DotNetNuke_Services_Installer_Packages_PackageController_CanDeletePackage_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Services_Installer_Packages_PackageInfo_DotNetNuke_Abstractions_Portals_IPortalSettings_" data-uid="DotNetNuke.Services.Installer.Packages.PackageController.CanDeletePackage(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Services.Installer.Packages.PackageInfo,DotNetNuke.Abstractions.Portals.IPortalSettings)">CanDeletePackage(IHostSettings, IApplicationStatusInfo, PackageInfo, IPortalSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool CanDeletePackage(IHostSettings hostSettings, IApplicationStatusInfo appStatus, PackageInfo package, IPortalSettings portalSettings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Installer.Packages.PackageInfo.html">PackageInfo</a></td>
+        <td><span class="parametername">package</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalSettings.html">IPortalSettings</a></td>
+        <td><span class="parametername">portalSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
   <a id="DotNetNuke_Services_Installer_Packages_PackageController_CanDeletePackage_" data-uid="DotNetNuke.Services.Installer.Packages.PackageController.CanDeletePackage*"></a>
@@ -166,7 +256,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool CanDeletePackage(PackageInfo package, PortalSettings portalSettings)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static bool CanDeletePackage(PackageInfo package, PortalSettings portalSettings)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

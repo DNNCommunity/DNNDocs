@@ -134,8 +134,36 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ModuleDefinitionController()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IPermissionDefinitionService. Scheduled removal in v12.0.0.&quot;)]
+public ModuleDefinitionController()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Entities_Modules_Definitions_ModuleDefinitionController__ctor_" data-uid="DotNetNuke.Entities.Modules.Definitions.ModuleDefinitionController.#ctor*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_Definitions_ModuleDefinitionController__ctor_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionService_" data-uid="DotNetNuke.Entities.Modules.Definitions.ModuleDefinitionController.#ctor(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService)">ModuleDefinitionController(IPermissionDefinitionService)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleDefinitionController(IPermissionDefinitionService permissionDefinitionService)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService.html">IPermissionDefinitionService</a></td>
+        <td><span class="parametername">permissionDefinitionService</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
 
@@ -440,12 +468,70 @@
 
 
   <a id="DotNetNuke_Entities_Modules_Definitions_ModuleDefinitionController_SaveModuleDefinition_" data-uid="DotNetNuke.Entities.Modules.Definitions.ModuleDefinitionController.SaveModuleDefinition*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_Definitions_ModuleDefinitionController_SaveModuleDefinition_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionService_DotNetNuke_Entities_Modules_Definitions_ModuleDefinitionInfo_System_Boolean_System_Boolean_" data-uid="DotNetNuke.Entities.Modules.Definitions.ModuleDefinitionController.SaveModuleDefinition(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService,DotNetNuke.Entities.Modules.Definitions.ModuleDefinitionInfo,System.Boolean,System.Boolean)">SaveModuleDefinition(IPermissionDefinitionService, ModuleDefinitionInfo, bool, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int SaveModuleDefinition(IPermissionDefinitionService permissionDefinitionService, ModuleDefinitionInfo moduleDefinition, bool saveChildren, bool clearCache)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService.html">IPermissionDefinitionService</a></td>
+        <td><span class="parametername">permissionDefinitionService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.Definitions.ModuleDefinitionInfo.html">ModuleDefinitionInfo</a></td>
+        <td><span class="parametername">moduleDefinition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">saveChildren</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">clearCache</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Modules_Definitions_ModuleDefinitionController_SaveModuleDefinition_" data-uid="DotNetNuke.Entities.Modules.Definitions.ModuleDefinitionController.SaveModuleDefinition*"></a>
   <h4 id="DotNetNuke_Entities_Modules_Definitions_ModuleDefinitionController_SaveModuleDefinition_DotNetNuke_Entities_Modules_Definitions_ModuleDefinitionInfo_System_Boolean_System_Boolean_" data-uid="DotNetNuke.Entities.Modules.Definitions.ModuleDefinitionController.SaveModuleDefinition(DotNetNuke.Entities.Modules.Definitions.ModuleDefinitionInfo,System.Boolean,System.Boolean)">SaveModuleDefinition(ModuleDefinitionInfo, bool, bool)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int SaveModuleDefinition(ModuleDefinitionInfo moduleDefinition, bool saveChildren, bool clearCache)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionDefinitionService. Scheduled for removal in v12.0.0.&quot;)]
+public static int SaveModuleDefinition(ModuleDefinitionInfo moduleDefinition, bool saveChildren, bool clearCache)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

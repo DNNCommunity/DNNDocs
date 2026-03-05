@@ -418,8 +418,36 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PermissionsGrid()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IServicesFramework. Scheduled removal in v12.0.0.&quot;)]
+public PermissionsGrid()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid__ctor_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.#ctor*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid__ctor_DotNetNuke_Framework_IServicesFramework_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.#ctor(DotNetNuke.Framework.IServicesFramework)">PermissionsGrid(IServicesFramework)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PermissionsGrid(IServicesFramework servicesFramework)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Framework.IServicesFramework.html">IServicesFramework</a></td>
+        <td><span class="parametername">servicesFramework</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="fields">Fields
 </h3>
 
@@ -821,13 +849,39 @@
   </table>
 
 
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_PermissionCollection_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.PermissionCollection*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_PermissionCollection" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.PermissionCollection">PermissionCollection</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual IList&lt;IPermissionInfo&gt; PermissionCollection { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionInfo.html">IPermissionInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_PermissionsList_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.PermissionsList*"></a>
   <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_PermissionsList" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.PermissionsList">PermissionsList</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual List&lt;PermissionInfoBase&gt; PermissionsList { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use PermissionCollection property instead. Scheduled removal in v12.0.0.&quot;)]
+protected virtual List&lt;PermissionInfoBase&gt; PermissionsList { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -996,6 +1050,31 @@
   </table>
 
 
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_SupportsPermissionsAbstractions_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.SupportsPermissionsAbstractions*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_SupportsPermissionsAbstractions" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.SupportsPermissionsAbstractions">SupportsPermissionsAbstractions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool SupportsPermissionsAbstractions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_dtRolePermissions_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.dtRolePermissions*"></a>
   <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_dtRolePermissions" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.dtRolePermissions">dtRolePermissions</h4>
   <div class="markdown level1 summary"></div>
@@ -1049,12 +1128,65 @@
 
 
   <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_AddPermission_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.AddPermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_AddPermission_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionInfo_System_Int32_System_String_System_Int32_System_String_System_Boolean_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.AddPermission(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo,System.Int32,System.String,System.Int32,System.String,System.Boolean)">AddPermission(IPermissionDefinitionInfo, int, string, int, string, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void AddPermission(IPermissionDefinitionInfo permissionDefinition, int roleId, string roleName, int userId, string displayName, bool allowAccess)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></td>
+        <td><span class="parametername">permissionDefinition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">roleId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">roleName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">userId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">displayName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">allowAccess</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_AddPermission_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.AddPermission*"></a>
   <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_AddPermission_DotNetNuke_Security_Permissions_PermissionInfo_System_Int32_System_String_System_Int32_System_String_System_Boolean_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.AddPermission(DotNetNuke.Security.Permissions.PermissionInfo,System.Int32,System.String,System.Int32,System.String,System.Boolean)">AddPermission(PermissionInfo, int, string, int, string, bool)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void AddPermission(PermissionInfo permission, int roleId, string roleName, int userId, string displayName, bool allowAccess)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionDefinitionInfo. Scheduled for removal in v12.0.0.&quot;)]
+protected virtual void AddPermission(PermissionInfo permission, int roleId, string roleName, int userId, string displayName, bool allowAccess)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1106,7 +1238,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void AddPermission(ArrayList permissions, UserInfo user)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IList&lt;IPermissionDefinitionInfo&gt;. Scheduled for removal in v12.0.0.&quot;)]
+protected virtual void AddPermission(ArrayList permissions, UserInfo user)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1138,7 +1271,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void AddPermission(ArrayList permissions, RoleInfo role)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IList&lt;IPermissionDefinitionInfo&gt;. Scheduled for removal in v12.0.0.&quot;)]
+protected virtual void AddPermission(ArrayList permissions, RoleInfo role)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1153,6 +1287,70 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist">ArrayList</a></td>
         <td><span class="parametername">permissions</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleInfo.html">RoleInfo</a></td>
+        <td><span class="parametername">role</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_AddPermission_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.AddPermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_AddPermission_System_Collections_Generic_IList_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionInfo__DotNetNuke_Entities_Users_UserInfo_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.AddPermission(System.Collections.Generic.IList{DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo},DotNetNuke.Entities.Users.UserInfo)">AddPermission(IList&lt;IPermissionDefinitionInfo&gt;, UserInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void AddPermission(IList&lt;IPermissionDefinitionInfo&gt; permissionsList, UserInfo user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a>&gt;</td>
+        <td><span class="parametername">permissionsList</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_AddPermission_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.AddPermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_AddPermission_System_Collections_Generic_IList_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionInfo__DotNetNuke_Security_Roles_RoleInfo_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.AddPermission(System.Collections.Generic.IList{DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo},DotNetNuke.Security.Roles.RoleInfo)">AddPermission(IList&lt;IPermissionDefinitionInfo&gt;, RoleInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void AddPermission(IList&lt;IPermissionDefinitionInfo&gt; permissionsList, RoleInfo role)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a>&gt;</td>
+        <td><span class="parametername">permissionsList</span></td>
         <td></td>
       </tr>
       <tr>
@@ -1353,12 +1551,117 @@
 
 
   <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_GetEnabled_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.GetEnabled*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_GetEnabled_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionInfo_DotNetNuke_Entities_Users_UserInfo_System_Int32_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.GetEnabled(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo,DotNetNuke.Entities.Users.UserInfo,System.Int32)">GetEnabled(IPermissionDefinitionInfo, UserInfo, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool GetEnabled(IPermissionDefinitionInfo permissionDefinition, UserInfo user, int column)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></td>
+        <td><span class="parametername">permissionDefinition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">column</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_GetEnabled_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.GetEnabled*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_GetEnabled_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionInfo_DotNetNuke_Security_Roles_RoleInfo_System_Int32_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.GetEnabled(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo,DotNetNuke.Security.Roles.RoleInfo,System.Int32)">GetEnabled(IPermissionDefinitionInfo, RoleInfo, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool GetEnabled(IPermissionDefinitionInfo permissionDefinition, RoleInfo role, int column)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></td>
+        <td><span class="parametername">permissionDefinition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleInfo.html">RoleInfo</a></td>
+        <td><span class="parametername">role</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">column</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_GetEnabled_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.GetEnabled*"></a>
   <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_GetEnabled_DotNetNuke_Security_Permissions_PermissionInfo_DotNetNuke_Entities_Users_UserInfo_System_Int32_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.GetEnabled(DotNetNuke.Security.Permissions.PermissionInfo,DotNetNuke.Entities.Users.UserInfo,System.Int32)">GetEnabled(PermissionInfo, UserInfo, int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual bool GetEnabled(PermissionInfo objPerm, UserInfo user, int column)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionDefinitionInfo. Scheduled for removal in v12.0.0.&quot;)]
+protected virtual bool GetEnabled(PermissionInfo objPerm, UserInfo user, int column)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1410,7 +1713,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual bool GetEnabled(PermissionInfo objPerm, RoleInfo role, int column)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionDefinitionInfo. Scheduled for removal in v12.0.0.&quot;)]
+protected virtual bool GetEnabled(PermissionInfo objPerm, RoleInfo role, int column)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1457,12 +1761,231 @@
 
 
   <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_GetPermission_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.GetPermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_GetPermission_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionInfo_DotNetNuke_Entities_Users_UserInfo_System_Int32_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.GetPermission(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo,DotNetNuke.Entities.Users.UserInfo,System.Int32)">GetPermission(IPermissionDefinitionInfo, UserInfo, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool GetPermission(IPermissionDefinitionInfo permissionDefinition, UserInfo user, int column)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></td>
+        <td><span class="parametername">permissionDefinition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">column</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_GetPermission_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.GetPermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_GetPermission_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionInfo_DotNetNuke_Entities_Users_UserInfo_System_Int32_System_String_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.GetPermission(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo,DotNetNuke.Entities.Users.UserInfo,System.Int32,System.String)">GetPermission(IPermissionDefinitionInfo, UserInfo, int, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string GetPermission(IPermissionDefinitionInfo permissionDefinition, UserInfo user, int column, string defaultState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></td>
+        <td><span class="parametername">permissionDefinition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">column</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">defaultState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_GetPermission_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.GetPermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_GetPermission_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionInfo_DotNetNuke_Security_Roles_RoleInfo_System_Int32_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.GetPermission(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo,DotNetNuke.Security.Roles.RoleInfo,System.Int32)">GetPermission(IPermissionDefinitionInfo, RoleInfo, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool GetPermission(IPermissionDefinitionInfo permissionDefinition, RoleInfo role, int column)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></td>
+        <td><span class="parametername">permissionDefinition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleInfo.html">RoleInfo</a></td>
+        <td><span class="parametername">role</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">column</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_GetPermission_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.GetPermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_GetPermission_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionInfo_DotNetNuke_Security_Roles_RoleInfo_System_Int32_System_String_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.GetPermission(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo,DotNetNuke.Security.Roles.RoleInfo,System.Int32,System.String)">GetPermission(IPermissionDefinitionInfo, RoleInfo, int, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string GetPermission(IPermissionDefinitionInfo permissionDefinition, RoleInfo role, int column, string defaultState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></td>
+        <td><span class="parametername">permissionDefinition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleInfo.html">RoleInfo</a></td>
+        <td><span class="parametername">role</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">column</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">defaultState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_GetPermission_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.GetPermission*"></a>
   <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_GetPermission_DotNetNuke_Security_Permissions_PermissionInfo_DotNetNuke_Entities_Users_UserInfo_System_Int32_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.GetPermission(DotNetNuke.Security.Permissions.PermissionInfo,DotNetNuke.Entities.Users.UserInfo,System.Int32)">GetPermission(PermissionInfo, UserInfo, int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual bool GetPermission(PermissionInfo objPerm, UserInfo user, int column)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionDefinitionInfo. Scheduled for removal in v12.0.0.&quot;)]
+protected virtual bool GetPermission(PermissionInfo objPerm, UserInfo user, int column)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1514,7 +2037,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual string GetPermission(PermissionInfo objPerm, UserInfo user, int column, string defaultState)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionDefinitionInfo. Scheduled for removal in v12.0.0.&quot;)]
+protected virtual string GetPermission(PermissionInfo objPerm, UserInfo user, int column, string defaultState)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1571,7 +2095,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual bool GetPermission(PermissionInfo objPerm, RoleInfo role, int column)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionDefinitionInfo. Scheduled for removal in v12.0.0.&quot;)]
+protected virtual bool GetPermission(PermissionInfo objPerm, RoleInfo role, int column)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1623,7 +2148,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual string GetPermission(PermissionInfo objPerm, RoleInfo role, int column, string defaultState)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionDefinitionInfo. Scheduled for removal in v12.0.0.&quot;)]
+protected virtual string GetPermission(PermissionInfo objPerm, RoleInfo role, int column, string defaultState)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1674,13 +2200,39 @@
   </table>
 
 
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_GetPermissionDefinitions_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.GetPermissionDefinitions*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_GetPermissionDefinitions" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.GetPermissionDefinitions">GetPermissionDefinitions()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual IList&lt;IPermissionDefinitionInfo&gt; GetPermissionDefinitions()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_GetPermissions_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.GetPermissions*"></a>
   <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_GetPermissions" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.GetPermissions">GetPermissions()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual ArrayList GetPermissions()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use GetPermissionDefinitions. Scheduled for removal in v12.0.0.&quot;)]
+protected virtual ArrayList GetPermissions()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
@@ -1725,12 +2277,55 @@
 
 
   <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_IsFullControl_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.IsFullControl*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_IsFullControl_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionInfo_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.IsFullControl(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo)">IsFullControl(IPermissionDefinitionInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool IsFullControl(IPermissionDefinitionInfo permissionDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></td>
+        <td><span class="parametername">permissionDefinition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_IsFullControl_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.IsFullControl*"></a>
   <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_IsFullControl_DotNetNuke_Security_Permissions_PermissionInfo_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.IsFullControl(DotNetNuke.Security.Permissions.PermissionInfo)">IsFullControl(PermissionInfo)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual bool IsFullControl(PermissionInfo permissionInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionDefinitionInfo. Scheduled for removal in v12.0.0.&quot;)]
+protected virtual bool IsFullControl(PermissionInfo permissionInfo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1772,7 +2367,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual bool IsViewPermisison(PermissionInfo permissionInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionDefinitionInfo. Scheduled for removal in v12.0.0.&quot;)]
+protected virtual bool IsViewPermisison(PermissionInfo permissionInfo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1787,6 +2383,48 @@
       <tr>
         <td><a class="xref" href="DotNetNuke.Security.Permissions.PermissionInfo.html">PermissionInfo</a></td>
         <td><span class="parametername">permissionInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_IsViewPermission_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.IsViewPermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_IsViewPermission_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionInfo_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.IsViewPermission(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo)">IsViewPermission(IPermissionDefinitionInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool IsViewPermission(IPermissionDefinitionInfo permissionDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></td>
+        <td><span class="parametername">permissionDefinition</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1867,12 +2505,45 @@
 
 
   <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_ParsePermissionKeys_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.ParsePermissionKeys*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_ParsePermissionKeys_DotNetNuke_Abstractions_Security_Permissions_IPermissionInfo_System_String___" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.ParsePermissionKeys(DotNetNuke.Abstractions.Security.Permissions.IPermissionInfo,System.String[])">ParsePermissionKeys(IPermissionInfo, string[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void ParsePermissionKeys(IPermissionInfo permission, string[] settings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionInfo.html">IPermissionInfo</a></td>
+        <td><span class="parametername">permission</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</td>
+        <td><span class="parametername">settings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_ParsePermissionKeys_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.ParsePermissionKeys*"></a>
   <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_ParsePermissionKeys_DotNetNuke_Security_Permissions_PermissionInfoBase_System_String___" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.ParsePermissionKeys(DotNetNuke.Security.Permissions.PermissionInfoBase,System.String[])">ParsePermissionKeys(PermissionInfoBase, string[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void ParsePermissionKeys(PermissionInfoBase permission, string[] settings)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionInfo. Scheduled for removal in v12.0.0.&quot;)]
+protected virtual void ParsePermissionKeys(PermissionInfoBase permission, string[] settings)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1978,12 +2649,55 @@
 
 
   <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_SupportsDenyPermissions_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.SupportsDenyPermissions*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_SupportsDenyPermissions_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionInfo_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.SupportsDenyPermissions(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo)">SupportsDenyPermissions(IPermissionDefinitionInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool SupportsDenyPermissions(IPermissionDefinitionInfo permissionDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></td>
+        <td><span class="parametername">permissionDefinition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_SupportsDenyPermissions_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.SupportsDenyPermissions*"></a>
   <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_SupportsDenyPermissions_DotNetNuke_Security_Permissions_PermissionInfo_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.SupportsDenyPermissions(DotNetNuke.Security.Permissions.PermissionInfo)">SupportsDenyPermissions(PermissionInfo)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual bool SupportsDenyPermissions(PermissionInfo permissionInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionDefinitionInfo. Scheduled for removal in v12.0.0.&quot;)]
+protected virtual bool SupportsDenyPermissions(PermissionInfo permissionInfo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -2020,12 +2734,181 @@
 
 
   <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_UpdatePermission_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.UpdatePermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_UpdatePermission_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionInfo_System_Int32_System_String_System_Boolean_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.UpdatePermission(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo,System.Int32,System.String,System.Boolean)">UpdatePermission(IPermissionDefinitionInfo, int, string, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void UpdatePermission(IPermissionDefinitionInfo permission, int roleId, string roleName, bool allowAccess)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></td>
+        <td><span class="parametername">permission</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">roleId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">roleName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">allowAccess</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_UpdatePermission_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.UpdatePermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_UpdatePermission_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionInfo_System_Int32_System_String_System_String_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.UpdatePermission(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo,System.Int32,System.String,System.String)">UpdatePermission(IPermissionDefinitionInfo, int, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void UpdatePermission(IPermissionDefinitionInfo permission, int roleId, string roleName, string stateKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></td>
+        <td><span class="parametername">permission</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">roleId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">roleName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">stateKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_UpdatePermission_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.UpdatePermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_UpdatePermission_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionInfo_System_String_System_Int32_System_Boolean_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.UpdatePermission(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo,System.String,System.Int32,System.Boolean)">UpdatePermission(IPermissionDefinitionInfo, string, int, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void UpdatePermission(IPermissionDefinitionInfo permission, string displayName, int userId, bool allowAccess)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></td>
+        <td><span class="parametername">permission</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">displayName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">userId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">allowAccess</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_UpdatePermission_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.UpdatePermission*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_UpdatePermission_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionInfo_System_String_System_Int32_System_String_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.UpdatePermission(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo,System.String,System.Int32,System.String)">UpdatePermission(IPermissionDefinitionInfo, string, int, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void UpdatePermission(IPermissionDefinitionInfo permission, string displayName, int userId, string stateKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></td>
+        <td><span class="parametername">permission</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">displayName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">userId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">stateKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_UpdatePermission_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.UpdatePermission*"></a>
   <h4 id="DotNetNuke_Security_Permissions_Controls_PermissionsGrid_UpdatePermission_DotNetNuke_Security_Permissions_PermissionInfo_System_Int32_System_String_System_Boolean_" data-uid="DotNetNuke.Security.Permissions.Controls.PermissionsGrid.UpdatePermission(DotNetNuke.Security.Permissions.PermissionInfo,System.Int32,System.String,System.Boolean)">UpdatePermission(PermissionInfo, int, string, bool)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void UpdatePermission(PermissionInfo permission, int roleId, string roleName, bool allowAccess)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionDefinitionInfo. Scheduled for removal in v12.0.0.&quot;)]
+protected virtual void UpdatePermission(PermissionInfo permission, int roleId, string roleName, bool allowAccess)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -2067,7 +2950,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void UpdatePermission(PermissionInfo permission, int roleId, string roleName, string stateKey)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionDefinitionInfo. Scheduled for removal in v12.0.0.&quot;)]
+protected virtual void UpdatePermission(PermissionInfo permission, int roleId, string roleName, string stateKey)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -2109,7 +2993,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void UpdatePermission(PermissionInfo permission, string displayName, int userId, bool allowAccess)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionDefinitionInfo. Scheduled for removal in v12.0.0.&quot;)]
+protected virtual void UpdatePermission(PermissionInfo permission, string displayName, int userId, bool allowAccess)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -2151,7 +3036,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void UpdatePermission(PermissionInfo permission, string displayName, int userId, string stateKey)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionDefinitionInfo. Scheduled for removal in v12.0.0.&quot;)]
+protected virtual void UpdatePermission(PermissionInfo permission, string displayName, int userId, string stateKey)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

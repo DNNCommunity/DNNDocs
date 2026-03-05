@@ -101,6 +101,9 @@
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a></div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icloneable">ICloneable</a></div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.ihierarchicalenumerable">IHierarchicalEnumerable</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="DotNetNuke.UI.WebControls.NavDataPageHierarchyData.html">NavDataPageHierarchyData</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="DotNetNuke.UI.WebControls.NavDataPageHierarchyData.html">NavDataPageHierarchyData</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="DotNetNuke.UI.WebControls.NavDataPageHierarchyData.html">NavDataPageHierarchyData</a>&gt;</div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
   </div>
   <div class="inheritedMembers">
@@ -278,7 +281,7 @@
   <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
   <h5 id="DotNetNuke_UI_WebControls_NavDataPageHierarchicalEnumerable_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class NavDataPageHierarchicalEnumerable : ArrayList, IList, ICollection, ICloneable, IHierarchicalEnumerable, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class NavDataPageHierarchicalEnumerable : ArrayList, IList, ICollection, ICloneable, IHierarchicalEnumerable, IList&lt;NavDataPageHierarchyData&gt;, ICollection&lt;NavDataPageHierarchyData&gt;, IEnumerable&lt;NavDataPageHierarchyData&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -294,6 +297,107 @@
   </div>
   <h3 id="methods">Methods
 </h3>
+
+
+  <a id="DotNetNuke_UI_WebControls_NavDataPageHierarchicalEnumerable_Add_" data-uid="DotNetNuke.UI.WebControls.NavDataPageHierarchicalEnumerable.Add*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_NavDataPageHierarchicalEnumerable_Add_DotNetNuke_UI_WebControls_NavDataPageHierarchyData_" data-uid="DotNetNuke.UI.WebControls.NavDataPageHierarchicalEnumerable.Add(DotNetNuke.UI.WebControls.NavDataPageHierarchyData)">Add(NavDataPageHierarchyData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(NavDataPageHierarchyData item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.UI.WebControls.NavDataPageHierarchyData.html">NavDataPageHierarchyData</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_UI_WebControls_NavDataPageHierarchicalEnumerable_Contains_" data-uid="DotNetNuke.UI.WebControls.NavDataPageHierarchicalEnumerable.Contains*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_NavDataPageHierarchicalEnumerable_Contains_DotNetNuke_UI_WebControls_NavDataPageHierarchyData_" data-uid="DotNetNuke.UI.WebControls.NavDataPageHierarchicalEnumerable.Contains(DotNetNuke.UI.WebControls.NavDataPageHierarchyData)">Contains(NavDataPageHierarchyData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Contains(NavDataPageHierarchyData item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.UI.WebControls.NavDataPageHierarchyData.html">NavDataPageHierarchyData</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_UI_WebControls_NavDataPageHierarchicalEnumerable_CopyTo_" data-uid="DotNetNuke.UI.WebControls.NavDataPageHierarchicalEnumerable.CopyTo*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_NavDataPageHierarchicalEnumerable_CopyTo_DotNetNuke_UI_WebControls_NavDataPageHierarchyData___System_Int32_" data-uid="DotNetNuke.UI.WebControls.NavDataPageHierarchicalEnumerable.CopyTo(DotNetNuke.UI.WebControls.NavDataPageHierarchyData[],System.Int32)">CopyTo(NavDataPageHierarchyData[], int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CopyTo(NavDataPageHierarchyData[] array, int arrayIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.UI.WebControls.NavDataPageHierarchyData.html">NavDataPageHierarchyData</a>[]</td>
+        <td><span class="parametername">array</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">arrayIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
   <a id="DotNetNuke_UI_WebControls_NavDataPageHierarchicalEnumerable_GetHierarchyData_" data-uid="DotNetNuke.UI.WebControls.NavDataPageHierarchicalEnumerable.GetHierarchyData*"></a>
@@ -336,6 +440,122 @@
       </tr>
     </tbody>
   </table>
+
+
+  <a id="DotNetNuke_UI_WebControls_NavDataPageHierarchicalEnumerable_IndexOf_" data-uid="DotNetNuke.UI.WebControls.NavDataPageHierarchicalEnumerable.IndexOf*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_NavDataPageHierarchicalEnumerable_IndexOf_DotNetNuke_UI_WebControls_NavDataPageHierarchyData_" data-uid="DotNetNuke.UI.WebControls.NavDataPageHierarchicalEnumerable.IndexOf(DotNetNuke.UI.WebControls.NavDataPageHierarchyData)">IndexOf(NavDataPageHierarchyData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int IndexOf(NavDataPageHierarchyData item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.UI.WebControls.NavDataPageHierarchyData.html">NavDataPageHierarchyData</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_UI_WebControls_NavDataPageHierarchicalEnumerable_Insert_" data-uid="DotNetNuke.UI.WebControls.NavDataPageHierarchicalEnumerable.Insert*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_NavDataPageHierarchicalEnumerable_Insert_System_Int32_DotNetNuke_UI_WebControls_NavDataPageHierarchyData_" data-uid="DotNetNuke.UI.WebControls.NavDataPageHierarchicalEnumerable.Insert(System.Int32,DotNetNuke.UI.WebControls.NavDataPageHierarchyData)">Insert(int, NavDataPageHierarchyData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Insert(int index, NavDataPageHierarchyData item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.UI.WebControls.NavDataPageHierarchyData.html">NavDataPageHierarchyData</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_UI_WebControls_NavDataPageHierarchicalEnumerable_Remove_" data-uid="DotNetNuke.UI.WebControls.NavDataPageHierarchicalEnumerable.Remove*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_NavDataPageHierarchicalEnumerable_Remove_DotNetNuke_UI_WebControls_NavDataPageHierarchyData_" data-uid="DotNetNuke.UI.WebControls.NavDataPageHierarchicalEnumerable.Remove(DotNetNuke.UI.WebControls.NavDataPageHierarchyData)">Remove(NavDataPageHierarchyData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Remove(NavDataPageHierarchyData item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.UI.WebControls.NavDataPageHierarchyData.html">NavDataPageHierarchyData</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ilist">IList</a>
@@ -350,9 +570,30 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.ihierarchicalenumerable">IHierarchicalEnumerable</a>
   </div>
   <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a>
+  </div>
+  <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.CollectionExtensions.html#DotNetNuke_Collections_CollectionExtensions_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__">CollectionExtensions.ForEach&lt;TType&gt;(IEnumerable&lt;TType&gt;, Action&lt;TType&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.PagingExtensions.html#DotNetNuke_Collections_PagingExtensions_InPagesOf__1_System_Collections_Generic_IEnumerable___0__System_Int32_">PagingExtensions.InPagesOf&lt;T&gt;(IEnumerable&lt;T&gt;, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.PagingExtensions.html#DotNetNuke_Collections_PagingExtensions_ToPagedList__1_System_Collections_Generic_IEnumerable___0__System_Int32_System_Int32_">PagingExtensions.ToPagedList&lt;T&gt;(IEnumerable&lt;T&gt;, int, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.EnumerableExtensions.html#DotNetNuke_Collections_EnumerableExtensions_ToDataTable_System_Collections_Generic_IEnumerable_System_Object__">EnumerableExtensions.ToDataTable(IEnumerable&lt;dynamic&gt;)</a>
+  </div>
   <div>
       <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(object)</a>
   </div>

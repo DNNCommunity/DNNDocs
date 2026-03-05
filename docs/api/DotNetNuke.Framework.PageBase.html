@@ -802,7 +802,8 @@ protected PageBase()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected PageBase(IPortalController portalController, IApplicationStatusInfo appStatus, IHostSettings hostSettings)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.1. Please use overload with IUserController. Scheduled removal in v12.0.0.&quot;)]
+protected PageBase(IPortalController portalController, IApplicationStatusInfo appStatus, IHostSettings hostSettings)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -831,8 +832,75 @@ protected PageBase()</code></pre>
       </tr>
     </tbody>
   </table>
+
+
+  <a id="DotNetNuke_Framework_PageBase__ctor_" data-uid="DotNetNuke.Framework.PageBase.#ctor*"></a>
+  <h4 id="DotNetNuke_Framework_PageBase__ctor_DotNetNuke_Entities_Portals_IPortalController_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Entities_Users_IUserController_" data-uid="DotNetNuke.Framework.PageBase.#ctor(DotNetNuke.Entities.Portals.IPortalController,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Entities.Users.IUserController)">PageBase(IPortalController, IApplicationStatusInfo, IHostSettings, IUserController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected PageBase(IPortalController portalController, IApplicationStatusInfo appStatus, IHostSettings hostSettings, IUserController userController)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.IUserController.html">IUserController</a></td>
+        <td><span class="parametername">userController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
 </h3>
+
+
+  <a id="DotNetNuke_Framework_PageBase_AppStatus_" data-uid="DotNetNuke.Framework.PageBase.AppStatus*"></a>
+  <h4 id="DotNetNuke_Framework_PageBase_AppStatus" data-uid="DotNetNuke.Framework.PageBase.AppStatus">AppStatus</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IApplicationStatusInfo AppStatus { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
   <a id="DotNetNuke_Framework_PageBase_CanonicalLinkUrl_" data-uid="DotNetNuke.Framework.PageBase.CanonicalLinkUrl*"></a>
@@ -879,6 +947,31 @@ protected PageBase()</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Framework_PageBase_HostSettings_" data-uid="DotNetNuke.Framework.PageBase.HostSettings*"></a>
+  <h4 id="DotNetNuke_Framework_PageBase_HostSettings" data-uid="DotNetNuke.Framework.PageBase.HostSettings">HostSettings</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IHostSettings HostSettings { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -987,6 +1080,31 @@ protected PageBase()</code></pre>
   <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.page.pagestatepersister">Page.PageStatePersister</a></div>
 
 
+  <a id="DotNetNuke_Framework_PageBase_PortalController_" data-uid="DotNetNuke.Framework.PageBase.PortalController*"></a>
+  <h4 id="DotNetNuke_Framework_PageBase_PortalController" data-uid="DotNetNuke.Framework.PageBase.PortalController">PortalController</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IPortalController PortalController { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Framework_PageBase_PortalSettings_" data-uid="DotNetNuke.Framework.PageBase.PortalSettings*"></a>
   <h4 id="DotNetNuke_Framework_PageBase_PortalSettings" data-uid="DotNetNuke.Framework.PageBase.PortalSettings">PortalSettings</h4>
   <div class="markdown level1 summary"></div>
@@ -1006,6 +1124,31 @@ protected PageBase()</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalSettings.html">PortalSettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Framework_PageBase_UserController_" data-uid="DotNetNuke.Framework.PageBase.UserController*"></a>
+  <h4 id="DotNetNuke_Framework_PageBase_UserController" data-uid="DotNetNuke.Framework.PageBase.UserController">UserController</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IUserController UserController { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.IUserController.html">IUserController</a></td>
         <td></td>
       </tr>
     </tbody>

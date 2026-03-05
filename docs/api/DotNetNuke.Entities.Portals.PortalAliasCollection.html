@@ -99,6 +99,9 @@
     <h5>Implements</h5>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.idictionary">IDictionary</a></div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="DotNetNuke.Entities.Portals.PortalAliasInfo.html">PortalAliasInfo</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="DotNetNuke.Entities.Portals.PortalAliasInfo.html">PortalAliasInfo</a>&gt;&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="DotNetNuke.Entities.Portals.PortalAliasInfo.html">PortalAliasInfo</a>&gt;&gt;</div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
   </div>
   <div class="inheritedMembers">
@@ -178,7 +181,7 @@
   <h5 id="DotNetNuke_Entities_Portals_PortalAliasCollection_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 9.7.2. use IDictionary&lt;string, IPortalAliasInfo&gt; instead. Scheduled for removal in v11.0.0.&quot;)]
-public class PortalAliasCollection : DictionaryBase, IDictionary, ICollection, IEnumerable</code></pre>
+public class PortalAliasCollection : DictionaryBase, IDictionary, ICollection, IDictionary&lt;string, PortalAliasInfo&gt;, ICollection&lt;KeyValuePair&lt;string, PortalAliasInfo&gt;&gt;, IEnumerable&lt;KeyValuePair&lt;string, PortalAliasInfo&gt;&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -203,6 +206,31 @@ public class PortalAliasCollection : DictionaryBase, IDictionary, ICollection, I
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool HasKeys { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalAliasCollection_IsReadOnly_" data-uid="DotNetNuke.Entities.Portals.PortalAliasCollection.IsReadOnly*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalAliasCollection_IsReadOnly" data-uid="DotNetNuke.Entities.Portals.PortalAliasCollection.IsReadOnly">IsReadOnly</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsReadOnly { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -316,6 +344,33 @@ public class PortalAliasCollection : DictionaryBase, IDictionary, ICollection, I
 
 
   <a id="DotNetNuke_Entities_Portals_PortalAliasCollection_Add_" data-uid="DotNetNuke.Entities.Portals.PortalAliasCollection.Add*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalAliasCollection_Add_System_Collections_Generic_KeyValuePair_System_String_DotNetNuke_Entities_Portals_PortalAliasInfo__" data-uid="DotNetNuke.Entities.Portals.PortalAliasCollection.Add(System.Collections.Generic.KeyValuePair{System.String,DotNetNuke.Entities.Portals.PortalAliasInfo})">Add(KeyValuePair&lt;string, PortalAliasInfo&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(KeyValuePair&lt;string, PortalAliasInfo&gt; item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="DotNetNuke.Entities.Portals.PortalAliasInfo.html">PortalAliasInfo</a>&gt;</td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalAliasCollection_Add_" data-uid="DotNetNuke.Entities.Portals.PortalAliasCollection.Add*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalAliasCollection_Add_System_String_DotNetNuke_Entities_Portals_PortalAliasInfo_" data-uid="DotNetNuke.Entities.Portals.PortalAliasCollection.Add(System.String,DotNetNuke.Entities.Portals.PortalAliasInfo)">Add(string, PortalAliasInfo)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -342,6 +397,48 @@ public void Add(string key, PortalAliasInfo value)</code></pre>
       <tr>
         <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalAliasInfo.html">PortalAliasInfo</a></td>
         <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalAliasCollection_Contains_" data-uid="DotNetNuke.Entities.Portals.PortalAliasCollection.Contains*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalAliasCollection_Contains_System_Collections_Generic_KeyValuePair_System_String_DotNetNuke_Entities_Portals_PortalAliasInfo__" data-uid="DotNetNuke.Entities.Portals.PortalAliasCollection.Contains(System.Collections.Generic.KeyValuePair{System.String,DotNetNuke.Entities.Portals.PortalAliasInfo})">Contains(KeyValuePair&lt;string, PortalAliasInfo&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Contains(KeyValuePair&lt;string, PortalAliasInfo&gt; item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="DotNetNuke.Entities.Portals.PortalAliasInfo.html">PortalAliasInfo</a>&gt;</td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -389,6 +486,211 @@ public bool Contains(string key)</code></pre>
       </tr>
     </tbody>
   </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalAliasCollection_ContainsKey_" data-uid="DotNetNuke.Entities.Portals.PortalAliasCollection.ContainsKey*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalAliasCollection_ContainsKey_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalAliasCollection.ContainsKey(System.String)">ContainsKey(string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsKey(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalAliasCollection_CopyTo_" data-uid="DotNetNuke.Entities.Portals.PortalAliasCollection.CopyTo*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalAliasCollection_CopyTo_System_Collections_Generic_KeyValuePair_System_String_DotNetNuke_Entities_Portals_PortalAliasInfo____System_Int32_" data-uid="DotNetNuke.Entities.Portals.PortalAliasCollection.CopyTo(System.Collections.Generic.KeyValuePair{System.String,DotNetNuke.Entities.Portals.PortalAliasInfo}[],System.Int32)">CopyTo(KeyValuePair&lt;string, PortalAliasInfo&gt;[], int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CopyTo(KeyValuePair&lt;string, PortalAliasInfo&gt;[] array, int arrayIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="DotNetNuke.Entities.Portals.PortalAliasInfo.html">PortalAliasInfo</a>&gt;[]</td>
+        <td><span class="parametername">array</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">arrayIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalAliasCollection_Remove_" data-uid="DotNetNuke.Entities.Portals.PortalAliasCollection.Remove*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalAliasCollection_Remove_System_Collections_Generic_KeyValuePair_System_String_DotNetNuke_Entities_Portals_PortalAliasInfo__" data-uid="DotNetNuke.Entities.Portals.PortalAliasCollection.Remove(System.Collections.Generic.KeyValuePair{System.String,DotNetNuke.Entities.Portals.PortalAliasInfo})">Remove(KeyValuePair&lt;string, PortalAliasInfo&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Remove(KeyValuePair&lt;string, PortalAliasInfo&gt; item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="DotNetNuke.Entities.Portals.PortalAliasInfo.html">PortalAliasInfo</a>&gt;</td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalAliasCollection_Remove_" data-uid="DotNetNuke.Entities.Portals.PortalAliasCollection.Remove*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalAliasCollection_Remove_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalAliasCollection.Remove(System.String)">Remove(string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Remove(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalAliasCollection_TryGetValue_" data-uid="DotNetNuke.Entities.Portals.PortalAliasCollection.TryGetValue*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalAliasCollection_TryGetValue_System_String_DotNetNuke_Entities_Portals_PortalAliasInfo__" data-uid="DotNetNuke.Entities.Portals.PortalAliasCollection.TryGetValue(System.String,DotNetNuke.Entities.Portals.PortalAliasInfo@)">TryGetValue(string, out PortalAliasInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGetValue(string key, out PortalAliasInfo value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalAliasInfo.html">PortalAliasInfo</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.idictionary">IDictionary</a>
@@ -397,9 +699,27 @@ public bool Contains(string key)</code></pre>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a>
   </div>
   <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary&lt;TKey, TValue&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a>
+  </div>
+  <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.CollectionExtensions.html#DotNetNuke_Collections_CollectionExtensions_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__">CollectionExtensions.ForEach&lt;TType&gt;(IEnumerable&lt;TType&gt;, Action&lt;TType&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.PagingExtensions.html#DotNetNuke_Collections_PagingExtensions_InPagesOf__1_System_Collections_Generic_IEnumerable___0__System_Int32_">PagingExtensions.InPagesOf&lt;T&gt;(IEnumerable&lt;T&gt;, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.PagingExtensions.html#DotNetNuke_Collections_PagingExtensions_ToPagedList__1_System_Collections_Generic_IEnumerable___0__System_Int32_System_Int32_">PagingExtensions.ToPagedList&lt;T&gt;(IEnumerable&lt;T&gt;, int, int)</a>
+  </div>
   <div>
       <a class="xref" href="DotNetNuke.Collections.CollectionExtensions.html#DotNetNuke_Collections_CollectionExtensions_GetValueOrDefault__1_System_Collections_IDictionary_System_String_">CollectionExtensions.GetValueOrDefault&lt;T&gt;(IDictionary, string)</a>
   </div>

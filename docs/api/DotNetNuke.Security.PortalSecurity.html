@@ -136,6 +136,33 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public PortalSecurity()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Security_PortalSecurity__ctor_" data-uid="DotNetNuke.Security.PortalSecurity.#ctor*"></a>
+  <h4 id="DotNetNuke_Security_PortalSecurity__ctor_DotNetNuke_Abstractions_Security_ICryptographyProvider_" data-uid="DotNetNuke.Security.PortalSecurity.#ctor(DotNetNuke.Abstractions.Security.ICryptographyProvider)">PortalSecurity(ICryptographyProvider)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PortalSecurity(ICryptographyProvider cryptographyProvider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.ICryptographyProvider.html">ICryptographyProvider</a></td>
+        <td><span class="parametername">cryptographyProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="fields">Fields
 </h3>
 
@@ -241,7 +268,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Decrypt(string strKey, string strData)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use DotNetNuke.Abstractions.Security.ICryptographyProvider. Scheduled for removal in v12.0.0.&quot;)]
+public string Decrypt(string strKey, string strData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -288,7 +316,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string DecryptString(string message, string passphrase)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use DotNetNuke.Abstractions.Security.ICryptographyProvider. Scheduled for removal in v12.0.0.&quot;)]
+public string DecryptString(string message, string passphrase)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -335,7 +364,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Encrypt(string key, string data)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use DotNetNuke.Abstractions.Security.ICryptographyProvider. Scheduled for removal in v12.0.0.&quot;)]
+public string Encrypt(string key, string data)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -382,7 +412,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string EncryptString(string message, string passphrase)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use DotNetNuke.Abstractions.Security.ICryptographyProvider. Scheduled for removal in v12.0.0.&quot;)]
+public string EncryptString(string message, string passphrase)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -516,6 +547,58 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_PortalSecurity_IsDenied_" data-uid="DotNetNuke.Security.PortalSecurity.IsDenied*"></a>
+  <h4 id="DotNetNuke_Security_PortalSecurity_IsDenied_DotNetNuke_Entities_Users_UserInfo_DotNetNuke_Abstractions_Portals_IPortalSettings_System_String_" data-uid="DotNetNuke.Security.PortalSecurity.IsDenied(DotNetNuke.Entities.Users.UserInfo,DotNetNuke.Abstractions.Portals.IPortalSettings,System.String)">IsDenied(UserInfo, IPortalSettings, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsDenied(UserInfo objUserInfo, IPortalSettings settings, string roles)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">objUserInfo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalSettings.html">IPortalSettings</a></td>
+        <td><span class="parametername">settings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">roles</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td></td>
       </tr>
     </tbody>

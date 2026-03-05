@@ -98,9 +98,12 @@
   <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a></div>
-    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable">ISerializable</a></div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.runtime.serialization.ideserializationcallback">IDeserializationCallback</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="DotNetNuke.Services.Localization.Locale.html">Locale</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="DotNetNuke.Services.Localization.Locale.html">Locale</a>&gt;&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="DotNetNuke.Services.Localization.Locale.html">Locale</a>&gt;&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -187,7 +190,7 @@
   <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
   <h5 id="DotNetNuke_Services_Localization_LocaleCollection_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LocaleCollection : NameObjectCollectionBase, ICollection, IEnumerable, ISerializable, IDeserializationCallback</code></pre>
+    <pre><code class="lang-csharp hljs">public class LocaleCollection : NameObjectCollectionBase, ICollection, ISerializable, IDeserializationCallback, IDictionary&lt;string, Locale&gt;, ICollection&lt;KeyValuePair&lt;string, Locale&gt;&gt;, IEnumerable&lt;KeyValuePair&lt;string, Locale&gt;&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -362,8 +365,92 @@
       </tr>
     </tbody>
   </table>
+
+
+  <a id="DotNetNuke_Services_Localization_LocaleCollection_Values_" data-uid="DotNetNuke.Services.Localization.LocaleCollection.Values*"></a>
+  <h4 id="DotNetNuke_Services_Localization_LocaleCollection_Values" data-uid="DotNetNuke.Services.Localization.LocaleCollection.Values">Values</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICollection&lt;Locale&gt; Values { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="DotNetNuke.Services.Localization.Locale.html">Locale</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
+
+
+  <a id="DotNetNuke_Services_Localization_LocaleCollection_Add_" data-uid="DotNetNuke.Services.Localization.LocaleCollection.Add*"></a>
+  <h4 id="DotNetNuke_Services_Localization_LocaleCollection_Add_System_Collections_Generic_KeyValuePair_System_String_DotNetNuke_Services_Localization_Locale__" data-uid="DotNetNuke.Services.Localization.LocaleCollection.Add(System.Collections.Generic.KeyValuePair{System.String,DotNetNuke.Services.Localization.Locale})">Add(KeyValuePair&lt;string, Locale&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(KeyValuePair&lt;string, Locale&gt; item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="DotNetNuke.Services.Localization.Locale.html">Locale</a>&gt;</td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Localization_LocaleCollection_Add_" data-uid="DotNetNuke.Services.Localization.LocaleCollection.Add*"></a>
+  <h4 id="DotNetNuke_Services_Localization_LocaleCollection_Add_System_String_DotNetNuke_Services_Localization_Locale_" data-uid="DotNetNuke.Services.Localization.LocaleCollection.Add(System.String,DotNetNuke.Services.Localization.Locale)">Add(string, Locale)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(string key, Locale value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Localization.Locale.html">Locale</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
   <a id="DotNetNuke_Services_Localization_LocaleCollection_Add_" data-uid="DotNetNuke.Services.Localization.LocaleCollection.Add*"></a>
@@ -398,6 +485,174 @@
   </table>
 
 
+  <a id="DotNetNuke_Services_Localization_LocaleCollection_Clear_" data-uid="DotNetNuke.Services.Localization.LocaleCollection.Clear*"></a>
+  <h4 id="DotNetNuke_Services_Localization_LocaleCollection_Clear" data-uid="DotNetNuke.Services.Localization.LocaleCollection.Clear">Clear()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+
+
+  <a id="DotNetNuke_Services_Localization_LocaleCollection_Contains_" data-uid="DotNetNuke.Services.Localization.LocaleCollection.Contains*"></a>
+  <h4 id="DotNetNuke_Services_Localization_LocaleCollection_Contains_System_Collections_Generic_KeyValuePair_System_String_DotNetNuke_Services_Localization_Locale__" data-uid="DotNetNuke.Services.Localization.LocaleCollection.Contains(System.Collections.Generic.KeyValuePair{System.String,DotNetNuke.Services.Localization.Locale})">Contains(KeyValuePair&lt;string, Locale&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Contains(KeyValuePair&lt;string, Locale&gt; item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="DotNetNuke.Services.Localization.Locale.html">Locale</a>&gt;</td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Localization_LocaleCollection_ContainsKey_" data-uid="DotNetNuke.Services.Localization.LocaleCollection.ContainsKey*"></a>
+  <h4 id="DotNetNuke_Services_Localization_LocaleCollection_ContainsKey_System_String_" data-uid="DotNetNuke.Services.Localization.LocaleCollection.ContainsKey(System.String)">ContainsKey(string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsKey(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Localization_LocaleCollection_CopyTo_" data-uid="DotNetNuke.Services.Localization.LocaleCollection.CopyTo*"></a>
+  <h4 id="DotNetNuke_Services_Localization_LocaleCollection_CopyTo_System_Collections_Generic_KeyValuePair_System_String_DotNetNuke_Services_Localization_Locale____System_Int32_" data-uid="DotNetNuke.Services.Localization.LocaleCollection.CopyTo(System.Collections.Generic.KeyValuePair{System.String,DotNetNuke.Services.Localization.Locale}[],System.Int32)">CopyTo(KeyValuePair&lt;string, Locale&gt;[], int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CopyTo(KeyValuePair&lt;string, Locale&gt;[] array, int arrayIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="DotNetNuke.Services.Localization.Locale.html">Locale</a>&gt;[]</td>
+        <td><span class="parametername">array</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">arrayIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Localization_LocaleCollection_Remove_" data-uid="DotNetNuke.Services.Localization.LocaleCollection.Remove*"></a>
+  <h4 id="DotNetNuke_Services_Localization_LocaleCollection_Remove_System_Collections_Generic_KeyValuePair_System_String_DotNetNuke_Services_Localization_Locale__" data-uid="DotNetNuke.Services.Localization.LocaleCollection.Remove(System.Collections.Generic.KeyValuePair{System.String,DotNetNuke.Services.Localization.Locale})">Remove(KeyValuePair&lt;string, Locale&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Remove(KeyValuePair&lt;string, Locale&gt; item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="DotNetNuke.Services.Localization.Locale.html">Locale</a>&gt;</td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Services_Localization_LocaleCollection_Remove_" data-uid="DotNetNuke.Services.Localization.LocaleCollection.Remove*"></a>
   <h4 id="DotNetNuke_Services_Localization_LocaleCollection_Remove_System_String_" data-uid="DotNetNuke.Services.Localization.LocaleCollection.Remove(System.String)">Remove(string)</h4>
   <div class="markdown level1 summary"></div>
@@ -423,12 +678,56 @@
       </tr>
     </tbody>
   </table>
+
+
+  <a id="DotNetNuke_Services_Localization_LocaleCollection_TryGetValue_" data-uid="DotNetNuke.Services.Localization.LocaleCollection.TryGetValue*"></a>
+  <h4 id="DotNetNuke_Services_Localization_LocaleCollection_TryGetValue_System_String_DotNetNuke_Services_Localization_Locale__" data-uid="DotNetNuke.Services.Localization.LocaleCollection.TryGetValue(System.String,DotNetNuke.Services.Localization.Locale@)">TryGetValue(string, out Locale)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGetValue(string key, out Locale value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Localization.Locale.html">Locale</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a>
-  </div>
-  <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a>
   </div>
   <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable">ISerializable</a>
@@ -436,7 +735,28 @@
   <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.runtime.serialization.ideserializationcallback">IDeserializationCallback</a>
   </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary&lt;TKey, TValue&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.CollectionExtensions.html#DotNetNuke_Collections_CollectionExtensions_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__">CollectionExtensions.ForEach&lt;TType&gt;(IEnumerable&lt;TType&gt;, Action&lt;TType&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.PagingExtensions.html#DotNetNuke_Collections_PagingExtensions_InPagesOf__1_System_Collections_Generic_IEnumerable___0__System_Int32_">PagingExtensions.InPagesOf&lt;T&gt;(IEnumerable&lt;T&gt;, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.PagingExtensions.html#DotNetNuke_Collections_PagingExtensions_ToPagedList__1_System_Collections_Generic_IEnumerable___0__System_Int32_System_Int32_">PagingExtensions.ToPagedList&lt;T&gt;(IEnumerable&lt;T&gt;, int, int)</a>
+  </div>
   <div>
       <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(object)</a>
   </div>

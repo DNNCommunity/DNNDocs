@@ -270,12 +270,112 @@
 
 
   <a id="DotNetNuke_Common_Utilities_UrlUtils_DecryptParameter_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.DecryptParameter*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_UrlUtils_DecryptParameter_DotNetNuke_Abstractions_Security_ICryptographyProvider_System_String_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.DecryptParameter(DotNetNuke.Abstractions.Security.ICryptographyProvider,System.String)">DecryptParameter(ICryptographyProvider, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string DecryptParameter(ICryptographyProvider cryptographyProvider, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.ICryptographyProvider.html">ICryptographyProvider</a></td>
+        <td><span class="parametername">cryptographyProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Utilities_UrlUtils_DecryptParameter_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.DecryptParameter*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_UrlUtils_DecryptParameter_DotNetNuke_Abstractions_Security_ICryptographyProvider_System_String_System_String_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.DecryptParameter(DotNetNuke.Abstractions.Security.ICryptographyProvider,System.String,System.String)">DecryptParameter(ICryptographyProvider, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string DecryptParameter(ICryptographyProvider cryptographyProvider, string value, string encryptionKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.ICryptographyProvider.html">ICryptographyProvider</a></td>
+        <td><span class="parametername">cryptographyProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">encryptionKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Utilities_UrlUtils_DecryptParameter_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.DecryptParameter*"></a>
   <h4 id="DotNetNuke_Common_Utilities_UrlUtils_DecryptParameter_System_String_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.DecryptParameter(System.String)">DecryptParameter(string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string DecryptParameter(string value)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking ICryptographyProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static string DecryptParameter(string value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -317,7 +417,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string DecryptParameter(string value, string encryptionKey)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking ICryptographyProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static string DecryptParameter(string value, string encryptionKey)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -401,12 +502,112 @@
 
 
   <a id="DotNetNuke_Common_Utilities_UrlUtils_EncryptParameter_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.EncryptParameter*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_UrlUtils_EncryptParameter_DotNetNuke_Abstractions_Security_ICryptographyProvider_System_String_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.EncryptParameter(DotNetNuke.Abstractions.Security.ICryptographyProvider,System.String)">EncryptParameter(ICryptographyProvider, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string EncryptParameter(ICryptographyProvider cryptographyProvider, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.ICryptographyProvider.html">ICryptographyProvider</a></td>
+        <td><span class="parametername">cryptographyProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Utilities_UrlUtils_EncryptParameter_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.EncryptParameter*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_UrlUtils_EncryptParameter_DotNetNuke_Abstractions_Security_ICryptographyProvider_System_String_System_String_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.EncryptParameter(DotNetNuke.Abstractions.Security.ICryptographyProvider,System.String,System.String)">EncryptParameter(ICryptographyProvider, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string EncryptParameter(ICryptographyProvider cryptographyProvider, string value, string encryptionKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.ICryptographyProvider.html">ICryptographyProvider</a></td>
+        <td><span class="parametername">cryptographyProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">encryptionKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Utilities_UrlUtils_EncryptParameter_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.EncryptParameter*"></a>
   <h4 id="DotNetNuke_Common_Utilities_UrlUtils_EncryptParameter_System_String_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.EncryptParameter(System.String)">EncryptParameter(string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string EncryptParameter(string value)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking ICryptographyProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static string EncryptParameter(string value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -448,7 +649,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string EncryptParameter(string value, string encryptionKey)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking ICryptographyProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static string EncryptParameter(string value, string encryptionKey)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -630,6 +832,38 @@
   </table>
 
 
+  <a id="DotNetNuke_Common_Utilities_UrlUtils_Handle404Exception_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.Handle404Exception*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_UrlUtils_Handle404Exception_System_Web_HttpResponseBase_DotNetNuke_Abstractions_Portals_IPortalSettings_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.Handle404Exception(System.Web.HttpResponseBase,DotNetNuke.Abstractions.Portals.IPortalSettings)">Handle404Exception(HttpResponseBase, IPortalSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Handle404Exception(HttpResponseBase response, IPortalSettings portalSetting)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.httpresponsebase">HttpResponseBase</a></td>
+        <td><span class="parametername">response</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalSettings.html">IPortalSettings</a></td>
+        <td><span class="parametername">portalSetting</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Common_Utilities_UrlUtils_InPopUp_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.InPopUp*"></a>
   <h4 id="DotNetNuke_Common_Utilities_UrlUtils_InPopUp" data-uid="DotNetNuke.Common.Utilities.UrlUtils.InPopUp">InPopUp()</h4>
   <div class="markdown level1 summary"></div>
@@ -676,6 +910,53 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">url</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Utilities_UrlUtils_IsSecureConnectionOrSslOffload_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.IsSecureConnectionOrSslOffload*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_UrlUtils_IsSecureConnectionOrSslOffload_DotNetNuke_Abstractions_Application_IHostSettingsService_System_Web_HttpRequestBase_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.IsSecureConnectionOrSslOffload(DotNetNuke.Abstractions.Application.IHostSettingsService,System.Web.HttpRequestBase)">IsSecureConnectionOrSslOffload(IHostSettingsService, HttpRequestBase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsSecureConnectionOrSslOffload(IHostSettingsService hostSettingsService, HttpRequestBase request)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettingsService.html">IHostSettingsService</a></td>
+        <td><span class="parametername">hostSettingsService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.httprequestbase">HttpRequestBase</a></td>
+        <td><span class="parametername">request</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -782,12 +1063,107 @@
 
 
   <a id="DotNetNuke_Common_Utilities_UrlUtils_IsSslOffloadEnabled_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.IsSslOffloadEnabled*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_UrlUtils_IsSslOffloadEnabled_DotNetNuke_Abstractions_Application_IHostSettingsService_System_Web_HttpRequest_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.IsSslOffloadEnabled(DotNetNuke.Abstractions.Application.IHostSettingsService,System.Web.HttpRequest)">IsSslOffloadEnabled(IHostSettingsService, HttpRequest)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsSslOffloadEnabled(IHostSettingsService hostSettingsService, HttpRequest request)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettingsService.html">IHostSettingsService</a></td>
+        <td><span class="parametername">hostSettingsService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.httprequest">HttpRequest</a></td>
+        <td><span class="parametername">request</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Utilities_UrlUtils_IsSslOffloadEnabled_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.IsSslOffloadEnabled*"></a>
+  <h4 id="DotNetNuke_Common_Utilities_UrlUtils_IsSslOffloadEnabled_DotNetNuke_Abstractions_Application_IHostSettingsService_System_Web_HttpRequestBase_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.IsSslOffloadEnabled(DotNetNuke.Abstractions.Application.IHostSettingsService,System.Web.HttpRequestBase)">IsSslOffloadEnabled(IHostSettingsService, HttpRequestBase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsSslOffloadEnabled(IHostSettingsService hostSettingsService, HttpRequestBase request)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettingsService.html">IHostSettingsService</a></td>
+        <td><span class="parametername">hostSettingsService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.httprequestbase">HttpRequestBase</a></td>
+        <td><span class="parametername">request</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Utilities_UrlUtils_IsSslOffloadEnabled_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.IsSslOffloadEnabled*"></a>
   <h4 id="DotNetNuke_Common_Utilities_UrlUtils_IsSslOffloadEnabled_System_Web_HttpRequest_" data-uid="DotNetNuke.Common.Utilities.UrlUtils.IsSslOffloadEnabled(System.Web.HttpRequest)">IsSslOffloadEnabled(HttpRequest)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsSslOffloadEnabled(HttpRequest request)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IHostSettingsService. Scheduled for removal in v12.0.0.&quot;)]
+public static bool IsSslOffloadEnabled(HttpRequest request)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -829,7 +1205,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsSslOffloadEnabled(HttpRequestBase request)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IHostSettingsService. Scheduled for removal in v12.0.0.&quot;)]
+public static bool IsSslOffloadEnabled(HttpRequestBase request)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

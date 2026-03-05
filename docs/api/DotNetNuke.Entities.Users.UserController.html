@@ -250,7 +250,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ApproveUser(UserInfo user)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking RoleProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static void ApproveUser(UserInfo user)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -262,6 +263,68 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Users_UserController_ApproveUser_" data-uid="DotNetNuke.Entities.Users.UserController.ApproveUser*"></a>
+  <h4 id="DotNetNuke_Entities_Users_UserController_ApproveUser_DotNetNuke_Security_Roles_RoleProvider_DotNetNuke_Security_Roles_IRoleController_DotNetNuke_Entities_IEventManager_DotNetNuke_Entities_Portals_IPortalController_DotNetNuke_Entities_Users_IUserController_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Portals_PortalSettings_DotNetNuke_Entities_Users_UserInfo_" data-uid="DotNetNuke.Entities.Users.UserController.ApproveUser(DotNetNuke.Security.Roles.RoleProvider,DotNetNuke.Security.Roles.IRoleController,DotNetNuke.Entities.IEventManager,DotNetNuke.Entities.Portals.IPortalController,DotNetNuke.Entities.Users.IUserController,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Portals.PortalSettings,DotNetNuke.Entities.Users.UserInfo)">ApproveUser(RoleProvider, IRoleController, IEventManager, IPortalController, IUserController, IEventLogger, PortalSettings, UserInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ApproveUser(RoleProvider roleProvider, IRoleController roleController, IEventManager eventManager, IPortalController portalController, IUserController userController, IEventLogger eventLogger, PortalSettings portalSettings, UserInfo user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleProvider.html">RoleProvider</a></td>
+        <td><span class="parametername">roleProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.IRoleController.html">IRoleController</a></td>
+        <td><span class="parametername">roleController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.IEventManager.html">IEventManager</a></td>
+        <td><span class="parametername">eventManager</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.IUserController.html">IUserController</a></td>
+        <td><span class="parametername">userController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalSettings.html">PortalSettings</a></td>
+        <td><span class="parametername">portalSettings</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
         <td><span class="parametername">user</span></td>
@@ -448,12 +511,75 @@
 
 
   <a id="DotNetNuke_Entities_Users_UserController_ChangePasswordQuestionAndAnswer_" data-uid="DotNetNuke.Entities.Users.UserController.ChangePasswordQuestionAndAnswer*"></a>
+  <h4 id="DotNetNuke_Entities_Users_UserController_ChangePasswordQuestionAndAnswer_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Users_UserInfo_System_String_System_String_System_String_" data-uid="DotNetNuke.Entities.Users.UserController.ChangePasswordQuestionAndAnswer(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Users.UserInfo,System.String,System.String,System.String)">ChangePasswordQuestionAndAnswer(IEventLogger, UserInfo, string, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ChangePasswordQuestionAndAnswer(IEventLogger eventLogger, UserInfo user, string password, string passwordQuestion, string passwordAnswer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">password</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">passwordQuestion</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">passwordAnswer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Users_UserController_ChangePasswordQuestionAndAnswer_" data-uid="DotNetNuke.Entities.Users.UserController.ChangePasswordQuestionAndAnswer*"></a>
   <h4 id="DotNetNuke_Entities_Users_UserController_ChangePasswordQuestionAndAnswer_DotNetNuke_Entities_Users_UserInfo_System_String_System_String_System_String_" data-uid="DotNetNuke.Entities.Users.UserController.ChangePasswordQuestionAndAnswer(DotNetNuke.Entities.Users.UserInfo,System.String,System.String,System.String)">ChangePasswordQuestionAndAnswer(UserInfo, string, string, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool ChangePasswordQuestionAndAnswer(UserInfo user, string password, string passwordQuestion, string passwordAnswer)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static bool ChangePasswordQuestionAndAnswer(UserInfo user, string password, string passwordQuestion, string passwordAnswer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -612,6 +738,58 @@ public static void CheckInsecurePassword(string username, string password, ref U
 
 
   <a id="DotNetNuke_Entities_Users_UserController_CreateUser_" data-uid="DotNetNuke.Entities.Users.UserController.CreateUser*"></a>
+  <h4 id="DotNetNuke_Entities_Users_UserController_CreateUser_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Users_UserInfo__System_Boolean_" data-uid="DotNetNuke.Entities.Users.UserController.CreateUser(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Users.UserInfo@,System.Boolean)">CreateUser(IEventLogger, ref UserInfo, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UserCreateStatus CreateUser(IEventLogger eventLogger, ref UserInfo user, bool sendEmailNotification)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">sendEmailNotification</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Membership.UserCreateStatus.html">UserCreateStatus</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Users_UserController_CreateUser_" data-uid="DotNetNuke.Entities.Users.UserController.CreateUser*"></a>
   <h4 id="DotNetNuke_Entities_Users_UserController_CreateUser_DotNetNuke_Entities_Users_UserInfo__" data-uid="DotNetNuke.Entities.Users.UserController.CreateUser(DotNetNuke.Entities.Users.UserInfo@)">CreateUser(ref UserInfo)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -659,7 +837,8 @@ public static void CheckInsecurePassword(string username, string password, ref U
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static UserCreateStatus CreateUser(ref UserInfo user, bool sendEmailNotification)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static UserCreateStatus CreateUser(ref UserInfo user, bool sendEmailNotification)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -728,12 +907,70 @@ public static void CheckInsecurePassword(string username, string password, ref U
 
 
   <a id="DotNetNuke_Entities_Users_UserController_DeleteUser_" data-uid="DotNetNuke.Entities.Users.UserController.DeleteUser*"></a>
+  <h4 id="DotNetNuke_Entities_Users_UserController_DeleteUser_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Users_UserInfo__System_Boolean_System_Boolean_" data-uid="DotNetNuke.Entities.Users.UserController.DeleteUser(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Users.UserInfo@,System.Boolean,System.Boolean)">DeleteUser(IEventLogger, ref UserInfo, bool, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool DeleteUser(IEventLogger eventLogger, ref UserInfo user, bool notify, bool deleteAdmin)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">notify</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">deleteAdmin</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Users_UserController_DeleteUser_" data-uid="DotNetNuke.Entities.Users.UserController.DeleteUser*"></a>
   <h4 id="DotNetNuke_Entities_Users_UserController_DeleteUser_DotNetNuke_Entities_Users_UserInfo__System_Boolean_System_Boolean_" data-uid="DotNetNuke.Entities.Users.UserController.DeleteUser(DotNetNuke.Entities.Users.UserInfo@,System.Boolean,System.Boolean)">DeleteUser(ref UserInfo, bool, bool)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool DeleteUser(ref UserInfo user, bool notify, bool deleteAdmin)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static bool DeleteUser(ref UserInfo user, bool notify, bool deleteAdmin)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -2906,6 +3143,53 @@ public static ArrayList GetOnlineUsers(int portalId)</code></pre>
 
 
   <a id="DotNetNuke_Entities_Users_UserController_RemoveUser_" data-uid="DotNetNuke.Entities.Users.UserController.RemoveUser*"></a>
+  <h4 id="DotNetNuke_Entities_Users_UserController_RemoveUser_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Users_UserInfo_" data-uid="DotNetNuke.Entities.Users.UserController.RemoveUser(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Users.UserInfo)">RemoveUser(IEventLogger, UserInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool RemoveUser(IEventLogger eventLogger, UserInfo user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Users_UserController_RemoveUser_" data-uid="DotNetNuke.Entities.Users.UserController.RemoveUser*"></a>
   <h4 id="DotNetNuke_Entities_Users_UserController_RemoveUser_DotNetNuke_Entities_Users_UserInfo_" data-uid="DotNetNuke.Entities.Users.UserController.RemoveUser(DotNetNuke.Entities.Users.UserInfo)">RemoveUser(UserInfo)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -3227,12 +3511,65 @@ public static ArrayList GetOnlineUsers(int portalId)</code></pre>
 
 
   <a id="DotNetNuke_Entities_Users_UserController_RestoreUser_" data-uid="DotNetNuke.Entities.Users.UserController.RestoreUser*"></a>
+  <h4 id="DotNetNuke_Entities_Users_UserController_RestoreUser_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionService_DotNetNuke_Entities_Users_UserInfo__" data-uid="DotNetNuke.Entities.Users.UserController.RestoreUser(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService,DotNetNuke.Entities.Users.UserInfo@)">RestoreUser(IEventLogger, IPermissionDefinitionService, ref UserInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool RestoreUser(IEventLogger eventLogger, IPermissionDefinitionService permissionDefinitionService, ref UserInfo user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService.html">IPermissionDefinitionService</a></td>
+        <td><span class="parametername">permissionDefinitionService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Users_UserController_RestoreUser_" data-uid="DotNetNuke.Entities.Users.UserController.RestoreUser*"></a>
   <h4 id="DotNetNuke_Entities_Users_UserController_RestoreUser_DotNetNuke_Entities_Users_UserInfo__" data-uid="DotNetNuke.Entities.Users.UserController.RestoreUser(DotNetNuke.Entities.Users.UserInfo@)">RestoreUser(ref UserInfo)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool RestoreUser(ref UserInfo user)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static bool RestoreUser(ref UserInfo user)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -3311,12 +3648,60 @@ public static ArrayList GetOnlineUsers(int portalId)</code></pre>
 
 
   <a id="DotNetNuke_Entities_Users_UserController_UnLockUser_" data-uid="DotNetNuke.Entities.Users.UserController.UnLockUser*"></a>
+  <h4 id="DotNetNuke_Entities_Users_UserController_UnLockUser_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Users_UserInfo_" data-uid="DotNetNuke.Entities.Users.UserController.UnLockUser(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Users.UserInfo)">UnLockUser(IEventLogger, UserInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool UnLockUser(IEventLogger eventLogger, UserInfo user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Users_UserController_UnLockUser_" data-uid="DotNetNuke.Entities.Users.UserController.UnLockUser*"></a>
   <h4 id="DotNetNuke_Entities_Users_UserController_UnLockUser_DotNetNuke_Entities_Users_UserInfo_" data-uid="DotNetNuke.Entities.Users.UserController.UnLockUser(DotNetNuke.Entities.Users.UserInfo)">UnLockUser(UserInfo)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool UnLockUser(UserInfo user)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static bool UnLockUser(UserInfo user)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -3363,12 +3748,139 @@ public static ArrayList GetOnlineUsers(int portalId)</code></pre>
 
 
   <a id="DotNetNuke_Entities_Users_UserController_UpdateUser_" data-uid="DotNetNuke.Entities.Users.UserController.UpdateUser*"></a>
+  <h4 id="DotNetNuke_Entities_Users_UserController_UpdateUser_DotNetNuke_Abstractions_Logging_IEventLogger_System_Int32_DotNetNuke_Entities_Users_UserInfo_" data-uid="DotNetNuke.Entities.Users.UserController.UpdateUser(DotNetNuke.Abstractions.Logging.IEventLogger,System.Int32,DotNetNuke.Entities.Users.UserInfo)">UpdateUser(IEventLogger, int, UserInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateUser(IEventLogger eventLogger, int portalId, UserInfo user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Users_UserController_UpdateUser_" data-uid="DotNetNuke.Entities.Users.UserController.UpdateUser*"></a>
+  <h4 id="DotNetNuke_Entities_Users_UserController_UpdateUser_DotNetNuke_Abstractions_Logging_IEventLogger_System_Int32_DotNetNuke_Entities_Users_UserInfo_System_Boolean_" data-uid="DotNetNuke.Entities.Users.UserController.UpdateUser(DotNetNuke.Abstractions.Logging.IEventLogger,System.Int32,DotNetNuke.Entities.Users.UserInfo,System.Boolean)">UpdateUser(IEventLogger, int, UserInfo, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateUser(IEventLogger eventLogger, int portalId, UserInfo user, bool loggedAction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">loggedAction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Users_UserController_UpdateUser_" data-uid="DotNetNuke.Entities.Users.UserController.UpdateUser*"></a>
+  <h4 id="DotNetNuke_Entities_Users_UserController_UpdateUser_DotNetNuke_Abstractions_Logging_IEventLogger_System_Int32_DotNetNuke_Entities_Users_UserInfo_System_Boolean_System_Boolean_" data-uid="DotNetNuke.Entities.Users.UserController.UpdateUser(DotNetNuke.Abstractions.Logging.IEventLogger,System.Int32,DotNetNuke.Entities.Users.UserInfo,System.Boolean,System.Boolean)">UpdateUser(IEventLogger, int, UserInfo, bool, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateUser(IEventLogger eventLogger, int portalId, UserInfo user, bool loggedAction, bool sendNotification)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">loggedAction</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">sendNotification</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Users_UserController_UpdateUser_" data-uid="DotNetNuke.Entities.Users.UserController.UpdateUser*"></a>
   <h4 id="DotNetNuke_Entities_Users_UserController_UpdateUser_System_Int32_DotNetNuke_Entities_Users_UserInfo_" data-uid="DotNetNuke.Entities.Users.UserController.UpdateUser(System.Int32,DotNetNuke.Entities.Users.UserInfo)">UpdateUser(int, UserInfo)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void UpdateUser(int portalId, UserInfo user)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void UpdateUser(int portalId, UserInfo user)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -3400,7 +3912,8 @@ public static ArrayList GetOnlineUsers(int portalId)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void UpdateUser(int portalId, UserInfo user, bool loggedAction)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void UpdateUser(int portalId, UserInfo user, bool loggedAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -3437,7 +3950,8 @@ public static ArrayList GetOnlineUsers(int portalId)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void UpdateUser(int portalId, UserInfo user, bool loggedAction, bool sendNotification)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void UpdateUser(int portalId, UserInfo user, bool loggedAction, bool sendNotification)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -3900,12 +4414,45 @@ public static ArrayList GetOnlineUsers(int portalId)</code></pre>
 
 
   <a id="DotNetNuke_Entities_Users_UserController_VerifyUser_" data-uid="DotNetNuke.Entities.Users.UserController.VerifyUser*"></a>
+  <h4 id="DotNetNuke_Entities_Users_UserController_VerifyUser_DotNetNuke_Abstractions_Security_ICryptographyProvider_System_String_" data-uid="DotNetNuke.Entities.Users.UserController.VerifyUser(DotNetNuke.Abstractions.Security.ICryptographyProvider,System.String)">VerifyUser(ICryptographyProvider, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void VerifyUser(ICryptographyProvider cryptographyProvider, string verificationCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.ICryptographyProvider.html">ICryptographyProvider</a></td>
+        <td><span class="parametername">cryptographyProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">verificationCode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Users_UserController_VerifyUser_" data-uid="DotNetNuke.Entities.Users.UserController.VerifyUser*"></a>
   <h4 id="DotNetNuke_Entities_Users_UserController_VerifyUser_System_String_" data-uid="DotNetNuke.Entities.Users.UserController.VerifyUser(System.String)">VerifyUser(string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void VerifyUser(string verificationCode)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload with ICryptographyProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static void VerifyUser(string verificationCode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

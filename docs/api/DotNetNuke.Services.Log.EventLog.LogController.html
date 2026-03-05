@@ -155,8 +155,36 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LogController()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IApplicationStatusInfo. Scheduled removal in v12.0.0.&quot;)]
+public LogController()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Services_Log_EventLog_LogController__ctor_" data-uid="DotNetNuke.Services.Log.EventLog.LogController.#ctor*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_LogController__ctor_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_" data-uid="DotNetNuke.Services.Log.EventLog.LogController.#ctor(DotNetNuke.Abstractions.Application.IApplicationStatusInfo)">LogController(IApplicationStatusInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LogController(IApplicationStatusInfo appStatus)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
 
@@ -594,7 +622,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual object GetSingleLog(LogInfo log, LoggingProvider.ReturnType returnType)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 9.8.0. Use Dependency Injection to resolve &#39;DotNetNuke.Abstractions.Logging.IEventLogService.GetLog()&#39; instead. Scheduled for removal in v11.0.0.&quot;)]
+public virtual object GetSingleLog(LogInfo log, LoggingProvider.ReturnType returnType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

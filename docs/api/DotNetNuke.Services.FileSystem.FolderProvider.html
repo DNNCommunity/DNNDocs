@@ -471,12 +471,65 @@
 
 
   <a id="DotNetNuke_Services_FileSystem_FolderProvider_EncryptValue_" data-uid="DotNetNuke.Services.FileSystem.FolderProvider.EncryptValue*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FolderProvider_EncryptValue_DotNetNuke_Abstractions_Security_ICryptographyProvider_DotNetNuke_Abstractions_Application_IHostSettings_System_String_" data-uid="DotNetNuke.Services.FileSystem.FolderProvider.EncryptValue(DotNetNuke.Abstractions.Security.ICryptographyProvider,DotNetNuke.Abstractions.Application.IHostSettings,System.String)">EncryptValue(ICryptographyProvider, IHostSettings, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (string EncryptedMessage, string Algorithm, string InitializationVector) EncryptValue(ICryptographyProvider cryptographyProvider, IHostSettings hostSettings, string settingValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.ICryptographyProvider.html">ICryptographyProvider</a></td>
+        <td><span class="parametername">cryptographyProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.string-.encryptedmessage">EncryptedMessage</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.string-.algorithm">Algorithm</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.string-.initializationvector">InitializationVector</a>)</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_FileSystem_FolderProvider_EncryptValue_" data-uid="DotNetNuke.Services.FileSystem.FolderProvider.EncryptValue*"></a>
   <h4 id="DotNetNuke_Services_FileSystem_FolderProvider_EncryptValue_System_String_" data-uid="DotNetNuke.Services.FileSystem.FolderProvider.EncryptValue(System.String)">EncryptValue(string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string EncryptValue(string settingValue)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use static overload taking ICryptographyProvider. Scheduled for removal in v12.0.0.&quot;)]
+public string EncryptValue(string settingValue)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -606,13 +659,113 @@
   </table>
 
 
+  <a id="DotNetNuke_Services_FileSystem_FolderProvider_GetAlgorithmSettingKey_" data-uid="DotNetNuke.Services.FileSystem.FolderProvider.GetAlgorithmSettingKey*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FolderProvider_GetAlgorithmSettingKey_System_String_" data-uid="DotNetNuke.Services.FileSystem.FolderProvider.GetAlgorithmSettingKey(System.String)">GetAlgorithmSettingKey(string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetAlgorithmSettingKey(string settingName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_FileSystem_FolderProvider_GetEncryptedSetting_" data-uid="DotNetNuke.Services.FileSystem.FolderProvider.GetEncryptedSetting*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FolderProvider_GetEncryptedSetting_DotNetNuke_Abstractions_Security_ICryptographyProvider_DotNetNuke_Abstractions_Application_IHostSettings_System_Collections_Hashtable_System_String_" data-uid="DotNetNuke.Services.FileSystem.FolderProvider.GetEncryptedSetting(DotNetNuke.Abstractions.Security.ICryptographyProvider,DotNetNuke.Abstractions.Application.IHostSettings,System.Collections.Hashtable,System.String)">GetEncryptedSetting(ICryptographyProvider, IHostSettings, Hashtable, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetEncryptedSetting(ICryptographyProvider cryptographyProvider, IHostSettings hostSettings, Hashtable folderMappingSettings, string settingName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.ICryptographyProvider.html">ICryptographyProvider</a></td>
+        <td><span class="parametername">cryptographyProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.hashtable">Hashtable</a></td>
+        <td><span class="parametername">folderMappingSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Services_FileSystem_FolderProvider_GetEncryptedSetting_" data-uid="DotNetNuke.Services.FileSystem.FolderProvider.GetEncryptedSetting*"></a>
   <h4 id="DotNetNuke_Services_FileSystem_FolderProvider_GetEncryptedSetting_System_Collections_Hashtable_System_String_" data-uid="DotNetNuke.Services.FileSystem.FolderProvider.GetEncryptedSetting(System.Collections.Hashtable,System.String)">GetEncryptedSetting(Hashtable, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetEncryptedSetting(Hashtable folderMappingSettings, string settingName)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking ICryptographyProvider. Scheduled for removal in v12.0.0.&quot;)]
+public string GetEncryptedSetting(Hashtable folderMappingSettings, string settingName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1055,6 +1208,48 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
         <td><span class="parametername">fileContent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_FileSystem_FolderProvider_GetInitializationVectorSettingKey_" data-uid="DotNetNuke.Services.FileSystem.FolderProvider.GetInitializationVectorSettingKey*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FolderProvider_GetInitializationVectorSettingKey_System_String_" data-uid="DotNetNuke.Services.FileSystem.FolderProvider.GetInitializationVectorSettingKey(System.String)">GetInitializationVectorSettingKey(string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetInitializationVectorSettingKey(string settingName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingName</span></td>
         <td></td>
       </tr>
     </tbody>

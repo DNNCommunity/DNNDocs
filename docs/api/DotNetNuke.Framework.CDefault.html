@@ -154,6 +154,18 @@
       <a class="xref" href="DotNetNuke.Framework.PageBase.html#DotNetNuke_Framework_PageBase_HeaderIsWritten">PageBase.HeaderIsWritten</a>
     </div>
     <div>
+      <a class="xref" href="DotNetNuke.Framework.PageBase.html#DotNetNuke_Framework_PageBase_PortalController">PageBase.PortalController</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.PageBase.html#DotNetNuke_Framework_PageBase_AppStatus">PageBase.AppStatus</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.PageBase.html#DotNetNuke_Framework_PageBase_HostSettings">PageBase.HostSettings</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Framework.PageBase.html#DotNetNuke_Framework_PageBase_UserController">PageBase.UserController</a>
+    </div>
+    <div>
       <a class="xref" href="DotNetNuke.Framework.PageBase.html#DotNetNuke_Framework_PageBase_PageStatePersister">PageBase.PageStatePersister</a>
     </div>
     <div>
@@ -841,7 +853,8 @@ public CDefault()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CDefault(IPortalController portalController, IApplicationStatusInfo appStatus, IHostSettings hostSettings)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IUserController. Scheduled removal in v12.0.0.&quot;)]
+public CDefault(IPortalController portalController, IApplicationStatusInfo appStatus, IHostSettings hostSettings)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -866,6 +879,53 @@ public CDefault()</code></pre>
       <tr>
         <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
         <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Framework_CDefault__ctor_" data-uid="DotNetNuke.Framework.CDefault.#ctor*"></a>
+  <h4 id="DotNetNuke_Framework_CDefault__ctor_DotNetNuke_Entities_Portals_IPortalController_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Entities_Users_IUserController_DotNetNuke_Abstractions_Application_IHostSettingsService_" data-uid="DotNetNuke.Framework.CDefault.#ctor(DotNetNuke.Entities.Portals.IPortalController,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Entities.Users.IUserController,DotNetNuke.Abstractions.Application.IHostSettingsService)">CDefault(IPortalController, IApplicationStatusInfo, IHostSettings, IUserController, IHostSettingsService)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CDefault(IPortalController portalController, IApplicationStatusInfo appStatus, IHostSettings hostSettings, IUserController userController, IHostSettingsService hostSettingsService)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.IUserController.html">IUserController</a></td>
+        <td><span class="parametername">userController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettingsService.html">IHostSettingsService</a></td>
+        <td><span class="parametername">hostSettingsService</span></td>
         <td></td>
       </tr>
     </tbody>

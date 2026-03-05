@@ -193,7 +193,8 @@ public PortalController(IBusinessControllerProvider businessControllerProvider)<
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PortalController(IBusinessControllerProvider businessControllerProvider, IHostSettings hostSettings, IApplicationStatusInfo appStatus, IEventLogger eventLogger)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload with ICryptographyProvider. Scheduled for removal in v12.0.0.&quot;)]
+public PortalController(IBusinessControllerProvider businessControllerProvider, IHostSettings hostSettings, IApplicationStatusInfo appStatus, IEventLogger eventLogger)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -223,6 +224,58 @@ public PortalController(IBusinessControllerProvider businessControllerProvider)<
       <tr>
         <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
         <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController__ctor_" data-uid="DotNetNuke.Entities.Portals.PortalController.#ctor*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController__ctor_DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Abstractions_Security_ICryptographyProvider_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionService_" data-uid="DotNetNuke.Entities.Portals.PortalController.#ctor(DotNetNuke.Abstractions.Modules.IBusinessControllerProvider,DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Abstractions.Security.ICryptographyProvider,DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService)">PortalController(IBusinessControllerProvider, IHostSettings, IApplicationStatusInfo, IEventLogger, ICryptographyProvider, IPermissionDefinitionService)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PortalController(IBusinessControllerProvider businessControllerProvider, IHostSettings hostSettings, IApplicationStatusInfo appStatus, IEventLogger eventLogger, ICryptographyProvider cryptographyProvider, IPermissionDefinitionService permissionDefinitionService)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.html">IBusinessControllerProvider</a></td>
+        <td><span class="parametername">businessControllerProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.ICryptographyProvider.html">ICryptographyProvider</a></td>
+        <td><span class="parametername">cryptographyProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService.html">IPermissionDefinitionService</a></td>
+        <td><span class="parametername">permissionDefinitionService</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -3880,7 +3933,8 @@ public void ParseTemplate(int portalId, PortalController.PortalTemplateInfo temp
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void UpdateEncryptedString(IHostSettings hostSettings, int portalId, string settingName, string settingValue, string passPhrase)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking HashAlgorithmName. Scheduled for removal in v12.0.0.&quot;)]
+public static void UpdateEncryptedString(IHostSettings hostSettings, int portalId, string settingName, string settingValue, string passPhrase)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -3895,6 +3949,58 @@ public void ParseTemplate(int portalId, PortalController.PortalTemplateInfo temp
       <tr>
         <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
         <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">passPhrase</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_UpdateEncryptedString_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdateEncryptedString*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_UpdateEncryptedString_DotNetNuke_Abstractions_Application_IHostSettings_System_Security_Cryptography_HashAlgorithmName_System_Int32_System_String_System_String_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdateEncryptedString(DotNetNuke.Abstractions.Application.IHostSettings,System.Security.Cryptography.HashAlgorithmName,System.Int32,System.String,System.String,System.String)">UpdateEncryptedString(IHostSettings, HashAlgorithmName, int, string, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateEncryptedString(IHostSettings hostSettings, HashAlgorithmName hashAlgorithm, int portalId, string settingName, string settingValue, string passPhrase)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.security.cryptography.hashalgorithmname">HashAlgorithmName</a></td>
+        <td><span class="parametername">hashAlgorithm</span></td>
         <td></td>
       </tr>
       <tr>

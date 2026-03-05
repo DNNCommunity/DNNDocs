@@ -141,12 +141,55 @@
 
 
   <a id="DotNetNuke_Web_UI_Utilities_ApplyControlSkin_" data-uid="DotNetNuke.Web.UI.Utilities.ApplyControlSkin*"></a>
+  <h4 id="DotNetNuke_Web_UI_Utilities_ApplyControlSkin_DotNetNuke_Abstractions_ClientResources_IClientResourceController_System_Web_UI_Control_System_String_System_String_" data-uid="DotNetNuke.Web.UI.Utilities.ApplyControlSkin(DotNetNuke.Abstractions.ClientResources.IClientResourceController,System.Web.UI.Control,System.String,System.String)">ApplyControlSkin(IClientResourceController, Control, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ApplyControlSkin(IClientResourceController clientResourceController, Control targetControl, string controlSubSkinName = &quot;&quot;, string controlName = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.ClientResources.IClientResourceController.html">IClientResourceController</a></td>
+        <td><span class="parametername">clientResourceController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.control">Control</a></td>
+        <td><span class="parametername">targetControl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">controlSubSkinName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">controlName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Web_UI_Utilities_ApplyControlSkin_" data-uid="DotNetNuke.Web.UI.Utilities.ApplyControlSkin*"></a>
   <h4 id="DotNetNuke_Web_UI_Utilities_ApplyControlSkin_System_Web_UI_Control_System_String_System_String_" data-uid="DotNetNuke.Web.UI.Utilities.ApplyControlSkin(System.Web.UI.Control,System.String,System.String)">ApplyControlSkin(Control, string, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ApplyControlSkin(Control targetControl, string controlSubSkinName = &quot;&quot;, string controlName = &quot;&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IClientResourceController. Scheduled removal in v12.0.0.&quot;)]
+public static void ApplyControlSkin(Control targetControl, string controlSubSkinName = &quot;&quot;, string controlName = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -445,12 +488,117 @@
 
 
   <a id="DotNetNuke_Web_UI_Utilities_GetOnClientClickConfirm_" data-uid="DotNetNuke.Web.UI.Utilities.GetOnClientClickConfirm*"></a>
+  <h4 id="DotNetNuke_Web_UI_Utilities_GetOnClientClickConfirm_DotNetNuke_Abstractions_ClientResources_IClientResourceController_System_Web_UI_Control_DotNetNuke_Web_UI_MessageWindowParameters_" data-uid="DotNetNuke.Web.UI.Utilities.GetOnClientClickConfirm(DotNetNuke.Abstractions.ClientResources.IClientResourceController,System.Web.UI.Control,DotNetNuke.Web.UI.MessageWindowParameters)">GetOnClientClickConfirm(IClientResourceController, Control, MessageWindowParameters)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetOnClientClickConfirm(IClientResourceController clientResourceController, Control ctrl, MessageWindowParameters message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.ClientResources.IClientResourceController.html">IClientResourceController</a></td>
+        <td><span class="parametername">clientResourceController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.control">Control</a></td>
+        <td><span class="parametername">ctrl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Web.UI.MessageWindowParameters.html">MessageWindowParameters</a></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Web_UI_Utilities_GetOnClientClickConfirm_" data-uid="DotNetNuke.Web.UI.Utilities.GetOnClientClickConfirm*"></a>
+  <h4 id="DotNetNuke_Web_UI_Utilities_GetOnClientClickConfirm_DotNetNuke_Abstractions_ClientResources_IClientResourceController_System_Web_UI_Control_System_String_" data-uid="DotNetNuke.Web.UI.Utilities.GetOnClientClickConfirm(DotNetNuke.Abstractions.ClientResources.IClientResourceController,System.Web.UI.Control,System.String)">GetOnClientClickConfirm(IClientResourceController, Control, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetOnClientClickConfirm(IClientResourceController clientResourceController, Control ctrl, string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.ClientResources.IClientResourceController.html">IClientResourceController</a></td>
+        <td><span class="parametername">clientResourceController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.control">Control</a></td>
+        <td><span class="parametername">ctrl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Web_UI_Utilities_GetOnClientClickConfirm_" data-uid="DotNetNuke.Web.UI.Utilities.GetOnClientClickConfirm*"></a>
   <h4 id="DotNetNuke_Web_UI_Utilities_GetOnClientClickConfirm_System_Web_UI_Control_DotNetNuke_Web_UI_MessageWindowParameters_" data-uid="DotNetNuke.Web.UI.Utilities.GetOnClientClickConfirm(System.Web.UI.Control,DotNetNuke.Web.UI.MessageWindowParameters)">GetOnClientClickConfirm(Control, MessageWindowParameters)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetOnClientClickConfirm(Control ctrl, MessageWindowParameters message)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IClientResourceController. Scheduled for removal in v12.0.0.&quot;)]
+public static string GetOnClientClickConfirm(Control ctrl, MessageWindowParameters message)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -497,7 +645,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetOnClientClickConfirm(Control ctrl, string message)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IClientResourceController. Scheduled for removal in v12.0.0.&quot;)]
+public static string GetOnClientClickConfirm(Control ctrl, string message)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

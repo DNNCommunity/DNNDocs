@@ -292,7 +292,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static BrowserTypes GetBrowserType(HttpRequest request, HttpResponse response, FriendlyUrlSettings settings)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking HttpRequestBase. Scheduled for removal in v12.0.0.&quot;)]
+public static BrowserTypes GetBrowserType(HttpRequest request, HttpResponse response, FriendlyUrlSettings settings)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -332,6 +333,58 @@
     <tbody>
       <tr>
         <td><a class="xref" href="DotNetNuke.Entities.Urls.BrowserTypes.html">BrowserTypes</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Urls_FriendlyUrlController_GetBrowserType_" data-uid="DotNetNuke.Entities.Urls.FriendlyUrlController.GetBrowserType*"></a>
+  <h4 id="DotNetNuke_Entities_Urls_FriendlyUrlController_GetBrowserType_System_Web_HttpRequestBase_System_Web_HttpResponseBase_DotNetNuke_Entities_Urls_FriendlyUrlSettings_" data-uid="DotNetNuke.Entities.Urls.FriendlyUrlController.GetBrowserType(System.Web.HttpRequestBase,System.Web.HttpResponseBase,DotNetNuke.Entities.Urls.FriendlyUrlSettings)">GetBrowserType(HttpRequestBase, HttpResponseBase, FriendlyUrlSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BrowserTypes GetBrowserType(HttpRequestBase request, HttpResponseBase response, FriendlyUrlSettings settings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.httprequestbase">HttpRequestBase</a></td>
+        <td><span class="parametername">request</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.httpresponsebase">HttpResponseBase</a></td>
+        <td><span class="parametername">response</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Urls.FriendlyUrlSettings.html">FriendlyUrlSettings</a></td>
+        <td><span class="parametername">settings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Urls.BrowserTypes.html">BrowserTypes</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -453,6 +506,63 @@
 
 
   <a id="DotNetNuke_Entities_Urls_FriendlyUrlController_GetTab_" data-uid="DotNetNuke.Entities.Urls.FriendlyUrlController.GetTab*"></a>
+  <h4 id="DotNetNuke_Entities_Urls_FriendlyUrlController_GetTab_System_Int32_System_Boolean_DotNetNuke_Abstractions_Portals_IPortalSettings_DotNetNuke_Entities_Urls_FriendlyUrlSettings_" data-uid="DotNetNuke.Entities.Urls.FriendlyUrlController.GetTab(System.Int32,System.Boolean,DotNetNuke.Abstractions.Portals.IPortalSettings,DotNetNuke.Entities.Urls.FriendlyUrlSettings)">GetTab(int, bool, IPortalSettings, FriendlyUrlSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TabInfo GetTab(int tabId, bool addStdUrls, IPortalSettings portalSettings, FriendlyUrlSettings settings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">tabId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">addStdUrls</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalSettings.html">IPortalSettings</a></td>
+        <td><span class="parametername">portalSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Urls.FriendlyUrlSettings.html">FriendlyUrlSettings</a></td>
+        <td><span class="parametername">settings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Urls_FriendlyUrlController_GetTab_" data-uid="DotNetNuke.Entities.Urls.FriendlyUrlController.GetTab*"></a>
   <h4 id="DotNetNuke_Entities_Urls_FriendlyUrlController_GetTab_System_Int32_System_Boolean_DotNetNuke_Entities_Portals_PortalSettings_DotNetNuke_Entities_Urls_FriendlyUrlSettings_" data-uid="DotNetNuke.Entities.Urls.FriendlyUrlController.GetTab(System.Int32,System.Boolean,DotNetNuke.Entities.Portals.PortalSettings,DotNetNuke.Entities.Urls.FriendlyUrlSettings)">GetTab(int, bool, PortalSettings, FriendlyUrlSettings)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -510,12 +620,60 @@
 
 
   <a id="DotNetNuke_Entities_Urls_FriendlyUrlController_GetTabs_" data-uid="DotNetNuke.Entities.Urls.FriendlyUrlController.GetTabs*"></a>
+  <h4 id="DotNetNuke_Entities_Urls_FriendlyUrlController_GetTabs_System_Int32_DotNetNuke_Entities_Urls_FriendlyUrlSettings_" data-uid="DotNetNuke.Entities.Urls.FriendlyUrlController.GetTabs(System.Int32,DotNetNuke.Entities.Urls.FriendlyUrlSettings)">GetTabs(int, FriendlyUrlSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;int, TabInfo&gt; GetTabs(int portalId, FriendlyUrlSettings settings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Urls.FriendlyUrlSettings.html">FriendlyUrlSettings</a></td>
+        <td><span class="parametername">settings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Urls_FriendlyUrlController_GetTabs_" data-uid="DotNetNuke.Entities.Urls.FriendlyUrlController.GetTabs*"></a>
   <h4 id="DotNetNuke_Entities_Urls_FriendlyUrlController_GetTabs_System_Int32_System_Boolean_" data-uid="DotNetNuke.Entities.Urls.FriendlyUrlController.GetTabs(System.Int32,System.Boolean)">GetTabs(int, bool)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Dictionary&lt;int, TabInfo&gt; GetTabs(int portalId, bool includeStdUrls)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload with portal ID and FriendlyUrlSettings (the other argument isn&#39;t used). Scheduled for removal in v12.0.0.&quot;)]
+public static Dictionary&lt;int, TabInfo&gt; GetTabs(int portalId, bool includeStdUrls)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -562,7 +720,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Dictionary&lt;int, TabInfo&gt; GetTabs(int portalId, bool includeStdUrls, PortalSettings portalSettings, FriendlyUrlSettings settings)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload with portal ID and FriendlyUrlSettings (the other arguments aren&#39;t used). Scheduled for removal in v12.0.0.&quot;)]
+public static Dictionary&lt;int, TabInfo&gt; GetTabs(int portalId, bool includeStdUrls, PortalSettings portalSettings, FriendlyUrlSettings settings)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -619,7 +778,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Dictionary&lt;int, TabInfo&gt; GetTabs(int portalId, bool includeStdUrls, FriendlyUrlSettings settings)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload with portal ID and FriendlyUrlSettings (the other argument isn&#39;t used). Scheduled for removal in v12.0.0.&quot;)]
+public static Dictionary&lt;int, TabInfo&gt; GetTabs(int portalId, bool includeStdUrls, FriendlyUrlSettings settings)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

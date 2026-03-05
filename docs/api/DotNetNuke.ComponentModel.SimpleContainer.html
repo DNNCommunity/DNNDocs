@@ -98,6 +98,7 @@
   <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="DotNetNuke.ComponentModel.IContainer.html">IContainer</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -190,7 +191,7 @@
   <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
   <h5 id="DotNetNuke_ComponentModel_SimpleContainer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SimpleContainer : AbstractContainer, IContainer</code></pre>
+    <pre><code class="lang-csharp hljs">public class SimpleContainer : AbstractContainer, IContainer, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -202,8 +203,36 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SimpleContainer()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IServiceProvider. Scheduled removal in v12.0.0.&quot;)]
+public SimpleContainer()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_ComponentModel_SimpleContainer__ctor_" data-uid="DotNetNuke.ComponentModel.SimpleContainer.#ctor*"></a>
+  <h4 id="DotNetNuke_ComponentModel_SimpleContainer__ctor_System_IServiceProvider_" data-uid="DotNetNuke.ComponentModel.SimpleContainer.#ctor(System.IServiceProvider)">SimpleContainer(IServiceProvider)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SimpleContainer(IServiceProvider serviceProvider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></td>
+        <td><span class="parametername">serviceProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
   <a id="DotNetNuke_ComponentModel_SimpleContainer__ctor_" data-uid="DotNetNuke.ComponentModel.SimpleContainer.#ctor*"></a>
@@ -212,7 +241,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SimpleContainer(string name)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IServiceProvider. Scheduled removal in v12.0.0.&quot;)]
+public SimpleContainer(string name)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -227,6 +257,38 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_ComponentModel_SimpleContainer__ctor_" data-uid="DotNetNuke.ComponentModel.SimpleContainer.#ctor*"></a>
+  <h4 id="DotNetNuke_ComponentModel_SimpleContainer__ctor_System_String_System_IServiceProvider_" data-uid="DotNetNuke.ComponentModel.SimpleContainer.#ctor(System.String,System.IServiceProvider)">SimpleContainer(string, IServiceProvider)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SimpleContainer(string name, IServiceProvider serviceProvider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></td>
+        <td><span class="parametername">serviceProvider</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -262,6 +324,43 @@
   <div><a class="xref" href="DotNetNuke.ComponentModel.AbstractContainer.html#DotNetNuke_ComponentModel_AbstractContainer_Name">AbstractContainer.Name</a></div>
   <h3 id="methods">Methods
 </h3>
+
+
+  <a id="DotNetNuke_ComponentModel_SimpleContainer_Dispose_" data-uid="DotNetNuke.ComponentModel.SimpleContainer.Dispose*"></a>
+  <h4 id="DotNetNuke_ComponentModel_SimpleContainer_Dispose" data-uid="DotNetNuke.ComponentModel.SimpleContainer.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+  <a id="DotNetNuke_ComponentModel_SimpleContainer_Dispose_" data-uid="DotNetNuke.ComponentModel.SimpleContainer.Dispose*"></a>
+  <h4 id="DotNetNuke_ComponentModel_SimpleContainer_Dispose_System_Boolean_" data-uid="DotNetNuke.ComponentModel.SimpleContainer.Dispose(System.Boolean)">Dispose(bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">disposing</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
   <a id="DotNetNuke_ComponentModel_SimpleContainer_GetComponent_" data-uid="DotNetNuke.ComponentModel.SimpleContainer.GetComponent*"></a>
@@ -641,6 +740,9 @@
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="DotNetNuke.ComponentModel.IContainer.html">IContainer</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

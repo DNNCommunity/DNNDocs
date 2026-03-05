@@ -194,6 +194,9 @@
       <a class="xref" href="DotNetNuke.Providers.FolderProviders.Components.BaseRemoteStorageProvider.html#DotNetNuke_Providers_FolderProviders_Components_BaseRemoteStorageProvider_SupportsMoveFolder">BaseRemoteStorageProvider.SupportsMoveFolder</a>
     </div>
     <div>
+      <a class="xref" href="DotNetNuke.Providers.FolderProviders.Components.BaseRemoteStorageProvider.html#DotNetNuke_Providers_FolderProviders_Components_BaseRemoteStorageProvider_HostSettings">BaseRemoteStorageProvider.HostSettings</a>
+    </div>
+    <div>
       <a class="xref" href="DotNetNuke.Providers.FolderProviders.Components.BaseRemoteStorageProvider.html#DotNetNuke_Providers_FolderProviders_Components_BaseRemoteStorageProvider_ObjectCacheTimeout">BaseRemoteStorageProvider.ObjectCacheTimeout</a>
     </div>
     <div>
@@ -216,8 +219,41 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AzureFolderProvider()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IHostSettings. Scheduled removal in v12.0.0.&quot;)]
+public AzureFolderProvider()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Providers_FolderProviders_AzureFolderProvider_AzureFolderProvider__ctor_" data-uid="DotNetNuke.Providers.FolderProviders.AzureFolderProvider.AzureFolderProvider.#ctor*"></a>
+  <h4 id="DotNetNuke_Providers_FolderProviders_AzureFolderProvider_AzureFolderProvider__ctor_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Security_ICryptographyProvider_" data-uid="DotNetNuke.Providers.FolderProviders.AzureFolderProvider.AzureFolderProvider.#ctor(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Security.ICryptographyProvider)">AzureFolderProvider(IHostSettings, ICryptographyProvider)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AzureFolderProvider(IHostSettings hostSettings, ICryptographyProvider cryptographyProvider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.ICryptographyProvider.html">ICryptographyProvider</a></td>
+        <td><span class="parametername">cryptographyProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
 </h3>
 

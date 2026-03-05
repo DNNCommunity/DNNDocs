@@ -510,10 +510,68 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected DnnFormItemBase()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IApplicationStatusInfo. Scheduled removal in v12.0.0.&quot;)]
+protected DnnFormItemBase()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Web_UI_WebControls_DnnFormItemBase__ctor_" data-uid="DotNetNuke.Web.UI.WebControls.DnnFormItemBase.#ctor*"></a>
+  <h4 id="DotNetNuke_Web_UI_WebControls_DnnFormItemBase__ctor_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Abstractions_Logging_IEventLogger_" data-uid="DotNetNuke.Web.UI.WebControls.DnnFormItemBase.#ctor(DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Abstractions.Logging.IEventLogger)">DnnFormItemBase(IApplicationStatusInfo, IEventLogger)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected DnnFormItemBase(IApplicationStatusInfo appStatus, IEventLogger eventLogger)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
 </h3>
+
+
+  <a id="DotNetNuke_Web_UI_WebControls_DnnFormItemBase_AppStatus_" data-uid="DotNetNuke.Web.UI.WebControls.DnnFormItemBase.AppStatus*"></a>
+  <h4 id="DotNetNuke_Web_UI_WebControls_DnnFormItemBase_AppStatus" data-uid="DotNetNuke.Web.UI.WebControls.DnnFormItemBase.AppStatus">AppStatus</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IApplicationStatusInfo AppStatus { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
   <a id="DotNetNuke_Web_UI_WebControls_DnnFormItemBase_ChildProperty_" data-uid="DotNetNuke.Web.UI.WebControls.DnnFormItemBase.ChildProperty*"></a>
@@ -585,6 +643,31 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Web_UI_WebControls_DnnFormItemBase_EventLogger_" data-uid="DotNetNuke.Web.UI.WebControls.DnnFormItemBase.EventLogger*"></a>
+  <h4 id="DotNetNuke_Web_UI_WebControls_DnnFormItemBase_EventLogger" data-uid="DotNetNuke.Web.UI.WebControls.DnnFormItemBase.EventLogger">EventLogger</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IEventLogger EventLogger { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
         <td></td>
       </tr>
     </tbody>

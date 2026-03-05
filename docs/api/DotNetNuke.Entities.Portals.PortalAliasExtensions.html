@@ -270,12 +270,75 @@
 
 
   <a id="DotNetNuke_Entities_Portals_PortalAliasExtensions_GetAliasByPortalIdAndSettings_" data-uid="DotNetNuke.Entities.Portals.PortalAliasExtensions.GetAliasByPortalIdAndSettings*"></a>
-  <h4 id="DotNetNuke_Entities_Portals_PortalAliasExtensions_GetAliasByPortalIdAndSettings_System_Collections_Generic_IEnumerable_DotNetNuke_Entities_Portals_PortalAliasInfo__System_Int32_DotNetNuke_Entities_Urls_UrlAction_System_String_DotNetNuke_Entities_Urls_BrowserTypes_" data-uid="DotNetNuke.Entities.Portals.PortalAliasExtensions.GetAliasByPortalIdAndSettings(System.Collections.Generic.IEnumerable{DotNetNuke.Entities.Portals.PortalAliasInfo},System.Int32,DotNetNuke.Entities.Urls.UrlAction,System.String,DotNetNuke.Entities.Urls.BrowserTypes)">GetAliasByPortalIdAndSettings(IEnumerable&lt;PortalAliasInfo&gt;, int, UrlAction, string, BrowserTypes)</h4>
+  <h4 id="DotNetNuke_Entities_Portals_PortalAliasExtensions_GetAliasByPortalIdAndSettings_System_Collections_Generic_IEnumerable_DotNetNuke_Entities_Portals_PortalAliasInfo__System_Int32_DotNetNuke_Entities_Urls_UrlAction_System_String_DotNetNuke_Abstractions_Urls_BrowserTypes_" data-uid="DotNetNuke.Entities.Portals.PortalAliasExtensions.GetAliasByPortalIdAndSettings(System.Collections.Generic.IEnumerable{DotNetNuke.Entities.Portals.PortalAliasInfo},System.Int32,DotNetNuke.Entities.Urls.UrlAction,System.String,DotNetNuke.Abstractions.Urls.BrowserTypes)">GetAliasByPortalIdAndSettings(IEnumerable&lt;PortalAliasInfo&gt;, int, UrlAction, string, BrowserTypes)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static PortalAliasInfo GetAliasByPortalIdAndSettings(this IEnumerable&lt;PortalAliasInfo&gt; aliases, int portalId, UrlAction result, string cultureCode, BrowserTypes browserType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="DotNetNuke.Entities.Portals.PortalAliasInfo.html">PortalAliasInfo</a>&gt;</td>
+        <td><span class="parametername">aliases</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Urls.UrlAction.html">UrlAction</a></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">cultureCode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Urls.BrowserTypes.html">BrowserTypes</a></td>
+        <td><span class="parametername">browserType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalAliasInfo.html">PortalAliasInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalAliasExtensions_GetAliasByPortalIdAndSettings_" data-uid="DotNetNuke.Entities.Portals.PortalAliasExtensions.GetAliasByPortalIdAndSettings*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalAliasExtensions_GetAliasByPortalIdAndSettings_System_Collections_Generic_IEnumerable_DotNetNuke_Entities_Portals_PortalAliasInfo__System_Int32_DotNetNuke_Entities_Urls_UrlAction_System_String_DotNetNuke_Entities_Urls_BrowserTypes_" data-uid="DotNetNuke.Entities.Portals.PortalAliasExtensions.GetAliasByPortalIdAndSettings(System.Collections.Generic.IEnumerable{DotNetNuke.Entities.Portals.PortalAliasInfo},System.Int32,DotNetNuke.Entities.Urls.UrlAction,System.String,DotNetNuke.Entities.Urls.BrowserTypes)">GetAliasByPortalIdAndSettings(IEnumerable&lt;PortalAliasInfo&gt;, int, UrlAction, string, BrowserTypes)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking DotNetNuke.Abstractions.Urls.BrowserTypes. Scheduled for removal in v12.0.0.&quot;)]
+public static PortalAliasInfo GetAliasByPortalIdAndSettings(this IEnumerable&lt;PortalAliasInfo&gt; aliases, int portalId, UrlAction result, string cultureCode, BrowserTypes browserType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -602,12 +665,65 @@
 
 
   <a id="DotNetNuke_Entities_Portals_PortalAliasExtensions_GetSettingsByPortalIdAndAlias_" data-uid="DotNetNuke.Entities.Portals.PortalAliasExtensions.GetSettingsByPortalIdAndAlias*"></a>
-  <h4 id="DotNetNuke_Entities_Portals_PortalAliasExtensions_GetSettingsByPortalIdAndAlias_System_Collections_Generic_IEnumerable_DotNetNuke_Entities_Portals_PortalAliasInfo__System_Int32_System_String_System_String__DotNetNuke_Entities_Urls_BrowserTypes__System_String__" data-uid="DotNetNuke.Entities.Portals.PortalAliasExtensions.GetSettingsByPortalIdAndAlias(System.Collections.Generic.IEnumerable{DotNetNuke.Entities.Portals.PortalAliasInfo},System.Int32,System.String,System.String@,DotNetNuke.Entities.Urls.BrowserTypes@,System.String@)">GetSettingsByPortalIdAndAlias(IEnumerable&lt;PortalAliasInfo&gt;, int, string, out string, out BrowserTypes, out string)</h4>
+  <h4 id="DotNetNuke_Entities_Portals_PortalAliasExtensions_GetSettingsByPortalIdAndAlias_System_Collections_Generic_IEnumerable_DotNetNuke_Entities_Portals_PortalAliasInfo__System_Int32_System_String_System_String__DotNetNuke_Abstractions_Urls_BrowserTypes__System_String__" data-uid="DotNetNuke.Entities.Portals.PortalAliasExtensions.GetSettingsByPortalIdAndAlias(System.Collections.Generic.IEnumerable{DotNetNuke.Entities.Portals.PortalAliasInfo},System.Int32,System.String,System.String@,DotNetNuke.Abstractions.Urls.BrowserTypes@,System.String@)">GetSettingsByPortalIdAndAlias(IEnumerable&lt;PortalAliasInfo&gt;, int, string, out string, out BrowserTypes, out string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void GetSettingsByPortalIdAndAlias(this IEnumerable&lt;PortalAliasInfo&gt; aliases, int portalId, string alias, out string culture, out BrowserTypes browserType, out string skin)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="DotNetNuke.Entities.Portals.PortalAliasInfo.html">PortalAliasInfo</a>&gt;</td>
+        <td><span class="parametername">aliases</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">alias</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Urls.BrowserTypes.html">BrowserTypes</a></td>
+        <td><span class="parametername">browserType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">skin</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalAliasExtensions_GetSettingsByPortalIdAndAlias_" data-uid="DotNetNuke.Entities.Portals.PortalAliasExtensions.GetSettingsByPortalIdAndAlias*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalAliasExtensions_GetSettingsByPortalIdAndAlias_System_Collections_Generic_IEnumerable_DotNetNuke_Entities_Portals_PortalAliasInfo__System_Int32_System_String_System_String__DotNetNuke_Entities_Urls_BrowserTypes__System_String__" data-uid="DotNetNuke.Entities.Portals.PortalAliasExtensions.GetSettingsByPortalIdAndAlias(System.Collections.Generic.IEnumerable{DotNetNuke.Entities.Portals.PortalAliasInfo},System.Int32,System.String,System.String@,DotNetNuke.Entities.Urls.BrowserTypes@,System.String@)">GetSettingsByPortalIdAndAlias(IEnumerable&lt;PortalAliasInfo&gt;, int, string, out string, out BrowserTypes, out string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking DotNetNuke.Abstractions.Urls.BrowserTypes. Scheduled for removal in v12.0.0.&quot;)]
+public static void GetSettingsByPortalIdAndAlias(this IEnumerable&lt;PortalAliasInfo&gt; aliases, int portalId, string alias, out string culture, out BrowserTypes browserType, out string skin)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

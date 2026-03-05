@@ -146,8 +146,197 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IDataContext Instance()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use the overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static IDataContext Instance()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.IDataContext.html">IDataContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Data_DataContext_Instance_" data-uid="DotNetNuke.Data.DataContext.Instance*"></a>
+  <h4 id="DotNetNuke_Data_DataContext_Instance_DotNetNuke_Abstractions_Application_IHostSettings_" data-uid="DotNetNuke.Data.DataContext.Instance(DotNetNuke.Abstractions.Application.IHostSettings)">Instance(IHostSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDataContext Instance(IHostSettings hostSettings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.IDataContext.html">IDataContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Data_DataContext_Instance_" data-uid="DotNetNuke.Data.DataContext.Instance*"></a>
+  <h4 id="DotNetNuke_Data_DataContext_Instance_DotNetNuke_Abstractions_Application_IHostSettings_System_Collections_Generic_Dictionary_System_Type_PetaPoco_IMapper__" data-uid="DotNetNuke.Data.DataContext.Instance(DotNetNuke.Abstractions.Application.IHostSettings,System.Collections.Generic.Dictionary{System.Type,PetaPoco.IMapper})">Instance(IHostSettings, Dictionary&lt;Type, IMapper&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDataContext Instance(IHostSettings hostSettings, Dictionary&lt;Type, IMapper&gt; mappers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a>, <span class="xref">IMapper</span>&gt;</td>
+        <td><span class="parametername">mappers</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.IDataContext.html">IDataContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Data_DataContext_Instance_" data-uid="DotNetNuke.Data.DataContext.Instance*"></a>
+  <h4 id="DotNetNuke_Data_DataContext_Instance_DotNetNuke_Abstractions_Application_IHostSettings_System_String_" data-uid="DotNetNuke.Data.DataContext.Instance(DotNetNuke.Abstractions.Application.IHostSettings,System.String)">Instance(IHostSettings, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDataContext Instance(IHostSettings hostSettings, string connectionStringName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">connectionStringName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.IDataContext.html">IDataContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Data_DataContext_Instance_" data-uid="DotNetNuke.Data.DataContext.Instance*"></a>
+  <h4 id="DotNetNuke_Data_DataContext_Instance_DotNetNuke_Abstractions_Application_IHostSettings_System_String_System_Collections_Generic_Dictionary_System_Type_PetaPoco_IMapper__" data-uid="DotNetNuke.Data.DataContext.Instance(DotNetNuke.Abstractions.Application.IHostSettings,System.String,System.Collections.Generic.Dictionary{System.Type,PetaPoco.IMapper})">Instance(IHostSettings, string, Dictionary&lt;Type, IMapper&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDataContext Instance(IHostSettings hostSettings, string connectionStringName, Dictionary&lt;Type, IMapper&gt; mappers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">connectionStringName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a>, <span class="xref">IMapper</span>&gt;</td>
+        <td><span class="parametername">mappers</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -171,7 +360,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IDataContext Instance(Dictionary&lt;Type, IMapper&gt; mappers)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use the overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static IDataContext Instance(Dictionary&lt;Type, IMapper&gt; mappers)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -213,7 +403,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IDataContext Instance(string connectionStringName)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use the overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static IDataContext Instance(string connectionStringName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -255,7 +446,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IDataContext Instance(string connectionStringName, Dictionary&lt;Type, IMapper&gt; mappers)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use the overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static IDataContext Instance(string connectionStringName, Dictionary&lt;Type, IMapper&gt; mappers)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

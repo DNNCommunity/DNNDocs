@@ -94,10 +94,15 @@
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
     <div class="level1"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.controlcollection">ControlCollection</a></div>
     <div class="level2"><span class="xref">TypedControlCollection&lt;T&gt;</span></div>
+      <div class="level3"><a class="xref" href="DotNetNuke.Web.UI.WebControls.DnnRibbonBarGroupCollection.html">DnnRibbonBarGroupCollection</a></div>
+      <div class="level3"><a class="xref" href="DotNetNuke.Web.UI.WebControls.DnnTabCollection.html">DnnTabCollection</a></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;T&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;T&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
   </div>
   <div class="inheritedMembers">
@@ -127,6 +132,9 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.controlcollection.count">ControlCollection.Count</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.controlcollection.owner">ControlCollection.Owner</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.controlcollection.syncroot">ControlCollection.SyncRoot</a>
     </div>
     <div>
@@ -134,9 +142,6 @@
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.controlcollection.issynchronized">ControlCollection.IsSynchronized</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">ControlCollection.this[int]</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
@@ -156,12 +161,15 @@
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="DotNetNuke.html">DotNetNuke</a>.<a class="xref" href="DotNetNuke.Web.html">Web</a>.<a class="xref" href="DotNetNuke.Web.UI.html">UI</a>.<a class="xref" href="DotNetNuke.Web.UI.WebControls.html">WebControls</a></h6>
   <h6><strong>Assembly</strong>: DotNetNuke.Web.dll</h6>
   <h5 id="DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class TypedControlCollection&lt;T&gt; : ControlCollection, ICollection, IEnumerable where T : Control</code></pre>
+    <pre><code class="lang-csharp hljs">public class TypedControlCollection&lt;T&gt; : ControlCollection, ICollection, IList&lt;T&gt;, ICollection&lt;T&gt;, IEnumerable&lt;T&gt;, IEnumerable where T : Control</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -207,6 +215,50 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_Item_" data-uid="DotNetNuke.Web.UI.WebControls.TypedControlCollection`1.Item*"></a>
+  <h4 id="DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_Item_System_Int32_" data-uid="DotNetNuke.Web.UI.WebControls.TypedControlCollection`1.Item(System.Int32)">this[int]</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T this[int index] { get; set; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
 
@@ -238,6 +290,33 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.controlcollection.add">ControlCollection.Add(Control)</a></div>
+
+
+  <a id="DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_Add_" data-uid="DotNetNuke.Web.UI.WebControls.TypedControlCollection`1.Add*"></a>
+  <h4 id="DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_Add__0_" data-uid="DotNetNuke.Web.UI.WebControls.TypedControlCollection`1.Add(`0)">Add(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(T item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
   <a id="DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_AddAt_" data-uid="DotNetNuke.Web.UI.WebControls.TypedControlCollection`1.AddAt*"></a>
@@ -272,9 +351,218 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.controlcollection.addat">ControlCollection.AddAt(int, Control)</a></div>
+
+
+  <a id="DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_Contains_" data-uid="DotNetNuke.Web.UI.WebControls.TypedControlCollection`1.Contains*"></a>
+  <h4 id="DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_Contains__0_" data-uid="DotNetNuke.Web.UI.WebControls.TypedControlCollection`1.Contains(`0)">Contains(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Contains(T item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_CopyTo_" data-uid="DotNetNuke.Web.UI.WebControls.TypedControlCollection`1.CopyTo*"></a>
+  <h4 id="DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_CopyTo__0___System_Int32_" data-uid="DotNetNuke.Web.UI.WebControls.TypedControlCollection`1.CopyTo(`0[],System.Int32)">CopyTo(T[], int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CopyTo(T[] array, int arrayIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">array</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">arrayIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_IndexOf_" data-uid="DotNetNuke.Web.UI.WebControls.TypedControlCollection`1.IndexOf*"></a>
+  <h4 id="DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_IndexOf__0_" data-uid="DotNetNuke.Web.UI.WebControls.TypedControlCollection`1.IndexOf(`0)">IndexOf(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int IndexOf(T item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_Insert_" data-uid="DotNetNuke.Web.UI.WebControls.TypedControlCollection`1.Insert*"></a>
+  <h4 id="DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_Insert_System_Int32__0_" data-uid="DotNetNuke.Web.UI.WebControls.TypedControlCollection`1.Insert(System.Int32,`0)">Insert(int, T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Insert(int index, T item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_Remove_" data-uid="DotNetNuke.Web.UI.WebControls.TypedControlCollection`1.Remove*"></a>
+  <h4 id="DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_Remove__0_" data-uid="DotNetNuke.Web.UI.WebControls.TypedControlCollection`1.Remove(`0)">Remove(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Remove(T item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_ThrowOnInvalidControlType_" data-uid="DotNetNuke.Web.UI.WebControls.TypedControlCollection`1.ThrowOnInvalidControlType*"></a>
+  <h4 id="DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_ThrowOnInvalidControlType" data-uid="DotNetNuke.Web.UI.WebControls.TypedControlCollection`1.ThrowOnInvalidControlType">ThrowOnInvalidControlType()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void ThrowOnInvalidControlType()</code></pre>
+  </div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a>
   </div>
   <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a>

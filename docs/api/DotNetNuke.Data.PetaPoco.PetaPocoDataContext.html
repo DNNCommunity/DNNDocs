@@ -140,8 +140,147 @@ public class PetaPocoDataContext : IDataContext, IDisposable</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PetaPocoDataContext()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IHostSettings. Scheduled removal in v12.0.0.&quot;)]
+public PetaPocoDataContext()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Data_PetaPoco_PetaPocoDataContext__ctor_" data-uid="DotNetNuke.Data.PetaPoco.PetaPocoDataContext.#ctor*"></a>
+  <h4 id="DotNetNuke_Data_PetaPoco_PetaPocoDataContext__ctor_DotNetNuke_Abstractions_Application_IHostSettings_" data-uid="DotNetNuke.Data.PetaPoco.PetaPocoDataContext.#ctor(DotNetNuke.Abstractions.Application.IHostSettings)">PetaPocoDataContext(IHostSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PetaPocoDataContext(IHostSettings hostSettings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Data_PetaPoco_PetaPocoDataContext__ctor_" data-uid="DotNetNuke.Data.PetaPoco.PetaPocoDataContext.#ctor*"></a>
+  <h4 id="DotNetNuke_Data_PetaPoco_PetaPocoDataContext__ctor_DotNetNuke_Abstractions_Application_IHostSettings_System_String_" data-uid="DotNetNuke.Data.PetaPoco.PetaPocoDataContext.#ctor(DotNetNuke.Abstractions.Application.IHostSettings,System.String)">PetaPocoDataContext(IHostSettings, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PetaPocoDataContext(IHostSettings hostSettings, string connectionStringName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">connectionStringName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Data_PetaPoco_PetaPocoDataContext__ctor_" data-uid="DotNetNuke.Data.PetaPoco.PetaPocoDataContext.#ctor*"></a>
+  <h4 id="DotNetNuke_Data_PetaPoco_PetaPocoDataContext__ctor_DotNetNuke_Abstractions_Application_IHostSettings_System_String_System_String_" data-uid="DotNetNuke.Data.PetaPoco.PetaPocoDataContext.#ctor(DotNetNuke.Abstractions.Application.IHostSettings,System.String,System.String)">PetaPocoDataContext(IHostSettings, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PetaPocoDataContext(IHostSettings hostSettings, string connectionStringName, string tablePrefix)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">connectionStringName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">tablePrefix</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Data_PetaPoco_PetaPocoDataContext__ctor_" data-uid="DotNetNuke.Data.PetaPoco.PetaPocoDataContext.#ctor*"></a>
+  <h4 id="DotNetNuke_Data_PetaPoco_PetaPocoDataContext__ctor_DotNetNuke_Abstractions_Application_IHostSettings_System_String_System_String_System_Collections_Generic_Dictionary_System_Type_PetaPoco_IMapper__" data-uid="DotNetNuke.Data.PetaPoco.PetaPocoDataContext.#ctor(DotNetNuke.Abstractions.Application.IHostSettings,System.String,System.String,System.Collections.Generic.Dictionary{System.Type,PetaPoco.IMapper})">PetaPocoDataContext(IHostSettings, string, string, Dictionary&lt;Type, IMapper&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PetaPocoDataContext(IHostSettings hostSettings, string connectionStringName, string tablePrefix, Dictionary&lt;Type, IMapper&gt; mappers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">connectionStringName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">tablePrefix</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a>, <span class="xref">IMapper</span>&gt;</td>
+        <td><span class="parametername">mappers</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
   <a id="DotNetNuke_Data_PetaPoco_PetaPocoDataContext__ctor_" data-uid="DotNetNuke.Data.PetaPoco.PetaPocoDataContext.#ctor*"></a>
@@ -150,7 +289,8 @@ public class PetaPocoDataContext : IDataContext, IDisposable</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PetaPocoDataContext(string connectionStringName)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IHostSettings. Scheduled removal in v12.0.0.&quot;)]
+public PetaPocoDataContext(string connectionStringName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -177,7 +317,8 @@ public class PetaPocoDataContext : IDataContext, IDisposable</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PetaPocoDataContext(string connectionStringName, string tablePrefix)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IHostSettings. Scheduled removal in v12.0.0.&quot;)]
+public PetaPocoDataContext(string connectionStringName, string tablePrefix)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -209,7 +350,8 @@ public class PetaPocoDataContext : IDataContext, IDisposable</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PetaPocoDataContext(string connectionStringName, string tablePrefix, Dictionary&lt;Type, IMapper&gt; mappers)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IHostSettings. Scheduled removal in v12.0.0.&quot;)]
+public PetaPocoDataContext(string connectionStringName, string tablePrefix, Dictionary&lt;Type, IMapper&gt; mappers)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

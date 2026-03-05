@@ -87,7 +87,8 @@
 
 
   <h1 id="Dnn_PersonaBar_Library_Helper_PermissionHelper" data-uid="Dnn.PersonaBar.Library.Helper.PermissionHelper" class="text-break">Class PermissionHelper</h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Helpers methods for permissions.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -129,6 +130,38 @@
 
 
   <a id="Dnn_PersonaBar_Library_Helper_PermissionHelper_AddRolePermission_" data-uid="Dnn.PersonaBar.Library.Helper.PermissionHelper.AddRolePermission*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Helper_PermissionHelper_AddRolePermission_Dnn_PersonaBar_Library_Dto_Permissions_DotNetNuke_Abstractions_Security_Permissions_IPermissionInfo_" data-uid="Dnn.PersonaBar.Library.Helper.PermissionHelper.AddRolePermission(Dnn.PersonaBar.Library.Dto.Permissions,DotNetNuke.Abstractions.Security.Permissions.IPermissionInfo)">AddRolePermission(Permissions, IPermissionInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddRolePermission(this Permissions dto, IPermissionInfo permissionInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Dnn.PersonaBar.Library.Dto.Permissions.html">Permissions</a></td>
+        <td><span class="parametername">dto</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionInfo.html">IPermissionInfo</a></td>
+        <td><span class="parametername">permissionInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Dnn_PersonaBar_Library_Helper_PermissionHelper_AddRolePermission_" data-uid="Dnn.PersonaBar.Library.Helper.PermissionHelper.AddRolePermission*"></a>
   <h4 id="Dnn_PersonaBar_Library_Helper_PermissionHelper_AddRolePermission_Dnn_PersonaBar_Library_Dto_Permissions_DotNetNuke_Security_Permissions_PermissionInfoBase_" data-uid="Dnn.PersonaBar.Library.Helper.PermissionHelper.AddRolePermission(Dnn.PersonaBar.Library.Dto.Permissions,DotNetNuke.Security.Permissions.PermissionInfoBase)">AddRolePermission(Permissions, PermissionInfoBase)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -153,6 +186,38 @@
       </tr>
       <tr>
         <td><a class="xref" href="DotNetNuke.Security.Permissions.PermissionInfoBase.html">PermissionInfoBase</a></td>
+        <td><span class="parametername">permissionInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Dnn_PersonaBar_Library_Helper_PermissionHelper_AddUserPermission_" data-uid="Dnn.PersonaBar.Library.Helper.PermissionHelper.AddUserPermission*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Helper_PermissionHelper_AddUserPermission_Dnn_PersonaBar_Library_Dto_Permissions_DotNetNuke_Abstractions_Security_Permissions_IPermissionInfo_" data-uid="Dnn.PersonaBar.Library.Helper.PermissionHelper.AddUserPermission(Dnn.PersonaBar.Library.Dto.Permissions,DotNetNuke.Abstractions.Security.Permissions.IPermissionInfo)">AddUserPermission(Permissions, IPermissionInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddUserPermission(this Permissions dto, IPermissionInfo permissionInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Dnn.PersonaBar.Library.Dto.Permissions.html">Permissions</a></td>
+        <td><span class="parametername">dto</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionInfo.html">IPermissionInfo</a></td>
         <td><span class="parametername">permissionInfo</span></td>
         <td></td>
       </tr>
@@ -331,12 +396,13 @@
 
 
   <a id="Dnn_PersonaBar_Library_Helper_PermissionHelper_GetRoles_" data-uid="Dnn.PersonaBar.Library.Helper.PermissionHelper.GetRoles*"></a>
-  <h4 id="Dnn_PersonaBar_Library_Helper_PermissionHelper_GetRoles_System_Int32_" data-uid="Dnn.PersonaBar.Library.Helper.PermissionHelper.GetRoles(System.Int32)">GetRoles(int)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Dnn_PersonaBar_Library_Helper_PermissionHelper_GetRoles_DotNetNuke_Security_Roles_RoleProvider_System_Int32_" data-uid="Dnn.PersonaBar.Library.Helper.PermissionHelper.GetRoles(DotNetNuke.Security.Roles.RoleProvider,System.Int32)">GetRoles(RoleProvider, int)</h4>
+  <div class="markdown level1 summary"><p>Gets the roles for the portal.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static object GetRoles(int portalId)</code></pre>
+    <pre><code class="lang-csharp hljs">public static object GetRoles(RoleProvider roleProvider, int portalId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -349,9 +415,16 @@
     </thead>
     <tbody>
       <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Roles.RoleProvider.html">RoleProvider</a></td>
+        <td><span class="parametername">roleProvider</span></td>
+        <td><p>The role provider.</p>
+</td>
+      </tr>
+      <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><span class="parametername">portalId</span></td>
-        <td></td>
+        <td><p>The portal ID.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -366,7 +439,99 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></td>
-        <td></td>
+        <td><p>An object with <code>Groups</code> and <code>Roles</code> fields.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Dnn_PersonaBar_Library_Helper_PermissionHelper_GetRoles_" data-uid="Dnn.PersonaBar.Library.Helper.PermissionHelper.GetRoles*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Helper_PermissionHelper_GetRoles_System_Int32_" data-uid="Dnn.PersonaBar.Library.Helper.PermissionHelper.GetRoles(System.Int32)">GetRoles(int)</h4>
+  <div class="markdown level1 summary"><p>Gets the roles for the portal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking RoleProvider. Scheduled for removal in v12.0.0.&quot;)]
+public static object GetRoles(int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td><p>The portal ID.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></td>
+        <td><p>An object with <code>Groups</code> and <code>Roles</code> fields.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Dnn_PersonaBar_Library_Helper_PermissionHelper_IsFullControl_" data-uid="Dnn.PersonaBar.Library.Helper.PermissionHelper.IsFullControl*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Helper_PermissionHelper_IsFullControl_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionInfo_" data-uid="Dnn.PersonaBar.Library.Helper.PermissionHelper.IsFullControl(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo)">IsFullControl(IPermissionDefinitionInfo)</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the <code class="paramref">permissionDefinition</code> gives full control.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsFullControl(IPermissionDefinitionInfo permissionDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></td>
+        <td><span class="parametername">permissionDefinition</span></td>
+        <td><p>The permission definition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if it's the full control permission, otherwise <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -374,11 +539,13 @@
 
   <a id="Dnn_PersonaBar_Library_Helper_PermissionHelper_IsFullControl_" data-uid="Dnn.PersonaBar.Library.Helper.PermissionHelper.IsFullControl*"></a>
   <h4 id="Dnn_PersonaBar_Library_Helper_PermissionHelper_IsFullControl_DotNetNuke_Security_Permissions_PermissionInfo_" data-uid="Dnn.PersonaBar.Library.Helper.PermissionHelper.IsFullControl(DotNetNuke.Security.Permissions.PermissionInfo)">IsFullControl(PermissionInfo)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the <code class="paramref">permissionInfo</code> gives full control.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsFullControl(PermissionInfo permissionInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IPermissionDefinitionInfo. Scheduled for removal in v12.0.0.&quot;)]
+public static bool IsFullControl(PermissionInfo permissionInfo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -393,7 +560,8 @@
       <tr>
         <td><a class="xref" href="DotNetNuke.Security.Permissions.PermissionInfo.html">PermissionInfo</a></td>
         <td><span class="parametername">permissionInfo</span></td>
-        <td></td>
+        <td><p>The permission definition.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -408,7 +576,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
+        <td><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if it's the full control permission, otherwise <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -416,11 +585,13 @@
 
   <a id="Dnn_PersonaBar_Library_Helper_PermissionHelper_IsViewPermisison_" data-uid="Dnn.PersonaBar.Library.Helper.PermissionHelper.IsViewPermisison*"></a>
   <h4 id="Dnn_PersonaBar_Library_Helper_PermissionHelper_IsViewPermisison_DotNetNuke_Security_Permissions_PermissionInfo_" data-uid="Dnn.PersonaBar.Library.Helper.PermissionHelper.IsViewPermisison(DotNetNuke.Security.Permissions.PermissionInfo)">IsViewPermisison(PermissionInfo)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the <code class="paramref">permissionInfo</code> is the view permission.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsViewPermisison(PermissionInfo permissionInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use IsViewPermission. Scheduled for removal in v12.0.0.&quot;)]
+public static bool IsViewPermisison(PermissionInfo permissionInfo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -435,7 +606,8 @@
       <tr>
         <td><a class="xref" href="DotNetNuke.Security.Permissions.PermissionInfo.html">PermissionInfo</a></td>
         <td><span class="parametername">permissionInfo</span></td>
-        <td></td>
+        <td><p>The permission definition.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -450,7 +622,53 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
+        <td><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if it's the view permission, otherwise <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Dnn_PersonaBar_Library_Helper_PermissionHelper_IsViewPermission_" data-uid="Dnn.PersonaBar.Library.Helper.PermissionHelper.IsViewPermission*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Helper_PermissionHelper_IsViewPermission_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionInfo_" data-uid="Dnn.PersonaBar.Library.Helper.PermissionHelper.IsViewPermission(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo)">IsViewPermission(IPermissionDefinitionInfo)</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the <code class="paramref">permissionDefinition</code> is the view permission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsViewPermission(IPermissionDefinitionInfo permissionDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionInfo.html">IPermissionDefinitionInfo</a></td>
+        <td><span class="parametername">permissionDefinition</span></td>
+        <td><p>The permission definition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if it's the view permission, otherwise <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</td>
       </tr>
     </tbody>
   </table>

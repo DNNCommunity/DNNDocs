@@ -134,10 +134,105 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DesktopModuleController()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IEventLogger. Scheduled removal in v12.0.0.&quot;)]
+public DesktopModuleController()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Entities_Modules_DesktopModuleController__ctor_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.#ctor*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController__ctor_DotNetNuke_Abstractions_Logging_IEventLogger_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.#ctor(DotNetNuke.Abstractions.Logging.IEventLogger)">DesktopModuleController(IEventLogger)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DesktopModuleController(IEventLogger eventLogger)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
+
+
+  <a id="DotNetNuke_Entities_Modules_DesktopModuleController_AddDesktopModuleToPortal_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.AddDesktopModuleToPortal*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_AddDesktopModuleToPortal_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionService_System_Int32_System_Int32_System_Boolean_System_Boolean_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.AddDesktopModuleToPortal(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService,System.Int32,System.Int32,System.Boolean,System.Boolean)">AddDesktopModuleToPortal(IEventLogger, IPermissionDefinitionService, int, int, bool, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int AddDesktopModuleToPortal(IEventLogger eventLogger, IPermissionDefinitionService permissionDefinitionService, int portalId, int desktopModuleId, bool addPermissions, bool clearCache)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService.html">IPermissionDefinitionService</a></td>
+        <td><span class="parametername">permissionDefinitionService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">desktopModuleId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">addPermissions</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">clearCache</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
   <a id="DotNetNuke_Entities_Modules_DesktopModuleController_AddDesktopModuleToPortal_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.AddDesktopModuleToPortal*"></a>
@@ -203,7 +298,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int AddDesktopModuleToPortal(int portalId, int desktopModuleId, bool addPermissions, bool clearCache)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static int AddDesktopModuleToPortal(int portalId, int desktopModuleId, bool addPermissions, bool clearCache)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -810,12 +906,55 @@
 
 
   <a id="DotNetNuke_Entities_Modules_DesktopModuleController_RemoveDesktopModuleFromPortal_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.RemoveDesktopModuleFromPortal*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_RemoveDesktopModuleFromPortal_DotNetNuke_Abstractions_Logging_IEventLogger_System_Int32_System_Int32_System_Boolean_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.RemoveDesktopModuleFromPortal(DotNetNuke.Abstractions.Logging.IEventLogger,System.Int32,System.Int32,System.Boolean)">RemoveDesktopModuleFromPortal(IEventLogger, int, int, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveDesktopModuleFromPortal(IEventLogger eventLogger, int portalId, int desktopModuleId, bool clearCache)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">desktopModuleId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">clearCache</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Modules_DesktopModuleController_RemoveDesktopModuleFromPortal_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.RemoveDesktopModuleFromPortal*"></a>
   <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_RemoveDesktopModuleFromPortal_System_Int32_System_Int32_System_Boolean_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.RemoveDesktopModuleFromPortal(System.Int32,System.Int32,System.Boolean)">RemoveDesktopModuleFromPortal(int, int, bool)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RemoveDesktopModuleFromPortal(int portalId, int desktopModuleId, bool clearCache)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void RemoveDesktopModuleFromPortal(int portalId, int desktopModuleId, bool clearCache)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -847,12 +986,45 @@
 
 
   <a id="DotNetNuke_Entities_Modules_DesktopModuleController_RemoveDesktopModuleFromPortals_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.RemoveDesktopModuleFromPortals*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_RemoveDesktopModuleFromPortals_DotNetNuke_Abstractions_Logging_IEventLogger_System_Int32_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.RemoveDesktopModuleFromPortals(DotNetNuke.Abstractions.Logging.IEventLogger,System.Int32)">RemoveDesktopModuleFromPortals(IEventLogger, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveDesktopModuleFromPortals(IEventLogger eventLogger, int desktopModuleId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">desktopModuleId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Modules_DesktopModuleController_RemoveDesktopModuleFromPortals_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.RemoveDesktopModuleFromPortals*"></a>
   <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_RemoveDesktopModuleFromPortals_System_Int32_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.RemoveDesktopModuleFromPortals(System.Int32)">RemoveDesktopModuleFromPortals(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RemoveDesktopModuleFromPortals(int desktopModuleId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void RemoveDesktopModuleFromPortals(int desktopModuleId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -874,12 +1046,45 @@
 
 
   <a id="DotNetNuke_Entities_Modules_DesktopModuleController_RemoveDesktopModulesFromPortal_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.RemoveDesktopModulesFromPortal*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_RemoveDesktopModulesFromPortal_DotNetNuke_Abstractions_Logging_IEventLogger_System_Int32_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.RemoveDesktopModulesFromPortal(DotNetNuke.Abstractions.Logging.IEventLogger,System.Int32)">RemoveDesktopModulesFromPortal(IEventLogger, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveDesktopModulesFromPortal(IEventLogger eventLogger, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Modules_DesktopModuleController_RemoveDesktopModulesFromPortal_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.RemoveDesktopModulesFromPortal*"></a>
   <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_RemoveDesktopModulesFromPortal_System_Int32_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.RemoveDesktopModulesFromPortal(System.Int32)">RemoveDesktopModulesFromPortal(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RemoveDesktopModulesFromPortal(int portalId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void RemoveDesktopModulesFromPortal(int portalId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -894,6 +1099,63 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Modules_DesktopModuleController_SaveDesktopModule_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.SaveDesktopModule*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_SaveDesktopModule_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Modules_DesktopModuleInfo_System_Boolean_System_Boolean_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.SaveDesktopModule(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Modules.DesktopModuleInfo,System.Boolean,System.Boolean)">SaveDesktopModule(IEventLogger, DesktopModuleInfo, bool, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int SaveDesktopModule(IEventLogger eventLogger, DesktopModuleInfo desktopModule, bool saveChildren, bool clearCache)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.DesktopModuleInfo.html">DesktopModuleInfo</a></td>
+        <td><span class="parametername">desktopModule</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">saveChildren</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">clearCache</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td></td>
       </tr>
     </tbody>

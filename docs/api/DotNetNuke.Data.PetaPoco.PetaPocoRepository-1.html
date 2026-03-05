@@ -144,6 +144,9 @@
       <a class="xref" href="DotNetNuke.Data.RepositoryBase-1.html#DotNetNuke_Data_RepositoryBase_1_GetScopeValue__1__0_">RepositoryBase&lt;T&gt;.GetScopeValue&lt;TProperty&gt;(T)</a>
     </div>
     <div>
+      <a class="xref" href="DotNetNuke.Data.RepositoryBase-1.html#DotNetNuke_Data_RepositoryBase_1_HostSettings">RepositoryBase&lt;T&gt;.HostSettings</a>
+    </div>
+    <div>
       <a class="xref" href="DotNetNuke.Data.RepositoryBase-1.html#DotNetNuke_Data_RepositoryBase_1_CacheArgs">RepositoryBase&lt;T&gt;.CacheArgs</a>
     </div>
     <div>
@@ -203,12 +206,50 @@
 
 
   <a id="DotNetNuke_Data_PetaPoco_PetaPocoRepository_1__ctor_" data-uid="DotNetNuke.Data.PetaPoco.PetaPocoRepository`1.#ctor*"></a>
+  <h4 id="DotNetNuke_Data_PetaPoco_PetaPocoRepository_1__ctor_DotNetNuke_Abstractions_Application_IHostSettings_PetaPoco_Database_PetaPoco_IMapper_" data-uid="DotNetNuke.Data.PetaPoco.PetaPocoRepository`1.#ctor(DotNetNuke.Abstractions.Application.IHostSettings,PetaPoco.Database,PetaPoco.IMapper)">PetaPocoRepository(IHostSettings, Database, IMapper)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PetaPocoRepository(IHostSettings hostSettings, Database database, IMapper mapper)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Database</span></td>
+        <td><span class="parametername">database</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IMapper</span></td>
+        <td><span class="parametername">mapper</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Data_PetaPoco_PetaPocoRepository_1__ctor_" data-uid="DotNetNuke.Data.PetaPoco.PetaPocoRepository`1.#ctor*"></a>
   <h4 id="DotNetNuke_Data_PetaPoco_PetaPocoRepository_1__ctor_PetaPoco_Database_PetaPoco_IMapper_" data-uid="DotNetNuke.Data.PetaPoco.PetaPocoRepository`1.#ctor(PetaPoco.Database,PetaPoco.IMapper)">PetaPocoRepository(Database, IMapper)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PetaPocoRepository(Database database, IMapper mapper)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IHostSettings. Scheduled removal in v12.0.0.&quot;)]
+public PetaPocoRepository(Database database, IMapper mapper)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

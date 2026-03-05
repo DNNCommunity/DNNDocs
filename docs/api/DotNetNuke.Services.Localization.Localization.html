@@ -510,12 +510,55 @@
 
 
   <a id="DotNetNuke_Services_Localization_Localization_AddLanguageToPortal_" data-uid="DotNetNuke.Services.Localization.Localization.AddLanguageToPortal*"></a>
+  <h4 id="DotNetNuke_Services_Localization_Localization_AddLanguageToPortal_DotNetNuke_Abstractions_Logging_IEventLogger_System_Int32_System_Int32_System_Boolean_" data-uid="DotNetNuke.Services.Localization.Localization.AddLanguageToPortal(DotNetNuke.Abstractions.Logging.IEventLogger,System.Int32,System.Int32,System.Boolean)">AddLanguageToPortal(IEventLogger, int, int, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddLanguageToPortal(IEventLogger eventLogger, int portalId, int languageId, bool clearCache)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">languageId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">clearCache</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Localization_Localization_AddLanguageToPortal_" data-uid="DotNetNuke.Services.Localization.Localization.AddLanguageToPortal*"></a>
   <h4 id="DotNetNuke_Services_Localization_Localization_AddLanguageToPortal_System_Int32_System_Int32_System_Boolean_" data-uid="DotNetNuke.Services.Localization.Localization.AddLanguageToPortal(System.Int32,System.Int32,System.Boolean)">AddLanguageToPortal(int, int, bool)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void AddLanguageToPortal(int portalID, int languageID, bool clearCache)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void AddLanguageToPortal(int portalID, int languageID, bool clearCache)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -764,12 +807,82 @@
 
 
   <a id="DotNetNuke_Services_Localization_Localization_DeleteLanguage_" data-uid="DotNetNuke.Services.Localization.Localization.DeleteLanguage*"></a>
+  <h4 id="DotNetNuke_Services_Localization_Localization_DeleteLanguage_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Services_Localization_Locale_" data-uid="DotNetNuke.Services.Localization.Localization.DeleteLanguage(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Services.Localization.Locale)">DeleteLanguage(IEventLogger, Locale)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeleteLanguage(IEventLogger eventLogger, Locale language)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Localization.Locale.html">Locale</a></td>
+        <td><span class="parametername">language</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Localization_Localization_DeleteLanguage_" data-uid="DotNetNuke.Services.Localization.Localization.DeleteLanguage*"></a>
+  <h4 id="DotNetNuke_Services_Localization_Localization_DeleteLanguage_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Services_Localization_Locale_System_Boolean_" data-uid="DotNetNuke.Services.Localization.Localization.DeleteLanguage(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Services.Localization.Locale,System.Boolean)">DeleteLanguage(IEventLogger, Locale, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeleteLanguage(IEventLogger eventLogger, Locale language, bool isInstalling)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Localization.Locale.html">Locale</a></td>
+        <td><span class="parametername">language</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">isInstalling</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Localization_Localization_DeleteLanguage_" data-uid="DotNetNuke.Services.Localization.Localization.DeleteLanguage*"></a>
   <h4 id="DotNetNuke_Services_Localization_Localization_DeleteLanguage_DotNetNuke_Services_Localization_Locale_" data-uid="DotNetNuke.Services.Localization.Localization.DeleteLanguage(DotNetNuke.Services.Localization.Locale)">DeleteLanguage(Locale)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DeleteLanguage(Locale language)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void DeleteLanguage(Locale language)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -796,7 +909,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DeleteLanguage(Locale language, bool isInstalling)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void DeleteLanguage(Locale language, bool isInstalling)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -2945,12 +3059,92 @@ public static CultureInfo GetPageLocale(PortalSettings portalSettings)</code></p
 
 
   <a id="DotNetNuke_Services_Localization_Localization_RemoveLanguageFromPortal_" data-uid="DotNetNuke.Services.Localization.Localization.RemoveLanguageFromPortal*"></a>
+  <h4 id="DotNetNuke_Services_Localization_Localization_RemoveLanguageFromPortal_DotNetNuke_Abstractions_Logging_IEventLogger_System_Int32_System_Int32_" data-uid="DotNetNuke.Services.Localization.Localization.RemoveLanguageFromPortal(DotNetNuke.Abstractions.Logging.IEventLogger,System.Int32,System.Int32)">RemoveLanguageFromPortal(IEventLogger, int, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveLanguageFromPortal(IEventLogger eventLogger, int portalId, int languageId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">languageId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Localization_Localization_RemoveLanguageFromPortal_" data-uid="DotNetNuke.Services.Localization.Localization.RemoveLanguageFromPortal*"></a>
+  <h4 id="DotNetNuke_Services_Localization_Localization_RemoveLanguageFromPortal_DotNetNuke_Abstractions_Logging_IEventLogger_System_Int32_System_Int32_System_Boolean_" data-uid="DotNetNuke.Services.Localization.Localization.RemoveLanguageFromPortal(DotNetNuke.Abstractions.Logging.IEventLogger,System.Int32,System.Int32,System.Boolean)">RemoveLanguageFromPortal(IEventLogger, int, int, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveLanguageFromPortal(IEventLogger eventLogger, int portalId, int languageId, bool isInstalling)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">languageId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">isInstalling</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Localization_Localization_RemoveLanguageFromPortal_" data-uid="DotNetNuke.Services.Localization.Localization.RemoveLanguageFromPortal*"></a>
   <h4 id="DotNetNuke_Services_Localization_Localization_RemoveLanguageFromPortal_System_Int32_System_Int32_" data-uid="DotNetNuke.Services.Localization.Localization.RemoveLanguageFromPortal(System.Int32,System.Int32)">RemoveLanguageFromPortal(int, int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RemoveLanguageFromPortal(int portalID, int languageID)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void RemoveLanguageFromPortal(int portalID, int languageID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -2982,7 +3176,8 @@ public static CultureInfo GetPageLocale(PortalSettings portalSettings)</code></p
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RemoveLanguageFromPortal(int portalID, int languageID, bool isInstalling)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void RemoveLanguageFromPortal(int portalID, int languageID, bool isInstalling)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -3014,12 +3209,82 @@ public static CultureInfo GetPageLocale(PortalSettings portalSettings)</code></p
 
 
   <a id="DotNetNuke_Services_Localization_Localization_RemoveLanguageFromPortals_" data-uid="DotNetNuke.Services.Localization.Localization.RemoveLanguageFromPortals*"></a>
+  <h4 id="DotNetNuke_Services_Localization_Localization_RemoveLanguageFromPortals_DotNetNuke_Abstractions_Logging_IEventLogger_System_Int32_" data-uid="DotNetNuke.Services.Localization.Localization.RemoveLanguageFromPortals(DotNetNuke.Abstractions.Logging.IEventLogger,System.Int32)">RemoveLanguageFromPortals(IEventLogger, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveLanguageFromPortals(IEventLogger eventLogger, int languageId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">languageId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Localization_Localization_RemoveLanguageFromPortals_" data-uid="DotNetNuke.Services.Localization.Localization.RemoveLanguageFromPortals*"></a>
+  <h4 id="DotNetNuke_Services_Localization_Localization_RemoveLanguageFromPortals_DotNetNuke_Abstractions_Logging_IEventLogger_System_Int32_System_Boolean_" data-uid="DotNetNuke.Services.Localization.Localization.RemoveLanguageFromPortals(DotNetNuke.Abstractions.Logging.IEventLogger,System.Int32,System.Boolean)">RemoveLanguageFromPortals(IEventLogger, int, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveLanguageFromPortals(IEventLogger eventLogger, int languageId, bool isInstalling)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">languageId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">isInstalling</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Localization_Localization_RemoveLanguageFromPortals_" data-uid="DotNetNuke.Services.Localization.Localization.RemoveLanguageFromPortals*"></a>
   <h4 id="DotNetNuke_Services_Localization_Localization_RemoveLanguageFromPortals_System_Int32_" data-uid="DotNetNuke.Services.Localization.Localization.RemoveLanguageFromPortals(System.Int32)">RemoveLanguageFromPortals(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RemoveLanguageFromPortals(int languageId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void RemoveLanguageFromPortals(int languageId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -3046,7 +3311,8 @@ public static CultureInfo GetPageLocale(PortalSettings portalSettings)</code></p
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RemoveLanguageFromPortals(int languageId, bool isInstalling)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void RemoveLanguageFromPortals(int languageId, bool isInstalling)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -3073,12 +3339,45 @@ public static CultureInfo GetPageLocale(PortalSettings portalSettings)</code></p
 
 
   <a id="DotNetNuke_Services_Localization_Localization_RemoveLanguagesFromPortal_" data-uid="DotNetNuke.Services.Localization.Localization.RemoveLanguagesFromPortal*"></a>
+  <h4 id="DotNetNuke_Services_Localization_Localization_RemoveLanguagesFromPortal_DotNetNuke_Abstractions_Logging_IEventLogger_System_Int32_" data-uid="DotNetNuke.Services.Localization.Localization.RemoveLanguagesFromPortal(DotNetNuke.Abstractions.Logging.IEventLogger,System.Int32)">RemoveLanguagesFromPortal(IEventLogger, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveLanguagesFromPortal(IEventLogger eventLogger, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Localization_Localization_RemoveLanguagesFromPortal_" data-uid="DotNetNuke.Services.Localization.Localization.RemoveLanguagesFromPortal*"></a>
   <h4 id="DotNetNuke_Services_Localization_Localization_RemoveLanguagesFromPortal_System_Int32_" data-uid="DotNetNuke.Services.Localization.Localization.RemoveLanguagesFromPortal(System.Int32)">RemoveLanguagesFromPortal(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RemoveLanguagesFromPortal(int portalId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void RemoveLanguagesFromPortal(int portalId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -3100,12 +3399,82 @@ public static CultureInfo GetPageLocale(PortalSettings portalSettings)</code></p
 
 
   <a id="DotNetNuke_Services_Localization_Localization_SaveLanguage_" data-uid="DotNetNuke.Services.Localization.Localization.SaveLanguage*"></a>
+  <h4 id="DotNetNuke_Services_Localization_Localization_SaveLanguage_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Services_Localization_Locale_" data-uid="DotNetNuke.Services.Localization.Localization.SaveLanguage(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Services.Localization.Locale)">SaveLanguage(IEventLogger, Locale)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SaveLanguage(IEventLogger eventLogger, Locale locale)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Localization.Locale.html">Locale</a></td>
+        <td><span class="parametername">locale</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Localization_Localization_SaveLanguage_" data-uid="DotNetNuke.Services.Localization.Localization.SaveLanguage*"></a>
+  <h4 id="DotNetNuke_Services_Localization_Localization_SaveLanguage_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Services_Localization_Locale_System_Boolean_" data-uid="DotNetNuke.Services.Localization.Localization.SaveLanguage(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Services.Localization.Locale,System.Boolean)">SaveLanguage(IEventLogger, Locale, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SaveLanguage(IEventLogger eventLogger, Locale locale, bool clearCache)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.Localization.Locale.html">Locale</a></td>
+        <td><span class="parametername">locale</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">clearCache</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Localization_Localization_SaveLanguage_" data-uid="DotNetNuke.Services.Localization.Localization.SaveLanguage*"></a>
   <h4 id="DotNetNuke_Services_Localization_Localization_SaveLanguage_DotNetNuke_Services_Localization_Locale_" data-uid="DotNetNuke.Services.Localization.Localization.SaveLanguage(DotNetNuke.Services.Localization.Locale)">SaveLanguage(Locale)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SaveLanguage(Locale locale)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void SaveLanguage(Locale locale)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -3132,7 +3501,8 @@ public static CultureInfo GetPageLocale(PortalSettings portalSettings)</code></p
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SaveLanguage(Locale locale, bool clearCache)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void SaveLanguage(Locale locale, bool clearCache)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

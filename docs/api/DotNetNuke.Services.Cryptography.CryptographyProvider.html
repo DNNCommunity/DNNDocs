@@ -126,7 +126,8 @@
   <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
   <h5 id="DotNetNuke_Services_Cryptography_CryptographyProvider_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class CryptographyProvider : ICryptographyProvider</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use DotNetNuke.Abstractions.Security.ICryptographyProvider. Scheduled for removal in v12.0.0.&quot;)]
+public abstract class CryptographyProvider : ICryptographyProvider</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -140,8 +141,246 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected CryptographyProvider()</code></pre>
   </div>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="DotNetNuke_Services_Cryptography_CryptographyProvider_EncryptParameterAlgorithmName_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.EncryptParameterAlgorithmName*"></a>
+  <h4 id="DotNetNuke_Services_Cryptography_CryptographyProvider_EncryptParameterAlgorithmName" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.EncryptParameterAlgorithmName">EncryptParameterAlgorithmName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string EncryptParameterAlgorithmName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Cryptography_CryptographyProvider_EncryptStringAlgorithmName_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.EncryptStringAlgorithmName*"></a>
+  <h4 id="DotNetNuke_Services_Cryptography_CryptographyProvider_EncryptStringAlgorithmName" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.EncryptStringAlgorithmName">EncryptStringAlgorithmName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string EncryptStringAlgorithmName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Cryptography_CryptographyProvider_EncryptStringHashAlgorithmName_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.EncryptStringHashAlgorithmName*"></a>
+  <h4 id="DotNetNuke_Services_Cryptography_CryptographyProvider_EncryptStringHashAlgorithmName" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.EncryptStringHashAlgorithmName">EncryptStringHashAlgorithmName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string EncryptStringHashAlgorithmName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Cryptography_CryptographyProvider_EncryptStringSymmetricAlgorithmName_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.EncryptStringSymmetricAlgorithmName*"></a>
+  <h4 id="DotNetNuke_Services_Cryptography_CryptographyProvider_EncryptStringSymmetricAlgorithmName" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.EncryptStringSymmetricAlgorithmName">EncryptStringSymmetricAlgorithmName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string EncryptStringSymmetricAlgorithmName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
+
+
+  <a id="DotNetNuke_Services_Cryptography_CryptographyProvider_CreateHashAlgorithm_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.CreateHashAlgorithm*"></a>
+  <h4 id="DotNetNuke_Services_Cryptography_CryptographyProvider_CreateHashAlgorithm_System_String_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.CreateHashAlgorithm(System.String)">CreateHashAlgorithm(string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static HashAlgorithm CreateHashAlgorithm(string algorithmName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">algorithmName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.security.cryptography.hashalgorithm">HashAlgorithm</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Cryptography_CryptographyProvider_CreateSymmetricAlgorithm_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.CreateSymmetricAlgorithm*"></a>
+  <h4 id="DotNetNuke_Services_Cryptography_CryptographyProvider_CreateSymmetricAlgorithm_System_String_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.CreateSymmetricAlgorithm(System.String)">CreateSymmetricAlgorithm(string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static SymmetricAlgorithm CreateSymmetricAlgorithm(string algorithmName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">algorithmName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.security.cryptography.symmetricalgorithm">SymmetricAlgorithm</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Cryptography_CryptographyProvider_CreateSymmetricAlgorithm_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.CreateSymmetricAlgorithm*"></a>
+  <h4 id="DotNetNuke_Services_Cryptography_CryptographyProvider_CreateSymmetricAlgorithm_System_String_System_Byte___System_String_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.CreateSymmetricAlgorithm(System.String,System.Byte[],System.String)">CreateSymmetricAlgorithm(string, byte[], string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static SymmetricAlgorithm CreateSymmetricAlgorithm(string algorithmName, byte[] key, string initializationVector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">algorithmName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">initializationVector</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.security.cryptography.symmetricalgorithm">SymmetricAlgorithm</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
   <a id="DotNetNuke_Services_Cryptography_CryptographyProvider_DecryptParameter_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.DecryptParameter*"></a>
@@ -150,7 +389,108 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract string DecryptParameter(string message, string passphrase)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use DotNetNuke.Abstractions.Security.ICryptographyProvider. Scheduled for removal in v12.0.0.&quot;)]
+public abstract string DecryptParameter(string message, string passphrase)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">passphrase</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Cryptography_CryptographyProvider_DecryptParameter_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.DecryptParameter*"></a>
+  <h4 id="DotNetNuke_Services_Cryptography_CryptographyProvider_DecryptParameter_System_String_System_String_System_String_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.DecryptParameter(System.String,System.String,System.String)">DecryptParameter(string, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DecryptParameter(string message, string passphrase, string algorithmName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">passphrase</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">algorithmName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Cryptography_CryptographyProvider_DecryptString_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.DecryptString*"></a>
+  <h4 id="DotNetNuke_Services_Cryptography_CryptographyProvider_DecryptString_System_String_System_String_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.DecryptString(System.String,System.String)">DecryptString(string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use DotNetNuke.Abstractions.Security.ICryptographyProvider. Scheduled for removal in v12.0.0.&quot;)]
+public abstract string DecryptString(string message, string passphrase)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -192,12 +532,70 @@
 
 
   <a id="DotNetNuke_Services_Cryptography_CryptographyProvider_DecryptString_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.DecryptString*"></a>
-  <h4 id="DotNetNuke_Services_Cryptography_CryptographyProvider_DecryptString_System_String_System_String_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.DecryptString(System.String,System.String)">DecryptString(string, string)</h4>
+  <h4 id="DotNetNuke_Services_Cryptography_CryptographyProvider_DecryptString_System_String_System_String_System_String_System_String_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.DecryptString(System.String,System.String,System.String,System.String)">DecryptString(string, string, string, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract string DecryptString(string message, string passphrase)</code></pre>
+    <pre><code class="lang-csharp hljs">public string DecryptString(string message, string passphrase, string algorithmName, string initializationVector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">passphrase</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">algorithmName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">initializationVector</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Cryptography_CryptographyProvider_EncryptParameter_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.EncryptParameter*"></a>
+  <h4 id="DotNetNuke_Services_Cryptography_CryptographyProvider_EncryptParameter_System_String_System_String_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.EncryptParameter(System.String,System.String)">EncryptParameter(string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use DotNetNuke.Abstractions.Security.ICryptographyProvider. Scheduled for removal in v12.0.0.&quot;)]
+public abstract string EncryptParameter(string message, string passphrase)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -239,12 +637,65 @@
 
 
   <a id="DotNetNuke_Services_Cryptography_CryptographyProvider_EncryptParameter_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.EncryptParameter*"></a>
-  <h4 id="DotNetNuke_Services_Cryptography_CryptographyProvider_EncryptParameter_System_String_System_String_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.EncryptParameter(System.String,System.String)">EncryptParameter(string, string)</h4>
+  <h4 id="DotNetNuke_Services_Cryptography_CryptographyProvider_EncryptParameter_System_String_System_String_System_Security_Cryptography_SymmetricAlgorithm_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.EncryptParameter(System.String,System.String,System.Security.Cryptography.SymmetricAlgorithm)">EncryptParameter(string, string, SymmetricAlgorithm)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract string EncryptParameter(string message, string passphrase)</code></pre>
+    <pre><code class="lang-csharp hljs">protected static string EncryptParameter(string message, string passphrase, SymmetricAlgorithm algorithm)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">passphrase</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.security.cryptography.symmetricalgorithm">SymmetricAlgorithm</a></td>
+        <td><span class="parametername">algorithm</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Cryptography_CryptographyProvider_EncryptString_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.EncryptString*"></a>
+  <h4 id="DotNetNuke_Services_Cryptography_CryptographyProvider_EncryptString_System_String_System_String_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.EncryptString(System.String,System.String)">EncryptString(string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Use DotNetNuke.Abstractions.Security.ICryptographyProvider. Scheduled for removal in v12.0.0.&quot;)]
+public abstract string EncryptString(string message, string passphrase)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -286,12 +737,12 @@
 
 
   <a id="DotNetNuke_Services_Cryptography_CryptographyProvider_EncryptString_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.EncryptString*"></a>
-  <h4 id="DotNetNuke_Services_Cryptography_CryptographyProvider_EncryptString_System_String_System_String_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.EncryptString(System.String,System.String)">EncryptString(string, string)</h4>
+  <h4 id="DotNetNuke_Services_Cryptography_CryptographyProvider_EncryptString_System_String_System_String_System_Security_Cryptography_HashAlgorithm_System_String_System_Func_System_Byte___System_Security_Cryptography_SymmetricAlgorithm__System_String_" data-uid="DotNetNuke.Services.Cryptography.CryptographyProvider.EncryptString(System.String,System.String,System.Security.Cryptography.HashAlgorithm,System.String,System.Func{System.Byte[],System.Security.Cryptography.SymmetricAlgorithm},System.String)">EncryptString(string, string, HashAlgorithm, string, Func&lt;byte[], SymmetricAlgorithm&gt;, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract string EncryptString(string message, string passphrase)</code></pre>
+    <pre><code class="lang-csharp hljs">protected static (string EncryptedMessage, string AlgorithmName, string InitializationVector) EncryptString(string message, string passphrase, HashAlgorithm hashAlgorithm, string hashAlgorithmName, Func&lt;byte[], SymmetricAlgorithm&gt; createSymmetricAlgorithm, string symmetricAlgorithmName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -313,6 +764,26 @@
         <td><span class="parametername">passphrase</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.security.cryptography.hashalgorithm">HashAlgorithm</a></td>
+        <td><span class="parametername">hashAlgorithm</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">hashAlgorithmName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[], <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.security.cryptography.symmetricalgorithm">SymmetricAlgorithm</a>&gt;</td>
+        <td><span class="parametername">createSymmetricAlgorithm</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">symmetricAlgorithmName</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -325,7 +796,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.string-.encryptedmessage">EncryptedMessage</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.string-.algorithm">Algorithm</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.string-.initializationvector">InitializationVector</a>)</td>
         <td></td>
       </tr>
     </tbody>

@@ -553,8 +553,36 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected ActionBase()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IEventLogger. Scheduled removal in v12.0.0.&quot;)]
+protected ActionBase()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_UI_Containers_ActionBase__ctor_" data-uid="DotNetNuke.UI.Containers.ActionBase.#ctor*"></a>
+  <h4 id="DotNetNuke_UI_Containers_ActionBase__ctor_DotNetNuke_Abstractions_Logging_IEventLogger_" data-uid="DotNetNuke.UI.Containers.ActionBase.#ctor(DotNetNuke.Abstractions.Logging.IEventLogger)">ActionBase(IEventLogger)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ActionBase(IEventLogger eventLogger)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="fields">Fields
 </h3>
 
@@ -680,6 +708,31 @@ protected bool m_supportsIcons</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_UI_Containers_ActionBase_EventLogger_" data-uid="DotNetNuke.UI.Containers.ActionBase.EventLogger*"></a>
+  <h4 id="DotNetNuke_UI_Containers_ActionBase_EventLogger" data-uid="DotNetNuke.UI.Containers.ActionBase.EventLogger">EventLogger</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IEventLogger EventLogger { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
         <td></td>
       </tr>
     </tbody>

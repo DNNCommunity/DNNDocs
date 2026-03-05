@@ -1599,7 +1599,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Dnn.PersonaBar.Library.Helper.PermissionHelper",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Dnn.PersonaBar.Library.Helper.PermissionHelper.yml\" sourcestartlinenumber=\"1\">Helpers methods for permissions.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1767,7 +1767,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Dnn.PersonaBar.Library.Permissions.MenuPermissionController",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Dnn.PersonaBar.Library.Permissions.MenuPermissionController.yml\" sourcestartlinenumber=\"1\">Controls menu permissions.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2397,6 +2397,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Abstractions.ClientResources.IClientResourceController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.ClientResources.IClientResourceSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.ClientResources.IClientResourceSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.ClientResources.IClientResourceSettings",
       "Summary": null
     },
     {
@@ -3143,6 +3157,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Abstractions.Security.ICryptographyProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Abstractions.Security.ICryptographyProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Abstractions.Security.ICryptographyProvider",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Abstractions.Security.IFileExtensionAllowList.yml",
       "output": {
         ".html": {
@@ -3461,6 +3489,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Collections.EnumerableExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Collections.GenericCollectionBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Collections.GenericCollectionBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Collections.GenericCollectionBase<TElement>",
       "Summary": null
     },
     {
@@ -9509,6 +9551,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Entities.Urls.BrowserTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Entities.Urls.BrowserTypesExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Entities.Urls.BrowserTypesExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Entities.Urls.BrowserTypesExtensions",
       "Summary": null
     },
     {
@@ -30788,7 +30844,7 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
+      "type": "Redirection",
       "source_relative_path": "content/getting-started/design/index.md",
       "output": {
         ".html": {

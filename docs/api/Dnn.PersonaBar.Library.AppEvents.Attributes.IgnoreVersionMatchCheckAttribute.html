@@ -235,7 +235,8 @@ on assembly with a version different from the version of Dnn.PersonaBar.Library.
   <h6><strong>Assembly</strong>: Dnn.PersonaBar.Library.dll</h6>
   <h5 id="Dnn_PersonaBar_Library_AppEvents_Attributes_IgnoreVersionMatchCheckAttribute_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class IgnoreVersionMatchCheckAttribute : Attribute, _Attribute</code></pre>
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Class)]
+public class IgnoreVersionMatchCheckAttribute : Attribute, _Attribute</code></pre>
   </div>
   <h5 id="Dnn_PersonaBar_Library_AppEvents_Attributes_IgnoreVersionMatchCheckAttribute_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>This has been added as workaround for microservices module and a jira (CONTENT-6958) has been

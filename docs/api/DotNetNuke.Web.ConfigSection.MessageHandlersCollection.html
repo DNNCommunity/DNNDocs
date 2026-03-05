@@ -99,6 +99,8 @@
   <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement">ConfigurationElement</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement">ConfigurationElement</a>&gt;</div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
   </div>
   <div class="inheritedMembers">
@@ -309,7 +311,7 @@
   <h6><strong>Assembly</strong>: DotNetNuke.Web.dll</h6>
   <h5 id="DotNetNuke_Web_ConfigSection_MessageHandlersCollection_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MessageHandlersCollection : ConfigurationElementCollection, ICollection, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class MessageHandlersCollection : ConfigurationElementCollection, ICollection, ICollection&lt;ConfigurationElement&gt;, IEnumerable&lt;ConfigurationElement&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -369,6 +371,85 @@
   </table>
   <h3 id="methods">Methods
 </h3>
+
+
+  <a id="DotNetNuke_Web_ConfigSection_MessageHandlersCollection_Add_" data-uid="DotNetNuke.Web.ConfigSection.MessageHandlersCollection.Add*"></a>
+  <h4 id="DotNetNuke_Web_ConfigSection_MessageHandlersCollection_Add_System_Configuration_ConfigurationElement_" data-uid="DotNetNuke.Web.ConfigSection.MessageHandlersCollection.Add(System.Configuration.ConfigurationElement)">Add(ConfigurationElement)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(ConfigurationElement item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement">ConfigurationElement</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Web_ConfigSection_MessageHandlersCollection_Clear_" data-uid="DotNetNuke.Web.ConfigSection.MessageHandlersCollection.Clear*"></a>
+  <h4 id="DotNetNuke_Web_ConfigSection_MessageHandlersCollection_Clear" data-uid="DotNetNuke.Web.ConfigSection.MessageHandlersCollection.Clear">Clear()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+
+
+  <a id="DotNetNuke_Web_ConfigSection_MessageHandlersCollection_Contains_" data-uid="DotNetNuke.Web.ConfigSection.MessageHandlersCollection.Contains*"></a>
+  <h4 id="DotNetNuke_Web_ConfigSection_MessageHandlersCollection_Contains_System_Configuration_ConfigurationElement_" data-uid="DotNetNuke.Web.ConfigSection.MessageHandlersCollection.Contains(System.Configuration.ConfigurationElement)">Contains(ConfigurationElement)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Contains(ConfigurationElement item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement">ConfigurationElement</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
   <a id="DotNetNuke_Web_ConfigSection_MessageHandlersCollection_CreateNewElement_" data-uid="DotNetNuke.Web.ConfigSection.MessageHandlersCollection.CreateNewElement*"></a>
@@ -440,9 +521,57 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelementcollection.getelementkey">ConfigurationElementCollection.GetElementKey(ConfigurationElement)</a></div>
+
+
+  <a id="DotNetNuke_Web_ConfigSection_MessageHandlersCollection_Remove_" data-uid="DotNetNuke.Web.ConfigSection.MessageHandlersCollection.Remove*"></a>
+  <h4 id="DotNetNuke_Web_ConfigSection_MessageHandlersCollection_Remove_System_Configuration_ConfigurationElement_" data-uid="DotNetNuke.Web.ConfigSection.MessageHandlersCollection.Remove(System.Configuration.ConfigurationElement)">Remove(ConfigurationElement)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Remove(ConfigurationElement item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.configuration.configurationelement">ConfigurationElement</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a>
   </div>
   <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a>

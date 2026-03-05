@@ -135,8 +135,68 @@ public abstract class Permissions</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Permissions()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IPermissionDefinitionService. Scheduled removal in v12.0.0.&quot;)]
+protected Permissions()</code></pre>
   </div>
+
+
+  <a id="Dnn_PersonaBar_Library_Dto_Permissions__ctor_" data-uid="Dnn.PersonaBar.Library.Dto.Permissions.#ctor*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Dto_Permissions__ctor_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionService_" data-uid="Dnn.PersonaBar.Library.Dto.Permissions.#ctor(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService)">Permissions(IPermissionDefinitionService)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Permissions(IPermissionDefinitionService permissionDefinitionService)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService.html">IPermissionDefinitionService</a></td>
+        <td><span class="parametername">permissionDefinitionService</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Dnn_PersonaBar_Library_Dto_Permissions__ctor_" data-uid="Dnn.PersonaBar.Library.Dto.Permissions.#ctor*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Dto_Permissions__ctor_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionService_System_Boolean_" data-uid="Dnn.PersonaBar.Library.Dto.Permissions.#ctor(DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService,System.Boolean)">Permissions(IPermissionDefinitionService, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Permissions(IPermissionDefinitionService permissionDefinitionService, bool needDefinitions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService.html">IPermissionDefinitionService</a></td>
+        <td><span class="parametername">permissionDefinitionService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">needDefinitions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
   <a id="Dnn_PersonaBar_Library_Dto_Permissions__ctor_" data-uid="Dnn.PersonaBar.Library.Dto.Permissions.#ctor*"></a>
@@ -145,7 +205,8 @@ public abstract class Permissions</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Permissions(bool needDefinitions)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IPermissionDefinitionService. Scheduled removal in v12.0.0.&quot;)]
+protected Permissions(bool needDefinitions)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -166,6 +227,32 @@ public abstract class Permissions</code></pre>
   </table>
   <h3 id="properties">Properties
 </h3>
+
+
+  <a id="Dnn_PersonaBar_Library_Dto_Permissions_PermissionDefinitionService_" data-uid="Dnn.PersonaBar.Library.Dto.Permissions.PermissionDefinitionService*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Dto_Permissions_PermissionDefinitionService" data-uid="Dnn.PersonaBar.Library.Dto.Permissions.PermissionDefinitionService">PermissionDefinitionService</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+protected IPermissionDefinitionService PermissionDefinitionService { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService.html">IPermissionDefinitionService</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
   <a id="Dnn_PersonaBar_Library_Dto_Permissions_PermissionDefinitions_" data-uid="Dnn.PersonaBar.Library.Dto.Permissions.PermissionDefinitions*"></a>
@@ -258,7 +345,13 @@ public IList&lt;UserPermission&gt; UserPermissions { get; set; }</code></pre>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
+      <a class="xref" href="Dnn.PersonaBar.Library.Helper.PermissionHelper.html#Dnn_PersonaBar_Library_Helper_PermissionHelper_AddRolePermission_Dnn_PersonaBar_Library_Dto_Permissions_DotNetNuke_Abstractions_Security_Permissions_IPermissionInfo_">PermissionHelper.AddRolePermission(Permissions, IPermissionInfo)</a>
+  </div>
+  <div>
       <a class="xref" href="Dnn.PersonaBar.Library.Helper.PermissionHelper.html#Dnn_PersonaBar_Library_Helper_PermissionHelper_AddRolePermission_Dnn_PersonaBar_Library_Dto_Permissions_DotNetNuke_Security_Permissions_PermissionInfoBase_">PermissionHelper.AddRolePermission(Permissions, PermissionInfoBase)</a>
+  </div>
+  <div>
+      <a class="xref" href="Dnn.PersonaBar.Library.Helper.PermissionHelper.html#Dnn_PersonaBar_Library_Helper_PermissionHelper_AddUserPermission_Dnn_PersonaBar_Library_Dto_Permissions_DotNetNuke_Abstractions_Security_Permissions_IPermissionInfo_">PermissionHelper.AddUserPermission(Permissions, IPermissionInfo)</a>
   </div>
   <div>
       <a class="xref" href="Dnn.PersonaBar.Library.Helper.PermissionHelper.html#Dnn_PersonaBar_Library_Helper_PermissionHelper_AddUserPermission_Dnn_PersonaBar_Library_Dto_Permissions_DotNetNuke_Security_Permissions_PermissionInfoBase_">PermissionHelper.AddUserPermission(Permissions, PermissionInfoBase)</a>

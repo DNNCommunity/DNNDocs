@@ -93,15 +93,46 @@
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
     <div class="level1"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.controlcollection">ControlCollection</a></div>
-    <div class="level2"><span class="xref">DnnRibbonBarGroupCollection</span></div>
+    <div class="level2"><a class="xref" href="DotNetNuke.Web.UI.WebControls.TypedControlCollection-1.html">TypedControlCollection</a>&lt;<a class="xref" href="DotNetNuke.Web.UI.WebControls.DnnRibbonBarGroup.html">DnnRibbonBarGroup</a>&gt;</div>
+    <div class="level3"><span class="xref">DnnRibbonBarGroupCollection</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="DotNetNuke.Web.UI.WebControls.DnnRibbonBarGroup.html">DnnRibbonBarGroup</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="DotNetNuke.Web.UI.WebControls.DnnRibbonBarGroup.html">DnnRibbonBarGroup</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="DotNetNuke.Web.UI.WebControls.DnnRibbonBarGroup.html">DnnRibbonBarGroup</a>&gt;</div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.UI.WebControls.TypedControlCollection-1.html#DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_IndexOf__0_">TypedControlCollection&lt;DnnRibbonBarGroup&gt;.IndexOf(DnnRibbonBarGroup)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.UI.WebControls.TypedControlCollection-1.html#DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_Insert_System_Int32__0_">TypedControlCollection&lt;DnnRibbonBarGroup&gt;.Insert(int, DnnRibbonBarGroup)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.UI.WebControls.TypedControlCollection-1.html#DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_Add_System_Web_UI_Control_">TypedControlCollection&lt;DnnRibbonBarGroup&gt;.Add(Control)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.UI.WebControls.TypedControlCollection-1.html#DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_AddAt_System_Int32_System_Web_UI_Control_">TypedControlCollection&lt;DnnRibbonBarGroup&gt;.AddAt(int, Control)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.UI.WebControls.TypedControlCollection-1.html#DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_Add__0_">TypedControlCollection&lt;DnnRibbonBarGroup&gt;.Add(DnnRibbonBarGroup)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.UI.WebControls.TypedControlCollection-1.html#DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_Contains__0_">TypedControlCollection&lt;DnnRibbonBarGroup&gt;.Contains(DnnRibbonBarGroup)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.UI.WebControls.TypedControlCollection-1.html#DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_CopyTo__0___System_Int32_">TypedControlCollection&lt;DnnRibbonBarGroup&gt;.CopyTo(DnnRibbonBarGroup[], int)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.UI.WebControls.TypedControlCollection-1.html#DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_Remove__0_">TypedControlCollection&lt;DnnRibbonBarGroup&gt;.Remove(DnnRibbonBarGroup)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Web.UI.WebControls.TypedControlCollection-1.html#DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_Item_System_Int32_">TypedControlCollection&lt;DnnRibbonBarGroup&gt;.this[int]</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.controlcollection.clear">ControlCollection.Clear()</a>
     </div>
@@ -164,7 +195,7 @@
   <h6><strong>Assembly</strong>: DotNetNuke.Web.dll</h6>
   <h5 id="DotNetNuke_Web_UI_WebControls_DnnRibbonBarGroupCollection_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DnnRibbonBarGroupCollection : ControlCollection, ICollection, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class DnnRibbonBarGroupCollection : TypedControlCollection&lt;DnnRibbonBarGroup&gt;, ICollection, IList&lt;DnnRibbonBarGroup&gt;, ICollection&lt;DnnRibbonBarGroup&gt;, IEnumerable&lt;DnnRibbonBarGroup&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -195,118 +226,32 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-</h3>
-
-
-  <a id="DotNetNuke_Web_UI_WebControls_DnnRibbonBarGroupCollection_Item_" data-uid="DotNetNuke.Web.UI.WebControls.DnnRibbonBarGroupCollection.Item*"></a>
-  <h4 id="DotNetNuke_Web_UI_WebControls_DnnRibbonBarGroupCollection_Item_System_Int32_" data-uid="DotNetNuke.Web.UI.WebControls.DnnRibbonBarGroupCollection.Item(System.Int32)">this[int]</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DnnRibbonBarGroup this[int index] { get; }</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DotNetNuke.Web.UI.WebControls.DnnRibbonBarGroup.html">DnnRibbonBarGroup</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
 </h3>
 
 
-  <a id="DotNetNuke_Web_UI_WebControls_DnnRibbonBarGroupCollection_Add_" data-uid="DotNetNuke.Web.UI.WebControls.DnnRibbonBarGroupCollection.Add*"></a>
-  <h4 id="DotNetNuke_Web_UI_WebControls_DnnRibbonBarGroupCollection_Add_System_Web_UI_Control_" data-uid="DotNetNuke.Web.UI.WebControls.DnnRibbonBarGroupCollection.Add(System.Web.UI.Control)">Add(Control)</h4>
+  <a id="DotNetNuke_Web_UI_WebControls_DnnRibbonBarGroupCollection_ThrowOnInvalidControlType_" data-uid="DotNetNuke.Web.UI.WebControls.DnnRibbonBarGroupCollection.ThrowOnInvalidControlType*"></a>
+  <h4 id="DotNetNuke_Web_UI_WebControls_DnnRibbonBarGroupCollection_ThrowOnInvalidControlType" data-uid="DotNetNuke.Web.UI.WebControls.DnnRibbonBarGroupCollection.ThrowOnInvalidControlType">ThrowOnInvalidControlType()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Add(Control child)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void ThrowOnInvalidControlType()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.control">Control</a></td>
-        <td><span class="parametername">child</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.controlcollection.add">ControlCollection.Add(Control)</a></div>
-
-
-  <a id="DotNetNuke_Web_UI_WebControls_DnnRibbonBarGroupCollection_AddAt_" data-uid="DotNetNuke.Web.UI.WebControls.DnnRibbonBarGroupCollection.AddAt*"></a>
-  <h4 id="DotNetNuke_Web_UI_WebControls_DnnRibbonBarGroupCollection_AddAt_System_Int32_System_Web_UI_Control_" data-uid="DotNetNuke.Web.UI.WebControls.DnnRibbonBarGroupCollection.AddAt(System.Int32,System.Web.UI.Control)">AddAt(int, Control)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void AddAt(int index, Control child)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.control">Control</a></td>
-        <td><span class="parametername">child</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.controlcollection.addat">ControlCollection.AddAt(int, Control)</a></div>
+  <div><a class="xref" href="DotNetNuke.Web.UI.WebControls.TypedControlCollection-1.html#DotNetNuke_Web_UI_WebControls_TypedControlCollection_1_ThrowOnInvalidControlType">TypedControlCollection&lt;DnnRibbonBarGroup&gt;.ThrowOnInvalidControlType()</a></div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a>
   </div>
   <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a>

@@ -101,6 +101,7 @@
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a></div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icloneable">ICloneable</a></div>
     <div><a class="xref" href="DotNetNuke.Abstractions.Logging.ILogProperties.html">ILogProperties</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="DotNetNuke.Abstractions.Logging.ILogDetailInfo.html">ILogDetailInfo</a>&gt;</div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="DotNetNuke.Abstractions.Logging.ILogDetailInfo.html">ILogDetailInfo</a>&gt;</div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="DotNetNuke.Abstractions.Logging.ILogDetailInfo.html">ILogDetailInfo</a>&gt;</div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
@@ -277,7 +278,7 @@
   <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
   <h5 id="DotNetNuke_Services_Log_EventLog_LogProperties_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LogProperties : ArrayList, IList, ICollection, ICloneable, ILogProperties, ICollection&lt;ILogDetailInfo&gt;, IEnumerable&lt;ILogDetailInfo&gt;, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class LogProperties : ArrayList, IList, ICollection, ICloneable, ILogProperties, IList&lt;ILogDetailInfo&gt;, ICollection&lt;ILogDetailInfo&gt;, IEnumerable&lt;ILogDetailInfo&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -450,6 +451,80 @@
   </table>
 
 
+  <a id="DotNetNuke_Services_Log_EventLog_LogProperties_IndexOf_" data-uid="DotNetNuke.Services.Log.EventLog.LogProperties.IndexOf*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_LogProperties_IndexOf_DotNetNuke_Abstractions_Logging_ILogDetailInfo_" data-uid="DotNetNuke.Services.Log.EventLog.LogProperties.IndexOf(DotNetNuke.Abstractions.Logging.ILogDetailInfo)">IndexOf(ILogDetailInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int IndexOf(ILogDetailInfo item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.ILogDetailInfo.html">ILogDetailInfo</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Services_Log_EventLog_LogProperties_Insert_" data-uid="DotNetNuke.Services.Log.EventLog.LogProperties.Insert*"></a>
+  <h4 id="DotNetNuke_Services_Log_EventLog_LogProperties_Insert_System_Int32_DotNetNuke_Abstractions_Logging_ILogDetailInfo_" data-uid="DotNetNuke.Services.Log.EventLog.LogProperties.Insert(System.Int32,DotNetNuke.Abstractions.Logging.ILogDetailInfo)">Insert(int, ILogDetailInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Insert(int index, ILogDetailInfo item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.ILogDetailInfo.html">ILogDetailInfo</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Services_Log_EventLog_LogProperties_ReadXml_" data-uid="DotNetNuke.Services.Log.EventLog.LogProperties.ReadXml*"></a>
   <h4 id="DotNetNuke_Services_Log_EventLog_LogProperties_ReadXml_System_Xml_XmlReader_" data-uid="DotNetNuke.Services.Log.EventLog.LogProperties.ReadXml(System.Xml.XmlReader)">ReadXml(XmlReader)</h4>
   <div class="markdown level1 summary"></div>
@@ -608,6 +683,9 @@
   </div>
   <div>
       <a class="xref" href="DotNetNuke.Abstractions.Logging.ILogProperties.html">ILogProperties</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a>
   </div>
   <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>

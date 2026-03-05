@@ -129,12 +129,75 @@
 
 
   <a id="DotNetNuke_Web_Mvc_Framework_ViewEngineCollectionExt_FindPartialView_" data-uid="DotNetNuke.Web.Mvc.Framework.ViewEngineCollectionExt.FindPartialView*"></a>
+  <h4 id="DotNetNuke_Web_Mvc_Framework_ViewEngineCollectionExt_FindPartialView_System_Web_Mvc_ViewEngineCollection_DotNetNuke_Abstractions_Application_IHostSettings_System_Web_Mvc_ControllerContext_System_String_System_Boolean_" data-uid="DotNetNuke.Web.Mvc.Framework.ViewEngineCollectionExt.FindPartialView(System.Web.Mvc.ViewEngineCollection,DotNetNuke.Abstractions.Application.IHostSettings,System.Web.Mvc.ControllerContext,System.String,System.Boolean)">FindPartialView(ViewEngineCollection, IHostSettings, ControllerContext, string, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ViewEngineResult FindPartialView(this ViewEngineCollection viewEngineCollection, IHostSettings hostSettings, ControllerContext controllerContext, string partialViewName, bool useCache)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ViewEngineCollection</span></td>
+        <td><span class="parametername">viewEngineCollection</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">ControllerContext</span></td>
+        <td><span class="parametername">controllerContext</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">partialViewName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">useCache</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ViewEngineResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Web_Mvc_Framework_ViewEngineCollectionExt_FindPartialView_" data-uid="DotNetNuke.Web.Mvc.Framework.ViewEngineCollectionExt.FindPartialView*"></a>
   <h4 id="DotNetNuke_Web_Mvc_Framework_ViewEngineCollectionExt_FindPartialView_System_Web_Mvc_ViewEngineCollection_System_Web_Mvc_ControllerContext_System_String_System_Boolean_" data-uid="DotNetNuke.Web.Mvc.Framework.ViewEngineCollectionExt.FindPartialView(System.Web.Mvc.ViewEngineCollection,System.Web.Mvc.ControllerContext,System.String,System.Boolean)">FindPartialView(ViewEngineCollection, ControllerContext, string, bool)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ViewEngineResult FindPartialView(this ViewEngineCollection viewEngineCollection, ControllerContext controllerContext, string partialViewName, bool useCache)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static ViewEngineResult FindPartialView(this ViewEngineCollection viewEngineCollection, ControllerContext controllerContext, string partialViewName, bool useCache)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -186,12 +249,80 @@
 
 
   <a id="DotNetNuke_Web_Mvc_Framework_ViewEngineCollectionExt_FindView_" data-uid="DotNetNuke.Web.Mvc.Framework.ViewEngineCollectionExt.FindView*"></a>
+  <h4 id="DotNetNuke_Web_Mvc_Framework_ViewEngineCollectionExt_FindView_System_Web_Mvc_ViewEngineCollection_DotNetNuke_Abstractions_Application_IHostSettings_System_Web_Mvc_ControllerContext_System_String_System_String_System_Boolean_" data-uid="DotNetNuke.Web.Mvc.Framework.ViewEngineCollectionExt.FindView(System.Web.Mvc.ViewEngineCollection,DotNetNuke.Abstractions.Application.IHostSettings,System.Web.Mvc.ControllerContext,System.String,System.String,System.Boolean)">FindView(ViewEngineCollection, IHostSettings, ControllerContext, string, string, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ViewEngineResult FindView(this ViewEngineCollection viewEngineCollection, IHostSettings hostSettings, ControllerContext controllerContext, string viewName, string masterName, bool useCache)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ViewEngineCollection</span></td>
+        <td><span class="parametername">viewEngineCollection</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">ControllerContext</span></td>
+        <td><span class="parametername">controllerContext</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">viewName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">masterName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">useCache</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ViewEngineResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Web_Mvc_Framework_ViewEngineCollectionExt_FindView_" data-uid="DotNetNuke.Web.Mvc.Framework.ViewEngineCollectionExt.FindView*"></a>
   <h4 id="DotNetNuke_Web_Mvc_Framework_ViewEngineCollectionExt_FindView_System_Web_Mvc_ViewEngineCollection_System_Web_Mvc_ControllerContext_System_String_System_String_System_Boolean_" data-uid="DotNetNuke.Web.Mvc.Framework.ViewEngineCollectionExt.FindView(System.Web.Mvc.ViewEngineCollection,System.Web.Mvc.ControllerContext,System.String,System.String,System.Boolean)">FindView(ViewEngineCollection, ControllerContext, string, string, bool)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ViewEngineResult FindView(this ViewEngineCollection viewEngineCollection, ControllerContext controllerContext, string viewName, string masterName, bool useCache)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static ViewEngineResult FindView(this ViewEngineCollection viewEngineCollection, ControllerContext controllerContext, string viewName, string masterName, bool useCache)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

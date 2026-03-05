@@ -93,16 +93,41 @@
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
     <div class="level1"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.collectionbase">CollectionBase</a></div>
-    <div class="level2"><span class="xref">ListInfoCollection</span></div>
+    <div class="level2"><a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html">GenericCollectionBase</a>&lt;<a class="xref" href="DotNetNuke.Common.Lists.ListInfo.html">ListInfo</a>&gt;</div>
+    <div class="level3"><span class="xref">ListInfoCollection</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ilist">IList</a></div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="DotNetNuke.Common.Lists.ListInfo.html">ListInfo</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="DotNetNuke.Common.Lists.ListInfo.html">ListInfo</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="DotNetNuke.Common.Lists.ListInfo.html">ListInfo</a>&gt;</div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_Add__0_">GenericCollectionBase&lt;ListInfo&gt;.Add(ListInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_Remove__0_">GenericCollectionBase&lt;ListInfo&gt;.Remove(ListInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_Contains__0_">GenericCollectionBase&lt;ListInfo&gt;.Contains(ListInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_CopyTo__0___System_Int32_">GenericCollectionBase&lt;ListInfo&gt;.CopyTo(ListInfo[], int)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_IndexOf__0_">GenericCollectionBase&lt;ListInfo&gt;.IndexOf(ListInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_Insert_System_Int32__0_">GenericCollectionBase&lt;ListInfo&gt;.Insert(int, ListInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Collections.GenericCollectionBase-1.html#DotNetNuke_Collections_GenericCollectionBase_1_IsReadOnly">GenericCollectionBase&lt;ListInfo&gt;.IsReadOnly</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.clear">CollectionBase.Clear()</a>
     </div>
@@ -177,7 +202,7 @@
   <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
   <h5 id="DotNetNuke_Common_Lists_ListInfoCollection_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ListInfoCollection : CollectionBase, IList, ICollection, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class ListInfoCollection : GenericCollectionBase&lt;ListInfo&gt;, IList, ICollection, IList&lt;ListInfo&gt;, ICollection&lt;ListInfo&gt;, IEnumerable&lt;ListInfo&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -448,9 +473,30 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a>
   </div>
   <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a>
+  </div>
+  <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.CollectionExtensions.html#DotNetNuke_Collections_CollectionExtensions_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__">CollectionExtensions.ForEach&lt;TType&gt;(IEnumerable&lt;TType&gt;, Action&lt;TType&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.PagingExtensions.html#DotNetNuke_Collections_PagingExtensions_InPagesOf__1_System_Collections_Generic_IEnumerable___0__System_Int32_">PagingExtensions.InPagesOf&lt;T&gt;(IEnumerable&lt;T&gt;, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.PagingExtensions.html#DotNetNuke_Collections_PagingExtensions_ToPagedList__1_System_Collections_Generic_IEnumerable___0__System_Int32_System_Int32_">PagingExtensions.ToPagedList&lt;T&gt;(IEnumerable&lt;T&gt;, int, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="DotNetNuke.Collections.EnumerableExtensions.html#DotNetNuke_Collections_EnumerableExtensions_ToDataTable_System_Collections_Generic_IEnumerable_System_Object__">EnumerableExtensions.ToDataTable(IEnumerable&lt;dynamic&gt;)</a>
+  </div>
   <div>
       <a class="xref" href="DotNetNuke.Common.Utilities.JsonExtensionsWeb.html#DotNetNuke_Common_Utilities_JsonExtensionsWeb_ToJson_System_Object_">JsonExtensionsWeb.ToJson(object)</a>
   </div>
