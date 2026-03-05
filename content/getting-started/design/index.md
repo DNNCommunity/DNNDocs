@@ -3,6 +3,7 @@ uid: getting-started-design
 locale: en
 title: DNN Platform Design
 dnnversion: 09.04.03
+redirect_url: /content/features/extensibility/themes/index.html
 ---
 
 # DNN Platform Design
