@@ -2,7 +2,7 @@
 uid: setup-upgrades-suggested-upgrade-path
 locale: en
 title: DNN Platform Suggested Upgrade Path
-dnnversion: 10.01.02
+dnnversion: 10.02.03
 ---
 
 # DNN Platform Suggested Upgrade Path
@@ -31,27 +31,27 @@ The below is, of course, subject to change. If your current version of DNN Platf
 |[09.01.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1)|[09.03.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|
 |[09.03.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|[09.13.09](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.09)|
 |[09.13.09](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.09)|[10.02.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.2.1)|
-|[10.02.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.02.01)|[10.02.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.2.2)|
+|[10.02.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.02.01) - [New Upgrade Process](xref:setup-upgrades-post-10.2.0)|[10.02.03](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.2.3)|
 
 > [!NOTE]
-> If you are in a situation where you are unable to make the 09.13.09 -> 10.x upgrade, there is a hot-fix release [09.13.10](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.10). This was a special release that contains security patches through the DNN 10.02.00 release and can be used during periods when a 10.x upgrade is not possible.  For a successful upgrade, it is NOT necessary to stop at 09.13.10 prior to upgrading to 10.x.  There is NO guarantee that any future 9.13.x releases will be made, therefore it is suggested to try to prepare for a 10.x upgrade as soon as practical.
+> If you are in a situation where you are unable to make the 09.13.09 -> 10.x upgrade, there is a hot-fix release [09.13.10](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.10). This was a special release that contains security patches through the DNN 10.02.00 release and can be used during periods when a 10.x upgrade is not yet possible.  For a successful upgrade, it is NOT necessary to stop at 09.13.10 prior to upgrading to 10.x.  There is NO guarantee that any future 9.13.x releases will be made, therefore it is suggested to try to prepare for a 10.x upgrade as soon as practical.
+
+> [!NOTE]
+> If upgrading from DNN 10.02.x and later, it is strongly recommended to follow the new upgrade process outlined in the [Post-10.2.0 Upgrade Guide](xref:setup-upgrades-post-10.2.0)
 
 > [!TIP]
-> **Upgrade Notes:** DotNetNuke has been around since 2002, and in that time has had a number of changes which can complicate matters during the process of upgrading through different versions. These include:
-
-> [!NOTE]
-> If upgrading from DNN 10.02.02 and later, it is strongly recommended to follow the new upgrade process outlined in the [Post-10.2.0 Upgrade Guide](xref:setup-upgrades-post-10.2.0)
+> **Upgrade Notes:** DotNetNuke has been around since 2002, and in that time has had a number of changes which can complicate matters during the process of upgrading through different versions. Please review the list below carefully:
 
 ## Requirements Changes & Prerequisites
-- The changeover from DNN 3.x to DNN 4.x - DNN 3.x used ASP.NET 1.1, whereas DNN 4.x and above require ASP.NET 2.0.
-- Editions prior to 4.6.2 - Prior to 4.6.2 site admins had to manually merge a number of key fields in web.config such as the machinekey and both connection strings. With 4.6.2 DotNetNuke introduced functionality known as xmlmerge which automatically does the web.config merging on your behalf.
-- 3.02.02 - 4.03.07 - Please refer to the Detailed installation guide "[Upgrade to DotNetNuke 4.x chapter](https://www.dnnsoftware.com/LinkClick.aspx?fileticket=gOZGbvrVKJw%3d&tabid=478&mid=857)". This blog post also contains information about upgrading from 3.2.2. to 4.x: [Preparing for an upgrade](https://www.dnnsoftware.com/community-blog/cid/135317/preparing-for-an-upgrade)
-- DotNetNuke 5.2 - This version introduced the requirement for SQL 2005 and ASP.NET 3.5 SP1.
-- When upgrading from a version before 5.3.0 to after 5.3.0, you may encounter this error during the upgrade: “Type 'Web.HttpResponse' is not defined.” This error primarily occurs if an the XML module is already installed. To prevent this, please check PRIOR to upgrading if the XML module is installed in your DotNetNuke version. If it is installed, please upgrade it PRIOR to upgrading DotNetNuke to version 4.3.5, available at [DNN.XML Module on GitHub](https://github.com/DNNCommunity/DNN.XML).
-- With the 7.0 release DotNetNuke has some additional changed pre-requisites, please see the [DNN 7 Developer Quick Start](https://www.dnnsoftware.com/wiki/dotnetnuke-70-developer-quick-start#Pre-requisites_0) for further details.
-- In DNN 9.2.0, multiple APIs were removed that were marked deprecated in DNN 7 and before. Most of the core modules have been updated since and you can find them at [https://github.com/dnncommunity](https://github.com/dnncommunity). If you have other modules installed, please check for updates before upgrading to DNN 9.2.0 or later.
-- DNN 9.4.0 introduced a minimum requirement of ASP.NET 4.7.2.
-- DNN 9.8.0 (and above for the 9.x series releases) brings the OPTIONAL (but HIGHLY RECOMMENDED) [Telerik Removal](xref:setup-telerik-removal).
-- DNN 10.0.0 introduced minimum requirements for ASP.NET 4.8 and SQL Server 2017. In addition, it will force-remove DNN-Provided Telerik versions. 
-- DNN 10.1.1 new installs use SHA256 as the default password hashing algorithm. This only affect new installs, if you want to migrate an upgraded site to SHA256, please read [the documentation for membership provider changes](xref:security-membership-providers).
 - DNN 10.2.0 introduced a new simplified upgrade process, see [Post-10.2.0 Upgrade Guide](xref:setup-upgrades-post-10.2.0).
+- DNN 10.1.1 new installs use SHA256 as the default password hashing algorithm. This only affect new installs, if you want to migrate an upgraded site to SHA256, please read [the documentation for membership provider changes](xref:security-membership-providers).
+- DNN 10.0.0 introduced minimum requirements for ASP.NET 4.8 and SQL Server 2017. In addition, it will force-remove DNN-Provided Telerik versions. 
+- DNN 9.8.0 (and above for the 9.x series releases) brings the OPTIONAL (but HIGHLY RECOMMENDED) [Telerik Removal](xref:setup-telerik-removal).
+- DNN 9.4.0 introduced a minimum requirement of ASP.NET 4.7.2.
+- In DNN 9.2.0, multiple APIs were removed that were marked deprecated in DNN 7 and before. Most of the core modules have been updated since and you can find them at [https://github.com/dnncommunity](https://github.com/dnncommunity). If you have other modules installed, please check for updates before upgrading to DNN 9.2.0 or later.
+- With the 7.0 release DotNetNuke has some additional changed pre-requisites, please see the [DNN 7 Developer Quick Start](https://www.dnnsoftware.com/wiki/dotnetnuke-70-developer-quick-start#Pre-requisites_0) for further details.
+- When upgrading from a version before 5.3.0 to after 5.3.0, you may encounter this error during the upgrade: “Type 'Web.HttpResponse' is not defined.” This error primarily occurs if an the XML module is already installed. To prevent this, please check PRIOR to upgrading if the XML module is installed in your DotNetNuke version. If it is installed, please upgrade it PRIOR to upgrading DotNetNuke to version 4.3.5, available at [DNN.XML Module on GitHub](https://github.com/DNNCommunity/DNN.XML).
+- DotNetNuke 5.2 - This version introduced the requirement for SQL 2005 and ASP.NET 3.5 SP1.
+- 3.02.02 - 4.03.07 - Please refer to the Detailed installation guide "[Upgrade to DotNetNuke 4.x chapter](https://www.dnnsoftware.com/LinkClick.aspx?fileticket=gOZGbvrVKJw%3d&tabid=478&mid=857)". This blog post also contains information about upgrading from 3.2.2. to 4.x: [Preparing for an upgrade](https://www.dnnsoftware.com/community-blog/cid/135317/preparing-for-an-upgrade)
+- Editions prior to 4.6.2 - Prior to 4.6.2 site admins had to manually merge a number of key fields in web.config such as the machinekey and both connection strings. With 4.6.2 DotNetNuke introduced functionality known as xmlmerge which automatically does the web.config merging on your behalf.
+- The changeover from DNN 3.x to DNN 4.x - DNN 3.x used ASP.NET 1.1, whereas DNN 4.x and above require ASP.NET 2.0.
