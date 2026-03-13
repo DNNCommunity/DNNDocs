@@ -30,8 +30,8 @@ The below is, of course, subject to change. If your current version of DNN Platf
 |[08.00.04](https://github.com/dnnsoftware/Dnn.Releases.Archive.8x/tree/master/08.00.04)|[09.01.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1)|
 |[09.01.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1)|[09.03.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|
 |[09.03.02](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2)|[09.13.09](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.09)|
-|[09.13.09](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.09)|[10.02.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.2.1)|
-|[10.02.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.02.01) - [New Upgrade Process](xref:setup-upgrades-post-10.2.0)|[10.02.03](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.2.3)|
+|[09.13.09](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.09)|[10.02.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.2.1) - [New Upgrade Process](xref:setup-upgrades-post-10.2.0)|
+|[10.02.01](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.02.01)|[10.02.03](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.2.3)|
 
 > [!NOTE]
 > If you are in a situation where you are unable to make the 09.13.09 -> 10.x upgrade, there is a hot-fix release [09.13.10](https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.10). This was a special release that contains security patches through the DNN 10.02.00 release and can be used during periods when a 10.x upgrade is not yet possible.  For a successful upgrade, it is NOT necessary to stop at 09.13.10 prior to upgrading to 10.x.  There is NO guarantee that any future 9.13.x releases will be made, therefore it is suggested to try to prepare for a 10.x upgrade as soon as practical.
