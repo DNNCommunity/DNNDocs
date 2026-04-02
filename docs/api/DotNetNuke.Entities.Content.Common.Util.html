@@ -122,7 +122,8 @@
   <h6><strong>Assembly</strong>: DotNetNuke.dll</h6>
   <h5 id="DotNetNuke_Entities_Content_Common_Util_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Util</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Resolve types via Dependency Injection. Scheduled for removal in v12.0.0.&quot;)]
+public static class Util</code></pre>
   </div>
   <h3 id="methods">Methods
 </h3>
@@ -134,8 +135,56 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IContentController GetContentController()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static IContentController GetContentController()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.IContentController.html">IContentController</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Content_Common_Util_GetContentController_" data-uid="DotNetNuke.Entities.Content.Common.Util.GetContentController*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Common_Util_GetContentController_DotNetNuke_Entities_Content_Data_IDataService_DotNetNuke_Abstractions_Application_IHostSettings_" data-uid="DotNetNuke.Entities.Content.Common.Util.GetContentController(DotNetNuke.Entities.Content.Data.IDataService,DotNetNuke.Abstractions.Application.IHostSettings)">GetContentController(IDataService, IHostSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IContentController GetContentController(IDataService dataService, IHostSettings hostSettings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Data.IDataService.html">IDataService</a></td>
+        <td><span class="parametername">dataService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -184,8 +233,56 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IScopeTypeController GetScopeTypeController()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static IScopeTypeController GetScopeTypeController()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.IScopeTypeController.html">IScopeTypeController</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Content_Common_Util_GetScopeTypeController_" data-uid="DotNetNuke.Entities.Content.Common.Util.GetScopeTypeController*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Common_Util_GetScopeTypeController_DotNetNuke_Entities_Content_Data_IDataService_DotNetNuke_Abstractions_Application_IHostSettings_" data-uid="DotNetNuke.Entities.Content.Common.Util.GetScopeTypeController(DotNetNuke.Entities.Content.Data.IDataService,DotNetNuke.Abstractions.Application.IHostSettings)">GetScopeTypeController(IDataService, IHostSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IScopeTypeController GetScopeTypeController(IDataService dataService, IHostSettings hostSettings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Data.IDataService.html">IDataService</a></td>
+        <td><span class="parametername">dataService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -209,8 +306,56 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ITermController GetTermController()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static ITermController GetTermController()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.ITermController.html">ITermController</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Content_Common_Util_GetTermController_" data-uid="DotNetNuke.Entities.Content.Common.Util.GetTermController*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Common_Util_GetTermController_DotNetNuke_Entities_Content_Data_IDataService_DotNetNuke_Abstractions_Application_IHostSettings_" data-uid="DotNetNuke.Entities.Content.Common.Util.GetTermController(DotNetNuke.Entities.Content.Data.IDataService,DotNetNuke.Abstractions.Application.IHostSettings)">GetTermController(IDataService, IHostSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ITermController GetTermController(IDataService dataService, IHostSettings hostSettings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Data.IDataService.html">IDataService</a></td>
+        <td><span class="parametername">dataService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -234,8 +379,56 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IVocabularyController GetVocabularyController()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static IVocabularyController GetVocabularyController()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.IVocabularyController.html">IVocabularyController</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Content_Common_Util_GetVocabularyController_" data-uid="DotNetNuke.Entities.Content.Common.Util.GetVocabularyController*"></a>
+  <h4 id="DotNetNuke_Entities_Content_Common_Util_GetVocabularyController_DotNetNuke_Entities_Content_Data_IDataService_DotNetNuke_Abstractions_Application_IHostSettings_" data-uid="DotNetNuke.Entities.Content.Common.Util.GetVocabularyController(DotNetNuke.Entities.Content.Data.IDataService,DotNetNuke.Abstractions.Application.IHostSettings)">GetVocabularyController(IDataService, IHostSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IVocabularyController GetVocabularyController(IDataService dataService, IHostSettings hostSettings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Data.IDataService.html">IDataService</a></td>
+        <td><span class="parametername">dataService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-condensed">
     <thead>

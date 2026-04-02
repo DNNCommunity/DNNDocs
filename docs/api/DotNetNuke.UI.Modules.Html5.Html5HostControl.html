@@ -495,7 +495,8 @@ public Html5HostControl(string html5File, IBusinessControllerProvider businessCo
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Html5HostControl(string html5File, IBusinessControllerProvider businessControllerProvider, IServicesFramework servicesFramework)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with IHostSettings. Scheduled removal in v12.0.0.&quot;)]
+public Html5HostControl(string html5File, IBusinessControllerProvider businessControllerProvider, IServicesFramework servicesFramework)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -520,6 +521,48 @@ public Html5HostControl(string html5File, IBusinessControllerProvider businessCo
       <tr>
         <td><a class="xref" href="DotNetNuke.Framework.IServicesFramework.html">IServicesFramework</a></td>
         <td><span class="parametername">servicesFramework</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_UI_Modules_Html5_Html5HostControl__ctor_" data-uid="DotNetNuke.UI.Modules.Html5.Html5HostControl.#ctor*"></a>
+  <h4 id="DotNetNuke_UI_Modules_Html5_Html5HostControl__ctor_System_String_DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_DotNetNuke_Framework_IServicesFramework_DotNetNuke_Abstractions_Application_IHostSettings_" data-uid="DotNetNuke.UI.Modules.Html5.Html5HostControl.#ctor(System.String,DotNetNuke.Abstractions.Modules.IBusinessControllerProvider,DotNetNuke.Framework.IServicesFramework,DotNetNuke.Abstractions.Application.IHostSettings)">Html5HostControl(string, IBusinessControllerProvider, IServicesFramework, IHostSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Html5HostControl(string html5File, IBusinessControllerProvider businessControllerProvider, IServicesFramework servicesFramework, IHostSettings hostSettings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">html5File</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.html">IBusinessControllerProvider</a></td>
+        <td><span class="parametername">businessControllerProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Framework.IServicesFramework.html">IServicesFramework</a></td>
+        <td><span class="parametername">servicesFramework</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
         <td></td>
       </tr>
     </tbody>

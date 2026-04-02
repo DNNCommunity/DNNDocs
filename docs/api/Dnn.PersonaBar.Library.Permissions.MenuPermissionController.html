@@ -142,13 +142,77 @@
 
 
   <a id="Dnn_PersonaBar_Library_Permissions_MenuPermissionController_CanView_" data-uid="Dnn.PersonaBar.Library.Permissions.MenuPermissionController.CanView*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Permissions_MenuPermissionController_CanView_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Entities_Portals_IPortalController_System_Int32_Dnn_PersonaBar_Library_Model_MenuItem_" data-uid="Dnn.PersonaBar.Library.Permissions.MenuPermissionController.CanView(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Entities.Portals.IPortalController,System.Int32,Dnn.PersonaBar.Library.Model.MenuItem)">CanView(IHostSettings, IPortalController, int, MenuItem)</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the current user can view the specified <code class="paramref">menu</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool CanView(IHostSettings hostSettings, IPortalController portalController, int portalId, MenuItem menu)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td><p>The host settings.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td><p>The portal controller.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td><p>The portal ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Dnn.PersonaBar.Library.Model.MenuItem.html">MenuItem</a></td>
+        <td><span class="parametername">menu</span></td>
+        <td><p>The menu.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the user can view the menu, otherwise <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Dnn_PersonaBar_Library_Permissions_MenuPermissionController_CanView_" data-uid="Dnn.PersonaBar.Library.Permissions.MenuPermissionController.CanView*"></a>
   <h4 id="Dnn_PersonaBar_Library_Permissions_MenuPermissionController_CanView_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_Dnn_PersonaBar_Library_Model_MenuItem_" data-uid="Dnn.PersonaBar.Library.Permissions.MenuPermissionController.CanView(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32,Dnn.PersonaBar.Library.Model.MenuItem)">CanView(IHostSettings, int, MenuItem)</h4>
   <div class="markdown level1 summary"><p>Gets a value indicating whether the current user can view the specified <code class="paramref">menu</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool CanView(IHostSettings hostSettings, int portalId, MenuItem menu)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload taking IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static bool CanView(IHostSettings hostSettings, int portalId, MenuItem menu)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -360,13 +424,197 @@ public static void DeletePersonaBarPermission(int menuId, string permissionKey)<
 
 
   <a id="Dnn_PersonaBar_Library_Permissions_MenuPermissionController_GetMenuPermissions_" data-uid="Dnn.PersonaBar.Library.Permissions.MenuPermissionController.GetMenuPermissions*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Permissions_MenuPermissionController_GetMenuPermissions_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Entities_Portals_IPortalController_System_Int32_" data-uid="Dnn.PersonaBar.Library.Permissions.MenuPermissionController.GetMenuPermissions(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Entities.Portals.IPortalController,System.Int32)">GetMenuPermissions(IHostSettings, IPortalController, int)</h4>
+  <div class="markdown level1 summary"><p>Gets the menu permissions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuPermissionCollection GetMenuPermissions(IHostSettings hostSettings, IPortalController portalController, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td><p>The host settings.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td><p>The portal controller.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td><p>The portal ID.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Dnn.PersonaBar.Library.Permissions.MenuPermissionCollection.html">MenuPermissionCollection</a></td>
+        <td><p>A <a class="xref" href="Dnn.PersonaBar.Library.Permissions.MenuPermissionCollection.html">MenuPermissionCollection</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Dnn_PersonaBar_Library_Permissions_MenuPermissionController_GetMenuPermissions_" data-uid="Dnn.PersonaBar.Library.Permissions.MenuPermissionController.GetMenuPermissions*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Permissions_MenuPermissionController_GetMenuPermissions_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Entities_Portals_IPortalController_System_Int32_System_Int32_" data-uid="Dnn.PersonaBar.Library.Permissions.MenuPermissionController.GetMenuPermissions(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Entities.Portals.IPortalController,System.Int32,System.Int32)">GetMenuPermissions(IHostSettings, IPortalController, int, int)</h4>
+  <div class="markdown level1 summary"><p>Gets the menu permissions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuPermissionCollection GetMenuPermissions(IHostSettings hostSettings, IPortalController portalController, int portalId, int menuId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td><p>The host settings.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td><p>The portal controller.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td><p>The portal ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">menuId</span></td>
+        <td><p>The menu ID.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Dnn.PersonaBar.Library.Permissions.MenuPermissionCollection.html">MenuPermissionCollection</a></td>
+        <td><p>A <a class="xref" href="Dnn.PersonaBar.Library.Permissions.MenuPermissionCollection.html">MenuPermissionCollection</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Dnn_PersonaBar_Library_Permissions_MenuPermissionController_GetMenuPermissions_" data-uid="Dnn.PersonaBar.Library.Permissions.MenuPermissionController.GetMenuPermissions*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Permissions_MenuPermissionController_GetMenuPermissions_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Entities_Portals_IPortalController_System_Int32_System_String_" data-uid="Dnn.PersonaBar.Library.Permissions.MenuPermissionController.GetMenuPermissions(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Entities.Portals.IPortalController,System.Int32,System.String)">GetMenuPermissions(IHostSettings, IPortalController, int, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the menu permissions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuPermissionCollection GetMenuPermissions(IHostSettings hostSettings, IPortalController portalController, int portalId, string identifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td><p>The host settings.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td><p>The portal controller.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td><p>The portal ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The menu identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Dnn.PersonaBar.Library.Permissions.MenuPermissionCollection.html">MenuPermissionCollection</a></td>
+        <td><p>A <a class="xref" href="Dnn.PersonaBar.Library.Permissions.MenuPermissionCollection.html">MenuPermissionCollection</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Dnn_PersonaBar_Library_Permissions_MenuPermissionController_GetMenuPermissions_" data-uid="Dnn.PersonaBar.Library.Permissions.MenuPermissionController.GetMenuPermissions*"></a>
   <h4 id="Dnn_PersonaBar_Library_Permissions_MenuPermissionController_GetMenuPermissions_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_" data-uid="Dnn.PersonaBar.Library.Permissions.MenuPermissionController.GetMenuPermissions(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32)">GetMenuPermissions(IHostSettings, int)</h4>
   <div class="markdown level1 summary"><p>Gets the menu permissions.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static MenuPermissionCollection GetMenuPermissions(IHostSettings hostSettings, int portalId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload taking IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static MenuPermissionCollection GetMenuPermissions(IHostSettings hostSettings, int portalId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -417,7 +665,8 @@ public static void DeletePersonaBarPermission(int menuId, string permissionKey)<
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static MenuPermissionCollection GetMenuPermissions(IHostSettings hostSettings, int portalId, int menuId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload taking IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static MenuPermissionCollection GetMenuPermissions(IHostSettings hostSettings, int portalId, int menuId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -474,7 +723,8 @@ public static void DeletePersonaBarPermission(int menuId, string permissionKey)<
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static MenuPermissionCollection GetMenuPermissions(IHostSettings hostSettings, int portalId, string identifier)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload taking IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static MenuPermissionCollection GetMenuPermissions(IHostSettings hostSettings, int portalId, string identifier)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -819,13 +1069,83 @@ public static IList&lt;PermissionInfo&gt; GetPermissions(int menuId)</code></pre
 
 
   <a id="Dnn_PersonaBar_Library_Permissions_MenuPermissionController_HasMenuPermission_" data-uid="Dnn.PersonaBar.Library.Permissions.MenuPermissionController.HasMenuPermission*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Permissions_MenuPermissionController_HasMenuPermission_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Entities_Portals_IPortalController_System_Int32_Dnn_PersonaBar_Library_Model_MenuItem_System_String_" data-uid="Dnn.PersonaBar.Library.Permissions.MenuPermissionController.HasMenuPermission(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Entities.Portals.IPortalController,System.Int32,Dnn.PersonaBar.Library.Model.MenuItem,System.String)">HasMenuPermission(IHostSettings, IPortalController, int, MenuItem, string)</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the current user has the specified menu permission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasMenuPermission(IHostSettings hostSettings, IPortalController portalController, int portalId, MenuItem menu, string permissionKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td><p>The host settings.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td><p>The portal controller.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td><p>The portal ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Dnn.PersonaBar.Library.Model.MenuItem.html">MenuItem</a></td>
+        <td><span class="parametername">menu</span></td>
+        <td><p>The menu.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">permissionKey</span></td>
+        <td><p>The permission key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the user has permission, otherwise <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Dnn_PersonaBar_Library_Permissions_MenuPermissionController_HasMenuPermission_" data-uid="Dnn.PersonaBar.Library.Permissions.MenuPermissionController.HasMenuPermission*"></a>
   <h4 id="Dnn_PersonaBar_Library_Permissions_MenuPermissionController_HasMenuPermission_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_Dnn_PersonaBar_Library_Model_MenuItem_System_String_" data-uid="Dnn.PersonaBar.Library.Permissions.MenuPermissionController.HasMenuPermission(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32,Dnn.PersonaBar.Library.Model.MenuItem,System.String)">HasMenuPermission(IHostSettings, int, MenuItem, string)</h4>
   <div class="markdown level1 summary"><p>Gets a value indicating whether the current user has the specified menu permission.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool HasMenuPermission(IHostSettings hostSettings, int portalId, MenuItem menu, string permissionKey)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload taking IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static bool HasMenuPermission(IHostSettings hostSettings, int portalId, MenuItem menu, string permissionKey)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -982,13 +1302,67 @@ public static bool HasMenuPermission(int portalId, MenuItem menu, string permiss
 
 
   <a id="Dnn_PersonaBar_Library_Permissions_MenuPermissionController_SaveMenuDefaultPermissions_" data-uid="Dnn.PersonaBar.Library.Permissions.MenuPermissionController.SaveMenuDefaultPermissions*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Permissions_MenuPermissionController_SaveMenuDefaultPermissions_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Entities_Portals_IPortalController_System_Int32_Dnn_PersonaBar_Library_Model_MenuItem_System_String_" data-uid="Dnn.PersonaBar.Library.Permissions.MenuPermissionController.SaveMenuDefaultPermissions(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Entities.Portals.IPortalController,System.Int32,Dnn.PersonaBar.Library.Model.MenuItem,System.String)">SaveMenuDefaultPermissions(IHostSettings, IPortalController, int, MenuItem, string)</h4>
+  <div class="markdown level1 summary"><p>Saves the menu's default permissions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SaveMenuDefaultPermissions(IHostSettings hostSettings, IPortalController portalController, int portalId, MenuItem menuItem, string roleName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td><p>The host settings.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td><p>The portal controller.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td><p>The portal ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Dnn.PersonaBar.Library.Model.MenuItem.html">MenuItem</a></td>
+        <td><span class="parametername">menuItem</span></td>
+        <td><p>The menu item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">roleName</span></td>
+        <td><p>The role name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Dnn_PersonaBar_Library_Permissions_MenuPermissionController_SaveMenuDefaultPermissions_" data-uid="Dnn.PersonaBar.Library.Permissions.MenuPermissionController.SaveMenuDefaultPermissions*"></a>
   <h4 id="Dnn_PersonaBar_Library_Permissions_MenuPermissionController_SaveMenuDefaultPermissions_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_Dnn_PersonaBar_Library_Model_MenuItem_System_String_" data-uid="Dnn.PersonaBar.Library.Permissions.MenuPermissionController.SaveMenuDefaultPermissions(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32,Dnn.PersonaBar.Library.Model.MenuItem,System.String)">SaveMenuDefaultPermissions(IHostSettings, int, MenuItem, string)</h4>
   <div class="markdown level1 summary"><p>Saves the menu's default permissions.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SaveMenuDefaultPermissions(IHostSettings hostSettings, int portalId, MenuItem menuItem, string roleName)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload taking IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static void SaveMenuDefaultPermissions(IHostSettings hostSettings, int portalId, MenuItem menuItem, string roleName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

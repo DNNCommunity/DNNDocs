@@ -693,8 +693,41 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UserModuleBase()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with ListController. Scheduled removal in v12.0.0.&quot;)]
+public UserModuleBase()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Entities_Modules_UserModuleBase__ctor_" data-uid="DotNetNuke.Entities.Modules.UserModuleBase.#ctor*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_UserModuleBase__ctor_DotNetNuke_Common_Lists_ListController_DotNetNuke_Abstractions_Application_IHostSettings_" data-uid="DotNetNuke.Entities.Modules.UserModuleBase.#ctor(DotNetNuke.Common.Lists.ListController,DotNetNuke.Abstractions.Application.IHostSettings)">UserModuleBase(ListController, IHostSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UserModuleBase(ListController listController, IHostSettings hostSettings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Common.Lists.ListController.html">ListController</a></td>
+        <td><span class="parametername">listController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
 </h3>
 
@@ -718,6 +751,31 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Modules_UserModuleBase_HostSettings_" data-uid="DotNetNuke.Entities.Modules.UserModuleBase.HostSettings*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_UserModuleBase_HostSettings" data-uid="DotNetNuke.Entities.Modules.UserModuleBase.HostSettings">HostSettings</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IHostSettings HostSettings { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -893,6 +951,31 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Modules_UserModuleBase_ListController_" data-uid="DotNetNuke.Entities.Modules.UserModuleBase.ListController*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_UserModuleBase_ListController" data-uid="DotNetNuke.Entities.Modules.UserModuleBase.ListController">ListController</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ListController ListController { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Common.Lists.ListController.html">ListController</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1155,12 +1238,60 @@
 
 
   <a id="DotNetNuke_Entities_Modules_UserModuleBase_UpdateSetting_" data-uid="DotNetNuke.Entities.Modules.UserModuleBase.UpdateSetting*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_UserModuleBase_UpdateSetting_DotNetNuke_Abstractions_Application_IHostSettingsService_DotNetNuke_Entities_Portals_IPortalController_System_Int32_System_String_System_String_" data-uid="DotNetNuke.Entities.Modules.UserModuleBase.UpdateSetting(DotNetNuke.Abstractions.Application.IHostSettingsService,DotNetNuke.Entities.Portals.IPortalController,System.Int32,System.String,System.String)">UpdateSetting(IHostSettingsService, IPortalController, int, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateSetting(IHostSettingsService hostSettingsService, IPortalController portalController, int portalId, string key, string setting)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettingsService.html">IHostSettingsService</a></td>
+        <td><span class="parametername">hostSettingsService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">setting</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Modules_UserModuleBase_UpdateSetting_" data-uid="DotNetNuke.Entities.Modules.UserModuleBase.UpdateSetting*"></a>
   <h4 id="DotNetNuke_Entities_Modules_UserModuleBase_UpdateSetting_System_Int32_System_String_System_String_" data-uid="DotNetNuke.Entities.Modules.UserModuleBase.UpdateSetting(System.Int32,System.String,System.String)">UpdateSetting(int, string, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void UpdateSetting(int portalId, string key, string setting)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with IHostSettingsService. Scheduled for removal in v12.0.0.&quot;)]
+public static void UpdateSetting(int portalId, string key, string setting)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1192,12 +1323,55 @@
 
 
   <a id="DotNetNuke_Entities_Modules_UserModuleBase_UpdateSettings_" data-uid="DotNetNuke.Entities.Modules.UserModuleBase.UpdateSettings*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_UserModuleBase_UpdateSettings_DotNetNuke_Abstractions_Application_IHostSettingsService_DotNetNuke_Entities_Portals_IPortalController_System_Int32_System_Collections_Hashtable_" data-uid="DotNetNuke.Entities.Modules.UserModuleBase.UpdateSettings(DotNetNuke.Abstractions.Application.IHostSettingsService,DotNetNuke.Entities.Portals.IPortalController,System.Int32,System.Collections.Hashtable)">UpdateSettings(IHostSettingsService, IPortalController, int, Hashtable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateSettings(IHostSettingsService hostSettingsService, IPortalController portalController, int portalId, Hashtable settings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettingsService.html">IHostSettingsService</a></td>
+        <td><span class="parametername">hostSettingsService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.hashtable">Hashtable</a></td>
+        <td><span class="parametername">settings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Modules_UserModuleBase_UpdateSettings_" data-uid="DotNetNuke.Entities.Modules.UserModuleBase.UpdateSettings*"></a>
   <h4 id="DotNetNuke_Entities_Modules_UserModuleBase_UpdateSettings_System_Int32_System_Collections_Hashtable_" data-uid="DotNetNuke.Entities.Modules.UserModuleBase.UpdateSettings(System.Int32,System.Collections.Hashtable)">UpdateSettings(int, Hashtable)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void UpdateSettings(int portalId, Hashtable settings)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static void UpdateSettings(int portalId, Hashtable settings)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

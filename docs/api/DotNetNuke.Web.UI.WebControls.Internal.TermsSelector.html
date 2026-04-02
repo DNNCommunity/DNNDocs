@@ -728,7 +728,8 @@ public TermsSelector()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TermsSelector(IApplicationStatusInfo appStatus, IEventLogger eventLogger, IClientResourceController clientResourceController)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with IContentController. Scheduled removal in v12.0.0.&quot;)]
+public TermsSelector(IApplicationStatusInfo appStatus, IEventLogger eventLogger, IClientResourceController clientResourceController)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -753,6 +754,48 @@ public TermsSelector()</code></pre>
       <tr>
         <td><a class="xref" href="DotNetNuke.Abstractions.ClientResources.IClientResourceController.html">IClientResourceController</a></td>
         <td><span class="parametername">clientResourceController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Web_UI_WebControls_Internal_TermsSelector__ctor_" data-uid="DotNetNuke.Web.UI.WebControls.Internal.TermsSelector.#ctor*"></a>
+  <h4 id="DotNetNuke_Web_UI_WebControls_Internal_TermsSelector__ctor_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Abstractions_ClientResources_IClientResourceController_DotNetNuke_Entities_Content_Taxonomy_ITermController_" data-uid="DotNetNuke.Web.UI.WebControls.Internal.TermsSelector.#ctor(DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Abstractions.ClientResources.IClientResourceController,DotNetNuke.Entities.Content.Taxonomy.ITermController)">TermsSelector(IApplicationStatusInfo, IEventLogger, IClientResourceController, ITermController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TermsSelector(IApplicationStatusInfo appStatus, IEventLogger eventLogger, IClientResourceController clientResourceController, ITermController termController)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.ClientResources.IClientResourceController.html">IClientResourceController</a></td>
+        <td><span class="parametername">clientResourceController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.ITermController.html">ITermController</a></td>
+        <td><span class="parametername">termController</span></td>
         <td></td>
       </tr>
     </tbody>

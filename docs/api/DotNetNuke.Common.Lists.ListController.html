@@ -134,7 +134,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ListController()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with IHostSettings. Scheduled removal in v12.0.0.&quot;)]
+public ListController()</code></pre>
   </div>
 
 
@@ -144,7 +145,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ListController(IEventLogger eventLogger)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with IHostSettings. Scheduled removal in v12.0.0.&quot;)]
+public ListController(IEventLogger eventLogger)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -159,6 +161,38 @@
       <tr>
         <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
         <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Common_Lists_ListController__ctor_" data-uid="DotNetNuke.Common.Lists.ListController.#ctor*"></a>
+  <h4 id="DotNetNuke_Common_Lists_ListController__ctor_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Abstractions_Application_IHostSettings_" data-uid="DotNetNuke.Common.Lists.ListController.#ctor(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Abstractions.Application.IHostSettings)">ListController(IEventLogger, IHostSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ListController(IEventLogger eventLogger, IHostSettings hostSettings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
         <td></td>
       </tr>
     </tbody>

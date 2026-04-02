@@ -135,7 +135,8 @@ public ItemListServiceController()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ItemListServiceController(IHostSettings hostSettings, DataProvider dataProvider, IPortalController portalController, IApplicationStatusInfo appStatus, IPortalGroupController portalGroupController)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with IVocabularyController. Scheduled removal in v12.0.0.&quot;)]
+public ItemListServiceController(IHostSettings hostSettings, DataProvider dataProvider, IPortalController portalController, IApplicationStatusInfo appStatus, IPortalGroupController portalGroupController)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -170,6 +171,63 @@ public ItemListServiceController()</code></pre>
       <tr>
         <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalGroupController.html">IPortalGroupController</a></td>
         <td><span class="parametername">portalGroupController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Web_InternalServices_ItemListServiceController__ctor_" data-uid="DotNetNuke.Web.InternalServices.ItemListServiceController.#ctor*"></a>
+  <h4 id="DotNetNuke_Web_InternalServices_ItemListServiceController__ctor_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Data_DataProvider_DotNetNuke_Entities_Portals_IPortalController_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Entities_Portals_IPortalGroupController_DotNetNuke_Entities_Content_Taxonomy_IVocabularyController_DotNetNuke_Entities_Content_Taxonomy_ITermController_" data-uid="DotNetNuke.Web.InternalServices.ItemListServiceController.#ctor(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Data.DataProvider,DotNetNuke.Entities.Portals.IPortalController,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Entities.Portals.IPortalGroupController,DotNetNuke.Entities.Content.Taxonomy.IVocabularyController,DotNetNuke.Entities.Content.Taxonomy.ITermController)">ItemListServiceController(IHostSettings, DataProvider, IPortalController, IApplicationStatusInfo, IPortalGroupController, IVocabularyController, ITermController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemListServiceController(IHostSettings hostSettings, DataProvider dataProvider, IPortalController portalController, IApplicationStatusInfo appStatus, IPortalGroupController portalGroupController, IVocabularyController vocabularyController, ITermController termController)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.DataProvider.html">DataProvider</a></td>
+        <td><span class="parametername">dataProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalGroupController.html">IPortalGroupController</a></td>
+        <td><span class="parametername">portalGroupController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.IVocabularyController.html">IVocabularyController</a></td>
+        <td><span class="parametername">vocabularyController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.ITermController.html">ITermController</a></td>
+        <td><span class="parametername">termController</span></td>
         <td></td>
       </tr>
     </tbody>

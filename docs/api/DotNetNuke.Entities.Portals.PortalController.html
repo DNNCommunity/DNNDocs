@@ -3928,6 +3928,63 @@ public void ParseTemplate(int portalId, PortalController.PortalTemplateInfo temp
 
 
   <a id="DotNetNuke_Entities_Portals_PortalController_UpdateEncryptedString_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdateEncryptedString*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalController_UpdateEncryptedString_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Entities_Portals_IPortalController_System_Security_Cryptography_HashAlgorithmName_System_Int32_System_String_System_String_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdateEncryptedString(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Entities.Portals.IPortalController,System.Security.Cryptography.HashAlgorithmName,System.Int32,System.String,System.String,System.String)">UpdateEncryptedString(IHostSettings, IPortalController, HashAlgorithmName, int, string, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateEncryptedString(IHostSettings hostSettings, IPortalController portalController, HashAlgorithmName hashAlgorithm, int portalId, string settingName, string settingValue, string passPhrase)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.security.cryptography.hashalgorithmname">HashAlgorithmName</a></td>
+        <td><span class="parametername">hashAlgorithm</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">settingValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">passPhrase</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalController_UpdateEncryptedString_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdateEncryptedString*"></a>
   <h4 id="DotNetNuke_Entities_Portals_PortalController_UpdateEncryptedString_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_System_String_System_String_System_String_" data-uid="DotNetNuke.Entities.Portals.PortalController.UpdateEncryptedString(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32,System.String,System.String,System.String)">UpdateEncryptedString(IHostSettings, int, string, string, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -3981,7 +4038,8 @@ public static void UpdateEncryptedString(IHostSettings hostSettings, int portalI
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void UpdateEncryptedString(IHostSettings hostSettings, HashAlgorithmName hashAlgorithm, int portalId, string settingName, string settingValue, string passPhrase)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static void UpdateEncryptedString(IHostSettings hostSettings, HashAlgorithmName hashAlgorithm, int portalId, string settingName, string settingValue, string passPhrase)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -4403,7 +4461,8 @@ public static void UpdatePortalDefaultLanguage(int portalID, string cultureCode)
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void UpdatePortalSetting(int portalID, string settingName, string settingValue)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static void UpdatePortalSetting(int portalID, string settingName, string settingValue)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

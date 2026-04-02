@@ -163,7 +163,8 @@ public PersonaBarController(IServiceScopeFactory serviceScopeFactory, IPersonaBa
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PersonaBarController(IServiceScopeFactory serviceScopeFactory, IPersonaBarRepository personaBarRepository, IHostSettings hostSettings)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with IPortalController. Scheduled removal in v12.0.0.&quot;)]
+public PersonaBarController(IServiceScopeFactory serviceScopeFactory, IPersonaBarRepository personaBarRepository, IHostSettings hostSettings)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -192,6 +193,48 @@ public PersonaBarController(IServiceScopeFactory serviceScopeFactory, IPersonaBa
         <td><span class="parametername">hostSettings</span></td>
         <td><p>The host settings.</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Dnn_PersonaBar_Library_Controllers_PersonaBarController__ctor_" data-uid="Dnn.PersonaBar.Library.Controllers.PersonaBarController.#ctor*"></a>
+  <h4 id="Dnn_PersonaBar_Library_Controllers_PersonaBarController__ctor_Microsoft_Extensions_DependencyInjection_IServiceScopeFactory_Dnn_PersonaBar_Library_Repository_IPersonaBarRepository_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Entities_Portals_IPortalController_" data-uid="Dnn.PersonaBar.Library.Controllers.PersonaBarController.#ctor(Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,Dnn.PersonaBar.Library.Repository.IPersonaBarRepository,DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Entities.Portals.IPortalController)">PersonaBarController(IServiceScopeFactory, IPersonaBarRepository, IHostSettings, IPortalController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PersonaBarController(IServiceScopeFactory serviceScopeFactory, IPersonaBarRepository personaBarRepository, IHostSettings hostSettings, IPortalController portalController)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IServiceScopeFactory</span></td>
+        <td><span class="parametername">serviceScopeFactory</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Dnn.PersonaBar.Library.Repository.IPersonaBarRepository.html">IPersonaBarRepository</a></td>
+        <td><span class="parametername">personaBarRepository</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

@@ -165,7 +165,8 @@ public TabController()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TabController(IEventLogger eventLogger, DataProvider dataProvider, IPermissionDefinitionService permissionDefinitionService)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with IHostSettings. Scheduled removal in v12.0.0.&quot;)]
+public TabController(IEventLogger eventLogger, DataProvider dataProvider, IPermissionDefinitionService permissionDefinitionService)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -190,6 +191,53 @@ public TabController()</code></pre>
       <tr>
         <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService.html">IPermissionDefinitionService</a></td>
         <td><span class="parametername">permissionDefinitionService</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Tabs_TabController__ctor_" data-uid="DotNetNuke.Entities.Tabs.TabController.#ctor*"></a>
+  <h4 id="DotNetNuke_Entities_Tabs_TabController__ctor_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Data_DataProvider_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionService_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_" data-uid="DotNetNuke.Entities.Tabs.TabController.#ctor(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Data.DataProvider,DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService,DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Application.IApplicationStatusInfo)">TabController(IEventLogger, DataProvider, IPermissionDefinitionService, IHostSettings, IApplicationStatusInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TabController(IEventLogger eventLogger, DataProvider dataProvider, IPermissionDefinitionService permissionDefinitionService, IHostSettings hostSettings, IApplicationStatusInfo appStatus)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.DataProvider.html">DataProvider</a></td>
+        <td><span class="parametername">dataProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService.html">IPermissionDefinitionService</a></td>
+        <td><span class="parametername">permissionDefinitionService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -605,7 +653,8 @@ public void AddMissingLanguages(int portalId, int tabId)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void CopyDesignToChildren(TabInfo parentTab, string skinSrc, string containerSrc)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void CopyDesignToChildren(TabInfo parentTab, string skinSrc, string containerSrc)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -680,12 +729,50 @@ public static void CopyDesignToChildren(TabInfo parentTab, string skinSrc, strin
 
 
   <a id="DotNetNuke_Entities_Tabs_TabController_CopyPermissionsToChildren_" data-uid="DotNetNuke.Entities.Tabs.TabController.CopyPermissionsToChildren*"></a>
+  <h4 id="DotNetNuke_Entities_Tabs_TabController_CopyPermissionsToChildren_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Tabs_TabInfo_DotNetNuke_Security_Permissions_TabPermissionCollection_" data-uid="DotNetNuke.Entities.Tabs.TabController.CopyPermissionsToChildren(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Tabs.TabInfo,DotNetNuke.Security.Permissions.TabPermissionCollection)">CopyPermissionsToChildren(IEventLogger, TabInfo, TabPermissionCollection)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CopyPermissionsToChildren(IEventLogger eventLogger, TabInfo parentTab, TabPermissionCollection newPermissions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a></td>
+        <td><span class="parametername">parentTab</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.TabPermissionCollection.html">TabPermissionCollection</a></td>
+        <td><span class="parametername">newPermissions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Tabs_TabController_CopyPermissionsToChildren_" data-uid="DotNetNuke.Entities.Tabs.TabController.CopyPermissionsToChildren*"></a>
   <h4 id="DotNetNuke_Entities_Tabs_TabController_CopyPermissionsToChildren_DotNetNuke_Entities_Tabs_TabInfo_DotNetNuke_Security_Permissions_TabPermissionCollection_" data-uid="DotNetNuke.Entities.Tabs.TabController.CopyPermissionsToChildren(DotNetNuke.Entities.Tabs.TabInfo,DotNetNuke.Security.Permissions.TabPermissionCollection)">CopyPermissionsToChildren(TabInfo, TabPermissionCollection)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void CopyPermissionsToChildren(TabInfo parentTab, TabPermissionCollection newPermissions)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static void CopyPermissionsToChildren(TabInfo parentTab, TabPermissionCollection newPermissions)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1020,12 +1107,70 @@ public static void CopyDesignToChildren(TabInfo parentTab, string skinSrc, strin
 
 
   <a id="DotNetNuke_Entities_Tabs_TabController_DeserializePanes_" data-uid="DotNetNuke.Entities.Tabs.TabController.DeserializePanes*"></a>
+  <h4 id="DotNetNuke_Entities_Tabs_TabController_DeserializePanes_DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionService_System_Xml_XmlNode_System_Int32_System_Int32_DotNetNuke_Entities_Portals_PortalTemplateModuleAction_System_Collections_Hashtable_" data-uid="DotNetNuke.Entities.Tabs.TabController.DeserializePanes(DotNetNuke.Abstractions.Modules.IBusinessControllerProvider,DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService,System.Xml.XmlNode,System.Int32,System.Int32,DotNetNuke.Entities.Portals.PortalTemplateModuleAction,System.Collections.Hashtable)">DeserializePanes(IBusinessControllerProvider, IPermissionDefinitionService, XmlNode, int, int, PortalTemplateModuleAction, Hashtable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeserializePanes(IBusinessControllerProvider businessControllerProvider, IPermissionDefinitionService permissionDefinitionService, XmlNode nodePanes, int portalId, int tabId, PortalTemplateModuleAction mergeTabs, Hashtable hModules)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Modules.IBusinessControllerProvider.html">IBusinessControllerProvider</a></td>
+        <td><span class="parametername">businessControllerProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService.html">IPermissionDefinitionService</a></td>
+        <td><span class="parametername">permissionDefinitionService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlnode">XmlNode</a></td>
+        <td><span class="parametername">nodePanes</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">tabId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.PortalTemplateModuleAction.html">PortalTemplateModuleAction</a></td>
+        <td><span class="parametername">mergeTabs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.hashtable">Hashtable</a></td>
+        <td><span class="parametername">hModules</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Tabs_TabController_DeserializePanes_" data-uid="DotNetNuke.Entities.Tabs.TabController.DeserializePanes*"></a>
   <h4 id="DotNetNuke_Entities_Tabs_TabController_DeserializePanes_DotNetNuke_Abstractions_Modules_IBusinessControllerProvider_System_Xml_XmlNode_System_Int32_System_Int32_DotNetNuke_Entities_Portals_PortalTemplateModuleAction_System_Collections_Hashtable_" data-uid="DotNetNuke.Entities.Tabs.TabController.DeserializePanes(DotNetNuke.Abstractions.Modules.IBusinessControllerProvider,System.Xml.XmlNode,System.Int32,System.Int32,DotNetNuke.Entities.Portals.PortalTemplateModuleAction,System.Collections.Hashtable)">DeserializePanes(IBusinessControllerProvider, XmlNode, int, int, PortalTemplateModuleAction, Hashtable)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DeserializePanes(IBusinessControllerProvider businessControllerProvider, XmlNode nodePanes, int portalId, int tabId, PortalTemplateModuleAction mergeTabs, Hashtable hModules)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IPermissionDefinitionService. Scheduled for removal in v12.0.0.&quot;)]
+public static void DeserializePanes(IBusinessControllerProvider businessControllerProvider, XmlNode nodePanes, int portalId, int tabId, PortalTemplateModuleAction mergeTabs, Hashtable hModules)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1699,6 +1844,242 @@ public static TabInfo DeserializeTab(XmlNode tabNode, TabInfo tab, int portalId,
 
 
   <a id="DotNetNuke_Entities_Tabs_TabController_GetPortalTabs_" data-uid="DotNetNuke.Entities.Tabs.TabController.GetPortalTabs*"></a>
+  <h4 id="DotNetNuke_Entities_Tabs_TabController_GetPortalTabs_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_System_Int32_System_Int32_System_Boolean_System_Boolean_" data-uid="DotNetNuke.Entities.Tabs.TabController.GetPortalTabs(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,System.Int32,System.Int32,System.Boolean,System.Boolean)">GetPortalTabs(IHostSettings, IApplicationStatusInfo, int, int, bool, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;TabInfo&gt; GetPortalTabs(IHostSettings hostSettings, IApplicationStatusInfo appStatus, int portalId, int excludeTabId, bool includeNoneSpecified, bool includeHidden)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">excludeTabId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">includeNoneSpecified</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">includeHidden</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Tabs_TabController_GetPortalTabs_" data-uid="DotNetNuke.Entities.Tabs.TabController.GetPortalTabs*"></a>
+  <h4 id="DotNetNuke_Entities_Tabs_TabController_GetPortalTabs_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="DotNetNuke.Entities.Tabs.TabController.GetPortalTabs(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">GetPortalTabs(IHostSettings, IApplicationStatusInfo, int, int, bool, bool, bool, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;TabInfo&gt; GetPortalTabs(IHostSettings hostSettings, IApplicationStatusInfo appStatus, int portalId, int excludeTabId, bool includeNoneSpecified, bool includeHidden, bool includeDeleted, bool includeUrl)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">excludeTabId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">includeNoneSpecified</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">includeHidden</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">includeDeleted</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">includeUrl</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Tabs_TabController_GetPortalTabs_" data-uid="DotNetNuke.Entities.Tabs.TabController.GetPortalTabs*"></a>
+  <h4 id="DotNetNuke_Entities_Tabs_TabController_GetPortalTabs_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_System_Int32_System_Int32_System_Boolean_System_String_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="DotNetNuke.Entities.Tabs.TabController.GetPortalTabs(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,System.Int32,System.Int32,System.Boolean,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">GetPortalTabs(IHostSettings, IApplicationStatusInfo, int, int, bool, string, bool, bool, bool, bool, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;TabInfo&gt; GetPortalTabs(IHostSettings hostSettings, IApplicationStatusInfo appStatus, int portalId, int excludeTabId, bool includeNoneSpecified, string noneSpecifiedText, bool includeHidden, bool includeDeleted, bool includeUrl, bool checkViewPermission, bool checkEditPermission)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">excludeTabId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">includeNoneSpecified</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">noneSpecifiedText</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">includeHidden</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">includeDeleted</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">includeUrl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">checkViewPermission</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">checkEditPermission</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="DotNetNuke.Entities.Tabs.TabInfo.html">TabInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Tabs_TabController_GetPortalTabs_" data-uid="DotNetNuke.Entities.Tabs.TabController.GetPortalTabs*"></a>
   <h4 id="DotNetNuke_Entities_Tabs_TabController_GetPortalTabs_System_Collections_Generic_List_DotNetNuke_Entities_Tabs_TabInfo__System_Int32_System_Boolean_System_String_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="DotNetNuke.Entities.Tabs.TabController.GetPortalTabs(System.Collections.Generic.List{DotNetNuke.Entities.Tabs.TabInfo},System.Int32,System.Boolean,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">GetPortalTabs(List&lt;TabInfo&gt;, int, bool, string, bool, bool, bool, bool, bool)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -1873,7 +2254,8 @@ public static TabInfo DeserializeTab(XmlNode tabNode, TabInfo tab, int portalId,
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;TabInfo&gt; GetPortalTabs(int portalId, int excludeTabId, bool includeNoneSpecified, bool includeHidden)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static List&lt;TabInfo&gt; GetPortalTabs(int portalId, int excludeTabId, bool includeNoneSpecified, bool includeHidden)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1930,7 +2312,8 @@ public static TabInfo DeserializeTab(XmlNode tabNode, TabInfo tab, int portalId,
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;TabInfo&gt; GetPortalTabs(int portalId, int excludeTabId, bool includeNoneSpecified, bool includeHidden, bool includeDeleted, bool includeURL)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static List&lt;TabInfo&gt; GetPortalTabs(int portalId, int excludeTabId, bool includeNoneSpecified, bool includeHidden, bool includeDeleted, bool includeURL)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1997,7 +2380,8 @@ public static TabInfo DeserializeTab(XmlNode tabNode, TabInfo tab, int portalId,
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;TabInfo&gt; GetPortalTabs(int portalId, int excludeTabId, bool includeNoneSpecified, string noneSpecifiedText, bool includeHidden, bool includeDeleted, bool includeURL, bool checkViewPermisison, bool checkEditPermission)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static List&lt;TabInfo&gt; GetPortalTabs(int portalId, int excludeTabId, bool includeNoneSpecified, string noneSpecifiedText, bool includeHidden, bool includeDeleted, bool includeURL, bool checkViewPermisison, bool checkEditPermission)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -2324,12 +2708,70 @@ public static TabInfo DeserializeTab(XmlNode tabNode, TabInfo tab, int portalId,
 
 
   <a id="DotNetNuke_Entities_Tabs_TabController_GetTabByTabPath_" data-uid="DotNetNuke.Entities.Tabs.TabController.GetTabByTabPath*"></a>
+  <h4 id="DotNetNuke_Entities_Tabs_TabController_GetTabByTabPath_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_System_String_System_String_" data-uid="DotNetNuke.Entities.Tabs.TabController.GetTabByTabPath(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32,System.String,System.String)">GetTabByTabPath(IHostSettings, int, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetTabByTabPath(IHostSettings hostSettings, int portalId, string tabPath, string cultureCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">tabPath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">cultureCode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Tabs_TabController_GetTabByTabPath_" data-uid="DotNetNuke.Entities.Tabs.TabController.GetTabByTabPath*"></a>
   <h4 id="DotNetNuke_Entities_Tabs_TabController_GetTabByTabPath_System_Int32_System_String_System_String_" data-uid="DotNetNuke.Entities.Tabs.TabController.GetTabByTabPath(System.Int32,System.String,System.String)">GetTabByTabPath(int, string, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int GetTabByTabPath(int portalId, string tabPath, string cultureCode)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static int GetTabByTabPath(int portalId, string tabPath, string cultureCode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -2376,12 +2818,65 @@ public static TabInfo DeserializeTab(XmlNode tabNode, TabInfo tab, int portalId,
 
 
   <a id="DotNetNuke_Entities_Tabs_TabController_GetTabPathDictionary_" data-uid="DotNetNuke.Entities.Tabs.TabController.GetTabPathDictionary*"></a>
+  <h4 id="DotNetNuke_Entities_Tabs_TabController_GetTabPathDictionary_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_System_String_" data-uid="DotNetNuke.Entities.Tabs.TabController.GetTabPathDictionary(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32,System.String)">GetTabPathDictionary(IHostSettings, int, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, int&gt; GetTabPathDictionary(IHostSettings hostSettings, int portalId, string cultureCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">cultureCode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Tabs_TabController_GetTabPathDictionary_" data-uid="DotNetNuke.Entities.Tabs.TabController.GetTabPathDictionary*"></a>
   <h4 id="DotNetNuke_Entities_Tabs_TabController_GetTabPathDictionary_System_Int32_System_String_" data-uid="DotNetNuke.Entities.Tabs.TabController.GetTabPathDictionary(System.Int32,System.String)">GetTabPathDictionary(int, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, int&gt; GetTabPathDictionary(int portalId, string cultureCode)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static Dictionary&lt;string, int&gt; GetTabPathDictionary(int portalId, string cultureCode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

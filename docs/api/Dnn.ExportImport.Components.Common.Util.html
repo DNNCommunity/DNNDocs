@@ -637,12 +637,85 @@ public static IEnumerable&lt;BasePortableService&gt; GetPortableImplementors()</
 
 
   <a id="Dnn_ExportImport_Components_Common_Util_GetProfilePropertyId_" data-uid="Dnn.ExportImport.Components.Common.Util.GetProfilePropertyId*"></a>
+  <h4 id="Dnn_ExportImport_Components_Common_Util_GetProfilePropertyId_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Entities_Portals_IPortalController_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Entities_Portals_IPortalGroupController_System_Int32_System_Nullable_System_Int32__System_String_" data-uid="Dnn.ExportImport.Components.Common.Util.GetProfilePropertyId(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Entities.Portals.IPortalController,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Entities.Portals.IPortalGroupController,System.Int32,System.Nullable{System.Int32},System.String)">GetProfilePropertyId(IHostSettings, IPortalController, IApplicationStatusInfo, IPortalGroupController, int, int?, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int? GetProfilePropertyId(IHostSettings hostSettings, IPortalController portalController, IApplicationStatusInfo appStatus, IPortalGroupController portalGroupController, int portalId, int? exportedProfilePropertyId, string exportProfilePropertyName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalGroupController.html">IPortalGroupController</a></td>
+        <td><span class="parametername">portalGroupController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</td>
+        <td><span class="parametername">exportedProfilePropertyId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">exportProfilePropertyName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Dnn_ExportImport_Components_Common_Util_GetProfilePropertyId_" data-uid="Dnn.ExportImport.Components.Common.Util.GetProfilePropertyId*"></a>
   <h4 id="Dnn_ExportImport_Components_Common_Util_GetProfilePropertyId_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_System_Nullable_System_Int32__System_String_" data-uid="Dnn.ExportImport.Components.Common.Util.GetProfilePropertyId(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32,System.Nullable{System.Int32},System.String)">GetProfilePropertyId(IHostSettings, int, int?, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int? GetProfilePropertyId(IHostSettings hostSettings, int portalId, int? exportedProfilePropertyId, string exportProfilePropertyname)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static int? GetProfilePropertyId(IHostSettings hostSettings, int portalId, int? exportedProfilePropertyId, string exportProfilePropertyname)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

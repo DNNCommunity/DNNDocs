@@ -513,8 +513,41 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Tags()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with IVocabularyController. Scheduled removal in v12.0.0.&quot;)]
+protected Tags()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Web_UI_WebControls_Tags__ctor_" data-uid="DotNetNuke.Web.UI.WebControls.Tags.#ctor*"></a>
+  <h4 id="DotNetNuke_Web_UI_WebControls_Tags__ctor_DotNetNuke_Entities_Content_Taxonomy_IVocabularyController_DotNetNuke_Entities_Content_Taxonomy_ITermController_" data-uid="DotNetNuke.Web.UI.WebControls.Tags.#ctor(DotNetNuke.Entities.Content.Taxonomy.IVocabularyController,DotNetNuke.Entities.Content.Taxonomy.ITermController)">Tags(IVocabularyController, ITermController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Tags(IVocabularyController vocabularyController, ITermController termController)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.IVocabularyController.html">IVocabularyController</a></td>
+        <td><span class="parametername">vocabularyController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.ITermController.html">ITermController</a></td>
+        <td><span class="parametername">termController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
 </h3>
 

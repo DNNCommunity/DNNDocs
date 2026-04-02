@@ -378,12 +378,55 @@ public static int AddDesktopModuleToPortal(int portalId, int desktopModuleId, bo
 
 
   <a id="DotNetNuke_Entities_Modules_DesktopModuleController_AddDesktopModulesToPortal_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.AddDesktopModulesToPortal*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_AddDesktopModulesToPortal_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Abstractions_Security_Permissions_IPermissionDefinitionService_System_Int32_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.AddDesktopModulesToPortal(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService,System.Int32)">AddDesktopModulesToPortal(IHostSettings, IEventLogger, IPermissionDefinitionService, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddDesktopModulesToPortal(IHostSettings hostSettings, IEventLogger eventLogger, IPermissionDefinitionService permissionDefinitionService, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.Permissions.IPermissionDefinitionService.html">IPermissionDefinitionService</a></td>
+        <td><span class="parametername">permissionDefinitionService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Modules_DesktopModuleController_AddDesktopModulesToPortal_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.AddDesktopModulesToPortal*"></a>
   <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_AddDesktopModulesToPortal_System_Int32_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.AddDesktopModulesToPortal(System.Int32)">AddDesktopModulesToPortal(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void AddDesktopModulesToPortal(int portalId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static void AddDesktopModulesToPortal(int portalId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -513,12 +556,65 @@ public static int AddDesktopModuleToPortal(int portalId, int desktopModuleId, bo
 
 
   <a id="DotNetNuke_Entities_Modules_DesktopModuleController_GetDesktopModule_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetDesktopModule*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_GetDesktopModule_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_System_Int32_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetDesktopModule(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32,System.Int32)">GetDesktopModule(IHostSettings, int, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DesktopModuleInfo GetDesktopModule(IHostSettings hostSettings, int desktopModuleId, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">desktopModuleId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.DesktopModuleInfo.html">DesktopModuleInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Modules_DesktopModuleController_GetDesktopModule_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetDesktopModule*"></a>
   <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_GetDesktopModule_System_Int32_System_Int32_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetDesktopModule(System.Int32,System.Int32)">GetDesktopModule(int, int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DesktopModuleInfo GetDesktopModule(int desktopModuleID, int portalID)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static DesktopModuleInfo GetDesktopModule(int desktopModuleID, int portalID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -560,12 +656,60 @@ public static int AddDesktopModuleToPortal(int portalId, int desktopModuleId, bo
 
 
   <a id="DotNetNuke_Entities_Modules_DesktopModuleController_GetDesktopModuleByFriendlyName_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetDesktopModuleByFriendlyName*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_GetDesktopModuleByFriendlyName_DotNetNuke_Abstractions_Application_IHostSettings_System_String_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetDesktopModuleByFriendlyName(DotNetNuke.Abstractions.Application.IHostSettings,System.String)">GetDesktopModuleByFriendlyName(IHostSettings, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DesktopModuleInfo GetDesktopModuleByFriendlyName(IHostSettings hostSettings, string friendlyName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">friendlyName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.DesktopModuleInfo.html">DesktopModuleInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Modules_DesktopModuleController_GetDesktopModuleByFriendlyName_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetDesktopModuleByFriendlyName*"></a>
   <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_GetDesktopModuleByFriendlyName_System_String_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetDesktopModuleByFriendlyName(System.String)">GetDesktopModuleByFriendlyName(string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DesktopModuleInfo GetDesktopModuleByFriendlyName(string friendlyName)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static DesktopModuleInfo GetDesktopModuleByFriendlyName(string friendlyName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -602,12 +746,65 @@ public static int AddDesktopModuleToPortal(int portalId, int desktopModuleId, bo
 
 
   <a id="DotNetNuke_Entities_Modules_DesktopModuleController_GetDesktopModuleByModuleName_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetDesktopModuleByModuleName*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_GetDesktopModuleByModuleName_DotNetNuke_Abstractions_Application_IHostSettings_System_String_System_Int32_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetDesktopModuleByModuleName(DotNetNuke.Abstractions.Application.IHostSettings,System.String,System.Int32)">GetDesktopModuleByModuleName(IHostSettings, string, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DesktopModuleInfo GetDesktopModuleByModuleName(IHostSettings hostSettings, string moduleName, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">moduleName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.DesktopModuleInfo.html">DesktopModuleInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Modules_DesktopModuleController_GetDesktopModuleByModuleName_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetDesktopModuleByModuleName*"></a>
   <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_GetDesktopModuleByModuleName_System_String_System_Int32_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetDesktopModuleByModuleName(System.String,System.Int32)">GetDesktopModuleByModuleName(string, int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DesktopModuleInfo GetDesktopModuleByModuleName(string moduleName, int portalID)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static DesktopModuleInfo GetDesktopModuleByModuleName(string moduleName, int portalID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -649,12 +846,60 @@ public static int AddDesktopModuleToPortal(int portalId, int desktopModuleId, bo
 
 
   <a id="DotNetNuke_Entities_Modules_DesktopModuleController_GetDesktopModuleByPackageID_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetDesktopModuleByPackageID*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_GetDesktopModuleByPackageID_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetDesktopModuleByPackageID(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32)">GetDesktopModuleByPackageID(IHostSettings, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DesktopModuleInfo GetDesktopModuleByPackageID(IHostSettings hostSettings, int packageId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">packageId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.DesktopModuleInfo.html">DesktopModuleInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Modules_DesktopModuleController_GetDesktopModuleByPackageID_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetDesktopModuleByPackageID*"></a>
   <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_GetDesktopModuleByPackageID_System_Int32_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetDesktopModuleByPackageID(System.Int32)">GetDesktopModuleByPackageID(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DesktopModuleInfo GetDesktopModuleByPackageID(int packageID)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static DesktopModuleInfo GetDesktopModuleByPackageID(int packageID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -691,12 +936,60 @@ public static int AddDesktopModuleToPortal(int portalId, int desktopModuleId, bo
 
 
   <a id="DotNetNuke_Entities_Modules_DesktopModuleController_GetDesktopModules_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetDesktopModules*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_GetDesktopModules_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetDesktopModules(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32)">GetDesktopModules(IHostSettings, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;int, DesktopModuleInfo&gt; GetDesktopModules(IHostSettings hostSettings, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="DotNetNuke.Entities.Modules.DesktopModuleInfo.html">DesktopModuleInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Modules_DesktopModuleController_GetDesktopModules_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetDesktopModules*"></a>
   <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_GetDesktopModules_System_Int32_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetDesktopModules(System.Int32)">GetDesktopModules(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Dictionary&lt;int, DesktopModuleInfo&gt; GetDesktopModules(int portalID)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static Dictionary&lt;int, DesktopModuleInfo&gt; GetDesktopModules(int portalID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -780,12 +1073,60 @@ public static int AddDesktopModuleToPortal(int portalId, int desktopModuleId, bo
 
 
   <a id="DotNetNuke_Entities_Modules_DesktopModuleController_GetPortalDesktopModules_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetPortalDesktopModules*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_GetPortalDesktopModules_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetPortalDesktopModules(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32)">GetPortalDesktopModules(IHostSettings, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SortedList&lt;string, PortalDesktopModuleInfo&gt; GetPortalDesktopModules(IHostSettings hostSettings, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist-2">SortedList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="DotNetNuke.Entities.Modules.PortalDesktopModuleInfo.html">PortalDesktopModuleInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Modules_DesktopModuleController_GetPortalDesktopModules_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetPortalDesktopModules*"></a>
   <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_GetPortalDesktopModules_System_Int32_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetPortalDesktopModules(System.Int32)">GetPortalDesktopModules(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static SortedList&lt;string, PortalDesktopModuleInfo&gt; GetPortalDesktopModules(int portalId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static SortedList&lt;string, PortalDesktopModuleInfo&gt; GetPortalDesktopModules(int portalId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -864,12 +1205,60 @@ public static int AddDesktopModuleToPortal(int portalId, int desktopModuleId, bo
 
 
   <a id="DotNetNuke_Entities_Modules_DesktopModuleController_GetPortalDesktopModulesByPortalID_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetPortalDesktopModulesByPortalID*"></a>
+  <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_GetPortalDesktopModulesByPortalID_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetPortalDesktopModulesByPortalID(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32)">GetPortalDesktopModulesByPortalID(IHostSettings, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;int, PortalDesktopModuleInfo&gt; GetPortalDesktopModulesByPortalID(IHostSettings hostSettings, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="DotNetNuke.Entities.Modules.PortalDesktopModuleInfo.html">PortalDesktopModuleInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Modules_DesktopModuleController_GetPortalDesktopModulesByPortalID_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetPortalDesktopModulesByPortalID*"></a>
   <h4 id="DotNetNuke_Entities_Modules_DesktopModuleController_GetPortalDesktopModulesByPortalID_System_Int32_" data-uid="DotNetNuke.Entities.Modules.DesktopModuleController.GetPortalDesktopModulesByPortalID(System.Int32)">GetPortalDesktopModulesByPortalID(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Dictionary&lt;int, PortalDesktopModuleInfo&gt; GetPortalDesktopModulesByPortalID(int portalId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static Dictionary&lt;int, PortalDesktopModuleInfo&gt; GetPortalDesktopModulesByPortalID(int portalId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

@@ -4123,6 +4123,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Common.PerformanceSettingsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Common.PerformanceSettingsExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Common.PerformanceSettingsExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Common.Requires.yml",
       "output": {
         ".html": {
@@ -8515,6 +8529,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Entities.Portals.PortalSettings.ControlPanelPermission",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Entities.Portals.PortalSettings.CspMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Entities.Portals.PortalSettings.CspMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Entities.Portals.PortalSettings.CspMode",
       "Summary": null
     },
     {

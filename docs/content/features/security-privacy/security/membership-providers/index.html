@@ -109,19 +109,25 @@
     
 </div>
 <div class="page-stats row visible-xs">
-    <div class="pull-left">10/01/2025 &bull; 8 minutes  to read</div>
+    <div class="pull-left">04/02/2026 &bull; 8 minutes  to read</div>
     <div class="pull-left">Contributors&nbsp;
         <a href="https://github.com/valadas" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/6371568?v=4" alt="valadas">
         </a>
+        <a href="https://github.com/Timo-Breumelhof" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/8999382?v=4" alt="Timo-Breumelhof">
+        </a>
     </div>
 </div>
 <div class="page-stats row visible-sm visible-md visible-lg visible-xl">
-    <span class="pull-left">10/01/2025</span>
+    <span class="pull-left">04/02/2026</span>
     <span class="pull-left">&nbsp;&bull; 8 minutes  to read</span>
     <span class="pull-left">&nbsp;&bull;&nbsp;Contributors&nbsp;
         <a href="https://github.com/valadas" target="_blank">
             <img class="img-circle" src="https://avatars.githubusercontent.com/u/6371568?v=4" alt="valadas">
+        </a>
+        <a href="https://github.com/Timo-Breumelhof" target="_blank">
+            <img class="img-circle" src="https://avatars.githubusercontent.com/u/8999382?v=4" alt="Timo-Breumelhof">
         </a>
     </span>
 </div>
@@ -206,8 +212,7 @@
 <pre><code class="lang-xml">&lt;membership&gt;
   &lt;providers&gt;
     &lt;add name=&quot;AspNetSqlMembershipProvider&quot; 
-         passwordFormat=&quot;Hashed&quot; 
-         hashAlgorithmType=&quot;SHA256&quot; /&gt;
+         passwordFormat=&quot;Hashed&quot; /&gt;
   &lt;/providers&gt;
 &lt;/membership&gt;
 </code></pre>
@@ -248,6 +253,9 @@ Encrypted passwords use a 2-way encryption. This means that if any hacker gets a
 <blockquote>
 <p>⚠️ <strong>Warning</strong>: Because hashed passwords cannot be decrypted, this change will prevent any logins with the existing passwords (including super-users), which may be confusing for users. To help avoid confusion you may want to notify all your users about having to reset their passwords for better security. They will have to click on &quot;Reset Password&quot; to migrate to the new format. They will be able to enter their username and receive a special link by email to reset their password using a token.</p>
 </blockquote>
+<p>To switch to SHA-256, you need to add the hashAlgorithmType attribute to the membership element in web.config:</p>
+<pre><code>&lt;membership defaultProvider=&quot;AspNetSqlMembershipProvider&quot; userIsOnlineTimeWindow=&quot;15&quot; hashAlgorithmType=&quot;SHA256&quot;&gt;
+</code></pre>
 <blockquote>
 <p>💡You can check the <code>LastPasswordChangedDate</code> in the <code>aspnet_Membership</code> table to see which users did change their passwords or not after the date of that change. You may use that information to later delete users that may no longer be activivally engaged. Additionally you can wipe the <code>Password</code> field if you want to make sure no passwords with the old algorithm are kept (before notifying users about the change).</p>
 </blockquote>

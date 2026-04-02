@@ -162,7 +162,8 @@ public PageTemplatesExportService()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PageTemplatesExportService(IApplicationStatusInfo appStatus)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with IHostSettings. Scheduled removal in v12.0.0.&quot;)]
+public PageTemplatesExportService(IApplicationStatusInfo appStatus)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -177,6 +178,38 @@ public PageTemplatesExportService()</code></pre>
       <tr>
         <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
         <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Dnn_ExportImport_Components_Services_PageTemplatesExportService__ctor_" data-uid="Dnn.ExportImport.Components.Services.PageTemplatesExportService.#ctor*"></a>
+  <h4 id="Dnn_ExportImport_Components_Services_PageTemplatesExportService__ctor_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Abstractions_Application_IHostSettings_" data-uid="Dnn.ExportImport.Components.Services.PageTemplatesExportService.#ctor(DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Abstractions.Application.IHostSettings)">PageTemplatesExportService(IApplicationStatusInfo, IHostSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PageTemplatesExportService(IApplicationStatusInfo appStatus, IHostSettings hostSettings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
         <td></td>
       </tr>
     </tbody>

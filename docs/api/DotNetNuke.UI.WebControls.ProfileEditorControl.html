@@ -711,7 +711,8 @@ public ProfileEditorControl()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ProfileEditorControl(IServiceProvider serviceProvider)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with ListController. Scheduled removal in v12.0.0.&quot;)]
+public ProfileEditorControl(IServiceProvider serviceProvider)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -726,6 +727,38 @@ public ProfileEditorControl()</code></pre>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></td>
         <td><span class="parametername">serviceProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_UI_WebControls_ProfileEditorControl__ctor_" data-uid="DotNetNuke.UI.WebControls.ProfileEditorControl.#ctor*"></a>
+  <h4 id="DotNetNuke_UI_WebControls_ProfileEditorControl__ctor_System_IServiceProvider_DotNetNuke_Common_Lists_ListController_" data-uid="DotNetNuke.UI.WebControls.ProfileEditorControl.#ctor(System.IServiceProvider,DotNetNuke.Common.Lists.ListController)">ProfileEditorControl(IServiceProvider, ListController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ProfileEditorControl(IServiceProvider serviceProvider, ListController listController)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></td>
+        <td><span class="parametername">serviceProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Common.Lists.ListController.html">ListController</a></td>
+        <td><span class="parametername">listController</span></td>
         <td></td>
       </tr>
     </tbody>

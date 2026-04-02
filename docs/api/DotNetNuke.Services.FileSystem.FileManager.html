@@ -145,8 +145,141 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FileManager()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with IFileSecurityController. Scheduled removal in v12.0.0.&quot;)]
+public FileManager()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Services_FileSystem_FileManager__ctor_" data-uid="DotNetNuke.Services.FileSystem.FileManager.#ctor*"></a>
+  <h4 id="DotNetNuke_Services_FileSystem_FileManager__ctor_DotNetNuke_Services_FileSystem_Internal_IFileSecurityController_DotNetNuke_Services_FileSystem_Internal_IFileLockingController_DotNetNuke_Services_FileSystem_IFileVersionController_DotNetNuke_Services_FileSystem_Internal_IFileDeletionController_DotNetNuke_Services_FileSystem_IFileContentTypeManager_DotNetNuke_Services_FileSystem_IFolderMappingController_DotNetNuke_Security_Permissions_IFolderPermissionController_DotNetNuke_Entities_Content_Workflow_ISystemWorkflowManager_DotNetNuke_Entities_Content_Workflow_IWorkflowManager_DotNetNuke_Entities_Content_Workflow_IWorkflowEngine_DotNetNuke_Entities_Content_Workflow_IWorkflowSecurity_DotNetNuke_Entities_Users_IUserController_DotNetNuke_Entities_Content_IContentController_DotNetNuke_Entities_Content_IContentTypeController_DotNetNuke_Entities_Content_Taxonomy_ITermController_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Common_Utilities_ICBO_DotNetNuke_Entities_IEventManager_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Portals_IPortalController_DotNetNuke_Data_DataProvider_DotNetNuke_Common_Utilities_IPathUtils_" data-uid="DotNetNuke.Services.FileSystem.FileManager.#ctor(DotNetNuke.Services.FileSystem.Internal.IFileSecurityController,DotNetNuke.Services.FileSystem.Internal.IFileLockingController,DotNetNuke.Services.FileSystem.IFileVersionController,DotNetNuke.Services.FileSystem.Internal.IFileDeletionController,DotNetNuke.Services.FileSystem.IFileContentTypeManager,DotNetNuke.Services.FileSystem.IFolderMappingController,DotNetNuke.Security.Permissions.IFolderPermissionController,DotNetNuke.Entities.Content.Workflow.ISystemWorkflowManager,DotNetNuke.Entities.Content.Workflow.IWorkflowManager,DotNetNuke.Entities.Content.Workflow.IWorkflowEngine,DotNetNuke.Entities.Content.Workflow.IWorkflowSecurity,DotNetNuke.Entities.Users.IUserController,DotNetNuke.Entities.Content.IContentController,DotNetNuke.Entities.Content.IContentTypeController,DotNetNuke.Entities.Content.Taxonomy.ITermController,DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Common.Utilities.ICBO,DotNetNuke.Entities.IEventManager,DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Portals.IPortalController,DotNetNuke.Data.DataProvider,DotNetNuke.Common.Utilities.IPathUtils)">FileManager(IFileSecurityController, IFileLockingController, IFileVersionController, IFileDeletionController, IFileContentTypeManager, IFolderMappingController, IFolderPermissionController, ISystemWorkflowManager, IWorkflowManager, IWorkflowEngine, IWorkflowSecurity, IUserController, IContentController, IContentTypeController, ITermController, IHostSettings, ICBO, IEventManager, IEventLogger, IPortalController, DataProvider, IPathUtils)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FileManager(IFileSecurityController fileSecurityController, IFileLockingController fileLockingController, IFileVersionController fileVersionController, IFileDeletionController fileDeletionController, IFileContentTypeManager fileContentTypeManager, IFolderMappingController folderMappingController, IFolderPermissionController folderPermissionController, ISystemWorkflowManager systemWorkflowManager, IWorkflowManager workflowManager, IWorkflowEngine workflowEngine, IWorkflowSecurity workflowSecurity, IUserController userController, IContentController contentController, IContentTypeController contentTypeController, ITermController termController, IHostSettings hostSettings, ICBO cbo, IEventManager eventManager, IEventLogger eventLogger, IPortalController portalController, DataProvider dataProvider, IPathUtils pathUtils)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.Internal.IFileSecurityController.html">IFileSecurityController</a></td>
+        <td><span class="parametername">fileSecurityController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.Internal.IFileLockingController.html">IFileLockingController</a></td>
+        <td><span class="parametername">fileLockingController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileVersionController.html">IFileVersionController</a></td>
+        <td><span class="parametername">fileVersionController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.Internal.IFileDeletionController.html">IFileDeletionController</a></td>
+        <td><span class="parametername">fileDeletionController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFileContentTypeManager.html">IFileContentTypeManager</a></td>
+        <td><span class="parametername">fileContentTypeManager</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Services.FileSystem.IFolderMappingController.html">IFolderMappingController</a></td>
+        <td><span class="parametername">folderMappingController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Security.Permissions.IFolderPermissionController.html">IFolderPermissionController</a></td>
+        <td><span class="parametername">folderPermissionController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Workflow.ISystemWorkflowManager.html">ISystemWorkflowManager</a></td>
+        <td><span class="parametername">systemWorkflowManager</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Workflow.IWorkflowManager.html">IWorkflowManager</a></td>
+        <td><span class="parametername">workflowManager</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Workflow.IWorkflowEngine.html">IWorkflowEngine</a></td>
+        <td><span class="parametername">workflowEngine</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Workflow.IWorkflowSecurity.html">IWorkflowSecurity</a></td>
+        <td><span class="parametername">workflowSecurity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.IUserController.html">IUserController</a></td>
+        <td><span class="parametername">userController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.IContentController.html">IContentController</a></td>
+        <td><span class="parametername">contentController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.IContentTypeController.html">IContentTypeController</a></td>
+        <td><span class="parametername">contentTypeController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Content.Taxonomy.ITermController.html">ITermController</a></td>
+        <td><span class="parametername">termController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Common.Utilities.ICBO.html">ICBO</a></td>
+        <td><span class="parametername">cbo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.IEventManager.html">IEventManager</a></td>
+        <td><span class="parametername">eventManager</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.DataProvider.html">DataProvider</a></td>
+        <td><span class="parametername">dataProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Common.Utilities.IPathUtils.html">IPathUtils</a></td>
+        <td><span class="parametername">pathUtils</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
 </h3>
 

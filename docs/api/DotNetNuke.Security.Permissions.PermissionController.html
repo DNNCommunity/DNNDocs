@@ -149,7 +149,8 @@ public PermissionController()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PermissionController(IEventLogger eventLogger, DataProvider dataProvider)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with IHostSettings. Scheduled removal in v12.0.0.&quot;)]
+public PermissionController(IEventLogger eventLogger, DataProvider dataProvider)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -169,6 +170,43 @@ public PermissionController()</code></pre>
       <tr>
         <td><a class="xref" href="DotNetNuke.Data.DataProvider.html">DataProvider</a></td>
         <td><span class="parametername">dataProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_Permissions_PermissionController__ctor_" data-uid="DotNetNuke.Security.Permissions.PermissionController.#ctor*"></a>
+  <h4 id="DotNetNuke_Security_Permissions_PermissionController__ctor_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Data_DataProvider_DotNetNuke_Abstractions_Application_IHostSettings_" data-uid="DotNetNuke.Security.Permissions.PermissionController.#ctor(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Data.DataProvider,DotNetNuke.Abstractions.Application.IHostSettings)">PermissionController(IEventLogger, DataProvider, IHostSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PermissionController(IEventLogger eventLogger, DataProvider dataProvider, IHostSettings hostSettings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Data.DataProvider.html">DataProvider</a></td>
+        <td><span class="parametername">dataProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
         <td></td>
       </tr>
     </tbody>

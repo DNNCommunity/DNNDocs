@@ -116,6 +116,18 @@
       <a class="xref" href="DotNetNuke.Entities.Urls.UrlRewriterBase.html#DotNetNuke_Entities_Urls_UrlRewriterBase_AutoAddPortalAliasEnabled">UrlRewriterBase.AutoAddPortalAliasEnabled()</a>
     </div>
     <div>
+      <a class="xref" href="DotNetNuke.Entities.Urls.UrlRewriterBase.html#DotNetNuke_Entities_Urls_UrlRewriterBase_HostSettings">UrlRewriterBase.HostSettings</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.Urls.UrlRewriterBase.html#DotNetNuke_Entities_Urls_UrlRewriterBase_PortalAliasService">UrlRewriterBase.PortalAliasService</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.Urls.UrlRewriterBase.html#DotNetNuke_Entities_Urls_UrlRewriterBase_HostSettingsService">UrlRewriterBase.HostSettingsService</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNetNuke.Entities.Urls.UrlRewriterBase.html#DotNetNuke_Entities_Urls_UrlRewriterBase_PortalController">UrlRewriterBase.PortalController</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
     <div>
@@ -164,7 +176,8 @@ public AdvancedUrlRewriter()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AdvancedUrlRewriter(IHostSettings hostSettings, IPortalAliasService portalAliasService, IHostSettingsService hostSettingsService, IPortalController portalController)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with IHostSettings. Scheduled removal in v12.0.0.&quot;)]
+public AdvancedUrlRewriter(IHostSettings hostSettings, IPortalAliasService portalAliasService, IHostSettingsService hostSettingsService, IPortalController portalController)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -194,6 +207,58 @@ public AdvancedUrlRewriter()</code></pre>
       <tr>
         <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
         <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Urls_AdvancedUrlRewriter__ctor_" data-uid="DotNetNuke.Entities.Urls.AdvancedUrlRewriter.#ctor*"></a>
+  <h4 id="DotNetNuke_Entities_Urls_AdvancedUrlRewriter__ctor_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Portals_IPortalAliasService_DotNetNuke_Abstractions_Application_IHostSettingsService_DotNetNuke_Entities_Portals_IPortalController_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Entities_Portals_IPortalGroupController_" data-uid="DotNetNuke.Entities.Urls.AdvancedUrlRewriter.#ctor(DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Portals.IPortalAliasService,DotNetNuke.Abstractions.Application.IHostSettingsService,DotNetNuke.Entities.Portals.IPortalController,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Entities.Portals.IPortalGroupController)">AdvancedUrlRewriter(IHostSettings, IPortalAliasService, IHostSettingsService, IPortalController, IApplicationStatusInfo, IPortalGroupController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AdvancedUrlRewriter(IHostSettings hostSettings, IPortalAliasService portalAliasService, IHostSettingsService hostSettingsService, IPortalController portalController, IApplicationStatusInfo appStatus, IPortalGroupController portalGroupController)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Portals.IPortalAliasService.html">IPortalAliasService</a></td>
+        <td><span class="parametername">portalAliasService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettingsService.html">IHostSettingsService</a></td>
+        <td><span class="parametername">hostSettingsService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalGroupController.html">IPortalGroupController</a></td>
+        <td><span class="parametername">portalGroupController</span></td>
         <td></td>
       </tr>
     </tbody>

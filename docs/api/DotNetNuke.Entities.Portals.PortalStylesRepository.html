@@ -160,8 +160,51 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PortalStylesRepository()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with IHostSettings. Scheduled removal in v12.0.0.&quot;)]
+public PortalStylesRepository()</code></pre>
   </div>
+
+
+  <a id="DotNetNuke_Entities_Portals_PortalStylesRepository__ctor_" data-uid="DotNetNuke.Entities.Portals.PortalStylesRepository.#ctor*"></a>
+  <h4 id="DotNetNuke_Entities_Portals_PortalStylesRepository__ctor_DotNetNuke_Entities_Modules_IModuleController_DotNetNuke_Abstractions_Application_IHostSettings_DotNetNuke_Abstractions_Application_IHostSettingsService_DotNetNuke_Entities_Portals_IPortalController_" data-uid="DotNetNuke.Entities.Portals.PortalStylesRepository.#ctor(DotNetNuke.Entities.Modules.IModuleController,DotNetNuke.Abstractions.Application.IHostSettings,DotNetNuke.Abstractions.Application.IHostSettingsService,DotNetNuke.Entities.Portals.IPortalController)">PortalStylesRepository(IModuleController, IHostSettings, IHostSettingsService, IPortalController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PortalStylesRepository(IModuleController moduleController, IHostSettings hostSettings, IHostSettingsService hostSettingsService, IPortalController portalController)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Modules.IModuleController.html">IModuleController</a></td>
+        <td><span class="parametername">moduleController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettingsService.html">IHostSettingsService</a></td>
+        <td><span class="parametername">hostSettingsService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="DotNetNuke.Entities.Modules.Settings.ISettingsRepository-1.html">ISettingsRepository&lt;T&gt;</a>

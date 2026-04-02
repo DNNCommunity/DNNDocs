@@ -335,12 +335,70 @@ public static void ApproveUser(UserInfo user)</code></pre>
 
 
   <a id="DotNetNuke_Entities_Users_UserController_ChangePassword_" data-uid="DotNetNuke.Entities.Users.UserController.ChangePassword*"></a>
+  <h4 id="DotNetNuke_Entities_Users_UserController_ChangePassword_DotNetNuke_Abstractions_Logging_IEventLogger_DotNetNuke_Entities_Users_UserInfo_System_String_System_String_" data-uid="DotNetNuke.Entities.Users.UserController.ChangePassword(DotNetNuke.Abstractions.Logging.IEventLogger,DotNetNuke.Entities.Users.UserInfo,System.String,System.String)">ChangePassword(IEventLogger, UserInfo, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ChangePassword(IEventLogger eventLogger, UserInfo user, string oldPassword, string newPassword)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">oldPassword</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">newPassword</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Users_UserController_ChangePassword_" data-uid="DotNetNuke.Entities.Users.UserController.ChangePassword*"></a>
   <h4 id="DotNetNuke_Entities_Users_UserController_ChangePassword_DotNetNuke_Entities_Users_UserInfo_System_String_System_String_" data-uid="DotNetNuke.Entities.Users.UserController.ChangePassword(DotNetNuke.Entities.Users.UserInfo,System.String,System.String)">ChangePassword(UserInfo, string, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool ChangePassword(UserInfo user, string oldPassword, string newPassword)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static bool ChangePassword(UserInfo user, string oldPassword, string newPassword)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -387,12 +445,75 @@ public static void ApproveUser(UserInfo user)</code></pre>
 
 
   <a id="DotNetNuke_Entities_Users_UserController_ChangePasswordByToken_" data-uid="DotNetNuke.Entities.Users.UserController.ChangePasswordByToken*"></a>
+  <h4 id="DotNetNuke_Entities_Users_UserController_ChangePasswordByToken_DotNetNuke_Abstractions_Logging_IEventLogger_System_Int32_System_String_System_String_System_String_" data-uid="DotNetNuke.Entities.Users.UserController.ChangePasswordByToken(DotNetNuke.Abstractions.Logging.IEventLogger,System.Int32,System.String,System.String,System.String)">ChangePasswordByToken(IEventLogger, int, string, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ChangePasswordByToken(IEventLogger eventLogger, int portalId, string username, string newPassword, string resetToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Logging.IEventLogger.html">IEventLogger</a></td>
+        <td><span class="parametername">eventLogger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">username</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">newPassword</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">resetToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Users_UserController_ChangePasswordByToken_" data-uid="DotNetNuke.Entities.Users.UserController.ChangePasswordByToken*"></a>
   <h4 id="DotNetNuke_Entities_Users_UserController_ChangePasswordByToken_System_Int32_System_String_System_String_System_String_" data-uid="DotNetNuke.Entities.Users.UserController.ChangePasswordByToken(System.Int32,System.String,System.String,System.String)">ChangePasswordByToken(int, string, string, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool ChangePasswordByToken(int portalid, string username, string newPassword, string resetToken)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IEventLogger. Scheduled for removal in v12.0.0.&quot;)]
+public static bool ChangePasswordByToken(int portalid, string username, string newPassword, string resetToken)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1121,12 +1242,65 @@ public static bool DeleteUser(ref UserInfo user, bool notify, bool deleteAdmin)<
 
 
   <a id="DotNetNuke_Entities_Users_UserController_GetCachedUser_" data-uid="DotNetNuke.Entities.Users.UserController.GetCachedUser*"></a>
+  <h4 id="DotNetNuke_Entities_Users_UserController_GetCachedUser_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_System_String_" data-uid="DotNetNuke.Entities.Users.UserController.GetCachedUser(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32,System.String)">GetCachedUser(IHostSettings, int, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UserInfo GetCachedUser(IHostSettings hostSettings, int portalId, string username)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">username</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Users_UserController_GetCachedUser_" data-uid="DotNetNuke.Entities.Users.UserController.GetCachedUser*"></a>
   <h4 id="DotNetNuke_Entities_Users_UserController_GetCachedUser_System_Int32_System_String_" data-uid="DotNetNuke.Entities.Users.UserController.GetCachedUser(System.Int32,System.String)">GetCachedUser(int, string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static UserInfo GetCachedUser(int portalId, string username)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static UserInfo GetCachedUser(int portalId, string username)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1674,12 +1848,65 @@ public static ArrayList GetOnlineUsers(int portalId)</code></pre>
 
 
   <a id="DotNetNuke_Entities_Users_UserController_GetUserById_" data-uid="DotNetNuke.Entities.Users.UserController.GetUserById*"></a>
+  <h4 id="DotNetNuke_Entities_Users_UserController_GetUserById_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_System_Int32_" data-uid="DotNetNuke.Entities.Users.UserController.GetUserById(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32,System.Int32)">GetUserById(IHostSettings, int, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UserInfo GetUserById(IHostSettings hostSettings, int portalId, int userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">userId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Users.UserInfo.html">UserInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Users_UserController_GetUserById_" data-uid="DotNetNuke.Entities.Users.UserController.GetUserById*"></a>
   <h4 id="DotNetNuke_Entities_Users_UserController_GetUserById_System_Int32_System_Int32_" data-uid="DotNetNuke.Entities.Users.UserController.GetUserById(System.Int32,System.Int32)">GetUserById(int, int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static UserInfo GetUserById(int portalId, int userId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static UserInfo GetUserById(int portalId, int userId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1904,12 +2131,60 @@ public static ArrayList GetOnlineUsers(int portalId)</code></pre>
 
 
   <a id="DotNetNuke_Entities_Users_UserController_GetUserCountByPortal_" data-uid="DotNetNuke.Entities.Users.UserController.GetUserCountByPortal*"></a>
+  <h4 id="DotNetNuke_Entities_Users_UserController_GetUserCountByPortal_DotNetNuke_Abstractions_Application_IHostSettings_System_Int32_" data-uid="DotNetNuke.Entities.Users.UserController.GetUserCountByPortal(DotNetNuke.Abstractions.Application.IHostSettings,System.Int32)">GetUserCountByPortal(IHostSettings, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetUserCountByPortal(IHostSettings hostSettings, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IHostSettings.html">IHostSettings</a></td>
+        <td><span class="parametername">hostSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Entities_Users_UserController_GetUserCountByPortal_" data-uid="DotNetNuke.Entities.Users.UserController.GetUserCountByPortal*"></a>
   <h4 id="DotNetNuke_Entities_Users_UserController_GetUserCountByPortal_System_Int32_" data-uid="DotNetNuke.Entities.Users.UserController.GetUserCountByPortal(System.Int32)">GetUserCountByPortal(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int GetUserCountByPortal(int portalId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Use overload taking IHostSettings. Scheduled for removal in v12.0.0.&quot;)]
+public static int GetUserCountByPortal(int portalId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">

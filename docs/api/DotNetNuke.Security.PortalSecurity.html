@@ -134,7 +134,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PortalSecurity()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with ListController. Scheduled removal in v12.0.0.&quot;)]
+public PortalSecurity()</code></pre>
   </div>
 
 
@@ -144,7 +145,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PortalSecurity(ICryptographyProvider cryptographyProvider)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with ListController. Scheduled removal in v12.0.0.&quot;)]
+public PortalSecurity(ICryptographyProvider cryptographyProvider)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -159,6 +161,53 @@
       <tr>
         <td><a class="xref" href="DotNetNuke.Abstractions.Security.ICryptographyProvider.html">ICryptographyProvider</a></td>
         <td><span class="parametername">cryptographyProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_PortalSecurity__ctor_" data-uid="DotNetNuke.Security.PortalSecurity.#ctor*"></a>
+  <h4 id="DotNetNuke_Security_PortalSecurity__ctor_DotNetNuke_Abstractions_Security_ICryptographyProvider_DotNetNuke_Common_Lists_ListController_DotNetNuke_Entities_Portals_IPortalController_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Entities_Portals_IPortalGroupController_" data-uid="DotNetNuke.Security.PortalSecurity.#ctor(DotNetNuke.Abstractions.Security.ICryptographyProvider,DotNetNuke.Common.Lists.ListController,DotNetNuke.Entities.Portals.IPortalController,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Entities.Portals.IPortalGroupController)">PortalSecurity(ICryptographyProvider, ListController, IPortalController, IApplicationStatusInfo, IPortalGroupController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PortalSecurity(ICryptographyProvider cryptographyProvider, ListController listController, IPortalController portalController, IApplicationStatusInfo appStatus, IPortalGroupController portalGroupController)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Security.ICryptographyProvider.html">ICryptographyProvider</a></td>
+        <td><span class="parametername">cryptographyProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Common.Lists.ListController.html">ListController</a></td>
+        <td><span class="parametername">listController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalGroupController.html">IPortalGroupController</a></td>
+        <td><span class="parametername">portalGroupController</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -465,12 +514,70 @@ public string EncryptString(string message, string passphrase)</code></pre>
 
 
   <a id="DotNetNuke_Security_PortalSecurity_GetCookieDomain_" data-uid="DotNetNuke.Security.PortalSecurity.GetCookieDomain*"></a>
+  <h4 id="DotNetNuke_Security_PortalSecurity_GetCookieDomain_DotNetNuke_Entities_Portals_IPortalController_DotNetNuke_Abstractions_Application_IApplicationStatusInfo_DotNetNuke_Entities_Portals_IPortalGroupController_System_Int32_" data-uid="DotNetNuke.Security.PortalSecurity.GetCookieDomain(DotNetNuke.Entities.Portals.IPortalController,DotNetNuke.Abstractions.Application.IApplicationStatusInfo,DotNetNuke.Entities.Portals.IPortalGroupController,System.Int32)">GetCookieDomain(IPortalController, IApplicationStatusInfo, IPortalGroupController, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetCookieDomain(IPortalController portalController, IApplicationStatusInfo appStatus, IPortalGroupController portalGroupController, int portalId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalController.html">IPortalController</a></td>
+        <td><span class="parametername">portalController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Abstractions.Application.IApplicationStatusInfo.html">IApplicationStatusInfo</a></td>
+        <td><span class="parametername">appStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Entities.Portals.IPortalGroupController.html">IPortalGroupController</a></td>
+        <td><span class="parametername">portalGroupController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">portalId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Security_PortalSecurity_GetCookieDomain_" data-uid="DotNetNuke.Security.PortalSecurity.GetCookieDomain*"></a>
   <h4 id="DotNetNuke_Security_PortalSecurity_GetCookieDomain_System_Int32_" data-uid="DotNetNuke.Security.PortalSecurity.GetCookieDomain(System.Int32)">GetCookieDomain(int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetCookieDomain(int portalId)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.4. Please use overload with IPortalController. Scheduled for removal in v12.0.0.&quot;)]
+public static string GetCookieDomain(int portalId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
