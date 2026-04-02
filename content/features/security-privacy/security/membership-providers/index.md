@@ -72,8 +72,7 @@ Password format is configured in the `web.config` file under the membership prov
 <membership>
   <providers>
     <add name="AspNetSqlMembershipProvider" 
-         passwordFormat="Hashed" 
-         hashAlgorithmType="SHA256" />
+         passwordFormat="Hashed" />
   </providers>
 </membership>
 ```
@@ -122,6 +121,12 @@ Encrypted passwords use a 2-way encryption. This means that if any hacker gets a
 ### Changing from SHA-1 to SHA-256
 
 > ⚠️ **Warning**: Because hashed passwords cannot be decrypted, this change will prevent any logins with the existing passwords (including super-users), which may be confusing for users. To help avoid confusion you may want to notify all your users about having to reset their passwords for better security. They will have to click on "Reset Password" to migrate to the new format. They will be able to enter their username and receive a special link by email to reset their password using a token.
+
+To switch to SHA-256, you need to add the hashAlgorithmType attribute to the membership element in web.config:
+
+```
+<membership defaultProvider="AspNetSqlMembershipProvider" userIsOnlineTimeWindow="15" hashAlgorithmType="SHA256">
+```
 
 > 💡You can check the `LastPasswordChangedDate` in the `aspnet_Membership` table to see which users did change their passwords or not after the date of that change. You may use that information to later delete users that may no longer be activivally engaged. Additionally you can wipe the `Password` field if you want to make sure no passwords with the old algorithm are kept (before notifying users about the change).
 
