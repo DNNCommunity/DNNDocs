@@ -35,8 +35,8 @@ The below is, of course, subject to change. If your current version of DNN Platf
 
 <!-- Version links (DNN Platform releases) -->
 [10.02.03]: https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.2.3
-[10.02.01]: https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.02.01
-[09.13.09]: https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.09
+[10.02.01]: https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.2.1
+[09.13.09]: https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.9
 [09.03.02]: https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2
 [09.01.01]: https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1
 [08.00.04]: https://github.com/dnnsoftware/Dnn.Releases.Archive.8x/tree/master/08.00.04
