@@ -16,4 +16,4 @@ The pages in this section describe how to configure your environment for DNN and
 ## Requirements
 
 *   [DNN Requirements](xref:setup-requirements)
-*   **Developers:** Visual Studio 2017 is the recommended IDE for developing DNN modules. It is required if you are contributing to the DNN Platform.
+*   **Developers:** Visual Studio 2026 (including Community Edition with latest updates) is the recommended IDE for developing DNN modules. It is required if you are contributing to the DNN Platform.
