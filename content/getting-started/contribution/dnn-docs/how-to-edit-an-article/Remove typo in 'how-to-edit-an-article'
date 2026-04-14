@@ -60,7 +60,7 @@ Now that you've gotten DNN Docs running locally (congrats BTW!) we will talk thr
 11. Go to your forked GitHub repo on GitHub.com. GitHub should detect the updated code and prompt you to make a pull request.
     ![Git compare and pull request screenshot](/images/git-compare-and-pull-request-screenshot.jpg)
 
-12. Create a Pull Request by clicking the "Compare and Create Pull Request" button. In the description/comments section be sure to incoude the text "Resolves ```#[INSERT ISSUE NUMBER HERE]``` where your previously created issue number is associated with this pull request.
+12. Create a Pull Request by clicking the "Compare and Create Pull Request" button. In the description/comments section be sure to include the text "Resolves ```#[INSERT ISSUE NUMBER HERE]``` where your previously created issue number is associated with this pull request.
 
     ![Git pull request resolves](/images/git-pull-request-resolves-screenshot.jpg)
 
