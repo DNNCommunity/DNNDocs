@@ -30813,6 +30813,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "content/getting-started/contribution/dnn-docs/how-to-edit-an-article/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/getting-started/contribution/dnn-docs/how-to-edit-an-article/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "content/getting-started/contribution/dnn-docs/how-to-edit-source-code-comments/index.md",
       "output": {
         ".html": {
