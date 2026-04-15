@@ -128,6 +128,9 @@
       <a class="xref" href="DotNetNuke.Web.UI.WebControls.Internal.DnnDatePicker.html#DotNetNuke_Web_UI_WebControls_Internal_DnnDatePicker_MaxDate">DnnDatePicker.MaxDate</a>
     </div>
     <div>
+      <a class="xref" href="DotNetNuke.Web.UI.WebControls.Internal.DnnDatePicker.html#DotNetNuke_Web_UI_WebControls_Internal_DnnDatePicker_ClientFormat">DnnDatePicker.ClientFormat</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.web.ui.webcontrols.textbox.addattributestorender">TextBox.AddAttributesToRender(HtmlTextWriter)</a>
     </div>
     <div>
@@ -564,7 +567,8 @@
   <h6><strong>Assembly</strong>: DotNetNuke.Web.dll</h6>
   <h5 id="DotNetNuke_Web_UI_WebControls_Internal_DnnDateTimePicker_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DnnDateTimePicker : DnnDatePicker, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, IPostBackDataHandler, IEditableTextControl, ITextControl</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.3.0. Please use TextBox with TextMode=TextBoxMode.DateTimeLocal. Scheduled removal in v12.0.0.&quot;)]
+public class DnnDateTimePicker : DnnDatePicker, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, IPostBackDataHandler, IEditableTextControl, ITextControl</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -576,8 +580,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.2.2. Please use overload with IClientResourceController. Scheduled removal in v12.0.0.&quot;)]
-public DnnDateTimePicker()</code></pre>
+    <pre><code class="lang-csharp hljs">public DnnDateTimePicker()</code></pre>
   </div>
 
 
@@ -618,33 +621,6 @@ public DnnDateTimePicker()</code></pre>
   </table>
   <h3 id="properties">Properties
 </h3>
-
-
-  <a id="DotNetNuke_Web_UI_WebControls_Internal_DnnDateTimePicker_ClientFormat_" data-uid="DotNetNuke.Web.UI.WebControls.Internal.DnnDateTimePicker.ClientFormat*"></a>
-  <h4 id="DotNetNuke_Web_UI_WebControls_Internal_DnnDateTimePicker_ClientFormat" data-uid="DotNetNuke.Web.UI.WebControls.Internal.DnnDateTimePicker.ClientFormat">ClientFormat</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override string ClientFormat { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="DotNetNuke.Web.UI.WebControls.Internal.DnnDatePicker.html#DotNetNuke_Web_UI_WebControls_Internal_DnnDatePicker_ClientFormat">DnnDatePicker.ClientFormat</a></div>
 
 
   <a id="DotNetNuke_Web_UI_WebControls_Internal_DnnDateTimePicker_Format_" data-uid="DotNetNuke.Web.UI.WebControls.Internal.DnnDateTimePicker.Format*"></a>
