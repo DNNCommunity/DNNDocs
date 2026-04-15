@@ -15,8 +15,8 @@ The below is, of course, subject to change. If your current version of DNN Platf
 
 | **FROM Version** | **TO Version** | **Notes** |
 |---|---|---|
-| [10.02.01] | [10.02.03] | * DNN 10.2.0 introduced a new simplified upgrade process, see [Post-10.2.0 Upgrade Guide](xref:setup-upgrades-post-10.2.0).<br /><br /> * DNN 10.2.3 has an issue with uploading upgrades, if upgrading from 10.2.3, please upload your next version package to `App_Data\Upgrade` folder manually.<br /><br /> |
-| [09.13.09] | [10.02.01] | * DNN 10.0.0 is a significant release with both [Breaking Changes and New Features][bc-10], it also introduced minimum requirements for ASP.NET 4.8 and SQL Server 2017. In addition, it will force-remove DNN-Provided Telerik versions.<br /><br /> * DNN 10.1.1 new installs use SHA256 as the default password hashing algorithm. This only affects new installs, if you want to migrate an upgraded site to SHA256, please read [the documentation for membership provider changes](xref:security-membership-providers).<br /><br /> |
+| [10.02.04] | [10.03.01] | * DNN 10.2.0 introduced a new simplified upgrade process, see [Post-10.2.0 Upgrade Guide](xref:setup-upgrades-post-10.2.0).<br /><br /> * DNN 10.2.3 has an issue with uploading upgrades, if upgrading from 10.2.3, please upload your next version package to `App_Data\Upgrade` folder manually.<br /><br /> |
+| [09.13.09] | [10.02.04] | * DNN 10.0.0 is a significant release with both [Breaking Changes and New Features][bc-10], it also introduced minimum requirements for ASP.NET 4.8 and SQL Server 2017. In addition, it will force-remove DNN-Provided Telerik versions.<br /><br /> * DNN 10.1.1 new installs use SHA256 as the default password hashing algorithm. This only affects new installs, if you want to migrate an upgraded site to SHA256, please read [the documentation for membership provider changes](xref:security-membership-providers).<br /><br /> |
 | [09.03.02] | [09.13.09] | * DNN 9.4.0 introduced a minimum requirement of ASP.NET 4.7.2.<br /><br /> * DNN 9.8.0 (and above for the 9.x series releases) brings the OPTIONAL (but HIGHLY RECOMMENDED) [Telerik Removal](xref:setup-telerik-removal).<br /><br /> |
 | [09.01.01] | [09.03.02] | * DNN 9.2.0 multiple APIs were removed that were marked deprecated in DNN 7 and before. Most of the core modules have been updated since and you can find them at [dnncommunity][dnncommunity-gh].<br /><br /> * If you have other modules installed, please check for updates before upgrading to DNN 9.2.0 or later.<br /><br /> |
 | [08.00.04] | [09.01.01] | |
@@ -34,8 +34,8 @@ The below is, of course, subject to change. If your current version of DNN Platf
 | [02.00.04] | [02.01.02] | |
 
 <!-- Version links (DNN Platform releases) -->
-[10.02.03]: https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.2.3
-[10.02.01]: https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.2.1
+[10.03.01]: https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.3.1
+[10.02.04]: https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v10.2.4
 [09.13.09]: https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.13.9
 [09.03.02]: https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.3.2
 [09.01.01]: https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.1.1
