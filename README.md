@@ -71,7 +71,7 @@ First, it is recommended to create a new branch to collect your changes without 
 git checkout -b your-branch-name
 ```
 
-Next you can start editing documentation and saving files using your favorite text editor (Visual Studio Code, Atom, Sublime Text, Brackets Notedpad++, etc). When you are done with your changes you can verify the modified files. Some code editors will actually show a status of the modified files in their UI. If you want to verify it using the command line you can run the following command:
+Next you can start editing documentation and saving files using your favorite text editor (Visual Studio Code, Atom, Sublime Text, Brackets/Phoenix Code, Notepad++, etc). When you are done with your changes you can verify the modified files. Some code editors will actually show a status of the modified files in their UI. If you want to verify it using the command line you can run the following command:
 
 ```
 git status
@@ -97,7 +97,8 @@ Congratulations, you have created your first commit! The next step is to push yo
 git push -u origin your-branch-name
 ```
 
-Now your changes are available in your **fork** of the repository for anyone to view. Remember how you only have read access to the **upstream** (or offical repository)? Since we cannot push there, they need to pull. The next and last step is to propose your changes, or in other works, request from DNNDocs team to **pull** your changes, hence the name **pull request**. You can create a **pull request** directly in the browser, if you navigate the the origin or the upstream repositories any soon, you will see a banner showing the recent pushes and a button to create a pull request. If for some reason you do not see that banner, navigate to your fork and select your branch in the branches dropdown, you will see a "Create Pull Request" button.
+Now your changes are available in your **fork** of the repository for anyone to view. Remember how you only have read access to the **upstream** (or offical repository)? Since we cannot push there, they need to pull. The next and last step is to propose your changes, or in other works, request the DNNDocs team to **pull** your changes, hence the name **pull request**. You can create a **pull request** directly in the browser, if you navigate to the origin or the upstream repositories soon you will see a banner showing the recent pushes and a button to create a pull request. If for some reason you do not see that banner, navigate to your fork and select your branch in the branches dropdown, you will see a "Create Pull Request" button.
+![Create Pull Request Button](/images/GitHub_InBrowser_PullRequestButton.jpg)
 
 **Congratulations, you just created your first pull request!**
 
