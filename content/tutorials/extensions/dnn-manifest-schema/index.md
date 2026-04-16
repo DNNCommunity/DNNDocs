@@ -521,6 +521,12 @@ Some component types are applicable only to the package type of the same name; g
                         ...
                     </permissions>
                 </moduleDefinition>
+                <page type="admin" common="false">
+                    <name />
+                    <icon />
+                    <largeIcon />
+                    <description />
+                </page>
             </desktopModule>
             <eventMessage>
                 <processorType />
