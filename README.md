@@ -71,7 +71,7 @@ First, it is recommended to create a new branch to collect your changes without 
 git checkout -b your-branch-name
 ```
 
-If you made some changes before making a branch (you are on branch **main** and its dirty), you can switch+create like this:
+If you made some changes before making a branch (you are on branch **main** and it's dirty), you can switch+create like this:
 
 ```
 git switch -c your-branch-name
