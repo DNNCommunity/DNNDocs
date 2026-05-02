@@ -71,6 +71,12 @@ First, it is recommended to create a new branch to collect your changes without 
 git checkout -b your-branch-name
 ```
 
+If you made some changes before making a branch (you are on branch **main** and it's dirty), you can switch+create like this:
+
+```
+git switch -c your-branch-name
+```
+
 Next you can start editing documentation and saving files using your favorite text editor (Visual Studio Code, Atom, Sublime Text, Brackets Notedpad++, etc). When you are done with your changes you can verify the modified files. Some code editors will actually show a status of the modified files in their UI. If you want to verify it using the command line you can run the following command:
 
 ```
