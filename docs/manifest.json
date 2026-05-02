@@ -47962,6 +47962,56 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/sidebar/2026-DNN-Summit-Virtual-TBD.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sidebar/2026-DNN-Summit-Virtual-TBD.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sidebar/2026-Dnn-Connect-Brussels-Belgium.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sidebar/2026-Dnn-Connect-Brussels-Belgium.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sidebar/DNN-Show-and-Tell-Meetup-202605-zDeiTutNru.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sidebar/DNN-Show-and-Tell-Meetup-202605-zDeiTutNru.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sidebar/DNN-Southern-Fried-Meetup-2025.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sidebar/DNN-Southern-Fried-Meetup-2025.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sidebar/Discord-logo-black-2026.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/sidebar/Discord-logo-black-2026.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/sites-configure-your-site-settings-screenclip.png",
       "output": {
         "resource": {
