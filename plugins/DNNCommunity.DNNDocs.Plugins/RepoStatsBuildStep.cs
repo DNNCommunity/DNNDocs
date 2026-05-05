@@ -36,15 +36,25 @@ namespace DNNCommunity.DNNDocs.Plugins
             Console.WriteLine($"[PLUGIN] {nameof(RepoStatsBuildStep)} Processing Repo Stats for {models.Count()} models");
 
             var gitHubApi = new GitHubApi();
-            var contributors = gitHubApi.GetContributorsAsync().GetAwaiter().GetResult();
-            Console.WriteLine($"Found {contributors.Count} contributors");
 
-            var commits = gitHubApi.GetCommitsAsync().GetAwaiter().GetResult();
+            List<Octokit.Contributor> contributors;
+            List<GitHubCommit> commits;
 
-            // Order the commits by date
-            commits = commits.OrderByDescending(c => c.Commit.Author.Date).ToList();
+            try
+            {
+                contributors = gitHubApi.GetContributorsAsync().GetAwaiter().GetResult().ToList();
+                Console.WriteLine($"[RepoStats] Found {contributors.Count} contributors");
 
-            Console.WriteLine($"Found {commits.Count} commits");
+                commits = gitHubApi.GetCommitsAsync().GetAwaiter().GetResult().ToList();
+                // Order the commits by date
+                commits = commits.OrderByDescending(c => c.Commit.Author.Date).ToList();
+                Console.WriteLine($"[RepoStats] Found {commits.Count} commits");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"[RepoStats] WARNING: Failed to retrieve GitHub stats ({ex.Message}). Skipping contributor data for this build.");
+                return;
+            }
 
             if (contributors.Any() && commits.Any())
             {
