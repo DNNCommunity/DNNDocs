@@ -24,9 +24,12 @@ namespace DNNCommunity.DNNDocs.Plugins
         {
         }
 
+        // IDocumentBuildStep.Postbuild is a synchronous interface contract; bridge to the async implementation.
         public void Postbuild(ImmutableList<FileModel> models, IHostService host)
-        {
+            => PostbuildAsync(models, host).GetAwaiter().GetResult();
 
+        private async Task PostbuildAsync(ImmutableList<FileModel> models, IHostService host)
+        {
             if (models == null || models.Count == 0)
             {
                 Console.WriteLine("[PLUGIN] No models to process.");
@@ -42,10 +45,10 @@ namespace DNNCommunity.DNNDocs.Plugins
 
             try
             {
-                contributors = gitHubApi.GetContributorsAsync().GetAwaiter().GetResult().ToList();
+                contributors = (await gitHubApi.GetContributorsAsync()).ToList();
                 Console.WriteLine($"[RepoStats] Found {contributors.Count} contributors");
 
-                commits = gitHubApi.GetCommitsAsync().GetAwaiter().GetResult().ToList();
+                commits = (await gitHubApi.GetCommitsAsync()).ToList();
                 // Order the commits by date
                 commits = commits.OrderByDescending(c => c.Commit.Author.Date).ToList();
                 Console.WriteLine($"[RepoStats] Found {commits.Count} commits");
