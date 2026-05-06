@@ -24,9 +24,12 @@ namespace DNNCommunity.DNNDocs.Plugins
         {
         }
 
+        // IDocumentBuildStep.Postbuild is a synchronous interface contract; bridge to the async implementation.
         public void Postbuild(ImmutableList<FileModel> models, IHostService host)
-        {
+            => PostbuildAsync(models, host).GetAwaiter().GetResult();
 
+        private async Task PostbuildAsync(ImmutableList<FileModel> models, IHostService host)
+        {
             if (models == null || models.Count == 0)
             {
                 Console.WriteLine("[PLUGIN] No models to process.");
@@ -36,15 +39,25 @@ namespace DNNCommunity.DNNDocs.Plugins
             Console.WriteLine($"[PLUGIN] {nameof(RepoStatsBuildStep)} Processing Repo Stats for {models.Count()} models");
 
             var gitHubApi = new GitHubApi();
-            var contributors = gitHubApi.GetContributorsAsync().GetAwaiter().GetResult();
-            Console.WriteLine($"Found {contributors.Count} contributors");
 
-            var commits = gitHubApi.GetCommitsAsync().GetAwaiter().GetResult();
+            List<Octokit.Contributor> contributors;
+            List<GitHubCommit> commits;
 
-            // Order the commits by date
-            commits = commits.OrderByDescending(c => c.Commit.Author.Date).ToList();
+            try
+            {
+                contributors = (await gitHubApi.GetContributorsAsync()).ToList();
+                Console.WriteLine($"[RepoStats] Found {contributors.Count} contributors");
 
-            Console.WriteLine($"Found {commits.Count} commits");
+                commits = (await gitHubApi.GetCommitsAsync()).ToList();
+                // Order the commits by date
+                commits = commits.OrderByDescending(c => c.Commit.Author.Date).ToList();
+                Console.WriteLine($"[RepoStats] Found {commits.Count} commits");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"[RepoStats] WARNING: Failed to retrieve GitHub stats ({ex.Message}). Skipping contributor data for this build.");
+                return;
+            }
 
             if (contributors.Any() && commits.Any())
             {
