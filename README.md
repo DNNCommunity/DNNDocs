@@ -38,6 +38,25 @@ Unless you are part of the DNNDocs core team, you will only have read access (yo
 ### .NET Framework Prerequisites
 You should ensure that you already have [.NET 5.0](https://dotnet.microsoft.com/download/dotnet) (used by the `build` project) and the "Developer Pack" for [.NET Framework 4.6.2](https://dotnet.microsoft.com/download/dotnet-framework/net462) (used by the custom `DocFx` plugins) installed on your machine before trying the build process.
 
+### Environment Variables
+
+The build uses a `.env` file in the root of the repository for local configuration. This file is gitignored so it will never be committed. Copy `.env.example` to get started:
+
+```
+copy .env.example .env
+```
+
+Open `.env` and choose one of two modes:
+
+| Mode | When to use |
+|------|-------------|
+| `SKIP_CONTRIBUTORS=true` | **Recommended for most contributors.** Skips all GitHub API calls, making local builds much faster. Contributor and last-updated data will be absent from the local preview. |
+| `ACCESS_TOKEN=ghp_...` | Use when you need to verify contributor/commit data locally. Generate a token at [github.com/settings/tokens](https://github.com/settings/tokens) with `read:public_repo` scope. |
+
+> **Note:** Without a token and without `SKIP_CONTRIBUTORS=true`, the build will still work but may be slow or hit the GitHub anonymous rate limit.
+
+### Running the build
+
 You should now be able to run the development version of the docs locally with the following command:
 
 Windows Powershell:
