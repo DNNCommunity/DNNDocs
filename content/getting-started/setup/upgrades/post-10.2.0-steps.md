@@ -18,7 +18,7 @@ Before starting the upgrade process, it is recommended to have a very clear unde
 
 * Know the [suggested upgrade path](xref:setup-upgrades-suggested-upgrade-path) and take the necessary planning steps to make each of these upgrade steps for the best success.
 
-* Download the appropriate "Upgrade" ZIP package for your upgrade from [the official repository on GitHub](https://github.com/dnnsoftware/DNN.Platform/releases). The file can be found in the **Assets** section for the desired version release and will have a naming convention like **DNN_Platform_10.2.1_Upgrade.zip**.
+* Download the appropriate "Install" ZIP package for your upgrade from [the official repository on GitHub](https://github.com/dnnsoftware/DNN.Platform/releases). The file can be found in the **Assets** section for the desired version release and will have a naming convention like **DNN_Platform_10.3.2_Install.zip**. According to the new upgrade process, upgrade packages will no longer be required.
 
 * Know any changes to the minimum requirements for the desired version of DNN Platform and plan for implementation accordingly. 
 
@@ -45,8 +45,8 @@ If this level of access to the server is not possible, there are other options d
 
 ## Step 3 - Upload Upgrade Package
 Login as a SuperUser (Host) and navigate to: Settings => Servers => System Info => Upgrades.
-Click on "Upload Package" and upload the previously downloaded upgrade zip file.
-The system will validate the upgrade package and warn about potential issues if detected.
+Click on "Upload Package" and upload the previously downloaded zip file.
+The system will validate the install package and warn about potential issues if detected.
 
 ## Step 4 - Initiate Upgrade
 If the uploaded file is valid, it will be listed and have a "steps" button. Clicking that button will perform any special upgrade steps that DNN may require and then show the upgrade page where you can again login as a SuperUser to start the auto-upgrade process.
