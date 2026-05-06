@@ -1,4 +1,5 @@
-﻿using Octokit;
+﻿using Docfx.Common;
+using Octokit;
 
 namespace DNNCommunity.DNNDocs.Plugins.Providers
 {
@@ -15,6 +16,8 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
         {
             DotNetEnv.Env.Load(); // Loads .env file if it exists, into environment variables.
             client = new GitHubClient(new ProductHeaderValue("DNNDocsPlugin"));
+            // Prevent any single API call from hanging indefinitely.
+            client.Connection.SetRequestTimeout(TimeSpan.FromSeconds(30));
 
             var skip = Environment.GetEnvironmentVariable("SKIP_CONTRIBUTORS") == "true";
             if (!skip)
@@ -26,6 +29,10 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
                     this.token = Environment.GetEnvironmentVariable("GithubToken");
                 }
             }
+            else
+            {
+                Logger.LogInfo("[RepoStats] SKIP_CONTRIBUTORS=true — all GitHub API calls will be skipped.");
+            }
 
             if (!string.IsNullOrEmpty(this.token))
             {
@@ -35,40 +42,64 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
             try
             {
                 var rateLimits = client.RateLimit.GetRateLimits().GetAwaiter().GetResult();
-                Console.WriteLine($"[RepoStats] GitHub API remaining: {rateLimits.Resources.Core.Remaining}/{rateLimits.Resources.Core.Limit}, resets at: {rateLimits.Resources.Core.Reset}");
+                Logger.LogInfo($"[RepoStats] GitHub API remaining: {rateLimits.Resources.Core.Remaining}/{rateLimits.Resources.Core.Limit}, resets at: {rateLimits.Resources.Core.Reset}");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"[RepoStats] WARNING: Could not retrieve GitHub rate limit info: {ex.Message}");
+                Logger.LogWarning($"[RepoStats] Could not retrieve GitHub rate limit info: {ex.Message}");
             }
         }
 
-        public async Task<IReadOnlyList<Contributor>> GetContributorsAsync()
+        /// <summary>
+        /// Derives contributor stats from commit history, avoiding the GitHub Statistics API
+        /// which returns 202 indefinitely for cold repos and cannot be reliably cancelled.
+        /// </summary>
+        public async Task<IReadOnlyList<Models.Contributor>> GetContributorsAsync()
         {
             if (string.IsNullOrEmpty(this.token))
             {
-                Console.WriteLine("[RepoStats] No GitHub token configured — skipping contributor stats.");
-                return new List<Contributor>();
+                Logger.LogWarning("[RepoStats] No GitHub token configured — skipping contributor stats.");
+                return new List<Models.Contributor>();
             }
 
             if (!await this.ThrottleIfNeeded())
             {
-                return new List<Contributor>();
+                return new List<Models.Contributor>();
             }
 
             try
             {
-                return await client.Repository.Statistics.GetContributors("DNNCommunity", "DNNDocs");
+                Logger.LogInfo("[RepoStats] Fetching commits to derive contributor stats (10 pages)...");
+                var commits = await client.Repository.Commit.GetAll(
+                    "DNNCommunity", "DNNDocs",
+                    new CommitRequest(),
+                    new ApiOptions { PageSize = 100, PageCount = 10 });
+
+                var contributors = commits
+                    .Where(c => c.Author != null && !string.IsNullOrEmpty(c.Author.Login))
+                    .GroupBy(c => c.Author.Login)
+                    .Select(g => new Models.Contributor
+                    {
+                        Login = g.Key,
+                        AvatarUrl = g.First().Author.AvatarUrl,
+                        HtmlUrl = g.First().Author.HtmlUrl,
+                        Total = g.Count(),
+                        LatestCommitDate = g.Max(c => c.Commit.Author.Date),
+                    })
+                    .ToList();
+
+                Logger.LogInfo($"[RepoStats] Derived {contributors.Count} contributors from {commits.Count} commits.");
+                return contributors;
             }
             catch (RateLimitExceededException ex)
             {
-                Console.WriteLine($"[RepoStats] WARNING: GitHub API rate limit exceeded while fetching contributors. Skipping stats. Reset at: {ex.Reset}");
-                return new List<Contributor>();
+                Logger.LogWarning($"[RepoStats] GitHub API rate limit exceeded while fetching contributors. Skipping stats. Reset at: {ex.Reset}");
+                return new List<Models.Contributor>();
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"[RepoStats] WARNING: Failed to fetch contributors: {ex.Message}. Skipping stats.");
-                return new List<Contributor>();
+                Logger.LogWarning($"[RepoStats] Failed to fetch contributors: {ex.Message}. Skipping stats.");
+                return new List<Models.Contributor>();
             }
         }
 
@@ -76,7 +107,7 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
         {
             if (string.IsNullOrEmpty(this.token))
             {
-                Console.WriteLine("[RepoStats] No GitHub token configured — skipping commit stats.");
+                Logger.LogWarning("[RepoStats] No GitHub token configured — skipping commit stats.");
                 return new List<GitHubCommit>();
             }
 
@@ -91,16 +122,26 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
                 if (!string.IsNullOrEmpty(path))
                     request.Path = path;
 
-                return await client.Repository.Commit.GetAll("DNNCommunity", "DNNDocs", request);
+                // When fetching global commits (for recent-contributors), we only need enough
+                // to find 5 unique authors — cap at 3 pages (max 300 commits) to avoid
+                // paginating through the entire repo history.
+                var options = string.IsNullOrEmpty(path)
+                    ? new ApiOptions { PageSize = 100, PageCount = 3 }
+                    : new ApiOptions { PageSize = 100 };
+
+                Logger.LogInfo($"[RepoStats] Fetching commits{(string.IsNullOrEmpty(path) ? "" : $" for {path}")}...");
+                var commits = await client.Repository.Commit.GetAll("DNNCommunity", "DNNDocs", request, options);
+                Logger.LogInfo($"[RepoStats] Fetched {commits.Count} commits{(string.IsNullOrEmpty(path) ? "" : $" for {path}")}");
+                return commits;
             }
             catch (RateLimitExceededException ex)
             {
-                Console.WriteLine($"[RepoStats] WARNING: GitHub API rate limit exceeded while fetching commits. Skipping stats. Reset at: {ex.Reset}");
+                Logger.LogWarning($"[RepoStats] GitHub API rate limit exceeded while fetching commits. Skipping stats. Reset at: {ex.Reset}");
                 return new List<GitHubCommit>();
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"[RepoStats] WARNING: Failed to fetch commits: {ex.Message}. Skipping stats.");
+                Logger.LogWarning($"[RepoStats] Failed to fetch commits: {ex.Message}. Skipping stats.");
                 return new List<GitHubCommit>();
             }
         }
@@ -122,7 +163,7 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
                 if (remaining == 0)
                 {
                     var waitSeconds = (int)(reset - DateTimeOffset.UtcNow).TotalSeconds + 5;
-                    Console.WriteLine($"[RepoStats] WARNING: GitHub API rate limit fully exhausted (0/{limit}). Resets at {reset} UTC (~{waitSeconds}s). Skipping stats to avoid blocking the build.");
+                    Logger.LogWarning($"[RepoStats] GitHub API rate limit fully exhausted (0/{limit}). Resets at {reset} UTC (~{waitSeconds}s). Skipping stats to avoid blocking the build.");
                     return false;
                 }
 
@@ -131,7 +172,7 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
                     int delayFactor = RateLimitThreshold - remaining;
                     int delayMs = (int)Math.Min(Math.Pow(ExponentialBase, delayFactor), MaxDelayMs);
 
-                    Console.WriteLine($"[RepoStats] Nearing GitHub API rate limit, applying backoff of {delayMs} ms. Remaining: {remaining}/{limit}, resets at {reset}.");
+                    Logger.LogInfo($"[RepoStats] Nearing GitHub API rate limit, applying backoff of {delayMs} ms. Remaining: {remaining}/{limit}, resets at {reset}.");
                     await Task.Delay(delayMs);
                 }
 
@@ -139,12 +180,12 @@ namespace DNNCommunity.DNNDocs.Plugins.Providers
             }
             catch (RateLimitExceededException ex)
             {
-                Console.WriteLine($"[RepoStats] WARNING: GitHub API rate limit exceeded during throttle check. Skipping stats. Reset at: {ex.Reset}");
+                Logger.LogWarning($"[RepoStats] GitHub API rate limit exceeded during throttle check. Skipping stats. Reset at: {ex.Reset}");
                 return false;
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"[RepoStats] WARNING: Could not check rate limit ({ex.Message}). Proceeding cautiously.");
+                Logger.LogWarning($"[RepoStats] Could not check rate limit ({ex.Message}). Proceeding cautiously.");
                 return true;
             }
         }

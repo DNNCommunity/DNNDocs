@@ -1,6 +1,7 @@
 ﻿using System.Collections.Immutable;
 using System.Composition;
 using System.Diagnostics;
+using Docfx.Common;
 using DNNCommunity.DNNDocs.Plugins.Models;
 using DNNCommunity.DNNDocs.Plugins.Providers;
 using Docfx.Plugins;
@@ -16,7 +17,7 @@ namespace DNNCommunity.DNNDocs.Plugins
 
         public PageStatsBuildStep()
         {
-            Console.WriteLine($"[PLUGIN] {nameof(PageStatsBuildStep)} loaded.");
+            Logger.LogInfo($"{nameof(PageStatsBuildStep)} loaded.");
         }
 
         public void Build(FileModel model, IHostService host)
@@ -24,32 +25,36 @@ namespace DNNCommunity.DNNDocs.Plugins
         }
 
         public void Postbuild(ImmutableList<FileModel> models, IHostService host)
-        {
+            => PostbuildAsync(models, host).GetAwaiter().GetResult();
 
+        private async Task PostbuildAsync(ImmutableList<FileModel> models, IHostService host)
+        {
             if (models == null || models.Count == 0)
             {
-                Console.WriteLine("[PLUGIN] No models to process.");
+                Logger.LogWarning($"{nameof(PageStatsBuildStep)}: No models to process.");
                 return;
             }
 
-            Console.WriteLine($"[PLUGIN] {nameof(PageStatsBuildStep)} Processing {models.Count} models");
+            var articleModels = models
+                .Where(m => m.Type == DocumentType.Article)
+                .Where(m => !m.LocalPathFromRoot.StartsWith("content/reference/", StringComparison.OrdinalIgnoreCase))
+                .ToList();
+            Logger.LogInfo($"{nameof(PageStatsBuildStep)}: Processing {articleModels.Count} article models (reference pages excluded).");
 
-            var gitHubApi = new GitHubApi(); // Optionally pass token
+            var gitHubApi = new GitHubApi();
+            var totalSw = Stopwatch.StartNew();
 
-            foreach (var model in models)
+            foreach (var item in articleModels.Select((value, index) => new { value, index }))
             {
+                if ((item.index + 1) % 100 == 0 || item.index + 1 == articleModels.Count)
+                {
+                    Logger.LogInfo($"{nameof(PageStatsBuildStep)}: Processing model {item.index + 1}/{articleModels.Count} ({totalSw.Elapsed.TotalSeconds:F1}s elapsed).");
+                }
 
-                if (model.Type != DocumentType.Article) continue;
-
-                // Build the relative path for the GitHub API query
-                string transformedFilePath = model.LocalPathFromRoot.Replace("/", "%2F");
-
-                // Get commits for the specific page/file
-                var gitCommits = gitHubApi.GetCommitsAsync(model.LocalPathFromRoot).GetAwaiter().GetResult();
+                var gitCommits = await gitHubApi.GetCommitsAsync(item.value.LocalPathFromRoot);
 
                 if (gitCommits != null && gitCommits.Count > 0)
                 {
-                    // Group by author login and order by number of commits
                     var topContributors = gitCommits
                         .Where(c => c.Author != null && !string.IsNullOrEmpty(c.Author.Login))
                         .GroupBy(c => c.Author.Login)
@@ -58,27 +63,23 @@ namespace DNNCommunity.DNNDocs.Plugins
                         .Take(5)
                         .ToList();
 
-                    var content = (Dictionary<string, object>)model.Content;
+                    var content = (Dictionary<string, object>)item.value.Content;
 
-                    var contributorsList = new List<string>();
                     int index = 1;
                     foreach (var commit in topContributors)
                     {
                         content[$"gitPageContributor{index}Login"] = commit.Author.Login;
                         content[$"gitPageContributor{index}AvatarUrl"] = commit.Author.AvatarUrl;
                         content[$"gitPageContributor{index}HtmlUrl"] = commit.Author.HtmlUrl;
-
-                        contributorsList.Add(commit.Author.Login);
                         index++;
                     }
 
-                    // Set the page last updated date based on the latest commit
                     var lastUpdated = gitCommits[0].Commit.Author.Date.DateTime.ToShortDateString();
                     content["gitPageDate"] = lastUpdated;
-                    
-                    Console.WriteLine($"[PLUGIN] {nameof(PageStatsBuildStep)} processed {model.File} | Contributors: {string.Join(", ", contributorsList)} | Last Updated: {lastUpdated}");
                 }
             }
+
+            Logger.LogInfo($"{nameof(PageStatsBuildStep)}: Finished in {totalSw.Elapsed.TotalSeconds:F1}s.");
         }
 
 
