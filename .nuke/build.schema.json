@@ -31,7 +31,8 @@
         "Deploy",
         "PullDnnPackages",
         "Restore",
-        "Serve"
+        "Serve",
+        "ValidateGitHubToken"
       ]
     },
     "Verbosity": {
@@ -116,6 +117,11 @@
         "GithubToken": {
           "type": "string",
           "description": "Github Token"
+        },
+        "Port": {
+          "type": "integer",
+          "description": "Port to serve the docs on locally (default: 8085, auto-increments if already in use)",
+          "format": "int32"
         },
         "Solution": {
           "type": "string",

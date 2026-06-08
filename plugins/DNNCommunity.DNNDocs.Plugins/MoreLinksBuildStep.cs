@@ -1,4 +1,5 @@
-﻿using Docfx.Plugins;
+﻿using Docfx.Common;
+using Docfx.Plugins;
 using System.Collections.Immutable;
 using System.Composition;
 using System.Text.RegularExpressions;
@@ -14,7 +15,7 @@ namespace DNNCommunity.DNNDocs.Plugins
 
         public MoreLinksBuildStep()
         {
-            Console.WriteLine($"[PLUGIN] {nameof(MoreLinksBuildStep)} loaded");
+            Logger.LogInfo($"{nameof(MoreLinksBuildStep)} loaded.");
         }
 
         public class Link
@@ -58,10 +59,7 @@ namespace DNNCommunity.DNNDocs.Plugins
                             }
                             if (newLinks.Count > 0)
                             {
-                                foreach (var link in newLinks)
-                                {
-                                    Console.WriteLine($"[PLUGIN] {nameof(MoreLinksBuildStep)}: {link.Url} related topic added for {model.File}");
-                                }
+                                Logger.LogVerbose($"{nameof(MoreLinksBuildStep)}: {newLinks.Count} related topic(s) added for {model.File}");
                                 AddLinksDivToContents(contents, "related-topics", newLinks);
                             }
                         }
