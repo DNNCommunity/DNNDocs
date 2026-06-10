@@ -74,17 +74,19 @@ Now that you've gotten DNN Docs running locally (congrats BTW!) we will talk thr
 
     ![GitHub Issue Screenshot](/images/GitHub_InBrowser_Issue.jpg)
 3. Create a new branch for your work using Visual Studio menu item 'Git...New Branch..'
-![Visual Studio 2026 Create New Branch](/images/DnnDocs_VS2026_CreateNewBranch.png)
-For more elaborate instructions on how to create a new branch in Visual Studio see https://learn.microsoft.com/en-us/visualstudio/version-control/git-create-branch?view=visualstudio.
-4. Make your edits
-5. Preview your work and files locally using the 'Git Changes' tab in Visual Studio.
-![Visual Studio 2026 Git Changes Tab](/images/DnnDocs_VS2026_GitChangesTab.png)
-6. Commit the changed and added files by clicking 'Commit All and Push'.
-![Visual Studio 2026 Commit Changes](/images/DnnDocs_VS2026_GitChanges_CommitAllAndPush.png)
-7. Go to your forked GitHub repo on GitHub.com. GitHub should detect the updated code and prompt you to make a pull request.
+   ![Visual Studio 2026 Create New Branch](/images/DnnDocs_VS2026_CreateNewBranch.png)
+   
+   For more elaborate instructions on how to create a new branch in Visual Studio see https://learn.microsoft.com/en-us/visualstudio/version-control/git-create-branch?view=visualstudio.
+6. Make your edits.
+7. Preview your work and files locally using the 'Git Changes' tab in Visual Studio.
+    ![Visual Studio 2026 Git Changes Tab](/images/DnnDocs_VS2026_GitChangesTab.png)
+
+8. Commit the changed and added files by clicking 'Commit All and Push'.\
+   ![Visual Studio 2026 Commit Changes](/images/DnnDocs_VS2026_GitChanges_CommitAllAndPush.png)
+9. Go to your forked GitHub repo on GitHub.com. GitHub should detect the updated code and prompt you to make a pull request.
     ![Git compare and pull request screenshot](/images/GitHub_InBrowser_CompareAndPullRequest.jpg)
 
-8. Create a Pull Request on Github.com by clicking the "Compare and Create Pull Request" button. In the description/comments section be sure to include the text "Resolves ```#[INSERT ISSUE NUMBER HERE]``` where your previously created issue number is associated with this pull request.
+10. Create a Pull Request on Github.com by clicking the "Compare and Create Pull Request" button. In the description/comments section be sure to include the text "Resolves ```#[INSERT ISSUE NUMBER HERE]``` where your previously created issue number is associated with this pull request.
 
     ![Git pull request resolves](/images/GitHub_InBrowser_PullRequestResolves.jpg)
 
