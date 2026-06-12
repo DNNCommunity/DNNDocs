@@ -2,20 +2,24 @@
 uid: get-dnn-docs-running-locally
 locale: en
 title: Get DNN Docs Running Locally
-dnnversion: 09.02.00
+dnnversion: 10.02.00
 ---
 
 # Get DNN Docs Running Locally
 
 The project uses the `docfx` library to pull XML comments from the DNN Platform source code and combine that with articles written in Markdown to form the documentation for DNN.
 
-## Installing Git
+This page first explains how to use Git in contributing to DNN Docs. The second and last part does the same for Visual Studio.
+
+## Using Git
+
+### Installing Git
 If you do not have Git installed you will need to install Git first. You can find instructions on installing Git from [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-## Installing dotnet
+### Installing dotnet
 Our cross-platform build scripts handle obtaining docfx for you, however you will need to have the latest .net SDK installed. [Download .NET](https://dotnet.microsoft.com/en-us/download)
 
-## Setting Up the DNN Docs Project
+### Setting Up the DNN Docs Project
 The next step is to clone this repo. 'Cloning the repo' will simply create a copy of the repo (files and folders) on your local machine so that you can work with them.
 
 Note the following example command clones the repo to the location of `c:\dev`. Update the `c:\dev` location to your location of choice on your machine.
@@ -28,7 +32,7 @@ The previous command will have created a folder called `DNNDocs` in the `c:\dev`
 c:\dev> cd DNNDocs
 ```
 
-## Running the DNN Docs Project Locally
+### Running the DNN Docs Project Locally
 You should now be able to run the development version of the docs locally with the following command:
 
 ```
@@ -52,9 +56,29 @@ Open that page up in your browser to see the documentation.
 
 [http://localhost:8080](http://localhost:8080)
 
-### Optional git integrations
+#### Optional git integrations
 We use a handful of plugins that will not work unless you have a valid authentication to github REST APIs. This step is optional but if not performed, you won't get some of the features like displaying contributors on pages. If you need to work in that area you will need to [Setup a git personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens). Once that is created, copy your token (you will only view it once) and create a `.env` file at the root of the project with a line like this (everything after the `=` sign is the token you copied).
 
 ```
 GithubToken=github_pat_xxxxxxxxxx
 ```
+
+## Using Microsoft Visual Studio
+
+The following tutorial explains how to set DNN Docs Project up locally using Visual Studio 2026.
+As 'Repository location' use https://github.com/DNNCommunity/DNNDocs.git
+![Repository Location Screenshot](/images/DnnDocs_VS2026_CloneRepository.png)
+
+- Clone a Git repository in Visual Studio
+https://learn.microsoft.com/en-us/visualstudio/version-control/git-clone-repository?view=visualstudio
+
+Adjust the Push configuration for the DNN Docs Git repository to point to your fork/branch of the DNN Docs repoisitory on Github. Note the <YourGitHubUserName> part.
+![Visual Studio 2026 Commit Changes](/images/DnnDocs_VS2026_ManageRemotes1.png)
+![Visual Studio 2026 Commit Changes](/images/DnnDocs_VS2026_ManageRemotes2.png)
+![Visual Studio 2026 Commit Changes](/images/DnnDocs_VS2026_ManageRemotes3.png)
+
+After having set up DNN Docs in the 'Solution Explorer' switch to 'Folder View'.
+![Solution Explorer Folder View Screenshot](/images/DnnDocs_VS2026_SolutionExplorer_Views.png)
+
+Under the 'content' branch / folder you will find (the content of) the DNN Docs.
+![Content Folder View Screenshot](/images/DnnDocs_VS2026_SolutionExplorer_FolderView.png)

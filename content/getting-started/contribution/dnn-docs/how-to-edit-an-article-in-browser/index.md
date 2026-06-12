@@ -2,7 +2,7 @@
 uid: how-to-edit-an-article-in-browser
 locale: en
 title: Edit an Article in the Browser
-dnnversion: 09.02.00
+dnnversion: 10.02.00
 ---
 
 # Edit an Article in the Browser
@@ -14,16 +14,16 @@ The easiest way to edit a DNN Doc file is to edit it in the browser on GitHub.co
 
 2. Click the ```Edit``` button icon.
 
-![Edit article in browser](/images/edit-article-in-browser.jpg)
+![Edit article in browser](/images/GitHub_InBrowser_EditArticle.jpg)
 
 
 
 3. Edit the markdown as needed, opt to "Create a New Branch", and propose the change.
 
-![Edit Markdown in browser](/images/in-browser-pull-request.gif)
+![Edit Markdown in browser](/images/GitHub_InBrowser_PullRequest1.gif)
 
 
 
 4. Update the title & submit the Pull Request
 
-![Edit Markdown in browser](/images/In-Browser-Pull-Request-2.gif)
+![Edit Markdown in browser](/images/GitHub_InBrowser_PullRequest2.gif)
