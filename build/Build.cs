@@ -181,9 +181,10 @@ class Build : NukeBuild
                 }
             }
 
-            var token = Environment.GetEnvironmentVariable("ACCESS_TOKEN");
+            // Prefer the GitHub Actions-provided token in CI, then fall back to ACCESS_TOKEN.
+            var token = GithubToken;
             if (string.IsNullOrEmpty(token))
-                token = GithubToken;
+                token = Environment.GetEnvironmentVariable("ACCESS_TOKEN");
 
             if (string.IsNullOrEmpty(token))
             {
@@ -237,9 +238,13 @@ class Build : NukeBuild
         .DependsOn(CreateDeployBranch)
         .DependsOn(Compile)
         .Executes(() => {
+            var token = GithubToken;
+            if (string.IsNullOrEmpty(token))
+                token = Environment.GetEnvironmentVariable("ACCESS_TOKEN");
+
             Git("config --global user.name 'DNN Community'");
             Git("config --global user.email 'info@dnncommunity.org'");
-            Git($"remote set-url origin https://{organizationName}:{GithubToken}@github.com/{organizationName}/{repositoryName}.git");
+            Git($"remote set-url origin https://{organizationName}:{token}@github.com/{organizationName}/{repositoryName}.git");
             Git("status");
             Git("add docs -f"); // Force adding because it is usually gitignored.
             Git("status");
