@@ -198,24 +198,40 @@ class Build : NukeBuild
             http.DefaultRequestHeaders.UserAgent.Add(new ProductInfoHeaderValue("DNNDocs-Build", "1.0"));
             http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            var response = await http.GetAsync("https://api.github.com/user");
-
-            if (response.StatusCode == HttpStatusCode.Unauthorized)
+            // /rate_limit works for all token types (user PATs and GITHUB_TOKEN alike).
+            // A 401 here means the token is genuinely invalid.
+            var rateResponse = await http.GetAsync("https://api.github.com/rate_limit");
+            if (rateResponse.StatusCode == HttpStatusCode.Unauthorized)
                 Assert.Fail("GitHub token is invalid or has expired. Generate a new one at https://github.com/settings/tokens");
+            if (!rateResponse.IsSuccessStatusCode)
+                Assert.Fail($"GitHub token validation returned an unexpected status: {(int)rateResponse.StatusCode} {rateResponse.ReasonPhrase}");
 
-            if (!response.IsSuccessStatusCode)
-                Assert.Fail($"GitHub token validation returned an unexpected status: {(int)response.StatusCode} {response.ReasonPhrase}");
+            // /user requires a user PAT. GITHUB_TOKEN (GitHub Actions installation token) returns 403
+            // here because it represents github-actions[bot], not a real user — that is expected.
+            var userResponse = await http.GetAsync("https://api.github.com/user");
+            if (userResponse.StatusCode == HttpStatusCode.Forbidden)
+            {
+                Serilog.Log.Warning("GitHub token is a CI installation token (GITHUB_TOKEN). Contributor and commit data will be skipped.");
+                Environment.SetEnvironmentVariable("SKIP_CONTRIBUTORS", "true");
+                return;
+            }
+
+            if (!userResponse.IsSuccessStatusCode)
+                Assert.Fail($"GitHub token validation returned an unexpected status: {(int)userResponse.StatusCode} {userResponse.ReasonPhrase}");
 
             // Check that the token has the required scope
-            response.Headers.TryGetValues("X-OAuth-Scopes", out var scopeValues);
+            userResponse.Headers.TryGetValues("X-OAuth-Scopes", out var scopeValues);
             var scopes = (scopeValues?.FirstOrDefault() ?? string.Empty)
                 .Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
 
             if (scopes.Length > 0 && !scopes.Contains("public_repo") && !scopes.Contains("repo"))
-                Assert.Fail($"GitHub token is missing the 'public_repo' scope. Current scopes: {string.Join(", ", scopes)}. " +
-                    "Regenerate it at https://github.com/settings/tokens");
+            {
+                Serilog.Log.Warning($"GitHub token is missing the 'public_repo' scope. Current scopes: {string.Join(", ", scopes)}. Contributor data will be skipped.");
+                Environment.SetEnvironmentVariable("SKIP_CONTRIBUTORS", "true");
+                return;
+            }
 
-            var login = await response.Content.ReadAsStringAsync();
+            var login = await userResponse.Content.ReadAsStringAsync();
             var loginStart = login.IndexOf("\"login\":\"") + 9;
             var loginEnd = login.IndexOf('"', loginStart);
             var username = loginStart > 8 ? login[loginStart..loginEnd] : "unknown";
