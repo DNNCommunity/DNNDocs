@@ -103,33 +103,16 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="how-to-edit-an-article">
-<h1 id="edit-an-article">Edit an Article</h1>
+<h1 id="edit-an-article-running-dnn-docs-locally-on-your-machine">Edit an Article (running DNN Docs Locally on Your Machine)</h1>
 <div class="page-version">
-    DNN Version: <span class="dnn-version">09.02.00</span>
+    DNN Version: <span class="dnn-version">10.02.00</span>
     
 </div>
 <div class="page-stats row visible-xs">
-    <div class="pull-left">04/14/2026 &bull; 4 minutes  to read</div>
-    <div class="pull-left">Contributors&nbsp;
-        <a href="https://github.com/GVskl" target="_blank">
-            <img class="img-circle" src="https://avatars.githubusercontent.com/u/50699067?v=4" alt="GVskl">
-        </a>
-        <a href="https://github.com/david-poindexter" target="_blank">
-            <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
-        </a>
-    </div>
+    <div class="pull-left"> &bull; 6 minutes  to read</div>
 </div>
 <div class="page-stats row visible-sm visible-md visible-lg visible-xl">
-    <span class="pull-left">04/14/2026</span>
-    <span class="pull-left">&nbsp;&bull; 4 minutes  to read</span>
-    <span class="pull-left">&nbsp;&bull;&nbsp;Contributors&nbsp;
-        <a href="https://github.com/GVskl" target="_blank">
-            <img class="img-circle" src="https://avatars.githubusercontent.com/u/50699067?v=4" alt="GVskl">
-        </a>
-        <a href="https://github.com/david-poindexter" target="_blank">
-            <img class="img-circle" src="https://avatars.githubusercontent.com/u/4568451?v=4" alt="david-poindexter">
-        </a>
-    </span>
+    <span class="pull-left">&nbsp;&bull; 6 minutes  to read</span>
 </div>
 
 <h2 id="prerequisites">Prerequisites</h2>
@@ -139,23 +122,23 @@
 <li><p><strong>Markdown</strong>: Docs uses markdown syntax to format the docs files. Markdown is simple to pick up on. Familiarize yourself with the <a class="xref" href="../markdown-guide-to-docfx/index.html">Markdown Guide to DocFx</a> before making updates to content.</p>
 </li>
 </ol>
-<p>Now that you've gotten DNN Docs running locally (congrats BTW!) we will talk through the steps for making an edit, previewing the edit, pushing it to your forked repo, then creating a Pull Request.</p>
-<h2 id="steps-to-edit-an-article--create-a-pull-request">Steps to Edit an Article &amp; Create a Pull Request</h2>
+<p>Now that you've gotten DNN Docs running locally (congrats BTW!) we will talk through the steps for making an edit (in your local repo), previewing the (local) edit, pushing it to your forked repo (on the Github.com website), then creating a Pull Request on the Github.com website. First using Git; second using Visual Studio.</p>
+<h2 id="steps-to-edit-an-article--create-a-pull-request-using-git">Steps to Edit an Article &amp; Create a Pull Request using Git</h2>
 <ol>
-<li><p>Fork the <a href="https://github.com/DNNCommunity/DNNDocs">DNN Docs Repo</a> into your own Repo.
-<img src="/images/fork-screenshot.jpg" alt="Fork DNN Docs Screenshot"></p>
+<li><p>Fork the <a href="https://github.com/DNNCommunity/DNNDocs">DNN Docs Repo</a> into your own Repo on Github.
+<img src="/images/GitHub_InBrowser_ForkDnnDocs.jpg" alt="Fork DNN Docs Screenshot"></p>
 </li>
-<li><p>Set your remote repositories. We will use the terms &quot;upstream&quot; and &quot;origin&quot;. When you originally cloned the repo (in the &quot;Getting DNN Docs Running Locally&quot; pre-requisite) the <code>origin</code> was added for you implicitly.</p>
+<li><p>Set your remote repositories. We will use the terms &quot;upstream&quot; and &quot;origin&quot;. Note: when you originally cloned the repo locally (in the &quot;Getting DNN Docs Running Locally&quot; pre-requisite) the locally cloned repo was named <code>origin</code> implicitly (as well).</p>
 <p>Type <code>git remote add upstream https://github.com/DNNCommunity/DNNDocs</code> to add the main DNN Docs repo as your &quot;upstream&quot; repo</p>
 <div class="NOTE">
 <h5>Note</h5>
 <p>Remotes can be named anything you like. Find out your remotes by typing <code>git remote -v</code></p>
 </div>
-<p>Type <code>git remote -v</code> to list your remotes. If you are new to Git then you should have 2 remotes. Your <code>origin</code> and <code>upstream</code> where <code>origin</code> is your forked repo and your <code>upstream</code> is the main DNN Docs repo.</p>
+<p>Type <code>git remote -v</code> to list your remotes. If you are new to Git then you should have 2 remotes. Your <code>origin</code> and <code>upstream</code> where <code>origin</code> is your forked repo and your <code>upstream</code> is the main DNN Docs repo; both on Github.</p>
 </li>
 <li><p>Create an <a href="https://github.com/DNNCommunity/DNNDocs/issues">Issue</a> on GitHub that corresponds with the edit you're working on by clicking the &quot;New Issue&quot; button in the browser. Be sure to include relevant information providing context to the issue in the description/comment section. This helps reviewers understand what you're working on.</p>
 <p>Make note of the issue number that GitHub generates.</p>
-<p><img src="/images/git-issue-screenshot.jpg" alt="GitHub Issue Screenshot"></p>
+<p><img src="/images/GitHub_InBrowser_Issue.jpg" alt="GitHub Issue Screenshot"></p>
 </li>
 <li><p>Create a new branch for your work. Typically branch names align with the issue number for ease of tracking.</p>
 <p><strong>Example Branch Name</strong>: <code>issue-107</code></p>
@@ -173,13 +156,40 @@
 </li>
 <li><p>Use <code>git commit -m [INSERT YOUR COMMIT MESSAGE HERE]</code> to commit your files. The <code>-m</code> stands for &quot;message&quot;. Replace the <em>INSERT YOUR COMMIT MESSAGE HERE</em> text with brief and relevant text summarizing your commit</p>
 </li>
-<li><p>Use <code>git push origin [INSERT A NEW BRANCH NAME HERE]</code> to push your updated files to your repo. Replace the <em>INSERT A NEW BRANCH NAME HERE</em> with the name of your new branch</p>
+<li><p>Use <code>git push origin [INSERT A NEW BRANCH NAME HERE]</code> to push your updated files to your remote repo (on Github with name <code>origin</code>). Replace the <em>INSERT A NEW BRANCH NAME HERE</em> with the name of your new branch. In this example <code>issue-107</code></p>
 </li>
 <li><p>Go to your forked GitHub repo on GitHub.com. GitHub should detect the updated code and prompt you to make a pull request.
-<img src="/images/git-compare-and-pull-request-screenshot.jpg" alt="Git compare and pull request screenshot"></p>
+<img src="/images/GitHub_InBrowser_CompareAndPullRequest.jpg" alt="Git compare and pull request screenshot"></p>
 </li>
-<li><p>Create a Pull Request by clicking the &quot;Compare and Create Pull Request&quot; button. In the description/comments section be sure to include the text &quot;Resolves <code>#[INSERT ISSUE NUMBER HERE]</code> where your previously created issue number is associated with this pull request.</p>
-<p><img src="/images/git-pull-request-resolves-screenshot.jpg" alt="Git pull request resolves"></p>
+<li><p>Create a Pull Request on Github.com by clicking the &quot;Compare and Create Pull Request&quot; button. In the description/comments section be sure to include the text &quot;Resolves <code>#[INSERT ISSUE NUMBER HERE]</code> where your previously created issue number is associated with this pull request.</p>
+<p><img src="/images/GitHub_InBrowser_PullRequestResolves.jpg" alt="Git pull request resolves"></p>
+</li>
+</ol>
+<h2 id="steps-to-edit-an-article--create-a-pull-request-using-visual-studio">Steps to Edit an Article &amp; Create a Pull Request using Visual Studio</h2>
+<ol>
+<li><p>Cloning the repository from Visual Studio, as described on <a class="xref" href="../get-dnn-docs-running-locally/index.html">Get DNN Docs Running Locally page</a>, has forked the <a href="https://github.com/DNNCommunity/DNNDocs">DNN Docs Repo</a> into your own Repo on Github.</p>
+</li>
+<li><p>Create an <a href="https://github.com/DNNCommunity/DNNDocs/issues">Issue</a> on GitHub that corresponds with the edit you're working on by clicking the &quot;New Issue&quot; button in the browser. Be sure to include relevant information providing context to the issue in the description/comment section. This helps reviewers understand what you're working on.</p>
+<p>Make note of the issue number that GitHub generates.</p>
+<p><img src="/images/GitHub_InBrowser_Issue.jpg" alt="GitHub Issue Screenshot"></p>
+</li>
+<li><p>Create a new branch for your work using Visual Studio menu item 'Git...New Branch..'
+<img src="/images/DnnDocs_VS2026_CreateNewBranch.png" alt="Visual Studio 2026 Create New Branch"></p>
+<p>For more elaborate instructions on how to create a new branch in Visual Studio see <a href="https://learn.microsoft.com/en-us/visualstudio/version-control/git-create-branch?view=visualstudio">https://learn.microsoft.com/en-us/visualstudio/version-control/git-create-branch?view=visualstudio</a>.</p>
+</li>
+<li><p>Make your edits.</p>
+</li>
+<li><p>Preview your work and files locally using the 'Git Changes' tab in Visual Studio.
+<img src="/images/DnnDocs_VS2026_GitChangesTab.png" alt="Visual Studio 2026 Git Changes Tab"></p>
+</li>
+<li><p>Commit the changed and added files by clicking 'Commit All and Push'.<br>
+<img src="/images/DnnDocs_VS2026_GitChanges_CommitAllAndPush.png" alt="Visual Studio 2026 Commit Changes"></p>
+</li>
+<li><p>Go to your forked GitHub repo on GitHub.com. GitHub should detect the updated code and prompt you to make a pull request.
+<img src="/images/GitHub_InBrowser_CompareAndPullRequest.jpg" alt="Git compare and pull request screenshot"></p>
+</li>
+<li><p>Create a Pull Request on Github.com by clicking the &quot;Compare and Create Pull Request&quot; button. In the description/comments section be sure to include the text &quot;Resolves <code>#[INSERT ISSUE NUMBER HERE]</code> where your previously created issue number is associated with this pull request.</p>
+<p><img src="/images/GitHub_InBrowser_PullRequestResolves.jpg" alt="Git pull request resolves"></p>
 </li>
 </ol>
 <div class="TIP">

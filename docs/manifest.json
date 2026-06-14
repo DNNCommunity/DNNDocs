@@ -43532,6 +43532,96 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/DnnDocs_VS2026_CloneRepository.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DnnDocs_VS2026_CloneRepository.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DnnDocs_VS2026_CreateNewBranch.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DnnDocs_VS2026_CreateNewBranch.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DnnDocs_VS2026_GitChangesTab.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DnnDocs_VS2026_GitChangesTab.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DnnDocs_VS2026_GitChanges_CommitAllAndPush.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DnnDocs_VS2026_GitChanges_CommitAllAndPush.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DnnDocs_VS2026_ManageRemotes1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DnnDocs_VS2026_ManageRemotes1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DnnDocs_VS2026_ManageRemotes2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DnnDocs_VS2026_ManageRemotes2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DnnDocs_VS2026_ManageRemotes3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DnnDocs_VS2026_ManageRemotes3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DnnDocs_VS2026_SolutionExplorer_FolderView.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DnnDocs_VS2026_SolutionExplorer_FolderView.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DnnDocs_VS2026_SolutionExplorer_Views.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DnnDocs_VS2026_SolutionExplorer_Views.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/Front-Matter.jpg",
       "output": {
         "resource": {
@@ -43542,20 +43632,100 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/IISUpdated.png",
+      "source_relative_path": "images/GitHub_InBrowser_CompareAndPullRequest.jpg",
       "output": {
         "resource": {
-          "relative_path": "images/IISUpdated.png"
+          "relative_path": "images/GitHub_InBrowser_CompareAndPullRequest.jpg"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/In-Browser-Pull-Request-2.gif",
+      "source_relative_path": "images/GitHub_InBrowser_EditArticle.jpg",
       "output": {
         "resource": {
-          "relative_path": "images/In-Browser-Pull-Request-2.gif"
+          "relative_path": "images/GitHub_InBrowser_EditArticle.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GitHub_InBrowser_ForkDnnDocs.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/GitHub_InBrowser_ForkDnnDocs.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GitHub_InBrowser_ImproveThisDoc.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/GitHub_InBrowser_ImproveThisDoc.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GitHub_InBrowser_Issue.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/GitHub_InBrowser_Issue.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GitHub_InBrowser_PullRequest1.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/GitHub_InBrowser_PullRequest1.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GitHub_InBrowser_PullRequest2.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/GitHub_InBrowser_PullRequest2.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GitHub_InBrowser_PullRequestButton.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/GitHub_InBrowser_PullRequestButton.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GitHub_InBrowser_PullRequestResolves.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/GitHub_InBrowser_PullRequestResolves.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/IISUpdated.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/IISUpdated.png"
         }
       },
       "version": ""
@@ -44032,60 +44202,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/edit-article-in-browser.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "images/edit-article-in-browser.jpg"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/fork-screenshot.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "images/fork-screenshot.jpg"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "images/git-add-screenshot.jpg",
       "output": {
         "resource": {
           "relative_path": "images/git-add-screenshot.jpg"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/git-compare-and-pull-request-screenshot.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "images/git-compare-and-pull-request-screenshot.jpg"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/git-issue-screenshot.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "images/git-issue-screenshot.jpg"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/git-pull-request-resolves-screenshot.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "images/git-pull-request-resolves-screenshot.jpg"
         }
       },
       "version": ""
@@ -44666,16 +44786,6 @@
       "output": {
         "resource": {
           "relative_path": "images/ico-module-viewprofile.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/in-browser-pull-request.gif",
-      "output": {
-        "resource": {
-          "relative_path": "images/in-browser-pull-request.gif"
         }
       },
       "version": ""
