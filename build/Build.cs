@@ -1,5 +1,10 @@
 using System;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Net.Sockets;
+using System.Threading.Tasks;
 using Nuke.Common;
 using Nuke.Common.CI.GitHubActions;
 using Nuke.Common.IO;
@@ -52,6 +57,9 @@ class Build : NukeBuild
     readonly Configuration Configuration = IsLocalBuild ? Configuration.Debug : Configuration.Release;
     [Parameter("Github Token")]
     readonly string GithubToken;
+
+    [Parameter("Port to serve the docs on locally (default: 8085, auto-increments if already in use)")]
+    readonly int Port = 8085;
 
     // Nuke features injection.
     [Solution] readonly Solution Solution;
@@ -132,12 +140,103 @@ class Build : NukeBuild
         });
 
     Target Serve => _ => _
+        .DependsOn(ValidateGitHubToken)
         .DependsOn(Clean)
         .DependsOn(Restore)
         .DependsOn(BuildPlugins)
         .Executes(() =>
         {
-            DnnDocFX?.Invoke("--serve --open-browser", RootDirectory);
+            DnnDocFX?.Invoke($"--serve --open-browser --port {FindFreePort(Port)}", RootDirectory);
+        });
+
+    static int FindFreePort(int startPort)
+    {
+        for (var port = startPort; port < startPort + 20; port++)
+        {
+            try
+            {
+                var listener = new TcpListener(IPAddress.Loopback, port);
+                listener.Start();
+                listener.Stop();
+                return port;
+            }
+            catch (SocketException) { }
+        }
+        throw new Exception($"Could not find a free port in range {startPort}-{startPort + 19}.");
+    }
+
+    Target ValidateGitHubToken => _ => _
+        .Executes(async () =>
+        {
+            // Load .env file manually (DotNetEnv is not a build project dependency)
+            var envFile = RootDirectory / ".env";
+            if (envFile.FileExists())
+            {
+                foreach (var line in System.IO.File.ReadAllLines(envFile))
+                {
+                    if (string.IsNullOrWhiteSpace(line) || line.TrimStart().StartsWith("#")) continue;
+                    var parts = line.Split('=', 2);
+                    if (parts.Length == 2)
+                        Environment.SetEnvironmentVariable(parts[0].Trim(), parts[1].Trim());
+                }
+            }
+
+            // Prefer the GitHub Actions-provided token in CI, then fall back to ACCESS_TOKEN.
+            var token = GithubToken;
+            if (string.IsNullOrEmpty(token))
+                token = Environment.GetEnvironmentVariable("ACCESS_TOKEN");
+
+            if (string.IsNullOrEmpty(token))
+            {
+                Serilog.Log.Warning("No GitHub token found. Contributor and commit data will be skipped.");
+                Serilog.Log.Warning("To enable it, set ACCESS_TOKEN in your .env file (see .env.example).");
+                Environment.SetEnvironmentVariable("SKIP_CONTRIBUTORS", "true");
+                return;
+            }
+
+            using var http = new HttpClient();
+            http.DefaultRequestHeaders.UserAgent.Add(new ProductInfoHeaderValue("DNNDocs-Build", "1.0"));
+            http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+            // /rate_limit works for all token types (user PATs and GITHUB_TOKEN alike).
+            // A 401 here means the token is genuinely invalid.
+            var rateResponse = await http.GetAsync("https://api.github.com/rate_limit");
+            if (rateResponse.StatusCode == HttpStatusCode.Unauthorized)
+                Assert.Fail("GitHub token is invalid or has expired. Generate a new one at https://github.com/settings/tokens");
+            if (!rateResponse.IsSuccessStatusCode)
+                Assert.Fail($"GitHub token validation returned an unexpected status: {(int)rateResponse.StatusCode} {rateResponse.ReasonPhrase}");
+
+            // /user requires a user PAT. GITHUB_TOKEN (GitHub Actions installation token) returns 403
+            // here because it represents github-actions[bot], not a real user — that is expected.
+            var userResponse = await http.GetAsync("https://api.github.com/user");
+            if (userResponse.StatusCode == HttpStatusCode.Forbidden)
+            {
+                Serilog.Log.Warning("GitHub token is a CI installation token (GITHUB_TOKEN). Contributor and commit data will be skipped.");
+                Environment.SetEnvironmentVariable("SKIP_CONTRIBUTORS", "true");
+                return;
+            }
+
+            if (!userResponse.IsSuccessStatusCode)
+                Assert.Fail($"GitHub token validation returned an unexpected status: {(int)userResponse.StatusCode} {userResponse.ReasonPhrase}");
+
+            // Check that the token has the required scope
+            userResponse.Headers.TryGetValues("X-OAuth-Scopes", out var scopeValues);
+            var scopes = (scopeValues?.FirstOrDefault() ?? string.Empty)
+                .Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+
+            if (scopes.Length > 0 && !scopes.Contains("public_repo") && !scopes.Contains("repo"))
+            {
+                Serilog.Log.Warning($"GitHub token is missing the 'public_repo' scope. Current scopes: {string.Join(", ", scopes)}. Contributor data will be skipped.");
+                Environment.SetEnvironmentVariable("SKIP_CONTRIBUTORS", "true");
+                return;
+            }
+
+            var login = await userResponse.Content.ReadAsStringAsync();
+            var loginStart = login.IndexOf("\"login\":\"") + 9;
+            var loginEnd = login.IndexOf('"', loginStart);
+            var username = loginStart > 8 ? login[loginStart..loginEnd] : "unknown";
+
+            Serilog.Log.Information("GitHub token is valid. Authenticated as: {Username}", username);
         });
 
     Target CreateDeployBranch => _ => _
@@ -151,12 +250,17 @@ class Build : NukeBuild
 
     Target Deploy => _ => _
         .OnlyWhenDynamic(() => gitRepository.ToString() == $"https://github.com/{organizationName}/{repositoryName}")
+        .DependsOn(ValidateGitHubToken)
         .DependsOn(CreateDeployBranch)
         .DependsOn(Compile)
         .Executes(() => {
+            var token = GithubToken;
+            if (string.IsNullOrEmpty(token))
+                token = Environment.GetEnvironmentVariable("ACCESS_TOKEN");
+
             Git("config --global user.name 'DNN Community'");
             Git("config --global user.email 'info@dnncommunity.org'");
-            Git($"remote set-url origin https://{organizationName}:{GithubToken}@github.com/{organizationName}/{repositoryName}.git");
+            Git($"remote set-url origin https://{organizationName}:{token}@github.com/{organizationName}/{repositoryName}.git");
             Git("status");
             Git("add docs -f"); // Force adding because it is usually gitignored.
             Git("status");

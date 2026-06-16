@@ -38,6 +38,25 @@ Unless you are part of the DNNDocs core team, you will only have read access (yo
 ### .NET Framework Prerequisites
 You should ensure that you already have [.NET 5.0](https://dotnet.microsoft.com/download/dotnet) (used by the `build` project) and the "Developer Pack" for [.NET Framework 4.6.2](https://dotnet.microsoft.com/download/dotnet-framework/net462) (used by the custom `DocFx` plugins) installed on your machine before trying the build process.
 
+### Environment Variables
+
+The build uses a `.env` file in the root of the repository for local configuration. This file is gitignored so it will never be committed. Copy `.env.example` to get started:
+
+```
+copy .env.example .env
+```
+
+Open `.env` and choose one of two modes:
+
+| Mode | When to use |
+|------|-------------|
+| `SKIP_CONTRIBUTORS=true` | **Recommended for most contributors.** Skips all GitHub API calls, making local builds much faster. Contributor and last-updated data will be absent from the local preview. |
+| `ACCESS_TOKEN=ghp_...` | Use when you need to verify contributor/commit data locally. Generate a token at [github.com/settings/tokens](https://github.com/settings/tokens) with `read:public_repo` scope. |
+
+> **Note:** Without a token and without `SKIP_CONTRIBUTORS=true`, the build will still work but may be slow or hit the GitHub anonymous rate limit.
+
+### Running the build
+
 You should now be able to run the development version of the docs locally with the following command:
 
 Windows Powershell:
@@ -71,7 +90,13 @@ First, it is recommended to create a new branch to collect your changes without 
 git checkout -b your-branch-name
 ```
 
-Next you can start editing documentation and saving files using your favorite text editor (Visual Studio Code, Atom, Sublime Text, Brackets Notedpad++, etc). When you are done with your changes you can verify the modified files. Some code editors will actually show a status of the modified files in their UI. If you want to verify it using the command line you can run the following command:
+If you made some changes before making a branch (you are on branch **main** and it's dirty), you can switch+create like this:
+
+```
+git switch -c your-branch-name
+```
+
+Next you can start editing documentation and saving files using your favorite text editor (Visual Studio Code, Atom, Sublime Text, Brackets/Phoenix Code, Notepad++, etc). When you are done with your changes you can verify the modified files. Some code editors will actually show a status of the modified files in their UI. If you want to verify it using the command line you can run the following command:
 
 ```
 git status
@@ -97,7 +122,8 @@ Congratulations, you have created your first commit! The next step is to push yo
 git push -u origin your-branch-name
 ```
 
-Now your changes are available in your **fork** of the repository for anyone to view. Remember how you only have read access to the **upstream** (or offical repository)? Since we cannot push there, they need to pull. The next and last step is to propose your changes, or in other works, request from DNNDocs team to **pull** your changes, hence the name **pull request**. You can create a **pull request** directly in the browser, if you navigate the the origin or the upstream repositories any soon, you will see a banner showing the recent pushes and a button to create a pull request. If for some reason you do not see that banner, navigate to your fork and select your branch in the branches dropdown, you will see a "Create Pull Request" button.
+Now your changes are available in your **fork** of the repository for anyone to view. Remember how you only have read access to the **upstream** (or offical repository)? Since we cannot push there, they need to pull. The next and last step is to propose your changes, or in other works, request the DNNDocs team to **pull** your changes, hence the name **pull request**. You can create a **pull request** directly in the browser, if you navigate to the origin or the upstream repositories soon you will see a banner showing the recent pushes and a button to create a pull request. If for some reason you do not see that banner, navigate to your fork and select your branch in the branches dropdown, you will see a "Create Pull Request" button.
+![Create Pull Request Button](/images/GitHub_InBrowser_PullRequestButton.jpg)
 
 **Congratulations, you just created your first pull request!**
 

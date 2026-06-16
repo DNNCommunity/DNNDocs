@@ -1,10 +1,10 @@
 ﻿using System.Collections.Immutable;
 using System.Composition;
 using System.Diagnostics;
+using Docfx.Common;
 using DNNCommunity.DNNDocs.Plugins.Models;
 using DNNCommunity.DNNDocs.Plugins.Providers;
 using Docfx.Plugins;
-using Octokit;
 
 namespace DNNCommunity.DNNDocs.Plugins
 {
@@ -17,95 +17,86 @@ namespace DNNCommunity.DNNDocs.Plugins
 
         public RepoStatsBuildStep()
         {
-            Console.WriteLine($"[plugin] {nameof(RepoStatsBuildStep)} loaded.");
+            Logger.LogInfo($"{nameof(RepoStatsBuildStep)} loaded.");
         }
 
         public void Build(FileModel model, IHostService host)
         {
         }
 
+        // IDocumentBuildStep.Postbuild is a synchronous interface contract; bridge to the async implementation.
         public void Postbuild(ImmutableList<FileModel> models, IHostService host)
-        {
+            => PostbuildAsync(models, host).GetAwaiter().GetResult();
 
+        private async Task PostbuildAsync(ImmutableList<FileModel> models, IHostService host)
+        {
             if (models == null || models.Count == 0)
             {
-                Console.WriteLine("[PLUGIN] No models to process.");
+                Logger.LogWarning($"{nameof(RepoStatsBuildStep)}: No models to process.");
                 return;
             }
 
-            Console.WriteLine($"[PLUGIN] {nameof(RepoStatsBuildStep)} Processing Repo Stats for {models.Count()} models");
+            var articleModels = models.Where(m => m.Type == DocumentType.Article).ToList();
+            Logger.LogInfo($"{nameof(RepoStatsBuildStep)}: Processing repo stats for {articleModels.Count} article models.");
 
             var gitHubApi = new GitHubApi();
-            var contributors = gitHubApi.GetContributorsAsync().GetAwaiter().GetResult();
-            Console.WriteLine($"Found {contributors.Count} contributors");
 
-            var commits = gitHubApi.GetCommitsAsync().GetAwaiter().GetResult();
+            List<Contributor> contributors;
 
-            // Order the commits by date
-            commits = commits.OrderByDescending(c => c.Commit.Author.Date).ToList();
-
-            Console.WriteLine($"Found {commits.Count} commits");
-
-            if (contributors.Any() && commits.Any())
+            try
             {
-                foreach (var model in models.Select((value, index) => new { value, index }))
+                var sw = Stopwatch.StartNew();
+                contributors = (await gitHubApi.GetContributorsAsync()).ToList();
+                Logger.LogInfo($"{nameof(RepoStatsBuildStep)}: Fetched {contributors.Count} contributors in {sw.Elapsed.TotalSeconds:F1}s.");
+            }
+            catch (Exception ex)
+            {
+                Logger.LogWarning($"{nameof(RepoStatsBuildStep)}: Failed to retrieve GitHub stats ({ex.Message}). Skipping contributor data for this build.");
+                return;
+            }
+
+            if (!contributors.Any())
+            {
+                return;
+            }
+
+            // Top contributors: most commits in the sampled window.
+            var topContributors = contributors.OrderByDescending(c => c.Total).Take(5).ToList();
+            Logger.LogInfo($"{nameof(RepoStatsBuildStep)}: Top contributors: {string.Join(", ", topContributors.Select(c => c.Login))}");
+
+            // Recent contributors: most recent commit date.
+            var recentContributors = contributors.OrderByDescending(c => c.LatestCommitDate).Take(5).ToList();
+            Logger.LogInfo($"{nameof(RepoStatsBuildStep)}: Recent contributors: {string.Join(", ", recentContributors.Select(c => c.Login))}");
+
+            var totalSw = Stopwatch.StartNew();
+            foreach (var item in articleModels.Select((value, index) => new { value, index }))
+            {
+                if ((item.index + 1) % 100 == 0 || item.index + 1 == articleModels.Count)
                 {
-                    Console.WriteLine($"Processing model {model.index + 1} of {models.Count}");
+                    Logger.LogInfo($"{nameof(RepoStatsBuildStep)}: Stamping model {item.index + 1}/{articleModels.Count} ({totalSw.Elapsed.TotalSeconds:F1}s elapsed).");
+                }
 
-                    if (model.value.Type == DocumentType.Article)
-                    {
-                        var content = (Dictionary<string, object>)model.value.Content;
-                        Console.WriteLine($"Processing Article : {model.value.OriginalFileAndType.FullPath}");
+                var content = (Dictionary<string, object>)item.value.Content;
 
-                        // Add top 5 contributors (or fewer if not enough)
-                        var topContributors = contributors = contributors.OrderByDescending(c => c.Total).ToList();
-                        for (var i = 0; i < Math.Min(5, topContributors.Count); i++)
-                        {
-                            var contributor = contributors[i];
-                            content[$"gitContributor{i + 1}Contributions"] = contributor.Total;
-                            content[$"gitContributor{i + 1}Login"] = contributor.Author.Login;
-                            content[$"gitContributor{i + 1}AvatarUrl"] = contributor.Author.AvatarUrl;
-                            content[$"gitContributor{i + 1}HtmlUrl"] = contributor.Author.HtmlUrl;
+                for (var i = 0; i < topContributors.Count; i++)
+                {
+                    var c = topContributors[i];
+                    content[$"gitContributor{i + 1}Contributions"] = c.Total;
+                    content[$"gitContributor{i + 1}Login"] = c.Login;
+                    content[$"gitContributor{i + 1}AvatarUrl"] = c.AvatarUrl;
+                    content[$"gitContributor{i + 1}HtmlUrl"] = c.HtmlUrl;
+                }
 
-                            Console.WriteLine($"Added contributor {i + 1}: {contributor.Author.Login}");
-                        }
-
-                        var recentContributors = new List<Octokit.Contributor>();
-                        var seen = new HashSet<string>();
-
-                        foreach (var commit in commits)
-                        {
-                            var login = commit.Author?.Login;
-                            if (login != null && seen.Add(login))
-                            {
-                                var contributor = contributors.FirstOrDefault(c => c.Author.Login == login);
-                                if (contributor != null)
-                                {
-                                    recentContributors.Add(contributor);
-                                }
-
-                                if (recentContributors.Count == 5)
-                                {
-                                    break;
-                                }
-                            }
-                        }
-
-                        Console.WriteLine($"Selected top {recentContributors.Count} recent contributors based on commits.");
-
-                        for (var i = 0; i < recentContributors.Count; i++)
-                        {
-                            var author = recentContributors[i].Author;
-
-                            content[$"gitRecentContributor{i + 1}Login"] = author.Login;
-                            content[$"gitRecentContributor{i + 1}AvatarUrl"] = author.AvatarUrl;
-                            content[$"gitRecentContributor{i + 1}HtmlUrl"] = author.HtmlUrl;
-
-                            Console.WriteLine($"Added recent contributor {i + 1}: {author.Login}");
-                        }
-                    }
+                for (var i = 0; i < recentContributors.Count; i++)
+                {
+                    var c = recentContributors[i];
+                    content[$"gitRecentContributor{i + 1}Login"] = c.Login;
+                    content[$"gitRecentContributor{i + 1}AvatarUrl"] = c.AvatarUrl;
+                    content[$"gitRecentContributor{i + 1}HtmlUrl"] = c.HtmlUrl;
                 }
             }
+
+            Logger.LogInfo($"{nameof(RepoStatsBuildStep)}: Finished stamping {articleModels.Count} models in {totalSw.Elapsed.TotalSeconds:F1}s.");
         }
 
         public IEnumerable<FileModel> Prebuild(ImmutableList<FileModel> models, IHostService host)

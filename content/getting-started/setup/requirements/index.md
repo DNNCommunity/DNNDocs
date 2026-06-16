@@ -50,13 +50,14 @@ DNN Platform requires a single Microsoft SQL Server database and supports all cu
 For creating extensions:
 
 *   Visual Studio 2022 (including Community Edition with latest updates)
+*   Visual Studio 2026 (including Community Edition with latest updates)
 
 > [!Note]
 > Starting with DNN 10.0.0, .NET Framework 4.8.0+ is required, however, it is still possible to use older versions of Visual Studio, and .NET Framework for extension development.  The minimum version for extension development is dependent upon the targeted DNN Minimum Version.
 
 For contributing to DNN Platform:
 
-*   Visual Studio 2022 (including Community Edition with latest updates)
+*   Visual Studio 2026 (including Community Edition with latest updates)
 *   Latest `dotnet SDK`
 *   Latest `node (LTS)`
 

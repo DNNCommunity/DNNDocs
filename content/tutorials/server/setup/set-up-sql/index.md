@@ -1,20 +1,20 @@
 ﻿---
 uid: set-up-sql
 locale: en
-title: Install and Set Up SQL
+title: Install and Set Up (Microsoft) SQL Server
 dnnversion: 09.02.00
 previous-topic: set-up-iis
 next-topic: run-installation-wizard
 links: ["[DNN Wiki: Setting up Your Module Development Environment](https://www.dnnsoftware.com/wiki/setting-up-your-module-development-environment)","[Setting up your DotNetNuke Module Development Environment by Chris Hammond](https://www.christoc.com/Tutorials/All-Tutorials/aid/1)","[DNN Community Blog: Installing DNN by Clinton Patterson](https://www.dnnsoftware.com/community-blog/cid/155070/installing-dnn)"]
 ---
 
-# Install and Set Up SQL
+# Install and Set Up (Microsoft) SQL Server
 
 ## Steps
 
-1.  Install SQL.
+1.  Install SQL Server.
 
-    1.  [Check compatible versions.](xfref:setup-requirements)
+    1.  [Check compatible versions.](xfref:setup-requirements) 
     2.  Choose New SQL Server stand-alone installation....
 
         ![New SQL Server stand-alone installation](/images/scr-InstallSQL-1.png)
@@ -26,7 +26,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](https://www.
         ![Database Engine Conf > Authentication Mode > Mixed Mode](/images/scr-InstallSQL-6.png)
 
     6.  Accept the defaults in remaining dialogs.
-2.  Create a SQL database for your website.
+2.  Create a database (within SQL Server) for your website.
 
     1.  Start the Microsoft SQL Server Management Studio app.
 
@@ -42,7 +42,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](https://www.
 
 <a name="tsk-set-up-sql__set-up-sql-user"></a>
 
-3.  Create a SQL user account.
+3.  Create a SQL Server user account.
     1.  Under Security, right-click on Logins, and choose New Login....
 
         ![Under Security, right-click Logins, choose New Login.](/images/scr-SetupSQL-4.png)
@@ -55,7 +55,7 @@ links: ["[DNN Wiki: Setting up Your Module Development Environment](https://www.
 
 <a name="tsk-set-up-sql__db-owner-access"></a>
 
-4.  Give the new SQL user **db_owner** access to the new database.
+4.  Give the new SQL Server user **db_owner** access to the new database.
 
     1.  In the Object Explorer panel, under your database \> Security, right-click on Users, and choose New User...
 

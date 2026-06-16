@@ -2,7 +2,50 @@
   <p>Learn more about DNN at these community events:</p>
   <ul class="events-list text-center">
       <li>
+          <a href="https://www.dnn-connect.org/" target="_blank">
+              <span><strong>DNN CONNECT</strong></span><br>
+              <img src="images/sidebar/2026-Dnn-Connect-Brussels-Belgium.png">
+          </a>
+          <span class="details">
+            Brussels, Belgium<br>
+            7-10 May, 2026
+          </span>
+      </li>
+      <li>
           <a href="https://www.dnnsummit.org/" target="_blank">
+              <span><strong>DNN SUMMIT</strong></span><br>
+              <img src="images/sidebar/2026-DNN-Summit-Virtual-TBD.png">
+          </a>
+          <span class="details">
+            Oct 2026 Virtual<br>
+            Event Announcing Soon!
+          </span>
+      </li>
+      <li>
+          <p><strong>DNN Online Meetups:</strong></p>
+          <a href="https://www.meetup.com/dnn-show-tell-meetup/" target="_blank">
+              <span><strong>DNN Show & Tell Meetup</strong></span><br>
+              <img src="images/sidebar/DNN-Show-and-Tell-Meetup-202605-zDeiTutNru.png">
+          </a>
+          <span class="details">
+            Online, Zoom session<br>
+            1st Tues of Every Month
+          </span>
+      </li>
+      <li>
+          <a href="https://www.meetup.com/Southern-Fried-DNN/" target="_blank">
+              <span><strong>Southern Fried DNN</strong></span><br>
+              <img src="images/sidebar/DNN-Southern-Fried-Meetup-2025.png">
+          </a>
+          <span class="details">
+            Online, Zoom session<br>
+            3rd Thurs, Monthly
+          </span>
+      </li>
+      <li>
+          <p><strong>Past Events:</strong></p>
+          <a href="https://www.dnnsummit.org/" target="_blank">
+              <span><strong>DNN SUMMIT</strong></span><br>
               <img src="images/sidebar/2025-Dnn-Summit-Vegas-j26zFozr9J.png">
           </a>
           <span class="details">
@@ -10,6 +53,7 @@
             Feb 3-4, 2025
           </span>
       </li>
+      <!--
       <li>
           <a href="http://www.southernfrieddnn.com/" target="_blank">
               <img src="images/southernfried-logo.jpg">
@@ -19,14 +63,5 @@
             3rd Thursday Every Month
           </span>
       </li>
-      <li>
-          <p><strong>Recent events:</strong></p>
-          <a href="https://www.dnn-connect.org/" target="_blank">
-              <img src="images/sidebar/2024-Dnn-Connect-Champery-bv93voa26j.png">
-          </a>
-          <span class="details">
-            Champery, Switzerland<br>
-            May 23-26, 2024
-          </span>
-      </li>
+      -->
   </ul>

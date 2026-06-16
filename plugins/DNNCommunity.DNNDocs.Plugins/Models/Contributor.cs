@@ -15,5 +15,11 @@ namespace DNNCommunity.DNNDocs.Plugins.Models
 
         [JsonProperty(PropertyName = "contributions")]
         public string Contributions { get; set; }
+
+        /// <summary>Number of commits by this author in the sampled window.</summary>
+        public int Total { get; set; }
+
+        /// <summary>Date of the most recent commit by this author.</summary>
+        public DateTimeOffset LatestCommitDate { get; set; }
     }
 }
