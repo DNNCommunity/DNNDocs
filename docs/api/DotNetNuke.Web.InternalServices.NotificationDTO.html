@@ -122,7 +122,8 @@
   <h6><strong>Assembly</strong>: DotNetNuke.Web.dll</h6>
   <h5 id="DotNetNuke_Web_InternalServices_NotificationDTO_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class NotificationDTO</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.3.3. Use NotificationRequest. Scheduled for removal in v12.0.0.&quot;)]
+public class NotificationDTO</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -159,6 +160,33 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="DotNetNuke_Web_InternalServices_NotificationDTO_ToNotificationRequest_" data-uid="DotNetNuke.Web.InternalServices.NotificationDTO.ToNotificationRequest*"></a>
+  <h4 id="DotNetNuke_Web_InternalServices_NotificationDTO_ToNotificationRequest" data-uid="DotNetNuke.Web.InternalServices.NotificationDTO.ToNotificationRequest">ToNotificationRequest()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NotificationRequest ToNotificationRequest()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Web.InternalServices.NotificationRequest.html">NotificationRequest</a></td>
         <td></td>
       </tr>
     </tbody>

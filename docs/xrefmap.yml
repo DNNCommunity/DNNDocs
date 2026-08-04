@@ -38104,6 +38104,18 @@ references:
   commentId: Overload:DotNetNuke.Common.Utilities.XmlUtils.SerializeHashtable
   fullName: DotNetNuke.Common.Utilities.XmlUtils.SerializeHashtable
   nameWithType: XmlUtils.SerializeHashtable
+- uid: DotNetNuke.Common.Utilities.XmlUtils.TryReadEndElement(System.Xml.XmlReader)
+  name: TryReadEndElement(XmlReader)
+  href: api/DotNetNuke.Common.Utilities.XmlUtils.html#DotNetNuke_Common_Utilities_XmlUtils_TryReadEndElement_System_Xml_XmlReader_
+  commentId: M:DotNetNuke.Common.Utilities.XmlUtils.TryReadEndElement(System.Xml.XmlReader)
+  fullName: DotNetNuke.Common.Utilities.XmlUtils.TryReadEndElement(System.Xml.XmlReader)
+  nameWithType: XmlUtils.TryReadEndElement(XmlReader)
+- uid: DotNetNuke.Common.Utilities.XmlUtils.TryReadEndElement*
+  name: TryReadEndElement
+  href: api/DotNetNuke.Common.Utilities.XmlUtils.html#DotNetNuke_Common_Utilities_XmlUtils_TryReadEndElement_
+  commentId: Overload:DotNetNuke.Common.Utilities.XmlUtils.TryReadEndElement
+  fullName: DotNetNuke.Common.Utilities.XmlUtils.TryReadEndElement
+  nameWithType: XmlUtils.TryReadEndElement
 - uid: DotNetNuke.Common.Utilities.XmlUtils.UpdateAttribute(System.Xml.XmlNode,System.String,System.String)
   name: UpdateAttribute(XmlNode, string, string)
   href: api/DotNetNuke.Common.Utilities.XmlUtils.html#DotNetNuke_Common_Utilities_XmlUtils_UpdateAttribute_System_Xml_XmlNode_System_String_System_String_
@@ -76341,6 +76353,18 @@ references:
   commentId: Overload:DotNetNuke.Entities.Portals.PortalSettings.AdministratorRoleName
   fullName: DotNetNuke.Entities.Portals.PortalSettings.AdministratorRoleName
   nameWithType: PortalSettings.AdministratorRoleName
+- uid: DotNetNuke.Entities.Portals.PortalSettings.AllowJsInHtmlModule
+  name: AllowJsInHtmlModule
+  href: api/DotNetNuke.Entities.Portals.PortalSettings.html#DotNetNuke_Entities_Portals_PortalSettings_AllowJsInHtmlModule
+  commentId: P:DotNetNuke.Entities.Portals.PortalSettings.AllowJsInHtmlModule
+  fullName: DotNetNuke.Entities.Portals.PortalSettings.AllowJsInHtmlModule
+  nameWithType: PortalSettings.AllowJsInHtmlModule
+- uid: DotNetNuke.Entities.Portals.PortalSettings.AllowJsInHtmlModule*
+  name: AllowJsInHtmlModule
+  href: api/DotNetNuke.Entities.Portals.PortalSettings.html#DotNetNuke_Entities_Portals_PortalSettings_AllowJsInHtmlModule_
+  commentId: Overload:DotNetNuke.Entities.Portals.PortalSettings.AllowJsInHtmlModule
+  fullName: DotNetNuke.Entities.Portals.PortalSettings.AllowJsInHtmlModule
+  nameWithType: PortalSettings.AllowJsInHtmlModule
 - uid: DotNetNuke.Entities.Portals.PortalSettings.AllowJsInModuleFooters
   name: AllowJsInModuleFooters
   href: api/DotNetNuke.Entities.Portals.PortalSettings.html#DotNetNuke_Entities_Portals_PortalSettings_AllowJsInModuleFooters
@@ -206760,6 +206784,12 @@ references:
   commentId: M:DotNetNuke.Web.InternalServices.ContentWorkflowServiceController.Approve(DotNetNuke.Web.InternalServices.NotificationDTO)
   fullName: DotNetNuke.Web.InternalServices.ContentWorkflowServiceController.Approve(DotNetNuke.Web.InternalServices.NotificationDTO)
   nameWithType: ContentWorkflowServiceController.Approve(NotificationDTO)
+- uid: DotNetNuke.Web.InternalServices.ContentWorkflowServiceController.Approve(DotNetNuke.Web.InternalServices.NotificationRequest)
+  name: Approve(NotificationRequest)
+  href: api/DotNetNuke.Web.InternalServices.ContentWorkflowServiceController.html#DotNetNuke_Web_InternalServices_ContentWorkflowServiceController_Approve_DotNetNuke_Web_InternalServices_NotificationRequest_
+  commentId: M:DotNetNuke.Web.InternalServices.ContentWorkflowServiceController.Approve(DotNetNuke.Web.InternalServices.NotificationRequest)
+  fullName: DotNetNuke.Web.InternalServices.ContentWorkflowServiceController.Approve(DotNetNuke.Web.InternalServices.NotificationRequest)
+  nameWithType: ContentWorkflowServiceController.Approve(NotificationRequest)
 - uid: DotNetNuke.Web.InternalServices.ContentWorkflowServiceController.Approve*
   name: Approve
   href: api/DotNetNuke.Web.InternalServices.ContentWorkflowServiceController.html#DotNetNuke_Web_InternalServices_ContentWorkflowServiceController_Approve_
@@ -206820,6 +206850,12 @@ references:
   commentId: M:DotNetNuke.Web.InternalServices.ContentWorkflowServiceController.Reject(DotNetNuke.Web.InternalServices.NotificationDTO)
   fullName: DotNetNuke.Web.InternalServices.ContentWorkflowServiceController.Reject(DotNetNuke.Web.InternalServices.NotificationDTO)
   nameWithType: ContentWorkflowServiceController.Reject(NotificationDTO)
+- uid: DotNetNuke.Web.InternalServices.ContentWorkflowServiceController.Reject(DotNetNuke.Web.InternalServices.NotificationRequest)
+  name: Reject(NotificationRequest)
+  href: api/DotNetNuke.Web.InternalServices.ContentWorkflowServiceController.html#DotNetNuke_Web_InternalServices_ContentWorkflowServiceController_Reject_DotNetNuke_Web_InternalServices_NotificationRequest_
+  commentId: M:DotNetNuke.Web.InternalServices.ContentWorkflowServiceController.Reject(DotNetNuke.Web.InternalServices.NotificationRequest)
+  fullName: DotNetNuke.Web.InternalServices.ContentWorkflowServiceController.Reject(DotNetNuke.Web.InternalServices.NotificationRequest)
+  nameWithType: ContentWorkflowServiceController.Reject(NotificationRequest)
 - uid: DotNetNuke.Web.InternalServices.ContentWorkflowServiceController.Reject*
   name: Reject
   href: api/DotNetNuke.Web.InternalServices.ContentWorkflowServiceController.html#DotNetNuke_Web_InternalServices_ContentWorkflowServiceController_Reject_
@@ -209079,6 +209115,12 @@ references:
   commentId: M:DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.Authorize(DotNetNuke.Web.InternalServices.NotificationDTO)
   fullName: DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.Authorize(DotNetNuke.Web.InternalServices.NotificationDTO)
   nameWithType: NewUserNotificationServiceController.Authorize(NotificationDTO)
+- uid: DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.Authorize(DotNetNuke.Web.InternalServices.NotificationRequest)
+  name: Authorize(NotificationRequest)
+  href: api/DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.html#DotNetNuke_Web_InternalServices_NewUserNotificationServiceController_Authorize_DotNetNuke_Web_InternalServices_NotificationRequest_
+  commentId: M:DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.Authorize(DotNetNuke.Web.InternalServices.NotificationRequest)
+  fullName: DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.Authorize(DotNetNuke.Web.InternalServices.NotificationRequest)
+  nameWithType: NewUserNotificationServiceController.Authorize(NotificationRequest)
 - uid: DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.Authorize*
   name: Authorize
   href: api/DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.html#DotNetNuke_Web_InternalServices_NewUserNotificationServiceController_Authorize_
@@ -209091,6 +209133,12 @@ references:
   commentId: M:DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.Reject(DotNetNuke.Web.InternalServices.NotificationDTO)
   fullName: DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.Reject(DotNetNuke.Web.InternalServices.NotificationDTO)
   nameWithType: NewUserNotificationServiceController.Reject(NotificationDTO)
+- uid: DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.Reject(DotNetNuke.Web.InternalServices.NotificationRequest)
+  name: Reject(NotificationRequest)
+  href: api/DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.html#DotNetNuke_Web_InternalServices_NewUserNotificationServiceController_Reject_DotNetNuke_Web_InternalServices_NotificationRequest_
+  commentId: M:DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.Reject(DotNetNuke.Web.InternalServices.NotificationRequest)
+  fullName: DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.Reject(DotNetNuke.Web.InternalServices.NotificationRequest)
+  nameWithType: NewUserNotificationServiceController.Reject(NotificationRequest)
 - uid: DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.Reject*
   name: Reject
   href: api/DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.html#DotNetNuke_Web_InternalServices_NewUserNotificationServiceController_Reject_
@@ -209103,6 +209151,12 @@ references:
   commentId: M:DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.SendVerificationMail(DotNetNuke.Web.InternalServices.NotificationDTO)
   fullName: DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.SendVerificationMail(DotNetNuke.Web.InternalServices.NotificationDTO)
   nameWithType: NewUserNotificationServiceController.SendVerificationMail(NotificationDTO)
+- uid: DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.SendVerificationMail(DotNetNuke.Web.InternalServices.NotificationRequest)
+  name: SendVerificationMail(NotificationRequest)
+  href: api/DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.html#DotNetNuke_Web_InternalServices_NewUserNotificationServiceController_SendVerificationMail_DotNetNuke_Web_InternalServices_NotificationRequest_
+  commentId: M:DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.SendVerificationMail(DotNetNuke.Web.InternalServices.NotificationRequest)
+  fullName: DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.SendVerificationMail(DotNetNuke.Web.InternalServices.NotificationRequest)
+  nameWithType: NewUserNotificationServiceController.SendVerificationMail(NotificationRequest)
 - uid: DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.SendVerificationMail*
   name: SendVerificationMail
   href: api/DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.html#DotNetNuke_Web_InternalServices_NewUserNotificationServiceController_SendVerificationMail_
@@ -209145,6 +209199,54 @@ references:
   commentId: Overload:DotNetNuke.Web.InternalServices.NotificationDTO.NotificationId
   fullName: DotNetNuke.Web.InternalServices.NotificationDTO.NotificationId
   nameWithType: NotificationDTO.NotificationId
+- uid: DotNetNuke.Web.InternalServices.NotificationDTO.ToNotificationRequest
+  name: ToNotificationRequest()
+  href: api/DotNetNuke.Web.InternalServices.NotificationDTO.html#DotNetNuke_Web_InternalServices_NotificationDTO_ToNotificationRequest
+  commentId: M:DotNetNuke.Web.InternalServices.NotificationDTO.ToNotificationRequest
+  fullName: DotNetNuke.Web.InternalServices.NotificationDTO.ToNotificationRequest()
+  nameWithType: NotificationDTO.ToNotificationRequest()
+- uid: DotNetNuke.Web.InternalServices.NotificationDTO.ToNotificationRequest*
+  name: ToNotificationRequest
+  href: api/DotNetNuke.Web.InternalServices.NotificationDTO.html#DotNetNuke_Web_InternalServices_NotificationDTO_ToNotificationRequest_
+  commentId: Overload:DotNetNuke.Web.InternalServices.NotificationDTO.ToNotificationRequest
+  fullName: DotNetNuke.Web.InternalServices.NotificationDTO.ToNotificationRequest
+  nameWithType: NotificationDTO.ToNotificationRequest
+- uid: DotNetNuke.Web.InternalServices.NotificationRequest
+  name: NotificationRequest
+  href: api/DotNetNuke.Web.InternalServices.NotificationRequest.html
+  commentId: T:DotNetNuke.Web.InternalServices.NotificationRequest
+  fullName: DotNetNuke.Web.InternalServices.NotificationRequest
+  nameWithType: NotificationRequest
+- uid: DotNetNuke.Web.InternalServices.NotificationRequest.#ctor
+  name: NotificationRequest()
+  href: api/DotNetNuke.Web.InternalServices.NotificationRequest.html#DotNetNuke_Web_InternalServices_NotificationRequest__ctor
+  commentId: M:DotNetNuke.Web.InternalServices.NotificationRequest.#ctor
+  name.vb: New()
+  fullName: DotNetNuke.Web.InternalServices.NotificationRequest.NotificationRequest()
+  fullName.vb: DotNetNuke.Web.InternalServices.NotificationRequest.New()
+  nameWithType: NotificationRequest.NotificationRequest()
+  nameWithType.vb: NotificationRequest.New()
+- uid: DotNetNuke.Web.InternalServices.NotificationRequest.#ctor*
+  name: NotificationRequest
+  href: api/DotNetNuke.Web.InternalServices.NotificationRequest.html#DotNetNuke_Web_InternalServices_NotificationRequest__ctor_
+  commentId: Overload:DotNetNuke.Web.InternalServices.NotificationRequest.#ctor
+  name.vb: New
+  fullName: DotNetNuke.Web.InternalServices.NotificationRequest.NotificationRequest
+  fullName.vb: DotNetNuke.Web.InternalServices.NotificationRequest.New
+  nameWithType: NotificationRequest.NotificationRequest
+  nameWithType.vb: NotificationRequest.New
+- uid: DotNetNuke.Web.InternalServices.NotificationRequest.NotificationId
+  name: NotificationId
+  href: api/DotNetNuke.Web.InternalServices.NotificationRequest.html#DotNetNuke_Web_InternalServices_NotificationRequest_NotificationId
+  commentId: P:DotNetNuke.Web.InternalServices.NotificationRequest.NotificationId
+  fullName: DotNetNuke.Web.InternalServices.NotificationRequest.NotificationId
+  nameWithType: NotificationRequest.NotificationId
+- uid: DotNetNuke.Web.InternalServices.NotificationRequest.NotificationId*
+  name: NotificationId
+  href: api/DotNetNuke.Web.InternalServices.NotificationRequest.html#DotNetNuke_Web_InternalServices_NotificationRequest_NotificationId_
+  commentId: Overload:DotNetNuke.Web.InternalServices.NotificationRequest.NotificationId
+  fullName: DotNetNuke.Web.InternalServices.NotificationRequest.NotificationId
+  nameWithType: NotificationRequest.NotificationId
 - uid: DotNetNuke.Web.InternalServices.NotificationsServiceController
   name: NotificationsServiceController
   href: api/DotNetNuke.Web.InternalServices.NotificationsServiceController.html
@@ -209175,6 +209277,12 @@ references:
   commentId: M:DotNetNuke.Web.InternalServices.NotificationsServiceController.Dismiss(DotNetNuke.Web.InternalServices.NotificationDTO)
   fullName: DotNetNuke.Web.InternalServices.NotificationsServiceController.Dismiss(DotNetNuke.Web.InternalServices.NotificationDTO)
   nameWithType: NotificationsServiceController.Dismiss(NotificationDTO)
+- uid: DotNetNuke.Web.InternalServices.NotificationsServiceController.Dismiss(DotNetNuke.Web.InternalServices.NotificationRequest)
+  name: Dismiss(NotificationRequest)
+  href: api/DotNetNuke.Web.InternalServices.NotificationsServiceController.html#DotNetNuke_Web_InternalServices_NotificationsServiceController_Dismiss_DotNetNuke_Web_InternalServices_NotificationRequest_
+  commentId: M:DotNetNuke.Web.InternalServices.NotificationsServiceController.Dismiss(DotNetNuke.Web.InternalServices.NotificationRequest)
+  fullName: DotNetNuke.Web.InternalServices.NotificationsServiceController.Dismiss(DotNetNuke.Web.InternalServices.NotificationRequest)
+  nameWithType: NotificationsServiceController.Dismiss(NotificationRequest)
 - uid: DotNetNuke.Web.InternalServices.NotificationsServiceController.Dismiss*
   name: Dismiss
   href: api/DotNetNuke.Web.InternalServices.NotificationsServiceController.html#DotNetNuke_Web_InternalServices_NotificationsServiceController_Dismiss_
@@ -209244,6 +209352,12 @@ references:
   commentId: M:DotNetNuke.Web.InternalServices.PageServiceController.PublishPage(DotNetNuke.Web.InternalServices.PublishPageDto)
   fullName: DotNetNuke.Web.InternalServices.PageServiceController.PublishPage(DotNetNuke.Web.InternalServices.PublishPageDto)
   nameWithType: PageServiceController.PublishPage(PublishPageDto)
+- uid: DotNetNuke.Web.InternalServices.PageServiceController.PublishPage(DotNetNuke.Web.InternalServices.PublishPageRequest)
+  name: PublishPage(PublishPageRequest)
+  href: api/DotNetNuke.Web.InternalServices.PageServiceController.html#DotNetNuke_Web_InternalServices_PageServiceController_PublishPage_DotNetNuke_Web_InternalServices_PublishPageRequest_
+  commentId: M:DotNetNuke.Web.InternalServices.PageServiceController.PublishPage(DotNetNuke.Web.InternalServices.PublishPageRequest)
+  fullName: DotNetNuke.Web.InternalServices.PageServiceController.PublishPage(DotNetNuke.Web.InternalServices.PublishPageRequest)
+  nameWithType: PageServiceController.PublishPage(PublishPageRequest)
 - uid: DotNetNuke.Web.InternalServices.PageServiceController.PublishPage*
   name: PublishPage
   href: api/DotNetNuke.Web.InternalServices.PageServiceController.html#DotNetNuke_Web_InternalServices_PageServiceController_PublishPage_
@@ -209424,6 +209538,54 @@ references:
   commentId: Overload:DotNetNuke.Web.InternalServices.PublishPageDto.Publish
   fullName: DotNetNuke.Web.InternalServices.PublishPageDto.Publish
   nameWithType: PublishPageDto.Publish
+- uid: DotNetNuke.Web.InternalServices.PublishPageDto.ToPublishPageRequest
+  name: ToPublishPageRequest()
+  href: api/DotNetNuke.Web.InternalServices.PublishPageDto.html#DotNetNuke_Web_InternalServices_PublishPageDto_ToPublishPageRequest
+  commentId: M:DotNetNuke.Web.InternalServices.PublishPageDto.ToPublishPageRequest
+  fullName: DotNetNuke.Web.InternalServices.PublishPageDto.ToPublishPageRequest()
+  nameWithType: PublishPageDto.ToPublishPageRequest()
+- uid: DotNetNuke.Web.InternalServices.PublishPageDto.ToPublishPageRequest*
+  name: ToPublishPageRequest
+  href: api/DotNetNuke.Web.InternalServices.PublishPageDto.html#DotNetNuke_Web_InternalServices_PublishPageDto_ToPublishPageRequest_
+  commentId: Overload:DotNetNuke.Web.InternalServices.PublishPageDto.ToPublishPageRequest
+  fullName: DotNetNuke.Web.InternalServices.PublishPageDto.ToPublishPageRequest
+  nameWithType: PublishPageDto.ToPublishPageRequest
+- uid: DotNetNuke.Web.InternalServices.PublishPageRequest
+  name: PublishPageRequest
+  href: api/DotNetNuke.Web.InternalServices.PublishPageRequest.html
+  commentId: T:DotNetNuke.Web.InternalServices.PublishPageRequest
+  fullName: DotNetNuke.Web.InternalServices.PublishPageRequest
+  nameWithType: PublishPageRequest
+- uid: DotNetNuke.Web.InternalServices.PublishPageRequest.#ctor
+  name: PublishPageRequest()
+  href: api/DotNetNuke.Web.InternalServices.PublishPageRequest.html#DotNetNuke_Web_InternalServices_PublishPageRequest__ctor
+  commentId: M:DotNetNuke.Web.InternalServices.PublishPageRequest.#ctor
+  name.vb: New()
+  fullName: DotNetNuke.Web.InternalServices.PublishPageRequest.PublishPageRequest()
+  fullName.vb: DotNetNuke.Web.InternalServices.PublishPageRequest.New()
+  nameWithType: PublishPageRequest.PublishPageRequest()
+  nameWithType.vb: PublishPageRequest.New()
+- uid: DotNetNuke.Web.InternalServices.PublishPageRequest.#ctor*
+  name: PublishPageRequest
+  href: api/DotNetNuke.Web.InternalServices.PublishPageRequest.html#DotNetNuke_Web_InternalServices_PublishPageRequest__ctor_
+  commentId: Overload:DotNetNuke.Web.InternalServices.PublishPageRequest.#ctor
+  name.vb: New
+  fullName: DotNetNuke.Web.InternalServices.PublishPageRequest.PublishPageRequest
+  fullName.vb: DotNetNuke.Web.InternalServices.PublishPageRequest.New
+  nameWithType: PublishPageRequest.PublishPageRequest
+  nameWithType.vb: PublishPageRequest.New
+- uid: DotNetNuke.Web.InternalServices.PublishPageRequest.Publish
+  name: Publish
+  href: api/DotNetNuke.Web.InternalServices.PublishPageRequest.html#DotNetNuke_Web_InternalServices_PublishPageRequest_Publish
+  commentId: P:DotNetNuke.Web.InternalServices.PublishPageRequest.Publish
+  fullName: DotNetNuke.Web.InternalServices.PublishPageRequest.Publish
+  nameWithType: PublishPageRequest.Publish
+- uid: DotNetNuke.Web.InternalServices.PublishPageRequest.Publish*
+  name: Publish
+  href: api/DotNetNuke.Web.InternalServices.PublishPageRequest.html#DotNetNuke_Web_InternalServices_PublishPageRequest_Publish_
+  commentId: Overload:DotNetNuke.Web.InternalServices.PublishPageRequest.Publish
+  fullName: DotNetNuke.Web.InternalServices.PublishPageRequest.Publish
+  nameWithType: PublishPageRequest.Publish
 - uid: DotNetNuke.Web.InternalServices.RelationshipServiceController
   name: RelationshipServiceController
   href: api/DotNetNuke.Web.InternalServices.RelationshipServiceController.html
@@ -209463,6 +209625,12 @@ references:
   commentId: M:DotNetNuke.Web.InternalServices.RelationshipServiceController.AcceptFriend(DotNetNuke.Web.InternalServices.NotificationDTO)
   fullName: DotNetNuke.Web.InternalServices.RelationshipServiceController.AcceptFriend(DotNetNuke.Web.InternalServices.NotificationDTO)
   nameWithType: RelationshipServiceController.AcceptFriend(NotificationDTO)
+- uid: DotNetNuke.Web.InternalServices.RelationshipServiceController.AcceptFriend(DotNetNuke.Web.InternalServices.NotificationRequest)
+  name: AcceptFriend(NotificationRequest)
+  href: api/DotNetNuke.Web.InternalServices.RelationshipServiceController.html#DotNetNuke_Web_InternalServices_RelationshipServiceController_AcceptFriend_DotNetNuke_Web_InternalServices_NotificationRequest_
+  commentId: M:DotNetNuke.Web.InternalServices.RelationshipServiceController.AcceptFriend(DotNetNuke.Web.InternalServices.NotificationRequest)
+  fullName: DotNetNuke.Web.InternalServices.RelationshipServiceController.AcceptFriend(DotNetNuke.Web.InternalServices.NotificationRequest)
+  nameWithType: RelationshipServiceController.AcceptFriend(NotificationRequest)
 - uid: DotNetNuke.Web.InternalServices.RelationshipServiceController.AcceptFriend*
   name: AcceptFriend
   href: api/DotNetNuke.Web.InternalServices.RelationshipServiceController.html#DotNetNuke_Web_InternalServices_RelationshipServiceController_AcceptFriend_
@@ -209475,6 +209643,12 @@ references:
   commentId: M:DotNetNuke.Web.InternalServices.RelationshipServiceController.FollowBack(DotNetNuke.Web.InternalServices.NotificationDTO)
   fullName: DotNetNuke.Web.InternalServices.RelationshipServiceController.FollowBack(DotNetNuke.Web.InternalServices.NotificationDTO)
   nameWithType: RelationshipServiceController.FollowBack(NotificationDTO)
+- uid: DotNetNuke.Web.InternalServices.RelationshipServiceController.FollowBack(DotNetNuke.Web.InternalServices.NotificationRequest)
+  name: FollowBack(NotificationRequest)
+  href: api/DotNetNuke.Web.InternalServices.RelationshipServiceController.html#DotNetNuke_Web_InternalServices_RelationshipServiceController_FollowBack_DotNetNuke_Web_InternalServices_NotificationRequest_
+  commentId: M:DotNetNuke.Web.InternalServices.RelationshipServiceController.FollowBack(DotNetNuke.Web.InternalServices.NotificationRequest)
+  fullName: DotNetNuke.Web.InternalServices.RelationshipServiceController.FollowBack(DotNetNuke.Web.InternalServices.NotificationRequest)
+  nameWithType: RelationshipServiceController.FollowBack(NotificationRequest)
 - uid: DotNetNuke.Web.InternalServices.RelationshipServiceController.FollowBack*
   name: FollowBack
   href: api/DotNetNuke.Web.InternalServices.RelationshipServiceController.html#DotNetNuke_Web_InternalServices_RelationshipServiceController_FollowBack_
@@ -212395,6 +212569,15 @@ references:
   fullName.vb: DotNetNuke.Web.Mvc.Framework.Modules.ModuleApplication.New(Boolean)
   nameWithType: ModuleApplication.ModuleApplication(bool)
   nameWithType.vb: ModuleApplication.New(Boolean)
+- uid: DotNetNuke.Web.Mvc.Framework.Modules.ModuleApplication.#ctor(System.Web.Routing.RequestContext)
+  name: ModuleApplication(RequestContext)
+  href: api/DotNetNuke.Web.Mvc.Framework.Modules.ModuleApplication.html#DotNetNuke_Web_Mvc_Framework_Modules_ModuleApplication__ctor_System_Web_Routing_RequestContext_
+  commentId: M:DotNetNuke.Web.Mvc.Framework.Modules.ModuleApplication.#ctor(System.Web.Routing.RequestContext)
+  name.vb: New(RequestContext)
+  fullName: DotNetNuke.Web.Mvc.Framework.Modules.ModuleApplication.ModuleApplication(System.Web.Routing.RequestContext)
+  fullName.vb: DotNetNuke.Web.Mvc.Framework.Modules.ModuleApplication.New(System.Web.Routing.RequestContext)
+  nameWithType: ModuleApplication.ModuleApplication(RequestContext)
+  nameWithType.vb: ModuleApplication.New(RequestContext)
 - uid: DotNetNuke.Web.Mvc.Framework.Modules.ModuleApplication.#ctor(System.Web.Routing.RequestContext,System.Boolean)
   name: ModuleApplication(RequestContext, bool)
   href: api/DotNetNuke.Web.Mvc.Framework.Modules.ModuleApplication.html#DotNetNuke_Web_Mvc_Framework_Modules_ModuleApplication__ctor_System_Web_Routing_RequestContext_System_Boolean_

@@ -26929,6 +26929,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.InternalServices.NotificationRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.InternalServices.NotificationRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.InternalServices.NotificationRequest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DotNetNuke.Web.InternalServices.NotificationsServiceController.yml",
       "output": {
         ".html": {
@@ -26995,6 +27009,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "DotNetNuke.Web.InternalServices.PublishPageDto",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetNuke.Web.InternalServices.PublishPageRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetNuke.Web.InternalServices.PublishPageRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "DotNetNuke.Web.InternalServices.PublishPageRequest",
       "Summary": null
     },
     {

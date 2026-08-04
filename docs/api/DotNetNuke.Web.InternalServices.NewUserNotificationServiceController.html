@@ -247,7 +247,7 @@ public NewUserNotificationServiceController(RoleProvider roleProvider, IRoleCont
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ValidateAntiForgeryToken]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.3.3. Use overload taking NotificationRequest. Scheduled for removal in v12.0.0.&quot;)]
 public HttpResponseMessage Authorize(NotificationDTO postData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -284,13 +284,56 @@ public HttpResponseMessage Authorize(NotificationDTO postData)</code></pre>
   </table>
 
 
+  <a id="DotNetNuke_Web_InternalServices_NewUserNotificationServiceController_Authorize_" data-uid="DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.Authorize*"></a>
+  <h4 id="DotNetNuke_Web_InternalServices_NewUserNotificationServiceController_Authorize_DotNetNuke_Web_InternalServices_NotificationRequest_" data-uid="DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.Authorize(DotNetNuke.Web.InternalServices.NotificationRequest)">Authorize(NotificationRequest)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ValidateAntiForgeryToken]
+public HttpResponseMessage Authorize(NotificationRequest requestBody)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Web.InternalServices.NotificationRequest.html">NotificationRequest</a></td>
+        <td><span class="parametername">requestBody</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage">HttpResponseMessage</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Web_InternalServices_NewUserNotificationServiceController_Reject_" data-uid="DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.Reject*"></a>
   <h4 id="DotNetNuke_Web_InternalServices_NewUserNotificationServiceController_Reject_DotNetNuke_Web_InternalServices_NotificationDTO_" data-uid="DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.Reject(DotNetNuke.Web.InternalServices.NotificationDTO)">Reject(NotificationDTO)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ValidateAntiForgeryToken]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.3.3. Use overload taking NotificationRequest. Scheduled for removal in v12.0.0.&quot;)]
 public HttpResponseMessage Reject(NotificationDTO postData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -327,14 +370,56 @@ public HttpResponseMessage Reject(NotificationDTO postData)</code></pre>
   </table>
 
 
+  <a id="DotNetNuke_Web_InternalServices_NewUserNotificationServiceController_Reject_" data-uid="DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.Reject*"></a>
+  <h4 id="DotNetNuke_Web_InternalServices_NewUserNotificationServiceController_Reject_DotNetNuke_Web_InternalServices_NotificationRequest_" data-uid="DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.Reject(DotNetNuke.Web.InternalServices.NotificationRequest)">Reject(NotificationRequest)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ValidateAntiForgeryToken]
+public HttpResponseMessage Reject(NotificationRequest requestBody)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Web.InternalServices.NotificationRequest.html">NotificationRequest</a></td>
+        <td><span class="parametername">requestBody</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage">HttpResponseMessage</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="DotNetNuke_Web_InternalServices_NewUserNotificationServiceController_SendVerificationMail_" data-uid="DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.SendVerificationMail*"></a>
   <h4 id="DotNetNuke_Web_InternalServices_NewUserNotificationServiceController_SendVerificationMail_DotNetNuke_Web_InternalServices_NotificationDTO_" data-uid="DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.SendVerificationMail(DotNetNuke.Web.InternalServices.NotificationDTO)">SendVerificationMail(NotificationDTO)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DnnAuthorize]
-[ValidateAntiForgeryToken]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.3.3. Use overload taking NotificationRequest. Scheduled for removal in v12.0.0.&quot;)]
 public HttpResponseMessage SendVerificationMail(NotificationDTO postData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -350,6 +435,50 @@ public HttpResponseMessage SendVerificationMail(NotificationDTO postData)</code>
       <tr>
         <td><a class="xref" href="DotNetNuke.Web.InternalServices.NotificationDTO.html">NotificationDTO</a></td>
         <td><span class="parametername">postData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage">HttpResponseMessage</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Web_InternalServices_NewUserNotificationServiceController_SendVerificationMail_" data-uid="DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.SendVerificationMail*"></a>
+  <h4 id="DotNetNuke_Web_InternalServices_NewUserNotificationServiceController_SendVerificationMail_DotNetNuke_Web_InternalServices_NotificationRequest_" data-uid="DotNetNuke.Web.InternalServices.NewUserNotificationServiceController.SendVerificationMail(DotNetNuke.Web.InternalServices.NotificationRequest)">SendVerificationMail(NotificationRequest)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DnnAuthorize]
+[ValidateAntiForgeryToken]
+public HttpResponseMessage SendVerificationMail(NotificationRequest requestBody)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Web.InternalServices.NotificationRequest.html">NotificationRequest</a></td>
+        <td><span class="parametername">requestBody</span></td>
         <td></td>
       </tr>
     </tbody>

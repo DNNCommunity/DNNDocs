@@ -202,7 +202,8 @@ public PageServiceController()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ValidateAntiForgeryToken]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Deprecated in DotNetNuke 10.3.3. Use overload taking PublishPageRequest. Scheduled for removal in v12.0.0.&quot;)]
+[ValidateAntiForgeryToken]
 [DnnPagePermission]
 public HttpResponseMessage PublishPage(PublishPageDto dto)</code></pre>
   </div>
@@ -219,6 +220,50 @@ public HttpResponseMessage PublishPage(PublishPageDto dto)</code></pre>
       <tr>
         <td><a class="xref" href="DotNetNuke.Web.InternalServices.PublishPageDto.html">PublishPageDto</a></td>
         <td><span class="parametername">dto</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage">HttpResponseMessage</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="DotNetNuke_Web_InternalServices_PageServiceController_PublishPage_" data-uid="DotNetNuke.Web.InternalServices.PageServiceController.PublishPage*"></a>
+  <h4 id="DotNetNuke_Web_InternalServices_PageServiceController_PublishPage_DotNetNuke_Web_InternalServices_PublishPageRequest_" data-uid="DotNetNuke.Web.InternalServices.PageServiceController.PublishPage(DotNetNuke.Web.InternalServices.PublishPageRequest)">PublishPage(PublishPageRequest)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ValidateAntiForgeryToken]
+[DnnPagePermission]
+public HttpResponseMessage PublishPage(PublishPageRequest requestBody)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNetNuke.Web.InternalServices.PublishPageRequest.html">PublishPageRequest</a></td>
+        <td><span class="parametername">requestBody</span></td>
         <td></td>
       </tr>
     </tbody>
