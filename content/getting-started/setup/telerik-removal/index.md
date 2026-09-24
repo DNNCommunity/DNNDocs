@@ -98,5 +98,5 @@ In the folder '\App_Data\ExtensionPackages', remove all packages starting with:
 `RadEditorProvider*`  
 `DNNSecurityHotFix*`
 
-### Step 18
+### Step 19
 Test all third-party modules to make sure they still work without Telerik.  If any do not work properly, please contact the developer/vendor for further guidance.
